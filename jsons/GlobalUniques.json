@@ -25,6 +25,12 @@
 	"[+20]% Yield from pillaging tiles <during the [Imperial Age]>",
 	"[+40]% Yield from pillaging tiles <during the [Archaic Age]>",
 
+//Units
+
+ "[+50]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
+    "[-1 Happiness] [in all cities] <when [King]> <upon being defeated> <for [5] turns> <(modified by game speed)>",
+	"Rebel units may spawn <with [100]% chance> <when [King]> <upon being defeated>",
+
 //Cities
 	"[-40]% Strength for cities <when attacking>",
 	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
@@ -80,7 +86,6 @@
 	"[+15]% unhappiness from the number of cities <in cities with between [21] and [30] [Population]>",
 	"[+20]% unhappiness from the number of cities <in cities with between [31] and [9999] [Population]>",
 
-	"[-1 Happiness] per [8] population [in all cities]",
 
 	"[-1 Happiness] [in this city] <in cities with between [10] and [15] [Population]>",
 	"[-2 Happiness] [in this city] <in cities with between [16] and [20] [Population]>",

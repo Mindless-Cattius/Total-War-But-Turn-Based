@@ -1,0 +1,2048 @@
+[
+    {
+        "name": "Celtic Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>",
+                    "Only available <after adopting [Celtic Culture]> <hidden from users>",
+                    "Gain a free [Hill Fort] [in capital]",
+                    "[1] free [Great Scholar] units appear",
+                    "[+1 Happiness] [in capital]",
+        ],
+        "policies": [
+            {
+                "name": "The Forest Tribes",
+                "uniques": [
+                    "[+10]% Strength <for [Spearman] units> <when fighting in [Forest] tiles>",
+                    "[+15]% Strength <for [Skirmisher] units> <when fighting in [Forest] tiles>",
+                    "[+1 Production] from every [Camp]",
+                    "[3] free [Spearman] units appear",
+                    "Provides [6] [Manpower]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Ambushers",
+                "uniques": [
+                    "[Skirmisher] units gain the [Ambush I] promotion",
+                    "[Slinger] units gain the [Ambush I] promotion",
+                    "[Spearman] units gain the [Ambush I] promotion",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "requires": ["The Forest Tribes"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Naked Fanatics",
+                "uniques": [
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+                    "All newly-trained [Naked Warrior] units [in all cities] receive the [Shock I] promotion",
+                    "All newly-trained [Mercenary Warband] units [in all cities] receive the [Shock I] promotion",
+                    "[3] free [Naked Warrior] units appear",
+                    "Provides [5] [Manpower]"
+                    "[+1 Happiness] [in all cities] <when at war>",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Druidic Circles",
+                "uniques": [
+                    "[Naked Warrior] units gain the [Ambush I] promotion",
+                    "[+1 Science] from every [Garden]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "requires": ["Naked Fanatics","The Forest Tribes"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Tribal Bonds",
+                "uniques": [
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "City-State Influence recovers at twice the normal rate",
+                    "[+1 Culture] from every [Jeweler]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "requires": ["Druidic Circles"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Celtic Horde",
+                "uniques": [
+                    "All newly-trained [Mercenary Warband] units [in all cities] receive the [Shock II] promotion",
+                    "Free [General] appears",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "requires": ["Tribal Bonds"],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Trimarchisia",
+                "uniques": [
+                    "[+15]% Strength <for [Mounted] units> <when adjacent to a [Mounted] unit>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Celtic Chainmail",
+                "uniques": [
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "[Heavy Swordsman] units gain the [Improved Armor] promotion",
+                    "[Cavalry] units gain the [Improved Armor] promotion",
+                    "[King] units gain the [Improved Armor] promotion",
+                    "[General] units gain the [Improved Armor] promotion",
+                    "[-10]% maintenance costs <for [Heavy Spearman] units>",
+                    "[-10]% maintenance costs <for [Heavy Swordsman] units>",
+                    "[-10]% maintenance costs <for [Cavalry] units>",
+                    "[+3 Happiness] from every [Forge]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "requires": ["Trimarchisia","Druidic Circles"],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Celtic Culture Complete",
+                "uniques": [
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "[Spear] units gain the [Improved Armor] promotion <after discovering [Mass Production]>",
+                    "[Pike Phalanx] units gain the [Improved Armor] promotion <after discovering [Mass Production]>",
+                    "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit> <when attacking>",
+                    "Provides [5] [Manpower]",
+     		    "Provides [2] [Veteran]",
+                    "[+2 Happiness] from [Dyes] tiles [in all cities]",
+                    "[+2 Happiness] from [Gold Ore] tiles [in all cities]",
+                    "[+2 Happiness] from [Tin] tiles [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Eastern Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Eastern Culture]> <hidden from users>",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+		    "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
+                    "[+1 Happiness] [in capital]",
+                    "[+30]% Production when constructing [Market] buildings [in all cities]",
+        ],
+        "policies": [
+            {
+                "name": "Royal Cities",
+                "uniques": [
+                    "[+10]% [Culture] <in cities with at least [10] [Population]>",
+                    "[+1 Culture] [in capital]",
+                    "[+2 Culture] [in capital] <after adopting [King of Kings]>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Royal Herd",
+                "requires": ["Royal Cities"],
+                "uniques": [
+                    "[+20]% Production when constructing [Mounted] units [in capital]",
+                    "Free [Cavalry] appears",
+                    "Provides [4] [Manpower]",
+                    "Provides [2] [Horses]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "The Nomadic Tribes",
+                "uniques": [
+                    "[-25]% construction time for [Camp] improvements",
+                    "[-25]% construction time for [Pasture] improvements",
+                    "[2] free [Spearman] units appear",
+                    "Provides [5] [Manpower]",
+                    "[+1 Food] from every [Nomadic Herd]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Parthian Tactics",
+                "requires": ["The Nomadic Tribes"],
+                "uniques": [
+                    "[+10]% Strength <for [Mounted Archery] units> <vs [Sword] units> <when attacking>",
+                    "[+20]% Strength <for [Mounted Archery] units> <vs [Sword] units> <when defending>",
+                    "[+15]% Strength <for [Mounted Archery] units> <vs [Spear] units> <when defending> <for [The Scythians] Civilizations>",
+                    "[2] free [Horse Archer] units appear",
+                    "Provides [2] [Horses]",
+                    "Provides [4] [Manpower]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Great King's Levy",
+                "requires": ["Royal Herd","Parthian Tactics","Eastern Contacts"],
+                "uniques": [
+                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
+                    "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+                    "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Provides [5] [Manpower]",
+                    "[+15]% Production when constructing [Spearman] units [in all cities]",
+                    "[+10]% Production when constructing [Archer] units [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "King of Kings",
+                "requires": ["Great King's Levy"],
+                "uniques": [
+                    	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
+                    	"[-10]% unhappiness from the number of cities",
+                    	"[+10]% Strength <for [King] units> <when defending>",
+			"[Gold] cost of purchasing [Military] units [-10]% <when at war>",
+                    	"Free [General] appears",
+                   	"[+1 Happiness] [in capital]",
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Trade Caravans",
+                "uniques": [
+                    "[+1 Happiness] from every [Market]",
+                    "[+1 Gold] from every [Market]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Eastern Contacts",
+                "requires": ["Trade Caravans"],
+                "uniques": [
+                    "[+1 Science, +1 Gold] from every [Spice Road]",
+                    "[+1 Science, +1 Culture] from every [Silk Road]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Eastern Culture Complete",
+                "uniques": [
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "[Horse Archer] units gain the [[Maneuver]] promotion",
+                    "[+20]% Strength <for [Mounted Archery] units> <vs [Ranged] units> <when defending>",
+                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
+			"[Gold] cost of purchasing [Military] units [-10]%",
+                    "[1] free [Cataphract] units appear",
+                    "Provides [2] [Iron]",
+     		    "Provides [1] [Veteran]",
+                    "[+1 Happiness] [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Germanic Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "[1] free [Great Scholar] units appear",
+                    "Only available <after adopting [Germanic Culture]> <hidden from users>",              
+                    "All newly-trained [{Military} {Land}] units [in all cities] receive the [Ambush I] promotion",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+                    "[Cavalry] units gain the [Shock I] promotion",
+                    "[+1 Happiness] [in capital]",
+        ],
+        "policies": [
+            {
+                "name": "The Great Hunt",
+                "uniques": [
+                    "[-50]% construction time for [Camp] improvements",
+                    "[+1 Gold, +1 Happiness] from [Furs] tiles [in all cities]",
+                    "[+1 Food] from [Camp] tiles [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Woodland Warfare",
+                "uniques": [
+                    "[Skirmisher] units gain the [Woodsman] promotion",
+                    "[Archer] units gain the [Woodsman] promotion",
+                    "[Infantry Shield I] units gain the [Woodsman] promotion",
+                    "[2] free [Skirmisher] units appear",
+                    "[1] free [Archer] units appear",
+                    "Provides [3] [Manpower]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["The Great Hunt"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Beast Warriors",
+                "uniques": [
+                    "All newly-trained [Horseman] units [in all cities] receive the [Shock I] promotion",
+                    "All newly-trained [Swordsman] units [in all cities] receive the [Shock I] promotion",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [4] [Manpower]",
+                ],
+                "requires": ["Woodland Warfare"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Shield Wall",
+                "uniques": [
+                    "[+20]% Strength <when defending> <for [Spear] units> <when adjacent to a [Spear] unit>",
+                    "[+10]% Strength <when attacking> <for [Spear] units> <when adjacent to a [General] unit>",
+                    "[+20]% Strength <when attacking> <for [Spear] units> <when adjacent to a [King] unit>",
+                    "[+1 Happiness] [in capital]",
+                    "[3] free [Spearman] units appear",
+                    "Provides [5] [Manpower]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Shieldmaidens",
+                "uniques": [
+                    "[+10]% Production when constructing [Spear] units [in all cities]",
+                    "[+10]% Strength <for [Infantry Shield II] units> <when defending>",
+                    "[+10]% Strength <for [Infantry Shield III] units> <when defending>",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "requires": ["Shield Wall"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Chosen Warriors",
+                "uniques": [
+                    "[+50]% XP gained from combat <for [Skirmisher] units>"
+                    "[+100]% XP gained from combat <for [Land] units> <when below [25] HP>",
+                    "[1] free [Heavy Swordsman] units appear",
+                    "Provides [3] [Manpower]",
+                    "Provides [1] [Iron]",
+                    "Provides [1] [Veteran]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "requires": ["Shieldmaidens","Woodland Warfare"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Germanic Horde",
+                "requires": ["Chosen Warriors"],
+                "uniques": [
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "[-10]% maintenance costs <for [{Military} {Land}] units>",
+                    "When conquering an encampment, earn [10] Gold and recruit a Barbarian unit"
+                    "Free [General] appears",
+                    "Provides [5] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Northern Trade",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness, +1 Faith] from [Amber] tiles [in all cities]",
+                    "[+1 Culture] from every [Amber Road]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Shield Wall"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Germanic Culture Complete",
+                "uniques": [
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "[+10]% Strength <for [Land] units> <when attacking> <in [Forest] tiles>",
+                    "[Spear] units gain the [Shock I] promotion",
+                    "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit>",
+		    "[Gold] cost of purchasing [Spearman] units [-20]% <when at war>",
+                    "[2] free [Heavy Swordsman] units appear",
+                    "Provides [2] [Iron]",
+                    "Provides [6] [Manpower]",
+     		    "Provides [1] [Veteran]",
+                    "[+1 Happiness] [in capital]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hellenic Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Hellenic Culture]> <hidden from users>",
+                    "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Lancer] promotion <hidden from users>",
+                    "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+                    "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
+                    "[-15]% Culture cost of natural border growth [in capital]",
+                    "[+1 Culture] from every [Theatre]",
+                    "[+1 Happiness] [in capital]"
+        ],
+        "policies": [
+            {
+                "name": "City Guard",
+                "requires": ["Freedom of The Greeks"],
+                "uniques": [
+                    "All newly-trained [Spear] units [in capital] receive the [Spear Wall] promotion",
+                    "Provides [2] [Manpower]",
+                    "[+2 Happiness] [in capital] <with a garrison>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Army Reform",
+                "requires": ["City Guard"],
+                "uniques": [
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Comment [Enables Pike Phalanx] <for [The Cyreneans] Civilizations>","Provides [1] [Enable Pike Phalanx] <for [The Cyreneans] Civilizations> <hidden from users>",
+                    "Comment [Enables Royal Phalanx] <for [The Cyreneans] Civilizations>","Provides [1] [Enable Royal Phalanx] <for [The Cyreneans] Civilizations> <hidden from users>",
+                    "Comment [Enables Pike Phalanx] <for [The Spartans] Civilizations>","Provides [1] [Enable Pike Phalanx] <for [The Spartans] Civilizations> <hidden from users>",
+                    "Comment [Enables Royal Phalanx] <for [The Spartans] Civilizations>","Provides [1] [Enable Royal Phalanx] <for [The Spartans] Civilizations> <hidden from users>",
+                    "[2] free [Hoplite] units appear",
+                    "Provides [6] [Manpower]",
+                    "Provides [2] [Bronze]",
+                    "[+1 Happiness] [in capital] <if [Army Barracks] is constructed>",
+                    "[+1 Happiness] [in capital] <if [Skirmisher Barracks] is constructed>",
+                    "[+1 Happiness] [in capital] <if [Cavalry Barracks] is constructed>",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Freedom of The Greeks",
+                "uniques": [
+                    "[+15]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>",
+                    "[+10]% Production when constructing [Barracks] buildings [in all cities]",
+                    "[3] free [Spearman] units appear",
+                    "Provides [6] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Local Hegemony",
+                "requires": ["Freedom of The Greeks"],
+                "uniques": [
+                    "[+10]% Strength <vs [City-States]>",
+                    "[+1 Gold, +1 Happiness] from every [Hill Fort]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Hellenic Colonists",
+                "uniques": [
+                    "[+10]% Production when constructing [Settler] units [in capital]",
+		   "[+10]% Strength <for [Spear] units> <when defending>"
+                    "Free [Settler] appears",
+                    "Provides [2] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Shipbuilders",
+                "requires": ["Hellenic Colonists"],
+                "uniques": [
+                    "[+15]% Production when constructing [Water] units [in all cities]",
+                    "Provides [2] [Timber]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Thalassocracy",
+                "requires": ["Shipbuilders","Local Hegemony"],
+                "uniques": [
+                    "Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
+                    "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
+                    "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>"
+                    "[+1] Movement <for [Melee Water] units>",
+                    "Provides [3] [Manpower]",
+                    "[+1 Happiness] from every [Harbor]",
+                    "[+1 Happiness] from every [Great Harbor]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Extort the League",
+                "requires": ["Thalassocracy"],
+                "uniques": [
+                    "[+10]% Production when constructing [All] wonders [in capital]",
+                    "[+1 Food, +1 Production, +1 Gold, +1 Culture, +1 Science] [in capital]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "Hellenic Culture Complete",
+                "uniques": [
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "[+15]% Strength <for [Pike Phalanx] units> <when adjacent to a [Pike Phalanx] unit> <when defending>",
+                    "[+15]% Great Person generation [in all cities]",
+                    "[Spear] units gain the [Formation I] promotion",
+                    "[3] free [Hoplite] units appear",
+     		    "Provides [1] [Veteran]",
+                    "Provides [4] [Bronze]",
+                    "Provides [10] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hellenistic Culture",
+        "civilopediaText": [{"text": "Following the collapse of the short lived Argead Empire, many new dynasties emerged in the former Macedonian and Persian territories. All sharing some degree of Hellenic culture and Macedonian military organization, they intermarried and fought each other until the eventual Roman conquest in the following centuries."}],
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Hellenistic Culture]> <hidden from users>",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+                    "Comment [Enables Chariot Archer] <for [The Ptolemies] Civilizations>","Provides [1] [Enable Chariot Archer] <for [The Ptolemies] Civilizations> <hidden from users>",
+                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+                    "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <for [The Mithridatids] Civilizations> <hidden from users>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <for [The Seleucids] Civilizations> <hidden from users>",
+                    "[Cavalry] units gain the [Lancer] promotion <for [The Epirots] Civilizations> <hidden from users>",
+                    "[Cavalry] units gain the [Lancer] promotion <for [The Macedonians] Civilizations> <hidden from users>",
+                    "[Cavalry] units gain the [Lancer] promotion <for [The Ptolemies] Civilizations> <hidden from users>",
+                    "[Cavalry] units gain the [Lancer] promotion <for [The Pergamenes] Civilizations> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
+                    "[+10]% Production when constructing [Settler] units [in all cities]",
+                    "[+1 Happiness] [in capital]"
+        ],
+        "policies": [
+            {
+                "name": "Ktistes",
+                "civilopediaText": [{"text": "Ktistes was a hellenestic royal epithet meaning The Builder, or founder of cities. Most dynasties founded at least several cities, usually named after the ruler or one of their relatives."}],
+                "uniques": [
+                    "Each city founded increases culture cost of policies [25]% less than normal",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Euergetes",
+                "civilopediaText": [{"text": "Euergetes was a common hellenestic royal epithet meaning The Benefactor. Most famous of the philanthropists was Ptolemy III."}],
+                "uniques": [
+                    "Gifts of Gold to City-States generate [+25]% more Influence",
+                    "[+1 Happiness, +1 Science] from every [Palace Library]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Ktistes"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "The Grand Fleet",
+                "civilopediaText": [{"text": "Hellenistic States often build massive fleets of large warships."}],
+                "uniques": [
+                    "[+15]% Production when constructing [Ranged Water] units [in all cities]",
+                    "[+1 Production] from every [Harbor]",
+                    "[+1 Production] from every [Great Harbor]",
+                    "Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
+                    "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
+                    "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Euergetes"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Military Colonies",
+                "civilopediaText": [{"text": "Usually ruling over mostly foreign subjects, hellenistic dynasts in Egypt and Asia constantly tried to attract Macedonians and Greeks as military settlers to form the core of their armies."}],
+                "uniques": [
+                    "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
+                    "New [{Melee} {Land}] units start with [10] XP [in all cities] <in cities with a [Colony]>",
+                    "[+10]% Strength <for [Ranged] units>",
+                    "Provides [2] [Bronze]",
+                    "[+2 Happiness] [in annexed cities] <in cities with a [Colony]>",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Nikator",
+                "civilopediaText": [{"text": "Nikator was a hellenestic royal epithet meaning The Victorious. Most famous of the victors was Seleucos I."}],
+                "uniques": [
+                    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
+                    "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    "Comment [Enables Royal Agema]","Provides [1] [Enable Royal Agema]",
+                    "Upon capturing a city, receive [2] times its [Culture] production as [Culture] immediately",              
+                    "Earn [20]% of killed [Military] unit's [Strength] as [Culture]",
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Pike Phalanx] units appear",
+                    "Provides [2] [Bronze]",
+                    "Provides [6] [Manpower]",
+                ],
+                "requires": ["Euergetes","Poliorketes"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Megas",
+                "civilopediaText": [{"text": "Megas was a hellenestic royal epithet meaning The Great. Alexander III, Antiochos III and Mithridates VI were the Greats."}],
+                "uniques": [
+                    "Free [General] appears",
+                    "[+50]% XP gained from combat <for [Melee] units> <when adjacent to a [General] unit>",
+                    "[+50]% XP gained from combat <for [Melee] units> <when adjacent to a [King] unit>",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "requires": ["Nikator"],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Soter",
+                "civilopediaText": [{"text": "Soter was a common hellenestic royal epithet meaning The Savior. Most famous of the saviours was Ptolemy I."}],
+                "uniques": [
+                    "Notified of new Barbarian encampments",
+                    "Earn [30]% of killed [Barbarian] unit's [Strength] as [Culture]",
+                    "[+33]% Strength <vs [Barbarian] units>",
+                    "[1] free [Swordsman] units appear",
+                    "Provides [3] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Poliorketes",
+                "civilopediaText": [{"text": "Poliorketes was a hellenestic royal epithet meaning The Besieger, given to Demetrios to mock his impressive but failed siege of Rhodes."}],
+                "uniques": [
+                    "[1] additional attacks per turn <for [Siege] units>",
+                    "[-25]% Strength <for [Siege] units>",
+                    "[-20]% maintenance costs <for [Military] units>",
+                    "[+1 Happiness] [in capital]",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                ],
+                "requires": ["Soter","Military Colonies"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Hellenistic Culture Complete",
+                "civilopediaText": [{"text": "Successor States"}],
+                "uniques": [
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
+                    "[+10]% Strength <for [Ranged] units> <when adjacent to a [Spear] unit>",
+                    "[+10]% Strength <for [Elephant] units> <when adjacent to a [Spear] unit>",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]",
+     		 "Provides [1] [Veteran]",
+                    "[+1 Happiness] from every [Colony]",
+                    "[+1 Happiness] [in capital]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Iberian Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
+                    "Only available <after adopting [Iberian Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
+                    "[+20]% Production when constructing [Hill Fort] buildings [in all cities]",
+                    "[+1 Happiness] [in capital]",
+        ],
+        "policies": [
+            {
+                "name": "Iberian Workshops",
+                "uniques": [
+                    "[+1 Gold] from every [Garum Shop]",
+                    "[+1 Production] from every [Bronze Works]",
+                    "[+1 Production, +1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "The Falcata",
+                "requires": ["Iberian Workshops"],
+                "uniques": [
+                    "[+10]% Production when constructing [Barracks] buildings [in all cities]",
+                    "[+10]% Production when constructing [Forge] buildings [in all cities]",
+                    "Provides [2] [Iron]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Toledo Steel",
+                "requires": ["The Falcata"],
+                "uniques": [
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]",
+                    "[+1 Science, +1 Production] from every [Forge]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Flaming Javelins",
+                "requires": ["Iberian Workshops","Skirmish Tactics"],
+                "uniques": [
+                    "[+50]% Strength <for [Scout] units> <vs cities> <when attacking>",
+                    "[+10]% Strength <for [Scout] units> <when attacking>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "The Champion",
+                "requires": ["Toledo Steel","Cantabrian Circle"],
+                "uniques": [
+                    "Free [General] appears",
+                    "[1] free [Heavy Swordsman] units appear",
+                    "Provides [1] [Veteran]",
+                    "[+1 Culture, +1 Happiness] from every [Hill Fort]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Skirmish Tactics",
+                "uniques": [
+                    "[+15]% Strength <for [Skirmisher] units> <when fighting in [Rough terrain] tiles>",
+                    "[+15]% Strength <for [Archery] units> <when fighting in [Rough terrain] tiles>",
+                    "[3] free [Skirmisher] units appear",
+                    "[2] free [Archer] units appear",
+                    "Provides [5] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Iberian Pastures",
+                "requires": ["Skirmish Tactics"],
+                "uniques": [
+                    "Provides [3] [Horses]",
+                    "[+1 Happiness] from every [Stable]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Cantabrian Circle",
+                "requires": ["Iberian Pastures"],
+                "uniques": [
+                    "New [Mounted] units start with [10] XP [in all cities]",
+                    "All healing effects doubled <for [Horseman] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Iberian Culture Complete",
+                "uniques": [
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit>",
+                    "[+15]% Strength <for [Scout] units> <when adjacent to a [Sword] unit>",
+                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]",
+     		   "Provides [1] [Veteran]",
+                    "[+1 Happiness] [in capital]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Illyrian Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    "[Horseman] units gain the [[Maneuver]] promotion <hidden from users>",
+                    "Only available <after adopting [Illyrian Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
+                    "Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[+1 Happiness] [in capital]",
+        ],
+        "policies": [
+            {
+                "name": "The Right to Plunder",
+                "uniques": [
+                    "Enables embarkation for land units"
+                    "[Military] units gain the [Raider I] promotion",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Illyrian Pirates",
+                "uniques": [
+                    "All newly-trained [{Military} {Water}] units [in all coastal cities] receive the [Coastal Raider I] promotion",
+                    "All newly-trained [{Military} {Land}] units [in all coastal cities] receive the [Amphibious I] promotion",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["The Right to Plunder"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Liburnes",
+                "uniques": [
+                    "[2] free [Galley] units appear",
+                    "Provides [4] [Manpower]",
+                    "[-50]% maintenance costs <for [Galley] units>",
+                    "[+1] Movement <for [Galley] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Illyrian Pirates",],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Golden Age of Piracy",
+                "uniques": [
+                    "Empire enters golden age",
+                    "[+1 Happiness, +1 Culture] [in all cities]",
+                    "[+1] additional attacks per turn <for [Galley] units>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Liburnes","Adventurers"],
+                "row": 4,
+                "column": 1
+            },
+            {
+                "name": "Fierce Defenders",
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                    "[+1 Happiness] [in capital]",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Tribal Stronghold",
+                "uniques": [
+                    "[+25]% City Strength from defensive buildings <in cities with a [Hill Fort]>",
+                    "[+1 Happiness] from every [Hill Fort]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Fierce Defenders"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Adventurers",
+                "uniques": [
+                    "[King] units gain the [Ignore terrain cost] promotion",
+                    "[General] units gain the [Ignore terrain cost] promotion",
+                    "[Military] units gain the [Scouting I] promotion",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["Illyrian Pirates","Tribal Stronghold"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Barbarian Phalanx",
+                "uniques": [
+                    "New [Spear] units start with [15] XP [in all cities]",
+                    "[+10]% Production when constructing [Barracks] buildings [in capital]",
+                    "[+1 Happiness] [in capital]",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Comment [Enable Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "[3] free [Pike Phalanx] units appear",
+                    "Provides [6] [Manpower]",
+                    "Provides [3] [Bronze]",
+                ],
+                "requires": ["Fierce Defenders"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Illyrian Culture Complete",
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <during a Golden Age>",
+                    "[+1] Movement <for [Embarked] units> <during a Golden Age>",
+                    "[+1] Sight <for [Embarked] units> <during a Golden Age>",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "[+1 Happiness] [in capital]",
+                    "Provides [4] [Manpower]",
+     		 "Provides [1] [Veteran]",
+                    "[+20]% Strength <for [Galley] units>",
+                    "[+20]% Strength <for [Scout] units> <when adjacent to a [Scout] unit>",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Latin Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Latin Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
+                    "[+15]% growth [in capital]",
+                    "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+                    "[+1 Happiness] [in capital]",
+        ],
+        "policies": [
+            {
+                "name": "The Latin League",
+                "uniques": [
+                    "Provides [3] [Manpower] <while the empire is happy>",
+                    "[-10]% City-State Influence degradation",
+                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Socii",
+                "uniques": [
+                    "Provides [4] [Mercenary (Oscan)] <while the empire is happy>",
+                    "Provides [3] [Manpower] <while the empire is happy>",
+                    "[-10]% City-State Influence degradation",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "requires": ["The Latin League"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Manipular Legion",
+                "requires": ["Socii"],
+                "uniques": [
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "[+20]% Production when constructing [Melee] units [in capital]",
+                    "[3] free [Manipular Legion] units appear",
+                    "Provides [12] [Manpower]",
+                    "Provides [2] [Iron]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Auxilia",
+                "requires": ["Socii"],
+                "uniques": [
+                    "[-15]% maintenance costs <for [Mounted] units>",
+                    "[-15]% maintenance costs <for [Archery] units>",
+                    "[-15]% maintenance costs <for [Scout] units>",
+                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
+                    "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
+                    "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Marian Reforms",
+                "requires": ["Bread and Circuses","Manipular Legion","Auxilia"],
+                "uniques": [
+                    "[-20]% maintenance costs <for [Sword] units>",
+                    "[+10]% Production when constructing [Army Barracks] buildings [in all cities]",
+                    "[+10]% Production when constructing [Sword] units [in all cities]",
+                    "[2] free [Heavy Swordsman] units appear",
+                    "Provides [10] [Manpower]",
+                    "Provides [2] [Iron]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Latifundia",
+                "uniques": [
+                    "[+1 Gold] from every [Plantation]",
+                    "[+1 Gold] from every [Plantation] <after adopting [Bread and Circuses]>",
+                    "[+1 Gold] from [Wheat] tiles [in all cities] <after adopting [Bread and Circuses]>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Gladiatorial Games",
+                "requires": ["Latifundia"],
+                "uniques": [
+                    "[+10]% Production when constructing [Theatre] buildings [in all cities]",
+                    "[Gladiator] units gain the [Drill I] promotion",
+                    "Gain a free [Theatre] [in capital]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Bread and Circuses",
+                "requires": ["Gladiatorial Games"],
+                "uniques": [
+                    "[+10]% Production when constructing [All] wonders [in capital]",
+                    "[+1 Happiness] from every [Theatre]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Latin Culture Complete",
+                "uniques": [
+                    "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
+                    "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users> <during the [Imperial Age]>",
+                    "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit> <when attacking>",
+                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
+                    "Provides [4] [Manpower]",
+     		    "Provides [1] [Veteran]",
+                    "[+1 Happiness] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Numidian Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Numidian Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
+                    "Earn [30]% of killed [Military] unit's [Strength] as [Science]",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
+                    "Provides [1] [PunicOrNumidian] <hidden from users>",
+                    "[+1 Happiness] [in capital]"
+        ],
+        "policies": [
+            {
+                "name": "Trans-Saharan Trade",
+                "uniques": [
+                    "[-25]% construction time for [Camp] improvements",
+                    "[-25]% construction time for [Pasture] improvements",
+                    "[+2 Gold] from every [Camp] <in [Desert] tiles>",
+                    "[+1 Food, +1 Gold] from every [Pasture] <in [Desert] tiles>",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Feed The World",
+                "requires": ["Trans-Saharan Trade"],
+                "uniques": [
+                    "[+1 Food, +1 Gold] from every [Oasis]",
+                    "[+2 Gold] from every [Grain Exports]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Royal Mausoleum",
+                "requires": ["Feed The World"],
+                "uniques": [
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "[+1 Happiness, +1 Culture] from every [Mausoleum]",
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]"
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Numidian Warfare",
+                "uniques": [
+                    "[+30]% Strength <for [Numidian Horseman] units> <vs [Mounted] units> <when attacking>",
+                    "[+30]% Strength <for [Numidian Mercenary] units> <vs [Mounted] units> <when attacking>",
+                    "[+25]% Strength <for [Skirmisher] units> <when fighting in [Desert] tiles>",
+                    "Free [Horseman] appears",
+                    "Provides [4] [Manpower]",
+                    "Provides [1] [Horses]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Mass Recruitment",
+                "requires": ["Numidian Warfare"],
+                "uniques": [
+                    "[+10]% Production when constructing [Land] units [in all cities]",
+                    "[4] free [Spearman] units appear",
+                    "Provides [4] [Manpower]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Infantry Reform",
+                "requires": ["Mass Recruitment"],
+                "uniques": [
+                    "[+1 Happiness] from every [Barracks]",
+                    "[+1 Happiness] from every [Army Barracks]",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "[2] free [Swordsman] units appear",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Legacy of Tacfarinas",
+                "requires": ["Infantry Reform"],
+                "uniques": [
+                    "[Numidian Horseman] units gain the [Raider II] promotion",
+                    "[Numidian Mercenary] units gain the [Raider II] promotion",
+                    "[Skirmisher] units gain the [Raider II] promotion",
+                    "Free [General] appears",
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]"
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "The Forest Elephant",
+                "requires": ["Mass Recruitment"],
+                "uniques": [
+                    "[+15]% Production when constructing [War Elephant] units [in capital]",
+                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
+                    "Free [War Elephant] appears",
+                    "Provides [3] [Manpower]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Numidian Culture Complete",
+                "uniques": [
+                    "[{Military} {Land}] units gain the [Scouting I] promotion",
+                    "[+20]% Strength <for [Numidian Horseman] units> <vs [Sword] units> <when attacking>",
+		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+                    "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "[+1 Happiness] [in capital]",
+                    "Provides [4] [Manpower]",
+                    "Provides [2] [Veteran]",
+                    "[+10]% Strength <for [Mounted] units> <when attacking>",
+                    "[+10]% Strength <for [Spearman] units> <when adjacent to a [Spearman] unit> <when defending>",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Punic Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Punic Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
+                    "[{Military} {Water}] units gain the [Scouting I] promotion",
+                    "[+1] Sight <for [Embarked] units>",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
+                    "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>"
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
+                    "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+                    "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Provides [1] [PunicOrNumidian] <hidden from users>",
+                    "[+1 Happiness] [in capital]"
+        ],
+        "policies": [
+            {
+                "name": "The Citadel",
+                "uniques": [
+                    "Gain a free [Walls] [in capital]",
+                    "Gain a free [Wall Towers] [in capital]",
+                    "Provides [4] [Manpower]",
+                    "[+15]% Production when constructing [Land] units [in capital]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Elephant Charge",
+                "requires": ["The Citadel"],
+                "uniques": [
+                    "[War Elephant] units gain the [Trample II] promotion",
+                    "Free [War Elephant] appears",
+                    "Provides [3] [Manpower]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Phoenician Traders",
+                "uniques": [
+                    "[+1] Movement <for [Embarked] units>",
+                    "[+2 Gold] from [Water resource] tiles [in all cities]",
+                    "[+1 Happiness] from [Purple Dye] tiles [in all cities]",
+                    "[+1 Happiness] from [Silver] tiles [in all cities]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "The War Harbor",
+                "requires": ["Phoenician Traders"],
+                "uniques": [
+                    "[+15]% Production when constructing [Water] units [in capital]",
+                    "Free [Pentere] appears",
+                    "Provides [6] [Manpower]",
+                    "Provides [4] [Timber]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Mercenary Armies",
+                "uniques": [
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "[Gold] cost of purchasing [{Military} {Land}] units [-20]%",
+                    "[+1 Happiness] [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Numidian Auxiliaries",
+                "requires": ["Mercenary Armies"],
+                "uniques": [
+                    "[+20]% Strength <for [Horseman] units> <vs [Mounted] units>",
+                    "[+20]% Strength <for [Numidian Mercenary] units> <vs [Mounted] units>",
+                    "[+25]% Strength <for [Skirmisher] units> <when fighting in [Desert] tiles> <when attacking>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Free [Horseman] appears",
+                    "[2] free [Spearman] units appear",
+                    "Provides [4] [Manpower]",
+                    "Provides [1] [Horses]"
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Mercenary Reform",
+                "requires": ["Numidian Auxiliaries"],
+                "uniques": [
+                    "[Heavy Spearman] units gain the [Drill I] promotion",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "Free [General] appears", 
+                    "[Gold] cost of purchasing [{Military} {Land}] units [-20]% <during a Golden Age>",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 3,
+                "column": 3
+            },
+
+            {
+                "name": "Colonial Ventures",
+                "requires": ["Mercenary Reform"],
+                "uniques": [
+                    "Free [General] appears",
+                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
+                    "[+1 Happiness] [in all coastal cities]",
+                    "[+1 Happiness] [in capital]",
+                    "Provides [2] [Manpower]",
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Punic Culture Complete",
+                "uniques": [
+                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
+                    "[+10]% Strength <for [{Military} {Water}] units>",
+                    "[General] units gain the [Veteran] promotion",
+                    "[King] units gain the [Scouting II] promotion",
+                    "[Mounted] units gain the [Scouting I] promotion",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "[+1 Happiness] [in capital]",
+                    "Comment [Enables Cataphract during the Imperial Age]",
+		    "Provides [1] [Enable Cataphract] <hidden from users> <during the [Imperial Age]>",
+                    "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
+                    "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
+                    "Provides [5] [Manpower]",
+                    "Provides [1] [Veteran]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Thracian Culture",
+        "era": "Archaic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Domination": 50
+        },
+        "uniques": [
+                    "Only available <after adopting [Thracian Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
+                    "[50]% of excess happiness converted to [Gold] <after discovering [Currency]>",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+                    "[+1 Happiness] [in capital]"
+        ],
+        "policies": [
+             {
+                "name": "The Hill Tribes",
+                "uniques": [
+                    "[+15]% Production when constructing [Scout] units [in all cities]",
+                    "[+15]% Strength <for [Scout] units> <when fighting in [Rough terrain] tiles>",
+                    "[+1 Happiness] [in capital]",
+                    "[3] free [Spearman] units appear",
+                    "Provides [5] [Manpower]"
+                ],
+                "row": 1,
+                "column": 1
+             },
+             {
+                "name": "Mountain Strongholds",
+                "requires": ["The Hill Tribes"],
+                "uniques": [
+                    "[+50]% Strength for cities <within [1] tiles of a [Mountain]>",
+                    "[+2 Production, +1 Gold] from [Mountain] tiles [in all cities]",
+                    "[+1 Happiness] from every [Hill Fort]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Rhomphaiophoroi",
+                "requires": ["Mountain Strongholds"],
+                "uniques": [
+                    "Provides [2] [Iron]",
+                    "[+1 Culture] from every [Thracian Weaponsmith]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Thracian Raiders",
+                "uniques": [
+                    "[{Melee} {Land}] units gain the [Raider I] promotion",
+                    "[+1 Happiness] [in capital]"
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Mass Looting",
+                "requires": ["Thracian Raiders"],
+                "uniques": [
+                    "[{Melee} {Land}] units gain the [Raider II] promotion",
+                    "Receive triple Gold from Barbarian encampments and pillaging Cities",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "The Great Kingdom",
+                "requires": ["Mass Looting","Rhomphaiophoroi"],
+                "uniques": [
+                    "Free [General] appears",
+                    "[+50]% [Iron] resource production",
+                    "[+50]% [Horses] resource production",
+                    "[+2 Culture, +2 Happiness] from every [Mint]",
+                    "[+1 Happiness] [in capital]"
+                    "Provides [2] [Manpower]",
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Heroic Tradition",
+                "uniques": [
+                    "[+50]% XP gained from combat <for [Mounted] units>",
+                    "Free [Cavalry] appears <upon discovering [Riding] technology>",
+                    "Provides [3] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                    "Provides [1] [Veteran]",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Royal Gifts",
+                "requires": ["Thracian Raiders"],
+                "uniques": [
+                    "Allied City-States provide [Gold] equal to [25]% of what they produce for themselves",
+                    "[+100]% [Happiness] from City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States",
+                    "[+1 Happiness] [in capital]"
+                ],
+
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Thracian Culture Complete",
+                "uniques": [
+                    "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+                    "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "[+1 Happiness] [in capital]",
+                    "[+10]% Strength <for [Sword] units> <when attacking>",
+                    "Provides [4] [Manpower]",
+                    "Provides [1] [Veteran]",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Federation",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 50,
+            "Domination": 50
+        },
+        "uniques": [
+            "[+2 Happiness] [in all cities]",
+            "[+1 Happiness] [in capital]"
+            "Provides [3] [Manpower]",
+            "Only available <before adopting [Theocracy]>",
+            "Only available <before adopting [Empire]>",
+            "[+10]% Unhappiness from [Population] [in all cities]",
+        "[+50]% Culture cost of adopting new Policies",
+        ],
+        "policies": [
+            {
+                "name": "League Levy",
+                "uniques": [
+                    "Units in cities cost no Maintenance",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "League Headquarters",
+                "uniques": [
+                    "[+20]% [Culture] [in capital]",
+                    "[+1 Culture, +1 Happiness] from every [Citizen Assembly]",
+                    "[+2 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Naval Tradition",
+                "uniques": [
+                    "[-25]% maintenance costs <for [Water] units>",
+                    "[+1] Movement <for [Embarked] units>",
+                    "[+1 Production] from every [Drydock]",
+                    "[+1 Happiness] [in capital]",
+                    "Provides [2] [Manpower]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Mutual Protection",
+                "requires": ["League Levy","Naval Tradition","League Headquarters"],
+                "uniques": [
+    		    	"Only available <before adopting [Mutual Protection]>",
+			"[Gold] cost of purchasing [Military] units [-20]% <when not at war>",
+                    	"[+10]% Strength <when defending> <for [All] units> <when fighting in [Friendly] tiles>"
+       		 	"[-30]% maintenance costs <for [Military] units> <in [Friendly Land] tiles>",
+                    	"Provides [6] [Manpower]",
+			"[+2 Production] from all [Barracks] buildings <when at war>",
+                    	"[+1 Happiness] [in capital]",
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Confederation Reform",
+                "requires": ["Mutual Protection"],
+                "uniques": [
+                    	"[+10]% Great Person generation [in all cities]",
+                    	"[-30]% City-State Influence degradation",
+                        "[+20]% Production when constructing [Military] units [in all cities] <when not at war>",
+			"[+20]% Production when constructing [Market] buildings [in all cities]",
+                    	"[-20]% Unhappiness from [Population] [in all cities]",
+                    	"[+1 Gold, +1 Happiness] from every [Citizen Assembly]",
+                    	"[+1 Happiness] [in capital]",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Citizen Militias",
+                "requires": ["League Levy","Naval Tradition","League Headquarters"],
+                "uniques": [
+                   	 "[+10]% Production when constructing [Military] units [in all cities]",
+			"[+15]% Strength <for [Scout] units> <when fighting in [Friendly Land] tiles>",
+			"[+10]% Production when constructing [Barracks] buildings [in all cities]",
+                    	"[+1 Happiness] [in capital]",
+                    	"[+3 Happiness] [in all cities] <with a garrison>",
+                ],
+
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Council of War",
+                "requires": ["Citizen Militias"],
+                "uniques": [
+        		"New [Military] units start with [10] XP [in all cities]",
+                        "[+15]% Production when constructing [Military] units [in all cities] <when at war>",
+			"[+10]% Strength <for [Archery] units> <when fighting in [Friendly Land] tiles>",
+			"[+10]% Strength <for [Mounted] units> <when fighting in [Friendly Land] tiles>",
+                	"[+1 Happiness] [in capital]",
+                 	"[+3 Science] [in capital]",
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Commerce Centers",
+                "uniques": [
+                    "Empire enters golden age",
+                    "[+1 Food, +1 Gold] from every [Market]",
+                    "[+1 Gold] from every [Grain Exports]",
+                    "[+1 Gold] from every [Anchorage]",
+                    "[+2 Gold] from every [Harbor]",
+                    "[+3 Gold] from every [Great Harbor]",
+                    "[+1 Gold] from every [Drydock]",
+                    "[+1 Happiness] [in capital]",
+    		    "Only available <after adopting [Council of War]>",
+    		    "Only available <after adopting [Confederation Reform]>",
+                ],
+
+                "row": 4,
+                "column": 1
+            },
+            {
+                "name": "United Front",
+                "uniques": [
+    		    	"Only available <after adopting [Council of War]>",
+    		    	"Only available <after adopting [Confederation Reform]>",
+                   	 "Empire enters golden age",
+                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [30] turns",
+                    	"[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
+                    	"[+1] Movement <for [Civilian] units> <in [Friendly Land] tiles>",
+			"[Gold] cost of purchasing [Military] units [-10]% <when at war>",
+			"[+20]% Production when constructing [Walls] buildings [in all cities]",
+                    	"[-10]% Unhappiness from [Population] [in all cities]",
+                    	"[+1 Happiness, +1 Production, +1 Gold] from every [Barracks]",
+                    	"[+1 Happiness] [in capital]",
+            		"[+2 Happiness] from every [National Wonder]",
+                ],
+
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "Concordia Pactum",
+                "requires": ["United Front","Commerce Centers"],
+                "uniques": [
+			"Comment [-Teach the peasants how to hold the pointy stick in the time of need]",
+			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>",
+              		"[-10]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+     		 	"[+1] Movement <for [Military] units> <in [Enemy Land] tiles> <after adopting [Council of War]>",
+			"[+10]% growth [in all cities] <after adopting [Confederation Reform]>",
+                    	"[+1 Happiness] [in capital]",
+                ],
+                "row": 5,
+                "column": 3
+            },
+            {
+                "name": "Federation Complete",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Empire",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 50,
+            "Domination": 50
+        },
+        "uniques": [
+            "Only available <before adopting [Federation]>",
+            "Only available <before adopting [Theocracy]>",
+            "[+10]% Unhappiness from [Population] [in all cities]",
+            "[+50]% Culture cost of adopting new Policies",
+            "[+2 Happiness] from every [World Wonder]",
+            "[+2 Happiness] from every [National Wonder]",
+            "[+2 Happiness] from every [Natural Wonder]",
+            "[+1 Happiness] [in capital]",
+            "Provides [4] [Manpower]",
+        ],
+        "policies": [
+            {
+                "name": "Law of the Ruler",
+                "uniques": [
+                    	"[-20]% Unhappiness from [Specialists] [in all cities]",
+           		"[+1 Happiness] from every [Plantation]",
+           		"[+1 Happiness] from every [Slave Trader]",
+           		"[+1 Happiness] from every [Stable]",
+                    	"[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Urbanization",
+                "uniques": [
+                    "[+1 Happiness, +1 Gold] from every [Brick Maker]",
+                    "[+1 Happiness] [in capital]"
+                     "[+10]% Production towards any buildings that already exist in the Capital",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Provincial Roads",
+                "uniques": [
+                     	"No Maintenance costs for improvements in [Rough terrain] tiles",
+       			"[-20]% maintenance costs <for [Military] units> <in [Friendly Land] tiles>",
+                    	"[+10]% Production when constructing [Mounted] units [in all cities]",
+                   	 "[+1 Happiness] [in capital]",
+                    	"[+1 Happiness] [in all cities]",
+                    	"[+1 Production] from every [Market]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Imperial Garrisons",
+                "requires": ["Law of the Ruler","Urbanization","Provincial Roads"],
+                "uniques": [
+    		    "Only available <before adopting [War Economy]>",
+                    "[-10]% Unhappiness from [Population] [in all cities]",
+		    "[+15]% Strength <when defending> <for [All] units> <when fighting in [Friendly Land] tiles>",
+                    "Provides [1] [Veteran]",
+       		    "[-20]% maintenance costs <for [Spear] units> <in [Friendly Land] tiles>",
+                    "[+2 Happiness] [in all cities] <with a garrison>",
+                    "[+1 Happiness] [in capital]",
+                    "[+1 Production, +1 Food] from every [Garrison Post]",
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Civil Administration",
+                "requires": ["Imperial Garrisons"],
+                "uniques": [
+			"[Gold] cost of purchasing [Military] units [-20]% <when not at war>",
+                     	"No Maintenance costs for improvements in [Open terrain] tiles",
+                   	 "[+1 Happiness] from every [Army Barracks]",
+                    	"[+1 Happiness] from every [Cavalry Barracks]",
+                    	"[+1 Happiness] from every [Skirmisher Barracks]",
+                    	"[+1 Happiness] [in capital]",
+			"[+1 Happiness, +1 Food, +1 Gold] from all [Barracks] buildings <when not at war>",
+			"[+2 Gold] from all [Army Barracks] buildings <when not at war>",
+			"[+1 Gold, +1 Food] from all [Cavalry Barracks] buildings <when not at war>",
+			"[+2 Food] from all [Skirmisher Barracks] buildings <when not at war>",
+                    	"Provides [10] [Manpower]",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "War Economy",
+                "requires": ["Law of the Ruler","Urbanization","Provincial Roads"],
+                "uniques": [
+		"[Gold] cost of purchasing [Military] units [-10]% <when at war>",
+                    "[+1 Happiness] [in capital]",
+		"[+1 Happiness, +1 Food, +3 Gold] from all [Barracks] buildings <when at war>",
+		"[+3 Gold] from all [Army Barracks] buildings <when at war>",
+		"[+1 Gold] from all [Market] buildings <when at war>",
+		"[+3 Food] from all [Skirmisher Barracks] buildings <when at war>",
+		"[+3 Production] from all [Cavalry Barracks] buildings <when at war>",
+    		    "Only available <before adopting [Imperial Garrisons]>",
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Total War",
+                "requires": ["War Economy"],
+                "uniques": [
+                    	"Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
+                    	"Free [General] appears",
+                    	"[+1 Happiness] [in capital]",
+                    	"Provides [2] [Veteran]",
+       		 	"New [Military] units start with [5] XP [in all cities]",
+			"[+1 Production] from all [Barracks] buildings <when at war>",
+                 	"[+15]% Production when constructing [Military] units [in all cities]",
+			"[+10]% Strength <when defending> <for [All] units> <when fighting in [Enemy Land] tiles>",
+			"[+10]% Strength <for [Siege] units> <when fighting in [Enemy Land] tiles>",
+			"[+10]% Strength <for [Mounted] units> <when fighting in [Enemy Land] tiles>",
+			"Comment [-Teach peasant the way of the true war crimes]",
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Official Dogma",
+                "uniques": [
+			"[Gold] cost of purchasing [Spear] units [-15]%",
+                    	"[+10]% [Gold] [in capital]",
+                    	"Free [General] appears",
+                    	"[+1 Happiness] [in capital]",
+                    	"Provides [1] [Veteran]",
+    		    	"Only available <after adopting [Total War]>",
+    		    	"Only available <after adopting [Civil Administration]>",
+                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [40] turns",
+                ],
+                "row": 4,
+                "column": 1
+            },
+            {
+                "name": "Standardization",
+                "uniques": [
+                    	"[+15]% [Gold] [in capital]",
+                    	"[+1 Happiness] [in capital]",
+			"[+1 Production] from all [Market] buildings",
+			"[+1 Gold] from all [Market] buildings",
+    		    	"Only available <after adopting [Total War]>",
+                    	"[-10]% Unhappiness from [Population] [in all cities]",
+    		    	"Only available <after adopting [Civil Administration]>",
+                ],
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "Imperial Doctrine",
+                "requires": ["Standardization","Official Dogma"],
+                "uniques": [
+                    	"[+50]% Golden Age length",
+			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+       		 	"New [Military] units start with [5] XP [in all cities]",
+			"[Gold] cost of purchasing [Military] units [-10]%",
+                  	 "[+1 Happiness] [in annexed cities] <in cities with a [Barracks]>",
+                    	"[+5]% [Production] [in capital]",
+                    	"[+5]% [Gold] [in all cities] <after adopting [Civil Administration]>",
+                    	"Provides [2] [Veteran] <after adopting [Total War]>",
+	],
+                "row": 5,
+                "column": 3
+            },
+            {
+                "name": "Empire Complete",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Theocracy",
+        "era": "Hellenistic Age",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 50,
+            "Domination": 50,
+        },
+        "uniques": [
+            "[+1 Happiness] [in all cities]",
+            "[+1 Happiness] [in capital]",
+            "Only available <before adopting [Federation]>",
+            "Only available <before adopting [Empire]>",
+        "[+50]% Culture cost of adopting new Policies",
+        ],
+        "policies": [
+            {
+                "name": "Divine Mandate",
+                "uniques": [
+                    "[+1 Faith] per [10] population [in all cities]",
+                    "[+1 Faith] per [5] population [in capital]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Clergy Authority",
+                "uniques": [
+                    "[+10]% Production when constructing [Civilian] units [in all cities]",
+                    "[+15]% Production when constructing [Scout] units [in all cities]",
+                    "[+1 Happiness] per [5] population [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Religious Law",
+                "uniques": [
+                    "[+1 Production] per [10] population [in all cities]",
+                    "Free [Great Prophet] appears",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Zealotry",
+                "requires": ["Divine Mandate","Clergy Authority","Religious Law"],
+                "uniques": [
+			"Provides [5] [Manpower]",
+               		"Remove [Noble District] [in all cities]",
+                 	"[+10]% City-State Influence degradation",
+                 	"[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
+                 	"[+1 Happiness] [in capital]",
+       			"[-30]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+			"[Faith] cost of purchasing [Military] units [-10]%"
+    		  	"Only available <before adopting [Slave Liberation]>",
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "War Priests",
+                "requires": ["Zealotry"],
+                "uniques": [
+			"Comment [All units nearby Prophet gain extra strength]",
+                    	"[Scout] units gain the [Berserker] promotion",
+                    	"Earn [20]% of killed [Military] unit's [Strength] as [Faith]",
+                	"[+15]% Production when constructing [Military] units [in all cities]",
+                    	"Free [Great Prophet] appears",
+                  	 "[+1 Happiness] [in annexed cities] <in cities with a [Temple]>",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Slave Liberation",
+                "requires": ["Divine Mandate","Clergy Authority","Religious Law"],
+                "uniques": [
+    			"Only available <before adopting [Zealotry]>",
+               		"Remove [Slave Trader] [in all cities]",
+               		"[-20]% maintenance costs <for [Archery] units>",
+               		"[-20]% maintenance costs <for [Scout] units>",
+			"[Faith] cost of purchasing [Military] units [-10]%",
+       		 	"[-20]% maintenance costs <for [Military] units> <in [Friendly Land] tiles>",
+			"Provides [10] [Manpower]",
+               		"[+1 Happiness] per [10] population [in all cities]",
+               		"[+1 Happiness] [in capital]",
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Faithful Unity",
+                "requires": ["Slave Liberation"],
+                "uniques": [
+                   	 "[+20]% XP gained from combat <for [Military] units>",
+              		"[+15]% City-State Influence degradation",
+                    	"[-20]% Unhappiness from [Population] [in all cities]"
+                   	 "[+1 Happiness] [in capital]",
+                   	 "[+1 Food] from every [Farm]",
+                   	 "[-1 Gold] from every [Farm]",
+                    	"[+1 Food] from every [Pasture]",
+                   	 "[+1 Food] from every [Plantation]",
+                ],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Keeper of Traditions",
+                "uniques": [
+                    	"[+1 Happiness] [in capital]"
+                    	"[+20]% XP gained from combat <for [Military] units>",
+			"[+1 Happiness] from all [Grand Temple] buildings <when not at war>",
+                    	"[-10]% Unhappiness from [Population] [in all cities]",
+			"Comment [All units adjacent Prophet heal extra HP when healing]",
+		    	"Only available <after adopting [Faithful Unity]>",
+		    	"Only available <after adopting [War Priests]>",
+                ],
+                "row": 4,
+                "column": 1
+            },
+            {
+                "name": "Seal of Heaven",
+                "uniques": [
+                	"Free [Great Prophet] appears",
+                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [35] turns",
+			"[+2 Food] from all [Grand Temple] buildings <when not at war>",
+                    	"[+1 Happiness] [in capital]",
+		 	"Only available <after adopting [Faithful Unity]>",
+		 	"Only available <after adopting [War Priests]>",
+                ],
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "Divide Consription",
+                "requires": ["Seal of Heaven","Keeper of Traditions"],
+                "uniques": [
+			"May buy [Military] units with [Faith] for [2] times their normal Production cost",
+                    	"[+50]% Golden Age length",
+			"[+15]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
+              		"[-20]% maintenance costs <for [Spear] units>",
+			"[+10]% growth [in all cities] <when not at war> <after adopting [Faithful Unity]>",
+     		 	"May buy [Barracks] buildings with [Faith] [in all cities] <after adopting [War Priests]>",
+     		 	"May buy [Army Barracks] buildings with [Faith] [in all cities] <after adopting [War Priests]>",
+     		 	"May buy [Skirmisher Barracks] buildings with [Faith] [in all cities] <after adopting [War Priests]>",
+     		 	"May buy [Cavalry Barracks] buildings with [Faith] [in all cities] <after adopting [War Priests]>",
+                    	"[+1 Happiness] [in capital]",
+                ],
+                "row": 5,
+                "column": 3
+            },
+            {
+                "name": "Theocracy Complete",
+                "uniques": [
+                ]
+            }
+        ]
+    }
+]

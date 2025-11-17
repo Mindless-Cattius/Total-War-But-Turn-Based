@@ -1741,7 +1741,7 @@
   },
   {
     "name": "General",
-    "unitType": "King",
+    "unitType": "Mounted",
     "movement": 4,
     "strength": 14,
     "cost": 500,
@@ -1837,7 +1837,7 @@
   },
   {
     "name": "King",
-    "unitType": "King",
+    "unitType": "Ruler",
     "movement": 3,
     "strength": 15,
     "cost": 170,
@@ -1860,7 +1860,7 @@
 
   {
     "name": "Scythian King",
-    "unitType": "King",
+    "unitType": "Ruler",
     "uniqueTo": "The Scythians",
     "replaces": "King",
     "movement": 4,
@@ -1885,7 +1885,7 @@
   }
   {
     "name": "Emperor",
-    "unitType": "King",
+    "unitType": "Ruler",
     "uniqueTo": "The Romans",
     "replaces": "King",
     "movement": 3,
