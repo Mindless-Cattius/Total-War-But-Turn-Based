@@ -2080,7 +2080,7 @@
     "name": "Scythian Nobles",
     "uniqueTo": "The Scythians",
     "replaces": "General",
-    "unitType": "King",
+    "unitType": "Ruler",
     "movement": 3,
     "strength": 11,
   "rangedStrength": 11,

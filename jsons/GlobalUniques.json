@@ -28,8 +28,6 @@
 //Units
 
  "[+50]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
-    "[-1 Happiness] [in all cities] <when [King]> <upon being defeated> <for [5] turns> <(modified by game speed)>",
-	"Rebel units may spawn <with [100]% chance> <when [King]> <upon being defeated>",
 
 //Cities
 	"[-40]% Strength for cities <when attacking>",
