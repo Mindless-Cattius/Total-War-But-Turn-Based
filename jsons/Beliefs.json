@@ -630,7 +630,7 @@
         "name": "Just War",
         "type": "Enhancer",
         "uniques": ["[+10]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
-		"[+2 Happiness] from all [Grand Temple] buildings <when at war>"],
+		"[+2 Happiness] from all [Grand Temple] buildings <when at war>",
         	"[+5]% Strength <for [Sword] units> <when above [100] [Happiness]>",
 ]
     },

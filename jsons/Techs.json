@@ -286,7 +286,7 @@
 			{
 				"name": "Cultural Exchange",
 				"row": 1,
-				"prerequisites": ["Philosophy","Entertainment","Trade Route"],
+				"prerequisites": ["Philosophy","Entertainment","Trade Routes"],
 				"uniques": [
 				"Allied City-States provide [Culture] equal to [15]% of what they produce for themselves",
 				"Allied City-States provide [Science] equal to [15]% of what they produce for themselves",
