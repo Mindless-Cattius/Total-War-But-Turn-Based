@@ -632,7 +632,6 @@
         "uniques": ["[+10]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
 		"[+2 Happiness] from all [Grand Temple] buildings <when at war>"],
         	"[+5]% Strength <for [Sword] units> <when above [100] [Happiness]>",
-        // ToDo: Should only be enemy territory of cities that follow this religion
     },
     {
         "name": "Messiah",
