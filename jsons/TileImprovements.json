@@ -290,6 +290,7 @@
 			"Great Improvement",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+150 Gold]",
+  "[-1 Happiness, -1 Food, -1 Production, +1 Culture] for each adjacent [Village]",
 			"Tile provides yield without assigned population",
 			"Unbuildable <for [Worker] units>",
 		]

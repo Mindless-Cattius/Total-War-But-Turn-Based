@@ -1026,7 +1026,7 @@
 		"uniques": [
 		"Provides [1] [Manpower]",
 		"Comment [Reduces the Production and Food penalty in Cities with a Courthouse]",
-		"Can only be built <in [Annexed] cities>,
+		"Can only be built <in [Annexed] cities>",
 		"New [Spearman] units start with [5] XP [in this city]",
 		"Destroyed when the city is captured",
 		"[+2 Food] [in this city] <for [The Scythians] Civilizations>",
