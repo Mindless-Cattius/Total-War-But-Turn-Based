@@ -29,7 +29,7 @@
 	{
 		"name": "Make Capital",
 		"cost": 250,
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"production": 3,
 		"culture": 1,
@@ -289,9 +289,10 @@
 		"name": "Temple",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"faith": 2,
+		"faith": 1,
 		"cost": 70,
 		"culture": 1,
+ "happiness": 1,
 		"specialistSlots": {"Priest": 1},
 		"requiredBuilding": "Shrine",
 		"uniques": [
@@ -307,7 +308,10 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"faith": 1,
-		"uniques": ["Provides [1] [Decadence]"],
+		"uniques": [
+"Cost increases by [15] per owned city"
+"Provides [1] [Decadence]"
+],
 		"requiredTech": "Mysticism"
 	},
 	// Entertainment
@@ -364,6 +368,7 @@
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Only available <in cities without a [Harbor]> <hidden from users>",
+"Cost increases by [15] per owned city"
 ],
 		"civilopediaText": [{"text": "A grand show of violence and death keeps the masses busy and enhances our warrior culture."}]
 	},
@@ -413,7 +418,7 @@
 		"Food": 1,
 		"happiness": 1,
 		"uniques": [
-		"[+1 Gold] from [Fish] tiles [in this city]","[+2 Gold] from [Crab] tiles [in this city]"
+		"[+1 Gold] from [Fish] tiles [in this city]"
 		],
 		"requiredTech": "Entertainment"
 	},
@@ -449,6 +454,7 @@
 			"[+1 Gold] per [10] population [in this city]",
 			"[+1 Science] <in cities with a [Scriptorium]>",
 			"[+1 Food] <in cities with a [Herbalist]>",
+"Cost increases by [50] per owned city",
 			"Consumes [1] [Decadence] <in cities with a [School]> <during a Golden Age>"
 		],
 		"requiredTech": "Philosophy"
@@ -1004,6 +1010,7 @@
 		"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
+"Cost increases by [50] per owned city",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Equestrian Class"
@@ -1019,13 +1026,14 @@
 		"uniques": [
 		"Provides [1] [Manpower]",
 		"Comment [Reduces the Production and Food penalty in Cities with a Courthouse]",
-		"Can only be built <in [Annexed] cities> <before adopting [Hellenistic Culture]>"
+		"Can only be built <in [Annexed] cities>,
 		"New [Spearman] units start with [5] XP [in this city]",
 		"Destroyed when the city is captured",
 		"[+2 Food] [in this city] <for [The Scythians] Civilizations>",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[-1 Food, +1 Production] from [Fort] tiles [in this city]",
 		"[-1 Food, +1 Gold] from [Village] tiles [in this city]",
+"Cost increases by [20] per owned city",
 		],
 		"requiredTech": "Land Grants"
 	},
@@ -1075,6 +1083,7 @@
 			"Provides [2] [Manpower]",
 			"Provides [1] [Manpower] <during the [Imperial Age]>",
 			"[+10]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
+"Cost increases by [20] per owned city",
 			"Destroyed when the city is captured"
 			"[+100]% weight to this choice for AI decisions",
 		],
@@ -1083,7 +1092,7 @@
 	{
 		"name": "Syssition",
 		"replaces": "Barracks",
- 		"cost": 250,
+ 		"cost": 220,
 		"uniqueTo": "The Spartans",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -1093,6 +1102,7 @@
 		"Provides [1] [Manpower] <during the [Imperial Age]>",
 		"Consumes [1] [Decadence] <in cities with a [Syssition]>",
 		"New [Spear] units start with [10] XP [in this city]",
+"Cost increases by [20] per owned city",
 		"[+10]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
 		"Destroyed when the city is captured"
 		],
@@ -1131,6 +1141,7 @@
 			"New [Sword] units start with [5] XP [in this city]",
 			"[+1 Production] from [Fort] tiles [in this city]",
 			"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
+"Cost increases by [50] per owned city",
 			"Only available <in cities without a [Cavalry Barracks]>",
 			"Only available <in cities without a [Skirmisher Barracks]>",
 			"Destroyed when the city is captured",
@@ -1339,7 +1350,7 @@
 		"requiredBuilding": "Temple",
 		"requiredNearbyImprovedResources": ["Marble","Stone"],
 		"hurryCostModifier": 25,
- "cost": 330,
+ "cost": 250,
 		"maintenance": 1,
 		"happiness": 2,
 		"culture": 2,
@@ -1350,6 +1361,7 @@
 		"[+1 Gold] from [Fort] tiles [in this city]",
 		"[-1 Food, +1 Culture] from [Village] tiles [in this city]",
 		"Doubles Gold given to enemy if city is captured",
+"Cost increases by [20] per owned city",
 		],
 		"requiredTech": "Construction"
 	},
@@ -1461,6 +1473,7 @@
 			"New [Mounted Archery] units start with [5] XP [in this city] <after discovering [Heavy Archery Tactics]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
+"Cost increases by [30] per owned city",
 			"Only available <in cities without a [Cavalry Barracks]>",
 			"Only available <in cities without a [Army Barracks]>",
 			"Destroyed when the city is captured"

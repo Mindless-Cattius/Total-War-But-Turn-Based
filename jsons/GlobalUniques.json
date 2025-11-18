@@ -35,8 +35,8 @@
 	"[-20]% Strength for cities <vs [Scout] units> <when attacking>",
 
 	"[-80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
-	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
-	"[-70]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
+	"[-20]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
+	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
 
 //GOLD
 
@@ -78,11 +78,10 @@
         "[-1]% growth [in all cities] <when above [100] [Manpower]>",
 
 // Happiness & Population
-	
-	"[+5]% unhappiness from the number of cities <in cities with between [10] and [15] [Population]>",
-	"[+10]% unhappiness from the number of cities <in cities with between [16] and [20] [Population]>",
-	"[+15]% unhappiness from the number of cities <in cities with between [21] and [30] [Population]>",
-	"[+20]% unhappiness from the number of cities <in cities with between [31] and [9999] [Population]>",
+
+	"[+5]% unhappiness from the number of cities <in cities with between [16] and [20] [Population]>",
+	"[+10]% unhappiness from the number of cities <in cities with between [21] and [30] [Population]>",
+	"[+15]% unhappiness from the number of cities <in cities with between [31] and [9999] [Population]>",
 
 
 	"[-1 Happiness] [in this city] <in cities with between [10] and [15] [Population]>",
@@ -106,9 +105,6 @@
         "[-5]% growth [in all cities] <when below [-30] [Happiness]>",
         "Nullifies Growth [in all cities] <when below [-40] [Happiness]>",
 
-        "[-10]% [Production] [in all cities] <when below [150] [Happiness]>",
-        "[-10]% [Production] [in all cities] <when below [50] [Happiness]>",
-        "[-10]% [Production] [in all cities] <when below [1] [Happiness]>",
         "[-10]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-10]% [Production] [in all cities] <when below [-20] [Happiness]>",
         "Cannot build [Settler] units <when below [-15] [Happiness]>",
@@ -160,7 +156,7 @@
 	"Rebel units may spawn <with [45]% chance> <when below [20] [Happiness]>",
 	"Rebel units may spawn <with [55]% chance> <when below [10] [Happiness]>",
 	"Rebel units may spawn <with [75]% chance> <when below [5] [Happiness]>",
-	"Rebel units may spawn <with [100]% chance> <when below [0] [Happiness]>",
+	"Rebel units may spawn <with [90]% chance> <when below [0] [Happiness]>",
         "Rebel units may spawn <when below [500] [Happiness]>",
 // Events
 

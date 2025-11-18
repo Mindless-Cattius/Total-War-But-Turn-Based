@@ -5,7 +5,7 @@
         "name": "Cult of Toutatis",
         "type": "Pantheon",
         "uniques": [
-        "[+20]% Production when constructing [Sword] units [in this city]",
+        "[+10]% Production when constructing [Sword] units [in this city]",
         "New [Naked Warrior] units start with [10] XP [in this city]",
         "Only available <after adopting [Celtic Culture]>"
         ]
@@ -14,7 +14,7 @@
         "name": "Cult of Lugh",
         "type": "Pantheon",
         "uniques": [
-        "[+10]% [Culture] [in this city]",
+        "[+5]% [Culture] [in this city]",
         "[+1 Food] [in cities following this religion] <in cities with at least [10] [Population]>",
         "Only available <after adopting [Celtic Culture]>"
         ]
@@ -24,7 +24,7 @@
         "type": "Pantheon",
         "uniques": [
         "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion",
-        "New [Mounted] units start with [15] XP [in this city]",
+        "New [Mounted] units start with [5] XP [in this city]",
         "Only available <after adopting [Celtic Culture]>"
         ]
     },
@@ -32,7 +32,7 @@
         "name": "Cult of Tarannis",
         "type": "Pantheon",
         "uniques": [
-        "New [Horseman] units start with [10] XP [in this city]",
+        "New [Horseman] units start with [15] XP [in this city]",
         "All newly-trained [Horseman] units [in this city] receive the [Scouting I] promotion",
         "Only available <after adopting [Celtic Culture]>"
         ]
@@ -41,7 +41,7 @@
         "name": "Cult of Abnoba",
         "type": "Pantheon",
         "uniques": [
-        "New [Archery] units start with [20] XP [in this city]",
+        "New [Archery] units start with [25] XP [in this city]",
         "Only available <after adopting [Celtic Culture]>"
         ]
     },
@@ -57,8 +57,8 @@
         "name": " Cult of Nantosuelta",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Faith, +2 Production] in cities on [Iron] tiles",
-        "[+2 Faith, +1 Production] in cities on [Copper] tiles",
+        "[+1 Faith, +1 Production] in cities on [Iron] tiles",
+        "[+1 Faith, +1 Production] in cities on [Copper] tiles",
         "Only available <after adopting [Celtic Culture]>"
         ]
     },
@@ -67,7 +67,7 @@
         "name": "Cult of Ahura Mazda",
         "type": "Pantheon",
         "uniques": [
-        "[+2 Happiness] from every [Temple]",
+        "[+1 Happiness] from every [Temple]",
         "[+1 Faith] from every [Temple]",
         "Only available <for [The Arsacids] Civilizations>"
         ]
@@ -85,7 +85,7 @@
         "name": "Cult of Tabiti", 
         "type": "Pantheon",
         "uniques": [
-        "[+30]% Strength for cities <when defending>",
+        "[+20]% Strength for cities <when defending>",
         "Only available <for [The Roxolani] Civilizations>"
         ]
     },
@@ -93,7 +93,7 @@
         "name": "Cult of Armazd",
         "type": "Pantheon",
         "uniques": [
-        "[+15]% growth [in this city]",
+        "[+10]% growth [in this city]",
         "Only available <for [The Armenians] Civilizations>"
         ]
     },
@@ -102,7 +102,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Happiness] in cities on [River] tiles",
-        "[+15]% Production when constructing [Archery] units [in this city]",
+        "[+10]% Production when constructing [Archery] units [in this city]",
         "New [Ranged] units start with [10] XP [in this city]",
         "Only available <after adopting [Eastern Culture]>"
         ]
@@ -111,7 +111,7 @@
         "name": "Cult of Verethragna",
         "type": "Pantheon",
         "uniques": [
-        "New [Melee] units start with [15] XP [in this city]",
+        "New [Melee] units start with [20] XP [in this city]",
         "Only available <after adopting [Eastern Culture]>"
         ]
     },
@@ -121,7 +121,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+2 Happiness] from every [Barracks]",
-        "New [Melee] units start with [15] XP [in this city]",
+        "New [Melee] units start with [10] XP [in this city]",
         "Only available <after adopting [Germanic Culture]>"
         ]
     },
@@ -130,7 +130,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>",
-        "[+1 Gold] [in cities following this religion] <in cities with at least [10] [Population]>",
+        "[+2 Gold] [in cities following this religion] <in cities with at least [10] [Population]>",
         "Only available <after adopting [Germanic Culture]>"
         ]
     },
@@ -138,7 +138,7 @@
         "name": "Cult of Freyja",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Culture, +1 Food, +1 Gold] from every [Camp]",
+        "[+1 Faith, +1 Food, +1 Gold] from every [Camp]",
         "Only available <after adopting [Germanic Culture]>"
         ]
     },
@@ -156,7 +156,7 @@
         "name": "Cult of Athena",
         "type": "Pantheon",
         "uniques": [
-        "[+20]% Strength for cities <when defending>",
+        "[+10]% Strength for cities <when defending>",
         "[+1 Science] from every [Temple]",
         "[+1 Culture] from every [Temple]",
         "Only available <after adopting [Hellenic Culture]>"
@@ -166,8 +166,8 @@
         "name": "Cult of Poseidon",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Culture] from every [Harbor]",
-        "[+2 Culture] from every [Great Harbor]",
+        "[+1 Gold, +1 Faith] from every [Harbor]",
+        "[+2 Gold, +1 Faith, +1 Food] from every [Great Harbor]",
         "New [Mounted] units start with [10] XP [in this city]",
         "New [Melee Water] units start with [10] XP [in this city]",
         "Only available <after adopting [Hellenic Culture]>"
@@ -177,8 +177,8 @@
         "name": "Cult of Ares",
         "type": "Pantheon",
         "uniques": [
-        "New [Spear] units start with [15] XP [in this city]",
-        "[+1 Culture] from every [Barracks]",
+        "New [Spear] units start with [5] XP [in this city]",
+        "[+1 Happiness] from every [Barracks]",
         "Only available <after adopting [Hellenic Culture]>"
         ]
     },
@@ -187,8 +187,8 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Food] [in this city]",
-        "[+1 Culture] from every [Skirmisher Barracks]",
-        "[+15]% Production when constructing [Archery] units [in this city]",
+        "[+1 Happiness] from every [Skirmisher Barracks]",
+        "[+10]% Production when constructing [Archery] units [in this city]",
         "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
@@ -217,7 +217,7 @@
         "uniques": [
         "New [Foot Guard] units start with [20] XP [in this city]",
         "New [King] units start with [15] XP [in this city]",
-        "[+25]% [Culture] [in annexed cities]",
+        "[+10]% [Culture] [in annexed cities]",
         "Only available <after adopting [Hellenistic Culture]>",
         ]
     },
@@ -225,7 +225,7 @@
         "name": "Cult of Nike",
         "type": "Pantheon",
         "uniques": [
-        "New [Melee] units start with [15] XP [in this city]",
+        "New [Melee] units start with [20] XP [in this city]",
         "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
@@ -234,7 +234,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Faith, +1 Food] from every [Temple]",
-        "[All] Units adjacent to this city heal [+10] HP per turn when healing",
+        "[All] Units adjacent to this city heal [+5] HP per turn when healing",
         "Only available <for [The Ptolemies] Civilizations>"
         ]
     },
@@ -242,9 +242,9 @@
         "name": "Cult of Serapis",
         "type": "Pantheon",
         "uniques": [
-        "[+2 Food] from every [Granary]",
+        "[+1 Food] from every [Granary]",
         "[+2 Gold] from every [Grain Exports]",
-        "[+1 Food, +1 Gold] from every [Palace]",
+        "[+2 Food, +2 Gold] from every [Palace]",
         "Only available <for [The Ptolemies] Civilizations>"
         ]
     },
@@ -252,8 +252,8 @@
         "name": "Cult of Ptah",
         "type": "Pantheon",
         "uniques": [
-        "[+2 Faith, +1 Production, +1 Gold] from every [Workshop]",
-        "New [Siege] units start with [15] XP [in this city]",
+        "[+2 Faith, +1 Production, +2 Gold] from every [Workshop]",
+        "New [Siege] units start with [10] XP [in this city]",
         "Only available <for [The Ptolemies] Civilizations>"
         ]
     },
@@ -263,7 +263,7 @@
         "type": "Pantheon",
         "uniques": [
         "New [Mounted] units start with [10] XP [in this city]",
-        "[+1 Faith] from every [Cavalry Barracks]",
+        "[+2 Faith] from every [Cavalry Barracks]",
         "Only available <after adopting [Iberian Culture]>"
         ]
     },
@@ -279,8 +279,8 @@
         "name": "Cult of Ataegina",
         "type": "Pantheon",
         "uniques": [
-        "[+10]% growth [in this city]",
-        "[+1 Faith] from every [Granary]",
+        "[+5]% growth [in this city]",
+        "[+1 Faith, +1 Food] from every [Granary]",
         "Only available <after adopting [Iberian Culture]>"
         ]
     },
@@ -289,8 +289,8 @@
         "name": "Cult of Tadenus",
         "type": "Pantheon",
         "uniques": [
-        "[+10]% [Gold] [in this city]",
-        "[+1 Faith] from every [Market]",
+        "[+5]% [Gold] [in this city]",
+        "[+1 Faith, +1 Gold] from every [Market]",
         "Only available <after adopting [Illyrian Culture]>"
         ]
     },
@@ -299,7 +299,7 @@
         "type": "Pantheon",
         "uniques": [
         "All newly-trained [Spear] units [in this city] receive the [Shock I] promotion",
-        "[+1 Culture] from every [Barracks]",
+        "[+1 Happiness] from every [Barracks]",
         "Only available <after adopting [Illyrian Culture]>"
         ]
     },
@@ -307,7 +307,7 @@
         "name": "Cult of Armatus",
         "type": "Pantheon",
         "uniques": [
-        "New [Melee Water] units start with [20] XP [in this city]",
+        "New [Melee Water] units start with [30] XP [in this city]",
         "[+1 Gold] from every [Drydock]",
         "Only available <after adopting [Illyrian Culture]>"
         ]
@@ -334,7 +334,7 @@
         "type": "Pantheon",
         "uniques": [
         "New [Sword] units start with [15] XP [in this city]",
-        "[+1 Culture] from every [Army Barracks]",
+        "[+2 Faith] from every [Army Barracks]",
         "Only available <after adopting [Latin Culture]>"
         ]
     },
@@ -344,8 +344,8 @@
         "uniques": [
         "[+1 Food] from every [Anchorage]",
         "[+1 Food, +1 Gold] from every [Harbor]",
-        "[+1 Food, +1 Gold] from every [Great Harbor]",
-        "[+10]% Production when constructing [Water] units [in this city]",
+        "[+1 Food, +1 Gold, +1 Faith] from every [Great Harbor]",
+        "[+5]% Production when constructing [Water] units [in this city]",
         "Only available <after adopting [Latin Culture]>"
         ]
     },
@@ -364,9 +364,9 @@
         "name": "Cult of Baal Saphon",
         "type": "Pantheon",
         "uniques": [
-        "[+2 Gold, +1 Culture] from every [Harbor]",
-        "[+4 Gold] from every [Great Harbor]",
-        "[+15]% Production when constructing [Water] units [in this city]",
+        "[+2 Gold, +1 Faith] from every [Harbor]",
+        "[+4 Gold, +1 Faith] from every [Great Harbor]",
+        "[+10]% Production when constructing [Water] units [in this city]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
@@ -375,7 +375,7 @@
         "name": "Cult of Melquart",
         "type": "Pantheon",
         "uniques": [
-        "[+2 Culture] from every [Barracks]",
+        "[+1 Gold] from every [Barracks]",
         "New [Spear] units start with [15] XP [in this city]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
@@ -385,8 +385,8 @@
         "name": "Cult of Astarte",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Culture] from every [Cavalry Barracks]",
-        "New [Mounted] units start with [20] XP [in this city]",
+        "[+2 Happiness] from every [Cavalry Barracks]",
+        "New [Mounted] units start with [15] XP [in this city]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
@@ -396,7 +396,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+2 Food, +1 Faith] from every [Granary]",
-        "[+2 Gold, +1 Culture] from every [Grain Exports]",
+        "[+2 Gold, +1 Faith] from every [Grain Exports]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
@@ -406,7 +406,7 @@
         "name": "Cult of The Cabeiri",
         "type": "Pantheon",
         "uniques": [
-        "[+2 Happiness, +2 Culture, +1 Science, +1 Production, +3 Gold] [in capital]",
+        "[+3 Happiness, +3 Culture, +3 Science, +3 Production, +5 Gold] [in capital]",
         "Only available <for [The Odrysians] Civilizations>"
         ]
     },
@@ -414,8 +414,8 @@
         "name": "Cult of Zalmoxis",
         "type": "Pantheon",
         "uniques": [
-        "[+30]% Production when constructing [Hill Fort] buildings [in this city]",
-        "[+1 Culture] from every [Hill Fort]",
+        "[+20]% Production when constructing [Hill Fort] buildings [in this city]",
+        "[+1 Happiness] from every [Hill Fort]",
         "New [Falxman] units start with [10] XP [in this city]",
         "Only available <for [The Getae] Civilizations>"
         ]
@@ -424,7 +424,7 @@
         "name": "Cult of Zagreus",
         "type": "Pantheon",
         "uniques": [
-        "[+3 Culture, +1 Faith] from [Wine] tiles [in this city]",
+        "[+3 Culture, +2 Faith] from [Wine] tiles [in this city]",
         "[+10]% Production when constructing [Scout] units [in this city]",
         "New [Scout] units start with [20] XP [in this city]",
         "Only available <after adopting [Thracian Culture]>"
@@ -434,8 +434,8 @@
         "name": "Cult of Salenos",
         "type": "Pantheon",
         "uniques": [
-        "New [Mounted] units start with [10] XP [in this city]",
-        "[+1 Culture] from [Wine] tiles [in this city]",
+        "New [Mounted] units start with [15] XP [in this city]",
+        "[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
         "Only available <after adopting [Thracian Culture]>"
         ]
     },
@@ -450,7 +450,7 @@
         "type": "Follower",
         "uniques": [
 		"May buy [Cathedral] buildings with [Faith] [in cities following this religion]",
-        	"[+1 Culture] from every [Temple]",
+        	"[+1 Gold] from every [Temple] <in cities with at least [7] [Followers of this Religion]>",
 	]
     },
     {
@@ -461,7 +461,7 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+8 Faith, +1 Gold] from every [Wonder]"]
+        "uniques": ["[+5 Faith, +5 Gold] from every [Wonder]"]
     },
     {
         "name": "Feed the World",
@@ -497,7 +497,7 @@
         "name": "Mosques",
         "type": "Follower",
         "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"
-        	"[+1 Gold] from every [Temple] <in cities with at least [7] [Followers of this Religion]>",
+        	"[+1 Food] from every [Temple] <in cities with at least [7] [Followers of this Religion]>",
 	]
     },
     {
@@ -608,9 +608,9 @@
         "name": "Defender of the Faith",
         "type": "Enhancer",
         "uniques": [
-		"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+		"[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 		"[+2 Happiness] from all [Grand Temple] buildings <when not at war>",
-        	"[+10]% Strength <for [Infantry Shield III] units> <when above [100] [Happiness]>",
+        	"[+10]% Strength <for [Spear] units> <when above [100] [Happiness]>",
 	]
         // ToDo: Should only be friendly territory of cities that follow this religion
     },
@@ -623,20 +623,25 @@
         "name": "Itinerant Preachers",
         "type": "Enhancer",
         "uniques": [
-		"Religion naturally spreads to cities [+3] tiles away"
+		"Religion naturally spreads to cities [+3] tiles away",
+        	"[+15]% Strength <for [Infantry Shield I] units> <when above [100] [Happiness]>",
 ]
     },
     {
         "name": "Just War",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
-		"[+2 Happiness] from all [Grand Temple] buildings <when at war>"]
+        "uniques": ["[+10]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
+		"[+2 Happiness] from all [Grand Temple] buildings <when at war>"],
+        	"[+5]% Strength <for [Sword] units> <when above [100] [Happiness]>",
         // ToDo: Should only be enemy territory of cities that follow this religion
     },
     {
         "name": "Messiah",
         "type": "Enhancer",
-        "uniques": ["[+35]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+        "uniques": ["[+35]% Spread Religion Strength <for [Great Prophet] units>", 
+             "[-20]% Faith cost of generating Great Prophet equivalents",
+        	"[+10]% Strength <for [Horseman] units> <when above [100] [Happiness]>",
+]
     },
 //    {
 //        "name": "Missionary Zeal",
@@ -646,29 +651,37 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+50]% Natural religion spread [in all cities]"]
+        "uniques": ["[+40]% Natural religion spread [in all cities]",
+        	"[+15]% Strength <for [Scout] units> <when above [100] [Happiness]>",
+]
     },
     {
         "name": "Religious Unity",
         "type": "Enhancer",
-        "uniques": ["[+120]% Natural religion spread [in City-State cities]"]
+        "uniques": ["[+120]% Natural religion spread [in City-State cities]",
+        	"[+5]% Strength <for [Military] units> <when above [100] [Happiness]>",
+]
     },
     {
         "name": "Reliquary",
         "type": "Enhancer",
-		"uniques": ["Gain [400] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>"],
+		"uniques": ["Gain [400] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+        	"[+10]% Strength <for [Mounted] units> <when above [100] [Happiness]>",],
     }
     {
         "name": "Zealot Warriors",
         "type": "Enhancer",
 		"uniques": [
-        "New [Military] units start with [10] XP [in this city]"],
+        "New [Military] units start with [15] XP [in this city]",
+        	"New [Military] units start with [10] XP [in this city] <when above [100] [Happiness]>",
+],
     }
     {
         "name": “Sacred Citadels",
         "type": "Enhancer",
 		"uniques": ["[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-        "[+15]% Strength for cities <when defending>",
+        	"[+10]% Strength <for [Infantry Shield III] units> <when above [50] [Happiness]>",
+        "[+10]% Strength for cities <when defending>",
 	],
     }
     {
@@ -676,7 +689,8 @@
         "type": "Enhancer",
 		"uniques": [
 	"[+25]% Natural religion spread [in all cities]",
-	"Religion naturally spreads to cities [+1] tiles away"
+	"Religion naturally spreads to cities [+1] tiles away",
+        	"[+5]% Strength <for [Infantry Shield II] units> <when above [100] [Happiness]>",
 	],
     }
 ]

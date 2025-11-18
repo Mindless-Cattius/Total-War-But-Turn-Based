@@ -109,7 +109,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Archaic Age",
-		"techCost": 275,
+		"techCost": 400,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -155,14 +155,14 @@
 	{
 		"columnNumber": 4,
 		"era": "Classical Age",
-		"techCost": 375,
+		"techCost": 605,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Hospitum",
 				"row": 1,
-				"prerequisites": ["Diplomacy"],
+				"prerequisites": ["Diplomacy","Land Grants"],
 				"uniques": [
 				"Resting point for Influence with City-States is increased by [20]",
 				"Enables Open Borders agreements",
@@ -181,7 +181,7 @@
 			{
 				"name": "Riding",
 				"row": 4,
-				"prerequisites": ["The Wheel"],
+				"prerequisites": ["The Wheel","Bronze Working"],
 				"quote": "'Man is the most intelligent of the animals - and the most silly.' - Diogenes"
 			},
 			{
@@ -196,13 +196,13 @@
 			{
 				"name": "Citizen Levy",
 				"row": 6,
-				"prerequisites": ["Bronze Working"],
+				"prerequisites": ["Bronze Working","Land Grants"],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Masonry",
 				"row": 7,
-				"prerequisites": ["Bronze Working"],
+				"prerequisites": ["The Wheel","Bronze Working"],
 				"quote": "When someone wished to know why Sparta didn't have any walls, Agesilaus pointed to the citizens in full armour and said, 'These are the Spartans' walls.'"
 			},
 			{
@@ -214,7 +214,7 @@
 			{
 				"name": "Optics",
 				"row": 9,
-				"prerequisites": ["Shipbuilding"],
+				"prerequisites": ["Shipbuilding","Bronze Working"],
 				"quote": "'It is not enough to be industrious; so are the ants. What are you industrious about?.' - Henry David Thoreau"
 			}
 		]
@@ -222,7 +222,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical Age",
-		"techCost": 585,
+		"techCost": 705,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -279,14 +279,14 @@
 	{
 		"columnNumber": 6,
 		"era": "Hellenistic Age",
-		"techCost": 980,
+		"techCost": 1100,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Cultural Exchange",
 				"row": 1,
-				"prerequisites": ["Philosophy","Entertainment"],
+				"prerequisites": ["Philosophy","Entertainment","Trade Route"],
 				"uniques": [
 				"Allied City-States provide [Culture] equal to [15]% of what they produce for themselves",
 				"Allied City-States provide [Science] equal to [15]% of what they produce for themselves",
@@ -296,27 +296,27 @@
 			{
 				"name": "Tax Farming",
 				"row": 3,
-				"prerequisites": ["Trade Routes","Entertainment"],
+				"prerequisites": ["Trade Routes","Entertainment","Equestrian Class"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The great thieves lead away the little thief.' - Diogenes"
 			},
 			{
 				"name": "Supply Logistics",
 				"row": 5,
-				"prerequisites": ["Public Works","Equestrian Class"],
+				"prerequisites": ["Public Works","Equestrian Class","Infantry Training"],
 				"uniques": ["[-25]% Gold cost of acquiring tiles [in all cities]","Improves movement speed on roads"],
 				"quote": "'I will either find a way, or make one.' - Hannibal Barca"
 			},
 			{
 				"name": "Heavy Infantry",
 				"row": 6,
-				"prerequisites": ["Infantry Training"],
+				"prerequisites": ["Infantry Training","Equestrian Class"],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
 				"name": "Torsion Engines",
 				"row": 7,
-				"prerequisites": ["Engineering","Masonry"],
+				"prerequisites": ["Engineering","Masonry","Navigation"],
 				"uniques": [
 //				"[+50]% Strength <for [Siege] units> <vs cities>",
 //				"[+25]% Strength <for [Ranged Water] units> <vs cities>",
@@ -337,7 +337,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Hellenistic Age",
-		"techCost": 1300,
+		"techCost": 1500,
 		"buildingCost": 250,
 		"wonderCost": 400,
 		"techs": [
@@ -372,7 +372,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Hellenistic Age",
-		"techCost": 3200,
+		"techCost": 3600,
 		"buildingCost": 350,
 		"wonderCost": 400,
 		"techs": [

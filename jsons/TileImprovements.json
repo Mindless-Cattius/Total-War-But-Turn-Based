@@ -43,7 +43,7 @@
 		"uniques": [
 		"[+1 Production] <after discovering [Mass Production]>",
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+40 Gold]"
+		"Pillaging this improvement yields approximately [+50 Gold]"
 		],
 		"shortcutKey": "M"
 	},
@@ -79,7 +79,7 @@
 		"uniques": [
 		"[+1 Gold] <after discovering [Private Estates]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+40 Gold]"
+		"Pillaging this improvement yields approximately [+70 Gold]"
 		],
 		"shortcutKey": "P"
 	},
@@ -90,7 +90,7 @@
 		"uniques": [
 		"[+1 Production] <after discovering [Mass Production]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+40 Gold]"
+		"Pillaging this improvement yields approximately [+50 Gold]"
 		],
 		"shortcutKey": "Q"
 	},
@@ -284,7 +284,7 @@
 		"gold": 1,
 		"food": 1,
 		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Hill","Forest","Jungle"],
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
 			"Great Improvement",

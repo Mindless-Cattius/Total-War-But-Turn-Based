@@ -722,7 +722,7 @@
 		"[-20]% Strength <when attacking> <vs cities>",
 		"[+20]% Strength <when fighting in [Desert] tiles>",
 		"[+20]% Strength <when fighting in [Open terrain] tiles>",
-		"[-30]% Strength <when fighting in [Rough terrain] tiles>",
+		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
 		"No defensive terrain bonus", 
 		"Withdraws before melee combat <with [15]% chance>"
 		]
