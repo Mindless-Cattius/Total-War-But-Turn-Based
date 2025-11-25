@@ -79,7 +79,7 @@
 		"uniques": [
 		"[+1 Gold] <after discovering [Private Estates]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+70 Gold]"
+		"Pillaging this improvement yields approximately [+60 Gold]"
 		],
 		"shortcutKey": "P"
 	},
@@ -106,20 +106,57 @@
 		],
 		"shortcutKey": "F"
 	},
-	// Military improvement
+	// Civ improvement
 	{
 		"name": "Fort",
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-		 "[-10 Gold]",
+		"Costs [10] [Gold] per turn",
 		"Gives a defensive bonus of [20]%",
+		"Provides [2] [Manpower]"
 		"Pillaging this improvement yields approximately [+100 Gold]",
 		"Removes removable features when built",	
 		"Unbuildable <for [Worker] units>",
-			"Tile provides yield without assigned population","Great Improvement"
+		"Tile provides yield without assigned population",
+		"Great Improvement",
 		],
 		"shortcutKey": "O"
+	},
+	{
+		"name": "Village",
+		"turnsToBuild": 10,
+		"gold": 1,
+		"food": 1,
+		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Hill","Forest","Jungle"],
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+  			"[-1 Happiness, -2 Food, -1 Production, +1 Culture] for each adjacent [Village]",
+  			"[+1 Happiness, -1 Food] for each adjacent [Fort]",
+  			"[+1 Happiness, -1 Food, +1 Gold] for each adjacent [Trading post]",
+			"Provides [1] [Manpower] <while the empire is happy>",
+			"Tile provides yield without assigned population",
+			"Unbuildable <for [Worker] units>",
+			"Great Improvement",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+100 Gold]", 
+			"Can only be built to improve a resource", 
+		]
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle"],
+		"gold": 1,
+		"turnsToBuild": 4,
+		"uniques": [
+			"Removes removable features when built",
+			"[+1 Gold] <after discovering [Exploration]>",
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Tile provides yield without assigned population",
+			"Unbuildable <for [Worker] units>", 
+			"Can only be built to improve a resource", 
+]
 	},
 
 	// Transportation
@@ -169,6 +206,12 @@
 	},
 	{
 		"name": "Remove Village",
+		"turnsToBuild": 2,
+		"techRequired": "Land Grants",
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Tradingg post",
 		"turnsToBuild": 2,
 		"techRequired": "Land Grants",
 		"shortcutKey": "X"
@@ -228,18 +271,6 @@
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{
-		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
-		"gold": 1,
-		"turnsToBuild": 4,
-		"uniques": [
-			"[+1 Gold] <after discovering [Exploration]>",
-			 "Pillaging this improvement yields approximately [+150 Gold]",
-			"Unbuildable <for [Worker] units>",
-			"Unbuildable <within [2] tiles of a [Village]>",
-]
-	},
-	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
@@ -278,23 +309,6 @@
 	},
 ////				----Scenario----
 
-	{
-		"name": "Village",
-		"turnsToBuild": 10,
-		"gold": 1,
-		"food": 1,
-		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Hill","Forest","Jungle"],
-		"uniques": [
-			"Gives a defensive bonus of [10]%",
-			"Great Improvement",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+150 Gold]",
-  "[-1 Happiness, -1 Food, -1 Production, +1 Culture] for each adjacent [Village]",
-			"Tile provides yield without assigned population",
-			"Unbuildable <for [Worker] units>",
-		]
-	},
 	{
 		"name": "Hellenic Village",
 		"turnsToBuild": 15,

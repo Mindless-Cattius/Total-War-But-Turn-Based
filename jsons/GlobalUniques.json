@@ -92,9 +92,10 @@
 	"[-6 Happiness] [in this city] <in cities with between [36] and [40] [Population]>",
 	"[-7 Happiness] [in this city] <in cities with between [41] and [9999] [Population]>",
 
-	"[-5]% growth [in this city] <in cities with between [15] and [20] [Population]>",
-	"[-5]% growth [in this city] <in cities with between [21] and [25] [Population]>",
-	"[-5]% growth [in this city] <in cities with between [26] and [30] [Population]>",
+	"[-10]% growth [in this city] <in cities with between [10] and [15] [Population]>",
+	"[-10]% growth [in this city] <in cities with between [16] and [20] [Population]>",
+	"[-10]% growth [in this city] <in cities with between [21] and [25] [Population]>",
+	"[-10]% growth [in this city] <in cities with between [26] and [30] [Population]>",
 	"[-5]% growth [in this city] <in cities with between [31] and [35] [Population]>",
 	"[-5]% growth [in this city] <in cities with between [36] and [40] [Population]>",
 	"[-5]% growth [in this city] <in cities with between [41] and [9999] [Population]>",
@@ -107,7 +108,7 @@
 
         "[-10]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-10]% [Production] [in all cities] <when below [-20] [Happiness]>",
-        "Cannot build [Settler] units <when below [-15] [Happiness]>",
+        "Cannot build [Settler] units <when below [-10] [Happiness]>",
 
         "[-5]% Strength <for [All] units> <when below [0] [Happiness]>",
         "[-5]% Strength <for [All] units> <when below [-10] [Happiness]>",
@@ -116,7 +117,6 @@
         "[-5]% Strength <for [All] units> <when below [-25] [Happiness]>",
         "[-5]% Strength <for [All] units> <when below [-30] [Happiness]>",
 
-        "[+1]% growth [in all cities] <when between [1] and [20] [Happiness]>",
         "[+3]% growth [in all cities] <when between [21] and [50] [Happiness]>",       
         "[+5]% growth [in all cities] <when between [51] and [100] [Happiness]>",       
         "[+7]% growth [in all cities] <when between [101] and [200] [Happiness]>",      
@@ -134,7 +134,7 @@
         "[+10]% [Faith] [in all cities] <when between [151] and [250] [Happiness]>",       
         "[+12]% [Faith] [in all cities] <when above [251] [Happiness]>",
 
-        "[+3]% Strength for cities <when attacking> <when between [11] and [80] [Happiness]>",
+        "[+5]% Strength for cities <when attacking> <when between [11] and [80] [Happiness]>",
         "[+7]% Strength for cities <when attacking> <when between [81] and [100] [Happiness]>",       
         "[+10]% Strength for cities <when attacking> <when between [101] and [150] [Happiness]>",      
         "[+12]% Strength for cities <when attacking> <when between [151] and [250] [Happiness]>",       
@@ -157,23 +157,22 @@
 	"Rebel units may spawn <with [55]% chance> <when below [10] [Happiness]>",
 	"Rebel units may spawn <with [75]% chance> <when below [5] [Happiness]>",
 	"Rebel units may spawn <with [90]% chance> <when below [0] [Happiness]>",
-        "Rebel units may spawn <when below [500] [Happiness]>",
 // Events
 
-        "Free [Skirmisher] appears <when between [1] and [10] [Happiness]> <upon founding a city>",
+        "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <upon founding a city>",
         "Free [Spearman] appears <when above [11] [Happiness]> <upon founding a city>",
         "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [2]% chance>",
-        "Free [Foot Guard] appears <upon turn end> <when above [3] [Veteran]> <with [5]% chance>",
+        "Free [Foot Guard] appears <upon turn end> <when above [2] [Veteran]> <with [5]% chance>",
         "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
-        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance>",
-        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [3]% chance>",
+        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance> <before the [Imperial Age]>",
+        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [3]% chance> <before the [Imperial Age]>",
         "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [6]% chance> <during the [Imperial Age]>",
         "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [4]% chance> <during the [Imperial Age]>",
         "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
 
 // Decadence & Great People
 
-        "[+70]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [150] [Decadence]>",
+        "[+70]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [100] [Decadence]>",
         "[+50]% maintenance costs <for [Military] units> <when above [100] [Decadence]>",
 
         "Provides [1] [Manpower] <when below [0] [Decadence]> <for [Major] Civilizations>",
@@ -189,7 +188,6 @@
         "Provides [1] [Manpower] <when below [50] [Decadence]> <for [Major] Civilizations>",
         "Provides [1] [Manpower] <when below [60] [Decadence]> <for [Major] Civilizations>",
 
-        "[-1]% [Culture] [in all cities] <when above [10] [Decadence]>",
         "[-1]% [Culture] [in all cities] <when above [20] [Decadence]>",
         "[-1]% [Culture] [in all cities] <when above [30] [Decadence]>",
         "[-1]% [Culture] [in all cities] <when above [40] [Decadence]>",
@@ -203,7 +201,6 @@
         "[-2]% [Culture] [in all cities] <when above [200] [Decadence]>",
         "[-2]% [Culture] [in all cities] <when above [250] [Decadence]>",
 
-        "[-1]% [Gold] [in all cities] <when above [10] [Decadence]>",
         "[-1]% [Gold] [in all cities] <when above [20] [Decadence]>",
         "[-1]% [Gold] [in all cities] <when above [30] [Decadence]>",
         "[-1]% [Gold] [in all cities] <when above [40] [Decadence]>",
@@ -217,7 +214,6 @@
         "[-2]% [Gold] [in all cities] <when above [200] [Decadence]>",
         "[-2]% [Gold] [in all cities] <when above [250] [Decadence]>",
 
-        "[-1 Happiness] [in all cities] <when above [20] [Decadence]>",
         "[-1 Happiness] [in all cities] <when above [40] [Decadence]>",
         "[-1 Happiness] [in all cities] <when above [60] [Decadence]>",
         "[-1 Happiness] [in all cities] <when above [80] [Decadence]>",
@@ -229,8 +225,6 @@
         "[-1 Happiness] [in all cities] <when above [200] [Decadence]>",
         "[-2 Happiness] [in all cities] <when above [250] [Decadence]>",
 
-        "[-1]% [Production] [in all cities] <when above [10] [Decadence]>",
-        "[-1]% [Production] [in all cities] <when above [20] [Decadence]>",
         "[-1]% [Production] [in all cities] <when above [30] [Decadence]>",
         "[-1]% [Production] [in all cities] <when above [40] [Decadence]>",
         "[-1]% [Production] [in all cities] <when above [50] [Decadence]>",
@@ -307,7 +301,7 @@
         "[+100]% maintenance costs <for [Military] units> <before the [Imperial Age]>",
         "[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
         "[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
-        "[+130]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+        "[+100]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
 
         "[+30]% maintenance costs <for [Cretan Archer] units>",
         "[+100]% maintenance costs <for [Can be purchased with [Gold] [in all cities]] units>",
@@ -315,12 +309,10 @@
         "[+40]% maintenance costs <for [Spear] units>",
         "[+60]% maintenance costs <for [Pike Phalanx] units>",
         "[+120]% maintenance costs <for [Royal Phalanx] units>",
-        "[+100]% maintenance costs <for [Heavy Spearman] units>",
-        "[+100]% maintenance costs <for [Gladiator] units>",
-        "[+100]% maintenance costs <for [Legion] units>",
+        "[+100]% maintenance costs <for [Mercenary] units>",
 
-        "[+80]% maintenance costs <for [Sword] units>",
-        "[+100]% maintenance costs <for [Heavy Swordsman] units>",
+        "[+50]% maintenance costs <for [Sword] units>",
+        "[+100]% maintenance costs <for [Infantry Shield III] units>",
 
         "[+100]% maintenance costs <for [Mounted] units>",
         "[+120]% maintenance costs <for [Mounted Archery] units>",
@@ -330,7 +322,7 @@
         "[+50]% maintenance costs <for [Royal Agema] units>",
 
         "[+100]% maintenance costs <for [Elephant] units>",
-        "[+150]% maintenance costs <for [Ballista] units>",
+        "[+100]% maintenance costs <for [Ballista] units>",
 
         "[+150]% maintenance costs <for [Trireme] units>",
         "[+200]% maintenance costs <for [Pentere] units>",
