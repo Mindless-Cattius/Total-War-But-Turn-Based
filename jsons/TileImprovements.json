@@ -129,7 +129,7 @@
 		"gold": 1,
 		"food": 1,
 		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Hill","Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
   			"[-1 Happiness, -2 Food, -1 Production, +1 Culture] for each adjacent [Village]",

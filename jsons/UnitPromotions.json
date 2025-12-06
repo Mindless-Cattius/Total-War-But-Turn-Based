@@ -372,7 +372,7 @@
 	{
 		"name": "Formation I",
 		"uniques": [
-     "[+10]% Strength <vs [Mounted] units>",
+     			"[+10]% Strength <vs [Mounted] units>",
     			"[+20]% Strength <when attacking> <vs [Mounted Archery] units>",
     			"[+5]% Strength <when defending> <vs [Ranged] units>",
 ],
@@ -1189,10 +1189,10 @@
 		"name": "Naked Warrior",
 		"uniques": [
 			"[+2] XP gained from combat",
-			"[-30]% Strength <vs [{Ranged} {Land}] units> <when defending>",
-			"[-30]% Strength <vs [Mounted] units> <when defending>",
-			"[+80]% Strength <when attacking>",
-			"Withdraws before melee combat <with [15]% chance>",
+			"[-35]% Strength <vs [{Ranged} {Land}] units> <when defending>",
+			"[-40]% Strength <vs [Mounted] units> <when defending>",
+			"[+70]% Strength <when attacking>",
+			"Withdraws before melee combat <with [20]% chance>",
 			"Ignores Zone of Control",
 		],
 	},

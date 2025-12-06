@@ -368,7 +368,6 @@
 			"[+1 Happiness] from [Village] tiles [in this city] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"Only available <in cities without a [Harbor]> <hidden from users>",
 			"Cost increases by [15] per owned city"
 ],
 		"civilopediaText": [{"text": "A grand show of violence and death keeps the masses busy and enhances our warrior culture."}]
@@ -747,8 +746,10 @@
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Limited to [1] per Civilization <before the [Hellenistic Age]>",
 			"Limited to [2] per Civilization <during the [Hellenistic Age]>",
+			"Limited to [3] per Civilization <during the [Hellenistic Age]> <after adopting [Mercenary Marketplace]>",
 			"Limited to [3] per Civilization <during the [Imperial Age]>",
 			"Limited to [4] per Civilization <during the [Imperial Age]> <after adopting [Mercenary Reform]>",
+			"Limited to [4] per Civilization <during the [Imperial Age]> <after adopting [Mercenary Marketplace]>",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Currency"
