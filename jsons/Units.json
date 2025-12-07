@@ -950,6 +950,7 @@
       "Comment [Heavy infantry, these guys can siege a city and build a highway at the same time. Too bad they’re slower than your grandma’s morning walk.]",
       "Only available <in cities with a [Barracks]>"
 	"Can build [All Road] improvements on tiles",
+	"Can build [Roman Fort] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
     ],
@@ -972,6 +973,7 @@
       		"Comment ['Heavy infantry, can build roads and steal land. Don’t expect them to win any races, but they’ll gladly take your territory while they're at it']",
       		"Only available <in cities with a [Barracks]>",
 	      	"Can build [All Road] improvements on tiles",
+	"Can build [Roman Fort] improvements on tiles",
       		"Consumes [3] [Manpower]",
       		"Can upgrade to [Legion] <after discovering [Infantry Training]>",
       		"Unbuildable <after discovering [Infantry Training]>",
@@ -1841,6 +1843,7 @@
     "strength": 15,
     "cost": 170,
     "uniques": [
+      		"Only available <before adopting [Manipular Legion]> <hidden from users>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
 		"[+20]% Strength <during the [Imperial Age]>",
@@ -1881,21 +1884,21 @@
 	"Parthian Doctrine",
     ],
     "attackSound": "arrow"
-  }
+  },
   {
     "name": "Emperor",
     "unitType": "Ruler",
     "uniqueTo": "The Romans",
-    "replaces": "King",
     "movement": 3,
     "strength": 15,
     "cost": 190,
     "uniques": [
+      		"Only available <after adopting [Legate Governance]> <hidden from users>",
 		"Can only be built <in [Capital] cities>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
       		"Limited to [1] per Civilization",
-		"[+25]% Strength <during the [Imperial Age]>",
-		"[+40]% production cost <during the [Imperial Age]>",
+		"[+2] Strength <during the [Imperial Age]>",
+		"[+30]% production cost <during the [Imperial Age]>",
       		"Cannot be purchased",
     ],
     "promotions": [
@@ -1903,6 +1906,31 @@
       	"Cavalry Shield II",
 	"Commander",
 	"Inspiring"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Consul",
+    "unitType": "Ruler",
+    "uniqueTo": "The Romans",
+    "movement": 3,
+    "strength": 15,
+    "cost": 170,
+    "uniques": [
+      		"Only available <after adopting [Manipular Legion]> <hidden from users>",
+      		"Unavailable <after adopting [Legate Governance]> <hidden from users>",
+		"Can only be built <in [Capital] cities>",
+		"Comment []",
+      		"Limited to [2] per Civilization",
+		"[+1] Strength <during the [Imperial Age]>",
+		"[+50]% production cost <during the [Imperial Age]>",
+      		"Cannot be purchased",
+    ],
+    "promotions": [
+      	"[Cavalry] ability",
+      	"Cavalry Shield II",
+	"Commander",
+	"Scouting I"
     ],
     "attackSound": "metalhit"
   }
@@ -2100,7 +2128,7 @@
     "name": "Camel Cavalry",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 200,
+    "cost": 170,
     "movement": 3,
     "strength": 14,
     "uniques": [
@@ -2128,7 +2156,7 @@
     "requiredTech": "Heavy Infantry",
     "uniques": [
 	"Comment [-Elite heavy pike infantry, cavalry's worst nightmare, weak against arrows and darts.]",
-      "Only available <in cities with a [Make Capital]>",
+      "Only available <in cities with a [Army Barracks]>",
 	"[+1] XP gained from combat",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
@@ -2154,7 +2182,7 @@
     "uniques": [
       "Comment [-Elite heavy mounted archery, 'arrows goes brr', have high withdraw chance.]",
       "Only available <in cities with a [Nomadic Herd]>",
-      "Only available <in cities with a [Imperial Barracks]>",
+      "Only available <in cities with a [Skirmisher Barracks]>",
 	"May attack when embarked",
       "[+1] XP gained from combat",
       "Consumes [4] [Manpower]",
@@ -2226,7 +2254,7 @@
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
       "Comment [-Elite heavy mounted skirmisher, strong range attack, have medium withdraw chance.]",
-      "Only available <in cities with a [Army Barracks]>",
+      "Only available <in cities with a [Cavalry Barracks]>",
 	"May attack when embarked",
 	"[+1] XP gained from combat",
 	"[-1] Range",
@@ -2299,7 +2327,7 @@
     "cost": 270,
     "uniques": [
  	"Comment [-Elite heavy shock infantry, have powerful charge attack but hate arrows, darts and javelins.]",
-	"Only available <in cities with a [Imperial Barracks]>",
+	"Only available <in cities with a [Army Barracks]>",
 	"[+30]% Strength <when attacking> <when below [50] HP>",
       	"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
 	"[-20]% Strength <vs [{Ranged} {Land}] units> <when defending>",
@@ -2429,7 +2457,7 @@
     "cost": 300,
     "uniques": [
  	"Comment [Elite heavy shock cavalry, have strong charge, small withdraw chance]",
-      "Only available <in cities with a [Imperial Barracks]>",
+      "Only available <in cities with a [Cavalry Barracks]>",
 	"[+1] XP gained from combat",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Veteran]",
@@ -2503,7 +2531,7 @@
     "cost": 300,
     "uniques": [
  	"Comment [-Elite heavy infantry, inspire nearby ally units, have one job.]",
-      "Only available <in cities with a [Imperial Barracks]>",
+      "Only available <in cities with a [Army Barracks]>",
       "Limited to [1] per Civilization",
       "[+5]% Strength bonus for [Military] units within [3] tiles",
       "[+5]% Strength bonus for [Military] units within [2] tiles",
@@ -2602,6 +2630,7 @@
     "uniques": [
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Roman Fort] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Hellenic Barracks]>"
@@ -2644,8 +2673,8 @@
     "uniques": [
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
       "Only available <in cities with a [Gallic Barracks]>"
+	"Can build [Roman Fort] improvements on tiles",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Fort] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
     ],
@@ -2667,6 +2696,7 @@
       "Comment [-Heavy spear infantry, can build road, good at defending homeland and offensive.] <during the [Imperial Age]>",
       "Only available <in cities with a [Gallic Barracks]>",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Roman Fort] improvements on tiles",
        "[+10]% Strength <when fighting in [Friendly Land] tiles>",
        "[+10]% Strength <when fighting in [Forest] tiles>",
       "Consumes [4] [Manpower]",
