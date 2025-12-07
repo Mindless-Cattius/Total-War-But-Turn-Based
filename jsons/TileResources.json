@@ -808,6 +808,11 @@
 		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
+		"name": "Enable Armored Elephant",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
 		"name": "Enable Ballista",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]

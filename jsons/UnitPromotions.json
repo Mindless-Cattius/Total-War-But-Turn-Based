@@ -19,7 +19,7 @@
 		"name": "Medic II",
 		"prerequisites": ["Medic I","Survivalism I"],
 		"uniques": ["[+3] HP when healing","All adjacent units heal [+3] HP when healing","[+50]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Spear","Ruler","Archery","Elephant"],
+		"unitTypes": ["Sword","Spear","Ruler","Archery","Elephant","Scout"],
         "column": 1,
         "row": 2
 	},
@@ -27,7 +27,7 @@
 		"name": "Medic III",
 		"prerequisites": ["Medic II","Foraging II"],
 		"uniques": ["[+3] HP when healing","All adjacent units heal [+5] HP when healing","[+50]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Spear","Ruler","Archery","Elephant"],
+		"unitTypes": ["Ruler","Archery","Elephant","Scout"],
         "column": 1,
         "row": 3
 	},
@@ -46,7 +46,7 @@
 			"[+2] HP when healing", 
 			"[+10]% Strength <when defending>", 
 ],
-		"unitTypes": ["Scout"],
+		"unitTypes": ["Scout","Mounted Archery"],
         "column": 2,
         "row": 2
 	},
@@ -110,7 +110,7 @@
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
 		"uniques": ["[+1] Sight","[+10]% Strength <when fighting in [Hill] tiles>","[+10]% Strength <vs cities> <when defending>"],
-		"unitTypes": ["Mounted","Mounted Archery","Scout","Melee Water","Sword","Spear","Archery","Ruler"],
+		"unitTypes": ["Mounted","Mounted Archery","Scout","Melee Water","Archery","Ruler"],
         "column": 4,
         "row": 3
 	},
@@ -720,8 +720,9 @@
 		"name": "Chariot ability",
 		"uniques": [
 		"[-20]% Strength <when attacking> <vs cities>",
-		"[+20]% Strength <when fighting in [Desert] tiles>",
-		"[+20]% Strength <when fighting in [Open terrain] tiles>",
+		"[+2] Strength <when attacking> <when fighting in [Open terrain] tiles>",
+		"[+10]% Strength <when fighting in [Desert] tiles>",
+		"[+15]% Strength <when fighting in [Open terrain] tiles>",
 		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
 		"No defensive terrain bonus", 
 		"Withdraws before melee combat <with [15]% chance>"

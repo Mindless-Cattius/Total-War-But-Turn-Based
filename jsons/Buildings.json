@@ -2080,10 +2080,8 @@
 		"uniques": [ 
                    	"[King] units gain the [Improved Armor] promotion", 
                    	"[General] units gain the [Improved Armor] promotion",
-                  	"[Cavalry Shield II] units gain the [Improved Armor] promotion",
-                  	"[Infantry Shield II] units gain the [Improved Armor] promotion",
                   	"[Infantry Shield III] units gain the [Improved Armor] promotion",
-                    "[Cataphract] units gain the [Improved Armor] promotion",
+                    "[[Cataphract] ability] units gain the [Improved Armor] promotion",
 					"Provides [1] [Decadence]",
 					"Provides [1] [Decadence] <during the [Imperial Age]>",
 					"Destroyed when the city is captured"

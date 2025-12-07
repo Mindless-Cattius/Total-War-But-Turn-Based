@@ -1427,19 +1427,19 @@
   {
     "name": "Armored Elephant",
     "unitType": "Elephant",
-    "uniqueTo": "The Seleucids",
     "hurryCostModifier": 25,
-    "cost": 300,
+    "cost": 320,
     "movement": 3,
     "strength": 25,
     "requiredTech": "Equestrian Class",
     "uniques": [
       "Comment [-Heavy elephant unit, armored, and ready to flatten anything that dares stand in its way. Just don’t expect it to help with anything delicate.]",
-      "Only available <in cities with a [Army Barracks]>",
+      "Only available <in cities with a [Cavalry Barracks]>",
 	"Destroys tile improvements when attacking",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Elephants]",
       "Consumes [2] [Iron]",
+      	"Only available <with [Enable Armored Elephant]> <hidden from users>",
     ],
     "promotions": [
       "[War Elephant] ability"
@@ -1502,10 +1502,10 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 15,
-    "cost": 170,
+    "cost": 160,
     "requiredTech": "Navigation",
     "uniques": [
-      "Comment [-Medium naval melee, high withdraw chance]",
+      "Comment [-Medium naval melee, high withdraw chance, Ignores Zone of Control]",
       "Only available <in cities with a [Drydock]>",
       "Consumes [2] [Manpower]",
       "Consumes [1] [Timber]",
