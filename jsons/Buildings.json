@@ -1163,6 +1163,7 @@
 		"uniques": [
 		"Consumes [1] [Decadence] <in cities with a [Thracian Weaponsmith]>",
                 "[Sword] units gain the [Improved Armor] promotion",
+                "[Spear] units gain the [Improved Armor] promotion",
 		"Only available <after adopting [Thracian Culture]>"
 		],
 		"requiredTech": "Heavy Infantry"
@@ -1170,17 +1171,16 @@
 	// Metallurgy
 	{
 		"name": "Forge",
-		"Cost":1000,
-		"isNationalWonder": true,
+		"Cost":250,
 		"hurryCostModifier": 35,
 		"maintenance": 3,
-		"production": 2,
+		"production": 1,
 		"requiredTech": "Metallurgy",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [ 
-  			"[Military] units gain the [Improved Equipment] promotion",
-  			"All newly-trained [Military] units [in all cities] receive the [Improved Equipment] promotion",
-			"[+1 Production] from [Iron] tiles [in this city]",
+  			"[Commander] units gain the [Improved Equipment] promotion",
+			"[+1 Production, +1 Gold] from [Iron] tiles [in this city]",
+			"[+1 Gold] from [Mine] tiles [in this city]",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1383,7 +1383,7 @@
 		"[+1 Culture] from [Marble] tiles [in this city]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Gold] from [Fort] tiles [in this city]",
-		"[+1 Culture] from [Village] tiles [in this city]",
+		"[+1 Faith] from [Village] tiles [in this city]",
 		"Doubles Gold given to enemy if city is captured",
 		],
 		"requiredTech": "Construction"
@@ -1392,19 +1392,20 @@
 	{
 		"name": "Ironworks",
 		"requiredNearbyImprovedResources": ["Iron"],
-		"production": 10,
+		"production": 3,
 		"culture": 1,
- "cost": 1000,
+ 		"cost": 1000,
 		"specialistSlots": {"Engineer": 2},
 		"isNationalWonder": true,
 		"uniques": [
 			"[+1 Production] from [Iron] tiles [in this city]"
-			"Destroyed when the city is captured"
-			"Provides [1] [Decadence]",
-			"[+1 Culture] from [Iron] tiles [in this city]",
+			"Destroyed when the city is captured",
+			"[+1 Faith, +2 Gold] from [Iron] tiles [in this city]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
 			"[+1 Production] from [Fort] tiles [in this city]",
+			"Provides [2] [Iron]",
+			"Provides [1] [Decadence]",
 		],
 		"requiredTech": "Mass Production"
 	},
@@ -1806,84 +1807,107 @@
 
 	{
 		"name": "The Oracle of Amun",
-		"uniqueTo": "The Libyans",
-		"cost": 185,
-		"culture": 3,
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
 		"greatPersonPoints": {"Great Prophet": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Happiness] from [Oasis] tiles [in this city]"],
+		"uniques": [
+			"Only available <after adopting [Numidian Culture]>",
+			"[+1 Happiness, +1 Food, +1 Gold] from [Oasis] tiles [in this city]"],
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 	{
 		"name": "The Oracle of Dodona",
-		"uniqueTo": "The Epirots",
-		"cost": 185,
-		"culture": 3,
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
 		"greatPersonPoints": {"Great Prophet": 1},
 		"isWonder": true,
-		"uniques": ["[+1 Happiness] from [Forest] tiles [in this city]"],
+		"uniques": [
+			"[+1 Happiness] from [Forest] tiles [in this city]",
+			"Only available <after adopting [Hellenistic Culture]>",
+],
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 	{
 		"name": "The Oracle of Delphi",
-		"uniqueTo": "The Aetolians",
-		"cost": 185,
-		"culture": 4,
+		"cost": 600,
+		"culture": 1,
 		"gold": 3,
+		"happiness": 3,
 		"greatPersonPoints": {"Great Prophet": 1},
 		"isWonder": true,
-		"uniques": ["Free Social Policy"],
+		"uniques": [
+			"Free Social Policy"
+			"Only available <after adopting [Hellenic Culture]>",
+],
 		"quote": "When some one boasted that at the Pythian games he had vanquished men, Diogenes replied: 'Nay, I defeat men, you defeat slaves'." 
 	},
 	{
 		"name": "Parthenon",
-		"uniqueTo": "The Athenians",
-		"cost": 185,
-		"culture": 3,
-		"science": 2,
-		"cityHealth": 20,
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
+		"cityHealth": 40,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scholar": 1},
-		"uniques": ["[-15]% maintenance costs <for [Water] units>"],
+		"uniques": [
+			"[-20]% maintenance costs <for [Water] units>",
+			"Only available <after adopting [Hellenic Culture]>",
+],
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	{
 		"name": "Temple of Artemis",
-		"uniqueTo": "The Ionians",
-		"cost": 185,
-		"culture": 3,
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scholar": 1},
-		"uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",],
+		"uniques": [
+			"[+1] [Food] [in all cities]",
+			 "[+10]% Production when constructing [Archery] units [in all cities]",
+			"Only available <after adopting [Hellenic Culture]>",
+],
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	{
 		"name": "Mausoleum of Halicarnassus",
-		"uniqueTo": "The Ionians",
-		"cost": 185,
-		"culture": 3,
+		"cost": 600,
+		"culture": 1,
+		"happiness": 5,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Gain [150] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"uniques": [
+			"Gain [150] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Gold] from [Marble] tiles [in this city]", 
+			"[+2 Gold] from [Stone] tiles [in this city]"
+			"Only available <after adopting [Hellenic Culture]>",
+],
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
 	{
 		"name": "Hanging Gardens",
-		"uniqueTo": "The Babylonians",
-		"cost": 185,
+		"cost": 600,
 		"greatPersonPoints": {"Great Artist": 1},
-		"food": 5,
+		"food": 3,
 		"culture": 1,
+		"happiness": 3,
 		"isWonder": true,
-		"uniques": ["Provides [3] [Mercenary (Mesopotamian)]","Gain a free [Garden] [in this city]"],
+		"uniques": [
+			"Provides [2] [Mercenary (Mesopotamian)]",
+			"Gain a free [Garden] [in this city]",
+			"Only available <after adopting [Eastern Culture]>",
+			"Only available <before adopting [Steppe Authority]>",
+],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
 	{
 		"name": "The Great Lighthouse",
-		"uniqueTo": "The Ptolemies",
-		"cost": 185,
-		"culture": 2,
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
@@ -1892,13 +1916,17 @@
 	},
 	{
 		"name": "Colossus",
-		"uniqueTo": "The Rhodians",
-		"cost": 185,
+		"cost": 600,
 		"culture": 1,
 		"gold": 6,
+		"happiness": 3,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Provides [3] [Mercenary (Rhodian)]","Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"uniques": [
+			"Provides [2] [Mercenary (Rhodian)]","Must be next to [Coast]",
+			 "[+1 Gold] from [Water] tiles [in this city]",
+			"Only available <after adopting [Hellenic Culture]>",
+],
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 

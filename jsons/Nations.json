@@ -27,10 +27,9 @@
 		"style": "Roman",
 		"uniqueName": "We Come as Friends",
 		"uniques": [
+    		"[+1] Strength <when defending>  <vs [Sword] units> <for [Sword] units>",
 		"[+1 Happiness] from every [Barracks] <when at war>",
-		"[+2 Happiness] from every [Army Barracks] <when at war>",
-		"[10]% of excess happiness converted to [Culture] <after discovering [Infantry Training]>",
-		"[10]% of excess happiness converted to [Science] <after discovering [Infantry Training]>",
+		"[+2 Happiness, +1 Gold] from every [Army Barracks] <when at war>",
 		"Starts with [Latin Culture] adopted"
 		],
 		"cities": ["Rome","Capua","Venusia","Ariminum","Brundisium","Placentia","Segesta","Cannae","Segesta","Firmum","Salernum","Buxentum","Pollentia"]
@@ -56,7 +55,10 @@
 		"style": "Celtic",
 		"uniqueName": "Mercenary Contacts",
 		"uniques": [
-                "[Gold] cost of purchasing [{Military} {Land}] units [-33]%",
+    		"[+1] Strength <when defending> <for [Spearman] units>",
+    		"[+1] Strength <for [Skirmisher] units>",
+    		"[+1 Food] from [Village] tiles [in all cities]"
+                "[Gold] cost of purchasing [{Military} {Land}] units [-10]%",
 //		"Starts with [Mercenaries]",
 		"Starts with [Celtic Culture] adopted"
 		],
@@ -87,7 +89,9 @@
 		"style": "Egyptian",
 		"uniqueName": "Riches of the Nile",
 		"uniques": [
-		"Gain a free [The Great Lighthouse] [in capital]",
+		"[+1] Strength <for [Heavy Spearman] units>",
+		"[+1] Strength <when defending> <for [Spearman] units>"
+    		"[+1 Food] from [Village] tiles [in all cities]",
 //		"Starts with [Colonization]",
 		"Starts with [Hellenistic Culture] adopted"
 		],
@@ -117,6 +121,9 @@
 		"style": "Egyptian",
 		"uniqueName": "Silphium Monopoly",
 		"uniques": [
+    		"[+1 Gold] from [Village] tiles [in all cities]",
+    		"[+1 Production] from [Trading post] tiles [in all cities]",
+    		"[+1] Strength <for [Hoplite] units>",
 		"Gain a free [Silphium Trader] [in capital]",
 //		"Starts with [Entertainment]",
 		"Starts with [Hellenic Culture] adopted"
@@ -145,10 +152,12 @@
 		"style": "Eastern",
 		"uniqueName": "The Pontic Levy",
 		"uniques": [
-		"Provides [4] [Mercenary (Hellenic)]",
-		"Provides [4] [Mercenary (Eastern)]",
-		"Provides [4] [Manpower]",
-		"[+15]% Production when constructing [Military] units [in all cities] <after discovering [Metallurgy]>",
+    		"[+1] Strength <for [Heavy Spearman] units>",
+    		"[+1 Production] from [Mine] tiles [in all cities]"
+		"Provides [2] [Mercenary (Hellenic)]",
+		"Provides [2] [Mercenary (Eastern)]",
+		"Provides [5] [Manpower]",
+		"[+10]% Production when constructing [Military] units [in all cities] <after discovering [Metallurgy]>",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Hellenistic Culture] adopted"
 		],
@@ -175,6 +184,8 @@
 		"style": "Hellenistic",
 		"uniqueName": "The Treasury of Lysimachos",
 		"uniques": [
+    		"[+1] Strength <for [Skirmisher] units>",
+    		"[+1 Gold] from [Village] tiles [in all cities]"
 		"Gain a free [National Treasury] [in capital]",
 //		"Starts with [Entertainment]",
 		"Starts with [Hellenistic Culture] adopted"
@@ -203,7 +214,9 @@
 		"style": "Seleucid",
 		"uniqueName": "Lords of Asia",
 		"uniques": [
-		"[-50]% unhappiness from the number of cities",
+    		"[+1] Strength <for [Elephant] units>",
+    		"[+1 Production] from [Village] tiles [in all cities]"
+		"[-10]% unhappiness from the number of cities",
 		"[Mounted] units gain the [Charge I] promotion",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Hellenistic Culture] adopted"
@@ -234,7 +247,9 @@
 		"uniqueName": "Caucasian Stronghold",
 		"uniques": [
 		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
-		"[-15]% maintenance costs <for [{Military} {Land}] units> <after discovering [Vassalage]>",
+		"[-10]% maintenance costs <for [{Military} {Land}] units> <after discovering [Vassalage]>",
+    		"[+1] Strength <for [Spearman] units>",
+    		"[+1 Gold] from [Hill] tiles [in capital]"
 //		"Starts with [Archery]",
 		"Starts with [Eastern Culture] adopted"
 		],
@@ -265,6 +280,7 @@
 		"uniques": [
 		"New [Horse Archer] units start with [10] XP [in all cities]",
 		"New [Cataphract] units start with [10] XP [in all cities]",
+    		"[+1 Production] from [Village] tiles [in all cities]"
 //		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted"
 		],
@@ -293,6 +309,7 @@
 		"uniqueName": "Royal Scythians",
 		"uniques": [
 		"[+1 Food] per [5] population [in all cities] <before the [Imperial Age]>",
+    		"[+1 Gold] from Camp] tiles [in all cities]"
 		"[+50]% [Happiness] from City-States",
 		"[+50]% Happiness from luxury resources gifted by City-States",
 		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
@@ -328,8 +345,9 @@
 		"style": "Scythian",
 		"uniqueName": "Sarmatian Nomads",
 		"uniques": [
-		"[+25]% Production when constructing [Cataphract] units [in all cities]",
+		"[+20]% Production when constructing [Cataphract] units [in all cities]",
 		"[+25]% Production when constructing [Nomadic Herd] buildings [in all cities]",
+    		"[+1 Production] from [Pasture] tiles [in all cities]"
 		"[+1 Happiness] from every [Nomadic Herd]",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted"
@@ -361,6 +379,8 @@
 		"style": "Punic",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": [
+    		"[+1] Strength <for [Elephant] units>",
+    		"[+1 Gold] from [Village] tiles [in all cities]"
 		"[+100]% Production when constructing [Anchorage] buildings [in all cities]",
 		"[+100]% Production when constructing [Market] buildings [in all cities]",
 		"[+1 Happiness] [in all cities]",
@@ -395,7 +415,10 @@
 		"uniqueName": "East Numidians",
 		"uniques": [
 		"New [Mounted] units start with [10] XP [in all cities]",
-		"[+2 Gold] from [Wheat] tiles [in all cities]",
+		"New [Mounted Archery] units start with [10] XP [in all cities]",
+    		"[+1] Movement <for [Mounted] units> <in [Desert] tiles>",
+    		"[+1 Food] from [Village] tiles [in all cities]",
+		"[+1 Gold] from [Wheat] tiles [in all cities]",
 //		"Starts with [Light Cavalry]"
 		"Starts with [Numidian Culture] adopted"
 		],
@@ -422,7 +445,9 @@
 		"style": "Numidian",
 		"uniqueName": "West Numidians",
 		"uniques": [
-		"New [Mounted] units start with [10] XP [in all cities]",
+		"New [Mounted] units start with [15] XP [in all cities]",
+    		"[+1] Strength <for [Skirmisher] units>",
+    		"[+1 Gold] from [Village] tiles [in all cities]",
 		"[+1 Gold] from every [Market]",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Numidian Culture] adopted"
@@ -451,8 +476,9 @@
 		"style": "Iberian",
 		"uniqueName": "Irregular Warfare",
 		"uniques": [
-		"[+25]% XP gained from combat <for [Scout] units>",
-		"[+25]% XP gained from combat <for [Sword] units>",
+		"[+20]% XP gained from combat <for [Scout] units>",
+		"[+20]% XP gained from combat <for [Sword] units>",
+    		"[+1 Food] from [Village] tiles [in all cities]",
 //		"Starts with [Infantry Training]",
 		"Starts with [Iberian Culture] adopted"
 		],
@@ -484,7 +510,8 @@
 		"style": "Iberian",
 		"uniqueName": "Hillfort Kings",
 		"uniques": [
-		"[+50]% XP gained from combat <for [Mounted] units>",
+		"[+20]% XP gained from combat <for [Mounted] units>",
+    		"[+1 Production, +1 Gold] from [Mine] tiles [in all cities]"
 		"Gain a free [Warrior Statue] [in capital]",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Iberian Culture] adopted"
@@ -518,7 +545,10 @@
 		"style": "Celtic",
 		"uniqueName": "Gallic Traders",
 		"uniques": [
-                "[+15]% [Gold] [in all cities]",
+    		"[+1] Strength <for [Spearman] units>",
+    		"[+1] Strength <when defending> <for [Heavy Swordsman] units>",
+    		"[+1 Gold] from [Forest] tiles [in capital]",
+                "[+10]% [Gold] [in all cities]",
 //		"Starts with [Infantry Training]",
 		"Starts with [Celtic Culture] adopted"
 		],
@@ -549,7 +579,8 @@
 		"uniqueName": "Brave Belgae",
 		"uniques": [
                 "[+15]% Strength <for [Melee] units> <when fighting in [Friendly Land] tiles>",
-		"[+15]% Production when constructing [Water] units [in all cities]",
+		"[+10]% Production when constructing [Water] units [in all cities]",
+    		"[+1 Production] from [Village] tiles [in all cities]"
 //		"Starts with [Colonization]",
 		"Starts with [Celtic Culture] adopted"
 		],
@@ -578,8 +609,10 @@
 		"innerColor": [18,84,30],
 		"uniqueName": "Celtic Pastoralists",
 		"uniques": [
-                "[-25]% maintenance costs <for [Mounted] units>",
-                "[+1 Gold] from every [Pasture]",
+    		"[+1] Strength <for [Heavy Spearman] units>",
+    		"[+1] Strength <for [Heavy Swordsman] units>",
+                "[-20]% maintenance costs <for [Mounted] units>",
+    		"[+1 Production] from [Pasture] tiles [in all cities]"
 //		"Starts with [Light Cavalry]",
 		"Starts with [Celtic Culture] adopted"
 		],
@@ -611,8 +644,9 @@
 		"style": "Germanic",
 		"uniqueName": "Migratory Tribe",
 		"uniques": [
-		"[+15]% Production when constructing [Settler] units [in all cities]",
+		"[+10]% Production when constructing [Settler] units [in all cities]",
 		"[{Military} {Land}] units gain the [Raider I] promotion",
+    		"[+1 Food] from [Pasture] tiles [in all cities]"
 //		"Starts with [Light Cavalry]",
 		"Starts with [Germanic Culture] adopted"
 		],
@@ -641,8 +675,9 @@
 		"uniqueName": "Call to Power",
 		"uniques": [
 		"[+1 Happiness] from [Strategic resource] tiles [in all cities]",
-		"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
-		"[+25]% Production when constructing [Ballista] units [in all cities]",
+		"[+10]% Production when constructing [Cavalry] units [in all cities]",
+		"[+10]% Production when constructing [Spear] units [in all cities]",
+		"[+10]% Production when constructing [Ballista] units [in all cities]",
 		"[Slinger] units gain the [Iron Darts] promotion <after discovering [Metallurgy]>"
 //		"Starts with [Infantry Training]",
 		"Starts with [Hellenistic Culture] adopted"
@@ -665,13 +700,14 @@
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
-		"outerColor": [165, 20, 20],
+		"outerColor": [227, 157, 134],
 		"innerColor": [237, 234, 179],
 		"style": "Spartan",
 		"uniqueName": "Warriors and Helots",
 		"uniques": [
 		"[Royal Phalanx] units gain the [Spartan Aura] promotion",
-		"[-50]% maintenance costs <for [Worker] units> <before adopting [Slave Liberation]>",
+    		"[+1] Strength <for [Hoplite] units>",
+    		"[+1 Food] from [Farm] tiles [in capital]"
 		"Gain a free [Syssition] [in capital]",
 		"Gain a free [Second King] [in capital]",
 //		"Starts with [Infantry Training]",
@@ -701,7 +737,10 @@
 		"style": "Thracian",
 		"uniqueName": "Thracian Horselords",
 		"uniques": [
-		"[-33]% maintenance costs <for [Mounted] units>",
+    		"[+1] Strength <for [Skirmisher] units>",
+    		"[+1 Happiness] from [Hill] tiles [in capital]",
+    		"[+1 Gold] from [Mine] tiles [in all cities]",
+		"[-20]% maintenance costs <for [Mounted] units>",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Thracian Culture] adopted"
 		],
@@ -729,6 +768,8 @@
 		"uniqueName": "Reknown Horsemen",
 		"uniques": [
 		"New [Mounted] units start with [10] XP [in all cities]",
+		"New [Skirmisher] units start with [10] XP [in all cities]",
+		"New [Spearman] units start with [10] XP [in all cities]",
 		"[+1 Production] from every [Stable]",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Thracian Culture] adopted"
@@ -757,9 +798,10 @@
 		"style": "Illyrian",
 		"uniqueName": "Legacy of Bardylis",
 		"uniques": [
-		"[+2 Happiness] <when at war>",
-		"[+2 Happiness] <when at war> <after discovering [Infantry Training]>",
 		"New [Spear] units start with [10] XP [in all cities]",
+		"[+1 Happiness] [in all cities] <when at war>",
+		"[+5 Happiness] [in capital] <when at war> <after discovering [Infantry Training]>",
+    		"[+1 Production] from [Trading post] tiles [in all cities]"
 //		"Starts with [Infantry Training]",
 		"Starts with [Illyrian Culture] adopted"
 		],
@@ -787,7 +829,8 @@
 		"uniqueName": "Celtic Raiders",
 		"uniques": [
 		"New [Melee] units start with [10] XP [in all cities]",
-		"[+1 Culture] from every [Shrine] <when at war>",
+		"New [Military] units start with [10] XP [in all cities] <when at war>",
+		"[+1 Faith, +1 Gold] from every [Shrine] <when at war>",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Celtic Culture] adopted"
 		],
