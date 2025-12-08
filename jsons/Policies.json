@@ -294,6 +294,7 @@
 			"[+1 Happiness] from [Fort] tiles [in this city]",
                     	"[+1 Food] from every [Barracks]",
                     	"[+1 Happiness] [in all cities]",
+			"May buy [Celtic Barracks] buildings with [Gold] [in all cities] <upon conquering a city> <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Hill Fort Confederacy]> <hidden from user>",
                 ],
                 "requires": ["Highland Harvest"],
                 "row": 9,
@@ -468,6 +469,7 @@
                 "name": "Great King's Levy",
                 "requires": ["Royal Cities"],
                 "uniques": [
+                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
@@ -563,6 +565,7 @@
         		"[+1] Strength <for [Mounted] units>",
         		"Provides [5] [Manpower]",
         		"[+1 Happiness] [in all cities]",
+                    	"Unavailable <before the [Classical Age]>",
                 ],
                 "row": 7,
                 "column": 1
@@ -1227,6 +1230,7 @@
         "[+1] Strength <for [Horseman] units>",
         "[+1] Strength <for [Mounted Skirmisher] units>",
         		"[+1 Happiness] [in all cities] <when not at war>",
+			"May buy [Hellenic Barracks] buildings with [Gold] [in all cities] <upon conquering a city> <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Artisan and Guild Expansion]> <hidden from user>",
                 ],
                 "row": 9,
                 "column": 5
@@ -1306,7 +1310,6 @@
                 "name": "Nikator",
                 "civilopediaText": [{"text": "Nikator was a hellenestic royal epithet meaning The Victorious. Most famous of the victors was Seleucos I."}],
                 "uniques": [
-                    "Comment [Enables Royal Agema]","Provides [1] [Enable Royal Agema]",
                     "[2] free [Pike Phalanx] units appear",
                     "Provides [2] [Bronze]",
                     "Provides [10] [Manpower]",
@@ -1430,6 +1433,7 @@
             {
                 "name": "Noble Cavalry Schools",
                 "uniques": [
+                    	"Comment [Enables Royal Agema]","Provides [1] [Enable Royal Agema]",
                     	"[Cavalry] units gain the [Improved Armor] promotion",
         		"[+1] Strength <for [Cavalry] units>",
         		"[+1] Strength <for [Cavalry] units> <for [The Seleucids] Civilizations>",

@@ -154,7 +154,7 @@
 		"uniques": [
 			"[+20]% Strength <when attacking>"
 ],
-		"unitTypes": ["Sword","Spear","Mounted","Elephant","Ruler","Scout"],
+		"unitTypes": ["Sword","Spear","Mounted","Elephant","Scout"],
         "column": 6,
         "row": 2
 	},
@@ -166,7 +166,7 @@
 			"[+10]% Strength <vs [Wounded] units>",
 			"[+20]% Strength <vs cities>"
 ],
-		"unitTypes": ["Sword","Spear","Mounted","Elephant","Ruler","Scout"],
+		"unitTypes": ["Sword","Spear","Mounted","Elephant","Scout"],
         "column": 6,
         "row": 3
 	},

@@ -1494,7 +1494,7 @@
       "Only available <in cities with a [Drydock]>",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Timber]",
-      "Never appears as a Barbarian unit",
+    "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
       "Only available <with [Enable Pentere]> <hidden from users>",
     ],
     "attackSound": "nonmetalhit"
@@ -1612,9 +1612,9 @@
     "name": "Catapult",
     "unitType": "Siege",
     "movement": 2,
-    "strength": 7,
+    "strength": 8,
     "rangedStrength": 10,
-    "cost": 310,
+    "cost": 300,
     "requiredTech": "Mass Production",
     "uniques": [
  	"Comment [-Heavy artillery, good against cities and infantry units]",
@@ -1694,7 +1694,7 @@
     "unitType": "Civilian",
     "uniques": [
       	"Empire enters a [12]-turn Golden Age <by consuming this unit>",
-     	"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+     	"Can undertake a trade mission with City-State, giving a large sum of gold and [150] Influence",
       	"Cannot enter ocean tiles <before discovering [Agriculture]>",
      	"[+100]% Strength <when defending> <when [Embarked]>",
 	"Can instantly construct a [Trading post] improvement <[1] times> <after which this unit is consumed>",
@@ -1750,10 +1750,10 @@
     "uniques": [
 		      "Comment [Battlefield commander, give bounus to nearby units]",
       		"Only available <in cities with a [Army Barracks]>",
-		      "[+30]% Strength <during the [Imperial Age]>",
+		      "[+3] Strength <during the [Imperial Age]>",
 		      "[+100]% production cost <during the [Imperial Age]>",
       		"Consumes [1] [Nobles]",
-      		"Never appears as a Barbarian unit",
+    "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
       		"Great Person - [War]",
     ],
     "promotions": [
@@ -1779,6 +1779,7 @@
 	    "[+40]% production cost <during the [Imperial Age]>",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
+    "Never appears as a Barbarian unit <before the [Imperial Age]>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1849,7 +1850,7 @@
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
 		"Limited to [1] per Civilization",
-      		"Never appears as a Barbarian unit",
+    "Never appears as a Barbarian unit <before the [Imperial Age]>",
     ],
     "promotions": [
       	"[Cavalry] ability",
@@ -1865,14 +1866,14 @@
     "unitType": "Ruler",
     "uniqueTo": "The Scythians",
     "replaces": "King",
-    "movement": 4,
+    "movement": 3,
     "strength": 11,
   "rangedStrength": 9,
     "cost": 180,
     "uniques": [
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
-		"[+20]% Strength <during the [Imperial Age]>",
+		"[+2] Strength <during the [Imperial Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
 		"May attack when embarked",
       		"Limited to [1] per Civilization",
@@ -2000,7 +2001,7 @@
     "[-1] Range",
     "Consumes [3] [Manpower]",
     "Consumes [1] [Horses]",
-    "Never appears as a Barbarian unit",
+    "Never appears as a Barbarian unit <before the [Classical Age]>",
       "Only available <before adopting [Numidian Culture]> <hidden from users>",
   ],
   "promotions": [
@@ -2035,6 +2036,7 @@
     "uniques": [
       "Comment ['Elite light infantry, have big fear for range weapons, good at attacking, small withdraw chance.']",
       "Consumes [1] [Mercenary (Celtic)]",
+    "Never appears as a Barbarian unit <before the [Classical Age]>",
     ],
     "promotions": [
       "Shock I",
