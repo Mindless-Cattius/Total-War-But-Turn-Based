@@ -27,7 +27,7 @@
 		"style": "Roman",
 		"uniqueName": "We Come as Friends",
 		"uniques": [
-    		"[+1] Strength <when defending>  <vs [Sword] units> <for [Sword] units>",
+    		"[+10]% Strength <when defending> <vs [Sword] units> <for [Sword] units>",
 		"[+1 Happiness] from every [Barracks] <when at war>",
 		"[+2 Happiness, +1 Gold] from every [Army Barracks] <when at war>",
 		"Starts with [Latin Culture] adopted"
@@ -55,8 +55,8 @@
 		"style": "Celtic",
 		"uniqueName": "Mercenary Contacts",
 		"uniques": [
-    		"[+1] Strength <when defending> <for [Spearman] units>",
-    		"[+1] Strength <for [Skirmisher] units>",
+    		"[+10]% Strength <when defending> <for [Spearman] units>",
+    		"[+10]% Strength <for [Skirmisher] units>",
     		"[+1 Food] from [Village] tiles [in all cities]"
                 "[Gold] cost of purchasing [{Military} {Land}] units [-10]%",
 //		"Starts with [Mercenaries]",
@@ -89,8 +89,8 @@
 		"style": "Egyptian",
 		"uniqueName": "Riches of the Nile",
 		"uniques": [
-		"[+1] Strength <for [Heavy Spearman] units>",
-		"[+1] Strength <when defending> <for [Spearman] units>"
+		"[+10]% Strength <for [Heavy Spearman] units>",
+		"[+10]% Strength <when defending> <for [Spearman] units>"
     		"[+1 Food] from [Village] tiles [in all cities]",
 //		"Starts with [Colonization]",
 		"Starts with [Hellenistic Culture] adopted"
@@ -123,7 +123,7 @@
 		"uniques": [
     		"[+1 Gold] from [Village] tiles [in all cities]",
     		"[+1 Production] from [Trading post] tiles [in all cities]",
-    		"[+1] Strength <for [Hoplite] units>",
+    		"[+10]% Strength <for [Hoplite] units>",
 		"Gain a free [Silphium Trader] [in capital]",
 //		"Starts with [Entertainment]",
 		"Starts with [Hellenic Culture] adopted"
@@ -152,7 +152,7 @@
 		"style": "Eastern",
 		"uniqueName": "The Pontic Levy",
 		"uniques": [
-    		"[+1] Strength <for [Heavy Spearman] units>",
+    		"[+10]% Strength <for [Heavy Spearman] units>",
     		"[+1 Production] from [Mine] tiles [in all cities]"
 		"Provides [2] [Mercenary (Hellenic)]",
 		"Provides [2] [Mercenary (Eastern)]",
@@ -184,7 +184,7 @@
 		"style": "Hellenistic",
 		"uniqueName": "The Treasury of Lysimachos",
 		"uniques": [
-    		"[+1] Strength <for [Skirmisher] units>",
+    		"[+10]% Strength <for [Skirmisher] units>",
     		"[+1 Gold] from [Village] tiles [in all cities]"
 		"Gain a free [National Treasury] [in capital]",
 //		"Starts with [Entertainment]",
@@ -214,7 +214,7 @@
 		"style": "Seleucid",
 		"uniqueName": "Lords of Asia",
 		"uniques": [
-    		"[+1] Strength <for [Elephant] units>",
+    		"[+10]% Strength <for [Elephant] units>",
     		"[+1 Production] from [Village] tiles [in all cities]"
 		"[-10]% unhappiness from the number of cities",
 		"[Mounted] units gain the [Charge I] promotion",
@@ -248,7 +248,7 @@
 		"uniques": [
 		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
 		"[-10]% maintenance costs <for [{Military} {Land}] units> <after discovering [Vassalage]>",
-    		"[+1] Strength <for [Spearman] units>",
+    		"[+10]% Strength <for [Spearman] units>",
     		"[+1 Gold] from [Hill] tiles [in capital]"
 //		"Starts with [Archery]",
 		"Starts with [Eastern Culture] adopted"
@@ -379,7 +379,7 @@
 		"style": "Punic",
 		"uniqueName": "Phoenician Heritage",
 		"uniques": [
-    		"[+1] Strength <for [Elephant] units>",
+    		"[+10]% Strength <for [Elephant] units>",
     		"[+1 Gold] from [Village] tiles [in all cities]"
 		"[+100]% Production when constructing [Anchorage] buildings [in all cities]",
 		"[+100]% Production when constructing [Market] buildings [in all cities]",
@@ -446,7 +446,7 @@
 		"uniqueName": "West Numidians",
 		"uniques": [
 		"New [Mounted] units start with [15] XP [in all cities]",
-    		"[+1] Strength <for [Skirmisher] units>",
+    		"[+10]% Strength <for [Skirmisher] units>",
     		"[+1 Gold] from [Village] tiles [in all cities]",
 		"[+1 Gold] from every [Market]",
 //		"Starts with [Light Cavalry]",
@@ -545,8 +545,8 @@
 		"style": "Celtic",
 		"uniqueName": "Gallic Traders",
 		"uniques": [
-    		"[+1] Strength <for [Spearman] units>",
-    		"[+1] Strength <when defending> <for [Heavy Swordsman] units>",
+    		"[+10]% Strength <for [Spearman] units>",
+    		"[+10]% Strength <when defending> <for [Heavy Swordsman] units>",
     		"[+1 Gold] from [Forest] tiles [in capital]",
                 "[+10]% [Gold] [in all cities]",
 //		"Starts with [Infantry Training]",
@@ -609,8 +609,8 @@
 		"innerColor": [18,84,30],
 		"uniqueName": "Celtic Pastoralists",
 		"uniques": [
-    		"[+1] Strength <for [Heavy Spearman] units>",
-    		"[+1] Strength <for [Heavy Swordsman] units>",
+    		"[+10]% Strength <for [Heavy Spearman] units>",
+    		"[+10]% Strength <for [Heavy Swordsman] units>",
                 "[-20]% maintenance costs <for [Mounted] units>",
     		"[+1 Production] from [Pasture] tiles [in all cities]"
 //		"Starts with [Light Cavalry]",
@@ -706,7 +706,7 @@
 		"uniqueName": "Warriors and Helots",
 		"uniques": [
 		"[Royal Phalanx] units gain the [Spartan Aura] promotion",
-    		"[+1] Strength <for [Hoplite] units>",
+    		"[+10]% Strength <for [Hoplite] units>",
     		"[+1 Food] from [Farm] tiles [in capital]"
 		"Gain a free [Syssition] [in capital]",
 		"Gain a free [Second King] [in capital]",
@@ -737,7 +737,7 @@
 		"style": "Thracian",
 		"uniqueName": "Thracian Horselords",
 		"uniques": [
-    		"[+1] Strength <for [Skirmisher] units>",
+    		"[+10]% Strength <for [Skirmisher] units>",
     		"[+1 Happiness] from [Hill] tiles [in capital]",
     		"[+1 Gold] from [Mine] tiles [in all cities]",
 		"[-20]% maintenance costs <for [Mounted] units>",
