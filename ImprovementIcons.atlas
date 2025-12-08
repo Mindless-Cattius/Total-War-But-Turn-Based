@@ -4,28 +4,7 @@ size: 64, 64
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
-ImprovementIcons/Eastern Village
-  rotate: false
-  xy: 4, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
 ImprovementIcons/Village
-  rotate: false
-  xy: 4, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Village-Hellenic
-  rotate: false
-  xy: 4, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Village-Latin
   rotate: false
   xy: 4, 4
   size: 50, 50
