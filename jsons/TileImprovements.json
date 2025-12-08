@@ -13,7 +13,8 @@
 		"[+1 Food] from [Fresh water] tiles <after discovering [Land Grants]>",
 		"[+1 Food] from [non-fresh water] tiles <in cities with a [Aqueduct]>",
 		"Pillaging this improvement yields approximately [+40 Gold]",
-		"Unbuildable <for [The Scythians] Civilizations> <before the [Imperial Age]>"
+		"Unbuildable <before the [Imperial Age]> <after adopting [Steppe Authority]>",
+		"[-1 Food] <after adopting [Steppe Authority]>",
 	]		
 		"shortcutKey": "F",
 	},

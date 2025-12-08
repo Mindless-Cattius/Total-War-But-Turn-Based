@@ -150,18 +150,18 @@
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
-		    "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
+		    "[Cavalry] units gain the [Armored Lancer] promotion",
                     "[1] free [Great Scholar] units appear",
                     "[+1 Happiness] [in capital]",
                     "[+30]% Production when constructing [Market] buildings [in all cities]",
         ],
         "policies": [
             {
-                "name": "Royal Cities",
+                "name": "Eastern Tribal Roots",
                 "uniques": [
-                    "[+10]% [Culture] <in cities with at least [10] [Population]>",
+                    "[+1] [Culture] <in cities with at least [10] [Population]>",
                     "[+1 Culture] [in capital]",
-                    "[+2 Culture] [in capital] <after adopting [King of Kings]>",
+                    "[+1 Gold, +1 Happiness] [in capital] <after adopting [Great Road Builders]>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -169,16 +169,15 @@
             },
             {
                 "name": "Royal Herd",
-                "requires": ["Royal Cities"],
                 "uniques": [
                     "[+20]% Production when constructing [Mounted] units [in capital]",
-                    "Free [Cavalry] appears",
-                    "Provides [4] [Manpower]",
+                    "Free [Horseman] appears",
+                    "Provides [5] [Manpower]",
                     "Provides [2] [Horses]",
                     "[+1 Happiness] [in capital]",
                 ],
-                "row": 2,
-                "column": 1
+                "row": 1,
+                "column": 3
             },
             {
                 "name": "The Nomadic Tribes",
@@ -191,90 +190,266 @@
                     "[+1 Happiness] [in capital]",
                 ],
                 "row": 1,
-                "column": 3
-            },
+                "column": 5
+            }, 
+	    {
+      		"name": "Steppe Authority",
+                "requires": ["Royal Herd"],
+      		"uniques": [
+			"Only available <before adopting [Oasis Settlements]>","Comment [Only available before adopting Oasis Settlements]",
+        		"Comment [-Cannot build Farm until the Imperial Age]",
+                    	"[+1 Food, +1 Happiness] from every [Nomadic Herd]",
+        		"[+1] Strength <for [Horse Archer] units>",
+        		"[+1] Strength <for [Mounted] units>",
+        		"Provides [3] [Horses]",
+        		"Provides [5] [Manpower]",
+        		"[+1 Food] [in all cities] <when above [5] [Horses]>",
+        		"[+1 Gold, +1 Food] [in all cities] <when above [1] [Horses]>",
+        		"[+1 Gold] [in all cities] <when above [5] [Horses]>",
+        		"[+1 Gold, +1 Food] [in all cities] <when above [10] [Horses]>",
+        		"[+1 Gold, +1 Happiness] [in all cities] <when above [15] [Horses]>",
+        		"[+1 Gold, +1 Faith, +1 Food] [in all cities] <when above [20] [Horses]>",
+        		"[-1 Happiness] [in all cities]"
+      ],
+      			"row": 2,
+			"column": 1
+    	    },
             {
                 "name": "Parthian Tactics",
-                "requires": ["The Nomadic Tribes"],
+                "requires": ["Steppe Authority"],
                 "uniques": [
-                    "[+10]% Strength <for [Mounted Archery] units> <vs [Sword] units> <when attacking>",
-                    "[+20]% Strength <for [Mounted Archery] units> <vs [Sword] units> <when defending>",
-                    "[+15]% Strength <for [Mounted Archery] units> <vs [Spear] units> <when defending> <for [The Scythians] Civilizations>",
+                    "[+1] Strength <for [Mounted Archery] units> <vs [Sword] units>",
+                    "[+2] Strength <for [Skirmisher] units> <vs [Ranged] units>",
                     "[2] free [Horse Archer] units appear",
                     "Provides [2] [Horses]",
                     "Provides [4] [Manpower]",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]
+                    "[-1 Happiness] [in capital] <for [The Scythians] Civilizations>",
+                    "[+2] Strength <for [Mounted Archery] units> <vs [Spear] units> <when defending> <for [The Scythians] Civilizations>",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Steppe Kingship",
+                "requires": ["Parthian Tactics"],
+                "uniques": [
+        		"[+2] Strength <when defending> <for [Mounted Archery] units> <for [The Roxolani] Civilizations>",
+        		"[+1] Strength <for [Spear] units> <for [The Armenians] Civilizations>",
+                    	"[+1] Strength <for [Spearman] units> <when defending> <for [The Scythians] Civilizations>",
+        		"[+1] Strength <for [Mounted] units> <when defending>",
+        		"Provides [5] [Manpower]",
+        		"Provides [1] [Veteran]",
+			"Provides [1] [Nobles]",
+                    	"Provides [2] [Horses]",
+        		"[-2 Food, +1 Gold] from [Farm] tiles [in all cities]",
+        		"[-1 Food, +1 Gold] from [Village] tiles [in all cities]",
+                    	"[+1 Happiness] [in capital]",
+                    	"[-2 Production, +1 Gold] [in all cities]",
+                ],
+                "row": 4,
+                "column": 1
+            },
+            {
+                "name": "Steppe Warhost",
+                "requires": ["Steppe Kingship"],
+                "uniques": [
+			"[+20]% XP gained from combat <for [Mounted] units> <when above [10] [Horses]>",
+                    	"[+1] Strength <for [Commander] units>",
+			"[+20]% Yield from pillaging tiles <for [Mounted] units>",
+			"[+50]% Yield from pillaging tiles <for [Mounted Archery] units>",
+        		"[+1] Strength <for [Mounted] units> <for [The Arsacids] Civilizations>",
+        		"[+1] Strength <for [Cataphract] units> <when attacking>",
+			"[+30]% Production when constructing [Mounted] units [in all cities]",
+        		"Provides [10] [Manpower]",
+                    	"Provides [2] [Horses]",
+        		"[-1 Production, +1 Happiness] [in capital]",
+        		"[-1 Production, +1 Happiness] [in all cities]",
+                ],
+                "row": 5,
+                "column": 1
+            },
+            {
+                "name": "Oasis Settlements",
+                "requires": ["The Nomadic Tribes"],
+                "uniques": [
+			"Only available <before adopting [Steppe Authority]>","Comment [Only available before adopting Steppe Authority]",
+        		"[+1 Food, +1 Gold] from [Oasis] tiles [in all cities]",
+        		"[+1 Food] from [Farm] tiles [in all cities]",
+        		"[+1 Food, +1 Gold] from [Village] tiles [in all cities]",
+        		"[+1 Food, +1 Gold] from [Trading post] tiles [in all cities]",
+        		"Provides [5] [Manpower]",
+        		"[+1 Happiness] [in all cities]"
                 ],
                 "row": 2,
-                "column": 3
+                "column": 5
+            },
+            {
+                "name": "Royal Cities",
+                "requires": [Oasis Settlements],
+                "uniques": [
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Provides [10] [Manpower]",
+                    "[+2 Happiness] [in all cities]",
+                ],
+                "row": 3,
+                "column": 5
             },
             {
                 "name": "Great King's Levy",
-                "requires": ["Royal Herd","Parthian Tactics","Eastern Contacts"],
+                "requires": ["Royal Cities"],
                 "uniques": [
                     "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
-                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "Provides [5] [Manpower]",
                     "[+15]% Production when constructing [Spearman] units [in all cities]",
                     "[+10]% Production when constructing [Archer] units [in all cities]",
+                    "Provides [10] [Manpower]",
+                    "Provides [1] [Veteran]",
                     "[+1 Happiness] [in capital]",
                 ],
-                "row": 3,
-                "column": 3
+                "row": 4,
+                "column": 5
             },
+    	    {
+      		"name": "Great Road Builders",
+      		"requires": ["Great King's Levy"],
+      		"uniques": [
+			"[-20]% construction time for [all] improvements"
+                    	"[-10]% unhappiness from the number of cities",
+        		"[+1 Movement] <for [all] units> <within [1] tiles of a [Road]>",
+        		"[+1 Gold, +1 Food] from [Trading post] tiles [in all cities]",
+        		"[+5 Happiness] [in capital]"
+      ],
+      			"row": 5, 
+			"column": 5
+    	    },
             {
                 "name": "King of Kings",
-                "requires": ["Great King's Levy"],
                 "uniques": [
                     	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
-                    	"[-10]% unhappiness from the number of cities",
-                    	"[+10]% Strength <for [King] units> <when defending>",
-			"[Gold] cost of purchasing [Military] units [-10]% <when at war>",
+                    	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    	"[1] free [Cataphract] units appear",
+                    	"[+1] Strength <for [Commander] units> <when defending>",
+                    	"Provides [10] [Manpower]",
+                    	"Provides [3] [Iron]",
+                    	"Provides [1] [Nobles]",
                     	"Free [General] appears",
                    	"[+1 Happiness] [in capital]",
+                    "Unavailable <before the [Classical Age]>",
                 ],
-                "row": 4,
-                "column": 3
+                "row": 6,
+                "column": 2
             },
             {
                 "name": "Trade Caravans",
                 "uniques": [
-                    "[+1 Happiness] from every [Market]",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "[+1 Gold, +1 Happiness] from every [Great Market]",
                     "[+1 Gold] from every [Market]",
                     "[+1 Happiness] [in capital]",
+                    "Unavailable <before the [Classical Age]>",
                 ],
-                "row": 1,
-                "column": 5
+                "row": 6,
+                "column": 4
             },
             {
                 "name": "Eastern Contacts",
                 "requires": ["Trade Caravans"],
                 "uniques": [
-                    "[+1 Science, +1 Gold] from every [Spice Road]",
-                    "[+1 Science, +1 Culture] from every [Silk Road]",
-                    "[+1 Happiness] [in capital]"
+			"Only available <before adopting [Riders Ascendant]>","Comment [Only available before adopting Riders Ascendant]",
+			"[Gold] cost of purchasing [Military] units [-20]% <when at war>",
+                    "[+1 Food, +1 Gold] from every [Spice Road]",
+                    "[+2 Gold] from every [Silk Road]",
+                    "[+1 Production, +1 Happiness] [in all cities]",
+                    "Unavailable <before the [Classical Age]>",
                 ],
-                "row": 2,
+                "row": 7,
                 "column": 5
+            },
+            {
+                "name": "Great Merchants' League",
+                "requires": ["Eastern Contacts"],
+                "uniques": [
+        		"[+1 Gold] from [Farm] tiles [in all cities]",
+        		"[+1 Gold, +1 Food] from [Farm] tiles [in all cities] <after adopting [Great Road Builders]>",
+                        "[+1 Happiness, +1 Gold] from every [Market]",
+                        "[+5 Happiness, +3 Gold] from every [Great Market]",
+                        "[+2 Gold] from every [Harbor]",
+                        "[+1 Production, +3 Gold] from every [Great Harbor]",
+        		"[+1 Food, +1 Gold, +2 Happiness] [in all cities]",
+                ],
+                "row": 8,
+                "column": 5
+            },
+            {
+                "name": "Riders Ascendant",
+                "requires": [""],
+                "uniques": [
+			"Only available <before adopting [Eastern Contacts]>","Comment [Eastern Contacts]",
+        		"[+1] Strength <when attacking> <for [Mounted Archery] units> <after adopting [Steppe Authority]>",
+        		"[+1] Strength <when attacking> <for [Archer] units> <after adopting [Great King's Levy]>",
+        		"[+1] Strength <when attacking> <for [Slinger] units> <after adopting [Great King's Levy]>",
+        		"[+1] Strength <for [Mounted] units>",
+        		"Provides [5] [Manpower]",
+        		"[+1 Happiness] [in all cities]",
+                ],
+                "row": 7,
+                "column": 1
+            },
+            {
+                "name": "High Plains Masters",
+                "requires": ["Riders Ascendant"],
+                "uniques": [
+			"[+20]% XP gained from combat <for [Mounted] units> <when above [5] [Horses]>",
+        		"[+1] Strength <when attacking> <for [Mounted] units>,
+        		"[+1 Gold, +1 Happiness] [in all cities] <when above [1] [Horses]>",
+        		"[+1 Happiness] [in all cities]"
+                ],
+                "row": 8,
+                "column": 1
+            },
+            {
+                "name": "Steppe Metallurgy",
+                "uniques": [
+			"Only available <before adopting [Imperial Metallurgy]>","Comment [Only available before adopting Imperial Metallurgy]",
+                    	"[Horse Archer] units gain the [[Maneuver]] promotion",
+                    	"[Spearman] units gain the [Improved Armor] promotion",
+                    	"[Skirmisher] units gain the [Improved Armor] promotion",
+                    	"[+20]% Strength <for [Mounted Archery] units> <vs [Ranged] units> <when defending>",
+                    	"[1] free [Cataphract] units appear",
+                    	"Provides [2] [Iron]",
+     		    	"Provides [1] [Veteran]",
+     		    	"Provides [5] [Manpower]",
+                    	"[+5 Happiness] [in capital]",
+                    	"Unavailable <before the [Hellenistic Age]>",
+                ],
+                "row": 9,
+                "column": 2
+            },
+            {
+                "name": "Imperial Metallurgy",
+                "uniques": [
+			"Only available <before adopting [Steppe Metallurgy]>","Comment [Only available before adopting ]",
+                    	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    	"[Mounted] units gain the [Improved Armor] promotion",
+                    	"[Infantry Shield II] units gain the [Improved Armor] promotion",
+                    	"[Cataphract] units gain the [Improved Armor] promotion",
+			"[Gold] cost of purchasing [Military] units [-10]%",
+                    	"[+25]% Strength <for [Spearman] units> <when adjacent to a [Commander] unit> <when defending>",
+                    	"Provides [2] [Iron]",
+     		    	"Provides [1] [Veteran]",
+     		    	"Provides [10] [Manpower]",
+                    	"[+1 Happiness] [in all cities]",
+                    	"Unavailable <before the [Hellenistic Age]>",
+                ],
+                "row": 9,
+                "column": 4
             },
             {
                 "name": "Eastern Culture Complete",
                 "uniques": [
-                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
-                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
-                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
-                    "[Horse Archer] units gain the [[Maneuver]] promotion",
-                    "[+20]% Strength <for [Mounted Archery] units> <vs [Ranged] units> <when defending>",
-                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
-			"[Gold] cost of purchasing [Military] units [-10]%",
-                    "[1] free [Cataphract] units appear",
-                    "Provides [2] [Iron]",
-     		    "Provides [1] [Veteran]",
-                    "[+1 Happiness] [in all cities]",
-                    "[+1 Happiness] [in capital]",
                 ]
             }
         ]
