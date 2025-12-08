@@ -1866,7 +1866,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
-			"[+1] [Food] [in all cities]",
+			"[+1 Food] [in all cities]",
 			 "[+10]% Production when constructing [Archery] units [in all cities]",
 			"Only available <after adopting [Hellenic Culture]>",
 ],

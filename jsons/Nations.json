@@ -309,7 +309,7 @@
 		"uniqueName": "Royal Scythians",
 		"uniques": [
 		"[+1 Food] per [5] population [in all cities] <before the [Imperial Age]>",
-    		"[+1 Gold] from Camp] tiles [in all cities]"
+    		"[+1 Gold] from [Camp] tiles [in all cities]"
 		"[+50]% [Happiness] from City-States",
 		"[+50]% Happiness from luxury resources gifted by City-States",
 		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
@@ -700,7 +700,7 @@
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
-		"outerColor": [227, 157, 134],
+		"outerColor": [227, 82, 82],
 		"innerColor": [237, 234, 179],
 		"style": "Spartan",
 		"uniqueName": "Warriors and Helots",
@@ -1002,7 +1002,6 @@
 		"uniques": [
 		"Starts with [Numidian Culture] adopted",
 //		"Starts with [Entertainment]",
-		"Gain a free [The Oracle of Amun] [in capital]",
 		"[+25]% Production when constructing [Libyan Chariot Archer] units [in all cities]",
 		"[+50]% XP gained from combat <for [Libyan Chariot Archer] units>"
 		],
@@ -1047,7 +1046,6 @@
 		"innerColor": [255,175,100],
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
-		"Gain a free [Colossus] [in capital]",
 //		"Starts with [Colonization]",
 		"[+25]% Production when constructing [Trihemiola] units [in all cities]",
 		"[+25]% Production when constructing [Rhodian Slinger] units [in all cities]",
@@ -1134,8 +1132,6 @@
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
 //		"Starts with [Entertainment]",
-		"Gain a free [Mausoleum of Halicarnassus] [in capital]",
-		"Gain a free [Temple of Artemis] [in capital]"
 		],
 		"style": "Greek",
 		"cities": ["Ephesos"]
@@ -1413,7 +1409,6 @@
 		"uniques": [
 		"Starts with [Eastern Culture] adopted",
 //		"Starts with [Entertainment]",
-		"Gain a free [Hanging Gardens] [in capital]"
 		],
 		"style": "Eastern",
 		"cities": ["Babylon"]
@@ -1619,7 +1614,6 @@
 		"uniques": [
 		"Starts with [Hellenic Culture] adopted",
 //		"Starts with [Entertainment]",
-		"Gain a free [Parthenon] [in capital]",
 		"[+25]% Production when constructing [Melee] units [in all cities]"
 		],
 		"style": "Greek",
@@ -1639,7 +1633,6 @@
 		"uniques": [
 		"Starts with [Hellenistic Culture] adopted",
 //		"Starts with [Infantry Training]",
-		"Gain a free [The Oracle of Dodona] [in capital]",
 		"[+25]% Production when constructing [Melee] units [in all cities]"
 		],
 		"style": "Greek",

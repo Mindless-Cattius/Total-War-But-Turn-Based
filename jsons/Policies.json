@@ -294,7 +294,7 @@
 			"[+1 Happiness] from [Fort] tiles [in this city]",
                     	"[+1 Food] from every [Barracks]",
                     	"[+1 Happiness] [in all cities]",
-			"May buy [Celtic Barracks] buildings with [Gold] [in all cities] <upon conquering a city> <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Hill Fort Confederacy]> <hidden from user>",
+			"May buy [Gallic Barracks] buildings with [Gold] [in all cities] <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Hill Fort Confederacy]> <hidden from users>",
                 ],
                 "requires": ["Highland Harvest"],
                 "row": 9,
@@ -1230,7 +1230,7 @@
         "[+1] Strength <for [Horseman] units>",
         "[+1] Strength <for [Mounted Skirmisher] units>",
         		"[+1 Happiness] [in all cities] <when not at war>",
-			"May buy [Hellenic Barracks] buildings with [Gold] [in all cities] <upon conquering a city> <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Artisan and Guild Expansion]> <hidden from user>",
+			"May buy [Hellenic Barracks] buildings with [Gold] [in all cities] <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Artisan and Guild Expansion]> <hidden from users>",
                 ],
                 "row": 9,
                 "column": 5
