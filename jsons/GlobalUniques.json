@@ -163,11 +163,17 @@
 	"Rebel units may spawn <with [55]% chance> <when below [10] [Happiness]>",
 	"Rebel units may spawn <with [75]% chance> <when below [5] [Happiness]>",
 	"Rebel units may spawn <with [90]% chance> <when below [0] [Happiness]>",
+
+	"Rebel units may spawn <with [60]% chance> <when above [5] [Nobles]>",
+	"Rebel units may spawn <with [40]% chance> <when below [4] [Nobles]>",
+	"Rebel units may spawn <with [20]% chance> <when below [3] [Nobles]>",
+	"Rebel units may spawn <with [10]% chance> <when below [2] [Nobles]>",
 // Events
 
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <upon founding a city>",
         "Free [Spearman] appears <when above [11] [Happiness]> <upon founding a city>",
-        "Free [General] appears <upon turn end> <when above [1] [Nobles]> <with [2]% chance>",
+        "Free [General] appears <upon turn end> <when above [1] [Nobles]> <with [1]% chance>",
+        "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [10]% chance>",
         "Free [Foot Guard] appears <upon turn end> <when above [1] [Veteran]> <with [3]% chance>",
         "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance> <before the [Imperial Age]>",

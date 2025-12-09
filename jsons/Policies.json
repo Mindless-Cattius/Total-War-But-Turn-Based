@@ -344,6 +344,7 @@
                 "name": "Royal Herd",
                 "uniques": [
                     "[+20]% Production when constructing [Mounted] units [in capital]",
+			"[+10]% XP gained from combat <for [Mounted] units> <when above [2] [Horses]>"
                     "Free [Horseman] appears",
                     "Provides [5] [Manpower]",
                     "Provides [2] [Horses]",
@@ -583,6 +584,8 @@
 			"[+20]% XP gained from combat <for [Mounted] units> <when above [5] [Horses]>",
         		"[+10]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
         		"[+10]% Strength <when attacking> <for [Mounted] units>",
+        		"[+10]% Strength <for [Mounted] units> <when above [5] [Horses]>",
+        		"[+10]% Strength <for [Mounted Archery] units> <when above [5] [Horses]>",
         		"[+1 Gold, +1 Happiness] [in all cities] <when above [1] [Horses]>",
         		"[+1 Happiness] [in all cities]"
                 ],
@@ -2114,6 +2117,7 @@
                     	"[+20]% Production when constructing [{Military} {Water}] units [in capital]",
                     	"[+1] additional attacks per turn <for [Galley] units>",
                     	"Provides [2] [Veteran]",
+           		"[+1 Happiness, +5 Gold] from every [Slave Trader]",
                     	"[+1 Happiness, +1 Gold] [in all cities]",
                 ],
                 "requires": ["Adventurers"],
@@ -3006,10 +3010,11 @@
         "uniques": [
             "Only available <before adopting [Theocracy]>",
             "Only available <before adopting [Empire]>",
+            "[+50]% Golden Age length",
             "[+50]% Culture cost of adopting new Policies",
+            "[+10]% Unhappiness from [Population] [in all cities]",
             "[+2 Gold] [in all cities] <with a garrison>",
             "[+1 Happiness] [in all cities]",
-            "[-10]% Unhappiness from [Population] [in all cities]",
         ],
         "policies": [
             {
@@ -3158,6 +3163,7 @@
                 "name": "Confederational Reform",
                 "uniques": [
 			"Unavailable <before the [Imperial Age]>",
+                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [50] turns",
                     	"[-20]% City-State Influence degradation",
 			"[+10]% Great Person generation [in all cities]",
 			"[+20]% Production when constructing [Market] buildings [in all cities]",
@@ -3272,36 +3278,37 @@
         "uniques": [
             "Only available <before adopting [Federation]>",
             "Only available <before adopting [Theocracy]>",
-            "[+10]% Unhappiness from [Population] [in all cities]",
-            "[+50]% Culture cost of adopting new Policies",
+            "[+50]% Golden Age length",
+            "[+15]% Unhappiness from [Population] [in all cities]",
+            "[+60]% Culture cost of adopting new Policies",
             "[+2 Happiness] from every [World Wonder]",
             "[+2 Happiness] from every [National Wonder]",
             "[+2 Happiness] from every [Natural Wonder]",
             "[+1 Happiness] [in capital]",
-            "Provides [4] [Manpower]",
         ],
         "policies": [
             {
                 "name": "Law of the Ruler",
                 "uniques": [
-                    	"[-20]% Unhappiness from [Specialists] [in all cities]",
+                    	"[-10]% Unhappiness from [Specialists] [in all cities]",
            		"[+1 Happiness] from every [Plantation]",
            		"[+1 Happiness] from every [Slave Trader]",
            		"[+1 Happiness] from every [Stable]",
-                    	"[+1 Happiness] [in capital]",
+                    	"[+2 Happiness] [in capital]",
                 ],
                 "row": 1,
-                "column": 1
+                "column": 5
             },
             {
                 "name": "Urbanization",
                 "uniques": [
-                    "[+1 Happiness, +1 Gold] from every [Brick Maker]",
-                    "[+1 Happiness] [in capital]"
-                     "[+10]% Production towards any buildings that already exist in the Capital",
+                    "[+1 Happiness, +1 Gold, +1 Production] from every [Brick Maker]",
+                    "[+5]% Production towards any buildings that already exist in the Capital",
+    		    "[+1 Gold] from [Village] tiles [in all cities]",
+                    "[+2 Happiness] [in capital]",
                 ],
                 "row": 1,
-                "column": 3
+                "column": 1
             },
             {
                 "name": "Provincial Roads",
@@ -3309,127 +3316,280 @@
                      	"No Maintenance costs for improvements in [Rough terrain] tiles",
        			"[-20]% maintenance costs <for [Military] units> <in [Friendly Land] tiles>",
                     	"[+10]% Production when constructing [Mounted] units [in all cities]",
-                   	 "[+1 Happiness] [in capital]",
+    		    	"[+1 Gold] from [Village] tiles [in all cities]",
+    		   	"[+1 Gold] from [Trading post] tiles [in all cities]",
                     	"[+1 Happiness] [in all cities]",
-                    	"[+1 Production] from every [Market]",
+                    	"[+1 Production, +1 Gold] from every [Market]",
                 ],
                 "row": 1,
+                "column": 3
+            },
+	    {
+		"name": "Senatorial Charter",
+                "requires": [Urbanization],
+		"uniques": [
+    		    	"Only available <before adopting [Imperial's Decree]>",
+    			"[+1 Culture] [in all cities]",
+    			"[+1 Happiness] [in all cities]",
+    			"[+1 Gold] [in all cities] <when above [1] [Nobles]>"
+		],
+		"row": 2,
+		"column": 1
+	    },
+	    {
+		"name": "Provincial Assemblies",
+                "requires": ["Senatorial Charter"],
+		"uniques": [
+    			"[+1 Gold] from [Village] tiles [in all cities]",
+    			"[-20]% City-State Influence degradation",
+    			"[-1 Production] from [Fort] tiles [in all cities]",
+    			"[+2 Happiness] [in all cities] <with a garrison>",
+		],
+		"row": 3,
+		"column": 1
+	    },
+	    {
+		"name": "Administrative Cohesion",
+                "requires": ["Provincial Assemblies"],
+		"uniques": [
+    			"[+10]% Production when constructing [Military] units [in all cities]",
+    			"[+10]% Production when constructing [Market] buildings [in all cities]",
+    			"[+10]% Production when constructing [Barracks] buildings [in all cities]",
+    			"[+1 Happiness] [in all cities]",
+		],
+		"row": 4,
+		"column": 1
+	    },
+	    {
+		"name": "Senatorial Oversight",
+                "requires": ["Administrative Cohesion"],
+		"uniques": [
+    			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+    			"[+1 Gold] from [Trading post] tiles [in all cities]",
+    			"[+1 Gold] from [Village] tiles [in all cities]",
+    			"[-5]% Unhappiness from [Population] [in all cities]",
+    			"[+1 Happiness] [in all cities]",
+		],
+		"row": 5,
+		"column": 1
+	    },
+	    {
+		"name": "Auxilary Levies",
+                "requires": ["Senatorial Oversight"],
+		"uniques": [
+    			"[+15]% Production when constructing [Scout] units [in all cities]",
+    			"[+15]% Production when constructing [Archery] units [in all cities]",
+    			"[+10]% Production when constructing [Spear] units [in all cities]",
+    			"[+10]% Production when constructing [Mounted] units [in all cities]",
+    			"Provides [2] [Veteran]",
+    			"Provides [10] [Manpower]",
+    			"[+1 Gold, +1 Food] from [Trading post] tiles [in all cities]",
+    			"[-1 Gold, +1 Food] from [Village] tiles [in all cities]",
+    			"[+1 Happiness, -1 Gold, +1 Food] [in all cities]",
+		],
+		"row": 6,
+		"column": 1
+	    },
+	    {
+		"name": "Advisory War Council",
+                "requires": ["Auxilary Levies"],
+		"uniques": [
+       		 	"New [Military] units start with [10] XP [in all cities]",
+			"[+1] Movement <for [Military] units> <when fighting in [Friendly Land] tiles>",
+       		    	"[-50]% maintenance costs <for [Military] units> <in [Friendly Land] tiles>",
+       		    	"[-20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+    			"[+1 Gold, +1 Food] from [Fort] tiles [in all cities]",
+    			"Provides [2] [Nobles]",
+    			"[+1 Happiness] [in all cities]",
+		],
+		"row": 7,
+		"column": 1
+	    },
+	    {
+		"name": "Imperial's Decree",
+                "requires": ["Law of the Ruler"],
+		"uniques": [
+    		    	"Only available <before adopting [Senatorial Charter]>",
+    			"[-1 Happiness, +2 Gold, +1 Food] from [Village] tiles [in all cities]",
+    			"[-1 Happiness, +2 Gold, +1 Food] from [Trading post] tiles [in all cities]",
+    			"[+1 Gold] from every [Market]"
+    			"[+2 Gold] [in all cities]",
+                    	"Free [General] appears",
+    			"Provides [1] [Nobles]",
+    			"[+10]% Unhappiness from [Population] [in all cities]",
+    			"[+5 Happiness] [in capital]",
+		],
+		"row": 2,
+		"column": 5
+	    },
+	    {
+		"name": "Imperial Garrisons",
+                "requires": ["Imperial's Decree"],
+		"uniques": [
+		    	"[+10]% Strength <when defending> <for [Spear] units> <when fighting in [Friendly Land] tiles>",
+		    	"[+20]% Strength <when defending> <for [Archery] units> <when fighting in [Friendly Land] tiles>",
+    			"[+1 Happiness, -1 Food] from [Village] tiles [in all cities]",
+    			"[+2 Gold] from [Trading post] tiles [in all cities]",
+    			"[+3 Happiness, -2 Gold, +1 Food] from [Fort] tiles [in all cities]",
+    			"Provides [1] [Veteran]",
+    			"Provides [10] [Manpower]",
+    			"[+5 Happiness] [in capital]",
+    			"[+3 Happiness, -1 Gold] [in all cities] <with a garrison>",
+		],
+		"row": 3,
+		"column": 5
+	    },
+	    {
+                "name": "Official Dogma",
+                "requires": ["Imperial Garrisons"],
+                "uniques": [
+			"[Gold] cost of purchasing [Military] units [-20]%",
+                    	"[+10]% [Gold] [in capital]",
+                    	"Provides [1] [Nobles]",
+    			"[+1 Happiness, +1 Gold] from [Village] tiles [in all cities]",
+    			"[+1 Happiness] from [Trading post] tiles [in all cities]",
+                    	"[+1 Production, +1 Food] from every [Garrison Post]",
+                    	"[+5 Happiness] [in capital]",
+		],
+		"row": 4,
+		"column": 5
+	    },
+	    {
+		"name": "Imperial Trade Council",
+                "requires": ["Official Dogma"],
+		"uniques": [
+			"[+10]% unhappiness from the number of cities",	
+        		"[+1 Gold] [in all cities] <when above [2] [Nobles]>",	
+        		"[+1 Gold, +1 Happiness] [in all cities] <when above [3] [Nobles]>",
+			"[+3 Gold] from each Trade Route",
+    			"[+1 Gold] from every [Market]",
+    			"[+1 Gold] from [Trading post] tiles [in all cities]",
+    			"[+1 Happiness, +1 Gold] from [Village] tiles [in all cities]",
+    			"[+1 Gold] from [Fort] tiles [in all cities]",
+                    	"[+3 Happiness, +1 Gold] [in capital]",
+		],
+		"row": 5,
+		"column": 5
+	    },
+	    {
+		"name": "Imperial Cohesion",
+                "requires": ["Imperial Trade Council"],
+		"uniques": [
+    			"[+10]% Strength <for [Military] units>",
+    			"[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",	
+        		"[+3 Happiness, +3 Gold] [in all cities] <when above [3] [Nobles]>",		
+        		"[-1 Happiness, +1 Gold] [in all cities] <when below [2] [Nobles]>",	
+        		"[-3 Happiness, -1 Production] [in all cities] <when below [1] [Nobles]>",
+    			"Provides [1] [Nobles]",
+    			"Provides [10] [Manpower]",
+    			"[+5 Happiness] [in capital]",	
+		],
+		"row": 6,
+		"column": 5
+	    },
+            {
+                "name": "Imperial Doctrine",
+                "requires": ["Imperial Cohesion"],
+                "uniques": [
+                    	"[+30]% Golden Age length",
+			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+       		 	"New [Ruler] units start with [10] XP [in all cities]",
+                    	"[+5]% [Production] [in capital]",
+                    	"Provides [2] [Veteran]",
+    			"[+1 Happiness] [in all cities]",
+    			"[+5 Happiness] [in capital]",
+	],
+                "row": 7,
                 "column": 5
             },
             {
-                "name": "Imperial Garrisons",
-                "requires": ["Law of the Ruler","Urbanization","Provincial Roads"],
+                "name": "Pax Imperialis",
                 "uniques": [
-    		    "Only available <before adopting [War Economy]>",
-                    "[-10]% Unhappiness from [Population] [in all cities]",
-		    "[+15]% Strength <when defending> <for [All] units> <when fighting in [Friendly Land] tiles>",
-                    "Provides [1] [Veteran]",
-       		    "[-20]% maintenance costs <for [Spear] units> <in [Friendly Land] tiles>",
-                    "[+2 Happiness] [in all cities] <with a garrison>",
-                    "[+1 Happiness] [in capital]",
-                    "[+1 Production, +1 Food] from every [Garrison Post]",
+    		    	"Unavailable <before the [Imperial Age]>",
+                    	"Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
+                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [70] turns",
+                    	"[-10]% Unhappiness from [Population] [in all cities] <with a garrison>",
+                    	"Provides [1] [Veteran]",
+       		    	"[-30]% maintenance costs <for [Spear] units> <in [Friendly Land] tiles>",
+                    	"[+2 Happiness, +1 Gold] [in all cities] <with a garrison>",
+                    	"[+1 Happiness] [in capital]",
                 ],
-                "row": 2,
-                "column": 1
+                "row": 7,
+                "column": 3
             },
             {
                 "name": "Civil Administration",
-                "requires": ["Imperial Garrisons"],
+                "requires": ["Pax Imperialis"],
                 "uniques": [
-			"[Gold] cost of purchasing [Military] units [-20]% <when not at war>",
+    		    	"Only available <before adopting [War Economy]>",
+			"[Gold] cost of purchasing [Military] units [-30]% <when not at war>",
                      	"No Maintenance costs for improvements in [Open terrain] tiles",
-                   	 "[+1 Happiness] from every [Army Barracks]",
+                   	"[+1 Happiness] from every [Army Barracks]",
                     	"[+1 Happiness] from every [Cavalry Barracks]",
                     	"[+1 Happiness] from every [Skirmisher Barracks]",
-                    	"[+1 Happiness] [in capital]",
+                    	"[+1 Happiness, +2 Gold] [in all cities]",
 			"[+1 Happiness, +1 Food, +1 Gold] from all [Barracks] buildings <when not at war>",
+    			"[+1 Gold] from [Trading post] tiles [in all cities]",
+    			"[+2 Happiness] from [Village] tiles [in all cities]",
+    			"[+3 Happiness, +1 Gold] from [Fort] tiles [in all cities]",
 			"[+2 Gold] from all [Army Barracks] buildings <when not at war>",
 			"[+1 Gold, +1 Food] from all [Cavalry Barracks] buildings <when not at war>",
 			"[+2 Food] from all [Skirmisher Barracks] buildings <when not at war>",
                     	"Provides [10] [Manpower]",
                 ],
-                "row": 3,
+                "row": 8,
+                "column": 1
+            },
+            {
+                "name": "Standardization",
+                "requires": ["Civil Administration"],
+                "uniques": [
+                    	"[+10]% [Gold] [in capital]",
+                    	"[+1 Happiness] [in capital]",
+			"[+1 Gold, +1 Production] from all [Market] buildings",
+                    	"[+2 Happiness, +1 Gold] from every [Mint]",
+    			"[+1 Gold] from [Improvement] tiles [in all cities]",
+                    	"[-10]% Unhappiness from [Population] [in all cities]",
+                ],
+                "row": 9,
                 "column": 1
             },
             {
                 "name": "War Economy",
-                "requires": ["Law of the Ruler","Urbanization","Provincial Roads"],
+                "requires": ["Pax Imperialis"],
                 "uniques": [
-		"[Gold] cost of purchasing [Military] units [-10]% <when at war>",
-                    "[+1 Happiness] [in capital]",
-		"[+1 Happiness, +1 Food, +3 Gold] from all [Barracks] buildings <when at war>",
-		"[+3 Gold] from all [Army Barracks] buildings <when at war>",
-		"[+1 Gold] from all [Market] buildings <when at war>",
-		"[+3 Food] from all [Skirmisher Barracks] buildings <when at war>",
-		"[+3 Production] from all [Cavalry Barracks] buildings <when at war>",
-    		    "Only available <before adopting [Imperial Garrisons]>",
+    		    	"Only available <before adopting [Civil Administration]>",
+			"[Gold] cost of purchasing [Military] units [-10]% <when at war>",
+                    	"[+1 Happiness] [in capital]",
+			"[+1 Happiness, +1 Food, +3 Gold] from all [Barracks] buildings <when at war>",
+			"[+3 Gold] from all [Army Barracks] buildings <when at war>",
+			"[+1 Gold] from all [Market] buildings <when at war>",
+			"[+3 Food] from all [Skirmisher Barracks] buildings <when at war>",
+			"[+3 Production] from all [Cavalry Barracks] buildings <when at war>",
                 ],
-                "row": 2,
+                "row": 8,
                 "column": 5
             },
             {
                 "name": "Total War",
                 "requires": ["War Economy"],
                 "uniques": [
-                    	"Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
+			"Comment [Teach peasant the way of the true war crimes]",
                     	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
+       		 	"New [Military] units start with [10] XP [in all cities]",
+        		"[+10]% Strength <for [Infantry Shield III] units> <when above [1] [Iron]>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when above [3] [Iron]>",
                     	"Free [General] appears",
-                    	"[+1 Happiness] [in capital]",
+                    	"Provides [1] [Nobles]",
                     	"Provides [2] [Veteran]",
-       		 	"New [Military] units start with [5] XP [in all cities]",
 			"[+1 Production] from all [Barracks] buildings <when at war>",
 			"[+10]% Strength <when defending> <for [All] units> <when fighting in [Enemy Land] tiles>",
 			"[+10]% Strength <for [Siege] units> <when fighting in [Enemy Land] tiles>",
 			"[+10]% Strength <for [Mounted] units> <when fighting in [Enemy Land] tiles>",
-			"Comment [-Teach peasant the way of the true war crimes]",
+                    	"[-1 Happiness] [in all cities]",
                 ],
-                "row": 3,
+                "row": 9,
                 "column": 5
-            },
-            {
-                "name": "Official Dogma",
-                "uniques": [
-			"[Gold] cost of purchasing [Spear] units [-15]%",
-                    	"[+10]% [Gold] [in capital]",
-                    	"Free [General] appears",
-                    	"[+1 Happiness] [in capital]",
-                    	"Provides [1] [Veteran]",
-    		    	"Only available <after adopting [Total War]>",
-    		    	"Only available <after adopting [Civil Administration]>",
-                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [40] turns",
-                ],
-                "row": 4,
-                "column": 1
-            },
-            {
-                "name": "Standardization",
-                "uniques": [
-                    	"[+15]% [Gold] [in capital]",
-                    	"[+1 Happiness] [in capital]",
-			"[+1 Production] from all [Market] buildings",
-			"[+1 Gold] from all [Market] buildings",
-    		    	"Only available <after adopting [Total War]>",
-                    	"[-10]% Unhappiness from [Population] [in all cities]",
-    		    	"Only available <after adopting [Civil Administration]>",
-                ],
-                "row": 4,
-                "column": 5
-            },
-            {
-                "name": "Imperial Doctrine",
-                "requires": ["Standardization","Official Dogma"],
-                "uniques": [
-                    	"[+50]% Golden Age length",
-			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-       		 	"New [Military] units start with [5] XP [in all cities]",
-			"[Gold] cost of purchasing [Military] units [-10]%",
-                  	 "[+1 Happiness] [in annexed cities] <in cities with a [Barracks]>",
-                    	"[+5]% [Production] [in capital]",
-                    	"[+5]% [Gold] [in all cities] <after adopting [Civil Administration]>",
-                    	"Provides [2] [Veteran] <after adopting [Total War]>",
-	],
-                "row": 5,
-                "column": 3
             },
             {
                 "name": "Empire Complete",
