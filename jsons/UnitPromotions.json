@@ -549,7 +549,7 @@
  				"[-20]% Strength <when attacking> <for [Ranged] units>",
 				"[-20]% to Flank Attack bonuses",
 			  	"[+50]% weight to this choice for AI decisions"],
-		"unitTypes": ["Mounted Archery", "Mounted", "Sword","Spear","Archery","Siege","Ranged Water","Melee Water","Ruler"],
+		"unitTypes": ["Mounted Archery", "Mounted", "Sword","Spear","Archery","Siege","Ranged Water","Melee Water"],
         "column": 21,
         "row": 1
 	},
@@ -629,7 +629,7 @@
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Siege","Archery","Elephant"],
 		"uniques": [
 		"[+10]% Strength",
-		"Only available <if [Forge] is constructed>",
+		"Only available <if [Imperial Armory] is constructed>",
 		],
         "column": 27,
         "row": 1
@@ -1044,7 +1044,7 @@
 		"name": "Improved Armor",
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege","Ruler","Elephant"],
 		"uniques": ["[+10]% Strength <when defending>",
-			"Only available <if [Imperial Armory] is constructed>",]
+			"Only available <if [Forge] is constructed>",]
 	},
 	{
   		"name": "[Siege Logistics]",

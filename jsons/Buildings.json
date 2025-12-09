@@ -289,7 +289,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"faith": 1,
-		"cost": 60,
+		"cost": 40,
 		"culture": 1,
  		"happiness": 1,
 		"specialistSlots": {"Priest": 1},
@@ -297,7 +297,8 @@
 		"uniques": [
 			"Consumes [1] [Decadence] <during a Golden Age>",
 			"[-10]% Culture cost of natural border growth [in this city]",
-			"Destroyed when the city is captured"
+			"Cost increases by [10] per owned city",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Mysticism"
 	},
@@ -305,12 +306,12 @@
 		"name": "Secret Cult",
 		"requiredBuilding": "Temple",
 		"hurryCostModifier": 25,
-		"cost": 100,
+		"cost": 40,
 		"maintenance": 1,
 		"happiness": 2,
 		"faith": 1,
 		"uniques": [
-			"Cost increases by [15] per owned city",
+			"Cost increases by [20] per owned city",
 			"Provides [1] [Decadence]"
 ],
 		"requiredTech": "Mysticism"
@@ -320,7 +321,7 @@
 		"name": "Theatre",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"cost": 140,
+		"cost": 120,
 		"happiness": 1,
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
@@ -328,7 +329,8 @@
 		"uniques": [
 			"Provides [1] [Decadence]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
-			"[-10]% Culture cost of natural border growth [in this city]"
+			"[-10]% Culture cost of natural border growth [in this city]",
+			"Cost increases by [10] per owned city",
 ],
 		"civilopediaText": [{"text": "Promoting largely politically irrelevant or pro-ruling class themes, a Theatre can keep your people busy while shaping their perceptions and making them feel more enlightened."}]
 	},
@@ -336,7 +338,7 @@
 		"name": "Amphitheater",
 		"replaces": "Theatre",
 		"uniqueTo": "The Athenians",
-		"cost": 160,
+		"cost": 130,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"culture": 2,
@@ -346,7 +348,8 @@
 		"uniques": [
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"Consumes [1] [Decadence] <during a Golden Age>",
-			"[-15]% Culture cost of natural border growth [in this city]"
+			"[-15]% Culture cost of natural border growth [in this city]",
+			"Cost increases by [15] per owned city",
 		],
 		"civilopediaText": [{"text": "Promoting largely politically irrelevant or pro-ruling class themes, a Theatre can keep your people busy while shaping their perceptions and making them feel more enlightened."}]
 	},
@@ -355,7 +358,7 @@
 		"replaces": "Theatre",
 		"uniqueTo": "The Romans",
 		"hurryCostModifier": 25,
-		"cost": 180,
+		"cost": 130,
 		"maintenance": 3,
 		"culture": 2,
 		"happiness": 2,
@@ -368,7 +371,7 @@
 			"[+1 Happiness] from [Village] tiles [in this city] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"Cost increases by [15] per owned city"
+			"Cost increases by [15] per owned city",
 ],
 		"civilopediaText": [{"text": "A grand show of violence and death keeps the masses busy and enhances our warrior culture."}]
 	},
@@ -377,7 +380,7 @@
 		"replaces": "Theatre",
 		"uniqueTo": "The Arverni",
 		"hurryCostModifier": 25,
- 		"cost": 140,
+ 		"cost": 60,
 		"maintenance": 1,
 		"culture": 1,
 		"happiness": 2,
@@ -387,7 +390,8 @@
 			"[+1 Culture] [in this city] <when not at war>",
 			"[+1 Happiness] [in this city] <when at war>",
 			"[+1 Food] from [Village] tiles [in this city]",
-			"Destroyed when the city is captured"
+			"Cost increases by [10] per owned city",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Entertainment"
 	},
@@ -464,12 +468,13 @@
 		"requiredBuilding": "Aqueduct",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"cost": 200,
+		"cost": 120,
 		"happiness": 1,
 		"uniques": [
 			"[+20]% Great Person generation [in this city]", 
 			"Must be next to [Fresh water]"
 			"Provides [1] [Decadence]",
+			"Cost increases by [15] per owned city",
 ],
 		"requiredTech": "Philosophy"
 	},
@@ -484,7 +489,8 @@
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 			"Provides [1] [Scrolls]",
-			"[+1 Culture] from [Papyrus] tiles [in this city]"
+			"[+1 Culture] from [Papyrus] tiles [in this city]",
+			"Cost increases by [10] per owned city",
 		],
 		"requiredTech": "Philosophy"
 	},
@@ -505,7 +511,8 @@
 			"[+1 Gold] per [10] population [in this city]",
 			"[+1 Culture] from [Sheep] tiles [in this city]",
 			"[+1 Culture] from [Cattle] tiles [in this city]",
-			"[+1 Culture] from [Papyrus] tiles [in this city]"
+			"[+1 Culture] from [Papyrus] tiles [in this city]",
+			"Cost increases by [10] per owned city",
 		],
 		"requiredTech": "Philosophy"
 	},
@@ -514,7 +521,7 @@
 		"science": 4,
 		"culture": 2,
 		"specialistSlots": {"Scholar": 2},
- 		"cost": 1000,
+ 		"cost": 800,
 		"isWonder": true,
 		"requiredTech": "Philosophy",
 		"uniques": ["Consumes [1] [Decadence] <in cities with a [The Great Library]> <while the empire is happy>","Free Technology","Only available <after adopting [Hellenistic Culture]>"],
@@ -526,19 +533,24 @@
 		"name": "Granary",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
- 		"cost": 80,
+ 		"cost": 60,
 		"food": 2,
 		"cityHealth": 10,
-		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]"],
+		"uniques": [
+			"[+1 Food] from [Plantation] tiles [in this city]",
+			"[+2 Food] from [Wheat] tiles [in this city]",
+			"Cost increases by [10] per owned city",
+],
 		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Brick Maker",
 		"requiredBuilding": "Ceramics Workshop",
 		"hurryCostModifier": 25,
- 		"cost": 130,
+ 		"cost": 80,
 		"maintenance": 1,
 		"uniques": [
+			"Cost increases by [10] per owned city",
 			"[+1 Culture] from [Marsh] tiles [in this city]",
 			"[+1 Production] from [Oasis] tiles [in this city]",
 			"[+1 Production] from [Lakes] tiles [in this city]",
@@ -556,22 +568,27 @@
 		"requiredBuilding": "Market",
 		"requiredNearbyImprovedResources": ["Wheat"],
 		"hurryCostModifier": 25,
-		"cost": 160,
+		"cost": 100,
 		"gold": 1,
 		"maintenance": 0,
-		"uniques": ["[+1 Gold] from [Wheat] tiles [in this city]"],
+		"uniques": [
+			"Cost increases by [10] per owned city",
+			"[+1 Gold] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Barter"
 	},
 	{
 		"name": "Cattle Trader",
 		"requiredNearbyImprovedResources": ["Cattle","Sheep","Camels"],
 		"hurryCostModifier": 25,
-		"cost": 120,
+		"cost": 60,
 		"maintenance": 0,
 		"percentStatBonus": {"gold": 10},
 		"gold": 2,
 		"requiredTech": "Barter"
 		"uniques": [
+		"Cost increases by [10] per owned city",
+		"[+1 Food, +1 Gold] from [Cattle] tiles [in this city]",
+		"[+1 Food, +1 Gold] from [Sheep] tiles [in this city]",
 		"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
 		]
 	},
@@ -591,9 +608,10 @@
 		"name": "Ceramics Workshop",
 		"requiredNearbyImprovedResources": ["Clay","Stone"],
 		"hurryCostModifier": 25,
-		"cost": 110,
+		"cost": 70,
 		"maintenance": 2,
 		"uniques": [
+			"Cost increases by [10] per owned city",
 			"Provides [1] [Ceramics]",
 			"[+1 Gold] <in cities with a [Olive Mill]>",
 		],
@@ -604,7 +622,7 @@
 		"name": "Market",
 		"hurryCostModifier": 25,
 		"gold": 3,
-		"cost": 150,
+		"cost": 100,
 		"happiness": 1,
 		"percentStatBonus": {"gold": 5},
 		"specialistSlots": {"Merchant": 1},
@@ -626,7 +644,7 @@
 			"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [20] per owned city",
 		],
 		"requiredTech": "Currency"
 	},
@@ -636,7 +654,7 @@
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"gold": 4,
-		"cost": 1000,
+		"cost": 900,
 		"happiness": 1,
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
@@ -669,7 +687,7 @@
 		"hurryCostModifier": 25,
 		"happiness": 1,
 		"gold": 3,
-		"cost": 160,
+		"cost": 120,
 		"culture": 1,
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchant": 1},
@@ -692,14 +710,14 @@
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Never destroyed when the city is captured",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [20] per owned city",
 		],
 		"requiredTech": "Currency"
 	},
 	{
 		"name": "Mint",
 		"requiredBuilding": "Market",
-		"happiness": 2,
+		"happiness": 3,
  		"cost": 200,
 		"requiredNearbyImprovedResources": ["Gold Ore","Silver","Copper"],
 		"hurryCostModifier": 35,
@@ -717,7 +735,7 @@
 			"[-1 Food] from [Village] tiles [in this city]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [30] per owned city",
 		],
 		"requiredTech": "Currency"
 	},
@@ -750,6 +768,7 @@
 			"Limited to [3] per Civilization <during the [Imperial Age]>",
 			"Limited to [4] per Civilization <during the [Imperial Age]> <after adopting [Mercenary Reform]>",
 			"Limited to [4] per Civilization <during the [Imperial Age]> <after adopting [Eastern Contacts]>",
+			"Cost increases by [10] per owned city",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Currency"
@@ -771,6 +790,7 @@
 		"[+2 Gold] <in cities with a [Silk Road]>",
 		"[+1 Happiness] from [Village] tiles [in this city]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"Cost increases by [5] per owned city",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		],
@@ -925,7 +945,7 @@
 		"name": "Nomadic Herd",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
- 		"cost": 70,
+ 		"cost": 60,
 		"food": 2,
 		"uniques": [
 		"New [Mounted Archery] units start with [10] XP [in this city]",
@@ -934,10 +954,13 @@
 		"Provides [1] [Horses]",
 		"[+2 Gold] from [Trading post] tiles [in this city]",
 		"[-1 Food] from [Village] tiles [in this city]",
+		"[-1 Food] from [Farm] tiles [in this city]",
 		"[+1 Food] from [Plains] tiles [in this city]",
+		"[+1 Food] from [Pasture] tiles [in this city]",
 		"[+1 Happiness, -1 Food, +1 Production] from [Fort] tiles [in this city]",
 		"[+1 Food] from [Camp] tiles [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
-		"[+1 Food] from [Pasture] tiles [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
+		"[+1 Gold] from [Pasture] tiles [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
+		"Cost increases by [15] per owned city",
 		"Only available <after adopting [Eastern Culture]>",
 		"Never destroyed when the city is captured",
 		"Must not be on [Desert]",
@@ -1115,14 +1138,15 @@
 	{
 		"name": "Citizen Assembly",
 		"hurryCostModifier": 25,
- 		"cost": 200,
+ 		"cost": 150,
 		"maintenance": 2,
-		"happiness": 2,
+		"happiness": 3,
 		"culture": 2,
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [
-		"Consumes [2] [Decadence] <in cities with a [Citizen Assembly]> <while the empire is happy>",
-		"[+1 Happiness] from [Village] tiles [in this city]",
+			"Cost increases by [10] per owned city",
+			"Consumes [2] [Decadence] <in cities with a [Citizen Assembly]> <while the empire is happy>",
+			"[+1 Happiness] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Citizen Levy"
 	},
