@@ -2036,6 +2036,7 @@
     "uniques": [
       "Comment ['Elite light infantry, have big fear for range weapons, good at attacking, small withdraw chance.']",
       "Consumes [1] [Mercenary (Celtic)]",
+      "Only available <in cities with a [Mercenary Camp]>",
     "Never appears as a Barbarian unit <before the [Classical Age]>",
     ],
     "promotions": [
@@ -2562,7 +2563,7 @@
       "Comment [-Elite heavy infantry, Emperor's best frienemy.]",
       "Only available <in cities with a [Imperial Barracks]>",
       "Limited to [1] per Civilization",
-      "[+10]% Strength bonus for [Military] units within [2] tiles",
+      "[+13]% Strength bonus for [Military] units within [2] tiles",
 	"[+1] XP gained from combat",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Veteran]",

@@ -30,7 +30,7 @@
  "[+50]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
 
 //Cities
-	"[-40]% Strength for cities <when attacking>",
+	"[-40]% Strength for cities <when attacking> <hidden from users>",
 	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
 	"[-20]% Strength for cities <vs [Scout] units> <when attacking>",
 
@@ -52,24 +52,24 @@
 
 //MANPOWER
 	
-	"[Gold] cost of purchasing [Military] units [-1]% <when above [20] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [10] [Manpower]>",
 	"[Gold] cost of purchasing [Military] units [-1]% <when above [30] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-1]% <when above [40] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [40] [Manpower]>",
 	"[Gold] cost of purchasing [Military] units [-1]% <when above [50] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-1]% <when above [60] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-1]% <when above [70] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-1]% <when above [80] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-1]% <when above [90] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-1]% <when above [100] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [60] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [70] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [80] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [90] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [100] [Manpower]>",
 
-        "[+1]% [Production] [in all cities] <when above [20] [Manpower]>",
-        "[+1]% [Production] [in all cities] <when above [30] [Manpower]>",
-        "[+1]% [Production] [in all cities] <when above [40] [Manpower]>",
-        "[+1]% [Production] [in all cities] <when above [50] [Manpower]>",
-        "[+1]% [Production] [in all cities] <when above [60] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [10] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [30] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [40] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [50] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [60] [Manpower]>",
 
+        "[+1]% [Faith] [in all cities] <when above [30] [Manpower]>",
         "[+1]% [Faith] [in all cities] <when above [50] [Manpower]>",
-        "[+1]% [Faith] [in all cities] <when above [60] [Manpower]>",
         "[+1]% [Faith] [in all cities] <when above [70] [Manpower]>",
         "[+1]% [Faith] [in all cities] <when above [80] [Manpower]>",
         "[+1]% [Faith] [in all cities] <when above [90] [Manpower]>",
@@ -167,8 +167,8 @@
 
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <upon founding a city>",
         "Free [Spearman] appears <when above [11] [Happiness]> <upon founding a city>",
-        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [2]% chance>",
-        "Free [Foot Guard] appears <upon turn end> <when above [2] [Veteran]> <with [5]% chance>",
+        "Free [General] appears <upon turn end> <when above [1] [Nobles]> <with [2]% chance>",
+        "Free [Foot Guard] appears <upon turn end> <when above [1] [Veteran]> <with [3]% chance>",
         "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance> <before the [Imperial Age]>",
         "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [3]% chance> <before the [Imperial Age]>",
@@ -307,31 +307,31 @@
         "[+100]% maintenance costs <for [Military] units> <before the [Imperial Age]>",
         "[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
         "[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
-        "[+100]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+        "[+200]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
 
-        "[+30]% maintenance costs <for [Cretan Archer] units>",
-        "[+100]% maintenance costs <for [Can be purchased with [Gold] [in all cities]] units>",
+        "[+10]% maintenance costs <for [Cretan Archer] units>",
 
-        "[+40]% maintenance costs <for [Spear] units>",
-        "[+60]% maintenance costs <for [Pike Phalanx] units>",
-        "[+120]% maintenance costs <for [Royal Phalanx] units>",
+        "[+30]% maintenance costs <for [Spear] units>",
+        "[+40]% maintenance costs <for [Pike Phalanx] units>",
+        "[+100]% maintenance costs <for [Royal Phalanx] units>",
+        "[+200]% maintenance costs <for [Praetoria] units>",
         "[+100]% maintenance costs <for [Mercenary] units>",
 
         "[+50]% maintenance costs <for [Sword] units>",
         "[+100]% maintenance costs <for [Infantry Shield III] units>",
 
-        "[+100]% maintenance costs <for [Mounted] units>",
-        "[+120]% maintenance costs <for [Mounted Archery] units>",
-        "[+120]% maintenance costs <for [Cavalry] units>",
+        "[+50]% maintenance costs <for [Mounted] units>",
+        "[+70]% maintenance costs <for [Mounted Archery] units>",
+        "[+70]% maintenance costs <for [Cavalry] units>",
         "[+200]% maintenance costs <for [Cataphract] units>",
         "[+200]% maintenance costs <for [Clibanarii] units>",
         "[+50]% maintenance costs <for [Royal Agema] units>",
 
-        "[+100]% maintenance costs <for [Elephant] units>",
+        "[+50]% maintenance costs <for [Elephant] units>",
         "[+100]% maintenance costs <for [Ballista] units>",
 
-        "[+150]% maintenance costs <for [Trireme] units>",
-        "[+200]% maintenance costs <for [Pentere] units>",
+        "[+50]% maintenance costs <for [Trireme] units>",
+        "[+100]% maintenance costs <for [Pentere] units>",
         "[+200]% maintenance costs <for [Hexere] units>",
         "[+200]% maintenance costs <for [Decere] units>",
 
