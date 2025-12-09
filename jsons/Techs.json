@@ -318,8 +318,8 @@
 				"row": 7,
 				"prerequisites": ["Engineering","Masonry","Navigation"],
 				"uniques": [
-//				"[+50]% Strength <for [Siege] units> <vs cities>",
-//				"[+25]% Strength <for [Ranged Water] units> <vs cities>",
+				"[+10]% Strength <for [Siege] units> <vs cities>",
+				"[+10]% Strength <for [Ranged Water] units> <vs cities>",
 				"[+1] Range <for [Siege] units>",
 				"[+1] Range <for [Ranged Water] units>",
 				],

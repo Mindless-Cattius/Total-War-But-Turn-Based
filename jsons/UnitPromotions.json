@@ -1250,6 +1250,7 @@
 	{
 		"name": "Healing",
 		"uniques": [
+			"[This Unit] gains the [Shock I] status for [5] turn(s) <when [Ruler]> <upon being defeated>",
 			"[+10] HP when healing <for [All] units> <when fighting in [City center] tiles>",
 			"[+4] HP when healing <for [All] units> <when fighting in [Fort] tiles>",
 			"[+3] HP when healing <for [All] units> <when fighting in [Village] tiles>",
