@@ -1087,7 +1087,7 @@
 			"Provides [2] [Manpower]",
 			"Provides [1] [Manpower] <during the [Imperial Age]>",
 			"[+10]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [10] per owned city",
 			"Destroyed when the city is captured"
 			"[+100]% weight to this choice for AI decisions",
 		],

@@ -180,6 +180,7 @@
 			"New [Ruler] units start with [10] XP [in all cities]",
 			"[-20]% construction time for [Camp] improvements",
 			"[-20]% construction time for [Mine] improvements",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"Provides [1] [Veteran]",
                     	"[1] free [General] units appear",
 			"[+1 Production] from [Fort] tiles [in this city]",
@@ -226,6 +227,7 @@
             {
                 "name": "Druidic Revival",
                 "uniques": [
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"[+1 Faith] from every [Temple]",
                     	"[+1 Gold] from every [Garden]",
                     	"[+1 Culture] [in capital]",
@@ -293,6 +295,7 @@
 			"[+1 Gold] from [Village] tiles [in this city]",
 			"[+1 Happiness] from [Fort] tiles [in this city]",
                     	"[+1 Food] from every [Barracks]",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"[+1 Happiness] [in all cities]",
 			"May buy [Gallic Barracks] buildings with [Gold] [in all cities] <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Hill Fort Confederacy]> <hidden from users>",
                 ],
@@ -373,9 +376,8 @@
         		"[+10]% Strength <for [Mounted] units>",
         		"Provides [3] [Horses]",
         		"Provides [5] [Manpower]",
-        		"[+1 Food] [in all cities] <when above [5] [Horses]>",
         		"[+1 Gold, +1 Food] [in all cities] <when above [1] [Horses]>",
-        		"[+1 Gold] [in all cities] <when above [5] [Horses]>",
+        		"[+1 Food, +1 Gold] [in all cities] <when above [5] [Horses]>",
         		"[+1 Gold, +1 Food] [in all cities] <when above [10] [Horses]>",
         		"[+1 Gold, +1 Happiness] [in all cities] <when above [15] [Horses]>",
         		"[+1 Gold, +1 Faith, +1 Food] [in all cities] <when above [20] [Horses]>",
@@ -390,12 +392,12 @@
                 "uniques": [
                     "[+10]% Strength <for [Mounted Archery] units> <vs [Sword] units>",
                     "[+10]% Strength <for [Skirmisher] units> <vs [Ranged] units>",
+                    "[+20]% Strength <for [Mounted Archery] units> <vs [Spear] units> <when defending> <for [The Scythians] Civilizations>",
                     "[2] free [Horse Archer] units appear",
                     "Provides [2] [Horses]",
                     "Provides [4] [Manpower]",
                     "[+1 Happiness] [in capital]",
-                    "[-1 Happiness] [in capital] <for [The Scythians] Civilizations>",
-                    "[+20]% Strength <for [Mounted Archery] units> <vs [Spear] units> <when defending> <for [The Scythians] Civilizations>",
+                    "[-2 Happiness] [in capital] <for [The Scythians] Civilizations>",
                 ],
                 "row": 3,
                 "column": 1
@@ -412,10 +414,13 @@
         		"Provides [1] [Veteran]",
 			"Provides [1] [Nobles]",
                     	"Provides [2] [Horses]",
+        		"[+1 Food, +1 Gold] from [Pasture] tiles [in all cities]",
+        		"[-1 Food, +1 Gold] from [Plantation] tiles [in all cities]",
         		"[-2 Food, +1 Gold] from [Farm] tiles [in all cities]",
         		"[-1 Food, +1 Gold] from [Village] tiles [in all cities]",
+        		"[-1 Food, +2 Gold] from [Trading post] tiles [in all cities]",
+                    	"[-2 Production, -1 Food, +2 Gold] [in all cities]",
                     	"[+1 Happiness] [in capital]",
-                    	"[-2 Production, +1 Gold] [in all cities]",
                 ],
                 "row": 4,
                 "column": 1
@@ -459,6 +464,7 @@
                 "requires": [Oasis Settlements],
                 "uniques": [
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    	"[+2 Happiness] [in all cities] <with a garrison>",
                     "Provides [10] [Manpower]",
                     "[+2 Happiness] [in all cities]",
                 ],
@@ -807,12 +813,13 @@
                 "name": "Germanic Confederations",
                 "uniques": [
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
-			"[+20]% [Gold] from City-States",
-                	"[+1 Food] from [Village] tiles [in this city]",
-                    	"[+1 Happiness] [in all cities]",
                    	 "[2] free [Swordsman] units appear",
      		    	"Provides [1] [Nobles]",
      		    	"Provides [10] [Manpower]",
+			"[+20]% [Gold] from City-States",
+                	"[+1 Food] from [Village] tiles [in this city]",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
+                    	"[+1 Happiness] [in all cities]",
                 ],
                 "requires": ["Germanic Horde"],
                 "row": 6,
@@ -899,6 +906,7 @@
             {
                 "name": "Noble Swordbearers",
                 "uniques": [
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"[Infantry Shield III] units gain the [Improved Armor] promotion",
                     "[+10]% Strength <for [Heavy Swordsman] units> <when adjacent to a [Melee] unit>",
                     "[+10]% Strength <for [Sword] units> <when adjacent to a [Commander] unit>",
@@ -1002,6 +1010,7 @@
                 "name": "Local Hegemony",
                 "requires": ["Foundations of the Polis"],
                 "uniques": [
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"[+10]% Production when constructing [Settler] units [in capital]",
                     	"[+20]% Strength <vs [City-States]>",
                     	"[+1 Gold, +1 Happiness] from every [Barracks]",
@@ -1080,6 +1089,7 @@
         		"[+1 Happiness] from every [Temple]",
         		"[+1 Gold] from [Village] tiles [in all cities]",
         		"[+1 Gold, +1 Food] from [Trading post] tiles [in all cities]",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
         		"[+1 Happiness] [in all cities] <when not at war>"
 			"Unavailable <during the [Archaic Age]>",
                 ],
@@ -1150,6 +1160,7 @@
 			"[+1 Gold, +1 Happiness] from every [Market]",
 			"[+1 Gold, +1 Food, +1 Happiness] from [Village] tiles [in all cities]",
 			"[+1 Gold] from [Mine] tiles [in all cities]",
+                    	"[+1 Gold] [in all cities] <with a garrison>",
         		"[+1 Happiness] [in all cities] <when not at war>",
 			"Unavailable <during the [Archaic Age]>",
                 ],
@@ -1229,6 +1240,7 @@
         "[+10]% Strength <for [Spear] units>",
         "[+10]% Strength <for [Horseman] units>",
         "[+10]% Strength <for [Mounted Skirmisher] units>",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
         		"[+1 Happiness] [in all cities] <when not at war>",
 			"May buy [Hellenic Barracks] buildings with [Gold] [in all cities] <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Artisan and Guild Expansion]> <hidden from users>",
                 ],
@@ -1300,6 +1312,7 @@
                     "[+10]% Strength <for [Ranged] units>",
                     "Provides [2] [Bronze]",
                     "[+2 Happiness] [in annexed cities] <in cities with a [Colony]>",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     "[+1 Happiness] [in capital]",
                 ],
                 "requires": ["Training Grounds"],
@@ -1394,6 +1407,7 @@
                     	"Provides [3] [Manpower]",
                     	"[+1 Faith] from every [Temple]",
                     	"[+1 Happiness] [in capital]",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
 			"Unavailable <during the [Archaic Age]>",
                 ],
                 "row": 4,
@@ -1456,6 +1470,7 @@
         		"[+1 Production] from [Mine] tiles [in all cities]",
         		"[+1 Gold] from [Plantation] tiles [in all cities]",
         		"[+10]% Strength <for [Spearman] units> <for [The Ptolemies] Civilizations>",
+                    	"[+1 Gold] [in all cities] <with a garrison>",
                     	"[+1 Happiness] [in all cities]",
         		"Provides [5] [Manpower]"
       	],
@@ -1557,6 +1572,7 @@
         		"[+1 Gold] from [improved] tiles [in all cities]",
         		"[+1 Gold, +1 Happiness] from [Trading post] tiles [in all cities]",
         		"[+10]% Strength <for [Horseman] units>",
+                    	"[+1 Gold] [in all cities] <with a garrison>",
         		"[+1 Happiness] [in all cities] <when not at war>",
 
                 ],
@@ -1576,6 +1592,7 @@
      		 	"Provides [1] [Nobles]",
                     	"[1] free [General] units appear",
                     	"[3] free [Swordsman] units appear",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
 			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 8,
@@ -1691,7 +1708,8 @@
         		"[+10]% Strength <for [Skirmisher] units> <for [The Celtiberians] Civilizations>",
         		"[+1 Culture] from [Village] tiles [in all cities]",
         		"[+1 Happiness, +1 Gold] [in all cities] <when not at war>",
-                    	"[+1 Happiness] [in capital]"
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
+                    	"[+1 Happiness] [in capital]",
         		"Provides [1] [Nobles]",
       ],
       		"row": 3,
@@ -1832,6 +1850,7 @@
         		"[+1 Happiness] [in all cities] <when not at war>",
                     	"[+1 Happiness] from every [Market]",
                     	"[+1 Happiness] [in capital]",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 8,
@@ -1892,6 +1911,7 @@
                     	"All healing effects doubled <for [Horseman] units>",
                     	"Provides [10] [Manpower]",
                     	"Provides [1] [Nobles]",
+                    	"[+1 Happiness, +1 Gold] [in all cities] <with a garrison>",
                     	"[+1 Happiness, +1 Gold] [in all cities]"
                 ],
                 "row": 9,
@@ -1946,7 +1966,8 @@
 			"[+10]% Strength <when defending> <for [Spearman] units>",
 			"[+1 Production, +1 Happiness, +1 Gold] from [Fort] tiles [in all cities]",
                     	"[1] free [Great Engineer] units appear",
-			"[+1 Happiness, +1 Gold] [in capital]"
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
+			"[+1 Happiness, +1 Gold] [in capital]",
                 ],
                 "row": 1,
                 "column": 3
@@ -2028,6 +2049,7 @@
                     "[+100]% [Happiness] from City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States",
                     "Gifts of Gold to City-States generate [+25]% more Influence",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"[+1 Happiness, +1 Gold] [in all cities]"
                 ],
                 "requires": ["Adriatic Trade Pacts",],
@@ -2058,6 +2080,7 @@
 			"[+1 Production] from [Fort] tiles [in this city]",
                     "[+20]% City Strength from defensive buildings",
                     "[+1 Happiness, +1 Food] from every [Hill Fort]",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 5,
@@ -2121,6 +2144,7 @@
 			"[+1 Gold] from every [Market]",
 			"[+1 Gold] from every [Harbor]",
 			"[+2 Gold] from every [Great Harbor]",
+                    	"[+1 Gold] [in all cities] <with a garrison>",
                     	"[+2 Happiness, +3 Gold] [in capital]",
                 ],
                 "requires": ["Coastal Raiding Fleets"],
@@ -2148,6 +2172,7 @@
 			"[+2 Gold, +1 Happiness] from [Mine] tiles [in all cities]",
 			"[Gold] cost of purchasing [Military] units [-10]%",
                     	"Provides [1] [Nobles]",
+                    	"[+1 Happiness, +1 Gold] [in all cities] <with a garrison>",
 			"[+1 Happiness] [in all cities]",
                 ],
                 "requires": ["Market League of the Adriatic"],
@@ -2372,6 +2397,7 @@
         		"[+10]% Strength <for [Spearman] units> <for [The Etruscans] Civilizations>"
                     "Provides [10] [Manpower]",
                     "Provides [2] [Iron]",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 5,
@@ -2388,6 +2414,7 @@
                     	"[+1 Gold] from every [Plantation]",
                     	"[+1 Gold, +1 Food] from [Wheat] tiles [in all cities]",
         		"[+1 Happiness] [in all cities]",
+                    	"[+1 Gold] [in all cities] <with a garrison>",
        			"[+1 Happiness] [in all cities] <when not at war>",
                     	"[+2 Happiness] [in capital]",
                 ],
@@ -2428,6 +2455,7 @@
                     "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
                     "[+1 Happiness, +1 Gold] from every [Arena]",
                     "[+1 Happiness, +1 Food] from every [Market]",
+                    	"[+1 Happiness, +1 Gold, -1 Food] [in all cities] <with a garrison>",
                     "[+1 Happiness] [in all cities]",
                 ],
                 "row": 9,
@@ -2480,8 +2508,9 @@
         		"[+10]% Strength <for [Commander] units>",
         		"Provides [10] [Manpower]",
         		"[+1 Gold, +1 Happiness, -1 Food] from [Village] tiles [in all cities] <when at war>",
-                    	"[+10 Happiness] [in capital]"
-                    	"[+1 Happiness] [in all cities]"
+                    	"[+10 Happiness] [in capital]",
+                    	"[+1 Happiness] [in all cities]",
+                    	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"[+1 Happiness, +1 Gold, -2 Food] [in all cities] <when at war>"
                 ],
                 "row": 9,
@@ -2526,6 +2555,7 @@
     			"[+10]% Strength <for [Slinger] units>",
     			"[+10]% Strength <for [Archer] units>",
     			"[+20]% Strength <when defending> <for [Sword] units>",
+                    	"[+1 Happiness, +2 Gold] [in all cities] <with a garrison>",
     			"[+2 Happiness] [in all cities]",
                 ],
                 "row": 9,
@@ -2969,23 +2999,23 @@
         "name": "Federation",
         "era": "Hellenistic Age",
         "priorities": {
-            "Neutral": 0,
-            "Cultural": 50,
-            "Domination": 50
+            "Neutral": 50,
+            "Cultural": 30,
+            "Domination": 0
         },
         "uniques": [
-            "[+2 Happiness] [in all cities]",
-            "[+1 Happiness] [in capital]"
-            "Provides [3] [Manpower]",
             "Only available <before adopting [Theocracy]>",
             "Only available <before adopting [Empire]>",
-            "[+10]% Unhappiness from [Population] [in all cities]",
-        "[+50]% Culture cost of adopting new Policies",
+            "[+50]% Culture cost of adopting new Policies",
+            "[+2 Gold] [in all cities] <with a garrison>",
+            "[+1 Happiness] [in all cities]",
+            "[-10]% Unhappiness from [Population] [in all cities]",
         ],
         "policies": [
             {
                 "name": "League Levy",
                 "uniques": [
+			"[+10]% Production when constructing [Military] units [in all cities]",
                     "Units in cities cost no Maintenance",
                     "[+1 Happiness] [in capital]",
                 ],
@@ -2993,137 +3023,236 @@
                 "column": 1
             },
             {
-                "name": "League Headquarters",
+                "name": "Assembly Charter",
                 "uniques": [
-                    "[+20]% [Culture] [in capital]",
+                    "[+10]% [Culture] [in capital]",
                     "[+1 Culture, +1 Happiness] from every [Citizen Assembly]",
                     "[+2 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Maritime Accord",
+                "uniques": [
+                    "[-20]% maintenance costs <for [Water] units>",
+                    "[+1] Movement <for [{Military} {Water}] units>",
+                    "[+1 Production] from every [Drydock]",
+		    "[-1 Production, +1 Gold] from every [Harbor]",
+		    "[-2 Production, +5 Gold] from every [Great Harbor]",
+                    "[+1 Happiness] [in all cities]",
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "Naval Tradition",
+                "name": "Citizen Assemblies",
+                "requires": ["Maritime Accord","Assembly Charter"], 
                 "uniques": [
-                    "[-25]% maintenance costs <for [Water] units>",
-                    "[+1] Movement <for [Embarked] units>",
-                    "[+1 Production] from every [Drydock]",
-                    "[+1 Happiness] [in capital]",
-                    "Provides [2] [Manpower]",
+			"Only available <before adopting [Citizen Militias]>","Comment [Only available before adopting Citizen Militias]",
+                    	"[+1 Gold, +1 Happiness] from every [Citizen Assembly]",
+			"[+1 Culture] [in all cities] <with a garrison>",
+			"[+1 Happiness] [in all cities]",
                 ],
-                "row": 1,
+                "row": 2,
                 "column": 5
             },
             {
-                "name": "Mutual Protection",
-                "requires": ["League Levy","Naval Tradition","League Headquarters"],
+                "name": "League Magistrates",
+                "requires": ["Citizen Assemblies"], 
                 "uniques": [
-    		    	"Only available <before adopting [Mutual Protection]>",
-			"[Gold] cost of purchasing [Military] units [-20]% <when not at war>",
-                    	"[+10]% Strength <when defending> <for [All] units> <when fighting in [Friendly] tiles>"
-       		 	"[-30]% maintenance costs <for [Military] units> <in [Friendly Land] tiles>",
-                    	"Provides [6] [Manpower]",
-			"[+2 Production] from all [Barracks] buildings <when at war>",
-                    	"[+1 Happiness] [in capital]",
-                ],
-                "row": 2,
-                "column": 1
-            },
-            {
-                "name": "Confederation Reform",
-                "requires": ["Mutual Protection"],
-                "uniques": [
-                    	"[+10]% Great Person generation [in all cities]",
-                    	"[-30]% City-State Influence degradation",
-                        "[+20]% Production when constructing [Military] units [in all cities] <when not at war>",
-			"[+20]% Production when constructing [Market] buildings [in all cities]",
-                    	"[-20]% Unhappiness from [Population] [in all cities]",
-                    	"[+1 Gold, +1 Happiness] from every [Citizen Assembly]",
-                    	"[+1 Happiness] [in capital]",
+                    	"Provides [1] [Nobles]",
+			"[-1 Production, +1 Gold] from [Village] tiles [in all cities]",
+			"[+1 Gold] from [Trading post] tiles [in all cities]",
+                    	"[+1 Gold] from every [Market]",
+			"[+1 Gold] [in all cities] <with a garrison>",
+			"[+1 Happiness] [in all cities]",
                 ],
                 "row": 3,
-                "column": 1
+                "column": 5
+            },
+            {
+                "name": "Harmonized Treaties",
+                "requires": ["League Magistrates"], 
+                "uniques": [
+			"[-30]% City-State Influence degradation",
+                    	"Provides [10] [Manpower]",
+			"[+1 Food] from [Village] tiles [in all cities]",
+			"[+1 Happiness] [in all cities] <with a garrison>",
+			"[+1 Happiness] [in all cities]",
+                ],
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "Civic Defense Rotation",
+                "requires": ["Harmonized Treaties"], 
+                "uniques": [
+			"[+10]% Strength <for [Ranged] units> <when fighting in [Friendly Land] tiles>",
+			"[+10]% Strength <for [Spearman] units> <when fighting in [Friendly Land] tiles>",
+			"[+1 Production, +1 Food] from [Fort] tiles [in all cities]",
+        		"[+30]% maintenance costs <for [Ranged] units>",
+			"[+1 Happiness] [in all cities]",
+                ],
+                "row": 5,
+                "column": 5
             },
             {
                 "name": "Citizen Militias",
-                "requires": ["League Levy","Naval Tradition","League Headquarters"],
+                "requires": ["League Levy","Maritime Accord"], 
                 "uniques": [
-                   	 "[+10]% Production when constructing [Military] units [in all cities]",
-			"[+15]% Strength <for [Scout] units> <when fighting in [Friendly Land] tiles>",
-			"[+10]% Production when constructing [Barracks] buildings [in all cities]",
-                    	"[+1 Happiness] [in capital]",
-                    	"[+3 Happiness] [in all cities] <with a garrison>",
+			"Only available <before adopting [Citizen Assemblies]>","Comment [Only available before adopting Citizen Assemblies]",
+			"[+20]% Production when constructing [Scout] units [in all cities]",
+			"[+20]% Production when constructing [Horseman] units [in all cities]",
+			"[+10]% Strength <for [Scout] units> <when fighting in [Friendly Land] tiles>",
+                    	"Provides [10] [Manpower]",
+			"[+1 Happiness] [in all cities] <with a garrison>",
+			"[+3 Happiness] [in capital]",
                 ],
-
                 "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Garrison Duties",
+                "requires": ["Citizen Militias"], 
+                "uniques": [
+			"[+10]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
+			"[+1 Happiness] from [Fort] tiles [in all cities]",
+			"[+2 Happiness, +1 Gold] [in all cities] <with a garrison>",
+			"[-1 Production, +1 Food] from every [Barracks]"
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Mustered Battalions",
+                "requires": ["Garrison Duties"], 
+                "uniques": [
+                    	"Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
+			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+			"[+10]% Production when constructing [Military] units [in all cities]",
+        		"[+50]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+			"[+2 Production, -2 Gold] from all [Barracks] buildings <when at war>",
+                    	"Provides [2] [Veteran]",
+			"[+1 Happiness] [in all cities] <with a garrison>",
+                ],
+                "row": 4,
+                "column": 1
+            },
+            {
+                "name": "Mutual Protection",
+                "requires": ["Mustered Battalions"], 
+                "uniques": [
+			"[+30]% Production when constructing [Walls] buildings [in all cities]",
+			"[Gold] cost of purchasing [Military] units [-30]% <when not at war>",
+       		 	"[-30]% maintenance costs <for [Military] units> <in [Friendly Land] tiles>",
+			"[+1 Happiness] from all [Walls] buildings <when at war>",
+                    	"Provides [10] [Manpower]",
+                    	"Provides [1] [Nobles]",
+                    	"[+1 Happiness] [in all cities]",
+                ],
+                "row": 5,
+                "column": 1
+            },
+            {
+                "name": "Confederational Reform",
+                "uniques": [
+			"Unavailable <before the [Imperial Age]>",
+                    	"[-20]% City-State Influence degradation",
+			"[+10]% Great Person generation [in all cities]",
+			"[+20]% Production when constructing [Market] buildings [in all cities]",
+                    	"[-20]% Unhappiness from [Population] [in all cities]",
+                    	"[+1 Gold] from every [Citizen Assembly]",
+                    	"[+1 Gold, +1 Food] from every [Granary]",
+			"[+1 Happiness] [in all cities]",
+                ],
+                "row": 6,
+                "column": 3
+            },
+            {
+                "name": "Coastal Patrol",
+                "requires": ["Confederational Reform"],
+                "uniques": [
+			"Only available <before adopting [Merchant Accords]>","Comment [Only available before adopting Merchant Accords]",
+        		"[-50]% maintenance costs <for [{Military} {Water}] units>",
+			"[+10]% Strength <for [{Military} {Water}] units> <when fighting in [Friendly Land] tiles>",
+                    	"[+1] Sight <for [{Military} {Water}] units>",
+			"[+1] Movement <for [Embarked] units>",
+                ],
+                "row": 7,
+                "column": 1
+            },
+            {
+                "name": "League Harbormasters",
+                "requires": ["Coastal Patrol"],
+                "uniques": [
+                    	"Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
+                    	"Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
+			"[+1 Gold] from every [Harbor]",
+			"[+2 Gold, +1 Happiness] from every [Great Harbor]",
+			"[+1 Production, +1 Gold, +1 Happiness] from every [Drydock]",
+			"[+5 Happiness] [in capital]",
+                ],
+                "row": 8,
+                "column": 1
+            },
+            {
+                "name": "Maritime Shock Corps",
+                "requires": ["League Harbormasters"],
+                "uniques": [
+        		"[-50]% maintenance costs <for [{Military} {Water}] units>",
+			"[+10]% Strength <for [{Military} {Water}] units>",
+			"[+10]% Strength <for [Military] units> <within [1] tiles of a [Coast]>",
+                    	"[+1] Movement <for [{Military} {Water}] units>",
+			"[+1 Happiness] [in all cities]",
+                ],
+                "row": 9,
+                "column": 1
+            },
+            {
+                "name": "Merchant Accords",
+                "requires": ["Confederational Reform"],
+                "uniques": [
+			"Only available <before adopting [Coastal Patrol]>","Comment [Only available before adopting Coastal Patrol]",
+			"[+1 Happiness, +1 Gold, +1 Food] from [Trading post] tiles [in all cities]",
+			"[+1 Happiness, +1 Gold, +1 Food] from [Village] tiles [in all cities]",
+			"[+2 Gold, +1 Happiness] from every [Market] <when not at war>",
+			"[+1 Happiness] [in all cities]",
+                ],
+                "row": 7,
                 "column": 5
             },
             {
-                "name": "Council of War",
-                "requires": ["Citizen Militias"],
+                "name": "League Mint Standardization",
+                "requires": ["Merchant Accords"],
                 "uniques": [
-        		"New [Military] units start with [10] XP [in all cities]",
-                        "[+15]% Production when constructing [Military] units [in all cities] <when at war>",
-			"[+10]% Strength <for [Archery] units> <when fighting in [Friendly Land] tiles>",
-			"[+10]% Strength <for [Mounted] units> <when fighting in [Friendly Land] tiles>",
-                	"[+1 Happiness] [in capital]",
-                 	"[+3 Science] [in capital]",
+			"[+3 Gold] from [Trading post] tiles [in all cities]",
+			"[+1 Happiness, +1 Gold] from [Village] tiles [in all cities]",
+			"[+2 Gold] from [Mine] tiles [in all cities]",
+			"[+1 Production, +1 Happiness] from every [Mint] <when not at war>",
+			"[+2 Gold, +2 Happiness] from every [Mint] <when not at war>",
+			"[+1 Happiness] [in all cities]",
                 ],
-                "row": 3,
+                "row": 8,
                 "column": 5
             },
             {
                 "name": "Commerce Centers",
                 "uniques": [
-                    "Empire enters golden age",
-                    "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
-                    "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
-                    "[+1 Food, +1 Gold] from every [Market]",
-                    "[+1 Gold] from every [Anchorage]",
-                    "[+2 Gold] from every [Harbor]",
-                    "[+3 Gold] from every [Great Harbor]",
-                    "[+1 Gold] from every [Drydock]",
-                    "[+1 Happiness] [in capital]",
-    		    "Only available <after adopting [Council of War]>",
-    		    "Only available <after adopting [Confederation Reform]>",
+                    	"Empire enters golden age",
+			"[+1 Happiness] from [Trading post] tiles [in all cities]",
+			"[+1 Happiness] from [Village] tiles [in all cities]",
+			"[+1 Gold] from [improved] tiles [in all cities]",
+                    	"[+1 Food, +1 Gold] from every [Market]",
+                    	"[+1 Gold] from every [Anchorage]",
+                    	"[+2 Gold] from every [Harbor]",
+                    	"[+3 Gold] from every [Great Harbor]",
+                    	"[+1 Gold] from every [Drydock]",
+                    	"[+1 Happiness, +1 Gold] [in all cities]",
                 ],
 
-                "row": 4,
-                "column": 1
-            },
-            {
-                "name": "United Front",
-                "uniques": [
-    		    	"Only available <after adopting [Council of War]>",
-    		    	"Only available <after adopting [Confederation Reform]>",
-                   	 "Empire enters golden age",
-                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [30] turns",
-                    	"[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
-                    	"[+1] Movement <for [Civilian] units> <in [Friendly Land] tiles>",
-			"[Gold] cost of purchasing [Military] units [-10]% <when at war>",
-			"[+20]% Production when constructing [Walls] buildings [in all cities]",
-                    	"[-10]% Unhappiness from [Population] [in all cities]",
-                    	"[+1 Happiness, +1 Production, +1 Gold] from every [Barracks]",
-                    	"[+1 Happiness] [in capital]",
-            		"[+2 Happiness] from every [National Wonder]",
-                ],
-
-                "row": 4,
+                "row": 9,
                 "column": 5
-            },
-            {
-                "name": "Concordia Pactum",
-                "requires": ["United Front","Commerce Centers"],
-                "uniques": [
-			"Comment [-Teach the peasants how to hold the pointy stick in the time of need]",
-			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>",
-              		"[-10]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
-     		 	"[+1] Movement <for [Military] units> <in [Enemy Land] tiles> <after adopting [Council of War]>",
-			"[+10]% growth [in all cities] <after adopting [Confederation Reform]>",
-                    	"[+1 Happiness] [in capital]",
-                ],
-                "row": 5,
-                "column": 3
             },
             {
                 "name": "Federation Complete",
