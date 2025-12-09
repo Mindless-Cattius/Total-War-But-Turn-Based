@@ -951,7 +951,8 @@
       		"uniques": [
 			"[-20]% construction time for [Farm] improvements",
         		"[+1 Production] from [Mine] tiles [in all cities]",
-        		"[+1 Gold] from [Village] tiles [in all cities]"
+        		"[+1 Gold] from [Village] tiles [in all cities]",
+                    	"Provides [2] [Bronze]",
       ],
       		"row": 1,
       		"column": 3
@@ -971,7 +972,6 @@
             },
             {
                 "name": "Shield Wall Training",
-                "requires": ["Dorian Military Customs"],
                 "uniques": [
 			"Only available <before adopting [Hellenic Colonists]>","Comment [Only available before adopting Hellenic Colonists]",
         		"[+10]% Strength <for [Hoplite] units>",
@@ -1789,7 +1789,8 @@
         		"[+2 Gold, +1 Happiness, +1 Faith] from [Gold Ore] tiles [in all cities]",
         		"[+1 Gold, +1 Production] from [Iron] tiles [in all cities]",
         		"[+1 Gold] from [Copper] tiles [in all cities]",
-                    	"[+1 Happiness] [in capital]"
+                    	"[+1 Happiness] [in capital]",
+                    	"Provides [2] [Iron]",
                 ],
                 "row": 5,
                 "column": 5
@@ -1840,7 +1841,9 @@
                 "name": "The Champions",
                 "uniques": [
         		"[+10]% Strength <for [Commander] units>",
-                    	"Provides [1] [Nobles]",
+                    	"Provides [1] [Iron]",
+                    	"Provides [1] [Veteran]",
+                    	"[1] free [Heavy Swordsman] units appear",
                     	"[+1 Happiness] [in all cities]",
                     	"Unavailable <before the [Hellenistic Age]>",
                 ],
@@ -1911,7 +1914,6 @@
         },
         "uniques": [
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
-                    "[Horseman] units gain the [[Maneuver]] promotion <hidden from users>",
                     "Only available <after adopting [Illyrian Culture]> <hidden from users>",
                     "[1] free [Great Scholar] units appear",
                     "Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
@@ -1919,115 +1921,299 @@
         ],
         "policies": [
             {
-                "name": "The Right to Plunder",
+                "name": "Illyrian Tribal Confederations",
                 "uniques": [
-                    "Enables embarkation for land units"
-                    "[Military] units gain the [Raider I] promotion",
+			"[+1 Food] from [Mine] tiles [in all cities]",
+			"Provides [5] [Manpower]",
+			"[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Adriatic Seafarers",
+                "uniques": [
+                    "Enables embarkation for land units",
+                    "[Military] units gain the [Amphibious I] promotion",
                     "[+1 Happiness] [in capital]",
                 ],
                 "row": 1,
                 "column": 1
             },
             {
+                "name": "Illyrian Hillforts",
+                "uniques": [
+			"[+10]% Strength <when defending> <for [Spearman] units>",
+			"[+1 Production, +1 Happiness, +1 Gold] from [Fort] tiles [in all cities]",
+                    	"[1] free [Great Engineer] units appear",
+			"[+1 Happiness, +1 Gold] [in capital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
                 "name": "Illyrian Pirates",
                 "uniques": [
-                    "All newly-trained [{Military} {Water}] units [in all coastal cities] receive the [Coastal Raider I] promotion",
-                    "All newly-trained [{Military} {Land}] units [in all coastal cities] receive the [Amphibious I] promotion",
-                    "[+1 Happiness] [in capital]"
+			"Only available <before adopting [Adriatic Trade Pacts]>","Comment [Only available before adopting Adriatic Trade Pacts]",
+                    	"[{Military} {Water}] units gain the [Coastal Raider I] promotion",
+                    	"[{Military} {Land}] units gain the [Raider I] promotion",
+			"[+100]% Yield from pillaging tiles <for [{Military} {Water}] units>",
+			"[+10]% Strength <for [Galley] units>",
+                    	"[2] free [Galley] units appear",
+                    	"Provides [5] [Manpower]",
+                    	"Provides [3] [Timber]",
+                    	"[+1 Happiness] [in capital]",
                 ],
-                "requires": ["The Right to Plunder"],
+                "requires": ["Adriatic Seafarers"],
                 "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Pirate Havens",
+                "uniques": [
+                    	"[Gold] cost of purchasing [Cilician Pirate] units [-50]%",
+                    	"[Gold] cost of purchasing [Illyrian Raider] units [-50]%",
+                    	"Gain a free [Mercenary Camp] [in capital]",
+                    	"Gain a free [Pirate Haven (Illyrian)] [in capital]",
+                    	"Provides [2] [Mercenary (Illyrian)]",
+                    	"Provides [2] [Mercenary (Cilician)]",
+                    	"Provides [5] [Manpower]",
+			"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
+			"[-1 Happiness, +2 Gold] from [Trading post] tiles [in this city]",
+			"[-1 Food, +2 Gold] from [Fort] tiles [in this city]",
+                    	"[+5 Happiness, +3 Gold] [in capital]",
+                ],
+                "requires": ["Illyrian Pirates"],
+                "row": 3,
                 "column": 1
             },
             {
                 "name": "Liburnes",
                 "uniques": [
-                    "[2] free [Galley] units appear",
-                    "Provides [4] [Manpower]",
-                    "[-50]% maintenance costs <for [Galley] units>",
-                    "[+1] Movement <for [Galley] units>",
-                    "[+1 Happiness] [in capital]"
+			"[+10]% Strength <when defending> <for [{Military} {Water}] units>",
+			"[+10]% Strength <for [Scout] units>",
+                    	"[{Military} {Water}] units gain the [Supply] promotion",
+                    	"[-50]% maintenance costs <for [Galley] units>",
+                    	"[+1] Movement <for [Galley] units>",
+                    	"[2] free [Galley] units appear",
+                    	"Provides [5] [Manpower]",
                 ],
-                "requires": ["Illyrian Pirates",],
-                "row": 3,
-                "column": 1
-            },
-            {
-                "name": "Golden Age of Piracy",
-                "uniques": [
-                    "Empire enters golden age",
-                    "[+1 Happiness, +1 Culture] [in all cities]",
-                    "[+1] additional attacks per turn <for [Galley] units>",
-                    "[+1 Happiness] [in capital]"
-                ],
-                "requires": ["Liburnes","Adventurers"],
+                "requires": ["Pirate Havens"],
                 "row": 4,
                 "column": 1
             },
             {
-                "name": "Fierce Defenders",
+                "name": "Adriatic Trade Pacts",
                 "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-                    "[+1 Happiness] [in capital]",
-                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "[2] free [Swordsman] units appear",
-                    "Provides [6] [Manpower]",
+			"Only available <before adopting [Illyrian Pirates]>","Comment [Only available before adopting Illyrian Pirates]",
+			"[+1 Happiness] from [Village] tiles [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[-1 Food, +1 Gold] from [Fort] tiles [in this city]",
+			"[+1 Gold] from every [Market]",
+			"[+2 Gold] from every [Great Market]",
+			"[+1 Gold] from every [Anchorage]",
+			"[+2 Gold] from every [Harbor]",
+			"[+3 Gold] from every [Great Harbor]",
+                    	"[+1 Happiness, +1 Gold] [in all cities]"
                 ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Tribal Stronghold",
-                "uniques": [
-                    "[+25]% City Strength from defensive buildings <in cities with a [Hill Fort]>",
-                    "[+1 Happiness] from every [Hill Fort]",
-                    "[+1 Happiness] [in capital]"
-                ],
-                "requires": ["Fierce Defenders"],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "Adventurers",
-                "uniques": [
-                    "[King] units gain the [Ignore terrain cost] promotion",
-                    "[General] units gain the [Ignore terrain cost] promotion",
-                    "[Military] units gain the [Scouting I] promotion",
-                    "[+1 Happiness] [in capital]"
-                ],
-                "requires": ["Illyrian Pirates","Tribal Stronghold"],
-                "row": 3,
-                "column": 3
-            },
-            {
-                "name": "Barbarian Phalanx",
-                "uniques": [
-                    "New [Spear] units start with [15] XP [in all cities]",
-                    "[+10]% Production when constructing [Barracks] buildings [in capital]",
-                    "[+1 Happiness] [in capital]",
-                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
-                    "Comment [Enable Archer]","Provides [1] [Enable Archer] <hidden from users>",
-                    "[3] free [Pike Phalanx] units appear",
-                    "Provides [6] [Manpower]",
-                    "Provides [3] [Bronze]",
-                ],
-                "requires": ["Fierce Defenders"],
+                "requires": ["Illyrian Tribal Confederations",],
                 "row": 2,
                 "column": 5
             },
             {
-                "name": "Illyrian Culture Complete",
+                "name": "League of Hillfort Cities",
                 "uniques": [
-                    "[+15]% Strength <for [All] units> <during a Golden Age>",
-                    "[+1] Movement <for [Embarked] units> <during a Golden Age>",
-                    "[+1] Sight <for [Embarked] units> <during a Golden Age>",
+                    	"[Horseman] units gain the [[Maneuver]] promotion",
+                    "Allied City-States provide [Gold] equal to [25]% of what they produce for themselves",
+                    "[+100]% [Happiness] from City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States",
+                    "Gifts of Gold to City-States generate [+25]% more Influence",
+                    	"[+1 Happiness, +1 Gold] [in all cities]"
+                ],
+                "requires": ["Adriatic Trade Pacts",],
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Fierce Defenders",
+                "requires": ["League of Hillfort Cities",],
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                    "[1] free [General] units appear",
+                    "[3] free [Spearman] units appear",
+                    "Provides [10] [Manpower]",
+                    "Provides [1] [Nobles]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "Tribal Stronghold",
+                "uniques": [
+                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
+			"Unavailable <before the [Classical Age]>",
+			"[+1 Happiness] from [Village] tiles [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Production] from [Fort] tiles [in this city]",
+                    "[+20]% City Strength from defensive buildings",
+                    "[+1 Happiness, +1 Food] from every [Hill Fort]",
+                    "[+1 Happiness] [in capital]"
+                ],
+                "row": 5,
+                "column": 4
+            },
+            {
+                "name": "Adventurers",
+                "uniques": [
+			"Unavailable <before the [Classical Age]>",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+                    "[+1] Movement <for [Embarked] units>",
+                    "[+1] Sight <for [Embarked] units>",
+                    "[King] units gain the [Ignore terrain cost] promotion",
+                    "[General] units gain the [Ignore terrain cost] promotion",
+                    "[Military] units gain the [Scouting I] promotion",
+                    "Provides [10] [Manpower]",
+                    "[+1 Happiness] [in all cities]"
+                ],
+                "row": 5,
+                "column": 2
+            },
+            {
+                "name": "Golden Age of Piracy",
+                "uniques": [
+			"Only available <before adopting [Market League of the Adriatic]>","Comment [Only available before adopting Market League of the Adriatic]",
+                    	"Empire enters golden age",
+                    	"[+20]% Production when constructing [Drydock] buildings [in capital]",
+			"[+20]% Strength <when defending> <for [{Military} {Water}] units> <in cities with a [Barracks]>",
+			"[+10]% Strength <for [Scout] units>",
+                    	"[+20]% Production when constructing [{Military} {Water}] units [in capital]",
+                    	"[+1] additional attacks per turn <for [Galley] units>",
+                    	"Provides [2] [Veteran]",
+                    	"[+1 Happiness, +1 Gold] [in all cities]",
+                ],
+                "requires": ["Adventurers"],
+                "row": 6,
+                "column": 1
+            },
+            {
+                "name": "Coastal Raiding Fleets",
+                "uniques": [
+                    	"[{Military} {Water}] units gain the [Bronze Ram] promotion",
+                    	"[{Military} {Water}] units gain the [Coastal Raider II] promotion",
+                    	"[+1] Sight <for [{Military} {Water}] units>",
+                    	"[+1] Movement <for [{Military} {Water}] units>",
+                    	"Provides [5] [Timber]",
+                    	"Provides [10] [Manpower]",
+                ],
+                "requires": ["Golden Age of Piracy"],
+                "row": 7,
+                "column": 1
+            },
+            {
+                "name": "Adriatic Overlords",
+                "uniques": [
+                    	"Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
+                    	"Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
+                    	"[Infantry Shield II] units gain the [Improved Equipment] promotion",
+                    	"Provides [1] [Nobles]",
+			"[+1 Gold] from every [Market]",
+			"[+1 Gold] from every [Harbor]",
+			"[+2 Gold] from every [Great Harbor]",
+                    	"[+2 Happiness, +3 Gold] [in capital]",
+                ],
+                "requires": ["Coastal Raiding Fleets"],
+                "row": 8,
+                "column": 1
+	    },
+            {
+                "name": "Market League of the Adriatic",
+                "uniques": [
+			"Only available <before adopting [Golden Age of Piracy]>","Comment [Only available before adopting Golden Age of Piracy]",
+			"[+1 Gold, +1 Happiness] from every [Market]",
+			"[+5 Gold, +5 Happiness] from every [Great Market]",
+			"[+3 Gold, +2 Happiness] from every [Great Harbor]",
+			"[+1 Gold] from [Village] tiles [in all cities]",
+			"[+1 Gold, +1 Happiness] from [Trading post] tiles [in all cities]",
+                    	"[+2 Happiness, +3 Gold] [in all cities] <after adopting [Adriatic Trade Pacts]>",
+                ],
+                "requires": ["Adventurers"],
+                "row": 6,
+                "column": 5
+            },
+            {
+                "name": "Kingdom of Bardylis",
+                "uniques": [
+			"[+2 Gold, +1 Happiness] from [Mine] tiles [in all cities]",
+			"[Gold] cost of purchasing [Military] units [-10]%",
+                    	"Provides [1] [Nobles]",
+			"[+1 Happiness] [in all cities]",
+                ],
+                "requires": ["Market League of the Adriatic"],
+                "row": 7,
+                "column": 5
+            },
+            {
+                "name": "Barbarians Phalanx",
+                "uniques": [
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Comment [Enable Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    	"[Infantry Shield II] units gain the [Improved Equipment] promotion",
+                    "[+10]% Production when constructing [Barracks] buildings [in capital]",
+                    "[+10]% Strength <for [Spear] units>",
+                    "[3] free [Pike Phalanx] units appear",
+                    "Provides [10] [Manpower]",
+                    "Provides [3] [Bronze]",
+			"[+5 Gold, +2 Happiness] from [Fort] tiles [in all cities]",
+                    "[+1 Happiness] [in all cities]",
+                ],
+                "requires": ["Kingdom of Bardylis"],
+                "row": 8,
+                "column": 5
+            },
+            {
+                "name": "Royal Infantry Reforms",
+                "uniques": [
+			"Only available <before adopting [Ardiaean Sea Dominion]>","Comment [Only available before adopting Ardiaean Sea Dominion]",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
-                    "[+1 Happiness] [in capital]",
-                    "Provides [4] [Manpower]",
-     		 "Provides [1] [Veteran]",
-                    "[+20]% Strength <for [Galley] units>",
-                    "[+20]% Strength <for [Scout] units> <when adjacent to a [Scout] unit>",
+                    	"Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
+                    	"New [Spear] units start with [15] XP [in all cities]",
+                    	"[Infantry Shield I] units gain the [Improved Equipment] promotion",
+                    	"[Archery] units gain the [Improved Equipment] promotion",
+                        "[+10]% Strength <when attacking> <for [Melee] units>",
+                    	"Provides [10] [Manpower]",
+                    	"Provides [2] [Veteran]",
+                    	"Provides [2] [Iron]",
+			"Unavailable <before the [Hellenistic Age]>",
+                ],
+                "row": 9,
+                "column": 2
+            },
+            {
+                "name": "Ardiaean Sea Dominion",
+                "uniques": [
+			"Only available <before adopting [Royal Infantry Reforms]>","Comment [Only available before adopting Royal Infantry Reforms]",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    	"[+1] Movement <for [Embarked] units> <during a Golden Age>",
+                    	"[+1] Sight <for [Embarked] units> <during a Golden Age>",
+                    	"[+15]% Strength <for [All] units> <during a Golden Age>",
+                    	"[+40]% Strength <when defending> <for [Embarked] units> <during a Golden Age>",
+                    	"[+10]% Strength <for [Galley] units>",
+                    	"[+20]% Strength <for [{Military} {Water}] units>",
+                    	"[+20]% Strength <for [Scout] units> <when adjacent to a [Scout] unit>",
+                    	"Provides [10] [Manpower]",
+     		 	"Provides [1] [Veteran]",
+                    	"[+1 Happiness, +2 Gold] [in all cities]",
+			"Unavailable <before the [Hellenistic Age]>",
+                ],
+                "row": 9,
+                "column": 4
+            },
+            {
+                "name": "Illyrian Culture Complete",
+                "uniques": [
                 ]
             }
         ]

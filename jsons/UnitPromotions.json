@@ -154,7 +154,7 @@
 		"uniques": [
 			"[+20]% Strength <when attacking>"
 ],
-		"unitTypes": ["Sword","Spear","Mounted","Elephant","Scout"],
+		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 6,
         "row": 2
 	},
@@ -166,7 +166,7 @@
 			"[+10]% Strength <vs [Wounded] units>",
 			"[+20]% Strength <vs cities>"
 ],
-		"unitTypes": ["Sword","Spear","Mounted","Elephant","Scout"],
+		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 6,
         "row": 3
 	},
@@ -320,7 +320,7 @@
 	{
 		"name": "Assault I",
 		"uniques": ["[+15]% Strength <vs cities>","[+10]% Strength <when fighting in [Barbarian encampment] tiles>"],
-		"unitTypes": ["Sword","Spear","Ruler"],
+		"unitTypes": ["Sword","Spear"],
         "column": 14,
         "row": 1
 	},
@@ -328,7 +328,7 @@
 		"name": "Assault II",
 		"prerequisites": ["Assault I"],
 		"uniques": ["[+35]% Strength <vs cities>","[+10]% Strength <when fighting in [Barbarian encampment] tiles>"],
-		"unitTypes": ["Sword","Spear","Ruler"],
+		"unitTypes": ["Sword","Spear"],
         "column": 14,
         "row": 2
 	},
@@ -419,7 +419,7 @@
   "[+10]% Strength <when attacking>",
 			"[+5]% Strength <vs [Melee] units>"
 		],
-		"unitTypes": ["Mounted","Ruler"],
+		"unitTypes": ["Mounted"],
         "column": 17,
         "row": 2
 	},
@@ -429,7 +429,7 @@
 		"uniques": [
 			"[+10]% Strength <vs [Melee] units>",
 	],
-		"unitTypes": ["Mounted","Ruler"],
+		"unitTypes": ["Mounted"],
         "column": 17,
         "row": 3
 	},
@@ -546,7 +546,7 @@
 		"prerequisites": ["Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Raider III"],
 		"uniques": [
 				"[1] additional attacks per turn",
- 				"[-20]% Strength <when attacking>",
+ 				"[-20]% Strength <when attacking> <for [Ranged] units>",
 				"[-20]% to Flank Attack bonuses",
 			  	"[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Mounted Archery", "Mounted", "Sword","Spear","Archery","Siege","Ranged Water","Melee Water","Ruler"],
@@ -595,7 +595,7 @@
 		"uniques": [
      "No movement cost to pillage"
 ],
-		"unitTypes": ["Sword","Spear","Mounted","Scout","Mounted Archery"],
+		"unitTypes": ["Sword","Spear","Mounted","Scout","Mounted Archery","Ruler"],
         "column": 25,
         "row": 2
 	},
@@ -645,7 +645,10 @@
 		"name": "[Archer] ability",
 		"uniques": [
 		"[+10]% Strength <when attacking> <vs [Mounted] units>",
+		"[+10]% Strength <when attacking> <vs [Mounted Archery] units>",
 		"[+10]% Strength <when attacking> <vs [Ambush I] units>",
+		"[+5]% Strength <when attacking> <vs [Ambush II] units>",
+		"[+5]% Strength <when attacking> <vs [Ambush III] units>",
 		"[+10]% Strength <when attacking> <when fighting in [Open terrain] tiles>",
 		"Withdraws before melee combat <with [10]% chance>",
 		]
@@ -655,7 +658,7 @@
 		"uniques": [
 		"[+10]% Strength <when attacking> <vs [Archery] units>",
 		"[+10]% Strength <when attacking> <vs [Mounted Archery] units>",
-		"[+10]% Strength <when defending> <when fighting in [Hill] tiles>",
+		"[+15]% Strength <when defending> <when fighting in [Hill] tiles>",
 		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
@@ -698,9 +701,10 @@
 		"name": "[Horseman] ability",
 		"uniques": [
 		"Ignores terrain cost",
-		"[+30]% to Flank Attack bonuses",
+		"[+25]% to Flank Attack bonuses",
 		"[-40]% Strength <when attacking> <vs cities>",
 		"[+10]% Strength <when attacking> <vs [Wounded] units>",
+		"[+10]% Strength <when attacking> <vs [Mounted Archery] units>",
 		"[-10]% Strength <when defending> <when fighting in [Hill] tiles>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [40]% chance>",
@@ -720,9 +724,9 @@
 		"name": "Chariot ability",
 		"uniques": [
 		"[-20]% Strength <when attacking> <vs cities>",
-		"[+2] Strength <when attacking> <when fighting in [Open terrain] tiles>",
+		"[+10]% Strength <when attacking> <when fighting in [Open terrain] tiles>",
 		"[+10]% Strength <when fighting in [Desert] tiles>",
-		"[+15]% Strength <when fighting in [Open terrain] tiles>",
+		"[+20]% Strength <when fighting in [Open terrain] tiles>",
 		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
 		"No defensive terrain bonus", 
 		"Withdraws before melee combat <with [15]% chance>"
@@ -923,7 +927,7 @@
 		"unitTypes": ["Ruler"],
 		"uniques": [
 			"Only available <if [Barracks] is constructed>",
-			"[+1] XP gained from combat",
+			"[+2] XP gained from combat",
 		],
         "row": 5,
 	"column": 5
@@ -933,8 +937,8 @@
 		"prerequisites": ["Art of War"],
 		"unitTypes": ["Ruler"],
 		"uniques": [
-			"[+10]% Strength bonus for [{Melee} {Land}] units within [2] tiles <when attacking>",
-			"[+10]% Strength bonus for [{Ranged} {Land}] units within [2] tiles <when attacking>",
+			"[+19]% Strength bonus for [{Melee} {Land}] units within [2] tiles <when attacking>",
+			"[+9]% Strength bonus for [{Ranged} {Land}] units within [2] tiles <when attacking>",
 			"Only available <if [Barracks] is constructed>",
 		],
         "row": 5,

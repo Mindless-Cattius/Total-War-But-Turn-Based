@@ -706,8 +706,9 @@
 		"uniqueName": "Warriors and Helots",
 		"uniques": [
 		"[Royal Phalanx] units gain the [Spartan Aura] promotion",
+		"[Foot Guard] units gain the [Spartan Aura] promotion",
     		"[+10]% Strength <for [Hoplite] units>",
-    		"[+1 Food] from [Farm] tiles [in capital]"
+    		"[+1 Food] from [Farm] tiles [in capital]",
 		"Gain a free [Syssition] [in capital]",
 		"Gain a free [Second King] [in capital]",
 //		"Starts with [Infantry Training]",
@@ -738,8 +739,8 @@
 		"uniqueName": "Thracian Horselords",
 		"uniques": [
     		"[+10]% Strength <for [Skirmisher] units>",
-    		"[+1 Happiness] from [Hill] tiles [in capital]",
-    		"[+1 Gold] from [Mine] tiles [in all cities]",
+    		"[+1 Gold] from [Hill] tiles [in capital]",
+    		"[+1 Happiness] from [Mine] tiles [in all cities]",
 		"[-20]% maintenance costs <for [Mounted] units>",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Thracian Culture] adopted"
