@@ -21,7 +21,7 @@
 			"Provides [3] [Manpower]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture] from [Village] tiles [in this city]",
-			"Doubles Gold given to enemy if city is captured",
+			"[+50]% Gold given to enemy if city is captured",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured"
 		]
@@ -54,7 +54,7 @@
 			"[+1 Food] from [Village] tiles [in this city]",
 			"[-30]% enemy spy effectiveness [in this city]",
 			"Can be purchased with [Gold] [in all cities]",
-			"Doubles Gold given to enemy if city is captured",
+			"[+100]% Gold given to enemy if city is captured",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
 		]
@@ -849,13 +849,13 @@
 		"uniques": [
 		"Provides [2] [Decadence]",
 		"[+1 Gold] <in cities with a [Market]>",
-		"Doubles Gold given to enemy if city is captured"
-		"Destroyed when the city is captured",
+		"[+200]% Gold given to enemy if city is captured"
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Gold] from [Fort] tiles [in this city]",
 		"[+1 Happiness] from [Village] tiles [in this city]",
 			"Provides [2] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Tax Farming"
 	},
@@ -1364,7 +1364,7 @@
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Gold] from [Fort] tiles [in this city]",
 		"[-1 Food, +1 Culture] from [Village] tiles [in this city]",
-		"Doubles Gold given to enemy if city is captured",
+		"[+30]% Gold given to enemy if city is captured",
 "Cost increases by [20] per owned city",
 		],
 		"requiredTech": "Construction"
@@ -1384,7 +1384,7 @@
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Gold] from [Fort] tiles [in this city]",
 		"[+1 Faith] from [Village] tiles [in this city]",
-		"Doubles Gold given to enemy if city is captured",
+		"[+20]% Gold given to enemy if city is captured",
 		],
 		"requiredTech": "Construction"
 	},

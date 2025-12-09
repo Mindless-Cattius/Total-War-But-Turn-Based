@@ -1077,7 +1077,7 @@
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
   "cost": 160,
-  "movement": 4,
+  "movement": 3,
   "strength": 10,
   "rangedStrength": 11,
     "uniques": [
@@ -1187,7 +1187,7 @@
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
     "cost": 130,
-    "movement": 4,
+    "movement": 3,
     "strength": 10,
     "rangedStrength": 11,
     "requiredTech": "The Wheel",
@@ -1209,7 +1209,7 @@
     "unitType": "Mounted Archery",
     "hurryCostModifier": 25,
     "cost": 130,
-    "movement": 4,
+    "movement": 3,
     "strength": 11,
     "rangedStrength": 11,
     "uniques": [
@@ -1745,7 +1745,7 @@
   {
     "name": "General",
     "unitType": "Mounted",
-    "movement": 4,
+    "movement": 3,
     "strength": 14,
     "cost": 500,
     "requiredTech": "Infantry Training",
@@ -1942,14 +1942,13 @@
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
   "cost": 140,
-  "movement": 4,
+  "movement": 3,
   "strength": 9,
   "rangedStrength": 11,
   "requiredTech": "Riding",
   "uniques": [
  	"Comment [-Light mounted skirmisher, have high range attack, good at raiding, high withdraw chance]",
     	"Only available <in cities with a [Skirmisher Barracks]>",
-    	"Can move after attacking",
 	"May attack when embarked",
     	"[-1] Range",
     	"Consumes [3] [Manpower]",
@@ -1959,7 +1958,7 @@
   ],
   "promotions": [
       "[Horseman] ability",
-      "Raider I",
+      "[Maneuver]",
   ],
   "attackSound": "arrow"
   },
@@ -1974,7 +1973,6 @@
   "uniques": [
  	"Comment [-Medium cavalry, have strong attack, good at raiding, medium withdraw chance]",
     "Only available <in cities with a [Cavalry Barracks]>",
-    "Can move after attacking",
     "Consumes [3] [Manpower]",
     "Consumes [2] [Horses]",
       "Only available <after adopting [Numidian Culture]> <hidden from users>",
@@ -1982,8 +1980,7 @@
   ],
   "promotions": [
       "[Cavalry] ability",
-      "Raider I",
-	"Shock I",
+      "[Maneuver]",
   ],
   "attackSound": "horse"
   },
@@ -1992,7 +1989,7 @@
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
   "cost": 190,
-  "movement": 4,
+  "movement": 3,
   "strength": 9,
   "rangedStrength": 11,
   "requiredTech": "Riding",
