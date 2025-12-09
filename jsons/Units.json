@@ -1768,12 +1768,12 @@
   },
   {
     "name": "Foot Guard",
-    "unitType": "Spear",
+    "unitType": "Sword",
     "movement": 2,
     "strength": 15,
     "cost": 150,
     "uniques": [
-	    "Comment [-Elite medium spear infantry, give bounus to nearby units]",
+	    "Comment [-Elite medium sword infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
       	"[+10]% Strength bonus for [Military] units within [1] tiles",
 	      "[+1] XP gained from combat",
@@ -1791,14 +1791,14 @@
   },
   {
     "name": "Royal Spartan",
-    "unitType": "Spear",
+    "unitType": "Sword",
     "uniqueTo": "The Spartans",
     "replaces": "Foot Guard",
     "movement": 2,
     "strength": 16,
     "cost": 180,
     "uniques": [
-		"Comment [Elite medium spear infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away—just don’t expect them to do much beyond that.]",
+		"Comment [Elite medium sword infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away—just don’t expect them to do much beyond that.]",
      		"Only available <in cities with a [Palace]>",
       		"[+10]% Strength bonus for [Military] units within [1] tiles",
 	      	"[+1] XP gained from combat",
