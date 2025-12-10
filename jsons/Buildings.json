@@ -573,7 +573,61 @@
 		"maintenance": 0,
 		"uniques": [
 			"Cost increases by [10] per owned city",
-			"[+1 Gold] from [Wheat] tiles [in this city]"],
+			"[+1 Gold] from [Wheat] tiles [in this city]"
+],
+		"requiredTech": "Barter"
+	},
+	{
+		"name": "Timber Exports",
+		"requiredBuilding": "Market",
+		"requiredNearbyImprovedResources": ["Timber"],
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"maintenance": 0,
+		"uniques": [
+			"Cost increases by [30] per owned city",
+			"[+2 Gold, -1 Production] <when above [1] [Timber]>",
+			"[+1 Gold] <when above [3] [Timber]>",
+			"[+1 Gold, -1 Production] <when above [5] [Timber]>",
+			"[+1 Gold] <when above [10] [Timber]>",
+			"Limited to [1] per Civilization",
+			"Limited to [3] per Civilization <after adopting [Timber Economy]>",
+],
+		"requiredTech": "Barter"
+	},
+	{
+		"name": "Bronze Exports",
+		"requiredBuilding": "Market",
+		"requiredNearbyImprovedResources": ["Timber"],
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"maintenance": 1,
+		"uniques": [
+			"Cost increases by [30] per owned city",
+			"[+2 Gold, -1 Production] <when above [1] [Bronze]>",
+			"[+2 Gold] <when above [3] [Bronze]>",
+			"[+2 Gold, -1 Production] <when above [5] [Bronze]>",
+			"[+1 Gold] <when above [10] [Bronze]>",
+			"Limited to [1] per Civilization",
+],
+		"requiredTech": "Barter"
+	},
+	{
+		"name": "Horses Exports",
+		"requiredBuilding": "Market",
+		"requiredNearbyImprovedResources": ["Timber"],
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"maintenance": 1,
+		"uniques": [
+			"Cost increases by [30] per owned city",
+			"[+2 Gold, -1 Production] <when above [1] [Horses]>",
+			"[+2 Gold] <when above [3] [Horses]>",
+			"[+2 Gold, -1 Production] <when above [5] [Horses]>",
+			"[+2 Gold] <when above [10] [Horses]>",
+			"Limited to [1] per Civilization",
+			"Limited to [3] per Civilization <after adopting [Trade Caravans]>",
+],
 		"requiredTech": "Barter"
 	},
 	{
@@ -2160,10 +2214,13 @@
 	{
 		"name": "A Noble's Death",
 		"uniques": [ 
+			"Rebel units may spawn <with [50]% chance> <when above [0] [Ruler]> <hidden from users>", 
+			"Rebel units may spawn <with [70]% chance> <when above [1] [Ruler]> <hidden from users>", 
+			"Rebel units may spawn <with [90]% chance> <when above [2] [Ruler]> <hidden from users>",
                     	"[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", 
                     	"[-10]% Strength <when attacking> <for [Military] units>", 
                     	"[+10]% Strength <for [General] units>",
-			"[-1 Happiness] [in all cities city]",
+			"[-1 Happiness] [in all cities]",
 			"[-1 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
 			"[-1 Gold, -1 Happiness] from [Village] tiles [in this city]",
 			"Unbuildable",
