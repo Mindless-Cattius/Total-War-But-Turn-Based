@@ -2163,6 +2163,7 @@
                     	"[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", 
                     	"[-10]% Strength <when attacking> <for [Military] units>", 
                     	"[+10]% Strength <for [General] units>",
+			"[-1 Happiness] [in all cities city]",
 			"[-1 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
 			"[-1 Gold, -1 Happiness] from [Village] tiles [in this city]",
 			"Unbuildable",
