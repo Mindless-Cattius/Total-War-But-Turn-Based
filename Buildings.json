@@ -296,6 +296,7 @@
 		"requiredBuilding": "Shrine",
 		"uniques": [
 			"Consumes [1] [Decadence] <during a Golden Age>",
+		"[+10]% Natural religion spread [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"Cost increases by [10] per owned city",
 			"Destroyed when the city is captured",
@@ -390,6 +391,7 @@
 			"[+1 Culture] [in this city] <when not at war>",
 			"[+1 Happiness] [in this city] <when at war>",
 			"[+1 Food] from [Village] tiles [in this city]",
+		"[+10]% Natural religion spread [in this city]",
 			"Cost increases by [10] per owned city",
 			"Destroyed when the city is captured",
 		],
@@ -403,6 +405,7 @@
 		"maintenance": 1,
 		"happiness": 1,
 		"uniques": [
+			"[+5]% Natural religion spread [in this city]",
 			"[+1 Happiness, +1 Gold] from [Wine] tiles [in this city]",
 			"[+1 Gold] from [Camp] tiles [in this city]",
 			"[+1 Gold] from [Village] tiles [in this city]",
@@ -488,6 +491,7 @@
 		"science": 2,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
+		"[+15]% Natural religion spread [in this city]",
 			"Provides [1] [Scrolls]",
 			"[+1 Culture] from [Papyrus] tiles [in this city]",
 			"Cost increases by [10] per owned city",
@@ -506,10 +510,11 @@
 		"science": 3,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
+		"[+10]% Natural religion spread [in this city]",
 			"Provides [1] [Scrolls]",
 			"[+1 Science] per [5] population [in this city]",
 			"[+1 Gold] per [10] population [in this city]",
-			"[+1 Culture] from [Sheep] tiles [in this city]",
+		"[+1 Culture] from [Sheep] tiles [in this city]",
 			"[+1 Culture] from [Cattle] tiles [in this city]",
 			"[+1 Culture] from [Papyrus] tiles [in this city]",
 			"Cost increases by [10] per owned city",
@@ -573,7 +578,61 @@
 		"maintenance": 0,
 		"uniques": [
 			"Cost increases by [10] per owned city",
-			"[+1 Gold] from [Wheat] tiles [in this city]"],
+			"[+1 Gold] from [Wheat] tiles [in this city]"
+],
+		"requiredTech": "Barter"
+	},
+	{
+		"name": "Timber Exports",
+		"requiredBuilding": "Market",
+		"requiredNearbyImprovedResources": ["Timber"],
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"maintenance": 0,
+		"uniques": [
+			"Cost increases by [30] per owned city",
+			"[+2 Gold, -1 Production] <when above [1] [Timber]>",
+			"[+1 Gold] <when above [3] [Timber]>",
+			"[+1 Gold, -1 Production] <when above [5] [Timber]>",
+			"[+1 Gold] <when above [10] [Timber]>",
+			"Limited to [1] per Civilization",
+			"Limited to [3] per Civilization <after adopting [Timber Economy]>",
+],
+		"requiredTech": "Barter"
+	},
+	{
+		"name": "Bronze Exports",
+		"requiredBuilding": "Market",
+		"requiredNearbyImprovedResources": ["Timber"],
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"maintenance": 1,
+		"uniques": [
+			"Cost increases by [30] per owned city",
+			"[+2 Gold, -1 Production] <when above [1] [Bronze]>",
+			"[+2 Gold] <when above [3] [Bronze]>",
+			"[+2 Gold, -1 Production] <when above [5] [Bronze]>",
+			"[+1 Gold] <when above [10] [Bronze]>",
+			"Limited to [1] per Civilization",
+],
+		"requiredTech": "Barter"
+	},
+	{
+		"name": "Horses Exports",
+		"requiredBuilding": "Market",
+		"requiredNearbyImprovedResources": ["Timber"],
+		"hurryCostModifier": 25,
+		"cost": 100,
+		"maintenance": 1,
+		"uniques": [
+			"Cost increases by [30] per owned city",
+			"[+2 Gold, -1 Production] <when above [1] [Horses]>",
+			"[+2 Gold] <when above [3] [Horses]>",
+			"[+2 Gold, -1 Production] <when above [5] [Horses]>",
+			"[+2 Gold] <when above [10] [Horses]>",
+			"Limited to [1] per Civilization",
+			"Limited to [3] per Civilization <after adopting [Trade Caravans]>",
+],
 		"requiredTech": "Barter"
 	},
 	{
@@ -608,7 +667,7 @@
 		"name": "Ceramics Workshop",
 		"requiredNearbyImprovedResources": ["Clay","Stone"],
 		"hurryCostModifier": 25,
-		"cost": 70,
+		"cost": 60,
 		"maintenance": 2,
 		"uniques": [
 			"Cost increases by [10] per owned city",
@@ -622,7 +681,7 @@
 		"name": "Market",
 		"hurryCostModifier": 25,
 		"gold": 3,
-		"cost": 100,
+		"cost": 60,
 		"happiness": 1,
 		"percentStatBonus": {"gold": 5},
 		"specialistSlots": {"Merchant": 1},
@@ -687,7 +746,7 @@
 		"hurryCostModifier": 25,
 		"happiness": 1,
 		"gold": 3,
-		"cost": 120,
+		"cost": 60,
 		"culture": 1,
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchant": 1},
@@ -849,7 +908,7 @@
 		"Provides [1] [Amber]",
 		"Only available <after adopting [Germanic Culture]>",
 		"Never destroyed when the city is captured",
-		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Gold] from [Village] tiles [in this city]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
@@ -2157,10 +2216,26 @@
 		]
 		"requiredTech": "Barter"
 	},
+	{
+		"name": "A Noble's Death",
+		"uniques": [ 
+			"Rebel units may spawn <with [50]% chance> <when above [0] [Ruler]> <hidden from users>", 
+			"Rebel units may spawn <with [70]% chance> <when above [1] [Ruler]> <hidden from users>", 
+			"Rebel units may spawn <with [90]% chance> <when above [2] [Ruler]> <hidden from users>",
+                    	"[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", 
+                    	"[-10]% Strength <when attacking> <for [Military] units>", 
+                    	"[+10]% Strength <for [General] units>",
+			"[-1 Happiness] [in all cities]",
+			"[-1 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
+			"[-1 Gold, -1 Happiness] from [Village] tiles [in this city]",
+			"Unbuildable",
+			"Destroyed when the city is captured",
+		]
+	},
 /////				---Scenario
 	{
 		"name": "Scenario",
-		"uniques": [ 
+		"uniques": [
 			"Destroyed when the city is captured",
 			"Gain a free [Scenario] [in all cities] <if [Scenario] is not constructed>",
 			"Gain a free [Happiness] [in all cities] <if [Happiness] is not constructed>",
