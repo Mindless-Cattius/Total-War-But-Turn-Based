@@ -3,6 +3,8 @@
     "uniques": [ 
 // ADDONS
 // GLOBAL
+	"Gain a free [A Noble's Death] [in capital] <when below [1] [Ruler]>",
+	"Provides [1] [Ruler]",
 	"Provides [40] [Manpower] <in [in City-State cities] cities>"
 	"[-1] Range <for [Scout] units>",
 	"May not annex cities <during the [Archaic Age]>",

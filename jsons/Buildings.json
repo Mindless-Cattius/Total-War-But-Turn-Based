@@ -2157,10 +2157,22 @@
 		]
 		"requiredTech": "Barter"
 	},
+	{
+		"name": "A Noble's Death",
+		"uniques": [ 
+                    	"[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>", 
+                    	"[-10]% Strength <when attacking> <for [Military] units>", 
+                    	"[+10]% Strength <for [General] units>",
+			"[-1 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
+			"[-1 Gold, -1 Happiness] from [Village] tiles [in this city]",
+			"Unbuildable",
+			"Destroyed when the city is captured",
+		]
+	},
 /////				---Scenario
 	{
 		"name": "Scenario",
-		"uniques": [ 
+		"uniques": [
 			"Destroyed when the city is captured",
 			"Gain a free [Scenario] [in all cities] <if [Scenario] is not constructed>",
 			"Gain a free [Happiness] [in all cities] <if [Happiness] is not constructed>",

@@ -736,7 +736,15 @@
 		]
     },
 	// Unit hidden resources		
-
+    {
+		"name": "Ruler",
+		"resourceType": "Luxury",
+		"happiness": -10,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+]
+    },
     {
 		"name": "Enable Archer",
 		"resourceType": "Bonus",

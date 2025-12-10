@@ -146,7 +146,6 @@
 				"name": "Shipbuilding",
 				"row": 9,
 				"prerequisites": ["Woodworking"],
-				"uniques": ["Provides [1] [Nobles]"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
@@ -271,7 +270,7 @@
 				"name": "Navigation",
 				"row": 9,
 				"prerequisites": ["Optics"],
-				"uniques": ["[+1] Movement <for [Embarked] units>","Provides [1] [Nobles]"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "'We have ploughed the vast ocean in a fragile bark.' - Ovid"
 			}
 		]
