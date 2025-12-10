@@ -11,6 +11,13 @@ BuildingIcons/0 Harbor
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/A Noble's Death
+  rotate: false
+  xy: 976, 378
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Amber Road
   rotate: false
   xy: 4, 760
@@ -205,6 +212,13 @@ BuildingIcons/Embassy
   xy: 4, 112
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Food Import
+  rotate: false
+  xy: 1084, 486
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Freshwater Fishery
