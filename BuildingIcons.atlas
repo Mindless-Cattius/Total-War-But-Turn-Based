@@ -88,6 +88,13 @@ BuildingIcons/Brick Maker
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Bronze Exports
+  rotate: false
+  xy: 1084, 486
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Bronze Imports
   rotate: false
   xy: 112, 544
@@ -216,7 +223,7 @@ BuildingIcons/Embassy
   index: -1
 BuildingIcons/Food Import
   rotate: false
-  xy: 1084, 486
+  xy: 1192, 594
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -317,6 +324,13 @@ BuildingIcons/Hill Fort
   xy: 652, 652
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Horse Exports
+  rotate: false
+  xy: 1300, 702
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Horse Imports
@@ -646,6 +660,13 @@ BuildingIcons/Thracian Weaponsmith
   xy: 1192, 652
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Timber Exports
+  rotate: false
+  xy: 1408, 810
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Timber Imports

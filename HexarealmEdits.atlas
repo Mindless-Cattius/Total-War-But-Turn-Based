@@ -179,7 +179,7 @@ TileSets/HexaRealm/Tiles/City center-Punic-Imperial Age
   orig: 72, 62
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Greek-Classical Age
+TileSets/HexaRealm/Tiles/City center-Hellenic-Classical Age
   rotate: false
   xy: 829, 196
   size: 72, 56
