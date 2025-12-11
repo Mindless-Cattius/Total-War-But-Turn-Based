@@ -748,8 +748,6 @@
 	"Comment ['Medium infantry, simple, sharp, and solves most problems violently.']",
       	"Consumes [3] [Manpower]",
       	"Only available <with [Enable Swordsman]> <hidden from users>",
-	"Unbuildable <in cities with a [Hellenic Barracks]> <hidden from users>",
-	"Unbuildable <in cities with a [Gallic Barracks]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -1042,8 +1040,7 @@
 	"Comment [Heavy infantry, a frontliner with a sword and a bad attitude. Great at holding the line, terrible at anything requiring speed or finesse.]"
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
-	"Unbuildable <in cities with a [Hellenic Barracks]> <hidden from users>",
-	"Unbuildable <in cities with a [Gallic Barracks]> <hidden from users>",
+	"Unbuildable <in cities with a [Scenario Legion]> <hidden from users>",
       	"Only available <with [Enable Heavy Swordsman]> <hidden from users>",
     ],
     "promotions": [
