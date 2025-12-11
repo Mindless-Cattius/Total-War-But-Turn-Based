@@ -2238,28 +2238,14 @@
 			"Gain a free [Happiness] [in all cities] <if [Happiness] is not constructed>",
 			"Unbuildable"
 		]
-	},	{
-		"name": "Hellenic Barracks",
-		"requiredBuilding": "Scenario",
-		"cost": 250,
-		"uniques": [ 
-      			"Only available <after adopting [Hellenic Culture]> <hidden from users>",
-      			"Only available <after adopting [Hellenistic Culture]> <hidden from users>",
-      			"Only available <in cities with a [Scenario]>",
-				"Cost increases by [20] per owned city",
-			"Destroyed when the city is captured",
-		]
 	},
 	{
-		"name": "Gallic Barracks",
-		"requiredBuilding": "Scenario",
-		"cost": 250,
-		"uniques": [ 
+		"name": "Scenario Legion",
+		"uniques": [
 			"Destroyed when the city is captured",
-      			"Only available <after adopting [Celtic Culture]> <hidden from users>",
-      			"Only available <after adopting [Germanic Culture]> <hidden from users>",
-      			"Only available <in cities with a [Scenario]>",
-				"Cost increases by [20] per owned city",
+			"Gain a free [Scenario Legion] [in all cities] <if [Scenario Legion] is not constructed>",
+			"Destroyed when the city is captured",
+			"Unbuildable"
 		]
 	},
 	{

@@ -2636,11 +2636,13 @@
     "cost": 250,
     "uniques": [
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
+      "Only available <in cities with a [Barracks]>","Unbuildable <if [Scenario Legion] is not constructed>",
+      "Only available <after adopting [Hellenic Culture]> <hidden from users>",
+      "Only available <after adopting [Hellenistic Culture]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
 	"Can build [Roman Fort] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
-      "Only available <in cities with a [Hellenic Barracks]>"
     ],
     "promotions": [
       "Infantry Shield III",
@@ -2658,11 +2660,13 @@
     "uniques": [
       "Comment [-Medium spear infantry, can build road, good at defending homeland and against cavalry.] <before the [Imperial Age]>",
       "Comment [-Heavy spear infantry, can build road, good at defending homeland and against cavalry.] <during the [Imperial Age]>",
-      "Only available <in cities with a [Hellenic Barracks]>",
+      "Only available <after adopting [Hellenic Culture]> <hidden from users>",
+      "Only available <after adopting [Hellenistic Culture]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
        "[+20]% Strength <when fighting in [Friendly Land] tiles>",
        "[+10]% Strength <when fighting in [Hill] tiles>",
       "Consumes [4] [Manpower]",
+      "Only available <in cities with a [Barracks]>","Unbuildable <if [Scenario Legion] is not constructed>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2679,7 +2683,9 @@
     "cost": 250,
     "uniques": [
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
-      "Only available <in cities with a [Gallic Barracks]>"
+      "Only available <in cities with a [Barracks]>","Unbuildable <if [Scenario Legion] is not constructed>",
+      "Only available <after adopting [Celtic Culture]> <hidden from users>",
+      "Only available <after adopting [Germanic Culture]> <hidden from users>",
 	"Can build [Roman Fort] improvements on tiles",
 	"Can build [All Road] improvements on tiles",
       "Consumes [5] [Manpower]",
@@ -2701,7 +2707,9 @@
     "uniques": [
       "Comment [-Medium spear infantry, can build road, good at defending homeland and offensive.] <before the [Imperial Age]>",
       "Comment [-Heavy spear infantry, can build road, good at defending homeland and offensive.] <during the [Imperial Age]>",
-      "Only available <in cities with a [Gallic Barracks]>",
+      "Only available <after adopting [Celtic Culture]> <hidden from users>",
+      "Only available <after adopting [Germanic Culture]> <hidden from users>",
+      "Only available <in cities with a [Barracks]>","Unbuildable <if [Scenario Legion] is not constructed> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
 	"Can build [Roman Fort] improvements on tiles",
        "[+10]% Strength <when fighting in [Friendly Land] tiles>",
@@ -2712,6 +2720,28 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Shock I"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Gallic Legion",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 20,
+    "cost": 250,
+    "uniques": [
+      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
+      "Only available <in cities with a [Barracks]>","Unbuildable <if [Scenario Legion] is not constructed> <hidden from users>",
+      "Only available <after adopting [Eastern Culture]> <hidden from users>",
+	"Can build [Roman Fort] improvements on tiles",
+	"Can build [All Road] improvements on tiles",
+      "Consumes [5] [Manpower]",
+      "Consumes [1] [Iron]",
+    ],
+    "promotions": [
+      "Infantry Shield III",
+      "Assault I",
+      "Desert Warrior"
     ],
     "attackSound": "metalhit"
   },
