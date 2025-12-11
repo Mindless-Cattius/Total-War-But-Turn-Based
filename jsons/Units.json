@@ -2724,7 +2724,7 @@
     "attackSound": "metalhit"
   },
   {
-    "name": "Gallic Legion",
+    "name": "Desert Legion",
     "unitType": "Sword",
     "movement": 2,
     "strength": 20,
