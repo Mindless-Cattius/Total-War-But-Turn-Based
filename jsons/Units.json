@@ -783,7 +783,7 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Insubres",
     "movement": 2,
-    "strength": 15,
+    "strength": 14,
     "cost": 175,
     "requiredTech": "Citizen Levy",
     "uniques": [
@@ -794,8 +794,8 @@
     ],
     "promotions": [
       "[Gaesatae] ability",
+	"Ignore terrain cost",
       "Infantry Shield I",
-      "Shock I",
     ],
     "attackSound": "metalhit"
   },
@@ -1729,7 +1729,7 @@
       	"Can Spread Religion <for [1] movement> <[3] times> <after which this unit is consumed> <before adopting [War Priests]>",
       	"Can Spread Religion <for [1] movement> <[2] times> <after adopting [War Priests]>",
 	      "[+20]% Strength bonus for [Military] units within [1] tiles <after adopting [War Priests]>",
-	      "All adjacent units heal [+2] HP when healing <after adopting [Keeper of Traditions]>",
+	      "All adjacent units heal [+3] HP when healing <after adopting [Keeper of Traditions]>",
       	"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
       	"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 	      "Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
@@ -1752,7 +1752,7 @@
     "uniques": [
 		      "Comment [Battlefield commander, give bounus to nearby units]",
       		"Only available <in cities with a [Army Barracks]>",
-		      "[+3] Strength <during the [Imperial Age]>",
+		      "[+30]% Strength <during the [Imperial Age]>",
 		      "[+100]% production cost <during the [Imperial Age]>",
       		"Consumes [1] [Nobles]",
     "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
@@ -1876,7 +1876,7 @@
     "uniques": [
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
-		"[+2] Strength <during the [Imperial Age]>",
+		"[+20]% Strength <during the [Imperial Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
 		"May attack when embarked",
     		"Consumes [1] [Ruler] <hidden from users>",
@@ -1901,7 +1901,7 @@
       		"Only available <after adopting [Legate Governance]> <hidden from users>",
 		"Can only be built <in [Capital] cities>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
-		"[+2] Strength <during the [Imperial Age]>",
+		"[+20]% Strength <during the [Imperial Age]>",
 		"[+30]% production cost <during the [Imperial Age]>",
     		"Consumes [2] [Ruler] <hidden from users>",
 		"Remove [A Noble's Death] [in all cities]",
@@ -1925,8 +1925,9 @@
     "uniques": [
       		"Only available <after adopting [Manipular Legion]> <hidden from users>",
       		"Unavailable <after adopting [Legate Governance]> <hidden from users>",
+      		"Unavailable <after adopting [Imperial's Decree]> <hidden from users>",
 		"Comment []",
-		"[+1] Strength <during the [Imperial Age]>",
+		"[+10]% Strength <during the [Imperial Age]>",
 		"[+50]% production cost <during the [Imperial Age]>",
     		"Consumes [1] [Ruler] <hidden from users>",
 		"Remove [A Noble's Death] [in all cities]",

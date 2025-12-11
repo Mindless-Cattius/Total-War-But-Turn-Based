@@ -18,7 +18,7 @@
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic I","Survivalism I"],
-		"uniques": ["[+3] HP when healing","All adjacent units heal [+3] HP when healing","[+50]% weight to this choice for AI decisions"],
+		"uniques": ["[+3] HP when healing","All adjacent units heal [+2] HP when healing","[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Sword","Spear","Ruler","Archery","Elephant","Scout"],
         "column": 1,
         "row": 2
@@ -26,7 +26,7 @@
 	{
 		"name": "Medic III",
 		"prerequisites": ["Medic II","Foraging II"],
-		"uniques": ["[+3] HP when healing","All adjacent units heal [+5] HP when healing","[+50]% weight to this choice for AI decisions"],
+		"uniques": ["[+3] HP when healing","All adjacent units heal [+2] HP when healing","[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Ruler","Archery","Elephant","Scout"],
         "column": 1,
         "row": 3
@@ -55,7 +55,7 @@
 		"prerequisites": ["Survivalism II"],
 		"uniques": [
 			"Unit will heal every turn, even if it performs an action", 
-			"[+20]% Strength <vs cities> <when defending>"
+			"[+15]% Strength <vs cities> <when defending>"
 			"[+50]% weight to this choice for AI decisions",
 ],
 		"unitTypes": ["Scout"],
@@ -65,7 +65,7 @@
 	{
 		"name": "Foraging I",
 		"uniques": [
-			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+3] HP when healing <in [Foreign Land] tiles>",
     			"[+10]% Yield from pillaging tiles",
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Siege","Archery","Elephant","Scout","Ruler"],
@@ -76,7 +76,7 @@
 		"name": "Foraging II",
 		"prerequisites": ["Foraging I","Survivalism I"],
 		"uniques": [
-			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+3] HP when healing <in [Foreign Land] tiles>",
     			"[+10]% Yield from pillaging tiles",
 ],
 		"unitTypes": ["Mounted","Mounted Archery","Scout","Ruler"],
@@ -85,7 +85,7 @@
 	},
 	{
 		"name" : "Supply",
-		"uniques": ["May heal outside of friendly territory","[+10] HP when healing <in [Foreign Land] tiles>","[+20]% Strength <vs cities> <when defending>"],
+		"uniques": ["May heal outside of friendly territory","[+10] HP when healing <in [Foreign Land] tiles>","[+15]% Strength <vs cities> <when defending>"],
 		"unitTypes": ["Melee Water","Ranged Water"],
         "column": 29,
         "row": 1
@@ -117,7 +117,7 @@
 	// Rank 4
 	{
 		"name": "Marksman I",
-		"uniques": ["[+20]% Strength <when attacking> <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+15]% Strength <when attacking> <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 5,
         "row": 1
@@ -125,7 +125,7 @@
 	{
 		"name": "Marksman II",
 		"prerequisites": ["Marksman I"],
-		"uniques": ["[+20]% Strength <when attacking> <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+15]% Strength <when attacking> <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 5,
         "row": 2
@@ -134,7 +134,7 @@
 		"name": "Marksman III",
 		"prerequisites": ["Marksman II"],
 		"uniques": [
-			"[+20]% Strength <when attacking> <when fighting in [Open terrain] tiles>",
+			"[+15]% Strength <when attacking> <when fighting in [Open terrain] tiles>",
 			"[+10]% Strength <vs cities>"
 ],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
@@ -143,7 +143,7 @@
 	},
 	{
 		"name": "Shock I",
-		"uniques": ["[+20]% Strength <when attacking>"],
+		"uniques": ["[+15]% Strength <when attacking>"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant","Ruler","Scout"],
         "column": 6,
         "row": 1
@@ -152,7 +152,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": [
-			"[+20]% Strength <when attacking>"
+			"[+15]% Strength <when attacking>"
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 6,
@@ -164,7 +164,7 @@
 		"uniques": [
 			"[+10]% Strength <when attacking>",
 			"[+10]% Strength <vs [Wounded] units>",
-			"[+20]% Strength <vs cities>"
+			"[+15]% Strength <vs cities>"
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 6,
@@ -188,7 +188,7 @@
 	{
 		"name": "Ramming Tactics III",
 		"prerequisites": ["Ramming Tactics II"],
-		"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Embarked] units>","[+20]% Strength <vs cities>"],
+		"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Embarked] units>","[+15]% Strength <vs cities>"],
 		"unitTypes": ["Melee Water"],
         "column": 7,
         "row": 3
@@ -211,7 +211,7 @@
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Land] units>","[+20]% Strength <vs cities>"],
+		"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Land] units>","[+15]% Strength <vs cities>"],
 		"unitTypes": ["Ranged Water"],
         "column": 8,
         "row": 3
@@ -219,7 +219,7 @@
 	// Rank 5
 	{
 		"name": "Positioning I",
-		"uniques": ["[+20]% Strength <when defending> <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+15]% Strength <when defending> <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery", "Sword","Spear","Mounted","Elephant"],
         "column": 9,
         "row": 1
@@ -227,7 +227,7 @@
 	{
 		"name": "Positioning II",
 		"prerequisites": ["Positioning I"],
-		"uniques": ["[+20]% Strength <when defending> <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+15]% Strength <when defending> <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 9,
         "row": 2
@@ -235,7 +235,7 @@
 	{
 		"name": "Positioning III",
 		"prerequisites": ["Positioning II"],
-		"uniques": ["[+20]% Strength <when defending> <when fighting in [Rough terrain] tiles>","[+20]% Strength <when defending> <vs cities>"],
+		"uniques": ["[+15]% Strength <when defending> <when fighting in [Rough terrain] tiles>","[+15]% Strength <when defending> <vs cities>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 9,
         "row": 3
@@ -250,7 +250,7 @@
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I", "Positioning II", "Marksman II"],
-		"uniques": ["[+20]% Strength <when defending>"],
+		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant","Ruler"],
         "column": 10,
         "row": 2
@@ -258,7 +258,7 @@
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
-		"uniques": ["[+20]% Strength <when defending>","[+20]% Strength <when defending> <vs cities>"],
+		"uniques": ["[+25]% Strength <when defending>","[+15]% Strength <when defending> <vs cities>"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant","Ruler"],
         "column": 10,
         "row": 3
@@ -296,7 +296,7 @@
 	// Rank 6
 	{
 		"name": "Siege I",
-		"uniques": ["[+20]% Strength <vs cities>"],
+		"uniques": ["[+15]% Strength <vs cities>"],
 		"unitTypes": ["Siege"],
         "column": 13,
         "row": 1
@@ -342,7 +342,7 @@
 	},
 	{
 		"name": "Coastal Raider I",
-		"uniques": ["[+20]% Strength <vs cities> ","Earn [10]% of the damage done to [City] units as [Gold]",
+		"uniques": ["[+15]% Strength <vs cities> ","Earn [10]% of the damage done to [City] units as [Gold]",
 		"Withdraws before melee combat <with [5]% chance>"],
 		"unitTypes": ["Melee Water"],
         "column": 15,
@@ -351,7 +351,7 @@
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
-		"uniques": ["[+30]% Strength <when attacking> <vs cities>","Earn [20]% of the damage done to [City] units as [Gold]",
+		"uniques": ["[+25]% Strength <when attacking> <vs cities>","Earn [20]% of the damage done to [City] units as [Gold]",
 		"Withdraws before melee combat <with [5]% chance>"],
 		"unitTypes": ["Melee Water"],
         "column": 15,
@@ -361,7 +361,7 @@
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": [
-			"[+40]% Strength <when attacking> <vs cities>",
+			"[+30]% Strength <when attacking> <vs cities>",
  "Earn [30]% of the damage done to [City] units as [Gold]",
 			"Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately"],
 		"unitTypes": ["Melee Water"],
@@ -373,7 +373,7 @@
 		"name": "Formation I",
 		"uniques": [
      			"[+10]% Strength <vs [Mounted] units>",
-    			"[+20]% Strength <when attacking> <vs [Mounted Archery] units>",
+    			"[+15]% Strength <when attacking> <vs [Mounted Archery] units>",
     			"[+5]% Strength <when defending> <vs [Ranged] units>",
 ],
 		"unitTypes": ["Spear", "Sword"],
@@ -461,7 +461,7 @@
 		"prerequisites": ["Trample II"],
 		"uniques": [
 			"[+10]% Strength <vs [Melee] units> <when defending>",
-			"[+20]% Strength <vs [Sword] units> <when attacking>",
+			"[+15]% Strength <vs [Sword] units> <when attacking>",
 			"[+10]% Strength <vs [Mounted] units> <when attacking>",
 		"Eliminates combat penalty for attacking over a river"
 ],
@@ -498,7 +498,7 @@
 			"Invisible to non-adjacent units <in [pillaged] tiles>",
 			"[+10]% Strength <when fighting in [Forest] tiles>",
 			"[+10]% Strength <when fighting in [Jungle] tiles>",
-			"[+10]% Strength <vs [Wounded] units> <when attacking>",
+			"[+5]% Strength <vs [Wounded] units> <when attacking>",
 ],
 		"unitTypes": ["Sword","Spear","Scout","Mounted","Mounted Archery","Archery","Ruler"],
         "column": 19,
@@ -534,7 +534,7 @@
 		"uniques": [
 		"[0] Movement point cost to disembark",
 		"[1] Movement point cost to embark",
-		"[+30]% Strength <when defending> <when [Embarked]>",
+		"[+20]% Strength <when defending> <when [Embarked]>",
  		"[+5]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout","Ruler"],
@@ -546,7 +546,7 @@
 		"prerequisites": ["Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Raider III"],
 		"uniques": [
 				"[1] additional attacks per turn",
- 				"[-20]% Strength <when attacking> <for [Ranged] units>",
+ 				"[-15]% Strength <when attacking> <for [Ranged] units>",
 				"[-20]% to Flank Attack bonuses",
 			  	"[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Mounted Archery", "Mounted", "Sword","Spear","Archery","Siege","Ranged Water","Melee Water"],
@@ -618,7 +618,7 @@
 		"unitTypes": ["Melee Water"],
 		"uniques": [
 		"[+10]% Strength <vs [Water] units>",
-		"[+20]% Strength <vs [Embarked] units>",
+		"[+15]% Strength <vs [Embarked] units>",
 		"Only available <if [Bronze Works] is constructed>",
 		],
         "column": 26,
@@ -659,7 +659,7 @@
 		"[+10]% Strength <when attacking> <vs [Archery] units>",
 		"[+10]% Strength <when attacking> <vs [Mounted Archery] units>",
 		"[+15]% Strength <when defending> <when fighting in [Hill] tiles>",
-		"Withdraws before melee combat <with [10]% chance>",
+		"Withdraws before melee combat <with [13]% chance>",
 		]
 	},
 	{
@@ -667,7 +667,7 @@
 		"uniques": [
 		"[+30]% Strength <when attacking> <vs [Mounted] units>",
 		"[+50]% Strength <when defending> <vs [Mounted] units>",
-		"[+20]% Strength <vs [Elephant] units>",
+		"[+15]% Strength <vs [Elephant] units>",
 		"[+10]% Strength <when defending> <when fighting in [Open terrain] tiles>",
 		"Withdraws before melee combat <with [3]% chance>",
 		]
@@ -679,8 +679,8 @@
 		"[+50]% Strength <vs [Elephant] units>",
 		"[+50]% Strength <when defending> <vs [Melee] units>",
 		"[+10]% Strength <when defending> <when fighting in [Open terrain] tiles>",
-		"[-20]% Strength <when defending> <vs [Ranged] units>",
-		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+		"[-15]% Strength <when defending> <vs [Ranged] units>",
+		"[-15]% Strength <when fighting in [Rough terrain] tiles>",
 		"Withdraws before melee combat <with [1]% chance>",
 		]
 	},
@@ -692,8 +692,8 @@
 		"[+50]% Strength <vs [Elephant] units>",
 		"[+60]% Strength <when defending> <vs [Melee] units>",
 		"[+10]% Strength <when defending> <when fighting in [Open terrain] tiles>",
-		"[-20]% Strength <when defending> <vs [Ranged] units>",
-		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+		"[-15]% Strength <when defending> <vs [Ranged] units>",
+		"[-15]% Strength <when fighting in [Rough terrain] tiles>",
 		"Withdraws before melee combat <with [1]% chance>",
 		]
 	},
@@ -701,11 +701,10 @@
 		"name": "[Horseman] ability",
 		"uniques": [
 		"Ignores terrain cost",
-		"[+25]% to Flank Attack bonuses",
+		"[+20]% to Flank Attack bonuses",
 		"[-40]% Strength <when attacking> <vs cities>",
-		"[+10]% Strength <when attacking> <vs [Wounded] units>",
-		"[+10]% Strength <when attacking> <vs [Mounted Archery] units>",
-		"[-10]% Strength <when defending> <when fighting in [Hill] tiles>",
+		"[+10]% Strength <when attacking> <vs [Ranged] units>",
+		"[+10]% Strength <when defending> <when fighting in [Hill] tiles>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [40]% chance>",
 		]
@@ -714,7 +713,7 @@
 		"name": "[Camel Archer] ability",
 		"uniques": [
 		"[+30]% Strength <when defending> <when fighting in [Desert] tiles>",
-		"[-20]% Strength <when defending> <vs [Ranged] units>",
+		"[-15]% Strength <when defending> <vs [Ranged] units>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [20]% chance>",
 		"Withdraws before melee combat <with [40]% chance> <when fighting in [Desert] tiles>",
@@ -723,11 +722,11 @@
 	{
 		"name": "Chariot ability",
 		"uniques": [
-		"[-20]% Strength <when attacking> <vs cities>",
+		"[-15]% Strength <when attacking> <vs cities>",
 		"[+10]% Strength <when attacking> <when fighting in [Open terrain] tiles>",
 		"[+10]% Strength <when fighting in [Desert] tiles>",
-		"[+20]% Strength <when fighting in [Open terrain] tiles>",
-		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+		"[+15]% Strength <when fighting in [Open terrain] tiles>",
+		"[-15]% Strength <when fighting in [Rough terrain] tiles>",
 		"No defensive terrain bonus", 
 		"Withdraws before melee combat <with [15]% chance>"
 		]
@@ -737,9 +736,9 @@
 		"uniques": [
 		"[+20]% to Flank Attack bonuses",
 		"[-30]% Strength <when attacking> <vs cities>",
-		"[+20]% Strength <when attacking> <vs [Archery] units>",
+		"[+15]% Strength <when attacking> <vs [Archery] units>",
 		"[+30]% Strength <when attacking> <vs [Scout] units>",
-		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+		"[-15]% Strength <when fighting in [Rough terrain] tiles>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [20]% chance>",
 		]
@@ -747,13 +746,13 @@
 	{
 		"name": "[Cataphract] ability",
 		"uniques": [
-		"[+20]% to Flank Attack bonuses",
-		"[-20]% Strength <when attacking> <vs cities>",
-		"[+25]% Strength <when defending> <vs [Ranged] units>",
+		"[+25]% to Flank Attack bonuses",
+		"[-15]% Strength <when attacking> <vs cities>",
+		"[+20]% Strength <when defending> <vs [Ranged] units>",
 		"[+70]% Strength <when attacking> <vs [Archery] units>",
-		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+		"[-15]% Strength <when fighting in [Rough terrain] tiles>",
                 "[+10]% Strength <when defending> <after adopting [Latin Culture]>",
-                "[-20]% Strength <when attacking> <after adopting [Latin Culture]>",
+                "[-15]% Strength <when attacking> <after adopting [Latin Culture]>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [5]% chance>",
 		]
@@ -772,7 +771,7 @@
 	// Weapons Armor Training
 	{
 		"name": "Morale",
-		"uniques": ["[20]% Strength decreasing with distance from the capital <when defending>",
+		"uniques": ["[15]% Strength decreasing with distance from the capital <when defending>",
 			"[10]% Strength decreasing with distance from the capital <when attacking>"
 				]
 	},
@@ -780,7 +779,7 @@
 		"name": "Infantry Shield I",
 		"uniques": [
 		"[+15]% Strength <vs [Ranged] units>",
-		"[+20]% Strength <when defending> <vs cities>",
+		"[+15]% Strength <when defending> <vs cities>",
 		"Withdraws before melee combat <with [3]% chance>",
 		]
 	},
@@ -804,7 +803,7 @@
 		"name": "Cavalry Shield I",
 		"uniques": [
 		"[+15]% Strength <vs [Ranged] units>",
-		"[+20]% Strength <vs cities> <when defending>"
+		"[+15]% Strength <vs cities> <when defending>"
 		]
 	},
 	{
@@ -826,7 +825,7 @@
 		"name": "Lancer",
 		"uniques": [
 		"[+10]% Strength <when attacking>",
-		"[+20]% Strength <when defending> <vs cities>",
+		"[+15]% Strength <when defending> <vs cities>",
 		]
 	},
 	// Ships
@@ -859,36 +858,36 @@
 	{
 		"name": "Spartan Aura",
 		"uniques": [
-		"[-15]% Strength for enemy [{Melee} {Land}] units in adjacent [All] tiles",
-		"Earn [15]% of killed [Military] unit's [Strength] as [Culture]"
+		"[-10]% Strength for enemy [{Melee} {Land}] units in adjacent [All] tiles",
+		"Earn [10]% of killed [Military] unit's [Strength] as [Culture]"
 		]
 	},
 	{
 		"name": "Camels Scare Horses",
-		"uniques": ["[+20]% Strength <when defending> <vs [Mounted] units>"]
+		"uniques": ["[+15]% Strength <when defending> <vs [Mounted] units>"]
 	},
 	{
 		"name": "Caucasian Stronghold",
-		"uniques": ["[30]% Strength decreasing with distance from the capital <when defending>",
-			"[25]% Strength decreasing with distance from the capital <when attacking>"
+		"uniques": ["[25]% Strength decreasing with distance from the capital <when defending>",
+			"[15]% Strength decreasing with distance from the capital <when attacking>"
 				]
 	},
 	{
 		"name": "[Gaesatae] ability",
 		"uniques": [
-		"[+30]% Strength <vs [Sword] units>",
-		"[+20]% Strength <vs [Spear] units>",
-		"[+30]% Strength <when attacking>",
-		"[-20]% Strength <when defending> <vs [Archery] units>",
+		"[+20]% Strength <vs [Sword] units>",
+		"[+10]% Strength <vs [Spear] units>",
+		"[+60]% Strength <when attacking>",
+		"[-20]% Strength <when defending> <vs [Ranged] units>",
 		]
 	},
 	{
 		"name": "[Thracian Warband] ability",
 		"uniques": [
-		"[+20]% Strength <vs [Sword] units>",
-		"[+20]% Strength <vs [Mounted] units>",
-		"[+20]% Strength <in [Forest] tiles>",
-		"[+20]% Strength <in [Jungle] tiles>",
+		"[+15]% Strength <vs [Sword] units>",
+		"[+15]% Strength <vs [Mounted] units>",
+		"[+15]% Strength <in [Forest] tiles>",
+		"[+15]% Strength <in [Jungle] tiles>",
 
 		]
 	},
@@ -937,7 +936,7 @@
 		"prerequisites": ["Art of War"],
 		"unitTypes": ["Ruler"],
 		"uniques": [
-			"[+19]% Strength bonus for [{Melee} {Land}] units within [2] tiles <when attacking>",
+			"[+21]% Strength bonus for [{Melee} {Land}] units within [1] tiles <when attacking>",
 			"[+9]% Strength bonus for [{Ranged} {Land}] units within [2] tiles <when attacking>",
 			"Only available <if [Barracks] is constructed>",
 		],
@@ -970,8 +969,6 @@
 			"[+20]% Strength <when fighting in [Snow] tiles>",
 			"[+20]% Strength <when fighting in [Tundra] tiles>",
 			"[+10]% Strength <when fighting in [Hill] tiles>",
-			"Double movement in [Snow]",
-			"Double movement in [Tundra]",
 ]
         "column": 28,
         "row": 6
@@ -1002,7 +999,7 @@
 		"prerequisites": ["Veteran"],
 		"uniques": [
 			"[+10]% Strength <when stacked with a [Worker] unit>",
-			"[+20]% Strength <when stacked with a [Great Engineer] unit>",
+			"[+15]% Strength <when stacked with a [Great Engineer] unit>",
 			"[+10]% Strength <when defending>"],
         "column": 30,
         "row": 6
@@ -1083,7 +1080,7 @@
  		 "uniques": [
 		"[+10]% Strength bonus for [Archery] units within [1] tiles <when defending>",
 		"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>",
-		"[+20]% Strength bonus for [Scout] units within [1] tiles <when defending>",
+		"[+15]% Strength bonus for [Scout] units within [1] tiles <when defending>",
 ],
 	"column": 37, 
        "row": 6
@@ -1185,7 +1182,7 @@
 		"name": "Commander",
 		"uniques": [
 			"[+10]% Strength bonus for [Military] units within [2] tiles <when defending>",
-			"[+20]% Strength bonus for [Military] units within [1] tiles <when defending>",
+			"[+15]% Strength bonus for [Military] units within [1] tiles <when defending>",
 			"[+12]% Strength bonus for [Military] units within [1] tiles <when attacking>",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
@@ -1198,7 +1195,6 @@
 			"[-40]% Strength <vs [Mounted] units> <when defending>",
 			"[+70]% Strength <when attacking>",
 			"Withdraws before melee combat <with [20]% chance>",
-			"Ignores Zone of Control",
 		],
 	},
 	{
@@ -1236,7 +1232,7 @@
 	{
 		"name": "Clibanarii ability",
 		"uniques": [
-		"[+20]% Strength <when fighting in [Open terrain] tiles>",
+		"[+15]% Strength <when fighting in [Open terrain] tiles>",
 		"[-30]% Strength <when fighting in [Rough terrain] tiles>",
 		"[+50]% Strength <vs [Archery] units> <when attacking>",
 		"[+10]% Strength <when attacking>",
