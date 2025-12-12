@@ -288,7 +288,8 @@
             {
                 "name": "Clan Traditions",
                 "uniques": [
-			"[20]% XP gained from combat <for [Military] units> <when above [1] [Veteran]>",
+			"Provides [1] [Enable Legion] <after adopting [Total War]> <hidden from users>",
+			"[+20]% XP gained from combat <for [Military] units> <when above [1] [Veteran]>",
        			"[-50]% maintenance costs <for [Military] units> <in [Friendly Land] tiles>",
         		"[+10]% Strength <for [Veteran] units> <when above [30] [Manpower]>",
                     	"Provides [1] [Veteran]",
@@ -298,7 +299,6 @@
                     	"[+1 Food] from every [Barracks]",
                     	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"[+1 Happiness] [in all cities]",
-			"May buy [Gallic Barracks] buildings with [Gold] [in all cities] <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Hill Fort Confederacy]> <hidden from users>",
                 ],
                 "requires": ["Highland Harvest"],
                 "row": 9,
@@ -551,6 +551,7 @@
                 "name": "Great Merchants' League",
                 "requires": ["Eastern Contacts"],
                 "uniques": [
+			"Provides [1] [Enable Legion] <after adopting [Total War]> <hidden from users>",
         		"[+10]% Strength <for [Military] units> <when fighting in [Desert] tiles>",
         		"[+10]% Strength <for [Military] units> <when fighting in [Coast] tiles>",
         		"[+1 Gold] from [Farm] tiles [in all cities]",
@@ -1249,7 +1250,7 @@
         "[+10]% Strength <for [Mounted Skirmisher] units>",
                     	"[+1 Happiness] [in all cities] <with a garrison>",
         		"[+1 Happiness] [in all cities] <when not at war>",
-			"May buy [Hellenic Barracks] buildings with [Gold] [in all cities] <if [Circus Maximus] is constructed in all [in all cities] cities> <after adopting [Artisan and Guild Expansion]> <hidden from users>",
+			"Provides [1] [Enable Legion] <after adopting [Total War]> <hidden from users>",
                 ],
                 "row": 9,
                 "column": 5
@@ -1573,6 +1574,7 @@
                 "name": "Royal Trade Networks",
                 "requires": ["Grain Reserves"],
                 "uniques": [
+			"Provides [1] [Enable Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
                     	"[Skirmisher] units gain the [Improved Armor] promotion",
                     	"[Horseman] units gain the [Improved Armor] promotion",
 			"[+2 Gold] from each Trade Route",
@@ -1791,10 +1793,10 @@
                 "name": "Toledo Steel",
                 "requires": ["The Falcata"],
                 "uniques": [
+			"Provides [1] [Enable Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
 			"[Infantry Shield II] units gain the [Improved Armor] promotion",
 			"[Infantry Shield III] units gain the [Improved Armor] promotion",
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
-                    	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     	"[1] free [Heavy Swordsman] units appear",
                     	"Provides [2] [Manpower]",
                     	"Provides [2] [Iron]",
@@ -1809,6 +1811,7 @@
                 "requires": ["Coastal Trade Links"],
                 "uniques": [
 			"Only available <before adopting [Mounted Raiders]>","Comment [Only available before adopting Mounted Raiders]",
+                    	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
         		"[+1 Gold] from [Mine] tiles [in all cities]",
         		"[+2 Gold, +1 Happiness] from [Silver] tiles [in all cities]",
         		"[+2 Gold, +1 Happiness, +1 Faith] from [Gold Ore] tiles [in all cities]",
@@ -1867,7 +1870,7 @@
                 "name": "The Champions",
                 "uniques": [
         		"[+10]% Strength <for [Commander] units>",
-                    	"Provides [1] [Iron]",
+                    	"Provides [2] [Iron]",
                     	"Provides [1] [Veteran]",
                     	"[1] free [Heavy Swordsman] units appear",
                     	"[+1 Happiness] [in all cities]",
@@ -2097,15 +2100,17 @@
                 "name": "Adventurers",
                 "uniques": [
 			"Unavailable <before the [Classical Age]>",
-                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
-                    "[+1] Movement <for [Embarked] units>",
+                    	"Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    	"Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+                    	"[+1] Movement <for [Embarked] units>",
                     "[+1] Sight <for [Embarked] units>",
                     "[King] units gain the [Ignore terrain cost] promotion",
                     "[General] units gain the [Ignore terrain cost] promotion",
                     "[Military] units gain the [Scouting I] promotion",
                     "Provides [5] [Manpower]",
-                    "[+1 Happiness] [in all cities]"
+                    "[+1 Happiness] [in all cities]",
+                    	"Comment [Enables Legion] <hidden from users>",
+			"Provides [1] [Enable Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
                 ],
                 "row": 5,
                 "column": 2
@@ -3715,10 +3720,9 @@
                     	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     	"Provides [2] [Ruler] <after adopting [Senate Supremacy]> <after adopting [Imperial Doctrine]> <hidden from users>",
         		"[+10]% Strength <for [Ruler] units>",
-       		 	"New [Military] units start with [10] XP [in all cities]",
-        		"[+10]% Strength <for [Infantry Shield III] units> <when above [1] [Iron]>",
-        		"[+10]% Strength <for [Infantry Shield II] units> <when above [3] [Iron]>",
-        		"[+10]% Strength <for [Veteran] units> <when above [1] [Iron]>",
+        		"[+10]% Strength <for [Infantry Shield III] units> <when above [3] [Iron]>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when above [5] [Iron]>",
+        		"[+10]% Strength <for [Veteran] units> <when above [2] [Iron]>",
                     	"Free [General] appears",
                     	"Provides [1] [Nobles]",
                     	"Provides [2] [Veteran]",
@@ -3727,6 +3731,7 @@
 			"[+10]% Strength <for [Siege] units> <when fighting in [Enemy Land] tiles>",
 			"[+10]% Strength <for [Mounted] units> <when fighting in [Enemy Land] tiles>",
                     	"[-1 Happiness] [in all cities]",
+                    	"[-15]% Unhappiness from [Population] [in all cities]",
                 ],
                 "row": 9,
                 "column": 5

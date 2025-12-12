@@ -949,8 +949,8 @@
 		"uniques": ["Comment [Required for specific Mercenary Units]"]
     },
     {
-		"name": "Levy",
+		"name": "Enable Legion",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for Hellenic Legion]"]
     },
 ]

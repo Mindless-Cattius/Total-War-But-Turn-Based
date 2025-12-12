@@ -40,21 +40,17 @@
 		"specialistSlots": {"Courtesan": 3},
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [3] [Decadence] <during the [Imperial Age]>",
 			"[+1 Gold] per every [100] [Science]",
 			"[+1 Gold] per every [100] [Culture]",
 			"[+1 Culture] per [10] population [in this city]",
 			"[+1 Happiness] per [10] population [in this city]",
 			"[+1 Gold] from [Farm] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
-			"[+1 Gold] from [Desert] tiles [in this city] <during the [Imperial Age]>",
-			"[+1 Gold] from [Ocean] tiles [in this city] <during the [Imperial Age]>",
-			"[+1 Gold] from [Coast] tiles [in this city] <during the [Imperial Age]>",
-			"[+1 Food] from [Snow] tiles [in this city] <during the [Imperial Age]>",
 			"[+1 Food] from [Village] tiles [in this city]",
 			"[-30]% enemy spy effectiveness [in this city]",
 			"Can be purchased with [Gold] [in all cities]",
 			"[+100]% Gold given to enemy if city is captured",
+			"Provides [3] [Decadence] <during the [Imperial Age]>",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
 		]
@@ -1922,6 +1918,8 @@
 		"cityStrength": 5,
 		"cityHealth": 100,
 		"uniques": [
+			"[+10]% XP gained from combat <for [Military] units> <when above [5] [Veteran]>",
+			"[+10]% XP gained from combat <for [Military] units> <when above [3] [Veteran]>",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"New [Military] units start with [5] XP [in this city]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
@@ -2197,27 +2195,30 @@
 	"name": "Risk of Plague"
 "maintenance": 0,
 "uniques": [
-		"Gain a free [Plague] [in this city] <with [70]% chance> <in cities without a [Plague]> <when below [1] [Sanitation]>",
-		"Gain a free [Plague] [in this city] <with [50]% chance> <in cities without a [Plague]> <when below [3] [Sanitation]>",
-		"Gain a free [Plague] [in this city] <with [30]% chance> <in cities without a [Plague]> <when below [5] [Sanitation]>",
-		"Gain a free [Plague] [in this city] <with [10]% chance> <in cities without a [Plague]> <when below [10] [Sanitation]>",
-		"Gain a free [Plague] [in this city] <with [5]% chance> <in cities without a [Plague]> <when below [15] [Sanitation]>",
-		"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]>",
-		"Gain a free [Dangerious Plague] [in this city] <with [25]% chance> <in cities without a [Dangerious Plague]> <when below [1] [Sanitation]>",
-		"Gain a free [Dangerious Plague] [in this city] <with [20]% chance> <in cities without a [Dangerious Plague]> <when below [3] [Sanitation]>",
-		"Gain a free [Dangerious Plague] [in this city] <with [15]% chance> <in cities without a [Dangerious Plague]> <when below [5] [Sanitation]>",
-		"Gain a free [Dangerious Plague] [in this city] <with [5]% chance> <in cities without a [Dangerious Plague]> <when below [10] [Sanitation]>",
-		"Gain a free [Dangerious Plague] [in this city] <with [1]% chance> <in cities without a [Dangerious Plague]> <when above [15] [Sanitation]>",
-			"[+1 Food] from [Village] tiles [in this city] <when above [25] [Sanitation]>"
-			"[+1 Food] from [Village] tiles [in this city] <when above [20] [Sanitation]>"
-			"[+1 Food] from [Village] tiles [in this city] <when above [15] [Sanitation]>"
-			"[+1 Food] from [Village] tiles [in this city] <when above [10] [Sanitation]>"
-			"[+1 Food] from [Village] tiles [in this city] <when above [5] [Sanitation]>"
-			"[+1 Gold] from [Village] tiles [in this city] <when above [25] [Sanitation]>"
-			"[+1 Gold] from [Village] tiles [in this city] <when above [20] [Sanitation]>"
-			"[+1 Gold] from [Village] tiles [in this city] <when above [15] [Sanitation]>"
-			"[+1 Gold] from [Village] tiles [in this city] <when above [10] [Sanitation]>"
-			"[+1 Gold] from [Village] tiles [in this city] <when above [5] [Sanitation]>"
+			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
+		"Gain a free [Plague] [in this city] <with [70]% chance> <in cities without a [Plague]> <when below [1] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [50]% chance> <in cities without a [Plague]> <when below [3] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [30]% chance> <in cities without a [Plague]> <when below [5] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [10]% chance> <in cities without a [Plague]> <when below [10] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [5]% chance> <in cities without a [Plague]> <when below [15] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [25]% chance> <in cities without a [Dangerious Plague]> <when below [1] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [20]% chance> <in cities without a [Dangerious Plague]> <when below [3] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [15]% chance> <in cities without a [Dangerious Plague]> <when below [5] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [5]% chance> <in cities without a [Dangerious Plague]> <when below [10] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [1]% chance> <in cities without a [Dangerious Plague]> <when above [15] [Sanitation]> <hidden from users>",
+			"[+1 Food] from [Village] tiles [in this city] <when above [25] [Sanitation]> <hidden from users>"
+			"[+1 Food] from [Village] tiles [in this city] <when above [20] [Sanitation]> <hidden from users>"
+			"[+1 Food] from [Village] tiles [in this city] <when above [15] [Sanitation]> <hidden from users>"
+			"[+1 Food] from [Village] tiles [in this city] <when above [10] [Sanitation]> <hidden from users>"
+			"[+1 Food] from [Village] tiles [in this city] <when above [5] [Sanitation]> <hidden from users>"
+			"[+1 Gold] from [Trading post] tiles [in this city] <when above [25] [Sanitation]> <hidden from users>"
+			"[+1 Gold] from [Trading post] tiles [in this city] <when above [20] [Sanitation]> <hidden from users>"
+			"[+1 Gold] from [Trading post] tiles [in this city] <when above [15] [Sanitation]> <hidden from users>"
+			"[+1 Gold] from [Trading post] tiles [in this city] <when above [10] [Sanitation]> <hidden from users>"
+			"[+1 Gold] from [Trading post] tiles [in this city] <when above [5] [Sanitation]> <hidden from users>"
+			"Comment [+1 Food from Village tiles per 5 Sanitation up to 5]",
+			"Comment [+1 Gold from Trading post tiles per 5 Sanitation up to 5]",
 "Unbuildable","Unsellable",
 		]
 	},
@@ -2225,6 +2226,7 @@
 	"name": "Plague"
 "maintenance": 0,
 "uniques": [ 
+			"Comment [-Population declining? Productivity collapsing? The Plague has arrived. Please refrain from touching literally anything… or anyone… or breathing.]",
 "[-30]% [Food]",
 "[-30]% [Production]",
 "[-30]% [Science]",
@@ -2232,6 +2234,7 @@
 "[-50]% [Gold]",
 "[+30]% [Faith]",
 "[-5] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
+			"Consumes [1] [Decadence]",
 "Consumes [1] [Manpower]",
 "Unbuildable","Unsellable",
 ]
@@ -2240,13 +2243,15 @@
 	"name": "Dangerious Plague"
 "maintenance": 0,
 "uniques": [ 
-"[-50]% [Food]",
-"[-50]% [Production]",
+"Comment [-A catastrophic outbreak collapses food, gold, science, culture — practically everything except faith, panic, and the number of funerals.]",
+	"[-50]% [Food]",
+	"[-50]% [Production]",
 "[-50]% [Science]",
 "[-50]% [Culture]",
 "[-80]% [Gold]",
 "[+50]% [Faith]",
 "[-10] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
+			"Consumes [3] [Decadence]",
 "Consumes [3] [Manpower]",
 "Unbuildable","Unsellable",
 ]
@@ -2258,7 +2263,9 @@
 "maintenance": 2,
 "happiness": 2,
 "uniques": [ 
+			"Comment [-Invest in sanitation… or don’t. The plagues will happily invest in you.]",
 "Provides [2] [Sanitation]",
+			"Provides [2] [Decadence] <during the [Imperial Age]>",
 ]
 },
 	{
@@ -2269,6 +2276,7 @@
 "happiness": 4,
 "uniques": [ 
 "Provides [3] [Sanitation]",
+			"Provides [3] [Decadence] <during the [Imperial Age]>",
 ]
 },
 
@@ -2355,20 +2363,6 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"Gain a free [Scenario Legion] [in all cities] <if [Scenario Legion] is not constructed>",
-			"Destroyed when the city is captured",
-			"Unbuildable"
-		]
-	},
-	{
-		"name": "Hellenic Barracks",
-		"uniques": [
-			"Destroyed when the city is captured",
-			"Unbuildable"
-		]
-	},
-	{
-		"name": "Gallic Barracks",
-		"uniques": [
 			"Destroyed when the city is captured",
 			"Unbuildable"
 		]
