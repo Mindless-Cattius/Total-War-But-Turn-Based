@@ -148,10 +148,11 @@
 		"maintenance": 1,
 		"science": 1,
 		"cityHealth": 10,
-		"uniques": [
+		"uniques": [ 
+		"Provides [2] [Sanitation]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
-		"[+1 Science] from [Herbs] tiles [in this city]",
-		"[+1 Science] from [Village] tiles [in this city]",
+		"[+1 Gold] from [Herbs] tiles [in this city]",
+		"[+1 Food] from [Village] tiles [in this city]",
 		],
 
 		"requiredTech": "Mythology",
@@ -294,7 +295,8 @@
  		"happiness": 1,
 		"specialistSlots": {"Priest": 1},
 		"requiredBuilding": "Shrine",
-		"uniques": [
+		"uniques": [ 
+		"Provides [1] [Sanitation]",
 			"Consumes [1] [Decadence] <during a Golden Age>",
 		"[+10]% Natural religion spread [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
@@ -458,8 +460,9 @@
 		"culture": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
+			"Provides [1] [Sanitation]",
 			"[+1 Science] per [5] population [in this city]",
-			"[+1 Science] <in cities with a [Scriptorium]>",
+			"[+1 Science] <in cities with a [Scriptorium]>", 
 			"[+1 Food] <in cities with a [Herbalist]>",
 			"Cost increases by [15] per owned city",
 			"Consumes [1] [Decadence] <in cities with a [School]> <during a Golden Age>"
@@ -474,6 +477,7 @@
 		"cost": 120,
 		"happiness": 1,
 		"uniques": [
+			"Provides [1] [Sanitation]",
 			"[+20]% Great Person generation [in this city]", 
 			"Must be next to [Fresh water]"
 			"Provides [1] [Decadence]",
@@ -701,6 +705,7 @@
 			"[+1 Gold] <in cities with a [Brick Maker]>",
 			"[+1 Gold] <in cities with a [Weavery]>",
 			"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
+			"Consumes [1] [Sanitation]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Cost increases by [20] per owned city",
@@ -733,6 +738,7 @@
 			"[+1 Gold] <in cities with a [Grain Exports]>",
 			"[+1 Gold] <in cities with a [Brick Maker]>",
 			"[+1 Gold] <in cities with a [Weavery]>",
+			"Consumes [2] [Sanitation]",
 			"Provides [2] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Remove [Market] [in this city]",
@@ -766,6 +772,7 @@
 			"[+1 Gold] <in cities with a [Ceramics Workshop]>",
 			"[+1 Gold] <in cities with a [Grain Exports]>",
 			"[+1 Gold] <in cities with a [Brick Maker]>",
+			"Consumes [1] [Sanitation]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Never destroyed when the city is captured",
@@ -821,6 +828,7 @@
 			"Provides [1] [Mercenary (Rhodian)]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
+			"Consumes [1] [Sanitation]",
 			"Limited to [1] per Civilization <before the [Hellenistic Age]>",
 			"Limited to [2] per Civilization <during the [Hellenistic Age]>",
 			"Limited to [3] per Civilization <during the [Hellenistic Age]> <after adopting [Eastern Contacts]>",
@@ -871,6 +879,7 @@
 		"[+1 Happiness] from [Village] tiles [in this city]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
+			"Consumes [1] [Sanitation]",
 			"Cost increases by [15] per owned city",
 		"Never destroyed when the city is captured",
 		],
@@ -893,6 +902,7 @@
 		"[+1 Culture] from [Village] tiles [in this city]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
+			"Consumes [1] [Sanitation]",
 			"Cost increases by [15] per owned city",
 		],
 		"requiredTech": "Trade Routes"
@@ -912,6 +922,7 @@
 		"[+1 Gold] from [Village] tiles [in this city]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
+			"Consumes [1] [Sanitation]",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -994,6 +1005,7 @@
 		"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
 		"[+1 Gold, -1 Production] from [Trading post] tiles [in this city]",
 		"[+1 Happiness, +1 Food, +1 Faith] from [Village] tiles [in this city]",
+		"Provides [1] [Sanitation]",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Aesthetics",
@@ -1127,13 +1139,14 @@
 	{
 		"name": "Aqueduct",
 		"requiredBuilding": "Brick Maker",
- 		"cost": 240,
+ 		"cost": 270,
 		"cityHealth": 20,
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"happiness": 1,
 		"uniques": [
-		"Comment [+1 Food from non-fresh water Farm tiles in this city]",
+		"Comment [+1 Food from non-fresh water Farm tiles in this city]", 
+		"Provides [2] [Sanitation]",
 		"[20]% Food is carried over after population increases [in this city]",
 		"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
 		"[+1 Culture] from [Fort] tiles [in this city]",
@@ -1649,6 +1662,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 			"Consumes [1] [Manpower]",
+			"Consumes [1] [Sanitation]",
 			"[+1 Gold] <in cities with a [Market]>",
 			"[+1 Gold] <in cities with a [Garum Shop]>",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
@@ -1754,6 +1768,7 @@
 			"[+1 Gold] from [Water resource] tiles [in this city]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Production] from [Village] tiles [in this city]",
+			"Consumes [2] [Sanitation]",
 			"Consumes [1] [Manpower]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
@@ -1773,6 +1788,7 @@
 		"maintenance": 10,
  		"cost": 250,
 		"uniques": [
+			"Consumes [1] [Sanitation]",
 		"[+1 Food] [in all cities]",
 		"Can only be built <in [Capital] cities>",
 		"Limited to [1] per Civilization",
@@ -1967,7 +1983,8 @@
 		"Cost":100,
 		"maintenance": 1,
 		"cityHealth": 80,
-		"uniques": [
+		"uniques": [ 
+		"Provides [1] [Sanitation]",
 		"Consumes [1] [Manpower]",
 		"Destroyed when the city is captured",
 		],
@@ -2161,11 +2178,10 @@
 	},
 
 
-	//				--- Rebel and plague
+	//		Gain a free [Palace] [in this city] <in cities without a [buildingFilter]>		--- Rebel and plague
 	{
 		"name": "Rebellious Citizens",
 		"cost": 0,
-		"happiness": -2,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
 			"[-1 Food, -1 Gold] from [improved] tiles [in this city]",
@@ -2177,6 +2193,84 @@
 			"Destroyed when the city is captured"
 ]
 	},
+	{
+	"name": "Risk of Plague"
+"maintenance": 0,
+"uniques": [
+		"Gain a free [Plague] [in this city] <with [70]% chance> <in cities without a [Plague]> <when below [1] [Sanitation]>",
+		"Gain a free [Plague] [in this city] <with [50]% chance> <in cities without a [Plague]> <when below [3] [Sanitation]>",
+		"Gain a free [Plague] [in this city] <with [30]% chance> <in cities without a [Plague]> <when below [5] [Sanitation]>",
+		"Gain a free [Plague] [in this city] <with [10]% chance> <in cities without a [Plague]> <when below [10] [Sanitation]>",
+		"Gain a free [Plague] [in this city] <with [5]% chance> <in cities without a [Plague]> <when below [15] [Sanitation]>",
+		"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]>",
+		"Gain a free [Dangerious Plague] [in this city] <with [25]% chance> <in cities without a [Dangerious Plague]> <when below [1] [Sanitation]>",
+		"Gain a free [Dangerious Plague] [in this city] <with [20]% chance> <in cities without a [Dangerious Plague]> <when below [3] [Sanitation]>",
+		"Gain a free [Dangerious Plague] [in this city] <with [15]% chance> <in cities without a [Dangerious Plague]> <when below [5] [Sanitation]>",
+		"Gain a free [Dangerious Plague] [in this city] <with [5]% chance> <in cities without a [Dangerious Plague]> <when below [10] [Sanitation]>",
+		"Gain a free [Dangerious Plague] [in this city] <with [1]% chance> <in cities without a [Dangerious Plague]> <when above [15] [Sanitation]>",
+			"[+1 Food] from [Village] tiles [in this city] <when above [25] [Sanitation]>"
+			"[+1 Food] from [Village] tiles [in this city] <when above [20] [Sanitation]>"
+			"[+1 Food] from [Village] tiles [in this city] <when above [15] [Sanitation]>"
+			"[+1 Food] from [Village] tiles [in this city] <when above [10] [Sanitation]>"
+			"[+1 Food] from [Village] tiles [in this city] <when above [5] [Sanitation]>"
+			"[+1 Gold] from [Village] tiles [in this city] <when above [25] [Sanitation]>"
+			"[+1 Gold] from [Village] tiles [in this city] <when above [20] [Sanitation]>"
+			"[+1 Gold] from [Village] tiles [in this city] <when above [15] [Sanitation]>"
+			"[+1 Gold] from [Village] tiles [in this city] <when above [10] [Sanitation]>"
+			"[+1 Gold] from [Village] tiles [in this city] <when above [5] [Sanitation]>"
+"Unbuildable","Unsellable",
+		]
+	},
+	{
+	"name": "Plague"
+"maintenance": 0,
+"uniques": [ 
+"[-30]% [Food]",
+"[-30]% [Production]",
+"[-30]% [Science]",
+"[-30]% [Culture]",
+"[-50]% [Gold]",
+"[+30]% [Faith]",
+"[-5] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
+"Consumes [1] [Manpower]",
+"Unbuildable","Unsellable",
+]
+},
+	{
+	"name": "Dangerious Plague"
+"maintenance": 0,
+"uniques": [ 
+"[-50]% [Food]",
+"[-50]% [Production]",
+"[-50]% [Science]",
+"[-50]% [Culture]",
+"[-80]% [Gold]",
+"[+50]% [Faith]",
+"[-10] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
+"Consumes [3] [Manpower]",
+"Unbuildable","Unsellable",
+]
+},
+	{
+	"name": "Fountain",
+"cost": 100,
+		"requiredBuilding": "Aqueduct",
+"maintenance": 2,
+"happiness": 2,
+"uniques": [ 
+"Provides [2] [Sanitation]",
+]
+},
+	{
+	"name": "Public Bathhouse",
+		"requiredBuilding": "Aqueduct",
+"cost": 300
+"maintenance": 2,
+"happiness": 4,
+"uniques": [ 
+"Provides [3] [Sanitation]",
+]
+},
 
 	//				--- Religious buildings
 
