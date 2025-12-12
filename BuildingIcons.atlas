@@ -130,6 +130,13 @@ BuildingIcons/Cavalry Barracks
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Centralize Power
+  rotate: false
+  xy: 1192, 594
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Ceramics Workshop
   rotate: false
   xy: 112, 436
@@ -193,11 +200,39 @@ BuildingIcons/Council of Nobles
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Devastating By War
+  rotate: false
+  xy: 1300, 702
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Drydock
   rotate: false
   xy: 436, 652
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Egypt Grain
+  rotate: false
+  xy: 1408, 810
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Food Import
+  rotate: false
+  xy: 1408, 810
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Egypt Grain Crisis
+  rotate: false
+  xy: 1516, 918
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Elephant Imports
@@ -221,9 +256,16 @@ BuildingIcons/Embassy
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Food Import
+BuildingIcons/Empire Divide
   rotate: false
-  xy: 1192, 594
+  xy: 760, 54
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Roman Empire 3rd Century
+  rotate: false
+  xy: 760, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -319,6 +361,13 @@ BuildingIcons/Herbalist
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/High Inflation
+  rotate: false
+  xy: 868, 162
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Hill Fort
   rotate: false
   xy: 652, 652
@@ -328,7 +377,7 @@ BuildingIcons/Hill Fort
   index: -1
 BuildingIcons/Horse Exports
   rotate: false
-  xy: 1300, 702
+  xy: 976, 320
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -508,6 +557,34 @@ BuildingIcons/Pleasure Chambers
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Political Unstable
+  rotate: false
+  xy: 1574, 918
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Praetorian Greed
+  rotate: false
+  xy: 976, 262
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Praetorian Purge
+  rotate: false
+  xy: 1632, 918
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Restore Currency Control
+  rotate: false
+  xy: 1690, 918
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Rotary Mill
   rotate: false
   xy: 652, 328
@@ -664,7 +741,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 1408, 810
+  xy: 1748, 918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -688,6 +765,13 @@ BuildingIcons/Walls
   xy: 652, 4
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/War Reconstruction
+  rotate: false
+  xy: 1806, 918
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Warrior Statue
