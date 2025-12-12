@@ -2258,24 +2258,26 @@
 },
 	{
 	"name": "Fountain",
-"cost": 100,
+	"cost": 100,
+		"requiredTech": "Equestrian Class",
 		"requiredBuilding": "Aqueduct",
-"maintenance": 2,
-"happiness": 2,
-"uniques": [ 
+		"maintenance": 2,
+		"happiness": 2,
+		"uniques": [ 
 			"Comment [-Invest in sanitation… or don’t. The plagues will happily invest in you.]",
-"Provides [2] [Sanitation]",
+			"Provides [2] [Sanitation]",
 			"Provides [2] [Decadence] <during the [Imperial Age]>",
 ]
 },
 	{
 	"name": "Public Bathhouse",
 		"requiredBuilding": "Aqueduct",
-"cost": 300
-"maintenance": 2,
-"happiness": 4,
-"uniques": [ 
-"Provides [3] [Sanitation]",
+		"requiredTech": "Private Estates",
+		"cost": 300
+		"maintenance": 2,
+		"happiness": 4,
+		"uniques": [ 
+			"Provides [3] [Sanitation]",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
 ]
 },
@@ -2413,7 +2415,8 @@
     "uniques": [
         "Cannot be purchased",
         "Remove [High Inflation] [in all cities]",
-        "Comment [Diocletian eventually tried price controls. They failed, but hey—looks good on stone tablets.]"
+        "Comment [Diocletian eventually tried price controls. They failed, but hey—looks good on stone tablets.]",
+      "Unbuildable",
     ]
 }
   {
@@ -2437,7 +2440,8 @@
     "uniques": [
         "Cannot be purchased",
         "Remove [Devastating By War] [in all cities]",
-        "Comment [After decades of civil wars, someone finally noticed the empire was crumbling. Even emperors can learn.]"
+        "Comment [After decades of civil wars, someone finally noticed the empire was crumbling. Even emperors can learn.]",
+      "Unbuildable",
     ]
 }
   {
@@ -2460,6 +2464,7 @@
     "uniques": [
         "Cannot be purchased",
         "Remove [Political Unstable] [in all cities]",
+      "Unbuildable",
     ]
 }
 /////				---Scenario 3rd century
@@ -2483,7 +2488,8 @@
     "uniques": [
         "Cannot be purchased",
         "Remove [Praetorian Greed] [in all cities]",
-        "Comment [After auctioning off the empire, the Praetorians were finally dealt with. Disbanding them gets you -20 Happiness, naturally.]"
+        "Comment [After auctioning off the empire, the Praetorians were finally dealt with. Disbanding them gets you -20 Happiness, naturally.]",
+      "Unbuildable",
     ]
 }
   {
