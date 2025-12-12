@@ -200,9 +200,16 @@ BuildingIcons/Council of Nobles
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Devastating By War
+BuildingIcons/Dangerious Plague
   rotate: false
   xy: 1300, 702
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Devastating By War
+  rotate: false
+  xy: 1408, 810
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -216,21 +223,21 @@ BuildingIcons/Drydock
   index: -1
 BuildingIcons/Egypt Grain
   rotate: false
-  xy: 1408, 810
+  xy: 1516, 918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Food Import
   rotate: false
-  xy: 1408, 810
+  xy: 1516, 918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Egypt Grain Crisis
   rotate: false
-  xy: 1516, 918
+  xy: 760, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -258,14 +265,21 @@ BuildingIcons/Embassy
   index: -1
 BuildingIcons/Empire Divide
   rotate: false
-  xy: 760, 54
+  xy: 868, 162
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Roman Empire 3rd Century
   rotate: false
-  xy: 760, 54
+  xy: 868, 162
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fountain
+  rotate: false
+  xy: 976, 320
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -363,7 +377,7 @@ BuildingIcons/Herbalist
   index: -1
 BuildingIcons/High Inflation
   rotate: false
-  xy: 868, 162
+  xy: 1574, 918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -377,7 +391,7 @@ BuildingIcons/Hill Fort
   index: -1
 BuildingIcons/Horse Exports
   rotate: false
-  xy: 976, 320
+  xy: 976, 262
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -550,6 +564,13 @@ BuildingIcons/Pirate Haven (Illyrian)
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Plague
+  rotate: false
+  xy: 1632, 918
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Pleasure Chambers
   rotate: false
   xy: 544, 220
@@ -559,28 +580,42 @@ BuildingIcons/Pleasure Chambers
   index: -1
 BuildingIcons/Political Unstable
   rotate: false
-  xy: 1574, 918
+  xy: 1690, 918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Praetorian Greed
   rotate: false
-  xy: 976, 262
+  xy: 1748, 918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Praetorian Purge
   rotate: false
-  xy: 1632, 918
+  xy: 1806, 918
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Public Bathhouse
+  rotate: false
+  xy: 1864, 918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Restore Currency Control
   rotate: false
-  xy: 1690, 918
+  xy: 1922, 918
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Risk of Plague
+  rotate: false
+  xy: 1980, 918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -741,7 +776,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 1748, 918
+  xy: 1034, 378
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -769,7 +804,7 @@ BuildingIcons/Walls
   index: -1
 BuildingIcons/War Reconstruction
   rotate: false
-  xy: 1806, 918
+  xy: 1034, 320
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
