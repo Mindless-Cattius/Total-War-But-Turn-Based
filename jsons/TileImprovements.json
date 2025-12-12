@@ -162,12 +162,12 @@
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
   			"[-1 Production, +1 Gold] for each adjacent [Trading post]",
-			"Removes removable features when built",
 			"[+1 Gold] <after discovering [Exploration]>",
 			"Pillaging this improvement yields approximately [+150 Gold]",
 			"Tile provides yield without assigned population",
 			"Can only be built on [resource] tiles",
 			"Unbuildable <for [Worker] units>",
+			"Removes removable features when built",
 ]
 	},
 
@@ -305,12 +305,9 @@
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Gain [1]-[10] [Gold] <when [Commander]> <upon ending a turn in a [City center] tile>",
-			"Gain [2]-[20] [Gold] <when [Ruler]> <upon ending a turn in a [City center] tile>",
-			"Gain [1]-[5] [Gold] <when [Worker]> <upon ending a turn in a [City center] tile>",
-			"Gain [1]-[2] [Culture] <when [Military]> <upon ending a turn in a [City center] tile>",
+			"Removes removable features when built",
 		"Ensures a minimum tile yield of [+2 Food, +1 Production]",
-		"Unpillagable", "Irremovable", "Unbuildable"
+		"Unpillagable","Irremovable", "Unbuildable"
 		],
 		"civilopediaText": [
 			{"text":"Marks the center of a city"},
@@ -325,63 +322,5 @@
 	},
 ////				----Scenario----
 
-	{
-		"name": "Hellenic Village",
-		"turnsToBuild": 15,
-		"gold": 3,
-		"food": 1,
-		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Removes removable features when built",
-			"Unbuildable",
-			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Tile provides yield without assigned population",
-		]
-	},
-	{
-		"name": "Latin Village",
-		"turnsToBuild": 15,
-		"gold": 2,
-		"food": 1,
-		"culture": 2,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Removes removable features when built",
-			"Unbuildable",
-			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Tile provides yield without assigned population",
-		]
-	},
-	{
-		"name": "Eastern Village",
-		"turnsToBuild": 15,
-		"gold": 1,
-		"food": 3,
-		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Removes removable features when built",
-			"Unbuildable",
-			"Pillaging this improvement yields approximately [+100 Gold]",
-			"Tile provides yield without assigned population",
 
-		]
-	},
-	{
-		"name": "Fortress",
-		"turnsToBuild": 20,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [50]%",
-			"Removes removable features when built",
-			"Unbuildable",
-			"Pillaging this improvement yields approximately [+200 Gold]",
-			"Tile provides yield without assigned population",
-		]
-	},
 ]

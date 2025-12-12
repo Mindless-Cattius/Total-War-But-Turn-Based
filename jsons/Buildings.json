@@ -1878,210 +1878,6 @@
 		],
 		"requiredTech": "Equestrian Class"
 	},
-	// All Eras
-
-	{
-		"name": "Utopia Project",
-		"cost": 1500,
-		"isNationalWonder": true,
-		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [5]>", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
-	},
-
-	{
-		"name": "The Oracle of Amun",
-		"cost": 600,
-		"culture": 1,
-		"happiness": 3,
-		"greatPersonPoints": {"Great Prophet": 1},
-		"isWonder": true,
-		"uniques": [
-			"Only available <after adopting [Numidian Culture]>",
-			"[+1 Happiness, +1 Food, +1 Gold] from [Oasis] tiles [in this city]"],
-		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
-	},
-	{
-		"name": "The Oracle of Dodona",
-		"cost": 600,
-		"culture": 1,
-		"happiness": 3,
-		"greatPersonPoints": {"Great Prophet": 1},
-		"isWonder": true,
-		"uniques": [
-			"[+1 Happiness] from [Forest] tiles [in this city]",
-			"Only available <after adopting [Hellenistic Culture]>",
-],
-		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
-	},
-	{
-		"name": "The Oracle of Delphi",
-		"cost": 600,
-		"culture": 1,
-		"gold": 3,
-		"happiness": 3,
-		"greatPersonPoints": {"Great Prophet": 1},
-		"isWonder": true,
-		"uniques": [
-			"Free Social Policy"
-			"Only available <after adopting [Hellenic Culture]>",
-],
-		"quote": "When some one boasted that at the Pythian games he had vanquished men, Diogenes replied: 'Nay, I defeat men, you defeat slaves'." 
-	},
-	{
-		"name": "Parthenon",
-		"cost": 600,
-		"culture": 1,
-		"happiness": 3,
-		"cityHealth": 40,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Scholar": 1},
-		"uniques": [
-			"[-20]% maintenance costs <for [Water] units>",
-			"Only available <after adopting [Hellenic Culture]>",
-],
-		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
-	},
-	{
-		"name": "Temple of Artemis",
-		"cost": 600,
-		"culture": 1,
-		"happiness": 3,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Scholar": 1},
-		"uniques": [
-			"[+1 Food] [in all cities]",
-			 "[+10]% Production when constructing [Archery] units [in all cities]",
-			"Only available <after adopting [Hellenic Culture]>",
-],
-		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
-	},
-	{
-		"name": "Mausoleum of Halicarnassus",
-		"cost": 600,
-		"culture": 1,
-		"happiness": 5,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": [
-			"Gain [150] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-			"[+2 Gold] from [Marble] tiles [in this city]", 
-			"[+2 Gold] from [Stone] tiles [in this city]"
-			"Only available <after adopting [Hellenic Culture]>",
-],
-		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
-	},
-	{
-		"name": "Hanging Gardens",
-		"cost": 600,
-		"greatPersonPoints": {"Great Artist": 1},
-		"food": 3,
-		"culture": 1,
-		"happiness": 3,
-		"isWonder": true,
-		"uniques": [
-			"Provides [2] [Mercenary (Mesopotamian)]",
-			"Gain a free [Garden] [in this city]",
-			"Only available <after adopting [Eastern Culture]>",
-			"Only available <before adopting [Steppe Authority]>",
-],
-		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
-	},
-	{
-		"name": "The Great Lighthouse",
-		"cost": 600,
-		"culture": 1,
-		"happiness": 3,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
-			"[+2] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
-		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
-	},
-	{
-		"name": "Colossus",
-		"cost": 600,
-		"culture": 1,
-		"gold": 6,
-		"happiness": 3,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": [
-			"Provides [2] [Mercenary (Rhodian)]","Must be next to [Coast]",
-			 "[+1 Gold] from [Water] tiles [in this city]",
-			"Only available <after adopting [Hellenic Culture]>",
-],
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
-	},
-
-
-	//				--- Religious buildings
-
-	{
-		"name": "Cathedral",
-		"cost": 0,
-		"faith": 2,
-		"culture": 3,
-		"happiness": 2,
-		"specialistSlots": {"Artist": 1},
-		"uniques": [
-			"Consumes [1] [Decadence]",
-			"[+1 Faith] from [Village] tiles [in this city]",
-			"[+1 Production] from [Village] tiles [in this city]",
-			"Consumes [1] [Manpower]",
- 			"Only available <when religion is enabled>",
-			"Unbuildable",
-			"Destroyed when the city is captured"
-]
-	},
-	{
-		"name": "Monastery",
-		"cost": 0,
-		"culture": 3,
-		"faith": 3,
-		"science": 1,
-		"uniques": [
-			"Consumes [1] [Decadence]",
-			"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
-			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"[+1 Faith] from [Village] tiles [in this city]",
-			"[+1 Happiness] from [Village] tiles [in this city]",
-			"Consumes [1] [Manpower]",
- 			"Only available <when religion is enabled>",
-			"Unbuildable",
-			"Destroyed when the city is captured"
-]
-	},
-	{
-		"name": "Mosque",
-		"cost": 0,
-		"culture": 3,
-		"faith": 4,
-		"happiness": 1,
-		"uniques": [
-			"Consumes [1] [Decadence]",
-			"[+2 Faith] from [Village] tiles [in this city]",
-			"Consumes [1] [Manpower]",
- 			"Only available <when religion is enabled>",
-			"Unbuildable",
-			"Destroyed when the city is captured"
-]
-	},
-	{
-		"name": "Pagoda",
-		"cost": 0,
-		"culture": 3,
-		"faith": 1,
-		"happiness": 3,
-		"uniques": [
-			"Consumes [1] [Decadence]",
-			"[+1 Faith] from [Village] tiles [in this city]",
-			"[+1 Food] from [Village] tiles [in this city]",
-			"Consumes [1] [Manpower]",
- 			"Only available <when religion is enabled>",
-			"Unbuildable",
-			"Destroyed when the city is captured"
-]
-	},
 	{
 		"name": "Ballistics Range",
 		"requiredBuilding": "Skirmisher Barracks",
@@ -2229,6 +2025,227 @@
 			"Destroyed when the city is captured",
 		]
 	},
+	// All Eras
+
+	{
+		"name": "Utopia Project",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [5]>", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
+	},
+
+	{
+		"name": "The Oracle of Amun",
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"isWonder": true,
+		"uniques": [
+			"Only available <after adopting [Numidian Culture]>",
+			"[+1 Happiness, +1 Food, +1 Gold] from [Oasis] tiles [in this city]"],
+		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+	},
+	{
+		"name": "The Oracle of Dodona",
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"isWonder": true,
+		"uniques": [
+			"[+1 Happiness] from [Forest] tiles [in this city]",
+			"Only available <after adopting [Hellenistic Culture]>",
+],
+		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+	},
+	{
+		"name": "The Oracle of Delphi",
+		"cost": 600,
+		"culture": 1,
+		"gold": 3,
+		"happiness": 3,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"isWonder": true,
+		"uniques": [
+			"Free Social Policy"
+			"Only available <after adopting [Hellenic Culture]>",
+],
+		"quote": "When some one boasted that at the Pythian games he had vanquished men, Diogenes replied: 'Nay, I defeat men, you defeat slaves'." 
+	},
+	{
+		"name": "Parthenon",
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
+		"cityHealth": 40,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scholar": 1},
+		"uniques": [
+			"[-20]% maintenance costs <for [Water] units>",
+			"Only available <after adopting [Hellenic Culture]>",
+],
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{
+		"name": "Temple of Artemis",
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scholar": 1},
+		"uniques": [
+			"[+1 Food] [in all cities]",
+			 "[+10]% Production when constructing [Archery] units [in all cities]",
+			"Only available <after adopting [Hellenic Culture]>",
+],
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{
+		"name": "Mausoleum of Halicarnassus",
+		"cost": 600,
+		"culture": 1,
+		"happiness": 5,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": [
+			"Gain [150] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Gold] from [Marble] tiles [in this city]", 
+			"[+2 Gold] from [Stone] tiles [in this city]"
+			"Only available <after adopting [Hellenic Culture]>",
+],
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
+	{
+		"name": "Hanging Gardens",
+		"cost": 600,
+		"greatPersonPoints": {"Great Artist": 1},
+		"food": 3,
+		"culture": 1,
+		"happiness": 3,
+		"isWonder": true,
+		"uniques": [
+			"Provides [2] [Mercenary (Mesopotamian)]",
+			"Gain a free [Garden] [in this city]",
+			"Only available <after adopting [Eastern Culture]>",
+			"Only available <before adopting [Steppe Authority]>",
+],
+		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
+	},
+	{
+		"name": "The Great Lighthouse",
+		"cost": 600,
+		"culture": 1,
+		"happiness": 3,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+2] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+	},
+	{
+		"name": "Colossus",
+		"cost": 600,
+		"culture": 1,
+		"gold": 6,
+		"happiness": 3,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": [
+			"Provides [2] [Mercenary (Rhodian)]","Must be next to [Coast]",
+			 "[+1 Gold] from [Water] tiles [in this city]",
+			"Only available <after adopting [Hellenic Culture]>",
+],
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+
+
+	//				--- Rebel and plague
+	{
+		"name": "Rebellious Citizens",
+		"cost": 0,
+		"happiness": -2,
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"[-1 Food, -1 Gold] from [improved] tiles [in this city]",
+			"Consumes [2] [Manpower]",
+			"Consumes [2] [Decadence]",
+			"Rebel units may spawn <with [70]% chance>",
+			"Remove [Rebellious Citizens] [in all cities] <every [10] turns> <when not at war>",
+			"Unbuildable",
+			"Destroyed when the city is captured"
+]
+	},
+
+	//				--- Religious buildings
+
+	{
+		"name": "Cathedral",
+		"cost": 0,
+		"faith": 2,
+		"culture": 3,
+		"happiness": 2,
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Consumes [1] [Decadence]",
+			"[+1 Faith] from [Village] tiles [in this city]",
+			"[+1 Production] from [Village] tiles [in this city]",
+			"Consumes [1] [Manpower]",
+ 			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Destroyed when the city is captured"
+]
+	},
+	{
+		"name": "Monastery",
+		"cost": 0,
+		"culture": 3,
+		"faith": 3,
+		"science": 1,
+		"uniques": [
+			"Consumes [1] [Decadence]",
+			"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
+			"[+1 Faith] from [Village] tiles [in this city]",
+			"[+1 Happiness] from [Village] tiles [in this city]",
+			"Consumes [1] [Manpower]",
+ 			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Destroyed when the city is captured"
+]
+	},
+	{
+		"name": "Mosque",
+		"cost": 0,
+		"culture": 3,
+		"faith": 4,
+		"happiness": 1,
+		"uniques": [
+			"Consumes [1] [Decadence]",
+			"[+2 Faith] from [Village] tiles [in this city]",
+			"Consumes [1] [Manpower]",
+ 			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Destroyed when the city is captured"
+]
+	},
+	{
+		"name": "Pagoda",
+		"cost": 0,
+		"culture": 3,
+		"faith": 1,
+		"happiness": 3,
+		"uniques": [
+			"Consumes [1] [Decadence]",
+			"[+1 Faith] from [Village] tiles [in this city]",
+			"[+1 Food] from [Village] tiles [in this city]",
+			"Consumes [1] [Manpower]",
+ 			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Destroyed when the city is captured"
+]
+	},
 /////				---Scenario
 	{
 		"name": "Scenario",
@@ -2244,6 +2261,20 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"Gain a free [Scenario Legion] [in all cities] <if [Scenario Legion] is not constructed>",
+			"Destroyed when the city is captured",
+			"Unbuildable"
+		]
+	},
+	{
+		"name": "Hellenic Barracks",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Unbuildable"
+		]
+	},
+	{
+		"name": "Gallic Barracks",
+		"uniques": [
 			"Destroyed when the city is captured",
 			"Unbuildable"
 		]
@@ -2270,4 +2301,165 @@
 		]
 		"requiredTech": "Barter"
 	},
+  {
+    "name": "High Inflation",
+    "cost": 0,
+    "maintenance": 0,
+    "uniques": [
+      "Unbuildable",
+      "[+50]% maintenance costs <for [Military] units>",
+      "[-2 Happiness, -2 Gold, -2 Food, -1 Faith, -2 Production] [in all cities]",
+      "[-1 Gold] from [Trading post] tiles [in all cities]",
+      "[-1 Gold, -2 Food] from [Village] tiles [in all cities]",
+      "[-2 Gold] from [Fort] tiles [in all cities]",
+      "[-5 Gold] from every [Mint]",
+      "[-3 Gold] from every [Jeweler]",
+      "[Gold] cost of purchasing [Military] units [+30]% <when at war>",
+      "[Gold] cost of purchasing [Military] units [+20]%"
+    ]
+  },
+{
+    "name": "Restore Currency Control",
+    "requiredBuilding": "High Inflation",
+    "cost": 1500,
+    "uniques": [
+        "Cannot be purchased",
+        "Remove [High Inflation] [in all cities]",
+        "Comment [Diocletian eventually tried price controls. They failed, but hey—looks good on stone tablets.]"
+    ]
+}
+  {
+    "name": "Devastating By War",
+    "cost": 0,
+    "maintenance": 0,
+    "uniques": [
+      "Unbuildable",
+      "[-1 Happiness, -1 Gold] [in all cities]",
+      "[-1 Gold] from [Mine] tiles [in all cities]",
+      "[-1 Gold] from [Trading post] tiles [in all cities]",
+      "[-1 Food] from [Village] tiles [in all cities]",
+      "[+2 Happiness] [in all cities]",
+      "[-1 Gold] from [Fort] tiles [in all cities]"
+    ]
+  },
+{
+    "name": "War Reconstruction",
+    "requiredBuilding": "Devastating By War",
+    "cost": 1500,
+    "uniques": [
+        "Cannot be purchased",
+        "Remove [Devastating By War] [in all cities]",
+        "Comment [After decades of civil wars, someone finally noticed the empire was crumbling. Even emperors can learn.]"
+    ]
+}
+  {
+    "name": "Political Unstable",
+    "cost": 0,
+    "maintenance": 0,
+    "uniques": [
+      "Unbuildable",
+      "[-10 Culture] [in all cities]",
+      "[-1 Gold] from [improved] tiles [in all cities]",
+      "[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
+      "[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
+      "[-1 Happiness] [in all cities] <when above [3] [Nobles]>"
+    ]
+  },
+{
+    "name": "Centralize Power",
+    "requiredBuilding": "Political Unstable",
+    "cost": 1800,
+    "uniques": [
+        "Cannot be purchased",
+        "Remove [Political Unstable] [in all cities]",
+    ]
+}
+/////				---Scenario 3rd century
+  {
+    "name": "Praetorian Greed",
+    "cost": 0,
+    "maintenance": 0,
+    "uniques": [
+      "Comment [Because nothing stabilizes an empire like an elite bodyguard selling the throne to the highest bidder. The Praetorians spent the 3rd century auctioning emperors, murdering the ones who refused payment, and generally turning Rome’s political system into a marketplace of corpses. And disbanding them? Rome tried that too—removing entitled kingmakers tends to upset them. Expect the people to panic and your armies to sulk: –20 Happiness.]",
+      "Unbuildable",
+      "[+200]% maintenance costs <for [Praetoria] units>",
+      "[+10]% Strength <when defending> <for [Praetoria] units>",
+      "[-10]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
+      "Provides [1] [Greed]",
+    ]
+  },
+{
+    "name": "Praetorian Purge",
+    "requiredBuilding": "Praetorian Greed",
+    "cost": 1200,
+    "uniques": [
+        "Cannot be purchased",
+        "Remove [Praetorian Greed] [in all cities]",
+        "Comment [After auctioning off the empire, the Praetorians were finally dealt with. Disbanding them gets you -20 Happiness, naturally.]"
+    ]
+}
+  {
+    "name": "Egypt Grain Crisis",
+    "cost": 0,
+    "maintenance": 0,
+    "uniques": [
+      "Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]"
+      "Unbuildable",
+      "[-2 Food, -2 Happiness, -1 Production] [in all cities]",
+        "[-5]% growth [in all cities]"
+    ]
+  },
+  {
+    "name": "Egypt Grain",
+    "cost": 0,
+    "maintenance": 0,
+    "uniques": [
+        "Comment [Rome starved because Egypt sneezed. Fixing the grain ships fixes everything—until next year.]"
+      "Unbuildable",
+        "Remove [Egypt Grain Crisis] [in all cities]",
+      "[+1 Food, +1 Happiness] [in all cities]",
+    ]
+  },
+  {
+    "name": "Empire Divide",
+    "cost": 0,
+    "maintenance": 0,
+    "uniques": [
+      "Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]"
+      "Unbuildable",
+      "[+25]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+      "[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>",
+      "[+50]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+	"Remove [Empire Divide] [in all cities] <every [50] turns> <when not at war>",
+    ]
+  }
+  {
+    "name": "Roman Empire 3rd Century",
+    "cost": 0,
+    "maintenance": 0,
+    "uniques": [
+      "Unbuildable",
+"Gain a free [Praetorian Greed] [in capital]",
+"Gain a free [Empire Divide] [in capital]",
+"Gain a free [Egypt Grain Crisis] [in capital]",
+"Gain a free [Rebellious Citizens] [in all cities]",
+"Gain a free [Political Unstable] [in capital]",
+"Gain a free [High Inflation] [in capital]",
+"Gain a free [Devastating By War] [in capital]",
+"Adopt [The Latin League]",
+"Adopt [Proto-Maniple Training]",
+"Adopt [Italic Sacred Groves]",
+"Adopt [Socii]",
+"Adopt [Latin Road Expansion]",
+"Adopt [Manipular Legion]",
+"Adopt [Auxilia]",
+"Adopt [Roman Law Foundations]",
+"Adopt [Latifundia]",
+"Adopt [Marian Reforms]",
+"Adopt [Cohort Reformation]",
+"Adopt [Gladiatorial Games]",
+"Adopt [Bread and Circuses]",
+    ]
+  }
 ]
+

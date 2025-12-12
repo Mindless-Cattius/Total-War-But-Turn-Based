@@ -739,7 +739,16 @@
     {
 		"name": "Ruler",
 		"resourceType": "Luxury",
-		"happiness": -10,
+		"happiness": -5,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+]
+    },		
+    {
+		"name": "Greed",
+		"resourceType": "Luxury",
+		"happiness": -25,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Cannot be traded",

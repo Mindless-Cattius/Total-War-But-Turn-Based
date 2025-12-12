@@ -3,6 +3,8 @@
     "uniques": [ 
 // ADDONS
 // GLOBAL
+	"May not annex cities <when at war>",
+	"Gain a free [Rebellious Citizens] [in puppeted cities]",
 	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
 	"Provides [1] [Ruler]",
 	"Provides [40] [Manpower] <in [in City-State cities] cities>"
@@ -100,12 +102,12 @@
 	"[-7 Happiness] [in this city] <in cities with between [41] and [9999] [Population]>",
 
 	"[-10]% growth [in this city] <in cities with between [10] and [15] [Population]>",
-	"[-10]% growth [in this city] <in cities with between [16] and [20] [Population]>",
-	"[-10]% growth [in this city] <in cities with between [21] and [25] [Population]>",
-	"[-10]% growth [in this city] <in cities with between [26] and [30] [Population]>",
-	"[-5]% growth [in this city] <in cities with between [31] and [35] [Population]>",
-	"[-5]% growth [in this city] <in cities with between [36] and [40] [Population]>",
-	"[-5]% growth [in this city] <in cities with between [41] and [9999] [Population]>",
+	"[-20]% growth [in this city] <in cities with between [16] and [20] [Population]>",
+	"[-25]% growth [in this city] <in cities with between [21] and [25] [Population]>",
+	"[-30]% growth [in this city] <in cities with between [26] and [30] [Population]>",
+	"[-35]% growth [in this city] <in cities with between [31] and [35] [Population]>",
+	"[-40]% growth [in this city] <in cities with between [36] and [40] [Population]>",
+	"[-50]% growth [in this city] <in cities with between [41] and [9999] [Population]>",
 
         "[-5]% growth [in all cities] <when below [0] [Happiness]>",
         "[-5]% growth [in all cities] <when below [-10] [Happiness]>",
