@@ -2566,11 +2566,12 @@
       "Comment [-Elite heavy infantry, Emperor's best frienemy.]",
       "Only available <in cities with a [Imperial Barracks]>",
       "Limited to [1] per Civilization",
-      "[+13]% Strength bonus for [Military] units within [2] tiles",
+      "[+13]% Strength bonus for [Military] units within [1] tiles",
 	"[+1] XP gained from combat",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Veteran]",
       "Consumes [1] [Iron]",
+      "Consumes [1] [Greed] <if [Praetorian Greed] is constructed> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",

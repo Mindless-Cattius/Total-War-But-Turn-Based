@@ -110,6 +110,7 @@
 	// Civ improvement
 	{
 		"name": "Fort",
+		"happiness": 2,
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle"],
 		"uniques": [
