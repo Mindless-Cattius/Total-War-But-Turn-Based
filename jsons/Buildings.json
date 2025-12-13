@@ -2242,7 +2242,7 @@
 		"uniques": [ 
 			"Comment [-A catastrophic outbreak collapses food, gold, science, culture — practically everything except faith, panic, and the number of funerals.]",
 			"[-3 Gold, -2 Food, -2 Culture, +3 Faith] from [improved] tiles [in all cities]",
-			"[-10] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
+			"[-5] HP when healing <for [Military] units>",
 			"Consumes [2] [Decadence]",
 			"Consumes [2] [Manpower]",
 			"Unbuildable","Unsellable","Unavailable",
