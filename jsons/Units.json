@@ -16,6 +16,7 @@
 	"Can upgrade to [Spearman] <after adopting [Divide Consription]> <hidden from users>",
 	"Can upgrade to [Spearman] <after adopting [Imperial Garrisons]> <hidden from users>",
 	"Can upgrade to [Swordsman] <after adopting [Total War]> <hidden from users>",
+			"[-300]% construction time for [Repair] improvements <in [Village] tiles>",
       	"Automation is a primary action",
     ],
     "cost": 60

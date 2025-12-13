@@ -2228,7 +2228,7 @@
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
 			"Comment [-Population declining? Productivity collapsing? The Plague has arrived. Please refrain from touching literally anything… or anyone… or breathing.]",
-			"[-2 Gold, -1 Food, -1 Culture, +2 Faith] from [improved] tiles [in all cities]",
+			"[-2 Gold, -2 Food, -1 Culture, +1 Faith] from [all] tiles [in all cities]",
 			"[-5] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
 			"Consumes [1] [Decadence]",
 			"Consumes [1] [Manpower]",
@@ -2241,7 +2241,7 @@
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
 			"Comment [-A catastrophic outbreak collapses food, gold, science, culture — practically everything except faith, panic, and the number of funerals.]",
-			"[-3 Gold, -2 Food, -2 Culture, +3 Faith] from [improved] tiles [in all cities]",
+			"[-4 Gold, -2 Food, -2 Culture, +2 Faith] from [all] tiles [in all cities]",
 			"[-5] HP when healing <for [Military] units>",
 			"Consumes [2] [Decadence]",
 			"Consumes [2] [Manpower]",

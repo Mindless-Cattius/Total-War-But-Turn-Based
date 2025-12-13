@@ -294,7 +294,16 @@
 		"uniques": [
 		"Doesn't generate naturally"
 		],
-    },
+    },		
+    {
+		"name": "Ruler",
+		"resourceType": "Strategic",
+		"uniques": [
+			"[-5 Happiness]",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+]
+    },		
     {
 		"name": "Iron",
 		"resourceType": "Strategic",
@@ -742,20 +751,10 @@
 		"[+5]% [Gold] <in cities with a [Harbor]> <when above [1] [Ceramics]>"
 		]
     },
-	// Unit hidden resources		
-    {
-		"name": "Ruler",
-		"resourceType": "Luxury",
-		"happiness": -5,
-		"uniques": [
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-]
-    },		
+	// Unit hidden resources
     {
 		"name": "Greed",
-		"resourceType": "Luxury",
-		"happiness": -25,
+		"resourceType": "Bonus",
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Cannot be traded",

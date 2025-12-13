@@ -546,8 +546,8 @@
 		"prerequisites": ["Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Raider III"],
 		"uniques": [
 				"[1] additional attacks per turn",
- 				"[-15]% Strength <when attacking> <for [Ranged] units>",
-				"[-20]% to Flank Attack bonuses",
+ 				"[-30]% Strength <when attacking> <for [Ranged] units>",
+				"[+10]% to Flank Attack bonuses",
 			  	"[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Mounted Archery", "Mounted", "Sword","Spear","Archery","Siege","Ranged Water","Melee Water"],
         "column": 21,
@@ -593,6 +593,7 @@
 		"name": "Raider II",
 		"prerequisites": ["Raider I"],
 		"uniques": [
+    		"[+10]% Yield from pillaging tiles",
      "No movement cost to pillage"
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Scout","Mounted Archery","Ruler"],
