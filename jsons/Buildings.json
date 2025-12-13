@@ -2196,16 +2196,16 @@
 "maintenance": 0,
 "uniques": [
 			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
-		"Gain a free [Plague] [in this city] <with [70]% chance> <in cities without a [Plague]> <when below [1] [Sanitation]> <hidden from users>",
-		"Gain a free [Plague] [in this city] <with [50]% chance> <in cities without a [Plague]> <when below [3] [Sanitation]> <hidden from users>",
-		"Gain a free [Plague] [in this city] <with [30]% chance> <in cities without a [Plague]> <when below [5] [Sanitation]> <hidden from users>",
-		"Gain a free [Plague] [in this city] <with [10]% chance> <in cities without a [Plague]> <when below [10] [Sanitation]> <hidden from users>",
-		"Gain a free [Plague] [in this city] <with [5]% chance> <in cities without a [Plague]> <when below [15] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [30]% chance> <in cities without a [Plague]> <when below [1] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [20]% chance> <in cities without a [Plague]> <when below [3] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [10]% chance> <in cities without a [Plague]> <when below [5] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [5]% chance> <in cities without a [Plague]> <when below [10] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [3]% chance> <in cities without a [Plague]> <when below [15] [Sanitation]> <hidden from users>",
 		"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]> <hidden from users>",
 		"Gain a free [Dangerious Plague] [in this city] <with [25]% chance> <in cities without a [Dangerious Plague]> <when below [1] [Sanitation]> <hidden from users>",
-		"Gain a free [Dangerious Plague] [in this city] <with [20]% chance> <in cities without a [Dangerious Plague]> <when below [3] [Sanitation]> <hidden from users>",
-		"Gain a free [Dangerious Plague] [in this city] <with [15]% chance> <in cities without a [Dangerious Plague]> <when below [5] [Sanitation]> <hidden from users>",
-		"Gain a free [Dangerious Plague] [in this city] <with [5]% chance> <in cities without a [Dangerious Plague]> <when below [10] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [10]% chance> <in cities without a [Dangerious Plague]> <when below [3] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [5]% chance> <in cities without a [Dangerious Plague]> <when below [5] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [3]% chance> <in cities without a [Dangerious Plague]> <when below [10] [Sanitation]> <hidden from users>",
 		"Gain a free [Dangerious Plague] [in this city] <with [1]% chance> <in cities without a [Dangerious Plague]> <when above [15] [Sanitation]> <hidden from users>",
 			"[+1 Food] from [Village] tiles [in this city] <when above [25] [Sanitation]> <hidden from users>"
 			"[+1 Food] from [Village] tiles [in this city] <when above [20] [Sanitation]> <hidden from users>"
@@ -2223,37 +2223,29 @@
 		]
 	},
 	{
-	"name": "Plague"
-"maintenance": 0,
-"uniques": [ 
+		"name": "Plague"
+		"maintenance": 0,
+		"specialistSlots": {"Priest": 1},
+		"uniques": [ 
 			"Comment [-Population declining? Productivity collapsing? The Plague has arrived. Please refrain from touching literally anything… or anyone… or breathing.]",
-"[-30]% [Food]",
-"[-30]% [Production]",
-"[-30]% [Science]",
-"[-30]% [Culture]",
-"[-50]% [Gold]",
-"[+30]% [Faith]",
-"[-5] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
+			"[-2 Gold, -1 Food, -1 Culture, +2 Faith] from [improved] tiles [in all cities]",
+			"[-5] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
 			"Consumes [1] [Decadence]",
-"Consumes [1] [Manpower]",
-"Unbuildable","Unsellable",
+			"Consumes [1] [Manpower]",
+			"Unbuildable","Unsellable","Unavailable",
 ]
-},
+	},
 	{
-	"name": "Dangerious Plague"
-"maintenance": 0,
-"uniques": [ 
-"Comment [-A catastrophic outbreak collapses food, gold, science, culture — practically everything except faith, panic, and the number of funerals.]",
-	"[-50]% [Food]",
-	"[-50]% [Production]",
-"[-50]% [Science]",
-"[-50]% [Culture]",
-"[-80]% [Gold]",
-"[+50]% [Faith]",
-"[-10] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
-			"Consumes [3] [Decadence]",
-"Consumes [3] [Manpower]",
-"Unbuildable","Unsellable",
+		"name": "Dangerious Plague"
+		"maintenance": 0,
+		"specialistSlots": {"Priest": 1},
+		"uniques": [ 
+			"Comment [-A catastrophic outbreak collapses food, gold, science, culture — practically everything except faith, panic, and the number of funerals.]",
+			"[-3 Gold, -2 Food, -2 Culture, +3 Faith] from [improved] tiles [in all cities]",
+			"[-10] HP when healing <for [Military] units> <in [Friendly Land] tiles>",
+			"Consumes [2] [Decadence]",
+			"Consumes [2] [Manpower]",
+			"Unbuildable","Unsellable","Unavailable",
 ]
 },
 	{
@@ -2361,15 +2353,6 @@
 		]
 	},
 	{
-		"name": "Scenario Legion",
-		"uniques": [
-			"Destroyed when the city is captured",
-			"Gain a free [Scenario Legion] [in all cities] <if [Scenario Legion] is not constructed>",
-			"Destroyed when the city is captured",
-			"Unbuildable"
-		]
-	},
-	{
 		"name": "Happiness",
 		"requiredBuilding": "Scenario",
 		"hurryCostModifier": 25,
@@ -2391,32 +2374,33 @@
 		]
 		"requiredTech": "Barter"
 	},
-  {
-    "name": "High Inflation",
-    "cost": 0,
-    "maintenance": 0,
-    "uniques": [
-      "Unbuildable",
-      "[+50]% maintenance costs <for [Military] units>",
-      "[-2 Happiness, -2 Gold, -2 Food, -1 Faith, -2 Production] [in all cities]",
-      "[-1 Gold] from [Trading post] tiles [in all cities]",
-      "[-1 Gold, -2 Food] from [Village] tiles [in all cities]",
-      "[-2 Gold] from [Fort] tiles [in all cities]",
-      "[-5 Gold] from every [Mint]",
-      "[-3 Gold] from every [Jeweler]",
-      "[Gold] cost of purchasing [Military] units [+30]% <when at war>",
-      "[Gold] cost of purchasing [Military] units [+20]%"
+	{
+    		"name": "High Inflation",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+			"Unbuildable","Unsellable",
+      			"[+50]% maintenance costs <for [Military] units>",
+      			"[-2 Happiness, -2 Gold, -2 Food, -1 Faith, -2 Production] [in all cities]",
+      			"[-1 Gold] from [Trading post] tiles [in all cities]",
+      			"[-1 Gold, -2 Food] from [Village] tiles [in all cities]",
+      			"[-2 Gold] from [Fort] tiles [in all cities]",
+      			"[-5 Gold] from every [Mint]",
+      			"[-3 Gold] from every [Jeweler]",
+      			"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
+      			"[Gold] cost of purchasing [Military] units [+20]%",
     ]
   },
 {
-    "name": "Restore Currency Control",
-    "requiredBuilding": "High Inflation",
-    "cost": 1500,
-    "uniques": [
-        "Cannot be purchased",
-        "Remove [High Inflation] [in all cities]",
-        "Comment [Diocletian eventually tried price controls. They failed, but hey—looks good on stone tablets.]",
-      "Unbuildable",
+    		"name": "Restore Currency Control",
+    		"requiredBuilding": "High Inflation",
+    		"cost": 1500,
+    		"uniques": [
+        		"Cannot be purchased",
+        		"Remove [High Inflation] [in all cities]",
+        		"Comment [Diocletian eventually tried price controls. They failed, but hey—looks good on stone tablets.]",
+			"Unsellable",
+      			"Unbuildable <if [High Inflation] is not constructed>",
     ]
 }
   {
@@ -2438,10 +2422,9 @@
     "requiredBuilding": "Devastating By War",
     "cost": 1500,
     "uniques": [
-        "Cannot be purchased",
+      "Unbuildable <if [Devastating By War] is not constructed>",
         "Remove [Devastating By War] [in all cities]",
         "Comment [After decades of civil wars, someone finally noticed the empire was crumbling. Even emperors can learn.]",
-      "Unbuildable",
     ]
 }
   {
@@ -2464,7 +2447,7 @@
     "uniques": [
         "Cannot be purchased",
         "Remove [Political Unstable] [in all cities]",
-      "Unbuildable",
+      "Unbuildable <if [Political Unstable] is not constructed>",
     ]
 }
 /////				---Scenario 3rd century
@@ -2474,11 +2457,11 @@
     "maintenance": 0,
     "uniques": [
       "Comment [Because nothing stabilizes an empire like an elite bodyguard selling the throne to the highest bidder. The Praetorians spent the 3rd century auctioning emperors, murdering the ones who refused payment, and generally turning Rome’s political system into a marketplace of corpses. And disbanding them? Rome tried that too—removing entitled kingmakers tends to upset them. Expect the people to panic and your armies to sulk: –20 Happiness.]",
-      "Unbuildable",
       "[+200]% maintenance costs <for [Praetoria] units>",
       "[+10]% Strength <when defending> <for [Praetoria] units>",
       "[-10]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
       "Provides [1] [Greed]",
+      "Unbuildable",
     ]
   },
 {
@@ -2489,7 +2472,7 @@
         "Cannot be purchased",
         "Remove [Praetorian Greed] [in all cities]",
         "Comment [After auctioning off the empire, the Praetorians were finally dealt with. Disbanding them gets you -20 Happiness, naturally.]",
-      "Unbuildable",
+      "Unbuildable <if [Praetorian Greed] is not constructed>",
     ]
 }
   {
@@ -2509,9 +2492,9 @@
     "maintenance": 0,
     "uniques": [
         "Comment [Rome starved because Egypt sneezed. Fixing the grain ships fixes everything—until next year.]"
-      "Unbuildable",
         "Remove [Egypt Grain Crisis] [in all cities]",
       "[+1 Food, +1 Happiness] [in all cities]",
+      "Unbuildable",
     ]
   },
   {
@@ -2519,12 +2502,12 @@
     "cost": 0,
     "maintenance": 0,
     "uniques": [
-      "Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]"
-      "Unbuildable",
+      "Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]",
       "[+25]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
       "[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>",
       "[+50]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
 	"Remove [Empire Divide] [in all cities] <every [50] turns> <when not at war>",
+      "Unbuildable",
     ]
   }
   {
@@ -2533,26 +2516,26 @@
     "maintenance": 0,
     "uniques": [
       "Unbuildable",
-"Gain a free [Praetorian Greed] [in capital]",
-"Gain a free [Empire Divide] [in capital]",
-"Gain a free [Egypt Grain Crisis] [in capital]",
-"Gain a free [Rebellious Citizens] [in all cities]",
-"Gain a free [Political Unstable] [in capital]",
-"Gain a free [High Inflation] [in capital]",
-"Gain a free [Devastating By War] [in capital]",
-"Adopt [The Latin League]",
-"Adopt [Proto-Maniple Training]",
-"Adopt [Italic Sacred Groves]",
-"Adopt [Socii]",
-"Adopt [Latin Road Expansion]",
-"Adopt [Manipular Legion]",
-"Adopt [Auxilia]",
-"Adopt [Roman Law Foundations]",
-"Adopt [Latifundia]",
-"Adopt [Marian Reforms]",
-"Adopt [Cohort Reformation]",
-"Adopt [Gladiatorial Games]",
-"Adopt [Bread and Circuses]",
+"Gain a free [Praetorian Greed] [in capital] <hidden from users>",
+"Gain a free [Empire Divide] [in capital] <hidden from users>",
+"Gain a free [Egypt Grain Crisis] [in capital] <hidden from users>",
+"Gain a free [Rebellious Citizens] [in all cities] <hidden from users>",
+"Gain a free [Political Unstable] [in capital] <hidden from users>",
+"Gain a free [High Inflation] [in capital] <hidden from users>",
+"Gain a free [Devastating By War] [in capital] <hidden from users>",
+"Adopt [The Latin League] <hidden from users>",
+"Adopt [Proto-Maniple Training] <hidden from users>",
+"Adopt [Italic Sacred Groves] <hidden from users>",
+"Adopt [Socii] <hidden from users>",
+"Adopt [Latin Road Expansion] <hidden from users>",
+"Adopt [Manipular Legion] <hidden from users>",
+"Adopt [Auxilia] <hidden from users>",
+"Adopt [Roman Law Foundations] <hidden from users>",
+"Adopt [Latifundia] <hidden from users>",
+"Adopt [Marian Reforms] <hidden from users>",
+"Adopt [Cohort Reformation] <hidden from users>",
+"Adopt [Gladiatorial Games] <hidden from users>",
+"Adopt [Bread and Circuses] <hidden from users>",
     ]
   }
 ]

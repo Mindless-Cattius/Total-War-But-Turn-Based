@@ -120,6 +120,7 @@
 				"uniques": [
 				"Notified of new Barbarian encampments",
 				"Enables Defensive Pacts"
+				"Enables Open Borders agreements",
 				],
 				"quote": "'Solon used to say that speech was the image of actions; that laws were like cobwebs, for that if any trifling or powerless thing fell into them, they held it fast; while if it were something weightier, it broke through them and was off.' - Diogenes"
 			},
@@ -164,7 +165,6 @@
 				"prerequisites": ["Diplomacy","Land Grants"],
 				"uniques": [
 				"Resting point for Influence with City-States is increased by [20]",
-				"Enables Open Borders agreements",
 				],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},

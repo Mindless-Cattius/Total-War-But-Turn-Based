@@ -1039,7 +1039,7 @@
 	"Comment [Heavy infantry, a frontliner with a sword and a bad attitude. Great at holding the line, terrible at anything requiring speed or finesse.]"
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
-	"Unbuildable <in cities with a [Scenario Legion]> <hidden from users>",
+	"Unbuildable <with [Enable Legion]> <hidden from users> <hidden from users>",
       	"Only available <with [Enable Heavy Swordsman]> <hidden from users>",
     ],
     "promotions": [
