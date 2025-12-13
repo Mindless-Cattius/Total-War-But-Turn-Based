@@ -699,7 +699,7 @@ ResourceIcons/Purple Dye
   index: -1
 ResourceIcons/Ruler
   rotate: false
-  xy: 760, 1001
+  xy: 652, 461
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -713,7 +713,7 @@ ResourceIcons/Salt
   index: -1
 ResourceIcons/Sanitation
   rotate: false
-  xy: 652, 461
+  xy: 1164, 1618
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1054,6 +1054,13 @@ UnitPromotionIcons/Flanking
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Foraging
+  rotate: false
+  xy: 544, 13
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Forester
   rotate: false
   xy: 220, 61
@@ -1070,7 +1077,7 @@ UnitPromotionIcons/Frontline
   index: -1
 UnitPromotionIcons/Healing
   rotate: false
-  xy: 544, 13
+  xy: 760, 1001
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
