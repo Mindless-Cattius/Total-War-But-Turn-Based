@@ -1,12 +1,19 @@
 
 ImprovementIcons.png
-size: 64, 64
+size: 128, 64
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
-ImprovementIcons/Village
+ImprovementIcons/Roman Fort
   rotate: false
   xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Village
+  rotate: false
+  xy: 62, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
