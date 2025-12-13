@@ -1,4 +1,168 @@
-[
+[  
+{
+    "name": "Barbarian Spearman",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Spear",
+    "movement": 2,
+    "strength": 11,
+    "cost": 70,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Barbarian Pike Phalanx",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Spear",
+    "movement": 2,
+    "strength": 16,
+    "cost": 125,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+    ],
+    "promotions": [
+      "[Pike Phalanx] ability",
+      "Infantry Shield I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Barbarian Swordsman",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Sword",
+    "hurryCostModifier": 20,
+    "cost": 150,
+    "movement": 2,
+    "strength": 15,
+    "requiredTech": "Citizen Levy",
+    "uniques": [
+    ],
+    "promotions": [
+      "Infantry Shield II"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Barbarian Heavy Spearman",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Spear",
+    "cost": 200,
+    "movement": 2,
+    "strength": 18,
+    "requiredTech": "Military Reforms",
+    "uniques": [
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield III",
+      "Formation I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Barbarian Heavy Swordsman",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Sword",
+    "cost": 200,
+    "movement": 2,
+    "strength": 19,
+    "requiredTech": "Military Reforms",
+    "uniques": [
+    ],
+    "promotions": [
+      "Infantry Shield III",
+      "Drill I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Barbarian Horseman",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Mounted",
+    "hurryCostModifier": 20,
+    "cost": 110,
+    "movement": 4,
+    "strength": 13,
+    "requiredTech": "Riding",
+    "uniques": [
+    ],
+    "promotions": [
+      "[Horseman] ability",
+      "Scouting I",
+      "Cavalry Shield I"
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Barbarian Horse Archer",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Mounted Archery",
+    "hurryCostModifier": 20,
+    "cost": 180,
+    "movement": 4,
+    "strength": 8,
+    "rangedStrength": 11,
+    "requiredTech": "Riding",
+    "uniques": [
+    ],
+    "promotions": [
+      "Horse Archer ability",
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Barbarian Cavalry",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Mounted",
+    "hurryCostModifier": 20,
+    "cost": 170,
+    "movement": 3,
+    "strength": 17,
+    "requiredTech": "Equestrian Class",
+    "uniques": [
+    ],
+    "promotions": [
+      "[Cavalry] ability",
+      "Cavalry Shield II"
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Barbarian Archer",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 7,
+    "rangedStrength": 12,
+    "cost": 90,
+    "requiredTech": "Archery",
+    "uniques": [
+    ],
+    "promotions": [
+      "[Archer] ability"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Barbarian Slinger",
+    "uniqueTo": "The Barbarians",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 8,
+    "rangedStrength": 11,
+    "cost": 90,
+    "requiredTech": "Archery",
+    "uniques": [
+    ],
+    "promotions": [
+      "[Slinger] ability",
+    ],
+  },
   {
     "name": "Worker",
     "unitType": "Civilian",
@@ -719,6 +883,7 @@
   {
     "name": "Pike Phalanx",
     "unitType": "Spear",
+    "uniqueTo": "The Barbarians",
     "movement": 2,
     "strength": 16,
     "cost": 125,
