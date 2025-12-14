@@ -315,7 +315,6 @@
 		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted",
-		"Starts with [Steppe Authority] adopted",
 		"Comment [- Cannot build farm until the Imperial Age]",
 		],
 		"cities": [

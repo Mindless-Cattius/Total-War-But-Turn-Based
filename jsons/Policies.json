@@ -340,7 +340,7 @@
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
-                "column": 3
+                "column": 1
             },
             {
                 "name": "Royal Herd",
@@ -353,7 +353,7 @@
                     "[+1 Happiness] [in capital]",
                 ],
                 "row": 1,
-                "column": 1
+                "column": 3
             },
             {
                 "name": "The Nomadic Tribes",
@@ -371,6 +371,7 @@
  {
     "name": "Pastoral Lifeways",
     "uniques": [ 
+		"Comment [- Cannot build farm until the Imperial Age]",
          "Only available <for [The Scythians] Civilizations>"
                     	"[-10]% Production when constructing [Barracks] buildings [in all cities]",
                     	"[+10]% Production when constructing [Stable] buildings [in all cities]",
@@ -450,6 +451,7 @@
                 "requires": ["Royal Herd"],
       		"uniques": [
 			"Only available <before adopting [Oasis Settlements]>","Comment [Only available before adopting Oasis Settlements]",
+                   "Unavailable <for [The Scythians] Civilizations>"
         		"Comment [-Cannot build Farm until the Imperial Age]",
                     	"[+1 Food, +1 Happiness] from every [Nomadic Herd]",
         		"[+10]% Strength <for [Horse Archer] units>",
@@ -526,6 +528,7 @@
                 "name": "Oasis Settlements",
                 "requires": ["The Nomadic Tribes"],
                 "uniques": [
+                   "Unavailable <for [The Scythians] Civilizations>"
 			"Only available <before adopting [Steppe Authority]>","Comment [Only available before adopting Steppe Authority]",
         		"[+1 Food, +1 Gold] from [Oasis] tiles [in all cities]",
         		"[+1 Food] from [Farm] tiles [in all cities]",
@@ -595,7 +598,7 @@
                     "Unavailable <before the [Classical Age]>",
                 ],
                 "row": 6,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Trade Caravans",
@@ -607,7 +610,7 @@
                     "Unavailable <before the [Classical Age]>",
                 ],
                 "row": 6,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Eastern Contacts",
