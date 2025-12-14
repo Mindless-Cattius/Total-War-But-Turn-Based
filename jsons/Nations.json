@@ -308,13 +308,11 @@
 		"style": "Scythian",
 		"uniqueName": "Royal Scythians",
 		"uniques": [
-		"[+1 Food] per [5] population [in all cities] <before the [Imperial Age]>",
-    		"[+1 Gold] from [Camp] tiles [in all cities]"
 		"[+50]% [Happiness] from City-States",
 		"[+50]% Happiness from luxury resources gifted by City-States",
-		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted",
+		"Starts with [Pastoral Lifeways] adopted",
 		"Comment [- Cannot build farm until the Imperial Age]",
 		],
 		"cities": [
