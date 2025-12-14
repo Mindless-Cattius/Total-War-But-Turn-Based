@@ -332,7 +332,8 @@
         "policies": [
             {
                 "name": "Eastern Tribal Roots",
-                "uniques": [
+                "uniques": [ 
+                   "Unavailable <for [The Scythians] Civilizations>
                     "[+1 Culture] <in cities with at least [10] [Population]>",
                     "[+1 Culture] [in capital]",
                     "[+1 Gold, +1 Happiness] [in capital] <after adopting [Great Road Builders]>",
@@ -366,7 +367,84 @@
                 ],
                 "row": 1,
                 "column": 5
-            }, 
+            },
+ {
+    "name": "Pastoral Lifeways",
+    "uniques": [ 
+         "Only available <for [The Scythians] Civilizations>
+                    	"[-10]% Production when constructing [Barracks] buildings [in all cities]",
+                    	"[+10]% Production when constructing [Stable] buildings [in all cities]",
+        "[+1 Food] from [Pasture] tiles [in all cities]",
+        "Provides [2] [Horses]",
+        "Provides [1] [Manpower]",
+        "[+1 Happiness] [in capital]",
+                    "[+1 Gold, +1 Happiness] from every [Nomadic Herd]",
+    ],
+    "row": 2,
+    "column": 1
+},
+{
+    "name": "Mounted Traditions",
+    "requires": ["Pastoral Lifeways"],
+    "uniques": [
+        "[+10]% Strength <for [Horse Archer] units>",
+        "[+10]% Strength <for [Mounted] units> <when attacking>",
+        "[+20]% XP gained from combat <for [Mounted] units>",
+                    "[2] free [Horse Archer] units appear",
+        "Provides [2] [Horses]",
+        "Provides [3] [Manpower]",
+        "[+1 Happiness] [in capital]"
+    ],
+    "row": 3,
+    "column": 1
+},
+{
+    "name": "Nomad Prosperity",
+    "requires": ["Mounted Traditions"],
+    "uniques": [
+        "[+1 Food, +1 Gold, +1 Happiness] from [Pasture] tiles [in all cities]",
+        "[+1 Gold] from [Trading post] tiles [in all cities]",
+        "[+1 Food, +1 Gold] [in all cities] <when above [10] [Horses]>",
+        "Provides [1] [Veteran]",
+        "[+1 Happiness] [in all cities]"
+    ],
+    "row": 4,
+    "column": 1
+},
+{
+    "name": "Steppe Raider Economy",
+    "requires": ["Nomad Prosperity"],
+    "uniques": [
+        "[+20]% Yield from pillaging tiles <for [Mounted] units>",
+        "[+30]% Yield from pillaging tiles <for [Mounted Archery] units>",
+        "[+10]% Strength <for [Mounted] units>",
+        "Provides [1] [Horses]",
+        "[+1 Gold, +1 Food] from [Trading post] tiles [in all cities]",
+        "[-1 Production, +1 Gold] [in all cities]"
+        "[+3 Happiness] [in capital]"
+    ],
+    "row":5,
+    "column": 1
+},
+{
+    "name": "Great Scythian Horde",
+    "requires": ["Steppe Raider Economy"],
+    "uniques": [
+        "[+10]% unhappiness from the number of cities",
+        "[+10]% Strength <for [Mounted] units> <when fighting in [Open terrain] tiles>",
+        "[+10]% Strength <for [Horse Archer] units>",
+        "[+1 Happiness, +1 Gold] from [Trading post] tiles [in all cities]",
+        "[+1 Food, +1 Gold, +1 Happiness] [in all cities] <when above [10] [Horses]>",
+                    "[3] free [Horse Archer] units appear",
+        "Provides [3] [Horses]",
+        "Provides [1] [Nobles]",
+        "Provides [6] [Manpower]",
+        "[+5 Happiness] [in capital]"
+    ],
+    "row": 6,
+    "column": 1
+},
+
 	    {
       		"name": "Steppe Authority",
                 "requires": ["Royal Herd"],
@@ -386,7 +464,7 @@
         		"[-1 Happiness] [in all cities]"
       ],
       			"row": 2,
-			"column": 1
+			"column": 3
     	    },
             {
                 "name": "Parthian Tactics",
@@ -394,16 +472,14 @@
                 "uniques": [
                     "[+10]% Strength <for [Mounted Archery] units> <vs [Sword] units>",
                     "[+10]% Strength <for [Skirmisher] units> <vs [Ranged] units>",
-                    "[+10]% Strength <for [Mounted Archery] units> <vs [Spear] units> <for [The Scythians] Civilizations>",
         		"[+10]% Strength <for [Veteran] units> <when above [3] [Horses]>",
                     "[2] free [Horse Archer] units appear",
                     "Provides [2] [Horses]",
                     "Provides [2] [Manpower]",
                     "[+1 Happiness] [in capital]",
-                    "[-2 Happiness] [in capital] <for [The Scythians] Civilizations>",
                 ],
                 "row": 3,
-                "column": 1
+                "column": 3
             },
             {
                 "name": "Steppe Kingship",
@@ -411,7 +487,6 @@
                 "uniques": [
         		"[+20]% Strength <when defending> <for [Mounted Archery] units> <for [The Roxolani] Civilizations>",
         		"[+10]% Strength <for [Spear] units> <for [The Armenians] Civilizations>",
-                    	"[+10]% Strength <for [Spearman] units> <when defending> <for [The Scythians] Civilizations>",
         		"[+10]% Strength <for [Mounted] units> <when defending>",
         		"Provides [2] [Manpower]",
         		"Provides [1] [Veteran]",
@@ -426,7 +501,7 @@
                     	"[+1 Happiness] [in capital]",
                 ],
                 "row": 4,
-                "column": 1
+                "column": 3
             },
             {
                 "name": "Steppe Warhost",
@@ -445,7 +520,7 @@
         		"[-1 Production, +1 Happiness] [in all cities]",
                 ],
                 "row": 5,
-                "column": 1
+                "column": 3
             },
             {
                 "name": "Oasis Settlements",

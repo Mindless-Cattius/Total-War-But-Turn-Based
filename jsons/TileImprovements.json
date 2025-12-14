@@ -14,6 +14,7 @@
 		"[+1 Food] from [non-fresh water] tiles <in cities with a [Aqueduct]>",
 		"Pillaging this improvement yields approximately [+40 Gold]",
 		"Unbuildable <before the [Imperial Age]> <after adopting [Steppe Authority]>",
+		"Unbuildable <before the [Imperial Age]> <after adopting [Pastoral Lifeways]>",
 		"[-1 Food] <after adopting [Steppe Authority]>",
 	]		
 		"shortcutKey": "F",
