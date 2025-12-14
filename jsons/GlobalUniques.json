@@ -11,10 +11,6 @@
 	"Provides [40] [Manpower] <in [in City-State cities] cities>"
 	"[-1] Range <for [Scout] units>",
 	"May not annex cities <during the [Archaic Age]>",
-	 "[-30]% Science cost of researching new Technologies <during the [Archaic Age]>",
-	"[+70]% Science cost of researching new Technologies <during the [Classical Age]>",
-	"[+100]% Science cost of researching new Technologies <during the [Hellenistic Age]>",
-	"[+140]% Science cost of researching new Technologies <during the [Imperial Age]>",
 	"Military Units gifted from City-States start with [30] XP",
 	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
 	"Retain [+20]% of the happiness from a luxury after the last copy has been traded away",
@@ -57,9 +53,9 @@
 //MANPOWER
 	
 	"[Gold] cost of purchasing [Military] units [-2]% <when above [10] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-1]% <when above [30] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [30] [Manpower]>",
 	"[Gold] cost of purchasing [Military] units [-2]% <when above [40] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-1]% <when above [50] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [50] [Manpower]>",
 	"[Gold] cost of purchasing [Military] units [-2]% <when above [60] [Manpower]>",
 	"[Gold] cost of purchasing [Military] units [-2]% <when above [70] [Manpower]>",
 	"[Gold] cost of purchasing [Military] units [-2]% <when above [80] [Manpower]>",
