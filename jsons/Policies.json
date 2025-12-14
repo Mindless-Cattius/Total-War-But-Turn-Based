@@ -333,7 +333,7 @@
             {
                 "name": "Eastern Tribal Roots",
                 "uniques": [ 
-                   "Unavailable <for [The Scythians] Civilizations>
+                   "Unavailable <for [The Scythians] Civilizations>"
                     "[+1 Culture] <in cities with at least [10] [Population]>",
                     "[+1 Culture] [in capital]",
                     "[+1 Gold, +1 Happiness] [in capital] <after adopting [Great Road Builders]>",
@@ -371,7 +371,7 @@
  {
     "name": "Pastoral Lifeways",
     "uniques": [ 
-         "Only available <for [The Scythians] Civilizations>
+         "Only available <for [The Scythians] Civilizations>"
                     	"[-10]% Production when constructing [Barracks] buildings [in all cities]",
                     	"[+10]% Production when constructing [Stable] buildings [in all cities]",
         "[+1 Food] from [Pasture] tiles [in all cities]",
