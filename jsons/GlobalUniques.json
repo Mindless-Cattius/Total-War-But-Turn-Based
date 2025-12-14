@@ -3,6 +3,7 @@
     "uniques": [ 
 // ADDONS
 // GLOBAL
+	"[-20]% growth [in all cities]",
 	"May not annex cities <when at war>",
 	"Gain a free [Rebellious Citizens] [in puppeted cities]",
 	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
@@ -22,8 +23,8 @@
         "[{Military} {Land}] units gain the [Healing] promotion",
         "May buy items in puppet cities",
 	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
-	"[+20]% Yield from pillaging tiles <during the [Imperial Age]>",
-	"[+40]% Yield from pillaging tiles <during the [Archaic Age]>",
+	"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
+	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",
 
 //Units
 
@@ -40,14 +41,14 @@
 
 	
         "[-1 Gold, +1 Food] [in all cities] <when above [1] [Nobles]>",	
-        "[-1 Food, +1 Happiness] [in all cities] <when above [2] [Nobles]>",	
+        "[+1 Food, +1 Happiness] [in all cities] <when above [2] [Nobles]>",	
         "[+1 Gold, +1 Faith] [in all cities] <when above [3] [Nobles]>",	
         "[+1 Gold, +1 Production] [in all cities] <when above [4] [Nobles]>",
 
 //GOLD
 
-	"[Gold] cost of purchasing [Military] units [+10]% <when at war> <before the [Imperial Age]> <for [Human player] Civilizations>",
-	"[Gold] cost of purchasing [Military] units [+30]% <when at war> <during the [Imperial Age]> <for [Human player] Civilizations>",
+	"[Gold] cost of purchasing [Military] units [+10]% <when at war> <before the [Imperial Age]>",
+	"[Gold] cost of purchasing [Military] units [+30]% <when at war> <during the [Imperial Age]>",
 
 
 //MANPOWER
