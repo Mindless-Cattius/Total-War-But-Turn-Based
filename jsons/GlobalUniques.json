@@ -4,8 +4,6 @@
 // ADDONS
 // GLOBAL
 	"[-20]% growth [in all cities]",
-	"[-10]% growth [in all cities] <after the [Archaic Age]>",
-	"[-10]% growth [in all cities]",
 	"May not annex cities <when at war>",
 	"May not annex cities <during the [Archaic Age]>",
 	"Gain a free [Rebellious Citizens] [in puppeted cities]",
@@ -19,8 +17,6 @@
 	"Retain [+20]% of the happiness from a luxury after the last copy has been traded away",
         "[-1] Sight <for [Embarked] units>",
         "[+100]% Culture cost of adopting new Policies",
-        "[+30]% Culture cost of adopting new Policies <after the [Classical Age]>",
-	"May not annex cities ",
         "[{Military} {Water}] units gain the [Warship] promotion",
         "[{Military} {Land}] units gain the [War Transports] promotion",
         "[{Military} {Land}] units gain the [Healing] promotion",

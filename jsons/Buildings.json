@@ -918,7 +918,7 @@
 		"[-1 Happiness, +1 Food, +1 Gold] from [Village] tiles [in this city]",
 		"[-1 Food] from [Fort] tiles [in this city]",
 		"Cost increases by [20] per owned city",
-		"Providess [1] [Sanitation]",
+		"Provides [1] [Sanitation]",
 		"Provides [2] [Decadence]",
 		"Unbuildable <after adopting [Zealotry]>",
 		],
@@ -1116,7 +1116,7 @@
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [2] [Manpower]",
 			"Provides [1] [Manpower] <during the [Imperial Age]>",
-			"[+10]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
+			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 			"Cost increases by [10] per owned city",
 			"Destroyed when the city is captured"
 			"[+100]% weight to this choice for AI decisions",
@@ -1137,7 +1137,7 @@
 		"Consumes [1] [Decadence] <in cities with a [Syssition]>",
 		"New [Spear] units start with [10] XP [in this city]",
 		"Cost increases by [20] per owned city",
-		"[+10]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
+		"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Citizen Levy"
@@ -1169,6 +1169,8 @@
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
+			"[+10]% Production when constructing [Spear] units [in this city]",
+			"[+10]% Production when constructing [Swordsman] units [in this city]",
 			"New [Spearman] units start with [5] XP [in this city]",
 			"New [Scout] units start with [5] XP [in this city]",
 			"New [Sword] units start with [5] XP [in this city]",

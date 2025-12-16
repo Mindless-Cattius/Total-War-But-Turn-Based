@@ -21,7 +21,7 @@
     "strength": 16,
     "cost": 100,
     "requiredTech": "Bronze Working",
-    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Pike Phalanx] ability",
@@ -37,7 +37,7 @@
     "movement": 2,
     "strength": 15,
     "requiredTech": "Citizen Levy",
-    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "Infantry Shield II"
@@ -51,7 +51,7 @@
     "movement": 2,
     "strength": 18,
     "requiredTech": "Military Reforms",
-    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -67,7 +67,7 @@
     "movement": 2,
     "strength": 19,
     "requiredTech": "Military Reforms",
-    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "Infantry Shield III",
@@ -83,7 +83,7 @@
     "movement": 4,
     "strength": 13,
     "requiredTech": "Riding",
-    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Horseman] ability",
@@ -101,7 +101,7 @@
     "strength": 8,
     "rangedStrength": 11,
     "requiredTech": "Riding",
-    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "Horse Archer ability",
@@ -116,7 +116,7 @@
     "movement": 3,
     "strength": 17,
     "requiredTech": "Equestrian Class",
-    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -132,7 +132,7 @@
     "rangedStrength": 12,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Archer] ability"
@@ -147,7 +147,7 @@
     "rangedStrength": 11,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Slinger] ability",
