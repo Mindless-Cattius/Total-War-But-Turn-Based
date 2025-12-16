@@ -3,9 +3,9 @@
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
-		"cost": 120,
-		"production": 3,
-		"science": 3,
+		"cost": 90,
+		"production": 2,
+		"science": 2,
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 3,
@@ -31,7 +31,7 @@
 		"cost": 200,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"production": 3,
+		"production": 2,
 		"culture": 1,
 		"happiness": 1,
 		"cityHealth": 20,
@@ -91,7 +91,7 @@
 	{
 		"name": "Pirate Haven (Cretan)",
 		"requiredBuilding": "Mercenary Camp",
-		"cost": 80,
+		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
@@ -112,7 +112,7 @@
 	{
 		"name": "Pirate Haven (Cilician)",
 		"requiredBuilding": "Mercenary Camp",
-		"cost": 80,
+		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
@@ -133,7 +133,7 @@
 	// Mythology
 	{
 		"name": "Shrine",
-		"cost": 40,
+		"cost": 30,
 		"maintenance": 0,
 		"culture": 1,
 		"requiredTech": "Mythology",
@@ -159,7 +159,7 @@
 		"name": "Palace Library",
 		"requiredBuilding": "Palace",
 		"hurryCostModifier": 25,
-		"cost": 130,
+		"cost": 100,
 		"maintenance": 2,
 		"science": 3,
 		"specialistSlots": {"Scholar": 1},
@@ -180,7 +180,7 @@
 		"maintenance": 2,
 		"happiness": 2,
 		"culture": 1,
-		"cost": 120,
+		"cost": 100,
 		"specialistSlots": {"Magistrate": 3},
 		"uniques": [
 		"Provides [1] [Decadence] <during the [Classical Age]>",
@@ -201,7 +201,7 @@
 		"name": "Courthouse",
 		"hurryCostModifier": 50,
 		"maintenance": 2,
-		"cost": 80,
+		"cost": 70,
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [
 		"Provides [1] [Decadence]",
@@ -219,7 +219,7 @@
 		"name": "Perfumery",
 		"requiredNearbyImprovedResources": ["Incense","Citrus","Honey"],
 		"hurryCostModifier": 25,
-		"cost": 80,
+		"cost": 70,
 		"maintenance": 2,
 		"uniques": [
 		"Provides [1] [Decadence] <during the [Imperial Age]>",
@@ -231,7 +231,7 @@
 	{
 		"name": "Pleasure Chambers",
 		"requiredBuilding": "Council of Nobles",
-		"cost": 100,
+		"cost": 90,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"happiness": 3,
@@ -272,7 +272,7 @@
 		"maintenance": 2,
 		"culture": 1,
 		"happiness": 2,
-		"cost": 90,
+		"cost": 80,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
 		"Provides [1] [Decadence]",
@@ -297,7 +297,7 @@
 		"uniques": [ 
 		"Provides [1] [Sanitation]",
 			"Consumes [1] [Decadence] <during a Golden Age>",
-		"[+10]% Natural religion spread [in this city]",
+		"[+5]% Natural religion spread [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"Cost increases by [10] per owned city",
 		"[+20]% weight to this choice for AI decisions",
@@ -314,7 +314,7 @@
 		"happiness": 2,
 		"faith": 1,
 		"uniques": [
-			"Cost increases by [15] per owned city",
+			"Cost increases by [10] per owned city",
 			"Provides [1] [Decadence]"
 ],
 		"requiredTech": "Mysticism"
@@ -403,7 +403,7 @@
 		"name": "Tavern",
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
-		"cost": 170,
+		"cost": 140,
 		"maintenance": 1,
 		"happiness": 1,
 		"uniques": [
@@ -422,7 +422,7 @@
 		"requiredBuilding": "Market",
 		"requiredNearbyImprovedResources": ["Fish","Crab"],
 		"hurryCostModifier": 25,
- 		"cost": 140,
+ 		"cost": 120,
 		"maintenance": 1,
 		"Food": 1,
 		"happiness": 1,
@@ -461,7 +461,7 @@
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 			"Provides [1] [Sanitation]",
-			"[+1 Science] per [5] population [in this city]",
+			"[+1 Science] per [8] population [in this city]",
 			"[+1 Science] <in cities with a [Scriptorium]>", 
 			"[+1 Food] <in cities with a [Herbalist]>",
 			"Cost increases by [15] per owned city",
@@ -477,7 +477,7 @@
 		"cost": 120,
 		"happiness": 1,
 		"uniques": [
-			"[+20]% Great Person generation [in this city]", 
+			"[+10]% Great Person generation [in this city]", 
 			"Must be next to [Fresh water]"
 			"Provides [1] [Decadence]",
 			"Cost increases by [15] per owned city",
@@ -541,12 +541,12 @@
 		"name": "Granary",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
- 		"cost": 60,
+ 		"cost": 50,
 		"food": 2,
 		"cityHealth": 10,
 		"uniques": [
 			"[+1 Food] from [Plantation] tiles [in this city]",
-			"[+2 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
 			"Cost increases by [10] per owned city",
 ],
 		"requiredTech": "Pottery"
@@ -555,7 +555,7 @@
 		"name": "Brick Maker",
 		"requiredBuilding": "Ceramics Workshop",
 		"hurryCostModifier": 25,
- 		"cost": 80,
+ 		"cost": 60,
 		"maintenance": 1,
 		"uniques": [
 			"Cost increases by [10] per owned city",
@@ -580,7 +580,7 @@
 		"gold": 2,
 		"requiredTech": "Barter"
 		"uniques": [
-		"Cost increases by [10] per owned city",
+		"Cost increases by [5] per owned city",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Village] tiles [in this city]",
 		"[+1 Food, +1 Gold] from [Cattle] tiles [in this city]",
@@ -610,9 +610,9 @@
 		"maintenance": 2,
 		"uniques": [
 			"[+1 Gold] from [Trading post] tiles [in this city]",
-			"Cost increases by [10] per owned city",
 			"Provides [1] [Ceramics]",
 			"[+1 Gold] <in cities with a [Olive Mill]>",
+			"Cost increases by [10] per owned city",
 		],
 		"requiredTech": "Barter"
 	},
@@ -652,12 +652,12 @@
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"gold": 4,
-		"cost": 900,
+		"cost": 800,
 		"happiness": 1,
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-			"[+1 Gold] per [5] population [in this city]",
+			"[+1 Gold] per [8] population [in this city]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+2 Gold] from [Village] tiles [in this city]",
 			"[+2 Gold] <in cities with a [Jeweler]>",
@@ -684,7 +684,7 @@
 		"hurryCostModifier": 25,
 		"happiness": 1,
 		"gold": 3,
-		"cost": 60,
+		"cost": 50,
 		"culture": 1,
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchant": 1},
@@ -738,7 +738,7 @@
 	{
 		"name": "Mercenary Camp",
 		"requiredBuilding": "Muster Field",
-		"cost": 110,
+		"cost": 80,
 		"cityHealth": 20,
 		"maintenance": 5,
 		"uniques": [
@@ -775,7 +775,7 @@
 		"name": "Weavery",
 		"requiredNearbyImprovedResources": ["Sheep","Flax","Hemp","Cotton"],
 		"hurryCostModifier": 25,
-		"cost": 160,
+		"cost": 130,
 		"maintenance": 1,
 		"uniques": [
 		"[+1 Gold] from [Sheep] tiles [in this city]",
@@ -798,7 +798,7 @@
 		"requiredBuilding": "Market",
 		"gold": 2,
 		"happiness": 1,
-		"cost": 200,
+		"cost": 160,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -821,7 +821,7 @@
 		"hurryCostModifier": 35,
 		"happiness": 1,
 		"gold": 3,
-		"cost": 200,
+		"cost": 160,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Provides [1] [Silk]",
@@ -842,7 +842,7 @@
 		"hurryCostModifier": 25,
 		"happiness": 2,
 		"gold": 2,
-		"cost": 150,
+		"cost": 120,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Provides [1] [Amber]",
@@ -853,6 +853,7 @@
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Consumes [1] [Sanitation]",
+			"Cost increases by [15] per owned city",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -884,7 +885,7 @@
 		"name": "Slave Trader",
 		"quote": "Diogenes was captured by pirates and sold to slavery. When the slave auctioneer asked in what he was proficient, he replied, 'In ruling people.'",
 		"gold": 5,
- 		"cost": 300,
+ 		"cost": 200,
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
@@ -897,6 +898,7 @@
 		"Limited to [3] per Civilization <after adopting [Golden Age of Piracy]>",
 		"Limited to [3] per Civilization <after adopting [War Economy]>",
 		"Unbuildable <after adopting [Slave Liberation]>",
+			"Cost increases by [100] per owned city",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Private Estates"
@@ -907,7 +909,7 @@
 		"maintenance": 4,
 		"happiness": 4,
 		"cityHealth": 50,
- 		"cost": 300,
+ 		"cost": 200,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
 		"Provides [2] [Decadence]",
@@ -915,6 +917,7 @@
 		"[+2 Gold, +1 Food] from [Trading post] tiles [in this city]",
 		"[-1 Happiness, +1 Food, +1 Gold] from [Village] tiles [in this city]",
 		"[-1 Food] from [Fort] tiles [in this city]",
+			"Cost increases by [20] per owned city",
 		"Unbuildable <after adopting [Zealotry]>",
 		],
 		"requiredTech": "Private Estates"
@@ -946,11 +949,10 @@
 		"name": "Nomadic Herd",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
- 		"cost": 60,
+ 		"cost": 40,
 		"food": 2,
 		"uniques": [
 		"New [Mounted Archery] units start with [10] XP [in this city]",
-		"[+20]% Production when constructing [Mounted Archery] units [in this city]",
 		"Provides [1] [Manpower] <while the empire is happy>",
 		"Provides [1] [Horses]",
 		"[+2 Gold] from [Trading post] tiles [in this city]",
@@ -991,7 +993,6 @@
 		"maintenance": 2,
 		"cityHealth": 20,
 		"uniques": [
-		"[+10]% Production when constructing [Mounted] units [in this city]",
 		"[+1 Production] from [Horses] tiles [in this city]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Culture] from [Fort] tiles [in this city]",
@@ -1070,7 +1071,7 @@
 	{
 		"name": "Aqueduct",
 		"requiredBuilding": "Brick Maker",
- 		"cost": 270,
+ 		"cost": 250,
 		"cityHealth": 20,
 		"hurryCostModifier": 25,
 		"maintenance": 3,
@@ -1106,7 +1107,7 @@
 		"requiredBuilding": "Muster Field",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
- 		"cost": 150,
+ 		"cost": 130,
 		"happiness": 1,
 		"cityHealth": 40,
 		"uniques": [
@@ -1123,7 +1124,7 @@
 	{
 		"name": "Syssition",
 		"replaces": "Barracks",
- 		"cost": 150,
+ 		"cost": 130,
 		"uniqueTo": "The Spartans",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -1142,7 +1143,7 @@
 	{
 		"name": "Citizen Assembly",
 		"hurryCostModifier": 25,
- 		"cost": 150,
+ 		"cost": 100,
 		"maintenance": 2,
 		"happiness": 3,
 		"culture": 2,
@@ -1161,13 +1162,11 @@
 		"hurryCostModifier": 25,
 		"maintenance": 7,
 		"cityHealth": 50,
-		"Cost": 500,
+		"Cost": 400,
 		"uniques": [
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"[+20]% Production when constructing [Sword] units [in this city] <in cities with a [Forge]>",
-			"[+10]% Production when constructing [General] units [in this city] <in cities with a [Forge]>",
 			"New [Spearman] units start with [5] XP [in this city]",
 			"New [Scout] units start with [5] XP [in this city]",
 			"New [Sword] units start with [5] XP [in this city]",
@@ -1260,7 +1259,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"production": 1,
- 		"cost": 60,
+ 		"cost": 50,
 		"uniques": [
 		"Provides [3] [Bronze]",
 		"Consumes [2] [Copper]",
@@ -1280,7 +1279,7 @@
 		"happiness": 1,
 		"cityStrength": 12,
 		"cityHealth": 100,
-		"cost": 150,
+		"cost": 130,
 		"uniques": [
 		"Consumes [1] [Manpower]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -1312,10 +1311,10 @@
 		"name": "Stone Works",
 		"hurryCostModifier": 0,
 		"maintenance": 1,
- "cost": 100,
+ 		"cost": 90,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"uniques": [
-			"[+10]% Production when constructing [All] buildings [in this city]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
 			"[+1 Happiness] from [Marble] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Production] from [Village] tiles [in this city]",
@@ -1327,7 +1326,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"happiness": 1,
- "cost": 150,
+ 		"cost": 150,
 		"gold": 1,
 		"cityHealth": 50,
 		"cityStrength": 5,
@@ -1446,7 +1445,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"New [Archery] units start with [5] XP [in this city]",
-			"[+5]% Production when constructing [Archery Range] buildings [in this city]",
+			"[+10]% Production when constructing [Archery Range] buildings [in this city]",
 			"[+1 Food] from [Deer] tiles [in this city]",
 			"[+2 Gold] from [Furs] tiles [in this city]",
 			"[+2 Food] from [Deer] tiles [in this city] <for [The Scythians] Civilizations>",
@@ -1461,7 +1460,7 @@
 		"name": "Archery Range",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
- 		"cost": 80,
+ 		"cost": 50,
 		"cityStrength": 2,
 		"cityHealth": 15,
 		"uniques": [
@@ -1475,8 +1474,8 @@
 		"name": "Workshop",
 		"requiredBuilding": "Coal Pile",
 		"maintenance": 1,
-		"production": 2,
- 		"cost": 200,
+		"production": 1,
+ 		"cost": 150,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 5},
@@ -1484,6 +1483,7 @@
 			"[+1 Production] from [Timber] tiles [in this city]"
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Village] tiles [in this city]",
+			"Cost increases by [10] per owned city",
 		],
 		"requiredTech": "Engineering"
 	},
@@ -1493,7 +1493,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"cityStrength": 2,
- 		"cost": 500,
+ 		"cost": 400,
 		"cityHealth": 50,
 		"uniques": [
 			"Provides [1] [Decadence]",
@@ -1522,7 +1522,7 @@
 		"cityHealth": 150,
 		"happiness": 1,
 		"hurryCostModifier": 25,
-		"Cost": 500,
+		"Cost": 400,
 		"uniques": [
 			"Consumes [1] [Manpower]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
@@ -1538,7 +1538,7 @@
 		"food": 1,
 		"gold": 2,
 		"culture": 1,
- 		"cost": 80,
+ 		"cost": 70,
 		"cityHealth": 20,
 		"uniques": [
 		"Only available <in cities without a [Harbor]> <hidden from users>","Only available <in cities without a [Great Harbor]> <hidden from users>",
@@ -1567,8 +1567,8 @@
 		"requiredNearbyImprovedResources": ["Timber"],
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"production": 2,
- 		"cost": 100,
+		"production": 1,
+ 		"cost": 80,
 		"uniques": [
 			"[+1 Production] from [Timber] tiles [in this city]",
 			"[+1 Production] from [Olives] tiles [in this city]",
@@ -1590,7 +1590,7 @@
 		"production": 1,
 		"culture": 2,
 		"cityHealth": 20,
-		 "cost": 200,
+		 "cost": 170,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 			"Consumes [1] [Manpower]",
@@ -1605,6 +1605,7 @@
 			"Must be next to [Coast]",
 			"Remove [Anchorage] [in this city]",
 			"Only available <in cities without a [Great Harbor]> <hidden from users>",
+			"Cost increases by [10] per owned city",
 		],
 		"requiredTech": "Shipbuilding"
 	},
@@ -1612,13 +1613,14 @@
 		"name": "Drydock",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
- 		"cost": 200,
+ 		"cost": 130,
 		"uniques": [
 			"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
 			"[Water] Units adjacent to this city heal [20] HP per turn when healing",
 			"[+5]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Food] from [Village] tiles [in this city]",
+			"Cost increases by [20] per owned city",
 			"Consumes [1] [Manpower]",
 			"Must be next to [Coast]"
 		],
@@ -1634,7 +1636,7 @@
 		"cityHealth": 20,
 		"science": 1,
 		"happiness": 2,
- 		"cost": 190,
+ 		"cost": 130,
 		"uniques": [
 			"New [{Military} {Water}] units start with [15] XP [in this city]",
 			"[Water] Units adjacent to this city heal [25] HP per turn when healing",
@@ -1642,6 +1644,7 @@
 			"[+10]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"Cost increases by [15] per owned city",
 		],
 		"requiredTech": "Shipbuilding"
 	},
@@ -1688,10 +1691,10 @@
 		"hurryCostModifier": 25,
 		"maintenance": 4,
 		"food": 3,
-		"production": 2,
-		"culture": 3,
+		"production": 1,
+		"culture": 1,
 		"cityHealth": 35,
- 		"cost": 500,
+ 		"cost": 300,
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
 			"Connects trade routes over water",
@@ -1830,7 +1833,7 @@
 		"name": "Ballistics Range",
 		"requiredBuilding": "Skirmisher Barracks",
 		"hurryCostModifier": 50,
-		"Cost":600,
+		"Cost":400,
 		"maintenance": 5,
 		"cityStrength": 3,
 		"cityHealth": 10,
@@ -1849,7 +1852,7 @@
 		"requiredBuilding": "Army Barracks",
 		"isNationalWonder": true,
 		"hurryCostModifier": 50,
-		"Cost":800,
+		"Cost":500,
 		"maintenance": 10,
 		"cityStrength": 5,
 		"cityHealth": 100,
@@ -1870,7 +1873,7 @@
 		"name": "Siege Workshop",
 		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 50,
-		"Cost":200,
+		"Cost":100,
 		"maintenance": 5,
 		"cityStrength": 5,
 		"cityHealth": 10,
@@ -1885,7 +1888,7 @@
 		"name": "Sacred Grove",
 		"requiredBuilding": "Muster Field",
 		"hurryCostModifier": 25,
-		"Cost":80,
+		"Cost":60,
 		"maintenance": 1,
 		"culture": 1,
 		"cityHealth": 5,
@@ -1902,7 +1905,7 @@
 	{
 		"name": "Palisade",
 		"hurryCostModifier": 20,
-		"Cost":30,
+		"Cost":20,
 		"maintenance": 1,
 		"cityHealth": 30,
 		"uniques": [
@@ -1916,21 +1919,20 @@
 		"hurryCostModifier": 20,
 		"Cost":100,
 		"maintenance": 1,
-		"cityHealth": 80,
-		"uniques": [ 
-		"Provides [1] [Sanitation]",
+		"cityHealth": 150,
+		"uniques": [
 		"Consumes [1] [Manpower]",
 		"Destroyed when the city is captured",
+			"Cost increases by [10] per owned city",
 		],
 		"requiredTech": "Citizen Levy"
 	},
 	{
 		"name": "Imperial Armory",
 		"requiredBuilding": "Imperial Barracks",
-		"Cost":1500,
+		"Cost":1300,
 		"isNationalWonder": true,
 		"maintenance": 10,
-		"production": 1,
 		"cityStrength": 2,
 		"cityHealth": 40,
 		"requiredTech": "Crossbow Engineering",
@@ -1950,13 +1952,14 @@
 		"requiredBuilding": "Spice Road",
 		"requiredNearbyImprovedResources": ["Camels"],
 		"hurryCostModifier": 25,
-		"cost": 200,
+		"cost": 80,
 		"maintenance": 0,
 		"gold": 2,
 		"uniques": [ 
             "[Camel Archer] units gain the [Camels Scare Horses] promotion",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Production] from [Village] tiles [in this city]",
+			"Cost increases by [20] per owned city",
 		]
 		"requiredTech": "Barter"
 	},
@@ -1970,8 +1973,7 @@
                     	"[-10]% Strength <when attacking> <for [Military] units>", 
                     	"[+10]% Strength <for [General] units>",
 			"[-1 Happiness] [in all cities]",
-			"[-1 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
-			"[-1 Gold, -1 Happiness] from [Village] tiles [in this city]",
+			"[-1 Gold, -1 Happiness] from [improved] tiles [in capital]",
 			"Unbuildable",
 			"Destroyed when the city is captured",
 		]
@@ -2112,15 +2114,14 @@
 	},
 
 
-	//		Gain a free [Palace] [in this city] <in cities without a [buildingFilter]>		--- Rebel and plague
+	//				--- Rebel and plague
 	{
 		"name": "Rebellious Citizens",
 		"cost": 0,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"[-1 Food, -1 Gold] from [improved] tiles [in this city]",
+			"[-1 Food, -1 Gold, -1 Happiness] from [improved] tiles [in this city]",
 			"Consumes [2] [Manpower]",
-			"Consumes [2] [Decadence]",
 			"Rebel units may spawn <with [70]% chance>",
 			"Remove [Rebellious Citizens] [in all cities] <every [10] turns> <when not at war>",
 			"Unbuildable",
@@ -2139,13 +2140,14 @@
 		"Gain a free [Dangerious Plague] [in this city] <with [2]% chance> <in cities without a [Dangerious Plague]> <when below [3] [Sanitation]> <hidden from users>",
 		"Gain a free [Dangerious Plague] [in this city] <with [2]% chance> <in cities without a [Dangerious Plague]> <in cities without a [Plague]> <when between [1] and [20] [Sanitation]> <hidden from users>",
 		"Gain a free [Dangerious Plague] [in this city] <with [1]% chance> <in cities without a [Dangerious Plague]> <in cities without a [Plague]> <when above [20] [Sanitation]> <hidden from users>",
-			"[+1 Food] from [Village] tiles [in this city] <when above [25] [Sanitation]> <hidden from users>"
-			"[+1 Food] from [Village] tiles [in this city] <when above [15] [Sanitation]> <hidden from users>"
-			"[+1 Food] from [Village] tiles [in this city] <when above [5] [Sanitation]> <hidden from users>"
-			"[+2 Gold] from [Trading post] tiles [in this city] <when above [20] [Sanitation]> <hidden from users>"
-			"[+2 Gold] from [Trading post] tiles [in this city] <when above [10] [Sanitation]> <hidden from users>"
+			"[+1 Food] from [Village] tiles [in all cities] <when above [30] [Sanitation]> <hidden from users>"
+			"[+1 Food] from [Village] tiles [in all cities] <when above [20] [Sanitation]> <hidden from users>"
+			"[+1 Food] from [Village] tiles [in all cities] <when above [10] [Sanitation]> <hidden from users>"
+			"[+1 Gold] from [Trading post] tiles [in all cities] <when above [30] [Sanitation]> <hidden from users>"
+			"[+1 Gold] from [Trading post] tiles [in all cities] <when above [20] [Sanitation]> <hidden from users>"
+			"[+1 Gold] from [Trading post] tiles [in all cities] <when above [10] [Sanitation]> <hidden from users>"
 			"Comment [+1 Food from Village tiles per 10 Sanitation up to 3]",
-			"Comment [+2 Gold from Trading post tiles per 10 Sanitation up to 4]",
+			"Comment [+1 Gold from Trading post tiles per 10 Sanitation up to 3]",
 "Unbuildable","Unsellable",
 		]
 	},
@@ -2160,7 +2162,7 @@
 "Remove [Plague] [in this city] <with [5]% chance> <in cities with a [Plague]> <when above [10] [Sanitation]> <hidden from users>",
 "Remove [Plague] [in this city] <with [5]% chance> <in cities with a [Plague]> <when above [25] [Sanitation]> <hidden from users>",
  			"[+1 Faith, +1 Science, -2 Happiness]",
-			"[-1 Gold, -1 Food, -1 Culture] from [all] tiles [in all cities]",
+			"[-2 Gold, -2 Food] from [improved] tiles [in all cities]",
 			"[-1] HP when healing <for [Military] units> <in [Enemy Land] tiles>",
 			"Consumes [1] [Decadence]",
 			"Consumes [1] [Manpower]",
@@ -2177,7 +2179,7 @@
 "Remove [Dangerious Plague] [in this city] <with [3]% chance> <in cities with a [Dangerious Plague]> <when above [10] [Sanitation]> <hidden from users>",
 "Remove [Dangerious Plague] [in this city] <with [5]% chance> <in cities with a [Dangerious Plague]> <when above [25] [Sanitation]> <hidden from users>",
  			"[+2 Faith, +2 Science, -4 Happiness]",
-			"[-3 Gold, -2 Food, -1 Culture] from [all] tiles [in all cities]",
+			"[-3 Gold, -3 Food] from [improved] tiles [in all cities]",
 			"[-1] HP when healing <for [Military] units>",
 			"Consumes [2] [Decadence]",
 			"Consumes [2] [Manpower]",
@@ -2190,7 +2192,7 @@
 		"requiredTech": "Equestrian Class",
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
-		"happiness": 2,
+		"happiness": 1,
 		"uniques": [ 
 			"Comment [-Invest in sanitation… or don’t. The plagues will happily invest in you.]",
 			"Provides [1] [Sanitation]",
@@ -2201,9 +2203,9 @@
 	"name": "Public Bathhouse",
 		"requiredBuilding": "Aqueduct",
 		"requiredTech": "Private Estates",
-		"cost": 300
-		"maintenance": 2,
-		"happiness": 4,
+		"cost": 250
+		"maintenance": 5,
+		"happiness": 2,
 		"uniques": [ 
 			"Provides [2] [Sanitation]",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",

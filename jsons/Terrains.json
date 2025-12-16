@@ -182,8 +182,7 @@
 	{
 		"name": "Forest",
 		"type": "TerrainFeature",
-		"production": 1,
-		"food": 2,
+		"food": 1,
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
@@ -206,7 +205,7 @@
 	{
 		"name": "Jungle",
 		"type": "TerrainFeature",
-		"food": 3,
+		"food": 2,
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
@@ -229,7 +228,7 @@
 	{
 		"name": "Marsh",
 		"type": "TerrainFeature",
-		"food": 3,
+		"food": 2,
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.2,
@@ -258,7 +257,7 @@
 	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
-		"food": 3,
+		"food": 2,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],

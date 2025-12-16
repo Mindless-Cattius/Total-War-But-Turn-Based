@@ -4,7 +4,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 11,
-    "cost": 70,
+    "cost": 50,
     "requiredTech": "Bronze Working",
     "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
@@ -19,7 +19,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 16,
-    "cost": 125,
+    "cost": 100,
     "requiredTech": "Bronze Working",
     "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
@@ -33,7 +33,7 @@
     "name": "Barbarian Swordsman",
     "unitType": "Sword",
     "hurryCostModifier": 20,
-    "cost": 150,
+    "cost": 120,
     "movement": 2,
     "strength": 15,
     "requiredTech": "Citizen Levy",
@@ -47,7 +47,7 @@
   {
     "name": "Barbarian Heavy Spearman",
     "unitType": "Spear",
-    "cost": 200,
+    "cost": 150,
     "movement": 2,
     "strength": 18,
     "requiredTech": "Military Reforms",
@@ -63,7 +63,7 @@
   {
     "name": "Barbarian Heavy Swordsman",
     "unitType": "Sword",
-    "cost": 200,
+    "cost": 150,
     "movement": 2,
     "strength": 19,
     "requiredTech": "Military Reforms",
@@ -79,7 +79,7 @@
     "name": "Barbarian Horseman",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 110,
+    "cost": 80,
     "movement": 4,
     "strength": 13,
     "requiredTech": "Riding",
@@ -96,7 +96,7 @@
     "name": "Barbarian Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
-    "cost": 180,
+    "cost": 140,
     "movement": 4,
     "strength": 8,
     "rangedStrength": 11,
@@ -112,7 +112,7 @@
     "name": "Barbarian Cavalry",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 170,
+    "cost": 130,
     "movement": 3,
     "strength": 17,
     "requiredTech": "Equestrian Class",
@@ -130,7 +130,7 @@
     "movement": 2,
     "strength": 7,
     "rangedStrength": 12,
-    "cost": 90,
+    "cost": 50,
     "requiredTech": "Archery",
     "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
@@ -145,7 +145,7 @@
     "movement": 2,
     "strength": 8,
     "rangedStrength": 11,
-    "cost": 90,
+    "cost": 50,
     "requiredTech": "Archery",
     "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
@@ -173,7 +173,7 @@
 			"[-300]% construction time for [Repair] improvements <in [Village] tiles>",
       	"Automation is a primary action",
     ],
-    "cost": 60
+    "cost": 30
   },
   {
     "name": "Settler",
@@ -193,7 +193,7 @@
     "name": "Work Boats",
     "unitType": "Civilian Water",
     "movement": 5,
-    "cost": 80,
+    "cost": 50,
     "requiredTech": "Fishing",
     "uniques": [
 		"Comment ['Water Slaves.']",
@@ -207,7 +207,7 @@
     "name": "Battering Ram",
     "unitType": "Civilian",
     "movement": 2,
-    "cost": 70,
+    "cost": 50,
     "requiredTech": "Masonry",
     "uniques": [
      		"Only available <in cities with a [Barracks]>",
@@ -221,7 +221,7 @@
     "name": "Siege Tower",
     "unitType": "Civilian",
     "movement": 1,
-    "cost": 160,
+    "cost": 100,
     "requiredTech": "Torsion Engines",
     "uniques": [
       		"Only available <in cities with a [Siege Workshop]>",
@@ -239,7 +239,7 @@
     "movement": 3,
     "strength": 8,
     "rangedStrength": 7,
-    "cost": 55,
+    "cost": 30,
     "requiredTech": "Agriculture",
     "uniques": [
 		"Comment ['Light troops trained to throw things and run away, in that order. The smart ones mastered both arts equally.']",
@@ -265,7 +265,7 @@
     "movement": 3,
     "strength": 9,
     "rangedStrength": 8,
-    "cost": 73,
+    "cost": 40,
     "requiredTech": "Agriculture",
     "uniques": [
 		"Comment ['Thracian hit-and-run specialists; throw, stab, vanish, repeat.']",
@@ -292,7 +292,7 @@
     "movement": 3,
     "strength": 10,
     "rangedStrength": 8,
-    "cost": 70,
+    "cost": 40,
     "requiredTech": "Agriculture",
     "uniques": [
 		"Comment ['Light tribal infantry from Anatolia — armed with courage, sticks, and whatever gods didn’t abandon them this week.']",
@@ -317,7 +317,7 @@
     "movement": 3,
     "strength": 11,
     "rangedStrength": 8,
-    "cost": 140,
+    "cost": 70,
     "uniques": [
       		"Only available <in cities with a [Mercenary Camp]>",
 		      "Comment ['Mercenary skirmisher from the Illyrian coast — fights hard, drinks harder, runs fastest when unpaid.']",
@@ -346,7 +346,7 @@
     "movement": 3,
     "strength": 9,
     "rangedStrength": 10,
-    "cost": 120,
+    "cost": 70,
     "uniques": [
       		"Only available <starting from the [Hellenistic Age]>",
       		"Only available <in cities with a [Mercenary Camp]>",
@@ -377,7 +377,7 @@
     "movement": 2,
     "strength": 7,
     "rangedStrength": 12,
-    "cost": 90,
+    "cost": 40,
     "requiredTech": "Archery",
     "uniques": [
       	"Only available <in cities with a [Archery Range]>",
@@ -401,7 +401,7 @@
     "movement": 2,
     "strength": 8,
     "rangedStrength": 11,
-    "cost": 90,
+    "cost": 40,
     "requiredTech": "Archery",
     "uniques": [
       "Only available <in cities with a [Archery Range]>",
@@ -427,7 +427,7 @@
     "movement": 2,
     "strength": 8,
     "rangedStrength": 13,
-    "cost": 130,
+    "cost": 60,
     "requiredTech": "Archery",
     "uniques": [
 	"Comment ['Elite light archer, good at counter-ambushes, accuracy so good it feels personal.']",
@@ -454,7 +454,7 @@
     "movement": 2,
     "strength": 10,
     "rangedStrength": 12,
-    "cost": 130,
+    "cost": 60,
     "requiredTech": "Archery",
     "uniques": [
 	"Comment ['Elite light archer, not built for defense, built to make sure you don’t need any.']",
@@ -482,7 +482,7 @@
     "movement": 2,
     "strength": 12,
     "rangedStrength": 11,
-    "cost": 130,
+    "cost": 60,
     "requiredTech": "Archery",
     "uniques": [
       	"Only available <in cities with a [Archery Range]>",
@@ -508,7 +508,7 @@
     "movement": 3,
     "strength": 8,
     "rangedStrength": 13,
-    "cost": 120,
+    "cost": 60,
     "requiredTech": "Archery",
     "uniques": [
 	"Comment ['Light slinger unit, known for turning iron and spite into long-range diplomacy.']"
@@ -533,7 +533,7 @@
     "movement": 2,
     "strength": 10,
     "rangedStrength": 11,
-    "cost": 150,
+    "cost": 100,
     "uniques": [
 	"Comment ['Rhodian mercenary — precise, portable, and politically unpredictable.']",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -556,7 +556,7 @@
     "movement": 3,
     "strength": 9,
     "rangedStrength": 12,
-    "cost": 150,
+    "cost": 100,
     "uniques": [
       	"Only available <starting from the [Hellenistic Age]>",
      	"Only available <in cities with a [Mercenary Camp]>",
@@ -579,7 +579,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 140,
+    "cost": 80,
     "uniques": [,
       	"Only available <in cities with a [Mercenary Camp]>",
 	      "Comment ['Medium shock infantry, proof that capitalism and violence can coexist beautifully.']"
@@ -599,7 +599,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 150,
+    "cost": 80,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
 	"Comment ['Medium infantry, excellent in jungle warfare; terrible at diplomacy.']",
@@ -620,7 +620,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 120,
+    "cost": 80,
     "uniques": [
       	"Only available <before the [Hellenistic Age]>",
      	"Only available <in cities with a [Mercenary Camp]>",
@@ -642,7 +642,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 16,
-    "cost": 150,
+    "cost": 80,
     "uniques": [
       	"Only available <starting from the [Hellenistic Age]>",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -665,7 +665,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 150,
+    "cost": 80,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
 	      "Comment ['Mercenary spearmen from Judea, disciplined, determined, dangerously dehydrated.']",
@@ -687,7 +687,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 160,
+    "cost": 100,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
 	"Comment ['Medium raider, profession in burning, killing, looting, and occasionally remembers who hired them.']",
@@ -709,7 +709,7 @@
     "unitType": "Sword",
     "movement": 3,
     "strength": 16,
-    "cost": 150,
+    "cost": 100,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
 	      "Comment ['Medium infantry, professionals in fighting, amateurs in restraint.']",
@@ -728,7 +728,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 150,
+    "cost": 90,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
 	"Comment ['Medium infantry unit, quick to deploys.']"
@@ -748,7 +748,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 160,
+    "cost": 80,
     "uniques": [
       	"Only available <in cities with a [Parthenon]>",
 	"Comment ['Medium spear infantry, built for sieges and river fights, not poetry.']",
@@ -768,7 +768,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 11,
-    "cost": 70,
+    "cost": 40,
     "requiredTech": "Bronze Working",
     "uniques": [
      	"Only available <in cities with a [Muster Field]>",
@@ -788,7 +788,7 @@
     "uniqueTo": "The Insubres",
     "movement": 2,
     "strength": 12,
-    "cost": 76,
+    "cost": 50,
     "requiredTech": "Bronze Working",
     "uniques": [
       	"Only available <in cities with a [Muster Field]>",
@@ -808,7 +808,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 110,
+    "cost": 70,
     "requiredTech": "Citizen Levy",
     "uniques": [
 	"Comment [Medium spear infantry, ideal for holding ground and philosophical debates.]",
@@ -831,7 +831,7 @@
     "uniqueTo": "The Spartans",
     "movement": 2,
     "strength": 16,
-    "cost": 150,
+    "cost": 90,
     "requiredTech": "Citizen Levy",
     "uniques": [
 	"Comment [Heavy spear infantry, elite training, zero childhood, maximum trauma.]",
@@ -854,7 +854,7 @@
     "uniqueTo": "The Dardanians",
     "movement": 2,
     "strength": 15,
-    "cost": 150,
+    "cost": 80,
     "requiredTech": "Citizen Levy",
     "uniques": [
       	"Only available <in cities with a [Barracks]>",
@@ -876,7 +876,7 @@
     "uniqueTo": "The Barbarians",
     "movement": 2,
     "strength": 16,
-    "cost": 125,
+    "cost": 90,
     "requiredTech": "Bronze Working",
     "uniques": [
       	"Only available <in cities with a [Barracks]>",
@@ -895,7 +895,7 @@
     "name": "Swordsman",
     "unitType": "Sword",
     "hurryCostModifier": 20,
-    "cost": 150,
+    "cost": 100,
     "movement": 2,
     "strength": 15,
     "requiredTech": "Citizen Levy",
@@ -917,7 +917,7 @@
     "uniqueTo": "The Arsacids",
     "movement": 2,
     "strength": 16,
-    "cost": 170,
+    "cost": 120,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Only available <in cities with a [Barracks]>",
@@ -938,7 +938,7 @@
     "uniqueTo": "The Insubres",
     "movement": 2,
     "strength": 14,
-    "cost": 175,
+    "cost": 120,
     "requiredTech": "Citizen Levy",
     "uniques": [
       	"Only available <in cities with a [Barracks]>",
@@ -960,7 +960,7 @@
     "uniqueTo": "The Odrysians",
     "movement": 2,
     "strength": 15,
-    "cost": 175,
+    "cost": 120,
     "requiredTech": "Citizen Levy",
     "uniques": [
 	"Comment ['Medium infantry, hits hard, moves fast, and hates horses personally.']",
@@ -980,7 +980,7 @@
     "uniqueTo": "The Getae",
     "movement": 2,
     "strength": 14,
-    "cost": 165,
+    "cost": 110,
     "requiredTech": "Citizen Levy",
     "uniques": [
 	"Comment ['Light shock infantry, strong versus swords, weak versus everything pointy from afar']",
@@ -1000,13 +1000,13 @@
     "uniqueTo": "The Bastarnae",
     "movement": 2,
     "strength": 16,
-    "cost": 180,
+    "cost": 120,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Comment [Light shock infantry, ’Tis but a scratch' made violently literal, fierce, half-drunk, and allergic to the concept of retreat.] <before the [Imperial Age]>",
       "Only available <in cities with a [Barracks]>",
 	"[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
-	"[+10]% production cost <during the [Imperial Age]>",
+	"[+20]% production cost <during the [Imperial Age]>",
       "Consumes [3] [Manpower]",
 	"[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
     ],
@@ -1023,13 +1023,13 @@
     "uniqueTo": "Citizen Levy",
     "movement": 2,
     "strength": 17,
-    "cost": 175,
+    "cost": 110,
     "requiredTech": "Infantry Training",
     "uniques": [
       	"Comment [Medium infantry, hits hard, screams louder, dies impressively.]",
       	"Only available <in cities with a [Barracks]>",
 	"[This Unit] gains the [Infantry Shield III] promotion <during the [Imperial Age]>",
-	"[+15]% production cost <during the [Imperial Age]>",
+	"[+20]% production cost <during the [Imperial Age]>",
       	"Consumes [4] [Manpower]",
 	"[This Unit] loses the [Infantry Shield II] promotion <during the [Imperial Age]> <hidden from users>",
     ],
@@ -1046,14 +1046,14 @@
     "uniqueTo": "The Scordisci",
     "movement": 2,
     "strength": 17,
-    "cost": 175,
+    "cost": 120,
     "requiredTech": "Citizen Levy",
     "uniques": [
       	"Comment [Medium infantry, decent on the front line, excellent behind enemy lines.]",
       	"Only available <in cities with a [Barracks]>",
  	"[+10]% Strength <when attacking> <when fighting in [Foreign Land] tiles>"
 	"[This Unit] gains the [Shock I] promotion <during the [Imperial Age]>",
-	"[+10]% production cost <during the [Imperial Age]>",
+	"[+20]% production cost <during the [Imperial Age]>",
      	"Consumes [4] [Manpower]",
     ],
     "promotions": [
@@ -1069,7 +1069,7 @@
     "uniqueTo": "Citizen Levy",
     "movement": 3,
     "strength": 16,
-    "cost": 170,
+    "cost": 120,
     "requiredTech": "Infantry Training",
     "uniques": [
       		"Comment [Light shock infantry, quick to raid, quick to die. Use them for the sneak attack, then pray they don’t get caught in the crossfire.]",
@@ -1077,7 +1077,7 @@
 		"[+10]% Strength <when fighting in [Forest] tiles>",
 		"[+10]% Strength <when fighting in [Jungle] tiles>",
 		"[This Unit] gains the [Ambush II] promotion <during the [Imperial Age]>",
-		"[+10]% production cost <during the [Imperial Age]>",
+		"[+20]% production cost <during the [Imperial Age]>",
       		"Consumes [3] [Manpower]",
     ],
     "promotions": [
@@ -1099,7 +1099,7 @@
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 20,
-    "cost": 250,
+    "cost": 170,
     "requiredTech": "Infantry Training",
     "uniques": [
       "Comment [Heavy infantry, these guys can siege a city and build a highway at the same time. Too bad they’re slower than your grandma’s morning walk.]",
@@ -1123,7 +1123,7 @@
     "replaces": "Swordsman",
     "movement": 2,
     "strength": 16,
-    "cost": 170,
+    "cost": 130,
     "uniques": [
       		"Comment ['Heavy infantry, can build roads and steal land. Don’t expect them to win any races, but they’ll gladly take your territory while they're at it']",
       		"Only available <in cities with a [Barracks]>",
@@ -1145,7 +1145,7 @@
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 15,
-    "cost": 210,
+    "cost": 160,
     "requiredTech": "Military Reforms",
     "uniques": [
       "Comment [Heavy spear infantry, happily defend their fields and build roads back to Rome—as long as the enemy doesn’t show up on the other side of the empire.]",
@@ -1165,7 +1165,7 @@
   {
     "name": "Heavy Spearman",
     "unitType": "Spear",
-    "cost": 200,
+    "cost": 160,
     "movement": 2,
     "strength": 18,
     "requiredTech": "Military Reforms",
@@ -1186,7 +1186,7 @@
   {
     "name": "Heavy Swordsman",
     "unitType": "Sword",
-    "cost": 200,
+    "cost": 160,
     "movement": 2,
     "strength": 19,
     "requiredTech": "Military Reforms",
@@ -1210,7 +1210,7 @@
     "replaces": "Heavy Swordsman",
     "uniqueTo": "The Aquitani",
     "hurryCostModifier": 20,
-    "cost": 230,
+    "cost": 180,
     "movement": 2,
     "strength": 22,
     "requiredTech": "Military Reforms",
@@ -1228,7 +1228,7 @@
     "name": "Numidian Mercenary",
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
-  "cost": 160,
+  "cost": 120,
   "movement": 3,
   "strength": 10,
   "rangedStrength": 11,
@@ -1254,7 +1254,7 @@
     "name": "Horseman",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 110,
+    "cost": 80,
     "movement": 4,
     "strength": 13,
     "requiredTech": "Riding",
@@ -1276,7 +1276,7 @@
     "name": "Mercenary Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 30,
-    "cost": 180,
+    "cost": 150,
     "movement": 4,
     "strength": 9,
     "rangedStrength": 11,
@@ -1298,7 +1298,7 @@
     "name": "Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
-    "cost": 180,
+    "cost": 150,
     "movement": 4,
     "strength": 8,
     "rangedStrength": 11,
@@ -1319,7 +1319,7 @@
     "name": "Camel Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
-    "cost": 140,
+    "cost": 100,
     "movement": 3,
     "strength": 10,
     "rangedStrength": 11,
@@ -1338,7 +1338,7 @@
     "name": "Chariot Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
-    "cost": 130,
+    "cost": 70,
     "movement": 3,
     "strength": 10,
     "rangedStrength": 11,
@@ -1360,7 +1360,7 @@
     "name": "Libyan Chariot Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 25,
-    "cost": 130,
+    "cost": 80,
     "movement": 3,
     "strength": 11,
     "rangedStrength": 11,
@@ -1382,7 +1382,7 @@
     "name": "War Chariot",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 130,
+    "cost": 70,
     "movement": 4,
     "strength": 13,
     "requiredTech": "The Wheel",
@@ -1405,7 +1405,7 @@
     "uniqueTo": "The Cyreneans",
     "replaces": "War Chariot",
     "hurryCostModifier": 20,
-    "cost": 140,
+    "cost": 80,
     "movement": 4,
     "strength": 14,
     "requiredTech": "The Wheel",
@@ -1417,7 +1417,7 @@
     "promotions": [
       "Chariot ability",
       "Shock I",
-      "Charge I"
+      "Shock II",
     ],
     "attackSound": "horse"
   },
@@ -1426,7 +1426,7 @@
     "unitType": "Mounted",
     "uniqueTo": "The Mithridatids",
     "hurryCostModifier": 20,
-    "cost": 180,
+    "cost": 90,
     "movement": 4,
     "strength": 15,
     "requiredTech": "Equestrian Class",
@@ -1439,7 +1439,7 @@
     "promotions": [
       "Chariot ability",
       "Charge I",
-      "Shock I",
+      "Charge II"
     ],
     "attackSound": "horse"
   },
@@ -1447,7 +1447,7 @@
     "name": "Scythed Chariot",
     "unitType": "Mounted",
     "hurryCostModifier": 25,
-    "cost": 150,
+    "cost": 90,
     "movement": 4,
     "strength": 15,
     "uniques": [
@@ -1470,7 +1470,7 @@
     "name": "Cavalry",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 170,
+    "cost": 120,
     "movement": 3,
     "strength": 17,
     "requiredTech": "Equestrian Class",
@@ -1492,7 +1492,7 @@
     "name": "Royal Agema",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 250,
+    "cost": 200,
     "movement": 3,
     "strength": 19,
     "requiredTech": "Metallurgy",
@@ -1517,9 +1517,9 @@
     "name": "Cataphract",
     "unitType": "Mounted",
     "hurryCostModifier": 30,
-    "cost": 300,
+    "cost": 320,
     "movement": 3,
-    "strength": 26,
+    "strength": 25,
     "requiredTech": "Metallurgy",
     "uniques": [	"Comment [Very heavy cavalry,The ‘OG tank’ if tanks were slow, expensive, and required a small fortune in horses, manpower, and iron. Sure, they’ll crush infantry, but they’ll also burn a hole in your budget faster.] <before adopting [Latin Culture]>",
 	"Only available <in cities with a [Cavalry Barracks]>",
@@ -1540,7 +1540,7 @@
     "unitType": "Mounted",
     "uniqueTo": "The Armenians",
     "hurryCostModifier": 20,
-    "cost": 270,
+    "cost": 200,
     "movement": 3,
     "strength": 20,
     "requiredTech": "Metallurgy",
@@ -1562,7 +1562,7 @@
     "name": "War Elephant",
     "unitType": "Elephant",
     "hurryCostModifier": 25,
-    "cost": 220,
+    "cost": 150,
     "movement": 3,
     "strength": 18,
     "requiredTech": "Equestrian Class",
@@ -1584,15 +1584,15 @@
     "name": "Armored Elephant",
     "unitType": "Elephant",
     "hurryCostModifier": 25,
-    "cost": 320,
+    "cost": 350,
     "movement": 3,
-    "strength": 25,
+    "strength": 26,
     "requiredTech": "Equestrian Class",
     "uniques": [
       "Comment [-Heavy elephant unit, armored, and ready to flatten anything that dares stand in its way. Just don’t expect it to help with anything delicate.]",
       "Only available <in cities with a [Cavalry Barracks]>",
 	"Destroys tile improvements when attacking",
-      "Consumes [4] [Manpower]",
+      "Consumes [5] [Manpower]",
       "Consumes [1] [Elephants]",
       "Consumes [2] [Iron]",
       	"Only available <with [Enable Armored Elephant]> <hidden from users>",
@@ -1624,7 +1624,7 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 16,
-    "cost": 150,
+    "cost": 100,
     "requiredTech": "Shipbuilding",
     "uniques": [
       "Comment [-Medium naval melee unit]",
@@ -1641,7 +1641,7 @@
     "unitType": "Melee Water",
     "movement": 5,
     "strength": 22,
-    "cost": 200,
+    "cost": 150,
     "requiredTech": "Navigation",
     "uniques": [
       "Comment [-Heavy naval melee unit]",
@@ -1658,7 +1658,7 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 15,
-    "cost": 160,
+    "cost": 80,
     "requiredTech": "Navigation",
     "uniques": [
       "Comment [-Medium naval melee, high withdraw chance, Ignores Zone of Control]",
@@ -1679,7 +1679,7 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 17,
-    "cost": 210,
+    "cost": 170,
     "uniques": [
       "Comment [-Mercenary medium naval melee, high withdraw chance]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -1702,7 +1702,7 @@
     "movement": 5,
     "strength": 19,
     "rangedStrength": 18,
-    "cost": 280,
+    "cost": 200,
     "requiredTech": "Naval Artillery",
     "uniques": [
       "Comment [-Medium naval ranged]",
@@ -1720,7 +1720,7 @@
     "movement": 5,
     "strength": 25,
     "rangedStrength": 23,
-    "cost": 400,
+    "cost": 300,
     "requiredTech": "Naval Artillery",
     "uniques": [
       "Comment [-Heavy naval ranged unit]",
@@ -1740,7 +1740,7 @@
     "movement": 2,
     "strength": 7,
     "rangedStrength": 11,
-    "cost": 220,
+    "cost": 160,
     "requiredTech": "Engineering",
     "uniques": [
 	"Comment [-Medium artillery, have good attack against mounted unit]",
@@ -1768,7 +1768,7 @@
     "movement": 2,
     "strength": 8,
     "rangedStrength": 10,
-    "cost": 300,
+    "cost": 210,
     "requiredTech": "Mass Production",
     "uniques": [
  	"Comment [-Heavy artillery, good against cities and infantry units]",
@@ -1891,7 +1891,7 @@
       	"Religious Unit",
      	"Only available <when religion is enabled>",
     ],
-    "movement": 4,
+    "movement": 3,
     "religiousStrength": 1000
   },
   {
@@ -1899,7 +1899,7 @@
     "unitType": "Mounted",
     "movement": 3,
     "strength": 14,
-    "cost": 500,
+    "cost": 300,
     "requiredTech": "Infantry Training",
     "uniques": [
 		      "Comment [Battlefield commander, give bounus to nearby units]",
@@ -1923,7 +1923,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 150,
+    "cost": 130,
     "uniques": [
 	    "Comment [-Elite medium sword infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
@@ -1948,7 +1948,7 @@
     "replaces": "Foot Guard",
     "movement": 2,
     "strength": 16,
-    "cost": 180,
+    "cost": 140,
     "uniques": [
 		"Comment [Elite medium sword infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away—just don’t expect them to do much beyond that.]",
      		"Only available <in cities with a [Palace]>",
@@ -1973,7 +1973,7 @@
     "replaces": "Foot Guard",
     "movement": 2,
     "strength": 15,
-    "cost": 150,
+    "cost": 130,
     "uniques": [
 	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
@@ -1996,7 +1996,7 @@
     "unitType": "Ruler",
     "movement": 3,
     "strength": 15,
-    "cost": 170,
+    "cost": 130,
     "uniques": [
       		"Only available <before adopting [Manipular Legion]> <hidden from users>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
@@ -2024,7 +2024,7 @@
     "movement": 3,
     "strength": 11,
   "rangedStrength": 9,
-    "cost": 180,
+    "cost": 150,
     "uniques": [
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
@@ -2048,7 +2048,7 @@
     "uniqueTo": "The Romans",
     "movement": 3,
     "strength": 15,
-    "cost": 190,
+    "cost": 160,
     "uniques": [
       		"Only available <after adopting [Legate Governance]> <hidden from users>",
 		"Can only be built <in [Capital] cities>",
@@ -2073,7 +2073,7 @@
     "uniqueTo": "The Romans",
     "movement": 3,
     "strength": 15,
-    "cost": 180,
+    "cost": 150,
     "uniques": [
       		"Only available <after adopting [Manipular Legion]> <hidden from users>",
       		"Unavailable <after adopting [Legate Governance]> <hidden from users>",
@@ -2098,7 +2098,7 @@
     "name": "Numidian Horseman",
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
-  "cost": 140,
+  "cost": 120,
   "movement": 3,
   "strength": 9,
   "rangedStrength": 11,
@@ -2123,7 +2123,7 @@
     "name": "Numidian Cavalry",
   "unitType": "Mounted",
   "hurryCostModifier": 30,
-  "cost": 160,
+  "cost": 140,
   "movement": 3,
   "strength": 17,
   "requiredTech": "Riding",
@@ -2145,7 +2145,7 @@
   "name": "Mounted Skirmisher",
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
-  "cost": 190,
+  "cost": 110,
   "movement": 3,
   "strength": 9,
   "rangedStrength": 11,
@@ -2170,7 +2170,7 @@
     "unitType": "Sword",
     "movement": 3,
     "strength": 11,
-    "cost": 100,
+    "cost": 70,
     "uniques": [
       "Comment [-Light infantry, have big fear for range weapons, good at attacking, small withdraw chance.]",
       "Only available <in cities with a [Sacred Grove]>",
@@ -2188,7 +2188,7 @@
     "unitType": "Sword",
     "movement": 3,
     "strength": 12,
-    "cost": 150,
+    "cost": 90,
     "uniques": [
       "Comment ['Elite light infantry, have big fear for range weapons, good at attacking, small withdraw chance.']",
       "Consumes [1] [Mercenary (Celtic)]",
@@ -2210,7 +2210,7 @@
     "unitType": "Sword",
     "movement": 3,
     "strength": 14,
-    "cost": 180,
+    "cost": 100,
     "uniques": [
       "Comment ['Light shock infantry, trained to entertain the rich and die for the crowd. Good at killing, terrible at staying alive.']",
       "Only available <in cities with a [Arena]>",
@@ -2230,7 +2230,7 @@
     "movement": 2,
     "strength": 8,
     "rangedStrength": 10,
-    "cost": 160,
+    "cost": 130,
     "requiredTech": "Crossbow Engineering",
     "uniques": [
       "Comment [Medium archery, anti armored units, nothing says ‘technological progress’ like making murder accessible to the lazy.]",
@@ -2249,7 +2249,7 @@
     "movement": 2,
     "strength": 12,
     "rangedStrength": 11,
-    "cost": 230,
+    "cost": 180,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
       "Only available <in cities with a [Ballistics Range]>",
@@ -2272,7 +2272,7 @@
     "movement": 3,
     "strength": 11,
   "rangedStrength": 11,
-    "cost": 900,
+    "cost": 340,
     "uniques": [
  	"Comment [Elite medium horse archer, have strong range attack, small withdraw chance]",
       	"Only available <in cities with a [Cavalry Barracks]>",
@@ -2289,7 +2289,7 @@
     "name": "Camel Cavalry",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 170,
+    "cost": 120,
     "movement": 3,
     "strength": 14,
     "uniques": [
@@ -2311,7 +2311,7 @@
     "name": "Royal Phalanx",
     "unitType": "Spear",
     "hurryCostModifier": 40,
-    "cost": 260,
+    "cost": 200,
     "movement": 2,
     "strength": 21,
     "requiredTech": "Heavy Infantry",
@@ -2335,7 +2335,7 @@
     "name": "Armored Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
-    "cost": 300,
+    "cost": 220,
     "movement": 3,
     "strength": 12,
     "rangedStrength": 12,
@@ -2360,7 +2360,7 @@
     "name": "Royal Camel Cavalry",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 280,
+    "cost": 200,
     "movement": 3,
     "strength": 16,
     "uniques": [
@@ -2383,7 +2383,7 @@
     "uniqueTo": "The Carthaginians",
     "movement": 2,
     "strength": 15,
-    "cost": 160,
+    "cost": 110,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Comment [-Elite heavy spear infantry, good defense.]",
@@ -2408,7 +2408,7 @@
     "name": "Mounted Armored Skirmisher",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 30,
-    "cost": 270,
+    "cost": 200,
     "movement": 3,
     "strength": 14,
     "rangedStrength": 11,
@@ -2434,7 +2434,7 @@
     "unitType": "Mounted",
     "movement": 3,
     "strength": 21,
-    "cost": 300,
+    "cost": 250,
     "uniques": [
  	"Comment [-Elite heavy cavalry, King's personal body guard, small withdraw chance]",
       "Only available <in cities with a [Imperial Barracks]>",
@@ -2458,7 +2458,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 14,
-    "cost": 180,
+    "cost": 100,
     "uniques": [
  	"Comment [-Elite medium spear infantry, have great defense, expert at desert warfare.] <before the [Imperial Age]>",
  	"Comment [-Elite heavy spear infantry, have great defense, expert at desert warfare.] <during the [Imperial Age]>",
@@ -2485,7 +2485,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 18,
-    "cost": 270,
+    "cost": 210,
     "uniques": [
  	"Comment [-Elite heavy shock infantry, have powerful charge attack but hate arrows, darts and javelins.]",
 	"Only available <in cities with a [Army Barracks]>",
@@ -2511,7 +2511,7 @@
     "unitType": "Mounted",
     "movement": 3,
     "strength": 20,
-    "cost": 320,
+    "cost": 260,
     "uniques": [
  	"Comment [-Elite heavy cavalry, good at ambushing, medium withdraw chance]",
       "Only available <in cities with a [Imperial Barracks]>",
@@ -2537,7 +2537,7 @@
     "uniqueTo": "The Macedonians",
     "movement": 3,
     "strength": 16,
-    "cost": 200,
+    "cost": 150,
     "uniques": [
  	"Comment [-Elite medium cavalry, King's personal Guard have good attack] <before the [Imperial Age]>",
  	"Comment [-Elite heavy cavalry, King's personal Guard have good attack] <during the [Imperial Age]>",  
@@ -2565,7 +2565,7 @@
     "unitType": "Sword",
     "movement": 3,
     "strength": 16,
-    "cost": 190,
+    "cost": 140,
     "uniques": [
  	"Comment [-Elite medium Infantry, King's personal Guard have good attack] <before the [Imperial Age]>",
  	"Comment [-Elite heavy Infantry, King's personal Guard have good attack] <during the [Imperial Age]>",
@@ -2590,7 +2590,7 @@
     "unitType": "Sword",
     "movement": 3,
     "strength": 15,
-    "cost": 180,
+    "cost": 140,
     "uniques": [
  	"Comment [-Elite medium Infantry, King's personal Guard have good attack] <before the [Imperial Age]>",
  	"Comment [-Elite heavy Infantry, King's personal Guard have good attack against cavalry] <during the [Imperial Age]>",
@@ -2615,7 +2615,7 @@
     "unitType": "Mounted",
     "movement": 3,
     "strength": 21,
-    "cost": 300,
+    "cost": 260,
     "uniques": [
  	"Comment [Elite heavy shock cavalry, have strong charge, small withdraw chance]",
       "Only available <in cities with a [Cavalry Barracks]>",
@@ -2666,7 +2666,7 @@
     "movement": 3,
     "strength": 14,
     "rangedStrength": 11,
-    "cost": 230,
+    "cost": 160,
     "uniques": [
       "Comment [-Elite heavy skirmisher, good melee defense, high withdraw chance.]",
     "Can move after attacking",
@@ -2689,7 +2689,7 @@
     "uniqueTo": "The Romans",
     "movement": 3,
     "strength": 18,
-    "cost": 300,
+    "cost": 210,
     "uniques": [
  	"Comment [-Elite heavy infantry, inspire nearby ally units, have one job.]",
       "Only available <in cities with a [Army Barracks]>",
@@ -2716,7 +2716,7 @@
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 22,
-    "cost": 340,
+    "cost": 250,
     "uniques": [
       "Comment [-Elite heavy infantry, Emperor's best frienemy.]",
       "Only available <in cities with a [Imperial Barracks]>",
@@ -2741,7 +2741,7 @@
     "unitType": "Mounted",
     "movement": 3,
     "strength": 26,
-    "cost": 400,
+    "cost": 350,
     "uniques": [
  	"Comment [-Elite very heavy cavalry, good at taking tile and (maybe) protecting Emperor]",
       "Only available <in cities with a [Imperial Barracks]>",
@@ -2765,7 +2765,7 @@
     "unitType": "Mounted",
     "movement": 3,
     "strength": 28,
-    "cost": 400,
+    "cost": 350,
     "uniques": [
  	"Comment [-Elite very heavy cavalry, ancient heavy tank]",
       "Only available <in cities with a [Imperial Barracks]>",
@@ -2788,7 +2788,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 20,
-    "cost": 270,
+    "cost": 170,
     "uniques": [
       "Only available <in cities with a [Barracks]>",
       	"Only available <with [Enable Legion]> <hidden from users>",
@@ -2812,7 +2812,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 200,
+    "cost": 160,
     "uniques": [
       "Only available <in cities with a [Barracks]>",
       "Comment [-Medium spear infantry, can build road, good at defending homeland and against cavalry.] <before the [Imperial Age]>",
@@ -2834,7 +2834,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 20,
-    "cost": 270,
+    "cost": 170,
     "uniques": [
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
       "Only available <in cities with a [Barracks]>",
@@ -2858,7 +2858,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 200,
+    "cost": 160,
     "uniques": [
       "Comment [-Medium spear infantry, can build road, good at defending homeland and offensive.] <before the [Imperial Age]>",
       "Comment [-Heavy spear infantry, can build road, good at defending homeland and offensive.] <during the [Imperial Age]>",
@@ -2883,7 +2883,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 20,
-    "cost": 250,
+    "cost": 170,
     "uniques": [
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
       "Only available <in cities with a [Barracks]>",
@@ -2906,7 +2906,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 22,
-    "cost": 250,
+    "cost": 170,
     "uniques": [
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fight to the death]",
       "Only available <in cities with a [Barracks]>",
@@ -2914,6 +2914,7 @@
       	"Only available <with [Enable Legion]> <hidden from users>",
 	"Can build [Roman Fort] improvements on tiles",
 	"Can build [All Road] improvements on tiles",
+	      "[+2] XP gained from combat",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
     ],

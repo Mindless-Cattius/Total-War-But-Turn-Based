@@ -24,7 +24,8 @@
         "May buy items in puppet cities",
 	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
 	"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
-	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",
+	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
+	"[Gold] cost of purchasing [Military] units [+100]% <when at war>",
 
 //Units
 

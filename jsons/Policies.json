@@ -11,6 +11,7 @@
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>",
                     "Only available <after adopting [Celtic Culture]> <hidden from users>",
+			"[+1 Production] from [Forest] tiles [in this city]",
                     "Gain a free [Hill Fort] [in capital]",
                     "[1] free [Great Scholar] units appear",
                     "[+1 Happiness] [in capital]",
@@ -167,6 +168,7 @@
 			"Only available <before adopting [Gallic Warriors]>","Comment [Only available before adopting Gallic Warriors]",
 			"[-20]% construction time for [Farm] improvements",
 			"[+1 Food] from [Village] tiles [in this city]",
+			"[+1 Food] from [Trading post] tiles [in this city]",
                     	"[+1 Happiness, +1 Food] from every [Granary]",
                     	"[+1 Happiness] [in capital]",
                 ],
@@ -748,6 +750,8 @@
                     "All newly-trained [{Military} {Land}] units [in all cities] receive the [Ambush I] promotion",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+			"[+1 Production] from [Forest] tiles [in this city]",
+			"[+1 Production] from [Forest] tiles [in this city]",
                     "[Cavalry] units gain the [Shock I] promotion",
                     "[+1 Happiness] [in capital]",
         ],
@@ -1041,6 +1045,7 @@
         "uniques": [
                     "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    "Only available <after adopting [Hellenic Culture]> <hidden from users>",   
                     "[1] free [Great Scholar] units appear",
                     "[-10]% Culture cost of natural border growth [in capital]",
                     "[+1 Culture] from every [Shrine]",
@@ -2425,7 +2430,7 @@
 			"Only available <before adopting [Socii]>","Comment [Only available before adopting Socii]",
         		"[+1 Gold] from every [Market]",
         		"[+1 Gold] from [Village] tiles [in all cities]",
-        		"[+2 Gold] from [Trading post] tiles [in all cities]",
+        		"[+1 Gold] from [Trading post] tiles [in all cities]",
         		"[+10]% Strength <for [Swordsman] units> <for [The Etruscans] Civilizations>",
                     "[+1 Happiness] [in all cities]"
                 ],
@@ -2517,7 +2522,7 @@
                 "uniques": [
         		"Provides [2] [Manpower]",
         		"[+1 Gold] from [Village] tiles [in all cities]",
-        		"[+2 Gold] from [Trading post] tiles [in all cities]",
+        		"[+1 Gold] from [Trading post] tiles [in all cities]",
         		"[+1 Gold] from [improved] tiles [in all cities] <when not at war>",
                     	"[+1 Gold] from every [Plantation]",
                     	"[+1 Gold, +1 Food] from [Wheat] tiles [in all cities]",
@@ -2545,7 +2550,6 @@
             {
                 "name": "Gladiatorial Games",
                 "uniques": [
-                    "[+10]% Production when constructing [Arena] buildings [in all cities]",
                     "[+1 Happiness, +1 Gold] from every [Arena]",
                     "[Gladiator] units gain the [Veteran] promotion",
                     "Gain a free [Arena] [in capital]",
@@ -2579,7 +2583,7 @@
         		"Provides [5] [Manpower]",
      		    	"Provides [1] [Nobles]",
                     	"[+3 Happiness] [in capital]",
-			"Unavailable <before the [Classical Age]>",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 7,
                 "column": 1
@@ -2596,7 +2600,6 @@
         		"[+1 Gold, +2 Happiness] from [Fort] tiles [in all cities]",
                     	"[-2 Happiness, +2 Gold] from every [Citizen Assembly]",
                     	"[+5 Happiness, +1 Gold, +1 Food] [in capital]",
-			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 8,
                 "column": 1
@@ -2631,8 +2634,8 @@
                     	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
         		"[+10]% Strength <for [Sword] units> <when defending>",
         		"[+1 Happiness, +1 Gold] [in all cities]",
-     		    	"Provides [2] [Veteran]",
-			"Unavailable <before the [Classical Age]>",
+     		    	"Provides [1] [Veteran]",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 7,
                 "column": 5
@@ -2649,7 +2652,6 @@
         		"[+2 Gold] from [Trading post] tiles [in all cities]",
         		"[+1 Gold] from every [Temple]",
         		"[+1 Faith] from every [Shrine]",
-			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 8,
                 "column": 5
