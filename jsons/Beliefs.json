@@ -607,20 +607,21 @@
         "uniques": [
 		"[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 		"[+2 Happiness] from all [Grand Temple] buildings <when not at war>",
-        	"[+10]% Strength <for [Spear] units> <when above [100] [Happiness]>",
+        	"[+5]% Strength <for [Spear] units> <when above [100] [Happiness]>",
 	]
     },
 //    {
 //        "name": "Holy Order",
 //        "type": "Enhancer",
-//        "uniques": ["[Faith] cost of purchasing [Missionary] units [-20]%", "[Faith] cost of purchasing [Inquisitor] units [-20]%"]
+//        "uniques": ["[Faith] cost of purchasing [Missionary] units [-20]%", "[Faith] cost of purchasing [Inquisitor] units [-20]%"],
+        	"[+5]% Strength <for [Cavalry] units> <when above [100] [Happiness]>",
 //    },
     {
         "name": "Itinerant Preachers",
         "type": "Enhancer",
         "uniques": [
-		"Religion naturally spreads to cities [+3] tiles away",
-        	"[+15]% Strength <for [Infantry Shield I] units> <when above [100] [Happiness]>",
+		"Religion naturally spreads to cities [+2] tiles away",
+        	"[+5]% Strength <for [Infantry Shield I] units> <when above [100] [Happiness]>",
 ]
     },
     {
@@ -636,7 +637,7 @@
         "type": "Enhancer",
         "uniques": ["[+35]% Spread Religion Strength <for [Great Prophet] units>", 
              "[-20]% Faith cost of generating Great Prophet equivalents",
-        	"[+10]% Strength <for [Horseman] units> <when above [100] [Happiness]>",
+        	"[+5]% Strength <for [Horseman] units> <when above [100] [Happiness]>",
 ]
     },
 //    {
@@ -648,7 +649,7 @@
         "name": "Religious Texts",
         "type": "Enhancer",
         "uniques": ["[+40]% Natural religion spread [in all cities]",
-        	"[+15]% Strength <for [Scout] units> <when above [100] [Happiness]>",
+        	"[+5]% Strength <for [Scout] units> <when above [100] [Happiness]>",
 ]
     },
     {
@@ -662,7 +663,7 @@
         "name": "Reliquary",
         "type": "Enhancer",
 		"uniques": ["Gain [400] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-        	"[+10]% Strength <for [Mounted] units> <when above [100] [Happiness]>",],
+        	"[+5]% Strength <for [Mounted] units> <when above [100] [Happiness]>",],
     }
     {
         "name": "Zealot Warriors",
@@ -676,7 +677,7 @@
         "name": “Sacred Citadels",
         "type": "Enhancer",
 		"uniques": ["[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-        	"[+10]% Strength <for [Infantry Shield III] units> <when above [50] [Happiness]>",
+        	"[+5]% Strength <for [Infantry Shield III] units> <when above [100] [Happiness]>",
         "[+10]% Strength for cities <when defending>",
 	],
     }
@@ -684,7 +685,7 @@
         "name": “Scripture Keepers",
         "type": "Enhancer",
 		"uniques": [
-	"[+25]% Natural religion spread [in all cities]",
+	"[+20]% Natural religion spread [in all cities]",
 	"Religion naturally spreads to cities [+1] tiles away",
         	"[+5]% Strength <for [Infantry Shield II] units> <when above [100] [Happiness]>",
 	],
