@@ -614,7 +614,7 @@
 //        "name": "Holy Order",
 //        "type": "Enhancer",
 //        "uniques": ["[Faith] cost of purchasing [Missionary] units [-20]%", "[Faith] cost of purchasing [Inquisitor] units [-20]%"],
-        	"[+5]% Strength <for [Cavalry] units> <when above [100] [Happiness]>",
+//        	"[+5]% Strength <for [Cavalry] units> <when above [100] [Happiness]>",
 //    },
     {
         "name": "Itinerant Preachers",
@@ -663,7 +663,8 @@
         "name": "Reliquary",
         "type": "Enhancer",
 		"uniques": ["Gain [400] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-        	"[+5]% Strength <for [Mounted] units> <when above [100] [Happiness]>",],
+        	"[+5]% Strength <for [Mounted] units> <when above [100] [Happiness]>",
+],
     }
     {
         "name": "Zealot Warriors",
