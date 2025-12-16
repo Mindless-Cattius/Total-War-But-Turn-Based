@@ -4,20 +4,23 @@
 // ADDONS
 // GLOBAL
 	"[-20]% growth [in all cities]",
+	"[-10]% growth [in all cities] <after the [Archaic Age]>",
+	"[-10]% growth [in all cities]",
 	"May not annex cities <when at war>",
+	"May not annex cities <during the [Archaic Age]>",
 	"Gain a free [Rebellious Citizens] [in puppeted cities]",
 	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
 	"Gain a free [Risk of Plague] [in all cities] <starting from the [Hellenistic Age]>",
 	"Provides [1] [Ruler]",
-	"Provides [40] [Manpower] <in [in City-State cities] cities>"
+	"Provides [30] [Manpower] <in [in City-State cities] cities>"
 	"[-1] Range <for [Scout] units>",
-	"May not annex cities <during the [Archaic Age]>",
 	"Military Units gifted from City-States start with [30] XP",
 	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
 	"Retain [+20]% of the happiness from a luxury after the last copy has been traded away",
         "[-1] Sight <for [Embarked] units>",
-        "[+20]% Natural religion spread [in all cities]",
         "[+100]% Culture cost of adopting new Policies",
+        "[+30]% Culture cost of adopting new Policies <after the [Classical Age]>",
+	"May not annex cities ",
         "[{Military} {Water}] units gain the [Warship] promotion",
         "[{Military} {Land}] units gain the [War Transports] promotion",
         "[{Military} {Land}] units gain the [Healing] promotion",
@@ -25,7 +28,7 @@
 	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
 	"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
 	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
-	"[Gold] cost of purchasing [Military] units [+100]% <when at war>",
+	"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
 
 //Units
 
@@ -306,6 +309,7 @@
         "[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
         "[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
         "[+200]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+        "[+30]% maintenance costs <for [Military] units> <when at war>",
 
         "[+10]% maintenance costs <for [Cretan Archer] units>",
 

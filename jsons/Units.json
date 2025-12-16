@@ -6,7 +6,7 @@
     "strength": 11,
     "cost": 50,
     "requiredTech": "Bronze Working",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -21,7 +21,7 @@
     "strength": 16,
     "cost": 100,
     "requiredTech": "Bronze Working",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Pike Phalanx] ability",
@@ -37,7 +37,7 @@
     "movement": 2,
     "strength": 15,
     "requiredTech": "Citizen Levy",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "Infantry Shield II"
@@ -51,7 +51,7 @@
     "movement": 2,
     "strength": 18,
     "requiredTech": "Military Reforms",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -67,7 +67,7 @@
     "movement": 2,
     "strength": 19,
     "requiredTech": "Military Reforms",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "Infantry Shield III",
@@ -83,7 +83,7 @@
     "movement": 4,
     "strength": 13,
     "requiredTech": "Riding",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Horseman] ability",
@@ -101,7 +101,7 @@
     "strength": 8,
     "rangedStrength": 11,
     "requiredTech": "Riding",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "Horse Archer ability",
@@ -116,7 +116,7 @@
     "movement": 3,
     "strength": 17,
     "requiredTech": "Equestrian Class",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -132,7 +132,7 @@
     "rangedStrength": 12,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Archer] ability"
@@ -147,7 +147,7 @@
     "rangedStrength": 11,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
+    "uniques": [Unbuildable <for [Major] Civilizations>",Unbuildable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Slinger] ability",
@@ -159,9 +159,9 @@
     "movement": 2,
     "uniques": [
 	"Comment ['Reliable, replaceable, and remarkably flammable. No empire rose without them — mostly because someone had to hold the shovel. Can be upgrade into military unit']",
-      	"Limited to [5] per Civilization <during the [Archaic Age]>",
-      	"Limited to [8] per Civilization <during the [Classical Age]>",
-      	"Limited to [12] per Civilization <during the [Imperial Age]>",
+      	"Limited to [3] per Civilization <during the [Archaic Age]>",
+      	"Limited to [5] per Civilization <during the [Classical Age]>",
+      	"Limited to [10] per Civilization <during the [Imperial Age]>",
       	"Can build [Land] improvements on tiles",
 	"[+1] Movement <after discovering [Mass Production]>",
 	"[+200]% production cost <during the [Imperial Age]>",
@@ -173,13 +173,13 @@
 			"[-300]% construction time for [Repair] improvements <in [Village] tiles>",
       	"Automation is a primary action",
     ],
-    "cost": 30
+    "cost": 10
   },
   {
     "name": "Settler",
     "unitType": "Civilian",
     "movement": 3,
-    "cost": 100,
+    "cost": 80,
     "uniques": [
 		"Comment ['Men, women, and children — good at founding empires, great at dying for them']",
       		"Requires at least [3] population",
@@ -193,7 +193,7 @@
     "name": "Work Boats",
     "unitType": "Civilian Water",
     "movement": 5,
-    "cost": 50,
+    "cost": 30,
     "requiredTech": "Fishing",
     "uniques": [
 		"Comment ['Water Slaves.']",
@@ -207,7 +207,7 @@
     "name": "Battering Ram",
     "unitType": "Civilian",
     "movement": 2,
-    "cost": 50,
+    "cost": 40,
     "requiredTech": "Masonry",
     "uniques": [
      		"Only available <in cities with a [Barracks]>",
@@ -221,7 +221,7 @@
     "name": "Siege Tower",
     "unitType": "Civilian",
     "movement": 1,
-    "cost": 100,
+    "cost": 80,
     "requiredTech": "Torsion Engines",
     "uniques": [
       		"Only available <in cities with a [Siege Workshop]>",
