@@ -1,19 +1,40 @@
 
 ImprovementIcons.png
-size: 128, 64
+size: 256, 64
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
-ImprovementIcons/Roman Fort
+ImprovementIcons/Remove Fort
   rotate: false
   xy: 4, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-ImprovementIcons/Village
+ImprovementIcons/Remove Trading post
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Village
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Roman Fort
   rotate: false
   xy: 62, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Village
+  rotate: false
+  xy: 120, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

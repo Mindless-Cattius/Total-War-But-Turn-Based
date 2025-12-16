@@ -634,13 +634,6 @@ BuildingIcons/Sacred Grove
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sanitation
-  rotate: false
-  xy: 1034, 378
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
 BuildingIcons/School
   rotate: false
   xy: 868, 544
@@ -783,7 +776,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 1034, 320
+  xy: 1034, 378
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -811,7 +804,7 @@ BuildingIcons/Walls
   index: -1
 BuildingIcons/War Reconstruction
   rotate: false
-  xy: 1034, 262
+  xy: 1034, 320
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
