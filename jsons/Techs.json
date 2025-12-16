@@ -299,7 +299,7 @@
 				"name": "Tax Farming",
 				"row": 3,
 				"prerequisites": ["Trade Routes","Entertainment","Equestrian Class"],
-				"uniques": ["[+1 Gold] from [improved] tiles","[+1 Gold] [in all cities]"]
+				"uniques": ["[+1 Gold] from [improved] tiles [in all cities]","[+1 Gold] [in all cities]"]
 				"quote": "'The great thieves lead away the little thief.' - Diogenes"
 			},
 			{
