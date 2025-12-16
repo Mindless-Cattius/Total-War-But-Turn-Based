@@ -1,0 +1,343 @@
+{
+    "name": "Global uniques",
+    "uniques": [ 
+// ADDONS
+// GLOBAL
+	"[-20]% growth [in all cities]",
+	"[-10]% growth [in all cities] <after the [Archaic Age]>",
+	"[-10]% growth [in all cities]",
+	"May not annex cities <when at war>",
+	"May not annex cities <during the [Archaic Age]>",
+	"Gain a free [Rebellious Citizens] [in puppeted cities]",
+	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
+	"Gain a free [Risk of Plague] [in all cities] <starting from the [Hellenistic Age]>",
+	"Provides [1] [Ruler]",
+	"Provides [30] [Manpower] <in [in City-State cities] cities>"
+	"[-1] Range <for [Scout] units>",
+	"Military Units gifted from City-States start with [30] XP",
+	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
+	"Retain [+20]% of the happiness from a luxury after the last copy has been traded away",
+        "[-1] Sight <for [Embarked] units>",
+        "[+100]% Culture cost of adopting new Policies",
+        "[+30]% Culture cost of adopting new Policies <after the [Classical Age]>",
+	"May not annex cities ",
+        "[{Military} {Water}] units gain the [Warship] promotion",
+        "[{Military} {Land}] units gain the [War Transports] promotion",
+        "[{Military} {Land}] units gain the [Healing] promotion",
+        "May buy items in puppet cities",
+	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
+	"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
+	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
+	"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
+
+//Units
+
+ "[+50]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
+
+//Cities
+	"[-40]% Strength for cities <when attacking> <hidden from users>",
+	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
+	"[-20]% Strength for cities <vs [Scout] units> <when attacking>",
+
+	"[-80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
+	"[-20]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
+	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
+
+	
+        "[-1 Gold, +1 Food] [in all cities] <when above [1] [Nobles]>",	
+        "[+1 Food, +1 Happiness] [in all cities] <when above [2] [Nobles]>",	
+        "[+1 Gold, +1 Faith] [in all cities] <when above [3] [Nobles]>",	
+        "[+1 Gold, +1 Production] [in all cities] <when above [4] [Nobles]>",
+
+//GOLD
+
+	"[Gold] cost of purchasing [Military] units [+10]% <when at war> <before the [Imperial Age]>",
+	"[Gold] cost of purchasing [Military] units [+30]% <when at war> <during the [Imperial Age]>",
+
+
+//MANPOWER
+	
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [10] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [30] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [40] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [50] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [60] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [70] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [80] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [90] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-2]% <when above [100] [Manpower]>",
+
+        "[+2]% [Production] [in all cities] <when above [10] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [30] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [40] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [50] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [60] [Manpower]>",
+
+        "[+1]% [Faith] [in all cities] <when above [30] [Manpower]>",
+        "[+1]% [Faith] [in all cities] <when above [50] [Manpower]>",
+        "[+1]% [Faith] [in all cities] <when above [70] [Manpower]>",
+        "[+1]% [Faith] [in all cities] <when above [80] [Manpower]>",
+        "[+1]% [Faith] [in all cities] <when above [90] [Manpower]>",
+
+        "[-1]% growth [in all cities] <when above [30] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [40] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [50] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [60] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [70] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [80] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [90] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [100] [Manpower]>",
+
+// Happiness & Population
+
+	"[+5]% unhappiness from the number of cities <in cities with between [16] and [20] [Population]>",
+	"[+10]% unhappiness from the number of cities <in cities with between [21] and [30] [Population]>",
+	"[+15]% unhappiness from the number of cities <in cities with between [31] and [9999] [Population]>",
+
+
+	"[-1 Happiness] [in this city] <in cities with between [10] and [15] [Population]>",
+	"[-2 Happiness] [in this city] <in cities with between [16] and [20] [Population]>",
+	"[-3 Happiness] [in this city] <in cities with between [21] and [25] [Population]>",
+	"[-4 Happiness] [in this city] <in cities with between [26] and [30] [Population]>",
+	"[-5 Happiness] [in this city] <in cities with between [31] and [35] [Population]>",
+	"[-6 Happiness] [in this city] <in cities with between [36] and [40] [Population]>",
+	"[-7 Happiness] [in this city] <in cities with between [41] and [9999] [Population]>",
+
+	"[-10]% growth [in this city] <in cities with between [10] and [15] [Population]>",
+	"[-20]% growth [in this city] <in cities with between [16] and [20] [Population]>",
+	"[-25]% growth [in this city] <in cities with between [21] and [25] [Population]>",
+	"[-30]% growth [in this city] <in cities with between [26] and [30] [Population]>",
+	"[-35]% growth [in this city] <in cities with between [31] and [35] [Population]>",
+	"[-40]% growth [in this city] <in cities with between [36] and [40] [Population]>",
+	"[-50]% growth [in this city] <in cities with between [41] and [9999] [Population]>",
+
+        "[-5]% growth [in all cities] <when below [0] [Happiness]>",
+        "[-5]% growth [in all cities] <when below [-10] [Happiness]>",
+        "[-5]% growth [in all cities] <when below [-20] [Happiness]>",
+        "[-5]% growth [in all cities] <when below [-30] [Happiness]>",
+        "Nullifies Growth [in all cities] <when below [-40] [Happiness]>",
+
+        "[-10]% [Production] [in all cities] <when below [-10] [Happiness]>",
+        "[-10]% [Production] [in all cities] <when below [-20] [Happiness]>",
+        "Cannot build [Settler] units <when below [-10] [Happiness]>",
+
+        "[-5]% Strength <for [All] units> <when below [0] [Happiness]>",
+        "[-5]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        "[-5]% Strength <for [All] units> <when below [-15] [Happiness]>",
+        "[-5]% Strength <for [All] units> <when below [-20] [Happiness]>",
+        "[-5]% Strength <for [All] units> <when below [-25] [Happiness]>",
+        "[-5]% Strength <for [All] units> <when below [-30] [Happiness]>",
+
+        "[+3]% growth [in all cities] <when between [21] and [50] [Happiness]>",       
+        "[+5]% growth [in all cities] <when between [51] and [100] [Happiness]>",       
+        "[+7]% growth [in all cities] <when between [101] and [200] [Happiness]>",      
+        "[+9]% growth [in all cities] <when above [201] [Happiness]>",
+
+        "[+1]% [Gold] [in all cities] <when between [11] and [30] [Happiness]>",
+        "[+3]% [Gold] [in all cities] <when between [31] and [70] [Happiness]>",       
+        "[+5]% [Gold] [in all cities] <when between [71] and [100] [Happiness]>",      
+        "[+7]% [Gold] [in all cities] <when between [101] and [150] [Happiness]>",       
+        "[+9]% [Gold] [in all cities] <when above [151] [Happiness]>",
+
+        "[+1]% [Faith] [in all cities] <when between [51] and [80] [Happiness]>",
+        "[+5]% [Faith] [in all cities] <when between [81] and [100] [Happiness]>",       
+        "[+7]% [Faith] [in all cities] <when between [101] and [150] [Happiness]>",      
+        "[+10]% [Faith] [in all cities] <when between [151] and [250] [Happiness]>",       
+        "[+12]% [Faith] [in all cities] <when above [251] [Happiness]>",
+
+        "[+5]% Strength for cities <when attacking> <when between [11] and [80] [Happiness]>",
+        "[+7]% Strength for cities <when attacking> <when between [81] and [100] [Happiness]>",       
+        "[+10]% Strength for cities <when attacking> <when between [101] and [150] [Happiness]>",      
+        "[+12]% Strength for cities <when attacking> <when between [151] and [250] [Happiness]>",       
+        "[+15]% Strength for cities <when attacking> <when above [251] [Happiness]>",
+	
+
+	"Rebel units may spawn <with [2]% chance> <when above [200] [Happiness]>",
+	"Rebel units may spawn <with [5]% chance> <when between [151] and [200] [Happiness]>",
+	"Rebel units may spawn <with [10]% chance> <when between [101] and [150] [Happiness]>",
+	"Rebel units may spawn <with [20]% chance> <when between [51] and [100] [Happiness]>",
+	"Rebel units may spawn <with [40]% chance> <when between [31] and [50] [Happiness]>",
+	"Rebel units may spawn <with [60]% chance> <when between [11] and [30] [Happiness]>",
+	"Rebel units may spawn <with [80]% chance> <when between [0] and [10] [Happiness]>",
+	"Rebel units may spawn <with [90]% chance> <when below [0] [Happiness]>",
+
+	"Rebel units may spawn <with [70]% chance> <when above [5] [Nobles]>",
+	"Rebel units may spawn <with [40]% chance> <when between [3] and [5] [Nobles]>",
+// Events
+
+        "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <upon founding a city>",
+        "Free [Spearman] appears <when above [11] [Happiness]> <upon founding a city>",
+        "Free [General] appears <upon turn end> <when above [1] [Nobles]> <with [1]% chance>",
+        "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [10]% chance>",
+        "Free [Foot Guard] appears <upon turn end> <when above [1] [Veteran]> <with [3]% chance>",
+        "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
+        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance> <before the [Imperial Age]>",
+        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [3]% chance> <before the [Imperial Age]>",
+        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [6]% chance> <during the [Imperial Age]>",
+        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [4]% chance> <during the [Imperial Age]>",
+        "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
+
+// Decadence & Great People
+
+        "[+70]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [100] [Decadence]>",
+        "[+50]% maintenance costs <for [Military] units> <when above [100] [Decadence]>",
+
+        "Provides [1] [Manpower] <when below [0] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [5] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [10] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [15] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [20] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [25] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [30] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [35] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [40] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [45] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [50] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [60] [Decadence]> <for [Major] Civilizations>",
+
+        "[-1]% [Culture] [in all cities] <when above [20] [Decadence]>",
+        "[-1]% [Culture] [in all cities] <when above [30] [Decadence]>",
+        "[-1]% [Culture] [in all cities] <when above [40] [Decadence]>",
+        "[-1]% [Culture] [in all cities] <when above [50] [Decadence]>",
+        "[-1]% [Culture] [in all cities] <when above [60] [Decadence]>",
+        "[-1]% [Culture] [in all cities] <when above [70] [Decadence]>",
+        "[-1]% [Culture] [in all cities] <when above [80] [Decadence]>",
+        "[-1]% [Culture] [in all cities] <when above [90] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [100] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [150] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [200] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [250] [Decadence]>",
+
+        "[-1]% [Gold] [in all cities] <when above [20] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [30] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [40] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [50] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [60] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [70] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [80] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [90] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [100] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [150] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [200] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [250] [Decadence]>",
+
+        "[-1 Happiness] [in all cities] <when above [40] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [60] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [80] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [100] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [120] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [140] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [160] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [180] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [200] [Decadence]>",
+        "[-2 Happiness] [in all cities] <when above [250] [Decadence]>",
+
+        "[-1]% [Production] [in all cities] <when above [30] [Decadence]>",
+        "[-1]% [Production] [in all cities] <when above [40] [Decadence]>",
+        "[-1]% [Production] [in all cities] <when above [50] [Decadence]>",
+        "[-1]% [Production] [in all cities] <when above [60] [Decadence]>",
+        "[-1]% [Production] [in all cities] <when above [70] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [100] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [130] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [160] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [200] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [250] [Decadence]>",
+
+        "[Great Courtesan] is earned [+5]% faster <when above [5] [Decadence]>",
+        "[Great Courtesan] is earned [+5]% faster <when above [10] [Decadence]>",
+        "[Great Courtesan] is earned [+5]% faster <when above [15] [Decadence]>",
+        "[Great Courtesan] is earned [+5]% faster <when above [20] [Decadence]>",
+        "[Great Courtesan] is earned [+5]% faster <when above [25] [Decadence]>",
+
+        "[Great Orator] is earned [+5]% faster <when above [5] [Decadence]>",
+        "[Great Orator] is earned [+5]% faster <when above [10] [Decadence]>",
+        "[Great Orator] is earned [+5]% faster <when above [15] [Decadence]>",
+        "[Great Orator] is earned [+5]% faster <when above [20] [Decadence]>",
+        "[Great Orator] is earned [+5]% faster <when above [25] [Decadence]>",
+
+        "[Great Merchant] is earned [+5]% faster <when above [5] [Decadence]>",
+        "[Great Merchant] is earned [+5]% faster <when above [10] [Decadence]>",
+        "[Great Merchant] is earned [+5]% faster <when above [15] [Decadence]>",
+        "[Great Merchant] is earned [+5]% faster <when above [20] [Decadence]>",
+        "[Great Merchant] is earned [+5]% faster <when above [25] [Decadence]>",
+
+        "[Great Prophet] is earned [-90]% faster <before adopting [Keeper of Traditions]>",
+        "[Great Prophet] is earned [+5]% faster <when above [5] [Decadence]>",
+        "[Great Prophet] is earned [+5]% faster <when above [10] [Decadence]>",
+        "[Great Prophet] is earned [+5]% faster <when above [15] [Decadence]>",
+        "[Great Prophet] is earned [+5]% faster <when above [20] [Decadence]>",
+        "[Great Prophet] is earned [+5]% faster <when above [25] [Decadence]>",
+
+        "[Great Artist] is earned [-5]% faster <when above [5] [Decadence]>",
+        "[Great Artist] is earned [-5]% faster <when above [10] [Decadence]>",
+        "[Great Artist] is earned [-5]% faster <when above [15] [Decadence]>",
+        "[Great Artist] is earned [-5]% faster <when above [20] [Decadence]>",
+        "[Great Artist] is earned [-5]% faster <when above [25] [Decadence]>",
+
+        "[Great Scholar] is earned [-5]% faster <when above [8] [Decadence]>",
+        "[Great Scholar] is earned [-5]% faster <when above [10] [Decadence]>",
+        "[Great Scholar] is earned [-5]% faster <when above [12] [Decadence]>",
+        "[Great Scholar] is earned [-5]% faster <when above [15] [Decadence]>",
+        "[Great Scholar] is earned [-5]% faster <when above [20] [Decadence]>",
+
+        "[Great Engineer] is earned [-5]% faster <when above [5] [Decadence]>",
+        "[Great Engineer] is earned [-5]% faster <when above [7] [Decadence]>",
+        "[Great Engineer] is earned [-5]% faster <when above [9] [Decadence]>",
+        "[Great Engineer] is earned [-5]% faster <when above [15] [Decadence]>",
+        "[Great Engineer] is earned [-5]% faster <when above [20] [Decadence]>",
+
+        "[General] is earned [-100]% faster <when below [1] [Nobles]>",
+        "[General] is earned [-5]% faster <when above [5] [Decadence]>",
+        "[General] is earned [-5]% faster <when above [10] [Decadence]>",
+        "[General] is earned [-5]% faster <when above [15] [Decadence]>",
+        "[General] is earned [-5]% faster <when above [20] [Decadence]>",
+        "[General] is earned [-5]% faster <when above [25] [Decadence]>",
+
+
+// AI Great People
+
+        "Free Social Policy <upon gaining a [Great Orator] unit> <for [AI player] Civilizations>",
+        "Empire enters a [12]-turn Golden Age <upon gaining a [Great Artist] unit> <for [AI player] Civilizations>",
+        "Empire enters a [12]-turn Golden Age <upon gaining a [Great Merchant] unit> <for [AI player] Civilizations>",
+        "Free Great Person <upon gaining a [Great Courtesan] unit> <for [AI player] Civilizations>",
+        "Empire enters a [12]-turn Golden Age <upon gaining a [Great Scholar] unit> <for [AI player] Civilizations> <during the [Imperial Age]>",
+        "[1] free random researchable Tech(s) from the [Archaic Age] <upon gaining a [Great Scholar] unit> <for [AI player] Civilizations> <during the [Archaic Age]>",
+        "[1] free random researchable Tech(s) from the [Classical Age] <upon gaining a [Great Scholar] unit> <for [AI player] Civilizations> <during the [Classical Age]>",
+        "[1] free random researchable Tech(s) from the [Hellenistic Age] <upon gaining a [Great Scholar] unit> <for [AI player] Civilizations> <during the [Hellenistic Age]>",
+// Maintenance
+        "[+100]% maintenance costs <for [Military] units> <before the [Imperial Age]>",
+        "[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
+        "[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
+        "[+200]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+        "[+30]% maintenance costs <for [Military] units> <when at war>",
+
+        "[+10]% maintenance costs <for [Cretan Archer] units>",
+
+        "[+30]% maintenance costs <for [Spear] units>",
+        "[+40]% maintenance costs <for [Pike Phalanx] units>",
+        "[+100]% maintenance costs <for [Royal Phalanx] units>",
+        "[+200]% maintenance costs <for [Praetoria] units>",
+        "[+100]% maintenance costs <for [Mercenary] units>",
+
+        "[+50]% maintenance costs <for [Sword] units>",
+        "[+100]% maintenance costs <for [Infantry Shield III] units>",
+
+        "[+50]% maintenance costs <for [Mounted] units>",
+        "[+70]% maintenance costs <for [Mounted Archery] units>",
+        "[+70]% maintenance costs <for [Cavalry] units>",
+        "[+200]% maintenance costs <for [Cataphract] units>",
+        "[+200]% maintenance costs <for [Clibanarii] units>",
+        "[+50]% maintenance costs <for [Royal Agema] units>",
+
+        "[+50]% maintenance costs <for [Elephant] units>",
+        "[+100]% maintenance costs <for [Ballista] units>",
+
+        "[+50]% maintenance costs <for [Trireme] units>",
+        "[+100]% maintenance costs <for [Pentere] units>",
+        "[+200]% maintenance costs <for [Hexere] units>",
+        "[+200]% maintenance costs <for [Decere] units>",
+
+        "[-50]% maintenance costs <for [All] units> <in [City center] tiles>",
+// + research with nobles, + happiness with recruits 
+    ]
+}
