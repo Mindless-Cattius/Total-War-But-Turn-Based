@@ -64,7 +64,7 @@
 	{
 		"columnNumber": 2,
 		"era": "Archaic Age",
-		"techCost": 150,
+		"techCost": 120,
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
@@ -109,7 +109,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Archaic Age",
-		"techCost": 600,
+		"techCost": 400,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -155,7 +155,7 @@
 	{
 		"columnNumber": 4,
 		"era": "Classical Age",
-		"techCost": 800,
+		"techCost": 600,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -221,7 +221,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical Age",
-		"techCost": 1200,
+		"techCost": 1000,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [

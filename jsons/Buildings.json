@@ -76,11 +76,12 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
-		"happiness": -3,
+		"happiness": -1,
 		"cityHealth": 5,
 		"uniques": [
 		"Only available <starting from the [Classical Age]>",
 		"New [Galley] units start with [20] XP [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
 		"Must be next to [Coast]",
 		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
@@ -94,7 +95,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
-		"happiness": -3,
+		"happiness": -1,
 		"cityHealth": 5,
 		"uniques": [
 		"Comment [Enables Hemiola]",
@@ -102,6 +103,7 @@
 		"Consumes [1] [Mercenary (Cretan)]","Only available <with [Mercenary (Cretan)]> <hidden from users>",
 		"Provides [1] [Enable Hemiola] <hidden from users>",
 		"New [Hemiola] units start with [20] XP [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
 		"Must be next to [Coast]",
 		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
@@ -114,13 +116,14 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
-		"happiness": -3,
+		"happiness": -1,
 		"cityHealth": 5,
 		"uniques": [
 		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
 		"Only available <starting from the [Hellenistic Age]>",
 		"Consumes [1] [Mercenary (Cilician)]","Only available <with [Mercenary (Cilician)]> <hidden from users>",
 		"New [Hemiola] units start with [20] XP [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
 		"Must be next to [Coast]",
 		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
@@ -143,7 +146,7 @@
 		"science": 1,
 		"cityHealth": 10,
 		"uniques": [ 
-		"Provides [2] [Sanitation]",
+		"Provides [1] [Sanitation]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Gold] from [Herbs] tiles [in this city]",
 		"[+1 Food] from [Village] tiles [in this city]",
@@ -158,7 +161,7 @@
 		"hurryCostModifier": 25,
 		"cost": 130,
 		"maintenance": 2,
-		"science": 4,
+		"science": 3,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 		"Only available <in cities with a [Palace]>"
@@ -176,7 +179,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"happiness": 2,
-		"culture": 2,
+		"culture": 1,
 		"cost": 120,
 		"specialistSlots": {"Magistrate": 3},
 		"uniques": [
@@ -186,6 +189,8 @@
 		"Provides [1] [Nobles] <during the [Imperial Age]>",
 		"New [Foot Guard] units start with [20] XP [in this city]",
 		"New [King] units start with [20] XP [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Happiness] from [Village] tiles [in this city]",
 		"Only available <in cities with a [Palace]>",
 		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured"
@@ -295,7 +300,7 @@
 		"[+10]% Natural religion spread [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"Cost increases by [10] per owned city",
-		"[+50]% weight to this choice for AI decisions",
+		"[+20]% weight to this choice for AI decisions",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Mysticism"
@@ -309,7 +314,7 @@
 		"happiness": 2,
 		"faith": 1,
 		"uniques": [
-			"Cost increases by [20] per owned city",
+			"Cost increases by [15] per owned city",
 			"Provides [1] [Decadence]"
 ],
 		"requiredTech": "Mysticism"
@@ -328,7 +333,7 @@
 			"Provides [1] [Decadence]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [15] per owned city",
 ],
 		"civilopediaText": [{"text": "Promoting largely politically irrelevant or pro-ruling class themes, a Theatre can keep your people busy while shaping their perceptions and making them feel more enlightened."}]
 	},
@@ -472,7 +477,6 @@
 		"cost": 120,
 		"happiness": 1,
 		"uniques": [
-			"Provides [1] [Sanitation]",
 			"[+20]% Great Person generation [in this city]", 
 			"Must be next to [Fresh water]"
 			"Provides [1] [Decadence]",
@@ -568,83 +572,17 @@
 	},
 	// Barter
 	{
-		"name": "Grain Exports",
-		"requiredBuilding": "Market",
-		"requiredNearbyImprovedResources": ["Wheat"],
-		"hurryCostModifier": 25,
-		"cost": 100,
-		"gold": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Cost increases by [10] per owned city",
-			"[+1 Gold] from [Wheat] tiles [in this city]"
-],
-		"requiredTech": "Barter"
-	},
-	{
-		"name": "Timber Exports",
-		"requiredBuilding": "Market",
-		"requiredNearbyImprovedResources": ["Timber"],
-		"hurryCostModifier": 25,
-		"cost": 100,
-		"maintenance": 0,
-		"uniques": [
-			"Cost increases by [30] per owned city",
-			"[+2 Gold, -1 Production] <when above [1] [Timber]>",
-			"[+1 Gold] <when above [3] [Timber]>",
-			"[+1 Gold, -1 Production] <when above [5] [Timber]>",
-			"[+1 Gold] <when above [10] [Timber]>",
-			"Limited to [1] per Civilization",
-			"Limited to [3] per Civilization <after adopting [Timber Economy]>",
-],
-		"requiredTech": "Barter"
-	},
-	{
-		"name": "Bronze Exports",
-		"requiredBuilding": "Market",
-		"requiredNearbyImprovedResources": ["Timber"],
-		"hurryCostModifier": 25,
-		"cost": 100,
-		"maintenance": 1,
-		"uniques": [
-			"Cost increases by [30] per owned city",
-			"[+2 Gold, -1 Production] <when above [1] [Bronze]>",
-			"[+2 Gold] <when above [3] [Bronze]>",
-			"[+2 Gold, -1 Production] <when above [5] [Bronze]>",
-			"[+1 Gold] <when above [10] [Bronze]>",
-			"Limited to [1] per Civilization",
-],
-		"requiredTech": "Barter"
-	},
-	{
-		"name": "Horses Exports",
-		"requiredBuilding": "Market",
-		"requiredNearbyImprovedResources": ["Timber"],
-		"hurryCostModifier": 25,
-		"cost": 100,
-		"maintenance": 1,
-		"uniques": [
-			"Cost increases by [30] per owned city",
-			"[+2 Gold, -1 Production] <when above [1] [Horses]>",
-			"[+2 Gold] <when above [3] [Horses]>",
-			"[+2 Gold, -1 Production] <when above [5] [Horses]>",
-			"[+2 Gold] <when above [10] [Horses]>",
-			"Limited to [1] per Civilization",
-			"Limited to [3] per Civilization <after adopting [Trade Caravans]>",
-],
-		"requiredTech": "Barter"
-	},
-	{
 		"name": "Cattle Trader",
 		"requiredNearbyImprovedResources": ["Cattle","Sheep","Camels"],
 		"hurryCostModifier": 25,
 		"cost": 60,
 		"maintenance": 0,
-		"percentStatBonus": {"gold": 10},
 		"gold": 2,
 		"requiredTech": "Barter"
 		"uniques": [
 		"Cost increases by [10] per owned city",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Gold] from [Village] tiles [in this city]",
 		"[+1 Food, +1 Gold] from [Cattle] tiles [in this city]",
 		"[+1 Food, +1 Gold] from [Sheep] tiles [in this city]",
 		"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
@@ -657,6 +595,8 @@
 		"cost": 120,
 		"maintenance": 2,
 		"uniques": [
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Food] from [Village] tiles [in this city]",
 			"Provides [1] [Olive Oil]",
 			"[+1 Food] from [Olives] tiles [in this city]"
 		],
@@ -669,6 +609,7 @@
 		"cost": 60,
 		"maintenance": 2,
 		"uniques": [
+			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"Cost increases by [10] per owned city",
 			"Provides [1] [Ceramics]",
 			"[+1 Gold] <in cities with a [Olive Mill]>",
@@ -685,20 +626,18 @@
 		"percentStatBonus": {"gold": 5},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-			"Gain [10]-[50] [Gold]",
 			"[+2 Gold] <in cities with a [Jeweler]>",
 			"[+2 Gold] <in cities with a [Mint]>",
 			"[+2 Gold] <in cities with a [Goldsmith]>",
 			"[+2 Gold] <in cities with a [Tar Workshop]>",
-			"[+1 Gold] from [Trading post] tiles [in this city]",
-			"[+1 Gold] from [Village] tiles [in this city]",
 			"[+1 Gold] <in cities with a [Cattle Trader]>",
 			"[+1 Gold] <in cities with a [Arena]>",
 			"[+1 Gold] <in cities with a [Olive Mill]>",
 			"[+1 Gold] <in cities with a [Ceramics Workshop]>",
-			"[+1 Gold] <in cities with a [Grain Exports]>",
 			"[+1 Gold] <in cities with a [Brick Maker]>",
 			"[+1 Gold] <in cities with a [Weavery]>",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Gold] from [Village] tiles [in this city]",
 			"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
 			"Consumes [1] [Sanitation]",
 			"Provides [1] [Decadence]",
@@ -718,8 +657,7 @@
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-			"Gain [100]-[300] [Gold]",
-			"[+1 Gold] per [8] population [in this city]",
+			"[+1 Gold] per [5] population [in this city]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+2 Gold] from [Village] tiles [in this city]",
 			"[+2 Gold] <in cities with a [Jeweler]>",
@@ -730,7 +668,6 @@
 			"[+1 Gold] <in cities with a [Arena]>",
 			"[+1 Gold] <in cities with a [Olive Mill]>",
 			"[+1 Gold] <in cities with a [Ceramics Workshop]>",
-			"[+1 Gold] <in cities with a [Grain Exports]>",
 			"[+1 Gold] <in cities with a [Brick Maker]>",
 			"[+1 Gold] <in cities with a [Weavery]>",
 			"Consumes [2] [Sanitation]",
@@ -752,20 +689,18 @@
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-			"Gain [10]-[100] [Gold]",
 			"Provides [1] [Silphium]",
 			"Provides [1] [Decadence]",
 			"[+2 Gold] <in cities with a [Jeweler]>",
 			"[+2 Gold] <in cities with a [Mint]>",
 			"[+2 Gold] <in cities with a [Goldsmith]>",
 			"[+2 Gold] <in cities with a [Tar Workshop]>",
-			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Village] tiles [in this city]",
 			"[+1 Gold] <in cities with a [Cattle Trader]>",
 			"[+1 Gold] <in cities with a [Arena]>",
 			"[+1 Gold] <in cities with a [Olive Mill]>",
 			"[+1 Gold] <in cities with a [Ceramics Workshop]>",
-			"[+1 Gold] <in cities with a [Grain Exports]>",
 			"[+1 Gold] <in cities with a [Brick Maker]>",
 			"Consumes [1] [Sanitation]",
 			"Provides [1] [Decadence]",
@@ -790,13 +725,13 @@
 			"[+3 Gold] from [Gold Ore] tiles [in this city]", 
 			"[+2 Gold] from [Silver] tiles [in this city]",
 			"[+1 Gold] from [Copper] tiles [in this city]",
-			"[+1 Gold] from [Trading post] tiles [in this city]",
-			"[+1 Gold] from [Village] tiles [in this city]",
+			"[+1 Gold, +1 Happiness] from [Trading post] tiles [in this city]",
+			"[+1 Gold, +1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Production] from [Fort] tiles [in this city]",
 			"[-1 Food] from [Village] tiles [in this city]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"Cost increases by [30] per owned city",
+			"Cost increases by [20] per owned city",
 		],
 		"requiredTech": "Currency"
 	},
@@ -1043,6 +978,7 @@
 		"food": 2,
 		"production": 1,
 		"uniques": ["Must be on [River]",
+		"Provides [1] [Sanitation]",
 			"[+1 Food] from [Village] tiles [in this city]"],
 		"requiredTech": "The Wheel",
 	},
@@ -1141,7 +1077,7 @@
 		"happiness": 1,
 		"uniques": [
 		"Comment [+1 Food from non-fresh water Farm tiles in this city]", 
-		"Provides [2] [Sanitation]",
+		"Provides [1] [Sanitation]",
 		"[20]% Food is carried over after population increases [in this city]",
 		"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
 		"[+1 Culture] from [Fort] tiles [in this city]",
@@ -2197,12 +2133,12 @@
 "maintenance": 0,
 "uniques": [
 			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
-		"Gain a free [Plague] [in this city] <with [3]% chance> <in cities without a [Plague]> <when below [1] [Sanitation]> <hidden from users>",
+		"Gain a free [Plague] [in this city] <with [5]% chance> <in cities without a [Plague]> <when below [1] [Sanitation]> <hidden from users>",
 		"Gain a free [Plague] [in this city] <with [3]% chance> <in cities without a [Plague]> <when between [1] and [20] [Sanitation]> <hidden from users>",
 		"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]> <hidden from users>",
 		"Gain a free [Dangerious Plague] [in this city] <with [2]% chance> <in cities without a [Dangerious Plague]> <when below [3] [Sanitation]> <hidden from users>",
-		"Gain a free [Dangerious Plague] [in this city] <with [2]% chance> <in cities without a [Dangerious Plague]> <when below <when between [1] and [20] [Sanitation]> [Sanitation]> <hidden from users>",
-		"Gain a free [Dangerious Plague] [in this city] <with [1]% chance> <in cities without a [Dangerious Plague]> <when above [20] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [2]% chance> <in cities without a [Dangerious Plague]> <in cities without a [Plague]> <when between [1] and [20] [Sanitation]> <hidden from users>",
+		"Gain a free [Dangerious Plague] [in this city] <with [1]% chance> <in cities without a [Dangerious Plague]> <in cities without a [Plague]> <when above [20] [Sanitation]> <hidden from users>",
 			"[+1 Food] from [Village] tiles [in this city] <when above [25] [Sanitation]> <hidden from users>"
 			"[+1 Food] from [Village] tiles [in this city] <when above [15] [Sanitation]> <hidden from users>"
 			"[+1 Food] from [Village] tiles [in this city] <when above [5] [Sanitation]> <hidden from users>"
@@ -2237,11 +2173,11 @@
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
 			"Comment [-Think of it as the Plague, but now it hates you personally. Improve sanitation enough and the plague begins questioning its life choices.]",
-"Remove [Dangerious Plague] [in this city] <with [5]% chance> <in cities with a [Dangerious Plague]> <when above [5] [Sanitation]> <hidden from users>",
-"Remove [Dangerious Plague] [in this city] <with [5]% chance> <in cities with a [Dangerious Plague]> <when above [10] [Sanitation]> <hidden from users>",
+"Remove [Dangerious Plague] [in this city] <with [3]% chance> <in cities with a [Dangerious Plague]> <when above [3] [Sanitation]> <hidden from users>",
+"Remove [Dangerious Plague] [in this city] <with [3]% chance> <in cities with a [Dangerious Plague]> <when above [10] [Sanitation]> <hidden from users>",
 "Remove [Dangerious Plague] [in this city] <with [5]% chance> <in cities with a [Dangerious Plague]> <when above [25] [Sanitation]> <hidden from users>",
  			"[+2 Faith, +2 Science, -4 Happiness]",
-			"[-3 Gold, -3 Food, -1 Culture] from [all] tiles [in all cities]",
+			"[-3 Gold, -2 Food, -1 Culture] from [all] tiles [in all cities]",
 			"[-1] HP when healing <for [Military] units>",
 			"Consumes [2] [Decadence]",
 			"Consumes [2] [Manpower]",
@@ -2257,7 +2193,7 @@
 		"happiness": 2,
 		"uniques": [ 
 			"Comment [-Invest in sanitation… or don’t. The plagues will happily invest in you.]",
-			"Provides [2] [Sanitation]",
+			"Provides [1] [Sanitation]",
 			"Provides [2] [Decadence] <during the [Imperial Age]>",
 ]
 },
@@ -2269,7 +2205,7 @@
 		"maintenance": 2,
 		"happiness": 4,
 		"uniques": [ 
-			"Provides [3] [Sanitation]",
+			"Provides [2] [Sanitation]",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
 ]
 },

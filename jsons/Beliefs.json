@@ -198,7 +198,6 @@
         "uniques": [
         "[+1 Gold] from every [Temple]",
         "[+1 Science] from every [Market]",
-        "[+1 Food] from every [Grain Exports]",
         "Only available <after adopting [Hellenistic Culture]>"
         ]
     },
@@ -243,7 +242,6 @@
         "type": "Pantheon",
         "uniques": [
         "[+1 Food] from every [Granary]",
-        "[+2 Gold] from every [Grain Exports]",
         "[+2 Food, +2 Gold] from every [Palace]",
         "Only available <for [The Ptolemies] Civilizations>"
         ]
@@ -396,7 +394,6 @@
         "type": "Pantheon",
         "uniques": [
         "[+2 Food, +1 Faith] from every [Granary]",
-        "[+2 Gold, +1 Faith] from every [Grain Exports]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]

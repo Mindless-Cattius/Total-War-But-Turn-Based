@@ -1,13 +1,12 @@
 [  
 {
     "name": "Barbarian Spearman",
-    "uniqueTo": "The Barbarians",
     "unitType": "Spear",
     "movement": 2,
     "strength": 11,
     "cost": 70,
     "requiredTech": "Bronze Working",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -17,13 +16,12 @@
   },
   {
     "name": "Barbarian Pike Phalanx",
-    "uniqueTo": "The Barbarians",
     "unitType": "Spear",
     "movement": 2,
     "strength": 16,
     "cost": 125,
     "requiredTech": "Bronze Working",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Pike Phalanx] ability",
@@ -33,14 +31,13 @@
   },
   {
     "name": "Barbarian Swordsman",
-    "uniqueTo": "The Barbarians",
     "unitType": "Sword",
     "hurryCostModifier": 20,
     "cost": 150,
     "movement": 2,
     "strength": 15,
     "requiredTech": "Citizen Levy",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "Infantry Shield II"
@@ -49,13 +46,12 @@
   },
   {
     "name": "Barbarian Heavy Spearman",
-    "uniqueTo": "The Barbarians",
     "unitType": "Spear",
     "cost": 200,
     "movement": 2,
     "strength": 18,
     "requiredTech": "Military Reforms",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -66,13 +62,12 @@
   },
   {
     "name": "Barbarian Heavy Swordsman",
-    "uniqueTo": "The Barbarians",
     "unitType": "Sword",
     "cost": 200,
     "movement": 2,
     "strength": 19,
     "requiredTech": "Military Reforms",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "Infantry Shield III",
@@ -82,14 +77,13 @@
   },
   {
     "name": "Barbarian Horseman",
-    "uniqueTo": "The Barbarians",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
     "cost": 110,
     "movement": 4,
     "strength": 13,
     "requiredTech": "Riding",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Horseman] ability",
@@ -100,7 +94,6 @@
   },
   {
     "name": "Barbarian Horse Archer",
-    "uniqueTo": "The Barbarians",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
     "cost": 180,
@@ -108,7 +101,7 @@
     "strength": 8,
     "rangedStrength": 11,
     "requiredTech": "Riding",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "Horse Archer ability",
@@ -117,14 +110,13 @@
   },
   {
     "name": "Barbarian Cavalry",
-    "uniqueTo": "The Barbarians",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
     "cost": 170,
     "movement": 3,
     "strength": 17,
     "requiredTech": "Equestrian Class",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -134,14 +126,13 @@
   },
   {
     "name": "Barbarian Archer",
-    "uniqueTo": "The Barbarians",
     "unitType": "Archery",
     "movement": 2,
     "strength": 7,
     "rangedStrength": 12,
     "cost": 90,
     "requiredTech": "Archery",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Archer] ability"
@@ -150,14 +141,13 @@
   },
   {
     "name": "Barbarian Slinger",
-    "uniqueTo": "The Barbarians",
     "unitType": "Archery",
     "movement": 2,
     "strength": 8,
     "rangedStrength": 11,
     "cost": 90,
     "requiredTech": "Archery",
-    "uniques": [
+    "uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-States] Civilizations>"
     ],
     "promotions": [
       "[Slinger] ability",
