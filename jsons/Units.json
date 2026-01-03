@@ -1122,7 +1122,7 @@
     "uniqueTo": "The Romans",
     "replaces": "Swordsman",
     "movement": 2,
-    "strength": 16,
+    "strength": 17,
     "cost": 130,
     "uniques": [
       		"Comment ['Heavy infantry, can build roads and steal land. Don’t expect them to win any races, but they’ll gladly take your territory while they're at it']",
@@ -1130,6 +1130,7 @@
 	      	"Can build [All Road] improvements on tiles",
 	"Can build [Roman Fort] improvements on tiles",
       		"Consumes [3] [Manpower]",
+       "Consumes [1] [Iron]",
       		"Can upgrade to [Legion] <after discovering [Infantry Training]>",
       		"Unbuildable <after discovering [Infantry Training]>",
     ],
@@ -1607,7 +1608,7 @@
     "unitType": "Melee Water",
     "movement": 5,
     "strength": 12,
-    "cost": 110,
+    "cost": 80,
     "requiredTech": "Woodworking",
     "uniques": [
       "Comment [-Light naval melee, cheap and disposable. Perfect for getting your men killed without actually accomplishing much]",
@@ -1622,9 +1623,9 @@
   {
     "name": "Trireme",
     "unitType": "Melee Water",
-    "movement": 6,
+    "movement": 4,
     "strength": 16,
-    "cost": 100,
+    "cost": 120,
     "requiredTech": "Shipbuilding",
     "uniques": [
       "Comment [-Medium naval melee unit]",
@@ -1639,7 +1640,7 @@
   {
     "name": "Pentere",
     "unitType": "Melee Water",
-    "movement": 5,
+    "movement": 4,
     "strength": 22,
     "cost": 150,
     "requiredTech": "Navigation",
@@ -1656,8 +1657,8 @@
   {
     "name": "Hemiola",
     "unitType": "Melee Water",
-    "movement": 6,
-    "strength": 15,
+    "movement": 5,
+    "strength": 13,
     "cost": 80,
     "requiredTech": "Navigation",
     "uniques": [
@@ -1677,7 +1678,7 @@
   {
     "name": "Trihemiola",
     "unitType": "Melee Water",
-    "movement": 6,
+    "movement": 4,
     "strength": 17,
     "cost": 170,
     "uniques": [
@@ -1699,7 +1700,7 @@
   {
     "name": "Hexere",
     "unitType": "Ranged Water",
-    "movement": 5,
+    "movement": 4,
     "strength": 19,
     "rangedStrength": 18,
     "cost": 200,
@@ -1717,7 +1718,7 @@
   {
     "name": "Decere",
     "unitType": "Ranged Water",
-    "movement": 5,
+    "movement": 4,
     "strength": 25,
     "rangedStrength": 23,
     "cost": 300,
@@ -1781,7 +1782,7 @@
  	"[+40]% Strength <vs [Sword] units> <when attacking>",
  	"[+30]% Strength <vs [Siege] units> <when attacking>",
 	"[+400]% Strength <vs cities> <when attacking>",
-	"Consumes [3] [Manpower]",
+	"Consumes [2] [Manpower]",
 	"Consumes [1] [Timber]",
 	"Never appears as a Barbarian unit",
 	"[-1] Sight <hidden from users>",
@@ -1904,7 +1905,7 @@
     "uniques": [
 		      "Comment [Battlefield commander, give bounus to nearby units]",
       		"Only available <in cities with a [Army Barracks]>",
-		      "[+30]% Strength <during the [Imperial Age]>",
+		      "[+20]% Strength <during the [Imperial Age]>",
 		      "[+100]% production cost <during the [Imperial Age]>",
       		"Consumes [1] [Nobles]",
     "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
@@ -1923,7 +1924,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 130,
+    "cost": 120,
     "uniques": [
 	    "Comment [-Elite medium sword infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
@@ -1998,6 +1999,7 @@
     "strength": 15,
     "cost": 130,
     "uniques": [
+       "Destroy <after adopting [Manipular Legion]> <hidden from users>",
       		"Only available <before adopting [Manipular Legion]> <hidden from users>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
@@ -2815,6 +2817,8 @@
     "cost": 160,
     "uniques": [
       "Only available <in cities with a [Barracks]>",
+      "Only available <after adopting [Hellenic Culture]> <hidden from users>",
+      "Only available <after adopting [Hellenistic Culture]> <hidden from users>",
       "Comment [-Medium spear infantry, can build road, good at defending homeland and against cavalry.] <before the [Imperial Age]>",
       "Comment [-Heavy spear infantry, can build road, good at defending homeland and against cavalry.] <during the [Imperial Age]>",
 	"Can build [All Road] improvements on tiles",
