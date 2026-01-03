@@ -35,6 +35,7 @@
 	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
 	"[-20]% Strength for cities <vs [Scout] units> <when attacking>",
 
+	"[-50]% Production when constructing [all] buildings [in all cities] <when at war>",
 	"[-80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
 	"[-20]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
 	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
@@ -304,34 +305,32 @@
         "[+100]% maintenance costs <for [Military] units> <before the [Imperial Age]>",
         "[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
         "[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
-        "[+200]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
-        "[+30]% maintenance costs <for [Military] units> <when at war>",
+        "[+100]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+        "[+20]% maintenance costs <for [Military] units> <when at war>",
 
         "[+10]% maintenance costs <for [Cretan Archer] units>",
 
-        "[+30]% maintenance costs <for [Spear] units>",
-        "[+40]% maintenance costs <for [Pike Phalanx] units>",
-        "[+100]% maintenance costs <for [Royal Phalanx] units>",
-        "[+200]% maintenance costs <for [Praetoria] units>",
-        "[+100]% maintenance costs <for [Mercenary] units>",
+        "[+20]% maintenance costs <for [Spear] units>",
+        "[+30]% maintenance costs <for [Pike Phalanx] units>",
+        "[+60]% maintenance costs <for [Royal Phalanx] units>",
+        "[+100]% maintenance costs <for [Praetoria] units>",
+        "[+60]% maintenance costs <for [Mercenary] units>",
 
-        "[+50]% maintenance costs <for [Sword] units>",
-        "[+100]% maintenance costs <for [Infantry Shield III] units>",
-
-        "[+50]% maintenance costs <for [Mounted] units>",
-        "[+70]% maintenance costs <for [Mounted Archery] units>",
-        "[+70]% maintenance costs <for [Cavalry] units>",
-        "[+200]% maintenance costs <for [Cataphract] units>",
-        "[+200]% maintenance costs <for [Clibanarii] units>",
+        "[+30]% maintenance costs <for [Sword] units>",
+        "[+50]% maintenance costs <for [Infantry Shield III] units>",
+        "[+50]% maintenance costs <for [Mounted Archery] units>",
+        "[+40]% maintenance costs <for [Cavalry] units>",
+        "[+140]% maintenance costs <for [Cataphract] units>",
+        "[+150]% maintenance costs <for [Clibanarii] units>",
         "[+50]% maintenance costs <for [Royal Agema] units>",
 
         "[+50]% maintenance costs <for [Elephant] units>",
-        "[+100]% maintenance costs <for [Ballista] units>",
+        "[+50]% maintenance costs <for [Ballista] units>",
 
         "[+50]% maintenance costs <for [Trireme] units>",
         "[+100]% maintenance costs <for [Pentere] units>",
-        "[+200]% maintenance costs <for [Hexere] units>",
-        "[+200]% maintenance costs <for [Decere] units>",
+        "[+150]% maintenance costs <for [Hexere] units>",
+        "[+150]% maintenance costs <for [Decere] units>",
 
         "[-50]% maintenance costs <for [All] units> <in [City center] tiles>",
 // + research with nobles, + happiness with recruits 
