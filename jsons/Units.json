@@ -213,7 +213,7 @@
     "uniques": [
      		"Only available <in cities with a [Barracks]>",
 		"Comment ['Turns “no entry” into “former entry.” Teamwork highly encouraged.']",
-     		"Consumes [3] [Manpower]",
+     		"Consumes [2] [Manpower]",
 		"[30]% Strength bonus for [Melee] units within [0] tiles <when attacking> <vs cities>",
      		"Uncapturable",
     ],
@@ -227,7 +227,7 @@
     "uniques": [
       		"Only available <in cities with a [Siege Workshop]>",
 		"Comment ['A revolutionary invention that made invading cities slightly less suicidal. Offers protection for your battle buddies while they commit structural diplomacy.']",
-     		"Consumes [4] [Manpower]",
+     		"Consumes [2] [Manpower]",
       		"Consumes [1] [Timber]",
 		"[20]% Strength bonus for [Melee] units within [1] tiles <vs cities>",
 		"[10]% Strength bonus for [Melee] units within [1] tiles <when defending> <vs [Ranged] units>",
