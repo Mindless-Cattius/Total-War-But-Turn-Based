@@ -2165,7 +2165,7 @@
 "Remove [Plague] [in this city] <with [5]% chance> <when above [10] [Sanitation]> <hidden from users>",
 "Remove [Plague] [in this city] <with [5]% chance> <when above [25] [Sanitation]> <hidden from users>",
  			"[+1 Faith, +1 Science, -2 Happiness]",
-			"[-2 Gold, -2 Food] from [improved] tiles [in all cities]",
+			"[-2 Gold, -2 Food] from [improved] tiles [in this city]",
 			"[-1] HP when healing <for [Military] units>",
 			"Consumes [1] [Decadence]",
 			"Consumes [1] [Manpower]",
@@ -2174,7 +2174,7 @@
 	},
 	{
 	"name": "Fountain",
-	"cost": 70,
+	"cost": 100,
 		"requiredTech": "Equestrian Class",
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
