@@ -275,6 +275,7 @@
 		"cost": 60,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
+		"Requires at least [8] population",
 		"Provides [1] [Decadence]",
 		"Provides [1] [Decadence] <during the [Imperial Age]>",
 		"[+1 Happiness] from [Wine] tiles [in this city]","[+1 Happiness] from [Crab] tiles [in this city]","[+1 Happiness] from [Deer] tiles [in this city]"
@@ -295,6 +296,7 @@
 		"specialistSlots": {"Priest": 1},
 		"requiredBuilding": "Shrine",
 		"uniques": [ 
+		"Requires at least [5] population",
 		"Provides [1] [Sanitation]",
 			"Consumes [1] [Decadence] <during a Golden Age>",
 		"[+5]% Natural religion spread [in this city]",
@@ -314,6 +316,7 @@
 		"happiness": 2,
 		"faith": 1,
 		"uniques": [
+		"Requires at least [5] population",
 			"Cost increases by [10] per owned city",
 			"Provides [1] [Decadence]"
 ],
@@ -330,6 +333,7 @@
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Entertainment",
 		"uniques": [
+		"Requires at least [8] population",
 			"Provides [1] [Decadence]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
@@ -349,6 +353,7 @@
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Entertainment",
 		"uniques": [
+		"Requires at least [10] population",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"Consumes [1] [Decadence] <during a Golden Age>",
 			"[-15]% Culture cost of natural border growth [in this city]",
@@ -368,6 +373,7 @@
 		"greatPersonPoints": {"General":1},		
 		"requiredTech": "Entertainment",
 		"uniques": [
+		"Requires at least [12] population",
 			"New [Sword] units start with [5] XP [in this city] <when at war>",
 			"New [Slinger] units start with [5] XP [in this city] <when at war>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -407,6 +413,7 @@
 		"maintenance": 1,
 		"happiness": 1,
 		"uniques": [
+		"Requires at least [15] population",
 			"[+5]% Natural religion spread [in this city]",
 			"[+1 Happiness, +1 Gold] from [Wine] tiles [in this city]",
 			"[+1 Gold] from [Camp] tiles [in this city]",
@@ -442,6 +449,7 @@
 		"isWonder": true,
 		"requiredTech": "Entertainment",
 		"uniques": [
+		"Requires at least [20] population",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+2 Happiness] <after discovering [Aesthetics]>",
 			"Provides [1] [Decadence]",
@@ -461,6 +469,7 @@
 		"specialistSlots": {"Scholar": 1},
 		"requiredBuilding": "Shrine",
 		"uniques": [
+		"Requires at least [7] population",
 			"Provides [1] [Sanitation]",
 			"[+1 Science] per [8] population [in this city]",
 			"[+1 Science] <in cities with a [Scriptorium]>", 
@@ -478,6 +487,7 @@
 		"cost": 80,
 		"happiness": 1,
 		"uniques": [
+		"Requires at least [12] population",
 			"[+10]% Great Person generation [in this city]", 
 			"Must be next to [Fresh water]"
 			"Provides [1] [Decadence]",
@@ -546,6 +556,7 @@
 		"food": 1,
 		"cityHealth": 10,
 		"uniques": [
+		"Requires at least [3] population",
 			"[+1 Food] from [Plantation] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"Cost increases by [5] per owned city",
@@ -581,6 +592,7 @@
 		"gold": 1,
 		"requiredTech": "Barter"
 		"uniques": [
+		"Requires at least [3] population",
 		"Cost increases by [5] per owned city",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Village] tiles [in this city]",
@@ -627,6 +639,7 @@
 		"percentStatBonus": {"gold": 5},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
+		"Requires at least [8] population",
 			"[+2 Gold] <in cities with a [Jeweler]>",
 			"[+2 Gold] <in cities with a [Mint]>",
 			"[+2 Gold] <in cities with a [Goldsmith]>",
@@ -658,6 +671,7 @@
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
+		"Requires at least [20] population",
 			"[+1 Gold] per [8] population [in this city]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+2 Gold] from [Village] tiles [in this city]",
@@ -690,6 +704,7 @@
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
+		"Requires at least [5] population",
 			"Provides [1] [Silphium]",
 			"Provides [1] [Decadence]",
 			"[+2 Gold] <in cities with a [Jeweler]>",
@@ -720,6 +735,7 @@
 		"hurryCostModifier": 35,
 		"percentStatBonus": {"gold": 5},
 		"uniques": [
+		"Requires at least [12] population",
 			"Provides [1] [Decadence]",
 			"Consumes [1] [Copper]",
 			"[Gold] cost of purchasing items in cities [-10]%",
@@ -743,6 +759,7 @@
 		"cityHealth": 20,
 		"maintenance": 3,
 		"uniques": [
+		"Requires at least [5] population",
 			"Comment [Enables Mercenary Units]",
 			"Comment [Provides 1 Mercenary Unit in each culture]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
@@ -779,6 +796,7 @@
 		"cost": 130,
 		"maintenance": 1,
 		"uniques": [
+		"Requires at least [8] population",
 		"[+1 Gold] from [Sheep] tiles [in this city]",
 		"[+1 Gold] from [Flax] tiles [in this city]",
 		"[+1 Gold] from [Hemp] tiles [in this city]",
@@ -869,6 +887,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"cost": 1000,
 		"uniques": [
+		"Requires at least [25] population",
 		"Provides [2] [Decadence]",
 		"[+1 Gold] <in cities with a [Market]>",
 		"[+100]% Gold given to enemy if city is captured"
@@ -890,6 +909,7 @@
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
+		"Requires at least [15] population",
 		"Provides [3] [Decadence]",
 		"Consumes [3] [Manpower]",
 		"[Gold] cost of purchasing [Civilian] units [-30]%",
@@ -913,6 +933,7 @@
  		"cost": 200,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
+		"Requires at least [15] population",
 		"[+1 Happiness] from [Marble] tiles [in this city]",
 		"[+1 Happiness] from [Gold Ore] tiles [in this city]","[+1 Happiness] from [Purple Dye] tiles [in this city]",
 		"[+2 Gold, +1 Food] from [Trading post] tiles [in this city]",
@@ -935,6 +956,7 @@
 		"cost": 1000,
 		"specialistSlots": {"Priest": 3},
 		"uniques": [
+		"Requires at least [20] population",
 		"Consumes [2] [Decadence]",
 		"[+2 Production] <after adopting [Seal of Heaven]>",
 		"[+1 Gold] <after adopting [Seal of Heaven]>",
@@ -996,6 +1018,7 @@
 		"maintenance": 2,
 		"cityHealth": 20,
 		"uniques": [
+		"Requires at least [5] population",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Culture] from [Fort] tiles [in this city]",
 		"[+1 Food] from [Village] tiles [in this city]",
@@ -1033,6 +1056,7 @@
 		"maintenance": 3,
 		"cityHealth": 50,
 		"uniques": [
+		"Requires at least [15] population",
 		"Only available <in cities without a [Army Barracks]>",
 		"Only available <in cities without a [Skirmisher Barracks]>",
 		"New [Horseman] units start with [10] XP [in this city]",
@@ -1079,9 +1103,10 @@
 		"maintenance": 2,
 		"happiness": 1,
 		"uniques": [
+		"Requires at least [15] population",
 		"Comment [+1 Food from non-fresh water Farm tiles in this city]", 
 		"Provides [1] [Sanitation]",
-		"[20]% Food is carried over after population increases [in this city]",
+		"[15]% Food is carried over after population increases [in this city]",
 		"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
 		"[+1 Culture] from [Fort] tiles [in this city]",
 		"[+50]% weight to this choice for AI decisions",
@@ -1098,6 +1123,7 @@
 		"happiness": 1,
 		"food": 2,
 		"uniques": [
+		"Requires at least [8] population",
 		"[+1 Food] from [Wheat] tiles [in this city]",
 		"[+1 Food] from [Village] tiles [in this city]",
 		],
@@ -1113,6 +1139,7 @@
 		"happiness": 1,
 		"cityHealth": 40,
 		"uniques": [
+		"Requires at least [5] population",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [2] [Manpower]",
 			"Provides [1] [Manpower] <during the [Imperial Age]>",
@@ -1132,6 +1159,7 @@
 		"maintenance": 1,
 		"cityHealth": 40,
 		"uniques": [
+		"Requires at least [3] population",
 		"Provides [2] [Manpower]",
 		"Provides [1] [Manpower] <during the [Imperial Age]>",
 		"Consumes [1] [Decadence] <in cities with a [Syssition]>",
@@ -1151,6 +1179,7 @@
 		"culture": 2,
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [
+		"Requires at least [10] population",
 			"Cost increases by [10] per owned city",
 			"Consumes [2] [Decadence] <in cities with a [Citizen Assembly]> <while the empire is happy>",
 			"[+1 Happiness] from [Village] tiles [in this city]",
@@ -1166,6 +1195,7 @@
 		"cityHealth": 50,
 		"Cost": 300,
 		"uniques": [
+		"Requires at least [15] population",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
@@ -1192,6 +1222,7 @@
 		"production": 3,
 		"culture": 3,
 		"uniques": [
+		"Requires at least [12] population",
 		"Consumes [1] [Decadence] <in cities with a [Thracian Weaponsmith]>",
                 "[Sword] units gain the [Improved Armor] promotion",
                 "[Spear] units gain the [Improved Armor] promotion",
@@ -1209,6 +1240,7 @@
 		"requiredTech": "Metallurgy",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [ 
+		"Requires at least [12] population",
   			"[Commander] units gain the [Improved Equipment] promotion",
 			"[+1 Production, +1 Gold] from [Iron] tiles [in this city]",
 			"[+1 Gold] from [Mine] tiles [in this city]",
@@ -1285,6 +1317,7 @@
 		"cityHealth": 100,
 		"cost": 100,
 		"uniques": [
+		"Requires at least [12] population",
 		"Consumes [1] [Manpower]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
@@ -1304,6 +1337,7 @@
 		"cityStrength": 13,
 		"cityHealth": 80,
 		"uniques": [
+		"Requires at least [10] population",
 		"Consumes [1] [Manpower]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
@@ -1335,6 +1369,7 @@
 		"cityHealth": 50,
 		"cityStrength": 5,
 		"uniques": [
+		"Requires at least [5] population",
 		"Consumes [1] [Manpower]",
 		"Must be on [Hill]",
 		"Destroyed when the city is captured",
@@ -1356,6 +1391,7 @@
 		"gold": 3,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
+		"Requires at least [10] population",
 		"Provides [1] [Decadence]",
 		"[+1 Happiness] from [Marble] tiles [in this city]","[+1 Happiness] from [Ivory] tiles [in this city]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -1374,6 +1410,7 @@
 		"happiness": 1,
 		"cityHealth": 20,
 		"uniques": [
+		"Requires at least [10] population",
 		"Provides [1] [Manpower]",
 		"[+2 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Happiness] from [Village] tiles [in this city]",
@@ -1390,6 +1427,7 @@
 		"happiness": 2,
 		"culture": 2,
 		"uniques": [
+		"Requires at least [15] population",
 		"Provides [1] [Decadence]",
 		"[+1 Culture] from [Marble] tiles [in this city]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -1429,6 +1467,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"isNationalWonder": true,
 		"uniques": [
+		"Requires at least [20] population",
 			"[+1 Production] from [Iron] tiles [in this city]"
 			"Destroyed when the city is captured",
 			"[+1 Faith, +2 Gold] from [Iron] tiles [in this city]",
@@ -1468,6 +1507,7 @@
 		"cityStrength": 2,
 		"cityHealth": 15,
 		"uniques": [
+		"Requires at least [5] population",
 		"Provides [1] [Manpower]",
 		"Comment [Training: Archer, Slinger]",
 		],
@@ -1483,6 +1523,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 5},
 		"uniques": [
+		"Requires at least [8] population",
 			"[+1 Production] from [Timber] tiles [in this city]"
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Village] tiles [in this city]",
@@ -1499,6 +1540,7 @@
  		"cost": 300,
 		"cityHealth": 50,
 		"uniques": [
+		"Requires at least [12] population",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Manpower]",
@@ -1528,6 +1570,7 @@
 		"Cost": 200,
 		"uniques": [
 			"Consumes [1] [Manpower]",
+		"Requires at least [15] population",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 		],
@@ -2138,7 +2181,6 @@
 "maintenance": 0,
 "uniques": [
 			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
-		"Gain a free [Plague] [in this city] <with [5]% chance> <in cities without a [Plague]> <when below [1] [Sanitation]> <hidden from users>",
 		"Gain a free [Plague] [in this city] <with [3]% chance> <in cities without a [Plague]> <when between [1] and [20] [Sanitation]> <hidden from users>",
 		"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]> <hidden from users>",
 			"[+1 Food] from [Village] tiles [in this city] <when above [30] [Sanitation]> <hidden from users>"
@@ -2159,8 +2201,8 @@
 		"uniques": [ 
 			"Comment [-When the gods punish a city, they send this.
  Raise sanitation and the Plague might pack its bags… eventually. It won’t rush, dramatic exits take time.]",
-"Remove [Plague] [in this city] <with [5]% chance> <when above [3] [Sanitation]> <hidden from users>",
-"Remove [Plague] [in this city] <with [5]% chance> <when above [10] [Sanitation]> <hidden from users>",
+"Remove [Plague] [in this city] <with [5]% chance> <when above [5] [Sanitation]> <hidden from users>",
+"Remove [Plague] [in this city] <with [5]% chance> <when above [15] [Sanitation]> <hidden from users>",
 "Remove [Plague] [in this city] <with [5]% chance> <when above [25] [Sanitation]> <hidden from users>",
  			"[+1 Faith, -2 Happiness]",
 			"[-3 Gold, -3 Food] from [improved] tiles [in this city]",
@@ -2179,8 +2221,9 @@
 		"happiness": 1,
 		"uniques": [ 
 			"Comment [-Invest in sanitation… or don’t. The plagues will happily invest in you.]",
-			"Provides [2] [Sanitation]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+		"Requires at least [15] population",
+			"Provides [1] [Sanitation]",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 ]
 },
 	{
