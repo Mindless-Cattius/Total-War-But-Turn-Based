@@ -141,7 +141,7 @@
 	{
 		"name": "Herbalist",
 		"cost": 70,
-		"requiredNearbyImprovedResources": ["Herbs","Hemp","Flax","Truffles","Citrus"],
+		"requiredNearbyImprovedResources": ["Herbs","Hemp","Truffles","Citrus"],
 		"maintenance": 1,
 		"science": 1,
 		"cityHealth": 10,
@@ -188,7 +188,7 @@
 		"Provides [3] [Decadence] <during the [Imperial Age]>",
 		"Provides [1] [Nobles] <during the [Imperial Age]>",
 		"New [Foot Guard] units start with [20] XP [in this city]",
-		"New [King] units start with [20] XP [in this city]",
+		"New [King] units start with [10] XP [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 		"Only available <in cities with a [Palace]>",
@@ -219,7 +219,7 @@
 		"name": "Perfumery",
 		"requiredNearbyImprovedResources": ["Incense","Citrus","Honey"],
 		"hurryCostModifier": 25,
-		"cost": 50,
+		"cost": 70,
 		"maintenance": 2,
 		"uniques": [
 		"Provides [1] [Decadence] <during the [Imperial Age]>",
