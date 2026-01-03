@@ -436,9 +436,9 @@
 	{
 		"name": "Circus Maximus",
 		"requiredBuilding": "Arena",
-		"happiness": 4,
+		"happiness": 3,
 		"culture": 2,
-		"cost": 1000,
+		"cost": 800,
 		"isWonder": true,
 		"requiredTech": "Entertainment",
 		"uniques": [
@@ -459,6 +459,7 @@
 		"cost": 80,
 		"culture": 1,
 		"specialistSlots": {"Scholar": 1},
+		"requiredBuilding": "Shrine",
 		"uniques": [
 			"Provides [1] [Sanitation]",
 			"[+1 Science] per [8] population [in this city]",
@@ -467,7 +468,7 @@
 			"Cost increases by [10] per owned city",
 			"Consumes [1] [Decadence] <in cities with a [School]> <during a Golden Age>"
 		],
-		"requiredTech": "Philosophy"
+		"requiredTech": "Writing"
 	},
 	{
 		"name": "Garden",
@@ -510,7 +511,7 @@
 		"requiredNearbyImprovedResources": ["Sheep","Cattle","Papyrus"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"science": 3,
+		"science": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 		"[+10]% Natural religion spread [in this city]",
@@ -526,8 +527,8 @@
 	},
 	{
 		"name": "The Great Library",
-		"science": 4,
-		"culture": 2,
+		"science": 2,
+		"culture": 1,
 		"specialistSlots": {"Scholar": 2},
  		"cost": 800,
 		"isWonder": true,
