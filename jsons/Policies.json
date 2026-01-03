@@ -2469,6 +2469,7 @@
                 "name": "Auxilia",
                 "requires": ["Manipular Legion"],
                 "uniques": [
+"Only available <before adopting [Roman Law Foundations]>",
                     	"Comment [Enables Armored Elephant after adopting Imperium Auctoritas]","Provides [1] [Enable Armored Elephant] <after adopting [Imperium Auctoritas]> <hidden from users>",
                     	"Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     	"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
@@ -2502,6 +2503,8 @@
                 "name": "Roman Law Foundations",
                 "requires": ["Manipular Legion"],
                 "uniques": [
+"Only available <before adopting [Auxilia]>",
+"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",                   
         		"[+1 Faith] from every [Temple]",
         		"[+1 Gold] from [Village] tiles [in all cities]",
         		"[+10]% Strength <for [Spearman] units> <for [The Etruscans] Civilizations>"
