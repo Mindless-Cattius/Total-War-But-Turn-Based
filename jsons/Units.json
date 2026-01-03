@@ -156,7 +156,7 @@
   {
     "name": "Worker",
     "unitType": "Civilian",
-    "movement": 2,
+    "movement": 3,
     "uniques": [
 	"Comment ['Reliable, replaceable, and remarkably flammable. No empire rose without them — mostly because someone had to hold the shovel. Can be upgrade into military unit']",
       	"Limited to [3] per Civilization <during the [Archaic Age]>",
@@ -814,6 +814,7 @@
     "uniques": [
 	"Comment [Medium spear infantry, ideal for holding ground and philosophical debates.]",
       	"Only available <in cities with a [Barracks]>",
+      	"Only available <before the [Hellenistic Age]> <before adopting [Hellenic Culture]>",
       	"Consumes [2] [Manpower]",
       	"Consumes [1] [Bronze]",
       	"Comment [Has cultural requirements]",
