@@ -9,7 +9,7 @@
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 3,
-		"greatPersonPoints": {"Great Courtesan":10},
+		"greatPersonPoints": {"Great Courtesan":5},
 		"specialistSlots": {"Courtesan": 2},
 		"uniques": [
 			"Provides [1] [Decadence] <during the [Classical Age]>",
