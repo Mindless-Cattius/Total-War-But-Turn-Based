@@ -2287,17 +2287,6 @@
 		"requiredTech": "Barter"
 	},
 	{
-		"name": "Manpower",
-		"requiredBuilding": "Scenario",
-		"hurryCostModifier": 25,
-		"uniques": [ 
-			"Provides [30] [Manpower] <for [AI player] Civilizations>",
-			"Destroyed when the city is captured",
-			"Unbuildable"
-		]
-		"requiredTech": "Barter"
-	},
-	{
     		"name": "High Inflation",
     		"cost": 0,
     		"maintenance": 0,
