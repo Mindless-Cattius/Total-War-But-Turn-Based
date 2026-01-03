@@ -950,6 +950,11 @@
     {
 		"name": "Enable Legion",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Hellenic Legion]"]
+		"uniques": ["Comment [Required for Legion]"]
+    },
+{
+		"name": "Enable Limitanei",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Limitanei]"]
     },
 ]
