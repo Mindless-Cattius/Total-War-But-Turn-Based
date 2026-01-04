@@ -2205,7 +2205,7 @@
 			"[-1] HP when healing <for [Military] units>",
 "Remove [Plague] [in this city] <every [15] turns> <when below [5] [Sanitation]> <hidden from users>",
 "Remove [Plague] [in this city] <every [10] turns> <when between [6] and [24] [Sanitation]> <hidden from users>",
-"Remove [Plague] [in this city] <with [5] turns> <when above [25] [Sanitation]> <hidden from users>",
+"Remove [Plague] [in this city] <every [5] turns> <when above [25] [Sanitation]> <hidden from users>",
 			"Consumes [1] [Decadence]",
 			"Consumes [1] [Manpower]",
 			"Unbuildable","Unsellable",
