@@ -2001,7 +2001,7 @@
     "strength": 15,
     "cost": 130,
     "uniques": [
-       "Destroy <after adopting [Manipular Legion]> <hidden from users>",
+       "[This Unit] is destroyed <after adopting [Manipular Legion]>"
       		"Only available <before adopting [Manipular Legion]> <hidden from users>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
@@ -2080,6 +2080,8 @@
     "cost": 150,
     "uniques": [
       		"Only available <after adopting [Manipular Legion]> <hidden from users>",
+       "[This Unit] is destroyed <after adopting [Legate Governance]>",
+      "[This Unit] is destroyed <after adopting [Imperial's Decree]>",
       		"Unavailable <after adopting [Legate Governance]> <hidden from users>",
       		"Unavailable <after adopting [Imperial's Decree]> <hidden from users>",
 		"Comment []",
