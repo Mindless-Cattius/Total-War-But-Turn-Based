@@ -2208,7 +2208,7 @@
 			"[-1] HP when healing <for [Military] units>",
 			"Consumes [1] [Decadence]",
 			"Consumes [1] [Manpower]",
-			"Unbuildable","Unsellable","Unavailable",
+			"Unbuildable","Unsellable",
 ]
 	},
 	{
