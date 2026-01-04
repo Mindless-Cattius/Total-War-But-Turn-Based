@@ -217,6 +217,7 @@
 		"name": "Sanitation",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Cannot be traded",
 		"Doesn't generate naturally"
 		]
     },
@@ -300,6 +301,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 			"[-5 Happiness]",
+    "[-7 Happiness] <after adopting [Empire]>"
 			"Will not be displayed in Civilopedia",
 			"Cannot be traded",
 ]
