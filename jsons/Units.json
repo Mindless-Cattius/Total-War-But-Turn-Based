@@ -2001,7 +2001,9 @@
     "strength": 15,
     "cost": 130,
     "uniques": [
+      		"Only available <before adopting [Empire]> <hidden from users>",
        "[This Unit] is destroyed <after adopting [Manipular Legion]>"
+       "[This Unit] is destroyed <after adopting [Empire]>"
       		"Only available <before adopting [Manipular Legion]> <hidden from users>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
@@ -2049,7 +2051,6 @@
   {
     "name": "Emperor",
     "unitType": "Ruler",
-    "uniqueTo": "The Romans",
     "movement": 3,
     "strength": 15,
     "cost": 160,
