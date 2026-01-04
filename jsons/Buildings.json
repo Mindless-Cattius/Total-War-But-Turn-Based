@@ -2182,9 +2182,6 @@
 			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
 		"Gain a free [Plague] [in this city] <with [3]% chance> <in cities without a [Plague]> <when between [1] and [20] [Sanitation]> <hidden from users>",
 		"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]> <hidden from users>",
-"Remove [Plague] [in this city] <with [5]% chance> <when below [5] [Sanitation]> <hidden from users>",
-"Remove [Plague] [in this city] <with [10]% chance> <when between [6] and [24] [Sanitation]> <hidden from users>",
-"Remove [Plague] [in this city] <with [15]% chance> <when above [25] [Sanitation]> <hidden from users>",
 			"[+1 Food] from [Village] tiles [in this city] <when above [30] [Sanitation]> <hidden from users>"
 			"[+1 Food] from [Village] tiles [in this city] <when above [20] [Sanitation]> <hidden from users>"
 			"[+1 Food] from [Village] tiles [in this city] <when above [10] [Sanitation]> <hidden from users>"
@@ -2206,6 +2203,9 @@
  			"[+1 Faith, -2 Happiness]",
 			"[-3 Gold, -3 Food] from [improved] tiles [in this city]",
 			"[-1] HP when healing <for [Military] units>",
+"Remove [Plague] [in this city] <every [15] turns> <when below [5] [Sanitation]> <hidden from users>",
+"Remove [Plague] [in this city] <every [10] turns> <when between [6] and [24] [Sanitation]> <hidden from users>",
+"Remove [Plague] [in this city] <with [5] turns> <when above [25] [Sanitation]> <hidden from users>",
 			"Consumes [1] [Decadence]",
 			"Consumes [1] [Manpower]",
 			"Unbuildable","Unsellable",
