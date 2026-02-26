@@ -6,7 +6,8 @@
     "strength": 11,
     "cost": 50,
     "requiredTech": "Bronze Working",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -21,7 +22,8 @@
     "strength": 16,
     "cost": 100,
     "requiredTech": "Bronze Working",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Pike Phalanx] ability",
@@ -37,7 +39,8 @@
     "movement": 2,
     "strength": 15,
     "requiredTech": "Citizen Levy",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -51,7 +54,8 @@
     "movement": 2,
     "strength": 18,
     "requiredTech": "Military Reforms",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -67,7 +71,8 @@
     "movement": 2,
     "strength": 19,
     "requiredTech": "Military Reforms",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -83,7 +88,8 @@
     "movement": 4,
     "strength": 13,
     "requiredTech": "Riding",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Horseman] ability",
@@ -101,7 +107,8 @@
     "strength": 8,
     "rangedStrength": 11,
     "requiredTech": "Riding",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "Horse Archer ability",
@@ -116,7 +123,8 @@
     "movement": 3,
     "strength": 17,
     "requiredTech": "Equestrian Class",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -132,7 +140,8 @@
     "rangedStrength": 12,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Archer] ability"
@@ -147,7 +156,7 @@
     "rangedStrength": 11,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
     ],
     "promotions": [
       "[Slinger] ability",
@@ -172,6 +181,8 @@
 	"Can upgrade to [Spearman] <after adopting [Imperial Garrisons]> <hidden from users>",
 	"Can upgrade to [Swordsman] <after adopting [Total War]> <hidden from users>",
 			"[-300]% construction time for [Repair] improvements <in [Village] tiles>",
+			"[-300]% construction time for [Repair] improvements <in [Trading post] tiles>",
+			"[-500]% construction time for [Repair] improvements <in [Fort] tiles>",
       	"Automation is a primary action",
     ],
     "cost": 10
@@ -1107,7 +1118,6 @@
       "Comment [Heavy infantry, these guys can siege a city and build a highway at the same time. Too bad they’re slower than your grandma’s morning walk.]",
       "Only available <in cities with a [Barracks]>"
 	"Can build [All Road] improvements on tiles",
-	"Can build [Roman Fort] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
     ],
@@ -1130,7 +1140,6 @@
       		"Comment ['Heavy infantry, can build roads and steal land. Don’t expect them to win any races, but they’ll gladly take your territory while they're at it']",
       		"Only available <in cities with a [Barracks]>",
 	      	"Can build [All Road] improvements on tiles",
-	"Can build [Roman Fort] improvements on tiles",
       		"Consumes [3] [Manpower]",
        "Consumes [1] [Iron]",
       		"Can upgrade to [Legion] <after discovering [Infantry Training]>",
@@ -2803,7 +2812,6 @@
       "Only available <after adopting [Hellenistic Culture]> <hidden from users>",
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Roman Fort] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
     ],
@@ -2851,7 +2859,6 @@
       "Only available <after adopting [Celtic Culture]> <hidden from users>",
       "Only available <after adopting [Germanic Culture]> <hidden from users>",
       	"Only available <with [Enable Legion]> <hidden from users>",
-	"Can build [Roman Fort] improvements on tiles",
 	"Can build [All Road] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
@@ -2877,7 +2884,6 @@
       "Only available <in cities with a [Barracks]>",
       	"Only available <with [Enable Limitanei]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Roman Fort] improvements on tiles",
        "[+10]% Strength <when fighting in [Friendly Land] tiles>",
        "[+10]% Strength <when fighting in [Forest] tiles>",
       "Consumes [4] [Manpower]",
@@ -2900,7 +2906,6 @@
       "Only available <in cities with a [Barracks]>",
       "Only available <after adopting [Eastern Culture]> <hidden from users>",
       	"Only available <with [Enable Legion]> <hidden from users>",
-	"Can build [Roman Fort] improvements on tiles",
 	"Can build [All Road] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
@@ -2923,7 +2928,6 @@
       "Only available <in cities with a [Barracks]>",
       "Only available <after adopting [Illyrian Culture]> <hidden from users>",
       	"Only available <with [Enable Legion]> <hidden from users>",
-	"Can build [Roman Fort] improvements on tiles",
 	"Can build [All Road] improvements on tiles",
 	      "[+2] XP gained from combat",
       "Consumes [5] [Manpower]",

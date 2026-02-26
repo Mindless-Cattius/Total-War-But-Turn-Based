@@ -3021,7 +3021,7 @@
                 "name": "Ridge Ambushers",
                 "requires": ["The Hill Tribes"],
                 "uniques": [
-                    "Only available <after adopting [Mountain Strongholds]> <hidden from users>",
+                    "Only available <before adopting [Mountain Strongholds]> <hidden from users>",
 			"[+10]% Strength <for [Melee] units> <when fighting in [Hill] tiles>",
                     "[+1 Happiness] [in capital]",
 ],
@@ -3073,7 +3073,7 @@
                 "name": "Mountain Strongholds",
                 "requires": ["The Hill Tribes"],
                 "uniques": [
-                    "Only available <after adopting [Ridge Ambushers]> <hidden from users>",
+                    "Only available <before adopting [Ridge Ambushers]> <hidden from users>",
                     "[+20]% Strength for cities <within [1] tiles of a [Mountain]>",
                     "[+1 Production, +1 Gold] from [Mountain] tiles [in all cities]",
                     "[+1 Happiness] from every [Hill Fort]",

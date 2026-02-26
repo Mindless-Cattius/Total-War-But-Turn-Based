@@ -126,17 +126,6 @@
 		"shortcutKey": "O"
 	},
 	{
-		"name": "Roman Fort",
-		"turnsToBuild": 2,
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle"],
-		"uniques": [
-		"[-2 Food]",
-		"Gives a defensive bonus of [15]%",
-		"Unbuildable <for [Worker] units>",
-		"Remove [All] improvements from this tile <when not stacked with a [Military] unit>",
-		],
-	},
-	{
 		"name": "Village",
 		"turnsToBuild": 10,
 		"gold": 1,
@@ -147,6 +136,9 @@
   			"[-1 Happiness, -1 Food, -1 Production, +1 Culture] for each adjacent [Village]",
   			"[+1 Happiness, -1 Food] for each adjacent [Fort]",
   			"[+1 Happiness, -1 Food, +1 Gold] for each adjacent [Trading post]",
+			"[+1 Food] <when above [10] [Sanitation]>",
+			"[+1 Food] <when above [20] [Sanitation]>",
+			"[+1 Food] <when above [30] [Sanitation]>",
 			"Tile provides yield without assigned population",
 			"Unbuildable <for [Worker] units>",
 			"Can only be built on [resource] tiles",
@@ -162,9 +154,13 @@
 		"turnsToBuild": 4,
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
-  			"[-1 Production, +1 Gold] for each adjacent [Trading post]",
+  			"[-1 Food, +2 Gold] for each adjacent [Village]",
+  			"[+1 Happiness, +1 Gold] for each adjacent [Fort]",
   			"[+1 Gold] for each adjacent [improved]",
 			"[+1 Gold] <after discovering [Exploration]>",
+			"[+1 Gold] <when above [10] [Sanitation]>",
+			"[+1 Gold] <when above [20] [Sanitation]>",
+			"[+1 Gold] <when above [30] [Sanitation]>",
 			"Pillaging this improvement yields approximately [+150 Gold]",
 			"Tile provides yield without assigned population",
 			"Can only be built on [resource] tiles",
