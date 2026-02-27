@@ -28,7 +28,7 @@
 
 //Units
 
- "[+50]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
+ 	"[+50]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
 
 //Cities
 	"[-40]% Strength for cities <when attacking> <hidden from users>",
