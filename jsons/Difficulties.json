@@ -25,7 +25,7 @@
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
-		"turnBarbariansCanEnterPlayerTiles": 10000,
+		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 50
 	},
 	{
@@ -54,7 +54,7 @@
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
-		"turnBarbariansCanEnterPlayerTiles": 60,
+		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 40
 	},
 	{
@@ -83,7 +83,7 @@
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
-		"turnBarbariansCanEnterPlayerTiles": 20,
+		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 30
 	},
 	{

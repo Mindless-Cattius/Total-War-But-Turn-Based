@@ -759,14 +759,6 @@
     },
 	// Unit hidden resources
     {
-		"name": "Greed",
-		"resourceType": "Bonus",
-		"uniques": [
-			"Will not be displayed in Civilopedia",
-			"Cannot be traded",
-]
-    },
-    {
 		"name": "Enable Archer",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]
@@ -958,9 +950,44 @@
 		"resourceType": "Bonus",
 		"uniques": ["Comment [Required for Legion]"]
     },
-{
-		"name": "Enable Limitanei",
+    {
+		"name": "Enable Hellenic Legion",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"]
+    },
+    {
+		"name": "Enable Hellenic Limitanei",
 		"resourceType": "Bonus",
 		"uniques": ["Comment [Required for Limitanei]"]
+    },
+    {
+		"name": "Enable Gallic Legion",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"]
+    },
+    {
+		"name": "Enable Gallic Limitanei",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Limitanei]"]
+    },
+    {
+		"name": "Enable Illyrian Legion",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"]
+    },
+    {
+		"name": "Enable Desert Legion",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"]
+    },
+				///3rd Century Crisis
+    {
+		"name": "Praetorian Greed",
+		"resourceType": "Bonus",
+		"uniques": [
+			"[-50 Happiness] [in capital] <when above [0] [Praetorian Greed]>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be traded",
+]
     },
 ]

@@ -133,40 +133,27 @@
 		"requiredTech": "Diplomacy"
 	},
 	
-	// City Tier & Building Slot
+					// City Tier 
 
 {
-		"name": "Building Slot",
-		"uniques": [
-			"Unbuildable",
-		],
-},
-{
-		"name": "Public Slot",
-		"uniques": [
-			"Unbuildable",
-		],
-},
-{
-		"name": "Town",
-		"cost": 25,
+		"name": "Urban Fabric I",
+		"cost": 30,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 1,
 		"happiness": 1,
-		"cityHealth": 10,
+		"cityHealth": 20,
 		"uniques": [
+			"Cost increases by [2] per owned city"
 			"Only available <in cities with at least [3] [Population]>",
-			"Gain a free [Building Slot] [in this city]",
 			"[100]% weight to this choice for AI decisions",
+			
 		],
 },
-
 {
-		"name": "Large Town",
-		"requiredBuilding": "Town",
+		"name": "Urban Fabric II",
 		"requiredTech": "Writing",
-		"cost": 50,
+		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 2,
@@ -174,85 +161,64 @@
 		"production": 1,
 		"cityHealth": 20,
 		"uniques": [
-			"Remove [Town] [in this city] <hidden from users>",
-			"Only available <in cities with a [Town]>"
-			"Only available <in cities without a [Building Slot]>", 
-			"Only available <in cities with at least [6] [Population]>",
-			"Gain a free [Building Slot] [in this city]",
+			"Cost increases by [2] per owned city"
+			"Only available <in cities with a [Urban Fabric I]> <in cities with at least [8] [Population]>",
 			"[70]% weight to this choice for AI decisions",
 		],
 },
 
 {
-		"name": "Small City",
-		"requiredBuilding": "Large Town",
+		"name": "Urban Fabric III",
 		"requiredTech": "Land Grants",
 		"cost": 100,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"gold": 3,
-		"happiness": 3,
+		"gold": 4,
+		"happiness": 4,
 		"production": 2,
-		"cityHealth": 30,
+		"cityHealth": 20,
 		"greatPersonPoints": {"Great Artist":1},
-		"specialistSlots": {"Artist": 2},
+		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"Remove [Large Town] [in this city] <hidden from users>",
-			"Only available <in cities with a [Large Town]>"
-			"Only available <in cities without a [Building Slot]>",
-			"Only available <in cities without a [Public Slot]>",  
-			"Only available <in cities with at least [10] [Population]>",
-			"Gain a free [Building Slot] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
+			"Cost increases by [2] per owned city",
+			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [15] [Population]>",
 			"[70]% weight to this choice for AI decisions",
 		],
 },
 
 {
-		"name": "City",
-		"requiredBuilding": "Small City",
+		"name": "Urban Fabric IV",
 		"requiredTech": "Construction",
-		"cost": 150,
+		"cost": 200,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"gold": 4,
-		"happiness": 4,
+		"gold": 5,
+		"happiness": 5,
 		"production": 3,
-		"cityHealth": 40,
+		"cityHealth": 60,
 		"greatPersonPoints": {"Great Artist":1},
-		"specialistSlots": {"Artist": 3},
+		"specialistSlots": {"Artist": 2},
 		"uniques": [
-			"Remove [Small City] [in this city] <hidden from users>",
-			"Only available <in cities with a [Town]>"
-			"Only available <in cities without a [Building Slot]>",
-			"Only available <in cities without a [Public Slot]>", 
-			"Only available <in cities with at least [15] [Population]>",
-			"Gain a free [Building Slot] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
+			"Cost increases by [3] per owned city"
+			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [20] [Population]>",
 			"[70]% weight to this choice for AI decisions",
 		],
 },
 {
-		"name": "Big City",
-		"requiredBuilding": "City",
+		"name": "Urban Fabric V",
 		"requiredTech": "Social Reforms",
-		"cost": 250,
+		"cost": 300,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"gold": 4,
-		"happiness": 4,
-		"production": 3,
-		"cityHealth": 40,
+		"gold": 7,
+		"happiness": 7,
+		"production": 4,
+		"cityHealth": 100,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
-			"Remove [Small City] [in this city] <hidden from users>",
-			"Only available <in cities with a [City]>"
-			"Only available <in cities without a [Building Slot]>",
-			"Only available <in cities without a [Public Slot]>", 
-			"Only available <in cities with at least [20] [Population]>",
-			"Gain a free [Building Slot] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
+			"Cost increases by [3] per owned city"
+			"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
 			"[20]% weight to this choice for AI decisions",
 		],
 },
@@ -266,23 +232,8 @@
 		"maintenance": 1,
 		"culture": 1,
 		"uniques": [
-			"Only available <in cities with a [Building Slot]>",
-			"[20]% weight to this choice for AI decisions",
-			"Remove [Building Slot] [in this city] <hidden from users>",
-			"Unsellable <hidden from users>",
-		],
-	},
-	{
-		"name": "Sell Shrine",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Shrine]> <hidden from users>",
-			"Gain [10] [Gold]"
-			"Remove [Shrine] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Shrine] [in this city] <upon turn end>"
-			"Cannot be purchased <hidden from users>",
+			"Only available <in cities without a [Temple]>",
+			"[20]% weight to this choice for AI decisions", 
 		],
 	},
 	{
@@ -296,29 +247,14 @@
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
 			"Remove [Shrine] [in this city] <hidden from users>",
-			"Only available <in cities with a [Shrine]>",
+			"Only available <in cities with a [Shrine]> <in cities with at least [5] [Population]>",
 			"Provides [1] [Sanitation]",
-			"Consumes [1] [Decadence] <during a Golden Age>",
+			"Consumes [1] [Decadence] <during a Golden Age>", 
 			"[+5]% Natural religion spread [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
-			"Cost increases by [5] per owned city",
-			"Destroyed when the city is captured",
-			"Unsellable <hidden from users>",
+			"Cost increases by [2] per owned city",
 		],
 		"requiredTech": "Mysticism"
-	},
-	{
-		"name": "Sell Temple",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Temple]> <hidden from users>",
-			"Gain [30] [Gold]"
-			"Remove [Temple] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Temple] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Secret Cult",
@@ -329,7 +265,7 @@
 		"faith": 1,
 		"uniques": [
 			"Only available <in cities with a [Temple]>",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 			"Provides [1] [Decadence]",
 			"Sell [Secret Cult] buildings [in this city] <if [Temple] is not constructed>",
 ],
@@ -345,7 +281,8 @@
 		"happiness": 2,
 		"culture": 2,
 		"uniques": [
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
+			"Only available <in cities with a [Urban Fabric III]>"
 			"Provides [1] [Decadence]",
 			"[+1 Culture] from [Marble] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -371,7 +308,7 @@
 			"[+1 Gold] from [Fort] tiles [in this city]",
 			"[+1 Faith] from [Village] tiles [in this city]",
 			"[+20]% Gold given to enemy if city is captured",
-			"Cost increases by [5] per owned city",
+			"Cost increases by [2] per owned city",
 		],
 		"requiredTech": "Construction"
 	},
@@ -385,14 +322,15 @@
 		"cost": 800,
 		"specialistSlots": {"Priest": 3},
 		"uniques": [
-		"Consumes [3] [Decadence]",
-		"[+2 Production] <after adopting [Seal of Heaven]>",
-		"[+2 Gold] <after adopting [Seal of Heaven]>",
-		"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
-		"[-1 Gold, +1 Production] from [Trading post] tiles [in this city]",
-		"[+1 Happiness, +1 Food, +1 Faith] from [Village] tiles [in this city]",
-		"Provides [3] [Sanitation]",
-		"Destroyed when the city is captured",
+			"Consumes [3] [Decadence]",
+			"Only available <in cities with a [Urban Fabric III]>",
+			"[+2 Production] <after adopting [Seal of Heaven]>",
+			"[+2 Gold] <after adopting [Seal of Heaven]>",
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
+			"[-1 Gold, +1 Production] from [Trading post] tiles [in this city]",
+			"[+1 Happiness, +1 Food, +1 Faith] from [Village] tiles [in this city]",
+			"Provides [3] [Sanitation]",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Aesthetics",
 		"isNationalWonder": true
@@ -408,31 +346,20 @@
  		"cost": 60,
 		"happiness": 1,
 		"cityHealth": 40,
-		"uniques": [
-			"Only available <in cities with a [Building Slot]>",
-			"Remove [Building Slot] [in this city]",
+		"uniques": [  
+			"Only available <in cities with a [Urban Fabric I]>",
+			"Only available <in cities with a [Urban Fabric II]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric III]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric IV]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
 			"Provides [1] [Decadence] <during the [Imperial Age]>"
 			"Provides [1] [Manpower] <during the [Imperial Age]>",
 			"Provides [2] [Manpower]",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 			"[+20]% weight to this choice for AI decisions",
-			"Unsellable <hidden from users>",
 		],
 		"requiredTech": "Citizen Levy"
-	},
-	{
-		"name": "Sell Barracks",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Barracks]> <hidden from users>",
-			"Gain [40] [Gold]"
-			"Remove [Barracks] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Barracks] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Syssition",
@@ -442,32 +369,17 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"cityHealth": 40,
-		"uniques": [
-			"Only available <in cities with a [Building Slot]>",
-			"Remove [Building Slot] [in this city]",
+		"uniques": [   
+			"Only available <in cities with a [Urban Fabric I]>",  
 			"Consumes [1] [Decadence] <in cities with a [Syssition]>",
 			"Provides [1] [Manpower] <during the [Imperial Age]>",
 			"Provides [2] [Manpower]",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 			"New [Spear] units start with [10] XP [in this city]",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 			"[+20]% weight to this choice for AI decisions",
-			"Unsellable",
 		],
 		"requiredTech": "Citizen Levy"
-	},
-	{
-		"name": "Sell Syssition",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Syssition]> <hidden from users>",
-			"Gain [40] [Gold]"
-			"Remove [Syssition] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Syssition] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Army Barracks",
@@ -476,9 +388,7 @@
 		"cityHealth": 50,
 		"Cost": 300,
 		"uniques": [
-			"Only available <in cities with a [Small City]> <in cities with a [Barracks]>",
-			"Only available <in cities with a [City]> <in cities with a [Barracks]> <hidden from users>",
-			"Only available <in cities with a [Big City]> <in cities with a [Barracks]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Barracks]>",
 			"Only available <in cities without a [Skirmisher Barracks]>",
 			"Only available <in cities without a [Cavalry Barracks]>",
 			"New [Spearman] units start with [10] XP [in this city]",
@@ -492,7 +402,7 @@
 			"[+10]% Production when constructing [Swordsman] units [in this city]",
 			"[+1 Production, +1 Happiness] from [Fort] tiles [in this city]",
 			"[+1 Gold, +1 Happiness] from [Village] tiles [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 			"Sell [Army Barracks] buildings [in this city] <if [Barracks] is not constructed>",
 		],
 		"requiredTech": "Infantry Training"
@@ -504,11 +414,8 @@
 		"cost": 50,
 		"maintenance": 2,
 		"cityHealth": 20,
-		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Building Slot]>",
-			"Only available <in cities without a [Cavalry Barracks]>",
-			"Remove [Building Slot] [in this city]",
+		"uniques": [  
+			"Only available <in cities with a [Urban Fabric I]>",
 			"Provides [2] [Manpower]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture] from [Fort] tiles [in this city]",
@@ -519,19 +426,6 @@
 		"requiredTech": "Riding"
 	},
 	{
-		"name": "Sell Stable",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Stable]> <hidden from users>",
-			"Gain [30] [Gold]"
-			"Remove [Stable] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Stable] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
-	},
-	{
 		"name": "Cavalry Barracks",
 		"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 25,
@@ -540,9 +434,7 @@
 		"maintenance": 10,
 		"cityHealth": 50,
 		"uniques": [
-			"Only available <in cities with a [Small City]> <in cities with a [Stable]>",
-			"Only available <in cities with a [City]> <in cities with a [Stable]> <hidden from users>",
-			"Only available <in cities with a [Big City]> <in cities with a [Stable]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Stable]>",
 			"Only available <in cities without a [Skirmisher Barracks]>",
 			"Only available <in cities without a [Army Barracks]>",
 			"New [Horseman] units start with [10] XP [in this city]",
@@ -558,7 +450,7 @@
 			"[+1 Culture, +1 Production] from [Fort] tiles [in this city]",
 			"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Food] from [Horses] tiles [in this city] <for [The Scythians] Civilizations>",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 			"Sell [Cavalry Barracks] buildings [in this city] <if [Stable] is not constructed>",
 		],
 		"requiredTech": "Equestrian Class"
@@ -570,28 +462,12 @@
  		"cost": 50,
 		"cityStrength": 2,
 		"cityHealth": 15,
-		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Building Slot]>",
-			"Only available <in cities without a [Skirmisher Barracks]>",
-			"Remove [Building Slot] [in this city]",
+		"uniques": [   
+			"Only available <in cities with a [Urban Fabric I]>",
 			"Comment [-Training: Archer, Slinger]",
 			"Provides [3] [Manpower]",
 		],
 		"requiredTech": "Archery"
-	},
-	{
-		"name": "Sell Archery Range",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Archery Range]> <hidden from users>",
-			"Gain [30] [Gold]"
-			"Remove [Archery Range] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Archery Range] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Skirmisher Barracks",
@@ -601,9 +477,7 @@
  		"cost": 300,
 		"cityHealth": 50,
 		"uniques": [
-			"Only available <in cities with a [Small City]> <in cities with a [Archery Range]>",
-			"Only available <in cities with a [City]> <in cities with a [Archery Range]> <hidden from users>",
-			"Only available <in cities with a [Big City]> <in cities with a [Archery Range]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Archery Range]>",
 			"Only available <in cities without a [Cavalry Barracks]>",
 			"Only available <in cities without a [Army Barracks]>",
 			"New [Archery] units start with [5] XP [in this city]",
@@ -619,7 +493,7 @@
 			"Provides [5] [Manpower]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 			"Sell [Skirmisher Barracks] buildings [in this city] <if [Archery Range] is not constructed>",
 		],
 		"requiredTech": "Engineering"
@@ -631,27 +505,12 @@
 		"maintenance": 3,
 		"cityStrength": 5,
 		"cityHealth": 10,
-		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Building Slot]>",
-			"Remove [Building Slot] [in this city]",
+		"uniques": [ 
 			"Consumes [1] [Manpower]",
-			"Cost increases by [20] per owned city",
+			"Only available <in cities with a [Urban Fabric II]>",
+			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Engineering"
-	},
-	{
-		"name": "Sell Siege Workshop",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Siege Workshop]> <hidden from users>",
-			"Gain [30] [Gold]"
-			"Remove [Siege Workshop] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Siege Workshop] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Ballistics Range",
@@ -661,13 +520,13 @@
 		"cityStrength": 3,
 		"cityHealth": 10,
 		"uniques": [
-			"Only available <in cities with a [Siege Workshop]>",
 			"Consumes [2] [Manpower]",
+			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Siege Workshop]>",
 			"New [Archery] units start with [5] XP [in this city]",
 			"New [Siege] units start with [10] XP [in this city]",
 			"New [Scout] units start with [5] XP [in this city]",
 			"[+20]% Production when constructing [Siege] units [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 			"Sell [Ballistics Range] buildings [in this city] <if [Siege Workshop] is not constructed>",
 		],
 		"requiredTech": "Military Reforms"
@@ -691,7 +550,7 @@
 		"maintenance": 1,
 		"cityHealth": 50,
 		"uniques": [
-			"Requires at least [5] population",
+			"Only available <in cities with a [Urban Fabric II]>", 
 			"Consumes [1] [Manpower]",
 			"Destroyed when the city is captured",
 		],
@@ -723,7 +582,7 @@
 		"cityHealth": 150,
 		"cost": 100,
 		"uniques": [
-			"Requires at least [10] population",
+			"Only available <in cities with a [Urban Fabric II]>",  
 			"Consumes [1] [Manpower]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
@@ -743,7 +602,7 @@
 		"cityStrength": 5,
 		"cityHealth": 150,
 		"uniques": [
-			"Requires at least [8] population",
+			"Only available <in cities with a [Urban Fabric I]>", 
 			"Consumes [1] [Manpower]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
@@ -761,7 +620,7 @@
 		"cityHealth": 50,
 		"cityStrength": 3,
 		"uniques": [
-			"Requires at least [10] population",
+			"Only available <in cities with a [Urban Fabric II]>",
 			"Consumes [1] [Manpower]",
 			"Must be on [Hill]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -781,29 +640,14 @@
 		"happiness": 4,
 		"culture": 2,
 		"specialistSlots": {"Magistrate": 1},
-		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]",
+		"uniques": [ 
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Consumes [2] [Decadence] <in cities with a [Citizen Assembly]> <while the empire is happy>",
 			"[+1 Happiness, +1 Food, +1 Production, +1 Faith, +1 Culture, +1 Gold] from [Village] tiles [in this city]",
 			"[+1 Happiness, +1 Food, +1 Production, +1 Faith, +1 Culture, +1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Happiness, +1 Food, +1 Production, +1 Faith, +1 Culture, +1 Gold] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Citizen Levy"
-	},
-	{
-		"name": "Sell Citizen Assembly",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Citizen Assembly]> <hidden from users>",
-			"Gain [130] [Gold]"
-			"Remove [Citizen Assembly] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Citizen Assembly] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Theatre",
@@ -815,28 +659,13 @@
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Entertainment",
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]",
+			"Only available <in cities with a [Urban Fabric II]>",
 			"Provides [1] [Decadence]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [2] per owned city",
 ],
 		"civilopediaText": [{"text": "Promoting largely politically irrelevant or pro-ruling class themes, a Theatre can keep your people busy while shaping their perceptions and making them feel more enlightened."}]
-	},
-	{
-		"name": "Sell Theatre",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Theatre]> <hidden from users>",
-			"Gain [130] [Gold]"
-			"Remove [Theatre] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Theatre] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Amphitheater",
@@ -850,28 +679,13 @@
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Entertainment",
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]",
-			"[+1 Happiness] from [Village] tiles [in this city]",
+			"Only available <in cities with a [Urban Fabric II]>",
 			"Consumes [1] [Decadence] <during a Golden Age>",
+			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[-15]% Culture cost of natural border growth [in this city]",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [2] per owned city",
 		],
 		"civilopediaText": [{"text": "Promoting largely politically irrelevant or pro-ruling class themes, a Theatre can keep your people busy while shaping their perceptions and making them feel more enlightened."}]
-	},
-	{
-		"name": "Sell Amphitheater",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Amphitheater]> <hidden from users>",
-			"Gain [130] [Gold]"
-			"Remove [Amphitheater] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Amphitheater] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Arena",
@@ -885,31 +699,16 @@
 		"greatPersonPoints": {"General":1},		
 		"requiredTech": "Entertainment",
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]",
+			"Only available <in cities with a [Urban Fabric III]>",
 			"New [Sword] units start with [5] XP [in this city] <when at war>",
 			"New [Slinger] units start with [5] XP [in this city] <when at war>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Happiness] from [Village] tiles [in this city] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 		],
 		"civilopediaText": [{"text": "A grand show of violence and death keeps the masses busy and enhances our warrior culture."}]
-	},
-	{
-		"name": "Sell Arena",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Arena]> <hidden from users>",
-			"Gain [130] [Gold]"
-			"Remove [Arena] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Arena] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Bardic Circle",
@@ -922,9 +721,7 @@
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]",
+			"Only available <in cities with a [Urban Fabric II]>",
 			"New [Skirmisher] units start with [10] XP [in this city] <when at war>",
 			"New [Spearman] units start with [5] XP [in this city] <when at war>",
 			"Provides [1] [Manpower]",
@@ -932,23 +729,10 @@
 			"[+1 Happiness] [in this city] <when at war>",
 			"[+1 Food] from [Village] tiles [in this city]",
 			"[+5]% Natural religion spread [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Entertainment"
-	},
-	{
-		"name": "Sell Bardic Circle",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Bardic Circle]> <hidden from users>",
-			"Gain [70] [Gold]"
-			"Remove [Bardic Circle] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Bardic Circle] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Aqueduct",
@@ -958,9 +742,7 @@
 		"maintenance": 2,
 		"happiness": 1,
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]",
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Comment [+1 Food from non-fresh water Farm tiles in this city]", 
 			"Provides [1] [Sanitation]",
 			"[+10]% Production when constructing [Cure Plague] buildings [in this city]",
@@ -973,19 +755,6 @@
 		"requiredTech": "Public Works"
 	},
 	{
-		"name": "Sell Aqueduct",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Bardic Circle]> <hidden from users>",
-			"Gain [90] [Gold]"
-			"Remove [Aqueduct] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Aqueduct] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
-	},
-	{
 		"name": "Forge",
 		"Cost":200,
 		"hurryCostModifier": 35,
@@ -994,9 +763,7 @@
 		"requiredTech": "Metallurgy",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [ 
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]",
+			"Only available <in cities with a [Urban Fabric III]>",
   			"[Commander] units gain the [Improved Equipment] promotion",
 			"[+1 Production] <in cities with a [Bronze Works]>",
 			"[+1 Gold, +1 Production] <in cities with a [Workshop]>",
@@ -1006,45 +773,17 @@
 		]
 	},
 	{
-		"name": "Sell Forge",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Forge]> <hidden from users>",
-			"Gain [130] [Gold]"
-			"Remove [Forge] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Forge] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
-	},
-	{
 		"name": "Fountain",
 		"cost": 100,
 		"requiredTech": "Equestrian Class",
 		"maintenance": 2,
 		"happiness": 1,
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]",
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Provides [1] [Sanitation]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"[+15]% Production when constructing [Cure Plague] buildings [in this city]",
 			"[+10]% Production when constructing [Cure Dangerious Plague] buildings [in this city]",
-		],
-	},
-	{
-		"name": "Sell Fountain",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Fountain]> <hidden from users>",
-			"Gain [40] [Gold]"
-			"Remove [Fountain] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Fountain] [in this city] <upon turn end>"
-			"Cannot be purchased",
 		],
 	},
 	{
@@ -1056,26 +795,11 @@
 		"happiness": 3,
 		"uniques": [   
 			"Comment [-Invest in sanitation… or don’t. The plagues will happily invest in you.]",
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]", 
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Provides [2] [Sanitation]",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
 			"[+25]% Production when constructing [Cure Plague] buildings [in this city]",
 			"[+15]% Production when constructing [Cure Dangerious Plague] buildings [in this city]",
-		],
-	},
-	{
-		"name": "Sell Public Bathhouse",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Public Bathhouse]> <hidden from users>",
-			"Gain [80] [Gold]"
-			"Remove [Public Bathhouse] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Public Bathhouse] [in this city] <upon turn end>"
-			"Cannot be purchased",
 		],
 	},
 	{
@@ -1087,9 +811,7 @@
 		"cost": 100,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Public Slot]>",
-			"Remove [Public Slot] [in this city]", 
+			"Only available <in cities with a [Urban Fabric II]>"
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"[+2 Happiness] from [Wine] tiles [in this city]",
@@ -1102,33 +824,20 @@
 		"requiredTech": "Hospitum"
 	},
 	{
-		"name": "Sell Banquet Hall",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Banquet Hall]> <hidden from users>",
-			"Gain [40] [Gold]"
-			"Remove [Banquet Hall] [in this city]",
-			"Gain a free [Public Slot] [in this city]",
-			"Remove [Sell Banquet Hall] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
-	},
-	{
 		"name": "Garden",
-		"requiredBuilding": "Aqueduct",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"cost": 100,
 		"happiness": 2,
 		"Food": 1,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Must be next to [Fresh water]"
 			"Provides [1] [Decadence]",
 			"[+20]% Great Person generation [in this city]", 
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Happiness] from [Trading post] tiles [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 ],
 		"requiredTech": "Philosophy"
 	},
@@ -1145,30 +854,15 @@
 		"specialistSlots": {"Scholar": 1},
 		"requiredBuilding": "Shrine",
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Building Slot]>",
-			"Remove [Building Slot] [in this city]",
+			"Only available <in cities with a [Urban Fabric II]>"
 			"Provides [1] [Sanitation]",
 			"[+1 Science] per [5] population [in this city]",
 			"[+1 Science] <in cities with a [Scriptorium]>", 
 			"[+1 Food] <in cities with a [Herbalist]>",
-			"Cost increases by [5] per owned city",
+			"Cost increases by [2] per owned city",
 			"Consumes [1] [Decadence] <in cities with a [School]> <during a Golden Age>"
 		],
 		"requiredTech": "Writing"
-	},
-	{
-		"name": "Sell School",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [School]> <hidden from users>",
-			"Gain [120] [Gold]"
-			"Remove [School] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell School] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Scriptorium",
@@ -1179,10 +873,11 @@
 		"science": 2,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric III]> <in cities with a [School]>",
 			"Provides [1] [Scrolls]",
 			"[+10]% Natural religion spread [in this city]",
 			"[+1 Culture] from [Papyrus] tiles [in this city]",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 			"Sell [Rotary Mill] buildings [in this city] <if [School] is not constructed>",
 		],
 		"requiredTech": "Philosophy"
@@ -1199,7 +894,7 @@
 		"science": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
-			"Only available <in cities with a [School]>",
+			"Only available <in cities with a [Urban Fabric II]>"
 			"[+10]% Natural religion spread [in this city]",
 			"Provides [1] [Scrolls]",
 			"[+1 Science] per [5] population [in this city]",
@@ -1207,7 +902,7 @@
 			"[+1 Culture] from [Sheep] tiles [in this city]",
 			"[+1 Culture] from [Cattle] tiles [in this city]",
 			"[+1 Culture] from [Papyrus] tiles [in this city]",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 			"Sell [Rotary Mill] buildings [in this city] <if [School] is not constructed>",
 		],
 		"requiredTech": "Philosophy"
@@ -1224,27 +919,11 @@
 		"food": 1,
 		"cityHealth": 10,
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Building Slot]>",
-			"Remove [Building Slot] [in this city]",
 			"[+1 Food] from [Plantation] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
-			"Cost increases by [5] per owned city",
+			"Cost increases by [2] per owned city",
 ],
 		"requiredTech": "Pottery"
-	},
-	{
-		"name": "Sell Granary",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Granary]> <hidden from users>",
-			"Gain [45] [Gold]"
-			"Remove [Granary] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Granary] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Rotary Mill",
@@ -1254,8 +933,7 @@
 		"happiness": 1,
 		"food": 2,
 		"uniques": [
-			"Only available <in cities with a [Granary]> <hidden from users>",
-			"Requires at least [5] population",
+			"Only available <in cities with a [Urban Fabric II]> <in cities with a [Granary]>"
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
 			"Sell [Rotary Mill] buildings [in this city] <if [Granary] is not constructed>",
@@ -1269,9 +947,6 @@
  		"cost": 40,
 		"food": 2,
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Building Slot]>",
-			"Remove [Building Slot] [in this city]",
 			"Only available <after adopting [Eastern Culture]>",
 			"New [Mounted Archery] units start with [10] XP [in this city]",
 			"Provides [1] [Manpower] <while the empire is happy>",
@@ -1284,24 +959,11 @@
 			"[+1 Happiness, -1 Food, +1 Production] from [Fort] tiles [in this city]",
 			"[+1 Food] from [Camp] tiles [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
 			"[+1 Gold, +1 Food] from [Pasture] tiles [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 			"Never destroyed when the city is captured",
 			"Must not be on [Desert]",
 		],
 		"requiredTech": "Animal Husbandry"
-	},
-	{
-		"name": "Sell Nomadic Herd",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Nomadic Herd]> <hidden from users>",
-			"Gain [30] [Gold]"
-			"Remove [Nomadic Herd] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Nomadic Herd] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 
 					//Production
@@ -1314,27 +976,12 @@
 		"hurryCostModifier": 25,
 		"Production": 2,
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Building Slot]>",
-			"Remove [Building Slot] [in this city]",
+			"Only available <in cities with a [Urban Fabric II]>"
 			"[+1 Gold, +1 Production] from [Timber] tiles [in this city]"
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Engineering"
-	},
-	{
-		"name": "Sell Workshop",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Workshop]> <hidden from users>",
-			"Gain [40] [Gold]"
-			"Remove [Workshop] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Workshop] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 
 					//Economy
@@ -1348,7 +995,7 @@
 		"percentStatBonus": {"gold": 5},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-			"Requires at least [8] population",
+			"Only available <in cities with a [Urban Fabric II]>"
 			"[+2 Gold] <in cities with a [Jeweler]>",
 			"[+2 Gold] <in cities with a [Mint]>",
 			"[+2 Gold] <in cities with a [Goldsmith]>",
@@ -1365,7 +1012,7 @@
 			"Consumes [1] [Sanitation]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Currency"
 	},
@@ -1377,13 +1024,7 @@
 		"hurryCostModifier": 35,
 		"percentStatBonus": {"gold": 5},
 		"uniques": [
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Building Slot]>",
-			"Only available <in cities with a [Small City]> <in cities with a [Market]>",
-			"Only available <in cities with a [City]> <in cities with a [Market]> <hidden from users>",
-			"Only available <in cities with a [Big City]> <in cities with a [Market]> <hidden from users>",
-			"Remove [Building Slot] [in this city]",
-			"Provides [1] [Decadence]",
+			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Market]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Consumes [1] [Copper]",
@@ -1395,21 +1036,9 @@
 			"[+1 Gold, +1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Production] from [Fort] tiles [in this city]",
 			"[-1 Food] from [Village] tiles [in this city]",
+			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Currency"
-	},
-	{
-		"name": "Sell Mint",
- 		"cost": 1,
-		"uniques": [
-			"Unavailable <for [AI player] Civilizations> <hidden from users>",
-			"Only available <in cities with a [Mint]> <hidden from users>",
-			"Gain [120] [Gold]"
-			"Remove [Mint] [in this city]",
-			"Gain a free [Building Slot] [in this city]",
-			"Remove [Sell Mint] [in this city] <upon turn end>"
-			"Cannot be purchased",
-		],
 	},
 	{
 		"name": "Slave Trader",
@@ -1419,8 +1048,7 @@
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-			"Requires at least [15] population",
-			"Only available <in cities with a [Market]>",
+			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Market]>",
 			"Provides [3] [Decadence]",
 			"Consumes [3] [Manpower]",
 			"[Gold] cost of purchasing [Civilian] units [-25]%",
@@ -1430,19 +1058,19 @@
 			"Limited to [3] per Civilization <after adopting [Golden Age of Piracy]>",
 			"Limited to [3] per Civilization <after adopting [War Economy]>",
 			"Unbuildable <after adopting [Slave Liberation]>",
-			"Cost increases by [100] per owned city",
+			"Cost increases by [5] per owned city",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Private Estates"
 	},
 	{
 		"name": "Tavern",
-		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"cost": 100,
 		"maintenance": 1,
 		"happiness": 1,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric II]> <in cities with a [Market]>",
 			"[+5]% Natural religion spread [in this city]",
 			"[+1 Happiness, +1 Gold] from [Wine] tiles [in this city]",
 			"[+1 Gold] from [Camp] tiles [in this city]",
@@ -1455,7 +1083,6 @@
 	},
 	{
 		"name": "Garum Shop",
-		"requiredBuilding": "Market",
 		"requiredNearbyImprovedResources": ["Fish","Crab"],
 		"hurryCostModifier": 25,
  		"cost": 80,
@@ -1463,6 +1090,7 @@
 		"Food": 1,
 		"happiness": 1,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric II]> <in cities with a [Market]>",
 			"[+1 Gold] from [Fish] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -1481,7 +1109,7 @@
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-		"Requires at least [5] population",
+			"Only available <in cities with a [Urban Fabric II]>"
 			"Provides [1] [Silphium]",
 			"Provides [1] [Decadence]",
 			"[+2 Gold] <in cities with a [Jeweler]>",
@@ -1499,7 +1127,7 @@
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Never destroyed when the city is captured",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Currency"
 	},
@@ -1520,7 +1148,7 @@
 			"Consumes [1] [Sanitation]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [2] per owned city",
 			"Never destroyed when the city is captured",
 		],
 		"requiredTech": "Trade Routes"
@@ -1542,7 +1170,7 @@
 			"Consumes [1] [Sanitation]",
 			"[+3 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture] from [Village] tiles [in this city]",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [2] per owned city",
 			"Never destroyed when the city is captured",
 		],
 		"requiredTech": "Trade Routes"
@@ -1562,7 +1190,7 @@
 			"Consumes [1] [Sanitation]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Village] tiles [in this city]",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [2] per owned city",
 			"Never destroyed when the city is captured",
 		],
 		"requiredTech": "Trade Routes"
@@ -1601,7 +1229,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 			"Connects trade routes over water",
-			"Requires at least [10] population",
+			"Only available <in cities with a [Urban Fabric II]>"
 			"Consumes [1] [Manpower]",
 			"Consumes [1] [Sanitation]",
 			"[+1 Gold] <in cities with a [Market]>",
@@ -1612,7 +1240,7 @@
 			"Must be next to [Coast]",
 			"Remove [Anchorage] [in this city]",
 			"Only available <in cities without a [Great Harbor]> <hidden from users>",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 		],
 		"requiredTech": "Shipbuilding"
 	},
@@ -1623,13 +1251,13 @@
  		"cost": 40,
 		"uniques": [
 			"Must be next to [Coast]"
-			"Requires at least [10] population",
+			"Only available <in cities with a [Urban Fabric I]>"
 			"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
 			"[Water] Units adjacent to this city heal [20] HP per turn when healing",
 			"[+5]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Food] from [Village] tiles [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 			"Consumes [1] [Manpower]",
 		],
 		"requiredTech": "Shipbuilding"
@@ -1647,12 +1275,13 @@
  		"cost": 30,
 		"uniques": [
 			"Must be next to [Coast]",
+			"Only available <in cities with a [Urban Fabric I]>"
 			"New [{Military} {Water}] units start with [15] XP [in this city]",
 			"[Water] Units adjacent to this city heal [25] HP per turn when healing",
 			"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
 			"[+10]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [2] per owned city",
 		],
 		"requiredTech": "Shipbuilding"
 	},
@@ -1668,7 +1297,7 @@
  		"cost": 400,
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
-			"Requires at least [20] population",
+			"Only available <in cities with a [Urban Fabric IV]>",
 			"Connects trade routes over water",
 			"[+3 Gold] <in cities with a [Market]>",
 			"[+1 Gold] <in cities with a [Garum Shop]>",
@@ -1681,7 +1310,7 @@
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Must be next to [Coast]",
 			"Remove [Harbor] [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Naval Artillery"
 	},
@@ -1695,6 +1324,7 @@
 		"cost": 30,
 		"maintenance": 1,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>"
 			"Provides [1] [Manpower] <while the empire is happy>",
 			"Provides [1] [Manpower] <during the [Classical Age]>",
 			"Provides [2] [Manpower] <during the [Hellenistic Age]>",
@@ -1713,13 +1343,14 @@
 		"culture": 1,
 		"cityHealth": 5,
 		"uniques": [
-			"Only available <after adopting [Naked Fanatics]>","Must not be on [Desert]",
+			"Only available <after adopting [Naked Fanatics]>",
+			"Must not be on [Desert]",
 			"[+1 Faith] from [Village] tiles [in this city]",
 			"[+5]% Production when constructing [Sword] units [in this city]",
 			"Provides [1] [Mercenary (Celtic)]",
 			"Provides [2] [Manpower]",
 			"[+1 Faith] from [Village] tiles [in this city]",
-			"Cost increases by [15] per owned city",
+			"Cost increases by [2] per owned city",
 			"Never destroyed when the city is captured",
 		],
 		"requiredTech": "Forestry"
@@ -1733,8 +1364,8 @@
 		"gold": 1,
 		"requiredTech": "Barter"
 		"uniques": [
-			"Requires at least [3] population",
-			"Cost increases by [10] per owned city",
+			"Only available <in cities with a [Urban Fabric I]>"
+			"Cost increases by [2] per owned city",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Village] tiles [in this city]",
 			"[+1 Food, +1 Gold] from [Cattle] tiles [in this city]",
@@ -1750,6 +1381,7 @@
 		 "cost": 100,
 		"uniques": [
 			"Comment [Has cultural requirements]",
+			"Only available <in cities with a [Urban Fabric II]>"
 			"Only available <with [Enable War Elephant]> <hidden from users>",
 			"New [Elephant] units start with [5] XP [in this city]",
 			"Provides [1] [Elephants]",
@@ -1784,6 +1416,7 @@
 		"maintenance": 0,
 		"food": 1,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>"
 			"Must be next to [Fresh water]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
@@ -1840,7 +1473,7 @@
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Food, +1 Production] from [Fort] tiles [in this city]",
 			"[-1 Food, +1 Gold] from [Village] tiles [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Land Grants"
@@ -1853,6 +1486,7 @@
 		"Gold": 1,
 		"happiness": 1,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric II]>"
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Perfume]",
@@ -1866,6 +1500,7 @@
  		"cost": 50,
 		"maintenance": 1,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>"
 			"[+1 Culture] from [Marsh] tiles [in this city]",
 			"[+1 Production] from [Oasis] tiles [in this city]",
 			"[+1 Production] from [Lakes] tiles [in this city]",
@@ -1874,7 +1509,7 @@
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Marsh] tiles [in this city]",
 			"[+1 Gold] from [Clay] tiles [in this city]",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 		],
 		"requiredTech": "Pottery"
 	},
@@ -1885,6 +1520,7 @@
 		"cost": 100,
 		"maintenance": 2,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>"
 			"Provides [1] [Olive Oil]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
@@ -1899,10 +1535,11 @@
 		"cost": 60,
 		"maintenance": 2,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>"
 			"Provides [1] [Ceramics]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] <in cities with a [Olive Mill]>",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 		],
 		"requiredTech": "Barter"
 	},
@@ -1913,6 +1550,7 @@
 		"cost": 100,
 		"maintenance": 1,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"[+1 Gold] from [Sheep] tiles [in this city]",
@@ -1923,7 +1561,7 @@
 			"[+2 Gold] from [Purple Dye] tiles [in this city]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
-			"Cost increases by [5] per owned city",
+			"Cost increases by [2] per owned city",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -1935,6 +1573,7 @@
  		"cost": 40,
 		"requiredNearbyImprovedResources": ["Copper"],
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>",
 			"Provides [3] [Bronze]",
 			"Consumes [2] [Copper]",
 			"[+1 Gold] from [Tin] tiles [in this city]",
@@ -1952,6 +1591,7 @@
  		"cost": 70,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>",
 			"[+1 Happiness, +1 Gold] from [Marble] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Production] from [Stone] tiles [in this city]",
@@ -1969,6 +1609,7 @@
 		"gold": 1,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>"
 			"Provides [1] [Decadence]",
 			"[+1 Happiness, +1 Gold] from [Marble] tiles [in this city]",
 			"[+1 Happiness, +1 Gold] from [Ivory] tiles [in this city]",
@@ -1988,6 +1629,7 @@
 		"happiness": 1,
 		"cityHealth": 20,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>"
 			"Provides [1] [Manpower]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
@@ -2001,6 +1643,7 @@
 		"cost": 40,
 		"maintenance": 0,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>"
 			"New [Archery] units start with [5] XP [in this city]",
 			"[+10]% Production when constructing [Archery Range] buildings [in this city]",
 			"[+1 Food] from [Deer] tiles [in this city]",
@@ -2009,7 +1652,7 @@
 			"[+1 Food] from [Village] tiles [in this city]",
 			"[+1 Food] from [Deer] tiles [in this city] <for [The Scythians] Civilizations>",
 			"[+1 Food] [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 		],
 		"requiredTech": "Forestry"
 	},
@@ -2021,6 +1664,7 @@
  		"cost": 70,
 		"requiredNearbyImprovedResources": ["Tar"],
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric II]>"
 			"[+2 Gold] from [Tar] tiles [in this city]",
 		],
 		"requiredTech": "Optics"
@@ -2042,6 +1686,7 @@
  		"cost": 130,
 		"maintenance": 3,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]",
@@ -2059,10 +1704,11 @@
 		"maintenance": 0,
 		"gold": 2,
 		"uniques": [ 
+			"Only available <in cities with a [Urban Fabric II]>"
             		"[Camel Archer] units gain the [Camels Scare Horses] promotion",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Production] from [Village] tiles [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 		]
 		"requiredTech": "Barter"
 	},
@@ -2072,6 +1718,7 @@
 		"hurryCostModifier": 25,
  		"cost":130,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Jewelry]","Provides [1] [Decadence]",	
@@ -2081,7 +1728,7 @@
 			"[+2 Gold] from [Gold Ore] tiles [in this city]",
 			"[+1 Gold] from [Silver] tiles [in this city]",
 			"[-1 Production, +1 Happiness] from [Village] tiles [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Metallurgy"
 		
@@ -2097,6 +1744,7 @@
 		"culture": 1,
 		"gold": 6,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric II]>"
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"[+3 Gold] from [Gold Ore] tiles [in this city]",
@@ -2104,7 +1752,7 @@
 			"[+3 Gold] from [Trading post] tiles [in this city]",
 			"[+2 Gold] from [Silver] tiles [in this city]",
 			"[-1 Production, +1 Happiness] from [Village] tiles [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Metallurgy"
 	},
@@ -2117,6 +1765,7 @@
 		"food": 1,
 		"production": 1,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]>"
 			"Must be on [River]",
 			"Provides [1] [Sanitation]",
 			"[+1 Food, +1 Gold] from [Village] tiles [in this city]",
@@ -2133,16 +1782,14 @@
  		"cost": 150,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
-			"Only available <in cities with a [Small City]> <hidden from users>",
-			"Only available <in cities with a [City]>",
-			"Only available <in cities with a [Big City]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric III]>",
 			"[+1 Happiness] from [Marble] tiles [in this city]",
 			"[+1 Happiness] from [Gold Ore] tiles [in this city]",
 			"[+1 Happiness] from [Purple Dye] tiles [in this city]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Happiness, +1 Food, +1 Gold, +1 Culture] from [Village] tiles [in this city]",
 			"[-1 Food, +1 Production] from [Fort] tiles [in this city]",
-			"Cost increases by [20] per owned city",
+			"Cost increases by [3] per owned city",
 			"Provides [1] [Sanitation]",
 			"Provides [2] [Decadence]",
 			"Unbuildable <after adopting [Zealotry]>",
@@ -2272,11 +1919,11 @@
 
 	{
 		"name": "Mercenary Camp",
-		"requiredBuilding": "Muster Field",
 		"cost": 50,
 		"cityHealth": 40,
 		"maintenance": 3,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric II]>"
 			"Requires at least [5] population",
 			"Comment [Enables Mercenary Units]",
 			"Comment [Provides 1 Mercenary Unit in each culture]",
@@ -2301,7 +1948,7 @@
 			"Limited to [3] per Civilization <during the [Imperial Age]>",
 			"Limited to [4] per Civilization <during the [Imperial Age]> <after adopting [Mercenary Reform]>",
 			"Limited to [4] per Civilization <during the [Imperial Age]> <after adopting [Eastern Contacts]>",
-			"Cost increases by [10] per owned city",
+			"Cost increases by [2] per owned city",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Currency"
@@ -2381,7 +2028,7 @@
 		"isWonder": true,
 		"requiredTech": "Entertainment",
 		"uniques": [
-		"Requires at least [20] population",
+			"Only available <in cities with a [Urban Fabric IV]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+2 Happiness] <after discovering [Aesthetics]>",
 			"Provides [1] [Decadence]",
@@ -2631,8 +2278,8 @@
 		"isWonder": true,
 		"requiredTech": "Philosophy",
 		"uniques": [
-			"Only available <in cities with a [City]>",
-			"Only available <in cities with a [Big City]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric IV]>",
+			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
 			"Consumes [1] [Decadence] <in cities with a [The Great Library]> <while the empire is happy>",
 			"Free Technology",
 			"Only available <after adopting [Hellenistic Culture]>"
@@ -2649,8 +2296,8 @@
 		"specialistSlots": {"Merchant": 2},
 		"cost": 1000,
 		"uniques": [
-			"Only available <in cities with a [City]>",
-			"Only available <in cities with a [Big City]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric IV]>",
+			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
 			"Requires at least [25] population",
 			"Provides [2] [Decadence]",
 			"[+1 Gold] <in cities with a [Market]>",
@@ -2675,8 +2322,8 @@
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-			"Only available <in cities with a [City]>",
-			"Only available <in cities with a [Big City]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric IV]>",
+			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
 			"Requires at least [20] population",
 			"[+1 Gold] per [8] population [in this city]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
@@ -2707,8 +2354,8 @@
 		"cost": 1000,
 		"specialistSlots": {"Priest": 3},
 		"uniques": [
-			"Only available <in cities with a [City]>",
-			"Only available <in cities with a [Big City]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric IV]>",
+			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
 			"Requires at least [20] population",
 			"Consumes [2] [Decadence]",
 			"[+2 Production] <after adopting [Seal of Heaven]>",
@@ -2748,8 +2395,8 @@
 		"specialistSlots": {"Engineer": 2},
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [City]>",
-			"Only available <in cities with a [Big City]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric IV]>",
+			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
 			"Requires at least [15] population",
 			"[+1 Production] from [Iron] tiles [in this city]"
 			"[+1 Faith, +2 Gold] from [Iron] tiles [in this city]",
@@ -2771,8 +2418,8 @@
 		"cityStrength": 2,
 		"cityHealth": 50,
 		"uniques": [
-			"Only available <in cities with a [City]>",
-			"Only available <in cities with a [Big City]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric IV]>",
+			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
 			"New [Military] units start with [5] XP [in this city]",
 			"[+10]% XP gained from combat <for [Military] units> <when above [5] [Veteran]>",
 			"[+10]% XP gained from combat <for [Military] units> <when above [3] [Veteran]>",
@@ -2795,8 +2442,8 @@
 		"requiredTech": "Crossbow Engineering",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [ 
-			"Only available <in cities with a [City]>",
-			"Only available <in cities with a [Big City]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric IV]>",
+			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
                    	"[King] units gain the [Improved Armor] promotion", 
                    	"[General] units gain the [Improved Armor] promotion",
                   	"[Infantry Shield III] units gain the [Improved Armor] promotion",
@@ -2894,171 +2541,365 @@
 		]
 		"requiredTech": "Barter"
 	},
-	{
-    		"name": "High Inflation",
-    		"cost": 0,
-    		"maintenance": 0,
-    		"uniques": [
-			"Unbuildable","Unsellable",
-      			"[+50]% maintenance costs <for [Military] units>",
-      			"[-2 Happiness, -2 Gold, -2 Food, -1 Faith, -2 Production] [in all cities]",
-      			"[-1 Gold] from [Trading post] tiles [in all cities]",
-      			"[-1 Gold, -2 Food] from [Village] tiles [in all cities]",
-      			"[-2 Gold] from [Fort] tiles [in all cities]",
-      			"[-5 Gold] from every [Mint]",
-      			"[-3 Gold] from every [Jeweler]",
-      			"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
-      			"[Gold] cost of purchasing [Military] units [+20]%",
-    ]
-  },
-{
-    		"name": "Restore Currency Control",
-    		"requiredBuilding": "High Inflation",
-    		"cost": 1500,
-    		"uniques": [
-        		"Cannot be purchased",
-        		"Remove [High Inflation] [in all cities]",
-        		"Comment [Diocletian eventually tried price controls. They failed, but hey—looks good on stone tablets.]",
-			"Unsellable",
-      			"Unbuildable <if [High Inflation] is not constructed>",
-    ]
-}
-  {
-    "name": "Devastating By War",
-    "cost": 0,
-    "maintenance": 0,
-    "uniques": [
-      "Unbuildable",
-      "[-1 Happiness, -1 Gold] [in all cities]",
-      "[-1 Gold] from [Mine] tiles [in all cities]",
-      "[-1 Gold] from [Trading post] tiles [in all cities]",
-      "[-1 Food] from [Village] tiles [in all cities]",
-      "[+2 Happiness] [in all cities]",
-      "[-1 Gold] from [Fort] tiles [in all cities]"
-    ]
-  },
-{
-    "name": "War Reconstruction",
-    "requiredBuilding": "Devastating By War",
-    "cost": 1500,
-    "uniques": [
-      "Unbuildable <if [Devastating By War] is not constructed>",
-        "Remove [Devastating By War] [in all cities]",
-        "Comment [After decades of civil wars, someone finally noticed the empire was crumbling. Even emperors can learn.]",
-    ]
-}
-  {
-    "name": "Political Unstable",
-    "cost": 0,
-    "maintenance": 0,
-    "uniques": [
-      "Unbuildable",
-      "[-10 Culture] [in all cities]",
-      "[-1 Gold] from [improved] tiles [in all cities]",
-      "[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
-      "[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
-      "[-1 Happiness] [in all cities] <when above [3] [Nobles]>"
-    ]
-  },
-{
-    "name": "Centralize Power",
-    "requiredBuilding": "Political Unstable",
-    "cost": 1800,
-    "uniques": [
-        "Cannot be purchased",
-        "Remove [Political Unstable] [in all cities]",
-      "Unbuildable <if [Political Unstable] is not constructed>",
-    ]
-}
 
 /////				---Scenario 3rd century
 
-  {
-    "name": "Praetorian Greed",
-    "cost": 0,
-    "maintenance": 0,
-    "uniques": [
-      "Comment [Because nothing stabilizes an empire like an elite bodyguard selling the throne to the highest bidder. The Praetorians spent the 3rd century auctioning emperors, murdering the ones who refused payment, and generally turning Rome’s political system into a marketplace of corpses. And disbanding them? Rome tried that too—removing entitled kingmakers tends to upset them. Expect the people to panic and your armies to sulk: –20 Happiness.]",
-      "[+200]% maintenance costs <for [Praetoria] units>",
-      "[+10]% Strength <when defending> <for [Praetoria] units>",
-      "[-10]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
-      "Provides [1] [Greed]",
-      "Unbuildable",
+///Global
+	{
+    		"name": "3rd century crisis",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+			"Gain a free [3rd century crisis] [in all cities] <in cities without a [3rd century crisis]>",
+			"Gain a free [Urban Fabric I] [in all cities] <in cities without a [Urban Fabric I]>",
+			"Gain a free [Urban Fabric II] [in all cities] <in cities without a [Urban Fabric II]>",
+			"Gain a free [Muster Field] [in all cities] <in cities without a [Muster Field]>",
+			"Gain a free [Roman 3rd century crisis] [in capital] <for [The Romans] Civilizations>",
+			"Gain a free [Palmyrence 3rd century crisis] [in capital] <for [The Arsacids] Civilizations>",
+			"Gain a free [Gallic 3rd century crisis] [in capital] <for [The Arverni] Civilizations>",
+			"Gain a free [Germanic 3rd century crisis] [in capital] <for [The Belgae] Civilizations>",
+			"Gain a free [Goth 3rd century crisis] [in capital] <for [The Bastarnae] Civilizations>",
+			"Gain a free [Hun 3rd century crisis] [in capital] <for [The Scythians] Civilizations>",
+			"Gain a free [Armenia 3rd century crisis] [in capital] <for [The Armenians] Civilizations>",
+			"Unsellable",
+      			"Unbuildable",
+]
+  	},
+
+					///Roman
+  	{
+    		"name": "Empire Divide",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+      			"Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]",
+      			"[+10]% Strength <for [Infantry Shield III] units> <when fighting in [Friendly Land] tiles>",
+      			"[-10]% Strength <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
+      			"[+30]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+			"Remove [Empire Divide] [in capital] <when not at war>",
+      			"Unbuildable",
+			"Unsellable",
+   ]
+  	},
+	{
+    		"name": "Roman 3rd century crisis",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+			"Gain a free [Age Of Many Emperors] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
+			"Gain a free [Silver Inflation] [in capital] <if [Currency Reform] is not constructed by anybody>",
+			"Gain a free [Praetorian Greed] [in capital] <if [Praetorian Purge] is not constructed by anybody>",
+			"Gain a free [Egypt Grain Crisis] [in capital] <if [Egypt Grain] is not constructed>",
+			"Provides [1] [Enable Hellenic Legion]",
+			"Provides [1] [Enable Illyrian Legion]",
+			"Unsellable",
+      			"Unbuildable",
+]
+  	},
+  	{
+    		"name": "Age Of Many Emperors",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+      			"Unbuildable",
+      			"[-2 Happiness] [in all cities]",
+      			"[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
+      			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
+      			"[-1 Happiness] [in all cities] <when above [3] [Nobles]>",
+			"Unsellable",
     ]
-  },
-{
-    "name": "Praetorian Purge",
-    "requiredBuilding": "Praetorian Greed",
-    "cost": 1200,
-    "uniques": [
-        "Cannot be purchased",
-        "Remove [Praetorian Greed] [in all cities]",
-        "Comment [After auctioning off the empire, the Praetorians were finally dealt with. Disbanding them gets you -20 Happiness, naturally.]",
-      "Unbuildable <if [Praetorian Greed] is not constructed>",
+  	},
+	{
+    		"name": "Roman Centralize Power",
+   		"cost": 1000,
+    		"uniques": [
+        		"Cannot be purchased",
+        		"Remove [Age Of Many Emperors] [in all cities]",
+      			"Unbuildable <if [Age Of Many Emperors] is not constructed>",
     ]
 }
-  {
-    "name": "Egypt Grain Crisis",
-    "cost": 0,
-    "maintenance": 0,
-    "uniques": [
-      "Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]"
-      "Unbuildable",
-      "[-2 Food, -2 Happiness, -1 Production] [in all cities]",
-        "[-5]% growth [in all cities]"
+	{
+    		"name": "Silver Inflation",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+      			"[+30]% maintenance costs <for [Military] units>",
+      			"[+100]% maintenance costs <for [Civilian] units>",
+      			"[-1 Gold, -1 Happiness] from [improved] tiles [in all cities]",
+      			"[-1 Gold, -1 Happiness] from [Silver] tiles [in all cities]",
+      			"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
+      			"[Gold] cost of purchasing [Military] units [+20]%",
+			"Unbuildable","Unsellable",
+]
+  	},
+	{
+    		"name": "Currency Reform",
+    		"cost": 800,
+    		"uniques": [
+        		"Cannot be purchased",
+        		"Remove [Silver Inflation] [in all cities]",
+			"Unsellable",
+      			"Unbuildable <if [Silver Inflation] is not constructed>",
     ]
-  },
-  {
-    "name": "Egypt Grain",
-    "cost": 0,
-    "maintenance": 0,
-    "uniques": [
-        "Comment [Rome starved because Egypt sneezed. Fixing the grain ships fixes everything—until next year.]"
-        "Remove [Egypt Grain Crisis] [in all cities]",
-      "[+1 Food, +1 Happiness] [in all cities]",
-      "Unbuildable",
+	}
+ 	{
+    		"name": "Praetorian Greed",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+      			"Comment [Because nothing stabilizes an empire like an elite bodyguard selling the throne to the highest bidder. The Praetorians spent the 3rd century auctioning emperors, murdering the ones who refused payment, and generally turning Rome’s political system into a marketplace of corpses. And disbanding them? Rome tried that too—removing entitled kingmakers tends to upset them. Expect the people to panic and your armies to sulk. -50 Happiness]",
+      			"[+200]% maintenance costs <for [Praetoria] units>",
+      			"[+10]% Strength <when defending> <for [Praetoria] units>",
+      			"[-20]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
+      			"Provides [1] [Praetorian Greed]",
+      			"Unbuildable",
+			"Unsellable",
     ]
-  },
-  {
-    "name": "Empire Divide",
-    "cost": 0,
-    "maintenance": 0,
-    "uniques": [
-      "Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]",
-      "[+25]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
-      "[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>",
-      "[+50]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
-	"Remove [Empire Divide] [in all cities] <every [50] turns> <when not at war>",
-      "Unbuildable",
+  	},
+	{
+    		"name": "Praetorian Purge",
+    		"requiredBuilding": "Praetorian Greed",
+    		"cost": 800,
+    		"uniques": [
+        		"Comment [After auctioning off the empire, the Praetorians were finally dealt with.]",
+        		"Remove [Praetorian Greed] [in all cities]",
+			"Only available <in cities with a [Praetorian Greed]>",
+      			"Unbuildable <if [Praetorian Greed] is not constructed>",
+        		"Cannot be purchased",
+			"Unsellable",
     ]
-  }
-  {
-    "name": "3rd Century Roman Empire",
-    "cost": 0,
-    "maintenance": 0,
-    "uniques": [
-      "Unbuildable",
-"Gain a free [Praetorian Greed] [in capital] <hidden from users>",
-"Gain a free [Empire Divide] [in capital] <hidden from users>",
-"Gain a free [Egypt Grain Crisis] [in capital] <hidden from users>",
-"Gain a free [Rebellious Citizens] [in all cities] <hidden from users>",
-"Gain a free [Political Unstable] [in capital] <hidden from users>",
-"Gain a free [High Inflation] [in capital] <hidden from users>",
-"Gain a free [Devastating By War] [in capital] <hidden from users>",
-"Adopt [The Latin League] <hidden from users>",
-"Adopt [Proto-Maniple Training] <hidden from users>",
-"Adopt [Italic Sacred Groves] <hidden from users>",
-"Adopt [Socii] <hidden from users>",
-"Adopt [Latin Road Expansion] <hidden from users>",
-"Adopt [Manipular Legion] <hidden from users>",
-"Adopt [Auxilia] <hidden from users>",
-"Adopt [Roman Law Foundations] <hidden from users>",
-"Adopt [Latifundia] <hidden from users>",
-"Adopt [Marian Reforms] <hidden from users>",
-"Adopt [Cohort Reformation] <hidden from users>",
-"Adopt [Gladiatorial Games] <hidden from users>",
-"Adopt [Bread and Circuses] <hidden from users>",
+	}
+  	{
+    		"name": "Egypt Grain Crisis",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+      			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]"
+      			"[-2 Food, -1 Happiness, -1 Production] [in all cities]",
+        		"[-5]% growth [in all cities]"
+      			"Unbuildable",
+			"Unsellable",
     ]
-  }
+  	},
+
+					///Palmyrence
+
+  	{
+    		"name": "Egypt Grain",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+        		"Comment [Rome starved because Egypt sneezed.]"
+        		"Remove [Egypt Grain Crisis] [in all cities]",
+      			"[+1 Food, +1 Happiness] [in all cities]",
+        		"Remove [Egypt Grain Crisis] [in all cities]",
+      			"Unbuildable",
+			"Unsellable",
+    ]
+  	},
+	{
+    		"name": "Palmyrence 3rd century crisis",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Pylramence Empire] is not constructed by anybody>",
+			"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
+			"Provides [1] [Enable Hellenic Legion]",
+			"Provides [1] [Enable Desert Legion]",
+			"Unsellable",
+      			"Unbuildable",
+]
+  	},
+	{
+   		"name": "Palmyrene Ascendancy",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+        		"Comment [A desert caravan city crowned itself heir to the East. Trade financed armies, armies financed ambition, and ambition outran logistics.]",
+        		"[+5]% [Gold] [in all cities] <in cities with a [Market]>",
+        		"[+10]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
+        		"Gain a free [Imperial Overstretch] [in capital] <when at war>",
+        		"Remove [Imperial Overstretch] [in capital] <when not at war>",
+        		"Unbuildable",
+        		"Unsellable"
+   ]
+	},
+	{
+    		"name": "Pylramence Empire",
+    		"cost": 1500,
+    		"uniques": [
+        		"Cannot be purchased",
+        		"Unsellable"
+        		"Unbuildable <if [Imperial Overstretch] is not constructed>",
+			"Remove [Palmyrene Ascendancy] [in all cities]",
+    ]
+	},
+	{
+    		"name": "Imperial Overstretch",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+        		"Comment [From caravan city to imperial court in a decade. Administration lagged behind conquest. Governors improvised. Taxes vanished somewhere between Syria and Egypt.]",
+        		"[-2 Happiness] [in all cities]",
+        		"[+20]% maintenance costs <for [Military] units>",
+      			"[+30]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+        		"Unbuildable",
+        		"Unsellable"
+ ]
+	},
+	{
+    		"name": "Roman Retribution",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+        		"Comment [Rome tolerated rebellion until it did not. When the legions returned, they did not negotiate.]",
+        		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
+        		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
+			"[-20]% Production when constructing [Military] units [in all cities]",
+        		"Unbuildable",
+        		"Unsellable"
+   ]
+	},
+	{
+    		"name": "Zenobian Reform",
+    		"cost": 1200,
+    		"uniques": [
+        		"Comment [Administration caught up to ambition. For a moment, Palmyra looked like a real empire.]",
+        		"Cannot be purchased",
+        		"Unsellable"
+        		"Unbuildable <if [Roman Retribution] is not constructed>",
+			"Remove [Roman Retribution] [in all cities]",
+    ]
+	},
+
+					///Gallic
+	{
+    		"name": "Gallic 3rd century crisis",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+			"Gain a free [Gallic Secession] [in capital] <if [Gallic Empire] is not constructed by anybody>",
+			"Gain a free [Frontier Exhaustion] [in capital] <if [Administrative Consolidation] is not constructed by anybody>",
+			"Provides [1] [Enable Gallic Legion]",
+			"Provides [1] [Enable Gallic Limitanei]",
+			"Unsellable",
+      			"Unbuildable",
+]
+  	},
+	{
+    		"name": "Gallic Secession",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+        		"Comment [The Rhine legions chose stability over loyalty. Rome was too busy collapsing. Gaul chose its own emperor.]",
+        		"[+5]% Production when constructing [Gallic Legion] units [in all cities]",
+        		"[+5]% Production when constructing [Archery] units [in all cities]",
+        		"[+10]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
+        		"[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>",
+        		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
+        		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
+        		"Unbuildable",
+        		"Unsellable"
+    ]
+	},
+	{
+    		"name": "Gallic Empire",
+    		"cost": 1200,
+    		"uniques": [
+        		"Cannot be purchased",
+        		"Unsellable"
+        		"Unbuildable <if [Gallic Secession] is not constructed>",
+			"Remove [Gallic Secession] [in all cities]",
+    ]
+	},
+	{
+    		"name": "Frontier Exhaustion",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+        		"Comment [The Rhine never sleeps. Raids blur into seasons. Fortifications eat coin. Veterans age. Replacements thin.]",
+        		"[-2 Happiness] [in all cities]",
+        		"[+25]% maintenance costs <for [Military] units>",
+        		"[-10]% growth [in all cities]",
+        		"Unbuildable",
+        		"Unsellable"
+    ]
+	},
+	{
+    		"name": "Administrative Consolidation",
+    		"cost": 850,
+    		"uniques": [
+        		"Comment [Gaul stopped pretending to be temporary and started governing like a state.]",
+        		"Cannot be purchased",
+        		"Unsellable"
+        		"Unbuildable <if [Frontier Exhaustion] is not constructed>",
+			"Remove [Frontier Exhaustion] [in all cities]",
+    ]
+}
+					///Germanic
+	{
+    		"name": "Germanic 3rd century crisis",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+			"Provides [40] [Manpower]",
+    			"[+30]% Yield from pillaging tiles",
+        		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units>",
+        		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>",
+        		"[+20]% Strength <for [Melee] units> <when attacking> <vs cities>",
+ 			"[+20]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>",
+			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles>",
+			"Unsellable",
+      			"Unbuildable",
+]
+  	},
+	{
+    		"name": "Goth 3rd century crisis",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+			"Provides [40] [Manpower]",
+    			"[+30]% Yield from pillaging tiles",
+        		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
+        		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
+        		"[+20]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
+ 			"[+20]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
+			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
+			"Unsellable",
+      			"Unbuildable",
+]
+  	},
+	{
+    		"name": "Hun 3rd century crisis",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+			"Provides [20] [Manpower]",
+			"Provides [8] [Horses]",
+    			"[+50]% Yield from pillaging tiles",
+        		"[+20]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
+        		"[+20]% Strength <for [Mounted] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
+        		"[+40]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <for [300] turns>",
+ 			"[+30]% Strength <for [Spearman] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
+			"[+10] HP when healing <for [Mounted] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
+			"[+5] HP when healing <for [Mounted Archery] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
+			"Unsellable",
+      			"Unbuildable",
+]
+  	},
+	{
+    		"name": "Armenia 3rd century crisis",
+    		"cost": 0,
+    		"maintenance": 0,
+    		"uniques": [
+			"Provides [30] [Manpower]",
+        		"[+20]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <for [300] turns>",
+        		"[+20]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
+ 			"[+20]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
+			"[+10] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
+			"Unsellable",
+      			"Unbuildable",
+]
+  	},
 ]
 
