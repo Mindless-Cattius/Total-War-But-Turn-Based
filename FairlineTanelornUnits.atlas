@@ -1872,6 +1872,160 @@ TileSets/Civ2FairlineUnits/Units/Emperor
   orig: 119, 92
   offset: 0, 0
   index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Celtic
+  rotate: false
+  xy: 546, 414
+  size: 117, 98
+  orig: 117, 98
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Celtic
+  rotate: false
+  xy: 546, 414
+  size: 117, 98
+  orig: 117, 98
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Eastern
+  rotate: false
+  xy: 676, 1027
+  size: 114, 93
+  orig: 114, 93
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Eastern-Imperial Age
+  rotate: false
+  xy: 676, 1027
+  size: 114, 93
+  orig: 114, 93
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Egyptian
+  rotate: false
+  xy: 546, 819
+  size: 120, 87
+  orig: 120, 87
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Egyptian-Imperial Age
+  rotate: false
+  xy: 546, 819
+  size: 120, 87
+  orig: 120, 87
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Germanic
+  rotate: false
+  xy: 547, 1110
+  size: 121, 93
+  orig: 121, 93
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Germanic
+  rotate: false
+  xy: 547, 1110
+  size: 121, 93
+  orig: 121, 93
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Iberian
+  rotate: false
+  xy: 546, 520
+  size: 118, 95
+  orig: 118, 95
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Iberian
+  rotate: false
+  xy: 546, 520
+  size: 118, 95
+  orig: 118, 95
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Illyrian
+  rotate: false
+  xy: 546, 723
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Illyrian
+  rotate: false
+  xy: 546, 723
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Macedonian
+  rotate: false
+  xy: 546, 313
+  size: 116, 93
+  orig: 116, 93
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Macedonian
+  rotate: false
+  xy: 546, 313
+  size: 116, 93
+  orig: 116, 93
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Parthian
+  rotate: false
+  xy: 817, 1227
+  size: 126, 93
+  orig: 126, 93
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Parthian
+  rotate: false
+  xy: 817, 1227
+  size: 126, 93
+  orig: 126, 93
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Punic
+  rotate: false
+  xy: 546, 209
+  size: 116, 96
+  orig: 116, 96
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Punic
+  rotate: false
+  xy: 546, 209
+  size: 116, 96
+  orig: 116, 96
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Seleucid
+  rotate: false
+  xy: 546, 1014
+  size: 121, 88
+  orig: 121, 88
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Seleucid
+  rotate: false
+  xy: 546, 1014
+  size: 121, 88
+  orig: 121, 88
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Emperor-Thracian
+  rotate: false
+  xy: 546, 914
+  size: 121, 92
+  orig: 121, 92
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/King-Thracian
+  rotate: false
+  xy: 546, 914
+  size: 121, 92
+  orig: 121, 92
+  offset: 0, 0
+  index: -1
 TileSets/Civ2FairlineUnits/Units/Falxman-Imperial Age
   rotate: false
   xy: 140, 540
@@ -1888,7 +2042,7 @@ TileSets/Civ2FairlineUnits/Units/Gallic Limitanei
   index: -1
 TileSets/Civ2FairlineUnits/Units/General
   rotate: false
-  xy: 546, 317
+  xy: 546, 112
   size: 116, 89
   orig: 116, 89
   offset: 0, 0
@@ -1902,28 +2056,28 @@ TileSets/Civ2FairlineUnits/Units/General-Celtic
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Eastern
   rotate: false
-  xy: 948, 1130
+  xy: 815, 1040
   size: 122, 86
   orig: 122, 86
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Germanic
   rotate: false
-  xy: 815, 1042
+  xy: 951, 1132
   size: 122, 90
   orig: 122, 90
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Iberian
   rotate: false
-  xy: 817, 1140
+  xy: 815, 1134
   size: 123, 85
   orig: 123, 85
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Illyrian
   rotate: false
-  xy: 817, 1233
+  xy: 951, 1230
   size: 126, 87
   orig: 126, 87
   offset: 0, 0
@@ -1986,16 +2140,9 @@ TileSets/Civ2FairlineUnits/Units/Horseman-Scythian
   index: -1
 TileSets/Civ2FairlineUnits/Units/King
   rotate: false
-  xy: 945, 1036
+  xy: 945, 1038
   size: 122, 86
   orig: 122, 86
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Celtic
-  rotate: false
-  xy: 546, 414
-  size: 117, 98
-  orig: 117, 98
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Eastern
@@ -2005,81 +2152,11 @@ TileSets/Civ2FairlineUnits/Units/King-Eastern
   orig: 115, 98
   offset: 0, 0
   index: -1
-TileSets/Civ2FairlineUnits/Units/King-Eastern-Imperial Age
-  rotate: false
-  xy: 676, 1027
-  size: 114, 93
-  orig: 114, 93
-  offset: 0, 0
-  index: -1
 TileSets/Civ2FairlineUnits/Units/King-Egyptian
   rotate: false
   xy: 675, 931
   size: 113, 88
   orig: 113, 88
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Egyptian-Imperial Age
-  rotate: false
-  xy: 546, 819
-  size: 120, 87
-  orig: 120, 87
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Germanic
-  rotate: false
-  xy: 547, 1110
-  size: 121, 93
-  orig: 121, 93
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Iberian
-  rotate: false
-  xy: 546, 520
-  size: 118, 95
-  orig: 118, 95
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Illyrian
-  rotate: false
-  xy: 546, 723
-  size: 120, 88
-  orig: 120, 88
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Macedonian
-  rotate: false
-  xy: 546, 216
-  size: 116, 93
-  orig: 116, 93
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Parthian
-  rotate: false
-  xy: 951, 1224
-  size: 126, 93
-  orig: 126, 93
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Punic
-  rotate: false
-  xy: 546, 112
-  size: 116, 96
-  orig: 116, 96
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Seleucid
-  rotate: false
-  xy: 546, 1014
-  size: 121, 88
-  orig: 121, 88
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/King-Thracian
-  rotate: false
-  xy: 546, 914
-  size: 121, 92
-  orig: 121, 92
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Limitanei
