@@ -2101,8 +2101,6 @@
                 "uniques": [
                     	"[Gold] cost of purchasing [Cilician Pirate] units [-50]%",
                     	"[Gold] cost of purchasing [Illyrian Raider] units [-50]%",
-                    	"Gain a free [Mercenary Camp] [in capital]",
-                    	"Gain a free [Pirate Haven (Illyrian)] [in capital]",
                     	"Provides [2] [Mercenary (Illyrian)]",
                     	"Provides [2] [Mercenary (Cilician)]",
                     	"Provides [2] [Manpower]",
@@ -2413,8 +2411,8 @@
                     "[Gold] cost of purchasing [Oscan Mercenary] units [-25]%",
                     "[Gold] cost of purchasing [Skirmisher] units [-20]%",
                     "Provides [3] [Mercenary (Oscan)]",
-                    "[-20]% City-State Influence degradation",
-                    "[+1 Happiness] [in capital]"
+                    "[-25]% City-State Influence degradation",
+                    "[+3 Happiness] [in capital]"
                 ],
                 "requires": ["The Latin League"],
                 "row": 2,
@@ -2429,7 +2427,7 @@
         		"[+1 Gold] from [Village] tiles [in all cities]",
         		"[+1 Gold] from [Trading post] tiles [in all cities]",
         		"[+10]% Strength <for [Swordsman] units> <for [The Etruscans] Civilizations>",
-                    "[+1 Happiness] [in all cities]"
+                    	"[+1 Happiness] [in all cities]"
                 ],
                 "requires": ["The Latin League"],
                 "row": 2,
@@ -2472,7 +2470,6 @@
 "Only available <before adopting [Roman Law Foundations]>",
                     	"Comment [Enables Armored Elephant after adopting Imperium Auctoritas]","Provides [1] [Enable Armored Elephant] <after adopting [Imperium Auctoritas]> <hidden from users>",
                     	"Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
-                    	"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     	"Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     	"[-15]% maintenance costs <for [Mounted] units>",
                     	"[-15]% maintenance costs <for [Archery] units>",
@@ -2503,15 +2500,16 @@
                 "name": "Roman Law Foundations",
                 "requires": ["Manipular Legion"],
                 "uniques": [
-"Only available <before adopting [Auxilia]>",
-"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",                   
+			"Only available <before adopting [Auxilia]>",
+			"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",    
+                    	"Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",               
         		"[+1 Faith] from every [Temple]",
         		"[+1 Gold] from [Village] tiles [in all cities]",
         		"[+10]% Strength <for [Spearman] units> <for [The Etruscans] Civilizations>"
-                    "Provides [5] [Manpower]",
-                    "Provides [2] [Iron]",
+                    	"Provides [5] [Manpower]",
+                    	"Provides [2] [Iron]",
                     	"[+1 Happiness] [in all cities] <with a garrison>",
-                    "[+1 Happiness] [in capital]"
+                    	"[+1 Happiness] [in capital]"
                 ],
                 "row": 5,
                 "column": 5
@@ -2538,6 +2536,7 @@
       		"name": "Cohort Reformation",
       		"uniques": [
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    	"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
         		"[+10]% Strength <when attacking> <for [Archer] units>",
         		"[+10]% Strength <when defending> <for [Scout] units>",
         		"Provides [1] [Iron]",
@@ -2552,7 +2551,6 @@
                 "uniques": [
                     "[+1 Happiness, +1 Gold] from every [Arena]",
                     "[Gladiator] units gain the [Veteran] promotion",
-                    "Gain a free [Arena] [in capital]",
                     "[+1 Happiness] [in capital]",
 			"Unavailable <before the [Hellenistic Age]>",
                 ],
@@ -2851,8 +2849,7 @@
                 "name": "The Citadel",
                 "uniques": [
                     "Gain a free [Walls] [in capital]",
-                    "Gain a free [Wall Towers] [in capital]",
-                    "Provides [2] [Manpower]",
+                    "Provides [4] [Manpower]",
                     "[+15]% Production when constructing [Land] units [in capital]",
                     "[+1 Happiness] [in capital]"
                 ],
