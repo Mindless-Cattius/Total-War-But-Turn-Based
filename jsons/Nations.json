@@ -32,7 +32,7 @@
 		"[+2 Happiness, +1 Gold] from every [Army Barracks] <when at war>",
 		"Starts with [Latin Culture] adopted"
 		],
-		"cities": ["Rome","Capua","Venusia","Ariminum","Brundisium","Placentia","Segesta","Cannae","Segesta","Firmum","Salernum","Buxentum","Pollentia"]
+		"cities": ["Rome","Capua","Venusia","Ariminum","Brundisium","Placentia","Cannae","Segesta","Firmum","Salernum","Buxentum","Pollentia"]
 	},
 	{
 		"name": "The Insubres",
@@ -284,7 +284,7 @@
 //		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted"
 		],
-		"cities": ["Hecatompylos","Arsacia","Gorgan","Nisa","Asaak","Ctesiphon","Mithradatkirt","Merv","Ctesiphon","Dara","Vologasia","Susa","Nineveh"]
+		"cities": ["Hecatompylos","Arsacia","Gorgan","Nisa","Asaak","Mithradatkirt","Merv","Ctesiphon","Dara","Vologasia","Susa","Nineveh"]
 	},
 // Scythia
 	{
@@ -481,8 +481,7 @@
 		],
 		"cities": [
 		"Scallabis",
-		"Elbocori","Tapori","Paesuri","Arabrigenses","Araocelenses","Aravi","Colarni","Interamnienses","Lancienses","Meidubrigenses","Petravioi","Tangi","Igaeditani",
-		"Talures","Veaminicori","Talures","Vissaieici", // Lusitani
+		"Elbocori","Tapori","Paesuri","Arabrigenses","Araocelenses","Aravi","Colarni","Interamnienses","Lancienses","Meidubrigenses","Petravioi","Tangi","Igaeditani","Veaminicori","Talures","Vissaieici", // Lusitani
 		"Coerenses","Calontienses","Palanti","Caluri","Capara","Obila","Mirobriga","Turgalium","Alea","Bletisa","Tamusia","Ocelon","Cottaeobriga","Lancia"// Vettones
 		]
 	},
@@ -583,7 +582,7 @@
 		],
 		"cities": [
 		"Noviodunum","Samarobriva","Durocortorum","Bibrax","Nemetocena","Bratupantium","Tervanna","Gesoriacum","Augum","Briga","Bononia","Rotomagus","Aduatuca", //Cities
-		"Ambiani","Atrebates","Bellovaci","Suessiones","Viromandui","Caleti","Veliocassi","Menapii","Morini","Catuslugi","Nervii","Remi","Catuslugi","Eburones","Meldi" //Tribes
+		"Ambiani","Atrebates","Bellovaci","Suessiones","Viromandui","Caleti","Veliocassi","Menapii","Morini","Nervii","Remi","Catuslugi","Eburones","Meldi" //Tribes
 		]
 	},
 	{
