@@ -198,6 +198,7 @@
       		"Founds a new city <by consuming this unit>",
       		"Excess Food converted to Production when under construction",
 		"Unbuildable <in cities with a [Scenario]> <hidden from users>",
+		"Unbuildable <in cities with a [3rd century crisis]> <hidden from users>",
     ],
     "hurryCostModifier": 20
   },
@@ -917,6 +918,7 @@
 	"Comment ['Medium infantry, simple, sharp, and solves most problems violently.']",
       	"Consumes [3] [Manpower]",
       	"Only available <with [Enable Swordsman]> <hidden from users>",
+      	"Unavailable <after adopting [Latin Culture]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -1132,7 +1134,6 @@
     "name": "Manipular Legion",
     "unitType": "Sword",
     "uniqueTo": "The Romans",
-    "replaces": "Swordsman",
     "movement": 2,
     "strength": 17,
     "cost": 130,
@@ -1141,7 +1142,7 @@
       		"Only available <in cities with a [Barracks]>",
 	      	"Can build [All Road] improvements on tiles",
       		"Consumes [3] [Manpower]",
-       "Consumes [1] [Iron]",
+       		"Consumes [1] [Iron]",
       		"Can upgrade to [Legion] <after discovering [Infantry Training]>",
       		"Unbuildable <after discovering [Infantry Training]>",
     ],

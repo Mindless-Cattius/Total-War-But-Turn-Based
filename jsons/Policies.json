@@ -2518,7 +2518,7 @@
                 "name": "Latifundia",
                 "requires": ["Roman Law Foundations"],
                 "uniques": [
-        		"Provides [2] [Manpower]",
+        		"Provides [8] [Manpower]",
         		"[+1 Gold] from [Village] tiles [in all cities]",
         		"[+1 Gold] from [Trading post] tiles [in all cities]",
         		"[+1 Gold] from [improved] tiles [in all cities] <when not at war>",
@@ -2665,6 +2665,7 @@
     			"[+20]% Strength <when defending> <for [Sword] units>",
                     	"[+1 Happiness, +2 Gold] [in all cities] <with a garrison>",
     			"[+2 Happiness] [in all cities]",
+        		"Provides [10] [Manpower]",
                 ],
                 "row": 9,
                 "column": 5

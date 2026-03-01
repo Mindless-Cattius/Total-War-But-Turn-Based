@@ -458,7 +458,7 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+5 Faith, +5 Gold, +5 Happiness, +5 Culture, +1 Production] from every [Wonder]"]
+        "uniques": ["[+5 Faith, +5 Gold, +5 Happiness, +2 Culture, +1 Production] from every [Wonder]"]
     },
     {
         "name": "Feed the World",

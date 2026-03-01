@@ -16,7 +16,7 @@
 	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
 	"Retain [+20]% of the happiness from a luxury after the last copy has been traded away",
         "[-1] Sight <for [Embarked] units>",
-        "[-30]% Culture cost of adopting new Policies",
+        "[-50]% Culture cost of adopting new Policies",
         "[{Military} {Water}] units gain the [Warship] promotion",
         "[{Military} {Land}] units gain the [War Transports] promotion",
         "[{Military} {Land}] units gain the [Healing] promotion",
@@ -25,6 +25,7 @@
 	"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
 	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
 	"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
+	"[0] Unit Supply <for [all] units>"
 
 //Units
 

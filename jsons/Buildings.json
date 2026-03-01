@@ -347,14 +347,10 @@
 		"happiness": 1,
 		"cityHealth": 40,
 		"uniques": [  
-			"Only available <in cities with a [Urban Fabric I]>",
-			"Only available <in cities with a [Urban Fabric II]> <hidden from users>",
-			"Only available <in cities with a [Urban Fabric III]> <hidden from users>",
-			"Only available <in cities with a [Urban Fabric IV]> <hidden from users>",
-			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
+			"Only available <in cities with a [Urban Fabric II]>",
 			"Provides [1] [Decadence] <during the [Imperial Age]>"
 			"Provides [1] [Manpower] <during the [Imperial Age]>",
-			"Provides [2] [Manpower]",
+			"Provides [3] [Manpower]",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 			"Cost increases by [2] per owned city",
 			"[+20]% weight to this choice for AI decisions",
@@ -373,7 +369,7 @@
 			"Only available <in cities with a [Urban Fabric I]>",  
 			"Consumes [1] [Decadence] <in cities with a [Syssition]>",
 			"Provides [1] [Manpower] <during the [Imperial Age]>",
-			"Provides [2] [Manpower]",
+			"Provides [4] [Manpower]",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 			"New [Spear] units start with [10] XP [in this city]",
 			"Cost increases by [2] per owned city",
@@ -490,7 +486,7 @@
 			"Provides [1] [Veteran] <in cities with at least [15] [Population]>",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
-			"Provides [5] [Manpower]",
+			"Provides [6] [Manpower]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
 			"Cost increases by [3] per owned city",
@@ -852,7 +848,6 @@
 		"cost": 80,
 		"culture": 1,
 		"specialistSlots": {"Scholar": 1},
-		"requiredBuilding": "Shrine",
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>"
 			"Provides [1] [Sanitation]",
@@ -1697,14 +1692,13 @@
 	},
 	{
 		"name": "Camel Stable",
-		"requiredBuilding": "Spice Road",
 		"requiredNearbyImprovedResources": ["Camels"],
 		"hurryCostModifier": 25,
 		"cost": 60,
 		"maintenance": 0,
 		"gold": 2,
 		"uniques": [ 
-			"Only available <in cities with a [Urban Fabric II]>"
+			"Only available <in cities with a [Urban Fabric II]> <in cities with a [Spice Road]>"
             		"[Camel Archer] units gain the [Camels Scare Horses] promotion",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Production] from [Village] tiles [in this city]",
@@ -1955,7 +1949,6 @@
 	},
 	{
 		"name": "Pirate Haven (Illyrian)",
-		"requiredBuilding": "Mercenary Camp",
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -1963,6 +1956,7 @@
 		"happiness": -1,
 		"cityHealth": 5,
 		"uniques": [
+			"Only available <in cities with a [Mercenary Camp]>"
 			"Only available <starting from the [Classical Age]>",
 			"New [Galley] units start with [20] XP [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -1970,12 +1964,12 @@
 			"Limited to [1] per Civilization",
 			"Consumes [1] [Mercenary (Illyrian)]",
 			"Only available <with [Mercenary (Illyrian)]> <hidden from users>",
+			"Sell [Pirate Haven (Illyrian)] buildings [in this city] <if [Mercenary Camp] is not constructed>",
 			"Destroyed when the city is captured",
 		],
 	},
 	{
 		"name": "Pirate Haven (Cretan)",
-		"requiredBuilding": "Mercenary Camp",
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -1992,11 +1986,12 @@
 			"Must be next to [Coast]",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
+			"Only available <in cities with a [Mercenary Camp]>"
+			"Sell [Pirate Haven (Illyrian)] buildings [in this city] <if [Mercenary Camp] is not constructed>",
 		],
 	},
 	{
 		"name": "Pirate Haven (Cilician)",
-		"requiredBuilding": "Mercenary Camp",
 		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -2013,6 +2008,8 @@
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
+			"Only available <in cities with a [Mercenary Camp]>"
+			"Sell [Pirate Haven (Illyrian)] buildings [in this city] <if [Mercenary Camp] is not constructed>",
 		],
 	},
 	
@@ -2133,6 +2130,7 @@
 			"Only available <after adopting [Eastern Culture]>",
 			"Only available <before adopting [Steppe Authority]>",
 			"Only available <before adopting [Pastoral Lifeways]>",
+			"Unbuildable <during the [Imperial Age]>",
 ],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
@@ -2550,6 +2548,7 @@
     		"cost": 0,
     		"maintenance": 0,
     		"uniques": [
+			"[+50000]% Culture cost of natural border growth [in this city]",
 			"Gain a free [3rd century crisis] [in all cities] <in cities without a [3rd century crisis]>",
 			"Gain a free [Urban Fabric I] [in all cities] <in cities without a [Urban Fabric I]>",
 			"Gain a free [Urban Fabric II] [in all cities] <in cities without a [Urban Fabric II]>",
@@ -2842,8 +2841,9 @@
     		"cost": 0,
     		"maintenance": 0,
     		"uniques": [
-			"Provides [40] [Manpower]",
-    			"[+30]% Yield from pillaging tiles",
+			"Provides [40] [Manpower] <for [300] turns>",
+    			"[+30]% Yield from pillaging tiles <for [300] turns>",
+      			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
         		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units>",
         		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>",
         		"[+20]% Strength <for [Melee] units> <when attacking> <vs cities>",
@@ -2858,8 +2858,9 @@
     		"cost": 0,
     		"maintenance": 0,
     		"uniques": [
-			"Provides [40] [Manpower]",
-    			"[+30]% Yield from pillaging tiles",
+			"Provides [40] [Manpower] <for [300] turns>",
+    			"[+30]% Yield from pillaging tiles <for [300] turns>",
+      			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
         		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
         		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
         		"[+20]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
@@ -2874,9 +2875,10 @@
     		"cost": 0,
     		"maintenance": 0,
     		"uniques": [
-			"Provides [20] [Manpower]",
-			"Provides [8] [Horses]",
+			"Provides [20] [Manpower] <for [300] turns>",
+			"Provides [8] [Horses] <for [300] turns>",
     			"[+50]% Yield from pillaging tiles",
+      			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
         		"[+20]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
         		"[+20]% Strength <for [Mounted] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
         		"[+40]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <for [300] turns>",
@@ -2892,7 +2894,8 @@
     		"cost": 0,
     		"maintenance": 0,
     		"uniques": [
-			"Provides [30] [Manpower]",
+			"Provides [30] [Manpower] <for [300] turns>",
+      			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
         		"[+20]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <for [300] turns>",
         		"[+20]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
  			"[+20]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
