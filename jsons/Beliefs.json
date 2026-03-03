@@ -691,4 +691,6 @@
 			"[+20]% Natural religion spread [in all cities]",
 			"Religion naturally spreads to cities [+1] tiles away",
         	"[+5]% Strength <for [Infantry Shield II] units> <when above [100] [Happiness]>",
+],
+	}
 ]
