@@ -2670,7 +2670,7 @@
       			"[-20]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
       			"Provides [1] [Praetorian Greed]",
       			"[-10 Gold, -1 Production] [in capital]",
-      			"[-2 Gold, -1 Happiness] from [improved] tiles  [in capital]",
+      			"[-2 Gold, -1 Happiness] from [improved] tiles [in capital]",
       			"Unbuildable",
 			"Unsellable",
     ]
