@@ -38,6 +38,7 @@
 		"greatPersonPoints": {"Great Courtesan":2},
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
+			"Provides [1] [Sanitation]",
 			"Provides [1] [Decadence] <during the [Classical Age]>",
 			"Provides [2] [Decadence] <during the [Hellenistic Age]>",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
@@ -60,6 +61,7 @@
 		"science": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
+			"Provides [2] [Sanitation]",
 		"Only available <in cities with a [Palace]>"
 		"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
 		"New [King] units start with [10] XP [in this city]",
@@ -99,15 +101,16 @@
 		"happiness": 3,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
-		"Only available <in cities with a [Palace]>",
-		"Provides [1] [Decadence]",
-		"Provides [1] [Decadence] <during the [Imperial Age]>",
-		"[+1 Happiness] from [Wine] tiles [in this city]",
-		"[+1 Happiness] from [Incense] tiles [in this city]",
-		"[+1 Happiness] from [Truffles] tiles [in this city]",
-		"[+1 Happiness] from [Honey] tiles [in this city]",
-		"Limited to [1] per Civilization",
-		"Destroyed when the city is captured",
+			"Consumes [1] [Sanitation]",
+			"Only available <in cities with a [Palace]>",
+			"Provides [1] [Decadence]",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
+			"[+2 Happiness] from [Wine] tiles [in this city]",
+			"[+2 Happiness] from [Incense] tiles [in this city]",
+			"[+2 Happiness] from [Truffles] tiles [in this city]",
+			"[+2 Happiness] from [Honey] tiles [in this city]",
+			"Limited to [1] per Civilization",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Diplomacy"
 	},
@@ -144,7 +147,7 @@
 		"happiness": 1,
 		"cityHealth": 20,
 		"uniques": [
-			"Cost increases by [2] per owned city"
+			"Cost increases by [1] per owned city"
 			"Only available <in cities with at least [3] [Population]>",
 			"[100]% weight to this choice for AI decisions",
 			
@@ -180,7 +183,8 @@
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"Cost increases by [2] per owned city",
+			"Consumes [1] [Sanitation]",
+			"Cost increases by [3] per owned city",
 			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [15] [Population]>",
 			"[70]% weight to this choice for AI decisions",
 		],
@@ -199,7 +203,8 @@
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
-			"Cost increases by [3] per owned city"
+			"Consumes [1] [Sanitation]",
+			"Cost increases by [4] per owned city"
 			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [20] [Population]>",
 			"[70]% weight to this choice for AI decisions",
 		],
@@ -217,7 +222,8 @@
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
-			"Cost increases by [3] per owned city"
+			"Consumes [2] [Sanitation]",
+			"Cost increases by [5] per owned city"
 			"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
 			"[20]% weight to this choice for AI decisions",
 		],
@@ -233,6 +239,7 @@
 		"culture": 1,
 		"uniques": [
 			"Only available <in cities without a [Temple]>",
+			"Provides [1] [Sanitation]",
 			"[20]% weight to this choice for AI decisions", 
 		],
 	},
@@ -868,6 +875,8 @@
 			"[+1 Science] per [5] population [in this city]",
 			"[+1 Science] <in cities with a [Scriptorium]>", 
 			"[+1 Food] <in cities with a [Herbalist]>",
+			"[+10]% Production when constructing [Cure Plague] buildings [in this city]",
+			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
 			"Cost increases by [2] per owned city",
 			"Consumes [1] [Decadence] <in cities with a [School]> <during a Golden Age>"
 		],
@@ -887,6 +896,8 @@
 			"[+10]% Natural religion spread [in this city]",
 			"[+1 Culture] from [Papyrus] tiles [in this city]",
 			"Cost increases by [2] per owned city",
+			"[+5]% Production when constructing [Cure Plague] buildings [in this city]",
+			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
 			"Sell [Rotary Mill] buildings [in this city] <if [School] is not constructed>",
 		],
 		"requiredTech": "Philosophy"
@@ -912,6 +923,8 @@
 			"[+1 Culture] from [Cattle] tiles [in this city]",
 			"[+1 Culture] from [Papyrus] tiles [in this city]",
 			"Cost increases by [2] per owned city",
+			"[+5]% Production when constructing [Cure Plague] buildings [in this city]",
+			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
 			"Sell [Rotary Mill] buildings [in this city] <if [School] is not constructed>",
 		],
 		"requiredTech": "Philosophy"
@@ -928,6 +941,7 @@
 		"food": 1,
 		"cityHealth": 10,
 		"uniques": [
+			"Only available <in cities with a [Urban Fabric I]> <in cities with a [Granary]>"
 			"[+1 Food] from [Plantation] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"Cost increases by [2] per owned city",
@@ -1443,6 +1457,8 @@
 		"science": 1,
 		"cityHealth": 10,
 		"uniques": [ 
+			"[+15]% Production when constructing [Cure Plague] buildings [in this city]",
+			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
 			"Provides [1] [Sanitation]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Herbs] tiles [in this city]",
@@ -2592,7 +2608,7 @@
       			"Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]",
       			"[+10]% Strength <for [Infantry Shield III] units> <when fighting in [Friendly Land] tiles>",
       			"[-10]% Strength <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
-      			"[+30]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+      			"[+50]% maintenance costs <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
 			"Remove [Empire Divide] [in capital] <when not at war>",
       			"Unbuildable",
 			"Unsellable",
@@ -2619,10 +2635,9 @@
     		"maintenance": 0,
     		"uniques": [
       			"[+30]% maintenance costs <for [Military] units>",
-      			"[+100]% maintenance costs <for [Civilian] units>",
+      			"[+200]% maintenance costs <for [Civilian] units>",
       			"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
       			"[Gold] cost of purchasing [Military] units [+20]%",
-      			"[-2 Happiness] [in all cities]",
       			"[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
       			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
       			"[-1 Happiness] [in all cities] <when above [3] [Nobles]>",
@@ -2762,7 +2777,7 @@
         		"Comment [From caravan city to imperial court in a decade. Administration lagged behind conquest. Governors improvised. Taxes vanished somewhere between Syria and Egypt.]",
         		"[-2 Happiness] [in all cities]",
         		"[+20]% maintenance costs <for [Military] units>",
-      			"[+30]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+      			"[+50]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
         		"Unbuildable",
         		"Unsellable"
  ]
@@ -2864,7 +2879,7 @@
     		"uniques": [
 			"Provides [40] [Manpower] <for [300] turns>",
     			"[+30]% Yield from pillaging tiles <for [300] turns>",
-      			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
+      			"[-80]% maintenance costs <for [Military] units> <for [300] turns>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>",
         		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities>",
@@ -2881,7 +2896,7 @@
     		"uniques": [
 			"Provides [40] [Manpower] <for [300] turns>",
     			"[+30]% Yield from pillaging tiles <for [300] turns>",
-      			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
+      			"[-80]% maintenance costs <for [Military] units> <for [300] turns>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
         		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
@@ -2899,7 +2914,7 @@
 			"Provides [20] [Manpower] <for [300] turns>",
 			"Provides [8] [Horses] <for [300] turns>",
     			"[+50]% Yield from pillaging tiles",
-      			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
+      			"[-80]% maintenance costs <for [Military] units> <for [300] turns>",
         		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
         		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
         		"[+30]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <for [300] turns>",
@@ -2916,7 +2931,7 @@
     		"maintenance": 0,
     		"uniques": [
 			"Provides [30] [Manpower] <for [300] turns>",
-      			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
+      			"[-80]% maintenance costs <for [Military] units> <for [300] turns>",
         		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <for [300] turns>",
         		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
  			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",

@@ -621,7 +621,7 @@
         "type": "Enhancer",
         "uniques": [
 		"Religion naturally spreads to cities [+2] tiles away",
-        	"[+5]% Strength <for [Infantry Shield I] units> <when above [100] [Happiness]>",
+        	"[+10]% Strength <when attacking> <for [Infantry Shield I] units> <when above [100] [Happiness]>",
 ]
     },
     {
@@ -635,16 +635,18 @@
     {
         "name": "Messiah",
         "type": "Enhancer",
-        "uniques": ["[+35]% Spread Religion Strength <for [Great Prophet] units>", 
-             "[-20]% Faith cost of generating Great Prophet equivalents",
-        	"[+5]% Strength <for [Horseman] units> <when above [100] [Happiness]>",
+        "uniques": ["[+10]% Spread Religion Strength <for [Great Prophet] units>", 
+             		"[-20]% Faith cost of generating Great Prophet equivalents",
+        	"[+10]% Strength <for [Horseman] units> <when above [100] [Happiness]>",
 ]
     },
-//    {
-//        "name": "Missionary Zeal",
-//        "type": "Enhancer",
-//        "uniques": ["[+35]% Spread Religion Strength <for [Missionary] units>"]
-//    },
+    {
+        "name": "Missionary Zeal",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>",
+			"[+40]% Natural religion spread [in all cities]",
+]
+    },
     {
         "name": "Religious Texts",
         "type": "Enhancer",
@@ -670,7 +672,7 @@
         "name": "Zealot Warriors",
         "type": "Enhancer",
 		"uniques": [
-        "New [Military] units start with [15] XP [in this city]",
+        	"New [Military] units start with [15] XP [in this city]",
         	"New [Military] units start with [10] XP [in this city] <when above [100] [Happiness]>",
 ],
     }
@@ -679,16 +681,33 @@
         "type": "Enhancer",
 		"uniques": ["[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
         	"[+5]% Strength <for [Infantry Shield III] units> <when above [100] [Happiness]>",
-        "[+10]% Strength for cities <when defending>",
+       		"[+10]% Strength for cities <when defending>",
 	],
     }
     {
         "name": “Scripture Keepers",
         "type": "Enhancer",
 		"uniques": [
-	"[+20]% Natural religion spread [in all cities]",
-	"Religion naturally spreads to cities [+1] tiles away",
+			"[+20]% Natural religion spread [in all cities]",
+			"Religion naturally spreads to cities [+1] tiles away",
         	"[+5]% Strength <for [Infantry Shield II] units> <when above [100] [Happiness]>",
 	],
     }
+	{
+    "name": "Public Baths",
+    "type": "Follower",
+    "uniques": [
+        "Provides [2] [Sanitation] <from all [Grand Temple] buildings>",
+        "Provides [1] [Sanitation] <from all [Temple] buildings>",
+        "[+1 Happiness] from every [Bathhouse] <in cities with at least [6] [Followers of this Religion]>"
+    ]
+}
+{
+    "name": "Ancestral Hearth",
+    "type": "Follower",
+    "uniques": [
+        "[+1 Faith] <from all [Shrine] buildings>",
+        "Provides [1] [Sanitation] from every [Granary] <in cities with at least [6] [Followers of this Religion]>"
+    ]
+}
 ]

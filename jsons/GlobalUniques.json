@@ -8,7 +8,7 @@
 	"May not annex cities <during the [Archaic Age]>",
 	"Gain a free [Rebellious Citizens] [in puppeted cities]",
 	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
-	"Gain a free [Risk of Plague] [in all cities] <starting from the [Hellenistic Age]>",
+	"Gain a free [Risk of Plague] [in all cities] <starting from the [Classical Age]>",
 	"Provides [1] [Ruler]",
 	"Provides [30] [Manpower] <in [in City-State cities] cities>"
 	"[-1] Range <for [Scout] units>",
@@ -25,7 +25,6 @@
 	"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
 	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
 	"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
-	"[0] Unit Supply <for [all] units>"
 
 //Units
 
@@ -41,11 +40,15 @@
 	"[-20]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
 	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
 
-	
-        "[-1 Gold, +1 Food] [in all cities] <when above [1] [Nobles]>",	
-        "[+1 Food, +1 Happiness] [in all cities] <when above [2] [Nobles]>",	
-        "[+1 Gold, +1 Faith] [in all cities] <when above [3] [Nobles]>",	
-        "[+1 Gold, +1 Production] [in all cities] <when above [4] [Nobles]>",
+	"[-20]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <during the [Classical Age]>",
+	"[-30]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Hellenistic Age]>",
+	"[-50]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Imperial Age]>",
+	"[-20]% Production when constructing [Cure Plague] buildings [in all cities] <during the  [Classical Age]>",
+	"[-40]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Hellenistic Age]>",
+	"[-60]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Imperial Age]>",
+
+
+
 
 //GOLD
 
@@ -54,37 +57,6 @@
 
 
 //MANPOWER
-	
-	"[Gold] cost of purchasing [Military] units [-2]% <when above [10] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-2]% <when above [30] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-2]% <when above [40] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-2]% <when above [50] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-2]% <when above [60] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-2]% <when above [70] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-2]% <when above [80] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-2]% <when above [90] [Manpower]>",
-	"[Gold] cost of purchasing [Military] units [-2]% <when above [100] [Manpower]>",
-
-        "[+2]% [Production] [in all cities] <when above [10] [Manpower]>",
-        "[+2]% [Production] [in all cities] <when above [30] [Manpower]>",
-        "[+2]% [Production] [in all cities] <when above [40] [Manpower]>",
-        "[+2]% [Production] [in all cities] <when above [50] [Manpower]>",
-        "[+2]% [Production] [in all cities] <when above [60] [Manpower]>",
-
-        "[+1]% [Faith] [in all cities] <when above [30] [Manpower]>",
-        "[+1]% [Faith] [in all cities] <when above [50] [Manpower]>",
-        "[+1]% [Faith] [in all cities] <when above [70] [Manpower]>",
-        "[+1]% [Faith] [in all cities] <when above [80] [Manpower]>",
-        "[+1]% [Faith] [in all cities] <when above [90] [Manpower]>",
-
-        "[-1]% growth [in all cities] <when above [30] [Manpower]>",
-        "[-1]% growth [in all cities] <when above [40] [Manpower]>",
-        "[-1]% growth [in all cities] <when above [50] [Manpower]>",
-        "[-1]% growth [in all cities] <when above [60] [Manpower]>",
-        "[-1]% growth [in all cities] <when above [70] [Manpower]>",
-        "[-1]% growth [in all cities] <when above [80] [Manpower]>",
-        "[-1]% growth [in all cities] <when above [90] [Manpower]>",
-        "[-1]% growth [in all cities] <when above [100] [Manpower]>",
 
 // Happiness & Population
 
@@ -127,7 +99,7 @@
         "[-5]% Strength <for [All] units> <when below [-30] [Happiness]>",
 
         "[+3]% growth [in all cities] <when between [21] and [50] [Happiness]>",       
-        "[+5]% growth [in all cities] <when between [51] and [100] [Happiness]>",       
+        "[+5]% growth [in all cities] <when be2tween [51] and [100] [Happiness]>",       
         "[+7]% growth [in all cities] <when between [101] and [200] [Happiness]>",      
         "[+9]% growth [in all cities] <when above [201] [Happiness]>",
 
@@ -192,105 +164,6 @@
         "Provides [1] [Manpower] <when below [45] [Decadence]> <for [Major] Civilizations>",
         "Provides [1] [Manpower] <when below [50] [Decadence]> <for [Major] Civilizations>",
         "Provides [1] [Manpower] <when below [60] [Decadence]> <for [Major] Civilizations>",
-
-        "[-1]% [Culture] [in all cities] <when above [20] [Decadence]>",
-        "[-1]% [Culture] [in all cities] <when above [30] [Decadence]>",
-        "[-1]% [Culture] [in all cities] <when above [40] [Decadence]>",
-        "[-1]% [Culture] [in all cities] <when above [50] [Decadence]>",
-        "[-1]% [Culture] [in all cities] <when above [60] [Decadence]>",
-        "[-1]% [Culture] [in all cities] <when above [70] [Decadence]>",
-        "[-1]% [Culture] [in all cities] <when above [80] [Decadence]>",
-        "[-1]% [Culture] [in all cities] <when above [90] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [100] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [150] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [200] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [250] [Decadence]>",
-
-        "[-1]% [Gold] [in all cities] <when above [20] [Decadence]>",
-        "[-1]% [Gold] [in all cities] <when above [30] [Decadence]>",
-        "[-1]% [Gold] [in all cities] <when above [40] [Decadence]>",
-        "[-1]% [Gold] [in all cities] <when above [50] [Decadence]>",
-        "[-1]% [Gold] [in all cities] <when above [60] [Decadence]>",
-        "[-1]% [Gold] [in all cities] <when above [70] [Decadence]>",
-        "[-1]% [Gold] [in all cities] <when above [80] [Decadence]>",
-        "[-1]% [Gold] [in all cities] <when above [90] [Decadence]>",
-        "[-2]% [Gold] [in all cities] <when above [100] [Decadence]>",
-        "[-2]% [Gold] [in all cities] <when above [150] [Decadence]>",
-        "[-2]% [Gold] [in all cities] <when above [200] [Decadence]>",
-        "[-2]% [Gold] [in all cities] <when above [250] [Decadence]>",
-
-        "[-1 Happiness] [in all cities] <when above [40] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [60] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [80] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [100] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [120] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [140] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [160] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [180] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [200] [Decadence]>",
-        "[-2 Happiness] [in all cities] <when above [250] [Decadence]>",
-
-        "[-1]% [Production] [in all cities] <when above [30] [Decadence]>",
-        "[-1]% [Production] [in all cities] <when above [40] [Decadence]>",
-        "[-1]% [Production] [in all cities] <when above [50] [Decadence]>",
-        "[-1]% [Production] [in all cities] <when above [60] [Decadence]>",
-        "[-1]% [Production] [in all cities] <when above [70] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [100] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [130] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [160] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [200] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [250] [Decadence]>",
-
-        "[Great Courtesan] is earned [+5]% faster <when above [5] [Decadence]>",
-        "[Great Courtesan] is earned [+5]% faster <when above [10] [Decadence]>",
-        "[Great Courtesan] is earned [+5]% faster <when above [15] [Decadence]>",
-        "[Great Courtesan] is earned [+5]% faster <when above [20] [Decadence]>",
-        "[Great Courtesan] is earned [+5]% faster <when above [25] [Decadence]>",
-
-        "[Great Orator] is earned [+5]% faster <when above [5] [Decadence]>",
-        "[Great Orator] is earned [+5]% faster <when above [10] [Decadence]>",
-        "[Great Orator] is earned [+5]% faster <when above [15] [Decadence]>",
-        "[Great Orator] is earned [+5]% faster <when above [20] [Decadence]>",
-        "[Great Orator] is earned [+5]% faster <when above [25] [Decadence]>",
-
-        "[Great Merchant] is earned [+5]% faster <when above [5] [Decadence]>",
-        "[Great Merchant] is earned [+5]% faster <when above [10] [Decadence]>",
-        "[Great Merchant] is earned [+5]% faster <when above [15] [Decadence]>",
-        "[Great Merchant] is earned [+5]% faster <when above [20] [Decadence]>",
-        "[Great Merchant] is earned [+5]% faster <when above [25] [Decadence]>",
-
-        "[Great Prophet] is earned [-90]% faster <before adopting [Keeper of Traditions]>",
-        "[Great Prophet] is earned [+5]% faster <when above [5] [Decadence]>",
-        "[Great Prophet] is earned [+5]% faster <when above [10] [Decadence]>",
-        "[Great Prophet] is earned [+5]% faster <when above [15] [Decadence]>",
-        "[Great Prophet] is earned [+5]% faster <when above [20] [Decadence]>",
-        "[Great Prophet] is earned [+5]% faster <when above [25] [Decadence]>",
-
-        "[Great Artist] is earned [-5]% faster <when above [5] [Decadence]>",
-        "[Great Artist] is earned [-5]% faster <when above [10] [Decadence]>",
-        "[Great Artist] is earned [-5]% faster <when above [15] [Decadence]>",
-        "[Great Artist] is earned [-5]% faster <when above [20] [Decadence]>",
-        "[Great Artist] is earned [-5]% faster <when above [25] [Decadence]>",
-
-        "[Great Scholar] is earned [-5]% faster <when above [8] [Decadence]>",
-        "[Great Scholar] is earned [-5]% faster <when above [10] [Decadence]>",
-        "[Great Scholar] is earned [-5]% faster <when above [12] [Decadence]>",
-        "[Great Scholar] is earned [-5]% faster <when above [15] [Decadence]>",
-        "[Great Scholar] is earned [-5]% faster <when above [20] [Decadence]>",
-
-        "[Great Engineer] is earned [-5]% faster <when above [5] [Decadence]>",
-        "[Great Engineer] is earned [-5]% faster <when above [7] [Decadence]>",
-        "[Great Engineer] is earned [-5]% faster <when above [9] [Decadence]>",
-        "[Great Engineer] is earned [-5]% faster <when above [15] [Decadence]>",
-        "[Great Engineer] is earned [-5]% faster <when above [20] [Decadence]>",
-
-        "[General] is earned [-100]% faster <when below [1] [Nobles]>",
-        "[General] is earned [-5]% faster <when above [5] [Decadence]>",
-        "[General] is earned [-5]% faster <when above [10] [Decadence]>",
-        "[General] is earned [-5]% faster <when above [15] [Decadence]>",
-        "[General] is earned [-5]% faster <when above [20] [Decadence]>",
-        "[General] is earned [-5]% faster <when above [25] [Decadence]>",
-
 
 // AI Great People
 
