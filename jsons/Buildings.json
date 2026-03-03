@@ -2250,7 +2250,7 @@
 			"[+20]% Production when constructing [Cure Plague] buildings [in this city] <when between [11] and [20] [Sanitation]>",
 			"[+30]% Production when constructing [Cure Plague] buildings [in this city] <when above [20] [Sanitation]> ",
 			"[+1 Faith, +1 Science, -2 Happiness] [in this city]",
-			"[-2 Gold, -2 Food] from [improved] tiles [in this city]",
+			"[-2 Gold, -3 Food] from [improved] tiles [in this city]",
 			"[-1] HP when healing <for [Military] units>",
 			"Consumes [2] [Decadence]",
 			"Consumes [2] [Manpower]",
@@ -2260,25 +2260,27 @@
 	{
 		"name": "Cure Plague"
 		"maintenance": 0,
-		"cost": 100,
+		"cost": 70,
 		"uniques": [
 			"Only available <in cities with a [Plague]>"
 			"Remove [Plague] [in this city]",
 			"Remove [Cure Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
+			"Cost increases by [3] per owned city",
 			"[80]% weight to this choice for AI decisions",
 ]
 	},
 	{
 		"name": "Cure Dangerious Plague"
 		"maintenance": 0,
-		"cost": 150,
+		"cost": 100,
 		"requiredBuilding": "Dangerious Plague",
 		"uniques": [
 			"Only available <in cities with a [Dangerious Plague]>"
 			"Remove [Dangerious Plague] [in this city]",
 			"Remove [Cure Dangerious Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
+			"Cost increases by [3] per owned city",
 			"[80]% weight to this choice for AI decisions",
 ]
 	},				// National Wonder
@@ -2695,7 +2697,6 @@
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]"
       			"[-2 Food] [in all cities]",
-        		"[-5]% growth [in all cities]"
       			"Unbuildable",
 			"Unsellable",
     ]
@@ -2864,10 +2865,10 @@
 			"Provides [40] [Manpower] <for [300] turns>",
     			"[+30]% Yield from pillaging tiles <for [300] turns>",
       			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
-        		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units>",
-        		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>",
-        		"[+20]% Strength <for [Melee] units> <when attacking> <vs cities>",
- 			"[+20]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>",
+        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities>",
+ 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>",
 			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles>",
 			"Unsellable",
       			"Unbuildable",
@@ -2881,10 +2882,10 @@
 			"Provides [40] [Manpower] <for [300] turns>",
     			"[+30]% Yield from pillaging tiles <for [300] turns>",
       			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
-        		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
-        		"[+20]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
-        		"[+20]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
- 			"[+20]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
+        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
+ 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
 			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
 			"Unsellable",
       			"Unbuildable",
@@ -2899,9 +2900,9 @@
 			"Provides [8] [Horses] <for [300] turns>",
     			"[+50]% Yield from pillaging tiles",
       			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
-        		"[+20]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
-        		"[+20]% Strength <for [Mounted] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
-        		"[+40]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <for [300] turns>",
+        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
+        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
+        		"[+30]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <for [300] turns>",
  			"[+30]% Strength <for [Spearman] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
 			"[+10] HP when healing <for [Mounted] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
 			"[+5] HP when healing <for [Mounted Archery] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
@@ -2916,9 +2917,9 @@
     		"uniques": [
 			"Provides [30] [Manpower] <for [300] turns>",
       			"[-50]% maintenance costs <for [Military] units> <for [300] turns>",
-        		"[+20]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <for [300] turns>",
-        		"[+20]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
- 			"[+20]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
+        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <for [300] turns>",
+        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
+ 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
 			"[+10] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
 			"Unsellable",
       			"Unbuildable",
