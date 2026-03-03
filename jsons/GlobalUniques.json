@@ -40,10 +40,8 @@
 	"[-20]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
 	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
 
-	"[-20]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <during the [Classical Age]>",
 	"[-30]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Hellenistic Age]>",
 	"[-50]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Imperial Age]>",
-	"[-20]% Production when constructing [Cure Plague] buildings [in all cities] <during the  [Classical Age]>",
 	"[-40]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Hellenistic Age]>",
 	"[-60]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Imperial Age]>",
 
@@ -99,7 +97,7 @@
         "[-5]% Strength <for [All] units> <when below [-30] [Happiness]>",
 
         "[+3]% growth [in all cities] <when between [21] and [50] [Happiness]>",       
-        "[+5]% growth [in all cities] <when be2tween [51] and [100] [Happiness]>",       
+        "[+5]% growth [in all cities] <when between [51] and [100] [Happiness]>",       
         "[+7]% growth [in all cities] <when between [101] and [200] [Happiness]>",      
         "[+9]% growth [in all cities] <when above [201] [Happiness]>",
 

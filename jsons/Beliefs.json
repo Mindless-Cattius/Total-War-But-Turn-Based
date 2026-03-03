@@ -691,23 +691,4 @@
 			"[+20]% Natural religion spread [in all cities]",
 			"Religion naturally spreads to cities [+1] tiles away",
         	"[+5]% Strength <for [Infantry Shield II] units> <when above [100] [Happiness]>",
-	],
-    }
-	{
-    "name": "Public Baths",
-    "type": "Follower",
-    "uniques": [
-        "Provides [2] [Sanitation] <from all [Grand Temple] buildings>",
-        "Provides [1] [Sanitation] <from all [Temple] buildings>",
-        "[+1 Happiness] from every [Bathhouse] <in cities with at least [6] [Followers of this Religion]>"
-    ]
-}
-{
-    "name": "Ancestral Hearth",
-    "type": "Follower",
-    "uniques": [
-        "[+1 Faith] <from all [Shrine] buildings>",
-        "Provides [1] [Sanitation] from every [Granary] <in cities with at least [6] [Followers of this Religion]>"
-    ]
-}
 ]
