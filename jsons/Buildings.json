@@ -763,7 +763,7 @@
 			"Comment [+1 Food from non-fresh water Farm tiles in this city]", 
 			"Provides [1] [Sanitation]",
 			"[+10]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+5]% Production when constructing [Cure Dangerious Plague] buildings [in this city]",
+			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
 			"[15]% Food is carried over after population increases [in this city]",
 			"[+2 Food, +1 Happiness] from [Village] tiles [in this city]",
 			"[+2 Gold, +1 Happiness] from [Trading post] tiles [in this city]",
@@ -800,7 +800,7 @@
 			"Provides [1] [Sanitation]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"[+15]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+10]% Production when constructing [Cure Dangerious Plague] buildings [in this city]",
+			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
 		],
 	},
 	{
@@ -816,7 +816,7 @@
 			"Provides [2] [Sanitation]",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
 			"[+25]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+15]% Production when constructing [Cure Dangerious Plague] buildings [in this city]",
+			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
 		],
 	},
 	{
@@ -2234,23 +2234,22 @@
 			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
 			"Gain a free [Plague] [in this city] <with [3]% chance> <in cities without a [Plague]> <when between [0] and [20] [Sanitation]> <hidden from users>",
 			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]> <hidden from users>",
-			"Gain a free [Dangerious Plague] [in this city] <with [2]% chance> <in cities without a [Dangerious Plague]> <when between [0] and [25] [Sanitation]> <hidden from users>",
-			"Gain a free [Dangerious Plague] [in this city] <with [1]% chance> <in cities without a [Dangerious Plague]> <when above [25] [Sanitation]> <hidden from users>",
+			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <when between [0] and [25] [Sanitation]> <hidden from users>",
+			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <when above [25] [Sanitation]> <hidden from users>",
 			"Unbuildable","Unsellable",
 		]
 	},
 	{
-		"name": "Dangerious Plague"
+		"name": "Dangerous Plague"
 		"maintenance": 0,
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
 			"Comment [-Think of it as the Plague, but now it hates you personally. Improve sanitation enough and the plague begins questioning its life choices.]",
-			"[+5]% Production when constructing [Cure Dangerious Plague] buildings [in this city] <when between [0] and [10] [Sanitation]>",
-			"[+10]% Production when constructing [Cure Dangerious Plague] buildings [in this city] <when between [11] and [20] [Sanitation]>",
-			"[+15]% Production when constructing [Cure Dangerious Plague] buildings [in this city] <when above [20] [Sanitation]> ",
+			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when between [0] and [10] [Sanitation]>",
+			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when between [11] and [20] [Sanitation]>",
+			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when above [20] [Sanitation]> ",
 			"[+2 Faith, +2 Science, -4 Happiness] [in this city]",
-			"[-3 Gold, -3 Food] from [improved] tiles [in this city]",
-			"[-2] HP when healing <for [Military] units>",
+			"[-3 Gold, -2 Food] from [improved] tiles [in this city]",
 			"Consumes [2] [Decadence]",
 			"Consumes [3] [Manpower]",
 			"Unbuildable","Unsellable","Unavailable",
@@ -2266,8 +2265,7 @@
 			"[+20]% Production when constructing [Cure Plague] buildings [in this city] <when between [11] and [20] [Sanitation]>",
 			"[+30]% Production when constructing [Cure Plague] buildings [in this city] <when above [20] [Sanitation]> ",
 			"[+1 Faith, +1 Science, -2 Happiness] [in this city]",
-			"[-2 Gold, -3 Food] from [improved] tiles [in this city]",
-			"[-1] HP when healing <for [Military] units>",
+			"[-2 Gold, -1 Food] from [improved] tiles [in this city]",
 			"Consumes [2] [Decadence]",
 			"Consumes [2] [Manpower]",
 			"Unbuildable","Unsellable","Unavailable",
@@ -2287,14 +2285,14 @@
 ]
 	},
 	{
-		"name": "Cure Dangerious Plague"
+		"name": "Cure Dangerous Plague"
 		"maintenance": 0,
 		"cost": 100,
-		"requiredBuilding": "Dangerious Plague",
+		"requiredBuilding": "Dangerous Plague",
 		"uniques": [
-			"Only available <in cities with a [Dangerious Plague]>"
-			"Remove [Dangerious Plague] [in this city]",
-			"Remove [Cure Dangerious Plague] [in this city] <upon turn end>",
+			"Only available <in cities with a [Dangerous Plague]>"
+			"Remove [Dangerous Plague] [in this city]",
+			"Remove [Cure Dangerous Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
 			"Cost increases by [3] per owned city",
 			"[80]% weight to this choice for AI decisions",
@@ -2711,7 +2709,7 @@
     		"maintenance": 0,
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]"
-      			"[-2 Food] [in all cities]",
+      			"[-1 Food] [in all cities]",
       			"Unbuildable",
 			"Unsellable",
     ]
