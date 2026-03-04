@@ -2709,7 +2709,7 @@
     		"maintenance": 0,
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]"
-      			"[-1 Food] [in all cities]",
+      			"[-2 Food] [in this city]",
       			"Unbuildable",
 			"Unsellable",
     ]
