@@ -116,6 +116,20 @@ BuildingIcons/Barracks
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Big City
+  rotate: false
+  xy: 1624, 926
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Urban Fabric V
+  rotate: false
+  xy: 1624, 926
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 BuildingIcons/Brick Maker
   rotate: false
   xy: 328, 782
@@ -193,6 +207,20 @@ BuildingIcons/Citizen Assembly
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/City
+  rotate: false
+  xy: 868, 62
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Urban Fabric IV
+  rotate: false
+  xy: 868, 62
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 BuildingIcons/Coal Pile
   rotate: false
   xy: 112, 350
@@ -235,7 +263,7 @@ BuildingIcons/Council of Nobles
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Cure Dangerious Plague
+BuildingIcons/Cure Dangerous Plague
   rotate: false
   xy: 4, 134
   size: 100, 100
@@ -263,7 +291,7 @@ BuildingIcons/Silver Inflation
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Dangerious Plague
+BuildingIcons/Dangerous Plague
   rotate: false
   xy: 1884, 940
   size: 50, 50
@@ -370,7 +398,7 @@ BuildingIcons/Galatian Tribe
   index: -1
 BuildingIcons/Gallic 3rd century crisis
   rotate: false
-  xy: 1624, 926
+  xy: 976, 170
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -412,7 +440,7 @@ BuildingIcons/Garum Shop
   index: -1
 BuildingIcons/Germanic 3rd century crisis
   rotate: false
-  xy: 868, 62
+  xy: 1084, 278
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -433,7 +461,7 @@ BuildingIcons/Goldsmith
   index: -1
 BuildingIcons/Goth 3rd century crisis
   rotate: false
-  xy: 976, 170
+  xy: 1192, 386
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -564,6 +592,20 @@ BuildingIcons/Kurgan
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Large Town
+  rotate: false
+  xy: 1300, 494
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Urban Fabric II
+  rotate: false
+  xy: 1300, 494
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 BuildingIcons/Make Capital
   rotate: false
   xy: 868, 674
@@ -643,7 +685,7 @@ BuildingIcons/Palisade
   index: -1
 BuildingIcons/Palmyrence 3rd century crisis
   rotate: false
-  xy: 1084, 278
+  xy: 1408, 602
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -734,35 +776,35 @@ BuildingIcons/Praetorian Greed
   index: -1
 BuildingIcons/Praetorian Purge
   rotate: false
-  xy: 1264, 400
+  xy: 1372, 508
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Public Bathhouse
   rotate: false
-  xy: 1372, 508
+  xy: 1646, 868
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Restore Currency Control
   rotate: false
-  xy: 1646, 868
+  xy: 1646, 810
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Risk of Plague
   rotate: false
-  xy: 1646, 810
+  xy: 1704, 868
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Roman 3rd century crisis
   rotate: false
-  xy: 1192, 386
+  xy: 1516, 746
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -858,6 +900,20 @@ BuildingIcons/Slave Trader
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Small City
+  rotate: false
+  xy: 1696, 926
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+BuildingIcons/Urban Fabric III
+  rotate: false
+  xy: 1696, 926
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 BuildingIcons/Spice Road
   rotate: false
   xy: 652, 26
@@ -930,7 +986,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 1704, 868
+  xy: 1646, 752
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -942,35 +998,14 @@ BuildingIcons/Timber Imports
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Town
+  rotate: false
+  xy: 1516, 674
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 BuildingIcons/Urban Fabric I
-  rotate: false
-  xy: 1300, 494
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-BuildingIcons/Urban Fabric II
-  rotate: false
-  xy: 1408, 602
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-BuildingIcons/Urban Fabric III
-  rotate: false
-  xy: 1516, 746
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-BuildingIcons/Urban Fabric IV
-  rotate: false
-  xy: 1696, 926
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-BuildingIcons/Urban Fabric V
   rotate: false
   xy: 1516, 674
   size: 64, 64
@@ -993,7 +1028,7 @@ BuildingIcons/Walls
   index: -1
 BuildingIcons/War Reconstruction
   rotate: false
-  xy: 1646, 752
+  xy: 1704, 810
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
