@@ -3665,7 +3665,7 @@
 		    	"[+20]% Strength <when defending> <for [Archery] units> <when fighting in [Friendly Land] tiles>",
     			"[+1 Happiness, -1 Food] from [Village] tiles [in all cities]",
     			"[+2 Gold] from [Trading post] tiles [in all cities]",
-    			"[+3 Happiness, -2 Gold, +1 Food] from [Fort] tiles [in all cities]",
+    			"[+2 Happiness, -2 Gold, +1 Food] from [Fort] tiles [in all cities]",
     			"Provides [1] [Veteran]",
     			"Provides [5] [Manpower]",
     			"[+5 Happiness] [in capital]",
