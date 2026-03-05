@@ -144,7 +144,6 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 1,
-		"happiness": 1,
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [1] per owned city"
@@ -160,7 +159,6 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 2,
-		"happiness": 2,
 		"production": 1,
 		"cityHealth": 20,
 		"uniques": [
@@ -177,7 +175,6 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 4,
-		"happiness": 4,
 		"production": 2,
 		"cityHealth": 20,
 		"greatPersonPoints": {"Great Artist":1},
@@ -197,7 +194,6 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
-		"happiness": 5,
 		"production": 3,
 		"cityHealth": 60,
 		"greatPersonPoints": {"Great Artist":1},
@@ -216,7 +212,6 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 7,
-		"happiness": 7,
 		"production": 4,
 		"cityHealth": 100,
 		"greatPersonPoints": {"Great Artist":1},
@@ -2209,6 +2204,7 @@
                     	"[-10]% Strength <when attacking> <for [Military] units>", 
                     	"[+10]% Strength <for [General] units>",
 			"[-1 Happiness] [in all cities]",
+			"[-3 Happiness] [in capital]",
 			"[-1 Gold, -1 Happiness] from [improved] tiles [in capital]",
 			"Unbuildable","Unsellable",
 			"Destroyed when the city is captured",
@@ -2226,18 +2222,6 @@
 			"Unbuildable","Unsellable",
 			"Destroyed when the city is captured"
 ]
-	},
-	{
-		"name": "Risk of Plague"
-		"maintenance": 0,
-		"uniques": [
-			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
-			"Gain a free [Plague] [in this city] <with [3]% chance> <in cities without a [Plague]> <when between [0] and [20] [Sanitation]> <hidden from users>",
-			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]> <hidden from users>",
-			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <when between [0] and [25] [Sanitation]> <hidden from users>",
-			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <when above [25] [Sanitation]> <hidden from users>",
-			"Unbuildable","Unsellable",
-		]
 	},
 	{
 		"name": "Dangerous Plague"
@@ -2274,7 +2258,7 @@
 	{
 		"name": "Cure Plague"
 		"maintenance": 0,
-		"cost": 70,
+		"cost": 50,
 		"uniques": [
 			"Only available <in cities with a [Plague]>"
 			"Remove [Plague] [in this city]",
@@ -2287,14 +2271,14 @@
 	{
 		"name": "Cure Dangerous Plague"
 		"maintenance": 0,
-		"cost": 100,
+		"cost": 80,
 		"requiredBuilding": "Dangerous Plague",
 		"uniques": [
 			"Only available <in cities with a [Dangerous Plague]>"
 			"Remove [Dangerous Plague] [in this city]",
 			"Remove [Cure Dangerous Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
-			"Cost increases by [3] per owned city",
+			"Cost increases by [5] per owned city",
 			"[80]% weight to this choice for AI decisions",
 ]
 	},				// National Wonder
@@ -2579,6 +2563,7 @@
     		"name": "3rd century crisis",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"[+50000]% Culture cost of natural border growth [in this city]",
 			"Gain a free [3rd century crisis] [in all cities] <in cities without a [3rd century crisis]>",
@@ -2602,12 +2587,14 @@
     		"name": "Empire Divide",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
       			"Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]",
       			"[+10]% Strength <for [Infantry Shield III] units> <when fighting in [Friendly Land] tiles>",
       			"[-10]% Strength <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
       			"[+50]% maintenance costs <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
 			"Remove [Empire Divide] [in capital] <when not at war>",
+			"Destroyed when the city is captured",
       			"Unbuildable",
 			"Unsellable",
    ]
@@ -2616,6 +2603,7 @@
     		"name": "Roman 3rd century crisis",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Gain a free [Age Of Many Emperors] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
 			"Gain a free [Praetorian Greed] [in capital] <if [Praetorian Purge] is not constructed by anybody>",
@@ -2623,6 +2611,8 @@
 			"Gain a free [Egypt Grain Crisis] [in all cities] <if [Egypt Grain] is not constructed>",
 			"Provides [1] [Enable Hellenic Legion]",
 			"Provides [1] [Enable Illyrian Legion]",
+			"Provides [1] [Enable Hellenic Limitanei]",
+			"Destroyed when the city is captured",
 			"Unsellable",
       			"Unbuildable",
 ]
@@ -2631,14 +2621,17 @@
     		"name": "Age Of Many Emperors",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Merchant": 1},
     		"uniques": [
       			"[+30]% maintenance costs <for [Military] units>",
       			"[+200]% maintenance costs <for [Civilian] units>",
+      			"[+300]% maintenance costs <for [Siege] units>",
       			"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
       			"[Gold] cost of purchasing [Military] units [+20]%",
       			"[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
       			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
       			"[-1 Happiness] [in all cities] <when above [3] [Nobles]>",
+			"Destroyed when the city is captured",
 			"Unsellable",
       			"Unbuildable",
     ]
@@ -2656,11 +2649,14 @@
     		"name": "Silver Inflation",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Merchant": 1},
     		"uniques": [
       			"[-1 Gold] from [improved] tiles [in this city]",
       			"[-1 Gold] from [Silver] tiles [in this city]",
       			"[-3 Gold, -1 Happiness] from [Village] tiles [in this city]",
       			"[-5 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
+			"[-5 Gold, -1 Happiness] <in cities with a [Market]>",
+			"Destroyed when the city is captured",
 			"Unbuildable","Unsellable",
 ]
   	},
@@ -2678,14 +2674,15 @@
     		"name": "Praetorian Greed",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
       			"Comment [Because nothing stabilizes an empire like an elite bodyguard selling the throne to the highest bidder. The Praetorians spent the 3rd century auctioning emperors, murdering the ones who refused payment, and generally turning Rome’s political system into a marketplace of corpses. And disbanding them? Rome tried that too—removing entitled kingmakers tends to upset them. Expect the people to panic and your armies to sulk. -50 Happiness]",
       			"[+200]% maintenance costs <for [Praetoria] units>",
       			"[+10]% Strength <when defending> <for [Praetoria] units>",
       			"[-20]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
       			"Provides [1] [Praetorian Greed]",
-      			"[-10 Gold, -1 Production] [in capital]",
-      			"[-2 Gold, -1 Happiness] from [improved] tiles [in capital]",
+      			"[-10 Gold, -2 Production, -10 Happiness] [in capital]",
+			"Destroyed when the city is captured",
       			"Unbuildable",
 			"Unsellable",
     ]
@@ -2698,6 +2695,7 @@
         		"Comment [After auctioning off the empire, the Praetorians were finally dealt with.]",
         		"Remove [Praetorian Greed] [in all cities]",
 			"Only available <in cities with a [Praetorian Greed]>",
+			"Only available <in cities with a [Praetorian Greed]> <during a Golden Age>",
       			"Unbuildable <if [Praetorian Greed] is not constructed>",
         		"Cannot be purchased",
 			"Unsellable",
@@ -2707,11 +2705,14 @@
     		"name": "Egypt Grain Crisis",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Priest": 1},
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]"
-      			"[-2 Food] [in this city]",
+      			"[-1 Food, -1 Happiness] [in this city]",
+			"[-1 Food, +2 Gold] <in cities with a [Granary]>",
       			"Unbuildable",
 			"Unsellable",
+			"Destroyed when the city is captured",
     ]
   	},
 
@@ -2721,6 +2722,7 @@
     		"name": "Egypt Grain",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Merchant": 1},
     		"uniques": [
         		"Comment [Rome starved because Egypt sneezed.]"
         		"Remove [Egypt Grain Crisis] [in all cities]",
@@ -2734,11 +2736,13 @@
     		"name": "Palmyrence 3rd century crisis",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Pylramence Empire] is not constructed by anybody>",
 			"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
-			"Provides [1] [Enable Hellenic Legion]",
+			"Provides [1] [Enable Hellenic Limitanei]",
 			"Provides [1] [Enable Desert Legion]",
+			"Destroyed when the city is captured",
 			"Unsellable",
       			"Unbuildable",
 ]
@@ -2751,15 +2755,17 @@
         		"Comment [A desert caravan city crowned itself heir to the East. Trade financed armies, armies financed ambition, and ambition outran logistics.]",
         		"[+5]% [Gold] [in all cities] <in cities with a [Market]>",
         		"[+10]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
+        		"[-4 Happiness, +5 Gold] [in all cities]",
         		"Gain a free [Imperial Overstretch] [in capital] <when at war>",
         		"Remove [Imperial Overstretch] [in capital] <when not at war>",
+			"Destroyed when the city is captured",
         		"Unbuildable",
         		"Unsellable"
    ]
 	},
 	{
     		"name": "Pylramence Empire",
-    		"cost": 1500,
+    		"cost": 1700,
     		"uniques": [
         		"Cannot be purchased",
         		"Unsellable"
@@ -2771,11 +2777,13 @@
     		"name": "Imperial Overstretch",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [From caravan city to imperial court in a decade. Administration lagged behind conquest. Governors improvised. Taxes vanished somewhere between Syria and Egypt.]",
-        		"[-2 Happiness] [in all cities]",
-        		"[+20]% maintenance costs <for [Military] units>",
-      			"[+50]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+        		"[-5 Happiness] [in all cities]",
+        		"[+30]% maintenance costs <for [Military] units>",
+      			"[+70]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+			"Destroyed when the city is captured",
         		"Unbuildable",
         		"Unsellable"
  ]
@@ -2789,13 +2797,17 @@
         		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
         		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
 			"[-20]% Production when constructing [Military] units [in all cities]",
+        		"[-3 Happiness] [in all cities]",
+			"[-3 Gold, -4 Happiness] <in cities with a [Market]>",
+			"[+2 Gold, -1 Happiness, -1 Food] <in cities with a [Walls]>",
+			"Destroyed when the city is captured",
         		"Unbuildable",
         		"Unsellable"
    ]
 	},
 	{
     		"name": "Zenobian Reform",
-    		"cost": 1200,
+    		"cost": 1500,
     		"uniques": [
         		"Comment [Administration caught up to ambition. For a moment, Palmyra looked like a real empire.]",
         		"Cannot be purchased",
@@ -2810,6 +2822,7 @@
     		"name": "Gallic 3rd century crisis",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Gain a free [Gallic Secession] [in capital] <if [Gallic Empire] is not constructed by anybody>",
 			"Gain a free [Frontier Exhaustion] [in capital] <if [Administrative Consolidation] is not constructed by anybody>",
@@ -2817,12 +2830,14 @@
 			"Provides [1] [Enable Gallic Limitanei]",
 			"Unsellable",
       			"Unbuildable",
+			"Destroyed when the city is captured",
 ]
   	},
 	{
     		"name": "Gallic Secession",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [The Rhine legions chose stability over loyalty. Rome was too busy collapsing. Gaul chose its own emperor.]",
         		"[+5]% Production when constructing [Gallic Legion] units [in all cities]",
@@ -2831,8 +2846,11 @@
         		"[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>",
         		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
         		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
+			"[-5 Gold, -3 Happiness] <in cities with a [Market]>",
+        		"[-3 Happiness] [in all cities]",
         		"Unbuildable",
-        		"Unsellable"
+        		"Unsellable",
+			"Destroyed when the city is captured",
     ]
 	},
 	{
@@ -2849,13 +2867,16 @@
     		"name": "Frontier Exhaustion",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [The Rhine never sleeps. Raids blur into seasons. Fortifications eat coin. Veterans age. Replacements thin.]",
-        		"[-2 Happiness] [in all cities]",
-        		"[+25]% maintenance costs <for [Military] units>",
+        		"[-1 Happiness, -1 Food, -5 Gold] [in all cities]",
+        		"[+50]% maintenance costs <for [Military] units>",
         		"[-10]% growth [in all cities]",
+			"[-1 Food, -2 Happiness] <in cities with a [Barracks]>",
         		"Unbuildable",
-        		"Unsellable"
+        		"Unsellable",
+			"Destroyed when the city is captured",
     ]
 	},
 	{
@@ -2874,6 +2895,7 @@
     		"name": "Germanic 3rd century crisis",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Provides [40] [Manpower] <for [300] turns>",
     			"[+30]% Yield from pillaging tiles <for [300] turns>",
@@ -2885,12 +2907,14 @@
 			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles>",
 			"Unsellable",
       			"Unbuildable",
+			"Destroyed when the city is captured",
 ]
   	},
 	{
     		"name": "Goth 3rd century crisis",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Provides [40] [Manpower] <for [300] turns>",
     			"[+30]% Yield from pillaging tiles <for [300] turns>",
@@ -2902,12 +2926,14 @@
 			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
 			"Unsellable",
       			"Unbuildable",
+			"Destroyed when the city is captured",
 ]
   	},
 	{
     		"name": "Hun 3rd century crisis",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Provides [20] [Manpower] <for [300] turns>",
 			"Provides [8] [Horses] <for [300] turns>",
@@ -2921,14 +2947,17 @@
 			"[+5] HP when healing <for [Mounted Archery] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
 			"Unsellable",
       			"Unbuildable",
+			"Destroyed when the city is captured",
 ]
   	},
 	{
     		"name": "Armenia 3rd century crisis",
     		"cost": 0,
     		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Provides [30] [Manpower] <for [300] turns>",
+      			"[+3 Happiness, +5 Gold] [in all cities] <for [300] turns>",
       			"[-80]% maintenance costs <for [Military] units> <for [300] turns>",
         		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <for [300] turns>",
         		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
@@ -2936,6 +2965,7 @@
 			"[+10] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
 			"Unsellable",
       			"Unbuildable",
+			"Destroyed when the city is captured",
 ]
   	},
 ]

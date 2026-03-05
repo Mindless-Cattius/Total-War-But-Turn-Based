@@ -270,35 +270,32 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded",
-		"Comment [Military purchasING Cost: −5% per threshold (50 → 150 Manpower) max −25%, Production: +1% per threshold (10 → 120 Manpower) max +5%,
-				Faith: +1% per threshold (40 → 120 Manpower) max +5%,
-				Growth: −1% per threshold (30 → 100 Manpower) max −5%,
-]",
+		"Comment [Military purchasing Cost: −5%, max −25% (at 50-70-90-120-150 Manpower), Production: +1% max +5% (at 10-30-50-80-120 Manpower),Faith: +1% ma +5% (40,60,80,100,120 Manpower), Growth: −1% max -5% (at 30-50-70-90-100 Manpower)]",
 		"Doesn't generate naturally"
 	
-	"[Gold] cost of purchasing [Military] units [-5]% <when above [50] [Manpower]> <Hidden from users>",
-	"[Gold] cost of purchasing [Military] units [-5]% <when above [70] [Manpower]> <Hidden from users>",
-	"[Gold] cost of purchasing [Military] units [-5]% <when above [90] [Manpower]> <Hidden from users>",
-	"[Gold] cost of purchasing [Military] units [-5]% <when above [120] [Manpower]> <Hidden from users>",
-	"[Gold] cost of purchasing [Military] units [-5]% <when above [150] [Manpower]> <Hidden from users>",
+	"[Gold] cost of purchasing [Military] units [-5]% <when above [50] [Manpower]> <hidden from users>",
+	"[Gold] cost of purchasing [Military] units [-5]% <when above [70] [Manpower]> <hidden from users>",
+	"[Gold] cost of purchasing [Military] units [-5]% <when above [90] [Manpower]> <hidden from users>",
+	"[Gold] cost of purchasing [Military] units [-5]% <when above [120] [Manpower]> <hidden from users>",
+	"[Gold] cost of purchasing [Military] units [-5]% <when above [150] [Manpower]> <hidden from users>",
 
-        "[+1]% [Production] [in all cities] <when above [10] [Manpower]> <Hidden from users>",
-        "[+1]% [Production] [in all cities] <when above [30] [Manpower]> <Hidden from users>",
-        "[+1]% [Production] [in all cities] <when above [50] [Manpower]> <Hidden from users>",
-        "[+1]% [Production] [in all cities] <when above [80] [Manpower]> <Hidden from users>",
-        "[+1]% [Production] [in all cities] <when above [120] [Manpower]> <Hidden from users>",
+        "[+1]% [Production] [in all cities] <when above [10] [Manpower]> <hidden from users>",
+        "[+1]% [Production] [in all cities] <when above [30] [Manpower]> <hidden from users>",
+        "[+1]% [Production] [in all cities] <when above [50] [Manpower]> <hidden from users>",
+        "[+1]% [Production] [in all cities] <when above [80] [Manpower]> <hidden from users>",
+        "[+1]% [Production] [in all cities] <when above [120] [Manpower]> <hidden from users>",
 
-        "[+1]% [Faith] [in all cities] <when above [40] [Manpower]> <Hidden from users>",
-        "[+1]% [Faith] [in all cities] <when above [60] [Manpower]> <Hidden from users>",
-        "[+1]% [Faith] [in all cities] <when above [80] [Manpower]> <Hidden from users>",
-        "[+1]% [Faith] [in all cities] <when above [100] [Manpower]> <Hidden from users>",
-        "[+1]% [Faith] [in all cities] <when above [120] [Manpower]> <Hidden from users>",
+        "[+1]% [Faith] [in all cities] <when above [40] [Manpower]> <hidden from users>",
+        "[+1]% [Faith] [in all cities] <when above [60] [Manpower]> <hidden from users>",
+        "[+1]% [Faith] [in all cities] <when above [80] [Manpower]> <hidden from users>",
+        "[+1]% [Faith] [in all cities] <when above [100] [Manpower]> <hidden from users>",
+        "[+1]% [Faith] [in all cities] <when above [120] [Manpower]> <hidden from users>",
 
-        "[-1]% growth [in all cities] <when above [30] [Manpower]> <Hidden from users>",
-        "[-1]% growth [in all cities] <when above [50] [Manpower]> <Hidden from users>",
-        "[-1]% growth [in all cities] <when above [70] [Manpower]> <Hidden from users>",
-        "[-1]% growth [in all cities] <when above [90] [Manpower]> <Hidden from users>",
-        "[-1]% growth [in all cities] <when above [100] [Manpower]> <Hidden from users>",
+        "[-1]% growth [in all cities] <when above [30] [Manpower]> <hidden from users>",
+        "[-1]% growth [in all cities] <when above [50] [Manpower]> <hidden from users>",
+        "[-1]% growth [in all cities] <when above [70] [Manpower]> <hidden from users>",
+        "[-1]% growth [in all cities] <when above [90] [Manpower]> <hidden from users>",
+        "[-1]% growth [in all cities] <when above [100] [Manpower]> <hidden from users>",
 		]
     },
     {
@@ -314,6 +311,11 @@
 		"name": "Sanitation",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
+			"Gain a free [Plague] [in this city] <with [3]% chance> <in cities without a [Plague]> <when between [0] and [20] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
+			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [20] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
+			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <when between [0] and [25] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
+			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <when above [25] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
 			"Cannot be traded",
 		"Doesn't generate naturally"
 		]

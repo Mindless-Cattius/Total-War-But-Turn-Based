@@ -8,7 +8,6 @@
 	"May not annex cities <during the [Archaic Age]>",
 	"Gain a free [Rebellious Citizens] [in puppeted cities]",
 	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
-	"Gain a free [Risk of Plague] [in all cities] <starting from the [Classical Age]>",
 	"Provides [1] [Ruler]",
 	"Provides [30] [Manpower] <in [in City-State cities] cities>"
 	"[-1] Range <for [Scout] units>",
@@ -28,7 +27,7 @@
 
 //Units
 
- 	"[+50]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
+ 	"[+70]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
 
 //Cities
 	"[-40]% Strength for cities <when attacking> <hidden from users>",
@@ -40,10 +39,10 @@
 	"[-20]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
 	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
 
-	"[-30]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Hellenistic Age]>",
-	"[-50]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Imperial Age]>",
-	"[-40]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Hellenistic Age]>",
-	"[-60]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Imperial Age]>",
+	"[-10]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Hellenistic Age]>",
+	"[-25]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Imperial Age]>",
+	"[-10]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Hellenistic Age]>",
+	"[-20]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Imperial Age]>",
 
 
 
