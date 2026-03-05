@@ -918,6 +918,7 @@
       	"Consumes [3] [Manpower]",
       	"Only available <with [Enable Swordsman]> <hidden from users>",
       	"Unavailable <after adopting [Latin Culture]> <hidden from users>",
+     	"Unbuildable <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II"
