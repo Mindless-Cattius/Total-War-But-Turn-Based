@@ -2895,7 +2895,7 @@
     "name": "Gallic Spearman",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 11,
+    "strength": 12,
     "cost": 60,
     "requiredTech": "Bronze Working",
     "uniques": [
@@ -2905,7 +2905,8 @@
     ],
     "promotions": [
       "[Spearman] ability",
-      "Infantry Shield II"
+      "Infantry Shield II",
+      "Drill I"
     ],
     "attackSound": "metalhit"
   },
