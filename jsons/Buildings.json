@@ -1471,10 +1471,8 @@
 			"Can only be built <in [Annexed] cities>",
 			"Removes extra unhappiness from annexed cities",
 			"Provides [1] [Decadence]",
-			"[-10]% [Production] <in this city> <in cities without a [Colony]>",
-			"[-10]% [Food] <in this city> <in cities without a [Colony]>",
-			"Cannot be purchased"
-			"Destroyed when the city is captured"
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Writing"
 	},
@@ -2258,27 +2256,27 @@
 	{
 		"name": "Cure Plague"
 		"maintenance": 0,
-		"cost": 50,
+		"cost": 20,
 		"uniques": [
 			"Only available <in cities with a [Plague]>"
 			"Remove [Plague] [in this city]",
 			"Remove [Cure Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
-			"Cost increases by [3] per owned city",
+			"Cost increases by [2] per owned city",
 			"[80]% weight to this choice for AI decisions",
 ]
 	},
 	{
 		"name": "Cure Dangerous Plague"
 		"maintenance": 0,
-		"cost": 80,
+		"cost": 50,
 		"requiredBuilding": "Dangerous Plague",
 		"uniques": [
 			"Only available <in cities with a [Dangerous Plague]>"
 			"Remove [Dangerous Plague] [in this city]",
 			"Remove [Cure Dangerous Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
-			"Cost increases by [5] per owned city",
+			"Cost increases by [3] per owned city",
 			"[80]% weight to this choice for AI decisions",
 ]
 	},				// National Wonder
