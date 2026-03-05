@@ -180,9 +180,7 @@
 	"Can upgrade to [Spearman] <after adopting [Divide Consription]> <hidden from users>",
 	"Can upgrade to [Spearman] <after adopting [Imperial Garrisons]> <hidden from users>",
 	"Can upgrade to [Swordsman] <after adopting [Total War]> <hidden from users>",
-			"[-300]% construction time for [Repair] improvements <in [Village] tiles>",
-			"[-300]% construction time for [Repair] improvements <in [Trading post] tiles>",
-			"[-500]% construction time for [Repair] improvements <in [Fort] tiles>",
+	"Unbuildable <when at war>"
       	"Automation is a primary action",
     ],
     "cost": 10
@@ -785,6 +783,7 @@
     "requiredTech": "Bronze Working",
     "uniques": [
      	"Only available <in cities with a [Muster Field]>",
+     	"Unbuildable <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
 	"Comment ['Spearman — ideal for stopping horses, not much else.']",
       	"Consumes [2] [Manpower]",
     ],
@@ -2888,6 +2887,24 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Raider I"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Gallic Spearman",
+    "unitType": "Spear",
+    "movement": 2,
+    "strength": 11,
+    "cost": 60,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+     	"Only available <in cities with a [Muster Field]> <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
+	"Comment ['Spearman — ideal for stopping horses, not much else.']",
+      	"Consumes [2] [Manpower]",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
