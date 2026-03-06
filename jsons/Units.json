@@ -1048,10 +1048,11 @@
     "uniques": [
       	"Comment [Medium infantry, hits hard, screams louder, dies impressively.]",
       	"Only available <in cities with a [Barracks]>",
-	"[This Unit] gains the [Infantry Shield III] promotion <during the [Imperial Age]>",
-	"[+20]% production cost <during the [Imperial Age]>",
       	"Consumes [4] [Manpower]",
-	"[This Unit] loses the [Infantry Shield II] promotion <during the [Imperial Age]> <hidden from users>",
+	"Can build [Remove Forest] improvements on tiles",
+	      "[This Unit] gains the [Infantry Shield III] promotion <during the [Imperial Age]>",
+      	"[+20]% production cost <during the [Imperial Age]>",
+	      "[This Unit] loses the [Infantry Shield II] promotion <during the [Imperial Age]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -1098,6 +1099,7 @@
 		"[+10]% Strength <when fighting in [Jungle] tiles>",
 		"[This Unit] gains the [Ambush II] promotion <during the [Imperial Age]>",
 		"[+20]% production cost <during the [Imperial Age]>",
+	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
       		"Consumes [3] [Manpower]",
     ],
     "promotions": [
@@ -1148,6 +1150,7 @@
       		"Only available <in cities with a [Barracks]>",
 	      	"Can build [All Road] improvements on tiles",
       		"Consumes [3] [Manpower]",
+	"Can build [Remove Forest] improvements on tiles",
        		"Consumes [1] [Iron]",
       		"Can upgrade to [Legion]",
       		"Unbuildable <after discovering [Infantry Training]>",
@@ -1171,6 +1174,7 @@
       "Comment [Heavy spear infantry, happily defend their fields and build roads back to Rome—as long as the enemy doesn’t show up on the other side of the empire.]",
       "Only available <in cities with a [Army Barracks]>",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
        "[+20]% Strength <when fighting in [Friendly Land] tiles>",
        "[+10]% Strength <when fighting in [Farm] tiles>",
       "Consumes [4] [Manpower]",
@@ -1194,6 +1198,7 @@
 	"Comment ['Heavy spear infantry, basically a moving wall. Effective against cavalry and look tough’]",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
+	"Can build [Remove Forest] improvements on tiles",
       "Only available <with [Enable Heavy Spearman]> <hidden from users>",
     ],
     "promotions": [
@@ -1215,6 +1220,7 @@
 	"Comment [Heavy infantry, a frontliner with a sword and a bad attitude. Great at holding the line, terrible at anything requiring speed or finesse.]"
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
+	"Can build [Remove Forest] improvements on tiles",
 	"Unbuildable <with [Enable Legion]> <hidden from users> <hidden from users>",
       	"Only available <with [Enable Heavy Swordsman]> <hidden from users>",
     ],
