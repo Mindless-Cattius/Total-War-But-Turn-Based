@@ -1154,8 +1154,8 @@
        		"Consumes [1] [Iron]",
       		"Can upgrade to [Legion]",
       		"Unbuildable <after discovering [Infantry Training]>",
-    ],
 	"Can build [Remove Forest] improvements on tiles",
+    ],
     "promotions": [
       "Infantry Shield III",
       "Drill I"
