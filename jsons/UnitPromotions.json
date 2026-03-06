@@ -535,7 +535,7 @@
 		"[0] Movement point cost to disembark",
 		"[1] Movement point cost to embark",
 		"[+20]% Strength <when defending> <when [Embarked]>",
- 		"[+5]% Strength <when fighting in [Foreign Land] tiles>"
+ 		"[+10]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout","Ruler"],
         "column": 20,
