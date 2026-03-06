@@ -65,8 +65,10 @@
 		"Only available <in cities with a [Palace]>"
 		"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
 		"New [King] units start with [10] XP [in this city]",
+			"[+10]% Production when constructing [Cure Plague] buildings [in this city]"
+			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]"
 		"Limited to [1] per Civilization",
-		"Destroyed when the city is captured"
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Writing"
 	},
@@ -254,6 +256,8 @@
 			"Consumes [1] [Decadence] <during a Golden Age>", 
 			"[+5]% Natural religion spread [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
+			"[+5]% Production when constructing [Cure Plague] buildings [in this city]"
+			"[+2]% Production when constructing [Cure Dangerous Plague] buildings [in this city]"
 			"Cost increases by [2] per owned city",
 		],
 		"requiredTech": "Mysticism"
@@ -332,6 +336,8 @@
 			"[-1 Gold, +1 Production] from [Trading post] tiles [in this city]",
 			"[+1 Happiness, +1 Food, +1 Faith] from [Village] tiles [in this city]",
 			"Provides [3] [Sanitation]",
+			"[+10]% Production when constructing [Cure Plague] buildings [in this city]"
+			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]"
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Aesthetics",
@@ -555,20 +561,6 @@
 		"requiredTech": "Citizen Levy"
 	},
 	{
-		"name": "Garrison Post",
-		"requiredBuilding": "Barracks",
-		"hurryCostModifier": 20,
-		"Cost":50,
-		"maintenance": 1,
-		"cityHealth": 50,
-		"uniques": [
-			"Only available <in cities with a [Urban Fabric II]>", 
-			"Consumes [1] [Manpower]",
-			"Destroyed when the city is captured",
-		],
-		"requiredTech": "Citizen Levy"
-	},
-	{
 		"name": "Wall Towers",
 		"requiredBuilding": "Walls",
 		"maintenance": 3,
@@ -748,7 +740,7 @@
 	},
 	{
 		"name": "Aqueduct",
- 		"cost": 150,
+ 		"cost": 170,
 		"cityHealth": 20,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
@@ -756,12 +748,12 @@
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]>",
 			"Comment [+1 Food from non-fresh water Farm tiles in this city]", 
-			"Provides [1] [Sanitation]",
+			"Provides [2] [Sanitation]",
 			"[+10]% Production when constructing [Cure Plague] buildings [in this city]",
 			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
 			"[15]% Food is carried over after population increases [in this city]",
-			"[+2 Food, +1 Happiness] from [Village] tiles [in this city]",
-			"[+2 Gold, +1 Happiness] from [Trading post] tiles [in this city]",
+			"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
+			"[+1 Gold, +1 Happiness] from [Trading post] tiles [in this city]",
 			"[+1 Culture, +1 Production, +1 Happiness] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Public Works"
@@ -1445,7 +1437,7 @@
 	},
 	{
 		"name": "Herbalist",
-		"cost": 80,
+		"cost": 120,
 		"requiredNearbyImprovedResources": ["Herbs","Hemp","Flax","Truffles","Citrus"],
 		"maintenance": 2,
 		"happiness": 2,
@@ -1454,7 +1446,7 @@
 		"uniques": [ 
 			"[+15]% Production when constructing [Cure Plague] buildings [in this city]",
 			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
-			"Provides [1] [Sanitation]",
+			"Provides [2] [Sanitation]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Herbs] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
@@ -1929,6 +1921,7 @@
 			"Only available <in cities with a [Market]>"
 			"Provides [2] [Elephants]",
 			"Can only be built <in [Capital] cities>",
+			"Consumes [1] [Sanitation]",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
 		],
