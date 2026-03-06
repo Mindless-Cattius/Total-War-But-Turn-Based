@@ -312,10 +312,10 @@
 		"resourceType": "Strategic",
 		"uniques": [
 			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
-			"Gain a free [Plague] [in this city] <with [2]% chance> <in cities without a [Plague]> <when between [0] and [15] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
-			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <when above [15] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
-			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <when between [0] and [25] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
-			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <when above [25] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
+			"Gain a free [Plague] [in this city] <with [2]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when between [0] and [15] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
+			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when above [15] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
+			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [0] and [25] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
+			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when above [25] [Sanitation]> <starting from the [Classical Age]> <hidden from users>",
 			"Cannot be traded",
 		"Doesn't generate naturally"
 		]
