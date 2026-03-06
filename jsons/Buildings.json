@@ -2721,6 +2721,7 @@
         		"Remove [Egypt Grain Crisis] [in all cities]",
       			"Unbuildable",
 			"Unsellable",
+			"Never destroyed when the city is captured",
     ]
   	},
 	{
