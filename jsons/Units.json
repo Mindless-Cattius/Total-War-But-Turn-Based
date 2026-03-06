@@ -719,7 +719,7 @@
     "name": "Iberian Mercenary",
     "unitType": "Sword",
     "movement": 3,
-    "strength": 16,
+    "strength": 17,
     "cost": 100,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -738,7 +738,7 @@
     "name": "Oscan Mercenary",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 16,
+    "strength": 17,
     "cost": 90,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -764,6 +764,7 @@
       	"Only available <in cities with a [Parthenon]>",
 	"Comment ['Medium spear infantry, built for sieges and river fights, not poetry.']",
       	"Consumes [2] [Manpower]",
+       "Consumes [1] [Bronze]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -916,6 +917,7 @@
       	"Only available <in cities with a [Barracks]>",
 	"Comment ['Medium infantry, simple, sharp, and solves most problems violently.']",
       	"Consumes [3] [Manpower]",
+	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
       	"Only available <with [Enable Swordsman]> <hidden from users>",
       	"Unavailable <after adopting [Latin Culture]> <hidden from users>",
      	"Unbuildable <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
@@ -939,6 +941,7 @@
 	"Comment ['Medium infantry, strong attack, limited patience.']",
       "Can move immediately once bought",
       "Consumes [3] [Manpower]",
+	"Can build [Remove Forest] improvements on tiles",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -1001,6 +1004,7 @@
 	"Comment ['Light shock infantry, strong versus swords, weak versus everything pointy from afar']",
       	"Only available <in cities with a [Barracks]>",
       	"Consumes [3] [Manpower]",
+	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
     ],
     "promotions": [
       "[Falxman] ability",
@@ -1024,6 +1028,7 @@
 	"[+20]% production cost <during the [Imperial Age]>",
       "Consumes [3] [Manpower]",
 	"[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
+	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
     ],
     "promotions": [
       "Infantry Shield I",
@@ -1118,8 +1123,9 @@
     "requiredTech": "Infantry Training",
     "uniques": [
       "Comment [Heavy infantry, these guys can siege a city and build a highway at the same time. Too bad they’re slower than your grandma’s morning walk.]",
-      "Only available <in cities with a [Barracks]>"
+      "Only available <in cities with a [Barracks]>",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
     ],
@@ -1143,9 +1149,10 @@
 	      	"Can build [All Road] improvements on tiles",
       		"Consumes [3] [Manpower]",
        		"Consumes [1] [Iron]",
-      		"Can upgrade to [Legion] <after discovering [Infantry Training]>",
+      		"Can upgrade to [Legion]",
       		"Unbuildable <after discovering [Infantry Training]>",
     ],
+	"Can build [Remove Forest] improvements on tiles",
     "promotions": [
       "Infantry Shield III",
       "Drill I"
