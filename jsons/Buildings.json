@@ -2209,7 +2209,7 @@
 			"[-1 Food, -1 Gold, -1 Happiness] from [improved] tiles [in this city]",
 			"Consumes [2] [Manpower]",
 			"Rebel units may spawn <with [70]% chance>",
-			"Remove [Rebellious Citizens] [in this city] <when not at war>",
+			"Remove [Rebellious Citizens] [in this city] <in [non-[Puppeted]] cities> <when not at war>",
 			"Unbuildable","Unsellable",
 			"Destroyed when the city is captured"
 ]
