@@ -135,7 +135,7 @@
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <upon founding a city>",
         "Free [Spearman] appears <when above [11] [Happiness]> <upon founding a city>",
         "Free [General] appears <upon turn end> <when above [1] [Nobles]> <with [1]% chance>",
-        "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [10]% chance>",
+        "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [3]% chance>",
         "Free [Foot Guard] appears <upon turn end> <when above [1] [Veteran]> <with [3]% chance>",
         "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance> <before the [Imperial Age]>",

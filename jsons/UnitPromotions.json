@@ -26,7 +26,7 @@
 	{
 		"name": "Medic III",
 		"prerequisites": ["Medic II","Foraging II"],
-		"uniques": ["[+3] HP when healing","All adjacent units heal [+2] HP when healing","Provides [1] [Sanitation]","[+50]% weight to this choice for AI decisions"],
+		"uniques": ["[+3] HP when healing","All adjacent units heal [+2] HP when healing","[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Ruler","Archery","Elephant","Scout"],
         "column": 1,
         "row": 3
@@ -951,8 +951,8 @@
 			"[+9]% Strength bonus for [{Ranged} {Land}] units within [2] tiles <when attacking>",
 			"Only available <if [Cavalry Barracks] is constructed>",
 		],
-        "row": 5,
-	"column": 6
+        "row": 6,
+	"column": 5
 	},
 	{
 		"name": "Art of War III",
@@ -963,8 +963,8 @@
 			"[+5] HP when healing <when stacked with a [Worker] unit>",
 			"Only available <if [Army Barracks] is constructed>",
 		],
-        "row": 6,
-	"column": 8
+        "row": 7,
+	"column": 5
 	},
 {
 		"name": "Art of War IV",
@@ -975,8 +975,8 @@
       			"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
 			"Only available <if [Skirmisher Barracks] is constructed>",
 		],
-        "row": 6,
-	"column": 8
+        "row": 8,
+	"column": 5
 	},
 	// Uniques that should be kept on upgrades
 
@@ -1080,7 +1080,7 @@
   		"prerequisites": ["Veteran"],
   		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery", "Elephant","Ruler"],
   		"uniques": [
-			"[+5]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+			"[+7]% Strength bonus for [all] units within [2] tiles",
 ],
         "column": 35,
         "row": 6
