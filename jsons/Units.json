@@ -6,7 +6,8 @@
     "strength": 11,
     "cost": 50,
     "requiredTech": "Bronze Working",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -21,7 +22,8 @@
     "strength": 16,
     "cost": 100,
     "requiredTech": "Bronze Working",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Pike Phalanx] ability",
@@ -37,7 +39,8 @@
     "movement": 2,
     "strength": 15,
     "requiredTech": "Citizen Levy",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -51,7 +54,8 @@
     "movement": 2,
     "strength": 18,
     "requiredTech": "Military Reforms",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -67,7 +71,8 @@
     "movement": 2,
     "strength": 19,
     "requiredTech": "Military Reforms",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -83,7 +88,8 @@
     "movement": 4,
     "strength": 13,
     "requiredTech": "Riding",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Horseman] ability",
@@ -101,7 +107,8 @@
     "strength": 8,
     "rangedStrength": 11,
     "requiredTech": "Riding",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "Horse Archer ability",
@@ -116,7 +123,8 @@
     "movement": 3,
     "strength": 17,
     "requiredTech": "Equestrian Class",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -132,7 +140,8 @@
     "rangedStrength": 12,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Archer] ability"
@@ -147,7 +156,7 @@
     "rangedStrength": 11,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>"
+    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
     ],
     "promotions": [
       "[Slinger] ability",
@@ -171,7 +180,7 @@
 	"Can upgrade to [Spearman] <after adopting [Divide Consription]> <hidden from users>",
 	"Can upgrade to [Spearman] <after adopting [Imperial Garrisons]> <hidden from users>",
 	"Can upgrade to [Swordsman] <after adopting [Total War]> <hidden from users>",
-			"[-300]% construction time for [Repair] improvements <in [Village] tiles>",
+	"Unbuildable <when at war>"
       	"Automation is a primary action",
     ],
     "cost": 10
@@ -187,6 +196,7 @@
       		"Founds a new city <by consuming this unit>",
       		"Excess Food converted to Production when under construction",
 		"Unbuildable <in cities with a [Scenario]> <hidden from users>",
+		"Unbuildable <in cities with a [3rd century crisis]> <hidden from users>",
     ],
     "hurryCostModifier": 20
   },
@@ -709,7 +719,7 @@
     "name": "Iberian Mercenary",
     "unitType": "Sword",
     "movement": 3,
-    "strength": 16,
+    "strength": 17,
     "cost": 100,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -728,7 +738,7 @@
     "name": "Oscan Mercenary",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 16,
+    "strength": 17,
     "cost": 90,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -754,6 +764,7 @@
       	"Only available <in cities with a [Parthenon]>",
 	"Comment ['Medium spear infantry, built for sieges and river fights, not poetry.']",
       	"Consumes [2] [Manpower]",
+       "Consumes [1] [Bronze]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -773,6 +784,7 @@
     "requiredTech": "Bronze Working",
     "uniques": [
      	"Only available <in cities with a [Muster Field]>",
+     	"Unbuildable <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
 	"Comment ['Spearman — ideal for stopping horses, not much else.']",
       	"Consumes [2] [Manpower]",
     ],
@@ -905,7 +917,10 @@
       	"Only available <in cities with a [Barracks]>",
 	"Comment ['Medium infantry, simple, sharp, and solves most problems violently.']",
       	"Consumes [3] [Manpower]",
+	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
       	"Only available <with [Enable Swordsman]> <hidden from users>",
+      	"Unavailable <after adopting [Latin Culture]> <hidden from users>",
+     	"Unbuildable <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -926,6 +941,7 @@
 	"Comment ['Medium infantry, strong attack, limited patience.']",
       "Can move immediately once bought",
       "Consumes [3] [Manpower]",
+	"Can build [Remove Forest] improvements on tiles",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -988,6 +1004,7 @@
 	"Comment ['Light shock infantry, strong versus swords, weak versus everything pointy from afar']",
       	"Only available <in cities with a [Barracks]>",
       	"Consumes [3] [Manpower]",
+	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
     ],
     "promotions": [
       "[Falxman] ability",
@@ -1011,6 +1028,7 @@
 	"[+20]% production cost <during the [Imperial Age]>",
       "Consumes [3] [Manpower]",
 	"[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
+	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
     ],
     "promotions": [
       "Infantry Shield I",
@@ -1030,10 +1048,11 @@
     "uniques": [
       	"Comment [Medium infantry, hits hard, screams louder, dies impressively.]",
       	"Only available <in cities with a [Barracks]>",
-	"[This Unit] gains the [Infantry Shield III] promotion <during the [Imperial Age]>",
-	"[+20]% production cost <during the [Imperial Age]>",
       	"Consumes [4] [Manpower]",
-	"[This Unit] loses the [Infantry Shield II] promotion <during the [Imperial Age]> <hidden from users>",
+	"Can build [Remove Forest] improvements on tiles",
+	      "[This Unit] gains the [Infantry Shield III] promotion <during the [Imperial Age]>",
+      	"[+20]% production cost <during the [Imperial Age]>",
+	      "[This Unit] loses the [Infantry Shield II] promotion <during the [Imperial Age]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -1080,6 +1099,7 @@
 		"[+10]% Strength <when fighting in [Jungle] tiles>",
 		"[This Unit] gains the [Ambush II] promotion <during the [Imperial Age]>",
 		"[+20]% production cost <during the [Imperial Age]>",
+	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
       		"Consumes [3] [Manpower]",
     ],
     "promotions": [
@@ -1105,9 +1125,9 @@
     "requiredTech": "Infantry Training",
     "uniques": [
       "Comment [Heavy infantry, these guys can siege a city and build a highway at the same time. Too bad they’re slower than your grandma’s morning walk.]",
-      "Only available <in cities with a [Barracks]>"
+      "Only available <in cities with a [Barracks]>",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Roman Fort] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
     ],
@@ -1122,7 +1142,6 @@
     "name": "Manipular Legion",
     "unitType": "Sword",
     "uniqueTo": "The Romans",
-    "replaces": "Swordsman",
     "movement": 2,
     "strength": 17,
     "cost": 130,
@@ -1130,11 +1149,12 @@
       		"Comment ['Heavy infantry, can build roads and steal land. Don’t expect them to win any races, but they’ll gladly take your territory while they're at it']",
       		"Only available <in cities with a [Barracks]>",
 	      	"Can build [All Road] improvements on tiles",
-	"Can build [Roman Fort] improvements on tiles",
       		"Consumes [3] [Manpower]",
-       "Consumes [1] [Iron]",
-      		"Can upgrade to [Legion] <after discovering [Infantry Training]>",
+	"Can build [Remove Forest] improvements on tiles",
+       		"Consumes [1] [Iron]",
+      		"Can upgrade to [Legion]",
       		"Unbuildable <after discovering [Infantry Training]>",
+	"Can build [Remove Forest] improvements on tiles",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -1154,6 +1174,7 @@
       "Comment [Heavy spear infantry, happily defend their fields and build roads back to Rome—as long as the enemy doesn’t show up on the other side of the empire.]",
       "Only available <in cities with a [Army Barracks]>",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
        "[+20]% Strength <when fighting in [Friendly Land] tiles>",
        "[+10]% Strength <when fighting in [Farm] tiles>",
       "Consumes [4] [Manpower]",
@@ -1177,6 +1198,7 @@
 	"Comment ['Heavy spear infantry, basically a moving wall. Effective against cavalry and look tough’]",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
+	"Can build [Remove Forest] improvements on tiles",
       "Only available <with [Enable Heavy Spearman]> <hidden from users>",
     ],
     "promotions": [
@@ -1198,6 +1220,7 @@
 	"Comment [Heavy infantry, a frontliner with a sword and a bad attitude. Great at holding the line, terrible at anything requiring speed or finesse.]"
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
+	"Can build [Remove Forest] improvements on tiles",
 	"Unbuildable <with [Enable Legion]> <hidden from users> <hidden from users>",
       	"Only available <with [Enable Heavy Swordsman]> <hidden from users>",
     ],
@@ -1524,7 +1547,8 @@
     "movement": 3,
     "strength": 25,
     "requiredTech": "Metallurgy",
-    "uniques": [	"Comment [Very heavy cavalry,The ‘OG tank’ if tanks were slow, expensive, and required a small fortune in horses, manpower, and iron. Sure, they’ll crush infantry, but they’ll also burn a hole in your budget faster.] <before adopting [Latin Culture]>",
+    "uniques": [
+	"Comment [Very heavy cavalry,The ‘OG tank’ if tanks were slow, expensive, and required a small fortune in horses, manpower, and iron. Sure, they’ll crush infantry, but they’ll also burn a hole in your budget faster.] <before adopting [Latin Culture]>",
 	"Only available <in cities with a [Cavalry Barracks]>",
 	"Consumes [6] [Manpower]",
 	"Consumes [2] [Horses]",
@@ -2002,8 +2026,8 @@
     "cost": 130,
     "uniques": [
       		"Only available <before adopting [Empire]> <hidden from users>",
-       "[This Unit] is destroyed <after adopting [Manipular Legion]>"
-       "[This Unit] is destroyed <after adopting [Empire]>"
+       		"[This Unit] is destroyed <after adopting [Manipular Legion]>"
+       		"[This Unit] is destroyed <after adopting [Empire]>"
       		"Only available <before adopting [Manipular Legion]> <hidden from users>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
@@ -2012,6 +2036,7 @@
     		"Consumes [1] [Ruler] <hidden from users>",
 		"Remove [A Noble's Death] [in all cities]",
     		"Never appears as a Barbarian unit <before the [Imperial Age]>",
+		"Unbuildable <for [The Scythians] Civilizations>"
     ],
     "promotions": [
       	"[Cavalry] ability",
@@ -2026,10 +2051,9 @@
     "name": "Scythian King",
     "unitType": "Ruler",
     "uniqueTo": "The Scythians",
-    "replaces": "King",
     "movement": 3,
     "strength": 11,
-  "rangedStrength": 9,
+    "rangedStrength": 9,
     "cost": 150,
     "uniques": [
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
@@ -2040,6 +2064,7 @@
     		"Consumes [1] [Ruler] <hidden from users>",
 		"Remove [A Noble's Death] [in all cities]",
       		"Never appears as a Barbarian unit",
+      		"[+10]% Strength <when defending> <after adopting [Empire]> <hidden from users>",
     ],
     "promotions": [
       	"Horse Archer ability",
@@ -2671,21 +2696,21 @@
     "name": "Imperial Velite",
     "unitType": "Scout",
     "movement": 3,
-    "strength": 14,
+    "strength": 15,
     "rangedStrength": 11,
     "cost": 160,
     "uniques": [
-      "Comment [-Elite heavy skirmisher, good melee defense, high withdraw chance.]",
-    "Can move after attacking",
-      "Only available <in cities with a [Skirmisher Barracks]>",
+      	"Comment [-Elite heavy skirmisher, good melee defense, high withdraw chance.]",
+    	"Can move after attacking",
+      	"Only available <in cities with a [Skirmisher Barracks]>",
 	"[+1] XP gained from combat",
-      "Consumes [4] [Manpower]",
-      "Consumes [1] [Veteran]",
-      "Only available <after adopting [Latin Culture]> <hidden from users>",
+      	"Consumes [4] [Manpower]",
+      	"Consumes [1] [Veteran]",
+      	"Only available <after adopting [Latin Culture]> <hidden from users>",
     ],
     "promotions": [
-      "[Skirmisher] ability",
-      "Infantry Shield II",
+      	"[Skirmisher] ability",
+      	"Infantry Shield II",
 	"Improved Armor",
     ],
     "attackSound": "nonmetalhit",
@@ -2725,21 +2750,22 @@
     "strength": 22,
     "cost": 250,
     "uniques": [
-      "Comment [-Elite heavy infantry, Emperor's best frienemy.]",
-      "Only available <in cities with a [Imperial Barracks]>",
-      "Limited to [1] per Civilization",
-      "[+13]% Strength bonus for [Military] units within [1] tiles",
+      	"Comment [-Elite heavy infantry, Emperor's best frienemy.]",
+      	"Only available <in cities with a [Imperial Barracks]>",
+      	"Limited to [1] per Civilization",
+      	"[+13]% Strength bonus for [Military] units within [1] tiles",
 	"[+1] XP gained from combat",
-      "Consumes [5] [Manpower]",
-      "Consumes [1] [Veteran]",
-      "Consumes [1] [Iron]",
-      "Consumes [1] [Greed] <if [Praetorian Greed] is constructed> <hidden from users>",
+      	"Consumes [5] [Manpower]",
+      	"Consumes [1] [Veteran]",
+      	"Consumes [1] [Iron]",
+      	"Consumes [1] [Praetorian Greed] <if [Praetorian Greed] is constructed> <hidden from users>",
     ],
     "promotions": [
-      "Infantry Shield III",
+      	"Infantry Shield III",
 	"Praetorianus",
 	"Drill I",
 	"Improved Armor"
+	 "[Standard Bearer]",
     ],
     "attackSound": "metalhit"
   },
@@ -2797,15 +2823,12 @@
     "strength": 20,
     "cost": 170,
     "uniques": [
-      "Only available <in cities with a [Barracks]>",
-      	"Only available <with [Enable Legion]> <hidden from users>",
-      "Only available <after adopting [Hellenic Culture]> <hidden from users>",
-      "Only available <after adopting [Hellenistic Culture]> <hidden from users>",
-      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Only available <with [Enable Hellenic Legion]> <hidden from users>",
+      	"Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Roman Fort] improvements on tiles",
-      "Consumes [5] [Manpower]",
-      "Consumes [1] [Iron]",
+      	"Consumes [5] [Manpower]",
+      	"Consumes [1] [Iron]",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -2821,16 +2844,14 @@
     "strength": 15,
     "cost": 160,
     "uniques": [
-      "Only available <in cities with a [Barracks]>",
-      "Only available <after adopting [Hellenic Culture]> <hidden from users>",
-      "Only available <after adopting [Hellenistic Culture]> <hidden from users>",
-      	"Only available <with [Enable Limitanei]> <hidden from users>",
-      "Comment [-Medium spear infantry, can build road, good at defending homeland and against cavalry.] <before the [Imperial Age]>",
-      "Comment [-Heavy spear infantry, can build road, good at defending homeland and against cavalry.] <during the [Imperial Age]>",
+      	"Only available <in cities with a [Barracks]>",
+      	"Only available <with [Enable Hellenic Limitanei]> <hidden from users>",
+      	"Comment [-Medium spear infantry, can build road, good at defending homeland and against cavalry.] <before the [Imperial Age]>",
+      	"Comment [-Heavy spear infantry, can build road, good at defending homeland and against cavalry.] <during the [Imperial Age]>",
 	"Can build [All Road] improvements on tiles",
-       "[+20]% Strength <when fighting in [Friendly Land] tiles>",
-       "[+10]% Strength <when fighting in [Hill] tiles>",
-      "Consumes [4] [Manpower]",
+       	"[+20]% Strength <when fighting in [Friendly Land] tiles>",
+       	"[+10]% Strength <when fighting in [Hill] tiles>",
+      	"Consumes [4] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2846,15 +2867,12 @@
     "strength": 20,
     "cost": 170,
     "uniques": [
-      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
-      "Only available <in cities with a [Barracks]>",
-      "Only available <after adopting [Celtic Culture]> <hidden from users>",
-      "Only available <after adopting [Germanic Culture]> <hidden from users>",
-      	"Only available <with [Enable Legion]> <hidden from users>",
-	"Can build [Roman Fort] improvements on tiles",
+      	"Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Only available <with [Enable Gallic Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
-      "Consumes [5] [Manpower]",
-      "Consumes [1] [Iron]",
+      	"Consumes [5] [Manpower]",
+      	"Consumes [1] [Iron]",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -2870,22 +2888,38 @@
     "strength": 15,
     "cost": 160,
     "uniques": [
-      "Comment [-Medium spear infantry, can build road, good at defending homeland and offensive.] <before the [Imperial Age]>",
-      "Comment [-Heavy spear infantry, can build road, good at defending homeland and offensive.] <during the [Imperial Age]>",
-      "Only available <after adopting [Celtic Culture]> <hidden from users>",
-      "Only available <after adopting [Germanic Culture]> <hidden from users>",
-      "Only available <in cities with a [Barracks]>",
-      	"Only available <with [Enable Limitanei]> <hidden from users>",
+      	"Comment [-Medium spear infantry, can build road, good at defending homeland and offensive.] <before the [Imperial Age]>",
+      	"Comment [-Heavy spear infantry, can build road, good at defending homeland and offensive.] <during the [Imperial Age]>",
+      	"Only available <in cities with a [Barracks]>",
+      	"Only available <with [Enable Gallic Limitanei]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Roman Fort] improvements on tiles",
-       "[+10]% Strength <when fighting in [Friendly Land] tiles>",
-       "[+10]% Strength <when fighting in [Forest] tiles>",
-      "Consumes [4] [Manpower]",
+       	"[+10]% Strength <when fighting in [Friendly Land] tiles>",
+       	"[+10]% Strength <when fighting in [Forest] tiles>",
+      	"Consumes [4] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield III",
-      "Shock I"
+      "Raider I"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Gallic Spearman",
+    "unitType": "Spear",
+    "movement": 2,
+    "strength": 12,
+    "cost": 60,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+     	"Only available <in cities with a [Muster Field]> <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
+	"Comment ['Spearman — ideal for stopping horses, not much else.']",
+      	"Consumes [2] [Manpower]",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Drill I"
     ],
     "attackSound": "metalhit"
   },
@@ -2898,9 +2932,7 @@
     "uniques": [
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
       "Only available <in cities with a [Barracks]>",
-      "Only available <after adopting [Eastern Culture]> <hidden from users>",
-      	"Only available <with [Enable Legion]> <hidden from users>",
-	"Can build [Roman Fort] improvements on tiles",
+      	"Only available <with [Enable Desert Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
@@ -2916,18 +2948,16 @@
     "name": "Illyrian Legion",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 22,
+    "strength": 21,
     "cost": 170,
     "uniques": [
-      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fight to the death]",
-      "Only available <in cities with a [Barracks]>",
-      "Only available <after adopting [Illyrian Culture]> <hidden from users>",
-      	"Only available <with [Enable Legion]> <hidden from users>",
-	"Can build [Roman Fort] improvements on tiles",
+      	"Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fight to the death]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Only available <with [Enable Illyrian Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
-	      "[+2] XP gained from combat",
-      "Consumes [5] [Manpower]",
-      "Consumes [1] [Iron]",
+	"[+2] XP gained from combat",
+      	"Consumes [5] [Manpower]",
+      	"Consumes [1] [Iron]",
     ],
     "promotions": [
       "Infantry Shield III",
