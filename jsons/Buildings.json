@@ -2965,5 +2965,92 @@
 			"Destroyed when the city is captured",
 ]
   	},
+{
+    		"name": "Italy",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Engineer": 1},
+    		"uniques": [
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
 ]
-
+  	},
+{
+    		"name": "Egypt",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchant": 1},
+    		"uniques": [
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+  	},
+{
+    		"name": "Dacia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Engineer": 1},
+    		"uniques": [
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+  	},
+{
+    		"name": "Jerusalem",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+  	},
+{
+    		"name": "Palmyrence",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+  	},
+{
+    		"name": "Gaul",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+  	},
+{
+    		"name": "Germanic",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+  	},
+{
+    		"name": "Spain",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+  	},
+]
