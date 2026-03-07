@@ -2596,6 +2596,7 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
+    "Triggers victory <if [Italy] is constructed> <if [Spain] is constructed> <if [Gaul] is constructed> <if [Jerusalem] is constructed> <if [Palmyrence] is construced> <if [Egypt] is constructed>",
 			"Gain a free [Age Of Many Emperors] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
 			"Gain a free [Praetorian Greed] [in capital] <if [Praetorian Purge] is not constructed by anybody>",
 			"Gain a free [Silver Inflation] [in all cities] <if [Currency Reform] is not constructed by anybody>",
@@ -2614,7 +2615,7 @@
     		"maintenance": 0,
 		"specialistSlots": {"Merchant": 1},
     		"uniques": [
-      			"[+30]% maintenance costs <for [Military] units>",
+      			"[+50]% maintenance costs <for [Military] units>",
       			"[+200]% maintenance costs <for [Civilian] units>",
       			"[+300]% maintenance costs <for [Siege] units>",
       			"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
@@ -2634,6 +2635,7 @@
         		"Cannot be purchased",
         		"Remove [Age Of Many Emperors] [in all cities]",
       			"Unbuildable <if [Age Of Many Emperors] is not constructed>",
+			"Destroyed when the city is captured",
     ]
 }
 	{
@@ -2643,7 +2645,7 @@
 		"specialistSlots": {"Merchant": 1},
     		"uniques": [
       			"[-1 Gold] from [improved] tiles [in this city]",
-      			"[-1 Gold] from [Silver] tiles [in this city]",
+      			"[-2 Gold] from [Silver] tiles [in this city]",
       			"[-3 Gold, -1 Happiness] from [Village] tiles [in this city]",
       			"[-5 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
 			"[-5 Gold, -1 Happiness] <in cities with a [Market]>",
@@ -2673,6 +2675,7 @@
       			"[-20]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
       			"Provides [1] [Praetorian Greed]",
       			"[-10 Gold, -2 Production, -20 Happiness] [in capital]",
+      			"[-2 Gold, -1 Happiness] [in all cities]",
 			"Destroyed when the city is captured",
       			"Unbuildable",
 			"Unsellable",
@@ -2690,6 +2693,7 @@
       			"Unbuildable <if [Praetorian Greed] is not constructed>",
         		"Cannot be purchased",
 			"Unsellable",
+			"Never destroyed when the city is captured",
     ]
 	}
   	{
@@ -3052,5 +3056,4 @@
       			"Unbuildable",
 			"Never destroyed when the city is captured",
 ]
-  	},
 ]
