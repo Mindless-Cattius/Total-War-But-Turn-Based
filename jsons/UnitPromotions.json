@@ -1078,7 +1078,7 @@
 	{
  		"name": "Inspiring",
   		"prerequisites": ["Veteran"],
-  		"unitTypes": ["Sword", "Spear", "Mounted", "Mounted Archery", "Scout", "Archery", "Elephant","Ruler"],
+  		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery", "Elephant","Ruler"],
   		"uniques": [
 			"[+5]% Strength bonus for [{Military} {Land}] units within [2] tiles",
 ],
@@ -1088,7 +1088,7 @@
 	{
  		 "name": "Praetorianus",
   		"prerequisites": ["Veteran"],
- 		 "unitTypes": ["Sword", "Spear", "Mounted", "Elephant"],
+ 		 "unitTypes": ["Sword","Spear","Mounted","Elephant"],
  		 "uniques": [
 			"[+30]% Strength bonus for [King] units within [1] tiles <when defending>",
       			"[-5]% Strength for enemy [Military] units in adjacent [all] tiles",
@@ -1123,7 +1123,7 @@
 	},
 	{
  		 "name": "Plunderer",
-  		"unitTypes": ["Sword", "Spear", "Mounted", "Mounted Archery", "Scout", "Archery", "Elephant","Ruler"],
+  		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Elephant","Ruler"],
   		"prerequisites": ["Raider III"],
   		"uniques": [
     			"[+40]% Yield from pillaging tiles",
@@ -1156,7 +1156,7 @@
 		"name": "Volley",
 		"prerequisites": ["Veteran"],
 		"uniques": [
-			"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>"]
+			"[+7]% Strength bonus for [Archery] units within [1] tiles <when attacking>"]
 		"unitTypes": ["Archery"],
         "column": 43,
         "row": 6
@@ -1206,7 +1206,7 @@
 		"uniques": [
 			"[+13]% Strength bonus for [Military] units within [2] tiles <when defending>",
 			"[+17]% Strength bonus for [Military] units within [1] tiles <when defending>",
-			"[+12]% Strength bonus for [Military] units within [1] tiles <when attacking>",
+			"[+14]% Strength bonus for [Military] units within [1] tiles <when attacking>",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
 	},
@@ -1275,9 +1275,9 @@
 			"[+1] HP when healing <when fighting in [improved] tiles>",
 			"[-5] HP when healing <when fighting in [Enemy Land] tiles>",
 			"[-5] HP when healing <when fighting in [Snow] tiles>",
-			"[-3] HP when healing <for [All] units> <when fighting in [Tundra] tiles>",
-			"[-2] HP when healing <for [All] units> <when fighting in [Marsh] tiles>",
-			"[-2] HP when healing <for [All] units> <when fighting in [Desert] tiles>",
+			"[-3] HP when healing <when fighting in [Tundra] tiles>",
+			"[-2] HP when healing <when fighting in [Marsh] tiles>",
+			"[-2] HP when healing <when fighting in [Desert] tiles>",
 		]
 	},
 	{
