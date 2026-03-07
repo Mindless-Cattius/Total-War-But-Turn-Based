@@ -361,7 +361,7 @@ BuildingIcons/Egypt Grain
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Food Import
+BuildingIcons/Food Imports
   rotate: false
   xy: 1048, 190
   size: 50, 50
