@@ -2772,11 +2772,11 @@
 	},
 	{
     		"name": "Pylramence Empire",
-    		"cost": 1700,
+    		"cost": 1000,
     		"uniques": [
         		"Cannot be purchased",
         		"Unsellable"
-        		"Unbuildable <if [Imperial Overstretch] is not constructed>",
+        		"Unbuildable <if [Imperial Overstretch] is not constructed> <if [Armenia] is not constructed> <if [Africa] is not constructed> <if [Anatolia] is not constructed>",
 			"Remove [Palmyrene Ascendancy] [in all cities]",
     ]
 	},
@@ -2787,7 +2787,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [From caravan city to imperial court in a decade. Administration lagged behind conquest. Governors improvised. Taxes vanished somewhere between Syria and Egypt.]",
-        		"[-5 Happiness] [in all cities]",
+        		"[-4 Happiness] [in all cities]",
         		"[+30]% maintenance costs <for [Military] units>",
       			"[+70]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
 			"Destroyed when the city is captured",
@@ -2804,7 +2804,7 @@
         		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
         		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
 			"[-20]% Production when constructing [Military] units [in all cities]",
-        		"[-3 Happiness] [in all cities]",
+        		"[-2 Happiness] [in all cities]",
 			"[-3 Gold, -4 Happiness] <in cities with a [Market]>",
 			"[+2 Gold, -1 Happiness, -1 Food] <in cities with a [Walls]>",
 			"Destroyed when the city is captured",
@@ -2814,12 +2814,12 @@
 	},
 	{
     		"name": "Zenobian Reform",
-    		"cost": 1500,
+    		"cost": 1100,
     		"uniques": [
         		"Comment [Administration caught up to ambition. For a moment, Palmyra looked like a real empire.]",
         		"Cannot be purchased",
         		"Unsellable"
-        		"Unbuildable <if [Roman Retribution] is not constructed>",
+        		"Unbuildable <if [Roman Retribution] is not constructed> <if [Italia] is not constructed> <if [Africa] is not constructed>",
 			"Remove [Roman Retribution] [in all cities]",
     ]
 	},
@@ -2870,7 +2870,7 @@
     		"uniques": [
         		"Cannot be purchased",
         		"Unsellable"
-        		"Unbuildable <if [Gallic Secession] is not constructed> <if [Italia] is not constructed> ",
+        		"Unbuildable <if [Gallic Secession] is not constructed> <if [Italia] is not constructed>",
 			"Remove [Gallic Secession] [in all cities]",
     ]
 	},
@@ -2909,7 +2909,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
-			"Provides [60] [Manpower] <if [Italia] is not constructed> <if [Hispania] is not constructed>",
+			"Provides [40] [Manpower] <if [Italia] is not constructed> <if [Hispania] is not constructed>",
     			"[+30]% Yield from pillaging tiles <for [150] turns>",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
@@ -2934,7 +2934,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
-			"Provides [60] [Manpower]  <if [Italia] is not constructed> <if [Hispania] is not constructed>",
+			"Provides [40] [Manpower]  <if [Italia] is not constructed> <if [Hispania] is not constructed>",
     			"[+30]% Yield from pillaging tiles <for [150] turns>",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
@@ -2957,12 +2957,12 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed>",
-			"Provides [30] [Manpower] <if [Armenia] is not constructed> <if [Palaestina] is not constructed>",
+			"Provides [20] [Manpower] <if [Armenia] is not constructed> <if [Palaestina] is not constructed>",
 			"Provides [8] [Horses] <if [Armenia] is not constructed> <if [Achaea] is not constructed>",
     			"[+50]% Yield from pillaging tiles",
-      			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
-        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <for [150] turns>",
-        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arverni] units> <for [150] turns>",
+      			"[-80]% maintenance costs <for [Military] units> <if [Armenia] is not constructed> <if [Palaestina] is not constructed>",
+        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units>  <if [Italia] is not constructed>",
+        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arverni] units>  <if [Hispania] is not constructed>",
         		"[+30]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <for [150] turns>",
  			"[+30]% Strength <for [Spearman] units> <when defending> <when fighting in [Friendly Land] tiles> <for [150] turns>",
 			"[+10] HP when healing <for [Mounted] units> <when fighting in [Friendly Land] tiles> <for [150] turns>",
@@ -2982,8 +2982,8 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed> <if [Scythia] is constructed> <if [Aegyptus] is constructed>",
-			"Provides [35] [Manpower] <for [150] turns>",
-      			"[+3 Happiness, +5 Gold] [in all cities] <for [150] turns>",
+			"Provides [30] [Manpower] <if [Palaestina] is not constructed> <if [Anatolia] is not constructed> <if [Scythia] is not constructed>",
+      			"[+3 Happiness, +5 Gold] [in all cities] <if [Palaestina] is not constructed> <if [Anatolia] is not constructed> <if [Aegyptus] is not constructed>",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
         		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <for [150] turns>",
         		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <for [150] turns>",
