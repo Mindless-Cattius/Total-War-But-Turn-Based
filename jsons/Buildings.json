@@ -42,10 +42,10 @@
 			"Provides [1] [Decadence] <during the [Classical Age]>",
 			"Provides [2] [Decadence] <during the [Hellenistic Age]>",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
-			"Provides [3] [Manpower] <during the [Archaic Age]>",
-			"Provides [5] [Manpower] <during the [Classical Age]>",
-			"Provides [8] [Manpower] <during the [Hellenistic Age]>",
-			"Provides [10] [Manpower] <during the [Imperial Age]>",
+			"Provides [2] [Manpower] <during the [Archaic Age]>",
+			"Provides [3] [Manpower] <during the [Classical Age]>",
+			"Provides [4] [Manpower] <during the [Hellenistic Age]>",
+			"Provides [5] [Manpower] <during the [Imperial Age]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture] from [Village] tiles [in this city]",
 			"[+50]% Gold given to enemy if city is captured",
@@ -61,14 +61,14 @@
 		"science": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
+			"Only available <in cities with a [Palace]>"
+			"New [King] units start with [10] XP [in this city]",
 			"Provides [2] [Sanitation]",
-		"Only available <in cities with a [Palace]>"
-		"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
-		"New [King] units start with [10] XP [in this city]",
+			"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
 			"[+10]% Production when constructing [Cure Plague] buildings [in this city]"
 			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]"
-		"Limited to [1] per Civilization",
-		"Destroyed when the city is captured",
+			"Limited to [1] per Civilization",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Writing"
 	},
@@ -81,17 +81,17 @@
 		"cost": 100,
 		"specialistSlots": {"Magistrate": 2},
 		"uniques": [
-		"Only available <in cities with a [Palace]>",
-		"Provides [1] [Decadence] <during the [Classical Age]>",
-		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
-		"Provides [3] [Decadence] <during the [Imperial Age]>",
-		"Provides [1] [Nobles] <during the [Imperial Age]>",
-		"New [Foot Guard] units start with [10] XP [in this city]",
-		"New [General] units start with [10] XP [in this city]",
-		"[+1 Gold] from [Trading post] tiles [in this city]",
-		"[+1 Happiness] from [Village] tiles [in this city]",
-		"Limited to [1] per Civilization",
-		"Destroyed when the city is captured",
+			"Only available <in cities with a [Palace]>",
+			"Provides [1] [Decadence] <during the [Classical Age]>",
+			"Provides [2] [Decadence] <during the [Hellenistic Age]>",
+			"Provides [3] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Nobles] <during the [Imperial Age]>",
+			"New [Foot Guard] units start with [10] XP [in this city]",
+			"New [General] units start with [10] XP [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Happiness] from [Village] tiles [in this city]",
+			"Limited to [1] per Civilization",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Writing"
 	},
@@ -103,8 +103,8 @@
 		"happiness": 3,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
-			"Consumes [1] [Sanitation]",
 			"Only available <in cities with a [Palace]>",
+			"Consumes [1] [Sanitation]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"[+2 Happiness] from [Wine] tiles [in this city]",
@@ -127,13 +127,13 @@
 		"cityHealth": 20,
 		"greatPersonPoints": {"General": 1},
 		"uniques": [
-		"Only available <in cities with a [Palace]>",
-		"Provides [1] [Decadence]",
-		"Provides [1] [Decadence] <during the [Imperial Age]>",
-		"[+1 Happiness] from [Wine] tiles [in this city]",
-		"[+1 Happiness] from [Incense] tiles [in this city]",
-		"[+1 Happiness] from [Truffles] tiles [in this city]",
-		"[+1 Happiness] from [Honey] tiles [in this city]",
+			"Only available <in cities with a [Palace]>",
+			"Provides [1] [Decadence]",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
+			"[+1 Happiness] from [Wine] tiles [in this city]",
+			"[+1 Happiness] from [Incense] tiles [in this city]",
+			"[+1 Happiness] from [Truffles] tiles [in this city]",
+			"[+1 Happiness] from [Honey] tiles [in this city]",
 		],
 		"requiredTech": "Diplomacy"
 	},
@@ -309,6 +309,7 @@
 		"happiness": 2,
 		"culture": 2,
 		"uniques": [
+			"Provides [1] [Sanitation]",
 			"[+1 Culture] from [Marble] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Fort] tiles [in this city]",
@@ -357,7 +358,6 @@
 		"uniques": [  
 			"Only available <in cities with a [Urban Fabric II]>",
 			"Provides [1] [Decadence] <during the [Imperial Age]>"
-			"Provides [1] [Manpower] <during the [Imperial Age]>",
 			"Provides [2] [Manpower]",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 			"Cost increases by [2] per owned city",
@@ -376,7 +376,6 @@
 		"uniques": [   
 			"Only available <in cities with a [Urban Fabric I]>",  
 			"Consumes [1] [Decadence] <in cities with a [Syssition]>",
-			"Provides [1] [Manpower] <during the [Imperial Age]>",
 			"Provides [2] [Manpower]",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
@@ -469,7 +468,7 @@
 		"uniques": [   
 			"Only available <in cities with a [Urban Fabric I]>",
 			"Comment [-Training: Archer, Slinger]",
-			"Provides [3] [Manpower]",
+			"Provides [2] [Manpower]",
 		],
 		"requiredTech": "Archery"
 	},
@@ -552,7 +551,7 @@
 		"hurryCostModifier": 20,
 		"Cost":50,
 		"maintenance": 1,
-		"cityHealth": 50,
+		"cityHealth": 60,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>", 
 			"Consumes [1] [Manpower]",
@@ -1341,7 +1340,7 @@
 			"Provides [1] [Manpower] <during the [Classical Age]>",
 			"Provides [2] [Manpower] <during the [Hellenistic Age]>",
 			"Provides [3] [Manpower] <during the [Imperial Age]>",
-			"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
+			"Provides [1] [Manpower] <in cities with at least [7] [Population]>",
 			"[+1 Culture] from [Fort] tiles [in this city]",
 			"[+50]% weight to this choice for AI decisions",
 		]

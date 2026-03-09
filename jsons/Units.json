@@ -705,6 +705,7 @@
       	"Consumes [1] [Mercenary (Thracian)]",
       	"Can be purchased with [Gold] [in all cities]",
       	"Never appears as a Barbarian unit",
+      	"Unbuildable",
     ],
     "promotions": [
       "[Thracian Warband] ability",
