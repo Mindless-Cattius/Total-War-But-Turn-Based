@@ -2909,7 +2909,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
-			"Provides [60] [Manpower] <for [150] turns>",
+			"Provides [60] [Manpower] <if [Italia] is not constructed> <if [Hispania] is not constructed>",
     			"[+30]% Yield from pillaging tiles <for [150] turns>",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
@@ -2934,7 +2934,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
-			"Provides [60] [Manpower] <for [150] turns>",
+			"Provides [60] [Manpower]  <if [Italia] is not constructed> <if [Hispania] is not constructed>",
     			"[+30]% Yield from pillaging tiles <for [150] turns>",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
@@ -2957,8 +2957,8 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed>",
-			"Provides [30] [Manpower] <for [150] turns>",
-			"Provides [8] [Horses] <for [150] turns>",
+			"Provides [30] [Manpower] <if [Armenia] is not constructed> <if [Palaestina] is not constructed>",
+			"Provides [8] [Horses] <if [Armenia] is not constructed> <if [Achaea] is not constructed>",
     			"[+50]% Yield from pillaging tiles",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
         		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <for [150] turns>",
