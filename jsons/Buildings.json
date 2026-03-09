@@ -2581,9 +2581,10 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
       			"Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]",
-      			"[+10]% Strength <for [Infantry Shield III] units> <when fighting in [Friendly Land] tiles>",
+      			"[+10]% Strength <for [Infantry Shield III] units> <when defending> <when fighting in [Friendly Land] tiles>",
       			"[-10]% Strength <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
       			"[+50]% maintenance costs <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
+      			"[+100]% maintenance costs <for [Siege] units> <when fighting in [Enemy Land] tiles>",
 			"Remove [Empire Divide] [in capital] <when not at war>",
 			"Destroyed when the city is captured",
       			"Unbuildable",
@@ -2602,6 +2603,9 @@
 			"Gain a free [Silver Inflation] [in all cities] <if [Currency Reform] is not constructed by anybody>",
 			"Gain a free [Egypt Grain Crisis] [in all cities] <if [Egypt Grain] is not constructed>",
         		"Free [Limitanei] appears <upon turn end> <when above [50] [Manpower]> <with [1]% chance>",
+        		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
+        		"Free [Illydrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
+        		"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
 			"Provides [1] [Enable Hellenic Legion]",
 			"Provides [1] [Enable Illyrian Legion]",
 			"Provides [1] [Enable Hellenic Limitanei]",
@@ -2636,7 +2640,7 @@
     		"uniques": [
         		"Cannot be purchased",
         		"Remove [Age Of Many Emperors] [in all cities]",
-      			"Unbuildable <if [Age Of Many Emperors] is not constructed>",
+      			"Unbuildable <if [Age Of Many Emperors] is not constructed> <if [Aegyptus] is not constructed> <if [Hispania] is not constructed>",
 			"Destroyed when the city is captured",
     ]
 }
@@ -2705,7 +2709,7 @@
 		"specialistSlots": {"Priest": 1},
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]"
-      			"[-2 Food, -1 Happiness] [in this city]",
+      			"[-2 Food, -2 Happiness] [in this city]",
 			"[-1 Food, +2 Gold] <in cities with a [Granary]>",
       			"Unbuildable",
 			"Unsellable",
@@ -2717,7 +2721,7 @@
 
   	{
     		"name": "Egypt Grain",
-    		"cost": 0,
+    		"cost": 50,
     		"maintenance": 0,
 		"specialistSlots": {"Merchant": 1},
     		"uniques": [
@@ -2725,8 +2729,9 @@
         		"Remove [Egypt Grain Crisis] [in all cities]",
       			"[+1 Food, +1 Happiness] [in all cities]",
         		"Remove [Egypt Grain Crisis] [in all cities]",
-      			"Unbuildable",
+      			"Unbuildable <if [Aegyptus] is not constructed> <if [Egypt Grain Crisis] is not constructed>",
 			"Unsellable",
+			"Only available <in [in capital] cities>",
 			"Never destroyed when the city is captured",
     ]
   	},
@@ -2736,10 +2741,11 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-    			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Armenia] is constructed> <if [Africa] is constructed>  <if [Anatolia] is constructed>",
+    			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Armenia] is constructed> <if [Africa] is constructed>  <if [Anatolia] is constructed>  <if [Hispania] is constructed>",
 			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Pylramence Empire] is not constructed by anybody>",
 			"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
-        		"Free [Cavalry] appears <upon turn end> <when above [2] [Horses]> <with [3]% chance>",
+        		"Free [Cavalry] appears <upon turn end> <when above [4] [Horses]> <when above [30] [Manpower] <with [3]% chance>",
+        		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance>",
 			"Provides [1] [Enable Hellenic Limitanei]",
 			"Provides [1] [Enable Desert Legion]",
 			"[-50]% Great Person generation [in all cities]", 
@@ -2825,10 +2831,11 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-    			"Triggers victory <if [Hispania] is constructed> <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Gallia] is constructed> <if [Africa] is constructed>",
+    			"Triggers victory <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Africa] is constructed>",
 			"Gain a free [Gallic Secession] [in capital] <if [Gallic Empire] is not constructed by anybody>",
 			"Gain a free [Frontier Exhaustion] [in capital] <if [Administrative Consolidation] is not constructed by anybody>",
         		"Free [Gallic Limitanei] appears <upon turn end> <when above [50] [Manpower]> <with [1]% chance>",
+        		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance>",
 			"Provides [1] [Enable Gallic Legion]",
 			"Provides [1] [Enable Gallic Limitanei]",
 			"[-50]% Great Person generation [in all cities]", 
@@ -2863,7 +2870,7 @@
     		"uniques": [
         		"Cannot be purchased",
         		"Unsellable"
-        		"Unbuildable <if [Gallic Secession] is not constructed>",
+        		"Unbuildable <if [Gallic Secession] is not constructed> <if [Italia] is not constructed> ",
 			"Remove [Gallic Secession] [in all cities]",
     ]
 	},
@@ -2890,7 +2897,7 @@
         		"Comment [Gaul stopped pretending to be temporary and started governing like a state.]",
         		"Cannot be purchased",
         		"Unsellable"
-        		"Unbuildable <if [Frontier Exhaustion] is not constructed>",
+        		"Unbuildable <if [Frontier Exhaustion] is not constructed> <if [Italia] is not constructed>",
 			"Remove [Frontier Exhaustion] [in all cities]",
     ]
 }
@@ -2902,14 +2909,14 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
-			"Provides [40] [Manpower] <for [150] turns>",
+			"Provides [60] [Manpower] <for [150] turns>",
     			"[+30]% Yield from pillaging tiles <for [150] turns>",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
-        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units>",
-        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>",
-        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities>",
- 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>",
-			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units> <if [Hispania] is not constructed>",
+        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <if [Hispania] is not constructed> <if [Africa] is not constructed>",
+ 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Italia] is not constructed>",
+			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Italia] is not constructed>",
 			"[+30]% Production when constructing [Spear] units [in this city] <for [150] turns>",
 			"[+20]% Production when constructing [Archery] units [in this city] <for [150] turns>",
 			"[+30]% Production when constructing [Horseman] units [in this city] <for [150] turns>",
@@ -2927,14 +2934,14 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
-			"Provides [40] [Manpower] <for [150] turns>",
+			"Provides [60] [Manpower] <for [150] turns>",
     			"[+30]% Yield from pillaging tiles <for [150] turns>",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
-        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <for [150] turns>",
-        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units> <for [150] turns>",
-        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <for [150] turns>",
- 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [150] turns>",
-			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <for [150] turns>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>  <if [Hispania] is not constructed>",
+        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <if [Hispania] is not constructed> <if [Africa] is not constructed>",
+ 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Hispania] is not constructed> <if [Italia] is not constructed>",
+			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Achaea] is not constructed>",
 			"[+40]% Production when constructing [Sword] units [in this city] <for [150] turns>",
 			"[-50]% Great Person generation [in all cities]", 
         		"Free [Bastarnae Warrior] appears <upon turn end> <when above [50] [Manpower]> <with [2]% chance>",
@@ -2950,7 +2957,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed>",
-			"Provides [20] [Manpower] <for [150] turns>",
+			"Provides [30] [Manpower] <for [150] turns>",
 			"Provides [8] [Horses] <for [150] turns>",
     			"[+50]% Yield from pillaging tiles",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
@@ -2974,8 +2981,8 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-    			"Triggers victory <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed>",
-			"Provides [30] [Manpower] <for [150] turns>",
+    			"Triggers victory <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed> <if [Scythia] is constructed> <if [Aegyptus] is constructed>",
+			"Provides [35] [Manpower] <for [150] turns>",
       			"[+3 Happiness, +5 Gold] [in all cities] <for [150] turns>",
       			"[-80]% maintenance costs <for [Military] units> <for [150] turns>",
         		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <for [150] turns>",

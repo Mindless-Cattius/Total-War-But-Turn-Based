@@ -1092,7 +1092,7 @@
  		 "uniques": [
 			"[+30]% Strength bonus for [King] units within [1] tiles <when defending>",
       			"[-5]% Strength for enemy [Military] units in adjacent [all] tiles",
-   			 "[+5]% Strength <when defending> <vs [Archery] units>"]
+   			 "[+10]% Strength <when defending> <vs [Archery] units>"]
         "column": 36,
         "row": 6
 	},

@@ -2,7 +2,7 @@
 {
     "name": "Barbarian Spearman",
     "unitType": "Spear",
-    "movement": 2,
+    "movement": 3,
     "strength": 11,
     "cost": 50,
     "requiredTech": "Bronze Working",
@@ -18,7 +18,7 @@
   {
     "name": "Barbarian Pike Phalanx",
     "unitType": "Spear",
-    "movement": 2,
+    "movement": 3,
     "strength": 16,
     "cost": 100,
     "requiredTech": "Bronze Working",
@@ -36,7 +36,7 @@
     "unitType": "Sword",
     "hurryCostModifier": 20,
     "cost": 120,
-    "movement": 2,
+    "movement": 3,
     "strength": 15,
     "requiredTech": "Citizen Levy",
     "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
@@ -51,7 +51,7 @@
     "name": "Barbarian Heavy Spearman",
     "unitType": "Spear",
     "cost": 150,
-    "movement": 2,
+    "movement": 3,
     "strength": 18,
     "requiredTech": "Military Reforms",
     "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
@@ -68,7 +68,7 @@
     "name": "Barbarian Heavy Swordsman",
     "unitType": "Sword",
     "cost": 150,
-    "movement": 2,
+    "movement": 3,
     "strength": 19,
     "requiredTech": "Military Reforms",
     "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
@@ -85,7 +85,7 @@
     "unitType": "Mounted",
     "hurryCostModifier": 20,
     "cost": 80,
-    "movement": 4,
+    "movement": 3,
     "strength": 13,
     "requiredTech": "Riding",
     "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
@@ -103,7 +103,7 @@
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
     "cost": 140,
-    "movement": 4,
+    "movement": 5,
     "strength": 8,
     "rangedStrength": 11,
     "requiredTech": "Riding",
@@ -120,7 +120,7 @@
     "unitType": "Mounted",
     "hurryCostModifier": 20,
     "cost": 130,
-    "movement": 3,
+    "movement": 4,
     "strength": 17,
     "requiredTech": "Equestrian Class",
     "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
@@ -135,7 +135,7 @@
   {
     "name": "Barbarian Archer",
     "unitType": "Archery",
-    "movement": 2,
+    "movement": 3,
     "strength": 7,
     "rangedStrength": 12,
     "cost": 50,
@@ -151,7 +151,7 @@
   {
     "name": "Barbarian Slinger",
     "unitType": "Archery",
-    "movement": 2,
+    "movement": 3,
     "strength": 8,
     "rangedStrength": 11,
     "cost": 50,
@@ -2361,6 +2361,7 @@
     "promotions": [
       "[Royal Phalanx] ability",
       "Infantry Shield II"
+	"Veteran",
     ],
     "attackSound": "metalhit"
   },
@@ -2386,6 +2387,7 @@
     "promotions": [
       "Horse Archer ability",
 	"Improved Armor"
+	"Veteran",
     ],
     "attackSound": "arrow"
   },
@@ -2407,6 +2409,7 @@
       "Camel Cavalry ability",
 	"Camels Scare Horses"
 	"Charge I",
+	"Veteran",
     ],
     "attackSound": "horse"
   },
@@ -2434,6 +2437,7 @@
       "Infantry Shield III",
       "Drill I",
       "Formation I",
+	"Veteran",
     ],
     "attackSound": "metalhit"
   },
@@ -2459,6 +2463,7 @@
     "promotions": [
       "[Cavalry] ability",
 	"Improved Armor"
+	"Veteran",
     ],
     "attackSound": "arrow"
   },
@@ -2483,6 +2488,7 @@
       "Cavalry Shield II",
 	"Praetorianus",
 	"Improved Armor"
+	"Veteran",
     ],
     "attackSound": "horse"
   },
@@ -2510,6 +2516,7 @@
       "Infantry Shield II",
       "Desert Warrior",
 	"Medic I",
+	"Veteran",
     ],
     "attackSound": "metalhit"
   },
@@ -2536,6 +2543,7 @@
 	"Shock I",
 	"Berserker",
 	"Improved Armor"
+	"Veteran",
     ],
     "attackSound": "metalhit"
   },
@@ -2561,6 +2569,7 @@
 	"Ambush I",
 	"Charge I",
 	"Improved Armor"
+	"Veteran",
     ],
     "attackSound": "horse"
   },
@@ -2590,6 +2599,7 @@
       "Cavalry Shield II",
       "Charge I",
 	"Praetorianus",
+	"Veteran",
     ],
     "attackSound": "horse"
   },
@@ -2615,6 +2625,7 @@
     "promotions": [
 	"Praetorianus",
       "Infantry Shield II",
+	"Veteran",
     ],
     "attackSound": "metalhit"
   },
@@ -2640,6 +2651,7 @@
     "promotions": [
 	"Praetorianus",
       "Infantry Shield III",
+	"Veteran",
     ],
     "attackSound": "metalhit"
   },
@@ -2664,6 +2676,7 @@
 	"Shock I",
       "Cavalry Shield II",
 	"Improved Armor"
+	"Veteran",
     ],
     "attackSound": "horse"
   },
@@ -2690,6 +2703,7 @@
       "Cavalry Shield II",
       "Plunderer",
 	"Raider I",
+	"Veteran",
     ],
     "attackSound": "horse"
   },
@@ -2699,7 +2713,7 @@
     "movement": 3,
     "strength": 15,
     "rangedStrength": 11,
-    "cost": 160,
+    "cost": 170,
     "uniques": [
       	"Comment [-Elite heavy skirmisher, good melee defense, high withdraw chance.]",
     	"Can move after attacking",
@@ -2713,6 +2727,7 @@
       	"[Skirmisher] ability",
       	"Infantry Shield II",
 	"Improved Armor",
+	"Veteran",
     ],
     "attackSound": "nonmetalhit",
   },
@@ -2740,6 +2755,7 @@
       "Infantry Shield III",
       "Veteran",	
 	"Improved Armor"
+	 "[Standard Bearer]",
     ],
     "attackSound": "metalhit"
   },
@@ -2754,7 +2770,6 @@
       	"Comment [-Elite heavy infantry, Emperor's best frienemy.]",
       	"Only available <in cities with a [Imperial Barracks]>",
       	"Limited to [1] per Civilization",
-      	"[+13]% Strength bonus for [Military] units within [1] tiles",
 	"[+1] XP gained from combat",
       	"Consumes [5] [Manpower]",
       	"Consumes [1] [Veteran]",
@@ -2765,8 +2780,9 @@
       	"Infantry Shield III",
 	"Praetorianus",
 	"Drill I",
+	"Veteran",
 	"Improved Armor"
-	 "[Standard Bearer]",
+	 "Inspiring",
     ],
     "attackSound": "metalhit"
   },
@@ -2791,6 +2807,7 @@
       "[Cataphract] ability",
 	"Praetorianus",
 	"Improved Armor"
+	"Veteran",
     ],
     "attackSound": "horse"
   },
@@ -2813,6 +2830,7 @@
       "Clibanarii ability",
 	"Shock I",
 	"Improved Armor"
+	"Veteran",
     ],
     "attackSound": "horse"
 },
@@ -2828,6 +2846,7 @@
       	"Only available <with [Enable Hellenic Legion]> <hidden from users>",
       	"Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
       	"Consumes [5] [Manpower]",
       	"Consumes [1] [Iron]",
     ],
@@ -2850,6 +2869,7 @@
       	"Comment [-Medium spear infantry, can build road, good at defending homeland and against cavalry.] <before the [Imperial Age]>",
       	"Comment [-Heavy spear infantry, can build road, good at defending homeland and against cavalry.] <during the [Imperial Age]>",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
        	"[+20]% Strength <when fighting in [Friendly Land] tiles>",
        	"[+10]% Strength <when fighting in [Hill] tiles>",
       	"Consumes [4] [Manpower]",
@@ -2872,6 +2892,7 @@
       	"Only available <in cities with a [Barracks]>",
       	"Only available <with [Enable Gallic Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
       	"Consumes [5] [Manpower]",
       	"Consumes [1] [Iron]",
     ],
@@ -2894,6 +2915,7 @@
       	"Only available <in cities with a [Barracks]>",
       	"Only available <with [Enable Gallic Limitanei]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
        	"[+10]% Strength <when fighting in [Friendly Land] tiles>",
        	"[+10]% Strength <when fighting in [Forest] tiles>",
       	"Consumes [4] [Manpower]",
@@ -2915,6 +2937,7 @@
     "uniques": [
      	"Only available <in cities with a [Muster Field]> <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
 	"Comment ['Spearman — ideal for stopping horses, not much else.']",
+	"Can build [Remove Forest] improvements on tiles",
       	"Consumes [2] [Manpower]",
     ],
     "promotions": [
@@ -2935,6 +2958,7 @@
       "Only available <in cities with a [Barracks]>",
       	"Only available <with [Enable Desert Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
     ],
@@ -2956,6 +2980,7 @@
       	"Only available <in cities with a [Barracks]>",
       	"Only available <with [Enable Illyrian Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
+	"Can build [Remove Forest] improvements on tiles",
 	"[+2] XP gained from combat",
       	"Consumes [5] [Manpower]",
       	"Consumes [1] [Iron]",
