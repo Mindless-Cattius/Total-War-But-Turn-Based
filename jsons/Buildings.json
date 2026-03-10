@@ -2256,7 +2256,7 @@
 			"Remove [Cure Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
 			"Cost increases by [2] per owned city",
-			"[80]% weight to this choice for AI decisions",
+			"[+800]% weight to this choice for AI decisions",
 ]
 	},
 	{
@@ -2270,7 +2270,7 @@
 			"Remove [Cure Dangerous Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
 			"Cost increases by [3] per owned city",
-			"[80]% weight to this choice for AI decisions",
+			"[+800]% weight to this choice for AI decisions",
 ]
 	},				// National Wonder
 
@@ -2585,7 +2585,7 @@
       			"[-10]% Strength <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
       			"[+50]% maintenance costs <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
       			"[+100]% maintenance costs <for [Siege] units> <when fighting in [Enemy Land] tiles>",
-			"Remove [Empire Divide] [in capital] <when not at war>",
+			"Remove [Empire Divide] [in all cities] <when not at war>",
 			"Destroyed when the city is captured",
       			"Unbuildable",
 			"Unsellable",
@@ -2636,11 +2636,13 @@
   	},
 	{
     		"name": "Roman Centralize Power",
-   		"cost": 1000,
+   		"cost": 1200,
     		"uniques": [
+         "Comment [Restore each of these provinces each give -10% production time: Hispania, Gallic, Anatolia, Aegyptus, Palaestine, Italia",
         		"Cannot be purchased",
         		"Remove [Age Of Many Emperors] [in all cities]",
-      			"Unbuildable <if [Age Of Many Emperors] is not constructed> <if [Aegyptus] is not constructed> <if [Hispania] is not constructed>",
+      			"Unbuildable <if [Age Of Many Emperors] is not constructed>"
+         "Only available <in cities with a [Italia]>",
 			"Destroyed when the city is captured",
     ]
 }
@@ -2690,11 +2692,10 @@
 	{
     		"name": "Praetorian Purge",
     		"requiredBuilding": "Praetorian Greed",
-    		"cost": 800,
+    		"cost": 500,
     		"uniques": [
         		"Comment [After auctioning off the empire, the Praetorians were finally dealt with.]",
         		"Remove [Praetorian Greed] [in all cities]",
-			"Only available <in cities with a [Praetorian Greed]>",
 			"Only available <in cities with a [Praetorian Greed]> <during a Golden Age>",
       			"Unbuildable <if [Praetorian Greed] is not constructed>",
         		"Cannot be purchased",
@@ -2729,10 +2730,10 @@
         		"Remove [Egypt Grain Crisis] [in all cities]",
       			"[+1 Food, +1 Happiness] [in all cities]",
         		"Remove [Egypt Grain Crisis] [in all cities]",
-      			"Unbuildable <if [Aegyptus] is not constructed> <if [Egypt Grain Crisis] is not constructed>",
+      			"Unbuildable <if [Egypt Grain Crisis] is not constructed>",
 			"Unsellable",
-			"Only available <in [in capital] cities>",
-			"Never destroyed when the city is captured",
+			"Only available <in cities with a [Aegyptus]>",
+			"Destroyed when the city is captured",
     ]
   	},
 	{
@@ -3012,6 +3013,7 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
@@ -3024,6 +3026,7 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
@@ -3036,6 +3039,7 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
@@ -3072,6 +3076,7 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
@@ -3084,6 +3089,7 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
