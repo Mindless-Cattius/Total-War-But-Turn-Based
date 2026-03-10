@@ -1824,6 +1824,8 @@
       "Empire enters a [10]-turn Golden Age <by consuming this unit>",
       "Great Person - [Culture]",
 	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
+      "Gain [100]-[5000] [Culture] <by consuming this unit>",
+      "Gain [100]-[12000] [Gold] <by consuming this unit>",
       "Unbuildable",
       "Uncapturable"
     ],
@@ -1848,9 +1850,9 @@
     "unitType": "Civilian",
     "uniques": [
       	"Empire enters a [10]-turn Golden Age <by consuming this unit>",
-      	"Free Social Policy <by consuming this unit>",
 	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
       	"Great Person - [Propagandhi]",
+      "Gain [500]-[5000] [Culture] <by consuming this unit>",
       	"Unbuildable",
       	"Uncapturable"
 ],
@@ -1863,7 +1865,7 @@
       "Empire enters a [12]-turn Golden Age <by consuming this unit>",
       "[1] free random researchable Tech(s) from the [Archaic Age] <by consuming this unit> <during the [Archaic Age]>",
       "[1] free random researchable Tech(s) from the [Classical Age] <by consuming this unit> <during the [Classical Age]>",
-      "[1] free random researchable Tech(s) from the [Hellenistic Age] <by consuming this unit> <during the [Hellenistic Age]>",
+      "Gain [3000]-[30000] [Science] <by consuming this unit> <after the [Classical Age]>",
       "Great Person - [Science]",
 	"Can instantly construct a [Village] improvement  <[1] times> <after which this unit is consumed>",
       	"Unbuildable",
@@ -1880,6 +1882,7 @@
       	"Cannot enter ocean tiles <before discovering [Agriculture]>",
      	"[+100]% Strength <when defending> <when [Embarked]>",
 	"Can instantly construct a [Trading post] improvement <[1] times> <after which this unit is consumed>",
+      "Gain [1000]-[6000] [Culture] <by consuming this unit>",
       	"Great Person - [Gold]",
       	"Unbuildable",
       	"Uncapturable"
