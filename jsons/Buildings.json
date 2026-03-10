@@ -2911,8 +2911,8 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-    			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed <if [Aegyptus] is constructed",
-			"Provides [20] [Manpower] <if [Italia] is not constructed> <if [Hispania] is not constructed>",
+    			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed <if [Aegyptus] is constructed>",
+			"Provides [20] [Manpower] <if [Italia] is not constructed>",
     			"[+30]% Yield from pillaging tiles <if [Italia] is not constructed>",
       			"[-80]% maintenance costs <for [Military] units> <if [Gallia] is not constructed>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
@@ -2934,7 +2934,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
-			"Provides [20] [Manpower]  <if [Italia] is not constructed> <if [Hispania] is not constructed>",
+			"Provides [20] [Manpower]  <if [Italia] is not constructed>",
     			"[+30]% Yield from pillaging tiles <if [Achaea] is not constructed>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>  <if [Hispania] is not constructed>",
