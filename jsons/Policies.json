@@ -764,9 +764,9 @@
                     "[Skirmisher] units gain the [Woodsman] promotion",
                     "[Archer] units gain the [Woodsman] promotion",
                     "[Infantry Shield I] units gain the [Woodsman] promotion",
-                    "[2] free [Skirmisher] units appear",
+                    "[1] free [Skirmisher] units appear",
                     "[1] free [Archer] units appear",
-                    "Provides [2] [Manpower]",
+                    "Provides [3] [Manpower]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -777,7 +777,7 @@
                 "uniques": [
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
                     "When conquering an encampment, earn [10] Gold and recruit a Barbarian unit"
-                    "[2] free [Swordsman] units appear",
+                    "[1] free [Swordsman] units appear",
                     "Provides [2] [Manpower]",
                     "Provides [1] [Veteran]",
                 ],
@@ -791,7 +791,7 @@
                     "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
                     "[+14]% Strength <when defending> <for [Spear] units> <when adjacent to a [Commander] unit>",
                     "[+1 Happiness] [in capital]",
-                    "[3] free [Spearman] units appear",
+                    "[1] free [Spearman] units appear",
                     "Provides [2] [Manpower]",
                 ],
                 "requires": ["Woodland Warfare"],

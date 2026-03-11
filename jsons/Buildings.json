@@ -2638,7 +2638,7 @@
     		"name": "Roman Centralize Power",
    		"cost": 2000,
     		"uniques": [
-         "Comment [Restore each of these provinces each give -10% production time: Hispania, Gallic, Anatolia, Aegyptus, Palaestine, Italia, Achaea",
+         "Comment [Restore each of these provinces each give -10% production time: Hispania, Gallic, Anatolia, Aegyptus, Palaestine, Italia, Achaea]",
         		"Cannot be purchased",
         		"Remove [Age Of Many Emperors] [in all cities]",
       			"Unbuildable <if [Age Of Many Emperors] is not constructed>"
@@ -2743,7 +2743,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Armenia] is constructed> <if [Africa] is constructed>  <if [Anatolia] is constructed>  <if [Hispania] is constructed>",
-			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Pylramence Empire] is not constructed by anybody>",
+			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Palmyrene Empire] is not constructed by anybody>",
 			"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
         		"Free [Cavalry] appears <upon turn end> <when above [4] [Horses]> <when above [30] [Manpower] <with [3]% chance>",
         		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance>",
@@ -2772,7 +2772,7 @@
    ]
 	},
 	{
-    		"name": "Pylramence Empire",
+    		"name": "Palmyrene Empire",
     		"cost": 2000,
     		"uniques": [
           "Comment [Capture these provinces each give -10% production time: Anatolia, Armenia, Achaea, Italia, Palaestine, Africa]",
@@ -2911,7 +2911,7 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-    			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed <if [Aegyptus] is constructed>",
+    			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed> <if [Aegyptus] is constructed>",
 			"Provides [20] [Manpower] <if [Italia] is not constructed>",
     			"[+30]% Yield from pillaging tiles <if [Italia] is not constructed>",
       			"[-80]% maintenance costs <for [Military] units> <if [Gallia] is not constructed>",
@@ -3012,7 +3012,7 @@
       			"Unbuildable",
 			"Never destroyed when the city is captured",
 			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
-			"[+10]% Production when constructing [Palmyrence Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
 ]
   	},
@@ -3054,7 +3054,7 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
-			"[+10]% Production when constructing [Palmyrence Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
 			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 ]
@@ -3069,7 +3069,7 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
-			"[+10]% Production when constructing [Palmyrence Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
 			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 ]
@@ -3085,7 +3085,7 @@
       			"Unbuildable",
 			"Never destroyed when the city is captured",
 			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
-			"[+10]% Production when constructing [Palmyrence Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
 ]
   	},
@@ -3101,7 +3101,7 @@
 			"Never destroyed when the city is captured",
 			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
-			"[+10]% Production when constructing [Palmyrence Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
@@ -3114,7 +3114,7 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
-			"[+10]% Production when constructing [Palmyrence Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 ]
 },
 {
@@ -3161,7 +3161,7 @@
     		"uniques": [
 			"[+1 Food] [in all cities]"
 			"Unsellable",
-			"[+10]% Production when constructing [Palmyrence Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
 			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
       			"Unbuildable",
