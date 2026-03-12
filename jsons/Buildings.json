@@ -150,7 +150,7 @@
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [1] per owned city"
-			"Only available <in cities with at least [3] [Population]>",
+			"Only available <in cities with at least [2] [Population]>",
 			"[100]% weight to this choice for AI decisions",
 			
 		],
@@ -166,7 +166,7 @@
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [2] per owned city"
-			"Only available <in cities with a [Urban Fabric I]> <in cities with at least [8] [Population]>",
+			"Only available <in cities with a [Urban Fabric I]> <in cities with at least [5] [Population]>",
 			"[70]% weight to this choice for AI decisions",
 		],
 },
@@ -185,7 +185,7 @@
 		"uniques": [
 			"Consumes [1] [Sanitation]",
 			"Cost increases by [3] per owned city",
-			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [15] [Population]>",
+			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [10] [Population]>",
 			"[70]% weight to this choice for AI decisions",
 		],
 },
@@ -204,7 +204,7 @@
 		"uniques": [
 			"Consumes [1] [Sanitation]",
 			"Cost increases by [4] per owned city"
-			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [20] [Population]>",
+			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [17] [Population]>",
 			"[70]% weight to this choice for AI decisions",
 		],
 },
