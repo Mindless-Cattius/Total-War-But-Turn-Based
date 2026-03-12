@@ -1685,7 +1685,7 @@
     "name": "Hemiola",
     "unitType": "Melee Water",
     "movement": 5,
-    "strength": 13,
+    "strength": 14,
     "cost": 80,
     "requiredTech": "Navigation",
     "uniques": [
@@ -1747,7 +1747,7 @@
     "unitType": "Ranged Water",
     "movement": 4,
     "strength": 25,
-    "rangedStrength": 23,
+    "rangedStrength": 21,
     "cost": 300,
     "requiredTech": "Naval Artillery",
     "uniques": [
@@ -1768,7 +1768,7 @@
     "movement": 2,
     "strength": 7,
     "rangedStrength": 11,
-    "cost": 160,
+    "cost": 170,
     "requiredTech": "Engineering",
     "uniques": [
 	"Comment [-Medium artillery, have good attack against mounted unit]",
@@ -1796,7 +1796,7 @@
     "movement": 2,
     "strength": 8,
     "rangedStrength": 10,
-    "cost": 210,
+    "cost": 230,
     "requiredTech": "Mass Production",
     "uniques": [
  	"Comment [-Heavy artillery, good against cities and infantry units]",
@@ -1824,7 +1824,7 @@
       "Empire enters a [10]-turn Golden Age <by consuming this unit>",
       "Great Person - [Culture]",
 	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
-      "Gain [100]-[5000] [Culture] <by consuming this unit>",
+      "Gain [100]-[4000] [Culture] <by consuming this unit>",
       "Gain [100]-[12000] [Gold] <by consuming this unit>",
       "Unbuildable",
       "Uncapturable"
@@ -1852,7 +1852,7 @@
       	"Empire enters a [10]-turn Golden Age <by consuming this unit>",
 	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
       	"Great Person - [Propagandhi]",
-      "Gain [500]-[5000] [Culture] <by consuming this unit>",
+      "Gain [50]-[7000] [Culture] <by consuming this unit>",
       	"Unbuildable",
       	"Uncapturable"
 ],
@@ -1865,7 +1865,8 @@
       "Empire enters a [12]-turn Golden Age <by consuming this unit>",
       "[1] free random researchable Tech(s) from the [Archaic Age] <by consuming this unit> <during the [Archaic Age]>",
       "[1] free random researchable Tech(s) from the [Classical Age] <by consuming this unit> <during the [Classical Age]>",
-      "Gain [3000]-[30000] [Science] <by consuming this unit> <after the [Classical Age]>",
+      "Gain [500]-[10000] [Science] <by consuming this unit> <during the [Hellenistic Age]>",
+      "Gain [1000]-[20000] [Science] <by consuming this unit> <during the [Imperial Age]>",
       "Great Person - [Science]",
 	"Can instantly construct a [Village] improvement  <[1] times> <after which this unit is consumed>",
       	"Unbuildable",
@@ -1882,7 +1883,7 @@
       	"Cannot enter ocean tiles <before discovering [Agriculture]>",
      	"[+100]% Strength <when defending> <when [Embarked]>",
 	"Can instantly construct a [Trading post] improvement <[1] times> <after which this unit is consumed>",
-      "Gain [1000]-[6000] [Culture] <by consuming this unit>",
+      "Gain [100]-[10000] [Gold] <by consuming this unit>",
       	"Great Person - [Gold]",
       	"Unbuildable",
       	"Uncapturable"
