@@ -146,6 +146,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 1,
+  "production": 1,
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [1] per owned city"
@@ -161,7 +162,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 2,
-		"production": 1,
+  "food": 1,
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [2] per owned city"
@@ -177,7 +178,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 4,
-		"production": 2,
+		"production": 1,
 		"cityHealth": 20,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 1},
@@ -196,7 +197,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
-		"production": 3,
+		"production": 1,
 		"cityHealth": 60,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 2},
@@ -214,7 +215,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 7,
-		"production": 4,
+		"production": 1,
 		"cityHealth": 100,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 3},
@@ -510,7 +511,7 @@
 		"cityHealth": 10,
 		"uniques": [ 
 			"Consumes [1] [Manpower]",
-			"Only available <in cities with a [Urban Fabric II]>",
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Engineering"
@@ -524,7 +525,7 @@
 		"cityHealth": 10,
 		"uniques": [
 			"Consumes [2] [Manpower]",
-			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Siege Workshop]>",
+			"Only available <in cities with a [Urban Fabric IV]> <in cities with a [Siege Workshop]>",
 			"New [Archery] units start with [5] XP [in this city]",
 			"New [Siege] units start with [10] XP [in this city]",
 			"New [Scout] units start with [5] XP [in this city]",
@@ -539,7 +540,7 @@
 		"hurryCostModifier": 20,
 		"Cost":20,
 		"maintenance": 1,
-		"cityHealth": 30,
+		"cityHealth": 40,
 		"uniques": [
 		"Destroyed when the city is captured",
 		],
@@ -551,7 +552,7 @@
 		"hurryCostModifier": 20,
 		"Cost":50,
 		"maintenance": 1,
-		"cityHealth": 60,
+		"cityHealth": 80,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>", 
 			"Consumes [1] [Manpower]",
@@ -567,7 +568,7 @@
 		"cityHealth": 150,
 		"happiness": 1,
 		"hurryCostModifier": 25,
-		"Cost": 200,
+		"Cost": 300,
 		"uniques": [
 			"Consumes [1] [Manpower]",
 			"Only available <in cities with a [Siege Workshop]>",
@@ -583,7 +584,7 @@
 		"happiness": 1,
 		"cityStrength": 3,
 		"cityHealth": 150,
-		"cost": 100,
+		"cost": 120,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>",  
 			"Consumes [1] [Manpower]",
@@ -615,6 +616,7 @@
 	},
 	{
 		"name": "Hill Fort",
+		"requiredBuilding": "Walls",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"happiness": 1,
