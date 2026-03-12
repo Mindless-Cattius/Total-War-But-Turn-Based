@@ -1897,7 +1897,7 @@
       "Empire enters a [12]-turn Golden Age <by consuming this unit> <if it hasn't used other actions yet>",
       "Can speed up construction of a building <if it hasn't used other actions yet>",
 	"Can instantly construct a [Fort] improvement <[1] times> <after which this unit is consumed>",
-      "[+10]% Strength bonus for [Siege] units within [1] tiles",
+      "[+5]% Strength bonus for [Siege] units within [1] tiles",
       "Great Person - [Production]",
       "Unbuildable",
       "Uncapturable"
@@ -2108,7 +2108,7 @@
     "uniqueTo": "The Romans",
     "movement": 3,
     "strength": 15,
-    "cost": 150,
+    "cost": 130,
     "uniques": [
       		"Only available <after adopting [Manipular Legion]> <hidden from users>",
        "[This Unit] is destroyed <after adopting [Legate Governance]>",
