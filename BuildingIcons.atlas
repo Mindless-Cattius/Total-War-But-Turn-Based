@@ -361,6 +361,13 @@ BuildingIcons/Egypt Grain
   orig: 50, 50
   offset: 0, 0
   index: -1
+BuildingIcons/Food Import
+  rotate: false
+  xy: 1048, 190
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Food Imports
   rotate: false
   xy: 1048, 190
@@ -753,11 +760,11 @@ BuildingIcons/Palace Library
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Palaestina
+BuildingIcons/Palisade
   rotate: false
-  xy: 1804, 824
-  size: 64, 64
-  orig: 64, 64
+  xy: 436, 140
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Palmyrence 3rd century crisis
@@ -765,13 +772,6 @@ BuildingIcons/Palmyrence 3rd century crisis
   xy: 1804, 824
   size: 64, 64
   orig: 64, 64
-  offset: 0, 0
-  index: -1
-BuildingIcons/Palisade
-  rotate: false
-  xy: 436, 140
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Palmyrene Ascendancy
