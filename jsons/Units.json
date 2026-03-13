@@ -29,7 +29,7 @@
       "[Pike Phalanx] ability",
       "Infantry Shield I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Barbarian Swordsman",
@@ -904,7 +904,7 @@
       "[Pike Phalanx] ability",
       "Infantry Shield I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Swordsman",
@@ -1137,7 +1137,7 @@
       "Assault I",
       "Drill I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
 {
     "name": "Manipular Legion",
@@ -1161,7 +1161,7 @@
       "Infantry Shield III",
       "Drill I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
 {
     "name": "Limitanei",
@@ -1185,7 +1185,7 @@
       "Infantry Shield III",
       "Drill I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Heavy Spearman",
@@ -1229,7 +1229,7 @@
       "Infantry Shield III",
       "Drill I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Solduros",
@@ -2367,7 +2367,7 @@
       "Infantry Shield II"
 	"Veteran",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "March"
   },
 {
     "name": "Armored Horse Archer",
@@ -2859,7 +2859,7 @@
       "Assault I",
       "Formation I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
 {
     "name": "Hellenic Limitanei",
@@ -2883,7 +2883,7 @@
       "Infantry Shield III",
       "Formation I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Gallic Legion",
@@ -2905,7 +2905,7 @@
       "Assault I",
       "Shock I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
 {
     "name": "Gallic Limitanei",
@@ -2929,7 +2929,7 @@
       "Infantry Shield III",
       "Raider I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Gallic Spearman",
@@ -2971,7 +2971,7 @@
       "Assault I",
       "Desert Warrior"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Illyrian Legion",
@@ -2993,6 +2993,6 @@
       "Infantry Shield III",
       "Assault I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
 ]
