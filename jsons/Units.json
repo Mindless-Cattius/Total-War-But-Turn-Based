@@ -62,7 +62,7 @@
       "Infantry Shield III",
       "Formation I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Barbarian Heavy Swordsman",
@@ -78,7 +78,7 @@
       "Infantry Shield III",
       "Drill I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "marching"
   },
   {
     "name": "Barbarian Horseman",
@@ -1118,8 +1118,6 @@
   {
     "name": "Legion",
     "unitType": "Sword",
-    "replaces": "Heavy Swordsman",
-    "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 20,
     "cost": 170,
@@ -1131,6 +1129,7 @@
 	"Can build [Remove Forest] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
+      "Only available <with [Enable Legion]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -1150,12 +1149,11 @@
       		"Comment ['Heavy infantry, can build roads and steal land. Don’t expect them to win any races, but they’ll gladly take your territory while they're at it']",
       		"Only available <in cities with a [Barracks]>",
 	      	"Can build [All Road] improvements on tiles",
+		"Can build [Remove Forest] improvements on tiles",
       		"Consumes [3] [Manpower]",
-	"Can build [Remove Forest] improvements on tiles",
        		"Consumes [1] [Iron]",
       		"Can upgrade to [Legion]",
       		"Unbuildable <after discovering [Infantry Training]>",
-	"Can build [Remove Forest] improvements on tiles",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -1222,7 +1220,7 @@
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
 	"Can build [Remove Forest] improvements on tiles",
-	"Unbuildable <with [Enable Legion]> <hidden from users> <hidden from users>",
+	"Unbuildable <with [Enable Legion]> <hidden from users>",
       	"Only available <with [Enable Heavy Swordsman]> <hidden from users>",
     ],
     "promotions": [

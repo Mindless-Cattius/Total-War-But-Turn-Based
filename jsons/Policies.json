@@ -289,7 +289,7 @@
             {
                 "name": "Clan Traditions",
                 "uniques": [
-			"Provides [1] [Enable Legion] <after adopting [Total War]> <hidden from users>",
+			"Provides [1] [Enable Gallic Legion] <after adopting [Total War]> <hidden from users>",
 			"[+20]% XP gained from combat <for [Military] units> <when above [1] [Veteran]>",
        			"[-50]% maintenance costs <for [Military] units> <in [Friendly Land] tiles>",
         		"[+10]% Strength <for [Veteran] units> <when above [30] [Manpower]>",
@@ -647,7 +647,7 @@
                 "name": "Great Merchants' League",
                 "requires": ["Eastern Contacts"],
                 "uniques": [
-			"Provides [1] [Enable Legion] <after adopting [Total War]> <hidden from users>",
+			"Provides [1] [Enable Desert Legion] <after adopting [Total War]> <hidden from users>",
         		"[+10]% Strength <for [Military] units> <when fighting in [Desert] tiles>",
         		"[+10]% Strength <for [Military] units> <when fighting in [Coast] tiles>",
         		"[+1 Gold] from [Farm] tiles [in all cities]",
@@ -1347,7 +1347,7 @@
         "[+10]% Strength <for [Mounted Skirmisher] units>",
                     	"[+1 Happiness] [in all cities] <with a garrison>",
         		"[+1 Happiness] [in all cities] <when not at war>",
-			"Provides [1] [Enable Legion] <after adopting [Total War]> <hidden from users>",
+			"Provides [1] [Enable Hellenic Legion] <after adopting [Total War]> <hidden from users>",
                 ],
                 "row": 9,
                 "column": 5
@@ -1671,7 +1671,7 @@
                 "name": "Royal Trade Networks",
                 "requires": ["Grain Reserves"],
                 "uniques": [
-			"Provides [1] [Enable Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
+			"Provides [1] [Enable Hellenic Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
                     	"[Skirmisher] units gain the [Improved Armor] promotion",
                     	"[Horseman] units gain the [Improved Armor] promotion",
 			"[+2 Gold] from each Trade Route",
@@ -1890,7 +1890,7 @@
                 "name": "Toledo Steel",
                 "requires": ["The Falcata"],
                 "uniques": [
-			"Provides [1] [Enable Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
+			"Provides [1] [Enable Gallic Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
 			"[Infantry Shield II] units gain the [Improved Armor] promotion",
 			"[Infantry Shield III] units gain the [Improved Armor] promotion",
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
@@ -2204,8 +2204,7 @@
                     "[Military] units gain the [Scouting I] promotion",
                     "Provides [4] [Manpower]",
                     "[+1 Happiness] [in all cities]",
-                    	"Comment [Enables Legion] <hidden from users>",
-			"Provides [1] [Enable Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
+			"Provides [1] [Enable Illyrian Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
                 ],
                 "row": 5,
                 "column": 2
@@ -2535,7 +2534,7 @@
     	    {
       		"name": "Cohort Reformation",
       		"uniques": [
-                    	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    	"Comment [Enables Legion]","Provides [1] [Enable Legion] <hidden from users>",
                     	"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
         		"[+10]% Strength <when attacking> <for [Archer] units>",
         		"[+10]% Strength <when defending> <for [Scout] units>",
@@ -3248,6 +3247,7 @@
             "[+10]% Unhappiness from [Population] [in all cities]",
             "[+2 Gold] [in all cities] <with a garrison>",
             "[+1 Happiness] [in all cities]",
+			"Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
         ],
         "policies": [
             {
@@ -3518,6 +3518,7 @@
             "[+2 Happiness] from every [National Wonder]",
             "[+2 Happiness] from every [Natural Wonder]",
             "[+1 Happiness] [in capital]",
+			"Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
         ],
         "policies": [
             {
@@ -3862,6 +3863,7 @@
     			"[+2 Gold, +1 Food, +1 Faith] from every [Temple]",
     			"[+1 Happiness, -1 Gold] from [Plantation] tiles [in all cities]",
                     "[+1 Happiness, +1 Faith, +1 Gold] [in capital]",
+			"Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
                 ],
                 "row": 1,
                 "column": 1
