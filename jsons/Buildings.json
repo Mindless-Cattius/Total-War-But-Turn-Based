@@ -22,7 +22,6 @@
 			"[+1 Gold] from [Farm] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
-			"Can be purchased with [Gold] [in all cities]",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
 		]
@@ -42,10 +41,10 @@
 			"Provides [1] [Decadence] <during the [Classical Age]>",
 			"Provides [2] [Decadence] <during the [Hellenistic Age]>",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
-			"Provides [3] [Manpower] <during the [Archaic Age]>",
-			"Provides [5] [Manpower] <during the [Classical Age]>",
-			"Provides [8] [Manpower] <during the [Hellenistic Age]>",
-			"Provides [10] [Manpower] <during the [Imperial Age]>",
+			"Provides [1] [Manpower] <during the [Archaic Age]>",
+			"Provides [2] [Manpower] <during the [Classical Age]>",
+			"Provides [3] [Manpower] <during the [Hellenistic Age]>",
+			"Provides [4] [Manpower] <during the [Imperial Age]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture] from [Village] tiles [in this city]",
 			"[+50]% Gold given to enemy if city is captured",
@@ -61,14 +60,14 @@
 		"science": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
+			"Only available <in cities with a [Palace]>"
+			"New [King] units start with [10] XP [in this city]",
 			"Provides [2] [Sanitation]",
-		"Only available <in cities with a [Palace]>"
-		"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
-		"New [King] units start with [10] XP [in this city]",
+			"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
 			"[+10]% Production when constructing [Cure Plague] buildings [in this city]"
 			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]"
-		"Limited to [1] per Civilization",
-		"Destroyed when the city is captured",
+			"Limited to [1] per Civilization",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Writing"
 	},
@@ -81,17 +80,17 @@
 		"cost": 100,
 		"specialistSlots": {"Magistrate": 2},
 		"uniques": [
-		"Only available <in cities with a [Palace]>",
-		"Provides [1] [Decadence] <during the [Classical Age]>",
-		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
-		"Provides [3] [Decadence] <during the [Imperial Age]>",
-		"Provides [1] [Nobles] <during the [Imperial Age]>",
-		"New [Foot Guard] units start with [10] XP [in this city]",
-		"New [General] units start with [10] XP [in this city]",
-		"[+1 Gold] from [Trading post] tiles [in this city]",
-		"[+1 Happiness] from [Village] tiles [in this city]",
-		"Limited to [1] per Civilization",
-		"Destroyed when the city is captured",
+			"Only available <in cities with a [Palace]>",
+			"Provides [1] [Decadence] <during the [Classical Age]>",
+			"Provides [2] [Decadence] <during the [Hellenistic Age]>",
+			"Provides [3] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Nobles] <during the [Imperial Age]>",
+			"New [Foot Guard] units start with [10] XP [in this city]",
+			"New [General] units start with [10] XP [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Happiness] from [Village] tiles [in this city]",
+			"Limited to [1] per Civilization",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Writing"
 	},
@@ -103,8 +102,8 @@
 		"happiness": 3,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
-			"Consumes [1] [Sanitation]",
 			"Only available <in cities with a [Palace]>",
+			"Consumes [1] [Sanitation]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"[+2 Happiness] from [Wine] tiles [in this city]",
@@ -127,13 +126,13 @@
 		"cityHealth": 20,
 		"greatPersonPoints": {"General": 1},
 		"uniques": [
-		"Only available <in cities with a [Palace]>",
-		"Provides [1] [Decadence]",
-		"Provides [1] [Decadence] <during the [Imperial Age]>",
-		"[+1 Happiness] from [Wine] tiles [in this city]",
-		"[+1 Happiness] from [Incense] tiles [in this city]",
-		"[+1 Happiness] from [Truffles] tiles [in this city]",
-		"[+1 Happiness] from [Honey] tiles [in this city]",
+			"Only available <in cities with a [Palace]>",
+			"Provides [1] [Decadence]",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
+			"[+1 Happiness] from [Wine] tiles [in this city]",
+			"[+1 Happiness] from [Incense] tiles [in this city]",
+			"[+1 Happiness] from [Truffles] tiles [in this city]",
+			"[+1 Happiness] from [Honey] tiles [in this city]",
 		],
 		"requiredTech": "Diplomacy"
 	},
@@ -146,11 +145,12 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 1,
+  "production": 1,
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [1] per owned city"
-			"Only available <in cities with at least [3] [Population]>",
-			"[100]% weight to this choice for AI decisions",
+			"Only available <in cities with at least [2] [Population]>",
+			"[+1000]% weight to this choice for AI decisions",
 			
 		],
 },
@@ -161,12 +161,12 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 2,
-		"production": 1,
+  "food": 1,
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [2] per owned city"
-			"Only available <in cities with a [Urban Fabric I]> <in cities with at least [8] [Population]>",
-			"[70]% weight to this choice for AI decisions",
+			"Only available <in cities with a [Urban Fabric I]> <in cities with at least [5] [Population]>",
+			"[+1000]% weight to this choice for AI decisions",
 		],
 },
 
@@ -177,15 +177,15 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 4,
-		"production": 2,
+		"production": 1,
 		"cityHealth": 20,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
 			"Consumes [1] [Sanitation]",
 			"Cost increases by [3] per owned city",
-			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [15] [Population]>",
-			"[70]% weight to this choice for AI decisions",
+			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [10] [Population]>",
+			"[+1000]% weight to this choice for AI decisions",
 		],
 },
 
@@ -196,15 +196,15 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
-		"production": 3,
+		"production": 1,
 		"cityHealth": 60,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
 			"Consumes [1] [Sanitation]",
 			"Cost increases by [4] per owned city"
-			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [20] [Population]>",
-			"[70]% weight to this choice for AI decisions",
+			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [17] [Population]>",
+			"[+1000]% weight to this choice for AI decisions",
 		],
 },
 {
@@ -214,7 +214,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 7,
-		"production": 4,
+		"production": 1,
 		"cityHealth": 100,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 3},
@@ -222,7 +222,7 @@
 			"Consumes [2] [Sanitation]",
 			"Cost increases by [5] per owned city"
 			"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
-			"[20]% weight to this choice for AI decisions",
+			"[+1000]% weight to this choice for AI decisions",
 		],
 },
 
@@ -309,6 +309,7 @@
 		"happiness": 2,
 		"culture": 2,
 		"uniques": [
+			"Provides [1] [Sanitation]",
 			"[+1 Culture] from [Marble] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Fort] tiles [in this city]",
@@ -357,7 +358,6 @@
 		"uniques": [  
 			"Only available <in cities with a [Urban Fabric II]>",
 			"Provides [1] [Decadence] <during the [Imperial Age]>"
-			"Provides [1] [Manpower] <during the [Imperial Age]>",
 			"Provides [2] [Manpower]",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 			"Cost increases by [2] per owned city",
@@ -376,7 +376,6 @@
 		"uniques": [   
 			"Only available <in cities with a [Urban Fabric I]>",  
 			"Consumes [1] [Decadence] <in cities with a [Syssition]>",
-			"Provides [1] [Manpower] <during the [Imperial Age]>",
 			"Provides [2] [Manpower]",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
@@ -401,7 +400,7 @@
 			"New [Sword] units start with [5] XP [in this city]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
-			"Provides [4] [Manpower]",
+			"Provides [3] [Manpower]",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"[+10]% Production when constructing [Spear] units [in this city]",
 			"[+10]% Production when constructing [Swordsman] units [in this city]",
@@ -448,7 +447,7 @@
 			"[+10]% Production when constructing [Mounted Archery] units [in this city]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
-			"Provides [4] [Manpower]",
+			"Provides [3] [Manpower]",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture, +1 Production] from [Fort] tiles [in this city]",
@@ -469,7 +468,7 @@
 		"uniques": [   
 			"Only available <in cities with a [Urban Fabric I]>",
 			"Comment [-Training: Archer, Slinger]",
-			"Provides [3] [Manpower]",
+			"Provides [1] [Manpower]",
 		],
 		"requiredTech": "Archery"
 	},
@@ -494,7 +493,7 @@
 			"Provides [1] [Veteran] <in cities with at least [15] [Population]>",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
-			"Provides [5] [Manpower]",
+			"Provides [4] [Manpower]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
 			"Cost increases by [3] per owned city",
@@ -511,7 +510,7 @@
 		"cityHealth": 10,
 		"uniques": [ 
 			"Consumes [1] [Manpower]",
-			"Only available <in cities with a [Urban Fabric II]>",
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Engineering"
@@ -524,8 +523,8 @@
 		"cityStrength": 3,
 		"cityHealth": 10,
 		"uniques": [
-			"Consumes [2] [Manpower]",
-			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Siege Workshop]>",
+			"Consumes [1] [Manpower]",
+			"Only available <in cities with a [Urban Fabric IV]> <in cities with a [Siege Workshop]>",
 			"New [Archery] units start with [5] XP [in this city]",
 			"New [Siege] units start with [10] XP [in this city]",
 			"New [Scout] units start with [5] XP [in this city]",
@@ -540,7 +539,7 @@
 		"hurryCostModifier": 20,
 		"Cost":20,
 		"maintenance": 1,
-		"cityHealth": 30,
+		"cityHealth": 40,
 		"uniques": [
 		"Destroyed when the city is captured",
 		],
@@ -552,7 +551,7 @@
 		"hurryCostModifier": 20,
 		"Cost":50,
 		"maintenance": 1,
-		"cityHealth": 50,
+		"cityHealth": 80,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>", 
 			"Consumes [1] [Manpower]",
@@ -568,9 +567,9 @@
 		"cityHealth": 150,
 		"happiness": 1,
 		"hurryCostModifier": 25,
-		"Cost": 200,
+		"Cost": 300,
 		"uniques": [
-			"Consumes [1] [Manpower]",
+			"Consumes [1] [Timber]",
 			"Only available <in cities with a [Siege Workshop]>",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -584,7 +583,7 @@
 		"happiness": 1,
 		"cityStrength": 3,
 		"cityHealth": 150,
-		"cost": 100,
+		"cost": 120,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>",  
 			"Consumes [1] [Manpower]",
@@ -616,6 +615,7 @@
 	},
 	{
 		"name": "Hill Fort",
+		"requiredBuilding": "Walls",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"happiness": 1,
@@ -838,7 +838,7 @@
 			"Only available <in cities with a [Urban Fabric III]>",
 			"Must be next to [Fresh water]"
 			"Provides [1] [Decadence]",
-			"[+20]% Great Person generation [in this city]", 
+			"[+10]% Great Person generation [in this city]", 
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Happiness] from [Trading post] tiles [in this city]",
 			"Cost increases by [3] per owned city",
@@ -1062,7 +1062,7 @@
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Market]>",
 			"Provides [3] [Decadence]",
-			"Consumes [3] [Manpower]",
+			"Consumes [2] [Manpower]",
 			"[Gold] cost of purchasing [Civilian] units [-25]%",
 			"[+3 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Happiness, -2 Food, +2 Gold] from [Village] tiles [in this city]",
@@ -1341,7 +1341,8 @@
 			"Provides [1] [Manpower] <during the [Classical Age]>",
 			"Provides [2] [Manpower] <during the [Hellenistic Age]>",
 			"Provides [3] [Manpower] <during the [Imperial Age]>",
-			"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
+			"Provides [1] [Manpower] <in cities with at least [10] [Population]>",
+			"Provides [1] [Manpower] <in cities with at least [20] [Population]>",
 			"[+1 Culture] from [Fort] tiles [in this city]",
 			"[+50]% weight to this choice for AI decisions",
 		]
@@ -1800,6 +1801,7 @@
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Happiness, +1 Food, +1 Gold, +1 Culture] from [Village] tiles [in this city]",
 			"[-1 Food, +1 Production] from [Fort] tiles [in this city]",
+			"Provides [1] [Sanitation]",
 			"Cost increases by [3] per owned city",
 			"Provides [1] [Sanitation]",
 			"Provides [2] [Decadence]",
@@ -2214,6 +2216,16 @@
 			"Destroyed when the city is captured"
 ]
 	},
+ {
+   "name": Risk of Plague
+   "uniques": [
+			"Gain a free [Plague] [in this city] <with [2]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when between [0] and [15] [Sanitation]> <hidden from users>",
+			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when above [15] [Sanitation]> <hidden from users>",
+			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [0] and [25] [Sanitation]>",
+			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when above [25] [Sanitation]>",
+			"Unbuildable","Unsellable",
+]
+ },
 	{
 		"name": "Dangerous Plague"
 		"maintenance": 0,
@@ -2223,10 +2235,12 @@
 			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when between [0] and [10] [Sanitation]>",
 			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when between [11] and [20] [Sanitation]>",
 			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when above [20] [Sanitation]> ",
+			"[+70]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <in cities with less than [6] [Population]>",
 			"[+2 Faith, +2 Science, -4 Happiness] [in this city]",
-			"[-3 Gold, -2 Food] from [improved] tiles [in this city]",
+			"[-2 Gold, -1 Food, -1 Production] from [improved] tiles [in this city]",
+			"[-2 Gold, -2 Food] from [improved] tiles [in this city] <in cities with at least [5] [Population]>",
 			"Consumes [2] [Decadence]",
-			"Consumes [3] [Manpower]",
+			"Consumes [1] [Manpower] <in cities with at least [3] [Population]>",
 			"Unbuildable","Unsellable","Unavailable",
 ]
 	},
@@ -2237,12 +2251,14 @@
 		"uniques": [ 
 			"Comment [-A reminder that sanitation is not decorative, your citizens call it tragedy. The bacteria call it opportunity.]",
 			"[+10]% Production when constructing [Cure Plague] buildings [in this city] <when between [0] and [10] [Sanitation]>",
-			"[+20]% Production when constructing [Cure Plague] buildings [in this city] <when between [11] and [20] [Sanitation]>",
-			"[+30]% Production when constructing [Cure Plague] buildings [in this city] <when above [20] [Sanitation]> ",
+			"[+15]% Production when constructing [Cure Plague] buildings [in this city] <when between [11] and [20] [Sanitation]>",
+			"[+20]% Production when constructing [Cure Plague] buildings [in this city] <when above [20] [Sanitation]>",
+			"[+70]% Production when constructing [Cure Plague] buildings [in this city] <in cities with less than [6] [Population]>",
 			"[+1 Faith, +1 Science, -2 Happiness] [in this city]",
-			"[-2 Gold, -1 Food] from [improved] tiles [in this city]",
+			"[-1 Gold, -1 Production] from [improved] tiles [in this city]",
+			"[-1 Gold, -1 Food] from [improved] tiles [in this city] <in cities with at least [5] [Population]>",
 			"Consumes [2] [Decadence]",
-			"Consumes [2] [Manpower]",
+			"Consumes [1] [Manpower] <in cities with at least [5] [Population]>",
 			"Unbuildable","Unsellable","Unavailable",
 ]
 	},
@@ -2256,7 +2272,7 @@
 			"Remove [Cure Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
 			"Cost increases by [2] per owned city",
-			"[80]% weight to this choice for AI decisions",
+			"[+800]% weight to this choice for AI decisions",
 ]
 	},
 	{
@@ -2270,7 +2286,7 @@
 			"Remove [Cure Dangerous Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
 			"Cost increases by [3] per owned city",
-			"[80]% weight to this choice for AI decisions",
+			"[+800]% weight to this choice for AI decisions",
 ]
 	},				// National Wonder
 
@@ -2418,7 +2434,7 @@
 		"name": "Imperial Barracks",
 		"isNationalWonder": true,
 		"hurryCostModifier": 50,
-		"Cost":400,
+		"Cost": 800,
 		"maintenance": 5,
 		"cityStrength": 2,
 		"cityHealth": 50,
@@ -2581,10 +2597,11 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
       			"Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]",
-      			"[+10]% Strength <for [Infantry Shield III] units> <when fighting in [Friendly Land] tiles>",
+      			"[+10]% Strength <for [Infantry Shield III] units> <when defending> <when fighting in [Friendly Land] tiles>",
       			"[-10]% Strength <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
       			"[+50]% maintenance costs <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
-			"Remove [Empire Divide] [in capital] <when not at war>",
+      			"[+100]% maintenance costs <for [Siege] units> <when fighting in [Enemy Land] tiles>",
+			"Remove [Empire Divide] [in all cities] <when not at war>",
 			"Destroyed when the city is captured",
       			"Unbuildable",
 			"Unsellable",
@@ -2596,14 +2613,20 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-    "Triggers victory <if [Italy] is constructed> <if [Spain] is constructed> <if [Gaul] is constructed> <if [Jerusalem] is constructed> <if [Palmyrence] is construced> <if [Egypt] is constructed>",
+    			"Triggers victory <if [Gallia] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Africa] is constructed> <if [Anatolia] is constructed> <if [Dacia] is constructed>",
 			"Gain a free [Age Of Many Emperors] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
 			"Gain a free [Praetorian Greed] [in capital] <if [Praetorian Purge] is not constructed by anybody>",
 			"Gain a free [Silver Inflation] [in all cities] <if [Currency Reform] is not constructed by anybody>",
 			"Gain a free [Egypt Grain Crisis] [in all cities] <if [Egypt Grain] is not constructed>",
+        		"Free [Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance>",
+        		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
+        		"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
+        		"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
 			"Provides [1] [Enable Hellenic Legion]",
 			"Provides [1] [Enable Illyrian Legion]",
 			"Provides [1] [Enable Hellenic Limitanei]",
+			"Consumes [15] [Manpower] <if [Africa] is not constructed>",
+			"[-50]% Great Person generation [in all cities]", 
 			"Destroyed when the city is captured",
 			"Unsellable",
       			"Unbuildable",
@@ -2620,9 +2643,9 @@
       			"[+300]% maintenance costs <for [Siege] units>",
       			"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
       			"[Gold] cost of purchasing [Military] units [+20]%",
-      			"[-2 Happiness] [in all cities] <when above [1] [Nobles]>",
-      			"[-2 Happiness] [in all cities] <when above [2] [Nobles]>",
-      			"[-2 Happiness] [in all cities] <when above [3] [Nobles]>",
+      			"[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
+      			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
+      			"[-1 Happiness] [in all cities] <when above [3] [Nobles]>",
 			"Destroyed when the city is captured",
 			"Unsellable",
       			"Unbuildable",
@@ -2630,11 +2653,13 @@
   	},
 	{
     		"name": "Roman Centralize Power",
-   		"cost": 1000,
+   		"cost": 2000,
     		"uniques": [
+         "Comment [Restore each of these provinces each give -10% production time: Hispania, Gallic, Anatolia, Aegyptus, Palaestine, Italia, Achaea]",
         		"Cannot be purchased",
         		"Remove [Age Of Many Emperors] [in all cities]",
-      			"Unbuildable <if [Age Of Many Emperors] is not constructed>",
+      			"Unbuildable <if [Age Of Many Emperors] is not constructed>"
+         "Only available <in cities with a [Italia]>",
 			"Destroyed when the city is captured",
     ]
 }
@@ -2648,7 +2673,7 @@
       			"[-2 Gold] from [Silver] tiles [in this city]",
       			"[-3 Gold, -1 Happiness] from [Village] tiles [in this city]",
       			"[-5 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
-			"[-5 Gold, -1 Happiness] <in cities with a [Market]>",
+			"[-5 Gold, -2 Happiness] <in cities with a [Market]>",
 			"Destroyed when the city is captured",
 			"Unbuildable","Unsellable",
 ]
@@ -2674,8 +2699,8 @@
       			"[+10]% Strength <when defending> <for [Praetoria] units>",
       			"[-20]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
       			"Provides [1] [Praetorian Greed]",
-      			"[-10 Gold, -2 Production, -20 Happiness] [in capital]",
-      			"[-2 Gold, -1 Happiness] [in all cities]",
+      			"[-10 Gold, -2 Production, -10 Happiness] [in capital]",
+      			"[-3 Gold, -1 Happiness] [in all cities]",
 			"Destroyed when the city is captured",
       			"Unbuildable",
 			"Unsellable",
@@ -2684,11 +2709,10 @@
 	{
     		"name": "Praetorian Purge",
     		"requiredBuilding": "Praetorian Greed",
-    		"cost": 800,
+    		"cost": 500,
     		"uniques": [
         		"Comment [After auctioning off the empire, the Praetorians were finally dealt with.]",
         		"Remove [Praetorian Greed] [in all cities]",
-			"Only available <in cities with a [Praetorian Greed]>",
 			"Only available <in cities with a [Praetorian Greed]> <during a Golden Age>",
       			"Unbuildable <if [Praetorian Greed] is not constructed>",
         		"Cannot be purchased",
@@ -2703,8 +2727,8 @@
 		"specialistSlots": {"Priest": 1},
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]"
-      			"[-2 Food, -1 Happiness] [in this city]",
-			"[-1 Food, +2 Gold] <in cities with a [Granary]>",
+      			"[-1 Food, -1 Happiness] [in this city]",
+			"[-1 Food, +1 Gold] <in cities with a [Granary]>",
       			"Unbuildable",
 			"Unsellable",
 			"Destroyed when the city is captured",
@@ -2715,7 +2739,7 @@
 
   	{
     		"name": "Egypt Grain",
-    		"cost": 0,
+    		"cost": 50,
     		"maintenance": 0,
 		"specialistSlots": {"Merchant": 1},
     		"uniques": [
@@ -2723,9 +2747,10 @@
         		"Remove [Egypt Grain Crisis] [in all cities]",
       			"[+1 Food, +1 Happiness] [in all cities]",
         		"Remove [Egypt Grain Crisis] [in all cities]",
-      			"Unbuildable",
+      			"Unbuildable <if [Egypt Grain Crisis] is not constructed>",
 			"Unsellable",
-			"Never destroyed when the city is captured",
+			"Only available <in cities with a [Aegyptus]>",
+			"Destroyed when the city is captured",
     ]
   	},
 	{
@@ -2734,10 +2759,16 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Pylramence Empire] is not constructed by anybody>",
+    			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Armenia] is constructed> <if [Africa] is constructed>  <if [Anatolia] is constructed>  <if [Hispania] is constructed>",
+			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Palmyrene Empire] is not constructed by anybody>",
 			"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
+        		"Free [Cavalry] appears <upon turn end> <when above [4] [Horses]> <when above [30] [Manpower]> <with [3]% chance>",
+        		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance>",
 			"Provides [1] [Enable Hellenic Limitanei]",
 			"Provides [1] [Enable Desert Legion]",
+			"[-50]% Great Person generation [in all cities]", 
+			"Consumes [20] [Manpower] <if [Italia] is not constructed>",
+			"Consumes [20] [Manpower] <if [Achaea] is not constructed>",
 			"Destroyed when the city is captured",
 			"Unsellable",
       			"Unbuildable",
@@ -2751,7 +2782,7 @@
         		"Comment [A desert caravan city crowned itself heir to the East. Trade financed armies, armies financed ambition, and ambition outran logistics.]",
         		"[+5]% [Gold] [in all cities] <in cities with a [Market]>",
         		"[+10]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
-        		"[-4 Happiness, +5 Gold] [in all cities]",
+        		"[-3 Happiness, +5 Gold] [in all cities]",
         		"Gain a free [Imperial Overstretch] [in capital] <when at war>",
         		"Remove [Imperial Overstretch] [in capital] <when not at war>",
 			"Destroyed when the city is captured",
@@ -2760,12 +2791,13 @@
    ]
 	},
 	{
-    		"name": "Pylramence Empire",
-    		"cost": 1700,
+    		"name": "Palmyrene Empire",
+    		"cost": 2000,
     		"uniques": [
+          "Comment [Capture these provinces each give -10% production time: Anatolia, Armenia, Achaea, Italia, Palaestine, Africa]",
         		"Cannot be purchased",
         		"Unsellable"
-        		"Unbuildable <if [Imperial Overstretch] is not constructed>",
+        		"Unbuildable <if [Imperial Overstretch] is not constructed>"
 			"Remove [Palmyrene Ascendancy] [in all cities]",
     ]
 	},
@@ -2776,7 +2808,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [From caravan city to imperial court in a decade. Administration lagged behind conquest. Governors improvised. Taxes vanished somewhere between Syria and Egypt.]",
-        		"[-5 Happiness] [in all cities]",
+        		"[-4 Happiness] [in all cities]",
         		"[+30]% maintenance costs <for [Military] units>",
       			"[+70]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
 			"Destroyed when the city is captured",
@@ -2794,7 +2826,7 @@
         		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
 			"[-20]% Production when constructing [Military] units [in all cities]",
         		"[-3 Happiness] [in all cities]",
-			"[-3 Gold, -4 Happiness] <in cities with a [Market]>",
+			"[-3 Gold, -2 Happiness] <in cities with a [Market]>",
 			"[+2 Gold, -1 Happiness, -1 Food] <in cities with a [Walls]>",
 			"Destroyed when the city is captured",
         		"Unbuildable",
@@ -2803,7 +2835,7 @@
 	},
 	{
     		"name": "Zenobian Reform",
-    		"cost": 1500,
+    		"cost": 1100,
     		"uniques": [
         		"Comment [Administration caught up to ambition. For a moment, Palmyra looked like a real empire.]",
         		"Cannot be purchased",
@@ -2820,10 +2852,14 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
+    			"Triggers victory <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Africa] is constructed>",
 			"Gain a free [Gallic Secession] [in capital] <if [Gallic Empire] is not constructed by anybody>",
 			"Gain a free [Frontier Exhaustion] [in capital] <if [Administrative Consolidation] is not constructed by anybody>",
+        		"Free [Gallic Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance>",
+        		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance>",
 			"Provides [1] [Enable Gallic Legion]",
 			"Provides [1] [Enable Gallic Limitanei]",
+			"[-50]% Great Person generation [in all cities]",
 			"Unsellable",
       			"Unbuildable",
 			"Destroyed when the city is captured",
@@ -2842,7 +2878,7 @@
         		"[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>",
         		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
         		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
-			"[-5 Gold, -3 Happiness] <in cities with a [Market]>",
+			"[-5 Gold, -2 Happiness] <in cities with a [Market]>",
         		"[-3 Happiness] [in all cities]",
         		"Unbuildable",
         		"Unsellable",
@@ -2851,8 +2887,9 @@
 	},
 	{
     		"name": "Gallic Empire",
-    		"cost": 1200,
+    		"cost": 2000,
     		"uniques": [
+          "Comment [Capture these provinces each give -10% production time: Anatolia, Achaea, Italia, Palaestine, Gallia, Africa, Hispania]",
         		"Cannot be purchased",
         		"Unsellable"
         		"Unbuildable <if [Gallic Secession] is not constructed>",
@@ -2866,10 +2903,11 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [The Rhine never sleeps. Raids blur into seasons. Fortifications eat coin. Veterans age. Replacements thin.]",
-        		"[-1 Happiness, -1 Food, -5 Gold] [in all cities]",
+        		"[-2 Happiness, -1 Food, -5 Gold] [in all cities]",
         		"[+50]% maintenance costs <for [Military] units>",
         		"[-10]% growth [in all cities]",
 			"[-1 Food, -2 Happiness] <in cities with a [Barracks]>",
+			"Consumes [30] [Manpower]",
         		"Unbuildable",
         		"Unsellable",
 			"Destroyed when the city is captured",
@@ -2877,12 +2915,12 @@
 	},
 	{
     		"name": "Administrative Consolidation",
-    		"cost": 850,
+    		"cost": 1250,
     		"uniques": [
         		"Comment [Gaul stopped pretending to be temporary and started governing like a state.]",
         		"Cannot be purchased",
         		"Unsellable"
-        		"Unbuildable <if [Frontier Exhaustion] is not constructed>",
+        		"Unbuildable <if [Frontier Exhaustion] is not constructed> <if [Italia] is not constructed>",
 			"Remove [Frontier Exhaustion] [in all cities]",
     ]
 }
@@ -2893,16 +2931,17 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-			"Provides [40] [Manpower] <for [300] turns>",
-    			"[+30]% Yield from pillaging tiles <for [300] turns>",
-      			"[-80]% maintenance costs <for [Military] units> <for [300] turns>",
-        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units>",
-        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>",
-        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities>",
- 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles>",
-			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles>",
-			"[+15]% Production when constructing [Spear] units [in this city] <for [300] turns>",
-			"[+15]% Production when constructing [Horseman] units [in this city] <for [300] turns>",
+    			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed> <if [Aegyptus] is constructed>",
+			"Provides [15] [Manpower] <if [Italia] is not constructed>",
+    			"[+30]% Yield from pillaging tiles <if [Italia] is not constructed>",
+      			"[-80]% maintenance costs <for [Military] units> <if [Gallia] is not constructed>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units> <if [Hispania] is not constructed>",
+        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <if [Hispania] is not constructed> <if [Africa] is not constructed>",
+ 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Italia] is not constructed>",
+			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Italia] is not constructed>",
+        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+			"[-50]% Great Person generation [in all cities]", 
 			"Unsellable",
       			"Unbuildable",
 			"Destroyed when the city is captured",
@@ -2914,15 +2953,17 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-			"Provides [40] [Manpower] <for [300] turns>",
-    			"[+30]% Yield from pillaging tiles <for [300] turns>",
-      			"[-80]% maintenance costs <for [Military] units> <for [300] turns>",
-        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
-        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
-        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
- 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
-			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
-			"[+20]% Production when constructing [Sword] units [in this city] <for [300] turns>",
+    			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
+			"Provides [15] [Manpower]  <if [Italia] is not constructed>",
+    			"[+30]% Yield from pillaging tiles <if [Achaea] is not constructed>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
+        		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>  <if [Hispania] is not constructed>",
+        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <if [Hispania] is not constructed> <if [Africa] is not constructed>",
+ 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Hispania] is not constructed> <if [Italia] is not constructed>",
+			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Achaea] is not constructed>",
+			"[+40]% Production when constructing [Sword] units [in this city] <if [Achaea] is not constructed>",
+			"[-50]% Great Person generation [in all cities]", 
+        		"Free [Bastarnae Warrior] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
 			"Unsellable",
       			"Unbuildable",
 			"Destroyed when the city is captured",
@@ -2934,17 +2975,20 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-			"Provides [20] [Manpower] <for [300] turns>",
-			"Provides [8] [Horses] <for [300] turns>",
+    			"Triggers victory <if [Achaea] is constructed> <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Scythia] is constructed>",
+			"Provides [15] [Manpower] <if [Palaestina] is not constructed>",
+			"Provides [8] [Horses] <if [Armenia] is not constructed>",
     			"[+50]% Yield from pillaging tiles",
-      			"[-80]% maintenance costs <for [Military] units> <for [300] turns>",
-        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <for [300] turns>",
-        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arverni] units> <for [300] turns>",
-        		"[+30]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <for [300] turns>",
- 			"[+30]% Strength <for [Spearman] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
-			"[+10] HP when healing <for [Mounted] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
-			"[+5] HP when healing <for [Mounted Archery] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
-			"[+30]% Production when constructing [Horse Archer] units [in this city] <for [300] turns>",
+      			"[-80]% maintenance costs <for [Military] units> <if [Armenia] is not constructed>",
+        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
+        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arverni] units> <if [Gallia] is not constructed>",
+        		"[+30]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <if [Palaestina] is not constructed>",
+ 			"[+10]% Strength <for [Spearman] units> <when defending> <when fighting in [Friendly Land] tiles>",
+			"[+10] HP when healing <for [Mounted] units> <when fighting in [Friendly Land] tiles> <if [Achaea] is constructed>",
+			"[+2] HP when healing <for [Mounted Archery] units> <when fighting in [Friendly Land] tiles>",
+			"[+20]% Production when constructing [Horse Archer] units [in this city] <if [Achaea] is not constructed>",
+        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+			"[-50]% Great Person generation [in all cities]", 
 			"Unsellable",
       			"Unbuildable",
 			"Destroyed when the city is captured",
@@ -2956,104 +3000,192 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-			"Provides [30] [Manpower] <for [300] turns>",
-      			"[+3 Happiness, +5 Gold] [in all cities] <for [300] turns>",
-      			"[-80]% maintenance costs <for [Military] units> <for [300] turns>",
-        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <for [300] turns>",
-        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <for [300] turns>",
- 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <for [300] turns>",
-			"[+10] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <for [300] turns>",
-			"[+20]% Production when constructing [Mounted] units [in this city] <for [300] turns>",
+    			"Triggers victory <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed> <if [Scythia] is constructed> <if [Aegyptus] is constructed>",
+			"Provides [20] [Manpower] <if [Palaestina] is not constructed>",
+      			"[+1 Happiness, +5 Gold] [in all cities] <if [Aegyptus] is not constructed>",
+      			"[-80]% maintenance costs <for [Military] units> <if [Aegyptus] is not constructed>",
+        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <if [Palaestina] is not constructed>",
+        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <if [Aegyptus] is not constructed>",
+ 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Scythia] is not constructed>",
+			"[+10] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Scythia] is not constructed>",
+			"[+30]% Production when constructing [Mounted] units [in this city] <if [Anatolia] is not constructed>",
+        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+			"[-50]% Great Person generation [in all cities]", 
 			"Unsellable",
       			"Unbuildable",
 			"Destroyed when the city is captured",
 ]
   	},
+			//// Provines
+			///  Gallia, Hispania, Achaea, Italia, Aegyptus, Palaestina, Armenia, Germania, Scythia, Dacia, Africa, Anatolia
+
 {
-    		"name": "Italy",
+    		"name": "Anatolia",
     		"cost": 0,
     		"maintenance": 0,
 		"specialistSlots": {"Engineer": 1},
     		"uniques": [
+			"Provides [1] [Timber]",
+			"Provides [1] [Iron]",
+			"Provides [1] [Horses]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
-    		"name": "Egypt",
+    		"name": "Gallia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Engineer": 1},
+    		"uniques": [
+			"Provides [3] [Timber]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
+]
+  	},
+{
+    		"name": "Hispania",
     		"cost": 0,
     		"maintenance": 0,
 		"specialistSlots": {"Merchant": 1},
     		"uniques": [
+			"Provides [1] [Silver]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
-    		"name": "Dacia",
+    		"name": "Achaea",
     		"cost": 0,
     		"maintenance": 0,
 		"specialistSlots": {"Engineer": 1},
     		"uniques": [
+			"Provides [1] [Marble]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
-    		"name": "Jerusalem",
+    		"name": "Italia",
     		"cost": 0,
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
+			"Provides [2] [Iron]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
-    		"name": "Palmyrence",
+    		"name": "Aegyptus",
     		"cost": 0,
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
+			"[+1 Food] [in all cities]"
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
-    		"name": "Gaul",
+    		"name": "Palaestina",
     		"cost": 0,
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
+			"Provides [1] [Olive Oil]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 ]
   	},
 {
-    		"name": "Germanic",
+    		"name": "Armenia",
     		"cost": 0,
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
+			"Provides [3] [Horses]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 ]
-  	},
+},
 {
-    		"name": "Spain",
+    		"name": "Germania",
     		"cost": 0,
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
+			"Provides [1] [Amber]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
 ]
+},
+{
+    		"name": "Scythia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"Provides [4] [Horses]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+},
+{
+    		"name": "Dacia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"[+1 Gold] [in all cities]"
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+},
+{
+    		"name": "Africa",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"[+1 Food] [in all cities]"
+			"Unsellable",
+			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
+			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+},
 ]
