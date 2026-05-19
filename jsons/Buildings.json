@@ -646,10 +646,11 @@
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [ 
 			"Only available <in cities with a [Urban Fabric III]>",
+			"Cost increases by [2] per owned city"
 			"Consumes [2] [Decadence] <in cities with a [Citizen Assembly]> <while the empire is happy>",
-			"[+1 Happiness, +1 Food, +1 Production, +1 Faith, +1 Culture, +1 Gold] from [Village] tiles [in this city]",
-			"[+1 Happiness, +1 Food, +1 Production, +1 Faith, +1 Culture, +1 Gold] from [Trading post] tiles [in this city]",
-			"[+1 Happiness, +1 Food, +1 Production, +1 Faith, +1 Culture, +1 Gold] from [Fort] tiles [in this city]",
+			"[+1 Happiness, +1 Production, +1 Culture] from [Village] tiles [in this city]",
+			"[+1 Happiness, +1 Food, +1 Culture, +1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Happiness, +1 Production, +1 Faith, +1 Culture] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Citizen Levy"
 	},
