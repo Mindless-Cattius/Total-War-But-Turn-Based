@@ -395,9 +395,10 @@
 		"name": "Ruler",
 		"resourceType": "Strategic",
 		"uniques": [
-			"[-2 Happiness] [in all cities] <when above [0] [Ruler]>",
-    			"[-5 Happiness] [in all cities] <when above [0] [Ruler]> <after adopting [Empire]>"
-			"Will not be displayed in Civilopedia",
+			"[-2 Happiness] [in all cities]",
+    			"[-5 Happiness] [in all cities] <after adopting [Empire]>"
+   "[-10]% Strength <for [Military] units> <vs cities>"
+   "[-10]% Strength <for [Military] units> <vs cities> <when above [1] [Ruler]>"
 			"Cannot be traded",
 ]
     },		
@@ -1077,7 +1078,7 @@
 		"resourceType": "Bonus",
 		"uniques": [
 			"[-50 Happiness] [in capital] <when above [0] [Praetorian Greed]>",
-			"Will not be displayed in Civilopedia",
+   "[-20]% Strength <when attacking> <for [Military] units> <vs cities>"
 			"Cannot be traded",
 ]
     },
