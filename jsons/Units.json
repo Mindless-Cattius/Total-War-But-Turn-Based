@@ -218,7 +218,7 @@
     "name": "Battering Ram",
     "unitType": "Civilian",
     "movement": 2,
-    "cost": 40,
+    "cost": 60,
     "requiredTech": "Masonry",
     "uniques": [
      		"Only available <in cities with a [Barracks]>",
@@ -232,7 +232,7 @@
     "name": "Siege Tower",
     "unitType": "Civilian",
     "movement": 1,
-    "cost": 80,
+    "cost": 100,
     "requiredTech": "Torsion Engines",
     "uniques": [
       		"Only available <in cities with a [Siege Workshop]>",
@@ -1806,7 +1806,7 @@
  	"[+40]% Strength <vs [Spear] units> <when attacking>",
  	"[+40]% Strength <vs [Sword] units> <when attacking>",
  	"[+30]% Strength <vs [Siege] units> <when attacking>",
-	"[+400]% Strength <vs cities> <when attacking>",
+	"[+300]% Strength <vs cities> <when attacking>",
 	"Consumes [2] [Manpower]",
 	"Consumes [1] [Timber]",
 	"Never appears as a Barbarian unit",
