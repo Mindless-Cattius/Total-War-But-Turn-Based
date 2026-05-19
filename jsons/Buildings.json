@@ -863,8 +863,8 @@
 			"[+1 Science] per [5] population [in this city]",
 			"[+1 Science] <in cities with a [Scriptorium]>", 
 			"[+1 Food] <in cities with a [Herbalist]>",
-			"[+10]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
+			"[+15]% Production when constructing [Cure Plague] buildings [in this city]",
+			"[+7]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
 			"Cost increases by [2] per owned city",
 			"Consumes [1] [Decadence] <in cities with a [School]> <during a Golden Age>"
 		],
