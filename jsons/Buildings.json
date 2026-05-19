@@ -2639,6 +2639,7 @@
     		"maintenance": 0,
 		"specialistSlots": {"Merchant": 1},
     		"uniques": [
+          "[-10]% Strength <for [Military] units> <vs cities>",
       			"[+50]% maintenance costs <for [Military] units>",
       			"[+200]% maintenance costs <for [Civilian] units>",
       			"[+300]% maintenance costs <for [Siege] units>",
@@ -2702,6 +2703,7 @@
       			"Provides [1] [Praetorian Greed]",
       			"[-10 Gold, -2 Production, -10 Happiness] [in capital]",
       			"[-3 Gold, -1 Happiness] [in all cities]",
+          "[-10]% Strength <for [Military] units> <vs cities>",
 			"Destroyed when the city is captured",
       			"Unbuildable",
 			"Unsellable",
