@@ -2920,7 +2920,8 @@
         		"Comment [Gaul stopped pretending to be temporary and started governing like a state.]",
         		"Cannot be purchased",
         		"Unsellable"
-        		"Unbuildable <if [Frontier Exhaustion] is not constructed> <if [Italia] is not constructed>",
+        		"Unbuildable <if [Frontier Exhaustion] is not constructed>"
+         "Unbuildable <if [Italia] is not constructed>",
 			"Remove [Frontier Exhaustion] [in all cities]",
     ]
 }
