@@ -24,8 +24,6 @@
 	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
 	"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
 	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
-	"[Gold] cost of purchasing [Military] units [+40]% <when at war>",
- "[Gold] cost of purchasing [All] buildings [+40]% <when at war>",
 //Units
 
  	"[+70]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
@@ -51,8 +49,11 @@
 //GOLD
 
 	"[Gold] cost of purchasing [Military] units [+20]% <when at war>",
-	"[Gold] cost of purchasing [Military] units [+40]% <when at war> <during the [Imperial Age]>",
- "[Gold] cost of purchasing [All] buildings [+40]% <when at war>"
+	"[Gold] cost of purchasing [Military] units [+50]% <when at war> <during the [Imperial Age]>",
+ "[Gold] cost of purchasing [All] buildings [+50]% <when at war>",
+	"[Gold] cost of purchasing [Military] units [+30]%",
+	"[Gold] cost of purchasing [Civilian] units [+200]% <when at war>",
+ "[Gold] cost of purchasing [All] buildings [+30]%",
 
 
 //MANPOWER
