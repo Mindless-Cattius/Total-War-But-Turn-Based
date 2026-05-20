@@ -1152,7 +1152,7 @@
 		"Can build [Remove Forest] improvements on tiles",
       		"Consumes [3] [Manpower]",
        		"Consumes [1] [Iron]",
-      		"Can upgrade to [Legion]",
+         "Can transform to [Legion] <after discovering [Infantry Training]>",
       		"Unbuildable <after discovering [Infantry Training]>",
     ],
     "promotions": [
