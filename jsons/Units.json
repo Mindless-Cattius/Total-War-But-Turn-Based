@@ -1939,6 +1939,8 @@
       		"Consumes [1] [Nobles]",
     "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
       		"Great Person - [War]",
+        "Can upgrade to [King] <after adopting [Empire]>",
+        "Can upgrade to [Emperor] <after adopting [Empire]>",
     ],
     "promotions": [
       "[Horseman] ability",
