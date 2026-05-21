@@ -403,7 +403,7 @@
     "uniques": [
 			"[+10]% Production when constructing [Mounted] units [in all cities]",
 			"[+25]% Production when constructing [Mounted Archery] units [in all cities]",
-        "[+10]% Strength <for [Horse Archer] units>",
+        "[+10]% Strength <for [Horse Archer] units> <when attacking>",
         "[+10]% Strength <when attacking> <for [Mounted] units>",
         "[+20]% XP gained from combat <for [Mounted] units>",
                     "[2] free [Horse Archer] units appear",
@@ -3750,7 +3750,7 @@
                     	"[-10]% Unhappiness from [Population] [in all cities] <with a garrison>",
                     	"Provides [1] [Veteran]",
        		    	"[-30]% maintenance costs <for [Spear] units> <in [Friendly Land] tiles>",
-                    	"[+2 Happiness, +1 Gold] [in all cities] <with a garrison>",
+                    	"[+2 Happiness, -1 Gold] [in all cities] <with a garrison>",
                     	"[+1 Happiness] [in capital]",
                 ],
                 "row": 7,
