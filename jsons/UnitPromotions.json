@@ -144,7 +144,7 @@
 		"name": "Marksman III",
 		"prerequisites": ["Marksman II"],
 		"uniques": [
-			"[+15]% Strength <when attacking> <when fighting in [Open terrain] tiles>",
+			"[+15]% Strength <when attacking>",
 			"[+10]% Strength <vs cities>"
 ],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
@@ -245,7 +245,8 @@
 	{
 		"name": "Positioning III",
 		"prerequisites": ["Positioning II"],
-		"uniques": ["[+15]% Strength <when defending> <when fighting in [Rough terrain] tiles>","[+15]% Strength <when defending> <vs cities>"],
+		"uniques": ["[+15]% Strength <when defending>",
+  "[+15]% Strength <when defending> <vs cities>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 9,
         "row": 3
@@ -383,8 +384,7 @@
 		"name": "Formation I",
 		"uniques": [
      			"[+10]% Strength <vs [Mounted] units>",
-    			"[+15]% Strength <when attacking> <vs [Mounted Archery] units>",
-    			"[+5]% Strength <when defending> <vs [Ranged] units>",
+    			"[+10]% Strength <vs [Mounted Archery] units>",
 ],
 		"unitTypes": ["Spear", "Sword"],
         "column": 16,
@@ -407,7 +407,7 @@
 		"uniques": [
      "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
 			"[+10]% Strength <vs [Mounted] units>",
-			"[+5]% Strength <when defending> <vs [Ranged] units>"]
+			"[+10]% Strength <when defending>"]
 		"unitTypes": ["Spear"],
         "column": 16,
         "row": 4
@@ -438,6 +438,7 @@
 		"prerequisites": ["Charge II"],
 		"uniques": [
 			"[+10]% Strength <vs [Melee] units>",
+    "[+10]% Strength <when attacking>",
 	],
 		"unitTypes": ["Mounted"],
         "column": 17,
@@ -460,7 +461,7 @@
 		"uniques": [
 			"[+10]% Strength <vs [Melee] units> <when defending>",
 			"[+10]% Strength <vs [Sword] units> <when attacking>",
-			"[+10]% Strength <vs [Mounted] units> <when attacking>"
+			"[+10]% Strength <vs [Mounted] units>"
 ],
 		"unitTypes": ["Elephant"],
         "column": 18,
@@ -471,8 +472,7 @@
 		"prerequisites": ["Trample II"],
 		"uniques": [
 			"[+10]% Strength <vs [Melee] units> <when defending>",
-			"[+15]% Strength <vs [Sword] units> <when attacking>",
-			"[+10]% Strength <vs [Mounted] units> <when attacking>",
+			"[+10]% Strength <vs [Mounted] units>",
 		"Eliminates combat penalty for attacking over a river"
 ],
 		"unitTypes": ["Elephant"],
@@ -494,8 +494,8 @@
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
 		"uniques": [
-			"[+10]% Strength <when fighting in [Forest] tiles>",
-			"[+10]% Strength <when fighting in [Jungle] tiles>"
+			"[+20]% Strength <when attacking> <when fighting in [Forest] tiles>",
+			"[+20]% Strength <when attacking> <when fighting in [Jungle] tiles>"
 ],
 		"unitTypes": ["Sword","Spear","Scout","Mounted","Mounted Archery","Archery","Ruler"],
         "column": 19,
@@ -508,7 +508,7 @@
 			"Invisible to non-adjacent units <in [pillaged] tiles>",
 			"[+10]% Strength <when fighting in [Forest] tiles>",
 			"[+10]% Strength <when fighting in [Jungle] tiles>",
-			"[+5]% Strength <vs [Wounded] units> <when attacking>",
+			"[+10]% Strength <vs [Wounded] units> <when attacking>",
 ],
 		"unitTypes": ["Sword","Spear","Scout","Mounted","Mounted Archery","Archery","Ruler"],
         "column": 19,
@@ -520,8 +520,8 @@
 		"uniques": [
                 	"[+1] Movement <in [Forest] tiles>",
                 	"[+1] Movement <in [Jungle] tiles>",
-			"[+10]% Strength <when fighting in [Forest] tiles>",
-			"[+10]% Strength <when fighting in [Jungle] tiles>"],
+			"[+10]% Strength <when defending> <when fighting in [Forest] tiles>",
+			"[+10]% Strength <when defending> <when fighting in [Jungle] tiles>"],
 		"unitTypes": ["Sword","Spear","Archery", "Scout","Ruler"],
         "column": 19,
         "row": 4
@@ -612,11 +612,12 @@
 	},
 	{
 		"name": "Raider III",
-		"prerequisites": ["Raider II","Foraging II"],
+		"prerequisites": ["Raider II"],
 		"uniques": [
 			"Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately",
 			"Earn [50]% of the damage done to [City] units as [Gold]",
 			"[+10]% Strength <when fighting in [pillaged] tiles>",
+    		"[+10]% Yield from pillaging tiles",
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Scout"],
         "column": 25,
@@ -691,7 +692,7 @@
 		"[+50]% Strength <when defending> <vs [Melee] units>",
 		"[+10]% Strength <when defending> <when fighting in [Open terrain] tiles>",
 		"[-15]% Strength <when defending> <vs [Ranged] units>",
-		"[-15]% Strength <when fighting in [Rough terrain] tiles>",
+		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
 		"Withdraws before melee combat <with [1]% chance>",
 		]
 	},
@@ -704,7 +705,7 @@
 		"[+60]% Strength <when defending> <vs [Melee] units>",
 		"[+10]% Strength <when defending> <when fighting in [Open terrain] tiles>",
 		"[-15]% Strength <when defending> <vs [Ranged] units>",
-		"[-15]% Strength <when fighting in [Rough terrain] tiles>",
+		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
 		"Withdraws before melee combat <with [1]% chance>",
 		]
 	},
