@@ -852,6 +852,8 @@
 		"name": "War Transports",
 		"uniques": [
 		"May attack when embarked",
+  "[-20]% Strength <when defending> <for [Mounted Archery] units> <when fighting in [Water] tiles>",
+  "[-20]% Strength <when defending> <for [Mounted] units> <when fighting in [Water] tiles>",
 		]
 	},
 	{
@@ -948,8 +950,8 @@
 		"prerequisites": ["Art of War"],
 		"unitTypes": ["Ruler"],
 		"uniques": [
-			"[+21]% Strength bonus for [{Melee} {Land}] units within [1] tiles <when attacking>",
-			"[+9]% Strength bonus for [{Ranged} {Land}] units within [2] tiles <when attacking>",
+			"[+20]% Strength bonus for [{Melee} {Land}] units within [1] tiles <when attacking>",
+			"[+10]% Strength bonus for [{Ranged} {Land}] units within [2] tiles <when attacking>",
 			"Only available <if [Cavalry Barracks] is constructed>",
 		],
         "row": 6,
@@ -972,7 +974,7 @@
 		"prerequisites": ["Art of War III"],
 		"unitTypes": ["Ruler"],
 		"uniques": [
-			"[+20]% Strength bonus for [Commander] units within [1] tiles",
+			"[+20]% Strength bonus for [Commander] units within [2] tiles",
       			"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
 			"Only available <if [Skirmisher Barracks] is constructed>",
 		],
@@ -1011,7 +1013,7 @@
 		"unitTypes": ["Mounted Archery", "Mounted", "Sword","Spear","Archery","Siege","Ranged Water","Melee Water"],
 		"prerequisites": ["Raider II","Foraging II"],
 		"uniques": [
-			"Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
+			"Earn [30]% of killed [Military] unit's [Strength] as [Gold]",
 ],
         "column": 29,
         "row": 2
@@ -1053,9 +1055,9 @@
 		"prerequisites": ["Veteran"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Elephant","Ruler"],
 		"uniques": [
-			"[+12]% Strength bonus for [Military] units within [1] tiles",
-			"[+8]% Strength bonus for [Military] units within [2] tiles <when defending>",
-			"[+5]% Strength bonus for [Military] units within [3] tiles <when defending>",
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[+10]% Strength bonus for [Military] units within [3] tiles <when defending>",
 			"[+5]% Strength <when defending>",
 ],
         "column": 33,
@@ -1081,7 +1083,7 @@
   		"prerequisites": ["Veteran"],
   		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery", "Elephant","Ruler"],
   		"uniques": [
-			"[+7]% Strength bonus for [all] units within [2] tiles",
+			"[+10]% Strength bonus for [all] units within [2] tiles",
 ],
         "column": 35,
         "row": 6
@@ -1102,7 +1104,7 @@
   		"prerequisites": ["Veteran"],
  		 "unitTypes": ["Sword","Spear","Elephant"],
  		 "uniques": [
-		"[+16]% Strength bonus for [Archery] units within [1] tiles <when defending>",
+		"[+15]% Strength bonus for [Archery] units within [1] tiles <when defending>",
 		"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>",
 ],
 	"column": 37, 
@@ -1113,7 +1115,7 @@
   		"unitTypes": ["Mounted Archery"],
   		"prerequisites": ["Veteran"],
   		"uniques": [
-   			 "[+12]% Strength <vs [{Melee} {Land}] units>" ,
+   			 "[+15]% Strength <vs [{Melee} {Land}] units>" ,
    			 "[-10]% Strength <when defending> <vs [Mounted] units>",
    			 "[-10]% Strength <when defending> <vs [Archery] units>",
 			"Ignores Zone of Control",
@@ -1127,8 +1129,8 @@
   		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Elephant","Ruler"],
   		"prerequisites": ["Raider III"],
   		"uniques": [
-    			"[+40]% Yield from pillaging tiles",
-			"[+30]% Health from pillaging tiles"
+    			"[+30]% Yield from pillaging tiles",
+			"[+20]% Health from pillaging tiles"
 			],
         "column": 40,
         "row": 4
@@ -1157,7 +1159,7 @@
 		"name": "Volley",
 		"prerequisites": ["Veteran"],
 		"uniques": [
-			"[+7]% Strength bonus for [Archery] units within [1] tiles <when attacking>"]
+			"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>"]
 		"unitTypes": ["Archery"],
         "column": 43,
         "row": 6
@@ -1168,7 +1170,7 @@
 		"uniques": [
    			 "[+15]% Strength <when defending> <vs [Spear] units>",
    			 "[+10]% Strength <when defending> <vs [Sword] units>",
-   			 "[+10]% Strength <when defending> <vs [Mounted] units>",
+   			 "[+15]% Strength <when defending> <vs [Mounted] units>",
     			"[+10]% Strength <when attacking>"],
 		"unitTypes": ["Archery","Mounted Archery"],
         "column": 44,
@@ -1197,7 +1199,7 @@
 		"name": "Warlust",
 		"prerequisites": ["Veteran"],
 		"unitTypes": ["Scout","Sword","Spear"],
-		"uniques": ["Heals [10] damage if it kills a unit"
+		"uniques": ["Heals [15] damage if it kills a unit"
 		],
       "column": 46,
         "row": 6
