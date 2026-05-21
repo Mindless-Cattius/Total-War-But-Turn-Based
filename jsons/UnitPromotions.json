@@ -951,7 +951,7 @@
 		"unitTypes": ["Ruler"],
 		"uniques": [
 			"[+20]% Strength bonus for [{Melee} {Land}] units within [1] tiles <when attacking>",
-			"[+10]% Strength bonus for [{Ranged} {Land}] units within [2] tiles <when attacking>",
+			"[+15]% Strength bonus for [{Ranged} {Land}] units within [1] tiles <when attacking>",
 			"Only available <if [Cavalry Barracks] is constructed>",
 		],
         "row": 6,
@@ -1055,9 +1055,9 @@
 		"prerequisites": ["Veteran"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Elephant","Ruler"],
 		"uniques": [
-			"[+10]% Strength bonus for [Military] units within [1] tiles",
-			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"[+10]% Strength bonus for [Military] units within [3] tiles <when defending>",
+			"[+15]% Strength bonus for [Melee] units within [1] tiles",
+			"[+10]% Strength bonus for [Melee] units within [2] tiles",
+			"[+5]% Strength bonus for [Melee] units within [3] tiles <when defending>",
 			"[+5]% Strength <when defending>",
 ],
         "column": 33,
@@ -1083,7 +1083,7 @@
   		"prerequisites": ["Veteran"],
   		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery", "Elephant","Ruler"],
   		"uniques": [
-			"[+10]% Strength bonus for [all] units within [2] tiles",
+			"[+20]% Strength bonus for [all] units within [1] tiles <when defending>",
 ],
         "column": 35,
         "row": 6
@@ -1140,8 +1140,7 @@
 		"name": "Spear Wall",
 		"prerequisites": ["Veteran"],
 		"uniques": [
-			"[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
-    			"[+10]% Strength <when defending>"]
+    			"[+15]% Strength <when defending> <vs [Melee] units>"]
 		"unitTypes": ["Spear"],
         "column": 41,
         "row": 6
@@ -1159,7 +1158,9 @@
 		"name": "Volley",
 		"prerequisites": ["Veteran"],
 		"uniques": [
-			"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>"]
+			"[+10]% <when attacking> <vs [Ranged] units>"
+   "[+1] Sight",
+]
 		"unitTypes": ["Archery"],
         "column": 43,
         "row": 6
