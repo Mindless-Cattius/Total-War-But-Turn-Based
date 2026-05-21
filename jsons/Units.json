@@ -1982,7 +1982,7 @@
     "strength": 16,
     "cost": 140,
     "uniques": [
-		"Comment [Elite medium sword infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away—just don’t expect them to do much beyond that.]",
+		"Comment [Elite medium sword infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away.]",
      		"Only available <in cities with a [Palace]>",
       		"[+10]% Strength bonus for [Military] units within [1] tiles",
 	      	"[+1] XP gained from combat",
@@ -2082,8 +2082,8 @@
     "name": "Emperor",
     "unitType": "Ruler",
     "movement": 3,
-    "strength": 15,
-    "cost": 160,
+    "strength": 16,
+    "cost": 170,
     "uniques": [
       		"Only available <after adopting [Empire]> <hidden from users>",
 		"Can only be built <in [Capital] cities>",
