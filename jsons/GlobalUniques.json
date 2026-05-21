@@ -47,8 +47,8 @@
 
 
 //GOLD
-"[+1000]% Gold cost of upgrading <for [Worker] units>"
-"[+5000]% Gold cost of upgrading <for [King] units> <during the [Imperial Age]>",
+"[+1000]% Gold cost of upgrading <for [Swordsman] units>"
+"[+5000]% Gold cost of upgrading <for [Emperor] units> <during the [Imperial Age]>",
 "[+5000]% Gold cost of upgrading <for [King] units>"
 	"[Gold] cost of purchasing [Military] units [+20]% <when at war>",
 	"[Gold] cost of purchasing [Military] units [+50]% <when at war> <during the [Imperial Age]>",
