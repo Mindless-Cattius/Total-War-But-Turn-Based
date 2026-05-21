@@ -929,7 +929,7 @@
 		"food": 1,
 		"cityHealth": 10,
 		"uniques": [
-			"Only available <in cities with a [Urban Fabric I]"
+			"Only available <in cities with a [Urban Fabric I]>"
 			"[+1 Food] from [Plantation] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"Cost increases by [2] per owned city",
