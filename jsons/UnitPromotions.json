@@ -1208,9 +1208,8 @@
 	{
 		"name": "Commander",
 		"uniques": [
-			"[+13]% Strength bonus for [Military] units within [2] tiles <when defending>",
-			"[+17]% Strength bonus for [Military] units within [1] tiles <when defending>",
-			"[+14]% Strength bonus for [Military] units within [1] tiles <when attacking>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles <when defending>",
+			"[+20]% Strength bonus for [Military] units within [1] tiles <when attacking>",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
 	},
@@ -1287,7 +1286,7 @@
 	{
 		"name": "Mercenary",
 		"uniques": [
-			"[+1] XP gained from combat",
+			"[+2] XP gained from combat",
 		]
 	},
 ]
