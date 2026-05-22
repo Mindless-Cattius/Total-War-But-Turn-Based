@@ -408,10 +408,9 @@
 		"name": "Ruler",
 		"resourceType": "Strategic",
 		"uniques": [
-			"[-2 Happiness] [in all cities]",
+			"[-1 Happiness] [in all cities]",
 			"[-1 Production] [in capital]",
-			"[-2 Happiness] [in all cities] <when above [1] [Ruler]>",
-    			"[-2 Happiness] [in all cities] <after adopting [Empire]>",
+			"[-1 Happiness] [in all cities] <when above [1] [Ruler]>",
 			"Cannot be traded",
 ]
     },		
