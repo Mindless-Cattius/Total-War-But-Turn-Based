@@ -1055,9 +1055,8 @@
 		"prerequisites": ["Veteran"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Elephant","Ruler"],
 		"uniques": [
-			"[+15]% Strength bonus for [Melee] units within [1] tiles",
-			"[+10]% Strength bonus for [Melee] units within [2] tiles",
-			"[+5]% Strength bonus for [Melee] units within [3] tiles <when defending>",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+    "All adjacent units heal [+2] HP when healing",
 			"[+5]% Strength <when defending>",
 ],
         "column": 33,
@@ -1104,7 +1103,7 @@
   		"prerequisites": ["Veteran"],
  		 "unitTypes": ["Sword","Spear","Elephant"],
  		 "uniques": [
-		"[+15]% Strength bonus for [Archery] units within [1] tiles <when defending>",
+		"[+20]% Strength bonus for [Archery] units within [1] tiles <when defending>",
 		"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>",
 ],
 	"column": 37, 
