@@ -1595,7 +1595,6 @@
     "uniques": [
       	"Comment [-Medium elephant, a beast that’ll crush anything in its path—except your economy. Hope you’ve got the gold to feed it.]",
       	"Only available <in cities with a [Stable]>",
-	"Destroys tile improvements when attacking",
       	"Consumes [3] [Manpower]",
       	"Consumes [1] [Elephants]",
       	"Never appears as a Barbarian unit",
@@ -1617,7 +1616,6 @@
     "uniques": [
       "Comment [-Heavy elephant unit, armored, and ready to flatten anything that dares stand in its way. Just don’t expect it to help with anything delicate.]",
       "Only available <in cities with a [Cavalry Barracks]>",
-	"Destroys tile improvements when attacking",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Elephants]",
       "Consumes [2] [Iron]",
@@ -1773,7 +1771,6 @@
 	"Only available <in cities with a [Siege Workshop]>",
 	"May attack when embarked",
 	"Must set up to ranged attack",
-	"Destroys tile improvements when attacking",
 	"No defensive terrain bonus",
  	"[+40]% Strength <vs [Mounted] units> <when attacking>",
  	"[+40]% Strength <vs [Elephant] units> <when attacking>",
@@ -1801,7 +1798,6 @@
 	"Only available <in cities with a [Siege Workshop]>",
 	"May attack when embarked",
 	"Must set up to ranged attack",
-	"Destroys tile improvements when attacking",
 	"No defensive terrain bonus",
  	"[+40]% Strength <vs [Spear] units> <when attacking>",
  	"[+40]% Strength <vs [Sword] units> <when attacking>",
@@ -2130,7 +2126,7 @@
 	"Scouting I"
     ],
     "attackSound": "metalhit"
-  }
+  },
   {
     "name": "Numidian Horseman",
   "unitType": "Mounted Archery",

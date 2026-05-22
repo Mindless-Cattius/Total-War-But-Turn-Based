@@ -1157,7 +1157,7 @@
 		"name": "Volley",
 		"prerequisites": ["Veteran"],
 		"uniques": [
-			"[+10]% <when attacking> <vs [Ranged] units>"
+			"[+10]% Strength <when attacking> <vs [Ranged] units>"
    "[+1] Sight",
 ]
 		"unitTypes": ["Archery"],
