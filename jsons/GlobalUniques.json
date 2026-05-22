@@ -142,8 +142,8 @@
         "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <before the [Imperial Age]>",
         "Free [Skirmisher] appears <upon turn end> <when above [20] [Manpower]> <with [3]% chance> <before the [Imperial Age]>",
-        "Free [Spearman] appears <upon turn end> <when above [30] [Manpower]> <with [6]% chance> <during the [Imperial Age]>",
-        "Free [Skirmisher] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance> <during the [Imperial Age]>",
+        "Free [Spearman] appears <upon turn end> <when above [40] [Manpower]> <with [6]% chance> <during the [Imperial Age]>",
+        "Free [Skirmisher] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <during the [Imperial Age]>",
         "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
 
 // Decadence & Great People
