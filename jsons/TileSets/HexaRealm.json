@@ -1,0 +1,12 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "fallbackTileSet": "FantasyHex",
+    "ruleVariants": {
+
+	//Village
+
+	"Desert+Village": ["Derset", "Village"],
+
+	}
+
+}

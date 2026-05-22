@@ -2673,8 +2673,8 @@
     		"uniques": [
       			"[-2 Gold] from [improved] tiles [in this city]",
       			"[-2 Gold] from [Silver] tiles [in this city]",
-      			"[-3 Gold, -1 Happiness] from [Village] tiles [in this city]",
-      			"[-5 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
+      			"[-5 Gold, -2 Happiness] from [Village] tiles [in this city]",
+      			"[-10 Gold, -2 Happiness] from [Trading post] tiles [in this city]",
 			"[-5 Gold, -2 Happiness] <in cities with a [Market]>",
 			"Destroyed when the city is captured",
 			"Unbuildable","Unsellable",

@@ -47,15 +47,15 @@
 
 
 //GOLD
-"[+1000]% Gold cost of upgrading <for [Civilian] units>"
-"[+5000]% Gold cost of upgrading <for [Military] units> <during the [Imperial Age]>",
-"[+5000]% Gold cost of upgrading <for [King] units>"
+	"[+1000]% Gold cost of upgrading <for [Civilian] units>"
+	"[+5000]% Gold cost of upgrading <for [Military] units> <during the [Imperial Age]>",
+	"[+5000]% Gold cost of upgrading <for [Commander] units>"
 	"[Gold] cost of purchasing [Military] units [+20]% <when at war>",
 	"[Gold] cost of purchasing [Military] units [+50]% <when at war> <during the [Imperial Age]>",
- "[Gold] cost of purchasing [All] buildings [+50]% <when at war>",
+ 	"[Gold] cost of purchasing [All] buildings [+50]% <when at war>",
 	"[Gold] cost of purchasing [Military] units [+30]%",
 	"[Gold] cost of purchasing [Civilian] units [+200]% <when at war>",
- "[Gold] cost of purchasing [All] buildings [+40]%",
+ 	"[Gold] cost of purchasing [All] buildings [+40]%",
 
 
 //MANPOWER
@@ -146,18 +146,6 @@
         "Free [Skirmisher] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <during the [Imperial Age]>",
         "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
 
-// Decadence & Great People
-
-        "[+70]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [100] [Decadence]>",
-        "[+50]% maintenance costs <for [Military] units> <when above [100] [Decadence]>",
-
-        "Provides [1] [Manpower] <when below [0] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [10] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [20] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [30] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [40] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [50] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [60] [Decadence]> <for [Major] Civilizations>",
 
 // AI Great People
 

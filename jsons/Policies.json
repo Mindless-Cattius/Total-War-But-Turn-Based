@@ -3678,6 +3678,7 @@
             "[+2 Happiness] from every [National Wonder]",
             "[+2 Happiness] from every [Natural Wonder]",
             "[+1 Happiness] [in capital]",
+			"Provides [1] [Ruler]",
 			"Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
         ],
         "policies": [
