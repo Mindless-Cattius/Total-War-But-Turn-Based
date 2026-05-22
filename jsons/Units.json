@@ -1881,7 +1881,7 @@
       	"Cannot enter ocean tiles <before discovering [Agriculture]>",
      	"[+100]% Strength <when defending> <when [Embarked]>",
 	"Can instantly construct a [Trading post] improvement <[1] times> <after which this unit is consumed>",
-      "Gain [100]-[10000] [Gold] <by consuming this unit>",
+      "Gain [500]-[10000] [Gold] <by consuming this unit>",
       	"Great Person - [Gold]",
       	"Unbuildable",
       	"Uncapturable"
@@ -1895,7 +1895,7 @@
       "Empire enters a [12]-turn Golden Age <by consuming this unit> <if it hasn't used other actions yet>",
       "Can speed up construction of a building <if it hasn't used other actions yet>",
 	"Can instantly construct a [Fort] improvement <[1] times> <after which this unit is consumed>",
-      "[+5]% Strength bonus for [Siege] units within [1] tiles",
+      "[+10]% Strength bonus for [Siege] units within [1] tiles",
       "Great Person - [Production]",
       "Unbuildable",
       "Uncapturable"
@@ -1959,7 +1959,6 @@
     "uniques": [
 	    "Comment [-Elite medium sword infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
-      	"[+10]% Strength bonus for [Military] units within [1] tiles",
 	      "[+1] XP gained from combat",
 	      "[+20]% Strength <during the [Imperial Age]>",
 	    "[+40]% production cost <during the [Imperial Age]>",
@@ -1970,6 +1969,7 @@
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield III"
+      "Inspiring"
     ],
     "attackSound": "metalhit"
   },
@@ -1984,7 +1984,6 @@
     "uniques": [
 		"Comment [Elite medium sword infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away.]",
      		"Only available <in cities with a [Palace]>",
-      		"[+10]% Strength bonus for [Military] units within [1] tiles",
 	      	"[+1] XP gained from combat",
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
@@ -1995,6 +1994,7 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Spartan Aura",
+      "Inspiring",
     ],
     "attackSound": "metalhit"
   },
@@ -2009,7 +2009,6 @@
     "uniques": [
 	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
-      	"[+10]% Strength bonus for [Military] units within [1] tiles",
       	"[+1] XP gained from combat",
 	"[+20]% Strength <during the [Imperial Age]>",
 	"[+40]% production cost <during the [Imperial Age]>",
@@ -2020,6 +2019,7 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Assault I"
+      "Inspiring",
     ],
     "attackSound": "metalhit"
   },
@@ -2046,7 +2046,7 @@
     "promotions": [
       	"[Cavalry] ability",
       	"Cavalry Shield II",
-	"Commander",
+	      "Commander",
     ],
     "attackSound": "metalhit"
   },
@@ -2591,7 +2591,7 @@
       "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
   	"Limited to [1] per Civilization",
 	"[+40]% Strength <during the [Imperial Age]>",
-	"[+50]% production cost <during the [Imperial Age]>",
+	"[+60]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
@@ -2619,7 +2619,7 @@
       "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
       "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
 	"[+30]% Strength <during the [Imperial Age]>",
-	"[+50]% production cost <during the [Imperial Age]>",
+	"[+60]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
@@ -2645,7 +2645,7 @@
       "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
       "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
 	"[+40]% Strength <during the [Imperial Age]>",
-	"[+40]% production cost <during the [Imperial Age]>",
+	"[+50]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
