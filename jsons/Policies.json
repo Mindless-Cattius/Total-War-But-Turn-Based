@@ -126,7 +126,7 @@
                     	"[Horseman] units gain the [Charge I] promotion",
 			"Provides [1] [Nobles]",
                     	"[+1 Happiness] [in capital]",
-			"Unavailable <during the [Archaic Age]>"
+			"Unavailable <before the [Classical Age]>",
                 ],
                 "row": 4,
                 "column": 3
@@ -204,14 +204,14 @@
                     	"[+1 Happiness, +2 Gold] from every [Forge] <after adopting [Armor Adaption]>",
 			"[+1 Gold] from [improved] tiles [Capital] <after adopting [Hill Fort Confederacy]>",
                     	"[+1 Happiness] [in capital]",
-			"Unavailable <during the [Classical Age]>",
-			"Unavailable <during the [Archaic Age]>"
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 7,
                 "column": 3
             },
             {
                 "name": "Western Trade Routes",
+        	"era": "Hellenistic Age",
                 "uniques": [
                     	"Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     	"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
@@ -219,22 +219,21 @@
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+2 Gold] from [Salt] tiles [in this city]",
                     	"[+1 Happiness] [in all cities]",
-			"Unavailable <during the [Classical Age]>",
-			"Unavailable <during the [Archaic Age]>"
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 7,
                 "column": 1
             },
             {
                 "name": "Druidic Revival",
+        	"era": "Hellenistic Age",
                 "uniques": [
                     	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"[+1 Faith] from every [Temple]",
                     	"[+1 Gold] from every [Garden]",
                     	"[+1 Culture] [in capital]",
 			"[+1 Faith] from [Fort] tiles [in this city]",
-			"Unavailable <during the [Classical Age]>",
-			"Unavailable <during the [Archaic Age]>"
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 7,
                 "column": 5
@@ -604,6 +603,7 @@
     	    },
             {
                 "name": "King of Kings",
+        	"era": "Classical Age",
                 "uniques": [
                     	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
@@ -614,32 +614,35 @@
                     	"Provides [1] [Nobles]",
                     	"Free [General] appears",
                    	"[+1 Happiness] [in capital]",
-                    	"Unavailable <before the [Classical Age]>",
+			"Unavailable <before the [Classical Age]>",
                 ],
                 "row": 6,
                 "column": 3
             },
             {
                 "name": "Trade Caravans",
+        	"era": "Classical Age",
                 "uniques": [
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "[+2 Gold, +3 Happiness] from every [Great Market]",
                     "[+1 Gold] from every [Market]",
                     "[+1 Happiness] [in all cities]",
-                    "Unavailable <before the [Classical Age]>",
+			"Unavailable <before the [Classical Age]>",
                 ],
                 "row": 6,
                 "column": 5
             },
             {
                 "name": "Eastern Contacts",
+        	"era": "Classical Age",
                 "uniques": [
 			"Only available <before adopting [Riders Ascendant]>","Comment [Only available before adopting Riders Ascendant]",
+			"Comment [+1 Mercenary Camp Limit]",
 			"[Gold] cost of purchasing [Military] units [-20]% <when at war>",
                     "[+1 Food, +1 Gold] from every [Spice Road]",
                     "[+2 Gold] from every [Silk Road]",
                     "[+1 Production, +1 Happiness] [in all cities]",
-                    "Unavailable <before the [Classical Age]>",
+			"Unavailable <before the [Classical Age]>",
                 ],
                 "row": 7,
                 "column": 5
@@ -664,6 +667,7 @@
             },
             {
                 "name": "Riders Ascendant",
+        	"era": "Classical Age",
                 "uniques": [
 			"Only available <before adopting [Eastern Contacts]>","Comment [Eastern Contacts]",
         		"[+10]% Strength <when attacking> <for [Mounted Archery] units> <after adopting [Steppe Authority]>",
@@ -672,7 +676,7 @@
         		"[+10]% Strength <for [Mounted] units>",
         		"Provides [2] [Manpower]",
         		"[+1 Happiness] [in all cities]",
-                    	"Unavailable <before the [Classical Age]>",
+			"Unavailable <before the [Classical Age]>",
                 ],
                 "row": 7,
                 "column": 1
@@ -694,6 +698,7 @@
             },
             {
                 "name": "Steppe Metallurgy",
+        	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Imperial Metallurgy]>","Comment [Only available before adopting Imperial Metallurgy]",
                     	"[Horse Archer] units gain the [[Maneuver]] promotion",
@@ -705,13 +710,14 @@
      		    	"Provides [1] [Veteran]",
      		    	"Provides [2] [Manpower]",
                     	"[+5 Happiness] [in capital]",
-                    	"Unavailable <before the [Hellenistic Age]>",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 9,
                 "column": 2
             },
             {
                 "name": "Imperial Metallurgy",
+        	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Steppe Metallurgy]>","Comment [Only available before adopting ]",
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
@@ -724,7 +730,7 @@
      		    	"Provides [1] [Veteran]",
      		    	"Provides [4] [Manpower]",
                     	"[+1 Happiness] [in all cities]",
-                    	"Unavailable <before the [Hellenistic Age]>",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 9,
                 "column": 4
@@ -1010,6 +1016,7 @@
             },
             {
                 "name": "Noble Swordbearers",
+        	"era": "Hellenistic Age",
                 "uniques": [
                     	"[+1 Happiness] [in all cities] <with a garrison>",
                     	"[Infantry Shield III] units gain the [Improved Armor] promotion",
@@ -1302,6 +1309,7 @@
             },
             {
                 "name": "Civic Maturity",
+        	"era": "Hellenistic Age",
                 "uniques": [
                     	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
@@ -1309,7 +1317,7 @@
         		"[+1 Gold, +1 Food] from [Village] tiles [in all cities]",
         		"[+3 Food] from [Wheat] tiles [in all cities]",
         		"Provides [4] [Manpower]",
-			"Unavailable <before the [Hellenistic Age]>"
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 8,
                 "column": 3
@@ -1610,6 +1618,7 @@
             },
             {
                 "name": "Sarissa Corps",
+        	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Grain Reserves]>","Comment [Only available before adopting Grain Reserves]",
         		"[+20]% Strength <for [Pike Phalanx] units>",
@@ -1620,7 +1629,7 @@
                     "[+10]% Production when constructing [Skirmisher Barracks] buildings [in all cities] <for [The Pergamenes] Civilizations>",
         		"[+1 Production, +1 Happiness] from every [Barracks]",
                     "Provides [2] [Iron]",
-        		"Provides [4] [Manpower]"
+        		"Provides [4] [Manpower]",
                     "[+1 Happiness] [in capital]",
 			"Unavailable <before the [Hellenistic Age]>",
                 ],
@@ -1652,6 +1661,7 @@
             },
             {
                 "name": "Grain Reserves",
+        	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Sarissa Corps]>","Comment [Only available before adopting Sarissa Corps]",
         		"[+1 Food] from [River] tiles [in all cities]",
@@ -1685,6 +1695,7 @@
             },
             {
                 "name": "Successor Administration",
+        	"era": "Hellenistic Age",
                 "uniques": [
         		"[+15]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
                     	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
@@ -1821,22 +1832,25 @@
     	    },
 	    {
       		"name": "Iberian Mercenaries",
+        	"era": "Classical Age",
       		"uniques": [		
-			"[Gold] cost of purchasing [Iberian Mercenary] units [-40]% <when above [20] [Manpower]>",
-			"[Gold] cost of purchasing [Iberian Mercenary] units [-50]% <when above [50] [Manpower]>",
+			"[Gold] cost of purchasing [Iberian Mercenary] units [-20]% <when above [10] [Manpower]>",
+			"[Gold] cost of purchasing [Iberian Mercenary] units [-40]% <when above [30] [Manpower]>",
+			"May buy [Iberian Mercenary] units with [Gold] [in capital]",
         		"Provides [3] [Mercenary (Iberian)]",
         		"Provides [1] [Veteran]",
         		"[+10]% Strength <for [Swordsman] units>",
         		"[+1 Gold] from every [Barracks]",
         		"[+1 Gold] from [Mine] tiles [in all cities]",
         		"[+1 Happiness, +1 Gold] [in all cities] <when at war>",
-                    	"Unavailable <before the [Classical Age]>",
+			"Unavailable <before the [Classical Age]>",
       ],
       		"row": 4,
       		"column": 2
     	    },
 	    {
       		"name": "Coastal Trade Links",
+        	"era": "Classical Age",
       		"uniques": [
         		"[+10]% Strength <for [Swordsman] units>",
         		"[+1 Gold, +1 Happiness] from every [Anchorage]",
@@ -1844,8 +1858,8 @@
         		"[+3 Gold, +2 Food, +1 Happiness] from every [Great Harbor]",
         		"[+1 Gold] from [Mine] tiles [in all cities]",
         		"[+1 Gold] [in all cities] <when not at war>",
-                    	"[+1 Happiness] [in capital]"
-                    	"Unavailable <before the [Classical Age]>",
+                    	"[+1 Happiness] [in capital]",
+			"Unavailable <before the [Classical Age]>",
       ],
       		"row": 4,
       		"column": 4
@@ -1948,6 +1962,7 @@
             },
             {
                 "name": "Iberian Integration",
+        	"era": "Hellenistic Age",
                 "uniques": [
                     	"Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
         		"[+1 Gold, +1 Food] from [Village] tiles [in all cities]",
@@ -1956,26 +1971,28 @@
                     	"[+1 Happiness] from every [Market]",
                     	"[+1 Happiness] [in capital]",
                     	"[+1 Happiness] [in all cities] <with a garrison>",
-                    	"Unavailable <before the [Hellenistic Age]>",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 8,
                 "column": 3
             },
             {
                 "name": "The Champions",
+        	"era": "Hellenistic Age",
                 "uniques": [
         		"[+10]% Strength <for [Commander] units>",
                     	"Provides [2] [Iron]",
                     	"Provides [1] [Veteran]",
                     	"[1] free [Heavy Swordsman] units appear",
                     	"[+1 Happiness] [in all cities]",
-                    	"Unavailable <before the [Hellenistic Age]>",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 8,
                 "column": 1
             },
             {
                 "name": "Veteran Caudillos",
+        	"era": "Hellenistic Age",
                 "requires": ["The Champions"],
                 "uniques": [
         		"[+10]% Strength <for [Sword] units> <when attacking>",
@@ -1986,13 +2003,14 @@
                     	"Provides [4] [Manpower]",
                     	"Provides [2] [Iron]",
                     	"[+1 Happiness] [in capital]",
-                    	"Unavailable <before the [Hellenistic Age]>",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 9,
                 "column": 1
             },
             {
                 "name": "Iberian Pastures",
+        	"era": "Hellenistic Age",
                 "uniques": [
         		"[+10]% Strength <for [Mounted] units>",
         		"[+10]% Strength <for [Mounted Archery] units>",
@@ -2001,7 +2019,7 @@
                     	"[+1 Happiness, +1 Food, +1 Gold] from every [Stable] <when above [10] [Horses]>",
                     	"Provides [3] [Horses]",
                     	"[+1 Happiness] [in all cities]",
-                    	"Unavailable <before the [Hellenistic Age]>",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 8,
                 "column": 5
@@ -2173,34 +2191,36 @@
             },
             {
                 "name": "Tribal Stronghold",
+        	"era": "Classical Age",
                 "uniques": [
                     "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
-			"Unavailable <before the [Classical Age]>",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Production] from [Fort] tiles [in this city]",
                     "[+20]% City Strength from defensive buildings",
                     "[+1 Happiness, +1 Food] from every [Hill Fort]",
                     	"[+1 Happiness] [in all cities] <with a garrison>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+			"Unavailable <before the [Classical Age]>",
                 ],
                 "row": 5,
                 "column": 4
             },
             {
                 "name": "Adventurers",
+        	"era": "Classical Age",
                 "uniques": [
-			"Unavailable <before the [Classical Age]>",
                     	"Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     	"Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     	"[+1] Movement <for [Embarked] units>",
                     "[+1] Sight <for [Embarked] units>",
-                    "[King] units gain the [Ignore terrain cost] promotion",
+                    "[Ruler] units gain the [Ignore terrain cost] promotion",
                     "[General] units gain the [Ignore terrain cost] promotion",
                     "[Ranged] units gain the [Scouting I] promotion",
                     "Provides [4] [Manpower]",
                     "[+1 Happiness] [in all cities]",
 			"Provides [1] [Enable Illyrian Legion] <hidden from users> <after adopting [Total War]> <hidden from users>",
+			"Unavailable <before the [Classical Age]>",
                 ],
                 "row": 5,
                 "column": 2
@@ -2301,6 +2321,7 @@
             },
             {
                 "name": "Royal Infantry Reforms",
+        	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Ardiaean Sea Dominion]>",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
@@ -2312,7 +2333,7 @@
                         "[+10]% Strength <when attacking> <for [Melee] units>",
                     	"Provides [4] [Manpower]",
                     	"Provides [2] [Veteran]",
-                    	"Provides [2] [Iron]",
+                    	"Provides [1] [Iron]",
 			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 9,
@@ -2320,6 +2341,7 @@
             },
             {
                 "name": "Ardiaean Sea Dominion",
+        	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Royal Infantry Reforms]>",
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
@@ -2425,6 +2447,7 @@
             },
             {
                 "name": "Latin Road Expansion",
+        	"era": "Classical Age",
                 "uniques": [
         		"[+1 Gold] from [Trading post] tiles [in all cities]",
         		"[+1 Food] from [Village] tiles [in all cities]",
@@ -2523,6 +2546,7 @@
             },
     	    {
       		"name": "Cohort Reformation",
+        	"era": "Hellenistic Age",
       		"uniques": [
                     	"Comment [Enables Legion]","Provides [1] [Enable Legion] <hidden from users>",
                     	"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
@@ -2537,6 +2561,7 @@
     	    },
             {
                 "name": "Gladiatorial Games",
+        	"era": "Hellenistic Age",
                 "uniques": [
                     "[+1 Happiness, +1 Gold] from every [Arena]",
                     "[Gladiator] units gain the [Veteran] promotion",
@@ -2554,14 +2579,15 @@
                     "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
                     "[+1 Happiness, +1 Gold] from every [Arena]",
                     "[+1 Happiness, +1 Food] from every [Market]",
-                    	"[+1 Happiness, +1 Gold, -1 Food] [in all cities] <with a garrison>",
-                    "[+1 Happiness] [in all cities]",
+                    	"[+1 Happiness, -1 Gold] [in all cities] <with a garrison>",
+                    "[+3 Happiness] [in capital]",
                 ],
                 "row": 9,
                 "column": 3
             },
             {
                 "name": "Centralized Command",
+        	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Consular Authority]>","Comment [Only available before adopting Consular Authority]",
                     	"Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
@@ -2571,6 +2597,7 @@
      		    	"Provides [1] [Nobles]",
                     	"[+3 Happiness] [in capital]",
 			"Unavailable <before the [Hellenistic Age]>",
+
                 ],
                 "row": 7,
                 "column": 1
@@ -2613,6 +2640,7 @@
             },
             {
                 "name": "Consular Authority",
+        	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Centralized Command]>","Comment [Only available before adopting Centralized Command]",
                     	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
@@ -2675,6 +2703,7 @@
                     "[1] free [Great Scholar] units appear",
                     "Earn [10]% of killed [Military] unit's [Strength] as [Science]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+        	"Provides [1] [Mercenary (Numidian)]",
                     "Provides [1] [PunicOrNumidian] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
@@ -2731,6 +2760,7 @@
         "[+1 Gold] from [Mine] tiles [in all cities]",
         "[Gold] cost of purchasing [Numidian Horseman] units [-30]% <when above [10] [Manpower]>",
         "[Gold] cost of purchasing [Numidian Mercenary] units [-30]% <when above [15] [Manpower]>",
+	"May buy [Numidian Mercenary] units with [Gold] [in capital]",
         "[+1 Happiness] [in capital]"
     ],
     "row": 2,
@@ -2788,6 +2818,7 @@
             },
 {
     "name": "Unification of the Tribes",
+        	"era": "Classical Age",
     "uniques": [
         "Comment [Enables War Elephant]", "Provides [1] [Enable War Elephant] <hidden from users>",
         "[+15]% Production when constructing [War Elephant] units [in capital]",
@@ -2798,7 +2829,7 @@
         "[+1 Gold] from [Village] tiles [in all cities]",
         "[+1 Food] from every [Pasture]",
         "[+1 Happiness] [in all cities]",
-        "Unavailable <before the [Classical Age]>"
+			"Unavailable <before the [Classical Age]>",
     ],
     "row": 3,
     "column": 3
@@ -2936,6 +2967,7 @@
 },
 {
                 "name": "Military Reform",
+        	"era": "Hellenistic Age",
                 "uniques": [
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
         		"Comment [Enables Cataphract]", "Provides [1] [Enable Cataphract] <hidden from users>",
@@ -2945,14 +2977,16 @@
         		"[+1 Gold, +1 Food] from [Village] tiles [in all cities]",
         		"[+2 Gold] from [improved] tiles [in all cities] <when not at war>",
         		"Provides [5] [Manpower]",
+        		"Provides [1] [Veteran]",
         		"[+5 Happiness] [in capital]",
-        		"Unavailable <before the [Hellenistic Age]>"
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 8,
                 "column": 3
             },
 {
     "name": "The Jugurthine Legacy",
+        	"era": "Hellenistic Age",
     "uniques": [
         "Provides [1] [Enable Desert Legion] <after adopting [Total War]> <hidden from users>",
         "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
@@ -2968,7 +3002,7 @@
         "Free [General] appears",
         "[+1 Happiness] [in all cities]",
         "[+5 Happiness, +1 Culture] [in capital]",
-        "Unavailable <before the [Hellenistic Age]>"
+			"Unavailable <before the [Hellenistic Age]>",
     ],
     "requires": ["Military Reform"],
     "row": 9,
@@ -2993,139 +3027,328 @@
                     "[1] free [Great Scholar] units appear",
                     "[{Military} {Water}] units gain the [Scouting I] promotion",
                     "[+1] Sight <for [Embarked] units>",
-                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
-                    "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>"
-                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
-                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
-                    "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
-                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
-                    "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>",
                     "Provides [1] [PunicOrNumidian] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
         "policies": [
+{
+    "name": "Phoenician Heritage",
+    "uniques": [
+         "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
+        "[+1 Gold, +1 Culture] from [Water] tiles [in all cities]",
+        "[+25]% Production when constructing [Work Boats] units [in all cities]",
+        "[+1 Gold, +1 Food] from every [Anchorage]",
+        "[-25]% Production when constructing [Anchorage] buildings [in all cities]",
+        "[+1 Happiness] [in capital]",
+    ],
+    "row": 1,
+    "column": 4
+},
+{
+    "name": "Punic Markets",
+    "uniques": [
+        "[+2 Gold] from [Luxury resource] tiles [in all cities]",
+        "[+10]% [Gold] [in capital]",
+        "[+1 Happiness] [in capital]"
+    ],
+    "row": 1,
+    "column": 2
+},
+{
+    "name": "Masters of the Western Sea",
+    "requires": ["Punic Markets"],
+    "uniques": [
+	"Only available <before adopting [Balearic Slingers]>","Comment [Only available before adopting Balearic Slingers]",
+        "[+1] Movement <for [{Military} {Water}] units>",
+	"[+1 Food, +3 Gold] from [Trading post] tiles [in all coastal cities]",
+	"[+1 Food, +1 Gold] from [Fishing Boats] tiles [in all cities]",
+        "Free [Trireme] appears",
+        "Provides [2] [Timber]",
+        "Provides [4] [Manpower]",
+        "[+1 Happiness, +3 Gold] [in capital]"
+    ],
+    "row": 2,
+    "column": 1
+},
+{
+    "name": "Mercenary Contracts",
+    "requires": ["Masters of the Western Sea"],
+    "uniques": [
+	"Comment [+1 Mercenary Camp Limit]",
+        "Provides [2] [Mercenary (Numidian)]",
+        "Provides [2] [Mercenary (Celtic)]",
+	"May buy [Mercenary Warband] units with [Gold] [in capital]",
+	"May buy [Numidian Mercenary] units with [Gold] [in capital]",
+        "[Gold] cost of purchasing [Mercenary Warband] units [-25]%",
+        "[Gold] cost of purchasing [Numidian Mercenary] units [-25]%",
+        "[+40]% Yield from pillaging tiles <for [Mercenary] units>",
+        "[+2 Happiness] from every [Mercenary Camp]",
+        "Provides [5] [Manpower]",
+        "[+1 Gold, +1 Happiness] [in all cities] <when at war>",
+        "[+1 Happiness] [in capital]"
+    ],
+    "row": 3,
+    "column": 1
+},
+{
+    "name": "Balearic Slingers",
+    "requires": ["Phoenician Heritage"],
+    "uniques": [
+	"Only available <before adopting [Masters of the Western Sea]>","Comment [Only available before adopting Masters of the Western Sea]",
+        "[+10]% Strength <for [Ranged] units>",
+        "Gain a free [Archery Range] [in capital]",
+        "Free [Balearic Slinger] appears",
+        "[+10]% Production when constructing [Archery Range] buildings [in all cities]",
+        "Provides [3] [Manpower]",
+        "[+2 Happiness] [in capital]"
+    ],
+    "row": 2,
+    "column": 5
+},
+{
+    "name": "Liby-Phoenician Militias",
+    "requires": ["Balearic Slingers"],
+    "uniques": [
+        "Comment [Enables Pike Phalanx]",
+        "Provides [1] [Enable Pike Phalanx] <hidden from users>",
+        "[+10]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
+        "[+10]% Production when constructing [Hoplite] units [in all cities]",
+        "[+10]% Production when constructing [Skirmisher] units [in all cities]",
+        "[+1 Happiness] from every [Barracks]",
+        "Provides [3] [Manpower]",
+        "Provides [1] [Bronze]",
+        "[+2 Happiness] [in capital]"
+    ],
+    "row": 3,
+    "column": 5
+},
+{
+    "name": "Barcid Expansion",
+    "uniques": [
+       "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+        "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+        "[+10]% Strength <for [General] units>",
+        "[+15]% Production when constructing [Military] units [in all coastal cities]",
+        "Free [General] appears",
+        "Provides [1] [Horses]",
+        "Provides [1] [Nobles]",
+        "Provides [1] [Veteran]",
+        "[+3 Happiness] [in capital]",
+        "Unavailable <before the [Classical Age]>"
+    ],
+    "row": 4,
+    "column": 4
+},
+{
+    "name": "African Estates",
+    "uniques": [
+        "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
+	"Provides [1] [Elephants]",
+        "[+1 Food] from [Farm] tiles [in all cities]",
+        "[+1 Gold] from [Farm] tiles [in all coastal cities]",
+        "[+1 Food, +1 Gold] from [Wheat] tiles [in all cities]",
+        "[+1 Happiness, +1 Gold] from every [Granary]",
+        "[-20]% construction time for [Farm] improvements",
+        "Provides [3] [Manpower]",
+        "[+1 Happiness] [in all coastal cities]",
+        "Unavailable <before the [Classical Age]>"
+    ],
+    "row": 4,
+    "column": 2
+},
+{
+    "name": "Iberian Hire swords",
+    "requires": ["African Estates"],
+    "uniques": [
+	"Only available <before adopting [Balearic Traditions]>","Comment [Only available before adopting Masters of Balearic Traditions]",
+        "Provides [2] [Mercenary (Iberian)]",
+        "[Gold] cost of purchasing [{Military} {Land}] units [-20]%",
+        "[+10]% Strength <for [Mercenary] units>",
+        "[+2 Gold] from every [Mercenary Camp]",
+        "[+2 Gold] from every [Market]",
+        "[+1 Happiness] [in capital]"
+    ],
+    "row": 5,
+    "column": 1
+},
+{
+    "name": "Punic Trade Leagues",
+    "requires": ["Iberian Hire swords"],
+    "uniques": [
+        "[+2 Gold] from [Trading post] tiles [in all cities]",
+        "[+2 Gold, +2 Happiness] from [Trading post] tiles [in all coastal cities]",
+        "[+2 Gold, +1 Happiness] from every [Harbor]",
+        "[-30]% maintenance costs <for [{Military} {Land}] units>",
+        "[+20]% Production when constructing [Market] buildings [in all coastal cities]",
+   	"[1] free [Great Merchant] units appear",
+        "[+2 Happiness] [in capital]"
+        "[+1 Happiness, +1 Gold] [in all coastal cities]"
+    ],
+    "row": 6,
+    "column": 1
+},
+{
+    "name": "Empire of Carthage",
+    "requires": ["Punic Trade Leagues"],
+    "uniques": [
+        "Earn [200]% of killed [{Military} {Water}] unit's [Strength] as [Gold]",
+        "[+10]% [Gold] [in all coastal cities]",
+        "[+2 Gold, +2 Food, +1 Happiness] from [Water resource] tiles [in all cities]",
+        "[+1 Happiness, +1 Food] [in all coastal cities]",
+        "Free [General] appears",
+        "Provides [5] [Manpower]",
+        "Provides [1] [Nobles]",
+        "[+3 Happiness] [in capital]"
+    ],
+    "row": 7,
+    "column": 1
+},
+{
+    "name": "Balearic Traditions",
+    "requires": ["Barcid Expansion"],
+     "era": "Classical Age",
+    "uniques": [
+	"Only available <before adopting [Iberian Hire swords]>","Comment [Only available before adopting Masters of Iberian Hire swords]",
+        "[Slinger] units gain the [Marksman I] promotion",
+        "[Skirmisher] units gain the [Shock I] promotion",
+        "[+10]% Strength <for [Ranged] units> <when defending>",
+        "Provides [1] [Veteran]",
+        "Provides [3] [Manpower]",
+        "[+1 Happiness] [in capital]",
+			"Unavailable <before the [Classical Age]>",
+    ],
+    "row": 5,
+    "column": 5
+},
+{
+    "name": "Admiralty of Carthage",
+    "requires": ["Balearic Traditions"],
+    "uniques": [
+        "[{Military} {Water}] units gain the [Ramming Tactics I] promotion",
+        "[+15]% Strength <for [{Military} {Water}] units> <when fighting in [Friendly Land] tiles>",
+        "[+1 Production] from every [Harbor]",
+        "Free [Pentere] appears",
+        "Provides [2] [Timber]",
+        "Provides [5] [Manpower]",
+        "[+2 Happiness, +1 Faith] [in capital]"
+        "[+1 Happiness, +1 Culture] [in all coastal cities]"
+    ],
+    "row": 6,
+    "column": 5
+},
+{
+    "name": "Legacy of Hannibal",
+    "requires": ["Admiralty of Carthage"],
+    "uniques": [
+        "[+10]% Strength <for [Mounted] units>",
+        "[+10]% Strength <for [Elephant] units>",
+        "[+10]% Strength <for [Hoplite] units>",
+        "[+10]% Strength <for [Mounted Archery] units>",
+        "[+1] Movement <for [Mounted] units> <when fighting in [Friendly Land] tiles>",
+        "[+1] Movement <for [Elephant] units> <when fighting in [Friendly Land] tiles>",
+        "Free [General] appears",
+        "Provides [1] [Nobles]",
+        "Provides [1] [Veteran]",
+        "Provides [5] [Manpower]",
+        "[+5 Happiness] [in capital]",
+    ],
+    "row": 7,
+    "column": 5
+},
+{
+    "name": "Punic Military Reforms",
+    "era": "Hellenistic Age",
+    "uniques": [
+        "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
+        "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+        "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+        "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+        "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
+        "[-40]% maintenance costs <for [{Military} {Land}] units> <when fighting in [Enemy Land] tiles>",
+        "[General] units gain the [Veteran] promotion",
+        "[+1 Happiness, +1 Production] from every [Barracks]",
+        "Provides [5] [Manpower]",
+        "[+5 Happiness] [in capital]",
+			"Unavailable <before the [Hellenistic Age]>",
+    ],
+    "row": 8,
+    "column": 3
+},
             {
-                "name": "The Citadel",
+                "name": "Sacred Band of Carthage",
+    		"era": "Hellenistic Age",
                 "uniques": [
-                    "Gain a free [Walls] [in capital]",
-                    "Provides [4] [Manpower]",
-                    "[+15]% Production when constructing [Land] units [in capital]",
-                    "[+1 Happiness] [in capital]"
+	"Only available <before adopting [Phoenician Traders]>","Comment [Only available before adopting Masters of Phoenician Traders]",
+        "[Heavy Spearman] units gain the [Drill I] promotion",
+        "[Heavy Swordsman] units gain the [Drill I] promotion",
+        "[Sacred Band] units gain the [Inspiring] promotion",
+        "Provides [4] [Manpower]",
+        "Provides [1] [Iron]",
+        "Provides [1] [Veteran]",
+        "[+20]% Production when constructing [Land] units [in capital]",
+        "[+3 Happiness, +1 Culture] [in capital]",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
-                "row": 1,
+                "row": 8,
                 "column": 1
             },
             {
-                "name": "Elephant Charge",
-                "requires": ["The Citadel"],
+                "name": "Numidian Auxiliaries",
+                "requires": ["Sacred Band of Carthage"],
                 "uniques": [
-                    "[War Elephant] units gain the [Trample II] promotion",
-                    "Free [War Elephant] appears",
-                    "Provides [3] [Manpower]",
-                    "[+1 Happiness] [in capital]"
+        	"[+20]% Production when constructing [Horseman] units [in all cities]",
+        	"[+20]% Production when constructing [Skirmisher] units [in all cities]",
+                    "[Ruler] units gain the [Veteran] promotion",
+                    "[+20]% Strength <for [Horseman] units> <vs [Mounted] units>",
+                    "[+20]% Strength <for [Horseman] units> <vs [Mounted Archery] units>",
+                    "[+20]% Strength <for [Numidian Mercenary] units> <vs [Mounted] units>",
+                    "[+20]% Strength <for [Skirmisher] units> <vs [Spear] units>",
+                    "[War Elephant] units gain the [Trample I] promotion",
+                    "Provides [6] [Manpower]",
+                    "Provides [2] [Horses]"
+                    "[+4 Happiness] [in capital]"
                 ],
-                "row": 2,
+                "row": 9,
                 "column": 1
             },
             {
                 "name": "Phoenician Traders",
+    		"era": "Hellenistic Age",
                 "uniques": [
+	"Only available <before adopting [Sacred Band of Carthage]>","Comment [Only available before adopting Masters of Sacred Band of Carthage]",
                     "[+1] Movement <for [Embarked] units>",
-                    "[+2 Gold] from [Water resource] tiles [in all cities]",
-                    "[+1 Happiness] from [Purple Dye] tiles [in all cities]",
-                    "[+1 Happiness] from [Silver] tiles [in all cities]",
-                    "[+1 Happiness] [in capital]"
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {
-                "name": "The War Harbor",
-                "requires": ["Phoenician Traders"],
-                "uniques": [
-                    "[+15]% Production when constructing [Water] units [in capital]",
-                    "Free [Pentere] appears",
-                    "Provides [6] [Manpower]",
-                    "Provides [4] [Timber]",
-                    "[+1 Happiness] [in capital]"
-                ],
-                "row": 2,
-                "column": 5
-            },
-            {
-                "name": "Mercenary Armies",
-                "uniques": [
-                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "[Gold] cost of purchasing [{Military} {Land}] units [-20]%",
+        	    "Earn [100]% of killed [{Military} {Land}] unit's [Strength] as [Gold]",
+                    "[+1 Gold] from [Water] tiles [in all cities]",
+                    "[+3 Happiness, +3 Gold] from [Purple Dye] tiles [in all cities]",
+                    "[+3 Happiness, +3 Gold] from [Silver] tiles [in all cities]",
                     "[+1 Happiness] [in all cities]",
-                    "[+1 Happiness] [in capital]",
-                    "[2] free [Swordsman] units appear",
-                    "Provides [6] [Manpower]"
+                    "[+1 Happiness, +1 Gold] [in all coastal cities]",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
-                "row": 1,
-                "column": 3
+                "row": 8,
+                "column": 5
             },
-            {
-                "name": "Numidian Auxiliaries",
-                "requires": ["Mercenary Armies"],
-                "uniques": [
-                    "[+20]% Strength <for [Horseman] units> <vs [Mounted] units>",
-                    "[+20]% Strength <for [Numidian Mercenary] units> <vs [Mounted] units>",
-                    "[+25]% Strength <for [Skirmisher] units> <when fighting in [Desert] tiles> <when attacking>",
-                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
-                    "Free [Horseman] appears",
-                    "[2] free [Spearman] units appear",
-                    "Provides [2] [Manpower]",
-                    "Provides [1] [Horses]"
-                    "[+1 Happiness] [in capital]"
-                ],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "Mercenary Reform",
-                "requires": ["Numidian Auxiliaries"],
-                "uniques": [
-                    "[Heavy Spearman] units gain the [Drill I] promotion",
-                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
-                    "Free [General] appears", 
-                    "[Gold] cost of purchasing [{Military} {Land}] units [-20]% <during a Golden Age>",
-                    "[+1 Happiness] [in capital]",
-                ],
-                "row": 3,
-                "column": 3
-            },
-
-            {
-                "name": "Colonial Ventures",
-                "requires": ["Mercenary Reform"],
-                "uniques": [
-                    "Free [General] appears",
-                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
-                    "[+1 Happiness] [in all coastal cities]",
-                    "[+1 Happiness] [in capital]",
-                    "Provides [2] [Manpower]",
-                ],
-                "row": 4,
-                "column": 3
-            },
+{
+    "name": "Cothon Harbors",
+    "requires": ["Phoenician Traders"],
+    "uniques": [
+        "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
+        "[+20]% Production when constructing [{Military} {Water}] units [in all cities]",
+        "[+10]% Strength <for [{Military} {Water}] units> <when defending>",
+        "Provides [2] [Timber]",
+        "Provides [8] [Manpower]",
+        "Provides [1] [Veteran]",
+        "[+2 Happiness] [in all coastal cities]"
+    ],
+    "row": 9,
+    "column": 5
+},
             {
                 "name": "Punic Culture Complete",
                 "uniques": [
-                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
-                    "[+10]% Strength <for [{Military} {Water}] units>",
-                    "[General] units gain the [Veteran] promotion",
-                    "[King] units gain the [Scouting II] promotion",
-                    "[Mounted] units gain the [Scouting I] promotion",
-                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
-                    "[+1 Happiness] [in capital]",
-                    "Comment [Enables Cataphract during the Imperial Age]",
-		    "Provides [1] [Enable Cataphract] <hidden from users> <during the [Imperial Age]>",
-                    "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
-                    "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
-                    "Provides [2] [Manpower]",
-                    "Provides [1] [Veteran]",
                 ]
             }
         ]
@@ -3294,15 +3517,16 @@
             },
             {
                 "name": "Rhomphaiophoroi",
+        	"era": "Hellenistic Age",
                 "requires": ["Thracian War Rituals"],
                 "uniques": [
-			"Unavailable <before the [Hellenistic Age]>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "[Infantry Shield II] units gain the [Improved Equipment] promotion",
                     "Provides [2] [Iron]",
                     "[+1 Culture] from every [Thracian Weaponsmith]",
                     "[+3 Happiness] [in capital]",
+			"Unavailable <before the [Hellenistic Age]>",
                 ],
                 "row": 6,
                 "column": 3
@@ -3322,13 +3546,15 @@
             },
             {
                 "name": "Mass Looting",
+        	"era": "Hellenistic Age",
                 "requires": ["Thracian High Kingship"],
                 "uniques": [
+                    	"Only available <before adopting [Royal Gifts]>",
+			"[+40]% Yield from pillaging tiles <for [Melee] units>",
+                    	"Receive [+100]% Gold from Barbarian encampments and pillaging Cities",
+                    	"[+3 Happiness] [in capital]"
+                    	"[+1 Happiness, +1 Food] [in all cities] <when at war>",
 			"Unavailable <before the [Hellenistic Age]>",
-                    "Only available <before adopting [Royal Gifts]>",
-		"[+30]% Yield from pillaging tiles <for [Melee] units>",
-                    "Receive [+100]% Gold from Barbarian encampments and pillaging Cities",
-                    "[+1 Happiness] [in capital]"
                 ],
                 "row": 8,
                 "column": 1
@@ -3408,6 +3634,7 @@
             "[+2 Gold] [in all cities] <with a garrison>",
             "[+1 Happiness] [in all cities]",
 			"Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
+			"Unavailable <before the [Hellenistic Age]>",
         ],
         "policies": [
             {
@@ -3554,8 +3781,8 @@
             },
             {
                 "name": "Confederational Reform",
+        	"era": "Imperial Age",
                 "uniques": [
-			"Unavailable <before the [Imperial Age]>",
                     	"Can spend Gold to annex or puppet a City-State that has been your Ally for [50] turns",
                     	"[-20]% City-State Influence degradation",
 			"[+10]% Great Person generation [in all cities]",
@@ -3564,6 +3791,7 @@
                     	"[+1 Gold] from every [Citizen Assembly]",
                     	"[+1 Gold, +1 Food] from every [Granary]",
 			"[+1 Happiness] [in all cities]",
+			"Unavailable <before the [Imperial Age]>",
                 ],
                 "row": 6,
                 "column": 3
@@ -3680,6 +3908,7 @@
             "[+1 Happiness] [in capital]",
 			"Provides [1] [Ruler]",
 			"Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
+			"Unavailable <before the [Hellenistic Age]>",
         ],
         "policies": [
             {
@@ -3901,8 +4130,8 @@
             },
             {
                 "name": "Pax Imperialis",
+        	"era": "Imperial Age",
                 "uniques": [
-    		    	"Unavailable <before the [Imperial Age]>",
                     	"Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
                     	"Can spend Gold to annex or puppet a City-State that has been your Ally for [70] turns",
                     	"[-10]% Unhappiness from [Population] [in all cities] <with a garrison>",
@@ -3910,6 +4139,7 @@
        		    	"[-30]% maintenance costs <for [Spear] units> <in [Friendly Land] tiles>",
                     	"[+2 Happiness, -1 Gold] [in all cities] <with a garrison>",
                     	"[+1 Happiness] [in capital]",
+			"Unavailable <before the [Imperial Age]>",
                 ],
                 "row": 7,
                 "column": 3
@@ -4014,6 +4244,7 @@
             "[+1 Happiness] [in all cities]",
             "[+1 Happiness, +1 Faith] [in capital]",
             "[+50]% Culture cost of adopting new Policies",
+			"Unavailable <before the [Hellenistic Age]>",
         ],
         "policies": [
             {
@@ -4186,39 +4417,42 @@
             },
             {
                 "name": "Faithful Unity",
+        	"era": "Imperial Age",
                 "uniques": [
-			"Unavailable <before the [Imperial Age]>",
                     	"[-20]% Unhappiness from [Population] [in all cities]"
                    	 "[+1 Happiness] [in capital]",
                    	 "[+1 Food, -1 Gold] from [improved] tiles [in all cities]",
                     	"[+1 Food] from every [Pasture]",
                    	 "[+1 Food] from every [Plantation]",
+			"Unavailable <before the [Imperial Age]>",
                 ],
                 "row": 7,
                 "column": 4
             },
             {
                 "name": "Keeper of Traditions",
+        	"era": "Imperial Age",
                 "uniques": [
-			"Unavailable <before the [Imperial Age]>",
 			"Comment [All units adjacent Prophet heal extra HP when healing]",
                     	"[+20]% XP gained from combat <for [Military] units>",
 			"[+1 Happiness] from all [Grand Temple] buildings <when not at war>",
                     	"[-10]% Unhappiness from [Population] [in all cities]",
                     	"[+1 Happiness, +2 Faith] [in capital]",
+			"Unavailable <before the [Imperial Age]>",
                 ],
                 "row": 7,
                 "column": 2
             },
             {
                 "name": "Seal of Heaven",
+        	"era": "Imperial Age",
                 "uniques": [
-			"Unavailable <before the [Imperial Age]>",
     			"Only available <before adopting [Slave Liberation]>",
                 	"Free [Great Prophet] appears",
                     	"Can spend Gold to annex or puppet a City-State that has been your Ally for [35] turns",
-			"[+2 Food] from all [Grand Temple] buildings <when not at war>",
+			"[+3 Food, +5 Happiness] from all [Grand Temple] buildings <when not at war>",
                     	"[+1 Happiness] [in capital]",
+			"Unavailable <before the [Imperial Age]>",
                 ],
                 "row": 8,
                 "column": 5
@@ -4238,8 +4472,8 @@
             },
             {
                 "name": "Slave Liberation",
+        	"era": "Imperial Age",
                 "uniques": [
-			"Unavailable <before the [Imperial Age]>",
     			"Only available <before adopting [Seal of Heaven]>",
                		"Remove [Slave Trader] [in all cities]",
 			"[Faith] cost of purchasing [Military] units [-10]%",
@@ -4249,6 +4483,7 @@
 			"Provides [4] [Manpower]",
                		"[+1 Happiness] per [5] population [in all cities]",
                		"[+1 Happiness] [in capital]",
+			"Unavailable <before the [Imperial Age]>",
                 ],
                 "row": 8,
                 "column": 1

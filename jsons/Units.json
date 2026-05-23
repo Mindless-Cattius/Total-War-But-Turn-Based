@@ -488,7 +488,7 @@
   {
     "name": "Forester Warband",
     "unitType": "Archery",
-    "replaces": "Slinger",
+    "replaces": "Archer",
     "uniqueTo": "The Belgae",
     "movement": 2,
     "strength": 12,
@@ -514,7 +514,7 @@
   {
     "name": "Balearic Slinger",
     "unitType": "Archery",
-    "replaces": "Archer",
+    "replaces": "Slinger",
     "uniqueTo": "The Carthaginians",
     "movement": 3,
     "strength": 8,
@@ -723,11 +723,12 @@
     "strength": 17,
     "cost": 100,
     "uniques": [
-      	"Only available <in cities with a [Mercenary Camp]>",
+      		"Only available <in cities with a [Mercenary Camp]>",
 	      "Comment ['Medium infantry, professionals in fighting, amateurs in restraint.']",
 	      "[+1] XP gained from combat",
-      	"Unbuildable",
-      	"Can be purchased with [Gold] [in all cities]",
+      		"Consumes [1] [Mercenary (Iberian)]",
+      		"Unbuildable",
+      		"Can be purchased with [Gold] [in all cities]",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -743,7 +744,7 @@
     "cost": 90,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
-	"Comment ['Medium infantry unit, quick to deploys.']"
+	"Comment ['Medium infantry unit, quick to deploys.']",
       "Consumes [1] [Mercenary (Oscan)]",
       	"Unbuildable",
       	"Can be purchased with [Gold] [in all cities]",
@@ -1664,8 +1665,8 @@
     "name": "Pentere",
     "unitType": "Melee Water",
     "movement": 4,
-    "strength": 22,
-    "cost": 150,
+    "strength": 23,
+    "cost": 160,
     "requiredTech": "Navigation",
     "uniques": [
       "Comment [-Heavy naval melee unit]",
