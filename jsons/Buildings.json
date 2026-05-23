@@ -183,7 +183,7 @@
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
 			"Consumes [1] [Sanitation]",
-			"Cost increases by [3] per owned city",
+			"Cost increases by [2] per owned city",
 			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [10] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
 		],
@@ -202,7 +202,7 @@
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
 			"Consumes [1] [Sanitation]",
-			"Cost increases by [4] per owned city"
+			"Cost increases by [3] per owned city"
 			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [17] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
 		],
@@ -220,7 +220,7 @@
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
 			"Consumes [2] [Sanitation]",
-			"Cost increases by [5] per owned city"
+			"Cost increases by [3] per owned city"
 			"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
 		],
@@ -1048,7 +1048,7 @@
 			"[+1 Gold, +1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Production] from [Fort] tiles [in this city]",
 			"[-1 Food] from [Village] tiles [in this city]",
-			"[-5 Gold] <in cities with a [Silver Inflation]> <hidden from users>",
+			"[-10 Gold] <in cities with a [Silver Inflation]> <hidden from users>",
 			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Currency"
@@ -1338,12 +1338,10 @@
 		"maintenance": 1,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric I]>"
-			"Provides [1] [Manpower] <while the empire is happy>",
-			"Provides [1] [Manpower] <during the [Classical Age]>",
-			"Provides [2] [Manpower] <during the [Hellenistic Age]>",
-			"Provides [3] [Manpower] <during the [Imperial Age]>",
+			"Provides [1] [Manpower] <before the [Imperial Age]>",
+			"Provides [2] [Manpower] <during the [Imperial Age]>",
 			"Provides [1] [Manpower] <in cities with at least [10] [Population]>",
-			"Provides [1] [Manpower] <in cities with at least [20] [Population]>",
+			"Provides [1] [Manpower] <in cities with at least [15] [Population]>",
 			"[+1 Culture] from [Fort] tiles [in this city]",
 			"[+50]% weight to this choice for AI decisions",
 		]
