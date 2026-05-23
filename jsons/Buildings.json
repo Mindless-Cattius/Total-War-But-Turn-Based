@@ -2220,10 +2220,10 @@
  {
    "name": Risk of Plague
    "uniques": [
-			"Gain a free [Plague] [in this city] <with [2]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when between [0] and [15] [Sanitation]> <hidden from users>",
-			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when above [15] [Sanitation]> <hidden from users>",
+			"Gain a free [Plague] [in this city] <with [2]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when between [0] and [25] [Sanitation]> <hidden from users>",
+			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when above [25] [Sanitation]> <hidden from users>",
 			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [0] and [25] [Sanitation]>",
-			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when above [25] [Sanitation]>",
+			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [25] and [50] [Sanitation]>",
 			"Unbuildable","Unsellable",
 ]
  },
@@ -2233,9 +2233,9 @@
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
 			"Comment [-Think of it as the Plague, but now it hates you personally. Improve sanitation enough and the plague begins questioning its life choices.]",
-			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when between [0] and [10] [Sanitation]>",
-			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when between [11] and [20] [Sanitation]>",
-			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when above [20] [Sanitation]> ",
+			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when between [5] and [20] [Sanitation]>",
+			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when between [21] and [30] [Sanitation]>",
+			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <when above [30] [Sanitation]> ",
 			"[+70]% Production when constructing [Cure Dangerous Plague] buildings [in this city] <in cities with less than [6] [Population]>",
 			"[+2 Faith, +2 Science, -4 Happiness] [in this city]",
 			"[-2 Gold, -1 Food, -1 Production] from [improved] tiles [in this city]",
@@ -2251,9 +2251,9 @@
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
 			"Comment [-A reminder that sanitation is not decorative, your citizens call it tragedy. The bacteria call it opportunity.]",
-			"[+10]% Production when constructing [Cure Plague] buildings [in this city] <when between [0] and [10] [Sanitation]>",
-			"[+15]% Production when constructing [Cure Plague] buildings [in this city] <when between [11] and [20] [Sanitation]>",
-			"[+20]% Production when constructing [Cure Plague] buildings [in this city] <when above [20] [Sanitation]>",
+			"[+10]% Production when constructing [Cure Plague] buildings [in this city] <when between [5] and [20] [Sanitation]>",
+			"[+15]% Production when constructing [Cure Plague] buildings [in this city] <when between [21] and [30] [Sanitation]>",
+			"[+20]% Production when constructing [Cure Plague] buildings [in this city] <when above [30] [Sanitation]>",
 			"[+70]% Production when constructing [Cure Plague] buildings [in this city] <in cities with less than [6] [Population]>",
 			"[+1 Faith, +1 Science, -2 Happiness] [in this city]",
 			"[-1 Gold, -1 Production] from [improved] tiles [in this city]",
