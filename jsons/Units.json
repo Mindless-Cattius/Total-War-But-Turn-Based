@@ -785,7 +785,7 @@
     "requiredTech": "Bronze Working",
     "uniques": [
      	"Only available <in cities with a [Muster Field]>",
-     	"Unbuildable <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
+     	"Unbuildable <when above [0] [Gallic 3rd century crisis]> <hidden from users>",
 	"Comment ['Spearman — ideal for stopping horses, not much else.']",
       	"Consumes [2] [Manpower]",
     ],
@@ -921,7 +921,7 @@
 	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
       	"Only available <with [Enable Swordsman]> <hidden from users>",
       	"Unavailable <after adopting [Latin Culture]> <hidden from users>",
-     	"Unbuildable <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
+     	"Unbuildable <when above [0] [Gallic 3rd century crisis]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -2931,7 +2931,7 @@
     "cost": 60,
     "requiredTech": "Bronze Working",
     "uniques": [
-     	"Only available <in cities with a [Muster Field]> <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
+     	"Only available <in cities with a [Muster Field]> <when above [0] [Gallic 3rd century crisis]> <hidden from users>",
 	"Comment ['Spearman — ideal for stopping horses, not much else.']",
 	"Can build [Remove Forest] improvements on tiles",
       	"Consumes [2] [Manpower]",
