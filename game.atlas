@@ -160,84 +160,84 @@ CityStateIcons/Scythian
   index: -1
 CityStateIcons/Thracian
   rotate: false
-  xy: 1603, 1043
+  xy: 1603, 935
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xAchaean
   rotate: false
-  xy: 1711, 827
+  xy: 544, 719
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xAetnae
   rotate: false
-  xy: 544, 719
+  xy: 544, 611
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xAetolian
   rotate: false
-  xy: 544, 611
+  xy: 544, 503
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xAntitages
   rotate: false
-  xy: 544, 503
+  xy: 544, 395
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xArgive
   rotate: false
-  xy: 544, 395
+  xy: 544, 287
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xBithynian
   rotate: false
-  xy: 544, 287
+  xy: 544, 179
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xCorinthian
   rotate: false
-  xy: 544, 179
+  xy: 544, 71
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xEteocretans
   rotate: false
-  xy: 544, 71
+  xy: 1819, 1151
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xIndian
   rotate: false
-  xy: 1819, 1151
+  xy: 1819, 1043
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xLydian
   rotate: false
-  xy: 1819, 1043
+  xy: 1819, 935
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xSyracusan
   rotate: false
-  xy: 1819, 935
+  xy: 1819, 827
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -277,23 +277,30 @@ NationIcons/The Arverni
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Bastarnae
+NationIcons/The Athenians
   rotate: false
   xy: 1711, 1475
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Belgae
+NationIcons/The Bastarnae
   rotate: false
   xy: 1819, 1475
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Boii
+NationIcons/The Belgae
   rotate: false
   xy: 1927, 1475
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Boii
+  rotate: false
+  xy: 1279, 1475
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -307,126 +314,126 @@ NationIcons/The Carthaginians
   index: -1
 NationIcons/The Celtiberians
   rotate: false
-  xy: 1279, 1475
+  xy: 1172, 1367
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Cyreneans
   rotate: false
-  xy: 1172, 1367
+  xy: 1280, 1367
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Dardanians
   rotate: false
-  xy: 1280, 1367
+  xy: 1388, 1367
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Getae
   rotate: false
-  xy: 1388, 1367
+  xy: 1496, 1367
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Insubres
   rotate: false
-  xy: 1496, 1367
+  xy: 1604, 1367
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Lusitani
   rotate: false
-  xy: 1604, 1367
+  xy: 1712, 1367
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Macedonians
   rotate: false
-  xy: 1712, 1367
+  xy: 1820, 1367
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Massylii
   rotate: false
-  xy: 1820, 1367
+  xy: 1928, 1367
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mithridatids
   rotate: false
-  xy: 1928, 1367
+  xy: 1279, 1259
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Odrysians
   rotate: false
-  xy: 1279, 1259
+  xy: 1387, 1259
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Pergamenes
   rotate: false
-  xy: 1387, 1259
+  xy: 1387, 1151
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Ptolemies
   rotate: false
-  xy: 1387, 1151
+  xy: 1387, 1043
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Romans
   rotate: false
-  xy: 1387, 1043
+  xy: 1495, 1151
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Roxolani
   rotate: false
-  xy: 1495, 1151
+  xy: 1495, 1043
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Scordisci
   rotate: false
-  xy: 1495, 1043
+  xy: 1387, 935
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Scythians
   rotate: false
-  xy: 1387, 935
+  xy: 1495, 935
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Seleucids
   rotate: false
-  xy: 1495, 935
+  xy: 1603, 1151
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Spartans
   rotate: false
-  xy: 1603, 1151
+  xy: 1603, 1043
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -436,13 +443,6 @@ NationIcons/xMaurya
   xy: 732, 1807
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/xThe Athenians
-  rotate: false
-  xy: 1819, 827
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/xThe Autariatae
@@ -797,28 +797,28 @@ ResourceIcons/Tar
   index: -1
 ResourceIcons/Timber
   rotate: false
-  xy: 1603, 935
+  xy: 1387, 827
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Tin
   rotate: false
-  xy: 1387, 827
+  xy: 1495, 827
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Veteran
   rotate: false
-  xy: 1603, 827
+  xy: 1711, 1151
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Wine
   rotate: false
-  xy: 1711, 935
+  xy: 1711, 827
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -965,14 +965,14 @@ TechIcons/Public Works
   index: -1
 TechIcons/Urbanization
   rotate: false
-  xy: 1495, 827
+  xy: 1603, 827
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Warrior Class
   rotate: false
-  xy: 1711, 1043
+  xy: 1711, 935
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1336,7 +1336,7 @@ UnitPromotionIcons/Standard Bearer
   index: -1
 UnitPromotionIcons/Veteran
   rotate: false
-  xy: 1711, 1151
+  xy: 1711, 1043
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
