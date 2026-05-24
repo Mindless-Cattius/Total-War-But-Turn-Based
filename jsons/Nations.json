@@ -28,8 +28,8 @@
 		"uniqueName": "We Come as Friends",
 		"uniques": [
     		"[+10]% Strength <when defending> <vs [Sword] units> <for [Sword] units>",
-		"[+1 Happiness] from every [Muster Field] <when at war>",
-		"[+2 Happiness, +1 Gold] from every [Army Barracks]",
+		"[+1 Happiness] from every [Barracks] <when at war>",
+		"[+2 Happiness, +1 Gold] from every [Army Barracks] <when at war>",
 		"Starts with [Latin Culture] adopted",
 		],
 		"cities": ["Rome","Ostia","Capua","Venusia","Ariminum","Brundisium","Placentia","Firmum","Salernum","Buxentum","Neapolis","Ravenna","Mediolanum","Aquileia","Beneventum","Nola","Velitrae","Tibur","Praeneste","Spoletium","Perusia","Arretium","Mutina","Bononia","Parma","Genua","Ancona","Patavium","Verona","Brixia","Cremona","Pisae","Luna","Florentia","Forum Livii","Faventia","Arpinum","Formiae","Casilinum","Sinuessa","Terracina","Setia","Auximum","Falerii","Luceria","Venafrum","Narnia","Aesernia","Norba","Alba Fucens"]
@@ -657,6 +657,38 @@
 		],
 		"cities": ["Bastarni","Scirii","Atmonia","Sidoni","Peucini","Carpi","Costoboces"]
 	},
+	{
+	"name": "The Suebi",
+	"leaderName": "Ariovistus",
+	"adjective": ["Suebian"],
+	"startBias":["Forest","Plains","Avoid [Coast]"],
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Druidism",
+	"startIntroPart1": "The forests of Germania shelter fierce warriors and proud tribes.",
+	"startIntroPart2": "Under Ariovistus, the Suebi shall carve their destiny across the world.",
+	"declaringWar": "Weakness invites conquest. Prepare yourselves.",
+	"attacked": "You dare challenge the Suebi?",
+	"defeated": "So... even the Suebi fall. May our tribes be remembered.",
+	"introduction": "I am Ariovistus, High King of the Suebi. Speak carefully before the warbands of Germania.",
+	"neutralHello": "You stand among warriors.",
+	"hateHello": "Why are you still here?",
+	"tradeRequest": "Trade if you must. Do not waste my time.",
+	"outerColor": [32,48,28],
+	"innerColor": [215,215,215],
+	"style": "Germanic",
+	"uniqueName": "Warbands of Germania",
+	"uniques": [
+	"[+10]% Strength <for [Melee] units> <when fighting in [Forest] tiles>",
+	"[+20]% Production when constructing [Spear] units [in all cities]",
+	"[+10]% Production when constructing [Sword] units [in all cities]",
+	"[+1 Food] from [Pasture] tiles [in all cities]",
+//	"Starts with [Light Cavalry]",
+	"Starts with [Germanic Culture] adopted"
+	],
+	"cities": [
+	"Semnonia","Marobudum","Mattium","Aliso","Teutoburg","Boihaemum","Asciburgium","Lupfurdum","Idistaviso","Marcomannia","Quadorum","Hermundurii","Langobardii","Naristi","Suebi","Batavodurum"
+	]
+}
 //Greece
 	{
 		"name": "The Macedonians",

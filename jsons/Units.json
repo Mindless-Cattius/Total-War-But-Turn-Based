@@ -797,24 +797,47 @@
     "attackSound": "metalhit"
   },
   {
+    "name": "Suebian Warband",
+    "unitType": "Spear",
+    "replaces": "Spearman",
+    "uniqueTo": "The Suebi",
+    "movement": 2,
+    "strength": 14,
+    "cost": 50,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+     	"Only available <in cities with a [Muster Field]>",
+	"Comment ['Spearman — fierce forest warriors who overwhelm enemies through speed and ferocity.']",
+      	"Consumes [2] [Manpower]",
+	"[+1] Movement <when fighting in [Forest] tiles>",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield I",
+      "Ambush I",
+      "Shock I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
     "name": "Ligurian Warrior",
     "unitType": "Spear",
     "replaces": "Spearman",
     "uniqueTo": "The Insubres",
     "movement": 2,
-    "strength": 12,
+    "strength": 13,
     "cost": 50,
     "requiredTech": "Bronze Working",
     "uniques": [
       	"Only available <in cities with a [Muster Field]>",
 	"Comment ['Light spear, deadly in ambushes, unimpressed by fair fights.']",
       	"Consumes [2] [Manpower]",
+	"[+10]% Strength <when defending> <when fighting in [Forest] tiles>"
     ],
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield II",
       "Ambush I",
-      "Shock I",
     ],
     "attackSound": "metalhit"
   },
