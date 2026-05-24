@@ -30,9 +30,9 @@
     		"[+10]% Strength <when defending> <vs [Sword] units> <for [Sword] units>",
 		"[+1 Happiness] from every [Barracks] <when at war>",
 		"[+2 Happiness, +1 Gold] from every [Army Barracks] <when at war>",
-		"Starts with [Latin Culture] adopted"
+		"Starts with [Latin Culture] adopted",
 		],
-		"cities": ["Rome","Capua","Venusia","Ariminum","Brundisium","Placentia","Cannae","Segesta","Firmum","Salernum","Buxentum","Pollentia"]
+		"cities": ["Rome","Ostia","Capua","Venusia","Ariminum","Brundisium","Placentia","Firmum","Salernum","Buxentum","Neapolis","Ravenna","Mediolanum","Aquileia","Beneventum","Nola","Velitrae","Tibur","Praeneste","Spoletium","Perusia","Arretium","Mutina","Bononia","Parma","Genua","Ancona","Patavium","Verona","Brixia","Cremona","Pisae","Luna","Florentia","Forum Livii","Faventia","Arpinum","Formiae","Casilinum","Sinuessa","Terracina","Setia","Auximum","Falerii","Luceria","Venafrum","Narnia","Aesernia","Norba","Alba Fucens"]
 	},
 	{
 		"name": "The Insubres",
@@ -57,7 +57,7 @@
 		"uniques": [
     		"[+10]% Strength <when defending> <for [Spearman] units>",
     		"[+10]% Strength <for [Skirmisher] units>",
-    		"[+1 Food] from [Village] tiles [in all cities]"
+    		"[+1 Food] from [Village] tiles [in all cities]",
                 "[Gold] cost of purchasing [{Military} {Land}] units [-10]%",
 //		"Starts with [Mercenaries]",
 		"Starts with [Celtic Culture] adopted"
@@ -90,10 +90,11 @@
 		"uniqueName": "Riches of the Nile",
 		"uniques": [
 		"[+10]% Strength <for [Heavy Spearman] units>",
-		"[+10]% Strength <when defending> <for [Spearman] units>"
+		"[+10]% Strength <when defending> <for [Spearman] units>",
     		"[+1 Food] from [Village] tiles [in all cities]",
+    		"[+1 Food] from [Wheat] tiles [in all cities]",
 //		"Starts with [Colonization]",
-		"Starts with [Hellenistic Culture] adopted"
+		"Starts with [Hellenistic Culture] adopted",
 		],
 		"cities": [
 		"Alexandreia","Pelousion","Leukaspis","Diospolis","Hermopolis","Aphroditoupolis","Heliopolis","Hierapolis","Oxyrinchos","Philadelphia","Herakleopolis","Panopolis",
@@ -126,7 +127,7 @@
     		"[+10]% Strength <for [Hoplite] units>",
 		"Gain a free [Silphium Trader] [in capital]",
 //		"Starts with [Entertainment]",
-		"Starts with [Hellenic Culture] adopted"
+		"Starts with [Hellenic Culture] adopted",
 		],
 		"cities": ["Cyrene","Barke","Euesperides","Apollonia Cyrenaike","Darnis","Taucheiria","Antipirgus","Katabathmos","Boreon","Paretonion","Berenike","Ptolemais"]
 	},
@@ -159,7 +160,7 @@
 		"Provides [5] [Manpower]",
 		"[+10]% Production when constructing [Military] units [in all cities] <after discovering [Metallurgy]>",
 //		"Starts with [Light Cavalry]",
-		"Starts with [Hellenistic Culture] adopted"
+		"Starts with [Hellenistic Culture] adopted",
 		],
 		"cities": ["Amaseia","Amisos","Zela","Komana","Koloneia","Polemonion","Sebastopolis","Sebasteia","Nikopolis","Kerasous"]
 	},
@@ -185,10 +186,11 @@
 		"uniqueName": "The Treasury of Lysimachos",
 		"uniques": [
     		"[+10]% Strength <for [Skirmisher] units>",
-    		"[+1 Gold] from [Village] tiles [in all cities]"
+    		"[+1 Gold] from [Village] tiles [in all cities]",
+    		"[+1 Gold, +1 Happiness] from [Trading post] tiles [in all cities]",
 		"Gain a free [National Treasury] [in capital]",
 //		"Starts with [Entertainment]",
-		"Starts with [Hellenistic Culture] adopted"
+		"Starts with [Hellenistic Culture] adopted",
 		],
 		"cities": ["Pergamos","Elaia","Attaleia","Hadramytteion","Attea","Assos","Parion","Abydos","Lampsakos","Cyzicos","Thyateira","Magnesia"]
 	},
@@ -215,11 +217,12 @@
 		"uniqueName": "Lords of Asia",
 		"uniques": [
     		"[+10]% Strength <for [Elephant] units>",
-    		"[+1 Production] from [Village] tiles [in all cities]"
+    		"[+1 Happiness] from [Village] tiles [in all cities]",
 		"[-10]% unhappiness from the number of cities",
 		"[Mounted] units gain the [Charge I] promotion",
+		"[Elephant] units gain the [Trample I] promotion",
 //		"Starts with [Light Cavalry]",
-		"Starts with [Hellenistic Culture] adopted"
+		"Starts with [Hellenistic Culture] adopted",
 		],
 		"cities": [
 		"Antioch","Seleucia Pieria","Apameia","Laodikea Paralos","Beroia","Chalkis","Nicephorion","Hierapolis Bambyke","Dura Europos","Zeugma","Edessa","Emessa","Epiphania"
@@ -247,9 +250,10 @@
 		"uniqueName": "Caucasian Stronghold",
 		"uniques": [
 		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
-		"[-10]% maintenance costs <for [{Military} {Land}] units> <after discovering [Vassalage]>",
+		"[-20]% maintenance costs <for [{Military} {Land}] units> <after discovering [Vassalage]>",
     		"[+10]% Strength <for [Spearman] units>",
-    		"[+1 Gold] from [Hill] tiles [in capital]"
+    		"[+1 Gold] from [Hill] tiles [in capital]",
+		"[Horseman] units gain the [Scouting I] promotion",
 //		"Starts with [Archery]",
 		"Starts with [Eastern Culture] adopted"
 		],
@@ -280,9 +284,10 @@
 		"uniques": [
 		"New [Horse Archer] units start with [10] XP [in all cities]",
 		"New [Cataphract] units start with [10] XP [in all cities]",
-    		"[+1 Production] from [Village] tiles [in all cities]"
+		"New [Cavalry] units start with [10] XP [in all cities]",
+    		"[+1 Gold] from [Village] tiles [in all cities]",
 //		"Starts with [Light Cavalry]",
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
 		],
 		"cities": ["Hecatompylos","Arsacia","Gorgan","Nisa","Asaak","Mithradatkirt","Merv","Ctesiphon","Dara","Vologasia","Susa","Nineveh"]
 	},
@@ -310,6 +315,8 @@
 		"uniques": [
 		"[+50]% [Happiness] from City-States",
 		"[+50]% Happiness from luxury resources gifted by City-States",
+		"New [Horse Archer] units start with [15] XP [in capital]",
+		"Provides [2] [Horses]",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Eastern Culture] adopted",
 		"Starts with [Pastoral Lifeways] adopted",
@@ -344,10 +351,11 @@
 		"uniques": [
 		"[+20]% Production when constructing [Cataphract] units [in all cities]",
 		"[+25]% Production when constructing [Nomadic Herd] buildings [in all cities]",
-    		"[+1 Production] from [Pasture] tiles [in all cities]"
+    		"[+1 Production] from [Pasture] tiles [in all cities]",
+    		"[+1 Food] from [Trading post] tiles [in all cities]",
 		"[+1 Happiness] from every [Nomadic Herd]",
 //		"Starts with [Light Cavalry]",
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
 		],
 		"cities": [
 		"Roxolani","Alani","Aorsi","Iazyges","Sindi","Dandarii","Toreatae","Agri","Arrechi","Tarpetes","Obidiaceni","Sittaceni","Dosci","Aragantes","Cissianti",
@@ -377,10 +385,10 @@
 		"uniqueName": "Phoenician Heritage",
 		"uniques": [
     		"[+10]% Strength <for [Elephant] units>",
-    		"[+1 Gold] from [Village] tiles [in all cities]"
-		"[+100]% Production when constructing [Anchorage] buildings [in all cities]",
-		"[+100]% Production when constructing [Market] buildings [in all cities]",
-		"[+1 Happiness] [in all cities]",
+    		"[+1] Movement <for [Mounted Archery] units>",
+    		"[+1 Gold] from [Village] tiles [in all cities]",
+		"[+30]% Production when constructing [Market] buildings [in all cities]",
+		"[+1 Happiness] [in all coastal cities]",
 		"Each city founded increases culture cost of policies [10]% less than normal",
 //		"Starts with [Colonization]",
 		"Starts with [Punic Culture] adopted"
@@ -443,11 +451,12 @@
 		"uniqueName": "West Numidians",
 		"uniques": [
 		"New [Mounted] units start with [15] XP [in all cities]",
+		"New [Mounted Archery] units start with [10] XP [in capital]",
     		"[+10]% Strength <for [Skirmisher] units>",
     		"[+1 Gold] from [Village] tiles [in all cities]",
 		"[+1 Gold] from every [Market]",
 //		"Starts with [Light Cavalry]",
-		"Starts with [Numidian Culture] adopted"
+		"Starts with [Numidian Culture] adopted",
 		],
 		"cities": ["Siga","Auzia","Uzinaza","Sufasar","Zucchabar","Tigava","Mina","Quiza","Altava","Bida","Tipasa"]
 	},
@@ -696,8 +705,8 @@
 		"neutralHello": "Hello, friend.",
 		"hateHello": "Oh, you. What is it?",
 		"tradeRequest": "Let's have a trade. What do you say?",
-		"outerColor": [227, 82, 82],
-		"innerColor": [237, 234, 179],
+		"outerColor": [211, 100, 100],
+		"innerColor": [248, 243, 89],
 		"style": "Spartan",
 		"uniqueName": "Warriors and Helots",
 		"uniques": [
@@ -705,12 +714,62 @@
 		"[Foot Guard] units gain the [Spartan Aura] promotion",
     		"[+10]% Strength <for [Hoplite] units>",
     		"[+1 Food] from [Farm] tiles [in capital]",
-		"Gain a free [Syssition] [in capital]",
 		"Gain a free [Second King] [in capital]",
 //		"Starts with [Infantry Training]",
 		"Starts with [Hellenic Culture] adopted"
 		],
 		"cities": ["Sparta","Gytheion","Epidauros Limera","Tainaron","Prassiai","Selassia"]
+	},
+{
+	"name": "The Athenians",
+	"leaderName": "Pericles",
+	"adjective": ["Athenian"],
+	"startBias": ["Coast","Plains","Hill"],
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Olympianism",
+	"startIntroPart1": "Athens rises through wisdom, trade, and the strength of free citizens.",
+	"startIntroPart2": "From the harbors of Piraeus to the marble heights of the Acropolis, our legacy shall endure.",
+	"declaringWar": "You leave us no choice. War it must be.",
+	"attacked": "Very well, this shall not be forgotten.",
+	"defeated": "We... defeated? No... we had so much work to do!",
+	"introduction": "Greetings. I am Pericles, leader of Athens, beacon of Hellas.",
+	"neutralHello": "Welcome to Athens.",
+	"hateHello": "Speak quickly. My patience is limited.",
+	"tradeRequest": "Trade enriches all civilized peoples. Shall we begin?",
+	"outerColor": [63, 147, 147],
+	"innerColor": [255, 255, 142],
+	"style": "Greek",
+	"uniqueName": "Delian League",
+	"uniques": [
+	"Starts with [Hellenic Culture] adopted",
+//	"Starts with [Entertainment]",
+	"[+1 Food] from [Farm] tiles [in all coastal cities]",
+	"[+25]% Production when constructing [Melee Water] units [in all cities]",
+	"Gain a free [Theatre] [in capital]"
+	],
+
+	"cities": [
+	"Athens","Piraeus","Marathon","Eleusis","Laurion","Sunium","Thorikos","Brauron","Decelea","Acharnae"
+	]
+},
+	{
+		"name": "The Epirots", // + Tymphaians, Paraueans
+		"adjective": ["Epirot"],
+		"cityStateType": "Hellenic",
+		"startBias": ["Hill","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,175,100],
+		"uniques": [
+		"Starts with [Hellenistic Culture] adopted",
+//		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Melee] units [in all cities]"
+		],
+		"style": "Greek",
+		"cities": ["Passaron"]
 	},
 //Thrace
 	{
@@ -1597,44 +1656,6 @@
 		"cities": ["Siracena"]
 	},
 //Greece
-	{
-		"name": "The Athenians",
-		"adjective": ["Athenian"],
-		"cityStateType": "Hellenic",
-		"startBias": ["Coast","Plains","Hill"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [50,200,150],
-		"uniques": [
-		"Starts with [Hellenic Culture] adopted",
-//		"Starts with [Entertainment]",
-		"[+25]% Production when constructing [Melee] units [in all cities]"
-		],
-		"style": "Greek",
-		"cities": ["Athens"]
-	},
-	{
-		"name": "The Epirots", // + Tymphaians, Paraueans
-		"adjective": ["Epirot"],
-		"cityStateType": "Hellenic",
-		"startBias": ["Hill","Grassland"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225,175,100],
-		"uniques": [
-		"Starts with [Hellenistic Culture] adopted",
-//		"Starts with [Infantry Training]",
-		"[+25]% Production when constructing [Melee] units [in all cities]"
-		],
-		"style": "Greek",
-		"cities": ["Passaron"]
-	},
 	{
 		"name": "The Cretan Pirates",
 		"adjective": ["Cretan"],
