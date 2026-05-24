@@ -757,27 +757,6 @@
     "attackSound": "metalhit"
   },
   {
-    "name": "Iphicratian Hoplite",
-    "unitType": "Spear",
-    "movement": 2,
-    "strength": 15,
-    "cost": 80,
-    "uniques": [
-      	"Only available <in cities with a [Parthenon]>",
-	"Comment ['Medium spear infantry, built for sieges and river fights, not poetry.']",
-      	"Consumes [2] [Manpower]",
-       "Consumes [1] [Bronze]",
-    ],
-    "promotions": [
-      "[Spearman] ability",
-      "Infantry Shield II",
-      "Assault I",
-      "Amphibious I",
-    ],
-    "hurryCostModifier": 20,
-    "attackSound": "metalhit"
-  },
-  {
     "name": "Spearman",
     "unitType": "Spear",
     "movement": 2,
@@ -810,6 +789,9 @@
 	"Comment ['Spearman — fierce forest warriors who overwhelm enemies through speed and ferocity.']",
       	"Consumes [2] [Manpower]",
 	"[+1] Movement <when fighting in [Forest] tiles>",
+	"[+40]% production cost <during the [Imperial Age]>",
+	"[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
+	"[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -831,6 +813,8 @@
     "uniques": [
       	"Only available <in cities with a [Muster Field]>",
 	"Comment ['Light spear, deadly in ambushes, unimpressed by fair fights.']",
+	"[+40]% production cost <during the [Imperial Age]>",
+	"[+25]% Strength <during the [Imperial Age]>",
       	"Consumes [2] [Manpower]",
 	"[+10]% Strength <when defending> <when fighting in [Forest] tiles>"
     ],
@@ -841,6 +825,7 @@
     ],
     "attackSound": "metalhit"
   },
+						///Hoplite
   {
     "name": "Hoplite",
     "unitType": "Spear",
@@ -887,6 +872,30 @@
     "attackSound": "metalhit"
   },
   {
+    "name": "Athenian Hoplite",
+    "unitType": "Spear",
+    "replaces": "Hoplite",
+    "uniqueTo": "The Athenians",
+    "movement": 2,
+    "strength": 15,
+    "cost": 80,
+    "requiredTech": "Citizen Levy",
+    "uniques": [
+	"Comment [Heavy spear infantry, elite training, Poseidon's fan boys.]",
+      	"Only available <in cities with a [Barracks]>",
+	"[+10]% Strength <when defending> <when [Embarked]>"
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Bronze]",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Amphibious I",
+      "Drill I"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
     "name": "Noble Hoplite",
     "unitType": "Spear",
     "replaces": "Hoplite",
@@ -910,9 +919,75 @@
     "attackSound": "metalhit"
   },
   {
+    "name": "Molossian Hoplite",
+    "unitType": "Spear",
+    "replaces": "Hoplite",
+    "uniqueTo": "The Epirots",
+    "movement": 2,
+    "strength": 15,
+    "cost": 80,
+    "requiredTech": "Citizen Levy",
+    "uniques": [
+      	"Only available <in cities with a [Barracks]>",
+	"Comment ['Heavy spear infantry, hardened by the mountains of Epirus, great at jogging']",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Bronze]",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Drill I",
+      "[Mountaineer]",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Theban Hoplite",
+    "unitType": "Spear",
+    "replaces": "Hoplite",
+    "uniqueTo": "The Thebans",
+    "movement": 2,
+    "strength": 15,
+    "cost": 90,
+    "requiredTech": "Citizen Levy",
+    "uniques": [
+      	"Only available <in cities with a [Barracks]>",
+	"Comment ['The Sacred Band. Proof that emotional commitment can, in fact, become a military doctrine.']",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Bronze]",
+	"[+20]% Strength <for [Theban Hoplite] units> <when adjacent to a [Theban Hoplite] unit>"
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Drill I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Iphicratian Hoplite",
+    "unitType": "Spear",
+    "movement": 2,
+    "strength": 16,
+    "cost": 80,
+    "uniques": [
+      	"Only available <in cities with a [Parthenon]>",
+	"Comment ['Medium spear infantry, built for sieges and river fights, not poetry.']",
+      	"Consumes [3] [Manpower]",
+       "Consumes [1] [Bronze]",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Assault I",
+      "Amphibious I",
+    ],
+    "hurryCostModifier": 20,
+    "attackSound": "metalhit"
+  },
+  {
     "name": "Pike Phalanx",
     "unitType": "Spear",
-    "uniqueTo": "The Barbarians",
     "movement": 2,
     "strength": 16,
     "cost": 90,
@@ -1049,9 +1124,9 @@
     "uniques": [
       "Comment [Light shock infantry, ’Tis but a scratch' made violently literal, fierce, half-drunk, and allergic to the concept of retreat.] <before the [Imperial Age]>",
       "Only available <in cities with a [Barracks]>",
-	"[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
 	"[+20]% production cost <during the [Imperial Age]>",
       "Consumes [3] [Manpower]",
+	"[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
 	"[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
 	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
     ],
@@ -2002,7 +2077,7 @@
     "strength": 16,
     "cost": 140,
     "uniques": [
-		"Comment [Elite medium sword infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away.]",
+		"Comment [Elite Heavy sword infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away.]",
      		"Only available <in cities with a [Palace]>",
 	      	"[+1] XP gained from combat",
 		"[+20]% Strength <during the [Imperial Age]>",
@@ -2011,7 +2086,6 @@
       		"Consumes [1] [Veteran]",
     ],
     "promotions": [
-      "[Spearman] ability",
       "Infantry Shield III",
       "Spartan Aura",
       "Inspiring",

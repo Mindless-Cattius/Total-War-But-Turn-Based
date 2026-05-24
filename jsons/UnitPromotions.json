@@ -405,7 +405,7 @@
 		"name": "Formation III",
 		"prerequisites": ["Formation II"],
 		"uniques": [
-     "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
+     			"[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
 			"[+10]% Strength <vs [Mounted] units>",
 			"[+10]% Strength <when defending>"]
 		"unitTypes": ["Spear"],
@@ -530,9 +530,9 @@
 	{
 		"name": "Amphibious I",
 		"uniques": [
+		"[1] Movement point cost to embark",
 		"Eliminates combat penalty for attacking over a river",
-		"Eliminates combat penalty for attacking across a coast",
- 		"[+5]% Strength <when fighting in [Foreign Land] tiles>"
+		"[+10]% Strength <when defending> <when [Embarked]>",
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout","Elephant","Ruler"],
         "column": 20,
@@ -543,9 +543,9 @@
 		"prerequisites": ["Amphibious I"],
 		"uniques": [
 		"[0] Movement point cost to disembark",
-		"[1] Movement point cost to embark",
-		"[+20]% Strength <when defending> <when [Embarked]>",
+		"Eliminates combat penalty for attacking across a coast",
  		"[+10]% Strength <when fighting in [Foreign Land] tiles>"
+		"[+1] Movement <when [Embarked]>"
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout","Ruler"],
         "column": 20,

@@ -786,25 +786,40 @@
 	"Athens","Piraeus","Marathon","Eleusis","Laurion","Sunium","Thorikos","Brauron","Decelea","Acharnae"
 	]
 },
-	{
-		"name": "The Epirots", // + Tymphaians, Paraueans
-		"adjective": ["Epirot"],
-		"cityStateType": "Hellenic",
-		"startBias": ["Hill","Grassland"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [225,175,100],
-		"uniques": [
-		"Starts with [Hellenistic Culture] adopted",
-//		"Starts with [Infantry Training]",
-		"[+25]% Production when constructing [Melee] units [in all cities]"
-		],
-		"style": "Greek",
-		"cities": ["Passaron"]
-	},
+{
+	"name": "The Epirots",
+	"leaderName": "Tharyps",
+	"adjective": ["Epirot"],
+	"startBias": ["Hill","Grassland","Forest"],
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Olympianism",
+	"startIntroPart1": "Among the mountains of Epirus, hardy tribes gather beneath a single crown.",
+	"startIntroPart2": "From the Molossians to the Chaonians, our warriors shall endure where softer kingdoms fail.",
+	"declaringWar": "Then let the mountains witness your destruction.",
+	"attacked": "You dare march into Epirus? You will regret this.",
+	"defeated": "So... Epirus falls. But our people will remember.",
+	"introduction": "I am Tharyps, ruler of the Epirotes. Speak your purpose plainly.",
+	"neutralHello": "Welcome to Epirus.",
+	"hateHello": "Your presence insults this court.",
+	"tradeRequest": "Perhaps trade may benefit us both.",
+	"outerColor": [58,72,102],
+	"innerColor": [225,175,100],
+	"style": "Greek",
+	"uniqueName": "Mountain Kingdom",
+	"uniques": [
+	"Starts with [Hellenic Culture] adopted",
+//	"Starts with [Infantry Training]",
+	"[+10]% Strength <for [Spear] units> <when fighting in [Hill] tiles>",
+	"[+1 Production] from [Hill] tiles [in capital]",
+	"[+10]% Production when constructing [Pike Phalanx] units [in all cities]",
+	"[+15]% Production when constructing [Spear] units [in all cities]",
+	"[+10]% Production when constructing [Sword] units [in all cities]",
+	"[+1 Happiness, +1 Food] [in all cities] <with a garrison>",
+	],
+	"cities": [
+"Passaron","Dodona","Phoinike","Ambrakia","Bouthroton","Orraon","Gitana","Kassope","Antigoneia","Tekmon"
+	]
+}
 //Thrace
 	{
 		"name": "The Odrysians",
@@ -931,6 +946,46 @@
 		],
 		"cities": ["Singidunon","Sirmium","Domavium","Viminiacum","Tibiscum","Maluesa","Dierna","Bassiana","Cibalae","Mursa"]
 	},
+
+/// 
+{
+	"name": "The Thebans",
+	"leaderName": "Epaminondas",
+	"adjective": ["Theban"],
+	"cityStateType": "Hellenic",
+	"startBias": ["Hill","Plains","Avoid [Coast]"],
+
+	"declaringWar": "Thebes shall not yield to foreign domination.",
+	"attacked": "Then we will answer with shield and spear.",
+	"defeated": "So ends the power of Thebes... Greece will remember us.",
+	"introduction": "I am Epaminondas of Thebes, protector of Boeotia.",
+	"neutralHello": "You stand before Thebes.",
+	"hateHello": "State your purpose.",
+	"tradeRequest": "Let us speak of mutual benefit.",
+
+	"outerColor": [0, 0, 0],
+	"innerColor": [240, 240, 240],
+
+	"uniques": [
+	"Starts with [Hellenic Culture] adopted",
+//	"Starts with [Infantry Training]",
+	"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
+	"[+20]% XP gained from combat <for [Pike Phalanx] units>",
+	"[+10]% Strength <when attacking> <for [Pike Phalanx] units>",
+	"[+1 Production] from [Farm] tiles [in capital]",
+	"Cannot build [Royal Phalanx] units"
+	],
+
+	"style": "Greek",
+
+	"cities": [
+		"Thebes"
+	]
+},
+
+
+
+
 //City States - Personalities?
 
 // Italy
@@ -1102,32 +1157,7 @@
 		],
 		"style": "Egyptian",
 		"cities": ["Siwa"]
-	},
-	{
-		"name": "The Thebans",
-		"adjective": ["Theban"],
-		"cityStateType": "Egyptian",
-		"startBias": ["Desert","River","Avoid [Coast]"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [200, 150, 0],
-		"uniques": [
-		"Starts with [Hellenistic Culture] adopted",
-//		"Starts with [Entertainment]",
-		"[+25]% Production when constructing [Pike Phalanx] units [in all cities]",
-		"[+50]% XP gained from combat <for [Pike Phalanx] units>"
-		"Cannot build [Royal Phalanx] units",
-		"Cannot build [Horseman] units",
-		"Cannot build [Cavalry] units",
-		"Cannot build [Ballista] units"
-		],
-		"style": "Egyptian",
-		"cities": ["Thebes"]
-	},
-//Anatolia
+	},//Anatolia
 	{
 		"name": "The Rhodians",
 		"adjective": ["Rhodian"],
