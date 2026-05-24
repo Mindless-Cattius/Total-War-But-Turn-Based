@@ -160,7 +160,7 @@ UnitIcons/Camel Archer
   index: -1
 UnitIcons/Camel Cavalry
   rotate: false
-  xy: 1408, 472
+  xy: 1516, 580
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -426,7 +426,7 @@ UnitIcons/Scythian Nobles
   index: -1
 UnitIcons/Gladiator
   rotate: false
-  xy: 1516, 580
+  xy: 1624, 688
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -517,7 +517,7 @@ UnitIcons/Hoplite
   index: -1
 UnitIcons/Horse Archer
   rotate: false
-  xy: 1192, 220
+  xy: 1300, 328
   size: 99, 100
   orig: 99, 100
   offset: 0, 0
@@ -545,7 +545,7 @@ UnitIcons/Hyrcanian Axeman
   index: -1
 UnitIcons/Iberian Heavy Lancer
   rotate: false
-  xy: 1624, 688
+  xy: 1192, 148
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -580,7 +580,7 @@ UnitIcons/Immortals
   index: -1
 UnitIcons/Imperial Velite
   rotate: false
-  xy: 1192, 148
+  xy: 1300, 256
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -860,7 +860,7 @@ UnitIcons/Scythed Chariot
   index: -1
 UnitIcons/Scythian King
   rotate: false
-  xy: 1300, 348
+  xy: 1408, 456
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
@@ -914,86 +914,93 @@ UnitIcons/Spear Silver Shield
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Swordsman
+UnitIcons/Suebian Warband
   rotate: false
   xy: 976, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Thorakites
+UnitIcons/Swordsman
   rotate: false
   xy: 1084, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Thracian Mercenary
+UnitIcons/Thorakites
   rotate: false
   xy: 1192, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Thracian Peltast
+UnitIcons/Thracian Mercenary
   rotate: false
   xy: 1300, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Thracian Warband
+UnitIcons/Thracian Peltast
   rotate: false
   xy: 1408, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Thureophoros
+UnitIcons/Thracian Warband
   rotate: false
   xy: 976, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Thureophoros2
+UnitIcons/Thureophoros
   rotate: false
   xy: 1084, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Trihemiola
+UnitIcons/Thureophoros2
   rotate: false
   xy: 1192, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Trireme
+UnitIcons/Trihemiola
   rotate: false
   xy: 1300, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/War Chariot
+UnitIcons/Trireme
   rotate: false
   xy: 1408, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/War Elephant
+UnitIcons/War Chariot
   rotate: false
   xy: 1516, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Work Boats
+UnitIcons/War Elephant
   rotate: false
   xy: 1084, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Work Boats
+  rotate: false
+  xy: 1192, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
