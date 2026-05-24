@@ -333,6 +333,13 @@ NationIcons/The Dardanians
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/The Epirots
+  rotate: false
+  xy: 760, 843
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 NationIcons/The Getae
   rotate: false
   xy: 1496, 1367
@@ -755,14 +762,14 @@ ResourceIcons/Roman 3rd century crisis
   index: -1
 ResourceIcons/Roman Empire 3rd Century
   rotate: false
-  xy: 652, 101
+  xy: 760, 785
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Ruler
   rotate: false
-  xy: 760, 799
+  xy: 760, 727
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -776,7 +783,7 @@ ResourceIcons/Salt
   index: -1
 ResourceIcons/Sanitation
   rotate: false
-  xy: 760, 741
+  xy: 760, 669
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1140,7 +1147,7 @@ UnitPromotionIcons/Frontline
   index: -1
 UnitPromotionIcons/Healing
   rotate: false
-  xy: 760, 857
+  xy: 652, 101
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
