@@ -28,8 +28,8 @@
 		"uniqueName": "We Come as Friends",
 		"uniques": [
     		"[+10]% Strength <when defending> <vs [Sword] units> <for [Sword] units>",
-		"[+1 Happiness] from every [Barracks] <when at war>",
-		"[+2 Happiness, +1 Gold] from every [Army Barracks] <when at war>",
+		"[+1 Happiness] from every [Muster Field] <when at war>",
+		"[+2 Happiness, +1 Gold] from every [Army Barracks]",
 		"Starts with [Latin Culture] adopted",
 		],
 		"cities": ["Rome","Ostia","Capua","Venusia","Ariminum","Brundisium","Placentia","Firmum","Salernum","Buxentum","Neapolis","Ravenna","Mediolanum","Aquileia","Beneventum","Nola","Velitrae","Tibur","Praeneste","Spoletium","Perusia","Arretium","Mutina","Bononia","Parma","Genua","Ancona","Patavium","Verona","Brixia","Cremona","Pisae","Luna","Florentia","Forum Livii","Faventia","Arpinum","Formiae","Casilinum","Sinuessa","Terracina","Setia","Auximum","Falerii","Luceria","Venafrum","Narnia","Aesernia","Norba","Alba Fucens"]
