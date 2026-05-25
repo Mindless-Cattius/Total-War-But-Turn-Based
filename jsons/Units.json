@@ -837,7 +837,7 @@
 	"Comment [Medium spear infantry, ideal for holding ground and philosophical debates.]",
       	"Only available <in cities with a [Barracks]>",
       	"Only available <before the [Hellenistic Age]> <before adopting [Hellenic Culture]>",
-      	"Consumes [2] [Manpower]",
+      	"Consumes [3] [Manpower]",
       	"Consumes [1] [Bronze]",
       	"Comment [Has cultural requirements]",
       	"Only available <with [Enable Hoplite]> <hidden from users>",
@@ -858,7 +858,7 @@
     "cost": 90,
     "requiredTech": "Citizen Levy",
     "uniques": [
-	"Comment [Heavy spear infantry, elite training, zero childhood, maximum trauma.]",
+	"Comment [Medium spear infantry, elite training, zero childhood, maximum trauma.]",
       	"Only available <in cities with a [Syssition]>",
       	"Consumes [3] [Manpower]",
       	"Consumes [1] [Bronze]",
@@ -881,7 +881,7 @@
     "cost": 80,
     "requiredTech": "Citizen Levy",
     "uniques": [
-	"Comment [Heavy spear infantry, elite training, Poseidon's fan boys.]",
+	"Comment [Medium spear infantry, elite training, Poseidon's fan boys.]",
       	"Only available <in cities with a [Barracks]>",
 	"[+10]% Strength <when defending> <when [Embarked]>"
       	"Consumes [3] [Manpower]",
@@ -929,7 +929,7 @@
     "requiredTech": "Citizen Levy",
     "uniques": [
       	"Only available <in cities with a [Barracks]>",
-	"Comment ['Heavy spear infantry, hardened by the mountains of Epirus, great at jogging']",
+	"Comment ['Mediun spear infantry, hardened by the mountains of Epirus, great at jogging']",
       	"Consumes [3] [Manpower]",
       	"Consumes [1] [Bronze]",
     ],
@@ -952,7 +952,7 @@
     "requiredTech": "Citizen Levy",
     "uniques": [
       	"Only available <in cities with a [Barracks]>",
-	"Comment ['The Sacred Band. Proof that emotional commitment can, in fact, become a military doctrine.']",
+	"Comment ['Medoum spear infantry. The Sacred Band. Proof that emotional commitment can, in fact, become a military doctrine.']",
       	"Consumes [3] [Manpower]",
       	"Consumes [1] [Bronze]",
 	"[+20]% Strength <for [Theban Hoplite] units> <when adjacent to a [Theban Hoplite] unit>"
@@ -968,7 +968,7 @@
     "name": "Iphicratian Hoplite",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 16,
+    "strength": 15,
     "cost": 80,
     "uniques": [
       	"Only available <in cities with a [Parthenon]>",
