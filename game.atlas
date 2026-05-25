@@ -284,6 +284,13 @@ NationIcons/The Athenians
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/xThe Athenians
+  rotate: false
+  xy: 1711, 1475
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/The Bastarnae
   rotate: false
   xy: 1819, 1475
