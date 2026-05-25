@@ -825,7 +825,7 @@
 	{
 		"name": "[Standard Bearer]",
 		"prerequisites": ["Veteran"],
-		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Elephant","Ruler"],
+		"unitTypes": ["Sword","Spear","Elephant"],
 		"uniques": [
 			"[+10]% Strength bonus for [Military] units within [2] tiles",
     			"All adjacent units heal [+2] HP when healing",
