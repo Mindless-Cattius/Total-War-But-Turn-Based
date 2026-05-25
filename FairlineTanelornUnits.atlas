@@ -6,1505 +6,1519 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/Civ2FairlineUnits/Units/0_Base_Soldier
   rotate: false
-  xy: 963, 1533
+  xy: 1511, 1527
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/0_Base_Worker
   rotate: false
-  xy: 963, 1533
+  xy: 1511, 1527
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Anatolian Tribesman
   rotate: false
-  xy: 1099, 1533
+  xy: 141, 1525
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer
   rotate: false
-  xy: 1379, 1533
+  xy: 552, 1525
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Archer
   rotate: false
-  xy: 1379, 1533
+  xy: 552, 1525
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Celtic
   rotate: false
-  xy: 1515, 1533
+  xy: 1647, 1444
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Eastern
   rotate: false
-  xy: 552, 1523
+  xy: 1783, 1434
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Egyptian
   rotate: false
-  xy: 1235, 1523
+  xy: 4, 1433
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Germanic
   rotate: false
-  xy: 415, 1431
+  xy: 277, 1433
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Germanic-Imperial Age
   rotate: false
-  xy: 1651, 1430
+  xy: 826, 1432
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Numidian
   rotate: false
-  xy: 1787, 1432
+  xy: 688, 1433
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Punic
   rotate: false
-  xy: 826, 1429
+  xy: 413, 1429
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Roman
   rotate: false
-  xy: 4, 1428
+  xy: 962, 1413
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Roman-Imperial Age
   rotate: false
-  xy: 140, 1428
+  xy: 1098, 1413
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Scythian
   rotate: false
-  xy: 276, 1426
+  xy: 1234, 1411
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Scythian-Imperial Age
   rotate: false
-  xy: 688, 1428
+  xy: 1370, 1413
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Seleucid
   rotate: false
-  xy: 962, 1416
+  xy: 1506, 1410
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Archer-Thracian
   rotate: false
-  xy: 1098, 1416
+  xy: 140, 1408
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armenian Noble
   rotate: false
-  xy: 1371, 1416
+  xy: 549, 1408
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Archer
   rotate: false
-  xy: 4, 1894
+  xy: 4, 1898
   size: 130, 108
   orig: 130, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Archer-Celtic
   rotate: false
-  xy: 1507, 1418
+  xy: 1642, 1329
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Archer-Eastern
   rotate: false
-  xy: 551, 1406
+  xy: 1778, 1317
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Archer-Germanic
   rotate: false
-  xy: 1234, 1408
+  xy: 1914, 1319
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Archer-Hellenistic
   rotate: false
-  xy: 1108, 1894
+  xy: 1108, 1898
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Archer-Roman
   rotate: false
-  xy: 1245, 1894
+  xy: 1245, 1898
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Elephant
   rotate: false
-  xy: 1787, 1315
+  xy: 4, 1316
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Horse Archer
   rotate: false
-  xy: 1382, 1894
+  xy: 1382, 1898
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Horse Archer-Eastern
   rotate: false
-  xy: 1519, 1894
+  xy: 1519, 1898
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
-TileSets/Civ2FairlineUnits/Units/Armored Horse Archer-Hellenic
+TileSets/Civ2FairlineUnits/Units/Armored Horse Archer-Greek
   rotate: false
-  xy: 412, 1314
+  xy: 276, 1316
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Horse Archer-Parthian
   rotate: false
-  xy: 1643, 1313
+  xy: 685, 1315
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Horse Archer-Roman
   rotate: false
-  xy: 824, 1314
+  xy: 821, 1317
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Armored Horse Archer-Scythian
   rotate: false
-  xy: 4, 1311
+  xy: 412, 1312
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Athenian Hoplite
   rotate: false
-  xy: 140, 1311
+  xy: 957, 1296
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Attalid Noble
   rotate: false
-  xy: 687, 1311
+  xy: 1093, 1296
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Balearic Slinger
   rotate: false
-  xy: 276, 1309
+  xy: 1370, 1296
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Ballista
   rotate: false
-  xy: 1507, 1301
+  xy: 1229, 1294
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Ballista-Roman
   rotate: false
-  xy: 960, 1299
+  xy: 1506, 1293
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Cavalry
   rotate: false
-  xy: 1096, 1299
+  xy: 140, 1291
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry
   rotate: false
-  xy: 1096, 1299
+  xy: 140, 1291
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Heavy Spearman
   rotate: false
-  xy: 1370, 1299
+  xy: 548, 1291
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman
   rotate: false
-  xy: 1370, 1299
+  xy: 548, 1291
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Heavy Swordsman
   rotate: false
-  xy: 1232, 1291
+  xy: 1642, 1212
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman
   rotate: false
-  xy: 1232, 1291
+  xy: 1642, 1212
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Horse Archer
   rotate: false
-  xy: 548, 1289
+  xy: 1914, 1202
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horse Archer
   rotate: false
-  xy: 548, 1289
+  xy: 1914, 1202
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Horseman
   rotate: false
-  xy: 1656, 1894
+  xy: 1656, 1898
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman
   rotate: false
-  xy: 1656, 1894
+  xy: 1656, 1898
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Mounted Skirmisher
   rotate: false
-  xy: 1779, 1198
+  xy: 1778, 1200
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher
   rotate: false
-  xy: 1779, 1198
+  xy: 1778, 1200
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Pike Phalanx
   rotate: false
-  xy: 1915, 1198
+  xy: 4, 1199
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Slinger
   rotate: false
-  xy: 412, 1197
+  xy: 276, 1199
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Slinger
   rotate: false
-  xy: 412, 1197
+  xy: 276, 1199
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Spearman
   rotate: false
-  xy: 823, 1197
+  xy: 684, 1198
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman
   rotate: false
-  xy: 823, 1197
+  xy: 684, 1198
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Barbarian Swordsman
   rotate: false
-  xy: 1643, 1196
+  xy: 820, 1198
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Celtic
   rotate: false
-  xy: 1643, 1196
+  xy: 820, 1198
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Bastarnae Warrior
   rotate: false
-  xy: 4, 1194
+  xy: 412, 1195
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Bastarnae Warrior-Imperial Age
   rotate: false
-  xy: 140, 1196
+  xy: 956, 1181
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Berserker
   rotate: false
-  xy: 276, 1192
+  xy: 1092, 1179
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Camel Archer
   rotate: false
-  xy: 684, 1192
+  xy: 1228, 1177
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Camel Cavalry
   rotate: false
-  xy: 1506, 1185
+  xy: 1364, 1178
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cataphract
   rotate: false
-  xy: 959, 1182
+  xy: 1500, 1176
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cataphract-Armenian
   rotate: false
-  xy: 1095, 1183
+  xy: 140, 1175
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cataphract-Eastern
   rotate: false
-  xy: 1231, 1174
+  xy: 548, 1174
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
-TileSets/Civ2FairlineUnits/Units/Cataphract-Hellenic
+TileSets/Civ2FairlineUnits/Units/Cataphract-Greek
   rotate: false
-  xy: 1367, 1174
+  xy: 1636, 1095
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cataphract-Hellenistic
   rotate: false
-  xy: 548, 1172
+  xy: 1914, 1085
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cataphract-Parthian
   rotate: false
-  xy: 1779, 1081
+  xy: 1772, 1083
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cataphract-Scythian
   rotate: false
-  xy: 1915, 1081
+  xy: 4, 1082
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Catapult
   rotate: false
-  xy: 1793, 1894
+  xy: 1793, 1898
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Eastern
   rotate: false
-  xy: 412, 1080
+  xy: 276, 1082
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Egyptian
   rotate: false
-  xy: 820, 1080
+  xy: 684, 1081
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Greek
   rotate: false
-  xy: 1642, 1079
+  xy: 820, 1081
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Iberian
   rotate: false
-  xy: 4, 1077
+  xy: 412, 1078
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Macedonian
   rotate: false
-  xy: 140, 1077
+  xy: 956, 1064
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Parthian
   rotate: false
-  xy: 276, 1075
+  xy: 1092, 1062
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Punic
   rotate: false
-  xy: 684, 1075
+  xy: 1364, 1061
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Roman
   rotate: false
-  xy: 4, 1778
+  xy: 4, 1782
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Scythian
   rotate: false
-  xy: 1503, 1068
+  xy: 1228, 1060
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Thracian
   rotate: false
-  xy: 1095, 1066
+  xy: 1500, 1059
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Celtiberian Warband
   rotate: false
-  xy: 956, 1065
+  xy: 140, 1058
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Chariot Archer
   rotate: false
-  xy: 1231, 1057
+  xy: 548, 1057
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Chieftain Riders
   rotate: false
-  xy: 1367, 1059
+  xy: 1636, 980
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cilician Pirate
   rotate: false
-  xy: 548, 1055
+  xy: 1908, 968
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Clibanarii
   rotate: false
-  xy: 1778, 964
+  xy: 1772, 966
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Companion Cavalry
   rotate: false
-  xy: 1914, 964
+  xy: 4, 965
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cretan Archer
   rotate: false
-  xy: 412, 963
+  xy: 276, 965
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Crossbowman
   rotate: false
-  xy: 141, 1777
+  xy: 141, 1781
   size: 129, 109
   orig: 129, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Crossbowman-Eastern
   rotate: false
-  xy: 820, 963
+  xy: 684, 964
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Crossbowman-Hellenistic
   rotate: false
-  xy: 1639, 962
+  xy: 820, 964
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Crossbowman-Scythian
   rotate: false
-  xy: 4, 960
+  xy: 412, 961
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Crossbowman-Seleucid
   rotate: false
-  xy: 140, 960
+  xy: 956, 947
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cyrenean Chariot
   rotate: false
-  xy: 276, 958
+  xy: 1092, 945
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Decere
   rotate: false
-  xy: 684, 958
+  xy: 1364, 944
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Desert Legion
   rotate: false
-  xy: 1503, 951
+  xy: 1228, 943
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Eagle Cohort
   rotate: false
-  xy: 1092, 950
+  xy: 1500, 943
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/EmbarkedUnit-Civilian
   rotate: false
-  xy: 956, 948
+  xy: 140, 941
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/EmbarkedUnit-Military
   rotate: false
-  xy: 1367, 942
+  xy: 548, 940
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Falxman
   rotate: false
-  xy: 1228, 940
+  xy: 1636, 863
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard
   rotate: false
-  xy: 548, 938
+  xy: 1908, 851
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Celtic
   rotate: false
-  xy: 1775, 847
+  xy: 1772, 849
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Eastern
   rotate: false
-  xy: 1911, 847
+  xy: 4, 848
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Egyptian-Classical Age
   rotate: false
-  xy: 412, 846
+  xy: 276, 848
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Germanic
   rotate: false
-  xy: 820, 846
+  xy: 684, 847
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Greek-Classical Age
   rotate: false
-  xy: 1639, 845
+  xy: 820, 847
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Hellenistic-Classical Age
   rotate: false
-  xy: 4, 843
+  xy: 412, 844
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Iberian
   rotate: false
-  xy: 140, 843
+  xy: 956, 830
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Italic
   rotate: false
-  xy: 276, 841
+  xy: 1092, 828
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Punic-Classical Age
   rotate: false
-  xy: 684, 841
+  xy: 1364, 827
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Roman-Classical Age
   rotate: false
-  xy: 1503, 834
+  xy: 1228, 826
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Roman-Imperial Age
   rotate: false
-  xy: 1092, 834
+  xy: 1500, 827
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Scythian
   rotate: false
-  xy: 956, 831
+  xy: 140, 824
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Foot Guard-Seleucid-Classical Age
   rotate: false
-  xy: 1364, 825
+  xy: 548, 823
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Forester Warband
   rotate: false
-  xy: 1228, 823
+  xy: 1636, 746
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Gaesatae
   rotate: false
-  xy: 548, 821
+  xy: 1908, 734
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Galley
   rotate: false
-  xy: 1775, 730
+  xy: 1772, 732
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Gallic Legion
   rotate: false
-  xy: 1911, 730
+  xy: 4, 731
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Gallic Legion-Imperial Age
   rotate: false
-  xy: 142, 1894
+  xy: 142, 1898
   size: 130, 108
   orig: 130, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Gallic Limitanei-Imperial Age
   rotate: false
-  xy: 278, 1778
+  xy: 278, 1782
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Gallic Spearman
   rotate: false
-  xy: 412, 729
+  xy: 276, 731
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Punic
   rotate: false
-  xy: 820, 748
+  xy: 684, 749
   size: 128, 90
   orig: 128, 90
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Roman
   rotate: false
-  xy: 1639, 751
+  xy: 820, 753
   size: 128, 86
   orig: 128, 86
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Thracian
   rotate: false
-  xy: 4, 751
+  xy: 412, 752
   size: 128, 84
   orig: 128, 84
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Gladiator
   rotate: false
-  xy: 415, 1778
+  xy: 415, 1782
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Great Artist
   rotate: false
-  xy: 140, 726
+  xy: 956, 713
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Great Courtesan
   rotate: false
-  xy: 276, 724
+  xy: 1092, 711
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Great Engineer
   rotate: false
-  xy: 684, 724
+  xy: 1364, 710
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Great Merchant
   rotate: false
-  xy: 1092, 717
+  xy: 1500, 710
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Great Orator
   rotate: false
-  xy: 1500, 717
+  xy: 1228, 709
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Great Prophet
   rotate: false
-  xy: 956, 714
+  xy: 140, 707
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Great Scholar
   rotate: false
-  xy: 1364, 708
+  xy: 548, 706
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Grivpanvar
   rotate: false
-  xy: 1228, 706
+  xy: 820, 636
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman-Celtic
   rotate: false
-  xy: 548, 704
+  xy: 412, 635
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman-Eastern
   rotate: false
-  xy: 4, 634
+  xy: 684, 632
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman-Eastern-Imperial Age
   rotate: false
-  xy: 1636, 635
+  xy: 1636, 630
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman-Egyptian
   rotate: false
-  xy: 820, 631
+  xy: 1908, 617
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman-Germanic
   rotate: false
-  xy: 1772, 613
+  xy: 1772, 615
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman-Iberian
   rotate: false
-  xy: 1908, 613
+  xy: 4, 614
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman-Punic
   rotate: false
-  xy: 412, 612
+  xy: 276, 614
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman-Roman
   rotate: false
-  xy: 140, 609
+  xy: 956, 596
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Spearman-Seleucid
   rotate: false
-  xy: 276, 607
+  xy: 1092, 594
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Armenian-Imperial Age
   rotate: false
-  xy: 684, 609
+  xy: 1364, 595
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Celtic
   rotate: false
-  xy: 1092, 600
+  xy: 1500, 593
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Eastern
   rotate: false
-  xy: 1500, 602
+  xy: 1228, 594
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Eastern-Imperial Age
   rotate: false
-  xy: 956, 599
+  xy: 140, 592
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Egyptian
   rotate: false
-  xy: 1364, 591
+  xy: 548, 589
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Germanic
   rotate: false
-  xy: 1228, 589
+  xy: 820, 519
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
-TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Hellenic-Imperial Age
+TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Greek
   rotate: false
-  xy: 694, 1778
+  xy: 412, 518
+  size: 128, 109
+  orig: 128, 109
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Greek-Imperial Age
+  rotate: false
+  xy: 694, 1782
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Iberian
   rotate: false
-  xy: 548, 587
+  xy: 684, 515
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Illyrian
   rotate: false
-  xy: 1636, 518
+  xy: 1636, 513
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
+TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Italic
+  rotate: false
+  xy: 1908, 501
+  size: 128, 108
+  orig: 128, 108
+  offset: 0, 0
+  index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Punic
   rotate: false
-  xy: 4, 517
+  xy: 1772, 498
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Scythian-Imperial Age
   rotate: false
-  xy: 820, 514
+  xy: 4, 497
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Seleucid
   rotate: false
-  xy: 1772, 496
+  xy: 276, 497
+  size: 128, 109
+  orig: 128, 109
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Spartan
+  rotate: false
+  xy: 956, 479
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hellenic Legion
   rotate: false
-  xy: 831, 1778
+  xy: 831, 1782
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hellenic Legion-Imperial Age
   rotate: false
-  xy: 1108, 1778
+  xy: 1108, 1782
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hellenic Limitanei
   rotate: false
-  xy: 1908, 496
+  xy: 1364, 478
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hellenic Limitanei-Imperial Age
   rotate: false
-  xy: 1245, 1777
+  xy: 1245, 1781
   size: 129, 109
   orig: 129, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hemiola
   rotate: false
-  xy: 412, 495
+  xy: 1092, 477
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hexere
   rotate: false
-  xy: 140, 492
+  xy: 1228, 477
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hoplire-Macedonian
   rotate: false
-  xy: 684, 494
+  xy: 1500, 478
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hoplite
   rotate: false
-  xy: 276, 490
+  xy: 140, 475
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hoplite-Eastern
   rotate: false
-  xy: 1500, 485
+  xy: 548, 472
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hoplite-Greek
   rotate: false
-  xy: 1092, 483
+  xy: 820, 402
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hoplite-Hellenistic
   rotate: false
-  xy: 956, 482
+  xy: 412, 401
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hoplite-Punic
   rotate: false
-  xy: 1382, 1778
+  xy: 1382, 1782
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hoplite-Roman
   rotate: false
-  xy: 1364, 474
+  xy: 684, 398
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horse Archer-Eastern
   rotate: false
-  xy: 1228, 472
+  xy: 1636, 396
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horse Archer-Roman-Imperial Age
   rotate: false
-  xy: 548, 470
+  xy: 1908, 384
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horse Archer-Scythian
   rotate: false
-  xy: 1636, 401
+  xy: 1772, 381
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Armenian
   rotate: false
-  xy: 1519, 1778
+  xy: 1519, 1782
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Eastern
   rotate: false
-  xy: 1656, 1779
+  xy: 1656, 1783
   size: 129, 107
   orig: 129, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Iberian
   rotate: false
-  xy: 1793, 1778
+  xy: 1793, 1782
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Roman
   rotate: false
-  xy: 968, 1777
+  xy: 968, 1781
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Roman-Imperial Age
   rotate: false
-  xy: 4, 402
+  xy: 4, 382
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Spartan
   rotate: false
-  xy: 820, 399
+  xy: 276, 382
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Thracian
   rotate: false
-  xy: 1772, 381
+  xy: 956, 364
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hypaspist
   rotate: false
-  xy: 1908, 379
+  xy: 1364, 361
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hyrcanian Axeman
   rotate: false
-  xy: 412, 378
+  xy: 1500, 361
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Hyrcanian Axeman-Imperial Age
   rotate: false
-  xy: 684, 377
+  xy: 1092, 360
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Iberian Heavy Lancer
   rotate: false
-  xy: 140, 377
+  xy: 1228, 362
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Iberian Mercenary
   rotate: false
-  xy: 276, 373
+  xy: 140, 358
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Illyrian Legion
   rotate: false
-  xy: 280, 1894
+  xy: 280, 1898
   size: 130, 108
   orig: 130, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Illyrian Raider
   rotate: false
-  xy: 1500, 368
+  xy: 548, 355
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Immortals
   rotate: false
-  xy: 552, 1756
+  xy: 552, 1760
   size: 129, 109
   orig: 129, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Imperial Velite
   rotate: false
-  xy: 1656, 1663
+  xy: 1656, 1667
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Iphicratian Hoplite
   rotate: false
-  xy: 1092, 367
+  xy: 820, 286
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Legion
   rotate: false
-  xy: 956, 365
+  xy: 412, 284
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Legion-Imperial Age
   rotate: false
-  xy: 1364, 358
+  xy: 684, 282
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Libyan Chariot Archer
   rotate: false
-  xy: 1228, 355
+  xy: 1636, 279
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Ligurian Warrior
   rotate: false
-  xy: 548, 353
+  xy: 1908, 267
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Limitanei-Imperial Age
   rotate: false
-  xy: 4, 285
+  xy: 4, 265
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Lusitanian Warband
   rotate: false
-  xy: 1636, 284
+  xy: 276, 265
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Manipular Legion
   rotate: false
-  xy: 820, 282
+  xy: 1772, 264
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mardian Archer
   rotate: false
-  xy: 1772, 264
+  xy: 956, 247
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mercenary Axeman
   rotate: false
-  xy: 1908, 262
+  xy: 1228, 245
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mercenary Hoplite
   rotate: false
-  xy: 412, 261
+  xy: 1364, 244
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mercenary Horse Archer
   rotate: false
-  xy: 684, 260
+  xy: 1500, 244
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mercenary Judean Spearman
   rotate: false
-  xy: 140, 256
+  xy: 1092, 243
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mercenary Naked Warrior
   rotate: false
-  xy: 4, 1662
+  xy: 4, 1666
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mercenary Warband
   rotate: false
-  xy: 276, 256
+  xy: 140, 241
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Molossian Hoplite
   rotate: false
-  xy: 1500, 251
+  xy: 548, 238
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Armored Skirmisher
   rotate: false
-  xy: 1092, 250
+  xy: 820, 169
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Armored Skirmisher-Celtic
   rotate: false
-  xy: 278, 1662
+  xy: 278, 1666
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Armored Skirmisher-Germanic
   rotate: false
-  xy: 278, 1662
+  xy: 278, 1666
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Armored Skirmisher-Eastern
   rotate: false
-  xy: 415, 1662
+  xy: 415, 1666
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Armored Skirmisher-Hellenistic
   rotate: false
-  xy: 956, 248
+  xy: 412, 167
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Armored Skirmisher-Macedonian
   rotate: false
-  xy: 689, 1661
+  xy: 689, 1665
   size: 129, 109
   orig: 129, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Armored Skirmisher-Roman
   rotate: false
-  xy: 418, 1894
+  xy: 418, 1898
   size: 130, 108
   orig: 130, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Armored Skirmisher-Seulucid
   rotate: false
-  xy: 1364, 241
+  xy: 684, 165
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Armenian
   rotate: false
-  xy: 826, 1662
+  xy: 826, 1666
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Celtic
   rotate: false
-  xy: 1105, 1662
+  xy: 1105, 1666
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Eastern
   rotate: false
-  xy: 1228, 238
+  xy: 1636, 162
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Egyptian
   rotate: false
-  xy: 548, 236
+  xy: 1908, 150
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Germanic
   rotate: false
-  xy: 4, 168
+  xy: 4, 148
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Greek
   rotate: false
-  xy: 1636, 167
-  size: 128, 109
-  orig: 128, 109
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Hellenic
-  rotate: false
-  xy: 820, 165
+  xy: 276, 148
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
@@ -1518,112 +1532,112 @@ TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Hellenistic
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Iberian
   rotate: false
-  xy: 1908, 146
+  xy: 956, 131
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Illyrian
   rotate: false
-  xy: 412, 144
+  xy: 1228, 128
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Italic
   rotate: false
-  xy: 684, 143
+  xy: 1364, 127
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Macedonian
   rotate: false
-  xy: 1382, 1662
+  xy: 1382, 1666
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Punic
   rotate: false
-  xy: 140, 139
+  xy: 1500, 127
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Roman
   rotate: false
-  xy: 276, 139
+  xy: 1092, 126
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Scythian
   rotate: false
-  xy: 1500, 134
+  xy: 140, 124
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Seleucid
   rotate: false
-  xy: 1092, 133
+  xy: 548, 121
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Spartan
   rotate: false
-  xy: 956, 131
+  xy: 820, 52
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mounted Skirmisher-Thracian
   rotate: false
-  xy: 1364, 124
+  xy: 412, 50
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Mysian Bowman
   rotate: false
-  xy: 1228, 121
+  xy: 684, 48
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Naked Warrior
   rotate: false
-  xy: 548, 121
+  xy: 1636, 47
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Noble Hoplite
   rotate: false
-  xy: 4, 52
+  xy: 1908, 34
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Numidian Cavalry
   rotate: false
-  xy: 1636, 50
+  xy: 4, 31
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Numidian Horseman
   rotate: false
-  xy: 820, 50
+  xy: 276, 33
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Numidian Mercenary
   rotate: false
-  xy: 1519, 1662
+  xy: 1519, 1666
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
@@ -1637,189 +1651,182 @@ TileSets/Civ2FairlineUnits/Units/Numidian Raiders
   index: -1
 TileSets/Civ2FairlineUnits/Units/Oscan Mercenary
   rotate: false
-  xy: 1908, 29
+  xy: 956, 14
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Pentere
   rotate: false
-  xy: 412, 27
+  xy: 1228, 11
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
+TileSets/Civ2FairlineUnits/Units/Pentere-Greek
+  rotate: false
+  xy: 141, 1665
+  size: 129, 108
+  orig: 129, 108
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Pentere-Punic
+  rotate: false
+  xy: 1364, 12
+  size: 128, 107
+  orig: 128, 107
+  offset: 0, 0
+  index: -1
 TileSets/Civ2FairlineUnits/Units/Pike Phalanx
   rotate: false
-  xy: 684, 26
+  xy: 1500, 10
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Celtic-Imperial Age
   rotate: false
-  xy: 140, 23
+  xy: 1092, 10
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Eastern
   rotate: false
-  xy: 276, 22
+  xy: 140, 7
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Eastern-Imperial Age
   rotate: false
-  xy: 556, 1873
+  xy: 556, 1877
   size: 130, 129
   orig: 130, 129
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Egyptian
   rotate: false
-  xy: 1500, 17
-  size: 128, 109
-  orig: 128, 109
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Greek
-  rotate: false
-  xy: 1092, 16
-  size: 128, 109
-  orig: 128, 109
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Imperial Age
-  rotate: false
-  xy: 956, 15
-  size: 128, 108
-  orig: 128, 108
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Macedonian
-  rotate: false
-  xy: 1364, 7
+  xy: 548, 4
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Macedonian-Imperial Age
   rotate: false
-  xy: 141, 1659
+  xy: 552, 1642
   size: 129, 110
   orig: 129, 110
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Roman-Imperial Age
   rotate: false
-  xy: 694, 1894
+  xy: 694, 1898
   size: 130, 108
   orig: 130, 108
   offset: 0, 0
   index: -1
-TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Seleucid
-  rotate: false
-  xy: 548, 4
-  size: 128, 109
-  orig: 128, 109
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/Pontic Scythed Chariot
-  rotate: false
-  xy: 1228, 4
-  size: 128, 109
-  orig: 128, 109
-  offset: 0, 0
-  index: -1
 TileSets/Civ2FairlineUnits/Units/Praetoria
   rotate: false
-  xy: 832, 1894
+  xy: 832, 1898
   size: 130, 108
   orig: 130, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Egyptian-Imperial Age
   rotate: false
-  xy: 970, 1893
+  xy: 970, 1897
   size: 130, 109
   orig: 130, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Macedonian-Imperial Age
   rotate: false
-  xy: 552, 1640
+  xy: 963, 1644
+  size: 129, 108
+  orig: 129, 108
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Royal Spartan
+  rotate: false
+  xy: 1242, 1644
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Siege Tower
   rotate: false
-  xy: 963, 1650
+  xy: 1656, 1561
   size: 129, 98
   orig: 129, 98
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Eastern-Imperial Age
   rotate: false
-  xy: 1242, 1640
+  xy: 1793, 1551
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
-TileSets/Civ2FairlineUnits/Units/Skirmisher-Hellenic-Imperial Age
+TileSets/Civ2FairlineUnits/Units/Skirmisher-Greek-Imperial Age
   rotate: false
-  xy: 1656, 1547
+  xy: 4, 1550
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Parthian-Imperial Age
   rotate: false
-  xy: 1793, 1547
+  xy: 278, 1550
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
+TileSets/Civ2FairlineUnits/Units/Skirmisher-Punic
+  rotate: false
+  xy: 415, 1546
+  size: 129, 112
+  orig: 129, 112
+  offset: 0, 0
+  index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Punic-Imperial Age
   rotate: false
-  xy: 4, 1545
+  xy: 826, 1549
   size: 129, 109
   orig: 129, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Roman-Imperial Age
   rotate: false
-  xy: 278, 1545
+  xy: 689, 1548
   size: 129, 109
   orig: 129, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Spartan
   rotate: false
-  xy: 415, 1548
+  xy: 963, 1530
   size: 129, 106
   orig: 129, 106
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spear Silver Shield
   rotate: false
-  xy: 826, 1546
+  xy: 1100, 1528
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Roman-Imperial Age
   rotate: false
-  xy: 689, 1545
+  xy: 1237, 1528
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Iberian
   rotate: false
-  xy: 141, 1543
+  xy: 1374, 1528
   size: 129, 108
   orig: 129, 108
   offset: 0, 0
@@ -1832,1197 +1839,1232 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/Civ2FairlineUnits/Units/Battering Ram
   rotate: false
-  xy: 820, 1355
+  xy: 820, 837
   size: 127, 94
   orig: 127, 94
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cataphract-Roman
   rotate: false
-  xy: 548, 990
+  xy: 820, 721
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Cavalry-Celtic
   rotate: false
-  xy: 684, 1107
+  xy: 955, 823
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Chosen Axeman
   rotate: false
-  xy: 820, 1239
+  xy: 1090, 1408
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Consul
   rotate: false
-  xy: 955, 1354
+  xy: 1090, 1305
   size: 127, 95
   orig: 127, 95
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor
   rotate: false
-  xy: 1219, 1376
+  xy: 1761, 1141
   size: 119, 92
   orig: 119, 92
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Celtic
   rotate: false
-  xy: 1219, 1270
+  xy: 412, 835
   size: 117, 98
   orig: 117, 98
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Celtic
   rotate: false
-  xy: 1219, 1270
+  xy: 412, 835
   size: 117, 98
   orig: 117, 98
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Eastern
   rotate: false
-  xy: 1341, 1151
+  xy: 412, 326
   size: 114, 93
   orig: 114, 93
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Eastern-Imperial Age
   rotate: false
-  xy: 1341, 1151
+  xy: 412, 326
   size: 114, 93
   orig: 114, 93
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Egyptian
   rotate: false
-  xy: 1090, 1262
+  xy: 1763, 1241
   size: 120, 87
   orig: 120, 87
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Egyptian-Imperial Age
   rotate: false
-  xy: 1090, 1262
+  xy: 1763, 1241
   size: 120, 87
   orig: 120, 87
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Germanic
   rotate: false
-  xy: 818, 100
+  xy: 1894, 1424
   size: 121, 93
   orig: 121, 93
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Germanic
   rotate: false
-  xy: 818, 100
+  xy: 1894, 1424
   size: 121, 93
   orig: 121, 93
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Iberian
   rotate: false
-  xy: 1346, 1353
+  xy: 1888, 1125
   size: 118, 95
   orig: 118, 95
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Iberian
   rotate: false
-  xy: 1346, 1353
+  xy: 1888, 1125
   size: 118, 95
   orig: 118, 95
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Illyrian
   rotate: false
-  xy: 1219, 1476
+  xy: 1891, 1228
   size: 120, 88
   orig: 120, 88
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Illyrian
   rotate: false
-  xy: 1219, 1476
+  xy: 1891, 1228
   size: 120, 88
   orig: 120, 88
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Macedonian
   rotate: false
-  xy: 1344, 1252
+  xy: 412, 734
   size: 116, 93
   orig: 116, 93
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Macedonian
   rotate: false
-  xy: 1344, 1252
+  xy: 412, 734
   size: 116, 93
   orig: 116, 93
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Parthian
   rotate: false
-  xy: 818, 774
+  xy: 1360, 635
   size: 126, 93
   orig: 126, 93
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Parthian
   rotate: false
-  xy: 818, 774
+  xy: 1360, 635
   size: 126, 93
   orig: 126, 93
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Punic
   rotate: false
-  xy: 1472, 1352
+  xy: 412, 630
   size: 116, 96
   orig: 116, 96
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Punic
   rotate: false
-  xy: 1472, 1352
+  xy: 412, 630
   size: 116, 96
   orig: 116, 96
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Seleucid
   rotate: false
-  xy: 818, 4
+  xy: 1764, 1336
   size: 121, 88
   orig: 121, 88
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Seleucid
   rotate: false
-  xy: 818, 4
+  xy: 1764, 1336
   size: 121, 88
   orig: 121, 88
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Emperor-Thracian
   rotate: false
-  xy: 1090, 1357
+  xy: 1893, 1324
   size: 121, 92
   orig: 121, 92
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Thracian
   rotate: false
-  xy: 1090, 1357
+  xy: 1893, 1324
   size: 121, 92
   orig: 121, 92
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Falxman-Imperial Age
   rotate: false
-  xy: 412, 873
+  xy: 1090, 1189
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Gallic Limitanei
   rotate: false
-  xy: 412, 757
+  xy: 1090, 1073
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General
   rotate: false
-  xy: 1468, 1255
+  xy: 412, 533
   size: 116, 89
   orig: 116, 89
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Celtic
   rotate: false
-  xy: 818, 580
+  xy: 1630, 1332
   size: 125, 91
   orig: 125, 91
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Eastern
   rotate: false
-  xy: 818, 393
+  xy: 1360, 541
   size: 122, 86
   orig: 122, 86
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Germanic
   rotate: false
-  xy: 818, 295
+  xy: 1630, 1141
   size: 122, 90
   orig: 122, 90
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Iberian
   rotate: false
-  xy: 818, 487
+  xy: 1630, 1239
   size: 123, 85
   orig: 123, 85
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Illyrian
   rotate: false
-  xy: 818, 679
+  xy: 1630, 1431
   size: 126, 87
   orig: 126, 87
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Parthian
   rotate: false
-  xy: 412, 659
+  xy: 1090, 975
   size: 127, 90
   orig: 127, 90
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/General-Roman-Imperial Age
   rotate: false
-  xy: 412, 569
+  xy: 1090, 885
   size: 127, 82
   orig: 127, 82
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Hellenistic-Imperial Age
   rotate: false
-  xy: 412, 453
+  xy: 1090, 769
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Heavy Swordsman-Seleucid-Imperial Age
   rotate: false
-  xy: 412, 337
+  xy: 1090, 653
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
-TileSets/Civ2FairlineUnits/Units/Horseman-Hellenic
+TileSets/Civ2FairlineUnits/Units/Horseman-Greek
   rotate: false
-  xy: 412, 221
+  xy: 1225, 1408
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Macedonian
   rotate: false
-  xy: 412, 105
+  xy: 1225, 1292
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Punic
   rotate: false
-  xy: 548, 874
+  xy: 1225, 1176
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Horseman-Scythian
   rotate: false
-  xy: 547, 757
+  xy: 1225, 1059
   size: 127, 109
   orig: 127, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King
   rotate: false
-  xy: 818, 201
+  xy: 1764, 1432
   size: 122, 86
   orig: 122, 86
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Eastern
   rotate: false
-  xy: 1218, 1164
+  xy: 412, 427
   size: 115, 98
   orig: 115, 98
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/King-Egyptian
   rotate: false
-  xy: 1468, 1159
+  xy: 412, 230
   size: 113, 88
   orig: 113, 88
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Limitanei
   rotate: false
-  xy: 547, 640
+  xy: 1225, 942
   size: 127, 109
   orig: 127, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Noble Riders
   rotate: false
-  xy: 547, 524
+  xy: 1225, 826
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
-TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Iberian-Imperial Age
+TileSets/Civ2FairlineUnits/Units/Pentere-Roman
   rotate: false
-  xy: 547, 409
+  xy: 1225, 711
   size: 127, 107
   orig: 127, 107
   offset: 0, 0
   index: -1
+TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Greek
+  rotate: false
+  xy: 4, 1875
+  size: 128, 109
+  orig: 128, 109
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Iberian-Imperial Age
+  rotate: false
+  xy: 1225, 596
+  size: 127, 107
+  orig: 127, 107
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Imperial Age
+  rotate: false
+  xy: 4, 1759
+  size: 128, 108
+  orig: 128, 108
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Macedonian
+  rotate: false
+  xy: 140, 1875
+  size: 128, 109
+  orig: 128, 109
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Pike Phalanx-Seleucid
+  rotate: false
+  xy: 4, 1642
+  size: 128, 109
+  orig: 128, 109
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Pontic Scythed Chariot
+  rotate: false
+  xy: 140, 1758
+  size: 128, 109
+  orig: 128, 109
+  offset: 0, 0
+  index: -1
 TileSets/Civ2FairlineUnits/Units/Raider Warband
   rotate: false
-  xy: 4, 1923
+  xy: 276, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Rhodian Slinger
   rotate: false
-  xy: 4, 1806
+  xy: 4, 1525
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Agema
   rotate: false
-  xy: 140, 1923
+  xy: 276, 1758
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Agema-Egyptian
   rotate: false
-  xy: 4, 1689
+  xy: 412, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Agema-Hellenistic
   rotate: false
-  xy: 140, 1806
+  xy: 4, 1408
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Agema-Macedonian
   rotate: false
-  xy: 276, 1923
+  xy: 412, 1758
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Camel Cavalry
   rotate: false
-  xy: 547, 293
+  xy: 1360, 1525
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx
   rotate: false
-  xy: 4, 1572
+  xy: 548, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Eastern
   rotate: false
-  xy: 140, 1689
+  xy: 4, 1291
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Eastern-Imperial Age
   rotate: false
-  xy: 276, 1806
+  xy: 548, 1758
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Egyptian
   rotate: false
-  xy: 412, 1923
+  xy: 684, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Germanic-Imperial Age
   rotate: false
-  xy: 4, 1455
+  xy: 4, 1174
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Iberian-Imperial Age
   rotate: false
-  xy: 140, 1573
+  xy: 684, 1759
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Imperial Age
   rotate: false
-  xy: 276, 1691
+  xy: 820, 1877
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Macedonian
   rotate: false
-  xy: 412, 1806
+  xy: 4, 1057
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Punic-Imperial Age
   rotate: false
-  xy: 547, 177
+  xy: 1495, 1525
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Seleucid
   rotate: false
-  xy: 548, 1923
+  xy: 820, 1760
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Seleucid-Imperial Age
   rotate: false
-  xy: 547, 61
+  xy: 1360, 1409
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Spartan
   rotate: false
-  xy: 4, 1338
+  xy: 956, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Royal Phalanx-Spartan-Imperial Age
   rotate: false
-  xy: 140, 1456
-  size: 128, 109
-  orig: 128, 109
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/Royal Spartan
-  rotate: false
-  xy: 276, 1574
+  xy: 4, 940
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Sacred Band
   rotate: false
-  xy: 412, 1689
+  xy: 1092, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Scholae Palatinae
   rotate: false
-  xy: 548, 1808
+  xy: 4, 825
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Scythed Chariot
   rotate: false
-  xy: 684, 1923
+  xy: 1228, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Scythian King
   rotate: false
-  xy: 4, 1239
+  xy: 4, 726
   size: 128, 91
   orig: 128, 91
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Scythian Nobles
   rotate: false
-  xy: 412, 12
+  xy: 1360, 1316
   size: 127, 85
   orig: 127, 85
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Settler
   rotate: false
-  xy: 140, 1339
+  xy: 1364, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Settler-Greek
   rotate: false
-  xy: 276, 1457
+  xy: 4, 609
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Settler-Iberian
   rotate: false
-  xy: 548, 1691
+  xy: 1500, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Silver Shield
   rotate: false
-  xy: 684, 991
+  xy: 1495, 1409
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Silver Shield-Imperial Age
   rotate: false
-  xy: 683, 875
+  xy: 1360, 1200
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher
   rotate: false
-  xy: 684, 1806
+  xy: 4, 492
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Celtic
   rotate: false
-  xy: 820, 1923
+  xy: 1636, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Dacian
   rotate: false
-  xy: 4, 1122
+  xy: 4, 375
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Eastern
   rotate: false
-  xy: 140, 1222
+  xy: 1772, 1875
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Egyptian
   rotate: false
-  xy: 276, 1340
+  xy: 4, 258
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Germanic
   rotate: false
-  xy: 820, 1807
+  xy: 1908, 1876
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Germanic-Imperial Age
   rotate: false
-  xy: 956, 1923
+  xy: 4, 141
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Greek-Classical Age
   rotate: false
-  xy: 4, 1005
+  xy: 4, 24
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Hellenistic-Classical Age
   rotate: false
-  xy: 276, 1223
+  xy: 684, 1642
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Iberian
   rotate: false
-  xy: 1092, 1923
+  xy: 820, 1643
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Iberian-Imperial Age
   rotate: false
-  xy: 4, 888
+  xy: 1908, 1759
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Illyrian-Classical Age
   rotate: false
-  xy: 1228, 1923
+  xy: 276, 1641
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Macedonian-Classical Age
   rotate: false
-  xy: 4, 771
+  xy: 412, 1641
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Parthian
   rotate: false
-  xy: 1364, 1923
-  size: 128, 109
-  orig: 128, 109
-  offset: 0, 0
-  index: -1
-TileSets/Civ2FairlineUnits/Units/Skirmisher-Punic
-  rotate: false
-  xy: 4, 654
+  xy: 548, 1641
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Roman-Classical Age
   rotate: false
-  xy: 1500, 1923
+  xy: 1092, 1758
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Scythian
   rotate: false
-  xy: 4, 537
+  xy: 1228, 1758
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Seleucid-Classical Age
   rotate: false
-  xy: 1636, 1923
+  xy: 1364, 1758
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Seleucid-Imperial Age
   rotate: false
-  xy: 4, 420
+  xy: 1500, 1758
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Skirmisher-Thracian
   rotate: false
-  xy: 1772, 1923
+  xy: 1636, 1758
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Slinger-Celtic
   rotate: false
-  xy: 4, 303
+  xy: 1772, 1758
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Slinger-Egyptian
   rotate: false
-  xy: 1908, 1923
+  xy: 1908, 1642
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Slinger-Greek
   rotate: false
-  xy: 4, 186
+  xy: 412, 1524
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Slinger-Iberian
   rotate: false
-  xy: 4, 69
+  xy: 548, 1524
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Slinger-Illyrian
   rotate: false
-  xy: 956, 1806
+  xy: 548, 1407
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Slinger-Macedonian
   rotate: false
-  xy: 1092, 1806
+  xy: 956, 1643
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Solduros
   rotate: false
-  xy: 1228, 1806
+  xy: 1092, 1641
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spartan Hoplite
   rotate: false
-  xy: 1364, 1807
+  xy: 1228, 1642
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Celtic
   rotate: false
-  xy: 1500, 1806
+  xy: 1364, 1641
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Eastern
   rotate: false
-  xy: 1636, 1806
+  xy: 1500, 1641
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Eastern-Imperial Age
   rotate: false
-  xy: 1772, 1808
+  xy: 1636, 1643
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Egyptian
   rotate: false
-  xy: 1908, 1806
+  xy: 1772, 1641
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Germanic
   rotate: false
-  xy: 1772, 1691
+  xy: 1636, 1526
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Germanic-Imperial
   rotate: false
-  xy: 548, 1574
+  xy: 956, 1526
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Greek
   rotate: false
-  xy: 820, 1690
+  xy: 1092, 1524
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Hellenistic
   rotate: false
-  xy: 956, 1689
+  xy: 1908, 1525
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Iberian
   rotate: false
-  xy: 1092, 1689
+  xy: 140, 1525
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Illyrian
   rotate: false
-  xy: 1228, 1689
+  xy: 276, 1524
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Italic
   rotate: false
-  xy: 1364, 1690
+  xy: 140, 1408
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Macedonian
   rotate: false
-  xy: 1500, 1689
+  xy: 140, 1291
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Numidian
   rotate: false
-  xy: 1636, 1689
+  xy: 276, 1407
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Parthian
   rotate: false
-  xy: 1364, 1573
+  xy: 412, 1407
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Punic
   rotate: false
-  xy: 1772, 1574
+  xy: 140, 1174
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Roman
   rotate: false
-  xy: 276, 1106
+  xy: 276, 1290
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Scythian
   rotate: false
-  xy: 1772, 1457
+  xy: 140, 1057
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Scythian-Imperial Age
   rotate: false
-  xy: 140, 1006
+  xy: 412, 1291
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Seleucid
   rotate: false
-  xy: 140, 889
+  xy: 140, 940
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Spartan
   rotate: false
-  xy: 276, 989
+  xy: 140, 823
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Spartan-Imperial Age
   rotate: false
-  xy: 140, 772
+  xy: 140, 706
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Spearman-Thracian
   rotate: false
-  xy: 140, 655
+  xy: 140, 589
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Suebian Warband
   rotate: false
-  xy: 683, 756
+  xy: 1495, 1290
   size: 127, 111
   orig: 127, 111
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Suebian Warband-Imperial Age
   rotate: false
-  xy: 819, 1107
+  xy: 1360, 1084
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman
   rotate: false
-  xy: 140, 538
+  xy: 140, 472
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Eastern
   rotate: false
-  xy: 140, 421
+  xy: 140, 355
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Eastern-Imperial Age
   rotate: false
-  xy: 819, 991
+  xy: 1360, 968
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Germanic
   rotate: false
-  xy: 140, 304
+  xy: 140, 238
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
+TileSets/Civ2FairlineUnits/Units/Swordsman-Greek
+  rotate: false
+  xy: 1360, 852
+  size: 127, 108
+  orig: 127, 108
+  offset: 0, 0
+  index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Hellenistic
   rotate: false
-  xy: 140, 188
-  size: 128, 108
-  orig: 128, 108
+  xy: 140, 121
+  size: 128, 109
+  orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Iberian-Imperial Age
   rotate: false
-  xy: 140, 71
+  xy: 548, 1290
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Illyrian
   rotate: false
-  xy: 684, 1574
+  xy: 140, 4
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
-TileSets/Civ2FairlineUnits/Units/Swordsman-Italic
-  rotate: false
-  xy: 820, 1574
-  size: 128, 108
-  orig: 128, 108
-  offset: 0, 0
-  index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Macedonian
   rotate: false
-  xy: 956, 1574
+  xy: 412, 1176
   size: 128, 107
   orig: 128, 107
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Numidian
   rotate: false
-  xy: 818, 875
+  xy: 1360, 736
   size: 127, 108
   orig: 127, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Punic
   rotate: false
-  xy: 1092, 1573
+  xy: 548, 1174
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Seleucid
   rotate: false
-  xy: 1228, 1572
-  size: 128, 109
-  orig: 128, 109
+  xy: 412, 1060
+  size: 128, 108
+  orig: 128, 108
+  offset: 0, 0
+  index: -1
+TileSets/Civ2FairlineUnits/Units/Swordsman-Spartan
+  rotate: false
+  xy: 276, 1058
+  size: 128, 108
+  orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Swordsman-Thracian
   rotate: false
-  xy: 1364, 1456
+  xy: 276, 941
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Theban Hoplite
   rotate: false
-  xy: 1908, 1575
+  xy: 412, 944
   size: 128, 108
   orig: 128, 108
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Thessalian Cavalry
   rotate: false
-  xy: 1908, 1458
+  xy: 276, 824
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Thracian Mercenary
   rotate: false
-  xy: 1908, 1341
+  xy: 276, 707
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Thracian Peltast
   rotate: false
-  xy: 276, 772
+  xy: 276, 590
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Thracian Warband
   rotate: false
-  xy: 276, 655
+  xy: 276, 473
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Thureophoros
   rotate: false
-  xy: 276, 538
+  xy: 276, 356
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Trihemiola
   rotate: false
-  xy: 276, 421
+  xy: 276, 239
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Trireme
   rotate: false
-  xy: 276, 304
+  xy: 276, 122
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/War Chariot
   rotate: false
-  xy: 276, 187
+  xy: 276, 5
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/War Chariot-Celtic
   rotate: false
-  xy: 276, 70
+  xy: 684, 1524
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/War Chariot-Greek
   rotate: false
-  xy: 412, 1457
+  xy: 684, 1407
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/War Chariot-Punic
   rotate: false
-  xy: 548, 1457
+  xy: 684, 1290
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/War Elephant
   rotate: false
-  xy: 412, 1340
+  xy: 684, 1173
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/War Elephant-Eastern
   rotate: false
-  xy: 684, 1457
+  xy: 820, 1524
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/War Elephant-Latin
   rotate: false
-  xy: 412, 1223
+  xy: 820, 1407
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/War Elephant-Punic
   rotate: false
-  xy: 548, 1340
+  xy: 820, 1290
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Warband
   rotate: false
-  xy: 820, 1457
+  xy: 820, 1173
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Warrior
   rotate: false
-  xy: 956, 1457
+  xy: 684, 1056
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Work Boats
   rotate: false
-  xy: 412, 1106
+  xy: 820, 1056
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Worker
   rotate: false
-  xy: 548, 1223
+  xy: 820, 939
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Worker-Celtic
   rotate: false
-  xy: 684, 1340
+  xy: 548, 943
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Worker-Germanic
   rotate: false
-  xy: 684, 1340
+  xy: 548, 943
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Worker-Greek
   rotate: false
-  xy: 412, 989
+  xy: 684, 939
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Worker-Iberian
   rotate: false
-  xy: 548, 1106
+  xy: 548, 826
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Worker-Macedonian
   rotate: false
-  xy: 684, 1223
+  xy: 684, 822
   size: 128, 109
   orig: 128, 109
   offset: 0, 0
