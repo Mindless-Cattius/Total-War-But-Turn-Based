@@ -2045,22 +2045,25 @@
   },
   {
     "name": "Foot Guard",
-    "unitType": "Spear",
+    "unitType": "Sword",
     "movement": 2,
     "strength": 15,
     "cost": 120,
     "uniques": [
-	"Comment [-Elite medium sword infantry, give bounus to nearby units]",
+	"Comment [-Elite heavy sword infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
 	"[+1] XP gained from combat",
 	"[+20]% Strength <during the [Imperial Age]>",
+	"[+10]% Strength <during the [Hellenistic Age]>",
 	"[+40]% production cost <during the [Imperial Age]>",
+	"[+20]% production cost <during the [Hellenistic Age]>",
       	"Consumes [3] [Manpower]",
       	"Consumes [1] [Veteran]",
     	"Never appears as a Barbarian unit <before the [Imperial Age]>",
+       		"[This Unit] is destroyed <after adopting [Latin Culture]> <during the [Imperial Age]>"
+		"Unbuildable <for [The Romans] Civilizations> <during the [Imperial Age]>"
     ],
     "promotions": [
-      "[Spearman] ability",
       "Infantry Shield III"
       "Inspiring"
     ],
@@ -2068,7 +2071,7 @@
   },
   {
     "name": "Royal Spartan",
-    "unitType": "Sword",
+    "unitType": "Spear",
     "uniqueTo": "The Spartans",
     "replaces": "Foot Guard",
     "movement": 2,
@@ -2079,11 +2082,14 @@
      		"Only available <in cities with a [Palace]>",
 	      	"[+1] XP gained from combat",
 		"[+20]% Strength <during the [Imperial Age]>",
+		"[+10]% Strength <during the [Hellenistic Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
+		"[+20]% production cost <during the [Hellenistic Age]>",
       		"Consumes [3] [Manpower]",
       		"Consumes [1] [Veteran]",
     ],
     "promotions": [
+      "[Spearman] ability",
       "Infantry Shield III",
       "Spartan Aura",
       "Inspiring",
@@ -2092,23 +2098,24 @@
   },
   {
     "name": "Hypaspist",
-    "unitType": "Spear",
+    "unitType": "Sword",
     "uniqueTo": "The Macedonians",
     "replaces": "Foot Guard",
     "movement": 2,
     "strength": 15,
     "cost": 130,
     "uniques": [
-	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
+	"Comment [-Elite Heavy spear infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
       	"[+1] XP gained from combat",
 	"[+20]% Strength <during the [Imperial Age]>",
+	"[+10]% Strength <during the [Hellenistic Age]>",
 	"[+40]% production cost <during the [Imperial Age]>",
+	"[+20]% production cost <during the [Hellenistic Age]>",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
     ],
     "promotions": [
-      "[Spearman] ability",
       "Infantry Shield III",
       "Assault I"
       "Inspiring",
