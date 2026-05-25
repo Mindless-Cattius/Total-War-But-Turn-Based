@@ -358,7 +358,7 @@
 			{
 				"name": "Private Estates",
 				"row": 4,
-				"prerequisites": ["Tax Farming","Equestrian Class"],
+				"prerequisites": ["Tax Farming"],
 				"uniques": ["Provides [1] [Nobles]"],
 				"quote": "'Virtue cannot dwell with wealth either in a city or in a house.' - Diogenes"
 			},
@@ -411,7 +411,7 @@
 				"row": 9,
 				"prerequisites": ["Naval Artillery"],
 				"uniques": [
-					"Enables [Embarked] units to enter ocean tiles",
+					"Enables [All] units to enter ocean tiles",
 					"[+1] Movement <for [Water] units>",
 					"[+1] Movement <for [Embarked] units>",
 				],

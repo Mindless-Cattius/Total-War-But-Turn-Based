@@ -218,7 +218,7 @@
     "name": "Battering Ram",
     "unitType": "Civilian",
     "movement": 2,
-    "cost": 40,
+    "cost": 60,
     "requiredTech": "Masonry",
     "uniques": [
      		"Only available <in cities with a [Barracks]>",
@@ -232,7 +232,7 @@
     "name": "Siege Tower",
     "unitType": "Civilian",
     "movement": 1,
-    "cost": 80,
+    "cost": 100,
     "requiredTech": "Torsion Engines",
     "uniques": [
       		"Only available <in cities with a [Siege Workshop]>",
@@ -488,7 +488,7 @@
   {
     "name": "Forester Warband",
     "unitType": "Archery",
-    "replaces": "Slinger",
+    "replaces": "Archer",
     "uniqueTo": "The Belgae",
     "movement": 2,
     "strength": 12,
@@ -514,7 +514,7 @@
   {
     "name": "Balearic Slinger",
     "unitType": "Archery",
-    "replaces": "Archer",
+    "replaces": "Slinger",
     "uniqueTo": "The Carthaginians",
     "movement": 3,
     "strength": 8,
@@ -723,11 +723,12 @@
     "strength": 17,
     "cost": 100,
     "uniques": [
-      	"Only available <in cities with a [Mercenary Camp]>",
+      		"Only available <in cities with a [Mercenary Camp]>",
 	      "Comment ['Medium infantry, professionals in fighting, amateurs in restraint.']",
 	      "[+1] XP gained from combat",
-      	"Unbuildable",
-      	"Can be purchased with [Gold] [in all cities]",
+      		"Consumes [1] [Mercenary (Iberian)]",
+      		"Unbuildable",
+      		"Can be purchased with [Gold] [in all cities]",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -743,7 +744,7 @@
     "cost": 90,
     "uniques": [
       	"Only available <in cities with a [Mercenary Camp]>",
-	"Comment ['Medium infantry unit, quick to deploys.']"
+	"Comment ['Medium infantry unit, quick to deploys.']",
       "Consumes [1] [Mercenary (Oscan)]",
       	"Unbuildable",
       	"Can be purchased with [Gold] [in all cities]",
@@ -756,27 +757,6 @@
     "attackSound": "metalhit"
   },
   {
-    "name": "Iphicratian Hoplite",
-    "unitType": "Spear",
-    "movement": 2,
-    "strength": 15,
-    "cost": 80,
-    "uniques": [
-      	"Only available <in cities with a [Parthenon]>",
-	"Comment ['Medium spear infantry, built for sieges and river fights, not poetry.']",
-      	"Consumes [2] [Manpower]",
-       "Consumes [1] [Bronze]",
-    ],
-    "promotions": [
-      "[Spearman] ability",
-      "Infantry Shield II",
-      "Assault I",
-      "Amphibious I",
-    ],
-    "hurryCostModifier": 20,
-    "attackSound": "metalhit"
-  },
-  {
     "name": "Spearman",
     "unitType": "Spear",
     "movement": 2,
@@ -785,7 +765,7 @@
     "requiredTech": "Bronze Working",
     "uniques": [
      	"Only available <in cities with a [Muster Field]>",
-     	"Unbuildable <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
+     	"Unbuildable <when above [0] [Gallic 3rd century crisis]> <hidden from users>",
 	"Comment ['Spearman — ideal for stopping horses, not much else.']",
       	"Consumes [2] [Manpower]",
     ],
@@ -796,27 +776,56 @@
     "attackSound": "metalhit"
   },
   {
-    "name": "Ligurian Warrior",
+    "name": "Suebian Warband",
     "unitType": "Spear",
     "replaces": "Spearman",
-    "uniqueTo": "The Insubres",
+    "uniqueTo": "The Suebi",
     "movement": 2,
-    "strength": 12,
+    "strength": 14,
     "cost": 50,
     "requiredTech": "Bronze Working",
     "uniques": [
-      	"Only available <in cities with a [Muster Field]>",
-	"Comment ['Light spear, deadly in ambushes, unimpressed by fair fights.']",
+     	"Only available <in cities with a [Muster Field]>",
+	"Comment ['Spearman — fierce forest warriors who overwhelm enemies through speed and ferocity.']",
       	"Consumes [2] [Manpower]",
+	"[+1] Movement <when fighting in [Forest] tiles>",
+	"[+40]% production cost <during the [Imperial Age]>",
+	"[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
+	"[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
-      "Infantry Shield II",
+      "Infantry Shield I",
       "Ambush I",
       "Shock I",
     ],
     "attackSound": "metalhit"
   },
+  {
+    "name": "Ligurian Warrior",
+    "unitType": "Spear",
+    "replaces": "Spearman",
+    "uniqueTo": "The Insubres",
+    "movement": 2,
+    "strength": 13,
+    "cost": 50,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+      	"Only available <in cities with a [Muster Field]>",
+	"Comment ['Light spear, deadly in ambushes, unimpressed by fair fights.']",
+	"[+40]% production cost <during the [Imperial Age]>",
+	"[+25]% Strength <during the [Imperial Age]>",
+      	"Consumes [2] [Manpower]",
+	"[+10]% Strength <when defending> <when fighting in [Forest] tiles>"
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Ambush I",
+    ],
+    "attackSound": "metalhit"
+  },
+						///Hoplite
   {
     "name": "Hoplite",
     "unitType": "Spear",
@@ -828,7 +837,7 @@
 	"Comment [Medium spear infantry, ideal for holding ground and philosophical debates.]",
       	"Only available <in cities with a [Barracks]>",
       	"Only available <before the [Hellenistic Age]> <before adopting [Hellenic Culture]>",
-      	"Consumes [2] [Manpower]",
+      	"Consumes [3] [Manpower]",
       	"Consumes [1] [Bronze]",
       	"Comment [Has cultural requirements]",
       	"Only available <with [Enable Hoplite]> <hidden from users>",
@@ -849,7 +858,7 @@
     "cost": 90,
     "requiredTech": "Citizen Levy",
     "uniques": [
-	"Comment [Heavy spear infantry, elite training, zero childhood, maximum trauma.]",
+	"Comment [Medium spear infantry, elite training, zero childhood, maximum trauma.]",
       	"Only available <in cities with a [Syssition]>",
       	"Consumes [3] [Manpower]",
       	"Consumes [1] [Bronze]",
@@ -858,6 +867,30 @@
       "[Spearman] ability",
       "Infantry Shield II",
       "Spartan Aura",
+      "Drill I"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Athenian Hoplite",
+    "unitType": "Spear",
+    "replaces": "Hoplite",
+    "uniqueTo": "The Athenians",
+    "movement": 2,
+    "strength": 15,
+    "cost": 80,
+    "requiredTech": "Citizen Levy",
+    "uniques": [
+	"Comment [Medium spear infantry, elite training, Poseidon's fan boys.]",
+      	"Only available <in cities with a [Barracks]>",
+	"[+10]% Strength <when defending> <when [Embarked]>"
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Bronze]",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Amphibious I",
       "Drill I"
     ],
     "attackSound": "metalhit"
@@ -886,9 +919,75 @@
     "attackSound": "metalhit"
   },
   {
+    "name": "Molossian Hoplite",
+    "unitType": "Spear",
+    "replaces": "Hoplite",
+    "uniqueTo": "The Epirots",
+    "movement": 2,
+    "strength": 15,
+    "cost": 80,
+    "requiredTech": "Citizen Levy",
+    "uniques": [
+      	"Only available <in cities with a [Barracks]>",
+	"Comment ['Mediun spear infantry, hardened by the mountains of Epirus, great at jogging']",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Bronze]",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Drill I",
+      "[Mountaineer]",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Theban Hoplite",
+    "unitType": "Spear",
+    "replaces": "Hoplite",
+    "uniqueTo": "The Thebans",
+    "movement": 2,
+    "strength": 15,
+    "cost": 90,
+    "requiredTech": "Citizen Levy",
+    "uniques": [
+      	"Only available <in cities with a [Barracks]>",
+	"Comment ['Medoum spear infantry. The Sacred Band. Proof that emotional commitment can, in fact, become a military doctrine.']",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Bronze]",
+	"[+20]% Strength <for [Theban Hoplite] units> <when adjacent to a [Theban Hoplite] unit>"
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Drill I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Iphicratian Hoplite",
+    "unitType": "Spear",
+    "movement": 2,
+    "strength": 15,
+    "cost": 80,
+    "uniques": [
+      	"Only available <in cities with a [Parthenon]>",
+	"Comment ['Medium spear infantry, built for sieges and river fights, not poetry.']",
+      	"Consumes [3] [Manpower]",
+       "Consumes [1] [Bronze]",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield II",
+      "Assault I",
+      "Amphibious I",
+    ],
+    "hurryCostModifier": 20,
+    "attackSound": "metalhit"
+  },
+  {
     "name": "Pike Phalanx",
     "unitType": "Spear",
-    "uniqueTo": "The Barbarians",
     "movement": 2,
     "strength": 16,
     "cost": 90,
@@ -921,7 +1020,7 @@
 	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
       	"Only available <with [Enable Swordsman]> <hidden from users>",
       	"Unavailable <after adopting [Latin Culture]> <hidden from users>",
-     	"Unbuildable <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
+     	"Unbuildable <when above [0] [Gallic 3rd century crisis]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -1025,9 +1124,9 @@
     "uniques": [
       "Comment [Light shock infantry, ’Tis but a scratch' made violently literal, fierce, half-drunk, and allergic to the concept of retreat.] <before the [Imperial Age]>",
       "Only available <in cities with a [Barracks]>",
-	"[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
 	"[+20]% production cost <during the [Imperial Age]>",
       "Consumes [3] [Manpower]",
+	"[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
 	"[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
 	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
     ],
@@ -1152,7 +1251,7 @@
 		"Can build [Remove Forest] improvements on tiles",
       		"Consumes [3] [Manpower]",
        		"Consumes [1] [Iron]",
-      		"Can upgrade to [Legion]",
+         "Can transform to [Legion] <after discovering [Infantry Training]>",
       		"Unbuildable <after discovering [Infantry Training]>",
     ],
     "promotions": [
@@ -1595,7 +1694,6 @@
     "uniques": [
       	"Comment [-Medium elephant, a beast that’ll crush anything in its path—except your economy. Hope you’ve got the gold to feed it.]",
       	"Only available <in cities with a [Stable]>",
-	"Destroys tile improvements when attacking",
       	"Consumes [3] [Manpower]",
       	"Consumes [1] [Elephants]",
       	"Never appears as a Barbarian unit",
@@ -1617,7 +1715,6 @@
     "uniques": [
       "Comment [-Heavy elephant unit, armored, and ready to flatten anything that dares stand in its way. Just don’t expect it to help with anything delicate.]",
       "Only available <in cities with a [Cavalry Barracks]>",
-	"Destroys tile improvements when attacking",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Elephants]",
       "Consumes [2] [Iron]",
@@ -1666,8 +1763,8 @@
     "name": "Pentere",
     "unitType": "Melee Water",
     "movement": 4,
-    "strength": 22,
-    "cost": 150,
+    "strength": 23,
+    "cost": 160,
     "requiredTech": "Navigation",
     "uniques": [
       "Comment [-Heavy naval melee unit]",
@@ -1773,7 +1870,6 @@
 	"Only available <in cities with a [Siege Workshop]>",
 	"May attack when embarked",
 	"Must set up to ranged attack",
-	"Destroys tile improvements when attacking",
 	"No defensive terrain bonus",
  	"[+40]% Strength <vs [Mounted] units> <when attacking>",
  	"[+40]% Strength <vs [Elephant] units> <when attacking>",
@@ -1801,12 +1897,11 @@
 	"Only available <in cities with a [Siege Workshop]>",
 	"May attack when embarked",
 	"Must set up to ranged attack",
-	"Destroys tile improvements when attacking",
 	"No defensive terrain bonus",
  	"[+40]% Strength <vs [Spear] units> <when attacking>",
  	"[+40]% Strength <vs [Sword] units> <when attacking>",
  	"[+30]% Strength <vs [Siege] units> <when attacking>",
-	"[+400]% Strength <vs cities> <when attacking>",
+	"[+300]% Strength <vs cities> <when attacking>",
 	"Consumes [2] [Manpower]",
 	"Consumes [1] [Timber]",
 	"Never appears as a Barbarian unit",
@@ -1881,7 +1976,7 @@
       	"Cannot enter ocean tiles <before discovering [Agriculture]>",
      	"[+100]% Strength <when defending> <when [Embarked]>",
 	"Can instantly construct a [Trading post] improvement <[1] times> <after which this unit is consumed>",
-      "Gain [100]-[10000] [Gold] <by consuming this unit>",
+      "Gain [500]-[10000] [Gold] <by consuming this unit>",
       	"Great Person - [Gold]",
       	"Unbuildable",
       	"Uncapturable"
@@ -1895,7 +1990,7 @@
       "Empire enters a [12]-turn Golden Age <by consuming this unit> <if it hasn't used other actions yet>",
       "Can speed up construction of a building <if it hasn't used other actions yet>",
 	"Can instantly construct a [Fort] improvement <[1] times> <after which this unit is consumed>",
-      "[+5]% Strength bonus for [Siege] units within [1] tiles",
+      "[+10]% Strength bonus for [Siege] units within [1] tiles",
       "Great Person - [Production]",
       "Unbuildable",
       "Uncapturable"
@@ -1932,60 +2027,64 @@
     "cost": 300,
     "requiredTech": "Infantry Training",
     "uniques": [
-		      "Comment [Battlefield commander, give bounus to nearby units]",
       		"Only available <in cities with a [Army Barracks]>",
-		      "[+20]% Strength <during the [Imperial Age]>",
-		      "[+100]% production cost <during the [Imperial Age]>",
+		"Comment [Battlefield commander, give bounus to nearby units]",
+		"[+20]% Strength <during the [Imperial Age]>",
+		"[+100]% production cost <during the [Imperial Age]>",
       		"Consumes [1] [Nobles]",
-    "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
+                "Can upgrade to [King] <before adopting [Empire]> <for units with [Successor]>",
+                "Can upgrade to [Emperor] <after adopting [Empire]> <for units with [Successor]>",
       		"Great Person - [War]",
+                "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
     ],
     "promotions": [
-      "[Horseman] ability",
-      "Scouting I",
-	    "Commander",
-      "Cavalry Shield II"
+	"Commander",
+      	"Cavalry Shield II"
     ],
     "attackSound": "metalhit"
   },
   {
     "name": "Foot Guard",
-    "unitType": "Spear",
+    "unitType": "Sword",
     "movement": 2,
     "strength": 15,
     "cost": 120,
     "uniques": [
-	    "Comment [-Elite medium sword infantry, give bounus to nearby units]",
+	"Comment [-Elite heavy sword infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
-      	"[+10]% Strength bonus for [Military] units within [1] tiles",
-	      "[+1] XP gained from combat",
-	      "[+20]% Strength <during the [Imperial Age]>",
-	    "[+40]% production cost <during the [Imperial Age]>",
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Veteran]",
-    "Never appears as a Barbarian unit <before the [Imperial Age]>",
+	"[+1] XP gained from combat",
+	"[+20]% Strength <during the [Imperial Age]>",
+	"[+10]% Strength <during the [Hellenistic Age]>",
+	"[+40]% production cost <during the [Imperial Age]>",
+	"[+20]% production cost <during the [Hellenistic Age]>",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Veteran]",
+    	"Never appears as a Barbarian unit <before the [Imperial Age]>",
+       		"[This Unit] is destroyed <after adopting [Latin Culture]> <during the [Imperial Age]>"
+		"Unbuildable <for [The Romans] Civilizations> <during the [Imperial Age]>"
     ],
     "promotions": [
-      "[Spearman] ability",
       "Infantry Shield III"
+      "Inspiring"
     ],
     "attackSound": "metalhit"
   },
   {
     "name": "Royal Spartan",
-    "unitType": "Sword",
+    "unitType": "Spear",
     "uniqueTo": "The Spartans",
     "replaces": "Foot Guard",
     "movement": 2,
     "strength": 16,
     "cost": 140,
     "uniques": [
-		"Comment [Elite medium sword infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away—just don’t expect them to do much beyond that.]",
+		"Comment [Elite Heavy sword infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away.]",
      		"Only available <in cities with a [Palace]>",
-      		"[+10]% Strength bonus for [Military] units within [1] tiles",
 	      	"[+1] XP gained from combat",
 		"[+20]% Strength <during the [Imperial Age]>",
+		"[+10]% Strength <during the [Hellenistic Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
+		"[+20]% production cost <during the [Hellenistic Age]>",
       		"Consumes [3] [Manpower]",
       		"Consumes [1] [Veteran]",
     ],
@@ -1993,31 +2092,33 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Spartan Aura",
+      "Inspiring",
     ],
     "attackSound": "metalhit"
   },
   {
     "name": "Hypaspist",
-    "unitType": "Spear",
+    "unitType": "Sword",
     "uniqueTo": "The Macedonians",
     "replaces": "Foot Guard",
     "movement": 2,
     "strength": 15,
     "cost": 130,
     "uniques": [
-	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
+	"Comment [-Elite Heavy spear infantry, give bounus to nearby units]",
       	"Only available <in cities with a [Palace]>",
-      	"[+10]% Strength bonus for [Military] units within [1] tiles",
       	"[+1] XP gained from combat",
 	"[+20]% Strength <during the [Imperial Age]>",
+	"[+10]% Strength <during the [Hellenistic Age]>",
 	"[+40]% production cost <during the [Imperial Age]>",
+	"[+20]% production cost <during the [Hellenistic Age]>",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
     ],
     "promotions": [
-      "[Spearman] ability",
       "Infantry Shield III",
       "Assault I"
+      "Inspiring",
     ],
     "attackSound": "metalhit"
   },
@@ -2044,7 +2145,7 @@
     "promotions": [
       	"[Cavalry] ability",
       	"Cavalry Shield II",
-	"Commander",
+	      "Commander",
     ],
     "attackSound": "metalhit"
   },
@@ -2065,6 +2166,7 @@
 		"[+40]% production cost <during the [Imperial Age]>",
 		"May attack when embarked",
     		"Consumes [1] [Ruler] <hidden from users>",
+    		"Consumes [1] [Ruler] <after adopting [Empire]> <hidden from users>",
 		"Remove [A Noble's Death] [in all cities]",
       		"Never appears as a Barbarian unit",
       		"[+10]% Strength <when defending> <after adopting [Empire]> <hidden from users>",
@@ -2080,15 +2182,15 @@
     "name": "Emperor",
     "unitType": "Ruler",
     "movement": 3,
-    "strength": 15,
-    "cost": 160,
+    "strength": 16,
+    "cost": 170,
     "uniques": [
       		"Only available <after adopting [Empire]> <hidden from users>",
 		"Can only be built <in [Capital] cities>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+30]% production cost <during the [Imperial Age]>",
-    		"Consumes [1] [Ruler] <hidden from users>",
+    		"Consumes [2] [Ruler] <hidden from users>",
 		"Remove [A Noble's Death] [in all cities]",
       		"Cannot be purchased",
     ],
@@ -2128,7 +2230,7 @@
 	"Scouting I"
     ],
     "attackSound": "metalhit"
-  }
+  },
   {
     "name": "Numidian Horseman",
   "unitType": "Mounted Archery",
@@ -2310,6 +2412,7 @@
     "cost": 340,
     "uniques": [
  	"Comment [Elite medium horse archer, have strong range attack, small withdraw chance]",
+                "Can upgrade to [Scythian King] <for units with [Successor]>",
       	"Only available <in cities with a [Cavalry Barracks]>",
 	"May attack when embarked",
       	"Consumes [1] [Nobles]",
@@ -2589,7 +2692,7 @@
       "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
   	"Limited to [1] per Civilization",
 	"[+40]% Strength <during the [Imperial Age]>",
-	"[+50]% production cost <during the [Imperial Age]>",
+	"[+60]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
@@ -2617,7 +2720,7 @@
       "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
       "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
 	"[+30]% Strength <during the [Imperial Age]>",
-	"[+50]% production cost <during the [Imperial Age]>",
+	"[+60]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
@@ -2643,7 +2746,7 @@
       "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
       "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
 	"[+40]% Strength <during the [Imperial Age]>",
-	"[+40]% production cost <during the [Imperial Age]>",
+	"[+50]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
@@ -2738,17 +2841,13 @@
     "unitType": "Sword",
     "uniqueTo": "The Romans",
     "movement": 3,
-    "strength": 18,
+    "strength": 19,
     "cost": 210,
     "uniques": [
  	"Comment [-Elite heavy infantry, inspire nearby ally units, have one job.]",
       "Only available <in cities with a [Army Barracks]>",
       "Limited to [1] per Civilization",
-      "[+5]% Strength bonus for [Military] units within [3] tiles",
-      "[+5]% Strength bonus for [Military] units within [2] tiles",
-      "[+5]% Strength bonus for [Military] units within [1] tiles",
-      "[+5]% Strength bonus for [Military] units within [1] tiles <when defending>",
-	"[+1] XP gained from combat",
+	     "[+2] XP gained from combat",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
       "Consumes [1] [Iron]",
@@ -2937,7 +3036,7 @@
     "cost": 60,
     "requiredTech": "Bronze Working",
     "uniques": [
-     	"Only available <in cities with a [Muster Field]> <if [Gallic 3rd century crisis] is constructed> <hidden from users>",
+     	"Only available <in cities with a [Muster Field]> <when above [0] [Gallic 3rd century crisis]> <hidden from users>",
 	"Comment ['Spearman — ideal for stopping horses, not much else.']",
 	"Can build [Remove Forest] improvements on tiles",
       	"Consumes [2] [Manpower]",
