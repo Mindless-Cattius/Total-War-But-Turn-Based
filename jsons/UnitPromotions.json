@@ -986,6 +986,16 @@
         "row": 6
 	},
 	{
+		"name": "King Slayer",
+		"prerequisites": ["Veteran"],
+		"unitTypes": ["Mounted","Sword","Spear"],
+		"uniques": [
+			"[+30]% Strength <vs [Commander] units> <when attacking>",
+		],
+      "column": 47,
+        "row": 6
+	},
+	{
 		"name": "Successor",
 		"uniques": [
 			"Only available <when above [200] [Gold]> <(modified by game speed)>",
