@@ -644,6 +644,8 @@
 		"uniques": [
 			"[+10]% Strength",
 			"Only available <if [Imperial Armory] is constructed>",
+			"Only available <when above [50] [Gold]> <(modified by game speed)>",
+			"Gain [-50] [Gold] <(modified by game speed)>",
 		],
         "column": 27,
         "row": 1
@@ -986,6 +988,8 @@
 	{
 		"name": "Successor",
 		"uniques": [
+			"Only available <when above [200] [Gold]> <(modified by game speed)>",
+			"Gain [-200] [Gold] <(modified by game speed)>",
    			 "[+10]% Strength <when defending>",
 			"Only available <for units with [Commander]>",
 			"Unavailable <for [Ruler] units>",

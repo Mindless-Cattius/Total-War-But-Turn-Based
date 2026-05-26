@@ -173,6 +173,8 @@
       	"Limited to [7] per Civilization <during the [Hellenistic Age]>",
       	"Limited to [10] per Civilization <during the [Imperial Age]>",
       	"Can build [Land] improvements on tiles",
+	"[+100]% construction time for [Road] improvements <in [Snow] tiles>",
+	"[+100]% construction time for [Road] improvements <in [Tundra] tiles>",
 	"[+1] Movement <after discovering [Mass Production]>",
 	"[+200]% production cost <during the [Imperial Age]>",
 	"Can upgrade to [Skirmisher] <after discovering [Imperial Military Doctrine]> <hidden from users>",
@@ -443,7 +445,6 @@
     "uniques": [
 	"Comment ['Elite light archer, good at counter-ambushes, accuracy so good it feels personal.']",
       "Only available <in cities with a [Archery Range]>",
-	"May attack when embarked",
       "Consumes [2] [Manpower]",
     ],
     "promotions": [
@@ -471,7 +472,6 @@
 	"Comment ['Elite light archer, not built for defense, built to make sure you don’t need any.']",
       	"Only available <in cities with a [Archery Range]>",
       	"Can move immediately once bought",
-	"May attack when embarked",
       	"Consumes [2] [Manpower]",
     ],
     "promotions": [
@@ -1241,6 +1241,7 @@
     "name": "Manipular Legion",
     "unitType": "Sword",
     "uniqueTo": "The Romans",
+    "upgradesTo": "Legion",
     "movement": 2,
     "strength": 17,
     "cost": 130,
@@ -1251,7 +1252,6 @@
 		"Can build [Remove Forest] improvements on tiles",
       		"Consumes [3] [Manpower]",
        		"Consumes [1] [Iron]",
-         "Can transform to [Legion] <after discovering [Infantry Training]>",
       		"Unbuildable <after discovering [Infantry Training]>",
     ],
     "promotions": [
@@ -1430,7 +1430,6 @@
     "uniques": [
       	"Comment [Light mounted archer, fast, and completely useless if they ever have to actually fight. They’ll shoot arrows, maybe hit something, then ride off before anyone can say ‘where’d they go?.]",
       	"Only available <in cities with a [Nomadic Herd]>",
-	"May attack when embarked",
       	"Consumes [2] [Manpower]",
       	"Consumes [1] [Horses]",
     ],
@@ -1450,7 +1449,6 @@
     "uniques": [
       "Comment [Medium mounted archer, perfect for desert battles, as long as you don’t expect them to do anything when they leave the sand. They’ll shoot a few arrows and bail before you can blink.]",
       "Only available <in cities with a [Spice Road]>",
-	"May attack when embarked",
       "Consumes [3] [Manpower]",
     ],
     "promotions": [
@@ -1843,7 +1841,6 @@
     "uniques": [
 	"Comment [-Medium artillery, have good attack against mounted unit]",
 	"Only available <in cities with a [Siege Workshop]>",
-	"May attack when embarked",
 	"Must set up to ranged attack",
 	"No defensive terrain bonus",
  	"[+40]% Strength <vs [Mounted] units> <when attacking>",
@@ -1870,7 +1867,6 @@
     "uniques": [
  	"Comment [-Heavy artillery, good against cities and infantry units]",
 	"Only available <in cities with a [Siege Workshop]>",
-	"May attack when embarked",
 	"Must set up to ranged attack",
 	"No defensive terrain bonus",
  	"[+40]% Strength <vs [Spear] units> <when attacking>",
@@ -1885,6 +1881,194 @@
     "hurryCostModifier": 20,
     "attackSound": "bombard"
   },
+  {
+    "name": "Numidian Horseman",
+  "unitType": "Mounted Archery",
+  "hurryCostModifier": 30,
+  "cost": 120,
+  "movement": 3,
+  "strength": 9,
+  "rangedStrength": 11,
+  "requiredTech": "Riding",
+  "uniques": [
+ 	"Comment [-Light mounted skirmisher, have high range attack, good at raiding, high withdraw chance]",
+    	"Only available <in cities with a [Skirmisher Barracks]>",
+    	"[-1] Range",
+    	"Consumes [3] [Manpower]",
+    	"Consumes [1] [Horses]",
+      	"Only available <after adopting [Numidian Culture]> <hidden from users>",
+    	"Never appears as a Barbarian unit"
+  ],
+  "promotions": [
+      "[Horseman] ability",
+      "[Maneuver]",
+  ],
+  "attackSound": "arrow"
+  },
+  {
+    "name": "Numidian Cavalry",
+  "unitType": "Mounted",
+  "hurryCostModifier": 30,
+  "cost": 140,
+  "movement": 3,
+  "strength": 17,
+  "requiredTech": "Riding",
+  "uniques": [
+ 	"Comment [-Medium cavalry, have strong attack, good at raiding, medium withdraw chance]",
+    "Only available <in cities with a [Cavalry Barracks]>",
+    "Consumes [3] [Manpower]",
+    "Consumes [2] [Horses]",
+      "Only available <after adopting [Numidian Culture]> <hidden from users>",
+    "Never appears as a Barbarian unit"
+  ],
+  "promotions": [
+      "[Cavalry] ability",
+      "[Maneuver]",
+  ],
+  "attackSound": "horse"
+  },
+  {
+  "name": "Mounted Skirmisher",
+  "unitType": "Mounted Archery",
+  "hurryCostModifier": 30,
+  "cost": 110,
+  "movement": 3,
+  "strength": 9,
+  "rangedStrength": 11,
+  "requiredTech": "Riding",
+  "uniques": [
+    "Only available <in cities with a [Cavalry Barracks]>",
+      "Comment ['Light mounted skirmisher, strong range attack, have high withdraw chance.']",
+    "[-1] Range",
+    "Consumes [3] [Manpower]",
+    "Consumes [1] [Horses]",
+    "Never appears as a Barbarian unit <before the [Classical Age]>",
+      "Only available <before adopting [Numidian Culture]> <hidden from users>",
+  ],
+  "promotions": [
+      "[Horseman] ability",
+      "[Maneuver]",
+  ],
+  "attackSound": "arrow"
+  },{
+    "name": "Naked Warrior",
+    "unitType": "Sword",
+    "movement": 3,
+    "strength": 11,
+    "cost": 70,
+    "uniques": [
+      "Comment [-Light infantry, have big fear for range weapons, good at attacking, small withdraw chance.]",
+      "Only available <in cities with a [Sacred Grove]>",
+      "Consumes [2] [Manpower]",
+      "Only available <after adopting [Celtic Culture]> <hidden from users>",
+    ],
+    "promotions": [
+      "Infantry Shield I",
+	"Naked Warrior",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Mercenary Naked Warrior",
+    "unitType": "Sword",
+    "movement": 3,
+    "strength": 12,
+    "cost": 90,
+    "uniques": [
+      "Comment ['Elite light infantry, have big fear for range weapons, good at attacking, small withdraw chance.']",
+      "Consumes [1] [Mercenary (Celtic)]",
+      "Only available <in cities with a [Mercenary Camp]>",
+     		 "Unbuildable",
+     		  "Can be purchased with [Gold] [in all cities]",
+    "Never appears as a Barbarian unit <before the [Classical Age]>",
+    ],
+    "promotions": [
+      "Shock I",
+      "Infantry Shield I",
+	    "Naked Warrior",
+	    "Mercenary",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Gladiator",
+    "unitType": "Sword",
+    "movement": 3,
+    "strength": 14,
+    "cost": 100,
+    "uniques": [
+      "Comment ['Light shock infantry, trained to entertain the rich and die for the crowd. Good at killing, terrible at staying alive.']",
+      "Only available <in cities with a [Arena]>",
+      "Can move immediately once bought",
+	    "[+1] XP gained from combat",
+      "Consumes [1] [Manpower]",
+    ],
+    "promotions": [
+      "Shock I",
+      "Infantry Shield I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Crossbowman",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 8,
+    "rangedStrength": 10,
+    "cost": 130,
+    "requiredTech": "Crossbow Engineering",
+    "uniques": [
+      "Comment [Medium archery, anti armored units, nothing says ‘technological progress’ like making murder accessible to the lazy.]",
+      "Only available <in cities with a [Ballistics Range]>",
+      "Consumes [3] [Manpower]",
+    ],
+    "promotions": [
+      "Crossbowman ability",
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Armored Archer",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 12,
+    "rangedStrength": 11,
+    "cost": 180,
+    "requiredTech": "Heavy Archery Tactics",
+    "uniques": [
+      "Only available <in cities with a [Ballistics Range]>",
+      "Comment [-Heavy archery, a symbol of the military genius that thought, ‘Why not make archers cost as much as knights?]",
+	"[+30]% Strength <vs cities> <when defending>",
+      "Consumes [4] [Manpower]",
+    ],
+    "promotions": [
+      "[Archer] ability",
+	"Improved Armor"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Camel Cavalry",
+    "unitType": "Mounted",
+    "hurryCostModifier": 20,
+    "cost": 120,
+    "movement": 3,
+    "strength": 14,
+    "uniques": [
+      "Comment [-Medium camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
+      "Only available <in cities with a [Camel Stable]>",
+      "Consumes [4] [Manpower]",
+    ],
+    "promotions": [
+      "Camel Cavalry ability",
+	"Camels Scare Horses"
+	"Charge I",
+    ],
+    "attackSound": "horse"
+  },
+
+			////GREAT PERSON
+
   {
     "name": "Great Artist",
     "unitType": "Civilian",
@@ -1994,6 +2178,9 @@
     "movement": 3,
     "religiousStrength": 1000
   },
+			
+				/////KINGS AND GENERALS
+
   {
     "name": "General",
     "unitType": "Mounted",
@@ -2045,12 +2232,37 @@
     ],
     "attackSound": "horse"
   },
-////Add-ons unit
-
+  {
+    "name": "Strategos",
+    "unitType": "Ruler",
+    "uniqueTo": "The Athenians",
+    "replaces": "King",
+    "movement": 3,
+    "strength": 15,
+    "cost": 130,
+    "uniques": [
+		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
+      		"Only available <before adopting [Empire]> <hidden from users>",
+		"Can only be built <in [Capital] cities>",
+       		"[This Unit] is destroyed <after adopting [Empire]>",
+		"[+20]% Strength <during the [Imperial Age]>",
+		"[+40]% production cost <during the [Imperial Age]>",
+    		"Consumes [1] [Ruler]",
+		"Remove [A Noble's Death] [in all cities]",
+    ],
+    "promotions": [
+      	"[Cavalry] ability",
+      	"Cavalry Shield II",
+	"Art of War",
+	"Commander",
+    ],
+    "attackSound": "horse"
+  },
   {
     "name": "Scythian King",
     "unitType": "Ruler",
     "uniqueTo": "The Scythians",
+    "replaces": "King",
     "movement": 3,
     "strength": 11,
     "rangedStrength": 9,
@@ -2060,7 +2272,6 @@
 		"Can only be built <in [Capital] cities>",
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
-		"May attack when embarked",
     		"Consumes [1] [Ruler] <before adopting [Empire]>",
     		"Consumes [2] [Ruler] <after adopting [Empire]>",
 		"Remove [A Noble's Death] [in all cities]",
@@ -2128,176 +2339,6 @@
     "attackSound": "horse"
   },
   {
-    "name": "Numidian Horseman",
-  "unitType": "Mounted Archery",
-  "hurryCostModifier": 30,
-  "cost": 120,
-  "movement": 3,
-  "strength": 9,
-  "rangedStrength": 11,
-  "requiredTech": "Riding",
-  "uniques": [
- 	"Comment [-Light mounted skirmisher, have high range attack, good at raiding, high withdraw chance]",
-    	"Only available <in cities with a [Skirmisher Barracks]>",
-	"May attack when embarked",
-    	"[-1] Range",
-    	"Consumes [3] [Manpower]",
-    	"Consumes [1] [Horses]",
-      	"Only available <after adopting [Numidian Culture]> <hidden from users>",
-    	"Never appears as a Barbarian unit"
-  ],
-  "promotions": [
-      "[Horseman] ability",
-      "[Maneuver]",
-  ],
-  "attackSound": "arrow"
-  },
-  {
-    "name": "Numidian Cavalry",
-  "unitType": "Mounted",
-  "hurryCostModifier": 30,
-  "cost": 140,
-  "movement": 3,
-  "strength": 17,
-  "requiredTech": "Riding",
-  "uniques": [
- 	"Comment [-Medium cavalry, have strong attack, good at raiding, medium withdraw chance]",
-    "Only available <in cities with a [Cavalry Barracks]>",
-    "Consumes [3] [Manpower]",
-    "Consumes [2] [Horses]",
-      "Only available <after adopting [Numidian Culture]> <hidden from users>",
-    "Never appears as a Barbarian unit"
-  ],
-  "promotions": [
-      "[Cavalry] ability",
-      "[Maneuver]",
-  ],
-  "attackSound": "horse"
-  },
-  {
-  "name": "Mounted Skirmisher",
-  "unitType": "Mounted Archery",
-  "hurryCostModifier": 30,
-  "cost": 110,
-  "movement": 3,
-  "strength": 9,
-  "rangedStrength": 11,
-  "requiredTech": "Riding",
-  "uniques": [
-    "Only available <in cities with a [Cavalry Barracks]>",
-      "Comment ['Light mounted skirmisher, strong range attack, have high withdraw chance.']",
-	"May attack when embarked",
-    "[-1] Range",
-    "Consumes [3] [Manpower]",
-    "Consumes [1] [Horses]",
-    "Never appears as a Barbarian unit <before the [Classical Age]>",
-      "Only available <before adopting [Numidian Culture]> <hidden from users>",
-  ],
-  "promotions": [
-      "[Horseman] ability",
-      "[Maneuver]",
-  ],
-  "attackSound": "arrow"
-  },{
-    "name": "Naked Warrior",
-    "unitType": "Sword",
-    "movement": 3,
-    "strength": 11,
-    "cost": 70,
-    "uniques": [
-      "Comment [-Light infantry, have big fear for range weapons, good at attacking, small withdraw chance.]",
-      "Only available <in cities with a [Sacred Grove]>",
-      "Consumes [2] [Manpower]",
-      "Only available <after adopting [Celtic Culture]> <hidden from users>",
-    ],
-    "promotions": [
-      "Infantry Shield I",
-	"Naked Warrior",
-    ],
-    "attackSound": "metalhit"
-  },
-  {
-    "name": "Mercenary Naked Warrior",
-    "unitType": "Sword",
-    "movement": 3,
-    "strength": 12,
-    "cost": 90,
-    "uniques": [
-      "Comment ['Elite light infantry, have big fear for range weapons, good at attacking, small withdraw chance.']",
-      "Consumes [1] [Mercenary (Celtic)]",
-      "Only available <in cities with a [Mercenary Camp]>",
-     		 "Unbuildable",
-     		  "Can be purchased with [Gold] [in all cities]",
-    "Never appears as a Barbarian unit <before the [Classical Age]>",
-    ],
-    "promotions": [
-      "Shock I",
-      "Infantry Shield I",
-	    "Naked Warrior",
-	    "Mercenary",
-    ],
-    "attackSound": "metalhit"
-  },
-  {
-    "name": "Gladiator",
-    "unitType": "Sword",
-    "movement": 3,
-    "strength": 14,
-    "cost": 100,
-    "uniques": [
-      "Comment ['Light shock infantry, trained to entertain the rich and die for the crowd. Good at killing, terrible at staying alive.']",
-      "Only available <in cities with a [Arena]>",
-      "Can move immediately once bought",
-	    "[+1] XP gained from combat",
-      "Consumes [1] [Manpower]",
-    ],
-    "promotions": [
-      "Shock I",
-      "Infantry Shield I",
-    ],
-    "attackSound": "metalhit"
-  },
-  {
-    "name": "Crossbowman",
-    "unitType": "Archery",
-    "movement": 2,
-    "strength": 8,
-    "rangedStrength": 10,
-    "cost": 130,
-    "requiredTech": "Crossbow Engineering",
-    "uniques": [
-      "Comment [Medium archery, anti armored units, nothing says ‘technological progress’ like making murder accessible to the lazy.]",
-      "Only available <in cities with a [Ballistics Range]>",
-	"May attack when embarked",
-      "Consumes [3] [Manpower]",
-    ],
-    "promotions": [
-      "Crossbowman ability",
-    ],
-    "attackSound": "arrow"
-  },
-  {
-    "name": "Armored Archer",
-    "unitType": "Archery",
-    "movement": 2,
-    "strength": 12,
-    "rangedStrength": 11,
-    "cost": 180,
-    "requiredTech": "Heavy Archery Tactics",
-    "uniques": [
-      "Only available <in cities with a [Ballistics Range]>",
-      "Comment [-Heavy archery, a symbol of the military genius that thought, ‘Why not make archers cost as much as knights?]",
-	"May attack when embarked",
-	"[+30]% Strength <vs cities> <when defending>",
-      "Consumes [4] [Manpower]",
-    ],
-    "promotions": [
-      "[Archer] ability",
-	"Improved Armor"
-    ],
-    "attackSound": "arrow"
-  },
-  {
     "name": "Scythian Nobles",
     "uniqueTo": "The Scythians",
     "replaces": "General",
@@ -2310,7 +2351,6 @@
  	"Comment [Elite medium horse archer, have strong range attack, small withdraw chance]",
                 "Can upgrade to [Scythian King] <for units with [Successor]>",
       	"Only available <in cities with a [Cavalry Barracks]>",
-	"May attack when embarked",
       	"Consumes [1] [Nobles]",
     ],
     "promotions": [
@@ -2318,25 +2358,6 @@
       "Commander",
     ],
     "attackSound": "arrow"
-  },
-  {
-    "name": "Camel Cavalry",
-    "unitType": "Mounted",
-    "hurryCostModifier": 20,
-    "cost": 120,
-    "movement": 3,
-    "strength": 14,
-    "uniques": [
-      "Comment [-Medium camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
-      "Only available <in cities with a [Camel Stable]>",
-      "Consumes [4] [Manpower]",
-    ],
-    "promotions": [
-      "Camel Cavalry ability",
-	"Camels Scare Horses"
-	"Charge I",
-    ],
-    "attackSound": "horse"
   },
 
 /////			---Veteran Units---
@@ -2485,7 +2506,6 @@
       "Comment [-Elite heavy mounted archery, 'arrows goes brr', have high withdraw chance.]",
       "Only available <in cities with a [Nomadic Herd]>",
       "Only available <in cities with a [Skirmisher Barracks]>",
-	"May attack when embarked",
       "[+1] XP gained from combat",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
@@ -2560,7 +2580,6 @@
     "uniques": [
       "Comment [-Elite heavy mounted skirmisher, strong range attack, have medium withdraw chance.]",
       "Only available <in cities with a [Cavalry Barracks]>",
-	"May attack when embarked",
 	"[+1] XP gained from combat",
 	"[-1] Range",
 	"Consumes [4] [Manpower]",

@@ -2226,6 +2226,18 @@
 			"Destroyed when the city is captured"
 ]
 	},
+	{
+		"name": "Restored Order"
+		"maintenance": 0,
+		"cost": 30,
+		"uniques": [
+			"Only available <in cities with a [REBEL IMMINENT]>"
+			"Remove [REBEL IMMINENT] [in this city]",
+			"Remove [Restored Order] [in this city] <upon turn end>",
+			"Cost increases by [2] per owned city",
+			"[+800]% weight to this choice for AI decisions",
+]
+	},
  {
    "name": Risk of Plague
    "uniques": [
