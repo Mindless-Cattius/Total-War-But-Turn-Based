@@ -1589,6 +1589,28 @@
     "attackSound": "horse"
   },
   {
+    "name": "Thessalian Cavalry",
+    "uniqueTo": "The Thessalians",
+    "replaces": "Cavalry",
+    "unitType": "Mounted",
+    "hurryCostModifier": 20,
+    "cost": 130,
+    "movement": 3,
+    "strength": 17,
+    "requiredTech": "Equestrian Class",
+    "uniques": [
+      "Only available <in cities with a [Stable]>",
+      "Consumes [3] [Manpower]",
+      "Consumes [2] [Horses]",
+    ],
+    "promotions": [
+      "[Cavalry] ability",
+	"Lancer",
+      "Charge I",
+    ],
+    "attackSound": "horse"
+  },
+  {
     "name": "Cavalry",
     "unitType": "Mounted",
     "hurryCostModifier": 20,

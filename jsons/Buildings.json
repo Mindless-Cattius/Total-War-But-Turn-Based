@@ -2215,7 +2215,6 @@
 		"uniques": [
 			"Comment ['The situation remains unstable, it may stablize on it own or not, which is politician language for someone is about to die.']",
 			"[-1 Food, -1 Gold, -1 Happiness] from [improved] tiles [in this city]",
-			"Consumes [3] [Manpower]",
 			"[2] [Spearman]s rebel <upon turn end> <with [30]% chance> <during the [Classical Age]> <hidden from users>",
 			"[2] [Swordsman]s rebel <upon turn end> <with [30]% chance> <during the [Hellenistic Age]> <hidden from users>",
 			"[1] [Heavy Swordsman]s rebel <upon turn end> <with [30]% chance> <during the [Imperial Age]> <hidden from users>",
@@ -2743,6 +2742,7 @@
         		"Remove [Egypt Grain Crisis] [in all cities]",
       			"[+1 Food, +1 Happiness] [in all cities]",
       			"Unbuildable <if [Egypt Grain Crisis] is not constructed>",
+      			"Unbuildable <if [Aegyptus] is not constructed>",
 			"Unsellable",
 			"Destroyed when the city is captured",
     ]
