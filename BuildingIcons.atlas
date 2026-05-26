@@ -886,9 +886,16 @@ BuildingIcons/Restore Currency Control
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Risk of Plague
+BuildingIcons/Restored Order
   rotate: false
   xy: 1712, 708
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Risk of Plague
+  rotate: false
+  xy: 1770, 708
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1077,7 +1084,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 1770, 708
+  xy: 1828, 708
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1119,7 +1126,7 @@ BuildingIcons/Walls
   index: -1
 BuildingIcons/War Reconstruction
   rotate: false
-  xy: 1828, 708
+  xy: 1886, 708
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
