@@ -2,6 +2,8 @@
     "name": "Global uniques",
     "uniques": [ 
 // ADDONS
+// 3rd century
+	"[+30]% Production when constructing [Restored Order] buildings [in all cities] <when above [0] [Roman 3rd century crisis]>",
 // GLOBAL
 	"[+50]% Faith cost of generating Great Prophet equivalents"
 	"[-20]% growth [in all cities]",
@@ -88,10 +90,10 @@
         "Nullifies Growth [in all cities] <when below [-40] [Happiness]>",
 
         "[-10]% [Production] [in all cities] <when below [-10] [Happiness]>",
-        "[-10]% [Production] [in all cities] <when below [-20] [Happiness]>",
+        "[-10]% [Production] [in all cities] <when below [-30] [Happiness]>",
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
 
-        "[-10]% Strength <for [All] units> <when below [0] [Happiness]>",
+        "[-5]% Strength <for [All] units> <when below [0] [Happiness]>",
         "[-10]% Strength <for [All] units> <when below [-10] [Happiness]>",
         "[-10]% Strength <for [All] units> <when below [-20] [Happiness]>",
 
@@ -106,11 +108,9 @@
         "[+4]% [Gold] [in all cities] <when between [101] and [200] [Happiness]>",       
         "[+5]% [Gold] [in all cities] <when above [201] [Happiness]>",
 
-        "[+1]% [Faith] [in all cities] <when between [51] and [80] [Happiness]>",
-        "[+2]% [Faith] [in all cities] <when between [81] and [100] [Happiness]>",       
-        "[+3]% [Faith] [in all cities] <when between [101] and [150] [Happiness]>",      
-        "[+4]% [Faith] [in all cities] <when between [151] and [250] [Happiness]>",       
-        "[+5]% [Faith] [in all cities] <when above [251] [Happiness]>",
+        "[+1]% [Faith] [in all cities] <when between [51] and [120] [Happiness]>",
+        "[+2]% [Faith] [in all cities] <when between [121] and [200] [Happiness]>",    
+        "[+3]% [Faith] [in all cities] <when above [200] [Happiness]>",
 
         "[+5]% Strength for cities <when attacking> <when between [11] and [80] [Happiness]>",
         "[+7]% Strength for cities <when attacking> <when between [81] and [100] [Happiness]>",       
@@ -123,20 +123,21 @@
 	"Gain a free [REBEL IMMINENT] [in puppeted cities] <for [Human player] Civilizations>",
 	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
 	"Gain a free [REBEL IMMINENT] [in your cities] <with [1]% chance> <when between [101] and [200] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [3]% chance> <when between [51] and [100] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [31] and [50] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [8]% chance> <when between [11] and [30] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when between [10] and [1] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance> <when below [0] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [2]% chance> <when between [51] and [100] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [4]% chance> <when between [31] and [50] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [6]% chance> <when between [11] and [30] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [8]% chance> <when between [1] and [10] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when below [0] [Happiness]> <for [Human player] Civilizations>",
 
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance> <when above [4] [Nobles]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when between [3] and [4] [Nobles]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when above [4] [Nobles]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [3] and [4] [Nobles]> <for [Human player] Civilizations>",
 // Events
 
-        "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <upon founding a city>",
-        "Free [Spearman] appears <when above [11] [Happiness]> <upon founding a city>",
+        "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [2] [Manpower]> <upon founding a city>",
+        "Free [Spearman] appears <when above [11] [Happiness]> <when above [3] [Manpower]> <upon founding a city>",
         "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [1]% chance>",
-        "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [2]% chance>",
+        "Free [General] appears <upon turn end> <when above [2] [Nobles]> <with [2]% chance>",
+        "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [4]% chance>",
         "Free [Foot Guard] appears <upon turn end> <when above [1] [Veteran]> <with [1]% chance>",
         "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <before the [Imperial Age]>",
