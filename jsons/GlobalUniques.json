@@ -46,9 +46,8 @@
 
 
 //GOLD
-	"[+1000]% Gold cost of upgrading <for [Civilian] units>"
-	"[+3000]% Gold cost of upgrading <for [Military] units>",
-	"[+850]% Gold cost of upgrading <for [Commander] units>"
+
+	"[+500]% Gold cost of upgrading <for [Commander] units>",
 	"[Gold] cost of purchasing [Military] units [+20]% <when at war>",
 	"[Gold] cost of purchasing [Military] units [+50]% <when at war> <during the [Imperial Age]>",
  	"[Gold] cost of purchasing [All] buildings [+50]% <when at war>",
@@ -123,12 +122,11 @@
 
 	"Gain a free [REBEL IMMINENT] [in puppeted cities] <for [Human player] Civilizations>",
 	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [1]% chance> <when above [200] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [3]% chance> <when between [101] and [200] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [51] and [100] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [8]% chance> <when between [31] and [50] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when between [11] and [30] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [15]% chance> <when between [10] and [1] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [1]% chance> <when between [101] and [200] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [3]% chance> <when between [51] and [100] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [31] and [50] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [8]% chance> <when between [11] and [30] [Happiness]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when between [10] and [1] [Happiness]> <for [Human player] Civilizations>",
 	"Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance> <when below [0] [Happiness]> <for [Human player] Civilizations>",
 
 	"Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance> <when above [4] [Nobles]> <for [Human player] Civilizations>",

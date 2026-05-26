@@ -997,12 +997,14 @@
 	},
 	{
 		"name": "Successor",
+		"unitTypes": ["Mounted"],
 		"uniques": [
-			"Only available <when above [200] [Gold]> <(modified by game speed)>",
-			"Gain [-200] [Gold] <(modified by game speed)>",
+			"Only available <when above [200] [Gold]> <(modified by game speed)> <before adopting [Empire]>",
+			"Gain [-200] [Gold] <(modified by game speed)> <before adopting [Empire]>",
+			"Only available <when above [500] [Gold]> <(modified by game speed)> <after adopting [Empire]>",
+			"Gain [-500] [Gold] <(modified by game speed)> <after adopting [Empire]>",
    			 "[+10]% Strength <when defending>",
-			"Only available <for units with [Commander]>",
-			"Unavailable <for [Ruler] units>",
+			"Only available <for units with [Commander]> <hidden from users>",
 		],
       "column": 47,
         "row": 1

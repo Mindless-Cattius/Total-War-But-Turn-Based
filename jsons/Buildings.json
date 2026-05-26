@@ -2880,7 +2880,7 @@
     ]
 },
 			
-			//// Provines
+			//// Provinces
 			///  Gallia, Hispania, Achaea, Italia, Aegyptus, Palaestina, Armenia, Germania, Scythia, Dacia, Africa, Anatolia
 
 {
@@ -3032,6 +3032,56 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"[+1 Gold] [in all cities]"
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+},
+{
+    		"name": "Dalmatia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+                    	"New [Sword] units start with [10] XP [in this city]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+},
+{
+    		"name": "Macedonia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+},
+{
+    		"name": "Thracia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"[+2 Gold, +1 Happiness] from [Trading post] tiles [in all coastal cities]",
+			"[+15]% Production when constructing [Melee Water] units [in this city]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+},
+{
+    		"name": "Lusitania",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"[+1 Gold] from [Forest] tiles [in this city]"
+			"[+15]% Production when constructing [Skirmisher] units [in this city]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",

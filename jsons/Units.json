@@ -1241,7 +1241,6 @@
     "name": "Manipular Legion",
     "unitType": "Sword",
     "uniqueTo": "The Romans",
-    "upgradesTo": "Legion",
     "movement": 2,
     "strength": 17,
     "cost": 130,
@@ -1250,6 +1249,7 @@
       		"Only available <in cities with a [Barracks]>",
 	      	"Can build [All Road] improvements on tiles",
 		"Can build [Remove Forest] improvements on tiles",
+                	"Can transform to [Legion] <after adopting [Cohort Reformation]>",
       		"Consumes [3] [Manpower]",
        		"Consumes [1] [Iron]",
       		"Unbuildable <after discovering [Infantry Training]>",
@@ -2215,9 +2215,10 @@
 		"Comment [Battlefield commander, give bounus to nearby units]",
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+100]% production cost <during the [Imperial Age]>",
+                "Can upgrade to [Consul] <for units with [Successor]> <after adopting [Manipular Legion]> <before adopting [Empire]>",
+                "Can upgrade to [King] <for units with [Successor]> <before adopting [Empire]>",
+                "Can upgrade to [Emperor] <for units with [Successor]> <after adopting [Empire]>",
       		"Consumes [1] [Nobles]",
-                "Can upgrade to [King] <before adopting [Empire]> <for units with [Successor]>",
-                "Can upgrade to [Emperor] <after adopting [Empire]> <for units with [Successor]>",
       		"Great Person - [War]",
                 "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
     ],
@@ -2245,7 +2246,7 @@
     		"Consumes [1] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
     		"Never appears as a Barbarian unit <before the [Imperial Age]>",
-		"Unbuildable <for [The Scythians] Civilizations>"
+      		"Cannot be purchased",
     ],
     "promotions": [
       	"[Cavalry] ability",
@@ -2271,6 +2272,7 @@
 		"[+40]% production cost <during the [Imperial Age]>",
     		"Consumes [1] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
+      		"Cannot be purchased",
     ],
     "promotions": [
       	"[Cavalry] ability",
@@ -2299,6 +2301,7 @@
 		"Remove [A Noble's Death] [in all cities]",
       		"Never appears as a Barbarian unit",
       		"[+10]% Strength <when defending> <after adopting [Empire]> <hidden from users>",
+      		"Cannot be purchased",
     ],
     "promotions": [
       	"Horse Archer ability",
@@ -2321,13 +2324,14 @@
 		"[+30]% production cost <during the [Imperial Age]>",
     		"Consumes [2] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
-      		"Cannot be purchased",
+      		"Cannot be purchased", 
+                   "Unavailable <for [The Scythians] Civilizations> <hidden from users>"
     ],
     "promotions": [
       	"[Cavalry] ability",
       	"Cavalry Shield II",
 	"Commander",
-	"Inspiring"
+	"Art of War",
     ],
     "attackSound": "horse"
   },
@@ -2340,16 +2344,13 @@
     "cost": 130,
     "uniques": [
       		"Only available <after adopting [Manipular Legion]> <hidden from users>",
-       "[This Unit] is destroyed <after adopting [Legate Governance]>",
-      "[This Unit] is destroyed <after adopting [Imperial's Decree]>",
-      		"Unavailable <after adopting [Legate Governance]> <hidden from users>",
-      		"Unavailable <after adopting [Imperial's Decree]> <hidden from users>",
-		"Comment []",
+      		"Unavailable <after adopting [Empire]> <hidden from users>",
 		"[+10]% Strength <during the [Imperial Age]>",
-		"[+50]% production cost <during the [Imperial Age]>",
-    		"Consumes [1] [Ruler] <hidden from users>",
+		"[+40]% production cost <during the [Imperial Age]>",
+    		"Consumes [1] [Ruler] <before adopting [Centralized Command]>",
+    		"Consumes [2] [Ruler] <after adopting [Centralized Command]>",
 		"Remove [A Noble's Death] [in all cities]",
-		"[This Unit] is destroyed <after adopting [Legate Governance]>",
+                "Can transform to [Emperor] <after adopting [Empire]>",
       		"Cannot be purchased",
     ],
     "promotions": [
@@ -2371,7 +2372,7 @@
     "cost": 340,
     "uniques": [
  	"Comment [Elite medium horse archer, have strong range attack, small withdraw chance]",
-                "Can upgrade to [Scythian King] <for units with [Successor]>",
+         "Can upgrade to [Scythian King] <for units with [Successor]>",
       	"Only available <in cities with a [Cavalry Barracks]>",
       	"Consumes [1] [Nobles]",
     ],
