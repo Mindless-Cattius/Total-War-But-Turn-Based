@@ -769,14 +769,14 @@ ResourceIcons/Roman 3rd century crisis
   index: -1
 ResourceIcons/Roman Empire 3rd Century
   rotate: false
-  xy: 760, 785
+  xy: 760, 727
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Ruler
   rotate: false
-  xy: 760, 727
+  xy: 760, 669
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -790,7 +790,7 @@ ResourceIcons/Salt
   index: -1
 ResourceIcons/Sanitation
   rotate: false
-  xy: 760, 669
+  xy: 760, 611
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1215,6 +1215,13 @@ UnitPromotionIcons/Iron Darts
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/King Slayer
+  rotate: false
+  xy: 760, 785
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Lancer
   rotate: false
   xy: 436, 760
@@ -1353,6 +1360,13 @@ UnitPromotionIcons/Standard Bearer
   xy: 1171, 884
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Successor
+  rotate: false
+  xy: 760, 553
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Veteran
