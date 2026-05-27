@@ -571,7 +571,7 @@ ResourceIcons/Amber
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Armenia 3rd century crisis
+ResourceIcons/Armenia 3rd Century Crisis
   rotate: false
   xy: 1616, 1420
   size: 64, 64
@@ -641,14 +641,14 @@ ResourceIcons/Flax
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Gallic 3rd century crisis
+ResourceIcons/Gallic 3rd Century Crisis
   rotate: false
   xy: 1688, 1420
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-ResourceIcons/Germanic 3rd century crisis
+ResourceIcons/Germanic 3rd Century Crisis
   rotate: false
   xy: 1760, 1420
   size: 64, 64
@@ -662,7 +662,7 @@ ResourceIcons/Glass
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Goth 3rd century crisis
+ResourceIcons/Goth 3rd Century Crisis
   rotate: false
   xy: 1832, 1420
   size: 64, 64
@@ -690,7 +690,7 @@ ResourceIcons/Honey
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Hun 3rd century crisis
+ResourceIcons/Hun 3rd Century Crisis
   rotate: false
   xy: 220, 466
   size: 100, 100
@@ -739,7 +739,7 @@ ResourceIcons/Olives
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Palmyrence 3rd century crisis
+ResourceIcons/Palmyrence 3rd Century Crisis
   rotate: false
   xy: 1976, 1420
   size: 64, 64
@@ -767,7 +767,7 @@ ResourceIcons/Purple Dye
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Roman 3rd century crisis
+ResourceIcons/Roman 3rd Century Crisis
   rotate: false
   xy: 1616, 1348
   size: 64, 64
