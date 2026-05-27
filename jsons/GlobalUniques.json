@@ -4,7 +4,7 @@
 			// ADDONS
 
 // GLOBAL
-	"[+50]% Faith cost of generating Great Prophet equivalents"
+	"[+30]% Faith cost of generating Great Prophet equivalents"
 	"[-20]% growth [in all cities]",
 	"May not annex cities <when at war>",
 	"May not annex cities <during the [Archaic Age]>",
@@ -33,16 +33,8 @@
 	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
 	"[-20]% Strength for cities <vs [Scout] units> <when attacking>",
 
-	"[-50]% Production when constructing [all] buildings [in all cities] <when at war>",
+	"[-40]% Production when constructing [all] buildings [in all cities] <when at war>",
 	"[+80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
-	"[-20]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
-	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
-
-	"[-10]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Hellenistic Age]>",
-	"[-25]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Imperial Age]>",
-	"[-10]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Hellenistic Age]>",
-	"[-20]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Imperial Age]>",
-
 
 
 
