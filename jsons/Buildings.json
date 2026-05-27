@@ -27,7 +27,7 @@
 	},
 	{
 		"name": "Palace",
-		"cost": 90,
+		"cost": 60,
 		"production": 2,
 		"science": 2,
 		"gold": 3,
@@ -54,7 +54,7 @@
 	{
 		"name": "Palace Library",
 		"hurryCostModifier": 25,
-		"cost": 60,
+		"cost": 40,
 		"maintenance": 1,
 		"science": 1,
 		"specialistSlots": {"Scholar": 1},
@@ -76,7 +76,7 @@
 		"maintenance": 2,
 		"happiness": 2,
 		"culture": 1,
-		"cost": 100,
+		"cost": 80,
 		"specialistSlots": {"Magistrate": 2},
 		"uniques": [
 			"Only available <in cities with a [Palace]>",
@@ -140,7 +140,7 @@
 
 {
 		"name": "Urban Fabric I",
-		"cost": 30,
+		"cost": 20,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 1,
@@ -156,7 +156,7 @@
 {
 		"name": "Urban Fabric II",
 		"requiredTech": "Writing",
-		"cost": 60,
+		"cost": 40,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 2,
@@ -172,7 +172,7 @@
 {
 		"name": "Urban Fabric III",
 		"requiredTech": "Land Grants",
-		"cost": 100,
+		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 4,
