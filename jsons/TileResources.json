@@ -1081,8 +1081,104 @@
 		"resourceType": "Bonus",
 		"uniques": ["Comment [Required for Legion]"]
     },
-				///3rd Century Crisis
+
+				///PROVINCE FLAG
+
     {
+        "name": "Lusitania",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Hispania",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Italia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Aegyptus",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Palaestina",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Dalmatia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Dacia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Gallic",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Germanic",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Macedonia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Achaea",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Anatolia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Africa",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Thracia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Armenia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Scythia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Pannonia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+    {
+        "name": "Sicilia",
+        "resourceType": "Bonus",
+        "uniques": []
+    },
+
+
+				///3rd Century Crisis
+    
+	{
 		"name": "Praetorian Greed",
 		"resourceType": "Bonus",
 		"uniques": [
@@ -1091,7 +1187,7 @@
 			]
     },
 	{
-    		"name": "Roman 3rd century crisis",
+    		"name": "Roman 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
     			"Triggers victory <if [Gallia] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Africa] is constructed> <if [Anatolia] is constructed> <if [Dacia] is constructed>",
@@ -1103,13 +1199,16 @@
         		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
         		"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
         		"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
-			"Provides [1] [Enable Hellenic Legion]",
-			"Provides [1] [Enable Illyrian Legion]",
-			"Provides [1] [Enable Hellenic Limitanei]",
+			"Provides [1] [Enable Hellenic Limitanei] <if [Achaea] is constructed>",
+			"Provides [1] [Enable Hellenic Legion] <if [Achaea] is constructed>",
+			"Provides [1] [Enable Illyrian Legion] <if [Dalmatia] is constructed>",
+			"Provides [1] [Enable Gallic Legion] <if [Gallia] is constructed>",
+			"Provides [1] [Enable Gallic Limitanei] <if [Gallia] is constructed>",
+			"Provides [1] [Enable Desert Legion] <if [Aegyptus] is constructed>",
 ]
   	},
 	{
-    		"name": "Palmyrence 3rd century crisis",
+    		"name": "Palmyrence 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Armenia] is constructed> <if [Africa] is constructed>  <if [Anatolia] is constructed>  <if [Hispania] is constructed>",
@@ -1117,12 +1216,17 @@
 			"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
         		"Free [Cavalry] appears <upon turn end> <when above [4] [Horses]> <when above [30] [Manpower]> <with [3]% chance>",
         		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance>",
-			"Provides [1] [Enable Hellenic Limitanei]",
+			"Provides [1] [Enable Hellenic Limitanei] <if [Achaea] is constructed>",
+			"Provides [1] [Enable Hellenic Legion] <if [Achaea] is constructed>",
+			"Provides [1] [Enable Illyrian Legion] <if [Dalmatia] is constructed>",
+			"Provides [1] [Enable Gallic Legion] <if [Gallia] is constructed>",
+			"Provides [1] [Enable Gallic Limitanei] <if [Gallia] is constructed>",
+			"Provides [1] [Enable Legion] <if [Italia] is constructed>",
 			"Provides [1] [Enable Desert Legion]",
 ]
   	},
 	{
-    		"name": "Gallic 3rd century crisis",
+    		"name": "Gallic 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
     			"Triggers victory <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Africa] is constructed>",
@@ -1132,10 +1236,15 @@
         		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance>",
 			"Provides [1] [Enable Gallic Legion]",
 			"Provides [1] [Enable Gallic Limitanei]",
+			"Provides [1] [Enable Hellenic Limitanei] <if [Achaea] is constructed>",
+			"Provides [1] [Enable Hellenic Legion] <if [Achaea] is constructed>",
+			"Provides [1] [Enable Illyrian Legion] <if [Dalmatia] is constructed>",
+			"Provides [1] [Enable Legion] <if [Italia] is constructed>",
+			"Provides [1] [Enable Desert Legion] <if [Aegyptus] is constructed>",
 ]
   	},
 	{
-    		"name": "Germanic 3rd century crisis",
+    		"name": "Germanic 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
     			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed> <if [Aegyptus] is constructed>",
@@ -1152,13 +1261,14 @@
 ]
   	},
 	{
-    		"name": "Goth 3rd century crisis",
+    		"name": "Goth 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
 			"Provides [15] [Manpower] <if [Italia] is not constructed>",
-    			"[+30]% Yield from pillaging tiles <if [Achaea] is not constructed>",
+    			"[+30]% Yield from pillaging tiles <if [Thracia] is not constructed>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
+        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
         		"[+10]% Strength <for [Infantry Shield II] units> <when attacking> <vs [The Arverni] units>  <if [Hispania] is not constructed>",
         		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <if [Achaea] is not constructed>",
         		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <if [Italia] is not constructed>",
@@ -1171,7 +1281,7 @@
 ]
   	},
 	{
-    		"name": "Hun 3rd century crisis",
+    		"name": "Hun 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
     			"Triggers victory <if [Achaea] is constructed> <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Scythia] is constructed>",
@@ -1191,7 +1301,7 @@
 ]
   	},
 	{
-    		"name": "Armenia 3rd century crisis",
+    		"name": "Armenia 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
     			"Triggers victory <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed> <if [Scythia] is constructed> <if [Aegyptus] is constructed>",

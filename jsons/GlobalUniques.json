@@ -1,9 +1,8 @@
 {
     "name": "Global uniques",
     "uniques": [ 
-// ADDONS
-// 3rd century
-	"[+30]% Production when constructing [Restored Order] buildings [in all cities] <when above [0] [Roman 3rd century crisis]>",
+			// ADDONS
+
 // GLOBAL
 	"[+50]% Faith cost of generating Great Prophet equivalents"
 	"[-20]% growth [in all cities]",
@@ -190,5 +189,17 @@
 
         "[-50]% maintenance costs <for [All] units> <in [City center] tiles>",
 // + research with nobles, + happiness with recruits 
+
+			// 3rd century
+///rome
+	"[+30]% Production when constructing [Restored Order] buildings [in all cities] <when above [0] [Roman 3rd Century Crisis]>",
+	"Provides [1] [Italia] <when above [0] [Roman 3rd Century Crisis]>",
+	"Provides [1] [Dalmatia] <when above [0] [Roman 3rd Century Crisis]>",
+	"Provides [1] [Achaea] <when above [0] [Roman 3rd Century Crisis]>",
+	"Provides [1] [Thracia] <when above [0] [Roman 3rd Century Crisis]>",
+	"Provides [1] [Macedonia] <when above [0] [Roman 3rd Century Crisis]>",
+	"Provides [1] [Africa] <when above [0] [Roman 3rd Century Crisis]>",
+	"Provides [1] [Sicilia] <when above [0] [Roman 3rd Century Crisis]>",
+	"Provides [1] [Pannonia] <when above [0] [Roman 3rd Century Crisis]>",
     ]
 }

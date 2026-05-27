@@ -17,8 +17,7 @@
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
 			"[+100]% Gold given to enemy if city is captured",
 			"[-20]% enemy spy effectiveness [in this city]",
-			"[+1 Culture] per [10] population [in this city]",
-			"[+1 Happiness] per [5] population [in this city]",
+			"[+1 Culture, +1 Happiness, +2 Gold] per [5] population [in this city]",
 			"[+1 Gold] from [Farm] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
@@ -549,9 +548,10 @@
 		"name": "Garrison Post",
 		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 20,
-		"Cost":50,
+		"Cost":60,
 		"maintenance": 1,
 		"cityHealth": 80,
+		"cityStrength": 1,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>", 
 			"Consumes [1] [Manpower]",
@@ -573,6 +573,7 @@
 			"Only available <in cities with a [Siege Workshop]>",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"Cannot be purchased <when at war>",
 		],
 		"requiredTech": "Torsion Engines",
 	},
@@ -590,6 +591,7 @@
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
 			"Destroyed when the city is captured",
+			"Cannot be purchased <when at war>",
 		],
 		"requiredTech": "Masonry",
 	},
@@ -610,6 +612,7 @@
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
 			"Destroyed when the city is captured",
+			"Cannot be purchased <when at war>",
 		],
 		"requiredTech": "Masonry",
 	},
@@ -631,6 +634,7 @@
 			"[+1 Production] from [Village] tiles [in this city]",
 			"[+1 Food] from [Fort] tiles [in this city]",
 			"Destroyed when the city is captured",
+			"Cannot be purchased <when at war>",
 		],
 		"requiredTech": "Masonry"
 	},
@@ -2221,8 +2225,8 @@
 			"[1] [Heavy Swordsman]s rebel <upon turn end> <with [20]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [General]s rebel <upon turn end> <with [20]% chance> <starting from the [Classical Age]> <hidden from users>",
 			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [30]% chance> <hidden from users>",
-			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <when above [0] [Roman 3rd century crisis]> <hidden from users>",
-			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <when above [0] [Gallic 3rd century crisis]> <hidden from users>",
+			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <when above [0] [Roman 3rd Century Crisis]> <hidden from users>",
+			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <when above [0] [Gallic 3rd Century Crisis]> <hidden from users>",
 			"Unbuildable","Unsellable",
 			"Destroyed when the city is captured"
 ]
@@ -2590,19 +2594,19 @@
 
 ///Global
 	{
-    		"name": "3rd century crisis",
+    		"name": "3rd Century Crisis",
     		"cost": 0,
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"[+50000]% Culture cost of natural border growth [in this city]",
-			"Provides [1] [Roman 3rd century crisis] <for [The Romans] Civilizations> <when below [1] [Roman 3rd century crisis]>",
-			"Provides [1] [Palmyrence 3rd century crisis] <for [The Arsacids] Civilizations> <when below [1] [Palmyrence 3rd century crisis]>",
-			"Provides [1] [Gallic 3rd century crisis] <for [The Arverni] Civilizations> <when below [1] [Gallic 3rd century crisis]>",
-			"Provides [1] [Germanic 3rd century crisis] <for [The Belgae] Civilizations> <when below [1] [Germanic 3rd century crisis]>",
-			"Provides [1] [Goth 3rd century crisis] <for [The Bastarnae] Civilizations> <when below [1] [Goth 3rd century crisis]>",
-			"Provides [1] [Hun 3rd century crisis] <for [The Scythians] Civilizations> <when below [1] [Hun 3rd century crisis]>",
-			"Provides [1] [Armenia 3rd century crisis] <for [The Armenians] Civilizations> <when below [1] [Armenia 3rd century crisis]>",
+			"Provides [1] [Roman 3rd Century Crisis] <for [The Romans] Civilizations> <when below [1] [Roman 3rd Century Crisis]>",
+			"Provides [1] [Palmyrence 3rd Century Crisis] <for [The Arsacids] Civilizations> <when below [1] [Palmyrence 3rd Century Crisis]>",
+			"Provides [1] [Gallic 3rd Century Crisis] <for [The Arverni] Civilizations> <when below [1] [Gallic 3rd Century Crisis]>",
+			"Provides [1] [Germanic 3rd Century Crisis] <for [The Belgae] Civilizations> <when below [1] [Germanic 3rd Century Crisis]>",
+			"Provides [1] [Goth 3rd Century Crisis] <for [The Bastarnae] Civilizations> <when below [1] [Goth 3rd Century Crisis]>",
+			"Provides [1] [Hun 3rd Century Crisis] <for [The Scythians] Civilizations> <when below [1] [Hun 3rd Century Crisis]>",
+			"Provides [1] [Armenia 3rd Century Crisis] <for [The Armenians] Civilizations> <when below [1] [Armenia 3rd Century Crisis]>",
 			"[-50]% Great Person generation [in this city]", 
 			"Never destroyed when the city is captured",
 			"Unsellable",
@@ -2611,6 +2615,7 @@
   	},
 
 					///Roman
+
   	{
     		"name": "Empire Divide",
     		"cost": 0,
@@ -2880,13 +2885,38 @@
 },
 			
 			//// Provinces
-			///  Gallia, Hispania, Achaea, Italia, Aegyptus, Palaestina, Armenia, Germania, Scythia, Dacia, Africa, Anatolia
+			///  Gallia, Hispania, Achaea, Italia, Aegyptus, Palaestina, Armenia, Germania, Scythia, Dacia, Africa, Anatolia, Lusitania, Dalmatia, Thracia, Macedonia
 
-{
+	{
+    		"name": "Sicilia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchant": 1},
+    		"uniques": [
+			"[+1 Food] [in all coastal cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Pannonia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"Provides [8] [Manpower]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+		]
+  	},
+	{
     		"name": "Anatolia",
     		"cost": 0,
     		"maintenance": 0,
-		"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Provides [1] [Timber]",
 			"Provides [1] [Iron]",
@@ -2894,9 +2924,9 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
-]
+		]
   	},
-{
+	{
     		"name": "Gallia",
     		"cost": 0,
     		"maintenance": 0,
@@ -2906,9 +2936,9 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
-]
+		]
   	},
-{
+	{
     		"name": "Hispania",
     		"cost": 0,
     		"maintenance": 0,
@@ -2936,7 +2966,7 @@
     		"name": "Italia",
     		"cost": 0,
     		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Engineer": 1},
     		"uniques": [
 			"Provides [2] [Iron]",
 			"[+5 Happiness] [in capital] <when at war>"
@@ -2980,7 +3010,6 @@
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
-			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
 ]
 },
 {
@@ -2990,30 +3019,6 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Provides [1] [Amber]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-},
-{
-    		"name": "Scythia",
-    		"cost": 0,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Provides [4] [Horses]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-},
-{
-    		"name": "Dacia",
-    		"cost": 0,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"[+1 Gold] [in all cities]"
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
@@ -3075,11 +3080,34 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-			"[+1 Food] [in all cities]"
+			"[+1 Food] [in all cities]",
+			"[+3 Happiness] [in capital]",
 			"Unsellable",
-			"[+10]% Production when constructing [Palmyrene Empire] buildings [in all cities] <hidden from users>",
-			"[+10]% Production when constructing [Gallic Empire] buildings [in all cities] <hidden from users>",
-			"[+10]% Production when constructing [Roman Centralize Power] buildings [in all cities] <hidden from users>",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+},
+{
+    		"name": "Scythia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"Provides [4] [Horses]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+},
+{
+    		"name": "Dacia",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Engineer": 1},
+    		"uniques": [
+			"[+1 Gold] [in all cities]",
+			"[+3 Gold] [in this city]",
+			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
 ]
