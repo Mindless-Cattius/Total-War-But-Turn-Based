@@ -26,7 +26,7 @@
 	"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
 	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
 //Units
-
+	"[+2] XP gained from combat <for [Military] units> <when adjacent to a [Inspiring] unit>",
  	"[+70]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
 
 //Cities

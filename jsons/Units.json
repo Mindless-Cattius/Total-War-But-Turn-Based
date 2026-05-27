@@ -1229,6 +1229,7 @@
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <with [Enable Legion]> <hidden from users>",
+            "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -1253,6 +1254,7 @@
       		"Consumes [3] [Manpower]",
        		"Consumes [1] [Iron]",
       		"Unbuildable <after discovering [Infantry Training]>",
+            "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -1302,7 +1304,6 @@
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield III",
-      "Formation I",
     ],
     "attackSound": "metalhit"
   },
@@ -1324,7 +1325,6 @@
     ],
     "promotions": [
       "Infantry Shield III",
-      "Drill I",
     ],
     "attackSound": "march"
   },
@@ -2262,7 +2262,7 @@
     "replaces": "King",
     "movement": 3,
     "strength": 15,
-    "cost": 130,
+    "cost": 120,
     "uniques": [
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
       		"Only available <before adopting [Empire]> <hidden from users>",
@@ -2277,8 +2277,8 @@
     "promotions": [
       	"[Cavalry] ability",
       	"Cavalry Shield II",
-	"Art of War",
 	"Commander",
+	"Amphibious I",
     ],
     "attackSound": "horse"
   },
@@ -2995,6 +2995,7 @@
 	"Can build [Remove Forest] improvements on tiles",
       	"Consumes [5] [Manpower]",
       	"Consumes [1] [Iron]",
+            "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -3041,6 +3042,7 @@
 	"Can build [Remove Forest] improvements on tiles",
       	"Consumes [5] [Manpower]",
       	"Consumes [1] [Iron]",
+            "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -3095,20 +3097,22 @@
   },
   {
     "name": "Desert Legion",
-    "unitType": "Sword",
+    "unitType": "Spear",
     "movement": 2,
-    "strength": 20,
+    "strength": 19,
     "cost": 170,
     "uniques": [
-      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
+      "Comment [-Heavy sword Spear, can build road, excellent in sieges and attacking]",
       "Only available <in cities with a [Barracks]>",
       	"Only available <with [Enable Desert Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
 	"Can build [Remove Forest] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
+            "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
     "promotions": [
+      "[Spearman] ability",
       "Infantry Shield III",
       "Assault I",
       "Desert Warrior"
@@ -3130,6 +3134,7 @@
 	"[+2] XP gained from combat",
       	"Consumes [5] [Manpower]",
       	"Consumes [1] [Iron]",
+            "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",

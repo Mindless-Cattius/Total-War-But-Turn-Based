@@ -2356,8 +2356,8 @@
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     	"[+1] Movement <for [Embarked] units> <during a Golden Age>",
                     	"[+1] Sight <for [Embarked] units> <during a Golden Age>",
-                    	"[+15]% Strength <for [All] units> <during a Golden Age>",
-                    	"[+20]% Strength <when defending> <for [Embarked] units> <during a Golden Age>",
+                    	"[+10]% Strength <for [All] units> <during a Golden Age>",
+                    	"[+10]% Strength <when defending> <for [Embarked] units> <during a Golden Age>",
                     	"[+10]% Strength <for [Galley] units>",
                     	"[+10]% Strength <for [{Military} {Water}] units>",
                     	"[+15]% Strength <when attacking> <for [Scout] units> <when adjacent to a [Scout] unit>",
@@ -3643,8 +3643,9 @@
             "[+10]% Unhappiness from [Population] [in all cities]",
             "[+2 Gold] [in all cities] <with a garrison>",
             "[+1 Happiness] [in all cities]",
-			"Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
-			"Unavailable <before the [Hellenistic Age]>",
+            "[+10]% Strength <for [All] units> <during a Golden Age>",
+	    "Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
+	    "Unavailable <before the [Hellenistic Age]>",
         ],
         "policies": [
             {
@@ -3916,10 +3917,11 @@
             "[+2 Happiness] from every [National Wonder]",
             "[+2 Happiness] from every [Natural Wonder]",
             "[+1 Happiness] [in capital]",
-                    "[Scythian King] units gain the [Art of War] promotion",
-			"Provides [1] [Ruler]",
-			"Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
-			"Unavailable <before the [Hellenistic Age]>",
+            "[+10]% Strength <for [All] units> <during a Golden Age>",
+            "[Scythian King] units gain the [Art of War] promotion",
+            "Provides [1] [Ruler]",
+	    "Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
+	    "Unavailable <before the [Hellenistic Age]>",
         ],
         "policies": [
             {
@@ -4256,6 +4258,7 @@
             "[+1 Happiness] [in all cities]",
             "[+1 Happiness, +1 Faith] [in capital]",
             "[+50]% Culture cost of adopting new Policies",
+            "[+20]% Strength <for [All] units> <when defending> <when fighting in [Friendly Land] tiles> <during a Golden Age>",
 			"Unavailable <before the [Hellenistic Age]>",
         ],
         "policies": [
