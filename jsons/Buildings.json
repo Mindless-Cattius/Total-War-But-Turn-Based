@@ -33,6 +33,7 @@
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 3,
+  "happiness": 2,
 		"greatPersonPoints": {"Great Courtesan":2},
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
@@ -57,6 +58,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"science": 1,
+  "happiness": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 			"Only available <in cities with a [Palace]>",
@@ -145,6 +147,7 @@
 		"maintenance": 0,
 		"gold": 1,
   "production": 1,
+  "happiness": 1,
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [1] per owned city",
@@ -161,6 +164,7 @@
 		"maintenance": 0,
 		"gold": 2,
   "food": 1,
+  "happiness": 2,
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [2] per owned city"
@@ -176,6 +180,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 4,
+  "happiness": 3,
 		"production": 1,
 		"cityHealth": 20,
 		"greatPersonPoints": {"Great Artist":1},
@@ -195,6 +200,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
+  "happiness": 4,
 		"production": 1,
 		"cityHealth": 60,
 		"greatPersonPoints": {"Great Artist":1},
@@ -213,13 +219,14 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 7,
+  "happiness": 5,
 		"production": 1,
 		"cityHealth": 100,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
 			"Consumes [2] [Sanitation]",
-			"Cost increases by [3] per owned city"
+			"Cost increases by [3] per owned city",
 			"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
 		],
@@ -232,10 +239,12 @@
 		"requiredTech": "Mythology",
 		"cost": 20,
 		"maintenance": 1,
+  "happiness": 1,
 		"culture": 1,
 		"uniques": [
 			"Only available <in cities without a [Temple]>",
 			"Provides [1] [Sanitation]",
+			"Cost increases by [2] per owned city"
 			"[20]% weight to this choice for AI decisions", 
 		],
 	},
@@ -246,7 +255,7 @@
 		"cost": 30,
 		"faith": 1,
 		"culture": 1,
- 		"happiness": 1,
+ 		"happiness": 2,
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
 			"Remove [Shrine] [in this city] <hidden from users>",
@@ -257,7 +266,7 @@
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"[+5]% Production when constructing [Cure Plague] buildings [in this city]"
 			"[+2]% Production when constructing [Cure Dangerous Plague] buildings [in this city]"
-			"Cost increases by [2] per owned city",
+			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Mysticism"
 	},
@@ -266,11 +275,11 @@
 		"hurryCostModifier": 25,
 		"cost": 30,
 		"maintenance": 1,
-		"happiness": 2,
+		"happiness": 3,
 		"faith": 1,
 		"uniques": [
 			"Only available <in cities with a [Temple]>",
-			"Cost increases by [2] per owned city",
+			"Cost increases by [4] per owned city",
 			"Provides [1] [Decadence]",
 			"Sell [Secret Cult] buildings [in this city] <if [Temple] is not constructed>",
 ],
@@ -283,10 +292,10 @@
 		"hurryCostModifier": 25,
  		"cost": 150,
 		"maintenance": 1,
-		"happiness": 2,
+		"happiness": 3,
 		"culture": 2,
 		"uniques": [
-			"Cost increases by [2] per owned city",
+			"Cost increases by [3] per owned city",
 			"Only available <in cities with a [Urban Fabric III]>"
 			"Provides [1] [Decadence]",
 			"[+1 Culture] from [Marble] tiles [in this city]",
@@ -324,7 +333,7 @@
 		"isNationalWonder": true,
 		"culture": 3,
 		"faith": 5,
-		"happiness": 2,
+		"happiness": 5,
 		"cost": 800,
 		"specialistSlots": {"Priest": 3},
 		"uniques": [
@@ -389,6 +398,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 10,
 		"cityHealth": 50,
+		"happiness": 3,
 		"Cost": 300,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Barracks]>",
@@ -416,6 +426,7 @@
 		"hurryCostModifier": 25,
 		"cost": 50,
 		"maintenance": 2,
+		"happiness": 1,
 		"cityHealth": 20,
 		"uniques": [  
 			"Only available <in cities with a [Urban Fabric I]>",
@@ -432,7 +443,7 @@
 		"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 25,
  		"cost": 300,
-		"happiness": 1,
+		"happiness": 3,
 		"maintenance": 10,
 		"cityHealth": 50,
 		"uniques": [
@@ -464,6 +475,7 @@
  		"cost": 50,
 		"cityStrength": 2,
 		"cityHealth": 15,
+		"happiness": 1,
 		"uniques": [   
 			"Only available <in cities with a [Urban Fabric I]>",
 			"Comment [-Training: Archer, Slinger]",
@@ -476,6 +488,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"cityStrength": 2,
+		"happiness": 3,
  		"cost": 300,
 		"cityHealth": 50,
 		"uniques": [
@@ -505,6 +518,7 @@
 		"hurryCostModifier": 50,
 		"Cost":60,
 		"maintenance": 3,
+		"happiness": 1,
 		"cityStrength": 5,
 		"cityHealth": 10,
 		"uniques": [ 
@@ -519,6 +533,7 @@
 		"hurryCostModifier": 50,
 		"Cost":300,
 		"maintenance": 3,
+		"happiness": 3,
 		"cityStrength": 3,
 		"cityHealth": 10,
 		"uniques": [
@@ -538,6 +553,7 @@
 		"hurryCostModifier": 20,
 		"Cost":20,
 		"maintenance": 1,
+		"happiness": 1,
 		"cityHealth": 40,
 		"uniques": [
 		"Destroyed when the city is captured",
@@ -548,8 +564,9 @@
 		"name": "Garrison Post",
 		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 20,
-		"Cost":60,
+		"Cost":80,
 		"maintenance": 1,
+		"happiness": 2,
 		"cityHealth": 80,
 		"cityStrength": 1,
 		"uniques": [
@@ -564,8 +581,8 @@
 		"requiredBuilding": "Walls",
 		"maintenance": 3,
 		"cityStrength": 3,
-		"cityHealth": 150,
-		"happiness": 1,
+		"cityHealth": 200,
+		"happiness": 3,
 		"hurryCostModifier": 25,
 		"Cost": 300,
 		"uniques": [
@@ -581,7 +598,7 @@
 		"name": "Walls",
 		"requiredBuilding": "Palisade",
 		"hurryCostModifier": 35,
-		"happiness": 1,
+		"happiness": 2,
 		"cityStrength": 3,
 		"cityHealth": 150,
 		"cost": 120,
@@ -602,7 +619,7 @@
 		"hurryCostModifier": 35,
  		"cost": 100,
 		"maintenance": 0,
-		"happiness": 1,
+		"happiness": 3,
 		"production": 1,
 		"cityStrength": 5,
 		"cityHealth": 150,
@@ -621,8 +638,8 @@
 		"requiredBuilding": "Walls",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"happiness": 1,
- 		"cost": 100,
+		"happiness": 2,
+ 		"cost": 120,
 		"gold": 1,
 		"cityHealth": 50,
 		"cityStrength": 3,
@@ -645,7 +662,7 @@
 		"hurryCostModifier": 25,
  		"cost": 100,
 		"maintenance": 1,
-		"happiness": 4,
+		"happiness": 3,
 		"culture": 2,
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [ 
@@ -683,8 +700,8 @@
 		"cost": 100,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"culture": 3,
-		"happiness": 2,
+		"culture": 2,
+		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Entertainment",
 		"uniques": [
@@ -727,7 +744,7 @@
  		"cost": 50,
 		"maintenance": 1,
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>",
