@@ -1441,8 +1441,8 @@
 	},
 	{
 		"name": "Herbalist",
-		"cost": 120,
-		"requiredNearbyImprovedResources": ["Herbs","Hemp","Flax","Truffles","Citrus"],
+		"cost": 100,
+		"requiredNearbyImprovedResources": ["Herbs","Hemp","Honey","Citrus"],
 		"maintenance": 2,
 		"happiness": 2,
 		"science": 1,
@@ -2248,8 +2248,8 @@
    "uniques": [
 			"Gain a free [Plague] [in this city] <with [2]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when between [0] and [25] [Sanitation]> <hidden from users>",
 			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when above [25] [Sanitation]> <hidden from users>",
-			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [0] and [25] [Sanitation]>",
-			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [25] and [50] [Sanitation]>",
+			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [0] and [30] [Sanitation]>",
+			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [31] and [50] [Sanitation]>",
 			"Unbuildable","Unsellable",
 ]
  },
@@ -2298,7 +2298,8 @@
 			"Remove [Plague] [in this city]",
 			"Remove [Cure Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
-			"Cost increases by [2] per owned city",
+			"Cost increases by [1] per owned city <before the [Hellenistic Age]>",
+			"Cost increases by [2] per owned city <starting from the [Hellenistic Age]>",
 			"[+800]% weight to this choice for AI decisions",
 ]
 	},
@@ -2312,7 +2313,8 @@
 			"Remove [Dangerous Plague] [in this city]",
 			"Remove [Cure Dangerous Plague] [in this city] <upon turn end>",
         		"Cannot be purchased",
-			"Cost increases by [2] per owned city",
+			"Cost increases by [2] per owned city <before the [Hellenistic Age]>",
+			"Cost increases by [3] per owned city <starting from the [Hellenistic Age]>",
 			"[+800]% weight to this choice for AI decisions",
 ]
 	},				// National Wonder
