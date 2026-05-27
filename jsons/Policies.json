@@ -594,7 +594,8 @@
       		"uniques": [
 			"[-20]% construction time for [all] improvements"
                     	"[-10]% unhappiness from the number of cities",
-        		"[+1] Movement <for [all] units> <within [0] tiles of a [Road]>",
+        		"[+1] Movement <for [Sword] units> <within [1] tiles of a [Road]>",
+        		"[+1] Movement <for [Spear] units> <within [1] tiles of a [Road]>",
         		"[+1 Gold, +1 Food] from [Trading post] tiles [in all cities]",
         		"[+5 Happiness] [in capital]"
       ],
@@ -1193,7 +1194,7 @@
                 "name": "Bronze Shield Workshops",
                 "uniques": [
                     	"[Spear] units gain the [Improved Armor] promotion",
-        		"[+10]% Strength <for [Spearman]>",
+        		"[+10]% Strength <for [Spearman] units>",
         		"[+10]% Strength <for [Hoplite] units> <when attacking> <for [The Spartans] Civilizations>",
         		"[+10]% Strength <for [Hoplite] units> <when defending> <for [The Athenians] Civilizations>",
         		"[+20]% Strength <when defending> <for [Skirmisher] units> <for [The Cyreneans] Civilizations>"
