@@ -1,0 +1,226 @@
+[
+
+			///3RD CENTURY
+			//Roman
+
+{
+    "name": "The Fall of Pannonia",
+    "text": "The limes of Pannonia have fallen. Raiding bands pour across the Danube while frontier veterans demand immediate reinforcement of the Balkan defenses.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Raise new Danubian legions",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Pannonia] is not constructed>",
+                "Consumes [1] [Pannonia] <in [Capital] cities>",
+ 		"[+70]% Production when constructing [Sword] units [in all cities] <for [15] turns>",
+                "[+10]% Strength for [Shield Infantry III] units <when defending> <for [15] turns>",
+        	"[+30]% maintenance costs <for [Sword] units>",
+                "[-5 Gold] [in all cities] <for [15] turns>"
+            ]
+        },
+        {
+            "text": "Strengthen the cavalry",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Pannonia] is not constructed>",
+                "Consumes [1] [Pannonia]",
+ 		"[+70]% Production when constructing [Mounted] units [in all cities] <for [15] turns>",
+                "[+1] Movement for [Mounted] units <for [10] turns>",
+                "[+25]% Strength for [Mounted] units <when attacking> <for [15] turns>",
+                "[-6 Gold] [in all cities] <for [15] turns>",
+        	"[+50]% maintenance costs <for [Mounted] units>",
+            ]
+        },
+        {
+            "text": "Abandon the frontier settlements",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Pannonia] is not constructed>",
+                "Consumes [1] [Pannonia]",
+                "Gain [5000] [Gold]",
+                "[-5 Happiness, -1 Food] [in all cities] <for [10] turns>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "The Loss of Dalmatia",
+    "text": "Dalmatia has slipped from imperial control. The Adriatic coast grows lawless while hardened Illyrian warriors rally beyond Roman authority.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Recruit cavalry",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Dalmatia] is not constructed>",
+                "Consumes [1] [Dalmatia]",
+                "[+70]% Production when constructing [Mounted] units [in all cities] <for [15] turns>",
+                "Gain [1500] [Gold] <when below [4] [Manpower]> <when below [2] [Horses]>",
+                "Gain [1000] [Gold]",
+		"[1] free [Cavalry] units appear <when above [4] [Manpower]> <when above [2] [Horses]>",
+                "[Mounted] units gain the [Shock I] promotion <for [10] turns>",
+                "[Mounted] units gain the [Charge I] promotion <for [10] turns>",
+                "[-1 Happiness, -2 Gold] [in all cities] <for [10] turns>",
+            ]
+        },
+        {
+            "text": "Fortify the Adriatic coast",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Dalmatia] is not constructed>",
+                "Consumes [1] [Dalmatia]",
+		"[+50]% Production when constructing [Walls] buildings [in all cities] <for [15] turns>",
+		"[+50]% Production when constructing [Wall Towers] buildings [in all cities] <for [15] turns>",
+                "[+25]% Strength for cities <for [20] turns>",
+                "[-3 Gold] [in all cities] <for [15] turns>",
+            ]
+        },
+        {
+            "text": "Withdraw the remaining garrisons",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Dalmatia] is not constructed>",
+                "Consumes [1] [Dalmatia]",
+                "Gain [10000] [Gold]",
+                "[-3 Happiness, -1 Food] [in all cities] <for [15] turns>",
+            ]
+        }
+    ]
+},
+
+{
+    "name": "The Fall of Thracia",
+    "text": "Thracia has fallen. Gothic warbands flood across the Danube while panic spreads through the Balkan provinces.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Raise frontier legions",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Thracia] is not constructed>",
+                "Consumes [1] [Thracia]",
+                "[+60]% Production when constructing [Sword] units [in all cities] <for [15] turns>",
+                "[Shield Infantry III] units gain the [Formation I] promotion <for [15 turns>",
+                "[Hellenic Legion] units gain the [Formation II] promotion <for [15] turns>",
+                "[+10]% Strength for cities <for [10] turns>",
+                "[-1 Gold] [in all cities] <for [15] turns>"
+                "[-2 Gold, -1 Happiness] [in all coastal cities] <for [15] turns>",
+                "[+10]% Strength for [Sword] units <for [15] turns>",
+            ]
+        },
+        {
+            "text": "Centralize imperial authority",
+            "uniques": [
+		"Only available <when above [0] [Roman 3rd Century Crisis]>",
+ 		"Only available <if [Thracia] is not constructed>",
+		"Consumes [1] [Thracia]",
+		"[+50]% Production when constructing [Roman Centralize Power] buildings [in capital] <for [15] turns>",
+		"[+3 Happiness, -2 Gold] [in all cities] <for [15] turns>"
+            ]
+        },
+        {
+            "text": "Fortify the Balkan passes",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Thracia] is not constructed>",
+                "Consumes [1] [Thracia]",
+                "[+50]% Production when constructing [Walls] buildings [in all cities] <for [15] turns>",
+                "[+50]% Production when constructing [Wall Towers] buildings [in all cities] <for [15] turns>",
+                "[+20]% Strength for cities <for [15] turns>",
+                "Gain [2000] [Gold]",
+                "[-3 Happiness] [in all cities] <for [10] turns>"
+                "[-2 Production] [in capital] <for [10] turns>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "The Loss of Macedonia",
+    "text": "Macedonia has fallen into chaos. Trade through the Balkans falters while Greek cities demand greater protection from the Empire.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Fortify the Greek cities",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Macedonia] is not constructed>",
+                "Consumes [1] [Macedonia]",
+                "[+50]% Production when constructing [Walls] buildings [in all cities] <for [15] turns>",
+                "[+25]% Strength for cities <for [20] turns>",
+                "[-2 Gold] [in all cities] <for [15] turns>",
+            ]
+        },
+        {
+            "text": "Mobilize the Balkan road network",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Macedonia] is not constructed>",
+                "Consumes [1] [Macedonia]",
+                "[+1] Movement <for [all] units> <when fighting in [Friendly Land] tiles> <for [10] turns>",
+		"[+5] HP when healing <for [all] units> <when fighting in [Friendly Land] tiles> <for [15] turns>",
+                "[-1 Happiness, -1 Gold] [in all cities] <for [10] turns>",
+                "[+10]% Strength for [Spear] units <for [15] turns>",
+            ]
+        },
+        {
+            "text": "Centralize authority in the East",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Macedonia] is not constructed>",
+                "Consumes [1] [Macedonia]",
+                "[+50]% Production when constructing [Roman Centralize Power] buildings [in capital] <for [15] turns>",
+                "[+3 Happiness, -2 Gold] [in all cities] <for [15] turns>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "The Loss of Achaea",
+    "text": "Achaea slips from imperial control. The great cities of Greece decline as trade weakens and local elites lose faith in Rome's protection.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Protect the Hellenic cities",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Achaea] is not constructed>",
+                "Consumes [1] [Achaea] <in [Capital] cities>",
+                "[+25]% Strength for cities <for [20] turns>",
+                "[+50]% Production when constructing [Walls] buildings [in all cities] <for [15] turns>",
+                "[-2 Gold] [in all cities] <for [15] turns>"
+            ]
+        },
+        {
+            "text": "Redirect eastern commerce",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Achaea] is not constructed>",
+                "Consumes [1] [Achaea]",
+                "Gain [10000] [Gold]",
+                "[+4 Gold] [in all cities] <for [15] turns>",
+                "[-1 Happiness] [in all cities] <for [10] turns>",
+                "[-20]% Production when constructing [Military] units [in all cities] <for [15] turns>",
+            ]
+        },
+        {
+            "text": "Empower local governors",
+            "uniques": [
+                "Only available <when above [0] [Roman 3rd Century Crisis]>",
+                "Only available <if [Achaea] is not constructed>",
+                "Consumes [1] [Achaea]",
+                "[+3 Happiness] [in all cities] <for [15] turns>",
+                "[+25]% Production when constructing [all] buildings [in all cities] <for [15] turns>",
+                "[+10]% Production when constructing [Military] units [in all cities] <for [15] turns>",
+                "[-5 Gold, -3 Culture] [in all cities] <for [15] turns>",
+                "[+10]% Strength for [Commander] units <for [15] turns>",
+            ]
+        }
+    ]
+},
+
+]

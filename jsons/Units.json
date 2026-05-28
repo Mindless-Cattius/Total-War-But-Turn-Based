@@ -165,7 +165,7 @@
   {
     "name": "Worker",
     "unitType": "Civilian",
-    "movement": 3,
+    "movement": 2,
     "uniques": [
 	"Comment ['Reliable, replaceable, and remarkably flammable. No empire rose without them — mostly because someone had to hold the shovel. Can be upgrade into military unit']",
       	"Limited to [3] per Civilization <during the [Archaic Age]>",
@@ -176,6 +176,7 @@
 	"[+100]% construction time for [Road] improvements <in [Snow] tiles>",
 	"[+100]% construction time for [Road] improvements <in [Tundra] tiles>",
 	"[+1] Movement <after discovering [Mass Production]>",
+	"[+1] Movement <in [Friendly Land] tiles>",
 	"[+200]% production cost <during the [Imperial Age]>",
 	"Can upgrade to [Skirmisher] <after discovering [Imperial Military Doctrine]> <hidden from users>",
 	"Can upgrade to [Spearman] <after adopting [Citizen Militias]> <hidden from users>",
@@ -205,7 +206,7 @@
   {
     "name": "Work Boats",
     "unitType": "Civilian Water",
-    "movement": 5,
+    "movement": 3,
     "cost": 30,
     "requiredTech": "Fishing",
     "uniques": [
@@ -867,7 +868,6 @@
       "[Spearman] ability",
       "Infantry Shield II",
       "Spartan Aura",
-      "Drill I"
     ],
     "attackSound": "metalhit"
   },
@@ -891,7 +891,6 @@
       "[Spearman] ability",
       "Infantry Shield II",
       "Amphibious I",
-      "Drill I"
     ],
     "attackSound": "metalhit"
   },
@@ -902,7 +901,7 @@
     "uniqueTo": "The Dardanians",
     "movement": 2,
     "strength": 15,
-    "cost": 80,
+    "cost": 90,
     "requiredTech": "Citizen Levy",
     "uniques": [
       	"Only available <in cities with a [Barracks]>",
@@ -914,7 +913,7 @@
       "[Spearman] ability",
       "Infantry Shield II",
       "Drill I",
-      "Drill II",
+      "Formation I",
     ],
     "attackSound": "metalhit"
   },
@@ -936,7 +935,6 @@
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield II",
-      "Drill I",
       "[Mountaineer]",
     ],
     "attackSound": "metalhit"
