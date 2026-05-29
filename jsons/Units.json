@@ -2203,7 +2203,7 @@
 
   {
     "name": "General",
-    "unitType": "Ruler",
+    "unitType": "Generals",
     "movement": 3,
     "strength": 14,
     "cost": 300,
@@ -2363,7 +2363,7 @@
     "name": "Scythian Nobles",
     "uniqueTo": "The Scythians",
     "replaces": "General",
-    "unitType": "Ruler",
+    "unitType": "Generals",
     "movement": 3,
     "strength": 11,
   "rangedStrength": 11,
@@ -2919,6 +2919,7 @@
       	"Consumes [1] [Veteran]",
       	"Consumes [1] [Iron]",
       	"Consumes [1] [Praetorian Greed] <if [Praetorian Greed] is constructed> <hidden from users>",
+	"Unavailable <if [Praetorian Purge] is constructed> <hidden from users>",
     ],
     "promotions": [
       	"Infantry Shield III",

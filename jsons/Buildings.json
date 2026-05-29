@@ -2657,7 +2657,7 @@
     		"name": "Age Of Many Emperors",
     		"cost": 0,
     		"maintenance": 0,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Artist": 1},
     		"uniques": [
           		"[-10]% Strength <for [Military] units> <vs cities>",
       			"[+50]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
@@ -2675,14 +2675,23 @@
   	},
 	{
     		"name": "Roman Centralize Power",
-   		"cost": 2000,
+   		"cost": 300,
     		"uniques": [
-         		"Comment [Restore each of these provinces each give -10% production time: Hispania, Gallic, Anatolia, Aegyptus, Palaestine, Italia, Achaea]",
         		"Cannot be purchased",
         		"Remove [Age Of Many Emperors] [in all cities]",
-      			"Unbuildable <if [Age Of Many Emperors] is not constructed>",
+			"Unbuildable <if [Age Of Many Emperors] is not constructed>",
+			"Unbuildable <if [Hispania] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Italia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Sicilia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Dalmatia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Achaea] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Macedonia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Thracia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Anatolia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Aegyptus] is not constructed> <in [in your cities] cities>",
          		"Only available <in cities with a [Italia]>",
 			"Destroyed when the city is captured",
+			"Unsellable",
     ]
 },
 	{
@@ -2716,7 +2725,7 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-      			"Comment [Because nothing stabilizes an empire like an elite bodyguard selling the throne to the highest bidder. The Praetorians spent the 3rd century auctioning emperors, murdering the ones who refused payment, and generally turning Rome’s political system into a marketplace of corpses. And disbanding them? Rome tried that too—removing entitled kingmakers tends to upset them. Expect the people to panic and your armies to sulk. -50 Happiness]",
+      			"Comment [Because nothing stabilizes an empire like an elite bodyguard selling the throne to the highest bidder. The Praetorians spent the 3rd century auctioning emperors, murdering the ones who refused payment, and generally turning Rome’s political system into a marketplace of corpses. And disbanding them? Rome tried that too—removing entitled kingmakers tends to upset them. Expect the people to panic and your armies to sulk. -50 Happiness. This problem can only be solve when in time of peace.']",
       			"[+300]% maintenance costs <for [Praetoria] units>",
       			"[+10]% Strength <when defending> <for [Praetoria] units>",
       			"[-20]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
@@ -2735,7 +2744,7 @@
     		"uniques": [
         		"Comment [After auctioning off the empire, the Praetorians were finally dealt with.]",
         		"Remove [Praetorian Greed] [in all cities]",
-			"Only available <in cities with a [Praetorian Greed]> <during a Golden Age>",
+			"Only available <in cities with a [Praetorian Greed]> <when not at war>",
       			"Unbuildable <if [Praetorian Greed] is not constructed>",
         		"Cannot be purchased",
 			"Unsellable",
@@ -2750,7 +2759,7 @@
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]",
       			"[-1 Food, -2 Happiness] [in all cities]",
-			"[-1 Food, +1 Gold] <in cities with a [Granary]>",
+			"[-1 Food, +1 Gold, -1 Happiness] <in cities with a [Granary]>",
       			"Unbuildable",
 			"Unsellable",
 			"Destroyed when the city is captured",
@@ -2761,7 +2770,7 @@
 
   	{
     		"name": "Egypt Grain",
-    		"cost": 50,
+    		"cost": 150,
     		"maintenance": 0,
 		"specialistSlots": {"Merchant": 1},
     		"uniques": [
@@ -2781,6 +2790,7 @@
     		"uniques": [
         		"Comment [A desert caravan city crowned itself heir to the East. Trade financed armies, armies financed ambition, and ambition outran logistics.]",
         		"[+5]% [Gold] [in all cities] <in cities with a [Market]>",
+        		"[-2 Happiness] [in all cities] <in cities with a [Barracks]>",
         		"[+10]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
         		"[-3 Happiness, +3 Gold] [in all cities]",
         		"Gain a free [Imperial Overstretch] [in capital] <when at war>",
@@ -2792,11 +2802,18 @@
 	},
 	{
     		"name": "Palmyrene Empire",
-    		"cost": 2000,
+    		"cost": 600,
     		"uniques": [
         		"Cannot be purchased",
-        		"Unsellable"
-        		"Unbuildable <if [Imperial Overstretch] is not constructed>"
+        		"Unsellable",
+			"Unbuildable <if [Imperial Overstretch] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Palaestina] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Aegyptus] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Anatolia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Armenia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Thracia] is not constructed> <in [in your cities] cities>",
+			"Only available <in cities with a [Palaestina]>"
+
 			"Remove [Palmyrene Ascendancy] [in all cities]",
     ]
 	},
@@ -2808,8 +2825,8 @@
     		"uniques": [
         		"Comment [From caravan city to imperial court in a decade. Administration lagged behind conquest. Governors improvised. Taxes vanished somewhere between Syria and Egypt.]",
         		"[-4 Happiness] [in all cities]",
-        		"[+30]% maintenance costs <for [Military] units>",
-      			"[+70]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+        		"[+50]% maintenance costs <for [Military] units>",
+      			"[+100]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
 			"Destroyed when the city is captured",
         		"Unbuildable",
         		"Unsellable"
@@ -2834,12 +2851,15 @@
 	},
 	{
     		"name": "Zenobian Reform",
-    		"cost": 1100,
+    		"cost": 1500,
     		"uniques": [
         		"Comment [Administration caught up to ambition. For a moment, Palmyra looked like a real empire.]",
         		"Cannot be purchased",
         		"Unsellable",
         		"Unbuildable <if [Roman Retribution] is not constructed>",
+			"Unbuildable <if [Palaestina] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Aegyptus] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Anatolia] is not constructed> <in [in your cities] cities>",
 			"Remove [Roman Retribution] [in all cities]",
     ]
 	},
@@ -2852,8 +2872,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [The Rhine legions chose stability over loyalty. Rome was too busy collapsing. Gaul chose its own emperor.]",
-        		"[+5]% Production when constructing [Gallic Legion] units [in all cities]",
-        		"[+5]% Production when constructing [Archery] units [in all cities]",
+        		"[+10]% Production when constructing [Military] units [in all cities]",
         		"[+10]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
         		"[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>",
         		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
@@ -2867,11 +2886,18 @@
 	},
 	{
     		"name": "Gallic Empire",
-    		"cost": 2000,
+    		"cost": 700,
     		"uniques": [
         		"Cannot be purchased",
-        		"Unsellable"
-        		"Unbuildable <if [Gallic Secession] is not constructed>",
+        		"Unsellable",
+			"Unbuildable <if [Gallic Secession] is not constructed>",
+			"Unbuildable <if [Lusitania] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Hispania] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Gallia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Italia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Africa] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Dalmatia] is not constructed> <in [in your cities] cities>",
+
 			"Remove [Gallic Secession] [in all cities]",
     ]
 	},
@@ -2894,13 +2920,12 @@
 	},
 	{
     		"name": "Administrative Consolidation",
-    		"cost": 1250,
+    		"cost": 1500,
     		"uniques": [
         		"Comment [Gaul stopped pretending to be temporary and started governing like a state.]",
         		"Cannot be purchased",
         		"Unsellable"
-        		"Unbuildable <if [Frontier Exhaustion] is not constructed>"
-         		"Unbuildable <if [Italia] is not constructed>",
+        		"Unbuildable <if [Frontier Exhaustion] is not constructed> <if [Gallia] is not constructed> <if [Hispania] is not constructed> <if [Lusitania] is not constructed>"
 			"Remove [Frontier Exhaustion] [in all cities]",
     ]
 },

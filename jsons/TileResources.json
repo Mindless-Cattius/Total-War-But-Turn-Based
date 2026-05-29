@@ -1209,7 +1209,8 @@
     		"name": "Roman 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
-    			"Triggers victory <if [Gallia] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Africa] is constructed> <if [Anatolia] is constructed> <if [Dacia] is constructed>",
+    			"Triggers victory <if [Lusitania] is constructed> <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Sicilia] is constructed> <if [Africa] is constructed> <if [Dalmatia] is constructed> <if [Achaea] is constructed> <if [Macedonia] is constructed> <if [Thracia] is constructed> <if [Dacia] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Roman Centralize Power] is constructed>",
+
 			"Gain a free [Age Of Many Emperors] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
 			"Gain a free [Praetorian Greed] [in capital] <if [Praetorian Purge] is not constructed by anybody>",
 			"Gain a free [Silver Inflation] [in capital] <if [Currency Reform] is not constructed by anybody>",
@@ -1230,7 +1231,7 @@
     		"name": "Palmyrence 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
-    			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Armenia] is constructed> <if [Africa] is constructed>  <if [Anatolia] is constructed>  <if [Hispania] is constructed>",
+    			"Triggers victory <if [Lusitania] is constructed><if [Italia] is constructed> <if [Sicilia] is constructed> <if [Africa] is constructed> <if [Dalmatia] is constructed> <if [Achaea] is constructed> <if [Macedonia] is constructed> <if [Thracia] is constructed> <if [Armenia] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Palmyrene Empire] is constructed>",
 			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Palmyrene Empire] is not constructed by anybody>",
 			"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
         		"Free [Cavalry] appears <upon turn end> <when above [4] [Horses]> <when above [30] [Manpower]> <with [3]% chance>",
@@ -1248,7 +1249,8 @@
     		"name": "Gallic 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
-    			"Triggers victory <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Achaea] is constructed> <if [Italia] is constructed> <if [Aegyptus] is constructed> <if [Africa] is constructed>",
+    			"Triggers victory <if [Lusitania] is constructed> <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Sicilia] is constructed> <if [Africa] is constructed> <if [Dalmatia] is constructed> <if [Achaea] is constructed> <if [Macedonia] is constructed> <if [Thracia] is constructed> <if [Germania] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Gallic Empire] is constructed>",
+
 			"Gain a free [Gallic Secession] [in capital] <if [Gallic Empire] is not constructed by anybody>",
 			"Gain a free [Frontier Exhaustion] [in capital] <if [Administrative Consolidation] is not constructed by anybody>",
         		"Free [Gallic Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance>",
