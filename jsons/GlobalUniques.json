@@ -35,6 +35,9 @@
 
 	"[-40]% Production when constructing [all] buildings [in all cities] <when at war>",
 	"[+80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
+	"[+10]% Strength for cities <when defending> <in cities with a [Garrison Post]> <with a garrison>",
+	"[+10]% Strength for cities <when attacking> <in cities with a [Garrison Post]> <in cities with a [Walls]> <with a garrison>",
+	"[+20]% Strength for cities <when attacking> <in cities with a [Garrison Post]> <in cities with a [Wall Towers]> <with a garrison>",
 
 
 

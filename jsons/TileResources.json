@@ -1213,7 +1213,7 @@
 			"Gain a free [Age Of Many Emperors] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
 			"Gain a free [Praetorian Greed] [in capital] <if [Praetorian Purge] is not constructed by anybody>",
 			"Gain a free [Silver Inflation] [in capital] <if [Currency Reform] is not constructed by anybody>",
-			"Gain a free [Egypt Grain Crisis] [in capital] <if [Egypt Grain] is not constructed>",
+			"Gain a free [Egypt Grain Crisis] [in capital] <if [Egypt Grain] is not constructed> <if [Italia] is not constructed>",
         		"Free [Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance>",
         		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
         		"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
