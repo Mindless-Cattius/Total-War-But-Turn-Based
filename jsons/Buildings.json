@@ -2234,14 +2234,16 @@
 		"cost": 0,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"Comment ['The situation remains unstable, it may stablize on it own or not, which is politician language for someone is about to die.']",
+			"Comment ['The situation remains unstable, it may stablize on it own or not, which is politician language for someone is about to die. A garrison will help reduces unrest. Armed supervision remains one of civilization’s oldest hobbies.']",
 			"[-1 Food, -1 Gold] from [improved] tiles [in this city]",
 			"[2] [Spearman]s rebel <upon turn end> <with [30]% chance> <starting from the [Classical Age]> <hidden from users>",
 			"[1] [Swordsman]s rebel <upon turn end> <with [30]% chance> <during the [Hellenistic Age]> <hidden from users>",
 			"[2] [Swordsman]s rebel <upon turn end> <with [30]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [Heavy Swordsman]s rebel <upon turn end> <with [20]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [General]s rebel <upon turn end> <with [20]% chance> <starting from the [Classical Age]> <hidden from users>",
+			"[+50]% Production when constructing [Restored Order] buildings [in this city] <with a garrison>",
 			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [30]% chance> <hidden from users>",
+			"Remove [REBEL IMMINENT] [in this city] <with a garrison> <upon turn end> <with [50]% chance> <hidden from users>",
 			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <when above [0] [Roman 3rd Century Crisis]> <hidden from users>",
 			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <when above [0] [Gallic 3rd Century Crisis]> <hidden from users>",
 			"Unbuildable","Unsellable",
@@ -2251,7 +2253,7 @@
 	{
 		"name": "Restored Order"
 		"maintenance": 0,
-		"cost": 30,
+		"cost": 40,
 		"uniques": [
 			"Only available <in cities with a [REBEL IMMINENT]>"
 			"Remove [REBEL IMMINENT] [in this city]",
@@ -2263,10 +2265,11 @@
  {
    "name": "Risk of Plague"
    "uniques": [
+			"Comment ['Low Sanitation invites plague. Civilization is merely a thin wall between man and dying in contaminated water.']",
 			"Gain a free [Plague] [in this city] <with [2]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when between [0] and [25] [Sanitation]> <hidden from users>",
 			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when above [25] [Sanitation]> <hidden from users>",
-			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [0] and [30] [Sanitation]>",
-			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [31] and [50] [Sanitation]>",
+			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [0] and [30] [Sanitation]> <hidden from users>",
+			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [31] and [50] [Sanitation]> <hidden from users>",
 			"Unbuildable","Unsellable",
 ]
  },

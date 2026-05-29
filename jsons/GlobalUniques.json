@@ -111,17 +111,24 @@
 	
 ///Rebel
 
-	"Gain a free [REBEL IMMINENT] [in puppeted cities] <for [Human player] Civilizations>",
 	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [1]% chance> <when between [101] and [200] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [2]% chance> <when between [51] and [100] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [4]% chance> <when between [31] and [50] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [6]% chance> <when between [11] and [30] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [8]% chance> <when between [1] and [10] [Happiness]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when below [0] [Happiness]> <for [Human player] Civilizations>",
+	
+	"Provides [2] [Rebel Risk] <when above [0] [Ruler]>",	
+	"Provides [2] [Rebel Risk] <when above [1] [Ruler]>",
+	"Provides [1] [Rebel Risk] <when below [200] [Happiness]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when below [150] [Happiness]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when below [100] [Happiness]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when below [80] [Happiness]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when below [50] [Happiness]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when below [30] [Happiness]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when below [10] [Happiness]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when below [0] [Happiness]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when below [-10] [Happiness]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when below [-20] [Happiness]> <for [Human player] Civilizations>",
 
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when above [4] [Nobles]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [3] and [4] [Nobles]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when above [4] [Nobles]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when above [3] [Nobles]> <for [Human player] Civilizations>",
+
 // Events
 
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [2] [Manpower]> <upon founding a city>",
@@ -129,7 +136,6 @@
         "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [1]% chance>",
         "Free [General] appears <upon turn end> <when above [2] [Nobles]> <with [2]% chance>",
         "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [4]% chance>",
-        "Free [Foot Guard] appears <upon turn end> <when above [1] [Veteran]> <with [1]% chance>",
         "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <before the [Imperial Age]>",
         "Free [Skirmisher] appears <upon turn end> <when above [20] [Manpower]> <with [3]% chance> <before the [Imperial Age]>",

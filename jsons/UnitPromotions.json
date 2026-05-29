@@ -270,7 +270,7 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+25]% Strength <when defending>","[+15]% Strength <when defending> <vs cities>"],
-		"unitTypes": ["Sword","Spear","Mounted","Elephant","Ruler"],
+		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 10,
         "row": 3
 	},
@@ -405,8 +405,8 @@
 		"name": "Formation III",
 		"prerequisites": ["Formation II"],
 		"uniques": [
-     			"[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
-			"[+10]% Strength <vs [Mounted] units>",
+			"[+20]% Strength <vs [Mounted] units>",
+			"[+20]% Strength <when attacking> <vs [Mounted Archery] units>",
 			"[+10]% Strength <when defending>"]
 		"unitTypes": ["Spear"],
         "column": 16,
@@ -418,7 +418,7 @@
 			"[+10]% Strength <when attacking>",
 			"[+5]% Strength <vs [Melee] units>"
 		],
-		"unitTypes": ["Mounted","Ruler"],
+		"unitTypes": ["Mounted"],
         "column": 17,
         "row": 1
 	},
@@ -621,7 +621,7 @@
 			"[+10]% Strength <when fighting in [pillaged] tiles>",
     			"[+10]% Yield from pillaging tiles",
 ],
-		"unitTypes": ["Sword","Spear","Mounted","Scout"],
+		"unitTypes": ["Sword","Spear","Mounted","Scout","Ruler"],
         "column": 25,
         "row": 3
 	},
@@ -652,7 +652,7 @@
 	},
 	{
 		"name": "Berserker",
-		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water"],
+		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water","Ruler"],
 		"prerequisites": ["Blitz","Veteran"],
 		"uniques": ["No damage penalty for wounded units"]
 	},
@@ -687,7 +687,7 @@
 	},
 	{
 		"name": "Desert Warrior",
-		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege"],
+		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege","Ruler"],
 		"prerequisites": ["Scouting III","Veteran"],
 		"uniques": [
 			"[+10]% Strength <when fighting in [Desert] tiles>",
@@ -763,7 +763,7 @@
 	{
 		"name": "[Mountaineer]",
 		"prerequisites": ["Scouting III","Veteran"],
-		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege"],
+		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege","Ruler"],
 		"uniques": [
 			"Invisible to non-adjacent units <in [Snow] tiles>",
 			"[+20]% Strength <when fighting in [Snow] tiles>",

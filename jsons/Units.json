@@ -2203,7 +2203,7 @@
 
   {
     "name": "General",
-    "unitType": "Mounted",
+    "unitType": "Ruler",
     "movement": 3,
     "strength": 14,
     "cost": 300,
