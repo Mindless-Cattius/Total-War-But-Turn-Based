@@ -20,7 +20,7 @@ BuildingIcons/3rd Century Crisis
   index: -1
 BuildingIcons/A Noble's Death
   rotate: false
-  xy: 976, 334
+  xy: 976, 338
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -167,7 +167,7 @@ BuildingIcons/Brick Maker
   index: -1
 BuildingIcons/Bronze Exports
   rotate: false
-  xy: 968, 276
+  xy: 968, 280
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -209,7 +209,7 @@ BuildingIcons/Cavalry Barracks
   index: -1
 BuildingIcons/Centralize Power
   rotate: false
-  xy: 1034, 334
+  xy: 1034, 338
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -335,7 +335,7 @@ BuildingIcons/Dalmatia
   index: -1
 BuildingIcons/Dangerous Plague
   rotate: false
-  xy: 1026, 276
+  xy: 1026, 280
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -377,7 +377,7 @@ BuildingIcons/Food Imports
   index: -1
 BuildingIcons/Egypt Grain Crisis
   rotate: false
-  xy: 998, 218
+  xy: 998, 222
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -405,14 +405,14 @@ BuildingIcons/Embassy
   index: -1
 BuildingIcons/Empire Divide
   rotate: false
-  xy: 998, 160
+  xy: 998, 164
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Fountain
   rotate: false
-  xy: 940, 89
+  xy: 1084, 442
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -545,7 +545,7 @@ BuildingIcons/Herbalist
   index: -1
 BuildingIcons/High Inflation
   rotate: false
-  xy: 998, 102
+  xy: 1142, 442
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -566,7 +566,7 @@ BuildingIcons/Hispania
   index: -1
 BuildingIcons/Horse Exports
   rotate: false
-  xy: 1056, 218
+  xy: 940, 89
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -755,14 +755,14 @@ BuildingIcons/Pylramence Empire
   index: -1
 BuildingIcons/Palmyrene Empire
   rotate: false
-  xy: 1084, 498
-  size: 76, 74
-  orig: 76, 74
+  xy: 976, 396
+  size: 82, 68
+  orig: 82, 68
   offset: 0, 0
   index: -1
 BuildingIcons/Pannonia
   rotate: false
-  xy: 976, 392
+  xy: 1084, 500
   size: 80, 72
   orig: 80, 72
   offset: 0, 0
@@ -811,7 +811,7 @@ BuildingIcons/Pirate Haven (Illyrian)
   index: -1
 BuildingIcons/Plague
   rotate: false
-  xy: 1056, 160
+  xy: 998, 106
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -825,21 +825,21 @@ BuildingIcons/Pleasure Chambers
   index: -1
 BuildingIcons/Political Unstable
   rotate: false
-  xy: 1056, 102
+  xy: 1056, 222
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Praetorian Greed
   rotate: false
-  xy: 1084, 440
+  xy: 1056, 164
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Praetorian Purge
   rotate: false
-  xy: 1142, 440
+  xy: 1056, 106
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
