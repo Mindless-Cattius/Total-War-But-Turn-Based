@@ -157,6 +157,7 @@
     "cost": 50,
     "requiredTech": "Archery",
     "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+		"Cannot be purchased",
     ],
     "promotions": [
       "[Slinger] ability",
@@ -183,6 +184,7 @@
 	"Can upgrade to [Spearman] <after adopting [Divide Consription]> <hidden from users>",
 	"Can upgrade to [Spearman] <after adopting [Imperial Garrisons]> <hidden from users>",
 	"Can upgrade to [Swordsman] <after adopting [Total War]> <hidden from users>",
+        "Can be purchased with [Gold] [in all cities] <when at war>",
 	"Unbuildable <when at war>"
       	"Automation is a primary action",
     ],
