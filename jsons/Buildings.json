@@ -2649,6 +2649,7 @@
       			"[+150]% maintenance costs <for [Siege] units> <when fighting in [Enemy Land] tiles>",
 			"Remove [Empire Divide] [in all cities] <when not at war>",
 			"Destroyed when the city is captured",
+			"[+10]% unhappiness from the number of cities",
       			"Unbuildable",
 			"Unsellable",
    ]
@@ -2827,6 +2828,7 @@
         		"[-4 Happiness] [in all cities]",
         		"[+50]% maintenance costs <for [Military] units>",
       			"[+100]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+			"[+10]% unhappiness from the number of cities",
 			"Destroyed when the city is captured",
         		"Unbuildable",
         		"Unsellable"
@@ -2879,6 +2881,7 @@
         		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
 			"[-5 Gold, -2 Happiness] <in cities with a [Market]>",
         		"[-3 Happiness] [in all cities]",
+			"[+10]% unhappiness from the number of cities",
         		"Unbuildable",
         		"Unsellable",
 			"Destroyed when the city is captured",
