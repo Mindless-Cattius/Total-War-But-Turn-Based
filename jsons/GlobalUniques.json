@@ -9,6 +9,7 @@
 	"May not annex cities <when at war>",
 	"May not annex cities <during the [Archaic Age]>",
 	"Gain a free [Risk of Plague] [in all cities] <starting from the [Classical Age]>",
+	"Gain a free [Urban Fabric I] [in all cities] <in cities without a [Urban Fabric I]>",
 	"Provides [1] [Ruler]",
 	"Provides [30] [Manpower] <in [in City-State cities] cities>"
 	"[-1] Range <for [Scout] units>",

@@ -196,7 +196,7 @@
 	"[-30]% growth [in this city] <in cities with between [26] and [30] [Population]>",
 	"[-35]% growth [in this city] <in cities with between [31] and [35] [Population]>",
 	"[-40]% growth [in this city] <in cities with between [36] and [40] [Population]>",
-	"[-50]% growth [in this city] <in cities with above [41] [Population]>",
+	"[-50]% growth [in this city] <in cities above [41] [Population]>",
 
         "[-5]% growth [in all cities] <when below [0] [Happiness]>",
         "[-5]% growth [in all cities] <when below [-10] [Happiness]>",
