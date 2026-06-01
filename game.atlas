@@ -769,7 +769,7 @@ ResourceIcons/Purple Dye
   index: -1
 ResourceIcons/Rebel Risk
   rotate: false
-  xy: 1674, 1331
+  xy: 1400, 1259
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -783,7 +783,7 @@ ResourceIcons/Roman 3rd Century Crisis
   index: -1
 ResourceIcons/Ruler
   rotate: false
-  xy: 1400, 1259
+  xy: 1458, 1259
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -797,7 +797,7 @@ ResourceIcons/Salt
   index: -1
 ResourceIcons/Sanitation
   rotate: false
-  xy: 1516, 1259
+  xy: 1574, 1259
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1096,6 +1096,13 @@ UnitPromotionIcons/Cavalry Shield
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Clubmen
+  rotate: false
+  xy: 320, 1447
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Commander
   rotate: false
   xy: 4, 430
@@ -1133,7 +1140,7 @@ UnitPromotionIcons/Flanking
   index: -1
 UnitPromotionIcons/Foraging
   rotate: false
-  xy: 320, 1447
+  xy: 1949, 1655
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1154,14 +1161,14 @@ UnitPromotionIcons/Frontline
   index: -1
 UnitPromotionIcons/Healing
   rotate: false
-  xy: 1949, 1655
+  xy: 1616, 1331
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Improved Armor
   rotate: false
-  xy: 1616, 1331
+  xy: 1949, 1597
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1203,7 +1210,7 @@ UnitPromotionIcons/Iron Darts
   index: -1
 UnitPromotionIcons/King Slayer
   rotate: false
-  xy: 1949, 1597
+  xy: 1674, 1331
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1301,7 +1308,7 @@ UnitPromotionIcons/Rapid Fire
   index: -1
 UnitPromotionIcons/Ruler
   rotate: false
-  xy: 1458, 1259
+  xy: 1516, 1259
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1350,7 +1357,7 @@ UnitPromotionIcons/Standard Bearer
   index: -1
 UnitPromotionIcons/Successor
   rotate: false
-  xy: 1574, 1259
+  xy: 1632, 1273
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

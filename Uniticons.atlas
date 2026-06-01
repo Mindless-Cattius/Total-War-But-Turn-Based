@@ -69,70 +69,70 @@ UnitIcons/Balearic Slinger
   index: -1
 UnitIcons/Barbarian Archer
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Cavalry
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Heavy Spearman
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Heavy Swordsman
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Horse Archer
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Horseman
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Pike Phalanx
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Slinger
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Spearman
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Swordsman
   rotate: false
-  xy: 619, 54
+  xy: 691, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -226,6 +226,13 @@ UnitIcons/Clibanarii
   xy: 1624, 868
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Club Levy
+  rotate: false
+  xy: 749, 54
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Companion Cavalry
@@ -923,7 +930,7 @@ UnitIcons/Spear Silver Shield
   index: -1
 UnitIcons/Strategos
   rotate: false
-  xy: 677, 54
+  xy: 807, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -996,6 +1003,13 @@ UnitIcons/Thureophoros2
   xy: 1300, 436
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Triarii
+  rotate: false
+  xy: 619, 40
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
 UnitIcons/Trihemiola
