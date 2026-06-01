@@ -183,12 +183,13 @@
 			"Cannot be traded",
 			"Doesn't generate naturally"
 
-	"[-1 Happiness] [in all cities] <when above [5] [Cities]>",
 	"[-1 Happiness] [in all cities] <when above [10] [Cities]>",
 	"[-1 Happiness] [in all cities] <when above [15] [Cities]>",
 	"[-1 Happiness] [in all cities] <when above [20] [Cities]>",
 	"[-1 Happiness] [in all cities] <when above [25] [Cities]>",
 	"[-1 Happiness] [in all cities] <when above [30] [Cities]>",
+	"[-1 Happiness, -1 Food] [in all cities] <when above [40] [Cities]>",
+	"[-1 Happiness, -1 Food] [in all cities] <when above [50] [Cities]>",
 
 	"[-10]% growth [in this city] <in cities with between [10] and [15] [Population]>",
 	"[-20]% growth [in this city] <in cities with between [16] and [20] [Population]>",
@@ -196,7 +197,7 @@
 	"[-30]% growth [in this city] <in cities with between [26] and [30] [Population]>",
 	"[-35]% growth [in this city] <in cities with between [31] and [35] [Population]>",
 	"[-40]% growth [in this city] <in cities with between [36] and [40] [Population]>",
-	"[-50]% growth [in this city] <in cities above [41] [Population]>",
+	"[-50]% growth [in this city] <in cities with between [41] and [9999] [Population]>",
 
         "[-5]% growth [in all cities] <when below [0] [Happiness]>",
         "[-5]% growth [in all cities] <when below [-10] [Happiness]>",
@@ -227,11 +228,10 @@
         "[+2]% [Faith] [in all cities] <when between [121] and [200] [Happiness]>",    
         "[+3]% [Faith] [in all cities] <when above [200] [Happiness]>",
 
-        "[+5]% Strength for cities <when attacking> <when between [11] and [80] [Happiness]>",
-        "[+7]% Strength for cities <when attacking> <when between [81] and [100] [Happiness]>",       
-        "[+10]% Strength for cities <when attacking> <when between [101] and [150] [Happiness]>",      
-        "[+12]% Strength for cities <when attacking> <when between [151] and [250] [Happiness]>",       
-        "[+15]% Strength for cities <when attacking> <when above [251] [Happiness]>",
+        "[+5]% Strength for cities <when attacking> <when between [51] and [100] [Happiness]>",
+        "[+7]% Strength for cities <when attacking> <when between [101] and [150] [Happiness]>",       
+        "[+10]% Strength for cities <when attacking> <when between [151] and [200] [Happiness]>",     
+        "[+15]% Strength for cities <when attacking> <when above [200] [Happiness]>",
 		]
     },			
     {
@@ -240,6 +240,16 @@
 		"uniques": [
 			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
 			"Cannot be traded",
+			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
+			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
+			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [31] and [40]  [Sanitation]> ",
+			"[+20]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when above [40] [Sanitation]> ",
+			"[+80]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <in cities with less than [6] [Population]>",
+			"[+10]% Production when constructing [Cure Plague] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
+			"[+15]% Production when constructing [Cure Plague] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
+			"[+20]% Production when constructing [Cure Plague] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
+			"[+25]% Production when constructing [Cure Plague] buildings [in all cities] <when above [40] [Sanitation]> ",
+			"[+80]% Production when constructing [Cure Plague] buildings [in all cities] <in cities with less than [6] [Population]>",
 		"Doesn't generate naturally"
 		]
     },			
