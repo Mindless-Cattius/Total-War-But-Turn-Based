@@ -1338,5 +1338,12 @@
 		"[-15]% Strength <when defending> <vs [Archery] units>",
 		]
 	},
+	{
+		"name": "[Clubmen] ability",
+		"uniques": [
+		"[+20]% Strength <when attacking>",
+		"[+10]% Strength <when attacking> <vs [Improved Armor] units>",
+		]
+	},
 ]
 

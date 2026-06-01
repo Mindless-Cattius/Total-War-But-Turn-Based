@@ -142,28 +142,22 @@
 
 {
 		"name": "Urban Fabric I",
-		"cost": 20,
-		"hurryCostModifier": 25,
-		"maintenance": 0,
-		"gold": 1,
-  		"happiness": 1,
-		"cityHealth": 20,
 		"uniques": [
-			"Cost increases by [1] per owned city",
-			"Only available <in cities with at least [2] [Population]>",
-			"[+1000]% weight to this choice for AI decisions",
+			"Provides [1] [Cities]"
+			"Unsellable",
 			
 		],
 },
 {
 		"name": "Urban Fabric II",
 		"requiredTech": "Writing",
-		"cost": 50,
+		"cost": 40,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"gold": 1,
-  		"food": 1,
-  		"happiness": 1,
+		"production": 1,
+		"gold": 2,
+  		"food": 2,
+  		"happiness": 2,
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [2] per owned city"
@@ -2221,7 +2215,9 @@
 			"[-1 Happiness] [in all cities]",
 			"[-1 Happiness] [in all cities] <when above [1] [Ruler]>",
 			"[-3 Happiness] [in capital]",
-			"[-1 Gold, -1 Happiness] from [improved] tiles [in capital]",
+			"[-1 Gold, -1 Happiness] from [improved] tiles [in capital]",	
+			"Provides [2] [Rebel Risk]",	
+			"Provides [2] [Rebel Risk] <when above [1] [Ruler]>",
 			"[1] [King]s rebel <upon turn end> <with [30]% chance> <before adopting [Empire]> <starting from the [Classical Age]> <hidden from users>",
 			"[1] [Emperor]s rebel <upon turn end> <with [30]% chance> <after adopting [Empire]> <hidden from users>",
 			"Unbuildable","Unsellable",

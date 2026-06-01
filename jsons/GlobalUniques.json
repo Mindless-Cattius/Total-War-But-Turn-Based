@@ -59,68 +59,10 @@
 
 // Happiness & Population
 
-	"[+5]% unhappiness from the number of cities <in cities with between [16] and [20] [Population]>",
-	"[+10]% unhappiness from the number of cities <in cities with between [21] and [30] [Population]>",
-	"[+15]% unhappiness from the number of cities <in cities with between [31] and [9999] [Population]>",
-
-
-	"[-1 Happiness] [in this city] <in cities with between [10] and [15] [Population]>",
-	"[-2 Happiness] [in this city] <in cities with between [16] and [20] [Population]>",
-	"[-3 Happiness] [in this city] <in cities with between [21] and [25] [Population]>",
-	"[-4 Happiness] [in this city] <in cities with between [26] and [30] [Population]>",
-	"[-5 Happiness] [in this city] <in cities with between [31] and [35] [Population]>",
-	"[-6 Happiness] [in this city] <in cities with between [36] and [40] [Population]>",
-	"[-7 Happiness] [in this city] <in cities with between [41] and [9999] [Population]>",
-
-	"[-10]% growth [in this city] <in cities with between [10] and [15] [Population]>",
-	"[-20]% growth [in this city] <in cities with between [16] and [20] [Population]>",
-	"[-25]% growth [in this city] <in cities with between [21] and [25] [Population]>",
-	"[-30]% growth [in this city] <in cities with between [26] and [30] [Population]>",
-	"[-35]% growth [in this city] <in cities with between [31] and [35] [Population]>",
-	"[-40]% growth [in this city] <in cities with between [36] and [40] [Population]>",
-	"[-50]% growth [in this city] <in cities with between [41] and [9999] [Population]>",
-
-        "[-5]% growth [in all cities] <when below [0] [Happiness]>",
-        "[-5]% growth [in all cities] <when below [-10] [Happiness]>",
-        "[-5]% growth [in all cities] <when below [-20] [Happiness]>",
-        "[-5]% growth [in all cities] <when below [-30] [Happiness]>",
-        "Nullifies Growth [in all cities] <when below [-40] [Happiness]>",
-
-        "[-10]% [Production] [in all cities] <when below [-10] [Happiness]>",
-        "[-10]% [Production] [in all cities] <when below [-30] [Happiness]>",
-        "Cannot build [Settler] units <when below [-10] [Happiness]>",
-
-        "[-5]% Strength <for [All] units> <when below [0] [Happiness]>",
-        "[-10]% Strength <for [All] units> <when below [-10] [Happiness]>",
-        "[-10]% Strength <for [All] units> <when below [-20] [Happiness]>",
-
-        "[+3]% growth [in all cities] <when between [21] and [50] [Happiness]>",       
-        "[+5]% growth [in all cities] <when between [51] and [100] [Happiness]>",       
-        "[+7]% growth [in all cities] <when between [101] and [200] [Happiness]>",      
-        "[+9]% growth [in all cities] <when above [201] [Happiness]>",
-
-        "[+1]% [Gold] [in all cities] <when between [11] and [30] [Happiness]>",
-        "[+2]% [Gold] [in all cities] <when between [31] and [70] [Happiness]>",       
-        "[+3]% [Gold] [in all cities] <when between [71] and [100] [Happiness]>",      
-        "[+4]% [Gold] [in all cities] <when between [101] and [200] [Happiness]>",       
-        "[+5]% [Gold] [in all cities] <when above [201] [Happiness]>",
-
-        "[+1]% [Faith] [in all cities] <when between [51] and [120] [Happiness]>",
-        "[+2]% [Faith] [in all cities] <when between [121] and [200] [Happiness]>",    
-        "[+3]% [Faith] [in all cities] <when above [200] [Happiness]>",
-
-        "[+5]% Strength for cities <when attacking> <when between [11] and [80] [Happiness]>",
-        "[+7]% Strength for cities <when attacking> <when between [81] and [100] [Happiness]>",       
-        "[+10]% Strength for cities <when attacking> <when between [101] and [150] [Happiness]>",      
-        "[+12]% Strength for cities <when attacking> <when between [151] and [250] [Happiness]>",       
-        "[+15]% Strength for cities <when attacking> <when above [251] [Happiness]>",
-	
 ///Rebel
 
 	"Gain a free [A Noble's Death] [in capital] <when above [0] [Ruler]>",
-	
-	"Provides [2] [Rebel Risk] <when above [0] [Ruler]>",	
-	"Provides [2] [Rebel Risk] <when above [1] [Ruler]>",
+
 	"Provides [1] [Rebel Risk] <when below [200] [Happiness]> <for [Human player] Civilizations>",
 	"Provides [1] [Rebel Risk] <when below [150] [Happiness]> <for [Human player] Civilizations>",
 	"Provides [1] [Rebel Risk] <when below [100] [Happiness]> <for [Human player] Civilizations>",
@@ -134,6 +76,10 @@
 
 	"Provides [1] [Rebel Risk] <when above [4] [Nobles]> <for [Human player] Civilizations>",
 	"Provides [1] [Rebel Risk] <when above [3] [Nobles]> <for [Human player] Civilizations>",
+
+	"Provides [1] [Rebel Risk] <when above [10] [Cities]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when above [20] [Cities]> <for [Human player] Civilizations>",
+	"Provides [1] [Rebel Risk] <when above [30] [Cities]> <for [Human player] Civilizations>",
 
 // Events
 
@@ -165,14 +111,14 @@
         "[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
         "[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
         "[+100]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
-        "[+30]% maintenance costs <for [Military] units> <when at war>",
+        "[+50]% maintenance costs <for [Military] units> <when at war>",
 
         "[+20]% maintenance costs <for [Cretan Archer] units>",
 
         "[+20]% maintenance costs <for [Spear] units>",
         "[+30]% maintenance costs <for [Pike Phalanx] units>",
         "[+60]% maintenance costs <for [Royal Phalanx] units>",
-        "[+100]% maintenance costs <for [Praetoria] units>",
+        "[+200]% maintenance costs <for [Praetoria] units>",
         "[+60]% maintenance costs <for [Mercenary] units>",
 
         "[+30]% maintenance costs <for [Sword] units>",
@@ -196,14 +142,6 @@
 
 			// 3rd century
 ///rome
-	"[+30]% Production when constructing [Restored Order] buildings [in all cities] <when above [0] [Roman 3rd Century Crisis]>",
-	"Provides [1] [Italia] <when above [0] [Roman 3rd Century Crisis]>",
-	"Provides [1] [Dalmatia] <when above [0] [Roman 3rd Century Crisis]>",
-	"Provides [1] [Achaea] <when above [0] [Roman 3rd Century Crisis]>",
-	"Provides [1] [Thracia] <when above [0] [Roman 3rd Century Crisis]>",
-	"Provides [1] [Macedonia] <when above [0] [Roman 3rd Century Crisis]>",
-	"Provides [1] [Africa] <when above [0] [Roman 3rd Century Crisis]>",
-	"Provides [1] [Sicilia] <when above [0] [Roman 3rd Century Crisis]>",
-	"Provides [1] [Pannonia] <when above [0] [Roman 3rd Century Crisis]>",
+	"[+20]% Production when constructing [Restored Order] buildings [in all cities] <when above [0] [Roman 3rd Century Crisis]>",
     ]
 }

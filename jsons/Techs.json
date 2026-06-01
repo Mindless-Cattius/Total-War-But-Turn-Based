@@ -224,7 +224,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical Age",
-		"techCost": 2300,
+		"techCost": 3000,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -281,7 +281,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Hellenistic Age",
-		"techCost": 5000,
+		"techCost": 5500,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [

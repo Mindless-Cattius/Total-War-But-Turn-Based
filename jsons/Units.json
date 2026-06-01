@@ -767,9 +767,9 @@
     "cost": 40,
     "requiredTech": "Bronze Working",
     "uniques": [
+	"Comment ['Medium spear infantry. ideal for stopping horses, not much else.']",
      	"Only available <in cities with a [Muster Field]>",
      	"Unbuildable <when above [0] [Gallic 3rd Century Crisis]> <hidden from users>",
-	"Comment ['Spearman — ideal for stopping horses, not much else.']",
       	"Consumes [2] [Manpower]",
     ],
     "promotions": [
@@ -788,8 +788,8 @@
     "cost": 50,
     "requiredTech": "Bronze Working",
     "uniques": [
+	"Comment ['Light shock spear infantry — fierce forest warriors who overwhelm enemies through speed and ferocity.']",
      	"Only available <in cities with a [Muster Field]>",
-	"Comment ['Spearman — fierce forest warriors who overwhelm enemies through speed and ferocity.']",
       	"Consumes [2] [Manpower]",
 	"[+1] Movement <when fighting in [Forest] tiles>",
 	"[+40]% production cost <during the [Imperial Age]>",
@@ -801,6 +801,25 @@
       "Infantry Shield I",
       "Ambush I",
       "Shock I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Levy Club",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 12,
+    "cost": 60,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+	"Comment ['Light shock infantry. Not every warrior could afford a spear. Trees, however, were plentiful.']",
+     	"Only available <in cities with a [Muster Field]>",
+     	"Only available <after adopting [Germanic Culture]>",
+      	"Consumes [2] [Manpower]",
+    ],
+    "promotions": [
+      "[Clubmen] ability",
+      "Infantry Shield I"
     ],
     "attackSound": "metalhit"
   },
@@ -2463,7 +2482,34 @@
       "Spartan Aura",
       "Inspiring",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
+  },
+  {
+    "name": "Triarii",
+    "unitType": "Spear",
+    "uniqueTo": "The Romans",
+    "replaces": "Foot Guard",
+    "requiredTech": "Citizen Levy",
+    "movement": 2,
+    "strength": 16,
+    "cost": 140,
+    "uniques": [
+		"Comment ['Very heavy spear infantry, When matters reached the Triarii, Romans stopped discussing tactics and started discussing survival.']",
+     		"Only available <in cities with a [Palace]>",
+	      	"[+1] XP gained from combat",
+		"[+10]% Strength <when defending>",
+		"Unbuildable <after discovering [Heavy Infantry]>",
+      		"Consumes [4] [Manpower]",
+      		"Consumes [1] [Veteran]",
+		"Can upgrade to [Praetoria]",
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield III",
+      "Inspiring",
+	"Veteran"
+    ],
+    "attackSound": "march"
   },
   {
     "name": "Hypaspist",
@@ -2489,7 +2535,7 @@
       "Assault I"
       "Inspiring",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Royal Phalanx",
@@ -2674,16 +2720,16 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 18,
-    "cost": 210,
+    "cost": 220,
     "uniques": [
- 	"Comment [-Elite heavy shock infantry, have powerful charge attack but hate arrows, darts and javelins.]",
+ 	"Comment ['Elite medium shock infantry. The tribe's finest warriors. Statistically speaking, this suggested a remarkable life expectancy.']",
 	"Only available <in cities with a [Army Barracks]>",
-	"[+30]% Strength <when attacking> <when below [50] HP>",
+	"[+10]% Strength <when attacking> <when below [50] HP>",
+	"[+20]% Strength <when attacking> <when below [20] HP>",
       	"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
-	"[-20]% Strength <vs [{Ranged} {Land}] units> <when defending>",
 	"[+1] XP gained from combat",
       	"Consumes [1] [Veteran]",
-      	"Consumes [4] [Manpower]",
+      	"Consumes [5] [Manpower]",
       	"Consumes [1] [Iron]",
       	"Only available <after adopting [Germanic Culture]> <hidden from users>",
     ],
@@ -2700,14 +2746,14 @@
     "name": "Chieftain Riders",
     "unitType": "Mounted",
     "movement": 3,
-    "strength": 20,
+    "strength": 21,
     "cost": 260,
     "uniques": [
- 	"Comment [-Elite heavy cavalry, good at ambushing, medium withdraw chance]",
+ 	"Comment ['Elite heavy cavalry. Only the tribe's most successful warriors could afford horse, armor, and retainers. Success was therefore strongly encouraged.']",
       "Only available <in cities with a [Imperial Barracks]>",
 	"[+1] XP gained from combat",
       "Consumes [1] [Veteran]",
-      "Consumes [4] [Manpower]",
+      "Consumes [5] [Manpower]",
       "Consumes [1] [Horses]",
       "Consumes [1] [Iron]",
       "Only available <after adopting [Germanic Culture]> <hidden from users>",
@@ -2715,7 +2761,6 @@
     "promotions": [
       "[Cavalry] ability",
       "Cavalry Shield II",
-	"Ambush I",
 	"Charge I",
 	"Improved Armor"
 	"Veteran",
@@ -2908,13 +2953,14 @@
   {
     "name": "Praetoria",
     "unitType": "Sword",
+    "requiredTech": "Heavy Infantry",
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 22,
     "cost": 250,
     "uniques": [
-      	"Comment [-Elite heavy infantry, Emperor's best frienemy.]",
-      	"Only available <in cities with a [Imperial Barracks]>",
+      	"Comment [-Elite heavy infantry, very high upkeep, Emperor's best frienemy.]",
+      	"Only available <in cities with a [Palace]>",
       	"Limited to [1] per Civilization",
 	"[+1] XP gained from combat",
       	"Consumes [5] [Manpower]",
