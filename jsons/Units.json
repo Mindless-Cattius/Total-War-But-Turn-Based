@@ -200,7 +200,6 @@
       		"Requires at least [3] population",
       		"Founds a new city <by consuming this unit>",
       		"Excess Food converted to Production when under construction",
-		"Unbuildable <in cities with a [Scenario]> <hidden from users>",
 		"Unbuildable <in cities with a [3rd Century Crisis]> <hidden from users>",
     ],
     "hurryCostModifier": 20
@@ -1608,6 +1607,48 @@
     "attackSound": "horse"
   },
   {
+    "name": "War Elephant",
+    "unitType": "Elephant",
+    "hurryCostModifier": 25,
+    "cost": 160,
+    "movement": 3,
+    "strength": 19,
+    "requiredTech": "Equestrian Class",
+    "uniques": [
+      	"Comment [-Medium elephant, a beast that’ll crush anything in its path—except your economy. Hope you’ve got the gold to feed it.]",
+      	"Only available <in cities with a [Stable]>",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Elephants]",
+      	"Never appears as a Barbarian unit",
+      	"Only available <with [Enable War Elephant]> <hidden from users>",
+    ],
+    "promotions": [
+      "[War Elephant] ability"
+    ],
+    "attackSound": "elephant"
+  },
+  {
+    "name": "Armored Elephant",
+    "unitType": "Elephant",
+    "hurryCostModifier": 25,
+    "cost": 350,
+    "movement": 3,
+    "strength": 28,
+    "requiredTech": "Equestrian Class",
+    "uniques": [
+      "Only available <in cities with a [Elephant Trainer]>",
+      "Comment [-Heavy elephant unit, armored, and ready to flatten anything that dares stand in its way. Just don’t expect it to help with anything delicate.]",
+      "Consumes [5] [Manpower]",
+      "Consumes [1] [Elephants]",
+      "Consumes [2] [Iron]",
+      	"Only available <with [Enable Armored Elephant]> <hidden from users>",
+    ],
+    "promotions": [
+      "[War Elephant] ability"
+    ],
+    "attackSound": "elephant"
+  },
+  {
     "name": "Thessalian Cavalry",
     "uniqueTo": "The Thessalians",
     "replaces": "Cavalry",
@@ -1696,48 +1737,6 @@
       "Armored Lancer",
     ],
     "attackSound": "horse"
-  },
-  {
-    "name": "War Elephant",
-    "unitType": "Elephant",
-    "hurryCostModifier": 25,
-    "cost": 160,
-    "movement": 3,
-    "strength": 19,
-    "requiredTech": "Equestrian Class",
-    "uniques": [
-      	"Comment [-Medium elephant, a beast that’ll crush anything in its path—except your economy. Hope you’ve got the gold to feed it.]",
-      	"Only available <in cities with a [Stable]>",
-      	"Consumes [3] [Manpower]",
-      	"Consumes [1] [Elephants]",
-      	"Never appears as a Barbarian unit",
-      	"Only available <with [Enable War Elephant]> <hidden from users>",
-    ],
-    "promotions": [
-      "[War Elephant] ability"
-    ],
-    "attackSound": "elephant"
-  },
-  {
-    "name": "Armored Elephant",
-    "unitType": "Elephant",
-    "hurryCostModifier": 25,
-    "cost": 360,
-    "movement": 3,
-    "strength": 28,
-    "requiredTech": "Equestrian Class",
-    "uniques": [
-      "Comment [-Heavy elephant unit, armored, and ready to flatten anything that dares stand in its way. Just don’t expect it to help with anything delicate.]",
-      "Only available <in cities with a [Cavalry Barracks]>",
-      "Consumes [5] [Manpower]",
-      "Consumes [1] [Elephants]",
-      "Consumes [2] [Iron]",
-      	"Only available <with [Enable Armored Elephant]> <hidden from users>",
-    ],
-    "promotions": [
-      "[War Elephant] ability"
-    ],
-    "attackSound": "elephant"
   },
   {
     "name": "Galley",

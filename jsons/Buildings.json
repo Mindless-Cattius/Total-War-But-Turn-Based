@@ -142,6 +142,7 @@
 
 {
 		"name": "Urban Fabric I",
+  		"happiness": 1,
 		"uniques": [
 			"Provides [1] [Cities]"
 			"Unsellable",
@@ -158,7 +159,7 @@
 		"production": 1,
 		"gold": 2,
   		"food": 2,
-  		"happiness": 2,
+  		"happiness": 1,
 		"cityHealth": 20,
 		"uniques": [
 			"Cost increases by [2] per owned city"
@@ -2587,7 +2588,27 @@
 			"Destroyed when the city is captured"
 ]
 	},
+
 					/////Scenario
+
+//////				---Scenario Peloponnese War
+
+
+	{
+    		"name": "Peloponnese War",
+    		"cost": 0,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"[+50000]% Culture cost of natural border growth [in this city]",
+			"[-50]% Great Person generation [in this city]",
+			"[Great Scholar] is earned [-500]% faster",
+			"Gain a free [Peloponnese War] [in all cities] <in cities without a [Peloponnese War]> <for [all] Civilizations>",
+			"Never destroyed when the city is captured",
+			"Unsellable",
+      			"Unbuildable",
+]
+  	},
 
 
 /////				---Scenario 3rd century

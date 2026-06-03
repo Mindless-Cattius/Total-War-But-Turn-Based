@@ -703,10 +703,10 @@
         	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Imperial Metallurgy]>","Comment [Only available before adopting Imperial Metallurgy]",
+                    	"Comment [Enables Armored Elephant]","Provides [1] [Enable Armored Elephant] <hidden from users>",
                     	"[Horse Archer] units gain the [[Maneuver]] promotion",
                     	"[Spearman] units gain the [Improved Armor] promotion",
                     	"[Skirmisher] units gain the [Improved Armor] promotion",
-                    	"[+20]% Strength <for [Mounted Archery] units> <vs [Ranged] units> <when defending>",
                     	"[1] free [Cataphract] units appear",
                     	"Provides [2] [Iron]",
      		    	"Provides [1] [Veteran]",
@@ -723,6 +723,7 @@
         	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Steppe Metallurgy]>","Comment [Only available before adopting ]",
+                    	"Comment [Enables Armored Elephant]","Provides [1] [Enable Armored Elephant] <hidden from users>",
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     	"[Mounted] units gain the [Improved Armor] promotion",
                     	"[Infantry Shield II] units gain the [Improved Armor] promotion",
@@ -896,7 +897,6 @@
             {
                 "name": "Northen Trade",
                 "uniques": [
-                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     	"[Spearman] units gain the [Improved Armor] promotion",
                     "[+1 Gold, +1 Happiness] from [Trading post] tiles [in all cities]",
@@ -1022,7 +1022,7 @@
                 "name": "Noble Swordbearers",
         	"era": "Hellenistic Age",
                 "uniques": [
-                    	"[+1 Happiness] [in this city] <with a garrison>",
+                    	"Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",                    			"[+1 Happiness] [in this city] <with a garrison>",
                     	"[Infantry Shield III] units gain the [Improved Armor] promotion",
                     	"[+10]% Strength <for [Heavy Swordsman] units>  <when above [3] [Iron]>",
         		"[+10]% Strength <for [Veteran] units> <when above [3] [Iron]>",
@@ -1054,6 +1054,7 @@
         "uniques": [
                     "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Only available <after adopting [Hellenic Culture]> <hidden from users>",   
                     "[1] free [Great Scholar] units appear",
                     "[-10]% Culture cost of natural border growth [in capital]",
@@ -1670,10 +1671,10 @@
                 "name": "Heavy Cavalry Corps",
                 "requires": ["Sarissa Corps"],
                 "uniques": [
+                    	"Comment [Enables Armored Elephant]","Provides [1] [Enable Armored Elephant] <hidden from users>",
                     	"[Cataphract] units gain the [Improved Armor] promotion",
                     	"[Armored Elephant] units gain the [Improved Armor] promotion",
                     	"[War Elephant] units gain the [Improved Armor] promotion",
-                    	"Comment [Enables Armored Elephant]","Provides [1] [Enable Armored Elephant] <hidden from users>",
         		"[+10]% Strength <for [Elephant] units>",
         		"[+10]% Strength <for [Armored Elephant] units> <for [The Seleucids] Civilizations>",
         		"[+15]% Strength <for [Elephant] units> <when fighting in [Desert] tiles> <for [The Ptolemies] Civilizations>",

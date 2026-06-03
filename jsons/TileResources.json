@@ -245,11 +245,13 @@
 			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
 			"[+20]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when above [40] [Sanitation]>",
 			"[+80]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <in cities with less than [6] [Population]>",
+			"[+50]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Classical Age]>",
 			"[+10]% Production when constructing [Cure Plague] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
 			"[+15]% Production when constructing [Cure Plague] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
 			"[+20]% Production when constructing [Cure Plague] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
 			"[+25]% Production when constructing [Cure Plague] buildings [in all cities] <when above [40] [Sanitation]>",
 			"[+80]% Production when constructing [Cure Plague] buildings [in all cities] <in cities with less than [6] [Population]>",
+			"[+60]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Classical Age]>",
 		"Doesn't generate naturally"
 		]
     },			
