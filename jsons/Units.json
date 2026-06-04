@@ -200,7 +200,6 @@
       		"Requires at least [3] population",
       		"Founds a new city <by consuming this unit>",
       		"Excess Food converted to Production when under construction",
-		"Unbuildable <in cities with a [3rd Century Crisis]> <hidden from users>",
     ],
     "hurryCostModifier": 20
   },
@@ -804,7 +803,7 @@
     "attackSound": "metalhit"
   },
   {
-    "name": "Levy Club",
+    "name": "Club Levy",
     "unitType": "Sword",
     "movement": 2,
     "strength": 12,

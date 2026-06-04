@@ -1286,7 +1286,7 @@
 		"name": "[Hemiola] ability",
 		"uniques": [
 			"Ignores Zone of Control",
-			"Withdraws before melee combat <with [30]% chance>"
+			"Withdraws before melee combat <with [25]% chance>"
 		]
 	},
 	{
@@ -1317,6 +1317,7 @@
 		"[+10]% Strength <vs [Spear] units>",
 		"[+60]% Strength <when attacking>",
 		"[-20]% Strength <when defending> <vs [Ranged] units>",
+		"Withdraws before melee combat <with [5]% chance>",
 		]
 	},
 	{
@@ -1326,6 +1327,7 @@
 		"[+15]% Strength <vs [Mounted] units>",
 		"[+15]% Strength <in [Forest] tiles>",
 		"[+15]% Strength <in [Jungle] tiles>",
+		"Withdraws before melee combat <with [3]% chance>",
 
 		]
 	},
@@ -1336,6 +1338,7 @@
 		"[+80]% Strength <when attacking> <vs [Sword] units>",
 		"[+30]% Strength <when defending> <vs [Sword] units>",
 		"[-15]% Strength <when defending> <vs [Archery] units>",
+		"Withdraws before melee combat <with [3]% chance>",
 		]
 	},
 	{
@@ -1343,6 +1346,7 @@
 		"uniques": [
 		"[+20]% Strength <when attacking>",
 		"[+10]% Strength <when attacking> <vs [Improved Armor] units>",
+		"Withdraws before melee combat <with [5]% chance>",
 		]
 	},
 ]

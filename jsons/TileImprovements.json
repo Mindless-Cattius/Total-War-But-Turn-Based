@@ -114,7 +114,6 @@
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle"],
 		"uniques": [
-		"[-10 Gold]",
 		"Gives a defensive bonus of [25]%",
 		"Pillaging this improvement yields approximately [+120 Gold]",
 		"Removes removable features when built",	
@@ -314,7 +313,10 @@
 	{
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable","Provides a random bonus when entered"],
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Unpillagable", "Unbuildable","Provides a random bonus when entered"
+		],
 		"civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	},
 ////				----Scenario----

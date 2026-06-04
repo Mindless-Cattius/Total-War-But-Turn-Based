@@ -1233,6 +1233,7 @@
 			"Provides [1] [Enable Gallic Legion] <if [Gallia] is constructed>",
 			"Provides [1] [Enable Gallic Limitanei] <if [Gallia] is constructed>",
 			"Provides [1] [Enable Desert Legion] <if [Aegyptus] is constructed>",
+			"Cannot build [Settler] units",
 ]
   	},
 	{
@@ -1251,6 +1252,7 @@
 			"Provides [1] [Enable Gallic Limitanei] <if [Gallia] is constructed>",
 			"Provides [1] [Enable Legion] <if [Italia] is constructed>",
 			"Provides [1] [Enable Desert Legion]",
+			"Cannot build [Settler] units",
 ]
   	},
 	{
@@ -1270,6 +1272,7 @@
 			"Provides [1] [Enable Illyrian Legion] <if [Dalmatia] is constructed>",
 			"Provides [1] [Enable Legion] <if [Italia] is constructed>",
 			"Provides [1] [Enable Desert Legion] <if [Aegyptus] is constructed>",
+			"Cannot build [Settler] units",
 ]
   	},
 	{
@@ -1287,6 +1290,7 @@
  			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Italia] is not constructed>",
 			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Gallia] is not constructed>",
         		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+			"Cannot build [Settler] units",
 ]
   	},
 	{
@@ -1307,6 +1311,7 @@
 			"[+20]% Production when constructing [Sword] units [in all cities] <if [Achaea] is not constructed>",
 			"[+20]% Production when constructing [Sword] units [in all cities] <if [Italia] is not constructed>",
         		"Free [Bastarnae Warrior] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+			"Cannot build [Settler] units",
 ]
   	},
 	{
@@ -1327,6 +1332,7 @@
 			"[+20]% Production when constructing [Mounted Archery] units [in all cities] <if [Achaea] is not constructed>",
 			"[+20]% Production when constructing [Mounted] units [in all cities] <if [Armenia] is not constructed>",
         		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+			"Cannot build [Settler] units",
 ]
   	},
 	{
@@ -1343,6 +1349,7 @@
 			"[+10] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Scythia] is not constructed>",
 			"[+25]% Production when constructing [Mounted] units [in this city] <if [Aegyptus] is not constructed>",
         		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+			"Cannot build [Settler] units",
 ]
   	},
 
@@ -1355,6 +1362,8 @@
     		"uniques": [
 			"[-60]% City-State Influence degradation",
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+			"Cannot build [Settler] units",
+			"[-50]% Science cost of researching new Technologies",
 		]
   	},
 	{
@@ -1363,6 +1372,8 @@
     		"uniques": [
 			"[-60]% City-State Influence degradation",
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+			"Cannot build [Settler] units",
+			"[-50]% Science cost of researching new Technologies",
 		]
   	},
 	{
@@ -1371,6 +1382,8 @@
     		"uniques": [
 			"[-60]% City-State Influence degradation",
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+			"Cannot build [Settler] units",
+			"[-50]% Science cost of researching new Technologies",
 		]
   	},
 	{
@@ -1378,7 +1391,9 @@
 		"resourceType": "Bonus",
     		"uniques": [
 			"[-60]% City-State Influence degradation",
-			"Triggers victory <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Thessalia] is constructed> <if [Boiotia] is constructed> <if [Attike] is constructed> <if [Lakedaimon] is constructed> <if [Hellespontos] is constructed> <if [Mysia] is constructed> <if [Lydia] is constructed> <if [Karia] is constructed> <if [Ionia] is constructed>"
+			"Triggers victory <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Thessalia] is constructed> <if [Boiotia] is constructed> <if [Attike] is constructed> <if [Lakedaimon] is constructed> <if [Hellespontos] is constructed> <if [Mysia] is constructed> <if [Lydia] is constructed> <if [Karia] is constructed> <if [Ionia] is constructed>",
+			"Cannot build [Settler] units",
+			"[-50]% Science cost of researching new Technologies",
 		]
   	},
 	{
@@ -1386,7 +1401,9 @@
 		"resourceType": "Bonus",
     		"uniques": [
 			"[-60]% City-State Influence degradation",
-			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>"
+			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+			"Cannot build [Settler] units",
+			"[-50]% Science cost of researching new Technologies",
 		]
   	},
 ]
