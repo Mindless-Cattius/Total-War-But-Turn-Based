@@ -1201,6 +1201,13 @@ BuildingIcons/The Great Lighthouse
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/The Long Wall
+  rotate: false
+  xy: 934, 13
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/The Oracle of Amun
   rotate: false
   xy: 868, 472
@@ -1238,7 +1245,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 934, 13
+  xy: 946, 205
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1280,7 +1287,7 @@ BuildingIcons/Walls
   index: -1
 BuildingIcons/War Reconstruction
   rotate: false
-  xy: 946, 205
+  xy: 1004, 222
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
