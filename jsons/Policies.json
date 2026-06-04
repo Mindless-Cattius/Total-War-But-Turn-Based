@@ -1511,8 +1511,7 @@
                     "[Cavalry] units gain the [Lancer] promotion <for [The Ptolemies] Civilizations>",
                     "[Cavalry] units gain the [Lancer] promotion <for [The Pergamenes] Civilizations>",
                     	"Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
-                    	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
-                    	"[+50]% XP gained from combat <for [Melee] units> <when adjacent to a [Commander] unit>",
+                    	"[+2] XP gained from combat <for [Melee] units> <when adjacent to a [Commander] unit>",
                     	"Free [General] appears",
         		"Provides [1] [Nobles]",
                     	"[+1 Happiness] [in capital]",
@@ -1542,7 +1541,7 @@
                 "civilopediaText": [{"text": "Soter was a common hellenestic royal epithet meaning The Savior. Most famous of the saviours was Ptolemy I."}],
                 "uniques": [
                     	"Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    	"[+20]% Strength <vs [Barbarian] units>",
+                    	"[+10]% Strength <vs [Barbarian] units>",
         		"[+10]% Strength <for [Skirmisher] units> <for [The Ptolemies] Civilizations>" 
         		"[+10]% Strength <for [Commander] units>",
                     	"[1] free [Swordsman] units appear",
@@ -1590,6 +1589,7 @@
                 "name": "Noble Cavalry Schools",
                 "uniques": [
                     	"Comment [Enables Royal Agema]","Provides [1] [Enable Royal Agema]",
+                    	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     	"[Cavalry] units gain the [Improved Armor] promotion",
         		"[+10]% Strength <for [Cavalry] units>",
         		"[+10]% Strength <for [Cavalry] units> <for [The Seleucids] Civilizations>",
@@ -2418,7 +2418,7 @@
             {
                 "name": "The Latin League",
                 "uniques": [
-                    "[-10]% City-State Influence degradation",
+                    "[-25]% City-State Influence degradation",
                     "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -2886,7 +2886,7 @@
     "uniques": [
         "Comment [Enables Archer]", "Provides [1] [Enable Archer] <hidden from users>",
         "Comment [Enables Pike Phalanx]", "Provides [1] [Enable Pike Phalanx] <hidden from users>",
-        "[-20]% City-State Influence degradation",
+        "[-25]% City-State Influence degradation",
         "[+1 Gold, +1 Happiness] from every [Market]",
         "[+1 Gold, +1 Food] from [Trading post] tiles [in all cities]",
         "Provides [1] [Nobles]",

@@ -183,13 +183,13 @@
 			"Cannot be traded",
 			"Doesn't generate naturally"
 
-	"[-1 Happiness] [in all cities] <when above [10] [Cities]>",
-	"[-1 Happiness] [in all cities] <when above [15] [Cities]>",
-	"[-1 Happiness] [in all cities] <when above [20] [Cities]>",
-	"[-1 Happiness] [in all cities] <when above [25] [Cities]>",
-	"[-1 Happiness] [in all cities] <when above [30] [Cities]>",
-	"[-1 Happiness, -1 Food] [in all cities] <when above [40] [Cities]>",
-	"[-1 Happiness, -1 Food] [in all cities] <when above [50] [Cities]>",
+	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [10] [Cities]>",
+	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [15] [Cities]>",
+	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [20] [Cities]>",
+	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [25] [Cities]>",
+	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [30] [Cities]>",
+	"[-1 Happiness, -1 Food, -2 Science, -2 Culture] [in all cities] <when above [40] [Cities]>",
+	"[-1 Happiness, -1 Food, -2 Science, -2 Culture] [in all cities] <when above [50] [Cities]>",
 
 	"[-10]% growth [in this city] <in cities with between [10] and [15] [Population]>",
 	"[-20]% growth [in this city] <in cities with between [16] and [20] [Population]>",
@@ -205,6 +205,8 @@
         "[-5]% growth [in all cities] <when below [-30] [Happiness]>",
         "Nullifies Growth [in all cities] <when below [-40] [Happiness]>",
 
+        "[-10]% [Science] [in all cities] <when below [-10] [Happiness]>",
+        "[-10]% [Science] [in all cities] <when below [-30] [Happiness]>",
         "[-10]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-10]% [Production] [in all cities] <when below [-30] [Happiness]>",
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
@@ -1319,5 +1321,49 @@
 			"[+25]% Production when constructing [Mounted] units [in this city] <if [Aegyptus] is not constructed>",
         		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
 ]
+  	},
+
+			////Peloponnese war
+
+
+	{
+    		"name": "Peloponnese War Spartan",
+		"resourceType": "Bonus",
+    		"uniques": [
+			"[-60]% City-State Influence degradation",
+			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+		]
+  	},
+	{
+    		"name": "Peloponnese War Athenian",
+		"resourceType": "Bonus",
+    		"uniques": [
+			"[-60]% City-State Influence degradation",
+			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+		]
+  	},
+	{
+    		"name": "Peloponnese War Persian",
+		"resourceType": "Bonus",
+    		"uniques": [
+			"[-60]% City-State Influence degradation",
+			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+		]
+  	},
+	{
+    		"name": "Peloponnese War Macedonian",
+		"resourceType": "Bonus",
+    		"uniques": [
+			"[-60]% City-State Influence degradation",
+			"Triggers victory <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Thessalia] is constructed> <if [Boiotia] is constructed> <if [Attike] is constructed> <if [Lakedaimon] is constructed> <if [Hellespontos] is constructed> <if [Mysia] is constructed> <if [Lydia] is constructed> <if [Karia] is constructed> <if [Ionia] is constructed>"
+		]
+  	},
+	{
+    		"name": "Peloponnese War Epirot",
+		"resourceType": "Bonus",
+    		"uniques": [
+			"[-60]% City-State Influence degradation",
+			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>"
+		]
   	},
 ]

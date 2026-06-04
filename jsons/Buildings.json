@@ -2603,12 +2603,219 @@
 			"[+50000]% Culture cost of natural border growth [in this city]",
 			"[-50]% Great Person generation [in this city]",
 			"[Great Scholar] is earned [-500]% faster",
-			"Gain a free [Peloponnese War] [in all cities] <in cities without a [Peloponnese War]> <for [all] Civilizations>",
+			"[-500]% [Science] <while researching [Hellenistic Age]>",
+			"Provides [1] [Peloponnese War Spartan] <for [The Spartans] Civilizations> <when below [1] [Peloponnese War Spartan]>",
+			"Provides [1] [Peloponnese War Athenian] <for [The Athenians] Civilizations> <when below [1] [Peloponnese War Athenian]>",
+			"Provides [1] [Peloponnese War Persian] <for [The Achaemenid] Civilizations> <when below [1] [Peloponnese War Persian]>",
+			"Provides [1] [Peloponnese War Macedonian] <for [The Macedonians] Civilizations> <when below [1] [Peloponnese War Macedonian]>",
+			"Provides [1] [Peloponnese War Epirot] <for [The Epirots] Civilizations> <when below [1] [Peloponnese War Epirot]>",
 			"Never destroyed when the city is captured",
 			"Unsellable",
       			"Unbuildable",
 ]
   	},
+///Provinces
+{
+		"name": "Lakedaimon",
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Provides [4] [Manpower]",
+			"Provides [1] [Veteran]",
+			"Unsellable",
+			"Unbuildable",
+			"Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Argolis",
+		"specialistSlots": {"Engineer": 1},
+		"uniques": [
+			"Provides [1] [Bronze]",
+			"[+10]% Production when constructing [Spear] units [in this city]",
+			"Unsellable",
+			"Unbuildable",
+			"Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Elis",
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"[+1 Happiness] [in all cities] <in cities with a [Temple]>",
+			"[+2 Culture] [in this city]",
+			"Unsellable",
+			"Unbuildable",
+			"Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Attike",
+		"specialistSlots": {"Engineer": 1},
+		"uniques": [
+			"[+15]% Production when constructing [{Military} {Water}] units [in this city]",
+			"[+1 Gold] [in all coastal cities]",
+			"Unsellable",
+			"Unbuildable",
+			"Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Boiotia",
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Provides [4] [Manpower]",
+			"[+1 Food] from [Farm] tiles [in this city]",
+			"Unsellable",
+			"Unbuildable",
+			"Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Aitolia",
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"New [Skirmisher] units start with [10] XP [in this city]",
+			"[+20]% Production when constructing [Skirmisher] units [in this city]",
+			"Unsellable",
+			"Unbuildable",
+			"Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Thessalia",
+		"specialistSlots": {"Artist": 1},
+		"uniques": [
+			"Provides [1] [Horses]",
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"Unsellable",
+			"Unbuildable",
+			"Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Ambrakia",
+		"specialistSlots": {"Engineer": 1},
+		"uniques": [
+			"[+3 Gold] [in this city]",
+			"[+1 Production] [in capital]",
+			"Unsellable",
+			"Unbuildable",
+			"Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Epeiros",
+		"uniques": [
+			"Provides [4] [Manpower]",
+			"[+1 Gold] from [Forest] tiles [in this city]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Makedonia",
+		"uniques": [
+			"Provides [1] [Horses]",
+			"New [Mounted] units start with [10] XP [in this city]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Kalkidiki",
+		"uniques": [
+			"[+2 Gold] from [Coast] tiles [in this city]",
+			"[+10]% Production when constructing [Melee Water] units [in this city]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Amphipolis",
+		"uniques": [
+			"Provides [1] [Bronze]",
+			"[+1 Production] from [Mine] tiles [in capital]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Thraike",
+		"uniques": [
+			"Provides [1] [Horses]",
+			"New [Skirmisher] units start with [10] XP [in this city]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Hellespontos",
+		"uniques": [
+			"[+2 Gold] [in this city]",
+			"[+1 Gold] from [improved] tiles [in all coastal cities]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Mysia",
+		"uniques": [
+			"[+1 Gold] from [Farm] tiles [in this city]",
+			"[+1 Food, +1 Happiness] [in capital]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Lydia",
+		"uniques": [
+			"[+3 Gold] [in this city]",
+			"[+1 Gold] [in all cities]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Karia",
+		"uniques": [
+			"[+1 Production] [in capital]",
+			"[+10]% Production when constructing [Melee] units [in this city]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Ionia",
+		"uniques": [
+			"[+2 Culture] [in capital]",
+			"[+1 Gold] from [Fishing Boats] tiles [in all cities]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Dodekanisa",
+		"uniques": [
+			"[+1 Food] from [Fish] tiles [in all coastal cities]",
+			"[+10]% Production when constructing [Water] units [in this city]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Aigian",
+		"uniques": [
+			"[+1 Gold] from [Coast] tiles [in this city]",
+			"[+1 Happiness] [in all coastal cities]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Euboia",
+		"uniques": [
+			"Provides [1] [Bronze]",
+			"[+1 Production, +1 Happiness] from [Mine] tiles [in this city]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+{
+		"name": "Krete",
+		"uniques": [
+			"[+1 Food] from [Fish] tiles [in all cities]",
+			"[+1 Gold] from [Plantation] tiles [in all cities]",
+			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+		]
+},
+
 
 
 /////				---Scenario 3rd century

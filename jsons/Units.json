@@ -853,15 +853,14 @@
     "movement": 2,
     "strength": 15,
     "cost": 70,
-    "requiredTech": "Citizen Levy",
+    "requiredTech": "Bronze Working",
     "uniques": [
 	"Comment [Medium spear infantry, ideal for holding ground and philosophical debates.]",
       	"Only available <in cities with a [Barracks]>",
-      	"Only available <before the [Hellenistic Age]> <before adopting [Hellenic Culture]>",
       	"Consumes [3] [Manpower]",
       	"Consumes [1] [Bronze]",
-      	"Comment [Has cultural requirements]",
       	"Only available <with [Enable Hoplite]> <hidden from users>",
+      	"Unbuildable <during the [Imperial Age]>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -877,7 +876,7 @@
     "movement": 2,
     "strength": 16,
     "cost": 90,
-    "requiredTech": "Citizen Levy",
+    "requiredTech": "Bronze Working",
     "uniques": [
 	"Comment [Medium spear infantry, elite training, zero childhood, maximum trauma.]",
       	"Only available <in cities with a [Syssition]>",
@@ -899,7 +898,7 @@
     "movement": 2,
     "strength": 15,
     "cost": 80,
-    "requiredTech": "Citizen Levy",
+    "requiredTech": "Bronze Working",
     "uniques": [
 	"Comment [Medium spear infantry, elite training, Poseidon's fan boys.]",
       	"Only available <in cities with a [Barracks]>",
@@ -922,7 +921,7 @@
     "movement": 2,
     "strength": 15,
     "cost": 90,
-    "requiredTech": "Citizen Levy",
+    "requiredTech": "Bronze Working",
     "uniques": [
       	"Only available <in cities with a [Barracks]>",
 	"Comment ['Heavy spear infantry, proof that privilege can, in fact, carry a spear.']",
@@ -945,7 +944,7 @@
     "movement": 2,
     "strength": 15,
     "cost": 80,
-    "requiredTech": "Citizen Levy",
+    "requiredTech": "Bronze Working",
     "uniques": [
       	"Only available <in cities with a [Barracks]>",
 	"Comment ['Mediun spear infantry, hardened by the mountains of Epirus, great at jogging']",
@@ -967,7 +966,7 @@
     "movement": 2,
     "strength": 15,
     "cost": 90,
-    "requiredTech": "Citizen Levy",
+    "requiredTech": "Bronze Working",
     "uniques": [
       	"Only available <in cities with a [Barracks]>",
 	"Comment ['Medoum spear infantry. The Sacred Band. Proof that emotional commitment can, in fact, become a military doctrine.']",
@@ -988,6 +987,7 @@
     "movement": 2,
     "strength": 15,
     "cost": 80,
+    "requiredTech": "Bronze Working",
     "uniques": [
       	"Only available <in cities with a [Parthenon]>",
 	"Comment ['Medium spear infantry, built for sieges and river fights, not poetry.']",
@@ -1238,7 +1238,6 @@
     "movement": 2,
     "strength": 20,
     "cost": 170,
-    "requiredTech": "Infantry Training",
     "uniques": [
       "Comment [Heavy infantry, these guys can siege a city and build a highway at the same time. Too bad they’re slower than your grandma’s morning walk.]",
       "Only available <in cities with a [Barracks]>",
