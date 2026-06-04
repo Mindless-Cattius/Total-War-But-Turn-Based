@@ -1067,112 +1067,135 @@
     {
 		"name": "Mercenary (Celtic)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]",
+				"Will not be displayed in Civilopedia"
+]
     },
     {
 		"name": "Mercenary (Eastern)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Mesopotamian)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Judean)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Cilician)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Germanic)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Hellenic)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Rhodian)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Cretan)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Iberian)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Illyrian)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Oscan)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Numidian)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Libyan)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Mercenary (Thracian)",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for specific Mercenary Units]"]
+		"uniques": ["Comment [Required for specific Mercenary Units]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Legion",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"]
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Hellenic Legion",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"]
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Hellenic Limitanei",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Limitanei]"]
+		"uniques": ["Comment [Required for Limitanei]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Gallic Legion",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"]
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Gallic Limitanei",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Limitanei]"]
+		"uniques": ["Comment [Required for Limitanei]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Illyrian Legion",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"]
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Desert Legion",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"]
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
     },
 
 				///PROVINCE FLAG
