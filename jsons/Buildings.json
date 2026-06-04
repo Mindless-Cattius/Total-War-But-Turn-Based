@@ -1561,7 +1561,7 @@
 	},
 	{
 		"name": "Ceramics Workshop",
-		"requiredNearbyImprovedResources": ["Clay","Stone"],
+		"requiredNearbyImprovedResources": ["Clay"],
 		"hurryCostModifier": 25,
 		"cost": 60,
 		"maintenance": 2,
