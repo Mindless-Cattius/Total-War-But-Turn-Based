@@ -339,12 +339,11 @@
 		"uniques": [
 	"Gain a free [REBEL IMMINENT] [in resisting cities] <for [Human player] Civilizations>",
 	"Gain a free [REBEL IMMINENT] [in your cities] <with [1]% chance> <when between [1] and [2] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [2]% chance> <when between [3] and [4] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [3]% chance> <when between [5] and [6] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [4]% chance> <when between [7] and [8] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [9] and [10] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [7]% chance> <when between [11] and [12] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when above [12] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [2]% chance> <when between [3] and [5] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [3]% chance> <when between [6] and [9] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [4]% chance> <when between [10] and [11] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [12] and [14] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when above [15] [Rebel Risk]> <for [Human player] Civilizations>",
 			"Cannot be traded",
 ]
     },	    

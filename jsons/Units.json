@@ -647,7 +647,7 @@
 	"Drill I",
       "Mercenary",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Thureophoros",
@@ -865,7 +865,7 @@
       "[Spearman] ability",
       "Infantry Shield II",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Spartan Hoplite",
@@ -887,7 +887,7 @@
       "Infantry Shield II",
       "Spartan Aura",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Athenian Hoplite",
@@ -910,7 +910,7 @@
       "Infantry Shield II",
       "Amphibious I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Noble Hoplite",
@@ -933,7 +933,7 @@
       "Drill I",
       "Formation I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Molossian Hoplite",
@@ -955,7 +955,7 @@
       "Infantry Shield II",
       "[Mountaineer]",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Theban Hoplite",
@@ -978,7 +978,7 @@
       "Infantry Shield II",
       "Drill I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Iphicratian Hoplite",
@@ -1000,7 +1000,7 @@
       "Amphibious I",
     ],
     "hurryCostModifier": 20,
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Pike Phalanx",
@@ -2248,7 +2248,7 @@
     "unitType": "Ruler",
     "movement": 3,
     "strength": 15,
-    "cost": 130,
+    "cost": 90,
     "uniques": [
       		"Only available <before adopting [Empire]> <hidden from users>",
        		"[This Unit] is destroyed <after adopting [Manipular Legion]>"
@@ -2258,10 +2258,10 @@
 		"Can only be built <in [Capital] cities>",
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
+		"[+20]% production cost <during the [Hellenistic Age]>",
     		"Consumes [1] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
     		"Never appears as a Barbarian unit <before the [Imperial Age]>",
-      		"Cannot be purchased",
     ],
     "promotions": [
 	      "Commander",
@@ -2275,7 +2275,7 @@
     "replaces": "King",
     "movement": 3,
     "strength": 15,
-    "cost": 120,
+    "cost": 90,
     "uniques": [
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
       		"Only available <before adopting [Empire]> <hidden from users>",
@@ -2283,9 +2283,9 @@
        		"[This Unit] is destroyed <after adopting [Empire]>",
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
+		"[+20]% production cost <during the [Hellenistic Age]>",
     		"Consumes [1] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
-      		"Cannot be purchased",
     ],
     "promotions": [
 	"Commander",
@@ -2298,16 +2298,16 @@
     "unitType": "Ruler",
     "movement": 3,
     "strength": 16,
-    "cost": 170,
+    "cost": 120,
     "uniques": [
       		"Only available <after adopting [Empire]> <hidden from users>",
 		"Can only be built <in [Capital] cities>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"[+20]% Strength <during the [Imperial Age]>",
-		"[+30]% production cost <during the [Imperial Age]>",
+		"[+40]% production cost <during the [Imperial Age]>",
+		"[+20]% production cost <during the [Hellenistic Age]>",
     		"Consumes [2] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
-      		"Cannot be purchased", 
                    "Unavailable <for [The Scythians] Civilizations> <hidden from users>"
     ],
     "promotions": [
@@ -2322,17 +2322,17 @@
     "uniqueTo": "The Romans",
     "movement": 3,
     "strength": 15,
-    "cost": 120,
+    "cost": 90,
     "uniques": [
       		"Only available <after adopting [Manipular Legion]> <hidden from users>",
       		"Unavailable <after adopting [Empire]> <hidden from users>",
 		"[+10]% Strength <during the [Imperial Age]>",
 		"[+30]% production cost <during the [Imperial Age]>",
+		"[+20]% production cost <during the [Hellenistic Age]>",
     		"Consumes [1] [Ruler] <before adopting [Centralized Command]>",
     		"Consumes [2] [Ruler] <after adopting [Centralized Command]>",
 		"Remove [A Noble's Death] [in all cities]",
                 "Can transform to [Emperor] <after adopting [Empire]>",
-      		"Cannot be purchased",
     ],
     "promotions": [
 	"Commander",
@@ -2348,18 +2348,18 @@
     "movement": 3,
     "strength": 11,
     "rangedStrength": 9,
-    "cost": 150,
+    "cost": 110,
     "uniques": [
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
+		"[+20]% production cost <during the [Hellenistic Age]>",
     		"Consumes [1] [Ruler] <before adopting [Empire]>",
     		"Consumes [2] [Ruler] <after adopting [Empire]>",
 		"Remove [A Noble's Death] [in all cities]",
       		"Never appears as a Barbarian unit",
       		"[+10]% Strength <when defending> <after adopting [Empire]> <hidden from users>",
-      		"Cannot be purchased",
     ],
     "promotions": [
       	"Horse Archer ability",

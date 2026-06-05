@@ -2239,9 +2239,10 @@
 		"uniques": [
 			"Comment ['The situation remains unstable, it may stablize on it own or not, which is politician language for someone is about to die. A garrison will help reduces unrest. Armed supervision remains one of civilization’s oldest hobbies.']",
 			"[-1 Food, -1 Gold] from [improved] tiles [in this city]",
-			"[2] [Spearman]s rebel <upon turn end> <with [30]% chance> <starting from the [Classical Age]> <hidden from users>",
+			"[1] [Spearman]s rebel <upon turn end> <with [30]% chance> <starting from the [Classical Age]> <hidden from users>",
+			"[1] [Skirmisher]s rebel <upon turn end> <with [30]% chance> <starting from the [Classical Age]> <hidden from users>",
 			"[1] [Swordsman]s rebel <upon turn end> <with [30]% chance> <during the [Hellenistic Age]> <hidden from users>",
-			"[2] [Swordsman]s rebel <upon turn end> <with [30]% chance> <during the [Imperial Age]> <hidden from users>",
+			"[1] [Swordsman]s rebel <upon turn end> <with [40]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [Heavy Swordsman]s rebel <upon turn end> <with [20]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [General]s rebel <upon turn end> <with [20]% chance> <starting from the [Classical Age]> <hidden from users>",
 			"[+50]% Production when constructing [Restored Order] buildings [in this city] <with a garrison>",
