@@ -1436,9 +1436,7 @@
     		"name": "Peloponnese War Spartan",
 		"resourceType": "Bonus",
     		"uniques": [
-			"[-30]% City-State Influence degradation",
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
-			 
 			"[+60]% Science cost of researching new Technologies",
 		]
   	},
@@ -1446,9 +1444,7 @@
     		"name": "Peloponnese War Athenian",
 		"resourceType": "Bonus",
     		"uniques": [
-			"[-30]% City-State Influence degradation",
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
-			 
 			"[+60]% Science cost of researching new Technologies",
 		]
   	},
@@ -1456,9 +1452,7 @@
     		"name": "Peloponnese War Persian",
 		"resourceType": "Bonus",
     		"uniques": [
-			"[-30]% City-State Influence degradation",
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
-			 
 			"[+70]% Science cost of researching new Technologies",
 		]
   	},
@@ -1468,7 +1462,6 @@
     		"uniques": [
 			"[-30]% City-State Influence degradation",
 			"Triggers victory <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Thessalia] is constructed> <if [Boiotia] is constructed> <if [Attike] is constructed> <if [Lakedaimon] is constructed> <if [Hellespontos] is constructed> <if [Mysia] is constructed> <if [Lydia] is constructed> <if [Karia] is constructed> <if [Ionia] is constructed>",
-			 
 			"[+60]% Science cost of researching new Technologies",
 		]
   	},
@@ -1478,8 +1471,6 @@
     		"uniques": [
 			"[-30]% City-State Influence degradation",
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
-			 
-			"[+60]% Science cost of researching new Technologies",
 		]
   	},
 ]
