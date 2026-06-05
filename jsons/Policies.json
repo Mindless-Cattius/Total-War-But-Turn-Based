@@ -1162,7 +1162,8 @@
                     	"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
 			"[+1] Movement <for [Melee Water] units>"
                     	"[+10]% Production when constructing [Water] units [in all cities]",
-		   	"[+20]% Strength <for [Galley] units> <when above [3] [Timber]>",
+		   	"[+10]% Strength <for [Galley] units>",
+		   	"[+10]% Strength <for [Galley] units> <when above [2] [Timber]>",
 		   	"[+10]% Strength <for [{Military} {Water}] units> <when above [3] [Timber]>",
                     	"Provides [5] [Manpower]",
                     	"Provides [2] [Timber]",
