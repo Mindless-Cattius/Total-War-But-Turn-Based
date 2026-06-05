@@ -35,7 +35,7 @@
 	{
 		"name": "Survivalism I",
 		"uniques": ["[+2] HP when healing", "[+5]% Strength <when defending>","[+50]% weight to this choice for AI decisions"],
-		"unitTypes": ["Scout","Archery","Mounted","Mounted Archery","Sword","Spear","Siege"],
+		"unitTypes": ["Scout","Archery"],
         "column": 2,
         "row": 1
 	},
@@ -644,8 +644,6 @@
 		"uniques": [
 			"[+10]% Strength",
 			"Only available <if [Imperial Armory] is constructed>",
-			"Only available <when above [200] [Gold]> <(modified by game speed)>",
-			"Gain [-200] [Gold] <(modified by game speed)>",
 		],
         "column": 27,
         "row": 1
@@ -660,7 +658,7 @@
 		"name": "Spartan Aura",
 		"uniques": [
 			"[-10]% Strength for enemy [{Military} {Land}] units in adjacent [All] tiles",
-			"Earn [20]% of killed [Military] unit's [Strength] as [Culture]"
+			"Earn [10]% of killed [Military] unit's [Strength] as [Culture]"
 		]
 	},
 	{
@@ -794,8 +792,6 @@
 		"name": "Improved Armor",
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege","Ruler","Generals","Elephant"],
 		"uniques": [
-			"Only available <when above [100] [Gold]> <(modified by game speed)>",
-			"Gain [-100] [Gold] <(modified by game speed)>",
 			"[+10]% Strength <when defending>",
 			"Only available <if [Forge] is constructed>",
 		]
