@@ -18,8 +18,11 @@
 	"Retain [+20]% of the happiness from a luxury after the last copy has been traded away",
         "[-1] Sight <for [Embarked] units>",
         "[+60]% Culture cost of adopting new Policies",
+
 //Units
+	"[+1] Movement <for [Military] units> <when adjacent to a [Imperium III] unit>",
 	"[+2] XP gained from combat <for [Military] units> <when adjacent to a [Inspiring] unit>",
+	"[+2] XP gained from combat <for [Military] units> <when adjacent to a [Prudentia III] unit>",
         "[{Military} {Water}] units gain the [Warship] promotion",
         "[{Military} {Land}] units gain the [War Transports] promotion",
         "[{Military} {Land}] units gain the [Healing] promotion",

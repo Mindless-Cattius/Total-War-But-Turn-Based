@@ -2240,7 +2240,6 @@
     ],
     "promotions": [
 	"Commander",
-      	"Cavalry Shield II"
     ],
     "attackSound": "horse"
   },
@@ -2265,8 +2264,6 @@
       		"Cannot be purchased",
     ],
     "promotions": [
-      	"[Cavalry] ability",
-      	"Cavalry Shield II",
 	      "Commander",
     ],
     "attackSound": "horse"
@@ -2291,10 +2288,55 @@
       		"Cannot be purchased",
     ],
     "promotions": [
-      	"[Cavalry] ability",
-      	"Cavalry Shield II",
 	"Commander",
 	"Amphibious I",
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Emperor",
+    "unitType": "Ruler",
+    "movement": 3,
+    "strength": 16,
+    "cost": 170,
+    "uniques": [
+      		"Only available <after adopting [Empire]> <hidden from users>",
+		"Can only be built <in [Capital] cities>",
+		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
+		"[+20]% Strength <during the [Imperial Age]>",
+		"[+30]% production cost <during the [Imperial Age]>",
+    		"Consumes [2] [Ruler]",
+		"Remove [A Noble's Death] [in all cities]",
+      		"Cannot be purchased", 
+                   "Unavailable <for [The Scythians] Civilizations> <hidden from users>"
+    ],
+    "promotions": [
+	"Commander",
+	"Imperium I",
+    ],
+    "attackSound": "horse"
+  },
+  {
+    "name": "Consul",
+    "unitType": "Ruler",
+    "uniqueTo": "The Romans",
+    "movement": 3,
+    "strength": 15,
+    "cost": 120,
+    "uniques": [
+      		"Only available <after adopting [Manipular Legion]> <hidden from users>",
+      		"Unavailable <after adopting [Empire]> <hidden from users>",
+		"[+10]% Strength <during the [Imperial Age]>",
+		"[+30]% production cost <during the [Imperial Age]>",
+    		"Consumes [1] [Ruler] <before adopting [Centralized Command]>",
+    		"Consumes [2] [Ruler] <after adopting [Centralized Command]>",
+		"Remove [A Noble's Death] [in all cities]",
+                "Can transform to [Emperor] <after adopting [Empire]>",
+      		"Cannot be purchased",
+    ],
+    "promotions": [
+	"Commander",
+	"Gravitas I",
     ],
     "attackSound": "horse"
   },
@@ -2325,57 +2367,6 @@
 	"Parthian Doctrine",
     ],
     "attackSound": "arrow"
-  },
-  {
-    "name": "Emperor",
-    "unitType": "Ruler",
-    "movement": 3,
-    "strength": 16,
-    "cost": 170,
-    "uniques": [
-      		"Only available <after adopting [Empire]> <hidden from users>",
-		"Can only be built <in [Capital] cities>",
-		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
-		"[+20]% Strength <during the [Imperial Age]>",
-		"[+30]% production cost <during the [Imperial Age]>",
-    		"Consumes [2] [Ruler]",
-		"Remove [A Noble's Death] [in all cities]",
-      		"Cannot be purchased", 
-                   "Unavailable <for [The Scythians] Civilizations> <hidden from users>"
-    ],
-    "promotions": [
-      	"[Cavalry] ability",
-      	"Cavalry Shield II",
-	"Commander",
-	"Art of War",
-    ],
-    "attackSound": "horse"
-  },
-  {
-    "name": "Consul",
-    "unitType": "Ruler",
-    "uniqueTo": "The Romans",
-    "movement": 3,
-    "strength": 15,
-    "cost": 130,
-    "uniques": [
-      		"Only available <after adopting [Manipular Legion]> <hidden from users>",
-      		"Unavailable <after adopting [Empire]> <hidden from users>",
-		"[+10]% Strength <during the [Imperial Age]>",
-		"[+40]% production cost <during the [Imperial Age]>",
-    		"Consumes [1] [Ruler] <before adopting [Centralized Command]>",
-    		"Consumes [2] [Ruler] <after adopting [Centralized Command]>",
-		"Remove [A Noble's Death] [in all cities]",
-                "Can transform to [Emperor] <after adopting [Empire]>",
-      		"Cannot be purchased",
-    ],
-    "promotions": [
-      	"[Cavalry] ability",
-      	"Cavalry Shield II",
-	"Commander",
-	"Scouting I"
-    ],
-    "attackSound": "horse"
   },
   {
     "name": "Scythian Nobles",
