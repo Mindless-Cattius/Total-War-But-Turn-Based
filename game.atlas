@@ -804,7 +804,7 @@ ResourceIcons/Perfume
   index: -1
 ResourceIcons/Praetorian Greed
   rotate: false
-  xy: 1516, 1259
+  xy: 1632, 1215
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -818,7 +818,7 @@ ResourceIcons/Purple Dye
   index: -1
 ResourceIcons/Rebel Risk
   rotate: false
-  xy: 1574, 1259
+  xy: 652, 1280
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -832,14 +832,14 @@ ResourceIcons/Roman 3rd Century Crisis
   index: -1
 ResourceIcons/Rule
   rotate: false
-  xy: 1632, 1273
+  xy: 652, 1164
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Ruler
   rotate: false
-  xy: 1690, 1273
+  xy: 652, 1106
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -853,7 +853,7 @@ ResourceIcons/Salt
   index: -1
 ResourceIcons/Sanitation
   rotate: false
-  xy: 1632, 1215
+  xy: 652, 990
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1138,6 +1138,13 @@ UnitPromotionIcons/Assault
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Breakthrough
+  rotate: false
+  xy: 320, 1447
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Bronze Ram
   rotate: false
   xy: 4, 1078
@@ -1154,7 +1161,7 @@ UnitPromotionIcons/Cavalry Shield
   index: -1
 UnitPromotionIcons/Clubmen
   rotate: false
-  xy: 320, 1447
+  xy: 1616, 1331
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1187,6 +1194,13 @@ UnitPromotionIcons/Drill
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Eagle Eye
+  rotate: false
+  xy: 1674, 1331
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Flanking
   rotate: false
   xy: 112, 9
@@ -1196,7 +1210,7 @@ UnitPromotionIcons/Flanking
   index: -1
 UnitPromotionIcons/Foraging
   rotate: false
-  xy: 1616, 1331
+  xy: 1400, 1259
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1215,16 +1229,30 @@ UnitPromotionIcons/Frontline
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Gravitas
+  rotate: false
+  xy: 1458, 1259
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Healing
   rotate: false
-  xy: 1674, 1331
+  xy: 1516, 1259
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Imperium
+  rotate: false
+  xy: 1574, 1259
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Improved Armor
   rotate: false
-  xy: 1400, 1259
+  xy: 1632, 1273
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1266,7 +1294,7 @@ UnitPromotionIcons/Iron Darts
   index: -1
 UnitPromotionIcons/King Slayer
   rotate: false
-  xy: 1458, 1259
+  xy: 1690, 1273
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1334,6 +1362,13 @@ UnitPromotionIcons/Parthian Doctrine
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Pathfinder
+  rotate: false
+  xy: 1949, 1583
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Positioning
   rotate: false
   xy: 1409, 1821
@@ -1346,6 +1381,13 @@ UnitPromotionIcons/Praetorianus
   xy: 1517, 1821
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Prudentia
+  rotate: false
+  xy: 1690, 1215
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Raider
@@ -1362,9 +1404,23 @@ UnitPromotionIcons/Rapid Fire
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Royal Retinue
+  rotate: false
+  xy: 652, 1222
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Ruler
   rotate: false
-  xy: 1949, 1583
+  xy: 652, 1048
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Scorched Earth
+  rotate: false
+  xy: 652, 932
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1404,6 +1460,13 @@ UnitPromotionIcons/Spear Wall
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Spoils of War
+  rotate: false
+  xy: 652, 874
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Standard Bearer
   rotate: false
   xy: 1517, 1605
@@ -1413,7 +1476,7 @@ UnitPromotionIcons/Standard Bearer
   index: -1
 UnitPromotionIcons/Successor
   rotate: false
-  xy: 1690, 1215
+  xy: 652, 816
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1423,5 +1486,12 @@ UnitPromotionIcons/Veteran
   xy: 436, 474
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Virtus
+  rotate: false
+  xy: 652, 758
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
