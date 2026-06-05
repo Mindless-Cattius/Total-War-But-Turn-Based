@@ -3,7 +3,9 @@
     "uniques": [ 
 			// ADDONS
 
-// GLOBAL
+// GLOBAL,
+	"Cannot build [Settler] units <if [Peloponnese War] is constructed by anybody>",
+	"Cannot build [Settler] units <if [3rd Century Crisis] is constructed by anybody>",
 	"Provides [1] [Ruler]",
 	"Provides [1] [Rule]",
 	"[+30]% Faith cost of generating Great Prophet equivalents"
