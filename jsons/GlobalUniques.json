@@ -4,39 +4,29 @@
 			// ADDONS
 
 // GLOBAL
+	"Provides [1] [Ruler]",
+	"Provides [1] [Rule]",
 	"[+30]% Faith cost of generating Great Prophet equivalents"
 	"[-20]% growth [in all cities]",
-	"May not annex cities <when at war>",
-	"May not annex cities <during the [Archaic Age]>",
 	"Gain a free [Risk of Plague] [in all cities] <starting from the [Classical Age]>",
 	"Gain a free [Urban Fabric I] [in all cities] <in cities without a [Urban Fabric I]>",
-	"Provides [1] [Ruler]",
-	"Provides [30] [Manpower] <in [in City-State cities] cities>"
 	"[-1] Range <for [Scout] units>",
+	"Provides [30] [Manpower] <in [in City-State cities] cities>"
 	"Military Units gifted from City-States start with [30] XP",
 	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
+	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
 	"Retain [+20]% of the happiness from a luxury after the last copy has been traded away",
         "[-1] Sight <for [Embarked] units>",
         "[+60]% Culture cost of adopting new Policies",
+//Units
+	"[+2] XP gained from combat <for [Military] units> <when adjacent to a [Inspiring] unit>",
         "[{Military} {Water}] units gain the [Warship] promotion",
         "[{Military} {Land}] units gain the [War Transports] promotion",
         "[{Military} {Land}] units gain the [Healing] promotion",
-        "May buy items in puppet cities",
-	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
-	"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
-	"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
-//Units
-	"[-50]% XP gained from combat <for [all] units> <vs [Barbarians] units>",
-	"[+2] XP gained from combat <for [Military] units> <when adjacent to a [Inspiring] unit>",
- 	"[+70]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
+
 
 //Cities
-	"[-40]% Strength for cities <when attacking> <hidden from users>",
-	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
-	"[-20]% Strength for cities <vs [Scout] units> <when attacking>",
 
-	"[-40]% Production when constructing [all] buildings [in all cities] <when at war>",
-	"[+80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
 	"[+10]% Strength for cities <when defending> <in cities with a [Garrison Post]> <with a garrison>",
 	"[+10]% Strength for cities <when attacking> <in cities with a [Garrison Post]> <in cities with a [Walls]> <with a garrison>",
 	"[+20]% Strength for cities <when attacking> <in cities with a [Garrison Post]> <in cities with a [Wall Towers]> <with a garrison>",
@@ -47,13 +37,6 @@
 
 	"[+500]% Gold cost of upgrading <for [Commander] units> <before adopting [Empire]>",
 	"[+800]% Gold cost of upgrading <for [Commander] units> <after adopting [Empire]>",
-	"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
-	"[Gold] cost of purchasing [Military] units [+50]% <when at war> <during the [Imperial Age]>",
-	"[Gold] cost of purchasing [Military] units [+30]%",
-	"[Gold] cost of purchasing [Civilian] units [+300]% <when at war>",
-	"[Gold] cost of purchasing [Siege] units [+100]% <when at war>",
- 	"[Gold] cost of purchasing [All] buildings [+40]%",
- 	"[Gold] cost of purchasing [All] buildings [+50]% <when at war>",
 
 
 //MANPOWER
@@ -108,37 +91,6 @@
         "[1] free random researchable Tech(s) from the [Classical Age] <upon gaining a [Great Scholar] unit> <for [AI player] Civilizations> <during the [Classical Age]>",
         "[1] free random researchable Tech(s) from the [Hellenistic Age] <upon gaining a [Great Scholar] unit> <for [AI player] Civilizations> <during the [Hellenistic Age]>",
 // Maintenance
-        "[+100]% maintenance costs <for [Military] units> <before the [Imperial Age]>",
-        "[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
-        "[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
-        "[+100]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
-        "[+50]% maintenance costs <for [Military] units> <when at war>",
-
-        "[+20]% maintenance costs <for [Cretan Archer] units>",
-
-        "[+20]% maintenance costs <for [Spear] units>",
-        "[+30]% maintenance costs <for [Pike Phalanx] units>",
-        "[+60]% maintenance costs <for [Royal Phalanx] units>",
-        "[+200]% maintenance costs <for [Praetoria] units>",
-        "[+60]% maintenance costs <for [Mercenary] units>",
-
-        "[+30]% maintenance costs <for [Sword] units>",
-        "[+50]% maintenance costs <for [Infantry Shield III] units>",
-        "[+50]% maintenance costs <for [Mounted Archery] units>",
-        "[+40]% maintenance costs <for [Cavalry] units>",
-        "[+140]% maintenance costs <for [Cataphract] units>",
-        "[+150]% maintenance costs <for [Clibanarii] units>",
-        "[+50]% maintenance costs <for [Royal Agema] units>",
-
-        "[+50]% maintenance costs <for [Elephant] units>",
-        "[+150]% maintenance costs <for [Siege] units>",
-
-        "[+50]% maintenance costs <for [Trireme] units>",
-        "[+100]% maintenance costs <for [Pentere] units>",
-        "[+150]% maintenance costs <for [Hexere] units>",
-        "[+150]% maintenance costs <for [Decere] units>",
-
-        "[-50]% maintenance costs <for [All] units> <in [City center] tiles>",
 // + research with nobles, + happiness with recruits 
 
 			// 3rd century

@@ -1,4 +1,80 @@
  [	
+	/// RULE
+
+    {
+		"name": "Rule",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Comment [Cities rules]",
+
+			"May not annex cities <during the [Archaic Age]>",
+			"May not annex cities <when at war>",
+        		"May buy items in puppet cities",
+			"[-40]% Production when constructing [all] buildings [in all cities] <when at war>",
+			"[+80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
+			"[-40]% Strength for cities <when attacking> <hidden from users>",
+			"[-30]% Strength for cities <when attacking> <vs [Mounted Archery] units>",
+			"[-20]% Strength for cities <when attacking> <vs [Scout] units>",
+
+			"Comment [Gold rules]"
+
+			"[Gold] cost of purchasing [Military] units [+30]%",
+ 			"[Gold] cost of purchasing [All] buildings [+40]%",
+ 			"[Gold] cost of purchasing [Garrison Post] buildings [+50]% <when at war>",
+ 			"[Gold] cost of purchasing [Walls] buildings [+50]% <when at war>",
+ 			"[Gold] cost of purchasing [Wall Towers] buildings [+50]% <when at war>",
+ 			"[Gold] cost of purchasing [All] buildings [+50]% <when at war>",
+			"[Gold] cost of purchasing [Civilian] units [+300]% <when at war>",
+			"[Gold] cost of purchasing [Siege] units [+100]% <when at war>",
+			"[Gold] cost of purchasing [Military] units [+30]% <when at war>",
+			"[Gold] cost of purchasing [Military] units [+50]% <when at war> <during the [Imperial Age]>",
+
+			"Comment [Units]",
+
+			"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
+			"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
+			"[-50]% XP gained from combat <for [all] units> <vs [Barbarians] units>",
+ 			"[+70]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
+
+			"Comment [Unit's Upkeep]",
+
+        		"[+20]% maintenance costs <for [Cretan Archer] units>",
+        		"[+20]% maintenance costs <for [Spear] units>",
+        		"[+30]% maintenance costs <for [Pike Phalanx] units>",
+        		"[+60]% maintenance costs <for [Royal Phalanx] units>",
+        		"[+60]% maintenance costs <for [Mercenary] units>",
+        		"[+30]% maintenance costs <for [Sword] units>",
+        		"[+50]% maintenance costs <for [Infantry Shield III] units>",
+        		"[+200]% maintenance costs <for [Praetoria] units>",
+        		"[+50]% maintenance costs <for [Mounted Archery] units>",
+        		"[+40]% maintenance costs <for [Cavalry] units>",
+        		"[+50]% maintenance costs <for [Royal Agema] units>",
+        		"[+140]% maintenance costs <for [Cataphract] units>",
+        		"[+150]% maintenance costs <for [Clibanarii] units>",
+
+        		"[+50]% maintenance costs <for [Armored Elephant] units>",
+        		"[+50]% maintenance costs <for [Elephant] units>",
+        		"[+150]% maintenance costs <for [Siege] units>",
+
+        		"[+50]% maintenance costs <for [Trireme] units>",
+        		"[+100]% maintenance costs <for [Pentere] units>",
+        		"[+150]% maintenance costs <for [Hexere] units>",
+        		"[+150]% maintenance costs <for [Decere] units>",
+
+        		"[-50]% maintenance costs <for [All] units> <in [City center] tiles>",
+
+        		"[+100]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
+        		"[+50]% maintenance costs <for [Military] units> <when at war>",
+
+        		"[+100]% maintenance costs <for [Military] units> <before the [Imperial Age]>",
+        		"[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
+        		"[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
+
+			"Cannot be traded",
+			"Doesn't generate naturally",
+		]
+    },
+
 	// Bonus resources
     {
 		"name": "Cattle",
