@@ -55,7 +55,7 @@
 		"prerequisites": ["Survivalism II"],
 		"uniques": [
 			"Unit will heal every turn, even if it performs an action", 
-			"[+15]% Strength <vs cities> <when defending>"
+			"[+10]% Strength <vs cities> <when defending>"
 			"[+50]% weight to this choice for AI decisions",
 ],
 		"unitTypes": ["Scout"],
@@ -65,8 +65,8 @@
 	{
 		"name": "Foraging I",
 		"uniques": [
-			"[+3] HP when healing <in [Foreign Land] tiles>",
-    			"[+10]% Yield from pillaging tiles",
+			"[+15]% Health from pillaging tiles",
+    			"[+15]% Yield from pillaging tiles",
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Siege","Archery","Elephant","Scout"],
         "column": 3,
@@ -87,7 +87,9 @@
 		"name": "Foraging III",
 		"prerequisites": ["Foraging I","Survivalism I"],
 		"uniques": [
-			"[+2] HP when healing <in [Foreign Land] tiles>","[+15]% Strength <when defending> <when fighting in [Open terrain] tiles>"
+			"[+2] HP when healing <in [Foreign Land] tiles>",
+			"[+15]% Health from pillaging tiles",
+			"[+10]% Strength <when defending> <when fighting in [Open terrain] tiles>"
 ],
 		"unitTypes": ["Mounted","Mounted Archery"],
         "column": 3,
@@ -111,7 +113,9 @@
 	{
 		"name": "Scouting II",
 		"prerequisites": ["Scouting I"],
-		"uniques": ["[+1] Movement"],
+		"uniques": [
+			"[+1] Movement"
+],
 		"unitTypes": ["Mounted","Mounted Archery","Scout","Melee Water","Sword","Spear","Archery"],
         "column": 4,
         "row": 2
@@ -119,8 +123,12 @@
 	{
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
-		"uniques": ["[+1] Sight","[+10]% Strength <when fighting in [Hill] tiles>","[+10]% Strength <vs cities> <when defending>"],
-		"unitTypes": ["Mounted","Mounted Archery","Scout","Melee Water","Archery"],
+		"uniques": [
+			"[+1] Sight",
+			"[+1] Sight <for [{Military} {Water}] units>",
+			"[+10]% Strength <when fighting in [Hill] tiles>",
+	],
+		"unitTypes": ["Mounted","Mounted Archery","Scout","Melee Water","Archery","Sword","Spear",],
         "column": 4,
         "row": 3
 	},
@@ -144,7 +152,7 @@
 		"name": "Marksman III",
 		"prerequisites": ["Marksman II"],
 		"uniques": [
-			"[+15]% Strength <when attacking>",
+			"[+10]% Strength <when attacking>",
 			"[+10]% Strength <vs cities>"
 ],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
@@ -153,7 +161,7 @@
 	},
 	{
 		"name": "Shock I",
-		"uniques": ["[+15]% Strength <when attacking>"],
+		"uniques": ["[+10]% Strength <when attacking>"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 6,
         "row": 1
@@ -162,7 +170,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": [
-			"[+15]% Strength <when attacking>"
+			"[+10]% Strength <when attacking>"
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 6,
@@ -172,9 +180,8 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": [
-			"[+10]% Strength <when attacking>",
-			"[+10]% Strength <vs [Wounded] units>",
-			"[+15]% Strength <vs cities>"
+			"[+20]% Strength <when attacking>",
+			"[+20]% Strength <when attacking> <vs cities>"
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 6,
@@ -182,7 +189,9 @@
 	},
 	{
 		"name": "Ramming Tactics I",
-		"uniques": ["[+10]% Strength <vs [Water] units>","[+15]% Strength <vs [Embarked] units>"],
+		"uniques": [
+			"[+10]% Strength <vs [Water] units>",
+			"[+15]% Strength <vs [Embarked] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 7,
         "row": 1
@@ -190,7 +199,11 @@
 	{
 		"name": "Ramming Tactics II",
 		"prerequisites": ["Ramming Tactics I"],
-		"uniques": ["[+10]% Strength <vs [Water] units>","[+15]% Strength <vs [Embarked] units>"],
+		"uniques": [
+			"[+10]% Strength <vs [Water] units>",
+			"[+15]% Strength <vs [Embarked] units>",
+			"[+10]% Strength <vs cities>"
+],
 		"unitTypes": ["Melee Water"],
         "column": 7,
         "row": 2
@@ -198,7 +211,11 @@
 	{
 		"name": "Ramming Tactics III",
 		"prerequisites": ["Ramming Tactics II"],
-		"uniques": ["[+10]% Strength <vs [Water] units>","[+15]% Strength <vs [Embarked] units>","[+30]% Strength <vs cities>"],
+		"uniques": [
+			"[+10]% Strength <vs [Water] units>",
+			"[+15]% Strength <vs [Embarked] units>",
+			"[+30]% Strength <vs cities>"
+],
 		"unitTypes": ["Melee Water"],
         "column": 7,
         "row": 3
@@ -245,8 +262,10 @@
 	{
 		"name": "Positioning III",
 		"prerequisites": ["Positioning II"],
-		"uniques": ["[+15]% Strength <when defending>",
-  "[+15]% Strength <when defending> <vs cities>"],
+		"uniques": [
+			"[+15]% Strength <when defending>",
+  			"[+15]% Strength <when defending> <vs cities>"
+],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 9,
         "row": 3
@@ -261,7 +280,7 @@
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
-		"uniques": ["[+15]% Strength <when defending>"],
+		"uniques": ["[+10]% Strength <when defending>"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 10,
         "row": 2
@@ -269,7 +288,10 @@
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
-		"uniques": ["[+25]% Strength <when defending>","[+15]% Strength <when defending> <vs cities>"],
+		"uniques": [
+			"[+20]% Strength <when defending>",
+			"[+15]% Strength <when defending> <vs cities>"
+],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 10,
         "row": 3
@@ -315,7 +337,7 @@
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+30]% Strength <vs cities>"],
+		"uniques": ["[+20]% Strength <vs cities>"],
 		"unitTypes": ["Siege"],
         "column": 13,
         "row": 2
@@ -353,8 +375,11 @@
 	},
 	{
 		"name": "Coastal Raider I",
-		"uniques": ["[+15]% Strength <vs cities> ","Earn [10]% of the damage done to [City] units as [Gold]",
-		"Withdraws before melee combat <with [5]% chance>"],
+		"uniques": [
+			"[+15]% Strength <vs cities>",
+    			"[+20]% Yield from pillaging tiles",
+			"Earn [10]% of the damage done to [City] units as [Gold]",
+],
 		"unitTypes": ["Melee Water"],
         "column": 15,
         "row": 1
@@ -362,8 +387,11 @@
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
-		"uniques": ["[+25]% Strength <when attacking> <vs cities>","Earn [20]% of the damage done to [City] units as [Gold]",
-		"Withdraws before melee combat <with [5]% chance>"],
+		"uniques": [
+			"[+25]% Strength <when attacking> <vs cities>",
+    			"[+20]% Yield from pillaging tiles",
+			"Earn [20]% of the damage done to [City] units as [Gold]",
+],
 		"unitTypes": ["Melee Water"],
         "column": 15,
         "row": 2
@@ -373,8 +401,10 @@
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": [
 			"[+30]% Strength <when attacking> <vs cities>",
- "Earn [30]% of the damage done to [City] units as [Gold]",
-			"Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately"],
+    			"[+20]% Yield from pillaging tiles",
+ 			"Earn [30]% of the damage done to [City] units as [Gold]",
+			"Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately"
+],
 		"unitTypes": ["Melee Water"],
         "column": 15,
         "row": 3
@@ -383,8 +413,8 @@
 	{
 		"name": "Formation I",
 		"uniques": [
-     			"[+10]% Strength <vs [Mounted] units>",
-    			"[+10]% Strength <vs [Mounted Archery] units>",
+     			"[+10]% Strength <when defending> <vs [Mounted] units>",
+    			"[+10]% Strength <when defending> <vs [Mounted Archery] units>",
 ],
 		"unitTypes": ["Spear", "Sword"],
         "column": 16,
@@ -405,9 +435,10 @@
 		"name": "Formation III",
 		"prerequisites": ["Formation II"],
 		"uniques": [
-			"[+20]% Strength <vs [Mounted] units>",
+			"[+10]% Strength <vs [Mounted] units>",
 			"[+20]% Strength <when attacking> <vs [Mounted Archery] units>",
-			"[+10]% Strength <when defending>"]
+			"[+10]% Strength <when defending>"
+]
 		"unitTypes": ["Spear"],
         "column": 16,
         "row": 4
@@ -415,8 +446,8 @@
 	{
 		"name": "Charge I",
 		"uniques": [
-			"[+10]% Strength <when attacking>",
-			"[+5]% Strength <vs [Melee] units>"
+			"[+15]% Strength <when attacking> <vs [Sword] units>",
+			"[+10]% Strength <when attacking> <vs [{Ranged} {Land}] units>",
 		],
 		"unitTypes": ["Mounted"],
         "column": 17,
@@ -426,8 +457,9 @@
 		"name": "Charge II",
 		"prerequisites": ["Charge I"],
 		"uniques": [
-  "[+10]% Strength <when attacking>",
-			"[+5]% Strength <vs [Melee] units>"
+			"[+15]% Strength <when attacking> <vs [Sword] units>",
+			"[+10]% Strength <when attacking> <vs [{Ranged} {Land}] units>",
+
 		],
 		"unitTypes": ["Mounted"],
         "column": 17,
@@ -437,8 +469,9 @@
 		"name": "Charge III",
 		"prerequisites": ["Charge II"],
 		"uniques": [
-			"[+10]% Strength <vs [Melee] units>",
-    "[+10]% Strength <when attacking>",
+			"[+20]% Strength <when attacking> <vs [Sword] units>",
+			"[+20]% Strength <when attacking> <vs [{Ranged} {Land}] units>",
+
 	],
 		"unitTypes": ["Mounted"],
         "column": 17,
@@ -460,7 +493,7 @@
 		"uniques": [
 			"[+10]% Strength <vs [Sword] units>",
 			"[+10]% Strength <vs [Mounted] units>",
-			"[+20]% Strength <when attacking> <vs [Archery] units>",
+			"[+10]% Strength <when attacking> <vs [Archery] units>",
 ],
 		"unitTypes": ["Elephant"],
         "column": 18,
@@ -471,7 +504,7 @@
 		"prerequisites": ["Trample II"],
 		"uniques": [
 			"[+10]% Strength <vs [Melee] units>",
-			"[+20]% Strength <vs [Archery] units> <when attacking>",
+			"[+10]% Strength <vs [Archery] units> <when attacking>",
 			"Eliminates combat penalty for attacking over a river",
 ],
 		"unitTypes": ["Elephant"],
@@ -632,7 +665,7 @@
 		"unitTypes": ["Melee Water"],
 		"uniques": [
 		"[+10]% Strength <vs [Water] units>",
-		"[+15]% Strength <vs [Embarked] units>",
+		"[+20]% Strength <vs [Embarked] units>",
 		"Only available <if [Bronze Works] is constructed>",
 		],
         "column": 26,
