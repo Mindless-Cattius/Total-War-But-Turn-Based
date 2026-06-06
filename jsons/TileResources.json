@@ -1299,10 +1299,14 @@
 			"Gain a free [Praetorian Greed] [in capital] <if [Praetorian Purge] is not constructed by anybody>",
 			"Gain a free [Silver Inflation] [in capital] <if [Currency Reform] is not constructed by anybody>",
 			"Gain a free [Egypt Grain Crisis] [in capital] <if [Egypt Grain] is not constructed> <if [Italia] is not constructed>",
-        		"Free [Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance>",
-        		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
-        		"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
-        		"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance>",
+        		"Free [Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance> <for [Human player] Civilizations>",
+        		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance> <for [Human player] Civilizations>",
+        		"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance> <if [Dalmatia] is constructed> <for [Human player] Civilizations>",
+        		"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance> <if [Achaea] is constructed> <for [Human player] Civilizations>",
+        		"Free [Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [3]% chance> <for [AI player] Civilizations> <hidden from users>",
+        		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <for [AI player] Civilizations> <hidden from users>",
+        		"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <if [Dalmatia] is constructed> <for [AI player] Civilizations> <hidden from users>",
+        		"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <if [Achaea] is constructed> <for [AI player] Civilizations> <hidden from users>",
 			"Provides [1] [Enable Hellenic Limitanei] <if [Achaea] is constructed>",
 			"Provides [1] [Enable Hellenic Legion] <if [Achaea] is constructed>",
 			"Provides [1] [Enable Illyrian Legion] <if [Dalmatia] is constructed>",
@@ -1319,8 +1323,10 @@
     			"Triggers victory <if [Lusitania] is constructed><if [Italia] is constructed> <if [Sicilia] is constructed> <if [Africa] is constructed> <if [Dalmatia] is constructed> <if [Achaea] is constructed> <if [Macedonia] is constructed> <if [Thracia] is constructed> <if [Armenia] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Palmyrene Empire] is constructed>",
 			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Palmyrene Empire] is not constructed by anybody>",
 			"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
-        		"Free [Cavalry] appears <upon turn end> <when above [4] [Horses]> <when above [30] [Manpower]> <with [3]% chance>",
-        		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance>",
+        		"Free [Cavalry] appears <upon turn end> <when above [4] [Horses]> <when above [30] [Manpower]> <with [3]% chance> <for [Human player] Civilizations>",
+        		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance> <for [Human player] Civilizations>",
+        		"Free [Cavalry] appears <upon turn end> <when above [3] [Horses]> <when above [30] [Manpower]> <with [3]% chance> <for [AI player] Civilizations> <hidden from users>",
+        		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [2]% chance> <for [AI player] Civilizations> <hidden from users>",
 			"Provides [1] [Enable Hellenic Limitanei] <if [Achaea] is constructed>",
 			"Provides [1] [Enable Hellenic Legion] <if [Achaea] is constructed>",
 			"Provides [1] [Enable Illyrian Legion] <if [Dalmatia] is constructed>",
@@ -1339,8 +1345,10 @@
 
 			"Gain a free [Gallic Secession] [in capital] <if [Gallic Empire] is not constructed by anybody>",
 			"Gain a free [Frontier Exhaustion] [in capital] <if [Administrative Consolidation] is not constructed by anybody>",
-        		"Free [Gallic Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance>",
-        		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance>",
+        		"Free [Gallic Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance> <for [Human player] Civilizations>",
+        		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance> <for [Human player] Civilizations>",
+        		"Free [Gallic Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [3]% chance> <for [AI player] Civilizations> <hidden from users>",
+        		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [2]% chance> <for [AI player] Civilizations> <hidden from users>",
 			"Provides [1] [Enable Gallic Legion]",
 			"Provides [1] [Enable Gallic Limitanei]",
 			"Provides [1] [Enable Hellenic Limitanei] <if [Achaea] is constructed>",
@@ -1365,7 +1373,10 @@
         		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <if [Hispania] is not constructed>",
  			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Italia] is not constructed>",
 			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Gallia] is not constructed>",
-        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+        		"Free [Swordsman] appears <upon turn end> <when above [40] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
+        		"Free [Club Levy] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
+        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
+        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
 			 
 ]
   	},
@@ -1386,7 +1397,8 @@
 			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Achaea] is not constructed>",
 			"[+20]% Production when constructing [Sword] units [in all cities] <if [Achaea] is not constructed>",
 			"[+20]% Production when constructing [Sword] units [in all cities] <if [Italia] is not constructed>",
-        		"Free [Bastarnae Warrior] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+        		"Free [Bastarnae Warrior] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
+        		"Free [Bastarnae Warrior] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <for [AI player] Civilizations> <hidden from users>",
 			 
 ]
   	},
@@ -1407,7 +1419,8 @@
 			"[+2] HP when healing <for [Mounted Archery] units> <when fighting in [Friendly Land] tiles>",
 			"[+20]% Production when constructing [Mounted Archery] units [in all cities] <if [Achaea] is not constructed>",
 			"[+20]% Production when constructing [Mounted] units [in all cities] <if [Armenia] is not constructed>",
-        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+        		"Free [Horse Archer] appears <upon turn end> <when above [30] [Manpower]> <when above [4] [Horses]> <with [2]% chance> <for [Human player] Civilizations>",
+        		"Free [Horse Archer] appears <upon turn end> <when above [30] [Manpower]> <when above [4] [Horses]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
 			 
 ]
   	},
@@ -1424,7 +1437,10 @@
  			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Scythia] is not constructed>",
 			"[+10] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Scythia] is not constructed>",
 			"[+25]% Production when constructing [Mounted] units [in this city] <if [Aegyptus] is not constructed>",
-        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance>",
+        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
+        		"Free [Cavalry] appears <upon turn end> <when above [30] [Manpower]> <when above [4] [Horses]> <with [2]% chance> <for [Human player] Civilizations>",
+        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <for [AI player] Civilizations> <hidden from users>",
+        		"Free [Cavalry] appears <upon turn end> <when above [30] [Manpower]> <when above [2] [Horses]> <with [4]% chance> <for [Human player] Civilizations>",
 			 
 ]
   	},
@@ -1437,6 +1453,7 @@
 		"resourceType": "Bonus",
     		"uniques": [
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+        		"Free [Spartan Hoplite] appears <upon turn end> <when above [20] [Manpower]> <when above [2] [Bronze]> <with [4]% chance> <for [AI player] Civilizations>",
 			"[+60]% Science cost of researching new Technologies",
 		]
   	},
@@ -1445,6 +1462,7 @@
 		"resourceType": "Bonus",
     		"uniques": [
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+        		"Free [Athenian Hoplite] appears <upon turn end> <when above [20] [Manpower]> <when above [2] [Bronze]> <with [4]% chance> <for [AI player] Civilizations>",
 			"[+60]% Science cost of researching new Technologies",
 		]
   	},
@@ -1453,6 +1471,7 @@
 		"resourceType": "Bonus",
     		"uniques": [
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+        		"Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [5]% chance> <for [AI player] Civilizations>",
 			"[+70]% Science cost of researching new Technologies",
 		]
   	},
@@ -1462,6 +1481,7 @@
     		"uniques": [
 			"[-30]% City-State Influence degradation",
 			"Triggers victory <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Thessalia] is constructed> <if [Boiotia] is constructed> <if [Attike] is constructed> <if [Lakedaimon] is constructed> <if [Hellespontos] is constructed> <if [Mysia] is constructed> <if [Lydia] is constructed> <if [Karia] is constructed> <if [Ionia] is constructed>",
+        		"Free [Pike Phalanx] appears <upon turn end> <when above [20] [Manpower]> <when above [2] [Bronze]> <with [4]% chance> <for [AI player] Civilizations>",
 			"[+60]% Science cost of researching new Technologies",
 		]
   	},
@@ -1471,6 +1491,7 @@
     		"uniques": [
 			"[-30]% City-State Influence degradation",
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
+        		"Free [Pike Phalanx] appears <upon turn end> <when above [20] [Manpower]> <when above [2] [Bronze]> <with [4]% chance> <for [AI player] Civilizations>",
 		]
   	},
 ]
