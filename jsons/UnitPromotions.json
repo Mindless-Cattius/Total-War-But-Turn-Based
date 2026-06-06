@@ -1092,7 +1092,7 @@
 	"name": "Gravitas I",
 	"unitTypes": ["Ruler","Generals"],
 	"uniques": [
-		"Can instantly construct a [Repair] improvement",
+		"Can build [Road] improvements on tiles",
 		"[+1] Movement <when fighting in [Friendly Land] tiles>",
 	],
     "row": 51,
@@ -1103,6 +1103,8 @@
 	"prerequisites": ["Gravitas I"],
 	"unitTypes": ["Ruler","Generals"],
 	"uniques": [
+		"Can build [Plantation] improvements on tiles",
+		"Can build [Camp] improvements on tiles",
 		"[+10]% Strength <when fighting in [Friendly Land] tiles>",
 	],
     "row": 51,
@@ -1467,9 +1469,9 @@
 	{
 		"name": "War Transports",
 		"uniques": [
-			"May attack when embarked",
   			"[-20]% Strength <when defending> <for [Mounted Archery] units> <when fighting in [Water] tiles>",
   			"[-20]% Strength <for [Mounted] units> <when fighting in [Water] tiles>",
+   			"May attack when embarked <for [all] units>",
 		]
 	},
 	{

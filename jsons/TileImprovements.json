@@ -111,13 +111,12 @@
 	{
 		"name": "Fort",
 		"happiness": 2,
-		"turnsToBuild": 10,
+		"turnsToBuild": -1,
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle"],
 		"uniques": [
 		"Gives a defensive bonus of [25]%",
 		"Pillaging this improvement yields approximately [+120 Gold]",
-		"Removes removable features when built",	
-		"Unbuildable <for [Worker] units>",
+		"Removes removable features when built",
 		"Tile provides yield without assigned population",
 		"Great Improvement",
 		],
@@ -125,7 +124,7 @@
 	},
 	{
 		"name": "Village",
-		"turnsToBuild": 10,
+		"turnsToBuild": -1,
 		"gold": 1,
 		"food": 1,
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle"],
@@ -138,7 +137,6 @@
 			"[+1 Food] <when above [20] [Sanitation]>",
 			"[+1 Food] <when above [30] [Sanitation]>",
 			"Tile provides yield without assigned population",
-			"Unbuildable <for [Worker] units>",
 			"Can only be built on [resource] tiles",
 			"Great Improvement",
 			"Removes removable features when built",
@@ -149,7 +147,7 @@
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle"],
 		"gold": 2,
-		"turnsToBuild": 4,
+		"turnsToBuild": -1,
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
   			"[-1 Food, +2 Gold] for each adjacent [Village]",
@@ -162,7 +160,6 @@
 			"Pillaging this improvement yields approximately [+150 Gold]",
 			"Tile provides yield without assigned population",
 			"Can only be built on [resource] tiles",
-			"Unbuildable <for [Worker] units>",
 			"Removes removable features when built",
 ]
 	},

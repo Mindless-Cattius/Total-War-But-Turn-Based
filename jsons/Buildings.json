@@ -1613,6 +1613,7 @@
 			"[+1 Gold] from [Copper] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
+			"Remove [Bronze Works] [in this city] <when below [0] [Copper]> <upon turn end> <with [50]% chance>",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Bronze Working"
@@ -2246,11 +2247,9 @@
 			"[1] [Swordsman]s rebel <upon turn end> <with [40]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [Heavy Swordsman]s rebel <upon turn end> <with [20]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [General]s rebel <upon turn end> <with [20]% chance> <starting from the [Classical Age]> <hidden from users>",
-			"[+50]% Production when constructing [Restored Order] buildings [in this city] <with a garrison>",
+			"[+70]% Production when constructing [Restored Order] buildings [in this city] <with a garrison>",
 			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [30]% chance> <hidden from users>",
 			"Remove [REBEL IMMINENT] [in this city] <with a garrison> <upon turn end> <with [50]% chance> <hidden from users>",
-			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <when above [0] [Roman 3rd Century Crisis]> <hidden from users>",
-			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <when above [0] [Gallic 3rd Century Crisis]> <hidden from users>",
 			"Unbuildable","Unsellable",
 			"Destroyed when the city is captured"
 ]
