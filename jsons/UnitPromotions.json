@@ -804,7 +804,7 @@
 	{
 		"name": "[Maneuver]",
   		"prerequisites": ["Positioning III","Drill III","Charge III","Scouting III","Foraging III"],
-		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water"],
+		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Archery","Melee Water"],
 		"uniques": ["Can move after attacking"],
         "column": 32,
         "row": 4
@@ -1210,6 +1210,7 @@
 			"[+40]% Strength <vs [Infantry Shield II] units> <when attacking>",
 			"[+60]% Strength <vs [Cataphract] units> <when attacking>",
 			"[+60]% Strength <vs [Clibanarii] units> <when attacking>",
+			"[+60]% Strength <vs [Armored Elephant] units> <when attacking>",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
 	},
@@ -1274,6 +1275,7 @@
 		"name": "[Skirmisher] ability",
 		"uniques": [
 		"Withdraws before melee combat <with [35]% chance>",
+    		"Can move after attacking",
 		]
 	},
 	{
@@ -1492,30 +1494,43 @@
 		"uniques": [
 		"[+20]% Strength <vs [Sword] units>",
 		"[+10]% Strength <vs [Spear] units>",
-		"[+60]% Strength <when attacking>",
-		"[-20]% Strength <when defending> <vs [Ranged] units>",
-		"Withdraws before melee combat <with [5]% chance>",
+		"[+20]% Strength <when attacking>",
+		"[+20]% Strength <when attacking> <in [Forest] tiles>",
+		"[+20]% Strength <when attacking> <in [Jungle] tiles>",
+		"[-25]% Strength <when defending> <vs [Ranged] units>",
+		"Withdraws before melee combat <with [7]% chance>",
 		]
 	},
 	{
 		"name": "[Thracian Warband] ability",
 		"uniques": [
-		"[+15]% Strength <vs [Sword] units>",
-		"[+15]% Strength <vs [Mounted] units>",
+		"[+10]% Strength <vs [Infantry Shield III] units>",
 		"[+15]% Strength <in [Forest] tiles>",
 		"[+15]% Strength <in [Jungle] tiles>",
-		"Withdraws before melee combat <with [3]% chance>",
+		"[+15]% Strength <in [Hill] tiles>",
+		"Withdraws before melee combat <with [5]% chance>",
 
 		]
 	},
 	{
 		"name": "[Falxman] ability",
 		"uniques": [
-		"[+30]% Strength <when attacking> <vs [Spear] units>",
-		"[+80]% Strength <when attacking> <vs [Sword] units>",
-		"[+30]% Strength <when defending> <vs [Sword] units>",
-		"[-15]% Strength <when defending> <vs [Archery] units>",
-		"Withdraws before melee combat <with [3]% chance>",
+		"[+30]% Strength <when attacking> <vs [Infantry Shield II] units>",
+		"[+60]% Strength <when attacking> <vs [Infantry Shield III] units>",
+		"[+20]% Strength <when defending> <vs [Sword] units>",
+		"[+20]% Strength <when defending> <vs [Spear] units>",
+		"[-20]% Strength <when defending> <vs [Ranged] units>",
+		"Withdraws before melee combat <with [5]% chance>",
+		]
+	},
+	{
+		"name": "[Lusitanian Warband] ability",
+		"uniques": [
+		"[+20]% Strength <when attacking>",
+		"[+10]% Strength <when fighting in [Forest] tiles>",
+		"[+10]% Strength <when fighting in [Jungle] tiles>",
+		"[-10]% Strength <when defending> <vs [Ranged] units>",
+		"Withdraws before melee combat <with [5]% chance>",
 		]
 	},
 	{

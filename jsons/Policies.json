@@ -34,8 +34,9 @@
                 "name": "Ambushers",
                 "uniques": [
                     "[Skirmisher] units gain the [Ambush I] promotion",
-                    "[Slinger] units gain the [Ambush I] promotion",
-                    "[Spearman] units gain the [Ambush I] promotion",
+                    "[Archery] units gain the [Ambush I] promotion",
+                    "[Infantry Shield I] units gain the [Ambush I] promotion",
+                    "[Spearman] units gain the [Shock I] promotion",
                     "[+1 Happiness] [in capital]",
                 ],
                 "row": 1,
@@ -756,10 +757,10 @@
         },
         "uniques": [
                     "[1] free [Great Scholar] units appear",
-                    "Only available <after adopting [Germanic Culture]> <hidden from users>",              
-                    "All newly-trained [{Military} {Land}] units [in all cities] receive the [Ambush I] promotion",
+                    "Only available <after adopting [Germanic Culture]> <hidden from users>",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Comment [Enables Club Levy]","Provides [1] [Enable Club Levy] <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [
@@ -781,8 +782,9 @@
                 "name": "Woodland Warfare",
                 "uniques": [
                     "[Skirmisher] units gain the [Woodsman] promotion",
-                    "[Archer] units gain the [Woodsman] promotion",
-                    "[Infantry Shield I] units gain the [Woodsman] promotion",
+                    "[Archery] units gain the [Woodsman] promotion",
+                    "[Infantry Shield I] units gain the [Ambush I] promotion",
+                    "[Spearman] units gain the [Ambush I] promotion",
                     "[1] free [Skirmisher] units appear",
                     "[1] free [Archer] units appear",
                     "Provides [3] [Manpower]",
@@ -1087,7 +1089,7 @@
                 "name": "Dorian Military Customs",
                 "uniques": [
                     	"Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
-        		"[+10]% Strength <for [Hoplite] units> <for [The Spartans] Civilizations>",
+        		"[+10]% Strength <for [Hoplite] units> <when fighting in [Friendly Land] tiles> <for [The Spartans] Civilizations>",
         		"[+10]% Strength <for [Spearman] units>",
                     	"Provides [3] [Manpower]",
                     	"[1] free [Spearman] units appear",
@@ -3132,6 +3134,7 @@
         "[+10]% Strength <for [Ranged] units>",
         "Gain a free [Archery Range] [in capital]",
         "Free [Balearic Slinger] appears",
+       	"New [Balearic Slinger] units start with [10] XP [in all cities] <in cities with a [Mercenary Camp]>",
         "[+10]% Production when constructing [Archery Range] buildings [in all cities]",
         "Provides [3] [Manpower]",
         "[+2 Happiness] [in capital]"

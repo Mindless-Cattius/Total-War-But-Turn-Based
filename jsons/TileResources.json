@@ -36,6 +36,7 @@
 			"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
 			"[-50]% XP gained from combat <for [all] units> <vs [Barbarians] units>",
  			"[+70]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
+			"[-1] Sight <for [Siege] units>",
 
 			"Comment [Unit's Upkeep]",
 
@@ -319,16 +320,16 @@
 		"uniques": [
 			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
 			"Cannot be traded",
-			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
-			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
-			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
-			"[+20]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when above [40] [Sanitation]>",
+			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
+			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
+			"[+20]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
+			"[+25]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when above [40] [Sanitation]>",
 			"[+80]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <in cities with less than [6] [Population]>",
 			"[+50]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Classical Age]>",
-			"[+10]% Production when constructing [Cure Plague] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
-			"[+15]% Production when constructing [Cure Plague] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
-			"[+20]% Production when constructing [Cure Plague] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
-			"[+25]% Production when constructing [Cure Plague] buildings [in all cities] <when above [40] [Sanitation]>",
+			"[+15]% Production when constructing [Cure Plague] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
+			"[+20]% Production when constructing [Cure Plague] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
+			"[+25]% Production when constructing [Cure Plague] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
+			"[+30]% Production when constructing [Cure Plague] buildings [in all cities] <when above [40] [Sanitation]>",
 			"[+80]% Production when constructing [Cure Plague] buildings [in all cities] <in cities with less than [6] [Population]>",
 			"[+60]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Classical Age]>",
 		"Doesn't generate naturally"
@@ -339,11 +340,11 @@
 		"resourceType": "Strategic",
 		"uniques": [
 	"Gain a free [REBEL IMMINENT] [in resisting cities] <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [1]% chance> <when between [1] and [2] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [2]% chance> <when between [3] and [5] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [3]% chance> <when between [6] and [9] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [4]% chance> <when between [10] and [11] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [12] and [14] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [1]% chance> <when between [1] and [3] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [2]% chance> <when between [4] and [6] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [3]% chance> <when between [7] and [9] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [4]% chance> <when between [10] and [12] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [13] and [15] [Rebel Risk]> <for [Human player] Civilizations>",
 	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when above [15] [Rebel Risk]> <for [Human player] Civilizations>",
 			"Cannot be traded",
 ]
@@ -1133,6 +1134,54 @@
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]
     },
+    {
+		"name": "Enable Legion",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Enable Hellenic Legion",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Enable Hellenic Limitanei",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Limitanei]"
+				"Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Enable Gallic Legion",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Enable Gallic Limitanei",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Limitanei]"
+				"Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Enable Illyrian Legion",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Enable Desert Legion",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Enable Club Levy",
+		"resourceType": "Bonus",
+		"uniques": ["Comment [Required for Legion]"
+				"Will not be displayed in Civilopedia"]
+    },
 	// Other hidden resources
     {
 		"name": "PunicOrNumidian",
@@ -1229,48 +1278,6 @@
 		"name": "Mercenary (Thracian)",
 		"resourceType": "Bonus",
 		"uniques": ["Comment [Required for specific Mercenary Units]"
-				"Will not be displayed in Civilopedia"]
-    },
-    {
-		"name": "Enable Legion",
-		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"
-				"Will not be displayed in Civilopedia"]
-    },
-    {
-		"name": "Enable Hellenic Legion",
-		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"
-				"Will not be displayed in Civilopedia"]
-    },
-    {
-		"name": "Enable Hellenic Limitanei",
-		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Limitanei]"
-				"Will not be displayed in Civilopedia"]
-    },
-    {
-		"name": "Enable Gallic Legion",
-		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"
-				"Will not be displayed in Civilopedia"]
-    },
-    {
-		"name": "Enable Gallic Limitanei",
-		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Limitanei]"
-				"Will not be displayed in Civilopedia"]
-    },
-    {
-		"name": "Enable Illyrian Legion",
-		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"
-				"Will not be displayed in Civilopedia"]
-    },
-    {
-		"name": "Enable Desert Legion",
-		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"
 				"Will not be displayed in Civilopedia"]
     },
 
@@ -1377,6 +1384,7 @@
         		"Free [Club Levy] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
         		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
         		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
+			"Provides [1] [Enable Club Levy]",
 			 
 ]
   	},
