@@ -242,6 +242,13 @@ BuildingIcons/Anchorage
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Archery Focus
+  rotate: false
+  xy: 652, 236
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Archery Range
   rotate: false
   xy: 464, 910
@@ -321,21 +328,21 @@ BuildingIcons/Brick Maker
   index: -1
 BuildingIcons/Bronze Exports
   rotate: false
-  xy: 652, 236
+  xy: 644, 178
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Bronze Imports
   rotate: false
-  xy: 644, 178
+  xy: 710, 236
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Bronze Works
   rotate: false
-  xy: 710, 236
+  xy: 702, 178
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -349,7 +356,7 @@ BuildingIcons/Camel Stable
   index: -1
 BuildingIcons/Cattle Trader
   rotate: false
-  xy: 702, 178
+  xy: 760, 340
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -363,7 +370,7 @@ BuildingIcons/Cavalry Barracks
   index: -1
 BuildingIcons/Centralize Power
   rotate: false
-  xy: 760, 340
+  xy: 818, 340
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -433,7 +440,7 @@ BuildingIcons/Copper Imports
   index: -1
 BuildingIcons/Cothon
   rotate: false
-  xy: 818, 340
+  xy: 976, 553
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -461,14 +468,14 @@ BuildingIcons/Cure Plague
   index: -1
 BuildingIcons/Currency Reform
   rotate: false
-  xy: 976, 553
+  xy: 1034, 553
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Silver Inflation
   rotate: false
-  xy: 976, 553
+  xy: 1034, 553
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -489,14 +496,14 @@ BuildingIcons/Dalmatia
   index: -1
 BuildingIcons/Dangerous Plague
   rotate: false
-  xy: 1034, 553
+  xy: 1092, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Devastating By War
   rotate: false
-  xy: 1092, 564
+  xy: 1150, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -510,28 +517,28 @@ BuildingIcons/Drydock
   index: -1
 BuildingIcons/Egypt Grain
   rotate: false
-  xy: 1150, 564
+  xy: 1208, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Food Import
   rotate: false
-  xy: 1150, 564
+  xy: 1208, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Food Imports
   rotate: false
-  xy: 1150, 564
+  xy: 1208, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Egypt Grain Crisis
   rotate: false
-  xy: 1208, 564
+  xy: 1266, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -545,7 +552,7 @@ BuildingIcons/Elephant Imports
   index: -1
 BuildingIcons/Elephant Trainer
   rotate: false
-  xy: 1266, 564
+  xy: 1324, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -559,14 +566,14 @@ BuildingIcons/Embassy
   index: -1
 BuildingIcons/Empire Divide
   rotate: false
-  xy: 1324, 564
+  xy: 1382, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Fountain
   rotate: false
-  xy: 1382, 564
+  xy: 1440, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -690,6 +697,13 @@ BuildingIcons/Harbor
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Heavy Infantry Focus
+  rotate: false
+  xy: 1498, 564
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Herbalist
   rotate: false
   xy: 337, 694
@@ -699,7 +713,7 @@ BuildingIcons/Herbalist
   index: -1
 BuildingIcons/High Inflation
   rotate: false
-  xy: 1440, 564
+  xy: 1556, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -720,7 +734,7 @@ BuildingIcons/Hispania
   index: -1
 BuildingIcons/Horse Exports
   rotate: false
-  xy: 1498, 564
+  xy: 1614, 564
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -837,9 +851,23 @@ BuildingIcons/Mercenary Camp
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Mounted Archery Focus
+  rotate: false
+  xy: 1672, 564
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mounted Focus
+  rotate: false
+  xy: 622, 103
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Muster Field
   rotate: false
-  xy: 1556, 564
+  xy: 680, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -944,7 +972,7 @@ BuildingIcons/Peloponnese War
   index: -1
 BuildingIcons/Perfumery
   rotate: false
-  xy: 1614, 564
+  xy: 738, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -972,7 +1000,7 @@ BuildingIcons/Pirate Haven (Illyrian)
   index: -1
 BuildingIcons/Plague
   rotate: false
-  xy: 1672, 564
+  xy: 680, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -986,56 +1014,56 @@ BuildingIcons/Pleasure Chambers
   index: -1
 BuildingIcons/Political Unstable
   rotate: false
-  xy: 622, 103
+  xy: 738, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Praetorian Greed
   rotate: false
-  xy: 680, 120
+  xy: 622, 45
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Praetorian Purge
   rotate: false
-  xy: 738, 120
+  xy: 680, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Public Bathhouse
   rotate: false
-  xy: 680, 62
+  xy: 738, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/REBEL IMMINENT
   rotate: false
-  xy: 738, 62
+  xy: 1923, 614
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Restore Currency Control
   rotate: false
-  xy: 622, 45
+  xy: 1981, 614
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Restored Order
   rotate: false
-  xy: 680, 4
+  xy: 938, 461
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Risk of Plague
   rotate: false
-  xy: 738, 4
+  xy: 996, 495
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1103,6 +1131,13 @@ BuildingIcons/Secret Cult
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Shield Infantry Focus
+  rotate: false
+  xy: 1054, 495
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Sicilia
   rotate: false
   xy: 544, 92
@@ -1126,7 +1161,7 @@ BuildingIcons/Silk Road
   index: -1
 BuildingIcons/Silphium Trader
   rotate: false
-  xy: 1923, 614
+  xy: 1112, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1159,6 +1194,13 @@ BuildingIcons/Urban Fabric III
   orig: 64, 64
   offset: 0, 0
   index: -1
+BuildingIcons/Spear Focus
+  rotate: false
+  xy: 1170, 506
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Spice Road
   rotate: false
   xy: 328, 154
@@ -1166,23 +1208,30 @@ BuildingIcons/Spice Road
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Sword Focus
+  rotate: false
+  xy: 1228, 506
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Syssition
   rotate: false
-  xy: 1981, 614
+  xy: 1286, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Tar Workshop
   rotate: false
-  xy: 938, 461
+  xy: 1344, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Tavern
   rotate: false
-  xy: 996, 495
+  xy: 1402, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1203,7 +1252,7 @@ BuildingIcons/The Great Lighthouse
   index: -1
 BuildingIcons/The Long Wall
   rotate: false
-  xy: 1054, 495
+  xy: 1460, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1245,7 +1294,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 1112, 506
+  xy: 1518, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1287,7 +1336,7 @@ BuildingIcons/Walls
   index: -1
 BuildingIcons/War Reconstruction
   rotate: false
-  xy: 1170, 506
+  xy: 1576, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1301,7 +1350,7 @@ BuildingIcons/Warrior Statue
   index: -1
 BuildingIcons/Weavery
   rotate: false
-  xy: 1228, 506
+  xy: 1634, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
