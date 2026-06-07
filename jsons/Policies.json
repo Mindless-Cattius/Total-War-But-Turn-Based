@@ -2970,9 +2970,9 @@
         "[+10]% Strength <for [Slinger] units> <when fighting in [Desert] tiles>",
         "[+10]% Strength <for [Archer] units> <when fighting in [Desert] tiles>",
         "[+10]% Strength <for [Slinger] units> <when attacking>",
-        "[Slinger] units gain the [Desert Warrior] promotion",
-        "[Archer] units gain the [Desert Warrior] promotion",
-        "[Skirmisher] units gain the [Desert Warrior] promotion",
+        "[Slinger] units gain the [Desert Warrior I] promotion",
+        "[Archer] units gain the [Desert Warrior I] promotion",
+        "[Skirmisher] units gain the [Desert Warrior I] promotion",
         "[1] free [Slinger] units appear",
         "Provides [2] [Manpower]",
         "[+1 Happiness] [in capital]"

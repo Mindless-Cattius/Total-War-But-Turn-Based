@@ -2591,6 +2591,91 @@
 ]
 	},
 
+
+					/////Buff
+{
+	"name": "Mounted Focus",
+	"uniques": [
+            "Comment [Provides temporary bonuses to Mounted units]",
+                "New [Mounted] units start with [10] XP [in all cities]",
+		"[+2] XP gained from combat <for [Mounted] units>",
+		"[+20]% Strength <when attacking> <for [Mounted] units>",
+		"[+1] Movement <for [Horseman] units>"
+		"[+5] HP when healing <for [Mounted] units>",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Cavalry Budget Crisis] event <upon turn start> <with [10]% chance>",
+		]
+},
+{
+	"name": "Archery Focus",
+	"uniques": [
+		"Comment [Provides temporary bonuses to Archery units]",
+		"New [Archery] units start with [20] XP [in all cities]",
+		"[+2] XP gained from combat <for [Archery] units>",
+		"[+10]% Strength <when attacking> <for [Archery] units>",
+		"[+1] Sight <for [Archery] units>",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Arrow Procurement Debate] event <upon turn start> <with [10]% chance>",
+]
+},
+{
+	"name": "Mounted Archery Focus",
+	"uniques": [
+		"Comment [Provides temporary bonuses to Mounted Archery units]",
+		"New [Mounted Archery] units start with [20] XP [in all cities]",
+		"[+2] XP gained from combat <for [Mounted Archery] units>",
+		"[+10]% Strength <for [Mounted Archery] units>",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Horse Archer Procurement Report] event <upon turn start> <with [10]% chance>",
+]
+},
+{
+	"name": "Spear Focus",
+	"uniques": [
+		"Comment [Provides temporary bonuses to Spear units]",
+		"New [Spear] units start with [20] XP [in all cities]",
+		"[+2] XP gained from combat <for [Spear] units>",
+		"[+20]% Strength <when defending> <for [Spear] units>",
+		"[+5] HP when healing <for [Sword] units>",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Quality Sticks Maintenance Report] event <upon turn start> <with [10]% chance>",
+]
+},
+{
+	"name": "Sword Focus",
+	"uniques": [
+		"Comment [Provides temporary bonuses to Sword units]",
+		"New [Sword] units start with [20] XP [in all cities]",
+		"[+2] XP gained from combat <for [Sword] units>",
+		"[+10]% Strength <for [Sword] units>",
+		"[+12] HP when healing <for [Sword] units>",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Sword Training Review] event <upon turn start> <with [10]% chance>",
+]
+},
+{
+	"name": "Shield Infantry Focus",
+	"uniques": [
+		"Comment [Provides temporary bonuses to Medium Shield Infantry units]",
+		"[+4] XP gained from combat <for units with [Infantry Shield II]>",
+		"[+10]% Strength <when defending> <for units with [Infantry Shield II]>",
+		"[+10] HP when healing <for units with [Infantry Shield II]>",
+		"Triggers a [Shield Infantry Funding Review] event <upon turn start> <with [10]% chance>",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+]
+},
+{
+	"name": "Heavy Infantry Focus",
+	"uniques": [
+		"Comment [Provides temporary bonuses to Heavy Shield Infantry units]",
+		"[+4] XP gained from combat <for units with [Infantry Shield III]>",
+		"[+10]% Strength <when defending> <for units with [Infantry Shield III]>",
+		"[+10] HP when healing <for units with [Infantry Shield III]>",
+		"Triggers a [Heavy Infantry Funding Review] event <upon turn start> <with [10]% chance>",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+]
+},
+
 					/////Scenario
 
 //////				---Scenario Peloponnese War
@@ -2848,15 +2933,13 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-			"[+50000]% Culture cost of natural border growth [in this city]",
-			"Provides [1] [Roman 3rd Century Crisis] <for [The Romans] Civilizations> <when below [1] [Roman 3rd Century Crisis]>",
-			"Provides [1] [Palmyrence 3rd Century Crisis] <for [The Arsacids] Civilizations> <when below [1] [Palmyrence 3rd Century Crisis]>",
-			"Provides [1] [Gallic 3rd Century Crisis] <for [The Arverni] Civilizations> <when below [1] [Gallic 3rd Century Crisis]>",
-			"Provides [1] [Germanic 3rd Century Crisis] <for [The Belgae] Civilizations> <when below [1] [Germanic 3rd Century Crisis]>",
-			"Provides [1] [Goth 3rd Century Crisis] <for [The Bastarnae] Civilizations> <when below [1] [Goth 3rd Century Crisis]>",
-			"Provides [1] [Hun 3rd Century Crisis] <for [The Scythians] Civilizations> <when below [1] [Hun 3rd Century Crisis]>",
-			"Provides [1] [Armenia 3rd Century Crisis] <for [The Armenians] Civilizations> <when below [1] [Armenia 3rd Century Crisis]>",
-			"[-50]% Great Person generation [in this city]", 
+         		"Triggers a [The Fall of Pannonia] event <if [Pannonia] is not constructed> <when below [1] [Pannonia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Dalmatia] event <if [Dalmatia] is not constructed> <when below [1] [Dalmatia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Thracia] event <if [Thracia] is not constructed> <when below [1] [Thracia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Macedonia] event <if [Macedonia] is not constructed> <when below [1] [Macedonia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Achaea] event <if [Achaea] is not constructed> <when below [1] [Achaea]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Italia] event <if [Italia] is not constructed> <when below [1] [Italia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Recapture of Italia] event <if [Italia] is constructed> <when between [1] and [2] [Italia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
 			"Never destroyed when the city is captured",
 			"Unsellable",
       			"Unbuildable",
@@ -3161,7 +3244,7 @@
 },
 			
 			//// Provinces
-			///  Gallia, Hispania, Achaea, Italia, Aegyptus, Palaestina, Armenia, Germania, Scythia, Dacia, Africa, Anatolia, Lusitania, Dalmatia, Thracia, Macedonia
+			///  Gallia, Hispania, Achaea, Italia, Aegyptus, Palaestina, Armenia, Germania, Scythia, Dacia, Africa, Anatolia, Lusitania, Dalmatia, Thracia, Macedonia, Pannonia, Sicilia
 
 	{
     		"name": "Sicilia",

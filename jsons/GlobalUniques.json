@@ -21,6 +21,23 @@
         "[-1] Sight <for [Embarked] units>",
         "[+60]% Culture cost of adopting new Policies",
 
+//Events
+	"Triggers a [A Matter of Administration] event <when below [1] [Administrative Briefing]> <upon turn start> <for [Human player] Civilizations>",
+
+
+//Event 3rd century crisis
+	
+	"[+50000]% Culture cost of natural border growth [in this city] <if [3rd Century Crisis] is constructed by anybody>",
+	"[-50]% Great Person generation [in all cities] <if [3rd Century Crisis] is constructed by anybody>", 
+	"Provides [1] [Roman 3rd Century Crisis] <for [The Romans] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
+	"Provides [1] [Palmyrence 3rd Century Crisis] <for [The Arsacids] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
+	"Provides [1] [Gallic 3rd Century Crisis] <for [The Arverni] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
+	"Provides [1] [Germanic 3rd Century Crisis] <for [The Belgae] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
+	"Provides [1] [Goth 3rd Century Crisis] <for [The Bastarnae] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
+	"Provides [1] [Hun 3rd Century Crisis] <for [The Scythians] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
+	"Provides [1] [Armenia 3rd Century Crisis] <for [The Armenians] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
+
+
 //Units
 	"[+1] Movement <for [Military] units> <when adjacent to a [Imperium III] unit>",
 	"[+2] XP gained from combat <for [Military] units> <when adjacent to a [Inspiring] unit>",
@@ -98,8 +115,5 @@
 // Maintenance
 // + research with nobles, + happiness with recruits 
 
-			// 3rd century
-///rome
-	"[+20]% Production when constructing [Restored Order] buildings [in all cities] <when above [0] [Roman 3rd Century Crisis]>",
     ]
 }

@@ -2008,7 +2008,7 @@
     ],
     "promotions": [
       "Infantry Shield II",
-      "Desert Warrior",
+      "Desert Warrior I",
 	"Medic I",
 	"Veteran",
     ],
@@ -2861,7 +2861,7 @@
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield II",
-      "Desert Warrior",
+      "Desert Warrior I",
       "Mercenary",
     ],
     "attackSound": "metalhit"
@@ -3066,7 +3066,7 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Assault I",
-      "Desert Warrior"
+      "Desert Warrior I"
     ],
     "attackSound": "march"
   },
@@ -3098,12 +3098,13 @@
 
 {
     "name": "Barbarian Spearman",
+    "uniqueTo": "Barbarians",
     "unitType": "Spear",
     "movement": 3,
     "strength": 11,
     "cost": 50,
     "requiredTech": "Bronze Working",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [
 		"Cannot be purchased",
     ],
     "promotions": [
@@ -3114,12 +3115,13 @@
   },
   {
     "name": "Barbarian Pike Phalanx",
+    "uniqueTo": "Barbarians",
     "unitType": "Spear",
     "movement": 3,
     "strength": 16,
     "cost": 100,
     "requiredTech": "Bronze Working",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [ 
 		"Cannot be purchased",
     ],
     "promotions": [
@@ -3130,13 +3132,14 @@
   },
   {
     "name": "Barbarian Swordsman",
+    "uniqueTo": "Barbarians",
     "unitType": "Sword",
     "hurryCostModifier": 20,
     "cost": 120,
     "movement": 3,
     "strength": 15,
     "requiredTech": "Citizen Levy",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [ 
 		"Cannot be purchased",
     ],
     "promotions": [
@@ -3146,12 +3149,13 @@
   },
   {
     "name": "Barbarian Heavy Spearman",
+    "uniqueTo": "Barbarians",
     "unitType": "Spear",
     "cost": 150,
     "movement": 3,
     "strength": 18,
     "requiredTech": "Military Reforms",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [ 
 		"Cannot be purchased",
     ],
     "promotions": [
@@ -3163,12 +3167,13 @@
   },
   {
     "name": "Barbarian Heavy Swordsman",
+    "uniqueTo": "Barbarians",
     "unitType": "Sword",
     "cost": 150,
     "movement": 3,
     "strength": 19,
     "requiredTech": "Military Reforms",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [ 
 		"Cannot be purchased",
     ],
     "promotions": [
@@ -3179,13 +3184,14 @@
   },
   {
     "name": "Barbarian Horseman",
+    "uniqueTo": "Barbarians",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
     "cost": 80,
     "movement": 3,
     "strength": 13,
     "requiredTech": "Riding",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [ 
 		"Cannot be purchased",
     ],
     "promotions": [
@@ -3197,6 +3203,7 @@
   },
   {
     "name": "Barbarian Horse Archer",
+    "uniqueTo": "Barbarians",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
     "cost": 140,
@@ -3204,7 +3211,7 @@
     "strength": 8,
     "rangedStrength": 11,
     "requiredTech": "Riding",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [ 
 		"Cannot be purchased",
     ],
     "promotions": [
@@ -3214,13 +3221,14 @@
   },
   {
     "name": "Barbarian Cavalry",
+    "uniqueTo": "Barbarians",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
     "cost": 130,
     "movement": 4,
     "strength": 17,
     "requiredTech": "Equestrian Class",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [ 
 		"Cannot be purchased",
     ],
     "promotions": [
@@ -3231,13 +3239,14 @@
   },
   {
     "name": "Barbarian Archer",
+    "uniqueTo": "Barbarians",
     "unitType": "Archery",
     "movement": 3,
     "strength": 7,
     "rangedStrength": 12,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [ 
 		"Cannot be purchased",
     ],
     "promotions": [
@@ -3247,13 +3256,14 @@
   },
   {
     "name": "Barbarian Slinger",
+    "uniqueTo": "Barbarians",
     "unitType": "Archery",
     "movement": 3,
     "strength": 8,
     "rangedStrength": 11,
     "cost": 50,
     "requiredTech": "Archery",
-    "uniques": ["Unbuildable <for [Major] Civilizations>","Unbuildable <for [City-States] Civilizations>",
+    "uniques": [ 
 		"Cannot be purchased",
     ],
     "promotions": [

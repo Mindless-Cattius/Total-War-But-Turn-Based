@@ -717,7 +717,7 @@
         "row": 4
 	},
 	{
-		"name": "Desert Warrior",
+		"name": "Desert Warrior I",
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege"],
 		"prerequisites": ["Scouting III","Veteran"],
 		"uniques": [
@@ -730,7 +730,7 @@
 	{
 		"name": "Desert Warrior II",
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege"],
-		"prerequisites": ["Desert Warrior"],
+		"prerequisites": ["Desert Warrior I"],
 		"uniques": [
 			"Invisible to non-adjacent units <in [Desert] tiles>",
 			"[+5] HP when healing <when fighting in [Desert] tiles>",
