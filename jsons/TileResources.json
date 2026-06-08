@@ -72,8 +72,8 @@
         		"[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
         		"[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
 
-			"Cannot be traded",
-			"Doesn't generate naturally",
+			"Cannot be traded <hidden from users>",
+			"Doesn't generate naturally <hidden from users>",
 		]
     },
 
@@ -257,9 +257,9 @@
 		"name": "Cities",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Comment ['Number of cities. Increase the Risk of Rebel by 1 for every 10 cities (max 3).']",
-			"Cannot be traded",
-			"Doesn't generate naturally"
+			"Comment ['Number of [cities]. Increase the [Rebel Risk] by 1 for every 10 cities (max 5).']",
+			"Cannot be traded <hidden from users>",
+			"Doesn't generate naturally <hidden from users>"
 
 	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [10] [Cities]>",
 	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [15] [Cities]>",
@@ -319,20 +319,20 @@
 		"resourceType": "Strategic",
 		"uniques": [
 			"Comment [-Below 1 Sanitation? The gods roll a disease lottery. Spoiler: you usually win.]",
-			"Cannot be traded",
-			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
-			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
-			"[+20]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
-			"[+25]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <when above [40] [Sanitation]>",
-			"[+80]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <in cities with less than [6] [Population]>",
-			"[+50]% Production when constructing [Cure Dangerous Plague] buildings [in all cities] <during the [Classical Age]>",
-			"[+15]% Production when constructing [Cure Plague] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
-			"[+20]% Production when constructing [Cure Plague] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
-			"[+25]% Production when constructing [Cure Plague] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
-			"[+30]% Production when constructing [Cure Plague] buildings [in all cities] <when above [40] [Sanitation]>",
-			"[+80]% Production when constructing [Cure Plague] buildings [in all cities] <in cities with less than [6] [Population]>",
-			"[+60]% Production when constructing [Cure Plague] buildings [in all cities] <during the [Classical Age]>",
-		"Doesn't generate naturally"
+			"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
+			"[+15]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
+			"[+20]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
+			"[+25]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities] <when above [40] [Sanitation]>",
+			"[+80]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities] <in cities with less than [6] [Population]>",
+			"[+50]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities] <during the [Classical Age]>",
+			"[+15]% Production when constructing [Cure PLAGUE] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
+			"[+20]% Production when constructing [Cure PLAGUE] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
+			"[+25]% Production when constructing [Cure PLAGUE] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
+			"[+30]% Production when constructing [Cure PLAGUE] buildings [in all cities] <when above [40] [Sanitation]>",
+			"[+80]% Production when constructing [Cure PLAGUE] buildings [in all cities] <in cities with less than [6] [Population]>",
+			"[+60]% Production when constructing [Cure PLAGUE] buildings [in all cities] <during the [Classical Age]>",
+		"Doesn't generate naturally <hidden from users>"
+			"Cannot be traded <hidden from users>",
 		]
     },			
     {
@@ -346,7 +346,8 @@
 	"Gain a free [REBEL IMMINENT] [in your cities] <with [4]% chance> <when between [10] and [12] [Rebel Risk]> <for [Human player] Civilizations>",
 	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [13] and [15] [Rebel Risk]> <for [Human player] Civilizations>",
 	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when above [15] [Rebel Risk]> <for [Human player] Civilizations>",
-			"Cannot be traded",
+			"Cannot be traded <hidden from users>",
+		"Doesn't generate naturally <hidden from users>",
 ]
     },	    
 {
@@ -1027,6 +1028,15 @@
 		"[+10]% [Gold] <in cities with a [Great Harbor]> <when above [1] [Ceramics]>",
 		"[+5]% [Gold] <in cities with a [Harbor]> <when above [1] [Ceramics]>"
 		]
+    },   
+{
+		"name": "Imperial Vermin Hound",
+		"resourceType": "Luxury",
+		"uniques": [
+			"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
+			"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
+				"Stockpiled"
+		]
     },
 	// Unit hidden resources
     {
@@ -1289,8 +1299,30 @@
 		"uniques": ["Will not be displayed in Civilopedia"
 				"Stockpiled"]
     },
-
-
+    {
+		"name": "SE",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"
+				"Stockpiled"]
+    },
+    {
+		"name": "CE",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"
+				"Stockpiled"]
+    },
+    {
+		"name": "NE",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"
+				"Stockpiled"]
+    },
+    {
+		"name": "RBE",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"
+				"Stockpiled"]
+    },
 
 
 

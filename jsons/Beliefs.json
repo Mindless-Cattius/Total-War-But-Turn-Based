@@ -694,4 +694,13 @@
         	"[+5]% Strength <for [Infantry Shield II] units> <when above [100] [Happiness]>",
 ],
 	}
+    {
+        "name": "The Amphibian Enlightenment",
+        "type": "Enhancer",
+        "uniques": [
+        "[+3] HP when healing <for [all] units>",
+        "New [Skirmisher] units start with [10] XP [in this city]",
+        "Unavailable"
+        ]
+    },
 ]

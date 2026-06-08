@@ -10,7 +10,6 @@
             "uniques": [
                 "Comment [Mechanic explanations can be found in Civilopedia -> Resources -> Rebel Risk.]",
                 "Triggers a [Rebel Risk?] event <hidden from users>",
-                "Only available <when below [1] [Administrative Briefing]> <hidden from users>"
             ]
         },
         {
@@ -18,7 +17,13 @@
             "uniques": [
                 "Comment [Mechanic explanations can be found in Civilopedia -> Resources -> Sanitation.]",
                 "Triggers a [The Plague?] event <hidden from users>",
-                "Only available <when below [1] [Administrative Briefing]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "CITIES NUMBER ?!",
+            "uniques": [
+                "Comment [Mechanic explanations can be found in Civilopedia -> Resources -> Cities.]",
+                "Triggers a [Cities?] event <hidden from users>",
             ]
         },
         {
@@ -26,7 +31,6 @@
             "uniques": [
                 "Comment [Mechanic explanations can be found in Civilopedia -> Resources -> Rule.]",
                 "Instantly provides [1] [Administrative Briefing] <hidden from users>",
-                "Only available <when below [1] [Administrative Briefing]> <hidden from users>",
             ]
         }
     ],
@@ -42,6 +46,10 @@
     {
         "text": "Review the Civilopedia -> Resources -> Rebel Risk to learn about unrest, rebellions, and provincial stability.",
         "link": "Resources/Rebel Risk"
+    },
+    {
+        "text": "Review the Civilopedia -> Resources -> Rebel Risk to learn about pros and cons of a big empire.",
+        "link": "Resources/Cities"
     }
     ]
 },
@@ -51,7 +59,7 @@
     "presentation": "Alert",
     "choices": [
         {
-            "text": "I SHALL MAINTAIN ORDER!",
+            "text": "I SHALL CRUSH DA PEASANTS!",
             "uniques": [
                 "Comment [Mechanic explanations can be found in Civilopedia -> Resources -> Rebel Risk.]",
                 "Triggers a [A Matter of Administration] event <hidden from users> <for [Human player] Civilizations>",
@@ -87,20 +95,1201 @@
         }
     ]
 },
+{
+    "name": "Cities?",
+    "text": "The strength of an empire is measured in cities. So is the amount of paperwork required to keep it from collapsing. Each city adds resources and manpower, but also increases administrative strain, logistical complexity, and the number of officials insisting they need more funding.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "THIS LAND BELONGS TO TAXES NOW",
+            "uniques": [
+                "Comment [Mechanic explanations can be found in Civilopedia -> Resources -> Cities.]",
+                "Triggers a [A Matter of Administration] event <hidden from users> <for [Human player] Civilizations>",
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Resources -> Cities",
+            "link": "Resources/Cities"
+        }
+    ]
+},
 
+		////SANITATION
+///SE:2
+{
+    "name": "Fever Report",
+    "text": "Fever Report \n\n A provincial report arrives describing a ‘mysterious fever’ spreading among the population. Local officials assure the situation is under control, which in administrative history is usually the final stage before it is not. Physicians recommend investigation. Tax collectors recommend ignoring anything that costs money.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Fund a proper inspection",
+            "uniques": [
+                "Only available <when above [299] [Gold]> <hidden from users> <if [Sanitation Policies I] is not constructed>",
+		"[+1 Happiness] [in all cities] <for [5] turns>",
+                "Gain [-300] [Gold]",
+                "Gain a free [Sanitation Policies I] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Fund a proper inspection",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <hidden from users> <if [Sanitation Policies I] is constructed> <if [Sanitation Policies II] is not constructed>",
+		"[+1 Happiness] [in all cities] <for [5] turns>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Sanitation Policies II] [in capital]",
+                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Fund a proper inspection",
+            "uniques": [
+                "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+		"[+2 Happiness] [in all cities] <for [5] turns>",
+                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Send An Inspector",
+            "uniques": [
+                "Only available <when above [0] [Nobles]> <when above [149] [Gold]> <hidden from users>",
+                "Gain [-150] [Gold]",
+                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Ignore the report",
+            "uniques": [
+                "[+3 Happiness, +1 Food] [in capital] <for [5] turns>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [30]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Blame the weather",
+            "uniques": [
+                "Gain a free [PLAGUE] [in capital] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [50]% chance>",
+                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Water Supply Contamination",
+    "text": "Water Supply Contamination \n\n Inspectors report that a section of the city's water supply may have been contaminated. Citizens complain of unusual smells, strange tastes, and sudden enthusiasm for staying near latrines. Local officials insist the water remains perfectly safe, having carefully avoided drinking it themselves.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Investigate The Cause",
+            "uniques": [
+                "Only available <when above [299] [Gold]> <hidden from users> <if [Sanitation Policies I] is not constructed>",
+                "Gain [-300] [Gold]",
+		"[-1 Happiness] [in capital] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies I] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Investigate The Cause",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <hidden from users> <if [Sanitation Policies I] is constructed> <if [Sanitation Policies II] is not constructed>",
+                "Gain [-500] [Gold]",
+		"[-1 Happiness] [in capital] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies II] [in capital]",
+                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Investigate The Cause",
+            "uniques": [
+                "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+		"[-1 Production, +2 Happiness] [in capital] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>",
+            ]
+        },
+        {
+            "text": "Boil the water and pray",
+            "uniques": [
+                "Only available <when above [149] [Faith]> <hidden from users>",
+                "Gain [150] [Faith]",
+                "[+1 Happiness] [in capital] <for [5] turns>",
+                "Gain a free [PLAGUE] [in capital] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [20]% chance>",
+                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "The water looks fine",
+            "uniques": [
+                "[-1 Happiness] [in capital] <for [5] turns>",
+                "Gain a free [DANGEROUS PLAGUE] [in capital] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [15]% chance>",
+                "Gain a free [Contamination Water Problem] [in capital] <in cities without a [Sanitation Policies II]> <hidden from users>",
+		"Remove [Sanitation Policies II] [in capital] <upon turn end> <hidden from users>",
+                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "The Rat Problem",
+    "text": "The Rat Problem \n\n City officials report an alarming increase in the rat population. Warehouses are being raided, grain stores nibbled away, and several citizens claim the rodents now appear better fed than the average laborer. Physicians warn that rats often accompany disease. Merchants warn that rats are eating profits. The rats have declined to comment.",
+    "presentation":"Alert",
+    "choices": [
+        {
+            "text": "Organize extermination efforts",
+            "uniques": [
+                "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
+                "Gain [-300] [Gold]",
+		"[-1 Production, +2 Happiness] [in capital] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies I] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Organize extermination efforts",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Sanitation Policies I] is constructed> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+                "Gain [-500] [Gold]",
+		"[-1 Production, +2 Happiness] [in capital] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies II] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Organize extermination efforts",
+            "uniques": [
+                "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+		"[-1 Production, +2 Happiness] [in capital] <for [5] turns>",
+                "Free [Great Engineer] appears <with [5]% chance> <hidden from users>",
+                "Remove [PLAGUE] [in all cities]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Local extermination efforts",
+            "uniques": [
+                "Only available <when above [1] [Nobles]> <when above [299] [Gold]> <hidden from users>",
+		"Free [Spearman] appears <with [30]% chance> <when above [6] [Manpower]> <hidden from users>",
+		"Free [General] appears <with [10]% chance> <when above [1] [Nobles]> <hidden from users>",
+                "Remove [PLAGUE] [in all cities]",
+                "Gain [-300] [Gold]",
+		"[-1 Production] [in capital] <for [5] turns>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "FREE BUFFET!",
+            "uniques": [
+		"[-2 Happiness, +3 Food] [in all cities] <for [5] turns>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [15]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [5]% chance>",
+		"Free [Great Scholar] appears <with [5]% chance> <when above [1] [Nobles]> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Encourage citizens to hunt them",
+            "uniques": [
+                "[+1 Happiness, +1 Food, -1 Production] [in all cities] <for [5] turns>",
+                "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]> <with [20]% chance>",
+		"Free [Skirmisher] appears <with [30]% chance> <when above [5] [Manpower]> <hidden from users>",
+		"Free [Archer] appears <with [30]% chance> <when above [6] [Manpower]> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>",
+            ]
+        },
+        {
+            "text": "They seem harmless",
+            "uniques": [
+                "[-1 Food] [in all cities] <for [5] turns>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [5]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [2]% chance>",
+                "Gain a free [Rat Infestation Problem] [Capital] <in cities without a [Rat Infestation Problem]> <with [50]% chance>",
+		"Free [Great Artist] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>",
+            ]
+        }
+    ]
+},
+{
+    "name": "The Black Market Healers",
+    "text": "The Black Market Healers \n\n Licensed physicians complain that unregistered healers are treating the sick without permits, supervision, or proper taxation. Citizens point out that unlike licensed physicians, these healers occasionally accept payment in vegetables and do not require appointments six months in advance. The debate remains unresolved.",
+    "presentation":"Alert",
+    "choices": [
+        {
+            "text": "Regulate the healers",
+            "uniques": [
+                "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
+                "Gain [-300] [Gold]",
+                "[-1 Happiness] [in capital] <for [5] turns>",
+                "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies I] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Regulate the healers",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Sanitation Policies I] is constructed> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+                "Gain [-500] [Gold]",
+                "[-1 Happiness] [in capital] <for [5] turns>",
+                "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies II] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Regulate the healers",
+            "uniques": [
+                "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+                "[-1 Production] [in capital] <for [5] turns>",
+                "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "License the most talented charlatans",
+            "uniques": [
+                "Only available <when above [299] [Culture]> <hidden from users>",
+                "Gain [-300] [Culture]",
+                "[+2 Happiness, +1 Food] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Remove [DANGEROUS PLAGUE] [in all cities]",
+                "Free [Great Scholar] appears <with [20]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Let the market decide",
+            "uniques": [
+                "[+2 Happiness, +1 Food] [in capital] <for [5] turns>",
+                "[+2 Gold] [in all cities] <for [5] turns>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [15]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [3]% chance>",
+                "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Arrest everyone involved",
+            "uniques": [
+                "[-2 Happiness, -2 Gold] [in capital] <for [5] turns>",
+                "[+1 Production] [in capital] <for [5] turns>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [5]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [1]% chance>",
+                "Free [Spearman] appears <with [20]% chance> <when above [6] [Manpower]> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Quarantine Debate",
+    "text": "Quarantine Debate \n\n A heated debate has erupted across the realm. Physicians insist infected districts must be isolated immediately. Merchants insist trade must continue. Local governors insist the problem is someone else's responsibility. The disease, meanwhile, continues spreading with admirable neutrality. History suggests that plagues travel faster than committee decisions.",
+    "presentation":"Alert",
+    "choices": [
+        {
+            "text": "Enforce strict quarantines",
+            "uniques": [
+                "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
+                "Gain [-300] [Gold]",
+                "[-1 Food, -1 Production] [in all cities] <for [5] turns>",
+                "[+1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies I] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Enforce strict quarantines",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Sanitation Policies I] is constructed> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+                "Gain [-500] [Gold]",
+                "[-1 Food, -1 Production] [in all cities] <for [5] turns>",
+                "[+1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies II] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Enforce strict quarantines",
+            "uniques": [
+                "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+                "[-1 Food, -1 Production] [in all cities] <for [5] turns>",
+                "[+1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Seal the gates and annoy everyone",
+            "uniques": [
+                "Only available <when above [399] [Culture]> <hidden from users>",
+                "Gain [-400] [Culture]",
+                "[-2 Gold] [in all cities] <for [5] turns>",
+                "[+2 Happiness, +2 Food] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Free [Great Engineer] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "The plague pays taxes too",
+            "uniques": [
+                "[+2 Gold, +1 Food] [in all cities] <for [5] turns>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [15]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [5]% chance>",
+                "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "If they die, they were probably sick",
+            "uniques": [
+                "[+3 Gold, -1 Food] [in all cities] <for [5] turns>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [20]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [8]% chance>",
+                "Free [Great Merchant] appears <with [5]% chance> <hidden from users>",
+                "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
+                "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [20]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "The Burning Solution",
+    "text": "The Burning Solution \n\n A growing number of physicians argue that contaminated clothing, bedding, refuse, and even entire buildings should be burned to prevent disease from spreading. Property owners strongly object to the proposal. Citizens are divided between fearing the plague and fearing the government. The fire, meanwhile, appears willing to cooperate with either side.",
+    "presentation":"Alert",
+    "choices": [
+        {
+            "text": "Burn the infected districts",
+            "uniques": [
+                "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
+                "Gain [-300] [Gold]",
+                "[-1 Production, -1 Food, -1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Remove [DANGEROUS PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies I] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Burn the infected districts",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Sanitation Policies I] is constructed> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+                "Gain [-500] [Gold]",
+                "[-1 Production, -1 Food, -1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Remove [DANGEROUS PLAGUE] [in all cities]",
+                "Gain a free [Sanitation Policies II] [in capital]",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Burn the infected districts",
+            "uniques": [
+                "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+                "[-1 Production, -1 Food, -1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Remove [DANGEROUS PLAGUE] [in all cities]",
+                "Free [Great Engineer] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Controlled burning, mostly controlled",
+            "uniques": [
+                "Only available <when above [299] [Culture]> <hidden from users>",
+                "Gain [-300] [Culture]",
+                "Remove [PLAGUE] [in all cities]",
+                "Remove [DANGEROUS PLAGUE] [in all cities]",
+                "[-1 Happiness, -1 Food, +1 Production] [in all cities] <for [5] turns>",
+                "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Purify it with holy fire",
+            "uniques": [
+                "Only available <when above [399] [Faith]> <hidden from users>",
+                "Gain [-400] [Faith]",
+                "Remove [PLAGUE] [in all cities]",
+                "Remove [DANGEROUS PLAGUE] [in all cities] <with [10]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <upon turn end> <with [3]% chance>",
+                "Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Fire is expensive",
+            "uniques": [
+                "[+3 Gold, +1 Production, -2 Happiness] [in all cities] <for [5] turns>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [15]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [5]% chance>",
+                "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "The smell builds immunity",
+            "uniques": [
+                "[+2 Gold, +1 Food, -2 Happiness] [in all cities] <for [5] turns>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [20]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [8]% chance>",
+                "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [20]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+"name": "Waste Disposal Crisis",
+"text": "Waste Disposal Crisis \n\n City officials report that the empire has accumulated an impressive quantity of waste. Streets are clogged, rivers are questionable, and several districts can now be identified by smell alone. Citizens demand action. The treasury demands savings. The rats demand nothing because they already have everything they need.",
+"presentation":"Alert",
+"choices": [
+    {
+        "text": "Establish organized sanitation services",
+        "uniques": [
+            "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
+            "Gain [-300] [Gold]",
+            "[-1 Production] [in capital] <for [5] turns>",
+            "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
+            "Remove [PLAGUE] [in all cities]",
+            "Gain a free [Sanitation Policies I] [in capital]",
+            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Establish organized sanitation services",
+        "uniques": [
+            "Only available <when above [499] [Gold]> <if [Sanitation Policies I] is constructed> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+            "Gain [-500] [Gold]",
+            "[-1 Production] [in capital] <for [5] turns>",
+            "[+1 Happiness, +1 Food, +1 Culture] [in all cities] <for [5] turns>",
+            "Remove [PLAGUE] [in all cities]",
+            "Gain a free [Sanitation Policies II] [in capital]",
+            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Establish organized sanitation services",
+        "uniques": [
+            "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+            "[-1 Production] [in capital] <for [5] turns>",
+            "[+2 Happiness, +1 Food, +1 Gold] [in all cities] <for [5] turns>",
+            "Remove [PLAGUE] [in all cities]",
+            "Free [Great Engineer] appears <with [5]% chance> <hidden from users>",
+            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Pay citizens to clean the streets",
+        "uniques": [
+            "[-4 Gold] [in all cities] <for [5] turns>",
+            "Remove [PLAGUE] [in all cities]",
+            "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
+            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Dump it outside the walls",
+        "uniques": [
+            "[+1 Production, -1 Culture] [in all cities] <for [5] turns>",
+            "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]> <with [50]% chance>",
+            "Gain a free [DANGEROUS PLAGUE] [in capital] <in cities with a [Rat Infestation Problem]> <with [50]% chance>",
+            "Instantly provides [1] [SE] <with [25]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "The river will handle it",
+        "uniques": [
+            "[+3 Gold, +1 Food, -1 Happiness] [in all cities] <for [5] turns>",
+            "Gain a free [Contamination Water Problem] [in capital] <with [60]% chance>",
+            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <with [30]% chance>",
+            "Instantly provides [1] [SE] <with [15]% chance> <hidden from users>"
+        ]
+    }
+]
+},
+
+///SE:4
+
+            {
+                "name": "Physicians Request Funding",
+                "text": "Physicians Request Funding /n/n A delegation of physicians has arrived at court requesting additional funding. They claim better sanitation, cleaner water, and trained medical staff could significantly reduce disease outbreaks. Skeptics note that the same physicians also requested funding last year, the year before that, and every year since discovering that governments occasionally possess money. The physicians insist this request is different. The treasury insists it is not.",
+                "presentation":"Alert",
+                "choices": [
+                    {
+                        "text": "Fund public health initiatives",
+                        "uniques": [
+                            "Only available <when above [499] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
+                            "Gain [-500] [Gold]",
+                            "[-5 Gold] [in capital] <for [5] turns>",
+                            "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Gain a free [Sanitation Policies I] [in capital]",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Fund public health initiatives",
+                        "uniques": [
+                            "Only available <when above [699] [Gold]> <if [Sanitation Policies I] is constructed> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+                            "Gain [-700] [Gold]",
+                            "[-5 Gold] [in capital] <for [5] turns>",
+                            "[+1 Happiness, +1 Food, +1 Culture] [in all cities] <for [5] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Gain a free [Sanitation Policies II] [in capital]",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Fund public health initiatives",
+                        "uniques": [
+                            "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+                            "[-5 Gold] [in capital] <for [5] turns>",
+                            "[+2 Happiness, +1 Food, +1 Gold] [in all cities] <for [5] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Fund only the successful physicians",
+                        "uniques": [
+                            "Only available <if [Herbalist] is constructed> <when above [199] [Gold]>",
+                            "Gain [-200] [Gold]",
+                            "[+1 Happiness, +1 Culture, +1 Food] [in all cities] <for [5] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Scholar] appears <with [15]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [25]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "The healthy should simply remain healthy",
+                        "uniques": [
+                            "[+2 Gold, +1 Production, -1 Happiness] [in all cities] <for [5] turns>",
+                            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <with [15]% chance>",
+                            "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <with [5]% chance>",
+                            "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [15]% chance> <hidden from users>"
+                        ]
+                    }
+                ]
+            },
+
+{
+	"name": "Religious Interpretation of Disease",
+	"text": "Religious Interpretation of Disease \n\n As disease spreads across the realm, every religious authority suddenly becomes an expert in medicine. Priests blame sin. Cultists blame invisible spirits. Philosophers blame moral decline. Physicians blame contaminated water and rats. Naturally, the physicians are considered the least trustworthy group in the discussion.",
+"presentation":"Alert",
+	"choices": [
+    {
+        "text": "Trust the physicians",
+        "uniques": [
+            "Only available <when above [499] [Gold]> <if [Sanitation Policies II] is constructed> <hidden from users>",
+            "Gain [-500] [Gold]",
+            "[+1 Production, +1 Happiness, +1 Food] [in all cities] <for [5] turns>",
+            "Remove [PLAGUE] [in all cities]",
+            "Remove [DANGEROUS PLAGUE] [in all cities]",
+            "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
+            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Organize empire-wide prayers",
+        "uniques": [
+            "Only available <if [Temple] is constructed> <when above [499] [Faith]> <hidden from users>",
+            "Gain [-500] [Faith]",
+            "[+1 Happiness, +1 Faith, +1 Culture] [in all cities] <for [5] turns>",
+            "Remove [PLAGUE] [in all cities]",
+            "Remove [DANGEROUS PLAGUE] [in all cities]",
+            "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Summon the extremely qualified cultists",
+        "uniques": [
+            "Only available <if [Secret Cult] is constructed> <hidden from users>",
+            "[+1 Gold, +1 Happiness, +1 Culture] [in all cities] <for [5] turns>",
+            "Remove [PLAGUE] [in all cities]",
+            "Remove [DANGEROUS PLAGUE] [in all cities]",
+            "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+            "Gain a free [Contamination Water Problem] [in capital] <in cities without a [Contamination Water Problem]> <with [70]% chance>",
+            "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]> <with [70]% chance>",
+            "Gain a free [DANGEROUS PLAGUE] [in capital] <in cities with a [Rat Infestation Problem]> <with [50]% chance>",
+            "Gain a free [DANGEROUS PLAGUE] [in capital] <in cities with a [Contamination Water Problem]> <with [50]% chance>",
+            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Find a scapegoat immediately",
+        "uniques": [
+            "[+2 Happiness, +1 Production] [in all cities] <for [5] turns>",
+            "[-2 Science, -2 Culture, -2 Gold] [in all cities] <for [5] turns>",
+            "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+            "Instantly provides [1] [SE] <with [25]% chance> <hidden from users>",
+            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [5]% chance>",
+            "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [2]% chance>",
+        ]
+    },
+    {
+        "text": "God Will It",
+        "uniques": [
+            "[-2 Gold, -2 Food, -1 Production, +4 Faith] [in all cities] <for [5] turns>",
+            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
+            "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
+            "Free [Great Prophet] appears",
+            "Instantly provides [1] [SE] <with [20]% chance> <hidden from users>"
+        ]
+    }
+]
+},
+///SE:5
+            {
+                "name": "Suspicious Coughing",
+                "text": "Suspicious Coughing /n/n Physicians report a noticeable increase in coughing throughout the city. Some citizens blame foul air, others blame foreign merchants, and one particularly influential noble insists it is caused by excessive taxation. The exact cause remains unknown. The coughing, however, appears highly committed to continuing its work.",
+                "presentation":"Alert",
+                "choices": [
+                    {
+                        "text": "Deploy the public health service",
+                        "uniques": [
+                            "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+                            "[-5 Gold] [in capital] <for [5] turns>",
+                            "[+1 Happiness, +1 Science] [in all cities] <for [5] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Commission a scholarly investigation",
+                        "uniques": [
+                            "Only available <if [School] is constructed> <when above [299] [Gold]>",
+                            "Gain [-300] [Gold]",
+                            "[+1 Culture, +1 Happiness, +1 Food] [in all cities] <for [5] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Scholar] appears <with [15]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "March the coughing out of the city",
+                        "uniques": [
+                            "Only available <if [Army Barracks] is constructed>",
+                            "[-1 Production, -2 Happiness] [in all cities] <for [5] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Free [Spearman] appears <with [30]% chance> <when above [6] [Manpower]> <hidden from users>",
+                            "Free [General] appears <when above [1] [Nobles]> <with [10]% chance> <hidden from users>",
+                            "Gain a free [DANGEROUS PLAGUE] [in capital] <with [10]% chance>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Declare coughing illegal",
+                        "uniques": [
+                            "[-2 Happiness, +2 Culture, +1 Science] [in all cities] <for [5] turns>",
+                            "Remove [PLAGUE] [in your cities] <with [50]% chance>",
+                            "Remove [DANGEROUS PLAGUE] [in all cities] <with [10]% chance>",
+                            "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [40]% chance>",
+                            "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
+                            "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Pray louder than the coughing",
+                        "uniques": [
+                            "Only available <if [Grand Temple] is constructed> <when above [399] [Faith]>",
+                            "Gain [-400] [Faith]",
+                            "[+2 Happiness, +2 Faith, +1 Culture] [in all cities] <for [5] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Mass Graves Required",
+                "text": "Mass Graves Required /n/n The death toll has reached the point where existing burial grounds can no longer keep pace. Local officials request emergency measures, warning that bodies left unattended may worsen the spread of disease. Priests demand proper rites. Accountants demand cheaper corpses. Citizens demand that someone else deal with the problem. History, as usual, offers no pleasant solutions.",
+                "presentation":"Alert",
+                "choices": [
+                    {
+                        "text": "Fund a massive burial program",
+                        "uniques": [
+                            "Only available <when above [10] [Cities]>",
+                            "Gain [-1000] [Gold]",
+                            "[-2 Gold, -1 Production] [in all cities] <for [10] turns>",
+                            "[+2 Happiness, +1 Culture] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Assign labor crews to the task",
+                        "uniques": [
+                            "Only available <when above [30] [Manpower]>",
+                            "[-2 Production, +1 Science, +1 Happiness] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Free [Spearman] appears <with [15]% chance> <hidden from users>",
+                            "Free [Skirmisher] appears <with [20]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Let the scholars study the dead",
+                        "uniques": [
+                            "Only available <if [School] is constructed> <when above [399] [Gold]>",
+                            "Gain [-400] [Gold]",
+                            "[+2 Science, +1 Gold, -1 Culture] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Scholar] appears <with [15]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Seal the districts and bury the cost",
+                        "uniques": [
+                            "[-3 Food, -1 Happiness, -1 Culture, -1 Production] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Engineer] appears <with [5]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [25]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Trust the sanitation officials",
+                        "uniques": [
+                            "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+                            "[+1 Happiness, +1 Food, +1 Gold] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [35]% chance> <hidden from users>"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Divine Punishment?",
+                "text": "Divine Punishment? /n/n As disease spreads through the population, religious leaders, philosophers, physicians, politicians, and several extremely confident drunkards have all provided explanations. The priests insist the gods are angry. The philosophers insist the priests are wrong. The physicians insist everyone should wash their hands. The politicians have wisely formed a committee to determine whose fault the plague is. The plague itself remains remarkably productive while the debate continues.",
+                "presentation":"Alert",
+                "choices": [
+                    {
+                        "text": "Appease the gods with grand sacrifices",
+                        "uniques": [
+                            "Only available <if [Grand Temple] is constructed> <when above [699] [Faith]>",
+                            "Gain [-700] [Faith]",
+                            "[+2 Happiness, +2 Faith, +1 Culture] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
+                            "Free [Great Artist] appears <with [20]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Fund scholars to explain the gods",
+                        "uniques": [
+                            "Only available <if [School] is constructed> <when above [799] [Science]>",
+                            "Gain [800] [Science]",
+                            "[-2 Science, -2 Gold, +2 Happiness, +1 Faith] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Prophet] appears <with [60]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Find someone to blame immediately",
+                        "uniques": [
+                            "Only available <when above [30] [Manpower]>",
+                            "[+2 Happiness, +1 Production] [in all cities] <for [10] turns>",
+                            "[-1 Culture] [in all cities] <for [10] turns>",
+                            "Free [Spearman] appears <with [20]% chance> <hidden from users>",
+                            "Free [Great Artist] appears <with [5]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Trust the sanitation inspectors",
+                        "uniques": [
+                            "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
+                            "[+1 Happiness, -2 Food, -2 Gold] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Have we tried doing nothing?",
+                        "uniques": [
+                            "[+3 Faith, -1 Food] [in all cities] <for [10] turns>",
+                            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
+                            "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
+                            "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Overcrowded Slums",
+                "text": "Overcrowded Slums /n/n City officials report that several districts have become dangerously overcrowded. Families share rooms, workers sleep in warehouses, and some landlords have reportedly discovered innovative methods of fitting twelve people into a space intended for three. Physicians warn that disease could spread rapidly. Landlords warn that reducing overcrowding could reduce profits. The landlords have therefore concluded that disease is the greater threat.",
+                "presentation":"Alert",
+                "choices": [
+                    {
+                        "text": "Launch an urban renewal program",
+                        "uniques": [
+                            "Only available <if [Sanitation Policies II] is constructed> <when above [799] [Gold]> <hidden from users>",
+                            "Gain [-800] [Gold]",
+                            "[+2 Happiness, +1 Food, +1 Culture, -5 Gold] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [35]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Pack them in tighter",
+                        "uniques": [
+                            "[+1 Production, +3 Gold, -2 Happiness] [in all cities] <for [10] turns>",
+                            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [20]% chance>",
+                            "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [3]% chance>",
+                            "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Have the nobles sponsor housing",
+                        "uniques": [
+                            "Only available <when above [2] [Nobles]>",
+                            "[+2 Happiness, +1 Culture, +1 Food, -2 Gold] [in all cities] <for [10] turns>",
+                            "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [20]% chance>",
+                            "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+                            "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                      {
+                        "text": "There Is Always Room For One More",
+                        "uniques": [
+                            "Only available <when above [19] [Cities]>",
+                            "[+1 Happiness, +1 Culture, -2 Food] [in all cities] <for [10] turns>",
+                            "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+                            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [10]% chance>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Some Of You May Die",
+                        "uniques": [
+                            "[+4 Gold, -1 Production, -2 Happiness] [in all cities] <for [10] turns>",
+                            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
+                            "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [15]% chance>",
+                            "Free [Great Merchant] appears <with [15]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    }
+                ]
+            },
+///SE:6
+{
+    "name": "Experimental Treatments",
+    "text": "Experimental Treatments /n/n The physicians have unveiled several new methods for treating disease. None have been properly tested. Some involve rare herbs, some involve questionable chemicals, and one proposal appears to involve hitting the patient with a stick until the symptoms become someone else's problem. The physicians insist progress requires courage. The patients insist progress should happen to other people first.",
+    "presentation":"Alert",
+    "choices": [
+        {
+            "text": "Conduct controlled trials",
+            "uniques": [
+                "[+1 Science, +1 Happiness, -1 Production, -1 Food] [in all cities] <for [10] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Try everything at once",
+            "uniques": [
+                "[+1 Science, +1 Culture, +1 Faith] [in all cities] <for [10] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [20]% chance>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Ask the nobility to volunteer",
+            "uniques": [
+                "Only available <when above [2] [Nobles]>",
+                "[+1 Happiness, +1 Culture, +2 Science] [in all cities] <for [10] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Remove [DANGEROUS PLAGUE] [in all cities]",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [50]% chance>",
+                "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+                "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Recruit volunteers",
+            "uniques": [
+                "Only available <when above [39] [Manpower]>",
+                "[+1 Science, -1 Production] [in all cities] <for [10] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "LICK THE FROG",
+            "uniques": [
+                "[+3 Culture, +1 Food] [in all cities] <for [10] turns>",
+                "Free [Great Artist] appears <with [20]% chance> <hidden from users>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [15]% chance>",
+                "Instantly provides [1] [SE] <with [60]% chance> <hidden from users>"
+		"Triggers a [Frog-Based Medical Breakthrough] event <with [10]% chance> <hidden from users>",
+            ]
+        }
+    ]
+},
+{
+    "name": "Frog-Based Medical Breakthrough",
+    "text": "Frog-Based Medical Breakthrough /n/n A group of citizens reports that after an unsanctioned interaction with local amphibians, several symptoms of the plague appear to have... changed behavior. Physicians are divided. Biologists are confused. The frogs refuse to elaborate, mostly because they are frogs. Early reports suggest either medical advancement or collective insanity. Possibly both.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Commission formal amphibian studies",
+            "uniques": [
+                "[+1 Science, +1 Happiness] [in all cities] <if [Sanitation Policies II] is constructed> <for [10] turns>",
+                "[+1 Food, +1 Happiness] [in all cities] <for [10] turns>"
+                "Remove [PLAGUE] [in all cities]",
+		"Gain [500] [Science] <if [Sanitation Policies II] is constructed>",
+                "Gain a free [Sanitation Policies I] [in capital] <in cities without a [Sanitation Policies I]> <with [50]% chance>",
+                "Gain a free [Sanitation Policies II] [in capital] <in cities without a [Sanitation Policies II]> <with [50]% chance>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [10]% chance>",
+                "Free [Great Scholar] appears <with [20]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Declare frog-touching a state religion",
+            "uniques": [
+                "[+2 Faith, +1 Happiness, -2 Culture] [in all cities] <for [10] turns>",
+                "Remove [PLAGUE] [in all cities]",
+                "Free [Great Prophet] appears <with [50]% chance>",
+		"Adopt [The Amphibian Enlightenment] <with [30]% chance> <hidden from users>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [20]% chance>",
+                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Repeat the experiment until results improve",
+            "uniques": [
+                "[+2 Science, -1 Happiness, +1 Food] [in all cities] <for [10] turns>",
+                "[+2 Science, +1 Happiness] [in all cities] <if [Sanitation Policies II] is constructed> <for [10] turns>",
+                "Free [Great Scholar] appears <with [50]% chance>",
+                "Free [Great Artist] appears <with [50]% chance>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
+                "Instantly provides [1] [SE] <with [60]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+            {
+                "name": "The Rats Are Getting Bold",
+                "text": "The Rats Are Getting Bold /n/n Reports from multiple districts confirm an uncomfortable truth: the rats are no longer avoiding humans. In fact, they appear to be negotiating territory. Some witnesses claim organized patrols. Others claim the rats are simply judging us. Either way, grain supplies are disappearing and morale is following closely behind.",
+                "presentation": "Alert",
+                "choices": [
+                    {
+                        "text": "Form anti-rat task forces",
+                        "uniques": [
+                            "Only available <when above [699] [Gold]>",
+                            "Gain [-700] [Gold]",
+                            "Free [Skirmisher] appears",
+                            "[-1 Production] [in capital] <for [5] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Remove [DANGEROUS PLAGUE] [in all cities]",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+			"Instantly provides [1] [Imperial Vermin Hound] <with [30]% chance> <if [Sanitation Policies I] is constructed> <hidden from users>",
+                        ]
+                    },
+                    {
+                        "text": "Negotiate with the rat delegation",
+                        "uniques": [
+                            "[+1 Happiness, +1 Food, +2 Culture] [in all cities] <for [10] turns>",
+                            "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]> <with [50]% chance>",
+                            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [25]% chance>",
+                            "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Declare rats a protected minority species",
+                        "uniques": [
+                            "Only available <when above [2] [Nobles]>",
+                            "[+2 Happiness, +2 Culture, +1 Science] [in all cities] <for [10] turns>",
+                            "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]>",
+                            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [30]% chance>",
+                            "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "Burn the grain and start over",
+                        "uniques": [
+                            "Only available <when above [299] [Gold]>",
+                            "Gain [-300] [Gold]",
+                            "[-3 Food, -1 Production, +1 Faith] [in all cities] <for [10] turns>",
+                            "Remove [PLAGUE] [in all cities]",
+                            "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [40]% chance> <hidden from users>"
+                        ]
+                    },
+                    {
+                        "text": "The rats were here first anyway",
+                        "uniques": [
+                            "[-2 Happiness, +2 Food] [in all cities] <for [10] turns>",
+                            "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [30]% chance>",
+                            "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
+                            "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
+                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                        ]
+                    }
+                ]
+            },
+
+///Sanitation buildings
+
+{
+    "name": "Clean Water",
+    "text": "Clean Water \n\n The capital's population has grown beyond what its streets, wells, and public facilities were designed to handle. Officials report congestion, rising filth, and increasing health concerns. Merchants call it economic growth. Physicians call it a disaster waiting to happen.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Fund sanitation improvements",
+            "uniques": [
+                "Only available <when above [199] [Gold]> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+                "Gain [-200] [Gold]",
+                "Remove [Contamination Water Problem] [in all cities]",
+            ]
+        },
+        {
+            "text": "Fund sanitation improvements",
+            "uniques": [
+                "Only available <when above [399] [Gold]> <if [Sanitation Policies II] is constructed> <hidden from users>",
+                "Gain [-400] [Gold]",
+                "Remove [Contamination Water Problem] [in all cities]",
+            ]
+        },
+        {
+            "text": "Fund sanitation improvements",
+            "uniques": [
+                "Only available <when above [599] [Gold]> <hidden from users>",
+                "Gain [-600] [Gold]",
+                "Remove [Contamination Water Problem] [in all cities]",
+            ]
+        },
+        {
+            "text": "Organize public prayers",
+            "uniques": [
+                "Only available <when above [299] [Faith]> <hidden from users>",
+                "Gain [-300] [Faith]",
+		"Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
+                "Remove [Contamination Water Problem] [in capital]",
+            ]
+        },
+        {
+            "text": "Try To Clean The Water",
+            "uniques": [
+                "Only available <when above [299] [Culture]> <hidden from users>",
+                "Gain [-300] [Culture]",
+		"Free [Great Scholar] appears <with [20]% chance> <hidden from users>",
+                "Remove [Contamination Water Problem] [in capital]"
+            ]
+        },
+        {
+            "text": "Surely it will resolve itself",
+            "uniques": [
+                "Comment [Historically, this approach has an uneven success rate.]"
+            ]
+        }
+    ],
+},
+{
+    "name": "Sanitation Policies",
+    "text": "Sanitation Policies \n\n The Imperial Health Office reports that sanitation efforts, medical inspections, and emergency containment protocols are proving effective. Unfortunately, they are also proving expensive. Officials request continued funding. The treasury requests optimism instead.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Continue funding public health",
+            "uniques": [
+                "Only available <when above [299] [Gold]> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+                "Gain [-300] [Gold]"
+            ]
+        },
+        {
+            "text": "Continue funding public health",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Sanitation Policies II] is constructed> <hidden from users>",
+                "Gain [-500] [Gold]"
+            ]
+        },
+        {
+            "text": "Public health remains a priority",
+            "uniques": [
+                "Only available <when above [299] [Culture]> <hidden from users>",
+                "Gain [-300] [Culture]"
+            ]
+        },
+        {
+            "text": "Cut unnecessary expenses",
+            "uniques": [
+                "Remove [Sanitation Policies I] [in capital] <in cities without a [Sanitation Policies II]>",
+                "Remove [Sanitation Policies II] [in capital]",
+            ]
+        }
+    ]
+},
 
 		////BUFF UPKEEP
 
             {
                 "name": "Heavy Infantry Funding Review",
-                "text": "The military accountants report that maintaining elite infantry formations remains expensive. Veteran officers require salaries, armor requires maintenance, and soldiers continue the radical practice of expecting food. The treasury recommends cuts. The generals recommend finding a different treasury.",
+                "text": "Heavy Infantry Funding Review \n\n The military accountants report that maintaining elite infantry formations remains expensive. Veteran officers require salaries, armor requires maintenance, and soldiers continue the radical practice of expecting food. The treasury recommends cuts. The generals recommend finding a different treasury.",
                 "presentation":"Alert",
                 "choices": [
                     {
                         "text": "Continue funding the veterans",
                         "uniques": [
                             "Only available <when above [500] [Gold]>",
-                            "Gain [-300]-[-700] [Gold]"
+                            "Gain [-500] [Gold]"
                         ]
                     },
                     {
@@ -119,14 +1308,14 @@
             },
             {
                 "name": "Shield Infantry Funding Review",
-                "text": "The treasury reports that maintaining heavily armed shield infantry remains expensive. Shields must be replaced, armor repaired, and veteran instructors paid. The generals argue these soldiers form the backbone of the army. The treasury argues that backbones are surprisingly expensive.",
+                "text": "Shield Infantry Funding Review \n\n The treasury reports that maintaining heavily armed shield infantry remains expensive. Shields must be replaced, armor repaired, and veteran instructors paid. The generals argue these soldiers form the backbone of the army. The treasury argues that backbones are surprisingly expensive.",
                 "presentation":"Alert",
                 "choices": [
                     {
                         "text": "Continue funding the shield infantry",
                         "uniques": [
                             "Only available <when above [500] [Gold]>",
-                            "Gain [-300]-[-700] [Gold]"
+                            "Gain [-500] [Gold]"
                         ]
                     },
                     {
@@ -145,14 +1334,14 @@
             },
             {
                 "name": "Sword Training Review",
-                "text": "The army requests additional funding for close-combat training. Veteran officers insist that superior swordsmanship wins battles. Accountants note that dead soldiers rarely complain about insufficient training.",
+                "text": "Sword Training Review \n\n The army requests additional funding for close-combat training. Veteran officers insist that superior swordsmanship wins battles. Accountants note that dead soldiers rarely complain about insufficient training.",
                 "presentation":"Alert",
                 "choices": [
                     {
                         "text": "Continue funding the swordsmen",
                         "uniques": [
                             "Only available <when above [500] [Gold]>",
-                            "Gain [-300]-[-700] [Gold]"
+                            "Gain [-500] [Gold]"
                         ]
                     },
                     {
@@ -171,14 +1360,14 @@
             },
             {
                 "name": "Horse Archer Procurement Report",
-                "text": "The horse archers require replacement bows, fresh mounts, and continued training. The officers claim this investment guarantees battlefield superiority. The treasury has noticed that battlefield superiority appears to require funding every year.",
+                "text": "Horse Archer Procurement Report \n\n The horse archers require replacement bows, fresh mounts, and continued training. The officers claim this investment guarantees battlefield superiority. The treasury has noticed that battlefield superiority appears to require funding every year.",
                 "presentation":"Alert",
                 "choices": [
                     {
                         "text": "Maintain the horse archers",
                         "uniques": [
                             "Only available <when above [500] [Gold]>",
-                            "Gain [-300]-[-700] [Gold]"
+                            "Gain [-500] [Gold]"
                         ]
                     },
                     {
@@ -197,14 +1386,14 @@
             },
             {
                 "name": "Quality Sticks Maintenance Report",
-                "text": "The spear formations continue to demand equipment, drills, and competent officers. Historians note that disciplined spearmen have defeated cavalry for centuries. Cavalry commanders have submitted a formal complaint regarding this observation.",
+                "text": "Quality Sticks Maintenance Report \n\n The spear formations continue to demand equipment, drills, and competent officers. Historians note that disciplined spearmen have defeated cavalry for centuries. Cavalry commanders have submitted a formal complaint regarding this observation.",
                 "presentation":"Alert",
                 "choices": [
                     {
                         "text": "Maintain the phalanx",
                         "uniques": [
                             "Only available <when above [500] [Gold]>",
-                            "Gain [-300]-[-700] [Gold]"
+                            "Gain [-500] [Gold]"
                         ]
                     },
                     {
@@ -223,14 +1412,14 @@
             },
             {
                 "name": "Cavalry Budget Crisis",
-                "text": "The cavalry commanders have submitted another funding request. The report discusses mobility, reconnaissance, and frontier defense. Most of the expenses appear to involve feeding horses. An alarming number of horses.",
+                "text": "Cavalry Budget Crisis \n\n The cavalry commanders have submitted another funding request. The report discusses mobility, reconnaissance, and frontier defense. Most of the expenses appear to involve feeding horses. An alarming number of horses.",
                 "presentation":"Alert",
                 "choices": [
                     {
                         "text": "Fund the cavalry",
                         "uniques": [
                             "Only available <when above [500] [Gold]>",
-                            "Gain [-300]-[-700] [Gold]"
+                            "Gain [-500] [Gold]"
                         ]
                     },
                     {
@@ -249,14 +1438,14 @@
             },
             {
                 "name": "Arrow Procurement Debate",
-                "text": "Military officials insist that archers require a steady supply of arrows. Treasury officials suggest recovering arrows already fired. The military politely requests that the treasury demonstrate this strategy personally.",
+                "text": "Arrow Procurement Debate \n\n Military officials insist that archers require a steady supply of arrows. Treasury officials suggest recovering arrows already fired. The military politely requests that the treasury demonstrate this strategy personally.",
                 "presentation":"Alert",
                 "choices": [
                     {
                         "text": "Purchase more arrows",
                         "uniques": [
                             "Only available <when above [500] [Gold]>",
-                            "Gain [-300]-[-700] [Gold]"
+                            "Gain [-500] [Gold]"
                         ]
                     },
                     {
@@ -282,7 +1471,7 @@
 
             {
                 "name": "The Fall of Pannonia",
-                "text": "The Danubian frontier has collapsed. Pannonia, once a shield against northern incursions, now lies exposed to raiders and migrating tribes. Refugees flood southward while frontier commanders demand reinforcements, warning that today's border skirmish may become tomorrow's invasion. The treasury insists everything is under control, which is usually an excellent indicator that it is not.",
+                "text": "The Fall of Pannonia \n\n The Danubian frontier has collapsed. Pannonia, once a shield against northern incursions, now lies exposed to raiders and migrating tribes. Refugees flood southward while frontier commanders demand reinforcements, warning that today's border skirmish may become tomorrow's invasion. The treasury insists everything is under control, which is usually an excellent indicator that it is not.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -318,7 +1507,7 @@
 },
 {
 		"name": "The Loss of Dalmatia",
-		"text": "Dalmatia is lost. The Adriatic coast now belongs to ambitious warlords, opportunistic pirates, and former taxpayers. Historians call this a crisis. Tax collectors call it a disaster.",
+		"text": "The Loss of Dalmatia \n\n Dalmatia is lost. The Adriatic coast now belongs to ambitious warlords, opportunistic pirates, and former taxpayers. Historians call this a crisis. Tax collectors call it a disaster.",
 		"presentation":"Alert",
 		"choices": [
 			{
@@ -363,7 +1552,7 @@
 },
             {
                 "name": "The Loss of Thracia",
-                "text": "Thracia has fallen beyond imperial control. The roads to Constantinople grow less secure, while ambitious warlords and restless tribes compete to inherit Rome's former authority. As usual, everyone claims they are merely restoring order.",
+                "text": "The Loss of Thracia \n\n Thracia has fallen beyond imperial control. The roads to Constantinople grow less secure, while ambitious warlords and restless tribes compete to inherit Rome's former authority. As usual, everyone claims they are merely restoring order.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -410,7 +1599,7 @@
             },
             {
                 "name": "The Loss of Macedonia",
-                "text": "Macedonia has slipped from imperial control. Once the homeland of kings and conquerors, it now supplies rebels, usurpers, and ambitious generals. History, it seems, has a sense of humor.",
+                "text": "The Loss of Macedonia \n\n Macedonia has slipped from imperial control. Once the homeland of kings and conquerors, it now supplies rebels, usurpers, and ambitious generals. History, it seems, has a sense of humor.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -445,7 +1634,7 @@
             },
             {
                 "name": "The Loss of Achaea",
-                "text": "Achaea has slipped from imperial control. The cities of Greece debate philosophy, local elites debate autonomy, and tax collectors debate early retirement. None of these discussions benefit the Empire.",
+                "text": "The Loss of Achaea \n\n Achaea has slipped from imperial control. The cities of Greece debate philosophy, local elites debate autonomy, and tax collectors debate early retirement. None of these discussions benefit the Empire.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -479,7 +1668,7 @@
             },
             {
                 "name": "The Loss of Italia",
-                "text": "Italia is lost. The heartland of the Empire has fallen beyond imperial authority. Rome itself stands threatened, refugees flood every road, and senators who once debated tax policy are suddenly experts on military affairs.",
+                "text": "The Loss of Italia \n\n Italia is lost. The heartland of the Empire has fallen beyond imperial authority. Rome itself stands threatened, refugees flood every road, and senators who once debated tax policy are suddenly experts on military affairs.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -517,7 +1706,7 @@
 ////Recapture
                 {
                     "name": "The Recapture of Italia",
-                    "text": "Italia has been restored to imperial authority. The banners of Rome once again fly over the peninsula, and the roads are filled with celebrations, speeches, and officials explaining how this outcome was inevitable from the beginning. Historians will remember the victory. Accountants will remember the bill.",
+                    "text": "The Recapture of Italia \n\n Italia has been restored to imperial authority. The banners of Rome once again fly over the peninsula, and the roads are filled with celebrations, speeches, and officials explaining how this outcome was inevitable from the beginning. Historians will remember the victory. Accountants will remember the bill.",
                     "presentation":"Alert",
                     "choices": [
                         {

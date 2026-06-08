@@ -65,8 +65,8 @@
 			"New [King] units start with [10] XP [in this city]",
 			"Provides [2] [Sanitation]",
 			"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
-			"[+10]% Production when constructing [Cure Plague] buildings [in this city]"
-			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]"
+			"[+10]% Production when constructing [Cure PLAGUE] buildings [in this city]"
+			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]"
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
 		],
@@ -259,8 +259,8 @@
 			"Consumes [1] [Decadence] <during a Golden Age>", 
 			"[+5]% Natural religion spread [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
-			"[+5]% Production when constructing [Cure Plague] buildings [in this city]"
-			"[+2]% Production when constructing [Cure Dangerous Plague] buildings [in this city]"
+			"[+5]% Production when constructing [Cure PLAGUE] buildings [in this city]"
+			"[+2]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]"
 			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Mysticism"
@@ -340,8 +340,8 @@
 			"[-1 Gold, +1 Production] from [Trading post] tiles [in this city]",
 			"[+1 Happiness, +1 Food, +1 Faith] from [Village] tiles [in this city]",
 			"Provides [3] [Sanitation]",
-			"[+10]% Production when constructing [Cure Plague] buildings [in this city]"
-			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]"
+			"[+10]% Production when constructing [Cure PLAGUE] buildings [in this city]"
+			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]"
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Aesthetics",
@@ -767,8 +767,8 @@
 			"Only available <in cities with a [Urban Fabric III]>",
 			"Comment [+1 Food from non-fresh water Farm tiles in this city]", 
 			"Provides [2] [Sanitation]",
-			"[+10]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
+			"[+10]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
 			"[15]% Food is carried over after population increases [in this city]",
 			"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Gold, +1 Happiness] from [Trading post] tiles [in this city]",
@@ -804,8 +804,8 @@
 			"Only available <in cities with a [Urban Fabric III]>",
 			"Provides [1] [Sanitation]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"[+15]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
+			"[+15]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+			"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
 		],
 	},
 	{
@@ -816,12 +816,12 @@
 		"maintenance": 5,
 		"happiness": 3,
 		"uniques": [   
-			"Comment [-Invest in sanitation… or don’t. The plagues will happily invest in you.]",
+			"Comment [-Invest in sanitation… or don’t. The PLAGUEs will happily invest in you.]",
 			"Only available <in cities with a [Urban Fabric III]>",
 			"Provides [2] [Sanitation]",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
-			"[+25]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+15]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
+			"[+25]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+			"[+15]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
 		],
 	},
 	{
@@ -880,8 +880,8 @@
 			"[+1 Science] per [5] population [in this city]",
 			"[+1 Science] [in this city] <in cities with a [Scriptorium]>", 
 			"[+1 Food] [in this city] <in cities with a [Herbalist]>",
-			"[+15]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+7]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
+			"[+15]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+			"[+7]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
 			"Cost increases by [2] per owned city",
 			"Consumes [1] [Decadence] <in cities with a [School]> <during a Golden Age>"
 		],
@@ -901,8 +901,8 @@
 			"[+10]% Natural religion spread [in this city]",
 			"[+1 Culture] from [Papyrus] tiles [in this city]",
 			"Cost increases by [2] per owned city",
-			"[+5]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
+			"[+5]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
 			"Sell [Rotary Mill] buildings [in this city] <if [School] is not constructed>",
 		],
 		"requiredTech": "Philosophy"
@@ -928,8 +928,8 @@
 			"[+1 Culture] from [Cattle] tiles [in this city]",
 			"[+1 Culture] from [Papyrus] tiles [in this city]",
 			"Cost increases by [2] per owned city",
-			"[+5]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+5]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
+			"[+5]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
 			"Sell [Rotary Mill] buildings [in this city] <if [School] is not constructed>",
 		],
 		"requiredTech": "Philosophy"
@@ -1463,8 +1463,8 @@
 		"science": 1,
 		"cityHealth": 10,
 		"uniques": [ 
-			"[+15]% Production when constructing [Cure Plague] buildings [in this city]",
-			"[+10]% Production when constructing [Cure Dangerous Plague] buildings [in this city]",
+			"[+15]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+			"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
 			"Provides [2] [Sanitation]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Herbs] tiles [in this city]",
@@ -2211,7 +2211,7 @@
 	},
 
 
-					///Rebel and plague
+					///Rebel and PLAGUE
 
 	{
 		"name": "A Noble's Death",
@@ -2267,22 +2267,22 @@
 ]
 	},
  {
-   "name": "Risk of Plague"
+   "name": "Risk of PLAGUE"
    "uniques": [
-			"Comment ['Low Sanitation invites plague. Civilization is merely a thin wall between man and dying in contaminated water.']",
-			"Gain a free [Plague] [in this city] <with [2]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when between [0] and [25] [Sanitation]> <hidden from users>",
-			"Gain a free [Plague] [in this city] <with [1]% chance> <in cities without a [Plague]> <in cities without a [Dangerous Plague]> <when above [25] [Sanitation]> <hidden from users>",
-			"Gain a free [Dangerous Plague] [in this city] <with [2]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [0] and [30] [Sanitation]> <hidden from users>",
-			"Gain a free [Dangerous Plague] [in this city] <with [1]% chance> <in cities without a [Dangerous Plague]> <in cities without a [Plague]> <when between [31] and [50] [Sanitation]> <hidden from users>",
+			"Comment ['Low Sanitation invites PLAGUE. Civilization is merely a thin wall between man and dying in contaminated water.']",
+			"Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [0] and [25] [Sanitation]> <hidden from users>",
+			"Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when above [25] [Sanitation]> <hidden from users>",
+			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <when between [0] and [30] [Sanitation]> <hidden from users>",
+			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <when between [31] and [50] [Sanitation]> <hidden from users>",
 			"Unbuildable","Unsellable",
 ]
  },
 	{
-		"name": "Dangerous Plague"
+		"name": "DANGEROUS PLAGUE"
 		"maintenance": 0,
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
-			"Comment [-Think of it as the Plague, but now it hates you personally. Improve sanitation enough and the plague begins questioning its life choices.]",
+			"Comment [-Think of it as the PLAGUE, but now it hates you personally. Improve sanitation enough and the PLAGUE begins questioning its life choices.]",
 			"[+2 Faith, +2 Science, -4 Happiness] [in this city]",
 			"[-2 Gold, -1 Food, -1 Production] from [improved] tiles [in this city]",
 			"[-2 Gold, -2 Food] from [improved] tiles [in this city] <in cities with at least [5] [Population]>",
@@ -2293,7 +2293,7 @@
 ]
 	},
 	{
-		"name": "Plague"
+		"name": "PLAGUE"
 		"maintenance": 0,
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
@@ -2308,13 +2308,13 @@
 ]
 	},
 	{
-		"name": "Cure Plague"
+		"name": "Cure PLAGUE"
 		"maintenance": 0,
 		"cost": 20,
 		"uniques": [
-			"Only available <in cities with a [Plague]>"
-			"Remove [Plague] [in this city]",
-			"Remove [Cure Plague] [in this city] <upon turn end>",
+			"Only available <in cities with a [PLAGUE]>"
+			"Remove [PLAGUE] [in this city]",
+			"Remove [Cure PLAGUE] [in this city] <upon turn end>",
         		"Cannot be purchased",
 			"Cost increases by [1] per owned city <before the [Hellenistic Age]>",
 			"Cost increases by [2] per owned city <starting from the [Hellenistic Age]>",
@@ -2322,14 +2322,14 @@
 ]
 	},
 	{
-		"name": "Cure Dangerous Plague"
+		"name": "Cure DANGEROUS PLAGUE"
 		"maintenance": 0,
 		"cost": 40,
-		"requiredBuilding": "Dangerous Plague",
+		"requiredBuilding": "DANGEROUS PLAGUE",
 		"uniques": [
-			"Only available <in cities with a [Dangerous Plague]>"
-			"Remove [Dangerous Plague] [in this city]",
-			"Remove [Cure Dangerous Plague] [in this city] <upon turn end>",
+			"Only available <in cities with a [DANGEROUS PLAGUE]>"
+			"Remove [DANGEROUS PLAGUE] [in this city]",
+			"Remove [Cure DANGEROUS PLAGUE] [in this city] <upon turn end>",
         		"Cannot be purchased",
 			"Cost increases by [2] per owned city <before the [Hellenistic Age]>",
 			"Cost increases by [3] per owned city <starting from the [Hellenistic Age]>",
@@ -2591,8 +2591,61 @@
 ]
 	},
 
+					////EVENTS
+///Sanitation Events
 
-					/////Buff
+{
+	"name": "Sanitation Policies I",
+	"happiness": 1,
+	"uniques": [
+		"Provides [1] [Sanitation]",
+		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
+		"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Sanitation Policies] event <upon turn start> <with [3]% chance> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+		]
+},
+{
+	"name": "Sanitation Policies II",
+	"happiness": 1,
+	"uniques": [
+		"Provides [1] [Sanitation]",
+		"Provides [2] [Manpower]",
+		"[+1 Food] [in all cities]",
+		"[+3] HP when healing <for [all] units> <in [Friendly Land] tiles>",
+		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
+		"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Sanitation Policies] event <upon turn start> <with [3]% chance> <hidden from users>",
+		]
+},
+{
+	"name": "Contamination Water Problem",
+	"specialistSlots": {"Scholar": 1},
+	"uniques": [
+		"Consumes [2] [Sanitation]",
+		"[+1 Production] [in this city]",
+		"[-2] HP when healing <for [all] units> <in [Friendly Land] tiles>",
+		"[-10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
+		"[-10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Clean Water] event <upon turn start> <with [10]% chance> <hidden from users>",
+		]
+},
+{
+	"name": "Rat Infestation Problem",
+	"specialistSlots": {"Scholar": 1},
+	"uniques": [
+		"Consumes [2] [Sanitation]",
+		"[-1 Food] [in all cities]",
+		"[-1] HP when healing <for [all] units> <in [Friendly Land] tiles>",
+		"[-10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
+		"[-10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [The Rat Problem] event <upon turn start> <with [10]% chance> <hidden from users>",
+		]
+},
+/////Unit buffs
 {
 	"name": "Mounted Focus",
 	"uniques": [
@@ -2600,10 +2653,10 @@
                 "New [Mounted] units start with [10] XP [in all cities]",
 		"[+2] XP gained from combat <for [Mounted] units>",
 		"[+20]% Strength <when attacking> <for [Mounted] units>",
-		"[+1] Movement <for [Horseman] units>"
+		"[+1] Movement <for [Horseman] units>",
 		"[+5] HP when healing <for [Mounted] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Cavalry Budget Crisis] event <upon turn start> <with [10]% chance>",
+		"Triggers a [Cavalry Budget Crisis] event <upon turn start> <with [7]% chance>",
 		]
 },
 {
@@ -2615,7 +2668,7 @@
 		"[+10]% Strength <when attacking> <for [Archery] units>",
 		"[+1] Sight <for [Archery] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Arrow Procurement Debate] event <upon turn start> <with [10]% chance>",
+		"Triggers a [Arrow Procurement Debate] event <upon turn start> <with [7]% chance>",
 ]
 },
 {
@@ -2626,7 +2679,7 @@
 		"[+2] XP gained from combat <for [Mounted Archery] units>",
 		"[+10]% Strength <for [Mounted Archery] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Horse Archer Procurement Report] event <upon turn start> <with [10]% chance>",
+		"Triggers a [Horse Archer Procurement Report] event <upon turn start> <with [7]% chance>",
 ]
 },
 {
@@ -2638,7 +2691,7 @@
 		"[+20]% Strength <when defending> <for [Spear] units>",
 		"[+5] HP when healing <for [Sword] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Quality Sticks Maintenance Report] event <upon turn start> <with [10]% chance>",
+		"Triggers a [Quality Sticks Maintenance Report] event <upon turn start> <with [7]% chance>",
 ]
 },
 {
@@ -2650,7 +2703,7 @@
 		"[+10]% Strength <for [Sword] units>",
 		"[+12] HP when healing <for [Sword] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Sword Training Review] event <upon turn start> <with [10]% chance>",
+		"Triggers a [Sword Training Review] event <upon turn start> <with [7]% chance>",
 ]
 },
 {
@@ -2660,7 +2713,7 @@
 		"[+4] XP gained from combat <for units with [Infantry Shield II]>",
 		"[+10]% Strength <when defending> <for units with [Infantry Shield II]>",
 		"[+10] HP when healing <for units with [Infantry Shield II]>",
-		"Triggers a [Shield Infantry Funding Review] event <upon turn start> <with [10]% chance>",
+		"Triggers a [Shield Infantry Funding Review] event <upon turn start> <with [7]% chance>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
 ]
 },
@@ -2671,7 +2724,7 @@
 		"[+4] XP gained from combat <for units with [Infantry Shield III]>",
 		"[+10]% Strength <when defending> <for units with [Infantry Shield III]>",
 		"[+10] HP when healing <for units with [Infantry Shield III]>",
-		"Triggers a [Heavy Infantry Funding Review] event <upon turn start> <with [10]% chance>",
+		"Triggers a [Heavy Infantry Funding Review] event <upon turn start> <with [7]% chance>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
 ]
 },

@@ -107,11 +107,12 @@
     "uniques": [
       "Empire enters a [12]-turn Golden Age <by consuming this unit>",
       "[1] free random researchable Tech(s) from the [Archaic Age] <by consuming this unit> <during the [Archaic Age]>",
-      "[1] free random researchable Tech(s) from the [Classical Age] <by consuming this unit> <during the [Classical Age]>",
-      "Gain [500]-[5000] [Science] <by consuming this unit> <before the [Hellenistic Age]>",
-      "Gain [1000]-[8000] [Science] <by consuming this unit> <starting from the [Hellenistic Age]>",
+      "Gain [500]-[1500] [Science] <by consuming this unit> <before the [Classical Age]>",
+      "Gain [700]-[2500] [Science] <by consuming this unit> <during the [Classical Age]>",
+      "Gain [1000]-[3500] [Science] <by consuming this unit> <starting from the [Hellenistic Age]>",
+	"Remove [DANGEROUS PLAGUE] [in all cities] <[2] times> <after which this unit is consumed>",
       "Great Person - [Science]",
-	"Can instantly construct a [Village] improvement  <[1] times> <after which this unit is consumed>",
+	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
       	"Unbuildable",
       	"Uncapturable"
     ],
@@ -124,8 +125,8 @@
       	"Empire enters a [12]-turn Golden Age <by consuming this unit>",
      	"Can undertake a trade mission with City-State, giving a large sum of gold and [150] Influence",
 	"Can instantly construct a [Trading post] improvement <[1] times> <after which this unit is consumed>",
-      	"Gain [700]-[8000] [Gold] <by consuming this unit> <before the [Hellenistic Age]>",
-      	"Gain [1000]-[12000] [Gold] <by consuming this unit> <starting from the [Hellenistic Age]>",
+      	"Gain [800]-[8000] [Gold] <by consuming this unit> <before the [Hellenistic Age]>",
+      	"Gain [1200]-[12000] [Gold] <by consuming this unit> <starting from the [Hellenistic Age]>",
       	"Great Person - [Gold]",
       	"Unbuildable",
       	"Uncapturable"
