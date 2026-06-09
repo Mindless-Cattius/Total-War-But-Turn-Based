@@ -2241,11 +2241,12 @@
 		"uniques": [
 			"Comment ['The situation remains unstable, it may stablize on it own or not, which is politician language for someone is about to die. A garrison will help reduces unrest. Armed supervision remains one of civilization’s oldest hobbies.']",
 			"[-1 Food, -1 Gold] from [improved] tiles [in this city]",
+			"[2] [Angry Mob]s rebel <upon turn end> <with [30]% chance> <hidden from users>",
 			"[1] [Spearman]s rebel <upon turn end> <with [20]% chance> <starting from the [Classical Age]> <hidden from users>",
 			"[1] [Skirmisher]s rebel <upon turn end> <with [20]% chance> <starting from the [Classical Age]> <hidden from users>",
-			"[1] [Swordsman]s rebel <upon turn end> <with [20]% chance> <during the [Hellenistic Age]> <hidden from users>",
-			"[1] [Swordsman]s rebel <upon turn end> <with [30]% chance> <during the [Imperial Age]> <hidden from users>",
-			"[1] [Heavy Swordsman]s rebel <upon turn end> <with [10]% chance> <during the [Imperial Age]> <hidden from users>",
+			"[1] [Swordsman]s rebel <upon turn end> <with [10]% chance> <during the [Hellenistic Age]> <hidden from users>",
+			"[1] [Swordsman]s rebel <upon turn end> <with [20]% chance> <during the [Imperial Age]> <hidden from users>",
+			"[1] [Heavy Swordsman]s rebel <upon turn end> <with [5]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [General]s rebel <upon turn end> <with [10]% chance> <starting from the [Classical Age]> <hidden from users>",
 			"[+70]% Production when constructing [Restored Order] buildings [in this city] <with a garrison>",
 			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [30]% chance> <hidden from users>",
@@ -2602,7 +2603,7 @@
 		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
 		"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Sanitation Policies] event <upon turn start> <with [3]% chance> <if [Sanitation Policies II] is not constructed> <hidden from users>",
+		"Triggers a [Sanitation Policies] event <upon turn start> <with [2]% chance> <if [Sanitation Policies II] is not constructed> <hidden from users>",
 		]
 },
 {
@@ -2616,7 +2617,7 @@
 		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
 		"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Sanitation Policies] event <upon turn start> <with [3]% chance> <hidden from users>",
+		"Triggers a [Sanitation Policies] event <upon turn start> <with [2]% chance> <hidden from users>",
 		]
 },
 {
@@ -2645,7 +2646,37 @@
 		"Triggers a [The Rat Problem] event <upon turn start> <with [10]% chance> <hidden from users>",
 		]
 },
+
+////Rebel Events
+
+{
+	"name": "Provincial Governors",
+	"specialistSlots": {"Courtesan": 1},
+	"uniques": [
+		"Consumes [1] [Nobles]",
+		"Consumes [2] [Rebel Risk]",
+		"Consumes [2] [Rebel Risk] <during a Golden Age>",
+		"[+1 Food, -1 Gold] [in all cities]",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Provincial Governors Demand Funding] event <upon turn start> <with [3]% chance> <hidden from users>",
+		"Triggers a [Provincial Corruption] event <upon turn start> <with [1]% chance> <hidden from users>",
+		]
+},
+{
+	"name": "Supreme Governors",
+	"specialistSlots": {"Priest": 1},
+	"uniques": [
+		"Consumes [2] [Rebel Risk]",
+		"Consumes [2] [Rebel Risk] <during a Golden Age>",
+		"[+1 Culture, -1 Gold] [in all cities]",
+		"Provides [1] [Enable Angry Mob]",
+		"Unbuildable","Unsellable",
+		"Destroyed when the city is captured",
+		]
+},
+
 /////Unit buffs
+
 {
 	"name": "Mounted Focus",
 	"uniques": [
@@ -2656,7 +2687,7 @@
 		"[+1] Movement <for [Horseman] units>",
 		"[+5] HP when healing <for [Mounted] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Cavalry Budget Crisis] event <upon turn start> <with [7]% chance>",
+		"Triggers a [Cavalry Budget Crisis] event <upon turn start> <with [3]% chance>",
 		]
 },
 {
@@ -2668,7 +2699,7 @@
 		"[+10]% Strength <when attacking> <for [Archery] units>",
 		"[+1] Sight <for [Archery] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Arrow Procurement Debate] event <upon turn start> <with [7]% chance>",
+		"Triggers a [Arrow Procurement Debate] event <upon turn start> <with [3]% chance>",
 ]
 },
 {
@@ -2679,7 +2710,7 @@
 		"[+2] XP gained from combat <for [Mounted Archery] units>",
 		"[+10]% Strength <for [Mounted Archery] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Horse Archer Procurement Report] event <upon turn start> <with [7]% chance>",
+		"Triggers a [Horse Archer Procurement Report] event <upon turn start> <with [3]% chance>",
 ]
 },
 {
@@ -2691,7 +2722,7 @@
 		"[+20]% Strength <when defending> <for [Spear] units>",
 		"[+5] HP when healing <for [Sword] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Quality Sticks Maintenance Report] event <upon turn start> <with [7]% chance>",
+		"Triggers a [Quality Sticks Maintenance Report] event <upon turn start> <with [3]% chance>",
 ]
 },
 {
@@ -2703,7 +2734,7 @@
 		"[+10]% Strength <for [Sword] units>",
 		"[+12] HP when healing <for [Sword] units>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Sword Training Review] event <upon turn start> <with [7]% chance>",
+		"Triggers a [Sword Training Review] event <upon turn start> <with [3]% chance>",
 ]
 },
 {
@@ -2713,7 +2744,7 @@
 		"[+4] XP gained from combat <for units with [Infantry Shield II]>",
 		"[+10]% Strength <when defending> <for units with [Infantry Shield II]>",
 		"[+10] HP when healing <for units with [Infantry Shield II]>",
-		"Triggers a [Shield Infantry Funding Review] event <upon turn start> <with [7]% chance>",
+		"Triggers a [Shield Infantry Funding Review] event <upon turn start> <with [3]% chance>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
 ]
 },
@@ -2724,7 +2755,7 @@
 		"[+4] XP gained from combat <for units with [Infantry Shield III]>",
 		"[+10]% Strength <when defending> <for units with [Infantry Shield III]>",
 		"[+10] HP when healing <for units with [Infantry Shield III]>",
-		"Triggers a [Heavy Infantry Funding Review] event <upon turn start> <with [7]% chance>",
+		"Triggers a [Heavy Infantry Funding Review] event <upon turn start> <with [3]% chance>",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
 ]
 },
@@ -3012,8 +3043,8 @@
       			"[+60]% maintenance costs <for [Infantry Shield III] units> <when fighting in [Enemy Land] tiles>",
       			"[+150]% maintenance costs <for [Siege] units> <when fighting in [Enemy Land] tiles>",
 			"Remove [Empire Divide] [in all cities] <when not at war>",
-			"Destroyed when the city is captured",
-			"[+10]% unhappiness from the number of cities",
+			"Moves to new capital when capital changes",
+			"[+5]% unhappiness from the number of cities",
       			"Unbuildable",
 			"Unsellable",
    ]
@@ -3032,29 +3063,26 @@
       			"[Gold] cost of purchasing [Military] units [+20]%",
       			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
       			"[-1 Happiness] [in all cities] <when above [3] [Nobles]>",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
 			"Unsellable",
       			"Unbuildable",
     ]
   	},
 	{
     		"name": "Roman Centralize Power",
-   		"cost": 300,
+   		"cost": 800,
     		"uniques": [
         		"Cannot be purchased",
         		"Remove [Age Of Many Emperors] [in all cities]",
 			"Unbuildable <if [Age Of Many Emperors] is not constructed>",
-			"Unbuildable <if [Hispania] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Italia] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Sicilia] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Dalmatia] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Achaea] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Macedonia] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Thracia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Anatolia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Aegyptus] is not constructed> <in [in your cities] cities>",
-         		"Only available <in cities with a [Italia]>",
-			"Destroyed when the city is captured",
+         		"Only available <in cities with a [Make Capital]>",
+			"Moves to new capital when capital changes",
 			"Unsellable",
     ]
 },
@@ -3069,7 +3097,7 @@
       			"[-5 Gold, -2 Happiness] from [Village] tiles [in all cities]",
       			"[-10 Gold, -2 Happiness] from [Trading post] tiles [in all cities]",
 			"[-5 Gold, -2 Happiness] [in this city] <in cities with a [Market]>",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
 			"Unbuildable","Unsellable",
 ]
   	},
@@ -3080,6 +3108,7 @@
         		"Cannot be purchased",
         		"Remove [Silver Inflation] [in all cities]",
 			"Unsellable",
+			"Moves to new capital when capital changes",
       			"Unbuildable <if [Silver Inflation] is not constructed>",
     ]
 	},
@@ -3096,7 +3125,7 @@
       			"Provides [1] [Praetorian Greed]",
       			"[-10 Gold, -2 Production, -20 Happiness] [in capital]",
           		"[-10]% Strength <for [Military] units> <vs cities>",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
       			"Unbuildable",
 			"Unsellable",
     ]
@@ -3112,7 +3141,7 @@
       			"Unbuildable <if [Praetorian Greed] is not constructed>",
         		"Cannot be purchased",
 			"Unsellable",
-			"Never destroyed when the city is captured",
+			"Moves to new capital when capital changes",
     ]
 	},
   	{
@@ -3126,12 +3155,9 @@
 			"[-1 Food, +1 Gold, -1 Happiness] [in this city] <in cities with a [Granary]>",
       			"Unbuildable",
 			"Unsellable",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
     ]
   	},
-
-					///Palmyrence
-
   	{
     		"name": "Egypt Grain",
     		"cost": 150,
@@ -3144,9 +3170,12 @@
       			"Unbuildable <if [Egypt Grain Crisis] is not constructed>",
       			"Unbuildable <if [Aegyptus] is not constructed>",
 			"Unsellable",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
     ]
   	},
+
+					///Palmyrence
+
 	{
    		"name": "Palmyrene Ascendancy",
     		"cost": 0,
@@ -3159,7 +3188,7 @@
         		"[-3 Happiness, +3 Gold] [in all cities]",
         		"Gain a free [Imperial Overstretch] [in capital] <when at war>",
         		"Remove [Imperial Overstretch] [in capital] <when not at war>",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
         		"Unbuildable",
         		"Unsellable"
    ]
@@ -3176,8 +3205,8 @@
 			"Unbuildable <if [Anatolia] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Armenia] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Thracia] is not constructed> <in [in your cities] cities>",
-			"Only available <in cities with a [Palaestina]>"
-
+			"Only available <in cities with a [Make Capital]>",
+			"Moves to new capital when capital changes",
 			"Remove [Palmyrene Ascendancy] [in all cities]",
     ]
 	},
@@ -3192,7 +3221,7 @@
         		"[+50]% maintenance costs <for [Military] units>",
       			"[+100]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
 			"[+20]% unhappiness from the number of cities",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
         		"Unbuildable",
         		"Unsellable"
  ]
@@ -3209,7 +3238,7 @@
         		"[-3 Happiness] [in all cities]",
 			"[-3 Gold, -2 Happiness] [in this city] <in cities with a [Market]>",
 			"[+2 Gold, -1 Happiness, -1 Food] [in this city] <in cities with a [Walls]>",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
         		"Unbuildable",
         		"Unsellable"
    ]
@@ -3226,6 +3255,7 @@
 			"Unbuildable <if [Aegyptus] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Anatolia] is not constructed> <in [in your cities] cities>",
 			"Remove [Roman Retribution] [in all cities]",
+			"Moves to new capital when capital changes",
     ]
 	},
 
@@ -3247,7 +3277,7 @@
 			"[+20]% unhappiness from the number of cities",
         		"Unbuildable",
         		"Unsellable",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
     ]
 	},
 	{
@@ -3263,7 +3293,7 @@
 			"Unbuildable <if [Italia] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Africa] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Dalmatia] is not constructed> <in [in your cities] cities>",
-
+			"Moves to new capital when capital changes",
 			"Remove [Gallic Secession] [in all cities]",
     ]
 	},
@@ -3281,7 +3311,7 @@
 			"Consumes [30] [Manpower]",
         		"Unbuildable",
         		"Unsellable",
-			"Destroyed when the city is captured",
+			"Moves to new capital when capital changes",
     ]
 	},
 	{
@@ -3293,6 +3323,7 @@
         		"Unsellable"
         		"Unbuildable <if [Frontier Exhaustion] is not constructed> <if [Gallia] is not constructed> <if [Hispania] is not constructed> <if [Lusitania] is not constructed>"
 			"Remove [Frontier Exhaustion] [in all cities]",
+			"Moves to new capital when capital changes",
     ]
 },
 			

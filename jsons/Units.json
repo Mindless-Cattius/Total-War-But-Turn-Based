@@ -54,7 +54,20 @@
       		"Automation is a primary action",
     ]
   },
-
+  {
+    "name": "Angry Mob",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 9,
+    "uniques": [
+		"Comment [A spontaneous gathering of citizens expressing constructive feedback through violence.]",
+		"Only available <with [Enable Angry Mob]> <hidden from users>",
+		"[-20]% Strength <vs [Mounted] units>",
+		"[+10]% Strength <when fighting in [Friendly Land] tiles>",
+      		"Consumes [1] [Manpower]",
+    ],
+    "attackSound": "nonmetalhit",
+  },
 				///GREAT PERSON
 
   {

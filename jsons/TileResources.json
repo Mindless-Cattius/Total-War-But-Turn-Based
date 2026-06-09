@@ -34,7 +34,8 @@
 			"Comment [ ]",
 			"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
 			"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
-			"[-50]% XP gained from combat <for [all] units> <vs [Barbarians] units>",
+			"[-50]% XP gained from combat <for [all] units> <vs [Barbarians] units>",	
+			"[-50]% XP gained from combat <for [all] units> <vs [Angry Mob] units>",
  			"[+70]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
 			"[-1] Sight <for [Siege] units>",
 			"Comment [ ]",
@@ -1029,12 +1030,22 @@
 		"[+5]% [Gold] <in cities with a [Harbor]> <when above [1] [Ceramics]>"
 		]
     },   
+//Events Resrouces
 {
 		"name": "Imperial Vermin Hound",
 		"resourceType": "Luxury",
 		"uniques": [
-			"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
-			"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
+			"Remove [Rat Infestation Problem] [in all cities]",
+			"[+1] Happiness from each type of luxury resource",
+				"Stockpiled"
+		]
+    },
+	{
+		"name": "Imperial Auditor",
+		"resourceType": "Luxury",
+		"uniques": [
+			"[+10]% Production towards any buildings that already exist in the Capital",
+			"[+1] Happiness from each type of luxury resource",
 				"Stockpiled"
 		]
     },
@@ -1143,6 +1154,12 @@
 		"name": "Enable Decere",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Enable Angry Mob",
+		"resourceType": "Bonus",
+		"uniques": [	"Stockpiled"
+				"Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Legion",
@@ -1318,7 +1335,7 @@
 				"Stockpiled"]
     },
     {
-		"name": "RBE",
+		"name": "RE",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"
 				"Stockpiled"]

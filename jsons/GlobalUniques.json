@@ -114,11 +114,28 @@
 	"Triggers a [Waste Disposal Crisis] event <when above [4] [SE]> <upon turn start> <with [1]% chance>",
 	"Triggers a [Physicians Request Funding] event <when above [4] [SE]> <upon turn start> <with [1]% chance>",
 	"Triggers a [Suspicious Coughing] event <when above [5] [SE]> <upon turn start> <with [1]% chance>",
-	"Triggers a [Mass Graves Required] event <when above [5] [SE]> <upon turn start> <if [DANGEROUS PLAGUE] is constructed> <with [2]% chance>",
-	"Triggers a [Divine Punishment?] event <when above [5] [SE]> <upon turn start> <if [DANGEROUS PLAGUE] is constructed> <with [2]% chance>",
+	"Triggers a [Mass Graves Required] event <when above [5] [SE]> <upon turn start> <if [DANGEROUS PLAGUE] is constructed> <with [1]% chance>",
+	"Triggers a [Divine Punishment?] event <when above [5] [SE]> <upon turn start> <if [DANGEROUS PLAGUE] is constructed> <with [1]% chance>",
 	"Triggers a [Overcrowded Slums] event <when above [14] [Cities]> <upon turn start> <with [1]% chance>",
 	"Triggers a [Experimental Treatments] event <when above [6] [SE]> <upon turn start> <with [1]% chance>",
 	"Triggers a [The Rats Are Getting Bold] event <when above [6] [SE]> <upon turn start> <with [1]% chance>",
+
+//Rebels
+	"Triggers a [Tax Collector Missing] event <when above [5] [Rebel Risk]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Bandits Along the Roads] event <when above [5] [Cities]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Village Refuses Census] event <when above [7] [Cities]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Traveling Agitator] event <when above [3] [RE]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Tax Collection Difficulties] event <when above [10] [Cities]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Poor Harvests] event <when above [5] [RE]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Forced Labor Complaints] event <when above [5] [RE]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Bread Prices Rise] event <when above [5] [RE]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Petition from the Provinces] event <when above [5] [RE]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Local Traditions Ignored] event <when above [6] [RE]> <upon turn start> <when not at war> <with [1]% chance>",
+	"Triggers a [The Donkey Tax] event <when above [6] [RE]> <upon turn start> <starting from the [Hellenistic Age]> <with [1]% chance>",
+	"Triggers a [The Imperial Announcement] event <when above [6] [RE]> <upon turn start> <starting from the [Hellenistic Age]> <with [1]% chance>",
+
+///Resources
+	"Triggers a [Veterans Demand Payment] event <when above [1] [Veteran]> <upon turn start> <with [1]% chance>",
 
 
 //Event 3rd century crisis

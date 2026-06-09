@@ -130,7 +130,7 @@
 		"[+1 Happiness] [in all cities] <for [5] turns>",
                 "Gain [-300] [Gold]",
                 "Gain a free [Sanitation Policies I] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -140,7 +140,7 @@
 		"[+1 Happiness] [in all cities] <for [5] turns>",
                 "Gain [-500] [Gold]",
                 "Gain a free [Sanitation Policies II] [in capital]",
-                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [50]% chance> <hidden from users>"
             ]
         },
         {
@@ -148,7 +148,7 @@
             "uniques": [
                 "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
 		"[+2 Happiness] [in all cities] <for [5] turns>",
-                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [50]% chance> <hidden from users>"
             ]
         },
         {
@@ -156,7 +156,7 @@
             "uniques": [
                 "Only available <when above [0] [Nobles]> <when above [149] [Gold]> <hidden from users>",
                 "Gain [-150] [Gold]",
-                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [50]% chance> <hidden from users>"
             ]
         },
         {
@@ -164,14 +164,14 @@
             "uniques": [
                 "[+3 Happiness, +1 Food] [in capital] <for [5] turns>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [30]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [50]% chance> <hidden from users>"
             ]
         },
         {
             "text": "Blame the weather",
             "uniques": [
                 "Gain a free [PLAGUE] [in capital] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [50]% chance>",
-                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [50]% chance> <hidden from users>"
             ]
         }
     ]
@@ -189,7 +189,7 @@
 		"[-1 Happiness] [in capital] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies I] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -200,7 +200,7 @@
 		"[-1 Happiness] [in capital] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies II] [in capital]",
-                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [50]% chance> <hidden from users>"
             ]
         },
         {
@@ -209,7 +209,7 @@
                 "Only available <if [Sanitation Policies II] is constructed> <hidden from users>",
 		"[-1 Production, +2 Happiness] [in capital] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
-                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [50]% chance> <hidden from users>",
             ]
         },
         {
@@ -219,7 +219,7 @@
                 "Gain [150] [Faith]",
                 "[+1 Happiness] [in capital] <for [5] turns>",
                 "Gain a free [PLAGUE] [in capital] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [20]% chance>",
-                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [50]% chance> <hidden from users>"
             ]
         },
         {
@@ -229,7 +229,7 @@
                 "Gain a free [DANGEROUS PLAGUE] [in capital] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [15]% chance>",
                 "Gain a free [Contamination Water Problem] [in capital] <in cities without a [Sanitation Policies II]> <hidden from users>",
 		"Remove [Sanitation Policies II] [in capital] <upon turn end> <hidden from users>",
-                "Instantly provides [1] [SE] <with [50]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [50]% chance> <hidden from users>"
             ]
         }
     ]
@@ -247,7 +247,7 @@
 		"[-1 Production, +2 Happiness] [in capital] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies I] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -258,7 +258,7 @@
 		"[-1 Production, +2 Happiness] [in capital] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies II] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -268,7 +268,7 @@
 		"[-1 Production, +2 Happiness] [in capital] <for [5] turns>",
                 "Free [Great Engineer] appears <with [5]% chance> <hidden from users>",
                 "Remove [PLAGUE] [in all cities]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -280,7 +280,7 @@
                 "Remove [PLAGUE] [in all cities]",
                 "Gain [-300] [Gold]",
 		"[-1 Production] [in capital] <for [5] turns>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -290,7 +290,7 @@
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [15]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [5]% chance>",
 		"Free [Great Scholar] appears <with [5]% chance> <when above [1] [Nobles]> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -300,7 +300,7 @@
                 "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]> <with [20]% chance>",
 		"Free [Skirmisher] appears <with [30]% chance> <when above [5] [Manpower]> <hidden from users>",
 		"Free [Archer] appears <with [30]% chance> <when above [6] [Manpower]> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>",
             ]
         },
         {
@@ -311,7 +311,15 @@
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [2]% chance>",
                 "Gain a free [Rat Infestation Problem] [Capital] <in cities without a [Rat Infestation Problem]> <with [50]% chance>",
 		"Free [Great Artist] appears <with [5]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>",
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>",
+            ]
+        },
+        {
+            "text": "Call In The Specialist",
+            "uniques": [
+		"Only available <when above [0] [Imperial Vermin Hound]>",
+                "[-1 Production] [in capital] <for [2] turns>",
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>",
             ]
         }
     ]
@@ -330,7 +338,7 @@
                 "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies I] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -342,7 +350,7 @@
                 "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies II] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -353,7 +361,7 @@
                 "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -365,7 +373,7 @@
                 "Remove [PLAGUE] [in all cities]",
                 "Remove [DANGEROUS PLAGUE] [in all cities]",
                 "Free [Great Scholar] appears <with [20]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -376,7 +384,7 @@
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [15]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [3]% chance>",
                 "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -387,7 +395,7 @@
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [5]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [1]% chance>",
                 "Free [Spearman] appears <with [20]% chance> <when above [6] [Manpower]> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         }
     ]
@@ -406,7 +414,7 @@
                 "[+1 Happiness] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies I] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -418,7 +426,7 @@
                 "[+1 Happiness] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies II] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -429,7 +437,7 @@
                 "[+1 Happiness] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -441,7 +449,7 @@
                 "[+2 Happiness, +2 Food] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Free [Great Engineer] appears <with [15]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -451,7 +459,7 @@
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [15]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [5]% chance>",
                 "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -463,7 +471,7 @@
                 "Free [Great Merchant] appears <with [5]% chance> <hidden from users>",
                 "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
                 "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [20]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [20]% chance> <hidden from users>"
             ]
         }
     ]
@@ -482,7 +490,7 @@
                 "Remove [PLAGUE] [in all cities]",
                 "Remove [DANGEROUS PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies I] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -494,7 +502,7 @@
                 "Remove [PLAGUE] [in all cities]",
                 "Remove [DANGEROUS PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies II] [in capital]",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -505,7 +513,7 @@
                 "Remove [PLAGUE] [in all cities]",
                 "Remove [DANGEROUS PLAGUE] [in all cities]",
                 "Free [Great Engineer] appears <with [5]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -517,7 +525,7 @@
                 "Remove [DANGEROUS PLAGUE] [in all cities]",
                 "[-1 Happiness, -1 Food, +1 Production] [in all cities] <for [5] turns>",
                 "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -529,7 +537,7 @@
                 "Remove [DANGEROUS PLAGUE] [in all cities] <with [10]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <upon turn end> <with [3]% chance>",
                 "Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -539,7 +547,7 @@
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [15]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [5]% chance>",
                 "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -549,7 +557,7 @@
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [20]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [8]% chance>",
                 "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [20]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [20]% chance> <hidden from users>"
             ]
         }
     ]
@@ -568,7 +576,7 @@
             "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
             "Remove [PLAGUE] [in all cities]",
             "Gain a free [Sanitation Policies I] [in capital]",
-            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
         ]
     },
     {
@@ -580,7 +588,7 @@
             "[+1 Happiness, +1 Food, +1 Culture] [in all cities] <for [5] turns>",
             "Remove [PLAGUE] [in all cities]",
             "Gain a free [Sanitation Policies II] [in capital]",
-            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
         ]
     },
     {
@@ -591,7 +599,7 @@
             "[+2 Happiness, +1 Food, +1 Gold] [in all cities] <for [5] turns>",
             "Remove [PLAGUE] [in all cities]",
             "Free [Great Engineer] appears <with [5]% chance> <hidden from users>",
-            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
         ]
     },
     {
@@ -600,7 +608,7 @@
             "[-4 Gold] [in all cities] <for [5] turns>",
             "Remove [PLAGUE] [in all cities]",
             "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
-            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
         ]
     },
     {
@@ -609,7 +617,7 @@
             "[+1 Production, -1 Culture] [in all cities] <for [5] turns>",
             "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]> <with [50]% chance>",
             "Gain a free [DANGEROUS PLAGUE] [in capital] <in cities with a [Rat Infestation Problem]> <with [50]% chance>",
-            "Instantly provides [1] [SE] <with [25]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [25]% chance> <hidden from users>"
         ]
     },
     {
@@ -618,7 +626,7 @@
             "[+3 Gold, +1 Food, -1 Happiness] [in all cities] <for [5] turns>",
             "Gain a free [Contamination Water Problem] [in capital] <with [60]% chance>",
             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <with [30]% chance>",
-            "Instantly provides [1] [SE] <with [15]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [15]% chance> <hidden from users>"
         ]
     }
 ]
@@ -628,7 +636,7 @@
 
             {
                 "name": "Physicians Request Funding",
-                "text": "Physicians Request Funding /n/n A delegation of physicians has arrived at court requesting additional funding. They claim better sanitation, cleaner water, and trained medical staff could significantly reduce disease outbreaks. Skeptics note that the same physicians also requested funding last year, the year before that, and every year since discovering that governments occasionally possess money. The physicians insist this request is different. The treasury insists it is not.",
+                "text": "Physicians Request Funding \n\n A delegation of physicians has arrived at court requesting additional funding. They claim better sanitation, cleaner water, and trained medical staff could significantly reduce disease outbreaks. Skeptics note that the same physicians also requested funding last year, the year before that, and every year since discovering that governments occasionally possess money. The physicians insist this request is different. The treasury insists it is not.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -641,7 +649,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Gain a free [Sanitation Policies I] [in capital]",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -654,7 +662,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Gain a free [Sanitation Policies II] [in capital]",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -666,7 +674,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -678,7 +686,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Scholar] appears <with [15]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [25]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [25]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -688,7 +696,7 @@
                             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <with [15]% chance>",
                             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <with [5]% chance>",
                             "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [15]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [15]% chance> <hidden from users>"
                         ]
                     }
                 ]
@@ -708,7 +716,7 @@
             "Remove [PLAGUE] [in all cities]",
             "Remove [DANGEROUS PLAGUE] [in all cities]",
             "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
-            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
         ]
     },
     {
@@ -720,7 +728,7 @@
             "Remove [PLAGUE] [in all cities]",
             "Remove [DANGEROUS PLAGUE] [in all cities]",
             "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
-            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
         ]
     },
     {
@@ -735,7 +743,7 @@
             "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]> <with [70]% chance>",
             "Gain a free [DANGEROUS PLAGUE] [in capital] <in cities with a [Rat Infestation Problem]> <with [50]% chance>",
             "Gain a free [DANGEROUS PLAGUE] [in capital] <in cities with a [Contamination Water Problem]> <with [50]% chance>",
-            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
         ]
     },
     {
@@ -744,7 +752,7 @@
             "[+2 Happiness, +1 Production] [in all cities] <for [5] turns>",
             "[-2 Science, -2 Culture, -2 Gold] [in all cities] <for [5] turns>",
             "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
-            "Instantly provides [1] [SE] <with [25]% chance> <hidden from users>",
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [25]% chance> <hidden from users>",
             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [5]% chance>",
             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [2]% chance>",
         ]
@@ -756,7 +764,7 @@
             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
             "Free [Great Prophet] appears",
-            "Instantly provides [1] [SE] <with [20]% chance> <hidden from users>"
+            "Instantly provides [1] [SE] <when below [10] [SE]> <with [20]% chance> <hidden from users>"
         ]
     }
 ]
@@ -764,7 +772,7 @@
 ///SE:5
             {
                 "name": "Suspicious Coughing",
-                "text": "Suspicious Coughing /n/n Physicians report a noticeable increase in coughing throughout the city. Some citizens blame foul air, others blame foreign merchants, and one particularly influential noble insists it is caused by excessive taxation. The exact cause remains unknown. The coughing, however, appears highly committed to continuing its work.",
+                "text": "Suspicious Coughing \n\n Physicians report a noticeable increase in coughing throughout the city. Some citizens blame foul air, others blame foreign merchants, and one particularly influential noble insists it is caused by excessive taxation. The exact cause remains unknown. The coughing, however, appears highly committed to continuing its work.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -776,7 +784,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -788,7 +796,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Scholar] appears <with [15]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -800,7 +808,7 @@
                             "Free [Spearman] appears <with [30]% chance> <when above [6] [Manpower]> <hidden from users>",
                             "Free [General] appears <when above [1] [Nobles]> <with [10]% chance> <hidden from users>",
                             "Gain a free [DANGEROUS PLAGUE] [in capital] <with [10]% chance>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -812,7 +820,7 @@
                             "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [40]% chance>",
                             "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
                             "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -824,14 +832,14 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     }
                 ]
             },
             {
                 "name": "Mass Graves Required",
-                "text": "Mass Graves Required /n/n The death toll has reached the point where existing burial grounds can no longer keep pace. Local officials request emergency measures, warning that bodies left unattended may worsen the spread of disease. Priests demand proper rites. Accountants demand cheaper corpses. Citizens demand that someone else deal with the problem. History, as usual, offers no pleasant solutions.",
+                "text": "Mass Graves Required \n\n The death toll has reached the point where existing burial grounds can no longer keep pace. Local officials request emergency measures, warning that bodies left unattended may worsen the spread of disease. Priests demand proper rites. Accountants demand cheaper corpses. Citizens demand that someone else deal with the problem. History, as usual, offers no pleasant solutions.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -844,7 +852,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -855,7 +863,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Free [Spearman] appears <with [15]% chance> <hidden from users>",
                             "Free [Skirmisher] appears <with [20]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -867,7 +875,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Scholar] appears <with [15]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -877,7 +885,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Engineer] appears <with [5]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [25]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [25]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -888,14 +896,14 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [35]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [35]% chance> <hidden from users>"
                         ]
                     }
                 ]
             },
             {
                 "name": "Divine Punishment?",
-                "text": "Divine Punishment? /n/n As disease spreads through the population, religious leaders, philosophers, physicians, politicians, and several extremely confident drunkards have all provided explanations. The priests insist the gods are angry. The philosophers insist the priests are wrong. The physicians insist everyone should wash their hands. The politicians have wisely formed a committee to determine whose fault the plague is. The plague itself remains remarkably productive while the debate continues.",
+                "text": "Divine Punishment? \n\n As disease spreads through the population, religious leaders, philosophers, physicians, politicians, and several extremely confident drunkards have all provided explanations. The priests insist the gods are angry. The philosophers insist the priests are wrong. The physicians insist everyone should wash their hands. The politicians have wisely formed a committee to determine whose fault the plague is. The plague itself remains remarkably productive while the debate continues.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -908,7 +916,7 @@
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
                             "Free [Great Artist] appears <with [20]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -920,7 +928,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Prophet] appears <with [60]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -931,7 +939,7 @@
                             "[-1 Culture] [in all cities] <for [10] turns>",
                             "Free [Spearman] appears <with [20]% chance> <hidden from users>",
                             "Free [Great Artist] appears <with [5]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -942,7 +950,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -952,14 +960,14 @@
                             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
                             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
                             "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     }
                 ]
             },
             {
                 "name": "Overcrowded Slums",
-                "text": "Overcrowded Slums /n/n City officials report that several districts have become dangerously overcrowded. Families share rooms, workers sleep in warehouses, and some landlords have reportedly discovered innovative methods of fitting twelve people into a space intended for three. Physicians warn that disease could spread rapidly. Landlords warn that reducing overcrowding could reduce profits. The landlords have therefore concluded that disease is the greater threat.",
+                "text": "Overcrowded Slums \n\n City officials report that several districts have become dangerously overcrowded. Families share rooms, workers sleep in warehouses, and some landlords have reportedly discovered innovative methods of fitting twelve people into a space intended for three. Physicians warn that disease could spread rapidly. Landlords warn that reducing overcrowding could reduce profits. The landlords have therefore concluded that disease is the greater threat.",
                 "presentation":"Alert",
                 "choices": [
                     {
@@ -971,7 +979,7 @@
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
                             "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [35]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [35]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -981,7 +989,7 @@
                             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [20]% chance>",
                             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [3]% chance>",
                             "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -992,7 +1000,7 @@
                             "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [20]% chance>",
                             "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
                             "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                       {
@@ -1002,7 +1010,7 @@
                             "[+1 Happiness, +1 Culture, -2 Food] [in all cities] <for [10] turns>",
                             "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
                             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [10]% chance>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -1012,7 +1020,7 @@
                             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
                             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [15]% chance>",
                             "Free [Great Merchant] appears <with [15]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     }
                 ]
@@ -1020,7 +1028,7 @@
 ///SE:6
 {
     "name": "Experimental Treatments",
-    "text": "Experimental Treatments /n/n The physicians have unveiled several new methods for treating disease. None have been properly tested. Some involve rare herbs, some involve questionable chemicals, and one proposal appears to involve hitting the patient with a stick until the symptoms become someone else's problem. The physicians insist progress requires courage. The patients insist progress should happen to other people first.",
+    "text": "Experimental Treatments \n\n The physicians have unveiled several new methods for treating disease. None have been properly tested. Some involve rare herbs, some involve questionable chemicals, and one proposal appears to involve hitting the patient with a stick until the symptoms become someone else's problem. The physicians insist progress requires courage. The patients insist progress should happen to other people first.",
     "presentation":"Alert",
     "choices": [
         {
@@ -1029,7 +1037,7 @@
                 "[+1 Science, +1 Happiness, -1 Production, -1 Food] [in all cities] <for [10] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -1039,7 +1047,7 @@
                 "Remove [PLAGUE] [in all cities]",
                 "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [20]% chance>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -1052,7 +1060,7 @@
                 "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [50]% chance>",
                 "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
                 "Free [Great Scholar] appears <with [5]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -1062,7 +1070,7 @@
                 "[+1 Science, -1 Production] [in all cities] <for [10] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -1072,7 +1080,7 @@
                 "Free [Great Artist] appears <with [20]% chance> <hidden from users>",
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [15]% chance>",
-                "Instantly provides [1] [SE] <with [60]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [60]% chance> <hidden from users>"
 		"Triggers a [Frog-Based Medical Breakthrough] event <with [10]% chance> <hidden from users>",
             ]
         }
@@ -1080,7 +1088,7 @@
 },
 {
     "name": "Frog-Based Medical Breakthrough",
-    "text": "Frog-Based Medical Breakthrough /n/n A group of citizens reports that after an unsanctioned interaction with local amphibians, several symptoms of the plague appear to have... changed behavior. Physicians are divided. Biologists are confused. The frogs refuse to elaborate, mostly because they are frogs. Early reports suggest either medical advancement or collective insanity. Possibly both.",
+    "text": "Frog-Based Medical Breakthrough \n\n A group of citizens reports that after an unsanctioned interaction with local amphibians, several symptoms of the plague appear to have... changed behavior. Physicians are divided. Biologists are confused. The frogs refuse to elaborate, mostly because they are frogs. Early reports suggest either medical advancement or collective insanity. Possibly both.",
     "presentation": "Alert",
     "choices": [
         {
@@ -1094,7 +1102,7 @@
                 "Gain a free [Sanitation Policies II] [in capital] <in cities without a [Sanitation Policies II]> <with [50]% chance>",
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [10]% chance>",
                 "Free [Great Scholar] appears <with [20]% chance> <hidden from users>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -1105,7 +1113,7 @@
                 "Free [Great Prophet] appears <with [50]% chance>",
 		"Adopt [The Amphibian Enlightenment] <with [30]% chance> <hidden from users>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [20]% chance>",
-                "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
         {
@@ -1117,14 +1125,14 @@
                 "Free [Great Artist] appears <with [50]% chance>",
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
-                "Instantly provides [1] [SE] <with [60]% chance> <hidden from users>"
+                "Instantly provides [1] [SE] <when below [10] [SE]> <with [60]% chance> <hidden from users>"
             ]
         }
     ]
 },
             {
                 "name": "The Rats Are Getting Bold",
-                "text": "The Rats Are Getting Bold /n/n Reports from multiple districts confirm an uncomfortable truth: the rats are no longer avoiding humans. In fact, they appear to be negotiating territory. Some witnesses claim organized patrols. Others claim the rats are simply judging us. Either way, grain supplies are disappearing and morale is following closely behind.",
+                "text": "The Rats Are Getting Bold \n\n Reports from multiple districts confirm an uncomfortable truth: the rats are no longer avoiding humans. In fact, they appear to be negotiating territory. Some witnesses claim organized patrols. Others claim the rats are simply judging us. Either way, grain supplies are disappearing and morale is following closely behind.",
                 "presentation": "Alert",
                 "choices": [
                     {
@@ -1132,11 +1140,11 @@
                         "uniques": [
                             "Only available <when above [699] [Gold]>",
                             "Gain [-700] [Gold]",
-                            "Free [Skirmisher] appears",
+                            "Free [Skirmisher] appears <when above [3] [Manpower]>",
                             "[-1 Production] [in capital] <for [5] turns>",
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
 			"Instantly provides [1] [Imperial Vermin Hound] <with [30]% chance> <if [Sanitation Policies I] is constructed> <hidden from users>",
                         ]
                     },
@@ -1147,7 +1155,7 @@
                             "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]> <with [50]% chance>",
                             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [25]% chance>",
                             "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -1158,7 +1166,7 @@
                             "Gain a free [Rat Infestation Problem] [in capital] <in cities without a [Rat Infestation Problem]>",
                             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [30]% chance>",
                             "Free [Great Artist] appears <with [15]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -1169,7 +1177,7 @@
                             "[-3 Food, -1 Production, +1 Faith] [in all cities] <for [10] turns>",
                             "Remove [PLAGUE] [in all cities]",
                             "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [40]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [40]% chance> <hidden from users>"
                         ]
                     },
                     {
@@ -1179,7 +1187,7 @@
                             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [30]% chance>",
                             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
                             "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
-                            "Instantly provides [1] [SE] <with [30]% chance> <hidden from users>"
+                            "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     }
                 ]
@@ -1278,6 +1286,1154 @@
     ]
 },
 
+	///REBEL EVENTS
+
+{
+            "name": "Tax Collector Missing",
+            "text": "Tax Collector Missing \n\n A tax collector dispatched to the countryside has failed to return. His guards are missing, his records are missing, and most concerning of all, the taxes are also missing. Local villagers claim complete ignorance despite several of them suddenly owning suspiciously new livestock. Officials warn this may indicate growing resistance to imperial authority. The villagers insist it indicates growing resistance to poverty.",
+            "presentation":"Alert",
+"choices": [
+    {
+        "text": "Let the provincial governors calm the situation",
+        "uniques": [
+            "Only available <if [Provincial Governors] is constructed> <when above [99] [Gold]> <hidden from users>",
+	    "Gain [-100] [Gold]"
+            "[+5 Happiness] [in capital] <for [5] turns>",
+            "[+2 Gold] [in all cities] <for [5] turns>",
+            "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+            "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Grant concessions to local elites",
+        "uniques": [
+            "Only available <when above [1] [Nobles]> <if [Provincial Governors] is not constructed> <when not at war>",
+            "Gain a free [Provincial Governors] [in capital]",
+            "[-5 Gold] [in capital] <for [5] turns>",
+            "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+            "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Celebrate imperial unity",
+        "uniques": [
+            "Only available <during a Golden Age>",
+            "[-2 Happiness] [in capital] <for [5] turns>",
+            "[+2 Culture, +1 Gold] [in all cities] <for [5] turns>",
+            "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+            "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+            "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+        ]
+    },
+    {
+        "text": "Send investigators",
+        "uniques": [
+            "Gain [400] [Gold] <when below [6] [Cities]> <with [30]% chance>",
+            "Gain [700] [Gold] <when above [5] [Cities]> <with [30]% chance>",
+            "[-1 Production] [in all cities] <for [1] turns>",
+            "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+            "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+        ]
+    },
+	{
+    "text": "Declare tax evasion legal for one day",
+    "uniques": [
+        "[+2 Happiness, -5 Gold] [in all cities] <for [5] turns>",
+        "Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance>",
+        "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+        "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+    ]
+}
+]
+},
+{
+            "name": "Local Magistrate Abuses Power",
+            "text": "Local Magistrate Abuses Power \n\n A flood of complaints has arrived from the provinces concerning one of the Empire's magistrates. Citizens accuse him of accepting bribes, imposing arbitrary fines, confiscating livestock, and charging administrative fees for filing complaints about administrative fees. The magistrate insists these accusations are politically motivated and points to his excellent record of revenue collection. Treasury officials reluctantly admit that, unfortunately, he is not wrong.",
+            "presentation":"Alert",
+            "choices": [
+                {
+                    "text": "Dismiss the magistrate and investigate",
+                    "uniques": [
+                        "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                        "[-1 Production] [in all cities] <for [2] turns>",
+                        "[+1 Happiness] [in all cities] <for [5] turns>",
+			"Gain a free [Provincial Governors] [in capital]",
+                        "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+                    ]
+                },
+                {
+                    "text": "Allow the Provincial Governors to handle it",
+                    "uniques": [
+                        "Only available <if [Provincial Governors] is constructed>",
+                        "[+1 Happiness, +1 Gold] [in all cities] <for [5] turns>",
+                        "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                        "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+                    ]
+                },
+                {
+                    "text": "Issue a strongly worded decree",
+                    "uniques": [
+                        "Only available <when above [1] [Nobles]>",
+                        "[+1 Culture, +2 Happiness] [in all cities] <for [5] turns>",
+                        "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                        "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+                        "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+                    ]
+                },
+                {
+                    "text": "He steals from the peasants, not from me.",
+                    "uniques": [
+                        "[+4 Gold, -2 Happiness] [in all cities] <for [5] turns>",
+                        "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                        "Free [Great Merchant] appears <with [15]% chance> <hidden from users>",
+                        "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+                    ]
+                }
+            ]
+},
+
+{
+    "name": "Bandits Along the Roads",
+    "text": "Bandits Along the Roads /n/n Reports from across the Empire describe an alarming increase in roadside banditry. Merchants complain that caravans vanish into forests. Peasants complain that taxes and bandits have become increasingly difficult to distinguish. Provincial officials insist the situation is under control, despite traveling exclusively with armed escorts. Citizens have begun referring to certain highways as 'adventure routes'. Tourism has not improved.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Authorize the Provincial Governors to restore order",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "[+1 Happiness, +1 Gold] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Free [Great Merchant] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Recruit local elites to suppress the bandits",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[-5 Gold] [in capital] <for [5] turns>",
+                "[+1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Seek divine protection for travelers",
+            "uniques": [
+                "Only available <when above [299] [Faith]>",
+                "Gain [-300] [Faith]",
+                "[+1 Happiness, +1 Faith, +1 Culture, -3 Gold] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Free [Great Prophet] appears <with [10]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Raise local militias",
+            "uniques": [
+                "Only available <when above [20] [Manpower]>",
+                "[-1 Production] [in all cities] <for [5] turns>",
+                "[+2 Happiness] [in all cities] <for [5] turns>",
+                "Free [Spearman] appears <with [30]% chance> <hidden from users>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Legalize banditry through a licensing system",
+            "uniques": [
+                "[+3 Gold, -1 Happiness, -1 Culture] [in all cities] <for [5] turns>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [20]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Hire the bandits as tax collectors",
+            "uniques": [
+                "Gain [500] [Gold] <with [30]% chance>",
+                "Gain [500] [Gold] <with [30]% chance>",
+                "[+3 Gold, -3 Happiness] [in all cities] <for [5] turns>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Free [Great Merchant] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Village Refuses Census",
+    "text": "Village Refuses Census \n\n Imperial census officials report that an entire village has refused to participate in the latest population count. The villagers insist they are 'simple farmers' who have never heard of numbers. Unfortunately, several of them were observed accurately calculating grain prices, dividing inheritances, and arguing over tax percentages. One elder stated that every census is followed by higher taxes, conscription, or both. Officials insist this census is purely administrative. Nobody, including the officials, sounded convinced.",
+    "presentation":"Alert",
+    "choices": [
+        {
+            "text": "Allow the Provincial Governors to negotiate",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "[+1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Offer local privileges to secure cooperation",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[-10 Gold] [in capital] <for [5] turns>",
+                "[+1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Fine. We'll estimate.",
+            "uniques": [
+                "Only available <when above [399] [Culture]>",
+                "Gain [-400] [Culture]",
+                "[+1 Culture, +1 Happiness] [in all cities] <for [5] turns>",
+                "Free [Great Scholar] appears <with [25]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Declare counting a sacred duty",
+            "uniques": [
+                "Only available <when above [399] [Faith]>",
+                "Gain [-400] [Faith]",
+                "[+1 Faith] [in all cities] <for [5] turns>",
+                "Free [Great Prophet] appears <with [35]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "If nobody exists, nobody pays taxes.",
+            "uniques": [
+                "[+2 Happiness, -6 Gold] [in all cities] <for [5] turns>",
+                "Free [Great Artist] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Traveling Agitator",
+    "text": "Traveling Agitator \n\n Reports have emerged of a charismatic speaker traveling from town to town gathering increasingly enthusiastic crowds. His speeches condemn corruption, ridicule imperial officials, and offer simple solutions to complex problems. Local authorities insist he is a dangerous radical seeking to undermine the Empire. His supporters insist he merely possesses the rare ability to finish a sentence without requesting a bribe. Merchants have begun selling pamphlets containing his speeches. Several provincial governors request instructions before he arrives in their jurisdiction.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Allow the Provincial Governors to handle the matter",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "[+1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Offer him a government position",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[-5 Gold] [in capital] <for [5] turns>",
+                "[+1 Happiness] [in all cities] <for [5] turns>",
+                "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Invite him to debate at court",
+            "uniques": [
+                "Only available <when above [299] [Culture]>",
+                "Gain [-300] [Culture]",
+                "[+2 Culture, +1 Happiness] [in all cities] <for [5] turns>",
+                "Free [Great Scholar] appears <with [25]% chance> <hidden from users>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Denounce him as a heretic",
+            "uniques": [
+                "Only available <when above [299] [Faith]>",
+                "Gain [-300] [Faith]",
+                "[+2 Faith, -1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Arrest him before he inspires anyone",
+            "uniques": [
+                "[-1 Happiness, -1 Production] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Ignore him. The people will get bored eventually.",
+            "uniques": [
+                "[+1 Culture, -1 Happiness] [in all cities] <for [5] turns>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+                "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [20]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+//RE:4
+
+{
+    "name": "Poor Harvests",
+    "text": "Poor Harvests \n\n Reports from across the countryside describe disappointing harvests. Farmers blame unseasonable weather, exhausted soil, pests, divine displeasure, and neighboring villages casting suspicious glances over property boundaries. Tax officials note that crop failures become remarkably common whenever assessments are due. Granaries stand half-empty, market prices creep steadily upward, and urban citizens have begun rediscovering the ancient tradition of complaining loudly about bread. Provincial authorities assure the court that there is no cause for alarm. They have also begun purchasing grain in bulk for their own households. The Empire has survived invasions, civil wars, and succession crises. It remains uncertain whether it can survive hungry citizens.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Allow the Provincial Governors to organize relief",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "[-2 Gold, -1 Food] [in all cities] <for [5] turns>",
+                "[+2 Happiness] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel",
+                "Remove [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Entrust local elites with distributing grain",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[-5 Gold] [in capital] <for [5] turns>",
+                "[+2 Happiness, +1 Gold] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Organize prayers and public sacrifices",
+            "uniques": [
+                "Only available <when above [299] [Faith]> <if [Grand Temple] is constructed>",
+                "Gain [-300] [Faith]",
+		"[-1] population in a random city"
+		"[-1] population in a random city <when above [5] [Cities]>"
+                "[+2 Faith, +2 Happiness, -2 Gold] [in all cities] <for [5] turns>",
+                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "[3] [Angry Mob]s rebel",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Mobilize labor to save what remains",
+            "uniques": [
+                "Only available <when above [20] [Manpower]>",
+                "[-1 Production, +2 Happiness] [in all cities] <for [5] turns>",
+                "[+3 Food] [in capital] <for [5] turns>",
+		"[-1] population in a random city"
+		"[-1] population in a random city <when above [5] [Cities]>"
+		"[-1] population in a random city <when above [10] [Cities]>"
+		"[-1] population in a random city <when above [15] [Cities]>"
+                "Free [Worker] appears <with [25]% chance> <hidden from users>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Commission poets to celebrate rural resilience",
+            "uniques": [
+                "Only available <when above [499] [Culture]>",
+                "Gain [-500] [Culture]",
+                "[+2 Culture, +1 Happiness] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel",
+		"[-1] population in a random city"
+		"[-1] population in a random city <when above [5] [Cities]>"
+		"[-1] population in a random city <when above [10] [Cities]>"
+		"[-1] population in a random city <when above [15] [Cities]>"
+                "Free [Great Artist] appears <with [20]% chance> <hidden from users>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Reduce the official size of grain rations",
+            "uniques": [
+                "[+2 Gold, -2 Happiness] [in all cities] <for [5] turns>",
+		"[-1] population [in your cities] <with [20]% chance>",
+                "[6] [Angry Mob]s rebel",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [25]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Tax Collection Difficulties",
+    "text": "Tax Collection Difficulties \n\n Revenue officials report increasing difficulties collecting taxes in several provinces. Villagers claim their harvests failed, merchants insist their ledgers were lost in unfortunate accidents, and local nobles have suddenly developed an intense interest in debating the legal definition of ownership. One tax collector returned with three chickens, a poem, and an apology written by the village elder. Another did not return at all. Provincial authorities assure the court that the situation remains manageable. They have also quietly requested armed escorts and transfers to other jurisdictions. The Empire has long maintained that taxation is the price of civilization. The taxpayers appear to be exploring alternative economic theories.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Allow the Provincial Governors to review the assessments",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "[+1 Gold, +1 Happiness] [in all cities] <for [5] turns>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Recruit local notables to assist collection efforts",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[-5 Gold] [in capital] <for [5] turns>",
+                "[+2 Gold] [in all cities] <for [5] turns>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Request the temples encourage honest contributions",
+            "uniques": [
+                "Only available <when above [299] [Faith]>",
+                "Gain [-300] [Faith]",
+                "[+1 Faith] [in all cities] <for [5] turns>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Deploy mounted patrols to accompany the collectors",
+            "uniques": [
+                "Only available <if [Cavalry Barracks] is constructed>",
+                "[+2 Gold, -1 Happiness] [in all cities] <for [5] turns>",
+                "Free [Horseman] appears <with [30]% chance> <hidden from users>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Raise temporary collection auxiliaries",
+            "uniques": [
+                "Only available <when above [20] [Manpower]>",
+                "[+2 Gold, -1 Production] [in all cities] <for [5] turns>",
+                "[-1 Happiness] [in all cities] <for [3] turns>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Free [Spearman] appears <with [25]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Adjust the records to reflect a successful collection",
+            "uniques": [
+                "[-4 Gold, -1 Culture, +1 Happiness] [in all cities] <for [5] turns>",
+                "Free [Great Merchant] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [20]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Forced Labor Complaints",
+    "text": "Forced Labor Complaints \n\n Petitions have arrived from several provinces concerning the treatment of laborers conscripted for public works. Workers complain of inadequate food, dangerous conditions, abusive overseers, and the increasingly creative interpretation of the word 'temporary'. Officials insist these sacrifices are necessary for the prosperity of the Empire. The laborers note that prosperity has so far manifested primarily as monuments bearing other people's names. One magistrate proudly reported that complaints had decreased significantly after restricting access to ink, paper, and witnesses.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Allow the Provincial Governors to review the abuses",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "[-1 Production, -1 Gold] [in all cities] <for [5] turns>",
+                "[+2 Happiness] [in all cities] <for [5] turns>",
+                "[2] [Angry Mob]s rebel",
+                "Remove [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Place respected local elites in charge",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[-5 Gold] [in capital] <for [5] turns>",
+                "[+1 Happiness, +1 Production] [in all cities] <for [5] turns>",
+                "[2] [Angry Mob]s rebel",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Declare labor a sacred duty",
+            "uniques": [
+                "Only available <when above [399] [Faith]> <if [Grand Temple] is constructed>",
+                "Gain [-400] [Faith]",
+                "[+2 Faith, +1 Happiness, -1 Gold] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Assign military overseers to maintain discipline",
+            "uniques": [
+                "Only available <if [Army Barracks] is constructed>",
+                "[+1 Production, -1 Happiness] [in all cities] <for [5] turns>",
+                "[3] [Spearman]s rebel <with [50]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Recruit additional workers from the populace",
+            "uniques": [
+                "Only available <when above [20] [Manpower]>",
+                "[+2 Production, -1 Happiness] [in all cities] <for [5] turns>",
+                "[-1] population in a random city",
+                "[-1] population in a random city <when above [5] [Cities]>",
+                "[3] [Angry Mob]s rebel",
+                "Free [Great Engineer] appears <with [15]% chance> <hidden from users>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Revise the definition of 'voluntary service'",
+            "uniques": [
+                "[+3 Production, +2 Gold, -3 Happiness] [in all cities] <for [5] turns>",
+                "[5] [Angry Mob]s rebel",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Free [Great Merchant] appears <with [20]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Bread Prices Rise",
+    "text": "Bread Prices Rise \n\n Reports from the cities indicate that the price of bread has risen sharply. Bakers blame grain merchants. Grain merchants blame transport costs. Transport officials blame bandits. Bandits blame poor economic opportunities. Economists, being a rare species, blame everyone while nobody listens to them. Crowds have begun gathering outside bakeries demanding explanations, lower prices, and occasionally free samples. The wealthy reassure the court that markets naturally correct themselves. The poor note that starvation also has a remarkable tendency to correct population figures.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Allow the Provincial Governors to organize emergency distributions",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "[-2 Gold, +1 Food, +2 Happiness] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel <with [40]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Compel local elites to subsidize the markets",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[-10 Gold] [in capital] <for [5] turns>",
+                "[+2 Happiness, +1 Gold, +1 Food] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel <with [40]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Free [Great Merchant] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Organize public prayers for abundance",
+            "uniques": [
+                "Only available <when above [299] [Faith]> <if [Grand Temple] is constructed>",
+                "Gain [-300] [Faith]",
+                "[+2 Faith, +2 Happiness, -2 Gold] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel <with [40]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Deploy cavalry patrols to secure grain shipments",
+            "uniques": [
+                "Only available <if [Cavalry Barracks] is constructed>",
+                "[+2 Gold, -1 Happiness] [in all cities] <for [5] turns>",
+                "[2] [Horseman]s rebel <with [40]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Press more workers into the grain trade",
+            "uniques": [
+                "Only available <when above [30] [Manpower]>",
+                "[+2 Gold, +1 Food, -1 Happiness] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel",
+                "Free [Great Merchant] appears <with [20]% chance> <hidden from users>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [15]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Announce that smaller loaves promote moderation",
+            "uniques": [
+                "[+6 Gold, -3 Happiness] [in all cities] <for [5] turns>",
+                "[-1] population [in your cities] <with [20]% chance>",
+                "[-1] population [in your cities] <with [20]% chance>",
+                "[-1] population [in your cities] <with [20]% chance>",
+                "[-1] population [in your cities] <with [20]% chance>",
+                "[-1] population [in your cities] <with [20]% chance>",
+                "[5] [Angry Mob]s rebel",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Free [Great Merchant] appears <with [20]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [20]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Petition from the Provinces",
+    "text": "Petition from the Provinces \n\n A delegation from several provinces has arrived at court carrying an enormous collection of petitions. The grievances include excessive taxation, corrupt magistrates, neglected roads, arbitrary judgments, unpaid garrisons, grain shortages, wandering livestock, and one particularly passionate complaint regarding the improper dimensions of official paving stones. Court officials note that many of the petitions contradict one another. One province demands lower taxes and greater military protection. Another requests fewer soldiers and harsher tax enforcement on their neighbors. The delegates insist these demands are perfectly reasonable. The Empire has long encouraged its subjects to make their concerns known. It had simply hoped they would be less enthusiastic about the opportunity.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Allow the Provincial Governors to address the grievances",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "[-2 Gold, -1 Production, +2 Happiness] [in all cities] <for [5] turns>",
+                "[2] [Angry Mob]s rebel <with [30]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Appoint the petitioners as Provincial Governors",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[+1 Happiness, +1 Culture, -1 Gold] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel <with [40]% chance>",
+                "Free [Great Merchant] appears <with [20]% chance> <hidden from users>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Commission scholars to compile the grievances into an official report",
+            "uniques": [
+                "Only available <when above [399] [Culture]>",
+                "Gain [-400] [Culture]",
+                "[+3 Culture, +2 Happiness, -1 Gold] [in all cities] <for [5] turns>",
+                "[2] [Angry Mob]s rebel <with [30]% chance>",
+                "Free [Great Artist] appears <with [35]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Declare patience and obedience to be sacred virtues",
+            "uniques": [
+                "Only available <if [Grand Temple] is constructed> <when above [399] [Faith]>",
+		"Gain [-400] [Faith]",
+                "[+2 Faith, +1 Happiness] [in all cities] <for [5] turns>",
+                "[2] [Angry Mob]s rebel <with [40]% chance>",
+                "Free [Great Prophet] appears <with [35]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Excellent suggestions. We shall form a committee to investigate whether further committees are required.",
+            "uniques": [
+                "[+2 Culture, +2 Gold, -2 Happiness] [in all cities] <for [10] turns>",
+                "[1] [General]s rebel <with [20]% chance>",
+                "[4] [Angry Mob]s rebel",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Free [Great Artist] appears <with [40]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Local Traditions Ignored",
+    "text": "Local Traditions Ignored \n\n Provincial officials report increasing hostility after several local customs were dismissed as 'inefficient', 'unscientific', or 'not mentioned in the administrative handbook'. Sacred festivals have been rescheduled to accommodate tax deadlines. Ancient dances have been prohibited for obstructing traffic. One magistrate ordered the demolition of a ceremonial standing stone after concluding it lacked the proper permits. The resulting petition, signed by nearly the entire province, was returned unopened due to improper formatting. The Empire prides itself on bringing order and civilization to its subjects. The subjects occasionally express gratitude by setting things on fire.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "What if we put ALL the traditions in ONE festival?",
+            "uniques": [
+                "Only available <when above [10] [Cities]>",
+		"Gain [200] [Culture] <with [30]% chance>",
+		"Gain [200] [Culture] <with [30]% chance>",
+		"Gain [200] [Culture] <with [30]% chance>",
+                "[+3 Happiness, +3 Culture, -4 Gold] [in all cities] <for [5] turns>",
+                "Free [Great Artist] appears <with [40]% chance>",
+                "Free [Great Merchant] appears <with [40]% chance>",
+                "[10] [Angry Mob]s rebel <with [60]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "The beatings will continue until morale improves. Now dance.",
+            "uniques": [
+                "Only available <when above [20] [Manpower]>",
+		"Gain [200] [Culture] <with [30]% chance>",
+		"Gain [200] [Culture] <with [30]% chance>",
+		"Gain [200] [Culture] <with [30]% chance>",
+                "[+3 Production, +2 Happiness, -2 Gold] [in all cities] <for [5] turns>",
+                "Free [Great Artist] appears <with [40]% chance>",
+                "Free [Great Engineer] appears <with [40]% chance>",
+                "[-1] population in a random city <with [30]% chance>",
+                "[-1] population in a random city <with [30]% chance>",
+                "[10] [Angry Mob]s rebel <with [60]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "We have carefully studied your traditions and replaced them with this pamphlet.",
+            "uniques": [
+                "[+5 Gold, +2 Culture, -3 Happiness] [in all cities] <for [5] turns>",
+		"Gain [200] [Culture] <with [30]% chance>",
+		"Gain [200] [Culture] <with [30]% chance>",
+		"Gain [200] [Culture] <with [30]% chance>",
+                "Free [Great Artist] appears <with [40]% chance>",
+                "Free [Great Merchant] appears <with [40]% chance>",
+                "Free [Great Scholar] appears <with [40]% chance>",
+                "[1] [General]s rebel <with [30]% chance>",
+                "[10] [Angry Mob]s rebel <with [60]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "The Donkey Tax",
+    "text": "The Donkey Tax \n\n Revenue officials from several provinces report disappointing tax receipts and have proposed a bold solution: expand the taxable base. After exhausting obvious targets such as merchants, landowners, fishermen, and people unfortunate enough to own visible property, attention has turned to donkeys. Advocates argue that donkeys use roads, consume fodder, and participate in commerce while contributing nothing to the treasury. Critics note that donkeys already carry the Empire on their backs, often more reliably than certain magistrates. The proposal has triggered heated debate. Farmers threaten protest. Tax collectors smell promotion. One official has already drafted regulations distinguishing between 'luxury donkeys' and 'working donkeys'.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Allow the Provincial Governors to administer the tax fairly",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "[+2 Gold, +1 Happiness] [in all cities] <for [5] turns>",
+                "[2] [Angry Mob]s rebel <with [20]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [15]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Exempt the nobles' donkeys, naturally",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[+3 Gold, -2 Happiness] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel <with [30]% chance>",
+                "Free [Great Merchant] appears <with [20]% chance> <hidden from users>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Commission scholars to determine what legally constitutes a donkey",
+            "uniques": [
+                "Only available <when above [399] [Culture]>",
+                "Gain [-400] [Culture]",
+                "[+2 Culture, +2 Gold, -1 Happiness] [in all cities] <for [5] turns>",
+                "[2] [Angry Mob]s rebel <with [30]% chance>",
+                "Free [Great Artist] appears <with [30]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>",
+		"Triggers a [Talking Donkey] event <with [20]% chance> <when below [1] [Imperial Auditor]> <hidden from users>",
+            ]
+        },
+        {
+            "text": "Declare honest tax payment a sacred obligation",
+            "uniques": [
+                "Only available <if [Grand Temple] is constructed> <when above [399] [Faith]>",
+                "Gain [-400] [Faith]",
+                "[+2 Faith, +2 Gold, -1 Happiness] [in all cities] <for [5] turns>",
+                "[2] [Angry Mob]s rebel <with [40]% chance>",
+                "Free [Great Prophet] appears <with [35]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "If we tax the donkeys, imagine what else we could tax.",
+            "uniques": [
+                "[+6 Gold, -4 Happiness] [in all cities] <for [5] turns>",
+                "[5] [Angry Mob]s rebel",
+                "[1] [General]s rebel <with [20]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Free [Great Merchant] appears <with [40]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [20]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "The Imperial Announcement",
+    "text": "The Imperial Announcement \n\n A formal proclamation has been issued from the capital regarding recent unrest across the provinces. The text is unusually long, largely due to repeated assurances that the situation is 'fully under control' and that 'all necessary measures are being taken'. Provincial officials, meanwhile, report that the measures consist mainly of more proclamations. In several regions, the announcement was read aloud by town criers who were promptly corrected by angry crowds insisting they were mispronouncing the Emperor's optimism. The court maintains confidence. The provinces maintain pitchforks. Everyone agrees this is a communication issue.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Send Provincial Governors to 'clarify expectations' on the ground",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed> <when above [10] [Manpower]>",
+                "[-2 Gold, +1 Happiness] [in all cities] <for [5] turns>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Delegate enforcement of the proclamation to Provincial Governors",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed> <when above [1] [Nobles]>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[+1 Gold, +1 Happiness, -1 Production] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel <with [40]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Reissue the announcement in even larger lettering",
+            "uniques": [
+                "Only available <when above [399] [Culture]>",
+                "Gain [-400] [Culture]",
+                "[+1 Happiness, -2 Gold] [in all cities] <for [5] turns>",
+                "[2] [Angry Mob]s rebel <with [30]% chance>",
+		"Remove [Citizen Assembly] [in your cities] <with [15]% chance>",
+                "Free [Great Artist] appears <with [35]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Declare dissent to be a misunderstanding of divine intent",
+            "uniques": [
+                "Only available <if [Grand Temple] is constructed> <when above [399] [Faith]>",
+                "Gain [-400] [Faith]",
+                "[+2 Faith, +2 Happiness, -1 Culture] [in all cities] <for [5] turns>",
+                "[3] [Angry Mob]s rebel <with [40]% chance>",
+                "Free [Great Prophet] appears <with [15]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Assume the announcement itself is causing the unrest and ban reading it",
+            "uniques": [
+                "[-2 Happiness, +1 Production, +1 Food] [in all cities] <for [5] turns>",
+                "[4] [Angry Mob]s rebel",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Talking Donkey",
+    "text": "Talking Donkey \n\n Rumors have spread across the Empire concerning a donkey in a provincial market that allegedly speaks with startling intelligence. Witness accounts vary considerably. Some claim it debated philosophy with scholars. Others insist it accurately predicted grain prices, criticized the army's marching formations, and delivered an impassioned lecture on the decline of civic virtue. Several merchants report that the donkey gave investment advice of suspicious quality. One magistrate attempted to arrest the animal for practicing rhetoric without a license. The donkey itself has yet to be located. This has not prevented half the Empire from having strong opinions about it.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "A talking donkey? Assemble the scholars immediately!",
+            "uniques": [
+                "Only available <when above [1999] [Science]>",
+                "Gain [-2000] [Science]",
+		"Instantly provides [1] [Imperial Auditor]",
+            ]
+        },
+        {
+            "text": "At last, an artist who truly understands the common people.",
+            "uniques": [
+                "Only available <when above [1999] [Culture]>",
+                "Gain [-2000] [Culture]",
+		"Instantly provides [1] [Imperial Auditor]",
+            ]
+        },
+        {
+            "text": "Buy the donkey before our enemies do.",
+            "uniques": [
+                "Only available <when above [3999] [Gold]>",
+                "Gain [-4000] [Gold]",
+		"Instantly provides [1] [Imperial Auditor]",
+            ]
+        },
+        {
+            "text": "A talking ass is reported in the provinces? I have seen many prodigies in my time, yet none so absurd as this. Next you will claim a swamp-born green giant lectures the Senate on honor and friendship?",
+            "uniques": [
+                "[+1 Happiness, +1 Gold, +1 Culture, +1 Science, +1 Production] [in all cities] <for [10] turns>",
+                "Free [Great Merchant] appears <with [20]% chance>",
+                "Free [Great Artist] appears <with [20]% chance>",
+                "Free [Great Prophet] appears <with [20]% chance>",
+                "Free [Great Scholar] appears <with [20]% chance>",
+                "Free [Great Engineer] appears <with [20]% chance>",
+            ]
+        }
+    ]
+},
+
+///Rebel Building
+
+{
+    "name": "Provincial Governors Demand Funding",
+    "text": "Provincial Governors Demand Funding \n\n Reports from across the provinces indicate that the governors require additional funding to maintain local administration. According to their letters, tax records must be updated, roads repaired, officials paid, and countless important ceremonies attended. Treasury officials note that several requests include vineyards, bathhouses, hunting lodges, and a suspicious number of decorative fountains. The governors insist these are all essential tools of governance.",
+    "presentation":"Alert",
+    "choices": [
+        {
+            "text": "Approve the requested funds",
+            "uniques": [
+                "Only available <when above [499] [Gold]>",
+                "Gain [-500] [Gold]",
+                "[+1 Happiness, +1 Culture, +1 Gold] [in all cities] <for [10] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+            ]
+        },
+        {
+            "text": "Have the temples support local administration",
+            "uniques": [
+                "Only available <if [Grand Temple] is constructed> <when above [299] [Faith]>",
+                "[+2 Happiness, +1 Faith, +1 Culture] [in all cities] <for [10] turns>",
+                "Free [Great Prophet] appears <with [10]% chance> <hidden from users>",
+            ]
+        },
+        {
+            "text": "Assign military overseers",
+            "uniques": [
+                "Only available <if [Imperial Barracks] is constructed>",
+                "[+1 Production, +1 Happiness, -2 Culture] [in all cities] <for [10] turns>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance>",
+                "Free [General] appears <with [5]% chance> <when above [0] [Nobles]> <hidden from users>",
+            ]
+        },
+        {
+            "text": "Decentralize provincial administration",
+            "uniques": [
+                "Only available <when above [10] [Cities]>",
+                "[+2 Gold, +1 Happiness, -1 Production] [in all cities] <for [10] turns>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Remove [Provincial Governors] [in capital] <with [20]% chance>",
+                "Free [Great Merchant] appears <with [10]% chance> <hidden from users>",
+            ]
+        },
+        {
+            "text": "Disband the Provincial Governors",
+            "uniques": [
+                "Remove [Provincial Governors] [in capital]",
+                "[+4 Gold, -2 Happiness] [in all cities] <for [10] turns>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [40]% chance>",
+            ]
+        },
+        {
+            "text": "Replace them with carrier pigeons and strongly worded letters",
+            "uniques": [
+                "[+2 Culture] [in all cities] <for [10] turns>",
+                "Remove [Provincial Governors] [in capital] <with [40]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Free [Great Artist] appears <with [10]% chance> <hidden from users>",
+		"Triggers a [Pigeon Governors] event <with [20]% chance> <upon turn start> <hidden from users>",
+            ]
+        }
+    ]
+},
+{
+    "name": "Provincial Corruption",
+    "text": "Provincial Corruption \n\n A flood of complaints has arrived from the provinces concerning the conduct of several magistrates and tax officials. Citizens allege that bribes have become mandatory, fines have become negotiable, and public funds have developed an unfortunate tendency to relocate into private villas. One governor reportedly introduced an 'administrative convenience fee' for filing complaints about administrative convenience fees. Investigators dispatched to examine the allegations returned with glowing reports praising provincial efficiency, newly purchased estates, and remarkably expensive jewelry. Officials assure the court that corruption remains an isolated incident. The provinces assure the court that they have never encountered an incident that isolated.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Remind officials that the gods are watching",
+            "uniques": [
+                "Only available <when above [299] [Faith]> <if [Grand Temple] is constructed>",
+                "Gain [-300] [Faith]",
+                "[+2 Faith, +3 Happiness] [in all cities] <for [5] turns>",
+                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [15]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Conduct a highly visible anti-corruption campaign",
+            "uniques": [
+                "Only available <when above [499] [Culture]>",
+                "Gain [-500] [Culture]",
+                "[+2 Culture, +3 Happiness, -1 Gold] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Free [Great Artist] appears <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Send the army to make examples of a few officials",
+            "uniques": [
+                "Only available <if [Army Barracks] is constructed>",
+		"Gain [300] [Gold] <with [30]% chance>",
+		"Gain [300] [Gold] <with [30]% chance>",
+		"Gain [300] [Gold] <with [30]% chance>",
+		"Gain [300] [Gold] <with [30]% chance>",
+                "[+3 Happiness, -1 Production] [in all cities] <for [5] turns>",
+                "[3] [General]s rebel",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Legalize the practice and call it administrative reform",
+            "uniques": [
+                "[+3 Gold, -2 Happiness, -1 Culture] [in all cities] <for [5] turns>",
+		"Gain [300] [Gold] <with [30]% chance>",
+		"Gain [300] [Gold] <with [30]% chance>",
+		"Gain [300] [Gold] <with [30]% chance>",
+		"Gain [300] [Gold] <with [30]% chance>",
+                "[10] [Angry Mob]s rebel",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Free [Great Merchant] appears <with [25]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [20]% chance> <hidden from users>"
+            ]
+        },
+    ]
+},
+{
+    "name": "Pigeon Governors",
+    "text": "Pigeon Governors \n\n Against every reasonable expectation, the carrier pigeon initiative has not immediately collapsed. Several pigeons have successfully delivered tax records, legal decrees, and at least one marriage proposal. Others have developed alarming levels of self-importance. Provincial officials now report that citizens have begun referring to certain birds as 'His Feathered Excellency'. One pigeon has demanded a larger office and a ceremonial hat.",
+    "presentation":"Alert",
+    "choices": [
+        {
+            "text": "Promote the most competent pigeon",
+            "uniques": [
+                "[+1 Happiness, +1 Culture, +1 Gold] [in all cities] <for [10] turns>",
+		"Gain [500] [Culture]"
+                "Free [Great Scholar] appears <with [10]% chance> <hidden from users>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+            ]
+        },
+        {
+            "text": "This is ridiculous. Return to human governors.",
+            "uniques": [
+                "Gain a free [Provincial Governors] [in capital] <if [Provincial Governors] is not constructed>",
+		"Gain [1000] [Gold] <if [Provincial Governors] is constructed>",
+                "[-3 Culture, +1 Happiness] [in capital] <for [10] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+            ]
+        },
+        {
+            "text": "ALL HAIL THE SUPREME PIGEON",
+            "uniques": [
+                "Only available <when above [699] [Culture]> <if [Supreme Governors] is not constructed>",
+		"Gain [-700] [Culture]",
+                "[-1 Happiness, -1 Production, +2 Culture, +3 Faith, +2 Science] [in all cities] <for [10] turns>",
+                "Free [Great Artist] appears <with [20]% chance> <hidden from users>",
+                "Gain a free [Supreme Governors] [in capital]",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+            ]
+        }
+    ]
+},
+
+
+///Resources
+
+
+{
+    "name": "Veterans Demand Payment",
+    "text": "Veterans Demand Payment \n\n A large group of discharged veterans has gathered outside government offices demanding the pensions, land grants, and bonuses promised to them during wartime. They insist that they fought for the Empire and merely wish to receive what was guaranteed. Treasury officials insist that patriotic service is its own reward. Several veterans have responded by demonstrating exactly how they once breached fortified positions. Citizens express sympathy for the veterans while quietly barricading their doors. The Empire once praised these men as heroes. It now refers to them as 'a budgetary concern'.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Allow the Provincial Governors to negotiate settlements",
+            "uniques": [
+                "Only available <if [Provincial Governors] is constructed>",
+                "[-3 Gold] [in all cities] <for [5] turns>",
+                "[+1 Happiness] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Appoint veteran representatives to the administration",
+            "uniques": [
+                "Only available <if [Provincial Governors] is not constructed>",
+                "Gain a free [Provincial Governors] [in capital]",
+                "[-10 Gold] [in capital] <for [5] turns>",
+                "[+1 Happiness, +1 Production] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Have the Army Barracks absorb the veterans",
+            "uniques": [
+                "Only available <if [Army Barracks] is constructed>",
+                "[+1 Production, -1 Gold] [in all cities] <for [5] turns>",
+                "Free [Spearman] appears <with [50]% chance> <hidden from users>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Ask the Grand Temple to remind them of heavenly rewards",
+            "uniques": [
+                "Only available <if [Grand Temple] is constructed> <when above [299] [Faith]>",
+                "Gain [-300] [Faith]",
+                "[+2 Faith, +1 Happiness] [in all cities] <for [5] turns>",
+                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Commission poets to immortalize their sacrifice",
+            "uniques": [
+                "Only available <when above [499] [Culture]>",
+                "Gain [-500] [Culture]",
+                "[+1 Production, +1 Happiness] [in all cities] <for [5] turns>",
+                "Free [Great Artist] appears <with [50]% chance>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [15]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Inform them that gratitude is not legal tender",
+            "uniques": [
+                "[-2 Happiness, +1 Culture] [in all cities] <for [5] turns>",
+                "[5] [Angry Mob]s rebel",
+                "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+                "Free [Great Artist] appears <with [5]% chance> <hidden from users>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        }
+    ]
+},
+
 		////BUFF UPKEEP
 
             {
@@ -1299,12 +2455,6 @@
                         ]
                     }
                 ],
-                "civilopediaText": [
-                    {
-                        "text": "Elite soldiers. Elite expenses.",
-                        "link": "Buildings/Heavy Infantry Focus"
-                    }
-                ]
             },
             {
                 "name": "Shield Infantry Funding Review",
@@ -1325,12 +2475,6 @@
                         ]
                     }
                 ],
-                "civilopediaText": [
-                    {
-                        "text": "Discipline is expensive. Defeat costs more.",
-                        "link": "Buildings/Shield Infantry Focus"
-                    }
-                ]
             },
             {
                 "name": "Sword Training Review",
@@ -1351,12 +2495,6 @@
                         ]
                     }
                 ],
-                "civilopediaText": [
-                    {
-                        "text": "Sharp swords require sharp budgets.",
-                        "link": "Buildings/Sword Focus"
-                    }
-                ]
             },
             {
                 "name": "Horse Archer Procurement Report",
@@ -1377,12 +2515,6 @@
                         ]
                     }
                 ],
-                "civilopediaText": [
-                    {
-                        "text": "Fair fights are optional.",
-                        "link": "Buildings/Mounted Archery Focus"
-                    }
-                ]
             },
             {
                 "name": "Quality Sticks Maintenance Report",
@@ -1403,12 +2535,6 @@
                         ]
                     }
                 ],
-                "civilopediaText": [
-                    {
-                        "text": "Long spears, longer invoices.",
-                        "link": "Buildings/Spear Focus"
-                    }
-                ]
             },
             {
                 "name": "Cavalry Budget Crisis",
@@ -1429,12 +2555,6 @@
                         ]
                     }
                 ],
-                "civilopediaText": [
-                    {
-                        "text": "Elite horsemen. Elite horse bills.",
-                        "link": "Buildings/Mounted Focus"
-                    }
-                ]
             },
             {
                 "name": "Arrow Procurement Debate",
@@ -1455,12 +2575,6 @@
                         ]
                     }
                 ],
-                "civilopediaText": [
-                    {
-                        "text": "Arrows are cheaper than funerals.",
-                        "link": "Buildings/Archery Focus"
-                    }
-                ]
             },
 
 
@@ -1503,7 +2617,12 @@
                         ]
                     }
                 ],
-
+			"civilopediaText": [
+		{
+			"text": "The Illyrians are back, and they remembered where Rome keeps its money.",
+			"link": "Buildings/Dalmatia"
+		}
+	]
 },
 {
 		"name": "The Loss of Dalmatia",
