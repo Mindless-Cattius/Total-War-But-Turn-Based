@@ -18,6 +18,13 @@ UnitIcons/Anatolian Tribesman
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Angry Mob
+  rotate: false
+  xy: 1757, 534
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitIcons/Archer
   rotate: false
   xy: 328, 916
@@ -69,70 +76,70 @@ UnitIcons/Balearic Slinger
   index: -1
 UnitIcons/Barbarian Archer
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Cavalry
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Heavy Spearman
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Heavy Swordsman
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Horse Archer
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Horseman
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Pike Phalanx
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Slinger
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Spearman
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Swordsman
   rotate: false
-  xy: 1757, 534
+  xy: 1815, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -230,7 +237,7 @@ UnitIcons/Clibanarii
   index: -1
 UnitIcons/Club Levy
   rotate: false
-  xy: 1815, 534
+  xy: 1873, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
