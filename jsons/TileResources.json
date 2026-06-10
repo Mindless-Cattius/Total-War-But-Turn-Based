@@ -1049,6 +1049,14 @@
 				"Stockpiled"
 		]
     },
+	{
+		"name": "Silvan Primates",
+		"resourceType": "Luxury",
+		"uniques": [
+			"[+3] Happiness from each type of luxury resource",
+				"Stockpiled"
+		]
+    },
 	// Unit hidden resources
     {
 		"name": "Enable Archer",
@@ -1206,8 +1214,13 @@
     {
 		"name": "Enable Club Levy",
 		"resourceType": "Bonus",
-		"uniques": ["Comment [Required for Legion]"
-				"Will not be displayed in Civilopedia"]
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Enable The Goat",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"
+				"Stockpiled"]
     },
 	// Other hidden resources
     {
@@ -1317,23 +1330,29 @@
 				"Stockpiled"]
     },
     {
+		"name": "The First Bureaucrats",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"
+				"Stockpiled"]
+    },
+//Buildings EVENTS
+
+    {
+		"name": "BE",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"
+				"Stockpiled"]
+    },
+
+
+//Sanitation Events
+    {
 		"name": "SE",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"
 				"Stockpiled"]
     },
-    {
-		"name": "CE",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"
-				"Stockpiled"]
-    },
-    {
-		"name": "NE",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"
-				"Stockpiled"]
-    },
+//Rebel Events
     {
 		"name": "RE",
 		"resourceType": "Bonus",

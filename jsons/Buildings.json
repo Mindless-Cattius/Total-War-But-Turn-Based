@@ -2593,6 +2593,53 @@
 	},
 
 					////EVENTS
+///Resources
+{
+	"name": "Manpower Office",
+	"specialistSlots": {"Engineer": 1},
+	"production": 1,
+	"uniques": [
+		"Provides [4] [Manpower]",
+		"Provides [4] [Manpower] <starting from the [Hellenistic Age]>",
+		"Comment [+1 Worker limit]"
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		]
+},
+{
+	"name": "Administrative Estates",
+	"happiness": 1,
+	"specialistSlots": {"Merchant": 1},
+	"uniques": [
+		"Provides [1] [Nobles]",
+		"Provides [1] [Nobles] <when not at war>",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		]
+},
+{
+	"name": "Hall of Veterans",
+	"culture": 1,
+	"specialistSlots": {"Artist": 1},
+	"uniques": [
+		"Provides [1] [Veteran]",
+        	"[+1] XP gained from combat <for [Skirmisher] units>",
+        	"[+1] XP gained from combat <for [{Melee} {Land}] units> <when above [1] [Veteran]>",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		]
+},
+{
+	"name": "Provincial Governors",
+	"specialistSlots": {"Artist": 1},
+	"uniques": [
+		"Consumes [1] [Nobles]",
+		"Consumes [2] [Rebel Risk]",
+		"Consumes [2] [Rebel Risk] <during a Golden Age>",
+		"[+1 Food, -1 Gold] [in all cities]",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Triggers a [Provincial Governors Demand Funding] event <upon turn start> <with [3]% chance> <hidden from users>",
+		"Triggers a [Provincial Corruption] event <upon turn start> <with [1]% chance> <hidden from users>",
+		]
+},
+
 ///Sanitation Events
 
 {
@@ -2611,7 +2658,6 @@
 	"happiness": 1,
 	"uniques": [
 		"Provides [1] [Sanitation]",
-		"Provides [2] [Manpower]",
 		"[+1 Food] [in all cities]",
 		"[+3] HP when healing <for [all] units> <in [Friendly Land] tiles>",
 		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
@@ -2647,21 +2693,9 @@
 		]
 },
 
-////Rebel Events
+////special
 
-{
-	"name": "Provincial Governors",
-	"specialistSlots": {"Courtesan": 1},
-	"uniques": [
-		"Consumes [1] [Nobles]",
-		"Consumes [2] [Rebel Risk]",
-		"Consumes [2] [Rebel Risk] <during a Golden Age>",
-		"[+1 Food, -1 Gold] [in all cities]",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
-		"Triggers a [Provincial Governors Demand Funding] event <upon turn start> <with [3]% chance> <hidden from users>",
-		"Triggers a [Provincial Corruption] event <upon turn start> <with [1]% chance> <hidden from users>",
-		]
-},
+
 {
 	"name": "Supreme Governors",
 	"specialistSlots": {"Priest": 1},

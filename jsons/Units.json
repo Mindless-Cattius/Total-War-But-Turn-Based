@@ -8,9 +8,11 @@
     "uniques": [
 	"Comment ['Reliable, replaceable, and remarkably flammable. No empire rose without them — mostly because someone had to hold the shovel. Can be upgrade into military unit']",
       	"Limited to [3] per Civilization <during the [Archaic Age]>",
-      	"Limited to [5] per Civilization <during the [Classical Age]>",
-      	"Limited to [7] per Civilization <during the [Hellenistic Age]>",
-      	"Limited to [10] per Civilization <during the [Imperial Age]>",
+      	"Limited to [4] per Civilization <during the [Classical Age]>",
+      	"Limited to [5] per Civilization <starting from the [Hellenistic Age]>",
+      	"Limited to [4] per Civilization <if [Manpower Office] is constructed> <during the [Archaic Age]> <hidden from users>",
+      	"Limited to [5] per Civilization <if [Manpower Office] is constructed> <during the [Classical Age]> <hidden from users>",
+      	"Limited to [6] per Civilization <if [Manpower Office] is constructed> <starting from the [Hellenistic Age]> <hidden from users>",
       	"Can build [Land] improvements on tiles",
 	"[+100]% construction time for [all] improvements <in [Snow] tiles>",
 	"[+100]% construction time for [all] improvements <in [Tundra] tiles>",
@@ -1277,6 +1279,22 @@
     "hurryCostModifier": 20,
     "attackSound": "march"
   },
+  {
+    "name": "The Goat",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 25,
+    "cost": 270,
+    "uniques": [
+      	"Only available <with [Enable The Goat]>",
+	"Comment ['He appeared from the forest carrying a tree and asking where the enemy was. Nobody thought to refuse him.']",
+      	"Consumes [5] [Manpower]",
+       "Consumes [1] [Veteran]",
+			"Limited to [1] per Civilization",
+    ],
+    "hurryCostModifier": 20,
+    "attackSound": "metalhit"
+  },
 
 				/////GERMANIC
 
@@ -1355,14 +1373,11 @@
     "name": "Chosen Axeman",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 18,
+    "strength": 22,
     "cost": 220,
     "uniques": [
  	"Comment ['Elite medium shock infantry. The tribe's finest warriors. Statistically speaking, this suggested a remarkable life expectancy.']",
 	"Only available <in cities with a [Army Barracks]>",
-	"[+10]% Strength <when attacking> <when below [50] HP>",
-	"[+20]% Strength <when attacking> <when below [20] HP>",
-      	"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
 	"[+1] XP gained from combat",
       	"Consumes [1] [Veteran]",
       	"Consumes [5] [Manpower]",
@@ -1372,8 +1387,32 @@
     "promotions": [
       "Infantry Shield II",
 	"Shock I",
-	"Berserker",
 	"Improved Armor"
+	"Veteran",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Berserker",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 20,
+    "cost": 220,
+    "uniques": [
+ 	"Comment ['Elite medium shock infantry. Their battle doctrine can be summarized as: if you can still feel pain, you are not charging hard enough.
+']",
+	"Only available <in cities with a [Army Barracks]>",
+	"[+20]% Strength <when attacking> <when below [50] HP>",
+	"[+20]% Strength <when attacking> <when below [20] HP>",
+      	"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
+	"[+1] XP gained from combat",
+      	"Consumes [1] [Veteran]",
+      	"Consumes [6] [Manpower]",
+      	"Only available <after adopting [Germanic Culture]> <hidden from users>",
+    ],
+    "promotions": [
+	"Shock I",
+	"Berserker",
 	"Veteran",
     ],
     "attackSound": "metalhit"

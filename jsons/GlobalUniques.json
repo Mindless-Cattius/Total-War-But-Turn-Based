@@ -103,6 +103,33 @@
 			//////EVENTS
 
 	"Triggers a [A Matter of Administration] event <when below [1] [Administrative Briefing]> <upon turn start> <for [Human player] Civilizations>",
+//Specials
+//The First Bureaucrats
+	"Triggers a [The First Bureaucrats Arrive] event <upon turn start> <when below [1] [The First Bureaucrats]> <with [15]% chance>",
+	"Triggers a [The Forms Multiply] event <upon turn start> <when between [1] and [1] [The First Bureaucrats]> <with [5]% chance>",
+	"Triggers a [Custom Before Decree] event <upon turn start> <when between [2] and [2] [The First Bureaucrats]> <with [5]% chance>",
+	"Triggers a [Caravan Overload] event <upon turn start> <when between [3] and [3] [The First Bureaucrats]> <with [3]% chance>",
+	"Triggers a [A Remarkable Discovery] event <upon turn start> <when between [4] and [4] [The First Bureaucrats]> <with [3]% chance>",
+
+//BE
+	"Triggers a [Veteran Beggars] event <upon turn start> <when below [2] [BE]> <with [5]% chance>",
+	"Triggers a [Border Settlers Dispute] event <upon turn start> <when between [0] and [3] [BE]> <with [1]% chance>",
+	"Triggers a [Flooded Granaries] event <upon turn start> <when between [0] and [4] [BE]> <if [Granary] is constructed> <with [1]% chance>",
+	"Triggers a [The Imperial Messenger Crisis] event <upon turn start> <when between [2] and [5] [BE]> <with [1]% chance>",
+	"Triggers a [The Missing Bridge] event <upon turn start> <when between [2] and [5] [BE]> <with [1]% chance>",
+	"Triggers a [The Tax Collector's Funeral] event <upon turn start> <when between [3] and [6] [BE]> <when not at war> <with [1]% chance>",
+	"Triggers a [Discharged Soldiers Seek Purpose] event <upon turn start> <when between [3] and [6] [BE]> <when not at war> <with [1]% chance>",
+	"Triggers a [The Imperial Catastrophe of Left Sandals] event <upon turn start> <when between [3] and [6] [BE]> <when not at war> <with [1]% chance>",
+	"Triggers a [The Official Unit of Measurement] event <upon turn start> <when between [4] and [8] [BE]> <with [1]% chance>",
+	"Triggers a [The Competitive Funeral] event <upon turn start> <when between [4] and [8] [BE]> <with [1]% chance>",
+	"Triggers a [The Invasion of Monkeys] event <upon turn start> <when between [4] and [8] [BE]> <with [1]% chance>",
+	"Triggers a [The Imperial Census] event <upon turn start> <when between [5] and [9] [BE]> <when not at war> <with [1]% chance>",
+	"Triggers a [Complaint Regarding the Sun] event <upon turn start> <when between [5] and [9] [BE]> <when not at war> <with [1]% chance>",
+	"Triggers a [The Imperial Peacock Incident] event <upon turn start> <when between [5] and [9] [BE]> <with [1]% chance>",
+	"Triggers a [The Goat Trial] event <upon turn start> <when between [7] and [9] [BE]> <when not at war> <with [1]% chance>",
+	"Triggers a [The Extremely Honest Merchant] event <upon turn start> <when between [7] and [9] [BE]> <with [1]% chance>",
+
+
 //Sanitation
 	"Triggers a [Water Supply Contamination] event <if [PLAGUE] is constructed> <upon turn start> <with [1]% chance>",
 	"Triggers a [The Rat Problem] event <if [PLAGUE] is constructed> <upon turn start> <with [1]% chance>",
@@ -113,12 +140,12 @@
 	"Triggers a [Religious Interpretation of Disease] event <when above [4] [SE]> <upon turn start> <if [DANGEROUS PLAGUE] is constructed> <with [1]% chance>",
 	"Triggers a [Waste Disposal Crisis] event <when above [4] [SE]> <upon turn start> <with [1]% chance>",
 	"Triggers a [Physicians Request Funding] event <when above [4] [SE]> <upon turn start> <with [1]% chance>",
-	"Triggers a [Suspicious Coughing] event <when above [5] [SE]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Suspicious Coughing] event <when above [5] [SE]> <if [PLAGUE] is constructed> <upon turn start> <with [1]% chance>",
 	"Triggers a [Mass Graves Required] event <when above [5] [SE]> <upon turn start> <if [DANGEROUS PLAGUE] is constructed> <with [1]% chance>",
 	"Triggers a [Divine Punishment?] event <when above [5] [SE]> <upon turn start> <if [DANGEROUS PLAGUE] is constructed> <with [1]% chance>",
 	"Triggers a [Overcrowded Slums] event <when above [14] [Cities]> <upon turn start> <with [1]% chance>",
-	"Triggers a [Experimental Treatments] event <when above [6] [SE]> <upon turn start> <with [1]% chance>",
-	"Triggers a [The Rats Are Getting Bold] event <when above [6] [SE]> <upon turn start> <with [1]% chance>",
+	"Triggers a [Experimental Treatments] event <when above [6] [SE]> <if [DANGEROUS PLAGUE] is constructed> <upon turn start> <with [1]% chance>",
+	"Triggers a [The Rats Are Getting Bold] event <when above [6] [SE]> <if [PLAGUE] is constructed> <upon turn start> <with [1]% chance>",
 
 //Rebels
 	"Triggers a [Tax Collector Missing] event <when above [5] [Rebel Risk]> <upon turn start> <with [1]% chance>",
