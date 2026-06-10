@@ -1061,44 +1061,51 @@ BuildingIcons/Praetorian Purge
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Public Bathhouse
+BuildingIcons/Provincial Governors
   rotate: false
   xy: 996, 495
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/REBEL IMMINENT
+BuildingIcons/Public Bathhouse
   rotate: false
   xy: 1054, 495
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Rat Infestation Problem
+BuildingIcons/REBEL IMMINENT
   rotate: false
   xy: 1112, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Restore Currency Control
+BuildingIcons/Rat Infestation Problem
   rotate: false
   xy: 1170, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Restored Order
+BuildingIcons/Restore Currency Control
   rotate: false
   xy: 1228, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Risk of Plague
+BuildingIcons/Restored Order
   rotate: false
   xy: 1286, 506
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Risk of Plague
+  rotate: false
+  xy: 1344, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1126,14 +1133,14 @@ BuildingIcons/Sacred Grove
   index: -1
 BuildingIcons/Sanitation Policies I
   rotate: false
-  xy: 1344, 506
+  xy: 1402, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Sanitation Policies II
   rotate: false
-  xy: 1344, 506
+  xy: 1402, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1182,7 +1189,7 @@ BuildingIcons/Secret Cult
   index: -1
 BuildingIcons/Shield Infantry Focus
   rotate: false
-  xy: 1402, 506
+  xy: 1460, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1210,7 +1217,7 @@ BuildingIcons/Silk Road
   index: -1
 BuildingIcons/Silphium Trader
   rotate: false
-  xy: 1460, 506
+  xy: 1518, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1245,7 +1252,7 @@ BuildingIcons/Urban Fabric III
   index: -1
 BuildingIcons/Spear Focus
   rotate: false
-  xy: 1518, 506
+  xy: 1576, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1257,30 +1264,37 @@ BuildingIcons/Spice Road
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sword Focus
-  rotate: false
-  xy: 1576, 506
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-BuildingIcons/Syssition
+BuildingIcons/Supreme Governors
   rotate: false
   xy: 1634, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Tar Workshop
+BuildingIcons/Sword Focus
   rotate: false
   xy: 1692, 506
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Tavern
+BuildingIcons/Syssition
   rotate: false
   xy: 996, 437
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tar Workshop
+  rotate: false
+  xy: 1054, 437
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tavern
+  rotate: false
+  xy: 1112, 448
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1301,7 +1315,7 @@ BuildingIcons/The Great Lighthouse
   index: -1
 BuildingIcons/The Long Wall
   rotate: false
-  xy: 1054, 437
+  xy: 1170, 448
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1343,7 +1357,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 1112, 448
+  xy: 1228, 448
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1385,7 +1399,7 @@ BuildingIcons/Walls
   index: -1
 BuildingIcons/War Reconstruction
   rotate: false
-  xy: 1170, 448
+  xy: 1286, 448
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1399,7 +1413,7 @@ BuildingIcons/Warrior Statue
   index: -1
 BuildingIcons/Weavery
   rotate: false
-  xy: 1228, 448
+  xy: 1344, 448
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

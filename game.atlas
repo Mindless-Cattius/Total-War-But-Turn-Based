@@ -552,7 +552,7 @@ ReligionIcons/Sol Invictus
   index: -1
 ReligionIcons/Zalmoxian
   rotate: false
-  xy: 652, 465
+  xy: 652, 407
   size: 50, 53
   orig: 50, 53
   offset: 0, 0
@@ -926,6 +926,13 @@ ResourceIcons/Silphium
   xy: 1292, 1389
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Silvan Primates
+  rotate: false
+  xy: 652, 642
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Tar
@@ -1518,7 +1525,7 @@ UnitPromotionIcons/Spear Wall
   index: -1
 UnitPromotionIcons/Spoils of War
   rotate: false
-  xy: 652, 642
+  xy: 652, 584
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1532,7 +1539,7 @@ UnitPromotionIcons/Standard Bearer
   index: -1
 UnitPromotionIcons/Successor
   rotate: false
-  xy: 652, 584
+  xy: 652, 526
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1546,7 +1553,7 @@ UnitPromotionIcons/Veteran
   index: -1
 UnitPromotionIcons/Virtus
   rotate: false
-  xy: 652, 526
+  xy: 652, 468
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
