@@ -1338,6 +1338,12 @@
 //Buildings EVENTS
 
     {
+		"name": "PE",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"
+				"Stockpiled"]
+    },
+    {
 		"name": "BE",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"

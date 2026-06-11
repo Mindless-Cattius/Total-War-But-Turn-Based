@@ -110,6 +110,20 @@
 	"Triggers a [Custom Before Decree] event <upon turn start> <when between [2] and [2] [The First Bureaucrats]> <with [5]% chance>",
 	"Triggers a [Caravan Overload] event <upon turn start> <when between [3] and [3] [The First Bureaucrats]> <with [3]% chance>",
 	"Triggers a [A Remarkable Discovery] event <upon turn start> <when between [4] and [4] [The First Bureaucrats]> <with [3]% chance>",
+//Palace
+	"Triggers a [The Palace Storehouse] event <upon turn start> <when between [1] and [1] [PE]> <if [Palace] is constructed> <with [20]% chance>",
+	"Triggers a [The Palace Well] event <upon turn start> <when between [1] and [1] [PE]> <if [Palace] is constructed> <with [20]% chance>",
+	"Triggers a [The Royal Hunt] event <upon turn start> <when between [1] and [1] [PE]> <if [Palace] is constructed> <with [20]% chance>",
+
+	"Triggers a [The Court Poet] event <upon turn start> <when between [2] and [2] [PE]> <if [Palace] is constructed> <with [1]% chance>",
+	"Triggers a [Foreign Envoys Arrive] event <upon turn start> <when between [2] and [2] [PE]> <if [Palace] is constructed> <with [1]% chance>",
+	"Triggers a [The Petition Queue] event <upon turn start> <when between [2] and [2] [PE]> <if [Palace] is constructed> <with [1]% chance>",
+
+	"Triggers a [The Triumph Debate] event <upon turn start> <when between [3] and [3] [PE]> <if [Palace] is constructed> <during the [Hellenistic Age]> <with [1]% chance>",
+	"Triggers a [The Palace Astronomers] event <upon turn start> <when between [3] and [3] [PE]> <if [Palace] is constructed> <during the [Hellenistic Age]> <with [1]% chance>",
+	"Triggers a [The Palace Ghost] event <upon turn start> <when between [3] and [3] [PE]> <if [Palace] is constructed> <during the [Hellenistic Age]> <with [1]% chance>",
+
+
 
 //BE
 	"Triggers a [Veteran Beggars] event <upon turn start> <when below [2] [BE]> <with [5]% chance>",

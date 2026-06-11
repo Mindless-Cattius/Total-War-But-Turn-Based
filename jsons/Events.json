@@ -2205,7 +2205,53 @@
     ]
 },
 
-///Rebel Building
+///Upkeep Building
+
+
+{
+    "name": "Reorganization of the State",
+    "text": "Reorganization of the State\n\nThe Imperial Council has gathered to answer an important question: what exactly is the Empire supposed to be good at. The veterans insist that discipline and experience built civilization. The administrators argue that paperwork built civilization. Recruitment officers claim civilization is simply a sufficient quantity of warm bodies pointed in the correct direction.\n\nAfter three days of debate, two fistfights, and one unfortunate incident involving an ornamental vase, a compromise has been reached.You may completely restructure the capital.Surely this will have no unintended consequences.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Replace paperwork with people who solve problems by shouting.",
+            "uniques": [
+                "Only available <if [Hall of Veterans] is not constructed> <when above [499] [Gold]>",
+                "Gain a free [Hall of Veterans] [in capital]",
+                "Remove [Administrative Estates] [in capital]",
+                "Remove [Manpower Office] [in capital]",
+                "Gain [-500] [Gold]"
+            ]
+        },
+        {
+            "text": "Civilization is, regrettably, a paperwork-based lifeform.",
+            "uniques": [
+                "Only available <if [Administrative Estates] is not constructed> <when above [499] [Gold]>",
+                "Gain a free [Administrative Estates] [in capital]",
+                "Remove [Hall of Veterans] [in capital]",
+                "Remove [Manpower Office] [in capital]",
+                "Gain [-500] [Gold]"
+            ]
+        },
+        {
+            "text": "If a problem cannot be solved, recruit enough people until it becomes someone else's problem.",
+            "uniques": [
+                "Only available <if [Manpower Office] is not constructed> <when above [499] [Gold]>",
+                "Gain a free [Manpower Office] [in capital]",
+                "Remove [Administrative Estates] [in capital]",
+                "Remove [Hall of Veterans] [in capital]",
+                "Gain [-500] [Gold]"
+            ]
+        },
+        {
+            "text": "No. I finally understand this particular disaster.",
+            "uniques": [
+                "[2] [Angry Mob]s rebel <with [30]% chance>",
+                "[2] [Angry Mob]s rebel <with [30]% chance>",
+            ]
+        }
+    ]
+},
 
 {
     "name": "Provincial Governors Demand Funding",
@@ -2514,7 +2560,423 @@
     ]
 },
 
-///Building
+///Buildings
+//Palace
+
+
+{
+    "name": "The Palace Well",
+    "text": "The Palace Well\n\nServants report that the Palace Well has developed an unusual taste. Some claim the water is sweeter than before. Others insist it smells faintly of goats.The court physicians recommend caution. The priests recommend prayer. One elderly gardener has suggested that perhaps nobody should ask why the palace pigeons have stopped drinking from it.The steward responsible for maintenance assures everyone that the well has always tasted like this.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Clean the well thoroughly. Water should contain fewer surprises.",
+            "uniques": [
+                "[+1 Food, +1 Happiness] [in all cities] <for [5] turns>",
+                "[-1 Production] [in capital] <for [3] turns>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Invite the priests to bless it until the problem becomes spiritual.",
+            "uniques": [
+                "[+1 Faith, +1 Culture] [in all cities] <for [5] turns>",
+                "Gain [-100] [Gold]",
+                "Gain a free [PLAGUE] [in capital] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [10]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "It builds character. Continue serving it.",
+            "uniques": [
+                "[+1 Gold, +1 Production, -1 Food] [in all cities] <for [5] turns>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "The Royal Hunt",
+    "text": "The Royal Hunt\n\nThe court has proposed a royal hunt to display the ruler's courage, strengthen relations with the nobility, and remind the populace that the Palace remains firmly in control of nature.\n\nSeveral ministers have pointed out that previous hunts resulted in injured nobles, missing servants, and one unfortunate incident involving an extremely aggressive boar. Tradition, however, demands perseverance.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Spare no expense. The forests shall witness true magnificence.",
+            "uniques": [
+                "[+1 Happiness, +2 Culture] [in all cities] <for [5] turns>",
+                "Gain [-150] [Gold]",
+                "Free [Great Artist] appears <with [20]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "A modest hunt will suffice. Try not to lose any aristocrats.",
+            "uniques": [
+                "[+1 Food, +1 Production] [in all cities] <for [5] turns>",
+                "Gain [-100] [Gold]",
+                "[-1 Happiness] [in all cities] <for [5] turns> <with [15]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Cancel the hunt. The boars have suffered enough.",
+            "uniques": [
+                "[+1 Science, +1 Gold] [in all cities] <for [5] turns>",
+                "[-1 Happiness] [in all cities] <for [5] turns>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "The Palace Storehouse",
+    "text": "The Palace Storehouse\n\nAn inspection of the Palace Storehouse has revealed a troubling discrepancy.\n\nAccording to official records, the granaries are full, the armories are stocked, and the treasury remains secure.According to the workers who actually opened the doors, half the grain has spoiled, several crates contain nothing but rocks, and someone has apparently classified imported wine as 'emergency medical supplies.'\n\nThe steward responsible insists everything is in order and has presented three separate inventories proving so.Unfortunately, all three inventories disagree with one another.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Conduct a thorough inspection. Somebody will regret having learned to write.",
+            "uniques": [
+                "[+2 Science] [in all cities] <for [5] turns>",
+                "[-2 Happiness] [in capital] <for [5] turns>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Distribute whatever remains before anyone asks difficult questions.",
+            "uniques": [
+                "[+1 Food, +1 Happiness] [in all cities] <for [5] turns>",
+                "Gain [-100] [Gold]",
+                "[-1 Culture] [in all cities] <for [5] turns>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Replace the records and praise the steward's honesty.",
+            "uniques": [
+                "[+2 Gold, +1 Culture] [in all cities] <for [5] turns>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [20]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "The Court Poet",
+    "text": "The Court Poet\n\nThe Court Poet has unveiled a new epic celebrating the wisdom, courage, generosity, and unmatched attractiveness of the ruler.The nobles applauded enthusiastically. The common people found it somewhat difficult to relate to a twelve-hour poem describing the ruler's eyebrows as 'the twin arches supporting civilization itself'.Unfortunately, the poet has now requested additional funding to complete the remaining seventeen volumes.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Commission the full masterpiece. Future generations deserve this nonsense.",
+            "uniques": [
+		 "Only available <when above [399] [Gold]>",
+                "[+2 Culture, +1 Happiness, +1 Food] [in all cities] <for [5] turns>",
+                "Gain [-400] [Gold]",
+                "Free [Great Artist] appears <with [70]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Encourage shorter poems and fewer adjectives.",
+            "uniques": [
+		 "Only available <when above [149] [Culture]>",
+                "[-1 Culture, +2 Science, +1 Production] [in all cities] <for [5] turns>",
+                "Gain [-150] [Culture]",
+                "Free [Great Scholar] appears <with [50]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Assign the poet to tax records. Let inspiration meet reality.",
+            "uniques": [
+                "[+3 Gold, +1 Production, -2 Happiness] [in all cities] <for [5] turns>",
+                "Free [Great Merchant] appears <with [50]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [20]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "Foreign Envoys Arrive",
+    "text": "Foreign Envoys Arrive\n\nDelegations from distant lands have arrived at the Palace bearing gifts, compliments, and very carefully worded requests.The envoys praise the prosperity of the realm, the wisdom of its ruler, and the beauty of its architecture. They have also asked an alarming number of questions about military strength, treasury reserves, and whether the border fortifications are 'mostly decorative.'The Chamberlain assures the court that diplomacy is simply the art of smiling while everyone lies politely.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Host a banquet so extravagant that they forget why they came.",
+            "uniques": [
+		 "Only available <when above [399] [Gold]>",
+                "Gain [-400] [Gold]",
+                "[+2 Happiness, +2 Culture] [in all cities] <for [5] turns>",
+                "Free [Great Artist] appears <with [30]% chance>",
+                "Free [Great Artist] appears <with [30]% chance>",
+                "Free [Great Artist] appears <with [30]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Exchange scholars, maps, and selective truths.",
+            "uniques": [
+		"Only available <when above [249] [Culture]>",
+                "[+2 Science, +1 Gold] [in all cities] <for [5] turns>",
+                "Gain [-250] [Culture]",
+                "Free [Great Scholar] appears <with [30]% chance>",
+                "Free [Great Engineer] appears <with [30]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Show them the army. Preferably the part that looks expensive.",
+            "uniques": [
+                "[+2 Happiness] [in all cities] <for [5] turns>",
+		"[+1 Happiness] [in all cities] <when below [5] [Manpower]> <for [5] turns>",
+		"Free [Swordsman] appears <when above [4] [Manpower]>",
+		"Free [Spearman] appears <when above [6] [Manpower]> <with [30]% chance>",
+		"Free [General] appears <when above [1] [Nobles]> <when above [0] [Nobles]> <with [50]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [20]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "The Petition Queue",
+    "text": "The Petition Queue\n\nThe line of citizens seeking an audience at the Palace has grown so large that enterprising merchants have begun selling snacks to those waiting.Among the petitions are requests for tax relief, complaints regarding neighbors, demands for justice, and one formal accusation that the Moon has been behaving suspiciously.Several officials recommend reducing the queue. The queue has submitted a petition objecting to this proposal.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Hear every grievance. The Empire exists to serve its people.",
+            "uniques": [
+		 "Only available <when above [399] [Gold]>",
+                "Gain [-400] [Gold]",
+                "[+2 Happiness, +2 Culture, -1 Production] [in all cities] <for [5] turns>",
+                "Free [Great Artist] appears <with [50]% chance>",
+                "Free [Great Scholar] appears <with [50]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Sort them by importance. Surely the Moon can wait.",
+            "uniques": [
+                "Only available <when above [199] [Faith]>",
+                "Gain [-200] [Faith]",
+                "[+2 Science, -1 Faith] [in all cities] <for [5] turns>",
+                "Free [Great Scholar] appears <with [70]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Close the gates and declare the matter resolved.",
+            "uniques": [
+                "[+2 Production, +1 Gold, -2 Happiness] [in all cities] <for [5] turns>",
+                "Free [Spearman] appears <when above [3] [Manpower]>",
+                "Free [Spearman] appears <when above [5] [Manpower]> <with [30]% chance>",
+                "Free [General] appears <when above [1] [Nobles]> <with [50]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [20]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "The Triumph Debate",
+    "text": "The Triumph Debate\n\nThe victorious general has returned demanding a Triumph. The Senate argues that his accomplishments have been exaggerated. The general argues they have been criminally understated. The soldiers argue they were promised wine and are now beginning to count how many doors the Palace possesses.Debate has descended into chaos. One senator insists the campaign was merely 'an aggressive hike.' Another claims that if every successful general receives a parade, triumphs will lose their dignity. The general has responded by arriving in full armor to every meeting.The Palace must now decide how much gratitude a victory deserves before it becomes a budgetary emergency.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Cover the city in flowers, wine, and irresponsible fiscal policy.",
+            "uniques": [
+                "Only available <when above [999] [Gold]>",
+                "Gain [-1000] [Gold]",
+                "[+3 Happiness, +3 Culture, -1 Production] [in all cities] <for [8] turns>",
+                "Free [Great Artist] appears <with [70]% chance>",
+                "Free [General] appears <with [40]% chance> <when above [0] [Nobles]>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Award him a slightly larger chair and call it even.",
+            "uniques": [
+                "Only available <when above [399] [Culture]>",
+                "Gain [-400] [Culture]",
+                "Gain [-300] [Gold] <with [30]% chance>",
+                "[+2 Happiness, +2 Science, +5 Gold] [in all cities] <for [8] turns>",
+                "Free [Great Scholar] appears <with [70]% chance>",
+                "[3] [Angry Mob]s rebel <with [40]% chance>",
+                "[1] [General]s rebel <with [50]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [10]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Explain that true heroes march for honor, not compensation.",
+            "uniques": [
+		"Only available <if [Army Barracks] is constructed>",
+                "[+2 Production, +1 Gold] [in all cities] <for [8] turns>",
+                "Free [Spearman] appears <when above [4] [Manpower]>",
+                "Free [Spearman] appears <when above [8] [Manpower]> <with [50]% chance>",
+                "[1] [General]s rebel <with [50]% chance>",
+                "[3] [Angry Mob]s rebel <with [20]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [15]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Settle the matter with a public vote. Civilization has surely matured enough for this.",
+            "uniques": [
+                "Gain [700] [Gold] <with [20]% chance>",
+                "Gain [200] [Culture] <with [20]% chance>",
+                "Gain [200] [Science] <with [20]% chance>",
+                "Gain [200] [Faith] <with [20]% chance>",
+                "Free [Great Artist] appears <with [10]% chance>",
+                "Free [Great Scholar] appears <with [10]% chance>",
+                "Gain [-500] [Gold] <with [20]% chance>",
+                "Gain [-200] [Culture] <with [20]% chance>",
+                "Gain [-200] [Science] <with [20]% chance>",
+                "[-1] population in a random city <with [20]% chance>",
+                "[2] [Angry Mob]s rebel <with [30]% chance>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [10]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [20]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "The Palace Astronomers",
+    "text": "The Palace Astronomers\n\nThe Palace Astronomers have requested an emergency audience. After years of careful observation, heated debate, and several fistfights over mathematics, they have reached three important conclusions.First, the stars move in predictable patterns.Second, the heavens may influence earthly affairs.Third, one junior astronomer insists the Moon is deliberately avoiding him.The court now awaits your wisdom on this celestial crisis.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Fund the observatories. If the stars know something, we should eavesdrop.",
+            "uniques": [
+                "Only available <when above [999] [Gold]>",
+                "Gain [-1000] [Gold]",
+                "[+3 Science, +1 Culture, +1 Happiness, +2 Faith] [in all cities] <for [8] turns>",
+                "Free [Great Scholar] appears <with [30]% chance>",
+                "Free [Great Prophet] appears <with [30]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Declare the heavens favorable. Nobody argues with the sky.",
+            "uniques": [
+                "Only available <when above [399] [Faith]>",
+                "Gain [-400] [Faith]",
+                "[+3 Happiness, +2 Culture] [in all cities] <for [8] turns>",
+                "Free [Great Prophet] appears <with [70]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Launch the junior astronomer at the Moon so he can settle the matter personally.",
+            "uniques": [
+                "Gain [500] [Science] <with [30]% chance>",
+                "Gain [400] [Culture] <with [30]% chance>",
+                "Gain [400] [Faith] <with [20]% chance>",
+                "Free [Great Scholar] appears <with [20]% chance>",
+                "Free [Great Artist] appears <with [20]% chance>",
+                "Free [Great Engineer] appears <if [Siege Workshop] is constructed> <with [30]% chance>",
+                "Gain [-600] [Gold] <with [20]% chance>",
+                "Gain [-400] [Science] <with [20]% chance>",
+                "[-1] population in a random city <with [25]% chance>",
+                "[4] [Angry Mob]s rebel <with [25]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [25]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "The Palace Ghost",
+    "text": "The Palace Ghost\nPalace servants refuse to work the night shift after repeated reports of a ghost wandering the corridors.Descriptions vary considerably. Some insist it is a former ruler seeking justice. Others claim it is the spirit of an accountant searching for missing receipts. One terrified guard swears the apparition interrupted him to complain about declining standards in administration.The Palace is divided. Priests see a spiritual crisis. Veterans see an enemy lacking proper respect for spears. The Treasurer merely wishes to know whether the dead can be charged rent.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Spiritual problems require spiritual professionals and an alarming amount of incense.",
+            "uniques": [
+                "Only available <if [Grand Temple] is constructed>",
+                "[+3 Faith, +2 Happiness] [in all cities] <for [8] turns>",
+                "Free [Great Prophet] appears <with [80]% chance>",
+                "Gain [-600] [Gold] <with [25]% chance>",
+                "Gain [-300] [Faith] <with [25]% chance>",
+                "Gain [-300] [Science] <with [25]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Have the veterans stab the concept of haunting.",
+            "uniques": [
+                "Only available <if [Hall of Veterans] is constructed>",
+                "[+1 Production, +1 Happiness, +1 Culture] [in all cities] <for [8] turns>",
+                "Free [General] appears <when above [1] [Nobles]> <with [40]% chance>",
+                "Free [Great Artist] appears <with [40]% chance>",
+                "Free [Great Scholar] appears <with [40]% chance>",
+                "[-1 Happiness] [in all cities] <for [5] turns> <with [25]% chance>",
+                "[-4 Faith] [in all cities] <for [5] turns> <with [25]% chance>",
+                "[1] [Foot Guard]s rebel <with [25]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [15]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Introduce the ghost to the plague wards. One horror may solve another.",
+            "uniques": [
+                "Only available <if [DANGEROUS PLAGUE] is constructed>",
+                "[+3 Science, +2 Faith] [in all cities] <for [8] turns>",
+                "Free [Great Scholar] appears <with [60]% chance>",
+                "Free [Great Artist] appears <with [40]% chance>",
+                "Gain a free [DANGEROUS PLAGUE] [in capital] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [80]% chance>",
+
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [25]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Bribe the dead. Economics transcends mortality.",
+            "uniques": [
+                "Only available <when above [1499] [Gold]>",
+                "Gain [-1500] [Gold]",
+                "[+3 Happiness, +3 Culture, +2 Gold] [in all cities] <for [8] turns>",
+                "Free [Great Artist] appears <with [80]% chance>",
+                "Free [Great Merchant] appears <with [50]% chance>",
+                "Gain [-300] [Culture] <with [20]% chance>",
+                "Gain [-300] [Faith] <with [20]% chance>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Give the ghost a government position. Eternal suffering builds experience.",
+            "uniques": [
+                "Gain [500] [Gold] <with [20]% chance>",
+                "Gain [200] [Science] <with [20]% chance>",
+                "Gain [200] [Culture] <with [20]% chance>",
+                "Gain [200] [Faith] <with [20]% chance>",
+                "Free [Great Merchant] appears <with [10]% chance>",
+                "Free [Great Artist] appears <with [10]% chance>",
+                "Free [Great Prophet] appears <with [10]% chance>",
+                "Gain [-800] [Gold] <with [20]% chance>",
+                "Gain [-400] [Science] <with [20]% chance>",
+                "Gain [-400] [Culture] <with [20]% chance>",
+                "[-1] population in a random city <with [30]% chance>",
+                "[3] [Angry Mob]s rebel <with [70]% chance>",
+                "[2] [General]s rebel <with [70]% chance>",
+                "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [10]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [25]% chance>",
+                "Gain a free [The Extra Chair] [in capital] <hidden from users>",
+                "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
+            ]
+        }
+    ]
+},
+
+
+///Event Buildings
 
 {
     "name": "Veteran Beggars",
@@ -4066,6 +4528,7 @@
                         "text": "Muster the last Romans",
                         "uniques": [
                             "Instantly provides [1] [Italia] <hidden from users>",
+				"Triggers the following global alert: [ROME HAVE FALLEN]"
                             "Gain a free [Heavy Infantry Focus] [in capital] <in cities without a [Heavy Infantry Focus]>",
                             "Gain [1000] [Gold] <when below [4] [Manpower]>",
                             "Gain [2000] [Gold] <when above [8] [Manpower]>",
@@ -4101,7 +4564,7 @@
                     "presentation":"Alert",
                     "choices": [
                         {
-                            "text": "Celebrate the Triumph",
+                            "text": "Celebrate the Triumph!",
                             "uniques": [
                                 "Instantly provides [2] [Italia] <hidden from users>",
                                 "[+5 Happiness] [in all cities] <for [10] turns>",
@@ -4116,7 +4579,7 @@
                             "link": "Buildings/Italia"
                         }
                     ]
-                }
+                },
 
 
 

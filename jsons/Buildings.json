@@ -33,7 +33,7 @@
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 2,
-  "happiness": 2,
+  		"happiness": 2,
 		"greatPersonPoints": {"Great Courtesan":2},
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
@@ -2285,8 +2285,8 @@
 		"uniques": [ 
 			"Comment [-Think of it as the PLAGUE, but now it hates you personally. Improve sanitation enough and the PLAGUE begins questioning its life choices.]",
 			"[+2 Faith, +2 Science, -4 Happiness] [in this city]",
-			"[-2 Gold, -1 Food, -1 Production] from [improved] tiles [in this city]",
-			"[-2 Gold, -2 Food] from [improved] tiles [in this city] <in cities with at least [5] [Population]>",
+			"[-2 Gold, -2 Food, -1 Production, -1 Happiness] from [improved] tiles [in this city]",
+			"[-2 Gold, -1 Food, -1 Happiness] from [improved] tiles [in this city] <in cities with at least [5] [Population]>",
 			"Consumes [2] [Decadence]",
 			"Consumes [1] [Manpower] <in cities with a [Muster Field]>",
 			"Consumes [1] [Manpower] <in cities with a [Barracks]>",
@@ -2300,8 +2300,8 @@
 		"uniques": [ 
 			"Comment [-A reminder that sanitation is not decorative, your citizens call it tragedy. The bacteria call it opportunity.]",
 			"[+1 Faith, +1 Science, -2 Happiness] [in this city]",
-			"[-1 Gold, -1 Production] from [improved] tiles [in this city]",
-			"[-1 Gold, -1 Food] from [improved] tiles [in this city] <in cities with at least [5] [Population]>",
+			"[-1 Gold, -1 Production, -1 Happiness] from [improved] tiles [in this city]",
+			"[-1 Gold, -1 Food, -1 Happiness] from [improved] tiles [in this city] <in cities with at least [5] [Population]>",
 			"Consumes [2] [Decadence]",
 			"Consumes [1] [Manpower] <in cities with a [Muster Field]>",
 			"Consumes [1] [Manpower] <in cities with a [Barracks]>",
@@ -2596,39 +2596,59 @@
 ///Resources
 {
 	"name": "Manpower Office",
+	"cost": 200,
 	"specialistSlots": {"Engineer": 1},
+	"isNationalWonder": true,
+	"happiness": 1,
 	"production": 1,
 	"uniques": [
 		"Provides [4] [Manpower]",
 		"Provides [4] [Manpower] <starting from the [Hellenistic Age]>",
-		"Comment [+1 Worker limit]"
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Comment [+1 Worker limit]",
+		"Only available <in [Capital] cities>",
+		"Unavailable <if [Administrative Estates] is constructed>"
+		"Unavailable <if [Hall of Veterans] is constructed>"
+		"Moves to new capital when capital changes",
+		"Triggers a [Reorganization of the State] event <upon turn start> <with [2]% chance> <hidden from users>",
 		]
 },
 {
 	"name": "Administrative Estates",
-	"happiness": 1,
+	"cost": 200,
+	"happiness": 2,
 	"specialistSlots": {"Merchant": 1},
+	"isNationalWonder": true,
 	"uniques": [
 		"Provides [1] [Nobles]",
 		"Provides [1] [Nobles] <when not at war>",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Unavailable <if [Manpower Office] is constructed>"
+		"Unavailable <if [Hall of Veterans] is constructed>"
+		"Moves to new capital when capital changes",
+		"Triggers a [Reorganization of the State] event <upon turn start> <with [2]% chance> <hidden from users>",
 		]
 },
 {
 	"name": "Hall of Veterans",
+	"cost": 200,
+	"happiness": 1,
 	"culture": 1,
 	"specialistSlots": {"Artist": 1},
+	"isNationalWonder": true,
+
 	"uniques": [
 		"Provides [1] [Veteran]",
         	"[+1] XP gained from combat <for [Skirmisher] units>",
         	"[+1] XP gained from combat <for [{Melee} {Land}] units> <when above [1] [Veteran]>",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Unavailable <if [Administrative Estates] is constructed>"
+		"Unavailable <if [Manpower Office] is constructed>"
+		"Moves to new capital when capital changes",
+		"Triggers a [Reorganization of the State] event <upon turn start> <with [2]% chance> <hidden from users>",
 		]
 },
 {
 	"name": "Provincial Governors",
 	"specialistSlots": {"Artist": 1},
+	"isNationalWonder": true,
 	"uniques": [
 		"Consumes [1] [Nobles]",
 		"Consumes [2] [Rebel Risk]",
@@ -2704,8 +2724,17 @@
 		"Consumes [2] [Rebel Risk] <during a Golden Age>",
 		"[+1 Culture, -1 Gold] [in all cities]",
 		"Provides [1] [Enable Angry Mob]",
-		"Unbuildable","Unsellable",
-		"Destroyed when the city is captured",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		]
+},
+{
+	"name": "The Extra Chair",
+	"specialistSlots": {"Scholar": 1},
+	"uniques": [
+		"Comment [Nobody remembers who put it there. Nobody is brave enough to remove it.]",
+		"Consumes [1] [Rebel Risk]",
+		"[-4 Faith, +2 Science, +1 Happiness, +1 Culture, +1 Production]",
+		"Moves to new capital when capital changes","Unbuildable","Unsellable",
 		]
 },
 
