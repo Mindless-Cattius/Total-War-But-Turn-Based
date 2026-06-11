@@ -1306,6 +1306,13 @@ BuildingIcons/Temple
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/The Extra Chair
+  rotate: false
+  xy: 1170, 448
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/The Great Lighthouse
   rotate: false
   xy: 544, 370
@@ -1315,7 +1322,7 @@ BuildingIcons/The Great Lighthouse
   index: -1
 BuildingIcons/The Long Wall
   rotate: false
-  xy: 1170, 448
+  xy: 1228, 448
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1357,7 +1364,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 1228, 448
+  xy: 1286, 448
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1399,7 +1406,7 @@ BuildingIcons/Walls
   index: -1
 BuildingIcons/War Reconstruction
   rotate: false
-  xy: 1286, 448
+  xy: 1344, 448
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1413,7 +1420,7 @@ BuildingIcons/Warrior Statue
   index: -1
 BuildingIcons/Weavery
   rotate: false
-  xy: 1344, 448
+  xy: 1402, 448
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
