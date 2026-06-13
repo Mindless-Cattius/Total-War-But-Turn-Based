@@ -2618,6 +2618,10 @@
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Ptolemies] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Mithridatids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Pergamenes] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Roxolani] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Armenians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Consumes [1] [Manpower]",
 		"Provides [1] [Enable Pike Phalanx]",
 		"Only available <in [Capital] cities>",
@@ -2629,9 +2633,9 @@
 	"cost": 150,
 	"isNationalWonder": true,
 	"uniques": [
-		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Massylii] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
-		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Masaesyli] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
-		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Massylii] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Masaesyli] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Roxolani] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
 		"Consumes [1] [Manpower]",
@@ -2651,6 +2655,7 @@
 		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Roxolani] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Scythians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Arsacids] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Armenians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
 		"Consumes [1] [Manpower]",
 		"Provides [1] [Enable Cataphract]",
 		"Only available <in [Capital] cities>",
