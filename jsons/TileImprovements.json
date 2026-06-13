@@ -13,8 +13,7 @@
 		"[+1 Food] from [Fresh water] tiles <after discovering [Land Grants]>",
 		"[+1 Food] from [non-fresh water] tiles <in cities with a [Aqueduct]>",
 		"Pillaging this improvement yields approximately [+40 Gold]",
-		"Unbuildable <before the [Imperial Age]> <after adopting [Steppe Authority]>",
-		"Unbuildable <before the [Imperial Age]> <after adopting [Pastoral Lifeways]>",
+		"Unbuildable <before the [Imperial Age]> <after adopting [Nomad Culture]>",
 	]		
 		"shortcutKey": "F",
 	},

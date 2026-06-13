@@ -2592,6 +2592,72 @@
 ]
 	},
 
+					////WAR
+
+{
+	"name": "Hoplite Training",
+	"cost": 100,
+	"isNationalWonder": true,
+	"uniques": [
+		"Only available <when below [1] [Enable Hoplite]> <upon entering a war with [The Athenians] Civilizations> <during the [Classical Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Hoplite]> <upon entering a war with [The Spartans] Civilizations> <during the [Classical Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Hoplite]> <upon entering a war with [The Epirots] Civilizations> <during the [Classical Age]> <hidden from users>",
+		"Consumes [1] [Manpower]",
+		"Provides [1] [Enable Hoplite]",
+		"Only available <in [Capital] cities>",
+		"Moves to new capital when capital changes",
+		]
+},
+{
+	"name": "Pike Phalanx Training",
+	"cost": 130,
+	"isNationalWonder": true,
+	"uniques": [
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Macedonians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Seleucids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Ptolemies] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Mithridatids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Pergamenes] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Consumes [1] [Manpower]",
+		"Provides [1] [Enable Pike Phalanx]",
+		"Only available <in [Capital] cities>",
+		"Moves to new capital when capital changes",
+		]
+},
+{
+	"name": "Mounted Skirmisher Training",
+	"cost": 150,
+	"isNationalWonder": true,
+	"uniques": [
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Massylii] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Masaesyli] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Roxolani] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
+		"Consumes [1] [Manpower]",
+		"Provides [1] [Enable Mounted Skirmisher]",
+		"Only available <in [Capital] cities>",
+		"Moves to new capital when capital changes",
+		]
+},
+
+{
+	"name": "Cataphract Training",
+	"cost": 300,
+	"isNationalWonder": true,
+	"uniques": [
+		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Seleucids] Civilizations> <starting from the [Imperial Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Ptolemies] Civilizations> <starting from the [Imperial Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Roxolani] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Scythians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Arsacids] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
+		"Consumes [1] [Manpower]",
+		"Provides [1] [Enable Cataphract]",
+		"Only available <in [Capital] cities>",
+		"Moves to new capital when capital changes",
+		]
+},
+
 					////EVENTS
 ///Resources
 {

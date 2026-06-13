@@ -291,6 +291,8 @@
 		],
 		"cities": ["Hecatompylos","Arsacia","Gorgan","Nisa","Asaak","Mithradatkirt","Merv","Ctesiphon","Dara","Vologasia","Susa","Nineveh"]
 	},
+
+					////NOMAD
 // Scythia
 	{
 		"name": "The Scythians",
@@ -319,8 +321,7 @@
 		"[+50]% [Happiness] from City-States",
 		"[+50]% Happiness from luxury resources gifted by City-States",
 //		"Starts with [Light Cavalry]",
-		"Starts with [Eastern Culture] adopted",
-		"Starts with [Pastoral Lifeways] adopted",
+		"Starts with [Nomad Culture] adopted",
 		"Comment [- Cannot build farm until the Imperial Age]",
 		],
 		"cities": [
@@ -358,7 +359,7 @@
     		"[+1 Production] from [Pasture] tiles [in all cities]"
 		"[+1 Happiness] from every [Nomadic Herd]",
 //		"Starts with [Light Cavalry]",
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Nomad Culture] adopted"
 		],
 		"cities": [
 		"Roxolani","Alani","Aorsi","Iazyges","Sindi","Dandarii","Toreatae","Agri","Arrechi","Tarpetes","Obidiaceni","Sittaceni","Dosci","Aragantes","Cissianti",

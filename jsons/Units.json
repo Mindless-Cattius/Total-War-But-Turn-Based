@@ -59,12 +59,13 @@
   {
     "name": "Angry Mob",
     "unitType": "Sword",
+    "cost": 30,
     "movement": 2,
     "strength": 9,
     "uniques": [
 		"Comment [A spontaneous gathering of citizens expressing constructive feedback through violence.]",
 		"Only available <with [Enable Angry Mob]> <hidden from users>",
-		"[-20]% Strength <vs [Mounted] units>",
+		"[-20]% Strength <vs [Mounted] units> <when defending>",
 		"[+10]% Strength <when fighting in [Friendly Land] tiles>",
       		"Consumes [1] [Manpower]",
     ],
@@ -693,8 +694,8 @@
     "name": "Horseman",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 80,
-    "movement": 4,
+    "cost": 70,
+    "movement": 3,
     "strength": 13,
     "requiredTech": "Riding",
     "uniques": [
@@ -761,7 +762,7 @@
     "unitType": "Mounted",
     "hurryCostModifier": 20,
     "cost": 70,
-    "movement": 4,
+    "movement": 3,
     "strength": 13,
     "requiredTech": "The Wheel",
     "uniques": [
@@ -782,7 +783,7 @@
     "unitType": "Elephant",
     "hurryCostModifier": 25,
     "cost": 160,
-    "movement": 3,
+    "movement": 2,
     "strength": 19,
     "requiredTech": "Equestrian Class",
     "uniques": [
@@ -803,7 +804,7 @@
     "unitType": "Elephant",
     "hurryCostModifier": 25,
     "cost": 350,
-    "movement": 3,
+    "movement": 2,
     "strength": 28,
     "requiredTech": "Equestrian Class",
     "uniques": [
@@ -830,13 +831,14 @@
   "rangedStrength": 11,
   "requiredTech": "Riding",
   "uniques": [
-    "Only available <in cities with a [Cavalry Barracks]>",
-      "Comment ['Light mounted skirmisher, strong range attack, have high withdraw chance.']",
-    "[-1] Range",
-    "Consumes [3] [Manpower]",
-    "Consumes [1] [Horses]",
-    "Never appears as a Barbarian unit <before the [Classical Age]>",
-      "Only available <before adopting [Numidian Culture]> <hidden from users>",
+      	"Comment ['Light mounted skirmisher, strong range attack, have high withdraw chance.']",
+      	"Only available <in cities with a [Stable]>",
+    	"[-1] Range <hidden from users>",
+    	"Consumes [3] [Manpower]",
+    	"Consumes [1] [Horses]",
+    	"Never appears as a Barbarian unit <before the [Classical Age]>",
+      	"Only available <before adopting [Numidian Culture]> <hidden from users>",
+      "Only available <with [Enable Mounted Skirmisher]> <hidden from users>",
   ],
   "promotions": [
       "[Horseman] ability",
@@ -849,15 +851,16 @@
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
     "cost": 150,
-    "movement": 4,
+    "movement": 3,
     "strength": 8,
     "rangedStrength": 11,
     "requiredTech": "Riding",
     "uniques": [
       	"Comment [Light mounted archer, fast, and completely useless if they ever have to actually fight. They’ll shoot arrows, maybe hit something, then ride off before anyone can say ‘where’d they go?.]",
-      	"Only available <in cities with a [Nomadic Herd]>",
+      	"Only available <in cities with a [Stable]>",
       	"Consumes [2] [Manpower]",
       	"Consumes [1] [Horses]",
+      "Only available <with [Enable Horse Archer]> <hidden from users>",
     ],
     "promotions": [
       "Horse Archer ability",
@@ -893,7 +896,7 @@
   {
     "name": "Galley",
     "unitType": "Melee Water",
-    "movement": 5,
+    "movement": 3,
     "strength": 12,
     "cost": 80,
     "requiredTech": "Woodworking",
@@ -910,7 +913,7 @@
   {
     "name": "Hemiola",
     "unitType": "Melee Water",
-    "movement": 5,
+    "movement": 3,
     "strength": 15,
     "cost": 80,
     "requiredTech": "Navigation",
@@ -931,7 +934,7 @@
   {
     "name": "Trireme",
     "unitType": "Melee Water",
-    "movement": 4,
+    "movement": 3,
     "strength": 16,
     "cost": 110,
     "requiredTech": "Shipbuilding",
@@ -948,7 +951,7 @@
   {
     "name": "Trihemiola",
     "unitType": "Melee Water",
-    "movement": 4,
+    "movement": 3,
     "strength": 17,
     "cost": 130,
     "uniques": [
@@ -970,7 +973,7 @@
   {
     "name": "Pentere",
     "unitType": "Melee Water",
-    "movement": 4,
+    "movement": 3,
     "strength": 23,
     "cost": 160,
     "requiredTech": "Navigation",
@@ -987,7 +990,7 @@
   {
     "name": "Hexere",
     "unitType": "Ranged Water",
-    "movement": 4,
+    "movement": 3,
     "strength": 19,
     "rangedStrength": 18,
     "cost": 200,
@@ -1005,7 +1008,7 @@
   {
     "name": "Decere",
     "unitType": "Ranged Water",
-    "movement": 4,
+    "movement": 3,
     "strength": 25,
     "rangedStrength": 21,
     "cost": 300,
