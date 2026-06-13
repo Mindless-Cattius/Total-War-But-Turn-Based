@@ -1149,6 +1149,11 @@
 		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
+		"name": "Enable Armored Horse Archer",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
 		"name": "Enable Trireme",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]

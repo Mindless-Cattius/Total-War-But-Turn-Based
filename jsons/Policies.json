@@ -921,6 +921,7 @@
     "requires": ["The Noble Cavalry"],
     "uniques": [
         "Only available <before adopting [Caravan Guardians]>","Comment [Only available before adopting Caravan Guardians]",
+            "Comment [Enables Armored Horse Archer]","Provides [1] [Enable Armored Horse Archer] <hidden from users>",
         "[+10]% Production when constructing [Mounted] units [in all cities]",
         "[+10]% Production when constructing [Mounted Archery] units [in all cities]",
         "[+10]% Strength <for [Veteran] units>",
@@ -982,6 +983,7 @@
         "requires": ["Caravan Guardians"],
     "uniques": [
             "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+            "Comment [Enables Armored Horse Archer]","Provides [1] [Enable Armored Horse Archer] <hidden from users>",
             "[Mounted Archery] units gain the [Improved Armor] promotion",
         "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
         "Provides [1] [Nobles]",
@@ -1294,6 +1296,7 @@
                 "uniques": [
 			"Only available <before adopting [Imperial Metallurgy]>","Comment [Only available before adopting Imperial Metallurgy]",
                     	"Comment [Enables Armored Elephant]","Provides [1] [Enable Armored Elephant] <hidden from users>",
+            		"Comment [Enables Armored Horse Archer]","Provides [1] [Enable Armored Horse Archer] <hidden from users>",
                     	"[Horse Archer] units gain the [[Maneuver]] promotion",
                     	"[Mounted Skirmisher] units gain the [Improved Armor] promotion",
                     	"[Spearman] units gain the [Improved Armor] promotion",

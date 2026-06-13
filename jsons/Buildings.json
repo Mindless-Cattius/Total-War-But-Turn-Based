@@ -322,31 +322,6 @@
 		],
 		"requiredTech": "Construction"
 	},
-	{
-		"name": "Grand Temple",
-		"requiredBuilding": "Temple",
-		"isNationalWonder": true,
-		"culture": 3,
-		"faith": 5,
-		"happiness": 5,
-		"cost": 800,
-		"specialistSlots": {"Priest": 3},
-		"uniques": [
-			"Consumes [3] [Decadence]",
-			"Only available <in cities with a [Urban Fabric III]>",
-			"[+2 Production] <after adopting [Seal of Heaven]>",
-			"[+2 Gold] <after adopting [Seal of Heaven]>",
-			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
-			"[-1 Gold, +1 Production] from [Trading post] tiles [in this city]",
-			"[+1 Happiness, +1 Food, +1 Faith] from [Village] tiles [in this city]",
-			"Provides [3] [Sanitation]",
-			"[+10]% Production when constructing [Cure PLAGUE] buildings [in this city]"
-			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]"
-			"Destroyed when the city is captured",
-		],
-		"requiredTech": "Aesthetics",
-		"isNationalWonder": true
-	},
 
 					//Military
 
@@ -2597,12 +2572,10 @@
 {
 	"name": "Hoplite Training",
 	"cost": 100,
-	"isNationalWonder": true,
 	"uniques": [
-		"Only available <when below [1] [Enable Hoplite]> <upon entering a war with [The Athenians] Civilizations> <during the [Classical Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Hoplite]> <upon entering a war with [The Spartans] Civilizations> <during the [Classical Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Hoplite]> <upon entering a war with [The Epirots] Civilizations> <during the [Classical Age]> <hidden from users>",
-		"Consumes [1] [Manpower]",
+		"Only available <when below [1] [Enable Hoplite]> <upon declaring war on [The Athenians] Civilizations> <during the [Classical Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Hoplite]> <upon declaring war on [The Spartans] Civilizations> <during the [Classical Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Hoplite]> <upon declaring war on [The Epirots] Civilizations> <during the [Classical Age]> <hidden from users>",
 		"Provides [1] [Enable Hoplite]",
 		"Only available <in [Capital] cities>",
 		"Moves to new capital when capital changes",
@@ -2611,17 +2584,16 @@
 {
 	"name": "Pike Phalanx Training",
 	"cost": 130,
-	"isNationalWonder": true,
 	"uniques": [
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Macedonians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Seleucids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Ptolemies] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Mithridatids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Pergamenes] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Roxolani] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Armenians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Macedonians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Seleucids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Ptolemies] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Mithridatids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Pergamenes] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Roxolani] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Armenians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Consumes [1] [Manpower]",
 		"Provides [1] [Enable Pike Phalanx]",
 		"Only available <in [Capital] cities>",
@@ -2631,13 +2603,12 @@
 {
 	"name": "Mounted Skirmisher Training",
 	"cost": 150,
-	"isNationalWonder": true,
 	"uniques": [
-		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Massylii] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Masaesyli] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Roxolani] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon entering a war with [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Massylii] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Masaesyli] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Roxolani] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
 		"Consumes [1] [Manpower]",
 		"Provides [1] [Enable Mounted Skirmisher]",
 		"Only available <in [Capital] cities>",
@@ -2648,14 +2619,13 @@
 {
 	"name": "Cataphract Training",
 	"cost": 300,
-	"isNationalWonder": true,
 	"uniques": [
-		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Seleucids] Civilizations> <starting from the [Imperial Age]> <hidden from users>"
-		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Ptolemies] Civilizations> <starting from the [Imperial Age]> <hidden from users>"
-		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Roxolani] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Scythians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Cataphract]> <upon entering a war with [The Arsacids] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon entering a war with [The Armenians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Seleucids] Civilizations> <starting from the [Imperial Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Ptolemies] Civilizations> <starting from the [Imperial Age]> <hidden from users>"
+		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Roxolani] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Scythians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Arsacids] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Armenians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
 		"Consumes [1] [Manpower]",
 		"Provides [1] [Enable Cataphract]",
 		"Only available <in [Capital] cities>",
