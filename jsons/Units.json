@@ -1691,6 +1691,7 @@
       	"Consumes [5] [Manpower]",
       	"Consumes [1] [Veteran]",
       	"Consumes [1] [Iron]",
+	"Cannot move <in [Enemy Land] tiles> <when above [0] [Praetorian Greed]>",
       	"Consumes [1] [Praetorian Greed] <if [Praetorian Greed] is constructed> <hidden from users>",
 	"Unavailable <if [Praetorian Purge] is constructed> <hidden from users>",
     ],
