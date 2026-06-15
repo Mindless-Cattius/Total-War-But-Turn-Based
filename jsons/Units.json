@@ -303,18 +303,18 @@
     "strength": 15,
     "cost": 90,
     "uniques": [
-      		"Only available <before adopting [Empire]> <hidden from users>",
-       		"[This Unit] is destroyed <after adopting [Manipular Legion]>"
-       		"[This Unit] is destroyed <after adopting [Empire]>"
-      		"Only available <before adopting [Manipular Legion]> <hidden from users>",
 		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 		"Can only be built <in [Capital] cities>",
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+40]% production cost <during the [Imperial Age]>",
 		"[+20]% production cost <during the [Hellenistic Age]>",
+		"Cannot be purchased",
     		"Consumes [1] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
-    		"Never appears as a Barbarian unit <before the [Imperial Age]>",
+      		"Only available <before adopting [Empire]> <hidden from users>",
+       		"[This Unit] is destroyed <after adopting [Manipular Legion]> <hidden from users>"
+       		"[This Unit] is destroyed <after adopting [Empire]> <hidden from users>"
+      		"Only available <before adopting [Manipular Legion]> <hidden from users>",
     ],
     "promotions": [
 	      "Commander",
@@ -336,6 +336,7 @@
 		"[+20]% production cost <during the [Hellenistic Age]>",
     		"Consumes [2] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
+		"Cannot be purchased",
                 "Unavailable <for [The Scythians] Civilizations> <hidden from users>"
     ],
     "promotions": [
@@ -379,6 +380,7 @@
     "uniques": [
       		"Only available <after adopting [Manipular Legion]> <hidden from users>",
       		"Unavailable <after adopting [Empire]> <hidden from users>",
+		"Can only be built <in [Capital] cities>",
 		"[+10]% Strength <during the [Imperial Age]>",
 		"[+30]% production cost <during the [Imperial Age]>",
 		"[+20]% production cost <during the [Hellenistic Age]>",
@@ -412,6 +414,7 @@
     		"Consumes [2] [Ruler] <after adopting [Empire]>",
 		"Remove [A Noble's Death] [in all cities]",
       		"Never appears as a Barbarian unit",
+		"Cannot be purchased",
       		"[+10]% Strength <when defending> <after adopting [Empire]> <hidden from users>",
     ],
     "promotions": [
@@ -633,7 +636,6 @@
       	"Consumes [3] [Manpower]",
 	"Can build [Remove Forest] improvements on tiles <during the [Imperial Age]>",
       	"Only available <with [Enable Swordsman]> <hidden from users>",
-      	"Unavailable <after adopting [Latin Culture]> <hidden from users>",
      	"Unbuildable <when above [0] [Gallic 3rd Century Crisis]> <hidden from users>",
     ],
     "promotions": [
@@ -675,7 +677,6 @@
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
 	"Can build [Remove Forest] improvements on tiles",
-	"Unbuildable <with [Enable Legion]> <hidden from users>",
 	"Unbuildable <with [Enable Desert Legion]> <hidden from users>",
 	"Unbuildable <with [Enable Gallic Legion]> <hidden from users>",
 	"Unbuildable <with [Enable Hellenic Legion]> <hidden from users>",
@@ -1529,6 +1530,7 @@
     "name": "Manipular Legion",
     "unitType": "Sword",
     "uniqueTo": "The Romans",
+    "replaces": "Swordsman",
     "movement": 2,
     "strength": 17,
     "cost": 130,
@@ -1546,12 +1548,15 @@
     "promotions": [
       "Infantry Shield III",
       "Drill I"
+	"Pilum",
     ],
     "attackSound": "march"
   },
   {
     "name": "Legion",
+    "uniqueTo": "The Romans",
     "unitType": "Sword",
+    "replaces": "Heavy Swordsman",
     "movement": 2,
     "strength": 20,
     "cost": 170,
@@ -1569,6 +1574,7 @@
       "Infantry Shield III",
       "Assault I",
       "Drill I",
+	"Pilum",
     ],
     "attackSound": "march"
   },
@@ -1576,6 +1582,7 @@
     "name": "Limitanei",
     "unitType": "Spear",
     "uniqueTo": "The Romans",
+    "replaces": "Heavy Spearman",
     "movement": 2,
     "strength": 15,
     "cost": 160,
@@ -1659,10 +1666,10 @@
     "strength": 19,
     "cost": 210,
     "uniques": [
- 	"Comment [-Elite heavy infantry, inspire nearby ally units, have one job.]",
+      "Comment [-Elite heavy infantry, inspire nearby ally units, have one job.]",
       "Only available <in cities with a [Army Barracks]>",
       "Limited to [1] per Civilization",
-	     "[+2] XP gained from combat",
+      "[+2] XP gained from combat",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
       "Consumes [1] [Iron]",
@@ -1670,8 +1677,9 @@
     "promotions": [
       "Infantry Shield III",
       "Veteran",	
-	"Improved Armor"
+	"Improved Armor",
 	 "[Standard Bearer]",
+	"Pilum",
     ],
     "attackSound": "march"
   },
@@ -1679,6 +1687,7 @@
     "name": "Praetoria",
     "unitType": "Sword",
     "requiredTech": "Heavy Infantry",
+    "replaces": "Foot Guard",
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 22,
@@ -1702,6 +1711,7 @@
 	"Veteran",
 	"Improved Armor"
 	 "Inspiring",
+	"Pilum",
     ],
     "attackSound": "march"
   },
@@ -3010,6 +3020,7 @@
       "Infantry Shield III",
       "Assault I",
       "Formation I"
+	"Pilum",
     ],
     "attackSound": "march"
   },
@@ -3056,7 +3067,8 @@
     "promotions": [
       "Infantry Shield III",
       "Assault I",
-      "Shock I"
+      "Shock I",
+	"Pilum",
     ],
     "attackSound": "march"
   },
@@ -3080,7 +3092,7 @@
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield III",
-      "Raider I"
+      "Raider I",
     ],
     "attackSound": "march"
   },
@@ -3124,7 +3136,8 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Assault I",
-      "Desert Warrior I"
+      "Desert Warrior I",
+	"Pilum",
     ],
     "attackSound": "march"
   },
@@ -3148,6 +3161,7 @@
     "promotions": [
       "Infantry Shield III",
       "Assault I",
+	"Pilum",
     ],
     "attackSound": "march"
   },

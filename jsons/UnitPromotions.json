@@ -272,7 +272,7 @@
 	},
 	{
 		"name": "Drill I",
-		"uniques": ["[+10]% Strength <when defending>"],
+		"uniques": ["[+10]% Strength <when defending> <vs [Melee] units>"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant","Archery","Siege"],
         "column": 10,
         "row": 1
@@ -280,7 +280,7 @@
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
-		"uniques": ["[+10]% Strength <when defending>"],
+		"uniques": ["[+20]% Strength <when defending> <vs [Melee] units>"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 10,
         "row": 2
@@ -289,7 +289,7 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": [
-			"[+20]% Strength <when defending>",
+			"[+20]% Strength <when defending> <vs [Melee] units>",
 			"[+15]% Strength <when defending> <vs cities>"
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
@@ -414,7 +414,7 @@
 		"name": "Formation I",
 		"uniques": [
      			"[+10]% Strength <when defending> <vs [Mounted] units>",
-    			"[+10]% Strength <when defending> <vs [Mounted Archery] units>",
+    			"[+10]% Strength <when defending> <vs [Ranged] units>",
 ],
 		"unitTypes": ["Spear", "Sword"],
         "column": 16,
@@ -436,7 +436,7 @@
 		"prerequisites": ["Formation II"],
 		"uniques": [
 			"[+10]% Strength <vs [Mounted] units>",
-			"[+20]% Strength <when attacking> <vs [Mounted Archery] units>",
+			"[+20]% Strength <when attacking> <vs [Ranged] units>",
 			"[+10]% Strength <when defending>"
 ]
 		"unitTypes": ["Spear"],
@@ -578,6 +578,7 @@
 		"prerequisites": ["Amphibious I"],
 		"uniques": [
 		"[0] Movement point cost to disembark",
+		"[+10]% Strength <when defending> <when fighting in [River] tiles>",
 		"Eliminates combat penalty for attacking across a coast",
  		"[+10]% Strength <when fighting in [Foreign Land] tiles>"
 		"[+1] Movement <when [Embarked]>"
@@ -828,6 +829,12 @@
 			"[+10]% Strength <when defending>",
 			"Only available <if [Forge] is constructed>",
 		]
+	},	{
+		"name": "Pilum",
+		"uniques": [
+   			 "[+10]% Strength <when attacking> <vs [{Melee} {Land}] units>",
+   			 "[+10]% Strength <when attacking> <vs [Mounted Archery] units>",
+		],
 	},
 	{
   		"name": "[Siege Logistics]",

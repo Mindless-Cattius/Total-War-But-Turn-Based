@@ -109,7 +109,7 @@
 	{
 		"name": "Lakes",
 		"type": "Water",
-		"food": 3,
+		"food": 2,
 		"gold": 1,
 		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water",
