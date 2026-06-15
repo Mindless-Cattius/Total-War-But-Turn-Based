@@ -650,8 +650,11 @@
 		    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
 		    "[Cavalry] units gain the [Armored Lancer] promotion",
                     "[1] free [Great Scholar] units appear",
+            		"Provides [1] [Horses]",
+                    "[1] free [Mounted Skirmisher] units appear",
                     "[+1 Happiness] [in capital]",
                     "[+30]% Production when constructing [Stable] buildings [in all cities]",
+            		"[-70]% Production when constructing [Settler] units [in all cities]",
         ],
         "policies": [
     {
