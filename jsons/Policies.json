@@ -444,6 +444,7 @@
                 "uniques": [
                     	"Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
 			"Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+            	    	"Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
                     	"[+10]% Strength <for [Mounted] units> <when adjacent to a [Mounted] unit>",
                     	"[Horseman] units gain the [Charge I] promotion",
 			"Provides [1] [Nobles]",
@@ -1812,6 +1813,7 @@
                 "uniques": [
                     	"Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     	"Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+            	    	"Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
         		"[+10]% Strength <for [Ranged] units>",
         		"[+1 Happiness] from every [Temple]",
         		"[+1 Gold] from [Village] tiles [in all cities]",
@@ -2014,10 +2016,6 @@
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
                     "Comment [Enables Chariot Archer] <for [The Ptolemies] Civilizations>","Provides [1] [Enable Chariot Archer] <for [The Ptolemies] Civilizations> <hidden from users>",
-                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
-                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
-                    "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
-                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     "[1] free [Great Scholar] units appear",
                     "[+10]% Production when constructing [Settler] units [in all cities]",
@@ -2039,6 +2037,7 @@
     	{
       		"name": "Training Grounds",
       		"uniques": [
+            	    "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
         		"[+10]% Strength <when defending> <for [Spearman] units>"
         		"[+1 Happiness] from every [Muster Field]",
         		"Provides [2] [Manpower]",
@@ -2068,7 +2067,8 @@
                 "name": "Nikator",
                 "civilopediaText": [{"text": "Nikator was a hellenestic royal epithet meaning The Victorious. Most famous of the victors was Seleucos I."}],
                 "uniques": [
-                    "[2] free [Pike Phalanx] units appear",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "[1] free [Pike Phalanx] units appear",
                     "Provides [2] [Bronze]",
                     "Provides [4] [Manpower]",
                     "[+1 Happiness] [in capital]",
@@ -2127,6 +2127,7 @@
                 "name": "The Grand Fleet",
                 "civilopediaText": [{"text": "Hellenistic States often build massive fleets of large warships."}],
                 "uniques": [
+                    "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "[+15]% Production when constructing [Ranged Water] units [in all cities]",
                     "[+1 Production] from every [Harbor]",
                     "[+1 Production] from every [Great Harbor]",
@@ -2144,6 +2145,7 @@
                 "civilopediaText": [{"text": "Soter was a common hellenestic royal epithet meaning The Savior. Most famous of the saviours was Ptolemy I."}],
                 "uniques": [
                     	"Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     	"[+10]% Strength <vs [Barbarian] units>",
         		"[+10]% Strength <for [Skirmisher] units> <for [The Ptolemies] Civilizations>" 
         		"[+10]% Strength <for [Commander] units>",
@@ -2332,6 +2334,7 @@
         	"era": "Hellenistic Age",
                 "uniques": [
         		"[+15]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
+                    	"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     	"[+10]% Strength <for [Elephant] units> <when adjacent to a [Spear] unit> <after adopting [Heavy Cavalry Corps]>",
@@ -2366,7 +2369,6 @@
         "uniques": [
                     	"Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     	"Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    	"Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
 			"[Cavalry] units gain the [Armored Lancer] promotion",
                     	"Only available <after adopting [Iberian Culture]> <hidden from users>",
                     	"[1] free [Great Scholar] units appear",
@@ -2399,6 +2401,7 @@
 	    {
       		"name": "Raiding Custom",
       		"uniques": [
+            	    	"Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
 			"[Infantry Shield I] units gain the [Raider I] promotion",
 			"[Skirmisher] units gain the [Raider I] promotion",
         		"[+10]% Strength <for [Skirmisher] units> <when attacking> <for [The Lusitani] Civilizations>",
@@ -2486,6 +2489,7 @@
       		"name": "Coastal Trade Links",
         	"era": "Classical Age",
       		"uniques": [
+                    	"Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
         		"[+10]% Strength <for [Swordsman] units>",
         		"[+1 Gold, +1 Happiness] from every [Anchorage]",
         		"[+2 Gold, +1 Food, +1 Happiness] from every [Harbor]",
@@ -2599,6 +2603,7 @@
         	"era": "Hellenistic Age",
                 "uniques": [
                     	"Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    	"Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
         		"[+1 Gold, +1 Food] from [Village] tiles [in all cities]",
         		"[+2 Gold] from [Trading post] tiles [in all cities]",
         		"[+1 Happiness] [in all cities] <when not at war>",
@@ -2647,7 +2652,7 @@
         	"era": "Hellenistic Age",
                 "uniques": [
         		"[+10]% Strength <for [Mounted] units>",
-        		"[+10]% Strength <for [Mounted Archery] units>",
+        		"[+10]% Strength <for [Mounted Skirmisher] units>",
                     	"[+1 Happiness, +1 Food, +1 Gold] from every [Stable] <when above [1] [Horses]>",
                     	"[+1 Happiness, +1 Food, +1 Gold] from every [Stable] <when above [5] [Horses]>",
                     	"[+1 Happiness, +1 Food, +1 Gold] from every [Stable] <when above [10] [Horses]>",
@@ -2710,6 +2715,7 @@
                 "name": "Adriatic Seafarers",
                 "uniques": [
                     "Enables embarkation for land units",
+                    	"Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "[Military] units gain the [Amphibious I] promotion",
                     "[+1 Happiness] [in capital]",
                 ],
@@ -2719,6 +2725,7 @@
             {
                 "name": "Illyrian Hillforts",
                 "uniques": [
+                    "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
 			"[+15]% Strength <when defending> <for [Skirmisher] units>",
 			"[+1 Production, +1 Happiness, +1 Gold] from [Fort] tiles [in all cities]",
                     	"[+1 Happiness] [in this city] <with a garrison>",
@@ -2845,8 +2852,6 @@
         	"era": "Classical Age",
                 "uniques": [
                     	"Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
-                    	"Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     	"[+1] Movement <for [Embarked] units>",
                     "[+1] Sight <for [Embarked] units>",
                     "[Ruler] units gain the [Ignore terrain cost] promotion",
@@ -3015,6 +3020,7 @@
                     "[1] free [Great Scholar] units appear",
                     "Earn [10]% of killed [Military] unit's [Strength] as [Science]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
         	"Provides [1] [Mercenary (Numidian)]",
                     "Provides [1] [PunicOrNumidian] <hidden from users>",
                     "[+1 Happiness] [in capital]"
@@ -3443,6 +3449,7 @@
     "uniques": [
        "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
         "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+         "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
         "[+10]% Strength <for [General] units>",
         "[+15]% Production when constructing [Military] units [in all coastal cities]",
         "Free [General] appears",
@@ -3679,7 +3686,6 @@
                     "Only available <after adopting [Thracian Culture]> <hidden from users>",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
                     "[1] free [Great Scholar] units appear",
                     "[+1 Happiness] [in capital]",
     		    "[+1 Happiness] from [Mine] tiles [in all cities]",
@@ -3702,6 +3708,7 @@
              {
                 "name": "Mountain Clans",
                 "uniques": [
+                    "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
     		    "[+1 Production] from [Mine] tiles [in all cities]",
                     "[+20]% Strength for cities <within [1] tiles of a [Mountain]>",
                     "[+1 Gold] from [Mountain] tiles [in all cities]",
@@ -3820,10 +3827,11 @@
             {
                 "name": "Thracian War Rituals",
                 "uniques": [
-    "[+1 Happiness] [in all cities]",
-    "[+1 Gold] [in all cities]",
-    "[+10]% Production when constructing [Military] units [in all cities]",
-                    "Provides [4] [Manpower]",
+                    	"Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+    			"[+1 Happiness] [in all cities]",
+    			"[+1 Gold] [in all cities]",
+    			"[+10]% Production when constructing [Military] units [in all cities]",
+                    	"Provides [4] [Manpower]",
     			"[+5 Happiness, +1 Faith] [in capital] <when at war>",
                 ],
                 "row": 5,
@@ -3948,6 +3956,8 @@
             "[+2 Gold] [in all cities] <with a garrison>",
             "[+1 Happiness] [in all cities]",
             "[+10]% Strength <for [All] units> <during a Golden Age>",
+            "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
+            "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
 	    "Provides [1] [Enable Pentere] <hidden from users>","Comment [Enable Pentere]",
 	    "Unavailable <before the [Hellenistic Age]>",
         ],
@@ -4128,8 +4138,6 @@
                 "name": "League Harbormasters",
                 "requires": ["Coastal Patrol"],
                 "uniques": [
-                    	"Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
-                    	"Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
 			"[+1 Gold] from every [Harbor]",
 			"[+2 Gold, +1 Happiness] from every [Great Harbor]",
 			"[+1 Production, +1 Gold, +1 Happiness] from every [Drydock]",
