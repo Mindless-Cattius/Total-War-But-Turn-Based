@@ -735,7 +735,7 @@
         	"[+10]% Strength <when attacking> <for [Mounted] units>",
         	"[+20]% XP gained from combat <for [Mounted] units>",
                 "[1] free [Horse Archer] units appear",
-        	"Provides [2] [Horses]",
+        	"Provides [1] [Horses]",
         	"Provides [3] [Manpower]",
         	"[+3 Happiness] [in capital]"
     ],
@@ -765,7 +765,7 @@
         "[+20]% Yield from pillaging tiles <for [Mounted] units>",
         "[+30]% Yield from pillaging tiles <for [Mounted Archery] units>",
         "[+10]% Strength <for [Mounted] units>",
-        "Provides [2] [Horses]",
+        "Provides [1] [Horses]",
         "[+1 Gold, +1 Happiness] from [Trading post] tiles [in all cities]",
         "[-1 Production, +1 Happiness] [in all cities]"
         "[+3 Happiness] [in capital]"
@@ -830,7 +830,7 @@
             "[+1 Gold, +1 Happiness] [in all cities]",
             "[+1 Gold] from [Camp] tiles [in all cities]",
             "[+1 Gold] from [Pasture] tiles [in all cities]",
-            "Provides [2] [Horses]",
+            "Provides [1] [Horses]",
             "Provides [3] [Manpower]",
             "[+2 Happiness] [in capital]"
         ],
@@ -845,7 +845,7 @@
             "[+1 Gold, +1 Food] from every [Market]",
             "[+1 Gold, +1 Food] from every [Trading post]",
             "[+1 Gold, +1 Food] from [Trading post] tiles [in all cities]",
-            "[+10]% [Gold] [in all cities]",
+            "[+5]% [Gold] [in all cities] <in cities with a [Market]>",
             "Provides [1] [Veteran]",
             "[+2 Happiness] [in all cities]"
         ],
