@@ -61,7 +61,7 @@
         	    "[+10]% Strength <for [Spearman] units> <when fighting in [Friendly Land] tiles>",
                     "Provides [3] [Mercenary (Oscan)]",
                     "Provides [3] [Manpower]",
-                    "[+5 Happiness] [in capital]"
+                    "[+3 Happiness] [in capital]"
                 ],
                 "requires": ["The Latin League"],
                 "row": 2,
@@ -645,7 +645,8 @@
         },
         "uniques": [
                     "Only available <after adopting [Nomad Culture]> <hidden from users>", 
-		    "Comment [- CANNOT build farm until the Imperial Age]",
+		    "Comment [- CANNOT build farm before the Imperial Age]", 
+		    "Comment [- CANNOT recruit siege units before the Imperial Age]",
             	    "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
 		    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",

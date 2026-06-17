@@ -2,7 +2,7 @@
 	// Rank 0
 	{
 		"name": "Heal Instantly",
-		"uniques": ["[This Unit] heals [75] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [60] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Siege","Archery","Elephant","Melee Water","Ranged Water"],
         "column": 0,
         "row": 0
@@ -34,7 +34,7 @@
 	// Rank 2
 	{
 		"name": "Survivalism I",
-		"uniques": ["[+2] HP when healing", "[+5]% Strength <when defending>","[+50]% weight to this choice for AI decisions"],
+		"uniques": ["[+2] HP when healing", "[+10]% Strength <when defending>","[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Scout","Archery"],
         "column": 2,
         "row": 1
@@ -46,7 +46,7 @@
 			"[+2] HP when healing", 
 			"[+10]% Strength <when defending>", 
 ],
-		"unitTypes": ["Scout","Mounted Archery"],
+		"unitTypes": ["Scout"],
         "column": 2,
         "row": 2
 	},
@@ -66,7 +66,7 @@
 		"name": "Foraging I",
 		"uniques": [
 			"[+15]% Health from pillaging tiles",
-    			"[+15]% Yield from pillaging tiles",
+    			"[+10]% Yield from pillaging tiles",
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Siege","Archery","Elephant","Scout"],
         "column": 3,
@@ -76,8 +76,8 @@
 		"name": "Foraging II",
 		"prerequisites": ["Foraging I","Survivalism I"],
 		"uniques": [
-			"[+3] HP when healing <in [Foreign Land] tiles>",
-    			"[+10]% Yield from pillaging tiles",
+			"[+2] HP when healing <in [Foreign Land] tiles>",
+			"[+15]% Health from pillaging tiles",
 ],
 		"unitTypes": ["Mounted","Mounted Archery","Scout"],
         "column": 3,
@@ -85,7 +85,7 @@
 	},
 {
 		"name": "Foraging III",
-		"prerequisites": ["Foraging I","Survivalism I"],
+		"prerequisites": ["Foraging II"],
 		"uniques": [
 			"[+2] HP when healing <in [Foreign Land] tiles>",
 			"[+15]% Health from pillaging tiles",
@@ -97,10 +97,17 @@
 	},
 	{
 		"name" : "Supply",
-		"uniques": ["May heal outside of friendly territory","[+10] HP when healing <in [Foreign Land] tiles>","[+15]% Strength <vs cities> <when defending>"],
+		"uniques": ["May heal outside of friendly territory","[+10]% Strength <vs cities> <when defending>"],
 		"unitTypes": ["Melee Water","Ranged Water"],
         "column": 29,
         "row": 1
+	},
+	{
+		"name" : "Supply",
+		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>","[+10]% Strength <vs cities>"],
+		"unitTypes": ["Melee Water","Ranged Water"],
+        "column": 29,
+        "row": 2
 	},
 	// Rank 3
 	{
@@ -222,7 +229,7 @@
 	},
 	{
 		"name": "Targeting I",
-		"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Land] units>"],
+		"uniques": ["[+10]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"],
         "column": 8,
         "row": 1
@@ -238,7 +245,7 @@
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
-		"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Land] units>","[+15]% Strength <vs cities>"],
+		"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Land] units>","[+10]% Strength <vs cities>"],
 		"unitTypes": ["Ranged Water"],
         "column": 8,
         "row": 3
@@ -368,7 +375,7 @@
 	{
 		"name": "Assault III",
 		"prerequisites": ["Assault II"],
-		"uniques": ["[+50]% Strength <vs cities>","[+10]% Strength <when fighting in [Barbarian encampment] tiles>"],
+		"uniques": ["[+40]% Strength <vs cities>","[+10]% Strength <when fighting in [Barbarian encampment] tiles>"],
 		"unitTypes": ["Sword"],
         "column": 14,
         "row": 3
@@ -776,7 +783,7 @@
 			"Earn [30]% of killed [Military] unit's [Strength] as [Gold]",
 ],
         "column": 29,
-        "row": 2
+        "row": 3
 	},
 
 	{
