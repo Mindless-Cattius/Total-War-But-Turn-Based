@@ -210,6 +210,7 @@
     "requiredTech": "Torsion Engines",
     "uniques": [
 		"Comment ['A revolutionary invention that made invading cities slightly less suicidal. Offers protection for your battle buddies while they commit structural diplomacy.']",
+		"Unavailable <after adopting [Nomad Culture]> <before the [Imperial Age]> <hidden from users>",
       		"Only available <in cities with a [Siege Workshop]>",
      		"Consumes [2] [Manpower]",
       		"Consumes [1] [Timber]",
@@ -262,6 +263,7 @@
  	"[+20]% Strength <vs [Infantry Shield III] units> <when attacking>",
  	"[+30]% Strength <vs [Siege] units> <when attacking>",
 	"[+300]% Strength <vs cities> <when attacking>",
+	"Unavailable <after adopting [Nomad Culture]> <before the [Imperial Age]> <hidden from users>",
 	"Consumes [3] [Manpower]",
 	"Consumes [1] [Timber]",
 	"Never appears as a Barbarian unit",
@@ -762,7 +764,7 @@
     "name": "War Chariot",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 70,
+    "cost": 65,
     "movement": 3,
     "strength": 13,
     "requiredTech": "The Wheel",
@@ -1143,7 +1145,7 @@
     "uniques": [
       "Comment [-Elite medium camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
       "Only available <in cities with a [Camel Stable]> <during the [Imperial Age]>",
-	"[+1] Movements <when fighting in [Desert] tiles>",
+	"[+1] Movement <when fighting in [Desert] tiles>",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
     ],
@@ -1152,7 +1154,7 @@
 	"Camels Scare Horses"
 	"Charge I",
 	"Veteran",
-	"Desert Warrior",
+	"Desert Warrior I",
     ],
     "attackSound": "horse"
   },
@@ -1620,12 +1622,12 @@
     "uniques": [
 		"Comment ['Very heavy spear infantry, When matters reached the Triarii, Romans stopped discussing tactics and started discussing survival.']",
      		"Only available <in cities with a [Palace]>",
+		"Unavailable <after discovering [Heavy Infantry]>",
 	      	"[+1] XP gained from combat",
-		"[+10]% Strength <when defending>",
-		"Unbuildable <after discovering [Heavy Infantry]>",
+		"[+10]% Strength <when defending> <when fighting in [Friendly Land] tiles>",
       		"Consumes [4] [Manpower]",
       		"Consumes [1] [Veteran]",
-		"Can upgrade to [Praetoria]",
+		"Can transform to [Praetoria] <when not at war> <if [Army Barracks] is constructed> <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1704,6 +1706,7 @@
 	"Cannot move <in [Enemy Land] tiles> <when above [0] [Praetorian Greed]>",
       	"Consumes [1] [Praetorian Greed] <if [Praetorian Greed] is constructed> <hidden from users>",
 	"Unavailable <if [Praetorian Purge] is constructed> <hidden from users>",
+	"[This Unit] loses the [[Spearman] ability] promotion <hidden from users>",
     ],
     "promotions": [
       	"Infantry Shield III",
@@ -2198,7 +2201,7 @@
     "unitType": "Mounted",
     "uniqueTo": "The Mithridatids",
     "hurryCostModifier": 20,
-    "cost": 90,
+    "cost": 80,
     "movement": 4,
     "strength": 15,
     "requiredTech": "Equestrian Class",
@@ -2431,7 +2434,7 @@
     "uniqueTo": "The Cyreneans",
     "replaces": "War Chariot",
     "hurryCostModifier": 20,
-    "cost": 80,
+    "cost": 75,
     "movement": 4,
     "strength": 14,
     "requiredTech": "The Wheel",
@@ -2535,6 +2538,7 @@
 		"[+40]% production cost <during the [Imperial Age]>",
 		"[+20]% production cost <during the [Hellenistic Age]>",
       		"Consumes [3] [Manpower]",
+      		"Consumes [1] [Bronze]",
       		"Consumes [1] [Veteran]",
     ],
     "promotions": [
@@ -2633,7 +2637,7 @@
     "name": "Scythed Chariot",
     "unitType": "Mounted",
     "hurryCostModifier": 25,
-    "cost": 90,
+    "cost": 80,
     "movement": 4,
     "strength": 15,
     "uniques": [

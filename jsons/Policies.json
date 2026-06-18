@@ -23,7 +23,7 @@
                     "[-25]% City-State Influence degradation",
                     "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     	"[1] free [Hoplite] units appear",
-                    	"Provides [3] [Manpower]",
+                    	"Provides [2] [Manpower]",
                     	"Provides [1] [Bronze]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -107,7 +107,8 @@
                     	"[+10]% Production when constructing [General] units [in capital]",
                     	"[1] free [Manipular Legion] units appear",
 			"Provides [1] [Ruler] <before adopting [Empire]>",
-                    	"Provides [5] [Manpower]",
+                        "Provides [1] [Veteran]",
+                    	"Provides [4] [Manpower]",
                     	"Provides [2] [Iron]",
                     	"[+1 Happiness] [in capital]",
                 ],
@@ -217,6 +218,7 @@
                     "[+1 Happiness, +1 Food] from every [Market]",
                     "[+1 Happiness, +1 Food] [in all cities] <with a garrison> <when not at war>",
                     "[+3 Happiness] [in all cities] <when not at war>",
+                        "Provides [1] [Veteran]",
                 ],
                 "row": 9,
                 "column": 3
@@ -381,8 +383,8 @@
                 "name": "Naked Fanatics",
                 "uniques": [
 			"Only available <before adopting [Tribal Bonds]>","Comment [Only available before adopting Tribal Bonds]",
-                    	"[Naked Warrior] units gain the [Ambush I] promotion",
-                    	"[Mercenary Naked Warrior] units gain the [Ambush I] promotion",
+                    	"[Naked Warrior] units gain the [Shock I] promotion",
+                    	"[Mercenary Naked Warrior] units gain the [Shock I] promotion",
                     	"[1] free [Naked Warrior] units appear",
                     	"Provides [3] [Manpower]",
                     	"[+1 Happiness] [in capital]",
@@ -394,7 +396,7 @@
             {
                 "name": "Celtic Horde",
                 "uniques": [
-                    	"[Naked Warrior] units gain the [Shock I] promotion",
+                    	"[-25]% maintenance costs <for [all] units> <in [Enemy Land] tiles>",
                     	"Provides [5] [Manpower]",
 			 "Provides [1] [Nobles]",
                     	"Free [General] appears",
@@ -875,6 +877,7 @@
         "era": "Hellenistic Age",
         "uniques": [
             "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
+            "[-25]% maintenance costs <for [Mounted] units>",
             "[Mounted] units gain the [Improved Armor] promotion",
             "[Horse Archer] units gain the [[Maneuver]] promotion",
             "[1] free [Cataphract] units appear",
@@ -927,6 +930,7 @@
     "uniques": [
         "Only available <before adopting [Caravan Guardians]>","Comment [Only available before adopting Caravan Guardians]",
             "Comment [Enables Armored Horse Archer]","Provides [1] [Enable Armored Horse Archer] <hidden from users>",
+        "[-50]% maintenance costs <for [Mounted Archery] units> <in [Enemy Land] tiles>",
         "[+10]% Production when constructing [Mounted] units [in all cities]",
         "[+10]% Production when constructing [Mounted Archery] units [in all cities]",
         "[+10]% Strength <for [Veteran] units>",
@@ -968,6 +972,7 @@
     "requires": ["Silk and Stirrup"],
     "uniques": [
         "Only available <before adopting [Warbands of the Steppe]>","Comment [Only available before adopting Warbands of the Steppe]",
+	"[+1] Movement <for [Mounted Archery] units> <in [Friendly Land] tiles>",
         "[+10]% Strength <for [Mounted] units> <when fighting in [Friendly Land] tiles>",
         "[+2 Gold, +2 Food, +2 Happiness] from every [Market]",
         "[+1 Gold, +2 Food] from [Trading post] tiles [in all cities]",
@@ -1235,6 +1240,7 @@
         	"era": "Classical Age",
                 "uniques": [
 			"Only available <before adopting [Riders Ascendant]>","Comment [Only available before adopting Riders Ascendant]",
+                    	"[-30]% maintenance costs <for [Mercenary] units>",
 			"Comment [+1 Mercenary Camp Limit]",
 			"[Gold] cost of purchasing [Military] units [-20]% <when at war>",
                     	"[+1 Food, +1 Gold] from every [Spice Road]",
@@ -1451,6 +1457,7 @@
                 "name": "Germanic Horde",
                 "uniques": [
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "[-30]% maintenance costs <for [Spear] units>",
                     "[-30]% maintenance costs <for [Sword] units>",
                     "[Infantry Shield I] units gain the [Shock I] promotion",
                     "[Horseman] units gain the [Shock I] promotion",
@@ -1691,6 +1698,7 @@
                 "name": "Dorian Military Customs",
                 "uniques": [
                     	"Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    	"[-30]% maintenance costs <for [Spear] units>",
         		"[+10]% Strength <for [Hoplite] units> <when fighting in [Friendly Land] tiles> <for [The Spartans] Civilizations>",
         		"[+10]% Strength <for [Spearman] units>",
                     	"Provides [3] [Manpower]",
@@ -1764,6 +1772,7 @@
                 "requires": ["Hellenic Colonists"],
                 "uniques": [
                     	"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
+                    	"[-50]% maintenance costs <for [Water] units>",
 			"[+1] Movement <for [Melee Water] units>"
                     	"[+10]% Production when constructing [Water] units [in all cities]",
 		   	"[+10]% Strength <for [Galley] units>",
@@ -1831,6 +1840,7 @@
                 "requires": ["Pan-Hellenic Alliance"],
                 "uniques": [
 			"Only available <before adopting [League Tax Reforms]>","Comment [Only available before adopting League Tax Reforms]",
+                    	"[-30]% maintenance costs <for [Skirmisher] units>",
         		"[+10]% Strength <for [Skirmisher] units>",
         		"[+10]% Strength <for [Slinger] units> <when attacking>",
                     	"[+20]% Production when constructing [Skirmisher Barracks] buildings [in all cities]",
@@ -2053,6 +2063,7 @@
                 "uniques": [
 			"Only available <before adopting [Euergetes]>","Comment [Only available before adopting Euergetes]",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    	"[-25]% maintenance costs <for [Spear] units>",
                     "New [{Melee} {Land}] units start with [10] XP [in all cities] <in cities with a [Colony]>",
                     "[+10]% Strength <for [Ranged] units>",
                     "Provides [2] [Bronze]",
@@ -2146,7 +2157,7 @@
                 "civilopediaText": [{"text": "Soter was a common hellenestic royal epithet meaning The Savior. Most famous of the saviours was Ptolemy I."}],
                 "uniques": [
                     	"Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
+                    	"Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     	"[+10]% Strength <vs [Barbarian] units>",
         		"[+10]% Strength <for [Skirmisher] units> <for [The Ptolemies] Civilizations>" 
         		"[+10]% Strength <for [Commander] units>",
@@ -2166,11 +2177,12 @@
                 "uniques": [
 			"Only available <before adopting [Provincial Estates]>","Comment [Only available before adopting Provincial Estates]",
         		"[+10]% Strength <for [Foot Guard] units>",
-                    "[+20]% Strength <for [Siege] units>",
-                    "[-10]% maintenance costs <for [Military] units>",
-                    "[-20]% maintenance costs <for [Ranged] units> <for [The Pergamenes] Civilizations>",
+                    	"[+20]% Strength <for [Siege] units>",
+                    	"[-10]% maintenance costs <for [Military] units>",
+                    	"[-30]% maintenance costs <for [Siege] units>",
+                    	"[-20]% maintenance costs <for [Ranged] units> <for [The Pergamenes] Civilizations>",
         		"Provides [2] [Manpower]"
-                    "[+5 Happiness] [in capital] <when at war>",
+                    	"[+5 Happiness] [in capital] <when at war>",
                 ],
                 "requires": ["Megas"],
                 "row": 5,
@@ -2243,6 +2255,7 @@
                 "name": "Mercantile Expansion",
                 "uniques": [
         		"[+30]% Strength <for [Galley] units> <when defending>",
+                    	"[-30]% maintenance costs <for [Water] units>",
         		"[+2 Happiness, +1 Gold] from [Trading post] tiles [in all cities]",
         		"[+2 Gold, +1 Happiness] from every [Harbor]",
         		"[+4 Gold, +2 Happiness] from every [Great Harbor]",
@@ -2403,6 +2416,7 @@
       		"name": "Raiding Custom",
       		"uniques": [
             	    	"Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
+                    	"[-100]% maintenance costs <for [Skirmisher] units> <in [Enemy Land] tiles>",
 			"[Infantry Shield I] units gain the [Raider I] promotion",
 			"[Skirmisher] units gain the [Raider I] promotion",
         		"[+10]% Strength <for [Skirmisher] units> <when attacking> <for [The Lusitani] Civilizations>",
@@ -2474,6 +2488,7 @@
       		"uniques": [		
 			"[Gold] cost of purchasing [Iberian Mercenary] units [-20]% <when above [10] [Manpower]>",
 			"[Gold] cost of purchasing [Iberian Mercenary] units [-40]% <when above [30] [Manpower]>",
+                    	"[-20]% maintenance costs <for [Mercenary] units>",
 			"May buy [Iberian Mercenary] units with [Gold] [in capital]",
         		"Provides [3] [Mercenary (Iberian)]",
         		"Provides [1] [Veteran]",
@@ -2741,6 +2756,7 @@
 			"Only available <before adopting [Adriatic Trade Pacts]>","Comment [Only available before adopting Adriatic Trade Pacts]",
                     	"[{Military} {Water}] units gain the [Coastal Raider I] promotion",
 			"[+50]% Yield from pillaging tiles <for [{Military} {Water}] units>",
+                    	"[-100]% maintenance costs <for [Water] units> <in [Enemy Land] tiles>",
 			"[+10]% Strength <for [Galley] units>",
                     	"[1] free [Galley] units appear",
                     	"Provides [2] [Manpower]",
@@ -2788,6 +2804,7 @@
                 "name": "Adriatic Trade Pacts",
                 "uniques": [
 			"Only available <before adopting [Illyrian Pirates]>","Comment [Only available before adopting Illyrian Pirates]",
+                    	"[-50]% maintenance costs <for [Water] units>",
 			"[+1 Happiness] from [Village] tiles [in all cities]",
 			"[+1 Gold] from [Trading post] tiles [in all cities]",
 			"[-1 Food, +1 Gold] from [Fort] tiles [in all cities]",
@@ -3022,7 +3039,7 @@
                     "Earn [10]% of killed [Military] unit's [Strength] as [Science]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
-        	"Provides [1] [Mercenary (Numidian)]",
+        	    "Provides [1] [Mercenary (Numidian)]",
                     "Provides [1] [PunicOrNumidian] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
@@ -3030,6 +3047,7 @@
 {
     "name": "Desert Riders",
     "uniques": [
+        "[-30]% maintenance costs <for [All] units> <in [Desert] tiles>",
         "[Numidian Horseman] units gain the [Raider I] promotion",
         "[Skirmisher] units gain the [Raider I] promotion",
         "[+10]% Strength <for [Numidian Horseman] units> <when attacking>",
@@ -3381,6 +3399,7 @@
     "requires": ["Punic Markets"],
     "uniques": [
 	"Only available <before adopting [Balearic Slingers]>","Comment [Only available before adopting Balearic Slingers]",
+        "[-30]% maintenance costs <for [Water] units>",
         "[+1] Movement <for [{Military} {Water}] units>",
 	"[+1 Food, +3 Gold] from [Trading post] tiles [in all coastal cities]",
 	"[+1 Food, +1 Gold] from [Fishing Boats] tiles [in all cities]",
@@ -3401,6 +3420,7 @@
         "Provides [2] [Mercenary (Celtic)]",
 	"May buy [Mercenary Warband] units with [Gold] [in capital]",
 	"May buy [Numidian Mercenary] units with [Gold] [in capital]",
+        "[-50]% maintenance costs <for [Mercenary] units> <in [Enemy Land] tiles>",
         "[Gold] cost of purchasing [Mercenary Warband] units [-25]%",
         "[Gold] cost of purchasing [Numidian Mercenary] units [-25]%",
         "[+40]% Yield from pillaging tiles <for [Mercenary] units>",
@@ -3434,6 +3454,7 @@
     "uniques": [
         "Comment [Enables Pike Phalanx]",
         "Provides [1] [Enable Pike Phalanx] <hidden from users>",
+        "[-20]% maintenance costs <for [{Military} {Land}] units> <in [Enemy Land] tiles>",
         "[+10]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
         "[+10]% Production when constructing [Hoplite] units [in all cities]",
         "[+10]% Production when constructing [Skirmisher] units [in all cities]",
@@ -3710,6 +3731,8 @@
                 "name": "Mountain Clans",
                 "uniques": [
                     "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
+        	"[-30]% maintenance costs <for [Spear] units> <in [Friendly Land] tiles>",
+        	"[-30]% maintenance costs <for [Skirmisher] units> <in [Friendly Land] tiles>",
     		    "[+1 Production] from [Mine] tiles [in all cities]",
                     "[+20]% Strength for cities <within [1] tiles of a [Mountain]>",
                     "[+1 Gold] from [Mountain] tiles [in all cities]",
@@ -3815,7 +3838,7 @@
                 "name": "Stone Granaries",
                 "requires": ["Clan Councils"],
                 "uniques": [
-    			"[+20]% Production when constructing [Stone Works] buildings [in all cities]",
+    			"[+50]% Production when constructing [Stone Works] buildings [in all cities]",
     			"[+1 Gold, +1 Happiness] from [Stone] tiles [in all cities]",
     			"[+1 Gold] from [Trading post] tiles [in all cities]",
                         "[+1 Happiness, +1 Gold] from every [Stone Works]",
@@ -3922,6 +3945,7 @@
                 "uniques": [
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+        	    "[-30]% maintenance costs <for [all] units> <in [Friendly Land] tiles>",
                     "[+20]% [Iron] resource production",
                     "[+20]% [Horses] resource production",
                     "Free [General] appears",
