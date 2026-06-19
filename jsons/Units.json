@@ -1170,8 +1170,9 @@
     "uniques": [
       "Comment [-Elite heavy mounted skirmisher, strong range attack, have medium withdraw chance.]",
       "Only available <in cities with a [Cavalry Barracks]>",
+      "Only available <with [Enable Mounted Armored Skirmisher]>",
 	"[+1] XP gained from combat",
-	"[-1] Range",
+	"[-1] Range <hidden from users>",
 	"Consumes [4] [Manpower]",
  	"Consumes [1] [Veteran]"
 	"Consumes [1] [Horses]",

@@ -1155,6 +1155,11 @@
 		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
+		"name": "Enable Mounted Armored Skirmisher",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+    },
+    {
 		"name": "Enable Trireme",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]
