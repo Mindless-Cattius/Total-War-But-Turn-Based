@@ -859,7 +859,7 @@
     "hateHello": "You return. We were enjoying the silence.",
     "tradeRequest": "Let us trade. Coin travels farther than armies and usually causes less damage.",
 
-    "outerColor": [152, 114, 57],
+    "outerColor": [70, 130, 180],
     "innerColor": [240, 221, 155],
     "style": "Greek",
 
@@ -870,7 +870,8 @@
         "[+20]% Production when constructing [Water] units [in all cities]",
         "[+20]% Production when constructing [Market] buildings [in all cities]",
         "[+20]% Production when constructing [Wall Towers] buildings [in all cities]",
-        "[-20]% maintenance costs <for [Mercenary] units>",
+        "[+50]% Production when constructing [Mercenary Camp] buildings [Capital]",
+        "[-50]% maintenance costs <for [Mercenary] units>",
         "Gain a free [Harbor] [in capital] <in [Coastal] cities>",
         "[+1 Happiness] from every [Harbor]"
     ],
