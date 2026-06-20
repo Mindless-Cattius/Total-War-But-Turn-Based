@@ -557,7 +557,7 @@
 	},
 	{
 		"name": "Woodsman",
-		"prerequisites": ["Ambush III","Veteran"],
+		"prerequisites": ["Ambush III","Veterans"],
 		"uniques": [
                 	"[+1] Movement <in [Forest] tiles>",
                 	"[+1] Movement <in [Jungle] tiles>",
@@ -692,7 +692,7 @@
 	{
 		"name": "Berserker",
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water"],
-		"prerequisites": ["Blitz","Veteran"],
+		"prerequisites": ["Blitz","Veterans"],
 		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
@@ -727,7 +727,7 @@
 	{
 		"name": "Desert Warrior I",
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege"],
-		"prerequisites": ["Scouting III","Veteran"],
+		"prerequisites": ["Scouting III","Veterans"],
 		"uniques": [
 			"[+10]% Strength <when fighting in [Desert] tiles>",
                 	"[+1] Movement <in [Desert] tiles>",
@@ -755,7 +755,7 @@
 	},
 	{
 		"name": "[Mountaineer]",
-		"prerequisites": ["Scouting III","Veteran"],
+		"prerequisites": ["Scouting III","Veterans"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege"],
 		"uniques": [
 			"Invisible to non-adjacent units <in [Snow] tiles>",
@@ -789,7 +789,7 @@
 	{
 		"name": "[Siege Expert] ability",
 		"unitTypes": ["Siege"],
-		"prerequisites": ["Veteran"],
+		"prerequisites": ["Veterans"],
 		"uniques": [
 			"[+10]% Strength <when stacked with a [Worker] unit>",
 			"[+15]% Strength <when stacked with a [Great Engineer] unit>",
@@ -798,7 +798,7 @@
         "row": 6
 	},
 	{
-		"name": "Veteran",
+		"name": "Veterans",
 		"prerequisites": ["Medic III","Ambush III","Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Flanking","Charge III","Siege III","Survivalism III","Raider III","Assault III","Trample III","Drill III","Formation III"],
 		"unitTypes": ["Sword","Spear","Mounted","Scout","Melee Water","Siege"],
 		"uniques": [
@@ -819,7 +819,7 @@
 	},
 	{
 		"name": "[Standard Bearer]",
-		"prerequisites": ["Veteran"],
+		"prerequisites": ["Veterans"],
 		"unitTypes": ["Sword","Spear","Elephant"],
 		"uniques": [
 			"[+10]% Strength bonus for [Military] units within [2] tiles",
@@ -845,7 +845,7 @@
 	},
 	{
   		"name": "[Siege Logistics]",
-  		"prerequisites": ["Veteran"],
+  		"prerequisites": ["Veterans"],
   		"unitTypes": ["Siege"],
   		"uniques": [
     			"[+10]% Strength <when stacked with a [Worker] unit>","[+5] HP when healing",
@@ -856,7 +856,7 @@
 	},
 	{
  		"name": "Inspiring",
-  		"prerequisites": ["Veteran"],
+  		"prerequisites": ["Veterans"],
   		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery", "Elephant"],
   		"uniques": [
 			"Comment [All nearby units gain +2 xp from combat]",
@@ -866,7 +866,7 @@
 	},
 	{
  		 "name": "Praetorianus",
-  		"prerequisites": ["Veteran"],
+  		"prerequisites": ["Veterans"],
  		 "unitTypes": ["Sword","Spear","Mounted","Elephant"],
  		 "uniques": [
 			"[+25]% Strength bonus for [King] units within [1] tiles <when defending>",
@@ -877,7 +877,7 @@
 	},
 	{
  		 "name": "Frontline",
-  		"prerequisites": ["Veteran"],
+  		"prerequisites": ["Veterans"],
  		 "unitTypes": ["Sword","Spear","Elephant"],
  		 "uniques": [
 			"[+20]% Strength bonus for [Archery] units within [1] tiles <when defending>",
@@ -889,7 +889,7 @@
 	{
  		 "name": "Parthian Doctrine",
   		"unitTypes": ["Mounted Archery"],
-  		"prerequisites": ["Veteran"],
+  		"prerequisites": ["Veterans"],
   		"uniques": [
    			 "[+15]% Strength <vs [{Melee} {Land}] units>" ,
    			 "[-10]% Strength <when defending> <vs [Mounted] units>",
@@ -914,7 +914,7 @@
 	},
 	{
 		"name": "Spear Wall",
-		"prerequisites": ["Veteran"],
+		"prerequisites": ["Veterans"],
 		"uniques": [
     			"[+10]% Strength <when defending> <vs [Melee] units>"
     			"[+5]% Strength <when defending> <vs [Ranged] units>"
@@ -925,7 +925,7 @@
 	},
 	{
 		"name": "Skirmisher Tatics",
-		"prerequisites": ["Veteran"],
+		"prerequisites": ["Veterans"],
 		"uniques": [
 			"Ignores Zone of Control",]
 		"unitTypes": ["Scout","Archery"],
@@ -934,7 +934,7 @@
 	},
 	{
 		"name": "Volley",
-		"prerequisites": ["Veteran"],
+		"prerequisites": ["Veterans"],
 		"uniques": [
 			"[+10]% Strength <when attacking> <vs [Ranged] units>",
 ]
@@ -977,7 +977,7 @@
 	},
 	{
 		"name": "Warlust",
-		"prerequisites": ["Veteran"],
+		"prerequisites": ["Veterans"],
 		"unitTypes": ["Scout","Sword","Spear"],
 		"uniques": ["Heals [15] damage if it kills a unit"
 		],
@@ -986,7 +986,7 @@
 	},
 	{
 		"name": "King Slayer",
-		"prerequisites": ["Veteran"],
+		"prerequisites": ["Veterans"],
 		"unitTypes": ["Mounted","Sword","Spear"],
 		"uniques": [
 			"[+30]% Strength <vs [Commander] units> <when attacking>",

@@ -1393,92 +1393,92 @@
 				///PROVINCES FLAG
 
             {
-            "name": "Gallia",
+            "name": "Gallia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Hispania",
+            "name": "Hispania P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Achaea",
+            "name": "Achaea P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Italia",
+            "name": "Italia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Aegyptus",
+            "name": "Aegyptus P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Palaestina",
+            "name": "Palaestina P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Armenia",
+            "name": "Armenia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Germania",
+            "name": "Germania P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Scythia",
+            "name": "Scythia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Dacia",
+            "name": "Dacia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Africa",
+            "name": "Africa P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Anatolia",
+            "name": "Anatolia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Lusitania",
+            "name": "Lusitania P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Dalmatia",
+            "name": "Dalmatia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Thracia",
+            "name": "Thracia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Macedonia",
+            "name": "Macedonia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Pannonia",
+            "name": "Pannonia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             },
             {
-            "name": "Sicilia",
+            "name": "Sicilia P",
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             }

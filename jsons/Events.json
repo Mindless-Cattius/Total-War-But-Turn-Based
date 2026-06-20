@@ -4325,7 +4325,7 @@
                     {
                         "text": "Raise new Danubian legions",
                         "uniques": [
-                            "Instantly provides [1] [Pannonia] <hidden from users>",
+                            "Instantly provides [1] [Pannonia P] <hidden from users>",
                             "[-2 Gold] [in all cities] <for [15] turns>",
 				"[1] free [Illyrian Legion] units appear <when above [4] [Manpower]> <when above [0] [Iron]>",
 				"[1] free [Illyrian Legion] units appear <when above [9] [Manpower]> <when above [1] [Iron]>",
@@ -4336,7 +4336,7 @@
                     {
                         "text": "Strengthen the cavalry",
                         "uniques": [
-                            "Instantly provides [1] [Pannonia] <hidden from users>",
+                            "Instantly provides [1] [Pannonia P] <hidden from users>",
 			"Only available <if [Mounted Focus] is not constructed>",
         		"Gain a free [Mounted Focus] [in capital]",
                             "[-2 Gold] [in all cities] <for [15] turns>"
@@ -4345,7 +4345,7 @@
                     {
                         "text": "Abandon the frontier settlements",
                         "uniques": [
-                            "Instantly provides [1] [Pannonia] <hidden from users>",
+                            "Instantly provides [1] [Pannonia P] <hidden from users>",
                             "Gain [6000] [Gold]",
                             "[-1 Happiness, -1 Food] [in all cities] <for [10] turns>"
                         ]
@@ -4366,7 +4366,7 @@
 			{
 			"text": "Mobilize the provincial elite",
 			"uniques": [
-				"Instantly provides [1] [Dalmatia] <hidden from users>",
+				"Instantly provides [1] [Dalmatia P] <hidden from users>",
 				"Only available <if [Mounted Focus] is not constructed>",
 				"Gain a free [Mounted Focus] [in capital]",
 				"Gain [1000] [Gold] <when below [4] [Manpower]> <when below [2] [Horses]>",
@@ -4381,7 +4381,7 @@
 		{
 			"text": "Fortify the Adriatic coast",
 			"uniques": [
-				"Instantly provides [1] [Dalmatia] <hidden from users>", 
+				"Instantly provides [1] [Dalmatia P] <hidden from users>", 
 				"Gain a free [Walls] [in all cities] <in cities without a [Walls]> <in cities with at least [15] [Population]>", 
 				"Gain a free [Wall Towers] [in all cities] <in cities without a [Wall Towers]> <in cities with at least [17] [Population]>",
 				"[-3 Gold] [in all cities] <for [10] turns>"
@@ -4390,7 +4390,7 @@
 		{
 			"text": "Withdraw the remaining garrisons",
 			"uniques": [
-				"Instantly provides [1] [Dalmatia] <hidden from users>",
+				"Instantly provides [1] [Dalmatia P] <hidden from users>",
 				"Gain [8000] [Gold]",
 				"[-1 Happiness, -1 Food, +1 Production] [in all cities] <for [10] turns>"
 				]
@@ -4411,7 +4411,7 @@
                     {
                         "text": "Recruit Frontier Horsemen",
                         "uniques": [
-                            "Instantly provides [1] [Thracia] <hidden from users>",
+                            "Instantly provides [1] [Thracia P] <hidden from users>",
                             "Only available <if [Mounted Archery Focus] is not constructed>",
                             "Gain a free [Mounted Archery Focus] [in capital]",
                             "Gain a free [Mercenary Camp] [in capital] <in cities without a [Mercenary Camp]>",
@@ -4427,7 +4427,7 @@
                     {
                         "text": "Secure the Balkan passes",
                         "uniques": [
-                            "Instantly provides [1] [Thracia] <hidden from users>",
+                            "Instantly provides [1] [Thracia P] <hidden from users>",
         			"Gain a free [Heavy Infantry Focus] [in capital] <in cities without a [Heavy Infantry Focus]>",
                             	"Gain [1000] [Gold] <when below [4] [Manpower]>",
                             	"[1] free [Limitanei] units appear <when above [3] [Manpower]>",
@@ -4437,7 +4437,7 @@
                     {
                         "text": "Consolidate around the capital",
                         "uniques": [
-                            "Instantly provides [1] [Thracia] <hidden from users>",
+                            "Instantly provides [1] [Thracia P] <hidden from users>",
                             "Gain [5000] [Gold]",
                             "[+5 Happiness, -1 Food, +3 Production] [in capital] <for [10] turns>"
                         ]
@@ -4458,7 +4458,7 @@
                     {
                         "text": "Revive the Macedonian phalanx",
                         "uniques": [
-                            "Instantly provides [1] [Macedonia] <hidden from users>",
+                            "Instantly provides [1] [Macedonia P] <hidden from users>",
                             "Gain a free [Spear Focus] [in capital] <in cities without a [Spear Focus]>",
                             "Gain [800] [Gold] <when below [3] [Manpower]>",
                             "Gain [1600] [Gold] <when below [6] [Manpower]>",
@@ -4472,7 +4472,7 @@
                     {
                         "text": "Abandon the province",
                         "uniques": [
-                            "Instantly provides [1] [Macedonia] <hidden from users>",
+                            "Instantly provides [1] [Macedonia P] <hidden from users>",
                             "Gain [5000]-[13000] [Gold]",
                             "[-3 Happiness, -2 Food, +1 Production] [in all cities] <for [10] turns>"
                         ]
@@ -4493,7 +4493,7 @@
                     {
                         "text": "Prepare for a Greek campaign",
                         "uniques": [
-                            "Instantly provides [1] [Achaea] <hidden from users>",
+                            "Instantly provides [1] [Achaea P] <hidden from users>",
                             "Gain a free [Shield Infantry Focus] [in capital] <in cities without a [Shield Infantry Focus]>",
                             "[1] free [General] units appear <when above [1] [Nobles]>",
 				"[1] free [Legion] units appear <when above [4] [Manpower]> <when above [0] [Iron]>",
@@ -4506,7 +4506,7 @@
                     {
                         "text": "Focus on more critical frontiers",
                         "uniques": [
-                            "Instantly provides [1] [Achaea] <hidden from users>",
+                            "Instantly provides [1] [Achaea P] <hidden from users>",
                             "[+5 Gold, -1 Food, +1 Production] [in all cities] <for [10] turns>"
                             "[+10 Gold, -1 Food, +2 Production] [in capital] <for [10] turns>"
                         ]
@@ -4527,7 +4527,7 @@
                     {
                         "text": "Muster the last Romans",
                         "uniques": [
-                            "Instantly provides [1] [Italia] <hidden from users>",
+                            "Instantly provides [1] [Italia P] <hidden from users>",
 				"Triggers the following global alert: [ROME HAVE FALLEN]"
                             "Gain a free [Heavy Infantry Focus] [in capital] <in cities without a [Heavy Infantry Focus]>",
                             "Gain [1000] [Gold] <when below [4] [Manpower]>",
@@ -4544,7 +4544,7 @@
                     {
                         "text": "Accept the unthinkable",
                         "uniques": [
-                            "Instantly provides [1] [Italia] <hidden from users>",
+                            "Instantly provides [1] [Italia P] <hidden from users>",
                             "Gain [12000] [Gold]",
                             "[-10 Happiness, +5 Food, +3 Production] [in capital] <for [10] turns>"
                         ]
@@ -4566,7 +4566,7 @@
                         {
                             "text": "Celebrate the Triumph!",
                             "uniques": [
-                                "Instantly provides [2] [Italia] <hidden from users>",
+                                "Instantly provides [2] [Italia P] <hidden from users>",
                                 "[+5 Happiness] [in all cities] <for [10] turns>",
                                 "[+10]% [Production] [in all cities] <for [10] turns>",
                             	"Gain [5000]-[12000] [Gold]",

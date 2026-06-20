@@ -18,7 +18,7 @@
 // Italy
 	{
 		"name": "The Romans",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Biggus Dickus",
 		"adjective": ["Roman"],
 	        "startBias":["Coast","Hill"],
@@ -261,7 +261,7 @@
 	},
 	{
 		"name": "The Arsacids",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Arsaces",
 		"adjective": ["Arsacid"],
 	        "startBias":["Plains","Avoid [Coast]"],
@@ -296,7 +296,7 @@
 // Scythia
 	{
 		"name": "The Scythians",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Ateas",
 		"adjective": ["Scythian"],
 	        "startBias":["Plains"],
@@ -332,7 +332,7 @@
 	},
 	{
 		"name": "The Roxolani",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Tasius",
 		"adjective": ["Roxolanian"],
 	        "startBias":["Plains","Avoid [Coast]"],
@@ -443,7 +443,7 @@
 	},
 	{
 		"name": "The Masaesyli",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Syphax",
 		"adjective": ["Masaesyli"],
 	        "startBias":["Desert","Avoid [Coast]"],
@@ -479,7 +479,7 @@
 
 	{
 		"name": "The Lusitani",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Viriato",
 		"adjective": ["Lusitanian"],
 	        "startBias":["Hill","Plains","Avoid [Coast]"],
@@ -536,7 +536,7 @@
 		"style": "Iberian",
 		"uniqueName": "Hillfort Kings",
 		"uniques": [
-		"[+20]% XP gained from combat <for [Mounted] units>",
+		"[+1] XP gained from combat <for [Mounted] units>",
     		"[+1 Production, +1 Gold] from [Mine] tiles [in all cities]"
 		"Gain a free [Warrior Statue] [in capital]",
 //		"Starts with [Light Cavalry]",
@@ -554,7 +554,7 @@
 
 	{
 		"name": "The Insubres",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Britomaris",
 		"adjective": ["Insubrian"],
 	        "startBias":["Avoid [Coast]","Plains"],
@@ -731,7 +731,7 @@
 
 	{
 		"name": "The Bastarnae",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Clondicus",
 		"adjective": ["Bastarnae"],
 	        "startBias":["Forest","Avoid [Coast]"],
@@ -763,7 +763,7 @@
 	},
 	{
 	"name": "The Suebi",
-		"personality": "Warlord",
+		"personality": "Warrior",
 	"leaderName": "Ariovistus",
 	"adjective": ["Suebi","Suebian"],
 	"startBias": ["Forest","Plains"],
@@ -821,8 +821,8 @@
 	"hateHello": "You return. Our patience is not as infinite as the desert, despite appearances.",
 	"tradeRequest": "Let us trade. The desert does not reward isolation."
 
-		"outerColor": [35,95,175],
-		"innerColor": [240,220,180],
+		"outerColor": [152, 114, 57],
+		"innerColor": [240, 220, 150],
 		"style": "Egyptian",
 		"uniqueName": "Silphium Monopoly",
 		"uniques": [
@@ -838,6 +838,47 @@
 		],
 		"cities": ["Cyrene","Barke","Euesperides","Apollonia Cyrenaike","Darnis","Taucheiria","Antipirgus","Katabathmos","Boreon","Paretonion","Berenike","Ptolemais"]
 	},
+
+{
+    		"name": "The Syracusans",
+    		"personality": "Merchant",
+    		"leaderName": "Dionysius I",
+    		"adjective": ["Syracusan"],
+    		"startBias": ["Coast","Hill","Plains"],
+    		"preferredVictoryType": "Domination",
+    		"favoredReligion": "Olympianism",
+
+    "startIntroPart1": "The sea brings wealth, opportunity, and occasionally enemies. Fortunately, ships can address all three.",
+    "startIntroPart2": "Lead the greatest city of Sicily. Build a prosperous maritime power, command the western Mediterranean, and remind rival empires that Syracuse did not become wealthy by asking permission.",
+
+    "declaringWar": "Negotiations have ended. The fleet will continue the discussion.",
+    "attacked": "You attack Syracuse? An ambitious decision. We will evaluate its consequences shortly.",
+    "defeated": "So Syracuse falls. Sicily remains. Someone will inevitably try this again.",
+    "introduction": "Greetings. We are Syracuse, masters of Sicily, traders of the seas, and reluctant participants in everyone else's ambitions.",
+    "neutralHello": "Welcome. May our business prove more profitable than our disagreements.",
+    "hateHello": "You return. We were enjoying the silence.",
+    "tradeRequest": "Let us trade. Coin travels farther than armies and usually causes less damage.",
+
+    "outerColor": [152, 114, 57],
+    "innerColor": [240, 221, 155],
+    "style": "Greek",
+
+    "uniqueName": "Masters of Magna Graecia",
+    "uniques": [
+        "Starts with [Hellenic Culture] adopted",
+        "[+1 Gold] from [Coast] tiles [in all cities]",
+        "[+20]% Production when constructing [Water] units [in all cities]",
+        "[+20]% Production when constructing [Market] buildings [in all cities]",
+        "[+20]% Production when constructing [Wall Towers] buildings [in all cities]",
+        "[-20]% maintenance costs <for [Mercenary] units>",
+        "Gain a free [Harbor] [in capital] <in [Coastal] cities>",
+        "[+1 Happiness] from every [Harbor]"
+    ],
+
+    "cities": [
+        "Syracuse","Akragas","Gela","Kamarina","Selinus","Himera","Leontini","Katane","Messana","Tauromenion"
+    ]
+}
 	{
 		"name": "The Spartans",
 		"personality": "Productive",
@@ -891,7 +932,7 @@
 	"hateHello": "You return. Your argument remains unconvincing.",
 	"tradeRequest": "Let us trade. Wealth supports culture. Culture produces better arguments."
 
-	"outerColor": [40, 120, 170],
+	"outerColor": [20, 80, 140],
 	"innerColor": [210, 230, 240],
 	"style": "Greek",
 	"uniqueName": "Delian League",
@@ -910,7 +951,7 @@
 },
 {
 	"name": "The Epirots",
-	"personality": "Warlord",
+	"personality": "Warrior",
 	"leaderName": "Pyrrhus",
 	"adjective": ["Epirot"],
 	"startBias": ["Hill","Grassland"],
@@ -949,7 +990,7 @@
 	
 {
 		"name": "The Odrysians",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Seutes",
 		"adjective": ["Odrysian"],
 	        "startBias":["Grassland","Avoid [Coast]"],
@@ -983,7 +1024,7 @@
 	{
 		"name": "The Getae",
 		"leaderName": "Dromichates",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"adjective": ["Getae"],
 	        "startBias":["Grassland","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
@@ -1018,7 +1059,7 @@
 
 	{
 		"name": "The Dardanians",
-		"personality": "Warlord",
+		"personality": "Warrior",
 		"leaderName": "Bato",
 		"adjective": ["Dardanian"],
 	        "startBias":["Avoid [Coast]","Forest","Grassland"],
@@ -1053,9 +1094,9 @@
 							/////Pelonesian war
 
 {
-	"name": "The Achaemenid",
+	"name": "The Persians",
 	"leaderName": "Darius I",
-	"adjective": ["Achaemenid", "Persian"],
+	"adjective": ["Persian"],
 	"startBias": ["Plains","Desert"],
 	"preferredVictoryType": "Domination",
 	"favoredReligion": "Zoroastrianism",
@@ -1480,28 +1521,6 @@
 		],
 		"style": "Italic",
 		"cities": ["Consentia"]
-	},
-	{
-		"name": "The Syracusans",
-		"adjective": ["Syracusan"],
-		"cityStateType": "Hellenic",
-	        "startBias":["Coast","Plains"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,225,0],
-		"uniques": [
-		"Starts with [Hellenic Culture] adopted",
-//		"Starts with [Colonization]",
-		"[+25]% Production when constructing [Cavalry] units [in all cities]",
-		"[+25]% Production when constructing [Water] units [in all cities]",
-		"New [Cavalry] units start with [10] XP [in all cities]",
-		"New [Water] units start with [10] XP [in all cities]"
-		],
-		"style": "Greek",
-		"cities": ["Syracuse"]
 	},
 	{
 		"name": "The Tarentines",

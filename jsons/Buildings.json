@@ -182,6 +182,7 @@
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
 			"Consumes [1] [Sanitation]",
+			"Provides [1] [Manpower]",
 			"Cost increases by [2] per owned city",
 			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [10] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
@@ -202,6 +203,7 @@
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
 			"Consumes [1] [Sanitation]",
+			"Provides [1] [Manpower]",
 			"Cost increases by [3] per owned city"
 			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [17] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
@@ -221,6 +223,7 @@
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
 			"Consumes [2] [Sanitation]",
+			"Provides [1] [Manpower]",
 			"Cost increases by [3] per owned city",
 			"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
@@ -355,7 +358,6 @@
 			"Only available <in cities with a [Urban Fabric I]>",  
 			"Consumes [1] [Decadence] <in cities with a [Syssition]>",
 			"Provides [2] [Manpower]",
-			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 			"New [Spear] units start with [10] XP [in this city]",
 			"Cost increases by [3] per owned city",
@@ -380,7 +382,6 @@
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"Provides [3] [Manpower]",
-			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"[+10]% Production when constructing [Spear] units [in this city]",
 			"[+10]% Production when constructing [Swordsman] units [in this city]",
 			"[+1 Production, +1 Happiness] from [Fort] tiles [in this city]",
@@ -428,7 +429,6 @@
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"Provides [3] [Manpower]",
-			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture, +1 Production] from [Fort] tiles [in this city]",
 			"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
@@ -451,7 +451,7 @@
 			"Comment [-Training: Archer, Slinger]",
 			"Provides [1] [Manpower]",
 		],
-		"requiredTech": "Archery"
+		"requiredTech": "Archery Practice"
 	},
 	{
 		"name": "Skirmisher Barracks",
@@ -472,7 +472,6 @@
 			"[+10]% Production when constructing [Spear] units [in this city]",
 			"[+10]% Production when constructing [Archery] units [in this city]",
 			"[+10]% Production when constructing [Scout] units [in this city]",
-			"Provides [1] [Veteran] <in cities with at least [15] [Population]>",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"Provides [4] [Manpower]",
@@ -491,10 +490,10 @@
 		"happiness": 1,
 		"cityStrength": 2,
 		"cityHealth": 10,
-		"uniques": [ 
-			"Consumes [1] [Manpower]",
+		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]>",
 			"Cost increases by [3] per owned city",
+		"Unavailable <after adopting [Nomad Culture]> <before the [Imperial Age]> <hidden from users>",
 		],
 		"requiredTech": "Engineering"
 	},
@@ -996,7 +995,7 @@
 		"cost": 60,
 		"happiness": 1,
 		"percentStatBonus": {"gold": 5},
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>"
 			"[+2 Gold] [in this city] <in cities with a [Jeweler]>",
@@ -1053,7 +1052,7 @@
 		"gold": 5,
  		"cost": 200,
 		"percentStatBonus": {"gold": 10},
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Market]>",
 			"Provides [3] [Decadence]",
@@ -1114,7 +1113,7 @@
 		"cost": 40,
 		"culture": 1,
 		"percentStatBonus": {"gold": 12},
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>"
 			"Provides [1] [Silphium]",
@@ -1144,7 +1143,7 @@
 		"gold": 2,
 		"happiness": 1,
 		"cost": 150,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be on [Desert]",
@@ -1167,7 +1166,7 @@
 		"happiness": 1,
 		"gold": 3,
 		"cost": 150,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Only available <after adopting [Eastern Culture]>",
 			"Must not be on [Desert]",
@@ -1188,7 +1187,7 @@
 		"happiness": 2,
 		"gold": 2,
 		"cost": 120,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Provides [1] [Amber]",
 			"Only available <after adopting [Germanic Culture]>",
@@ -1233,7 +1232,7 @@
 		"culture": 2,
 		"cityHealth": 20,
 		 "cost": 80,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Connects trade routes over water",
 			"Only available <in cities with a [Urban Fabric II]>"
@@ -1302,7 +1301,7 @@
 		"culture": 1,
 		"cityHealth": 50,
  		"cost": 400,
-		"specialistSlots": {"Merchant": 2},
+		"specialistSlots": {"Merchants": 2},
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric IV]>",
 			"Connects trade routes over water",
@@ -1332,10 +1331,8 @@
 		"maintenance": 1,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric I]>"
-			"Provides [1] [Manpower] <before the [Imperial Age]>",
-			"Provides [2] [Manpower] <during the [Imperial Age]>",
-			"Provides [1] [Manpower] <in cities with at least [10] [Population]>",
-			"Provides [1] [Manpower] <in cities with at least [15] [Population]>",
+			"Provides [1] [Manpower]",
+			"Provides [1] [Manpower] <in this city> <in cities with at least [10] [Population]>",
 			"[+1 Culture] from [Fort] tiles [in this city]",
 			"[+50]% weight to this choice for AI decisions",
 		]
@@ -1812,7 +1809,7 @@
 	{
 		"name": "Food Imports",
 		"requiredBuilding": "Market",
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 10,
  		"cost": 170,
@@ -1830,7 +1827,7 @@
 	{
 		"name": "Horse Imports",
 		"requiredBuilding": "Market",
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
  		"cost": 120,
@@ -1846,7 +1843,7 @@
 	},
 	{
 		"name": "Copper Imports",
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
@@ -2337,7 +2334,7 @@
 		"happiness": 2,
 		"culture": 1,
 		"isNationalWonder": true,
-		"specialistSlots": {"Merchant": 2},
+		"specialistSlots": {"Merchants": 2},
 		"cost": 1000,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric IV]>",
@@ -2364,7 +2361,7 @@
 		"cost": 1000,
 		"happiness": 1,
 		"percentStatBonus": {"gold": 10},
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric IV]>",
 			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
@@ -2657,7 +2654,7 @@
 	"name": "Administrative Estates",
 	"cost": 200,
 	"happiness": 2,
-	"specialistSlots": {"Merchant": 1},
+	"specialistSlots": {"Merchants": 1},
 	"isNationalWonder": true,
 	"uniques": [
 		"Provides [1] [Nobles]",
@@ -2881,7 +2878,7 @@
 			"[-500]% [Science] <while researching [post-[Classical Age]]>",
 			"Provides [1] [Peloponnese War Spartan] <for [The Spartans] Civilizations> <when below [1] [Peloponnese War Spartan]>",
 			"Provides [1] [Peloponnese War Athenian] <for [The Athenians] Civilizations> <when below [1] [Peloponnese War Athenian]>",
-			"Provides [1] [Peloponnese War Persian] <for [The Achaemenid] Civilizations> <when below [1] [Peloponnese War Persian]>",
+			"Provides [1] [Peloponnese War Persian] <for [The Persian] Civilizations> <when below [1] [Peloponnese War Persian]>",
 			"Provides [1] [Peloponnese War Macedonian] <for [The Macedonians] Civilizations> <when below [1] [Peloponnese War Macedonian]>",
 			"Provides [1] [Peloponnese War Epirot] <for [The Epirots] Civilizations> <when below [1] [Peloponnese War Epirot]>",
 			"Never destroyed when the city is captured",
@@ -3121,13 +3118,13 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-         		"Triggers a [The Fall of Pannonia] event <if [Pannonia] is not constructed> <when below [1] [Pannonia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
-         		"Triggers a [The Loss of Dalmatia] event <if [Dalmatia] is not constructed> <when below [1] [Dalmatia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
-         		"Triggers a [The Loss of Thracia] event <if [Thracia] is not constructed> <when below [1] [Thracia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
-         		"Triggers a [The Loss of Macedonia] event <if [Macedonia] is not constructed> <when below [1] [Macedonia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
-         		"Triggers a [The Loss of Achaea] event <if [Achaea] is not constructed> <when below [1] [Achaea]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
-         		"Triggers a [The Loss of Italia] event <if [Italia] is not constructed> <when below [1] [Italia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
-         		"Triggers a [The Recapture of Italia] event <if [Italia] is constructed> <when between [1] and [2] [Italia]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Fall of Pannonia] event <if [Pannonia] is not constructed> <when below [1] [Pannonia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Dalmatia] event <if [Dalmatia] is not constructed> <when below [1] [Dalmatia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Thracia] event <if [Thracia] is not constructed> <when below [1] [Thracia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Macedonia] event <if [Macedonia] is not constructed> <when below [1] [Macedonia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Achaea] event <if [Achaea] is not constructed> <when below [1] [Achaea P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Italia] event <if [Italia] is not constructed> <when below [1] [Italia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Recapture of Italia] event <if [Italia] is constructed> <when between [1] and [2] [Italia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
 			"Never destroyed when the city is captured",
 			"Unsellable",
       			"Unbuildable",
@@ -3148,7 +3145,6 @@
       			"[+150]% maintenance costs <for [Siege] units> <when fighting in [Enemy Land] tiles>",
 			"Remove [Empire Divide] [in all cities] <when not at war>",
 			"Moves to new capital when capital changes",
-			"[+5]% unhappiness from the number of cities",
       			"Unbuildable",
 			"Unsellable",
    ]
@@ -3194,7 +3190,7 @@
     		"name": "Silver Inflation",
     		"cost": 0,
     		"maintenance": 0,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
     		"uniques": [
       			"[-2 Gold] from [improved] tiles [in all cities]",
       			"[-2 Gold] from [Silver] tiles [in all cities]",
@@ -3227,7 +3223,7 @@
       			"[+10]% Strength <when defending> <for [Praetoria] units>",
       			"[-20]% Strength <for [Praetoria] units> <when fighting in [Enemy Land] tiles>",
       			"Provides [1] [Praetorian Greed]",
-      			"[-10 Gold, -2 Production, -20 Happiness] [in capital]",
+      			"[-10 Gold, -2 Production, -10 Happiness] [in capital]",
           		"[-10]% Strength <for [Military] units> <vs cities>",
 			"Moves to new capital when capital changes",
       			"Unbuildable",
@@ -3255,8 +3251,8 @@
 		"specialistSlots": {"Priest": 1},
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]",
-      			"[-1 Food, -2 Happiness] [in all cities]",
-			"[-1 Food, +1 Gold, -1 Happiness] [in this city] <in cities with a [Granary]>",
+      			"[-1 Food, -1 Happiness] [in all cities]",
+			"[+1 Gold, -1 Happiness] [in this city] <in cities with a [Granary]>",
       			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
@@ -3266,7 +3262,7 @@
     		"name": "Egypt Grain",
     		"cost": 150,
     		"maintenance": 0,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
     		"uniques": [
         		"Comment [Rome starved because Egypt sneezed.]",
         		"Remove [Egypt Grain Crisis] [in all cities]",
@@ -3438,7 +3434,7 @@
     		"name": "Sicilia",
     		"cost": 0,
     		"maintenance": 0,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
     		"uniques": [
 			"[+1 Food] [in all coastal cities]",
 			"Unsellable",
@@ -3489,7 +3485,7 @@
     		"name": "Hispania",
     		"cost": 0,
     		"maintenance": 0,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchants": 1},
     		"uniques": [
 			"[+1 Gold] [in all cities]",
 			"Unsellable",

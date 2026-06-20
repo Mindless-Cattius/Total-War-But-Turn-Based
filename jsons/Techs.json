@@ -96,7 +96,7 @@
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			},
 			{
-				"name": "Archery",
+				"name": "Archery Practice",
 				"row": 8,
 				"prerequisites": ["Forestry"],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
@@ -210,7 +210,7 @@
 			{
 				"name": "Construction",
 				"row": 8,
-				"prerequisites": ["Bronze Working","Archery"],
+				"prerequisites": ["Bronze Working","Archery Practice"],
 				"quote": "'When I became king, I built much excellent. What had been built by my father, that I protected, and other building I added. What moreover I built, and what my father built, all that by the favor of Ahuramazda we built.' - Xerxes"
 			},
 			{

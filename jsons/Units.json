@@ -250,9 +250,9 @@
     "name": "Catapult",
     "unitType": "Siege",
     "movement": 2,
-    "strength": 8,
-    "rangedStrength": 12,
-    "cost": 230,
+    "strength": 10,
+    "rangedStrength": 13,
+    "cost": 240,
     "requiredTech": "Mass Production",
     "uniques": [
  	"Comment [-Heavy artillery, good against cities and infantry units]",
@@ -265,7 +265,7 @@
 	"[+300]% Strength <vs cities> <when attacking>",
 	"Unavailable <after adopting [Nomad Culture]> <before the [Imperial Age]> <hidden from users>",
 	"Consumes [3] [Manpower]",
-	"Consumes [1] [Timber]",
+	"Consumes [2] [Timber]",
 	"Never appears as a Barbarian unit",
     ],
     "hurryCostModifier": 20,
@@ -481,7 +481,7 @@
     "strength": 7,
     "rangedStrength": 12,
     "cost": 40,
-    "requiredTech": "Archery",
+    "requiredTech": "Archery Practice",
     "uniques": [
 	"Comment ['Light archer, ruins ambushes, morale, and anyone who forgot to bring a shield.']",
       	"Only available <in cities with a [Archery Range]>",
@@ -505,7 +505,7 @@
     "strength": 8,
     "rangedStrength": 11,
     "cost": 40,
-    "requiredTech": "Archery",
+    "requiredTech": "Archery Practice",
     "uniques": [
 	"Comment ['Light slinger, good at countering ranged units, because nothing says “primitive” like a rock to the face.']",
       	"Only available <in cities with a [Archery Range]>",
@@ -748,7 +748,7 @@
     "uniques": [
 	"Comment [Very heavy cavalry,The ‘OG tank’ if tanks were slow, expensive, and required a small fortune in horses, manpower, and iron. Sure, they’ll crush infantry, but they’ll also burn a hole in your budget faster.] <before adopting [Latin Culture]>",
 	"Only available <in cities with a [Cavalry Barracks]>",
-	"Consumes [6] [Manpower]",
+	"Consumes [5] [Manpower]",
 	"Consumes [2] [Horses]",
 	"Consumes [2] [Iron]",
 	"Never appears as a Barbarian unit <hidden from users>",
@@ -813,7 +813,7 @@
     "uniques": [
       "Only available <in cities with a [Elephant Trainer]>",
       "Comment [-Heavy elephant unit, armored, and ready to flatten anything that dares stand in its way. Just don’t expect it to help with anything delicate.]",
-      "Consumes [5] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [1] [Elephants]",
       "Consumes [2] [Iron]",
       	"Only available <with [Enable Armored Elephant]> <hidden from users>",
@@ -983,7 +983,7 @@
     "uniques": [
       "Comment [-Heavy naval melee unit]",
       "Only available <in cities with a [Drydock]>",
-      "Consumes [5] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [1] [Timber]",
     "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
       "Only available <with [Enable Pentere]> <hidden from users>",
@@ -1001,7 +1001,7 @@
     "uniques": [
       "Comment [-Medium naval ranged]",
       "Only available <in cities with a [Drydock]>",
-      "Consumes [5] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [1] [Timber]",
       "Only available <with [Enable Hexere]> <hidden from users>",
       "Never appears as a Barbarian unit",
@@ -1021,7 +1021,7 @@
       "Only available <in cities with a [Great Harbor]>",
       "Limited to [1] per Civilization",
       "Cannot enter ocean tiles",
-      "Consumes [5] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [2] [Timber]",
       "Only available <with [Enable Decere]> <hidden from users>",
       "Never appears as a Barbarian unit",
@@ -1080,7 +1080,7 @@
       "[Cavalry] ability",
       "Cavalry Shield II",
 	"Praetorianus"
-	"Veteran"
+	"Veterans"
     ],
     "attackSound": "horse"
   },
@@ -1105,7 +1105,7 @@
     "promotions": [
       "[Royal Phalanx] ability",
       "Infantry Shield II"
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "March"
   },
@@ -1131,7 +1131,7 @@
     "promotions": [
       "Horse Archer ability",
 	"Improved Armor"
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "arrow"
   },
@@ -1153,7 +1153,7 @@
       "Camel Cavalry ability",
 	"Camels Scare Horses"
 	"Charge I",
-	"Veteran",
+	"Veterans",
 	"Desert Warrior I",
     ],
     "attackSound": "horse"
@@ -1180,7 +1180,7 @@
     "promotions": [
       "[Cavalry] ability",
 	"Improved Armor"
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "arrow"
   },
@@ -1194,7 +1194,7 @@
  	"Comment [-Elite super heavy cavalry, ancient super heavy tank]",
       "Only available <in cities with a [Imperial Barracks]>",
 	"[+1] XP gained from combat",
-      "Consumes [6] [Manpower]",
+      "Consumes [5] [Manpower]",
       "Consumes [1] [Veteran]",
       "Consumes [3] [Horses]",
       "Consumes [2] [Iron]",
@@ -1203,7 +1203,7 @@
       "Clibanarii ability",
 	"Shock I",
 	"Improved Armor"
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "horse"
 },
@@ -1389,7 +1389,7 @@
 	"Only available <in cities with a [Army Barracks]>",
 	"[+1] XP gained from combat",
       	"Consumes [1] [Veteran]",
-      	"Consumes [5] [Manpower]",
+      	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
       	"Only available <after adopting [Germanic Culture]> <hidden from users>",
     ],
@@ -1397,12 +1397,12 @@
       "Infantry Shield II",
 	"Shock I",
 	"Improved Armor"
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "metalhit"
   },
   {
-    "name": "Berserker",
+    "name": "Berserkers",
     "unitType": "Sword",
     "movement": 2,
     "strength": 20,
@@ -1416,13 +1416,13 @@
       	"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
 	"[+1] XP gained from combat",
       	"Consumes [1] [Veteran]",
-      	"Consumes [6] [Manpower]",
+      	"Consumes [5] [Manpower]",
       	"Only available <after adopting [Germanic Culture]> <hidden from users>",
     ],
     "promotions": [
 	"Shock I",
 	"Berserker",
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "metalhit"
   },
@@ -1437,7 +1437,7 @@
       "Only available <in cities with a [Imperial Barracks]>",
 	"[+1] XP gained from combat",
       "Consumes [1] [Veteran]",
-      "Consumes [5] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [1] [Horses]",
       "Consumes [1] [Iron]",
       "Only available <after adopting [Germanic Culture]> <hidden from users>",
@@ -1447,7 +1447,7 @@
       "Cavalry Shield II",
 	"Charge I",
 	"Improved Armor"
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "horse"
   },
@@ -1463,7 +1463,7 @@
     "strength": 8,
     "rangedStrength": 13,
     "cost": 70,
-    "requiredTech": "Archery",
+    "requiredTech": "Archery Practice",
     "uniques": [
 	"Comment ['Light slinger unit, known for turning iron and spite into long-range diplomacy.']"
       	"Only available <in cities with a [Archery Range]>",
@@ -1569,7 +1569,7 @@
       	"Only available <in cities with a [Barracks]>",
 	"Can build [All Road] improvements on tiles",
 	"Can build [Remove Forest] improvements on tiles",
-      	"Consumes [5] [Manpower]",
+      	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
       	"Only available <with [Enable Legion]> <hidden from users>",
         "[This Unit] gets a name from the [Legion] group <hidden from users>",
@@ -1598,7 +1598,7 @@
 	"Can build [Remove Forest] improvements on tiles",
        "[+20]% Strength <when fighting in [Friendly Land] tiles>",
        "[+10]% Strength <when fighting in [Farm] tiles>",
-      "Consumes [4] [Manpower]",
+      "Consumes [3] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1634,7 +1634,7 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Inspiring",
-	"Veteran"
+	"Veterans"
     ],
     "attackSound": "march"
   },
@@ -1658,7 +1658,7 @@
       	"[Skirmisher] ability",
       	"Infantry Shield II",
 	"Improved Armor",
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "nonmetalhit",
   },
@@ -1680,7 +1680,7 @@
     ],
     "promotions": [
       "Infantry Shield III",
-      "Veteran",	
+      "Veterans",	
 	"Improved Armor",
 	 "[Standard Bearer]",
 	"Pilum",
@@ -1701,7 +1701,7 @@
       	"Only available <in cities with a [Palace]>",
       	"Limited to [1] per Civilization",
 	"[+1] XP gained from combat",
-      	"Consumes [5] [Manpower]",
+      	"Consumes [4] [Manpower]",
       	"Consumes [1] [Veteran]",
       	"Consumes [1] [Iron]",
 	"Cannot move <in [Enemy Land] tiles> <when above [0] [Praetorian Greed]>",
@@ -1713,7 +1713,7 @@
       	"Infantry Shield III",
 	"Praetorianus",
 	"Drill I",
-	"Veteran",
+	"Veterans",
 	"Improved Armor"
 	 "Inspiring",
 	"Pilum",
@@ -1732,7 +1732,7 @@
       "Only available <in cities with a [Imperial Barracks]>",
       "Limited to [1] per Civilization",
 	"[+1] XP gained from combat",
-      "Consumes [5] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
       "Consumes [3] [Horses]",
       "Consumes [2] [Iron]",
@@ -1743,7 +1743,7 @@
 	"Praetorianus",
 	"Shock I",
 	"Improved Armor"
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "horse"
   },
@@ -1820,7 +1820,7 @@
 				/////CELTIC
 
 {
-    "name": "Naked Warrior",
+    "name": "Naked Warriors",
     "unitType": "Sword",
     "movement": 3,
     "strength": 11,
@@ -1846,7 +1846,7 @@
     "strength": 12,
     "rangedStrength": 11,
     "cost": 60,
-    "requiredTech": "Archery",
+    "requiredTech": "Archery Practice",
     "uniques": [
       	"Only available <in cities with a [Archery Range]>",
 	"Comment ['Light Belgae archer, good at ambushing, bad at staying where you can see them.']",
@@ -1977,7 +1977,7 @@
       "Cavalry Shield II",
 	"Praetorianus",
 	"Improved Armor"
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "horse"
   },
@@ -1993,7 +1993,7 @@
     "strength": 10,
     "rangedStrength": 12,
     "cost": 60,
-    "requiredTech": "Archery",
+    "requiredTech": "Archery Practice",
     "uniques": [
 	"Comment ['Elite light archer, not built for defense, built to make sure you don’t need any.']",
       	"Only available <in cities with a [Archery Range]>",
@@ -2045,7 +2045,7 @@
     "uniques": [
       "Comment [-Heavy shock cavalry, too bad they’re just another expensive way to crush weaklings.]",
       "Only available <in cities with a [Cavalry Barracks]>",
-      "Consumes [5] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [2] [Horses]",
       "Consumes [1] [Iron]",
     ],
@@ -2083,7 +2083,7 @@
       "Infantry Shield II",
       "Desert Warrior I",
 	"Medic I",
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "march"
   },
@@ -2152,7 +2152,7 @@
  	"Comment [Elite heavy shock cavalry, have strong charge, small withdraw chance]",
       "Only available <in cities with a [Cavalry Barracks]>",
 	"[+1] XP gained from combat",
-      "Consumes [5] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
       "Consumes [2] [Horses]",
       "Consumes [1] [Iron]",
@@ -2163,7 +2163,7 @@
 	"Shock I",
       "Cavalry Shield II",
 	"Improved Armor"
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "horse"
   },
@@ -2254,7 +2254,7 @@
     "strength": 8,
     "rangedStrength": 13,
     "cost": 60,
-    "requiredTech": "Archery",
+    "requiredTech": "Archery Practice",
     "uniques": [
 	"Comment ['Elite light archer, good at counter-ambushes, accuracy so good it feels personal.']",
       	"Only available <in cities with a [Archery Range]>",
@@ -2348,7 +2348,7 @@
       "Cavalry Shield II",
       "Charge I",
 	"Praetorianus",
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "horse"
   },
@@ -2374,7 +2374,7 @@
     "promotions": [
 	"Praetorianus",
       "Infantry Shield II",
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "metalhit"
   },
@@ -2400,7 +2400,7 @@
     "promotions": [
 	"Praetorianus",
       "Infantry Shield III",
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "metalhit"
   },
@@ -2577,7 +2577,7 @@
       "Infantry Shield III",
       "Drill I",
       "Formation I",
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "march"
   },
@@ -2605,7 +2605,7 @@
       	"Plunderer",
 	"Raider I",
 	"Foraging I",
-	"Veteran",
+	"Veterans",
     ],
     "attackSound": "horse"
   },
@@ -2613,7 +2613,7 @@
 				/////MERCENARY
 
   {
-    "name": "Mercenary Naked Warrior",
+    "name": "Mercenary Naked Warriors",
     "unitType": "Sword",
     "movement": 3,
     "strength": 12,
@@ -3018,7 +3018,7 @@
       	"Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
 	"Can build [All Road] improvements on tiles",
 	"Can build [Remove Forest] improvements on tiles",
-      	"Consumes [5] [Manpower]",
+      	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
             "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
@@ -3066,7 +3066,7 @@
       	"Only available <with [Enable Gallic Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
 	"Can build [Remove Forest] improvements on tiles",
-      	"Consumes [5] [Manpower]",
+      	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
             "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
@@ -3134,7 +3134,7 @@
       	"Only available <with [Enable Desert Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
 	"Can build [Remove Forest] improvements on tiles",
-      "Consumes [5] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
             "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
@@ -3160,7 +3160,7 @@
 	"Can build [All Road] improvements on tiles",
 	"Can build [Remove Forest] improvements on tiles",
 	"[+2] XP gained from combat",
-      	"Consumes [5] [Manpower]",
+      	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
             "[This Unit] gets a name from the [Legion] group <hidden from users>",
     ],
@@ -3323,7 +3323,7 @@
     "strength": 7,
     "rangedStrength": 12,
     "cost": 50,
-    "requiredTech": "Archery",
+    "requiredTech": "Archery Practice",
     "uniques": [ 
 		"Cannot be purchased",
     ],
@@ -3340,7 +3340,7 @@
     "strength": 8,
     "rangedStrength": 11,
     "cost": 50,
-    "requiredTech": "Archery",
+    "requiredTech": "Archery Practice",
     "uniques": [ 
 		"Cannot be purchased",
     ],
