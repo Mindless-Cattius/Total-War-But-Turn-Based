@@ -132,7 +132,7 @@ NationIcons/The Masaesyli
   index: -1
 CityStateIcons/Oscan
   rotate: false
-  xy: 1949, 1641
+  xy: 1616, 1317
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -160,84 +160,84 @@ CityStateIcons/Scythian
   index: -1
 CityStateIcons/Thracian
   rotate: false
-  xy: 436, 1014
+  xy: 436, 906
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xAchaean
   rotate: false
-  xy: 436, 150
+  xy: 436, 42
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xAetnae
   rotate: false
-  xy: 436, 42
+  xy: 544, 1230
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xAetolian
   rotate: false
-  xy: 544, 1230
+  xy: 544, 1122
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xAntitages
   rotate: false
-  xy: 544, 1122
+  xy: 544, 1014
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xArgive
   rotate: false
-  xy: 544, 1014
+  xy: 544, 906
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xBithynian
   rotate: false
-  xy: 544, 906
+  xy: 544, 798
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xCorinthian
   rotate: false
-  xy: 544, 798
+  xy: 544, 690
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xEteocretans
   rotate: false
-  xy: 544, 690
+  xy: 544, 582
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xIndian
   rotate: false
-  xy: 544, 582
+  xy: 544, 474
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xLydian
   rotate: false
-  xy: 544, 474
+  xy: 544, 366
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/xSyracusan
   rotate: false
-  xy: 544, 366
+  xy: 544, 258
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -375,53 +375,67 @@ NationIcons/The Pergamenes
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Ptolemies
+NationIcons/The Persians
   rotate: false
   xy: 328, 366
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Romans
+NationIcons/The Ptolemies
   rotate: false
   xy: 328, 258
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Roxolani
+NationIcons/The Romans
   rotate: false
   xy: 328, 150
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Scordisci
+NationIcons/The Roxolani
   rotate: false
   xy: 328, 42
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Scythians
+NationIcons/The Scordisci
   rotate: false
   xy: 328, 1338
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Seleucids
+NationIcons/The Scythians
   rotate: false
   xy: 436, 1230
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Suebi
+NationIcons/The Seleucids
   rotate: false
   xy: 436, 1122
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Suebi
+  rotate: false
+  xy: 436, 1014
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Syracusans
+  rotate: false
+  xy: 1949, 1851
+  size: 70, 70
+  orig: 70, 70
   offset: 0, 0
   index: -1
 NationIcons/xMaurya
@@ -433,40 +447,33 @@ NationIcons/xMaurya
   index: -1
 NationIcons/xThe Autariatae
   rotate: false
-  xy: 544, 258
+  xy: 544, 150
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/xThe Boeotians
   rotate: false
-  xy: 544, 150
+  xy: 544, 42
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/xThe Carians
   rotate: false
-  xy: 544, 42
+  xy: 860, 1281
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/xThe Epirots
   rotate: false
-  xy: 860, 1281
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/xThe Illyrians
-  rotate: false
   xy: 968, 1281
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/xThe Persians
+NationIcons/xThe Illyrians
   rotate: false
   xy: 1076, 1281
   size: 100, 100
@@ -482,7 +489,7 @@ NationIcons/xThe Phrygians
   index: -1
 ReligionIcons/Buddism
   rotate: false
-  xy: 1400, 1317
+  xy: 1949, 1779
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -503,7 +510,7 @@ ReligionIcons/Druidism
   index: -1
 ReligionIcons/Eye
   rotate: false
-  xy: 1949, 1583
+  xy: 1949, 1577
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -517,7 +524,7 @@ ReligionIcons/Imperial Cult
   index: -1
 ReligionIcons/Judaism
   rotate: false
-  xy: 1718, 1157
+  xy: 652, 1048
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -538,7 +545,7 @@ ReligionIcons/Olympianism
   index: -1
 ReligionIcons/Pisces
   rotate: false
-  xy: 652, 1164
+  xy: 652, 874
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -552,14 +559,14 @@ ReligionIcons/Sol Invictus
   index: -1
 ReligionIcons/Zalmoxian
   rotate: false
-  xy: 652, 349
+  xy: 652, 59
   size: 50, 53
   orig: 50, 53
   offset: 0, 0
   index: -1
 ReligionIcons/Zoroastrianism
   rotate: false
-  xy: 1472, 1245
+  xy: 1544, 1245
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -573,7 +580,7 @@ ResourceIcons/Amber
   index: -1
 ResourceIcons/Armenia 3rd Century Crisis
   rotate: false
-  xy: 1949, 1857
+  xy: 1400, 1317
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -601,7 +608,7 @@ ResourceIcons/Ceramics
   index: -1
 ResourceIcons/Cities
   rotate: false
-  xy: 1949, 1785
+  xy: 1472, 1317
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -650,14 +657,14 @@ ResourceIcons/Flax
   index: -1
 ResourceIcons/Gallic 3rd Century Crisis
   rotate: false
-  xy: 1472, 1317
+  xy: 1949, 1707
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ResourceIcons/Germanic 3rd Century Crisis
   rotate: false
-  xy: 1949, 1713
+  xy: 1544, 1317
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -671,7 +678,7 @@ ResourceIcons/Glass
   index: -1
 ResourceIcons/Goth 3rd Century Crisis
   rotate: false
-  xy: 1544, 1317
+  xy: 1949, 1635
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -706,14 +713,14 @@ ResourceIcons/Hun 3rd Century Crisis
   index: -1
 ResourceIcons/Imperial Auditor
   rotate: false
-  xy: 1602, 1201
+  xy: 652, 1280
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Imperial Vermin Hound
   rotate: false
-  xy: 1660, 1201
+  xy: 652, 1222
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -762,7 +769,7 @@ ResourceIcons/Olives
   index: -1
 ResourceIcons/Palmyrence 3rd Century Crisis
   rotate: false
-  xy: 1616, 1317
+  xy: 1400, 1245
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -797,14 +804,14 @@ NationIcons/xThe Athenians
   index: -1
 ResourceIcons/Peloponnese War Epirot
   rotate: false
-  xy: 1400, 1245
+  xy: 1472, 1245
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 NationIcons/The Epirots
   rotate: false
-  xy: 1400, 1245
+  xy: 1472, 1245
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -824,13 +831,6 @@ NationIcons/The Macedonians
   offset: 0, 0
   index: -1
 ResourceIcons/Peloponnese War Persian
-  rotate: false
-  xy: 860, 1497
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/The Achaemenid
   rotate: false
   xy: 860, 1497
   size: 100, 100
@@ -860,7 +860,7 @@ ResourceIcons/Perfume
   index: -1
 ResourceIcons/Praetorian Greed
   rotate: false
-  xy: 652, 1106
+  xy: 652, 816
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -874,7 +874,7 @@ ResourceIcons/Purple Dye
   index: -1
 ResourceIcons/Rebel Risk
   rotate: false
-  xy: 652, 990
+  xy: 652, 700
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -888,14 +888,14 @@ ResourceIcons/Roman 3rd Century Crisis
   index: -1
 ResourceIcons/Rule
   rotate: false
-  xy: 652, 874
+  xy: 652, 584
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Ruler
   rotate: false
-  xy: 652, 816
+  xy: 652, 526
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -909,7 +909,7 @@ ResourceIcons/Salt
   index: -1
 ResourceIcons/Sanitation
   rotate: false
-  xy: 652, 700
+  xy: 652, 410
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -930,7 +930,7 @@ ResourceIcons/Silphium
   index: -1
 ResourceIcons/Silvan Primates
   rotate: false
-  xy: 652, 584
+  xy: 652, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -944,28 +944,28 @@ ResourceIcons/Tar
   index: -1
 ResourceIcons/Timber
   rotate: false
-  xy: 436, 906
+  xy: 436, 798
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Tin
   rotate: false
-  xy: 436, 798
+  xy: 436, 690
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Veteran
   rotate: false
-  xy: 436, 582
+  xy: 436, 474
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Wine
   rotate: false
-  xy: 436, 258
+  xy: 436, 150
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1112,14 +1112,14 @@ TechIcons/Public Works
   index: -1
 TechIcons/Urbanization
   rotate: false
-  xy: 436, 690
+  xy: 436, 582
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Warrior Class
   rotate: false
-  xy: 436, 366
+  xy: 436, 258
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1224,7 +1224,7 @@ UnitPromotionIcons/Cavalry Shield
   index: -1
 UnitPromotionIcons/Clubmen
   rotate: false
-  xy: 1544, 1259
+  xy: 1616, 1259
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1259,7 +1259,7 @@ UnitPromotionIcons/Drill
   index: -1
 UnitPromotionIcons/Eagle Eye
   rotate: false
-  xy: 1602, 1259
+  xy: 1688, 1331
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1273,7 +1273,7 @@ UnitPromotionIcons/Flanking
   index: -1
 UnitPromotionIcons/Foraging
   rotate: false
-  xy: 1688, 1331
+  xy: 1616, 1201
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1294,28 +1294,28 @@ UnitPromotionIcons/Frontline
   index: -1
 UnitPromotionIcons/Gravitas
   rotate: false
-  xy: 1660, 1259
+  xy: 1674, 1259
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healing
   rotate: false
-  xy: 1544, 1201
+  xy: 1674, 1201
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Imperium
   rotate: false
-  xy: 1718, 1273
+  xy: 652, 1164
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Improved Armor
   rotate: false
-  xy: 1718, 1215
+  xy: 652, 1106
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1357,7 +1357,7 @@ UnitPromotionIcons/Iron Darts
   index: -1
 UnitPromotionIcons/King Slayer
   rotate: false
-  xy: 652, 1280
+  xy: 652, 990
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1427,7 +1427,7 @@ UnitPromotionIcons/Parthian Doctrine
   index: -1
 UnitPromotionIcons/Pathfinder
   rotate: false
-  xy: 652, 1222
+  xy: 652, 932
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1455,7 +1455,7 @@ UnitPromotionIcons/Praetorianus
   index: -1
 UnitPromotionIcons/Prudentia
   rotate: false
-  xy: 652, 1048
+  xy: 652, 758
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1476,21 +1476,21 @@ UnitPromotionIcons/Rapid Fire
   index: -1
 UnitPromotionIcons/Royal Retinue
   rotate: false
-  xy: 652, 932
+  xy: 652, 642
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ruler
   rotate: false
-  xy: 652, 758
+  xy: 652, 468
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Scorched Earth
   rotate: false
-  xy: 652, 642
+  xy: 652, 352
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1532,7 +1532,7 @@ UnitPromotionIcons/Spear Wall
   index: -1
 UnitPromotionIcons/Spoils of War
   rotate: false
-  xy: 652, 526
+  xy: 652, 236
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1546,21 +1546,21 @@ UnitPromotionIcons/Standard Bearer
   index: -1
 UnitPromotionIcons/Successor
   rotate: false
-  xy: 652, 468
+  xy: 652, 178
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Veteran
   rotate: false
-  xy: 436, 474
+  xy: 436, 366
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Virtus
   rotate: false
-  xy: 652, 410
+  xy: 652, 120
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
