@@ -33,7 +33,7 @@
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 2,
-  		"happiness": 2,
+  		"happiness": 1,
 		"greatPersonPoints": {"Great Courtesan":2},
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
@@ -76,7 +76,7 @@
 		"name": "Council of Nobles",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"happiness": 2,
+		"happiness": 1,
 		"culture": 1,
 		"cost": 80,
 		"specialistSlots": {"Magistrate": 2},
@@ -100,7 +100,7 @@
 		"cost": 70,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"happiness": 2,
+		"happiness": 1,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
 			"Only available <in cities with a [Palace]>",
@@ -122,7 +122,7 @@
 		"uniqueTo": "The Spartans",
 		"maintenance": 1,
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"cityStrength": 2,
 		"cityHealth": 20,
 		"greatPersonPoints": {"General": 1},
@@ -196,7 +196,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 3,
-  		"happiness": 2,
+  		"happiness": 1,
 		"production": 1,
 		"cityHealth": 30,
 		"greatPersonPoints": {"Great Artist":1},
@@ -216,7 +216,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
-  		"happiness": 3,
+  		"happiness": 1,
 		"production": 1,
 		"cityHealth": 50,
 		"greatPersonPoints": {"Great Artist":1},
@@ -253,7 +253,7 @@
 		"cost": 30,
 		"faith": 1,
 		"culture": 1,
- 		"happiness": 2,
+ 		"happiness": 1,
 		"specialistSlots": {"Priest": 1},
 		"uniques": [ 
 			"Remove [Shrine] [in this city] <hidden from users>",
@@ -273,7 +273,7 @@
 		"hurryCostModifier": 25,
 		"cost": 30,
 		"maintenance": 1,
-		"happiness": 2,
+		"happiness": 1,
 		"faith": 1,
 		"uniques": [
 			"Only available <in cities with a [Temple]>",
@@ -290,7 +290,7 @@
 		"hurryCostModifier": 25,
  		"cost": 150,
 		"maintenance": 1,
-		"happiness": 3,
+		"happiness": 1,
 		"culture": 2,
 		"uniques": [
 			"Cost increases by [3] per owned city",
@@ -312,7 +312,7 @@
  		"cost": 120,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"happiness": 2,
+		"happiness": 1,
 		"culture": 2,
 		"uniques": [
 			"Provides [1] [Sanitation]",
@@ -370,7 +370,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 10,
 		"cityHealth": 50,
-		"happiness": 3,
+		"happiness": 1,
 		"Cost": 300,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Barracks]>",
@@ -414,7 +414,7 @@
 		"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 25,
  		"cost": 300,
-		"happiness": 3,
+		"happiness": 1,
 		"maintenance": 10,
 		"cityHealth": 50,
 		"uniques": [
@@ -458,7 +458,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"cityStrength": 2,
-		"happiness": 3,
+		"happiness": 1,
  		"cost": 300,
 		"cityHealth": 50,
 		"uniques": [
@@ -493,7 +493,6 @@
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]>",
 			"Cost increases by [3] per owned city",
-		"Unavailable <after adopting [Nomad Culture]> <before the [Imperial Age]> <hidden from users>",
 		],
 		"requiredTech": "Engineering"
 	},
@@ -502,7 +501,7 @@
 		"hurryCostModifier": 50,
 		"Cost":300,
 		"maintenance": 3,
-		"happiness": 3,
+		"happiness": 2,
 		"cityStrength": 2,
 		"cityHealth": 10,
 		"uniques": [
@@ -535,7 +534,7 @@
 		"hurryCostModifier": 20,
 		"Cost":90,
 		"maintenance": 1,
-		"happiness": 2,
+		"happiness": 1,
 		"cityHealth": 50,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>",
@@ -552,7 +551,7 @@
 		"maintenance": 3,
 		"cityStrength": 3,
 		"cityHealth": 100,
-		"happiness": 3,
+		"happiness": 1,
 		"hurryCostModifier": 25,
 		"Cost": 300,
 		"uniques": [
@@ -568,7 +567,7 @@
 		"name": "Walls",
 		"requiredBuilding": "Palisade",
 		"hurryCostModifier": 35,
-		"happiness": 2,
+		"happiness": 1,
 		"cityStrength": 2,
 		"cityHealth": 200,
 		"cost": 120,
@@ -589,7 +588,7 @@
 		"hurryCostModifier": 35,
  		"cost": 100,
 		"maintenance": 0,
-		"happiness": 3,
+		"happiness": 2,
 		"culture": 1,
 		"cityStrength": 3,
 		"cityHealth": 200,
@@ -608,7 +607,7 @@
 		"requiredBuilding": "Walls",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"happiness": 2,
+		"happiness": 1,
  		"cost": 120,
 		"gold": 1,
 		"cityHealth": 100,
@@ -632,7 +631,7 @@
 		"hurryCostModifier": 25,
  		"cost": 100,
 		"maintenance": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"culture": 2,
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [ 
@@ -650,7 +649,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"cost": 100,
-		"happiness": 2,
+		"happiness": 1,
 		"culture": 2,
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Entertainment",
@@ -671,7 +670,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"culture": 2,
-		"happiness": 3,
+		"happiness": 2,
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Entertainment",
 		"uniques": [
@@ -691,7 +690,7 @@
 		"cost": 100,
 		"maintenance": 2,
 		"culture": 2,
-		"happiness": 3,
+		"happiness": 2,
 		"greatPersonPoints": {"General":1},		
 		"requiredTech": "Entertainment",
 		"uniques": [
@@ -714,7 +713,7 @@
  		"cost": 50,
 		"maintenance": 1,
 		"culture": 1,
-		"happiness": 2,
+		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>",
@@ -788,7 +787,7 @@
 		"requiredTech": "Private Estates",
 		"cost": 160,
 		"maintenance": 5,
-		"happiness": 3,
+		"happiness": 2,
 		"uniques": [   
 			"Comment [-Invest in sanitation… or don’t. The PLAGUEs will happily invest in you.]",
 			"Only available <in cities with a [Urban Fabric III]>",
@@ -803,7 +802,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"culture": 2,
-		"happiness": 2,
+		"happiness": 1,
 		"cost": 100,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
@@ -824,7 +823,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"cost": 100,
-		"happiness": 2,
+		"happiness": 1,
 		"Food": 1,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]>",
@@ -844,7 +843,7 @@
 		"name": "School",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"happiness": 2,
+		"happiness": 1,
 		"cost": 80,
 		"culture": 1,
 		"specialistSlots": {"Scholar": 1},
@@ -1023,7 +1022,7 @@
 	},
 	{
 		"name": "Mint",
-		"happiness": 3,
+		"happiness": 2,
  		"cost": 200,
 		"requiredNearbyImprovedResources": ["Gold Ore","Silver","Copper"],
 		"hurryCostModifier": 35,
@@ -1184,7 +1183,7 @@
 	{
 		"name": "Amber Road",
 		"hurryCostModifier": 25,
-		"happiness": 2,
+		"happiness": 1,
 		"gold": 2,
 		"cost": 120,
 		"specialistSlots": {"Merchants": 1},
@@ -1277,7 +1276,7 @@
 		"maintenance": 2,
 		"cityHealth": 50,
 		"science": 1,
-		"happiness": 2,
+		"happiness": 1,
  		"cost": 30,
 		"uniques": [
 			"Must be next to [Coast]",
@@ -1431,7 +1430,7 @@
 		"cost": 100,
 		"requiredNearbyImprovedResources": ["Herbs","Hemp","Honey","Citrus"],
 		"maintenance": 2,
-		"happiness": 2,
+		"happiness": 1,
 		"science": 1,
 		"cityHealth": 10,
 		"uniques": [ 
@@ -1677,7 +1676,7 @@
 	{
 		"name": "Glazier",
 		"hurryCostModifier": 25,
-		"happiness": 2,
+		"happiness": 1,
  		"cost": 100,
 		"uniques": [
 			"Provides [1] [Glass]",
@@ -1746,7 +1745,7 @@
 		"uniqueTo": "The Arverni",
 		"cost": 120,
 		"hurryCostModifier": 25,
-		"happiness": 2,
+		"happiness": 1,
 		"culture": 1,
 		"gold": 6,
 		"uniques": [
@@ -1783,7 +1782,7 @@
 		"name": "Noble District",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
-		"happiness": 4,
+		"happiness": 3,
 		"cityHealth": 50,
  		"cost": 150,
 		"specialistSlots": {"Courtesan": 1},
@@ -2037,7 +2036,7 @@
 	{
 		"name": "Circus Maximus",
 		"requiredBuilding": "Arena",
-		"happiness": 3,
+		"happiness": 2,
 		"culture": 2,
 		"cost": 800,
 		"isWonder": true,
@@ -2056,7 +2055,7 @@
 		"name": "The Oracle of Amun",
 		"cost": 600,
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"greatPersonPoints": {"Great Prophet": 1},
 		"isWonder": true,
 		"uniques": [
@@ -2068,7 +2067,7 @@
 		"name": "The Oracle of Dodona",
 		"cost": 600,
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"greatPersonPoints": {"Great Prophet": 1},
 		"isWonder": true,
 		"uniques": [
@@ -2082,7 +2081,7 @@
 		"cost": 600,
 		"culture": 1,
 		"gold": 3,
-		"happiness": 3,
+		"happiness": 2,
 		"greatPersonPoints": {"Great Prophet": 1},
 		"isWonder": true,
 		"uniques": [
@@ -2095,7 +2094,7 @@
 		"name": "Parthenon",
 		"cost": 600,
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"cityHealth": 40,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scholar": 1},
@@ -2109,7 +2108,7 @@
 		"name": "Temple of Artemis",
 		"cost": 600,
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": [
@@ -2140,7 +2139,7 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"food": 3,
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"isWonder": true,
 		"uniques": [
 			"Provides [2] [Mercenary (Mesopotamian)]",
@@ -2156,7 +2155,7 @@
 		"name": "The Great Lighthouse",
 		"cost": 600,
 		"culture": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
@@ -2171,7 +2170,7 @@
 		"cost": 600,
 		"culture": 1,
 		"gold": 6,
-		"happiness": 3,
+		"happiness": 2,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
@@ -2212,7 +2211,7 @@
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
 			"Comment ['The situation remains unstable, it may stablize on it own or not, which is politician language for someone is about to die. A garrison will help reduces unrest. Armed supervision remains one of civilization’s oldest hobbies.']",
-			"[-1 Food, -1 Gold] from [improved] tiles [in this city]",
+			"[-2 Gold] from [improved] tiles [in this city]",
 			"[2] [Angry Mob]s rebel <upon turn end> <with [30]% chance> <hidden from users>",
 			"[1] [Spearman]s rebel <upon turn end> <with [20]% chance> <starting from the [Classical Age]> <hidden from users>",
 			"[1] [Skirmisher]s rebel <upon turn end> <with [20]% chance> <starting from the [Classical Age]> <hidden from users>",
@@ -2331,7 +2330,7 @@
 		"name": "National Treasury",
 		"requiredBuilding": "Mint",
 		"gold": 10,
-		"happiness": 2,
+		"happiness": 1,
 		"culture": 1,
 		"isNationalWonder": true,
 		"specialistSlots": {"Merchants": 2},
@@ -2393,7 +2392,7 @@
 		"requiredBuilding": "Temple",
 		"culture": 2,
 		"faith": 5,
-		"happiness": 2,
+		"happiness": 1,
 		"cost": 1000,
 		"specialistSlots": {"Priest": 1},
 		"uniques": [
@@ -2401,6 +2400,8 @@
 			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
 			"Requires at least [20] population",
 			"Consumes [2] [Decadence]",
+			"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
+			"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 			"[+2 Production] <after adopting [Seal of Heaven]>",
 			"[+1 Gold] <after adopting [Seal of Heaven]>",
 			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
@@ -2467,6 +2468,8 @@
 			"[+10]% XP gained from combat <for [Military] units> <when above [5] [Veteran]>",
 			"[+10]% XP gained from combat <for [Military] units> <when above [3] [Veteran]>",
 			"Provides [1] [Veteran]",
+			"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
+			"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 			"[+1 Happiness, -1 Food] from [Village] tiles [in this city]",
 			"[+1 Production, +1 Happiness, +1 Culture] from [Fort] tiles [in this city]",
 			"Limited to [1] per Civilization",
@@ -2487,6 +2490,7 @@
 		"uniques": [ 
 			"Only available <in cities with a [Urban Fabric IV]>",
 			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
+			"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
                    	"[King] units gain the [Improved Armor] promotion", 
                    	"[General] units gain the [Improved Armor] promotion",
                   	"[Infantry Shield III] units gain the [Improved Armor] promotion",
@@ -2502,7 +2506,7 @@
 		"cost": 0,
 		"faith": 2,
 		"culture": 3,
-		"happiness": 2,
+		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
 			"Consumes [1] [Decadence]",
@@ -2552,7 +2556,7 @@
 		"cost": 0,
 		"culture": 3,
 		"faith": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"uniques": [
 			"Consumes [1] [Decadence]",
 			"[+1 Faith] from [Village] tiles [in this city]",
@@ -2643,6 +2647,7 @@
 		"Provides [4] [Manpower]",
 		"Provides [4] [Manpower] <starting from the [Hellenistic Age]>",
 		"Comment [+1 Worker limit]",
+		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 		"Only available <in [Capital] cities>",
 		"Unavailable <if [Administrative Estates] is constructed>"
 		"Unavailable <if [Hall of Veterans] is constructed>"
@@ -2653,12 +2658,13 @@
 {
 	"name": "Administrative Estates",
 	"cost": 200,
-	"happiness": 2,
+	"happiness": 1,
 	"specialistSlots": {"Merchants": 1},
 	"isNationalWonder": true,
 	"uniques": [
 		"Provides [1] [Nobles]",
 		"Provides [1] [Nobles] <when not at war>",
+		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 		"Unavailable <if [Manpower Office] is constructed>"
 		"Unavailable <if [Hall of Veterans] is constructed>"
 		"Moves to new capital when capital changes",
@@ -2675,6 +2681,7 @@
 
 	"uniques": [
 		"Provides [1] [Veteran]",
+		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
         	"[+1] XP gained from combat <for [Skirmisher] units>",
         	"[+1] XP gained from combat <for [{Melee} {Land}] units> <when above [1] [Veteran]>",
 		"Unavailable <if [Administrative Estates] is constructed>"
@@ -2689,7 +2696,8 @@
 	"isNationalWonder": true,
 	"uniques": [
 		"Consumes [1] [Nobles]",
-		"Consumes [2] [Rebel Risk]",
+		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
+		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 		"Consumes [2] [Rebel Risk] <during a Golden Age>",
 		"[+1 Food, -1 Gold] [in all cities]",
 		"Moves to new capital when capital changes","Unbuildable","Unsellable",
@@ -3252,7 +3260,7 @@
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]",
       			"[-1 Food, -1 Happiness] [in all cities]",
-			"[+1 Gold, -1 Happiness] [in this city] <in cities with a [Granary]>",
+			"[+1 Gold] [in all cities] <in cities with a [Granary]>",
       			"Unbuildable",
 			"Unsellable",
 			"Moves to new capital when capital changes",
@@ -3317,10 +3325,11 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [From caravan city to imperial court in a decade. Administration lagged behind conquest. Governors improvised. Taxes vanished somewhere between Syria and Egypt.]",
-        		"[-4 Happiness] [in all cities]",
         		"[+50]% maintenance costs <for [Military] units>",
       			"[+100]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
 			"[+20]% unhappiness from the number of cities",
+      			"[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
+      			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
 			"Moves to new capital when capital changes",
         		"Unbuildable",
         		"Unsellable"
@@ -3336,8 +3345,8 @@
         		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
 			"[-20]% Production when constructing [Military] units [in all cities]",
         		"[-3 Happiness] [in all cities]",
-			"[-3 Gold, -2 Happiness] [in this city] <in cities with a [Market]>",
-			"[+2 Gold, -1 Happiness, -1 Food] [in this city] <in cities with a [Walls]>",
+			"[-3 Gold, -2 Happiness] [in all cities] <in cities with a [Market]>",
+			"[+2 Gold, -1 Happiness, -1 Food] [all cities] <in cities with a [Walls]>",
 			"Moves to new capital when capital changes",
         		"Unbuildable",
         		"Unsellable"
@@ -3372,7 +3381,7 @@
         		"[-10]% Strength <for [Military] units> <when fighting in [Enemy Land] tiles>",
         		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
         		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
-			"[-5 Gold, -2 Happiness] [in this city] <in cities with a [Market]>",
+			"[-5 Gold, -2 Happiness] [in all cities] <in cities with a [Market]>",
         		"[-3 Happiness] [in all cities]",
 			"[+20]% unhappiness from the number of cities",
         		"Unbuildable",
@@ -3407,8 +3416,10 @@
         		"[-2 Happiness, -1 Food, -5 Gold] [in all cities]",
         		"[+50]% maintenance costs <for [Military] units>",
         		"[-10]% growth [in all cities]",
-			"[-1 Food, -2 Happiness] [in this city] <in cities with a [Barracks]>",
+			"[-1 Food, -2 Happiness] [all cities] <in cities with a [Barracks]>",
 			"Consumes [30] [Manpower]",
+      			"[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
+      			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
         		"Unbuildable",
         		"Unsellable",
 			"Moves to new capital when capital changes",
@@ -3511,7 +3522,7 @@
     		"maintenance": 0,
 		"specialistSlots": {"Engineer": 1},
     		"uniques": [
-			"Provides [2] [Iron]",
+			"Provides [1] [Iron]",
 			"[+5 Happiness] [in capital] <when at war>"
 			"Unsellable",
       			"Unbuildable",
@@ -3549,7 +3560,7 @@
     		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
-			"Provides [3] [Horses]",
+			"Provides [2] [Horses]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",

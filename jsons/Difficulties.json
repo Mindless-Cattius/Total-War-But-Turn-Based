@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Settler",
+		"name": "Noob",
 		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 0.9,
@@ -126,7 +126,7 @@
 		"buildingCostModifier": 1,
 		"policyCostModifier": 1,
 		"unhappinessModifier": 1,
-		"barbarianBonus": 0.25,
+		"barbarianBonus": 0.2,
 		"barbarianSpawnDelay": 1,
 		"playerBonusStartingUnits": ["Skirmisher","King"],
 		"aiCityGrowthModifier": 0.9,
@@ -155,7 +155,7 @@
 		"buildingCostModifier": 1,
 		"policyCostModifier": 1,
 		"unhappinessModifier": 1,
-		"barbarianBonus": 0.3,
+		"barbarianBonus": 0.1,
 		"barbarianSpawnDelay": 1,
 		"playerBonusStartingUnits": ["Skirmisher","King"],
 		"aiCityGrowthModifier": 0.85,

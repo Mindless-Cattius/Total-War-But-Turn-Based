@@ -263,7 +263,6 @@
  	"[+20]% Strength <vs [Infantry Shield III] units> <when attacking>",
  	"[+30]% Strength <vs [Siege] units> <when attacking>",
 	"[+300]% Strength <vs cities> <when attacking>",
-	"Unavailable <after adopting [Nomad Culture]> <before the [Imperial Age]> <hidden from users>",
 	"Consumes [3] [Manpower]",
 	"Consumes [2] [Timber]",
 	"Never appears as a Barbarian unit",
@@ -286,12 +285,13 @@
 		"Comment [Battlefield commander, give bounus to nearby units]",
 		"[+20]% Strength <during the [Imperial Age]>",
 		"[+100]% production cost <during the [Imperial Age]>",
-                "Can upgrade to [Consul] <for units with [Successor]> <after adopting [Manipular Legion]> <before adopting [Empire]>",
+                "Can upgrade to [Consul] <for units with [Successor]> <after adopting [Manipular Legions]> <before adopting [Empire]>",
                 "Can upgrade to [King] <for units with [Successor]> <before adopting [Empire]>",
                 "Can upgrade to [Emperor] <for units with [Successor]> <after adopting [Empire]>",
       		"Consumes [1] [Nobles]",
       		"Great Person - [War]",
                 "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
+                "Unavailable <after adopting [Nomad Culture]> <hidden from users>"
     ],
     "promotions": [
 	"Commander",
@@ -314,9 +314,10 @@
     		"Consumes [1] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
       		"Only available <before adopting [Empire]> <hidden from users>",
-       		"[This Unit] is destroyed <after adopting [Manipular Legion]> <hidden from users>"
-       		"[This Unit] is destroyed <after adopting [Empire]> <hidden from users>"
-      		"Only available <before adopting [Manipular Legion]> <hidden from users>",
+       		"[This Unit] is destroyed <after adopting [Manipular Legions]> <hidden from users>",
+       		"[This Unit] is destroyed <after adopting [Empire]> <hidden from users>",
+      		"Unavailable <after adopting [Manipular Legions]> <hidden from users>",
+                "Unavailable <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
 	      "Commander",
@@ -339,7 +340,7 @@
     		"Consumes [2] [Ruler]",
 		"Remove [A Noble's Death] [in all cities]",
 		"Cannot be purchased",
-                "Unavailable <for [The Scythians] Civilizations> <hidden from users>"
+                "Unavailable <after adopting [Nomad Culture]> <hidden from users>"
     ],
     "promotions": [
 	"Commander",
@@ -380,7 +381,7 @@
     "strength": 15,
     "cost": 90,
     "uniques": [
-      		"Only available <after adopting [Manipular Legion]> <hidden from users>",
+      		"Only available <after adopting [Manipular Legions]> <hidden from users>",
       		"Unavailable <after adopting [Empire]> <hidden from users>",
 		"Can only be built <in [Capital] cities>",
 		"[+10]% Strength <during the [Imperial Age]>",
@@ -398,10 +399,8 @@
     "attackSound": "horse"
   },
   {
-    "name": "Scythian King",
+    "name": "Nomad King",
     "unitType": "Ruler",
-    "uniqueTo": "The Scythians",
-    "replaces": "King",
     "movement": 3,
     "strength": 11,
     "rangedStrength": 9,
@@ -417,6 +416,7 @@
 		"Remove [A Noble's Death] [in all cities]",
       		"Never appears as a Barbarian unit",
 		"Cannot be purchased",
+                "Only available <after adopting [Nomad Culture]> <hidden from users>"
       		"[+10]% Strength <when defending> <after adopting [Empire]> <hidden from users>",
     ],
     "promotions": [
@@ -427,9 +427,7 @@
     "attackSound": "arrow"
   },
   {
-    "name": "Scythian Nobles",
-    "uniqueTo": "The Scythians",
-    "replaces": "General",
+    "name": "Nomad Nobles",
     "unitType": "Generals",
     "movement": 3,
     "strength": 11,
@@ -438,7 +436,8 @@
     "uniques": [
  	"Comment [Elite medium horse archer, have strong range attack, small withdraw chance]",
       	"Only available <in cities with a [Cavalry Barracks]>",
-        "Can upgrade to [Scythian King] <for units with [Successor]>",
+        "Can upgrade to [Nomad King] <for units with [Successor]>",
+                "Only available <after adopting [Nomad Culture]> <hidden from users>"
       	"Consumes [1] [Nobles]",
     ],
     "promotions": [
@@ -1547,7 +1546,7 @@
       		"Consumes [3] [Manpower]",
        		"Consumes [1] [Iron]",
       		"Unbuildable <after discovering [Infantry Training]>",
-            	"[This Unit] gets a name from the [Legion] group <hidden from users>",
+            	"[This Unit] gets a name from the [Legions] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -1572,7 +1571,7 @@
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
       	"Only available <with [Enable Legion]> <hidden from users>",
-        "[This Unit] gets a name from the [Legion] group <hidden from users>",
+        "[This Unit] gets a name from the [Legions] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -3020,7 +3019,7 @@
 	"Can build [Remove Forest] improvements on tiles",
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
-            "[This Unit] gets a name from the [Legion] group <hidden from users>",
+            "[This Unit] gets a name from the [Legions] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -3068,7 +3067,7 @@
 	"Can build [Remove Forest] improvements on tiles",
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
-            "[This Unit] gets a name from the [Legion] group <hidden from users>",
+            "[This Unit] gets a name from the [Legions] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -3136,7 +3135,7 @@
 	"Can build [Remove Forest] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
-            "[This Unit] gets a name from the [Legion] group <hidden from users>",
+            "[This Unit] gets a name from the [Legions] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -3162,7 +3161,7 @@
 	"[+2] XP gained from combat",
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
-            "[This Unit] gets a name from the [Legion] group <hidden from users>",
+            "[This Unit] gets a name from the [Legions] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
