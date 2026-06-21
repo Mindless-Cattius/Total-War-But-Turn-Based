@@ -20,7 +20,7 @@ UnitIcons/Anatolian Tribesman
   index: -1
 UnitIcons/Angry Mob
   rotate: false
-  xy: 1695, 534
+  xy: 1660, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -62,7 +62,7 @@ UnitIcons/Armored Horse Archer
   index: -1
 UnitIcons/Athenian Hoplite
   rotate: false
-  xy: 868, 189
+  xy: 1084, 513
   size: 74, 71
   orig: 74, 71
   offset: 0, 0
@@ -76,70 +76,70 @@ UnitIcons/Balearic Slinger
   index: -1
 UnitIcons/Barbarian Archer
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Cavalry
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Heavy Spearman
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Heavy Swordsman
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Horse Archer
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Horseman
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Pike Phalanx
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Slinger
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Spearman
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitIcons/Barbarian Swordsman
   rotate: false
-  xy: 1753, 534
+  xy: 1718, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -160,7 +160,7 @@ UnitIcons/Battering Ram
   index: -1
 UnitIcons/Berserkers
   rotate: false
-  xy: 1811, 534
+  xy: 1776, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -174,7 +174,7 @@ UnitIcons/Camel Archer
   index: -1
 UnitIcons/Camel Cavalry
   rotate: false
-  xy: 1191, 520
+  xy: 1948, 864
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -244,7 +244,7 @@ UnitIcons/Clibanarii
   index: -1
 UnitIcons/Club Levy
   rotate: false
-  xy: 1869, 534
+  xy: 1834, 534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -314,7 +314,7 @@ UnitIcons/Desert Legion
   index: -1
 UnitIcons/Eagle Cohort
   rotate: false
-  xy: 976, 306
+  xy: 868, 198
   size: 73, 62
   orig: 73, 62
   offset: 0, 0
@@ -447,7 +447,7 @@ UnitIcons/Scythian Nobles
   index: -1
 UnitIcons/Gladiator
   rotate: false
-  xy: 1948, 864
+  xy: 1166, 520
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -538,7 +538,7 @@ UnitIcons/Hoplite
   index: -1
 UnitIcons/Horse Archer
   rotate: false
-  xy: 1084, 484
+  xy: 976, 376
   size: 99, 100
   orig: 99, 100
   offset: 0, 0
@@ -566,7 +566,7 @@ UnitIcons/Hyrcanian Axeman
   index: -1
 UnitIcons/Iberian Heavy Lancer
   rotate: false
-  xy: 868, 117
+  xy: 868, 126
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -601,7 +601,7 @@ UnitIcons/Immortals
   index: -1
 UnitIcons/Imperial Velite
   rotate: false
-  xy: 1263, 520
+  xy: 1948, 792
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -713,7 +713,7 @@ UnitIcons/Naked Warriors
   index: -1
 UnitIcons/Molossian Hoplite
   rotate: false
-  xy: 1948, 792
+  xy: 1238, 520
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -748,7 +748,7 @@ UnitIcons/Noble Hoplite
   index: -1
 UnitIcons/Noble Riders
   rotate: false
-  xy: 1335, 520
+  xy: 868, 54
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -776,7 +776,7 @@ UnitIcons/Numidian Mercenary
   index: -1
 UnitIcons/Numidian Raiders
   rotate: false
-  xy: 1407, 520
+  xy: 1310, 520
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -867,14 +867,14 @@ UnitIcons/Sacred Band
   index: -1
 UnitIcons/Savaran Sardar
   rotate: false
-  xy: 1479, 520
+  xy: 1382, 520
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 UnitIcons/Scholae Palatinae
   rotate: false
-  xy: 1084, 409
+  xy: 976, 301
   size: 67, 67
   orig: 67, 67
   offset: 0, 0
@@ -902,7 +902,7 @@ UnitIcons/Siege Tower
   index: -1
 UnitIcons/Silver Shield
   rotate: false
-  xy: 1551, 520
+  xy: 1454, 520
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -972,7 +972,7 @@ UnitIcons/The Goat
   index: -1
 UnitIcons/Theban Hoplite
   rotate: false
-  xy: 868, 53
+  xy: 1598, 528
   size: 54, 56
   orig: 54, 56
   offset: 0, 0
@@ -1028,7 +1028,7 @@ UnitIcons/Thureophoros2
   index: -1
 UnitIcons/Triarii
   rotate: false
-  xy: 1623, 520
+  xy: 1526, 520
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -1040,30 +1040,23 @@ UnitIcons/Trihemiola
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Trireme
+UnitIcons/War Chariot
   rotate: false
   xy: 868, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/War Chariot
+UnitIcons/War Elephant
   rotate: false
   xy: 976, 484
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/War Elephant
-  rotate: false
-  xy: 868, 268
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Work Boats
   rotate: false
-  xy: 976, 376
+  xy: 868, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
