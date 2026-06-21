@@ -3473,7 +3473,7 @@
     		"uniques": [
 			"Provides [1] [Timber]",
 			"Provides [1] [Iron]",
-			"Provides [2] [Horses]",
+			"Provides [1] [Horses]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
