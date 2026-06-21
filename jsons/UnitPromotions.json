@@ -1404,8 +1404,6 @@
 			"[+70]% Strength <when attacking> <vs [Archery] units>",
 			"[-10]% Strength <when fighting in [Rough terrain] tiles>",
 			"[-10]% Strength <when fighting in [Hill] tiles>",
-                	"[+10]% Strength <when defending> <after adopting [Latin Culture]>",
-                	"[-15]% Strength <when attacking> <after adopting [Latin Culture]>",
 			"No defensive terrain bonus",
 			"Withdraws before melee combat <with [5]% chance>",
 		]
