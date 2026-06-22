@@ -290,6 +290,62 @@
 		],
 		"cities": ["Pella","Aegae","Bergina","Beroiea","Edessa","Europos","Aiane","Lynkestis","Kassandreia","Philippoi","Philipoupolis","Alexandreia","Thessalonike","Dion","Pydna"]
 	},
+	{
+	"name": "The Bactrians",
+	"personality": "Merchant",
+	"leaderName": "Demetrios",
+	"adjective": ["Bactrian"],
+	"startBias": ["River","Plains","Hills"],
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Olympianism",
+
+	"startIntroPart1": "Far from the old centers of power, we built a kingdom where caravans, cavalry, and ambition met at the edge of the known world.",
+	"startIntroPart2": "Rule a prosperous frontier realm between east and west. Enrich your cities through trade, master the open plains, and prove that distance from empire can become strength.",
+
+	"declaringWar": "The frontier expands once more.",
+	"attacked": "You attack us? Distance has discouraged greater powers than you.",
+	"defeated": "The kingdom falls. Yet the roads remain, and new kingdoms will follow them.",
+	"introduction": "Greetings. We stand where merchants, settlers, and conquerors cross paths, each convinced they are making history.",
+	"neutralHello": "Welcome. Trade has made many friends and a few enemies. Usually the richer kind.",
+	"hateHello": "You return. We had hoped distance might improve your judgment.",
+	"tradeRequest": "Let us trade. Caravans tend to produce better profits than armies.",
+
+	"outerColor": [91,145,79],
+	"innerColor": [255,240,180],
+	"style": "Hellenistic",
+	"uniqueName": "The Thousand Cities",
+	"uniques": [
+    		"Starts with [Hellenistic Culture] adopted",
+    		"Comment [STRENGTH: Prosperous trade routes, wealthy frontier cities, strong cavalry, cultural exchange.]",
+    		"[+3 Gold, +1 Culture, +1 Happiness] from each Trade Route",
+    		"[+3 Gold, +1 Culture, +1 Happiness] [in capital] <when not at war>",
+    		"[+2 Gold] [in all cities] <when not at war>",
+    		"[+1 Gold, +1 Culture] from [Village] tiles [in all cities]",
+    		"[+2 Gold, +1 Happiness] from [Trading post] tiles [in all cities]",
+    		"[+1 Gold] from [improved] tiles [in capital]",
+    		"[+15]% Production when constructing [Mounted] units [in all cities]",
+    		"[+10]% Production when constructing [Mounted Archery] units [in all cities]",
+    		"[+10]% Production when constructing [Elephant] units [in all cities]",
+    		"[+10]% Production when constructing [Spear] units [in all cities]",
+    		"[+10]% Strength <for [Mounted] units> <when fighting in [Open terrain] tiles>",
+    		"[+1 Happiness, +1 Culture] from [Horses] tiles [in all cities]",
+    		"Provides [1] [Enable Horse Archer]",
+    		"Provides [1] [Enable Armored Elephant]",
+    		"Provides [1] [Enable Armored Horse Archer] <starting from the [Hellenistic Age]>",
+   		"Comment []",
+    		"Comment [WEAKNESS: Frontier instability, expensive administration, vulnerable borders, Weak Defensive Infantry.]",
+    		"[-10]% Strength <when defending> <for [Sword] units>",
+    		"[-10]% Strength <when defending> <for [Spear] units>",
+    		"[+30]% maintenance costs <for [all] units>",
+    		"[+30]% maintenance costs <for [all] units> <when fighting in [Enemy Land] tiles>",
+    		"[Gold] cost of purchasing [all] units [+15]%",
+    		"[Gold] cost of purchasing [all] buildings [+15]%",
+    		"Provides [2] [Rebel Risk] <when at war>"
+],
+"cities": [
+"Bactra","Eucratideia","Demetrias","Nikaia","Kapisa","Marakanda","Sogdiana","Termez","Nautaka","Margiana","Prophthasia","Alexandria Arachosia","Alexandria Eschate","Alexandria Oxiana","Ai-Khanoum"
+]
+},
 
 								//EASTERN CULTURE CIVS
 
@@ -1074,7 +1130,7 @@
 		"Comment [WEAKNESS: Weak Offensive Cavalry, unstable expansion and high logistical strain outside homeland.]",
 		"[-10]% Strength <for [Mounted] units> <when attacking>",
    		"[+10]% unhappiness from the number of cities",
-    		"[-15]% Production when constructing [all] buildings [in all cities]",
+    		"[-10]% Production when constructing [all] buildings [in all cities]",
 		"[+30]% maintenance costs <for [all] units> <when fighting in [Enemy Land] tiles>",
     		"Provides [2] [Rebel Risk] <when not at war>",
 	],
@@ -1083,6 +1139,65 @@
 		"Lugidunum","Alamannia","Buri","Naristi","Langobardia",
 		"Chatti","Cherusca","Boihaemum","Noricum","Avaria"
 	]
+},
+{
+  	"name": "The Cimbrians",
+  	"personality": "Warrior",
+  	"leaderName": "Boiorix",
+  	"adjective": ["Cimbri", "Cimbrian"],
+  	"startBias": ["Plains", "Hills", "Avoid [Desert]"],
+  	"preferredVictoryType": "Domination",
+  	"favoredReligion": "Paganism",
+
+  	"startIntroPart1": "We did not come to test your borders. We came because they were there.",
+  	"startIntroPart2": "Lead the great migrating host of the Cimbri. Every victory is another step forward, and every settlement is just a place we have not taken yet.",
+  	"declaringWar": "We are already on the move. Your resistance is irrelevant.",
+  	"attacked": "You strike the migration? Then you will be walked over twice.",
+  	"defeated": "Even defeat travels with us. We will return elsewhere.",
+  	"introduction": "We are the Cimbri. Our people are not bound to land, only direction.",
+  	"neutralHello": "Speak quickly. We do not stay still for long.",
+  	"hateHello": "You delay us. That is your worst mistake.",
+  	"tradeRequest": "Trade is acceptable. It moves faster than war, sometimes.",
+
+  	"outerColor": [30, 30, 35],
+  	"innerColor": [210, 210, 210],
+  	"style": "Germanic",
+  	"uniqueName": "Great Migration Host",
+  	"uniques": [
+    		"Starts with [Germanic Culture] adopted",
+    		"Comment [STRENGTH: Strong invasion momentum, high mobility in enemy territory, profitable raiding campaigns, durable melee warbands.]",
+		"[+1] Movement <for [Swordsman] units> <when fighting in [Enemy Land] tiles>",
+		"[+1] Movement <for [Spearman] units> <when fighting in [Enemy Land] tiles>",
+    		"[+10]% Strength <for [Swordsman] units> <when attacking>",
+    		"[+10]% Strength <for [Spearman] units> <when attacking>",
+		"Heals [15] damage if it kills a unit <for [Swordsman] units> <when fighting in [Enemy Land] tiles>",
+		"Heals [15] damage if it kills a unit <for [Spearman] units> <when fighting in [Enemy Land] tiles>",
+    		"Earn [50]% of killed [{Melee} {Land}] unit's [Strength] as [Gold] <when fighting in [Enemy Land] tiles>",
+    		"Earn [20]% of killed [{Melee} {Land}] unit's [Strength] as [Faith] <when fighting in [Enemy Land] tiles>",
+    		"[+15]% Production when constructing [Sword] units [in all cities]",
+    		"[+15]% Production when constructing [Spear] units [in all cities]",
+    		"[+10]% Production when constructing [Sword] units [in all cities] <before the [Hellenistic Age]>",
+    		"[+10]% Production when constructing [Spear] units [in all cities] <before the [Hellenistic Age]>",
+    		"[+10]% Production when constructing [Sword] units [in all cities] <before the [Imperial Age]>",
+    		"[+10]% Production when constructing [Spear] units [in all cities] <before the [Imperial Age]>",
+    		"[+15]% Yield from pillaging tiles <for [{Military} {Land}] units>",
+    		"[+10]% Health from pillaging tiles <for [{Military} {Land}] units>",
+    		"[+1 Food, +1 Gold] from [Camp] tiles [in all cities]",
+		"[-100]% maintenance costs <for [all] units> <when fighting in [Enemy Land] tiles>",
+    		"Comment []",
+    		"Comment [WEAKNESS: Weak urban stability, poor infrastructure, difficulty holding territory long-term.]",
+    		"Cannot build [Walls] buildings <before the [Imperial Age]>",
+    		"[-10]% Production when constructing [all] buildings [in all cities]",
+    		"[-25]% Production when constructing [Siege] units [in all cities]",
+    		"[-10]% Science cost of researching new Technologies",
+    		"[+10]% unhappiness from the number of cities",
+    		"[-15]% Strength <for [Siege] units> <when attacking>",
+    		"Provides [3] [Rebel Risk] <when not at war>",
+  ],
+
+  "cities": [
+    "Cimbrorum","Himmerland","Jutlandia","Teutoburgum","Aarhusia","Skagania","Rugiland","Nordmark","Vindelicia","Alemannic Outskirts"
+  ]
 },
 
 					///HELLENIC CULTURE CIV
