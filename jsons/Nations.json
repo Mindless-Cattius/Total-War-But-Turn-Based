@@ -175,8 +175,8 @@
         "hateHello": "You again. Some mistakes really do repeat themselves.",
         "tradeRequest": "Let us trade. Prosperity is far less expensive than warfare."
 
-		"outerColor": [10,39,117],
-		"innerColor": [255,255,255],
+		"outerColor": [10, 39, 117],
+		"innerColor": [245, 73, 39],
 		"style": "Hellenistic",
 		"uniqueName": "The Treasury of Lysimachos",
 		"uniques": [
@@ -310,8 +310,8 @@
 	"hateHello": "You return. We had hoped distance might improve your judgment.",
 	"tradeRequest": "Let us trade. Caravans tend to produce better profits than armies.",
 
-	"outerColor": [91,145,79],
-	"innerColor": [255,240,180],
+	"outerColor": [104, 17, 125],
+	"innerColor": [227, 16, 45],
 	"style": "Hellenistic",
 	"uniqueName": "The Thousand Cities",
 	"uniques": [
@@ -1159,8 +1159,8 @@
   	"hateHello": "You delay us. That is your worst mistake.",
   	"tradeRequest": "Trade is acceptable. It moves faster than war, sometimes.",
 
-  	"outerColor": [30, 30, 35],
-  	"innerColor": [210, 210, 210],
+  	"outerColor": [26, 7, 4],
+  	"innerColor": [219, 202, 9],
   	"style": "Germanic",
   	"uniqueName": "Great Migration Host",
   	"uniques": [
