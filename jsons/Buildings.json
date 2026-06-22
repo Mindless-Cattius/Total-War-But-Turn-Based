@@ -1704,14 +1704,13 @@
 		"name": "Camel Stable",
 		"requiredNearbyImprovedResources": ["Camels"],
 		"hurryCostModifier": 25,
-		"cost": 60,
+		"cost": 70,
 		"maintenance": 0,
 		"gold": 2,
 		"uniques": [ 
-			"Only available <in cities with a [Urban Fabric II]> <in cities with a [Spice Road]>"
-            		"[Camel Archer] units gain the [Camels Scare Horses] promotion",
+			"Only available <in cities with a [Urban Fabric II]> <in cities with a [Spice Road]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
-			"[+1 Production] from [Village] tiles [in this city]",
+			"[+1 Gold] from [Village] tiles [in this city]",
 			"Cost increases by [3] per owned city",
 		]
 		"requiredTech": "Barter"
