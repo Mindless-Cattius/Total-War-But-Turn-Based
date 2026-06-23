@@ -22,8 +22,8 @@
     {
         "name": "Classical Age",
         "researchAgreementCost": 150,
-        "startingSettlerCount": 3,
-        "startingWorkerCount": 3,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 1,
         "startingMilitaryUnit": "Spearman",
         "startingGold": 3000,
@@ -40,8 +40,8 @@
     {
         "name": "Hellenistic Age",
         "researchAgreementCost": 250,
-        "startingSettlerCount": 4,
-        "startingWorkerCount": 3,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 1,
         "startingMilitaryUnit": "Spearman",
         "startingGold": 5000,

@@ -536,7 +536,7 @@
                 "Remove [PLAGUE] [in all cities]",
                 "Remove [DANGEROUS PLAGUE] [in all cities] <with [10]% chance>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <upon turn end> <with [3]% chance>",
-                "Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [20]% chance> <hidden from users>",
                 "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
         },
@@ -727,7 +727,7 @@
             "[+1 Happiness, +1 Faith, +1 Culture] [in all cities] <for [5] turns>",
             "Remove [PLAGUE] [in all cities]",
             "Remove [DANGEROUS PLAGUE] [in all cities]",
-            "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+            "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance> <hidden from users>",
             "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
         ]
     },
@@ -763,7 +763,7 @@
             "[-2 Gold, -2 Food, -1 Production, +4 Faith] [in all cities] <for [5] turns>",
             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
-            "Free [Great Prophet] appears <with [30]% chance>",
+            "Free [Great Prophet] appears <for [Human player] Civilizations> <with [30]% chance>",
             "Instantly provides [1] [SE] <when below [10] [SE]> <with [20]% chance> <hidden from users>"
         ]
     }
@@ -831,7 +831,7 @@
                             "[+2 Happiness, +2 Faith, +1 Culture] [in all cities] <for [5] turns>",
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
-                            "Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
+                            "Free [Great Prophet] appears <for [Human player] Civilizations> <with [20]% chance> <hidden from users>",
                             "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     }
@@ -914,7 +914,7 @@
                             "[+2 Happiness, +2 Faith, +1 Culture] [in all cities] <for [10] turns>",
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
-                            "Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
+                            "Free [Great Prophet] appears <for [Human player] Civilizations> <with [20]% chance> <hidden from users>",
                             "Free [Great Artist] appears <with [20]% chance> <hidden from users>",
                             "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
@@ -927,7 +927,7 @@
                             "[-2 Science, -2 Gold, +2 Happiness, +1 Faith] [in all cities] <for [10] turns>",
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
-                            "Free [Great Prophet] appears <with [60]% chance> <hidden from users>",
+                            "Free [Great Prophet] appears <for [Human player] Civilizations> <with [60]% chance> <hidden from users>",
                             "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     },
@@ -959,7 +959,7 @@
                             "[+3 Faith, -1 Food] [in all cities] <for [10] turns>",
                             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
                             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
-                            "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                            "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance> <hidden from users>",
                             "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
                         ]
                     }
@@ -1114,7 +1114,7 @@
             "uniques": [
                 "[+2 Faith, +1 Happiness, -2 Culture] [in all cities] <for [10] turns>",
                 "Remove [PLAGUE] [in all cities]",
-                "Free [Great Prophet] appears <with [50]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [50]% chance>",
 		"Adopt [The Amphibian Enlightenment] <with [30]% chance> <hidden from users>",
                 "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [20]% chance>",
                 "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
@@ -1233,7 +1233,7 @@
             "uniques": [
                 "Only available <when above [299] [Faith]> <hidden from users>",
                 "Gain [-300] [Faith]",
-		"Free [Great Prophet] appears <with [20]% chance> <hidden from users>",
+		"Free [Great Prophet] appears <for [Human player] Civilizations> <with [20]% chance> <hidden from users>",
                 "Remove [Contamination Water Problem] [in capital]",
             ]
         },
@@ -1429,7 +1429,7 @@
                 "Gain [-300] [Faith]",
                 "[+1 Happiness, +1 Faith, +1 Culture, -3 Gold] [in all cities] <for [5] turns>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [30]% chance>",
-                "Free [Great Prophet] appears <with [10]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [10]% chance> <hidden from users>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
         },
@@ -1507,7 +1507,7 @@
                 "Only available <when above [399] [Faith]>",
                 "Gain [-400] [Faith]",
                 "[+1 Faith] [in all cities] <for [5] turns>",
-                "Free [Great Prophet] appears <with [35]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [35]% chance>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
@@ -1566,7 +1566,7 @@
                 "Gain [-300] [Faith]",
                 "[+2 Faith, -1 Happiness] [in all cities] <for [5] turns>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
-                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance> <hidden from users>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
         },
@@ -1630,7 +1630,7 @@
 		"[-1] population in a random city"
 		"[-1] population in a random city <when above [5] [Cities]>"
                 "[+2 Faith, +2 Happiness, -2 Gold] [in all cities] <for [5] turns>",
-                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance> <hidden from users>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
                 "[3] [Angry Mob]s rebel",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
@@ -1721,7 +1721,7 @@
                 "Gain [300] [Gold] <with [30]% chance>",
                 "Gain [300] [Gold] <with [30]% chance>",
                 "Gain [300] [Gold] <with [30]% chance>",
-                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance> <hidden from users>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
         },
@@ -1799,7 +1799,7 @@
                 "[+2 Faith, +1 Happiness, -1 Gold] [in all cities] <for [5] turns>",
                 "[3] [Angry Mob]s rebel",
                 "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
-                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance> <hidden from users>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
         },
@@ -1875,7 +1875,7 @@
                 "[+2 Faith, +2 Happiness, -2 Gold] [in all cities] <for [5] turns>",
                 "[3] [Angry Mob]s rebel <with [40]% chance>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
-                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance> <hidden from users>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
         },
@@ -1963,7 +1963,7 @@
 		"Gain [-400] [Faith]",
                 "[+2 Faith, +1 Happiness] [in all cities] <for [5] turns>",
                 "[2] [Angry Mob]s rebel <with [40]% chance>",
-                "Free [Great Prophet] appears <with [35]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [35]% chance>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
@@ -2084,7 +2084,7 @@
                 "Gain [-400] [Faith]",
                 "[+2 Faith, +2 Gold, -1 Happiness] [in all cities] <for [5] turns>",
                 "[2] [Angry Mob]s rebel <with [40]% chance>",
-                "Free [Great Prophet] appears <with [35]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [35]% chance>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
@@ -2146,7 +2146,7 @@
                 "Gain [-400] [Faith]",
                 "[+2 Faith, +2 Happiness, -1 Culture] [in all cities] <for [5] turns>",
                 "[3] [Angry Mob]s rebel <with [40]% chance>",
-                "Free [Great Prophet] appears <with [15]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
@@ -2197,7 +2197,7 @@
                 "[+1 Happiness, +1 Gold, +1 Culture, +1 Science, +1 Production] [in all cities] <for [10] turns>",
                 "Free [Great Merchant] appears <with [20]% chance>",
                 "Free [Great Artist] appears <with [20]% chance>",
-                "Free [Great Prophet] appears <with [20]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [20]% chance>",
                 "Free [Great Scholar] appears <with [20]% chance>",
                 "Free [Great Engineer] appears <with [20]% chance>",
             ]
@@ -2272,7 +2272,7 @@
             "uniques": [
                 "Only available <if [Grand Temple] is constructed> <when above [299] [Faith]>",
                 "[+2 Happiness, +1 Faith, +1 Culture] [in all cities] <for [10] turns>",
-                "Free [Great Prophet] appears <with [10]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [10]% chance> <hidden from users>",
             ]
         },
         {
@@ -2326,7 +2326,7 @@
                 "Only available <when above [299] [Faith]> <if [Grand Temple] is constructed>",
                 "Gain [-300] [Faith]",
                 "[+2 Faith, +3 Happiness] [in all cities] <for [5] turns>",
-                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance> <hidden from users>",
                 "Gain a free [REBEL IMMINENT] [in your cities] <with [15]% chance>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
@@ -2541,7 +2541,7 @@
         {
             "text": "These relics belong to the gods. Which is fortunate, because the Treasury has already tried to tax them.",
             "uniques": [
-                "Free [Great Prophet] appears",
+                "Free [Great Prophet] appears <for [Human player] Civilizations>",
 		"Instantly provides [1] [The First Bureaucrats] <hidden from users>",
             ]
         },
@@ -2858,7 +2858,7 @@
                 "Gain [-1000] [Gold]",
                 "[+3 Science, +1 Culture, +1 Happiness, +2 Faith] [in all cities] <for [8] turns>",
                 "Free [Great Scholar] appears <with [30]% chance>",
-                "Free [Great Prophet] appears <with [30]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [30]% chance>",
                 "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
             ]
         },
@@ -2868,7 +2868,7 @@
                 "Only available <when above [399] [Faith]>",
                 "Gain [-400] [Faith]",
                 "[+3 Happiness, +2 Culture] [in all cities] <for [8] turns>",
-                "Free [Great Prophet] appears <with [70]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [70]% chance>",
                 "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
             ]
         },
@@ -2902,7 +2902,7 @@
             "uniques": [
                 "Only available <if [Grand Temple] is constructed>",
                 "[+3 Faith, +2 Happiness] [in all cities] <for [8] turns>",
-                "Free [Great Prophet] appears <with [80]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [80]% chance>",
                 "Gain [-600] [Gold] <with [25]% chance>",
                 "Gain [-300] [Faith] <with [25]% chance>",
                 "Gain [-300] [Science] <with [25]% chance>",
@@ -2959,7 +2959,7 @@
                 "Gain [200] [Faith] <with [20]% chance>",
                 "Free [Great Merchant] appears <with [10]% chance>",
                 "Free [Great Artist] appears <with [10]% chance>",
-                "Free [Great Prophet] appears <with [10]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [10]% chance>",
                 "Gain [-800] [Gold] <with [20]% chance>",
                 "Gain [-400] [Science] <with [20]% chance>",
                 "Gain [-400] [Culture] <with [20]% chance>",
@@ -3442,7 +3442,7 @@
                 "[+2 Faith, +1 Happiness] [in all cities] <for [5] turns>",
                 "Gain [-350] [Faith] <with [20]% chance>",
                 "[+1 Culture, +1 Faith] [in all cities] <for [5] turns> <when above [1] [Nobles]>",
-                "Free [Great Prophet] appears <with [20]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [20]% chance>",
                 "[3] [Angry Mob]s rebel <with [20]% chance>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
@@ -3528,7 +3528,7 @@
                 "Gain [-300] [Gold] <with [20]% chance>",
                 "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [15]% chance>",
                 "[+1 Culture] [in all cities] <for [5] turns>",
-                "Free [Great Prophet] appears <with [20]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [20]% chance>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3659,7 +3659,7 @@
                 "[+2 Science] [in all cities] <for [5] turns>",
                 "[-1 Production] [in all cities] <for [5] turns>",
                 "[+1 Science, +1 Culture] [in all cities] <for [5] turns> <when above [15] [Cities]>",
-                "Free [Great Prophet] appears <with [40]% chance> <when above [17] [Cities]>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [40]% chance> <when above [17] [Cities]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3917,7 +3917,7 @@
                 "Only available <if [Grand Temple] is constructed>",
                 "[+2 Faith, +1 Happiness] [in all cities] <for [5] turns>",
                 "Gain [-300] [Gold] <with [20]% chance>",
-                "Free [Great Prophet] appears <with [30]% chance>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [30]% chance>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -4139,7 +4139,7 @@
                 "Only available <if [Grand Temple] is constructed> <when above [299] [Faith]>",
                 "Gain [-300] [Faith]",
                 "[+2 Faith, +1 Happiness] [in all cities] <for [5] turns>",
-                "Free [Great Prophet] appears <with [15]% chance> <hidden from users>",
+                "Free [Great Prophet] appears <for [Human player] Civilizations> <with [15]% chance> <hidden from users>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [20]% chance>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]

@@ -468,7 +468,6 @@
     "strength": 8,
     "rangedStrength": 7,
     "cost": 35,
-    "requiredTech": "Agriculture",
     "uniques": [
          "Comment [-Light troops trained to throw things and run away, in that order.\nDeveloped early in organized warfare as a practical solution to “not getting caught.”\nMost effective when morale is high and enemies are confused.\n• Light Skirmisher]",
          "Consumes [1] [Manpower]",

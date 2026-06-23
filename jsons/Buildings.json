@@ -2577,6 +2577,7 @@
 		"Only available <when below [1] [Enable Hoplite]> <upon declaring war on [The Epirots] Civilizations> <during the [Classical Age]> <hidden from users>",
 		"Provides [1] [Enable Hoplite]",
 			"Limited to [1] per Civilization",
+        		"Cannot be purchased",
 		"Moves to new capital when capital changes",
 		]
 },
@@ -2596,6 +2597,7 @@
 		"Consumes [1] [Manpower]",
 		"Provides [1] [Enable Pike Phalanx]",
 			"Limited to [1] per Civilization",
+        		"Cannot be purchased",
 		"Moves to new capital when capital changes",
 		]
 },
@@ -2610,6 +2612,7 @@
 		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
 		"Consumes [1] [Manpower]",
 		"Provides [1] [Enable Mounted Skirmisher]",
+        		"Cannot be purchased",
 			"Limited to [1] per Civilization",
 		"Moves to new capital when capital changes",
 		]
@@ -2627,6 +2630,7 @@
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Armenians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
 		"Consumes [1] [Manpower]",
 		"Provides [1] [Enable Cataphract]",
+        		"Cannot be purchased",
 			"Limited to [1] per Civilization",
 		"Moves to new capital when capital changes",
 		]
