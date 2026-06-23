@@ -763,7 +763,7 @@
             "[-2 Gold, -2 Food, -1 Production, +4 Faith] [in all cities] <for [5] turns>",
             "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [50]% chance>",
             "Gain a free [DANGEROUS PLAGUE] [in your cities] <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <with [10]% chance>",
-            "Free [Great Prophet] appears",
+            "Free [Great Prophet] appears <with [30]% chance>",
             "Instantly provides [1] [SE] <when below [10] [SE]> <with [20]% chance> <hidden from users>"
         ]
     }

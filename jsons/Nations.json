@@ -310,8 +310,8 @@
 	"hateHello": "You return. We had hoped distance might improve your judgment.",
 	"tradeRequest": "Let us trade. Caravans tend to produce better profits than armies.",
 
-	"outerColor": [104, 17, 125],
-	"innerColor": [227, 16, 45],
+	"outerColor": [84, 17, 103],
+	"innerColor": [232, 63, 87],
 	"style": "Hellenistic",
 	"uniqueName": "The Thousand Cities",
 	"uniques": [
@@ -347,7 +347,7 @@
 ]
 },
 
-								//EASTERN CULTURE CIVS
+							//EASTERN CULTURE CIVS
 
 	{
 		"name": "The Armenians",
@@ -929,7 +929,7 @@
 	"hateHello": "You again. This improves nothing for either of us.",
 	"tradeRequest": "Let us trade. Fighting over every disagreement is exhausting."
 
-		"outerColor": [95,125,190],
+		"outerColor": [45,105,55],
 		"innerColor": [215,235,250],
 		"style": "Celtic",
 		"uniqueName": "Brave Belgae",
@@ -1048,6 +1048,66 @@
 		"Cotini","Hercuni","Eravisci","Sevaci","Taurisci","Carni","Latoboces" //Tribes
 		]
 	},
+{
+"name": "The Iceni",
+"personality": "Warrior",
+"leaderName": "Antedios",
+"adjective": ["Icenian"],
+"startBias": ["Grassland","Plains","Coast"],
+"preferredVictoryType": "Domination",
+"favoredReligion": "Druidism",
+
+"startIntroPart1": "Our lands are prosperous, our people proud, and our patience with foreign rule remarkably limited.",
+"startIntroPart2": "Lead the Iceni of Britannia. Grow wealthy through fertile lands and horses, defend your homeland, and remind empires that conquest is often easier than occupation.",
+"declaringWar": "You have mistaken patience for submission.",
+"attacked": "You invade our lands? Then prepare to discover why rebellion spreads so quickly.",
+"defeated": "Our warriors have fallen, but freedom survives longer than armies.",
+"introduction": "Greetings. We are a people of farmers, riders, and warriors. We ask only to govern ourselves.",
+"neutralHello": "Welcome. Respect our sovereignty and we shall get along well enough.",
+"hateHello": "You return. History suggests this will not end peacefully.",
+"tradeRequest": "Let us trade. Prosperity is easier to count than casualties.",
+
+"outerColor": [80,120,180],
+"innerColor": [255,255,255],
+"style": "Celtic",
+"uniqueName": "Warriors of Antedios",
+"uniques": [
+    "Starts with [Celtic Culture] adopted",
+    "Comment [STRENGTH: Chariot warfare, prosperous agriculture, strong homeland resistance, wealthy tribal economy.]",
+    "[+1 Food, +1 Gold] from [Pasture] tiles [in all cities]",
+    "[+1 Food] from [Farm] tiles [in capital]",
+    "[+1 Culture] from [Village] tiles [in all cities]",
+    "[+2 Gold] from [Trading post] tiles [in all coastal cities]",
+    "[+1 Happiness] from [Horses] tiles [in all cities]",
+    "[+10]% Production when constructing [Mounted] units [in all cities]",
+    "[+10]% Production when constructing [War Chariot] units [in all cities]",
+    "[+10]% Production when constructing [Water] units [in all cities]",
+    "[+10]% Strength <for [Mounted] units> <when fighting in [Friendly Land] tiles>",
+    "[+10]% Strength <for [Sword] units> <when fighting in [Friendly Land] tiles>",
+    "[+10]% Strength <for [War Chariot] units>",
+    "[+2] XP gained from combat <for [Military] units> <when fighting in [Friendly Land] tiles>",
+    "[+2] XP gained from combat <for [War Chariot] units>",
+    "Comment []",
+    "Comment [WEAKNESS: Poor siege warfare, limited administration, tribal politics, weak overseas campaigns.]",
+    "[-20]% Production when constructing [Siege] units [in all cities]",
+    "[-10]% Production when constructing [all] buildings [in all cities]",
+    "[+30]% maintenance costs <for [all] units> <when fighting in [Enemy Land] tiles>",
+    "Provides [2] [Rebel Risk] <when above [1] [Nobles]>"
+],
+"cities": [
+    "Venta Icenorum",
+    "Caistor",
+    "Thetford",
+    "Snettisham",
+    "Branodunum",
+    "Camboricum",
+    "Icenia",
+    "Garianonum",
+    "Durobrivae",
+    "Lindum"
+]
+},
+
 
 							/// GERMANIC CULTURE CIVS
 
@@ -1568,7 +1628,403 @@
 		"cities": ["Dardanike","Naissos","Theranda","Margoi","Metalloi","Gallabrioi","Thunates","Ulpiana","Dardapara","Scupi","Bargala","Stobi","Bylazora"]
 	},
 
-							/////Pelonesian war
+							/////Grand Campaign
+///Britania
+{
+"name": "The Caledones",
+"adjective": ["Caledonian"],
+"cityStateType": "Celtic",
+"startBias": ["Forest","Hill"],
+"outerColor": [0,0,0],
+"innerColor": [50,175,75],
+"uniques": [
+    "Starts with [Celtic Culture] adopted",
+    "[+25]% Production when constructing [Spearman] units [in all cities]",
+    "[+50]% XP gained from combat <for [Spearman] units>",
+    "[{Military} {Land}] units gain the [Woodsman] promotion"
+],
+"style": "Celtic",
+"cities": ["Caledonia"]
+},
+{
+"name": "The Ebdani",
+"adjective": ["Ebdanian"],
+"cityStateType": "Celtic",
+"startBias": ["Coast","Grassland"],
+"outerColor": [0,0,0],
+"innerColor": [75,150,200],
+
+"uniques": [
+    "Starts with [Celtic Culture] adopted",
+    "[+25]% Production when constructing [Galley] units [in all cities]",
+    "[+50]% XP gained from combat <for [Galley] units>",
+    "[+1 Gold] from [Fishing Boats] tiles [in all cities]"
+],
+"style": "Celtic",
+"cities": ["Eblana"]
+},
+
+///Greeks
+
+{
+	"name": "The Byzantines",
+	"leaderName": "Byzas",
+	"adjective": ["Byzantine"],
+	"cityStateType": "Mercantile",
+	"startBias": ["Coast"],
+	"declaringWar": "Byzantion controls the straits by right.",
+	"attacked": "You threaten the gateway between seas.",
+	"defeated": "The Bosporus slips from our grasp...",
+	"introduction": "I am Byzas of Byzantion, guardian of the Bosporus.",
+	"neutralHello": "Byzantion welcomes your envoys.",
+	"hateHello": "Do not linger here.",
+	"tradeRequest": "All trade passes through our waters.",
+	"outerColor": [0,0,0],
+	"innerColor": [140, 60, 160],
+	"uniques": [
+		"Starts with [Hellenic Culture] adopted",
+		"[+2 Gold] from [Trading post] tiles [in all cities]",
+		"[+25]% Production when constructing [Harbor] buildings [in all cities]",
+		"[+1 Culture] from all [Market] buildings"
+	],
+	"style": "Greek",
+	"cities": [
+		"Byzantion"
+	]
+},
+{
+	"name": "The Knossians",
+	"leaderName": "Minos",
+	"adjective": ["Knossian"],
+	"cityStateType": "Maritime",
+	"startBias": ["Coast"],
+	"declaringWar": "Knossos remembers the age of kings.",
+	"attacked": "Crete does not fear invaders.",
+	"defeated": "The palace of Knossos lies silent...",
+	"introduction": "I am Minos of Knossos, heir to ancient Crete.",
+	"neutralHello": "Knossos greets you.",
+	"hateHello": "You tread dangerous ground.",
+	"tradeRequest": "The sea connects all kingdoms.",
+	"outerColor": [0,0,0],
+	"innerColor": [220, 120, 60],
+	"uniques": [
+		"Starts with [Hellenic Culture] adopted",
+		"[+25]% Production when constructing [Palace] buildings [in all cities]",
+		"[+1 Culture, +1 Happiness, +1 Food] from all [Palace] buildings",
+		"[+1 Gold] from [Coast] tiles [in capital]"
+	],
+	"style": "Greek",
+	"cities": [
+		"Knossos"
+	]
+},
+///Gaul
+
+	{
+		"name": "The Volcae",
+		"adjective": ["Volcan"],
+		"cityStateType": "Celtic",
+		"startBias": ["Grassland","Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125,200,0],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted",
+//		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Spear] units [in all cities]",
+		"[+50]% XP gained from combat <for [Spear] units>"
+		],
+		"style": "Celtic",
+		"cities": ["Tolosa"]
+	},
+
+	{
+		"name": "The Massalians",
+		"adjective": ["Massalian"],
+		"cityStateType": "Hellenic",
+		"startBias": ["Coast","Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [25,175,200],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted",
+//		"Starts with [Colonization]",
+		"[+25]% Production when constructing [Melee Water] units [in all cities]",
+		"[+50]% XP gained from combat <for [Melee Water] units>"
+		],
+		"style": "Greek",
+		"cities": ["Massalia"]
+	},
+///Italia
+	{
+		"name": "The Etruscans",
+		"adjective": ["Etruscan"],
+		"cityStateType": "Etruscan",
+		"startBias": ["Hill","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [150,75,175],
+		"uniques": [
+		"Starts with [Latin Culture] adopted",
+//		"Starts with [Entertainment]",
+		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
+		"Cannot build [Cavalry] units"
+		],
+		"style": "Italic",
+		"cities": ["Arretiun"]
+	},
+	{
+		"name": "The Veneti",
+		"adjective": ["Venetic"],
+		"cityStateType": "Celtic",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [75,125,175],
+		"uniques": [
+		"Starts with [Celtic Culture] adopted",
+//		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+25]% Production when constructing [Galley] units [in all cities]",
+		"New [Mounted] units start with [10] XP [in all cities]",
+		"New [Galley] units start with [10] XP [in all cities]"
+		],
+		"style": "Celtic",
+		"cities": ["Patavium"]
+	},
+
+//Anatolia
+	{
+		"name": "The Rhodians",
+		"adjective": ["Rhodian"],
+		"cityStateType": "Rhodian",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,175,100],
+		"uniques": [
+		"Starts with [Hellenic Culture] adopted",
+//		"Starts with [Colonization]",
+		"[+25]% Production when constructing [Trihemiola] units [in all cities]",
+		"[+25]% Production when constructing [Rhodian Slinger] units [in all cities]",
+		"New [Trihemiola] units start with [15] XP [in all cities]",
+		"New [Rhodian Slinger] units start with [15] XP [in all cities]",
+		"Cannot build [Mounted] units"
+		],
+		"style": "Greek",
+		"cities": ["Rhodos"]
+	},
+///Caucasia
+
+	{
+		"name": "The Colchians",
+		"adjective": ["Colchian"],
+		"cityStateType": "Eastern",
+		"startBias": ["Hill","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,225,150],
+		"uniques": [
+		"Starts with [Eastern Culture] adopted",
+//		"Starts with [Infantry Training]",
+		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
+		"Cannot build [Ballista] units"
+		],
+		"style": "Eastern",
+		"cities": ["Kotais"]
+	},
+//Africa
+	{
+		"name": "The Garamantes",
+		"adjective": ["Garamantian"],
+		"cityStateType": "Numidian",
+		"startBias": ["Desert","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,175,75],
+		"uniques": [
+		"Starts with [Numidian Culture] adopted",
+//		"Starts with [Light Cavalry]",
+		"[+25]% Production when constructing [Scout] units [in all cities]",
+		"[+50]% XP gained from combat <for [Scout] units>"
+		],
+		"style": "Punic",
+		"cities": ["Garama"]
+	},
+///Iberia
+
+	{
+		"name": "The Edetani",
+		"adjective": ["Edetanian"],
+		"cityStateType": "Iberian",
+		"startBias": ["Hill","Plains","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [125,150,200],
+		"uniques": [
+		"Starts with [Iberian Culture] adopted",
+//		"Starts with [Light Cavalry]",
+		"Gain a free [Walls] [in capital]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+25]% XP gained from combat <for [Mounted] units>"
+		],
+		"style": "Iberian",
+		"cities": ["Saguntum"]
+	},
+//Germania
+	{
+		"name": "The Lugii",
+		"adjective": ["Lugian"],
+		"cityStateType": "Germanic",
+		"startBias": ["Forest","Avoid [Coast]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [175,50,100],
+		"uniques": [
+		"Starts with [Germanic Culture] adopted",
+//		"Starts with [Infantry Training]",
+		"[+25]% Production when constructing [Spearman] units [in all cities]",
+		"[+50]% XP gained from combat <for [Spearman] units>"
+		],
+		"style": "Germanic",
+		"cities": ["Budorgis"]
+	},
+{
+	"name": "The Budini",
+	"adjective": ["Budinian"],
+	"cityStateType": "Scythian",
+	"startBias": ["Plains","Forest"],
+
+	"outerColor": [0,0,0],
+	"innerColor": [175,125,75],
+
+	"uniques": [
+    		"Starts with [Nomad Culture] adopted",
+    		"[+25]% Production when constructing [Mounted Archery] units [in all cities]",
+    		"[+50]% XP gained from combat <for [Mounted Archery] units>",
+    		"Provides [1] [Enable Horse Archer]"
+	],
+	"style": "Scythian",
+	"cities": ["Gelonus"]
+
+},
+///Mesopotia
+
+	{
+	"name": "The Medes",
+	"adjective": ["Median"],
+		"cityStateType": "Eastern",
+	"startBias": ["Hill","Plains","Avoid [Coast]"],
+	"declaringWar": "You leave us no choice. War it must be.",
+	"attacked": "Very well, this shall not be forgotten.",
+	"defeated": "We... defeated? No... we had so much work to do!",
+	"outerColor": [0, 0, 0],
+	"innerColor": [255,175,50],
+	"uniques": [
+		"Starts with [Eastern Culture] adopted",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+50]% XP gained from combat <for [Mounted] units>",
+                "Provides [1] [Enable Cataphract]",
+		"Cannot build [Ballista] units"
+	],
+	"style": "Eastern",
+	"cities": ["Ecbatana"]
+},
+{
+	"name": "The Nabataeans",
+	"adjective": ["Nabataean"],
+	"cityStateType": "Eastern",
+	"startBias": ["Desert","Hill"],
+	"outerColor": [0,0,0],
+	"innerColor": [255,100,100],
+	"uniques": [
+    		"Starts with [Eastern Culture] adopted",
+    		"[+2 Gold] from [Village] tiles [in all cities]",
+    		"[+25]% Production when constructing [Camel Cavalry] units [in all cities]",
+    		"New [Camel Cavalry] units start with [15] XP [in all cities]"
+],
+	"style": "Eastern",
+	"cities": ["Petra"]
+},
+{
+	"name": "Muscat",
+	"adjective": ["Omani"],
+	"cityStateType": "Eastern",
+	"startBias": ["Coast","Desert"],
+	"outerColor": [0,0,0],
+	"innerColor": [100,175,255],
+	"uniques": [
+    		"Starts with [Eastern Culture] adopted",
+    		"[+25]% Production when constructing [Galley] units [in all cities]",
+    		"New [Galley] units start with [10] XP [in all cities]",
+    		"[+1 Gold] from [Fishing Boats] tiles [in all cities]"
+],
+	"style": "Eastern",
+	"cities": ["Muscat"]
+},
+{
+	"name": "The Drangians",
+	"adjective": ["Drangian"],
+	"cityStateType": "Eastern",
+	"startBias": ["Desert","River"],
+	"outerColor": [0,0,0],
+	"innerColor": [255,200,100],
+	"uniques": [
+    		"Starts with [Eastern Culture] adopted",
+    		"[+1 Food, +1 Gold] from [Farm] tiles [in all cities]",
+    		"[+25]% Production when constructing [Scout] units [in all cities]",
+    		"[+50]% XP gained from combat <for [Scout] units>"
+],
+	"style": "Eastern",
+	"cities": ["Prophthasia"]
+},
+{
+    	"name": "The Sagartians",
+    	"adjective": ["Sagartian"],
+    	"cityStateType": "Eastern",
+    	"startBias": ["Plains","Desert","Avoid [Coast]"],
+    	"declaringWar": "You leave us no choice. War it must be.",
+    	"attacked": "Very well, this shall not be forgotten.",
+    	"defeated": "We... defeated? No... we had so much work to do!",
+    	"outerColor": [0,0,0],
+    	"innerColor": [200,125,75],
+    	"uniques": [
+        	"Starts with [Eastern Culture] adopted",
+        	"[+25]% Production when constructing [Mounted] units [in all cities]",
+        	"[+50]% XP gained from combat <for [Mounted] units>",
+        	"[+1] Movement <for [Mounted] units>",
+        	"Cannot build [Ballista] units"
+    ],
+    "style": "Eastern",
+    "cities": ["Asagarta"]
+},							/////Pelonesian war
 
 {
 	"name": "The Argives",
@@ -1759,58 +2215,7 @@
 		"Thessalia"
 	]
 },
-{
-	"name": "The Rhodians",
-	"leaderName": "Timocharis",
-	"adjective": ["Rhodian"],
-	"cityStateType": "Maritime",
-	"startBias": ["Coast"],
-	"declaringWar": "Rhodes commands the sea lanes.",
-	"attacked": "Our fleets will answer this insult.",
-	"defeated": "The harbors of Rhodes are lost...",
-	"introduction": "I am Timocharis of Rhodes, master of island trade.",
-	"neutralHello": "Welcome to Rhodes.",
-	"hateHello": "You are unwelcome in our waters.",
-	"tradeRequest": "Trade enriches all civilized peoples.",
-	"outerColor": [0,0,0],
-	"innerColor": [180, 120, 40],
-	"uniques": [
-		"Starts with [Hellenic Culture] adopted",
-		"[+20]% Production when constructing [Trireme] units [in all cities]",
-		"[+2 Gold] from all [Harbor] buildings",
-		"[+1 Food] from [Coast] tiles [in capital]"
-	],
-	"style": "Greek",
-	"cities": [
-		"Rodos"
-	]
-},
-{
-	"name": "The Byzantines",
-	"leaderName": "Byzas",
-	"adjective": ["Byzantine"],
-	"cityStateType": "Mercantile",
-	"startBias": ["Coast"],
-	"declaringWar": "Byzantion controls the straits by right.",
-	"attacked": "You threaten the gateway between seas.",
-	"defeated": "The Bosporus slips from our grasp...",
-	"introduction": "I am Byzas of Byzantion, guardian of the Bosporus.",
-	"neutralHello": "Byzantion welcomes your envoys.",
-	"hateHello": "Do not linger here.",
-	"tradeRequest": "All trade passes through our waters.",
-	"outerColor": [0,0,0],
-	"innerColor": [140, 60, 160],
-	"uniques": [
-		"Starts with [Hellenic Culture] adopted",
-		"[+2 Gold] from [Trading post] tiles [in all cities]",
-		"[+25]% Production when constructing [Harbor] buildings [in all cities]",
-		"[+1 Culture] from all [Market] buildings"
-	],
-	"style": "Greek",
-	"cities": [
-		"Byzantion"
-	]
-},
+
 {
 	"name": "The Kydonians",
 	"leaderName": "Kydon",
@@ -1861,32 +2266,6 @@
 	"style": "Greek",
 	"cities": [
 		"Gortyn"
-	]
-},
-{
-	"name": "The Knossians",
-	"leaderName": "Minos",
-	"adjective": ["Knossian"],
-	"cityStateType": "Maritime",
-	"startBias": ["Coast"],
-	"declaringWar": "Knossos remembers the age of kings.",
-	"attacked": "Crete does not fear invaders.",
-	"defeated": "The palace of Knossos lies silent...",
-	"introduction": "I am Minos of Knossos, heir to ancient Crete.",
-	"neutralHello": "Knossos greets you.",
-	"hateHello": "You tread dangerous ground.",
-	"tradeRequest": "The sea connects all kingdoms.",
-	"outerColor": [0,0,0],
-	"innerColor": [220, 120, 60],
-	"uniques": [
-		"Starts with [Hellenic Culture] adopted",
-		"[+25]% Production when constructing [Palace] buildings [in all cities]",
-		"[+1 Culture, +1 Happiness, +1 Food] from all [Palace] buildings",
-		"[+1 Gold] from [Coast] tiles [in capital]"
-	],
-	"style": "Greek",
-	"cities": [
-		"Knossos"
 	]
 },
 {
@@ -1983,48 +2362,6 @@
 		"cities": ["Taras"]
 	},
 	{
-		"name": "The Etruscans",
-		"adjective": ["Etruscan"],
-		"cityStateType": "Etruscan",
-		"startBias": ["Hill","Plains"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [150,75,175],
-		"uniques": [
-		"Starts with [Latin Culture] adopted",
-//		"Starts with [Entertainment]",
-		"[+25]% Production when constructing [{Melee} {Land}] units [in all cities]",
-		"Cannot build [Cavalry] units"
-		],
-		"style": "Italic",
-		"cities": ["Arretiun"]
-	},
-	{
-		"name": "The Veneti",
-		"adjective": ["Venetic"],
-		"cityStateType": "Celtic",
-		"startBias": ["Coast","Plains"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [75,125,175],
-		"uniques": [
-		"Starts with [Celtic Culture] adopted",
-//		"Starts with [Light Cavalry]",
-		"[+25]% Production when constructing [Mounted] units [in all cities]",
-		"[+25]% Production when constructing [Galley] units [in all cities]",
-		"New [Mounted] units start with [10] XP [in all cities]",
-		"New [Galley] units start with [10] XP [in all cities]"
-		],
-		"style": "Celtic",
-		"cities": ["Patavium"]
-	},
-	{
 		"name": "The Nori",
 		"adjective": ["Noric"],
 		"cityStateType": "Celtic",
@@ -2065,29 +2402,7 @@
 		"style": "Egyptian",
 		"cities": ["Siwa"]
 	},//Anatolia
-	{
-		"name": "The Rhodians",
-		"adjective": ["Rhodian"],
-		"cityStateType": "Rhodian",
-		"startBias": ["Coast","Plains"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,175,100],
-		"uniques": [
-		"Starts with [Hellenic Culture] adopted",
-//		"Starts with [Colonization]",
-		"[+25]% Production when constructing [Trihemiola] units [in all cities]",
-		"[+25]% Production when constructing [Rhodian Slinger] units [in all cities]",
-		"New [Trihemiola] units start with [15] XP [in all cities]",
-		"New [Rhodian Slinger] units start with [15] XP [in all cities]",
-		"Cannot build [Mounted] units"
-		],
-		"style": "Greek",
-		"cities": ["Rhodos"]
-	},
 	{
 		"name": "The Cilicians",
 		"adjective": ["Cilician"],
@@ -2467,28 +2782,6 @@
 		"cities": ["Susa"]
 	},
 	{
-		"name": "The Medes",
-		"adjective": ["Median"],
-		"cityStateType": "Eastern",
-		"startBias": ["Hill","Plains","Avoid [Coast]"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,175,50],
-		"uniques": [
-		"Starts with [Eastern Culture] adopted",
-//		"Starts with [Light Cavalry]",
-		"[+25]% Production when constructing [Mounted] units [in all cities]",
-		"[+50]% XP gained from combat <for [Mounted] units>",
-                "Provides [1] [Enable Cataphract]",
-		"Cannot build [Ballista] units"
-		],
-		"style": "Eastern",
-		"cities": ["Ecbatana"]
-	},
-	{
 		"name": "The Atropatines",
 		"adjective": ["Atropatine"],
 		"cityStateType": "Eastern",
@@ -2549,26 +2842,6 @@
 		],
 		"style": "Eastern",
 		"cities": ["Meskheta"]
-	},
-	{
-		"name": "The Colchians",
-		"adjective": ["Colchian"],
-		"cityStateType": "Eastern",
-		"startBias": ["Hill","Plains"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,225,150],
-		"uniques": [
-		"Starts with [Eastern Culture] adopted",
-//		"Starts with [Infantry Training]",
-		"[{Military} {Land}] units gain the [Caucasian Stronghold] promotion",
-		"Cannot build [Ballista] units"
-		],
-		"style": "Eastern",
-		"cities": ["Kotais"]
 	},
 //Scythia
 	{
@@ -2816,26 +3089,6 @@
 	},
 //Germania
 	{
-		"name": "The Lugii",
-		"adjective": ["Lugian"],
-		"cityStateType": "Germanic",
-		"startBias": ["Forest","Avoid [Coast]"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [175,50,100],
-		"uniques": [
-		"Starts with [Germanic Culture] adopted",
-//		"Starts with [Infantry Training]",
-		"[+25]% Production when constructing [Spearman] units [in all cities]",
-		"[+50]% XP gained from combat <for [Spearman] units>"
-		],
-		"style": "Germanic",
-		"cities": ["Budorgis"]
-	},
-	{
 		"name": "The Chatti",
 		"adjective": ["Lugian"],
 		"cityStateType": "Germanic",
@@ -2996,46 +3249,6 @@
 		"style": "Celtic",
 		"cities": ["Burdigala"]
 	},
-	{
-		"name": "The Volcae",
-		"adjective": ["Volcan"],
-		"cityStateType": "Celtic",
-		"startBias": ["Grassland","Forest"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [125,200,0],
-		"uniques": [
-		"Starts with [Celtic Culture] adopted",
-//		"Starts with [Infantry Training]",
-		"[+25]% Production when constructing [Spear] units [in all cities]",
-		"[+50]% XP gained from combat <for [Spear] units>"
-		],
-		"style": "Celtic",
-		"cities": ["Tolosa"]
-	},
-	{
-		"name": "The Massalians",
-		"adjective": ["Massalian"],
-		"cityStateType": "Hellenic",
-		"startBias": ["Coast","Grassland"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [25,175,200],
-		"uniques": [
-		"Starts with [Hellenic Culture] adopted",
-//		"Starts with [Colonization]",
-		"[+25]% Production when constructing [Melee Water] units [in all cities]",
-		"[+50]% XP gained from combat <for [Melee Water] units>"
-		],
-		"style": "Greek",
-		"cities": ["Massalia"]
-	},
 //Iberia
 	{
 		"name": "The Ilergetes",
@@ -3056,27 +3269,6 @@
 		],
 		"style": "Iberian",
 		"cities": ["Ilerda"]
-	},
-	{
-		"name": "The Edetani",
-		"adjective": ["Edetanian"],
-		"cityStateType": "Iberian",
-		"startBias": ["Hill","Plains","Avoid [Coast]"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [125,150,200],
-		"uniques": [
-		"Starts with [Iberian Culture] adopted",
-//		"Starts with [Light Cavalry]",
-		"Gain a free [Walls] [in capital]",
-		"[+25]% Production when constructing [Mounted] units [in all cities]",
-		"[+25]% XP gained from combat <for [Mounted] units>"
-		],
-		"style": "Iberian",
-		"cities": ["Saguntum"]
 	},
 	{
 		"name": "The Oretani",
@@ -3241,26 +3433,6 @@
 		],
 		"style": "Punic",
 		"cities": ["Dimmidi"]
-	},
-	{
-		"name": "The Garamantes",
-		"adjective": ["Garamantian"],
-		"cityStateType": "Numidian",
-		"startBias": ["Desert","Avoid [Coast]"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,175,75],
-		"uniques": [
-		"Starts with [Numidian Culture] adopted",
-//		"Starts with [Light Cavalry]",
-		"[+25]% Production when constructing [Scout] units [in all cities]",
-		"[+50]% XP gained from combat <for [Scout] units>"
-		],
-		"style": "Punic",
-		"cities": ["Garama"]
 	},
 	{
 		"name": "The Leptians",
