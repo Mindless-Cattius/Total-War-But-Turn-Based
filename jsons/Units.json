@@ -1777,7 +1777,7 @@
     "attackSound": "march"
   },
   {
-    "name": "Scholae Palatinae",
+    "name": "Equites Singulares",
     "requiredTech": "Imperial Military Doctrine",
     "unitType": "Mounted",
     "movement": 3,

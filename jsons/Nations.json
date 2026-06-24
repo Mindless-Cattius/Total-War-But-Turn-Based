@@ -536,10 +536,10 @@
 		]
 	},
 	{
-		"name": "The Roxolani",
+		"name": "The Sarmatians",
 		"personality": "Warrior",
 		"leaderName": "Tasius",
-		"adjective": ["Roxolanian"],
+		"adjective": ["Sarmatian"],
 	        "startBias":["Plains","Avoid [Coast]"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Zoroastrianism",
@@ -1230,7 +1230,7 @@
 		"[+1] Movement <for [Spearman] units> <when fighting in [Enemy Land] tiles>",
     		"[+10]% Strength <for [Swordsman] units> <when attacking>",
     		"[+10]% Strength <for [Spearman] units> <when attacking>",
-		"Heals [15] damage if it kills a unit <for [Swordsman] units> <when fighting in [Enemy Land] tiles>",
+		"Heals [10] damage if it kills a unit <for [Swordsman] units> <when fighting in [Enemy Land] tiles>",
 		"Heals [15] damage if it kills a unit <for [Spearman] units> <when fighting in [Enemy Land] tiles>",
     		"Earn [50]% of killed [{Melee} {Land}] unit's [Strength] as [Gold] <when fighting in [Enemy Land] tiles>",
     		"Earn [20]% of killed [{Melee} {Land}] unit's [Strength] as [Faith] <when fighting in [Enemy Land] tiles>",

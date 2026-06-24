@@ -8,7 +8,7 @@
 	"Cannot build [Settler] units <if [3rd Century Crisis] is constructed by anybody>",
 	"Provides [1] [Ruler]",
 	"Provides [1] [Rule]",
-	"[+30]% Faith cost of generating Great Prophet equivalents"
+	"[+20]% Faith cost of generating Great Prophet equivalents <for [Human player] Civilizations>"
 	"[-20]% growth [in all cities]",
 	"Gain a free [Risk of PLAGUE] [in all cities] <starting from the [Classical Age]>",
 	"Gain a free [Urban Fabric I] [in all cities] <in cities without a [Urban Fabric I]>",
@@ -32,7 +32,7 @@
 
 						//Cities
 
-	"[+10]% Strength for cities <when defending> <in cities with a [Garrison Post]> <with a garrison>",
+	"[+10]% Strength for cities <when defending> <in cities with a [Garrison Post]> <with a garrison>",20
 	"[+10]% Strength for cities <when attacking> <in cities with a [Garrison Post]> <in cities with a [Walls]> <with a garrison>",
 	"[+20]% Strength for cities <when attacking> <in cities with a [Garrison Post]> <in cities with a [Wall Towers]> <with a garrison>",
 
@@ -79,7 +79,6 @@
         "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [1]% chance>",
         "Free [General] appears <upon turn end> <when above [2] [Nobles]> <with [2]% chance>",
         "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [4]% chance>",
-        "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <before the [Imperial Age]>",
         "Free [Skirmisher] appears <upon turn end> <when above [20] [Manpower]> <with [3]% chance> <before the [Imperial Age]>",
         "Free [Spearman] appears <upon turn end> <when above [40] [Manpower]> <with [6]% chance> <during the [Imperial Age]>",

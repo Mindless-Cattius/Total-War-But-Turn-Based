@@ -2570,6 +2570,7 @@
 
 {
 	"name": "Hoplite Training",
+	"requiredTech": "Trade Routes"
 	"cost": 100,
 	"uniques": [
 		"Only available <when below [1] [Enable Hoplite]> <upon declaring war on [The Athenians] Civilizations> <during the [Classical Age]> <hidden from users>",
@@ -2583,6 +2584,7 @@
 },
 {
 	"name": "Pike Phalanx Training",
+	"requiredTech": "Cultural Exchange"
 	"cost": 130,
 	"uniques": [
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Macedonians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
@@ -2591,7 +2593,7 @@
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Mithridatids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Pergamenes] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
-		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Roxolani] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Sarmatians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Armenians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Consumes [1] [Manpower]",
@@ -2603,12 +2605,13 @@
 },
 {
 	"name": "Mounted Skirmisher Training",
+	"requiredTech": "Cultural Exchange"
 	"cost": 150,
 	"uniques": [
 		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Massylii] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Masaesyli] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Scythians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
-		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Roxolani] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Sarmatians] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Mounted Skirmisher]> <upon declaring war on [The Arsacids] Civilizations> <starting from the [Hellenistic Age]> <hidden from users>"
 		"Consumes [1] [Manpower]",
 		"Provides [1] [Enable Mounted Skirmisher]",
@@ -2624,7 +2627,7 @@
 	"uniques": [
 		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Seleucids] Civilizations> <starting from the [Imperial Age]> <hidden from users>"
 		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Ptolemies] Civilizations> <starting from the [Imperial Age]> <hidden from users>"
-		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Roxolani] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
+		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Sarmatians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Scythians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Cataphract]> <upon declaring war on [The Arsacids] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
 		"Only available <when below [1] [Enable Pike Phalanx]> <upon declaring war on [The Armenians] Civilizations> <starting from the [Imperial Age]> <hidden from users>",
