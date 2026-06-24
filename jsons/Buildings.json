@@ -27,7 +27,7 @@
 	},
 	{
 		"name": "Palace",
-		"cost": 60,
+		"cost": 50,
 		"production": 2,
 		"science": 2,
 		"gold": 3,
@@ -48,6 +48,7 @@
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture] from [Village] tiles [in this city]",
 			"[+50]% Gold given to enemy if city is captured",
+			"Moves to new capital when capital changes",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured"
 		]
@@ -198,12 +199,13 @@
 		"gold": 3,
   		"happiness": 1,
 		"production": 1,
+		"science": 1,
 		"cityHealth": 30,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
 			"Consumes [1] [Sanitation]",
-			"Provides [1] [Manpower]",
+			"Provides [2] [Manpower]",
 			"Cost increases by [3] per owned city"
 			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [17] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
@@ -216,14 +218,15 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
-  		"happiness": 1,
+  		"happiness": 2,
 		"production": 1,
+		"science": 1,
 		"cityHealth": 50,
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
 			"Consumes [2] [Sanitation]",
-			"Provides [1] [Manpower]",
+			"Provides [3] [Manpower]",
 			"Cost increases by [3] per owned city",
 			"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
@@ -313,6 +316,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"happiness": 1,
+		"gold": 1,
 		"culture": 2,
 		"uniques": [
 			"Provides [1] [Sanitation]",
@@ -376,7 +380,7 @@
 			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Barracks]>",
 			"Only available <in cities without a [Skirmisher Barracks]>",
 			"Only available <in cities without a [Cavalry Barracks]>",
-			"New [Spearman] units start with [10] XP [in this city]",
+			"New [Spear] units start with [5] XP [in this city]",
 			"New [Scout] units start with [5] XP [in this city]",
 			"New [Sword] units start with [5] XP [in this city]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
@@ -1920,6 +1924,7 @@
 		],
 		"requiredTech": "Equestrian Class"
 	},
+
 			///Mercenary
 
 	{
@@ -1964,16 +1969,17 @@
 	},
 	{
 		"name": "Pirate Haven (Illyrian)",
-		"cost": 60,
+		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
 		"happiness": -1,
+		"culture": -1,
 		"cityHealth": 5,
 		"uniques": [
 			"Only available <in cities with a [Mercenary Camp]>"
 			"Only available <starting from the [Classical Age]>",
-			"New [Galley] units start with [20] XP [in this city]",
+			"New [Galley] units start with [15] XP [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"Must be next to [Coast]",
 			"Limited to [1] per Civilization",
@@ -1985,18 +1991,19 @@
 	},
 	{
 		"name": "Pirate Haven (Cretan)",
-		"cost": 60,
+		"cost": 100,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
 		"happiness": -1,
+		"culture": -1,
 		"cityHealth": 5,
 		"uniques": [
 			"Comment [Enables Hemiola]",
 			"Provides [1] [Enable Hemiola] <hidden from users>",
 			"Only available <starting from the [Classical Age]>",
 			"Consumes [1] [Mercenary (Cretan)]","Only available <with [Mercenary (Cretan)]> <hidden from users>",
-			"New [Hemiola] units start with [20] XP [in this city]",
+			"New [Hemiola] units start with [15] XP [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"Must be next to [Coast]",
 			"Limited to [1] per Civilization",
@@ -2007,11 +2014,12 @@
 	},
 	{
 		"name": "Pirate Haven (Cilician)",
-		"cost": 60,
+		"cost": 100,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
 		"happiness": -1,
+		"culture": -1,
 		"cityHealth": 5,
 		"uniques": [
 			"Comment [Enables Hemiola]",
@@ -2019,7 +2027,7 @@
 			"Provides [1] [Enable Hemiola] <hidden from users>",
 			"Only available <starting from the [Hellenistic Age]>",
 			"Consumes [1] [Mercenary (Cilician)]","Only available <with [Mercenary (Cilician)]> <hidden from users>",
-			"New [Hemiola] units start with [20] XP [in this city]",
+			"New [Hemiola] units start with [15] XP [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",

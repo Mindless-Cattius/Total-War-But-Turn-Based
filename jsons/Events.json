@@ -923,7 +923,7 @@
                         "text": "Fund scholars to explain the gods",
                         "uniques": [
                             "Only available <if [School] is constructed> <when above [799] [Science]>",
-                            "Gain [800] [Science]",
+                            "Gain [-800] [Science]",
                             "[-2 Science, -2 Gold, +2 Happiness, +1 Faith] [in all cities] <for [10] turns>",
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
@@ -2271,6 +2271,7 @@
             "text": "Have the temples support local administration",
             "uniques": [
                 "Only available <if [Grand Temple] is constructed> <when above [299] [Faith]>",
+                "Gain [-300] [Faith]",
                 "[+2 Happiness, +1 Faith, +1 Culture] [in all cities] <for [10] turns>",
                 "Free [Great Prophet] appears <for [Human player] Civilizations> <with [10]% chance> <hidden from users>",
             ]
@@ -2548,7 +2549,7 @@
         {
             "text": "Open the chests. We cannot allow ancient wealth to evade taxation indefinitely.",
             "uniques": [
-                "Gain [1000] [Gold]",
+                "Gain [800] [Gold]",
                 "Gain [200] [Gold] <with [20]% chance>",
                 "Gain [200] [Gold] <with [20]% chance>",
                 "Gain [200] [Gold] <with [20]% chance>",
