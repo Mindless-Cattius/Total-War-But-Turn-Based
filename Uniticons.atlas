@@ -326,6 +326,13 @@ UnitIcons/Emperor
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Equites Singulares
+  rotate: false
+  xy: 1084, 409
+  size: 67, 67
+  orig: 67, 67
+  offset: 0, 0
+  index: -1
 UnitIcons/Falxman
   rotate: false
   xy: 328, 808
@@ -877,13 +884,6 @@ UnitIcons/Savaran Sardar
   xy: 1479, 520
   size: 64, 64
   orig: 64, 64
-  offset: 0, 0
-  index: -1
-UnitIcons/Scholae Palatinae
-  rotate: false
-  xy: 1084, 409
-  size: 67, 67
-  orig: 67, 67
   offset: 0, 0
   index: -1
 UnitIcons/Scythed Chariot
