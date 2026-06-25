@@ -2866,6 +2866,27 @@
 		"cities": ["Panticapeon"]
 	},
 	{
+		"name": "The Roxolani",
+		"adjective": ["The Roloxanian"],
+		"cityStateType": "Scythian",
+		"startBias": ["Coast","Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [225,25,150],
+		"uniques": [
+		"Starts with [Nomad Culture] adopted",
+		"Gain a free [Nomadic Herd] [in capital]",
+		"[+25]% Production when constructing [Mounted] units [in all cities]",
+		"[+35]% Production when constructing [Cataphract] units [in all cities]",
+                "Provides [1] [Enable Cataphract]"
+		],
+		"style": "Greek",
+		"cities": ["Olbia"]
+	},
+	{
 		"name": "The Olbians",
 		"adjective": ["Olbian"],
 		"cityStateType": "Hellenic",
