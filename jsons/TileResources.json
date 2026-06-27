@@ -423,16 +423,14 @@
         "[+70]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [100] [Decadence]>",
         "[+50]% maintenance costs <for [Military] units> <when above [100] [Decadence]>",
 
-        "Provides [1] [Manpower] <when below [10] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [20] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [30] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [40] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [50] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [60] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [70] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [80] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [90] [Decadence]> <for [Major] Civilizations>",
-        "Provides [1] [Manpower] <when below [100] [Decadence]> <for [Major] Civilizations>",
+        "Provides [1] [Manpower] <when below [20] [Decadence]>",
+        "Provides [1] [Manpower] <when below [40] [Decadence]>",
+        "Provides [1] [Manpower] <when below [60] [Decadence]>",
+        "Provides [1] [Manpower] <when below [80] [Decadence]>",
+        "Provides [1] [Manpower] <when below [100] [Decadence]>",
+        "Provides [1] [Manpower] <when below [120] [Decadence]>",
+        "Provides [1] [Manpower] <when below [140] [Decadence]>",
+        "Provides [1] [Manpower] <when below [160] [Decadence]>",
 
 
 		]

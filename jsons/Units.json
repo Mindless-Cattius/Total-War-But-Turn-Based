@@ -310,7 +310,7 @@
     "name": "King",
     "unitType": "Ruler",
     "movement": 3,
-    "strength": 15,
+    "strength": 13,
     "cost": 90,
     "uniques": [
          "Comment [-The apex of inherited authority, where legitimacy is measured in lineage, not competence.\nA ruler who governs from the capital while others discover the practical limits of loyalty and manpower.\nHistory remembers kings for their achievements. Their subjects remember them for the invoices.\n• Ruler]",
@@ -336,7 +336,7 @@
     "name": "Emperor",
     "unitType": "Ruler",
     "movement": 3,
-    "strength": 16,
+    "strength": 14,
     "cost": 120,
     "uniques": [
          "Comment [-The final evolution of centralized authority, where governance becomes indistinguishable from performance art.\nAn Emperor rules not by proximity to the people, but by distance from consequences.\nHistory tends to describe them as “visionary” or “disastrous,” rarely anything in between.\n• Ruler]",
@@ -362,7 +362,7 @@
     "uniqueTo": "The Athenians",
     "replaces": "King",
     "movement": 3,
-    "strength": 15,
+    "strength": 13,
     "cost": 90,
     "uniques": [
          "Comment [-A pre-imperial commander chosen more for civic influence than divine mandate.\nIn theory, they coordinate strategy and lead armies. In practice, they survive long enough to become either a legend or a scapegoat.\nAthens called them strategos. History often calls them “complicated.”\n• Ruler]",
@@ -386,7 +386,7 @@
     "unitType": "Ruler",
     "uniqueTo": "The Romans",
     "movement": 3,
-    "strength": 15,
+    "strength": 13,
     "cost": 90,
     "uniques": [
          "Comment [-The Roman Republic’s highest office, built on the elegant system of sharing power between two people who are professionally obligated to disagree.\nIn theory, they lead armies and govern the state. In practice, they spend half the time vetoing each other and the other half explaining it was “for the good of Rome.”\nA temporary solution to permanent ambition.\n• Ruler]",
@@ -411,7 +411,7 @@
     "name": "Nomad King",
     "unitType": "Ruler",
     "movement": 3,
-    "strength": 11,
+    "strength": 9,
     "rangedStrength": 9,
     "cost": 110,
     "uniques": [
@@ -439,7 +439,7 @@
     "name": "Nomad Nobles",
     "unitType": "Generals",
     "movement": 3,
-    "strength": 11,
+    "strength": 9,
   "rangedStrength": 11,
     "cost": 340,
     "uniques": [
@@ -2069,8 +2069,7 @@
          "Consumes [1] [Iron]"
     ],
     "promotions": [
-      "[Horseman] ability",
-      "Cavalry Shield II",
+      "[Armenian Noble] ability",
       "Armored Lancer",
     ],
     "attackSound": "horse"
@@ -2136,8 +2135,8 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Lusitani",
     "movement": 3,
-    "strength": 16,
-    "cost": 100,
+    "strength": 15,
+    "cost": 95,
     "requiredTech": "Infantry Training",
     "uniques": [
          "Comment [-Lusitanian warbands trained in fast raiding tactics, specializing in sudden strikes and rapid disengagement across difficult terrain.\nThey relied on speed, familiarity with local geography, and a strong preference for avoiding prolonged negotiations with enemy formations.\nEffective at destabilizing supply lines and morale before the main battle even becomes necessary.\n• Light Shock Infantry]",

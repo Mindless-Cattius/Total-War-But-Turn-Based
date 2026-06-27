@@ -1414,6 +1414,19 @@
 		]
 	},
 	{
+		"name": "[Armenian Noble] ability",
+		"uniques": [
+		"[+20]% to Flank Attack bonuses",
+		"[+10]% Strength <when attacking> <when fighting in [Open terrain] tiles>",
+		"[+20]% Strength <when attacking> <vs [Archery] units>",
+		"[+20]% Strength <when attacking> <vs [Scout] units>",
+		"[-10]% Strength <when attacking> <vs [Spear] units>",
+		"[-20]% Strength <when attacking> <vs cities>",
+		"No defensive terrain bonus",
+		"Withdraws before melee combat <with [20]% chance>",
+		]
+	},
+	{
 		"name": "[Cataphract] ability",
 		"uniques": [
 			"[+20]% to Flank Attack bonuses",
@@ -1445,7 +1458,7 @@
 	{
 		"name": "Infantry Shield I",
 		"uniques": [
-			"[+15]% Strength <vs [Ranged] units>",
+			"[+10]% Strength <vs [Ranged] units>",
 			"[+15]% Strength <when defending> <vs cities>",
 			"Withdraws before melee combat <with [3]% chance>",
 		]
@@ -1567,11 +1580,13 @@
 	{
 		"name": "[Lusitanian Warband] ability",
 		"uniques": [
-		"[+20]% Strength <when attacking>",
+		"[+10]% Strength <when attacking>",
 		"[+10]% Strength <when fighting in [Forest] tiles>",
 		"[+10]% Strength <when fighting in [Jungle] tiles>",
-		"[-10]% Strength <when defending> <vs [Ranged] units>",
+		"[-20]% Strength <when defending> <vs [{Land} {Ranged}] units>",
 		"Withdraws before melee combat <with [5]% chance>",
+		"Withdraws before melee combat <with [+5]% chance> <when fighting in [Forest] tiles>",
+		"Withdraws before melee combat <with [+5]% chance> <when fighting in [Jungle] tiles>",
 		]
 	},
 	{
