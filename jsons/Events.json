@@ -55,7 +55,7 @@
 },
 {
     "name": "Rebel Risk?",
-    "text": "Throughout history, rulers have repeatedly discovered that starving, overtaxed, oppressed, or neglected subjects occasionally object to their circumstances. This objection is typically expressed through riots, revolts, and the sudden appearance of armed peasants outside the city walls.The higher your [Rebel Risk], the greater the chance rebel armies will emerge. Watch for the [REBEL IMMINENT] warning in your turn notifications. Contrary to popular belief, rebels rarely spawn because they enjoy exercise.",
+    "text": "Throughout history, rulers have repeatedly discovered that starving, overtaxed, oppressed, or neglected subjects occasionally object to their circumstances. This objection is typically expressed through riots, revolts, and the sudden appearance of armed peasants outside the city walls.The higher your [Rebel Risk], the greater the chance rebel armies will emerge. Watch for the [REBEL IMMINENT] constructed warning in your turn notifications. Contrary to popular belief, rebels rarely spawn because they enjoy exercise.\nTo counter this, build a [Garrison Post] or simply put a unit inside a city, this will increase the chance for the [REBEL IMMINENT] to remove it self.",
     "presentation": "Alert",
     "choices": [
         {
