@@ -535,18 +535,19 @@
 	},
 	{
 		"name": "Garrison Post",
-		"requiredBuilding": "Barracks",
+		"requiredBuilding": "Muster Field",
 		"hurryCostModifier": 20,
-		"Cost":90,
+		"Cost":80,
 		"maintenance": 1,
 		"happiness": 1,
 		"cityHealth": 50,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>",
-			"Comment [+10% city defending strength with a garrison]",
+			"Comment [+10% city defending strength with a garrison, have 50% chance to remove 'REBEL IMMINENT' in this city upon turn end.]",
 			"[+1 Happiness] [in this city] <with a garrison>",
 			"Consumes [1] [Manpower]",
 			"Destroyed when the city is captured",
+			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <hidden from users>",
 		],
 		"requiredTech": "Citizen Levy"
 	},
@@ -2238,7 +2239,7 @@
 		"cost": 0,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"Comment ['The situation remains unstable, it may stablize on it own or not, which is politician language for someone is about to die. A garrison will help reduces unrest. Armed supervision remains one of civilization’s oldest hobbies.']",
+			"Comment ['The situation remains unstable, it may stablize on it own or not, which is politician language for someone is about to die. A garrison will help reduces unrest. Armed supervision remains one of civilization’s oldest hobbies.\nGarrison unit could help remove Rebel with 50% upon turn end.']",
 			"[-2 Gold] from [improved] tiles [in this city]",
 			"[2] [Angry Mob]s rebel <upon turn end> <with [30]% chance> <hidden from users>",
 			"[1] [Spearman]s rebel <upon turn end> <with [20]% chance> <starting from the [Classical Age]> <hidden from users>",
@@ -2247,8 +2248,8 @@
 			"[1] [Swordsman]s rebel <upon turn end> <with [20]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [Heavy Swordsman]s rebel <upon turn end> <with [5]% chance> <during the [Imperial Age]> <hidden from users>",
 			"[1] [General]s rebel <upon turn end> <with [10]% chance> <starting from the [Classical Age]> <hidden from users>",
-			"[+70]% Production when constructing [Restored Order] buildings [in this city] <with a garrison>",
-			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [30]% chance> <hidden from users>",
+			"[+100]% Production when constructing [Restored Order] buildings [in this city] <with a garrison>",
+			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [25]% chance> <hidden from users>",
 			"Remove [REBEL IMMINENT] [in this city] <with a garrison> <upon turn end> <with [50]% chance> <hidden from users>",
 			"Unbuildable","Unsellable",
 			"Destroyed when the city is captured"
