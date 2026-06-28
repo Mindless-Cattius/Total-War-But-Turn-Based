@@ -4,6 +4,12 @@
 			// ADDONS
 
 // GLOBAL,
+
+	"[17] free random researchable Tech(s) from the [Archaic Age] <for [all] Civilizations>",
+	"Gain a free [Palace] [in capital] <in cities without a [Palace]>",
+	"Gain a free [Muster Field] [in capital] <in cities without a [Muster Field]>",
+	"Gain a free [Archery Range] [in capital] <in cities without a [Archery Range]>",
+
 	"Cannot build [Settler] units <if [Peloponnese War] is constructed by anybody>",
 	"Cannot build [Settler] units <if [3rd Century Crisis] is constructed by anybody>",
 	"Provides [1] [Ruler]",

@@ -382,6 +382,31 @@
     "attackSound": "horse"
   },
   {
+    "name": "Suffete",
+    "unitType": "Ruler",
+    "uniqueTo": "The Carthaginians",
+    "replaces": "King",
+    "movement": 3,
+    "strength": 13,
+    "cost": 90,
+    "uniques": [
+         "Comment [-A pre-imperial commander chosen more for civic influence than divine mandate.\nIn theory, they coordinate strategy and lead armies. In practice, they survive long enough to become either a legend or a scapegoat.\nAthens called them strategos. History often calls them “complicated.”\n• Ruler]",
+         "Only available <before adopting [Empire]> <hidden from users>",
+         "Can only be built <in [Capital] cities>",
+         "[This Unit] is destroyed <after adopting [Empire]>",
+         "[+20]% production cost <during the [Hellenistic Age]>",
+         "[+40]% production cost <during the [Imperial Age]>",
+         "[+20]% Strength <during the [Imperial Age]>",
+         "Consumes [1] [Ruler]",
+         "Remove [A Noble's Death] [in all cities]"
+    ],
+    "promotions": [
+	"Commander",
+	"Gravitas I",
+    ],
+    "attackSound": "horse"
+  },
+  {
     "name": "Consul",
     "unitType": "Ruler",
     "uniqueTo": "The Romans",

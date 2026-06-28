@@ -1813,6 +1813,23 @@
 	"cities": ["Gelonus"]
 
 },
+///Africa 
+{
+	"name": "The Libyans",
+	"adjective": ["Libyan"],
+	"cityStateType": "Phoenician",
+	"startBias": ["Desert","Hill"],
+	"outerColor": [0,0,0],
+	"innerColor": [205,100,100],
+	"uniques": [
+    		"Starts with [Eastern Culture] adopted",
+    		"[+1 Gold] from [Water] tiles [in all cities]",
+    		"[+50]% Production when constructing [Water] units [in all cities]",
+    		"New [Spear] units start with [15] XP [in all cities]"
+],
+	"style": "Punic",
+	"cities": ["Lepcis","Macomades","Thapsus"]
+},
 ///Eastern
 ///Mesopotia
 

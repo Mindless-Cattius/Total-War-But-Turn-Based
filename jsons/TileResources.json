@@ -1500,7 +1500,7 @@
     },
 //Italia
     {
-        "name": "Italia Region",
+        "name": "Latinum Region",
         "resourceType": "Bonus",
         "uniques": [
             "Will not be displayed in Civilopedia",
@@ -1525,7 +1525,7 @@
     },
 //Corsica et Sardinia
     {
-        "name": "Corsica Region",
+        "name": "Corsica Region",	
         "resourceType": "Bonus",
         "uniques": [
             "Will not be displayed in Civilopedia",
@@ -1534,6 +1534,40 @@
     },
     {
         "name": "Sardinia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+//Sicilia
+    {
+        "name": "Sicilia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Africa Pacata
+    {
+        "name": "Mauretania Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Africa Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Phazania Region",
         "resourceType": "Bonus",
         "uniques": [
             "Will not be displayed in Civilopedia",
