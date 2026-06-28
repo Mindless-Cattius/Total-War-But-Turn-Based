@@ -81,14 +81,14 @@ TileSets/HexaRealm/Tiles/City Center-Hellenistic Age2
   orig: 71, 57
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City Center-Roman-Classical Age
+TileSets/HexaRealm/Tiles/City Center-Latin-Classical Age
   rotate: false
   xy: 669, 199
   size: 72, 53
   orig: 72, 53
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City Center-Roman-Hellenistic Age
+TileSets/HexaRealm/Tiles/City Center-Latin-Hellenistic Age
   rotate: false
   xy: 1228, 195
   size: 70, 57
@@ -214,7 +214,7 @@ TileSets/HexaRealm/Tiles/City center-Imperial Age2
   orig: 74, 64
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Roman-Imperial Age
+TileSets/HexaRealm/Tiles/City center-Latin-Imperial Age
   rotate: false
   xy: 989, 194
   size: 72, 58
