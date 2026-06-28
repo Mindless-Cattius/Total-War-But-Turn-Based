@@ -2141,16 +2141,10 @@
     "uniques": [
          "Comment [-Lusitanian warbands trained in fast raiding tactics, specializing in sudden strikes and rapid disengagement across difficult terrain.\nThey relied on speed, familiarity with local geography, and a strong preference for avoiding prolonged negotiations with enemy formations.\nEffective at destabilizing supply lines and morale before the main battle even becomes necessary.\n• Light Shock Infantry]",
          "Only available <in cities with a [Barracks]>",
-         "[This Unit] gains the [Drill I] promotion <during the [Imperial Age]>",
-         "[+40]% production cost <during the [Imperial Age]>",
-         "[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
-         "[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
          "Consumes [3] [Manpower]"
     ],
     "promotions": [
-	"[Lusitanian Warband] ability",
       	"Infantry Shield I",
-      	"Raider I",
       	"Ambush I",
     ],
     "attackSound": "metalhit",

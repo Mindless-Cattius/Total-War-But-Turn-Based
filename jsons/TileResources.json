@@ -1385,10 +1385,163 @@
 				"Stockpiled"]
     },
 
+				///Provinces
 
+    //Britain-Albion
+    {
+        "name": "Caledonia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Britannia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
 
+    //Hispania
+    {
+        "name": "Lusitania Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Tarraconensis Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Cartaginensis Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Baetica Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
 
-				///PROVINCES FLAG
+    //Gallia
+    {
+        "name": "Belgica Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Celtica Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Aquitania Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Provincia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+
+    //Germania
+    {
+        "name": "Germania Minor Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Magna Germania Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Suebia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+//Italia
+    {
+        "name": "Italia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Cisalpina Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Alpes Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+//Corsica et Sardinia
+    {
+        "name": "Corsica Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Sardinia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+
+				///3rd century provinces flag
 
             {
             "name": "Gallia P",
