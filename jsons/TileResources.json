@@ -1574,6 +1574,76 @@
             "Stockpiled"
         ]
     },
+///Aegyptus Maior
+    {
+        "name": "Libya Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Aegyptus Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Nabataea Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Arabia
+    {
+        "name": "Arabia Magna Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Arabia Felix Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Syria Maior
+    {
+        "name": "Cilicia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Syria Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+////Mesopotamia Maior
+    {
+        "name": "Mesopotamia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+
+
 
 				///3rd century provinces flag
 

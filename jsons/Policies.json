@@ -2121,6 +2121,7 @@
     	{
       		"name": "Urban Roots",
       		"uniques": [
+                    	"Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
         		"[+10]% Strength <for [Skirmisher] units> <when defending>"
         		"[+10]% Strength <for [Horseman] units> <when defending>"
         		"[+10]% Strength <for [Horseman] units> <when attacking> <for [The Macedonians] Civilizations>",

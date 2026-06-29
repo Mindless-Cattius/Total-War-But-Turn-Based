@@ -266,8 +266,8 @@
 			"Consumes [1] [Decadence] <during a Golden Age>", 
 			"[+5]% Natural religion spread [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
-			"[+5]% Production when constructing [Cure PLAGUE] buildings [in this city]"
-			"[+2]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]"
+			"[+10]% Production when constructing [Cure PLAGUE] buildings [in this city]"
+			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]"
 			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Mysticism"
@@ -1339,6 +1339,7 @@
 			"Provides [1] [Manpower] <in this city> <in cities with at least [10] [Population]>",
 			"[+1 Culture] from [Fort] tiles [in this city]",
 			"[+50]% weight to this choice for AI decisions",
+			"Destroyed when the city is captured",
 		]
 	},
 	{
@@ -1952,6 +1953,7 @@
 			"Provides [1] [Mercenary (Numidian)] <hidden from users>", 
 			"Provides [1] [Mercenary (Thracian)] <hidden from users>",
 			"Provides [1] [Mercenary (Rhodian)] <hidden from users>",
+			"Provides [1] [Mercenary (Cretan)] <hidden from users>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Consumes [1] [Sanitation]",
@@ -3860,6 +3862,7 @@
     		"uniques": [
 			"Provides [2] [Horses]",
 			"[+3 Food] [in capital]",
+			"[+2 Happiness] [in capital]",
 			"Unsellable",	
 			"Only available <in cities with a [Africa]>",
 			"Remove [Africa Pacata] [in this city] <when below [6] [Mauretania Region]> <upon turn end> <hidden from users>",
@@ -3868,6 +3871,179 @@
 			"Unbuildable <when below [5] [Mauretania Region]> <hidden from users>",
 			"Unbuildable <when below [4] [Africa Region]> <hidden from users>",
 			"Unbuildable <when below [1] [Phazania Region]> <hidden from users>",
+		]
+  	},
+
+///
+//4
+	{
+    		"name": "Libya",
+    		"uniques": [
+			"Provides [1] [Libya Region]",
+			"[+1 Gold] from [Trading post] tiles [in capital]",
+			"[+1 Gold] from [Desert] tiles [in this city]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//3
+	{
+    		"name": "Aegyptus",
+		"food": 1,
+    		"uniques": [
+			"Provides [1] [Aegyptus Region]",
+			"[+1 Food] [in capital]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//4
+	{
+    		"name": "Nabataea",
+		"gold": 1,
+		"specialistSlots": {"Merchants": 1},
+    		"uniques": [
+			"Provides [1] [Nabataea Region]",
+			"[+1 Gold] from [Trading post] tiles [in all cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Aegyptus Maior",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchants": 1},
+    		"uniques": [
+			"Provides [1] [Incense]",
+			"Consumes [2] [Rebel Risk] <when above [0] [Rebel Risk]>",
+			"Unsellable",	
+			"Only available <in cities with a [Aegyptus]>",
+			"Remove [Aegyptus Maior] [in this city] <when below [4] [Libya Region]> <upon turn end> <hidden from users>",
+			"Remove [Aegyptus Maior] [in this city] <when below [3] [Aegyptus Region]> <upon turn end> <hidden from users>",
+			"Remove [Aegyptus Maior] [in this city] <when below [4] [Nabataea Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [4] [Libya Region]> <hidden from users>",
+			"Unbuildable <when below [3] [Aegyptus Region]> <hidden from users>",
+			"Unbuildable <when below [4] [Nabataea Region]> <hidden from users>",
+		]
+  	},
+///Arabia
+//3
+	{
+    		"name": "Arabia Magna",
+		"gold": 1,
+		"food": 1,
+    		"uniques": [
+			"Provides [1] [Arabia Magna Region]",
+			"[+1 Gold] from [Trading post] tiles [in all cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//2
+	{
+    		"name": "Arabia Felix",
+		"gold": 1,
+		"food": 1,
+    		"uniques": [
+			"Provides [1] [Arabia Felix Region]",
+			"[+1 Gold] from [Trading post] tiles [in all cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Arabia",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchants": 2},
+    		"uniques": [
+			"[+1 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
+			"Unsellable",	
+			"Only available <in cities with a [Aegyptus]>",
+			"Remove [Arabia] [in this city] <when below [2] [Arabia Felix Region]> <upon turn end> <hidden from users>",
+			"Remove [Arabia] [in this city] <when below [3] [Arabia Magna Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [2] [Arabia Felix Region]> <hidden from users>",
+			"Unbuildable <when below [3] [Arabia Magna Region]> <hidden from users>",
+		]
+  	},
+///Syria Maior
+//2
+	{
+    		"name": "Cilicia",
+		"gold": 2,
+    		"uniques": [
+			"Provides [1] [Cilicia Region]",
+			"[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//3
+	{
+    		"name": "Syria",
+		"gold": 2,
+    		"uniques": [
+			"Provides [1] [Syria Region]",
+			"[+1 Gold] from [Trading post] tiles [in all coastal cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Syria Maior",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchants": 2},
+    		"uniques": [
+			"[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
+			"Unsellable",	
+			"Only available <in cities with a [Syria]>",
+			"Remove [Syria Maior] [in this city] <when below [3] [Syria Region]> <upon turn end> <hidden from users>",
+			"Remove [Syria Maior] [in this city] <when below [2] [Cilicia Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [3] [Syria Region]> <hidden from users>",
+			"Unbuildable <when below [2] [Cilicia Region]> <hidden from users>",
+		]
+  	},
+///Mesopotamia
+//3
+	{
+    		"name": "Mesopotamia",
+		"food": 1,
+    		"uniques": [
+			"Provides [1] [Mesopotamia Region]",
+			"[+1 Gold] from [Farm] tiles [in this city]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Mesopotamia Maior",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchants": 2},
+    		"uniques": [
+			"[+2 Food, +2 Happiness] [in capital]",
+			"Unsellable",	
+			"Only available <in cities with a [Mesopotamia]>",
+			"Remove [Mesopotamia Maior] [in this city] <when below [3] [Mesopotamia Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [3] [Mesopotamia Region]> <hidden from users>",
 		]
   	},
 
@@ -3906,19 +4082,6 @@
 		"specialistSlots": {"Engineer": 1},
     		"uniques": [
 			"[+5]% Production when constructing [all] buildings [in all cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-  	},
-{
-    		"name": "Aegyptus",
-    		"cost": 0,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"[+1 Food] [in all cities]"
-			"[+1 Happiness] [in all cities] <when not at war>",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
@@ -3980,19 +4143,6 @@
     		"uniques": [
 			"[+2 Gold, +1 Happiness] from [Trading post] tiles [in all coastal cities]",
 			"[+10]% Production when constructing [Melee Water] units [in this city]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-},
-{
-    		"name": "Africa",
-    		"cost": 0,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"[+1 Food] [in all cities]",
-			"[+3 Happiness] [in capital]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
