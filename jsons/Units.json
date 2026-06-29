@@ -2723,8 +2723,8 @@
     "name": "Cilician Pirate",
     "unitType": "Scout",
     "movement": 3,
-    "strength": 11,
-    "rangedStrength": 10,
+    "strength": 10,
+    "rangedStrength": 12,
     "cost": 95,
     "uniques": [
          "Comment [-Cilician mercenary coastal raiders trained for naval-adjacent skirmishing, specializing in rapid strikes along shorelines, opportunistic boarding actions, and tactical withdrawal before consequences become paperwork.\nThey excel in coastal environments where mobility and confusion outweigh discipline, leveraging speed, surprise, and questionable accountability to disrupt enemy maritime operations.\nTheir core doctrine is simple: arrive fast, hit hard, leave before someone organizes a response.\n• Light Mercenary Coastal Skirmisher]",
@@ -2736,7 +2736,6 @@
     ],
     "promotions": [
       	"[Skirmisher] ability",
-      	"Infantry Shield I",
       	"Amphibious I",
       	"Amphibious II",
       	"Raider I",
