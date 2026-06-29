@@ -4037,7 +4037,7 @@
     		"name": "Mesopotamia Maior",
     		"cost": 100,
     		"maintenance": 0,
-		"specialistSlots": {"Merchants": 2},
+		"specialistSlots": {"Merchants": 1},
     		"uniques": [
 			"[+2 Food, +2 Happiness] [in capital]",
 			"Unsellable",	
@@ -4046,8 +4046,166 @@
 			"Unbuildable <when below [3] [Mesopotamia Region]> <hidden from users>",
 		]
   	},
+////Persia
+//3
+	{
+    		"name": "Persis",
+		"food": 1,
+    		"uniques": [
+			"Provides [1] [Persis Region]",
+			"[+1 Gold] from [Hill] tiles [in this city]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
 
+		]
+  	},
+//2
+	{
+    		"name": "Media Magna",
+		"food": 1,
+    		"uniques": [
+			"Provides [1] [Media Magna Region]",
+			"Provides [1] [Horses]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//4
+	{
+    		"name": "Parthia",
+    		"uniques": [
+			"Provides [1] [Parthia Region]",
+			"[+10]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Food] from [Pasture] tiles [in this city]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Persia",
+    		"cost": 100,
+		"specialistSlots": {"Merchants": 1},
+    		"uniques": [
+			"Provides [1] [Nobles]",
+			"[+10]% Production when constructing [Mounted] units [in this city]"
+			"Unsellable",	
+			"Only available <in cities with a [Persis]>",
+			"Remove [Persia] [in this city] <when below [3] [Persis Region]> <upon turn end> <hidden from users>",
+			"Remove [Persia] [in this city] <when below [2] [Media Magna Region]> <upon turn end> <hidden from users>",
+			"Remove [Persia] [in this city] <when below [4] [Parthia Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [3] [Persis Region]> <hidden from users>",
+			"Unbuildable <when below [2] [Media Magna Region]> <hidden from users>",
+			"Unbuildable <when below [4] [Parthia Region]> <hidden from users>",
+		]
+  	},
+///Ariana
+//2
+	{
+    		"name": "Gedrosia",
+    		"uniques": [
+			"Provides [1] [Gedrosia Region]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+		]
+  	},
+//1
+	{
+    		"name": "Aria",
+    		"uniques": [
+			"Provides [1] [Aria Region]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+		]
+  	},
+//1
+{
+    		"name": "Arachosia",
+    		"uniques": [
+			"Provides [1] [Arachosia Region]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+]
+  	},
+	{
+    		"name": "Ariana",
+		"gold": 5,
+    		"cost": 100,
+		"specialistSlots": {"Merchants":1},
+    		"uniques": [
+			"[+2 Gold, +1 Happiness] from [Trading post] tiles [in capital]",
+			"Unsellable",	
+			"Only available <in cities with a [Arachosia]>",
+			"Remove [Ariana] [in this city] <when below [2] [Gedrosia Region]> <upon turn end> <hidden from users>",
+			"Remove [Ariana] [in this city] <when below [1] [Aria Region]> <upon turn end> <hidden from users>",
+			"Remove [Ariana] [in this city] <when below [1] [Arachosia Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [2] [Gedrosia Region]> <hidden from users>",
+			"Unbuildable <when below [1] [Aria Region]> <hidden from users>",
+			"Unbuildable <when below [1] [Arachosia Region]> <hidden from users>",
+]
+  	},
+
+////Bactria Maior
+//1
+	{
+    		"name": "Chorasmia",
+    		"uniques": [
+			"Provides [1] [Chorasmia Region]",
+			"Provides [2] [Manpower]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+		]
+  	},
+//1
+	{
+    		"name": "Transoxania",
+    		"uniques": [
+			"Provides [1] [Transoxania Region]",
+			"[+1 Gold, +1 Happiness] from [Trading post] tiles [in all cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+		]
+  	},
+//1
+	{
+    		"name": "Bactria",
+    		"uniques": [
+			"Provides [1] [Bactria Region]",
+			"Provides [1] [Veteran]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+		]
+  	},
+	{
+    		"name": "Bactria Maior",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist":1},
+    		"uniques": [
+			"Provides [1] [Enable Armored Elephant]",
+			"[+10]% Production when constructing [Elephant] units [in all cities]",
+			"Unsellable",	
+			"Only available <in cities with a [Bactria]>",
+			"Remove [Bactria Maior] [in this city] <when below [1] [Chorasmia Region]> <upon turn end> <hidden from users>",
+			"Remove [Bactria Maior] [in this city] <when below [1] [Transoxania Region]> <upon turn end> <hidden from users>",
+			"Remove [Bactria Maior] [in this city] <when below [1] [Bactria Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [1] [Chorasmia Region]> <hidden from users>",
+			"Unbuildable <when below [1] [Transoxania Region]> <hidden from users>",
+			"Unbuildable <when below [1] [Bactria Region]> <hidden from users>",
+]
+  	},
 ////
+
 
 	{
     		"name": "Pannonia",
@@ -4173,6 +4331,5 @@
 			"Never destroyed when the city is captured",
 ]
 },
-
 
 ]
