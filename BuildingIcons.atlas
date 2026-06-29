@@ -20,7 +20,7 @@ BuildingIcons/3rd Century Crisis
   index: -1
 BuildingIcons/A Noble's Death
   rotate: false
-  xy: 716, 125
+  xy: 830, 246
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -41,16 +41,23 @@ BuildingIcons/Administrative Consolidation
   index: -1
 BuildingIcons/Administrative Estates
   rotate: false
-  xy: 774, 125
+  xy: 904, 307
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Aegyptus
   rotate: false
-  xy: 1976, 826
-  size: 64, 64
-  orig: 64, 64
+  xy: 544, 25
+  size: 50, 51
+  orig: 50, 51
+  offset: 0, 0
+  index: -1
+BuildingIcons/Aegyptus Maior
+  rotate: false
+  xy: 1957, 704
+  size: 48, 42
+  orig: 48, 42
   offset: 0, 0
   index: -1
 BuildingIcons/Africa
@@ -265,14 +272,35 @@ BuildingIcons/Anchorage
   index: -1
 BuildingIcons/Aquitania
   rotate: false
-  xy: 760, 257
+  xy: 1859, 648
   size: 62, 48
   orig: 62, 48
   offset: 0, 0
   index: -1
+BuildingIcons/Arabia
+  rotate: false
+  xy: 365, 6
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+BuildingIcons/Arabia Felix
+  rotate: false
+  xy: 423, 14
+  size: 50, 34
+  orig: 50, 34
+  offset: 0, 0
+  index: -1
+BuildingIcons/Arabia Magna
+  rotate: false
+  xy: 602, 27
+  size: 50, 49
+  orig: 50, 49
+  offset: 0, 0
+  index: -1
 BuildingIcons/Archery Focus
   rotate: false
-  xy: 845, 307
+  xy: 1929, 646
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -293,7 +321,7 @@ BuildingIcons/Arena
   index: -1
 BuildingIcons/Armenia
   rotate: false
-  xy: 868, 365
+  xy: 1976, 826
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -307,7 +335,7 @@ BuildingIcons/Army Barracks
   index: -1
 BuildingIcons/Baetica
   rotate: false
-  xy: 1957, 713
+  xy: 1277, 359
   size: 43, 33
   orig: 43, 33
   offset: 0, 0
@@ -349,14 +377,14 @@ BuildingIcons/Belgica
   index: -1
 BuildingIcons/Big City
   rotate: false
-  xy: 976, 473
+  xy: 868, 365
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Urban Fabric V
   rotate: false
-  xy: 976, 473
+  xy: 868, 365
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -370,35 +398,35 @@ BuildingIcons/Brick Maker
   index: -1
 BuildingIcons/Britain
   rotate: false
-  xy: 903, 307
+  xy: 1134, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Britannia
   rotate: false
-  xy: 1507, 473
+  xy: 1379, 357
   size: 35, 35
   orig: 35, 35
   offset: 0, 0
   index: -1
 BuildingIcons/Bronze Exports
   rotate: false
-  xy: 830, 249
+  xy: 1192, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Bronze Imports
   rotate: false
-  xy: 888, 249
+  xy: 1250, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Bronze Works
   rotate: false
-  xy: 808, 191
+  xy: 1308, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -433,7 +461,7 @@ BuildingIcons/Cataphract Training
   index: -1
 BuildingIcons/Cattle Trader
   rotate: false
-  xy: 866, 191
+  xy: 1366, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -445,16 +473,23 @@ BuildingIcons/Cavalry Barracks
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Celicia
+  rotate: false
+  xy: 1172, 349
+  size: 45, 43
+  orig: 45, 43
+  offset: 0, 0
+  index: -1
 BuildingIcons/Celtica
   rotate: false
-  xy: 422, 19
+  xy: 1328, 363
   size: 43, 29
   orig: 43, 29
   offset: 0, 0
   index: -1
 BuildingIcons/Centralize Power
   rotate: false
-  xy: 832, 133
+  xy: 1424, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -475,7 +510,7 @@ BuildingIcons/Circus Maximus
   index: -1
 BuildingIcons/Cisalpina
   rotate: false
-  xy: 306, 12
+  xy: 1482, 588
   size: 50, 36
   orig: 50, 36
   offset: 0, 0
@@ -489,14 +524,14 @@ BuildingIcons/Citizen Assembly
   index: -1
 BuildingIcons/City
   rotate: false
-  xy: 1139, 632
+  xy: 976, 473
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Urban Fabric IV
   rotate: false
-  xy: 1139, 632
+  xy: 976, 473
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -524,7 +559,7 @@ BuildingIcons/Colosseum
   index: -1
 BuildingIcons/Contamination Water Problem
   rotate: false
-  xy: 544, 26
+  xy: 716, 138
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -538,21 +573,21 @@ BuildingIcons/Copper Imports
   index: -1
 BuildingIcons/Corsica
   rotate: false
-  xy: 1593, 473
+  xy: 1987, 661
   size: 30, 35
   orig: 30, 35
   offset: 0, 0
   index: -1
 BuildingIcons/Corsica et Sardinia
   rotate: false
-  xy: 1402, 455
+  xy: 660, 4
   size: 45, 53
   orig: 45, 53
   offset: 0, 0
   index: -1
 BuildingIcons/Cothon
   rotate: false
-  xy: 602, 26
+  xy: 1957, 754
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -580,42 +615,42 @@ BuildingIcons/Cure PLAGUE
   index: -1
 BuildingIcons/Currency Reform
   rotate: false
-  xy: 1931, 646
+  xy: 1540, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Silver Inflation
   rotate: false
-  xy: 1931, 646
+  xy: 1540, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/DANGEROUS PLAGUE
   rotate: false
-  xy: 1134, 574
+  xy: 1482, 530
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Dacia
   rotate: false
-  xy: 1211, 632
+  xy: 1139, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Dalmatia
   rotate: false
-  xy: 738, 183
+  xy: 760, 239
   size: 62, 66
   orig: 62, 66
   offset: 0, 0
   index: -1
 BuildingIcons/Devastating By War
   rotate: false
-  xy: 1192, 574
+  xy: 888, 246
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -629,28 +664,28 @@ BuildingIcons/Drydock
   index: -1
 BuildingIcons/Egypt Grain
   rotate: false
-  xy: 1250, 574
+  xy: 1859, 590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Food Import
   rotate: false
-  xy: 1250, 574
+  xy: 1859, 590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Food Imports
   rotate: false
-  xy: 1250, 574
+  xy: 1859, 590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Egypt Grain Crisis
   rotate: false
-  xy: 1308, 574
+  xy: 1917, 588
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -664,7 +699,7 @@ BuildingIcons/Elephant Imports
   index: -1
 BuildingIcons/Elephant Trainer
   rotate: false
-  xy: 1366, 574
+  xy: 1126, 516
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -678,14 +713,14 @@ BuildingIcons/Embassy
   index: -1
 BuildingIcons/Empire Divide
   rotate: false
-  xy: 1424, 574
+  xy: 1184, 516
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Fountain
   rotate: false
-  xy: 1482, 574
+  xy: 1242, 516
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -713,7 +748,7 @@ BuildingIcons/Galatian Tribe
   index: -1
 BuildingIcons/Gallia
   rotate: false
-  xy: 1283, 632
+  xy: 1211, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -755,14 +790,14 @@ BuildingIcons/Garum Shop
   index: -1
 BuildingIcons/Germania
   rotate: false
-  xy: 1355, 632
+  xy: 1283, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Germania Minor
   rotate: false
-  xy: 1455, 463
+  xy: 1225, 347
   size: 44, 45
   orig: 44, 45
   offset: 0, 0
@@ -811,7 +846,7 @@ BuildingIcons/Great Market
   index: -1
 BuildingIcons/Hall of Veterans
   rotate: false
-  xy: 1540, 574
+  xy: 1300, 516
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -825,7 +860,7 @@ BuildingIcons/Harbor
   index: -1
 BuildingIcons/Heavy Infantry Focus
   rotate: false
-  xy: 1598, 574
+  xy: 1358, 516
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -839,7 +874,7 @@ BuildingIcons/Herbalist
   index: -1
 BuildingIcons/High Inflation
   rotate: false
-  xy: 1656, 581
+  xy: 1416, 516
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -853,7 +888,7 @@ BuildingIcons/Hill Fort
   index: -1
 BuildingIcons/Hispania
   rotate: false
-  xy: 1427, 632
+  xy: 1355, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -867,7 +902,7 @@ BuildingIcons/Hoplite Training
   index: -1
 BuildingIcons/Horse Exports
   rotate: false
-  xy: 1714, 574
+  xy: 774, 181
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -916,7 +951,7 @@ BuildingIcons/Iron Imports
   index: -1
 BuildingIcons/Italia
   rotate: false
-  xy: 1772, 576
+  xy: 832, 190
   size: 50, 48
   orig: 50, 48
   offset: 0, 0
@@ -937,14 +972,14 @@ BuildingIcons/Kurgan
   index: -1
 BuildingIcons/Large Town
   rotate: false
-  xy: 1499, 632
+  xy: 1427, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Urban Fabric II
   rotate: false
-  xy: 1499, 632
+  xy: 1427, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -956,23 +991,30 @@ BuildingIcons/Latinum
   orig: 56, 57
   offset: 0, 0
   index: -1
+BuildingIcons/Libya
+  rotate: false
+  xy: 890, 192
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
 BuildingIcons/Lusitania
   rotate: false
-  xy: 1346, 450
+  xy: 660, 65
   size: 48, 58
   orig: 48, 58
   offset: 0, 0
   index: -1
 BuildingIcons/Macedonia
   rotate: false
-  xy: 1571, 632
+  xy: 1499, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Magna Germania
   rotate: false
-  xy: 1830, 573
+  xy: 774, 122
   size: 50, 51
   orig: 50, 51
   offset: 0, 0
@@ -986,7 +1028,7 @@ BuildingIcons/Make Capital
   index: -1
 BuildingIcons/Manpower Office
   rotate: false
-  xy: 1888, 574
+  xy: 832, 132
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1012,16 +1054,30 @@ BuildingIcons/Mercenary Camp
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Mesopotamia
+  rotate: false
+  xy: 890, 137
+  size: 50, 47
+  orig: 50, 47
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mesopotamia Maior
+  rotate: false
+  xy: 890, 137
+  size: 50, 47
+  orig: 50, 47
+  offset: 0, 0
+  index: -1
 BuildingIcons/Mounted Archery Focus
   rotate: false
-  xy: 1946, 588
+  xy: 716, 80
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Mounted Focus
   rotate: false
-  xy: 924, 191
+  xy: 774, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1035,9 +1091,16 @@ BuildingIcons/Mounted Skirmisher Training
   index: -1
 BuildingIcons/Muster Field
   rotate: false
-  xy: 946, 249
+  xy: 1598, 574
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nabataea
+  rotate: false
+  xy: 306, 5
+  size: 51, 43
+  orig: 51, 43
   offset: 0, 0
   index: -1
 BuildingIcons/Noble District
@@ -1070,7 +1133,7 @@ BuildingIcons/Oppidum
   index: -1
 BuildingIcons/PLAGUE
   rotate: false
-  xy: 982, 191
+  xy: 1656, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1140,14 +1203,14 @@ BuildingIcons/Parthenon
   index: -1
 BuildingIcons/Peloponnese War
   rotate: false
-  xy: 1643, 639
+  xy: 1571, 639
   size: 64, 57
   orig: 64, 57
   offset: 0, 0
   index: -1
 BuildingIcons/Perfumery
   rotate: false
-  xy: 1957, 754
+  xy: 1714, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1196,21 +1259,21 @@ BuildingIcons/Pleasure Chambers
   index: -1
 BuildingIcons/Political Unstable
   rotate: false
-  xy: 1126, 516
+  xy: 1772, 574
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Praetorian Greed
   rotate: false
-  xy: 1184, 516
+  xy: 946, 249
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Praetorian Purge
   rotate: false
-  xy: 1242, 516
+  xy: 948, 191
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1224,49 +1287,49 @@ BuildingIcons/Provincia
   index: -1
 BuildingIcons/Provincial Governors
   rotate: false
-  xy: 1300, 516
+  xy: 948, 133
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Public Bathhouse
   rotate: false
-  xy: 1358, 516
+  xy: 1975, 588
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/REBEL IMMINENT
   rotate: false
-  xy: 1416, 516
+  xy: 940, 379
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Rat Infestation Problem
   rotate: false
-  xy: 1474, 516
+  xy: 962, 321
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Restore Currency Control
   rotate: false
-  xy: 1532, 516
+  xy: 998, 415
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Restored Order
   rotate: false
-  xy: 1590, 516
+  xy: 1048, 487
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Risk of PLAGUE
   rotate: false
-  xy: 1656, 523
+  xy: 1056, 429
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1294,21 +1357,21 @@ BuildingIcons/Sacred Grove
   index: -1
 BuildingIcons/Sanitation Policies I
   rotate: false
-  xy: 1714, 516
+  xy: 1114, 458
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Sanitation Policies II
   rotate: false
-  xy: 1714, 516
+  xy: 1114, 458
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Sardania
   rotate: false
-  xy: 473, 13
+  xy: 1462, 473
   size: 30, 35
   orig: 30, 35
   offset: 0, 0
@@ -1336,7 +1399,7 @@ BuildingIcons/Sculptor
   index: -1
 BuildingIcons/Scythia
   rotate: false
-  xy: 1715, 632
+  xy: 1643, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -1357,14 +1420,14 @@ BuildingIcons/Secret Cult
   index: -1
 BuildingIcons/Shield Infantry Focus
   rotate: false
-  xy: 1772, 518
+  xy: 1172, 458
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Sicilia
   rotate: false
-  xy: 364, 4
+  xy: 481, 4
   size: 50, 44
   orig: 50, 44
   offset: 0, 0
@@ -1385,7 +1448,7 @@ BuildingIcons/Silk Road
   index: -1
 BuildingIcons/Silphium Trader
   rotate: false
-  xy: 1830, 515
+  xy: 1230, 458
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1406,21 +1469,21 @@ BuildingIcons/Slave Trader
   index: -1
 BuildingIcons/Small City
   rotate: false
-  xy: 1787, 632
+  xy: 1715, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Urban Fabric III
   rotate: false
-  xy: 1787, 632
+  xy: 1715, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Spear Focus
   rotate: false
-  xy: 1888, 516
+  xy: 1288, 458
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1434,35 +1497,42 @@ BuildingIcons/Spice Road
   index: -1
 BuildingIcons/Suebia
   rotate: false
-  xy: 1550, 466
+  xy: 1422, 350
   size: 35, 42
   orig: 35, 42
   offset: 0, 0
   index: -1
 BuildingIcons/Supreme Governors
   rotate: false
-  xy: 1946, 530
+  xy: 1346, 458
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Sword Focus
   rotate: false
-  xy: 940, 379
+  xy: 1404, 458
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+BuildingIcons/Syria
+  rotate: false
+  xy: 845, 304
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1
 BuildingIcons/Syssition
   rotate: false
-  xy: 961, 321
+  xy: 1114, 400
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Tar Workshop
   rotate: false
-  xy: 998, 415
+  xy: 1172, 400
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1476,7 +1546,7 @@ BuildingIcons/Tarraconensis
   index: -1
 BuildingIcons/Tavern
   rotate: false
-  xy: 1048, 487
+  xy: 1230, 400
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1490,7 +1560,7 @@ BuildingIcons/Temple
   index: -1
 BuildingIcons/The Extra Chair
   rotate: false
-  xy: 1056, 429
+  xy: 1288, 400
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1504,7 +1574,7 @@ BuildingIcons/The Great Lighthouse
   index: -1
 BuildingIcons/The Long Wall
   rotate: false
-  xy: 1114, 458
+  xy: 1346, 400
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1546,7 +1616,7 @@ BuildingIcons/Thracian Weaponsmith
   index: -1
 BuildingIcons/Timber Exports
   rotate: false
-  xy: 1172, 458
+  xy: 1404, 400
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1560,14 +1630,14 @@ BuildingIcons/Timber Imports
   index: -1
 BuildingIcons/Town
   rotate: false
-  xy: 1859, 632
+  xy: 1787, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Urban Fabric I
   rotate: false
-  xy: 1859, 632
+  xy: 1787, 632
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -1588,7 +1658,7 @@ BuildingIcons/Walls
   index: -1
 BuildingIcons/War Reconstruction
   rotate: false
-  xy: 1230, 458
+  xy: 1056, 371
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1602,7 +1672,7 @@ BuildingIcons/Warrior Statue
   index: -1
 BuildingIcons/Weavery
   rotate: false
-  xy: 1288, 458
+  xy: 1114, 342
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
