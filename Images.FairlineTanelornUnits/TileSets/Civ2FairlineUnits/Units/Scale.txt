@@ -1,0 +1,14 @@
+Infantry: 127x108
+Cavalry: 127x108
+Elephant: 85x65
+Commander: 98x79
+
+Naval:
+Work Boats: 180x140
+Galley: 160x140
+Hemiola: 100x80
+Trireme: 100x80
+Trihemiola: 100x80
+Pentere: 90x70
+Hexere: 85x75
+Dexere:80x60
