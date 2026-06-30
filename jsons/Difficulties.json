@@ -1,11 +1,11 @@
 [
 	{
 		"name": "Noob",
-		"baseHappiness": 15,
+		"baseHappiness": 20,
 		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 0.9,
 		"unitCostModifier": 0.5,
-		"unitSupplyBase": 1000,
+		"unitSupplyBase": 7000,
 		"unitSupplyPerCity": 3,
 		"buildingCostModifier": 0.5,
 		"policyCostModifier": 0.5,
@@ -30,7 +30,7 @@
 	},
 	{
 		"name": "Chieftain",
-		"baseHappiness": 12,
+		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 0.95,
 		"unitCostModifier": 0.67,
@@ -59,7 +59,7 @@
 	},
 	{
 		"name": "Warlord",
-		"baseHappiness": 12,
+		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 0.85,
@@ -88,7 +88,7 @@
 	},
 	{
 		"name": "Prince",
-		"baseHappiness": 9,
+		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
@@ -105,14 +105,14 @@
 		"aiBuildingCostModifier": 1,
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 1,
-		"aiUnitMaintenanceModifier": 0.85,
+		"aiUnitMaintenanceModifier": 1,
 		"aiUnitSupplyModifier": 0.2,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": ["Skirmisher","King"],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": true,
-		"turnBarbariansCanEnterPlayerTiles": 1,
+		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 25
 	},
 	{
@@ -141,7 +141,7 @@
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.9,
 		"aisExchangeTechs": true,
-		"turnBarbariansCanEnterPlayerTiles": 1,
+		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 25
 	},
 	{
@@ -175,7 +175,7 @@
 	},
 	{
 		"name": "Immortal",
-		"baseHappiness": 9,
+		"baseHappiness": 5,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
