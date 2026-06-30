@@ -2853,6 +2853,27 @@
     "attackSound": "march"
   },
   {
+    "name": "Mercenary Pike Phalanx",
+    "unitType": "Spear",
+    "movement": 2,
+    "strength": 17,
+    "cost": 100,
+    "requiredTech": "Bronze Working",
+    "uniques": [
+         "Comment [-Mercenary pikemen armed with exceptionally long pikes and just enough discipline to stand shoulder-to-shoulder while strangers charge at them.\nThey excel at breaking cavalry assaults, holding defensive lines, and making frontal attacks an expensive life decision.\nTheir greatest tactical vulnerability remains the timeless invention of concentrated missile fire.\n• Medium Spear Infantry]",
+         "Only available <in cities with a [Mercenary Camp]>",
+    	"Consumes [1] [Mercenary (Hellenic)]",
+    	"Can be purchased with [Gold] [in all cities]",
+    	"Unbuildable"
+    ],
+    "promotions": [
+      "[Pike Phalanx] ability",
+      "Mercenary",
+      "Infantry Shield I",
+    ],
+    "attackSound": "march"
+  },
+  {
     "name": "Thureophoros",
     "unitType": "Spear",
     "movement": 2,

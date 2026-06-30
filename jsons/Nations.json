@@ -57,6 +57,7 @@
 		"[+40]% maintenance costs <for [all] units> <when not at war>",
 		"Provides [2] [Rebel Risk] <when above [1] [Nobles]>",
 		"Provides [1] [Rebel Risk] <when above [2] [Nobles]>",
+		"Provides [1] [Rebel Risk] <when not at war>",
 		],
 		"cities": ["Rome","Capua","Venusia","Ariminum","Brundisium","Placentia","Cannae","Segesta","Firmum","Salernum","Buxentum","Pollentia"]
 	},
@@ -329,7 +330,7 @@
     		"[+10]% Production when constructing [Spear] units [in all cities]",
     		"[+10]% Strength <for [Mounted] units> <when fighting in [Open terrain] tiles>",
     		"[+1 Happiness, +1 Culture] from [Horses] tiles [in all cities]",
-    		"Provides [1] [Enable Horse Archer]",
+    		"Provides [1] [Enable Horse Archer] <after adopting [Soter]>",
     		"Provides [1] [Enable Armored Elephant]",
     		"Provides [1] [Enable Armored Horse Archer] <starting from the [Hellenistic Age]>",
    		"Comment []",
@@ -929,8 +930,8 @@
 	"hateHello": "You again. This improves nothing for either of us.",
 	"tradeRequest": "Let us trade. Fighting over every disagreement is exhausting."
 
-		"outerColor": [45,105,55],
-		"innerColor": [215,235,250],
+		"outerColor": [0, 150, 92],
+		"innerColor": [217,235,250],
 		"style": "Celtic",
 		"uniqueName": "Brave Belgae",
 		"uniques": [
@@ -1281,7 +1282,7 @@
 	"hateHello": "You return. Our patience is not as infinite as the desert, despite appearances.",
 	"tradeRequest": "Let us trade. The desert does not reward isolation."
 
-		"outerColor": [152, 114, 57],
+		"outerColor": [128, 128, 0],
 		"innerColor": [240, 220, 150],
 		"style": "Egyptian",
 		"uniqueName": "Silphium Monopoly",
@@ -1998,6 +1999,45 @@
 
 //Anatolia
 
+	{
+		"name": "The Galatians",
+		"adjective": ["Galatian"],
+		"cityStateType": "Celtic",
+		"startBias": ["Plains","Hill"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [75,125,175],
+		"uniques": [
+			"Starts with [Celtic Culture] adopted",
+			"[+50]% Production when constructing [Sword] units [in all cities]",
+			"New [Sword] units start with [10] XP [in all cities]",
+			"Provides [1] [Mercenary (Celtic)]",
+		],
+		"style": "Celtic",
+		"cities": ["Ancyra","Pessinus","Tavium"]
+	},
+	{
+    		"name": "The Cappadocians",
+    		"adjective": ["Cappadocian"],
+    		"cityStateType": "Eastern",
+    		"startBias": ["Plains","Hill"],
+    		"declaringWar": "If war is your wish, Cappadocia shall answer.",
+    		"attacked": "You have crossed our borders. You shall regret it.",
+    		"defeated": "Our kingdom falls... but our riders will be remembered.",
+    		"outerColor": [0, 0, 0],
+    		"innerColor": [180, 35, 35],
+    		"uniques": [
+        		"Starts with [Eastern Culture] adopted",
+        		"[+50]% Production when constructing [Mounted] units [in all cities]",
+        		"New [Mounted] units start with [10] XP [in all cities]",
+        		"Provides [1] [Mercenary (Eastern)]"
+    ],
+    		"style": "Eastern",
+    		"cities": ["Mazaca","Tyana","Comana","Melitene"]
+},
 ///Caucasia
 
 	{

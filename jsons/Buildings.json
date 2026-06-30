@@ -954,7 +954,7 @@
  		"cost": 40,
 		"food": 2,
 		"uniques": [
-			"Only available <after adopting [Eastern Culture]>",
+			"Only available <after adopting [Nomad Culture]>",
 			"New [Mounted Archery] units start with [10] XP [in this city]",
 			"Provides [1] [Manpower] <while the empire is happy>",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
@@ -963,8 +963,8 @@
 			"[+1 Food] from [Plains] tiles [in this city]",
 			"[+1 Food] from [Pasture] tiles [in this city]",
 			"[+1 Happiness, -1 Food, +1 Production] from [Fort] tiles [in this city]",
-			"[+1 Food] from [Camp] tiles [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
-			"[+1 Gold, +1 Food] from [Pasture] tiles [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
+			"[+1 Food] from [Camp] tiles [in this city] <after adopting [Nomad Culture]> <before the [Imperial Age]>",
+			"[+1 Gold, +1 Food] from [Pasture] tiles [in this city] <after adopting [Nomad Culture]> <before the [Imperial Age]>",
 			"Cost increases by [2] per owned city",
 			"Never destroyed when the city is captured",
 			"Must not be on [Desert]",
@@ -3789,6 +3789,7 @@
 	{
     		"name": "Corsica et Sardinia",
     		"cost": 100,
+		"gold": 5,
     		"maintenance": 0,
 		"specialistSlots": {"Merchants": 2},
     		"uniques": [
@@ -3801,7 +3802,7 @@
 			"Unbuildable <when below [1] [Corsica Region]> <hidden from users>",
 		]
   	},
-///
+///Sicilia Magna
 	{
     		"name": "Sicilia",
     		"cost": 0,
@@ -3816,6 +3817,222 @@
 
 		]
   	},
+	{
+    		"name": "Sicilia Magna",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchants": 1},
+    		"uniques": [
+			"[+1 Gold] [in all coastal cities]",
+			"[+1 Happiness, +1 Gold] from [Trading post] tiles [in all coastal cities]",
+			"Unsellable",	
+			"Only available <in cities with a [Sicilia]>",
+			"Remove [Sicilia] [in this city] <when below [2] [Sicilia Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [2] [Sicilia Region]> <hidden from users>",
+		]
+  	},
+///Anatolia
+//2
+	{
+    		"name": "Asia",
+		"gold": 2,
+    		"uniques": [
+			"Provides [1] [Asia Region]",
+			"[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//2
+	{
+    		"name": "Galatia et Cappadocia",
+		"food": 1,
+    		"uniques": [
+			"Provides [1] [Galatia et Cappadocia Region]",
+			"Provides [2] [Manpower]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//2
+	{
+    		"name": "Bithynia et Pontus",
+		"gold": 2,
+    		"uniques": [
+			"Provides [1] [Bithynia et Pontus Region]",
+			"[+1 Gold] from [Trading post] tiles [in all coastal cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Anatolia",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchants": 1},
+    		"uniques": [
+			"[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
+			"Unsellable",	
+			"Only available <in cities with a [Galatia et Cappadocia]>",
+			"Remove [Anatolia] [in this city] <when below [3] [Asia Region]> <upon turn end> <hidden from users>",
+			"Remove [Anatolia] [in this city] <when below [2] [Galatia et Cappadocia Region]> <upon turn end> <hidden from users>",
+			"Remove [Anatolia] [in this city] <when below [2] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [3] [Asia Region]> <hidden from users>",
+			"Unbuildable <when below [2] [Galatia et Cappadocia Region]> <hidden from users>",
+			"Unbuildable <when below [2] [Bithynia et Pontus Region]> <hidden from users>",
+		]
+  	},
+///Armenia et Caucasus
+//2
+	{
+    		"name": "Armenia",
+    		"uniques": [
+			"Provides [1] [Armenia Region]",
+			"Provides [1] [Horses]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//3
+	{
+    		"name": "Caucasia",
+    		"uniques": [
+			"[+1 Gold] from [Hill] tiles [in this city]"
+			"Provides [1] [Caucasia Region]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Armenia et Caucasus",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Artist": 1},
+    		"uniques": [
+			"Provides [1] [Iron]",
+			"[+1 Culture] from [Hill] tiles [in this city]"
+			"Unsellable",	
+			"Only available <in cities with a [Armenia]>",
+			"Remove [Armenia et Caucasus] [in this city] <when below [3] [Caucasia Region]> <upon turn end> <hidden from users>",
+			"Remove [Armenia et Caucasus] [in this city] <when below [2] [Armenia Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [3] [Caucasia Region]> <hidden from users>",
+			"Unbuildable <when below [2] [Armenia Region]> <hidden from users>",
+		]
+  	},
+
+
+
+///Syria Maior
+//2
+	{
+    		"name": "Cilicia",
+		"gold": 2,
+    		"uniques": [
+			"Provides [1] [Cilicia Region]",
+			"[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//3
+	{
+    		"name": "Syria",
+		"gold": 2,
+    		"uniques": [
+			"Provides [1] [Syria Region]",
+			"[+1 Gold] from [Trading post] tiles [in all coastal cities]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Syria Maior",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchants": 2},
+    		"uniques": [
+			"[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
+			"Unsellable",	
+			"Only available <in cities with a [Syria]>",
+			"Remove [Syria Maior] [in this city] <when below [3] [Syria Region]> <upon turn end> <hidden from users>",
+			"Remove [Syria Maior] [in this city] <when below [2] [Cilicia Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [3] [Syria Region]> <hidden from users>",
+			"Unbuildable <when below [2] [Cilicia Region]> <hidden from users>",
+		]
+  	},
+///Pontus Euxinus
+//2
+	{
+    		"name": "Scythia",
+		"food": 1,
+    		"uniques": [
+			"[+1 Gold, +1 Food] from [Pasture] tiles [in this city]",
+			"Provides [1] [Scythia Region]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+//3
+	{
+    		"name": "Ponto Caspia",
+		"food": 1,
+    		"uniques": [
+			"[+1 Happiness, +1 Food] from [Pasture] tiles [in this city]",
+			"Provides [1] [Ponto Caspia Region]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Bosporus",
+		"food": 1,
+    		"uniques": [
+			"[+1 Happiness, +1 Gold] from [Trading post] tiles [in all coastal cities]",
+			"Provides [1] [Bosporus Region]",
+			"Unsellable",
+      			"Unbuildable",
+			"Never destroyed when the city is captured",
+
+		]
+  	},
+	{
+    		"name": "Pontus Euxinus",
+    		"cost": 100,
+    		"maintenance": 0,
+		"specialistSlots": {"Merchants": 1},
+    		"uniques": [
+			"[+1 Gold, +1 Food] from [Pasture] tiles [in capital]",
+			"[+1 Happiness, +1 Food] from [Pasture] tiles [in this city]",
+			"Provides [1] [Veteran]",
+			"Unsellable",	
+			"Only available <in cities with a [Syria]>",
+			"Remove [Pontus Euxinus] [in this city] <when below [4] [Scythia Region]> <upon turn end> <hidden from users>",
+			"Remove [Pontus Euxinus] [in this city] <when below [4] [Ponto Caspia Region]> <upon turn end> <hidden from users>",
+			"Remove [Pontus Euxinus] [in this city] <when below [1] [Bosporus Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [4] [Scythia Region]> <hidden from users>",
+			"Unbuildable <when below [4] [Ponto Caspia Region]> <hidden from users>",
+			"Unbuildable <when below [1] [Bosporus Region]> <hidden from users>",
+		]
+  	},
+
 ///Africa Pacata
 //6
 	{
@@ -3980,48 +4197,6 @@
 			"Unbuildable <when below [3] [Arabia Magna Region]> <hidden from users>",
 		]
   	},
-///Syria Maior
-//2
-	{
-    		"name": "Cilicia",
-		"gold": 2,
-    		"uniques": [
-			"Provides [1] [Cilicia Region]",
-			"[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
-//3
-	{
-    		"name": "Syria",
-		"gold": 2,
-    		"uniques": [
-			"Provides [1] [Syria Region]",
-			"[+1 Gold] from [Trading post] tiles [in all coastal cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
-	{
-    		"name": "Syria Maior",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 2},
-    		"uniques": [
-			"[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
-			"Unsellable",	
-			"Only available <in cities with a [Syria]>",
-			"Remove [Syria Maior] [in this city] <when below [3] [Syria Region]> <upon turn end> <hidden from users>",
-			"Remove [Syria Maior] [in this city] <when below [2] [Cilicia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [3] [Syria Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Cilicia Region]> <hidden from users>",
-		]
-  	},
 ///Mesopotamia
 //3
 	{
@@ -4112,6 +4287,7 @@
     		"name": "Gedrosia",
     		"uniques": [
 			"Provides [1] [Gedrosia Region]",
+			"[+1 Gold] [in all coastal cities]"
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
@@ -4120,8 +4296,10 @@
 //1
 	{
     		"name": "Aria",
+		"food": 1,
     		"uniques": [
 			"Provides [1] [Aria Region]",
+			"[+2 Gold] from [Farm] tiles [in this city]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
@@ -4132,6 +4310,7 @@
     		"name": "Arachosia",
     		"uniques": [
 			"Provides [1] [Arachosia Region]",
+			"New [Mounted] units start with [10] XP [in this city]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",
@@ -4222,20 +4401,6 @@
 			"Never destroyed when the city is captured",
 		]
   	},
-	{
-    		"name": "Anatolia",
-    		"cost": 0,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Provides [1] [Timber]",
-			"Provides [1] [Iron]",
-			"Provides [1] [Horses]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-		]
-  	},
 {
     		"name": "Achaea",
     		"cost": 0,
@@ -4260,18 +4425,6 @@
       			"Unbuildable",
 ]
   	},
-{
-    		"name": "Armenia",
-    		"cost": 0,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Provides [2] [Horses]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-},
 {
     		"name": "Dalmatia",
     		"cost": 0,
@@ -4304,18 +4457,6 @@
     		"uniques": [
 			"[+2 Gold, +1 Happiness] from [Trading post] tiles [in all coastal cities]",
 			"[+10]% Production when constructing [Melee Water] units [in this city]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-},
-{
-    		"name": "Scythia",
-    		"cost": 0,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Provides [4] [Horses]",
 			"Unsellable",
       			"Unbuildable",
 			"Never destroyed when the city is captured",

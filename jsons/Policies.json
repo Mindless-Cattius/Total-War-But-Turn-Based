@@ -1049,7 +1049,6 @@
             {
                 "name": "Royal Herd",
                 "uniques": [
-                    "Comment [Enables Horse Archer]","Provides [1] [Enable Horse Archer] <hidden from users>",
                     "[+20]% Production when constructing [Mounted] units [in capital]",
 		    "[+10]% XP gained from combat <for [Mounted] units> <when above [2] [Horses]>"
                     "Free [Horseman] appears",
@@ -1099,6 +1098,7 @@
                 "name": "Parthian Tactics",
                 "requires": ["Steppe Authority"],
                 "uniques": [
+                    	"Comment [Enables Horse Archer]","Provides [1] [Enable Horse Archer] <hidden from users>",
                     	"[+10]% Strength <for [Mounted Archery] units> <when attacking> <vs [Sword] units>",
                     	"[+10]% Strength <for [Skirmisher] units> <when attacking> <vs [Ranged] units>",
         		"[+10]% Strength <for [Veterans] units> <when above [2] [Horses]>",
@@ -1137,7 +1137,7 @@
                 "uniques": [
 			"[+2] XP gained from combat <for [Mounted] units> <when above [5] [Horses]>",
                     	"[+10]% Strength <for [Commander] units>",
-        		"[+10]% Strength <for [Cataphract] units> <when attacking>",
+        		"[+10]% Strength <for [Cavalry] units> <when attacking>",
 			"[+20]% Yield from pillaging tiles <for [Mounted] units>",
 			"[+30]% Yield from pillaging tiles <for [Mounted Archery] units>",
 			"[+20]% Production when constructing [Mounted] units [in all cities]",
@@ -1179,6 +1179,7 @@
                 "name": "Great King's Levy",
                 "requires": ["Royal Cities"],
                 "uniques": [
+                    	"Comment [Enables Horse Archer]","Provides [1] [Enable Horse Archer] <hidden from users>",
                     "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     "[+15]% Production when constructing [Spearman] units [in all cities]",
@@ -1208,9 +1209,7 @@
                 "name": "King of Kings",
         	"era": "Classical Age",
                 "uniques": [
-                    	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     	"Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
-                    	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     	"Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     	"[1] free [Cataphract] units appear",
                     	"Provides [3] [Manpower]",
@@ -1307,6 +1306,9 @@
         	"era": "Hellenistic Age",
                 "uniques": [
 			"Only available <before adopting [Imperial Metallurgy]>","Comment [Only available before adopting Imperial Metallurgy]",
+                    	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
+                    	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     	"Comment [Enables Armored Elephant]","Provides [1] [Enable Armored Elephant] <hidden from users>",
             		"Comment [Enables Armored Horse Archer]","Provides [1] [Enable Armored Horse Archer] <hidden from users>",
             		"Comment [Enable Mounted Armored Skirmisher]","Provides [1] [Enable Mounted Armored Skirmisher] <hidden from users>",
@@ -1333,6 +1335,8 @@
                     	"Comment [Enables Armored Elephant]","Provides [1] [Enable Armored Elephant] <hidden from users>",
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
             		"Comment [Enable Mounted Armored Skirmisher]","Provides [1] [Enable Mounted Armored Skirmisher] <hidden from users>",
+                    	"Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
+                    	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     	"[Mounted] units gain the [Improved Armor] promotion",
                     	"[Infantry Shield II] units gain the [Improved Armor] promotion",
                     	"[Cataphract] units gain the [Improved Armor] promotion",
@@ -2308,7 +2312,6 @@
                 "requires": ["Sarissa Corps"],
                 "uniques": [
                     	"Comment [Enables Armored Elephant]","Provides [1] [Enable Armored Elephant] <hidden from users>",
-            		"Comment [Enable Mounted Armored Skirmisher]","Provides [1] [Enable Mounted Armored Skirmisher] <hidden from users>",
                     	"[Cataphract] units gain the [Improved Armor] promotion",
                     	"[Armored Elephant] units gain the [Improved Armor] promotion",
                     	"[War Elephant] units gain the [Improved Armor] promotion",
@@ -2354,7 +2357,9 @@
                     	"Provides [2] [Horses]",
                     	"[Skirmisher] units gain the [Improved Armor] promotion",
                     	"[Horseman] units gain the [Improved Armor] promotion",
+                    	"[Mounted Archery] units gain the [Improved Armor] promotion",
         		"[+10]% Strength <for [Mounted] units>",
+        		"[+10]% Strength <for [Mounted Archery] units>",
 			"[+2 Gold, +1 Food] from each Trade Route",
         		"[+2 Gold] from [improved] tiles [in all cities]",
         		"[+2 Gold, +1 Happiness] from [Trading post] tiles [in all cities]",
@@ -2370,7 +2375,7 @@
                 "name": "Successor Administration",
         	"era": "Hellenistic Age",
                 "uniques": [
-        		"[+15]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
+        		"[+10]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
                     	"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     	"Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     	"Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",

@@ -1718,7 +1718,73 @@
             "Stockpiled"
         ]
     },
-
+///Anatolia
+    {
+        "name": "Asia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Galatia et Cappadocia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Bithynia et Pontus Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Armenia et Caucasus
+    {
+        "name": "Caucasia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Armenia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Pontus Euxinus
+    {
+        "name": "Bosporus Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Ponto Caspia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Scythia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
 
 
 				///3rd century provinces flag
