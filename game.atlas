@@ -132,7 +132,7 @@ NationIcons/The Masaesyli
   index: -1
 CityStateIcons/Oscan
   rotate: false
-  xy: 652, 849
+  xy: 652, 317
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -279,7 +279,7 @@ NationIcons/The Arverni
   index: -1
 NationIcons/The Bactrians
   rotate: false
-  xy: 1949, 1790
+  xy: 1949, 1569
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
@@ -321,7 +321,7 @@ NationIcons/The Celtiberians
   index: -1
 NationIcons/The Cimbrians
   rotate: false
-  xy: 1949, 1712
+  xy: 436, 19
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
@@ -349,7 +349,7 @@ NationIcons/The Getae
   index: -1
 NationIcons/The Iceni
   rotate: false
-  xy: 1949, 1634
+  xy: 652, 1218
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
@@ -454,7 +454,7 @@ NationIcons/The Suebi
   index: -1
 NationIcons/The Syracusans
   rotate: false
-  xy: 1949, 1556
+  xy: 652, 1140
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
@@ -510,7 +510,7 @@ NationIcons/xThe Phrygians
   index: -1
 ReligionIcons/Buddism
   rotate: false
-  xy: 652, 1209
+  xy: 652, 821
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -531,7 +531,7 @@ ReligionIcons/Druidism
   index: -1
 ReligionIcons/Eye
   rotate: false
-  xy: 834, 293
+  xy: 1737, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -545,7 +545,7 @@ ReligionIcons/Imperial Cult
   index: -1
 ReligionIcons/Judaism
   rotate: false
-  xy: 724, 947
+  xy: 1331, 1191
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -566,7 +566,7 @@ ReligionIcons/Olympianism
   index: -1
 ReligionIcons/Pisces
   rotate: false
-  xy: 782, 950
+  xy: 912, 1009
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -580,21 +580,21 @@ ReligionIcons/Sol Invictus
   index: -1
 ReligionIcons/Zalmoxian
   rotate: false
-  xy: 835, 367
+  xy: 1144, 1006
   size: 50, 53
   orig: 50, 53
   offset: 0, 0
   index: -1
 ReligionIcons/Zoroastrianism
   rotate: false
-  xy: 652, 558
+  xy: 652, 26
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ResourceIcons/Aegyptus Region
   rotate: false
-  xy: 711, 148
+  xy: 1157, 1237
   size: 50, 51
   orig: 50, 51
   offset: 0, 0
@@ -608,7 +608,7 @@ ResourceIcons/Africa Region
   index: -1
 ResourceIcons/Alpes Region
   rotate: false
-  xy: 652, 446
+  xy: 582, 14
   size: 59, 47
   orig: 59, 47
   offset: 0, 0
@@ -622,112 +622,112 @@ ResourceIcons/Amber
   index: -1
 ResourceIcons/Aquitania Region
   rotate: false
-  xy: 582, 13
+  xy: 1949, 1513
   size: 62, 48
   orig: 62, 48
   offset: 0, 0
   index: -1
 ResourceIcons/Arabia Felix Region
   rotate: false
-  xy: 720, 516
+  xy: 796, 1189
   size: 50, 34
   orig: 50, 34
   offset: 0, 0
   index: -1
 ResourceIcons/Arabia Magna Region
   rotate: false
-  xy: 720, 459
+  xy: 720, 1296
   size: 50, 49
   orig: 50, 49
   offset: 0, 0
   index: -1
 ResourceIcons/Arachosia Region
   rotate: false
-  xy: 719, 400
+  xy: 1215, 1237
   size: 50, 51
   orig: 50, 51
   offset: 0, 0
   index: -1
 ResourceIcons/Aria Region
   rotate: false
-  xy: 719, 400
+  xy: 1215, 1237
   size: 50, 51
   orig: 50, 51
   offset: 0, 0
   index: -1
 ResourceIcons/Gedrosia Region
   rotate: false
-  xy: 719, 400
+  xy: 1215, 1237
   size: 50, 51
   orig: 50, 51
   offset: 0, 0
   index: -1
 ResourceIcons/Armenia 3rd Century Crisis
   rotate: false
-  xy: 652, 1281
+  xy: 652, 893
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ResourceIcons/Armenia Region
   rotate: false
-  xy: 436, 38
+  xy: 652, 1081
   size: 65, 51
   orig: 65, 51
   offset: 0, 0
   index: -1
 ResourceIcons/Asia Region
   rotate: false
-  xy: 652, 149
+  xy: 921, 1238
   size: 51, 50
   orig: 51, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Bactria Maior
   rotate: false
-  xy: 718, 342
+  xy: 1273, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Bactria Region
   rotate: false
-  xy: 652, 99
+  xy: 980, 1246
   size: 51, 42
   orig: 51, 42
   offset: 0, 0
   index: -1
 ResourceIcons/Baetica Region
   rotate: false
-  xy: 652, 4
+  xy: 1365, 1089
   size: 43, 33
   orig: 43, 33
   offset: 0, 0
   index: -1
 ResourceIcons/Belgica Region
   rotate: false
-  xy: 652, 397
+  xy: 730, 1247
   size: 58, 41
   orig: 58, 41
   offset: 0, 0
   index: -1
 ResourceIcons/Bithynia et Pontus Region
   rotate: false
-  xy: 718, 295
+  xy: 1331, 1249
   size: 50, 39
   orig: 50, 39
   offset: 0, 0
   index: -1
 ResourceIcons/Bosporus Region
   rotate: false
-  xy: 777, 409
+  xy: 1389, 1246
   size: 50, 42
   orig: 50, 42
   offset: 0, 0
   index: -1
 ResourceIcons/Britannia Region
   rotate: false
-  xy: 2009, 1513
+  xy: 1258, 995
   size: 35, 35
   orig: 35, 35
   offset: 0, 0
@@ -741,7 +741,7 @@ ResourceIcons/Bronze
   index: -1
 ResourceIcons/Caledonia Region
   rotate: false
-  xy: 703, 9
+  xy: 1382, 1011
   size: 28, 28
   orig: 28, 28
   offset: 0, 0
@@ -755,28 +755,28 @@ ResourceIcons/Camels
   index: -1
 ResourceIcons/Cartaginensis Region
   rotate: false
-  xy: 652, 501
+  xy: 652, 1296
   size: 60, 49
   orig: 60, 49
   offset: 0, 0
   index: -1
 ResourceIcons/Caucasia Region
   rotate: false
-  xy: 968, 1238
+  xy: 652, 1023
   size: 65, 50
   orig: 65, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Celicia Region
   rotate: false
-  xy: 772, 82
+  xy: 1260, 1128
   size: 45, 43
   orig: 45, 43
   offset: 0, 0
   index: -1
 ResourceIcons/Celtica Region
   rotate: false
-  xy: 724, 565
+  xy: 1260, 1038
   size: 43, 29
   orig: 43, 29
   offset: 0, 0
@@ -790,21 +790,21 @@ ResourceIcons/Ceramics
   index: -1
 ResourceIcons/Chorasmia Region
   rotate: false
-  xy: 776, 293
+  xy: 1505, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Cisalpina Region
   rotate: false
-  xy: 772, 249
+  xy: 1563, 1252
   size: 50, 36
   orig: 50, 36
   offset: 0, 0
   index: -1
 ResourceIcons/Cities
   rotate: false
-  xy: 652, 1137
+  xy: 652, 749
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -837,6 +837,13 @@ ResourceIcons/Corsica Region
   orig: 30, 35
   offset: 0, 0
   index: -1
+ResourceIcons/Dacia Region
+  rotate: false
+  xy: 1949, 1647
+  size: 70, 50
+  orig: 70, 50
+  offset: 0, 0
+  index: -1
 ResourceIcons/Decadence
   rotate: false
   xy: 112, 1104
@@ -860,28 +867,28 @@ ResourceIcons/Flax
   index: -1
 ResourceIcons/Galatia et Cappadocia Region
   rotate: false
-  xy: 652, 333
+  xy: 730, 1183
   size: 58, 56
   orig: 58, 56
   offset: 0, 0
   index: -1
 ResourceIcons/Gallic 3rd Century Crisis
   rotate: false
-  xy: 652, 1065
+  xy: 652, 677
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ResourceIcons/Germania Minor Region
   rotate: false
-  xy: 840, 1243
+  xy: 1313, 1080
   size: 44, 45
   orig: 44, 45
   offset: 0, 0
   index: -1
 ResourceIcons/Germanic 3rd Century Crisis
   rotate: false
-  xy: 652, 993
+  xy: 652, 605
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -895,7 +902,14 @@ ResourceIcons/Glass
   index: -1
 ResourceIcons/Goth 3rd Century Crisis
   rotate: false
-  xy: 652, 921
+  xy: 652, 533
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/Hellas - Region
+  rotate: false
+  xy: 652, 461
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -914,6 +928,13 @@ ResourceIcons/Herbs
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Hercynia Region
+  rotate: false
+  xy: 725, 1066
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
 ResourceIcons/Honey
   rotate: false
   xy: 220, 72
@@ -928,16 +949,23 @@ ResourceIcons/Hun 3rd Century Crisis
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Illyria Region
+  rotate: false
+  xy: 724, 891
+  size: 62, 66
+  orig: 62, 66
+  offset: 0, 0
+  index: -1
 ResourceIcons/Imperial Auditor
   rotate: false
-  xy: 724, 1179
+  xy: 1969, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Imperial Vermin Hound
   rotate: false
-  xy: 724, 1121
+  xy: 1563, 1194
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -958,28 +986,35 @@ ResourceIcons/Ivory
   index: -1
 ResourceIcons/Latinum Region
   rotate: false
-  xy: 652, 268
+  xy: 796, 1231
   size: 56, 57
   orig: 56, 57
   offset: 0, 0
   index: -1
 ResourceIcons/Libya Region
   rotate: false
-  xy: 724, 835
+  xy: 1447, 1184
   size: 50, 46
   orig: 50, 46
   offset: 0, 0
   index: -1
 ResourceIcons/Lusitania Region
   rotate: false
-  xy: 893, 420
+  xy: 1202, 995
   size: 48, 58
   orig: 48, 58
   offset: 0, 0
   index: -1
+ResourceIcons/Macedonia Region
+  rotate: false
+  xy: 652, 389
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 ResourceIcons/Magna Germania Region
   rotate: false
-  xy: 724, 776
+  xy: 1505, 1179
   size: 50, 51
   orig: 50, 51
   offset: 0, 0
@@ -993,126 +1028,126 @@ ResourceIcons/Manpower
   index: -1
 ResourceIcons/Mauretania Region
   rotate: false
-  xy: 509, 11
+  xy: 652, 965
   size: 65, 50
   orig: 65, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Media Magna Region
   rotate: false
-  xy: 724, 718
+  xy: 1273, 1180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Celtic)
   rotate: false
-  xy: 724, 660
+  xy: 1563, 1136
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Cilician)
   rotate: false
-  xy: 724, 602
+  xy: 1331, 1133
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Cretan)
   rotate: false
-  xy: 772, 133
+  xy: 1389, 1130
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Eastern)
   rotate: false
-  xy: 892, 1238
+  xy: 1447, 1126
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Germanic)
   rotate: false
-  xy: 888, 177
+  xy: 1505, 1121
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Hellenic)
   rotate: false
-  xy: 830, 133
+  xy: 1563, 1078
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Iberian)
   rotate: false
-  xy: 888, 119
+  xy: 980, 1188
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Illyrian)
   rotate: false
-  xy: 892, 1180
+  xy: 1038, 1184
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Judean)
   rotate: false
-  xy: 950, 1180
+  xy: 1096, 1177
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Mesopotamian)
   rotate: false
-  xy: 1008, 1180
+  xy: 796, 1015
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Numidian)
   rotate: false
-  xy: 825, 80
+  xy: 1260, 1075
   size: 45, 45
   orig: 45, 45
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Oscan)
   rotate: false
-  xy: 782, 1295
+  xy: 854, 1173
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Rhodian)
   rotate: false
-  xy: 782, 1237
+  xy: 854, 1115
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mercenary (Thracian)
   rotate: false
-  xy: 782, 1179
+  xy: 854, 1057
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Mesopotamia Region
   rotate: false
-  xy: 782, 1124
+  xy: 921, 1183
   size: 50, 47
   orig: 50, 47
   offset: 0, 0
   index: -1
 ResourceIcons/Nabataea Region
   rotate: false
-  xy: 652, 45
+  xy: 1039, 1242
   size: 51, 46
   orig: 51, 46
   offset: 0, 0
@@ -1140,9 +1175,16 @@ ResourceIcons/Olives
   index: -1
 ResourceIcons/Palmyrence 3rd Century Crisis
   rotate: false
-  xy: 652, 777
+  xy: 652, 245
   size: 64, 64
   orig: 64, 64
+  offset: 0, 0
+  index: -1
+ResourceIcons/Pannonia Region
+  rotate: false
+  xy: 1949, 1864
+  size: 80, 72
+  orig: 80, 72
   offset: 0, 0
   index: -1
 ResourceIcons/Papyrus
@@ -1154,7 +1196,7 @@ ResourceIcons/Papyrus
   index: -1
 ResourceIcons/Parthia Region
   rotate: false
-  xy: 840, 1201
+  xy: 1365, 1047
   size: 35, 34
   orig: 35, 34
   offset: 0, 0
@@ -1182,14 +1224,14 @@ NationIcons/xThe Athenians
   index: -1
 ResourceIcons/Peloponnese War Epirot
   rotate: false
-  xy: 652, 705
+  xy: 652, 173
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 NationIcons/The Epirots
   rotate: false
-  xy: 652, 705
+  xy: 652, 173
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -1238,7 +1280,7 @@ ResourceIcons/Perfume
   index: -1
 ResourceIcons/Persis Region
   rotate: false
-  xy: 782, 1008
+  xy: 912, 1067
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1259,14 +1301,14 @@ ResourceIcons/Ponto Caspia Region
   index: -1
 ResourceIcons/Praetorian Greed
   rotate: false
-  xy: 782, 892
+  xy: 970, 1125
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Provincia Region
   rotate: false
-  xy: 1949, 1516
+  xy: 730, 1143
   size: 52, 32
   orig: 52, 32
   offset: 0, 0
@@ -1280,7 +1322,7 @@ ResourceIcons/Purple Dye
   index: -1
 ResourceIcons/Rebel Risk
   rotate: false
-  xy: 782, 776
+  xy: 970, 1009
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1294,14 +1336,14 @@ ResourceIcons/Roman 3rd Century Crisis
   index: -1
 ResourceIcons/Rule
   rotate: false
-  xy: 782, 660
+  xy: 1028, 1068
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Ruler
   rotate: false
-  xy: 782, 602
+  xy: 1028, 1010
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1315,16 +1357,23 @@ ResourceIcons/Salt
   index: -1
 ResourceIcons/Sanitation
   rotate: false
-  xy: 778, 486
+  xy: 1086, 1061
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Sardania Region
   rotate: false
-  xy: 921, 76
+  xy: 1344, 1004
   size: 30, 35
   orig: 30, 35
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sarmatia Region
+  rotate: false
+  xy: 514, 13
+  size: 60, 48
+  orig: 60, 48
   offset: 0, 0
   index: -1
 ResourceIcons/Scrolls
@@ -1336,14 +1385,14 @@ ResourceIcons/Scrolls
   index: -1
 ResourceIcons/Scythian Region
   rotate: false
-  xy: 652, 630
+  xy: 652, 98
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
   index: -1
 ResourceIcons/Sicilia Region
   rotate: false
-  xy: 898, 1128
+  xy: 1144, 1067
   size: 50, 44
   orig: 50, 44
   offset: 0, 0
@@ -1357,21 +1406,21 @@ ResourceIcons/Silphium
   index: -1
 ResourceIcons/Silvan Primates
   rotate: false
-  xy: 898, 1070
+  xy: 1154, 1177
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Suebia Region
   rotate: false
-  xy: 878, 69
+  xy: 1301, 988
   size: 35, 42
   orig: 35, 42
   offset: 0, 0
   index: -1
 ResourceIcons/Syria Region
   rotate: false
-  xy: 713, 207
+  xy: 1098, 1235
   size: 51, 53
   orig: 51, 53
   offset: 0, 0
@@ -1385,9 +1434,16 @@ ResourceIcons/Tar
   index: -1
 ResourceIcons/Tarraconensis Region
   rotate: false
-  xy: 1949, 1868
+  xy: 1949, 1788
   size: 78, 68
   orig: 78, 68
+  offset: 0, 0
+  index: -1
+ResourceIcons/Thracia Region
+  rotate: false
+  xy: 1949, 1705
+  size: 75, 75
+  orig: 75, 75
   offset: 0, 0
   index: -1
 ResourceIcons/Timber
@@ -1406,7 +1462,7 @@ ResourceIcons/Tin
   index: -1
 ResourceIcons/Transoxania Region
   rotate: false
-  xy: 652, 207
+  xy: 860, 1235
   size: 53, 53
   orig: 53, 53
   offset: 0, 0
@@ -1700,7 +1756,7 @@ UnitPromotionIcons/Assault
   index: -1
 UnitPromotionIcons/Breakthrough
   rotate: false
-  xy: 777, 351
+  xy: 1447, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1721,7 +1777,7 @@ UnitPromotionIcons/Cavalry Shield
   index: -1
 UnitPromotionIcons/Clubmen
   rotate: false
-  xy: 772, 191
+  xy: 1621, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1756,7 +1812,7 @@ UnitPromotionIcons/Drill
   index: -1
 UnitPromotionIcons/Eagle Eye
   rotate: false
-  xy: 830, 235
+  xy: 1679, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1770,7 +1826,7 @@ UnitPromotionIcons/Flanking
   index: -1
 UnitPromotionIcons/Foraging
   rotate: false
-  xy: 888, 235
+  xy: 1795, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1791,28 +1847,28 @@ UnitPromotionIcons/Frontline
   index: -1
 UnitPromotionIcons/Gravitas
   rotate: false
-  xy: 724, 1295
+  xy: 1853, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healing
   rotate: false
-  xy: 724, 1237
+  xy: 1911, 1238
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Imperium
   rotate: false
-  xy: 724, 1063
+  xy: 796, 1131
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Improved Armor
   rotate: false
-  xy: 724, 1005
+  xy: 796, 1073
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1854,7 +1910,7 @@ UnitPromotionIcons/Iron Darts
   index: -1
 UnitPromotionIcons/King Slayer
   rotate: false
-  xy: 724, 889
+  xy: 1389, 1188
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1924,7 +1980,7 @@ UnitPromotionIcons/Parthian Doctrine
   index: -1
 UnitPromotionIcons/Pathfinder
   rotate: false
-  xy: 782, 1066
+  xy: 912, 1125
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1952,7 +2008,7 @@ UnitPromotionIcons/Praetorianus
   index: -1
 UnitPromotionIcons/Prudentia
   rotate: false
-  xy: 782, 834
+  xy: 970, 1067
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1973,21 +2029,21 @@ UnitPromotionIcons/Rapid Fire
   index: -1
 UnitPromotionIcons/Royal Retinue
   rotate: false
-  xy: 782, 718
+  xy: 1028, 1126
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ruler
   rotate: false
-  xy: 778, 544
+  xy: 1086, 1119
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Scorched Earth
   rotate: false
-  xy: 840, 1122
+  xy: 1144, 1119
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2029,7 +2085,7 @@ UnitPromotionIcons/Spear Wall
   index: -1
 UnitPromotionIcons/Spoils of War
   rotate: false
-  xy: 836, 544
+  xy: 1212, 1179
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2043,7 +2099,7 @@ UnitPromotionIcons/Standard Bearer
   index: -1
 UnitPromotionIcons/Successor
   rotate: false
-  xy: 836, 486
+  xy: 1202, 1119
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2057,7 +2113,7 @@ UnitPromotionIcons/Veteran
   index: -1
 UnitPromotionIcons/Virtus
   rotate: false
-  xy: 835, 428
+  xy: 1202, 1061
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
