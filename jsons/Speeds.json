@@ -35,13 +35,13 @@
         "religiousPressureAdjacentCity": 6,
         "peaceDealDuration": 15,
         "dealDuration": 20,
-        "startYear": -800,
-       	"turns": [
-{"yearsPerTurn": 4, "untilTurn": 70}, 
+"startYear": -857,
+"turns": [
+{"yearsPerTurn": 4, "untilTurn": 70},
 {"yearsPerTurn": 2, "untilTurn": 170},
- {"yearsPerTurn": 1, "untilTurn": 320},
- {"yearsPerTurn": 0.5, "untilTurn": 1100},
- {"yearsPerTurn": 0.1, "untilTurn": 1500}
+{"yearsPerTurn": 1, "untilTurn": 320},
+{"yearsPerTurn": 0.5, "untilTurn": 1100},
+{"yearsPerTurn": 0.1, "untilTurn": 1500}
         ]
     },
     {
