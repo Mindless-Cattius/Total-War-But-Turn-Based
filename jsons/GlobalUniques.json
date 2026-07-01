@@ -5,13 +5,10 @@
 
 // GLOBAL,
 
-//	"Gain a free [Palace] [in capital] <in cities without a [Palace]>",
-//	"Gain a free [Muster Field] [in capital] <in cities without a [Muster Field]>",
-//	"Gain a free [Archery Range] [in capital] <in cities without a [Archery Range]>",
-//	"Gain a free [Temple] [in capital] <in cities without a [Archery Range]>",
 
 	"Cannot build [Settler] units <if [Peloponnese War] is constructed by anybody>",
 	"Cannot build [Settler] units <if [3rd Century Crisis] is constructed by anybody>",
+	"Cannot build [Settler] units <if [Grand Campaign] is constructed by anybody>",
 	"Provides [1] [Ruler]",
 	"Provides [1] [Rule]",
 	"[+20]% Faith cost of generating Great Prophet equivalents <for [Human player] Civilizations>"
@@ -77,6 +74,27 @@
 	"Provides [1] [Rebel Risk] <when above [30] [Cities]> <for [Human player] Civilizations>",
 	"Provides [1] [Rebel Risk] <when above [40] [Cities]> <for [Human player] Civilizations>",
 	"Provides [1] [Rebel Risk] <when above [50] [Cities]> <for [Human player] Civilizations>",
+
+//Dificulty
+	"[+10]% Strength for cities <when defending> <for [AI player] Civilizations> <on [King] difficulty>",
+	"[+15]% Strength for cities <when defending> <for [AI player] Civilizations> <on [Emperor] difficulty>",
+	"[+20]% Strength for cities <when defending> <for [AI player] Civilizations> <on [Immortal] difficulty>",
+	"[+25]% Strength for cities <when defending> <for [AI player] Civilizations> <on [Deity] difficulty>",
+
+	"Provides [10] [Manpower] <for [AI player] Civilizations> <on [King] difficulty>",
+	"Provides [15] [Manpower] <for [AI player] Civilizations> <on [Emperor] difficulty>",
+	"Provides [20] [Manpower] <for [AI player] Civilizations> <on [Immortal] difficulty>",	
+	"Provides [30] [Manpower] <for [AI player] Civilizations> <on [Deity] difficulty>",
+
+	"[+10]% Production when constructing [all] buildings [in all cities] <for [AI player] Civilizations> <on [King] difficulty>",
+	"[+15]% Production when constructing [all] buildings [in all cities] <for [AI player] Civilizations> <on [Emperor] difficulty>",
+	"[+20]% Production when constructing [all] buildings [in all cities] <for [AI player] Civilizations> <on [Immortal] difficulty>",
+	"[+30]% Production when constructing [all] buildings [in all cities] <for [AI player] Civilizations> <on [Deity] difficulty>",
+
+	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [King] difficulty>",
+	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Emperor] difficulty>",
+	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Immortal] difficulty>",
+	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Deity] difficulty>",
 
 //free unit
 
@@ -185,7 +203,7 @@
 
 //Event 3rd century crisis
 	
-	"[+50000]% Culture cost of natural border growth [in this city] <if [3rd Century Crisis] is constructed by anybody>",
+	"[+50000]% Culture cost of natural border growth [in all cities] <if [3rd Century Crisis] is constructed by anybody>",
 	"[-50]% Great Person generation [in all cities] <if [3rd Century Crisis] is constructed by anybody>", 
 	"Provides [1] [Roman 3rd Century Crisis] <for [The Romans] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
 	"Provides [1] [Palmyrence 3rd Century Crisis] <for [The Arsacids] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
@@ -195,6 +213,22 @@
 	"Provides [1] [Hun 3rd Century Crisis] <for [The Scythians] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
 	"Provides [1] [Armenia 3rd Century Crisis] <for [The Armenians] Civilizations> <if [3rd Century Crisis] is constructed by anybody>",
 
+//Event Grand Campaign
+	
+	"[+50000]% Culture cost of natural border growth [in all cities] <if [Grand Campaign] is constructed by anybody>",
+	"[-50]% Great Person generation [in all cities] <if [Grand Campaign] is constructed by anybody>", 
+	"Provides [1] [Latin Grand Campaign] <after adopting [Latin Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Celtic Grand Campaign] <after adopting [Celtic Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Germanic Grand Campaign] <after adopting [Germanic Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Nomad Grand Campaign] <after adopting [Nomad Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Iberian Grand Campaign] <after adopting [Iberian Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Punic Grand Campaign] <after adopting [Punic Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Numidian Grand Campaign] <after adopting [Numidian Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Eastern Grand Campaign] <after adopting [Latin Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Hellenic Grand Campaign] <after adopting [Hellenic Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Hellenistic Grand Campaign] <after adopting [Hellenistic Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Thracian Grand Campaign] <after adopting [Thracian Culture]> <if [Grand Campaign] is constructed by anybody>",
+	"Provides [1] [Illyrian Grand Campaign] <after adopting [Illyrian Culture]> <if [Grand Campaign] is constructed by anybody>",
 
 
     ]

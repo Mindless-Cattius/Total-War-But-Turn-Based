@@ -11,6 +11,7 @@
 			"May not annex cities <when at war>",
         		"May buy items in puppet cities",
 			"[-40]% Production when constructing [all] buildings [in all cities] <when at war>",
+			"[-25]% Production when constructing [all] units [in all cities] <when at war>",
 			"[+80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
 			"[-40]% Strength for cities <when attacking> <hidden from users>",
 			"[-30]% Strength for cities <when attacking> <vs [Mounted Archery] units>",
@@ -1387,7 +1388,7 @@
 
 				///Provinces
 
-    //Britain-Albion
+    //Albion
     {
         "name": "Caledonia Region",
         "resourceType": "Bonus",
@@ -1540,7 +1541,7 @@
             "Stockpiled"
         ]
     },
-//Sicilia
+//Sicilia Magna
     {
         "name": "Sicilia Region",
         "resourceType": "Bonus",
@@ -1786,6 +1787,85 @@
         ]
     },
 
+///Sarmatia Maior
+    {
+        "name": "Sarmatia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Hercynia Maior
+    {
+        "name": "Hercynia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Dacia Maior
+    {
+        "name": "Dacia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Illyricum
+    {
+        "name": "Illyria Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Pannonia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Macedonia et Hellas
+    {
+        "name": "Macedonia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+    {
+        "name": "Hellas Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Thracia Maior
+    {
+        "name": "Thracia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
+///Sarmatia Maior
+    {
+        "name": "Sarmatia Region",
+        "resourceType": "Bonus",
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
+    },
 
 				///3rd century provinces flag
 
@@ -1879,6 +1959,95 @@
             "resourceType": "Bonus",
             "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
             }
+
+
+				///GRAND CAMPAIGN
+
+	{
+    	"name": "Latin Grand Campaign",
+    	"resourceType": "Bonus",
+    	"uniques": [
+        	"Triggers victory <if [Albion] is constructed> <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Germania] is constructed> <if [Italia] is constructed> <if [Corsica et Sardinia] is constructed> <if [Sicilia Magna] is constructed> <if [Africa Pacata] is constructed> <if [Aegyptus Maior] is constructed> <if [Syria Maior] is constructed> <if [Mesopotamia Maior] is constructed> <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Dacia Maior] is constructed> <if [Illyricum] is constructed> <if [Macedonia et Hellas] is constructed> <if [Thracia Maior] is constructed>"
+    ]
+},
+{
+    "name": "Celtic Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Triggers victory <if [Albion] is constructed> <if [Gallia] is constructed> <if [Hispania] is constructed> <if [Germania] is constructed> <if [Hercynia Maior] is constructed> <if [Italia] is constructed> <if [Corsica et Sardinia] is constructed> <if [Sicilia Magna] is constructed> <if [Illyricum] is constructed> <if [Dacia Maior] is constructed> <if [Macedonia et Hellas] is constructed> <if [Thracia Maior] is constructed> <if [Anatolia] is constructed>  <if [Africa Pacata] is constructed>"
+    ]
+},
+{
+    "name": "Germanic Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Triggers victory <if [Germania] is constructed> <if [Hercynia Maior] is constructed> <if [Sarmatia Maior] is constructed> <if [Dacia Maior] is constructed> <if [Thracia Maior] is constructed> <if [Illyricum] is constructed> <if [Macedonia et Hellas] is constructed> <if [Gallia] is constructed> <if [Hispania] is constructed> <if [Italia] is constructed> <if [Anatolia] is constructed> <if [Syria Maior] is constructed> <if [Sicilia Magna] is constructed>"
+    ]
+},
+{
+    "name": "Nomad Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Triggers victory <if [Sarmatia Maior] is constructed> <if [Pontus Euxinus] is constructed> <if [Dacia Maior] is constructed> <if [Bactria Maior] is constructed> <if [Ariana] is constructed> <if [Persia] is constructed> <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Macedonia et Hellas] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Germania] is constructed> <if [Mesopotamia Maior] is constructed>"
+    ]
+},
+{
+    "name": "Punic Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Triggers victory <if [Africa Pacata] is constructed> <if [Hispania] is constructed> <if [Sicilia Magna] is constructed> <if [Corsica et Sardinia] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Macedonia et Hellas] is constructed> <if [Aegyptus Maior] is constructed> <if [Syria Maior] is constructed>"
+    ]
+},
+{
+    "name": "Numidian Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Triggers victory <if [Africa Pacata] is constructed> <if [Hispania] is constructed> <if [Sicilia Magna] is constructed> <if [Corsica et Sardinia] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Macedonia et Hellas] is constructed> <if [Aegyptus Maior] is constructed> <if [Syria Maior] is constructed>"
+    ]
+},
+{
+    "name": "Eastern Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Triggers victory <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Syria Maior] is constructed> <if [Mesopotamia Maior] is constructed> <if [Persia] is constructed> <if [Arabia] is constructed> <if [Aegyptus Maior] is constructed> <if [Ariana] is constructed> <if [Bactria Maior] is constructed> <if [Pontus Euxinus] is constructed> <if [Macedonia et Hellas] is constructed> <if [Thracia Maior] is constructed> <if [Illyricum] is constructed> <if [Dacia Maior] is constructed>"
+    ]
+},
+{
+    "name": "Hellenic Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Triggers victory <if [Macedonia et Hellas] is constructed> <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Syria Maior] is constructed> <if [Mesopotamia Maior] is constructed> <if [Persia] is constructed> <if [Ariana] is constructed> <if [Bactria Maior] is constructed> <if [Aegyptus Maior] is constructed> <if [Arabia] is constructed> <if [Pontus Euxinus] is constructed> <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Dacia Maior] is constructed> <if [Italia] is constructed>"
+    ]
+},
+{
+    "name": "Hellenistic Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+       "Triggers victory <if [Macedonia et Hellas] is constructed> <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Syria Maior] is constructed> <if [Mesopotamia Maior] is constructed> <if [Persia] is constructed> <if [Ariana] is constructed> <if [Bactria Maior] is constructed> <if [Aegyptus Maior] is constructed> <if [Arabia] is constructed> <if [Pontus Euxinus] is constructed> <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Dacia Maior] is constructed> <if [Italia] is constructed>"
+    ]
+},
+{
+    "name": "Iberian Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+	"Triggers victory <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Africa Pacata] is constructed> <if [Sicilia Magna] is constructed> <if [Corsica et Sardinia] is constructed> <if [Italia] is constructed> <if [Macedonia et Hellas] is constructed> <if [Thracia Maior] is constructed> <if [Illyricum] is constructed> <if [Germania] is constructed>"
+]
+},
+{
+    "name": "Illyrian Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Triggers victory <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Macedonia et Hellas] is constructed> <if [Dacia Maior] is constructed> <if [Sarmatia Maior] is constructed> <if [Pontus Euxinus] is constructed> <if [Anatolia] is constructed> <if [Italia] is constructed>"
+    ]
+},
+{
+    "name": "Thracian Grand Campaign",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Triggers victory <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Macedonia et Hellas] is constructed> <if [Dacia Maior] is constructed> <if [Sarmatia Maior] is constructed> <if [Pontus Euxinus] is constructed> <if [Anatolia] is constructed> <if [Italia] is constructed>"
+    ]
+}
+
 
 				///3rd Century Crisis
     

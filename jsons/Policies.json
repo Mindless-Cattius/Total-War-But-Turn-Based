@@ -2745,7 +2745,8 @@
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Only available <after adopting [Illyrian Culture]> <hidden from users>",
                     "[1] free [Great Scholar] units appear",
-                    "Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
+                    "Earn [25]% of killed [{Military} {Land}] unit's [Strength] as [Gold]",
+        	    "Earn [100]% of killed [{Military} {Water}] unit's [Strength] as [Gold]",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [
@@ -2787,7 +2788,7 @@
                 "uniques": [
 			"Only available <before adopting [Adriatic Trade Pacts]>","Comment [Only available before adopting Adriatic Trade Pacts]",
                     	"[{Military} {Water}] units gain the [Coastal Raider I] promotion",
-			"[+50]% Yield from pillaging tiles <for [{Military} {Water}] units>",
+			"[+60]% Yield from pillaging tiles <for [{Military} {Water}] units>",
                     	"[-100]% maintenance costs <for [Water] units> <in [Enemy Land] tiles>",
 			"[+10]% Strength <for [Galley] units>",
                     	"[1] free [Galley] units appear",
@@ -3161,7 +3162,7 @@
         "[+1] Movement <for [Numidian Horseman] units> <when fighting in [Desert] tiles>",
         "[+1] Movement <for [Numidian Cavalry] units> <when fighting in [Desert] tiles>",
         "[+10]% Strength <for [Numidian Horseman] units> <when above [2] [Horses]>",
-        "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+        "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
         "Provides [1] [Horses]",
         "Provides [2] [Manpower]",
         "[+1 Happiness] [in capital]"
