@@ -2923,1088 +2923,1166 @@
 ]
 },
 			
-			//// Provinces
 ///Britain
-
-//2	
+//2
 {
-    		"name": "Caledonia",
-    		"uniques": [
-			"Provides [1] [Caledonia Region]",
-			"[+1 Gold] from [Trading post] tiles [in all cities] <when above [1] [Caledonia Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-		]
-  	},
+        "name": "Caledonia",
+        "uniques": [
+                "Comment [The northern highlands of Britain, a land of rugged mountains, deep forests, and cold lochs where the mist seldom departs. The scenery is magnificent. It insists on keeping visitors brief.\n•Albion: Caledonia, Britannia.]",
+                "Provides [1] [Caledonia Region]",
+                "[+1 Gold] from [Trading post] tiles [in all cities] <when above [1] [Caledonia Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //4
-	{
-    		"name": "Britannia",
-    		"uniques": [
-			"Provides [1] [Britannia Region]",
-			"Provides [1] [Manpower] <when above [2] [Britannia Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-		]
-  	},
-	{
-    		"name": "Albion",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"Comment [Geographers insist Britain includes both the north and south. They're annoyingly correct.\nLost if Britannia or Caledonia is lost.]"
-			"Provides [3] [Manpower]",
-			"Unsellable",	
-			"Only available <in cities with a [Britannia]>",
-      			"Unbuildable <when below [2] [Caledonia Region]> <hidden from users>",
-      			"Unbuildable <when below [4] [Britannia Region]> <hidden from users>",
-			"Remove [Albion] [in this city] <when below [4] [Britannia Region]> <upon turn end> <hidden from users>",
-			"Remove [Albion] [in this city] <when below [2] [Caledonia Region]> <upon turn end> <hidden from users>",
-		]
-  	},
+{
+        "name": "Britannia",
+        "uniques": [
+                "Comment [The southern lowlands of Britain, blessed with fertile plains, gentle rivers, and broad pastures. The land welcomes farmers. The skies greet everyone equally.\n•Albion: Caledonia, Britannia.]",
+                "Provides [1] [Britannia Region]",
+                "Provides [1] [Manpower] <when above [2] [Britannia Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Albion",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [Albion, the great island beyond the Narrow Sea, divided between the northern highlands and the southern plains. Sailors agree on where it is. The people rarely agree on anything else.\nLost if any part of Britannia or Caledonia is lost.]",
+                "Provides [3] [Manpower]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Britannia]>",
+                "Unbuildable <when below [2] [Caledonia Region]> <hidden from users>",
+                "Unbuildable <when below [4] [Britannia Region]> <hidden from users>",
+                "Remove [Albion] [in this city] <when below [4] [Britannia Region]> <upon turn end> <hidden from users>",
+                "Remove [Albion] [in this city] <when below [2] [Caledonia Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
 ///Hispania
 //2
-	{
-    		"name": "Lusitania",
-    		"uniques": [
-			"Provides [1] [Lusitania Region]",
-			"New [Skirmisher] units start with [10] XP [in this city] <when above [1] [Tarraconensis Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
+{
+        "name": "Lusitania",
+        "uniques": [
+                "Comment [The western lands of Iberia, where rugged hills descend toward the Atlantic through forests and swift rivers. The sea rewards the patient. It also tests them first.\n•Hispania: Lusitania, Tarraconensis, Cartaginensis, Baetica.]",
+                "Provides [1] [Lusitania Region]",
+                "New [Skirmisher] units start with [10] XP [in this city] <when above [1] [Lusitania Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 
-		]
-  	},
 //3
-	{
-    		"name": "Tarraconensis",
-    		"uniques": [
-			"Provides [1] [Tarraconensis Region]",
-			"[+2 Gold] from [Iron] tiles [in this city] <when above [2] [Tarraconensis Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
+{
+        "name": "Tarraconensis",
+        "uniques": [
+                "Comment [The broad northern and eastern reaches of Iberia, marked by towering mountains, deep forests, and rich mineral veins. Fortune lies beneath the earth. So does most of the digging.\n•Hispania: Lusitania, Tarraconensis, Cartaginensis, Baetica.]",
+                "Provides [1] [Tarraconensis Region]",
+                "[+2 Gold] from [Iron] tiles [in this city] <when above [2] [Tarraconensis Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 
-		]
-  	},
 //4
-	{
-    		"name": "Cartaginensis",
-    		"uniques": [
-			"Provides [1] [Cartaginensis Region]",
-			"Provides [1] [Manpower] <when above [2] [Cartaginensis Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
+{
+        "name": "Cartaginensis",
+        "uniques": [
+                "Comment [The southeastern coast of Iberia, where fertile valleys meet sheltered harbors beneath gentle seas. Every harbor promises prosperity. It makes no promises about the visitors.\n•Hispania: Lusitania, Tarraconensis, Cartaginensis, Baetica.]",
+                "Provides [1] [Cartaginensis Region]",
+                "Provides [1] [Manpower] <when above [2] [Cartaginensis Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 
-		]
-  	},
 //3
-	{
-    		"name": "Baetica",
-    		"uniques": [
-			"Provides [1] [Baetica Region]",
-			"[+1 Gold] [in all coastal cities] <when above [1] [Baetica Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
+{
+        "name": "Baetica",
+        "uniques": [
+                "Comment [The fertile southern plains of Iberia, nourished by the Baetis River and renowned for olives, vineyards, and abundant harvests. The land is generous. It still expects someone to plow it.\n•Hispania: Lusitania, Tarraconensis, Cartaginensis, Baetica.]",
+                "Provides [1] [Baetica Region]",
+                "[+1 Gold] [in all coastal cities] <when above [1] [Baetica Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Hispania",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [The great peninsula beyond the Pillars of Heracles, enclosed by mountain ranges and the surrounding seas. A traveler may cross it in many seasons. He will still swear there was a shorter road.\nLost if any part of Lusitania, Tarraconensis, Cartaginensis or Baetica is lost.]",
+                "[+1 Gold] from [Silver] tiles [in all cities]",
+                "[+1 Gold] from [Gold Ore] tiles [in all cities]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Cartaginensis]>",
+                "Unbuildable <when below [4] [Cartaginensis Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Tarraconensis Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Lusitania Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Baetica Region]> <hidden from users>",
+                "Remove [Hispania] [in this city] <when below [4] [Cartaginensis Region]> <upon turn end> <hidden from users>",
+                "Remove [Hispania] [in this city] <when below [3] [Tarraconensis Region]> <upon turn end> <hidden from users>",
+                "Remove [Hispania] [in this city] <when below [2] [Lusitania Region]> <upon turn end> <hidden from users>",
+                "Remove [Hispania] [in this city] <when below [2] [Baetica Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Hispania",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"[+1 Gold] from [Silver] tiles [in all cities]",
-			"[+1 Gold] from [Gold Ore] tiles [in all cities]",
-			"Unsellable",	
-			"Only available <in cities with a [Cartaginensis]>",
-			"Remove [Hispania] [in this city] <when below [4] [Cartaginensis Region]> <upon turn end> <hidden from users>",
-			"Remove [Hispania] [in this city] <when below [3] [Tarraconensis Region]> <upon turn end> <hidden from users>",
-			"Remove [Hispania] [in this city] <when below [2] [Lusitania Region]> <upon turn end> <hidden from users>",
-			"Remove [Hispania] [in this city] <when below [2] [Baetica Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [4] [Cartaginensis Region]> <hidden from users>",
-			"Unbuildable <when below [3] [Tarraconensis Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Lusitania Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Baetica Region]> <hidden from users>",
-
-]
-  	},
-
-/// Gaul
+/// Gallia
 //2
-	{
-    		"name": "Belgica",
-    		"uniques": [
-			"Provides [1] [Belgica Region]",
-			"Provides [1] [Manpower] <when above [1] [Belgica Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Belgica",
+        "uniques": [
+                "Comment [The northern plains of Gaul, where broad rivers, dense forests, and cold winds meet the lands beyond the Rhine. Winter often arrives before agreement does.\n•Gallia: Belgica, Celtica, Aquitania, Provincia.]",
+                "Provides [1] [Belgica Region]",
+                "Provides [1] [Manpower] <when above [1] [Belgica Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //3
-	{
-    		"name": "Celtica",
-    		"uniques": [
-			"Provides [1] [Celtica Region]",
-			"[+1 Culture] [in this city] <when above [1] [Celtica Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Celtica",
+        "uniques": [
+                "Comment [The wooded heart of Gaul, crossed by rivers and rolling hills where many tribes gathered and traded. Every tribe claimed to lead. Most preferred themselves.\n•Gallia: Belgica, Celtica, Aquitania, Provincia.]",
+                "Provides [1] [Celtica Region]",
+                "[+1 Culture] [in this city] <when above [1] [Celtica Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //2
-	{
-    		"name": "Aquitania",
-    		"uniques": [
-			"Provides [1] [Aquitania Region]",
-			"[+1 Food] [in this city] <when above [1] [Aquitania Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Aquitania",
+        "uniques": [
+                "Comment [The southwestern lands between the Pyrenees and the Ocean, blessed with fertile valleys and gentle rivers. Nature was generous here. The mountains remained selective.\n•Gallia: Belgica, Celtica, Aquitania, Provincia.]",
+                "Provides [1] [Aquitania Region]",
+                "[+1 Food] [in this city] <when above [1] [Aquitania Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //2
-	{
-    		"name": "Provincia",
-    		"uniques": [
-			"Provides [1] [Provincia Region]",
-			"[+2 Gold] [in this city] <when above [1] [Provincia Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
+{
+        "name": "Provincia",
+        "uniques": [
+                "Comment [The warm southern coast between the Alps and Iberia, where vineyards, olive groves, and sheltered harbors flourish beside the Inner Sea. Every road eventually discovers this coast.\n•Gallia: Belgica, Celtica, Aquitania, Provincia.]",
+                "Provides [1] [Provincia Region]",
+                "[+2 Gold] [in this city] <when above [1] [Provincia Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Gallia",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Comment [The broad lands between the Ocean, the Rhine, the Alps, and the Pyrenees, home to many peoples of shared customs and differing ambitions. Uniting Gaul is an achievement. Keeping it united is another.\nLost if any part of Belgica, Celtica, Aquitania or Provincia is lost.]",
+                "Provides [1] [Veteran]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Celtica]>",
+                "Unbuildable <when below [2] [Provincia Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Aquitania Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Celtica Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Belgica Region]> <hidden from users>",
+                "Remove [Gallia] [in this city] <when below [2] [Provincia Region]> <upon turn end> <hidden from users>",
+                "Remove [Gallia] [in this city] <when below [2] [Aquitania Region]> <upon turn end> <hidden from users>",
+                "Remove [Gallia] [in this city] <when below [3] [Celtica Region]> <upon turn end> <hidden from users>",
+                "Remove [Gallia] [in this city] <when below [2] [Belgica Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Gallia",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Comment [The Gauls rarely agreed on anything. Somehow you united them. Try not to ruin it.\nLost if Provincia, Aquitania, Celtica, or Belgica is lost.]",
-			"Provides [1] [Veteran]",
-			"Unsellable",	
-			"Only available <in cities with a [Celtica]>",
-			"Remove [Gallia] [in this city] <when below [2] [Provincia Region]> <upon turn end> <hidden from users>",
-			"Remove [Gallia] [in this city] <when below [2] [Aquitania Region]> <upon turn end> <hidden from users>",
-			"Remove [Gallia] [in this city] <when below [3] [Celtica Region]> <upon turn end> <hidden from users>",
-			"Remove [Gallia] [in this city] <when below [2] [Belgica Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [2] [Provincia Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Aquitania Region]> <hidden from users>",
-			"Unbuildable <when below [3] [Celtica Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Belgica Region]> <hidden from users>",
-		]
-  	},
 ///Germania
 //2
-	{
-    		"name": "Germania Minor",
-    		"uniques": [
-			"Provides [1] [Germania Minor Region]",
-			"[+1 Gold] from [Trading post] tiles [in all cities] <when above [1] [Germania Minor Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Germania Minor",
+        "uniques": [
+                "Comment [The western marches of Germania, where great rivers leave the forests and flow toward distant seas. Trade follows the current. So do those hoping to profit from it.\n•Germania: Germania Minor, Magna Germania, Suebia.]",
+                "Provides [1] [Germania Minor Region]",
+                "[+1 Gold] from [Trading post] tiles [in all cities] <when above [1] [Germania Minor Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //3
-	{
-    		"name": "Magna Germania",
-    		"uniques": [
-			"Provides [1] [Magna Germania Region]",
-			"Provides [1] [Manpower] <when above [1] [Magna Germania Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Magna Germania",
+        "uniques": [
+                "Comment [The vast interior beyond the great rivers, covered by endless forests, broad marshes, and scattered clearings. A traveler may lose the road. The forest rarely does.\n•Germania: Germania Minor, Magna Germania, Suebia.]",
+                "Provides [1] [Magna Germania Region]",
+                "Provides [1] [Manpower] <when above [1] [Magna Germania Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //4
-	{
-    		"name": "Suebia",
-    		"uniques": [
-			"Provides [1] [Suebia Region]",
-			"New [Sword] units start with [5] XP [in this city] <when above [1] [Suebia Region]>",
-			"New [Spear] units start with [5] XP [in this city] <when above [1] [Suebia Region]>",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
+{
+        "name": "Suebia",
+        "uniques": [
+                "Comment [The wooded uplands of central Germania, home to many kindred tribes bound by custom more than by kings. Every warrior seeks glory. Few agree on who deserves it.\n•Germania: Germania Minor, Magna Germania, Suebia.]",
+                "Provides [1] [Suebia Region]",
+                "New [Sword] units start with [5] XP [in this city] <when above [1] [Suebia Region]>",
+                "New [Spear] units start with [5] XP [in this city] <when above [1] [Suebia Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Germania",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Engineer": 1},
+        "uniques": [
+                "Comment [A vast land of forests, rivers, marshes, and distant horizons beyond the Rhine. Every path seems to lead somewhere. Finding the same path twice is the greater achievement.\nLost if any part of Germania Minor, Magna Germania or Suebia is lost.]",
+                "Provides [1] [Amber]",
+                "Provides [2] [Timber]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Magna Germania]>",
+                "Unbuildable <when below [3] [Magna Germania Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Germania Minor Region]> <hidden from users>",
+                "Unbuildable <when below [4] [Suebia Region]> <hidden from users>",
+                "Remove [Germania] [in this city] <when below [3] [Magna Germania Region]> <upon turn end> <hidden from users>",
+                "Remove [Germania] [in this city] <when below [2] [Germania Minor Region]> <upon turn end> <hidden from users>",
+                "Remove [Germania] [in this city] <when below [4] [Suebia Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Germania",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Engineer": 1},
-    		"uniques": [
-			"Comment [Forests, rivers, and enough tribes to keep every mapmaker humble.\nLost if Germania Minor, Magna Germania, or Suebia is lost.]",
-			"Provides [1] [Amber]",
-			"Provides [2] [Timber]",
-			"Unsellable",	
-			"Only available <in cities with a [Magna Germania]>",
-			"Remove [Germania] [in this city] <when below [3] [Magna Germania Region]> <upon turn end> <hidden from users>",
-			"Remove [Germania] [in this city] <when below [2] [Germania Minor Region]> <upon turn end> <hidden from users>",
-			"Remove [Germania] [in this city] <when below [4] [Suebia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [3] [Magna Germania Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Germania Minor Region]> <hidden from users>",
-			"Unbuildable <when below [4] [Suebia Region]> <hidden from users>",
-
-		]
-  	},
 ///Hercynia Maior
 //4
-	{
-    		"name": "Hercynia",
-    		"uniques": [
-			"[+1 Food] from [Forest] tiles [in this city]",
-			"Provides [1] [Hercynia Region]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
-	{
-    		"name": "Hercynia Maior",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Unsellable",	
-			"Only available <in cities with a [Hercynia]>",
-			"Remove [Hercynia Maior] [in this city] <when below [4] [Hercynia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [4] [Hercynia Region]> <hidden from users>",
-
-		]
-  	},
+{
+        "name": "Hercynia",
+        "uniques": [
+                "Comment [The great Hercynian Forest stretches across the heart of Europe, where towering woods, hidden valleys, and wandering rivers conceal the horizon. The trees are excellent guides, provided one has no desire to leave.\n•Hercynia Maior: Hercynia.]",
+                "[+1 Food] from [Forest] tiles [in this city]",
+                "Provides [1] [Hercynia Region]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Hercynia Maior",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Comment [The endless forests of central Europe, where settlements are few and the wilderness is master. Even the bold eventually learn to ask the trees for permission.\nLost if Hercynia is lost.]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Hercynia]>",
+                "Unbuildable <when below [4] [Hercynia Region]> <hidden from users>",
+                "Remove [Hercynia Maior] [in this city] <when below [4] [Hercynia Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
 ///Sarmatia Maior
 //3
-	{
-    		"name": "Sarmatia",
-		"gold": 1,
-    		"uniques": [
-			"Provides [1] [Sarmatia Region]",
-			"New [Mounted Archery] units start with [5] XP [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
-	{
-    		"name": "Sarmatia Maior",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Provides [2] [Horses]",
-			"Unsellable",	
-			"Only available <in cities with a [Sarmatia]>",
-			"Remove [Sarmatia Maior] [in this city] <when below [3] [Sarmatia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [3] [Sarmatia Region]> <hidden from users>",
-
-		]
-  	},
+{
+        "name": "Sarmatia",
+        "gold": 1,
+        "uniques": [
+                "Comment [The boundless grasslands north of the Black Sea, where rivers cross open horizons beneath endless skies. Distance is measured less by miles than by horses.\n•Sarmatia Maior: Sarmatia.]",
+                "Provides [1] [Sarmatia Region]",
+                "New [Mounted Archery] units start with [5] XP [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Sarmatia Maior",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Comment [The vast eastern steppe, where swift riders follow the grasslands farther than most maps are willing to admit. A horse is often easier to replace than the road.\nLost if Sarmatia is lost.]",
+                "Provides [2] [Horses]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Sarmatia]>",
+                "Unbuildable <when below [3] [Sarmatia Region]> <hidden from users>",
+                "Remove [Sarmatia Maior] [in this city] <when below [3] [Sarmatia Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
 ///Dacia Maior
 //3
-	{
-    		"name": "Dacia",
-    		"uniques": [
-			"Provides [1] [Dacia Region]",
-			"[+1 Gold, +1 Food] from [Mine] tiles [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
-	{
-    		"name": "Dacia Maior",
-		"gold": 3,
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Engineer": 1},
-    		"uniques": [
-			"Unsellable",	
-			"[+1 Happiness] from [Gold Ore] tiles [in all cities]",	
-			"[+1 Gold] from [Silver] tiles [in all cities]",
-			"Only available <in cities with a [Dacia]>",
-			"Remove [Hercynia Maior] [in this city] <when below [3] [Dacia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [3] [Dacia Region]> <hidden from users>",
-
-		]
-  	},
+{
+        "name": "Dacia",
+        "uniques": [
+                "Comment [The lands enclosed by the Carpathian Mountains, rich in forests, rivers, and mineral wealth. The mountains guard many treasures. They also expect visitors to earn them.\n•Dacia Maior: Dacia.]",
+                "Provides [1] [Dacia Region]",
+                "[+1 Gold, +1 Food] from [Mine] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Dacia Maior",
+        "gold": 3,
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Engineer": 1},
+        "uniques": [
+                "Comment [A mountainous realm of deep forests, swift rivers, and precious metals at the heart of Europe. Fortune favors those who can persuade the mountains to surrender it.\nLost if Dacia is lost.]",
+                "[+1 Happiness] from [Gold Ore] tiles [in all cities]",
+                "[+1 Gold] from [Silver] tiles [in all cities]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Dacia]>",
+                "Unbuildable <when below [3] [Dacia Region]> <hidden from users>",
+                "Remove [Dacia Maior] [in this city] <when below [3] [Dacia Region]> <upon turn end> <hidden from users>"
+        ]
+},
 ///Illyricum
 //2
-	{
-    		"name": "Illyria",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Illyria Region]",
-			"[+1 Food, +1 Gold] from [Fishing Boats] tiles [in this city]",
-			"New [Galley] units start with [5] XP [in this city]"
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Illyria",
+        "food": 1,
+        "uniques": [
+                "Comment [The rugged eastern shores of the Adriatic, where steep mountains descend into sheltered coves and rocky islands. Calm harbors are plentiful. Calm neighbors are less common.\n•Illyricum: Illyria, Pannonia.]",
+                "Provides [1] [Illyria Region]",
+                "[+1 Food, +1 Gold] from [Fishing Boats] tiles [in this city]",
+                "New [Galley] units start with [5] XP [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //2
-	{
-    		"name": "Pannonia",
-    		"uniques": [
-			"Provides [1] [Pannonia Region]",
-			"Provides [1] [Manpower]",
-			"[+1 Happiness, +2 Gold] from [Plantation] tiles [in this city]"
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
-	{
-    		"name": "Illyricum",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Provides [3] [Manpower]",
-			"New [Sword] units start with [5] XP [in this city]",
-			"Unsellable",
-			"Only available <in cities with a [Illyria]>",
-			"Remove [Illyricum] [in this city] <when below [2] [Illyria Region]> <upon turn end> <hidden from users>",
-			"Remove [Illyricum] [in this city] <when below [2] [Pannonia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [2] [Illyria Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Pannonia Region]> <hidden from users>",
-
-		]
-  	},
+{
+        "name": "Pannonia",
+        "uniques": [
+                "Comment [The broad plains between the Danube and surrounding hills, watered by many rivers and suited for pasture and fertile fields. Flat land welcomes travelers. It also leaves nowhere to hide.\n•Illyricum: Illyria, Pannonia.]",
+                "Provides [1] [Pannonia Region]",
+                "Provides [1] [Manpower]",
+                "[+1 Happiness, +2 Gold] from [Plantation] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Illyricum",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Comment [The lands between the Adriatic Sea and the middle Danube, where mountains yield to open plains and many peoples share the frontier. Crossing it is simple. Leaving it peacefully is another matter.\nLost if any part of Illyria or Pannonia is lost.]",
+                "Provides [3] [Manpower]",
+                "New [Sword] units start with [5] XP [in this city]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Illyria]>",
+                "Unbuildable <when below [2] [Illyria Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Pannonia Region]> <hidden from users>",
+                "Remove [Illyricum] [in this city] <when below [2] [Illyria Region]> <upon turn end> <hidden from users>",
+                "Remove [Illyricum] [in this city] <when below [2] [Pannonia Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
 ///Macedonia et Hellas
 //2
-	{
-    		"name": "Macedonia",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Macedonia Region]",
-			"[+1 Culture, +1 Gold] from [Strategic resource] tiles [in this city]",
-			"New [Mounted] units start with [5] XP [in this city]"
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Macedonia",
+        "food": 1,
+        "uniques": [
+                "Comment [The broad plains north of Olympus, enclosed by mountains and crossed by swift rivers. Good horses thrive here. Their riders often develop ambitious ideas.\n•Macedonia et Hellas: Macedonia, Hellas.]",
+                "Provides [1] [Macedonia Region]",
+                "[+1 Culture, +1 Gold] from [Strategic resource] tiles [in this city]",
+                "New [Mounted] units start with [5] XP [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //3
-	{
-    		"name": "Hellas",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Hellas Region]",
-			"[+1 Culture, +1 Gold] from [Fishing Boats] tiles [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
+{
+        "name": "Hellas",
+        "food": 1,
+        "uniques": [
+                "Comment [A land of rugged peninsulas, sheltered bays, and countless islands scattered across the Aegean. Every valley grows a city. Every city develops an opinion.\n•Macedonia et Hellas: Macedonia, Hellas.]",
+                "Provides [1] [Hellas Region]",
+                "[+1 Culture, +1 Gold] from [Fishing Boats] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Macedonia et Hellas",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Comment [The lands stretching from the Macedonian plains to the southern shores of Hellas, united by mountains, seas, and shared legends. Conquering Greece is impressive. Convincing Greeks they are conquered is another matter.\nLost if any part of Macedonia or Hellas is lost.]",
+                "Provides [1] [Veteran]",
+                "New [Sword] units start with [5] XP [in this city]",
+                "New [Spear] units start with [10] XP [in this city]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Macedonia]>",
+                "Unbuildable <when below [2] [Macedonia Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Hellas Region]> <hidden from users>",
+                "Remove [Macedonia et Hellas] [in this city] <when below [2] [Macedonia Region]> <upon turn end> <hidden from users>",
+                "Remove [Macedonia et Hellas] [in this city] <when below [3] [Hellas Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Macedonia et Hellas",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Provides [1] [Veteran]",
-			"New [Sword] units start with [5] XP [in this city]",
-			"New [Spear] units start with [10] XP [in this city]",
-			"Unsellable",
-			"Only available <in cities with a [Macedonia]>",
-			"Remove [Macedonia et Hellas] [in this city] <when below [2] [Macedonia Region]> <upon turn end> <hidden from users>",
-			"Remove [Macedonia et Hellas] [in this city] <when below [2] [Hellas Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [2] [Macedonia Region]> <hidden from users>",
-			"Unbuildable <when below [3] [Hellas Region]> <hidden from users>",
-
-		]
-  	},
-//Thracia Maior
+///Thracia Maior
 //4
-	{
-    		"name": "Thracia",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Thracia Region]",
-			"New [Skirmisher] units start with [5] XP [in this city]"
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
+{
+        "name": "Thracia",
+        "food": 1,
+        "uniques": [
+                "Comment [A land of wooded mountains, broad valleys, and fertile plains between the Balkans and the Black Sea. The hills raise hardy folk. The plains give them somewhere to march.\n•Thracia Maior: Thracia.]",
+                "Provides [1] [Thracia Region]",
+                "New [Skirmisher] units start with [5] XP [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Thracia Maior",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [The greater lands of Thrace, where forests, mountain passes, and open plains meet the shores of the Black Sea. Every road eventually crosses Thrace. Many armies wish they had not.\nLost if Thracia is lost.]",
+                "[+1 Gold] from [Hill] tiles [in this city]",
+                "Provides [1] [Horses]",
+                "Provides [3] [Manpower]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Thracia]>",
+                "Unbuildable <when below [4] [Thracia Region]> <hidden from users>",
+                "Remove [Thracia Maior] [in this city] <when below [4] [Thracia Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Thracia Maior",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"[+1 Gold] from [Hill] tiles [in this city]",
-			"Provides [1] [Horses]",
-			"Provides [3] [Manpower]",
-			"Unsellable",
-			"Only available <in cities with a [Thracia]>",
-			"Remove [Macedonia] [in this city] <when below [4] [Thracia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [4] [Thracia Region]> <hidden from users>",
-
-		]
-  	},
-//Italia
+///Italia
 //3
 {
-    		"name": "Alpes",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Alpes Region]",
-			"[+1 Gold, +1 Food] from [Snow] tiles [in this city]",
-			"[+1 Gold, +1 Food] from [Tundra] tiles [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-]
-  	},
+        "name": "Alpes",
+        "food": 1,
+        "uniques": [
+                "Comment [The towering mountain wall at the northern gate of Italia, where snow-fed rivers carve narrow valleys beneath high peaks. Crossing them is always possible. It is rarely convenient.\n•Italia: Alpes, Cisalpina, Latinum.]",
+                "Provides [1] [Alpes Region]",
+                "[+1 Gold, +1 Food] from [Snow] tiles [in this city]",
+                "[+1 Gold, +1 Food] from [Tundra] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //3
 {
-    		"name": "Cisalpina",
-    		"uniques": [
-			"Provides [1] [Cisalpina Region]",
-			"[+1 Food] [in capital] <when above [1] [Cisalpina Region]>"
-			"[+1 Food] from [Farm] tiles [in this city]"
-			"Unsellable","Unbuildable","Never destroyed when the city is captured",
-]
-  	},
+        "name": "Cisalpina",
+        "uniques": [
+                "Comment [The broad plains watered by the River Po, where fertile fields stretch between the Alps and the Apennines. The land feeds kingdoms. It also attracts them.\n•Italia: Alpes, Cisalpina, Latinum.]",
+                "Provides [1] [Cisalpina Region]",
+                "[+1 Food] [in capital] <when above [1] [Cisalpina Region]>",
+                "[+1 Food] from [Farm] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //5
 {
-    		"name": "Latinum",
-    		"uniques": [
-			"Provides [1] [Latinum Region]",
-			"Provides [1] [Manpower]",
-			"[+1 Happiness] [in capital] <when above [4] [Latinum Region]> <when at war>",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-  	},
-	{
-    		"name": "Italia",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Engineer": 1},
-    		"uniques": [
-    			"[+10]% Production when constructing [all] units [in this city]",
-    			"[+5]% Production when constructing [all] buildings [in this city]",
-			"Unsellable",	
-			"Only available <in cities with a [Latinum]>",
-			"Remove [Italia] [in this city] <when below [5] [Latinum Region]> <upon turn end> <hidden from users>",
-			"Remove [Italia] [in this city] <when below [3] [Cisalpina Region]> <upon turn end> <hidden from users>",
-			"Remove [Italia] [in this city] <when below [3] [Alpes Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [5] [Latinum Region]> <hidden from users>",
-			"Unbuildable <when below [3] [Cisalpina Region]> <hidden from users>",
-			"Unbuildable <when below [3] [Alpes Region]> <hidden from users>",
-		]
-  	},
+        "name": "Latinum",
+        "uniques": [
+                "Comment [The central plains of western Italia, where gentle hills, volcanic soils, and the Tiber shape a prosperous heartland. Many roads begin here. Most eventually return.\n•Italia: Alpes, Cisalpina, Latinum.]",
+                "Provides [1] [Latinum Region]",
+                "Provides [1] [Manpower]",
+                "[+1 Happiness] [in capital] <when above [4] [Latinum Region]> <when at war>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Italia",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Engineer": 1},
+        "uniques": [
+                "Comment [The peninsula between the Alps and the surrounding seas, where fertile plains, rugged mountains, and long coastlines form a land rich in every necessity. Italia rewards careful builders. It rarely rewards careless conquerors.\nLost if any part of Alpes, Cisalpina or Latinum is lost.]",
+                "[+10]% Production when constructing [all] units [in this city]",
+                "[+5]% Production when constructing [all] buildings [in this city]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Latinum]>",
+                "Unbuildable <when below [5] [Latinum Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Cisalpina Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Alpes Region]> <hidden from users>",
+                "Remove [Italia] [in this city] <when below [5] [Latinum Region]> <upon turn end> <hidden from users>",
+                "Remove [Italia] [in this city] <when below [3] [Cisalpina Region]> <upon turn end> <hidden from users>",
+                "Remove [Italia] [in this city] <when below [3] [Alpes Region]> <upon turn end> <hidden from users>"
+        ]
+},
+
 ///Corsica et Sardinia
 {
-    		"name": "Sardinia",
-    		"cost": 0,
-    		"maintenance": 0,
-    		"uniques": [
-			"Provides [1] [Sardinia Region]",
-			"[+2 Gold] from [Trading post] tiles [in all coastal cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-  	},
+        "name": "Sardinia",
+        "uniques": [
+                "Comment [A broad island of rugged hills, fertile plains, and sheltered bays in the western sea. The winds are dependable. Sailors are less so.\n•Corsica et Sardinia: Sardinia, Corsica.]",
+                "Provides [1] [Sardinia Region]",
+                "[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 {
-    		"name": "Corsica",
-    		"cost": 0,
-    		"maintenance": 0,
-    		"uniques": [
-			"Provides [1] [Corsica Region]",
-			"[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-  	},
-	{
-    		"name": "Corsica et Sardinia",
-    		"cost": 100,
-		"gold": 5,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 2},
-    		"uniques": [
-			"[+1 Gold] [in all coastal cities]",
-			"Unsellable",	
-			"Only available <in cities with a [Corsica]>",
-			"Remove [Corsica et Sardinia] [in this city] <when below [1] [Sardinia Region]> <upon turn end> <hidden from users>",
-			"Remove [Corsica et Sardinia] [in this city] <when below [1] [Corsica Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [1] [Sardinia Region]> <hidden from users>",
-			"Unbuildable <when below [1] [Corsica Region]> <hidden from users>",
-		]
-  	},
-///Sicilia Magna
-	{
-    		"name": "Sicilia",
-    		"cost": 0,
-		"food": 1,
-    		"maintenance": 0,
-    		"uniques": [
-			"Provides [1] [Sicilia Region]",
-			"[+1 Gold] [in all coastal cities] <when above [1] [Sicilia Region]>",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
+        "name": "Corsica",
+        "uniques": [
+                "Comment [A mountainous island clad in dense forests, where steep cliffs descend into deep blue waters. Landing is easy enough. Leaving with your cargo is another matter.\n•Corsica et Sardinia: Sardinia, Corsica.]",
+                "Provides [1] [Corsica Region]",
+                "[+2 Gold] from [Trading post] tiles [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Corsica et Sardinia",
+        "cost": 100,
+        "gold": 5,
+        "specialistSlots": {"Merchants": 2},
+        "uniques": [
+                "Comment [The twin islands that stand between Italia, Iberia, and Africa, commanding the western Mediterranean's sea lanes. Whoever controls them soon discovers that everyone else wanted them too.\nLost if Sardinia or Corsica is lost.]",
+                "[+1 Gold] [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Sardinia]>",
+                "Unbuildable <when below [1] [Sardinia Region]> <hidden from users>",
+                "Unbuildable <when below [1] [Corsica Region]> <hidden from users>",
+                "Remove [Corsica et Sardinia] [in this city] <when below [1] [Sardinia Region]> <upon turn end> <hidden from users>",
+                "Remove [Corsica et Sardinia] [in this city] <when below [1] [Corsica Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Sicilia Magna",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"[+1 Gold] [in all coastal cities]",
-			"[+1 Happiness, +1 Gold] from [Trading post] tiles [in all coastal cities]",
-			"Unsellable",	
-			"Only available <in cities with a [Sicilia]>",
-			"Remove [Sicilia] [in this city] <when below [2] [Sicilia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [2] [Sicilia Region]> <hidden from users>",
-		]
-  	},
+///Sicilia Magna
+{
+        "name": "Sicilia",
+        "food": 1,
+        "uniques": [
+                "Comment [A large island of fertile volcanic soil, surrounded by warm seas and dominated by Mount Etna. The land is generous. The mountain occasionally reminds everyone who is actually in charge.\n•Sicilia Magna: Sicilia.]",
+                "Provides [1] [Sicilia Region]",
+                "[+1 Gold] [in all coastal cities] <when above [1] [Sicilia Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Sicilia Magna",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [The great island between Italia and Africa, rich in grain, ports, and strategic waters. Whoever holds it controls the passage between seas. Whoever loses it usually notices too late.\nLost if Sicilia is lost.]",
+                "[+1 Gold] [in all coastal cities]",
+                "[+1 Happiness, +1 Gold] from [Trading post] tiles [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Sicilia]>",
+                "Remove [Sicilia Magna] [in this city] <when below [2] [Sicilia Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [2] [Sicilia Region]> <hidden from users>"
+        ]
+},
+
 ///Anatolia
 //2
-	{
-    		"name": "Asia",
-		"gold": 2,
-    		"uniques": [
-			"Provides [1] [Asia Region]",
-			"[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Asia",
+        "gold": 2,
+        "uniques": [
+                "Comment [The western coastal plateau of Anatolia, shaped by fertile valleys, river basins, and dense networks of ancient cities. Wealth gathers easily here. So do conquerors.\n•Anatolia: Asia, Galatia et Cappadocia, Bithynia et Pontus.]",
+                "Provides [1] [Asia Region]",
+                "[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //2
-	{
-    		"name": "Galatia et Cappadocia",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Galatia et Cappadocia Region]",
-			"Provides [2] [Manpower]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Galatia et Cappadocia",
+        "food": 1,
+        "uniques": [
+                "Comment [The high central plateau and rugged interior of Anatolia, where steppe meets mountain and ancient kingdoms leave behind layered histories. Distance is measured in days, not miles.\n•Anatolia: Asia, Galatia et Cappadocia, Bithynia et Pontus.]",
+                "Provides [1] [Galatia et Cappadocia Region]",
+                "Provides [2] [Manpower]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //2
-	{
-    		"name": "Bithynia et Pontus",
-		"gold": 2,
-    		"uniques": [
-			"Provides [1] [Bithynia et Pontus Region]",
-			"[+1 Gold] from [Trading post] tiles [in all coastal cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
+{
+        "name": "Bithynia et Pontus",
+        "gold": 2,
+        "uniques": [
+                "Comment [The northern shores of Anatolia along the Black Sea, rich in ports, forests, and maritime trade routes. The sea is generous. It also remembers everything.\n•Anatolia: Asia, Galatia et Cappadocia, Bithynia et Pontus.]",
+                "Provides [1] [Bithynia et Pontus Region]",
+                "[+1 Gold] from [Trading post] tiles [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Anatolia",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [The vast peninsula bridging Europe and Asia, divided into coastal kingdoms, inland plateaus, and northern maritime corridors. Every empire passes through Anatolia. Few leave unchanged.\nLost if any part of Asia, Galatia et Cappadocia, or Bithynia et Pontus is lost.]",
+                "[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Galatia et Cappadocia]>",
+                "Unbuildable <when below [3] [Asia Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Galatia et Cappadocia Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Bithynia et Pontus Region]> <hidden from users>",
+                "Remove [Anatolia] [in this city] <when below [3] [Asia Region]> <upon turn end> <hidden from users>",
+                "Remove [Anatolia] [in this city] <when below [2] [Galatia et Cappadocia Region]> <upon turn end> <hidden from users>",
+                "Remove [Anatolia] [in this city] <when below [2] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Anatolia",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
-			"Unsellable",	
-			"Only available <in cities with a [Galatia et Cappadocia]>",
-			"Remove [Anatolia] [in this city] <when below [3] [Asia Region]> <upon turn end> <hidden from users>",
-			"Remove [Anatolia] [in this city] <when below [2] [Galatia et Cappadocia Region]> <upon turn end> <hidden from users>",
-			"Remove [Anatolia] [in this city] <when below [2] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [3] [Asia Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Galatia et Cappadocia Region]> <hidden from users>",
-			"Unbuildable <when below [3] [Bithynia et Pontus Region]> <hidden from users>",
-		]
-  	},
 ///Armenia et Caucasus
 //2
-	{
-    		"name": "Armenia",
-    		"uniques": [
-			"Provides [1] [Armenia Region]",
-			"Provides [1] [Horses]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Armenia",
+        "uniques": [
+                "Comment [A rugged highland region of mountains, valleys, and strategic passes linking Anatolia to the Eurasian steppe. Horsemen dominate the terrain, but the terrain also shapes the horsemen.\n•Armenia et Caucasus: Armenia, Caucasia.]",
+                "Provides [1] [Armenia Region]",
+                "Provides [1] [Horses]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //3
-	{
-    		"name": "Caucasia",
-    		"uniques": [
-			"[+1 Gold] from [Hill] tiles [in this city]"
-			"Provides [1] [Caucasia Region]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
-	{
-    		"name": "Armenia et Caucasus",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Provides [1] [Iron]",
-			"[+1 Culture] from [Hill] tiles [in this city]"
-			"Unsellable",	
-			"Only available <in cities with a [Armenia]>",
-			"Remove [Armenia et Caucasus] [in this city] <when below [3] [Caucasia Region]> <upon turn end> <hidden from users>",
-			"Remove [Armenia et Caucasus] [in this city] <when below [2] [Armenia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [3] [Caucasia Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Armenia Region]> <hidden from users>",
-		]
-  	},
-
-
+{
+        "name": "Caucasia",
+        "uniques": [
+                "Comment [The great mountain spine of the Caucasus, where peaks divide continents and valleys hide ancient routes. Geography here is less a map and more a negotiation.\n•Armenia et Caucasus: Armenia, Caucasia.]",
+                "[+1 Gold] from [Hill] tiles [in this city]",
+                "Provides [1] [Caucasia Region]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Armenia et Caucasus",
+        "cost": 100,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Comment [A crossroads of high mountains and ancient kingdoms, where empires meet steppe routes and fortified valleys. Control of this region is less about conquest and more about persistence.\nLost if Armenia or Caucasia is lost.]",
+                "Provides [1] [Iron]",
+                "[+1 Culture] from [Hill] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Armenia]>",
+                "Remove [Armenia et Caucasus] [in this city] <when below [3] [Caucasia Region]> <upon turn end> <hidden from users>",
+                "Remove [Armenia et Caucasus] [in this city] <when below [2] [Armenia Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [3] [Caucasia Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Armenia Region]> <hidden from users>"
+        ]
+},
 
 ///Syria Maior
 //2
-	{
-    		"name": "Cilicia",
-		"gold": 2,
-    		"uniques": [
-			"Provides [1] [Cilicia Region]",
-			"[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Cilicia",
+        "gold": 2,
+        "uniques": [
+                "Comment [A coastal and mountainous region bridging Anatolia and the Levant, where trade routes pass through narrow passes and sheltered harbors. Control of Cilicia means control of movement, not just land.\n•Syria Maior: Syria, Cilicia.]",
+                "Provides [1] [Cilicia Region]",
+                "[+1 Happiness] from [Trading post] tiles [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //3
-	{
-    		"name": "Syria",
-		"gold": 2,
-    		"uniques": [
-			"Provides [1] [Syria Region]",
-			"[+1 Gold] from [Trading post] tiles [in all coastal cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
+{
+        "name": "Syria",
+        "gold": 2,
+        "uniques": [
+                "Comment [The fertile crescent along the eastern Mediterranean, shaped by rivers, ports, and caravan routes linking Mesopotamia to the sea. Wealth flows through it as naturally as trade winds.\n•Syria Maior: Syria, Cilicia.]",
+                "Provides [1] [Syria Region]",
+                "[+1 Gold] from [Trading post] tiles [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Syria Maior",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 2},
+        "uniques": [
+                "Comment [A dense network of coastal cities, caravan routes, and fertile inland corridors linking Anatolia, Mesopotamia, and the Levant. Whoever holds Syria holds the hinge between continents.\nLost if Syria or Cilicia is lost.]",
+                "[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Syria]>",
+                "Remove [Syria Maior] [in this city] <when below [3] [Syria Region]> <upon turn end> <hidden from users>",
+                "Remove [Syria Maior] [in this city] <when below [2] [Cilicia Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [3] [Syria Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Cilicia Region]> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Syria Maior",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 2},
-    		"uniques": [
-			"[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
-			"Unsellable",	
-			"Only available <in cities with a [Syria]>",
-			"Remove [Syria Maior] [in this city] <when below [3] [Syria Region]> <upon turn end> <hidden from users>",
-			"Remove [Syria Maior] [in this city] <when below [2] [Cilicia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [3] [Syria Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Cilicia Region]> <hidden from users>",
-		]
-  	},
 ///Pontus Euxinus
 //2
-	{
-    		"name": "Scythia",
-		"food": 1,
-    		"uniques": [
-			"[+1 Gold, +1 Food] from [Pasture] tiles [in this city]",
-			"Provides [1] [Scythia Region]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Scythia",
+        "food": 1,
+        "uniques": [
+                "Comment [The vast northern steppe above the Black Sea, where grasslands stretch endlessly and mounted peoples shape the rhythm of movement itself. Distance is measured in horizons rather than roads.\n•Pontus Euxinus: Scythia, Ponto Caspia, Bosporus.]",
+                "[+1 Gold, +1 Food] from [Pasture] tiles [in this city]",
+                "Provides [1] [Scythia Region]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //3
-	{
-    		"name": "Ponto Caspia",
-		"food": 1,
-    		"uniques": [
-			"[+1 Happiness, +1 Food] from [Pasture] tiles [in this city]",
-			"Provides [1] [Ponto Caspia Region]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
-	{
-    		"name": "Bosporus",
-		"food": 1,
-    		"uniques": [
-			"[+1 Happiness, +1 Gold] from [Trading post] tiles [in all coastal cities]",
-			"Provides [1] [Bosporus Region]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
-	{
-    		"name": "Pontus Euxinus",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"[+1 Gold, +1 Food] from [Pasture] tiles [in capital]",
-			"[+1 Happiness, +1 Food] from [Pasture] tiles [in this city]",
-			"Provides [1] [Veteran]",
-			"Unsellable",	
-			"Only available <in cities with a [Syria]>",
-			"Remove [Pontus Euxinus] [in this city] <when below [4] [Scythia Region]> <upon turn end> <hidden from users>",
-			"Remove [Pontus Euxinus] [in this city] <when below [4] [Ponto Caspia Region]> <upon turn end> <hidden from users>",
-			"Remove [Pontus Euxinus] [in this city] <when below [1] [Bosporus Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [4] [Scythia Region]> <hidden from users>",
-			"Unbuildable <when below [4] [Ponto Caspia Region]> <hidden from users>",
-			"Unbuildable <when below [1] [Bosporus Region]> <hidden from users>",
-		]
-  	},
+{
+        "name": "Ponto Caspia",
+        "food": 1,
+        "uniques": [
+                "Comment [The eastern steppe corridors linking the Black Sea to the Caspian sphere, shaped by migration routes and horse-based economies. The land rewards movement more than settlement.\n•Pontus Euxinus: Scythia, Ponto Caspia, Bosporus.]",
+                "[+1 Happiness, +1 Food] from [Pasture] tiles [in this city]",
+                "Provides [1] [Ponto Caspia Region]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Bosporus",
+        "food": 1,
+        "uniques": [
+                "Comment [The narrow strait linking the Black Sea to the Mediterranean world, where empires funnel trade through a single controllable throat. Whoever holds it decides what enters and what never leaves.\n•Pontus Euxinus: Scythia, Ponto Caspia, Bosporus.]",
+                "[+1 Happiness, +1 Gold] from [Trading post] tiles [in all coastal cities]",
+                "Provides [1] [Bosporus Region]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Pontus Euxinus",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [The Black Sea basin and surrounding steppe and coastal corridors, where pastoral nomads, port cities, and imperial frontiers intersect. Control here is less about holding land and more about controlling movement.\nLost if Scythia, Ponto Caspia, or Bosporus is lost.]",
+                "[+1 Gold, +1 Food] from [Pasture] tiles [in capital]",
+                "[+1 Happiness, +1 Food] from [Pasture] tiles [in this city]",
+                "Provides [1] [Veteran]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Bosporus]>",
+                "Unbuildable <when below [4] [Scythia Region]> <hidden from users>",
+                "Unbuildable <when below [4] [Ponto Caspia Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Bosporus Region]> <hidden from users>",
+                "Remove [Pontus Euxinus] [in this city] <when below [4] [Scythia Region]> <upon turn end> <hidden from users>",
+                "Remove [Pontus Euxinus] [in this city] <when below [4] [Ponto Caspia Region]> <upon turn end> <hidden from users>",
+                "Remove [Pontus Euxinus] [in this city] <when below [2] [Bosporus Region]> <upon turn end> <hidden from users>"
+        ]
+},
 
 ///Africa Pacata
 //6
-	{
-    		"name": "Mauretania",
-    		"uniques": [
-			"Provides [1] [Mauretania Region]",
-			"[+1 Gold] [in this city] <when above [1] [Mauretania Region]>",
-			"[+1 Food] [in this city] <when above [3] [Mauretania Region]>",
-			"[+1 Food, +1 Gold] [in this city] <when above [5] [Mauretania Region]>",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Mauretania",
+	"gold": 1,
+        "uniques": [
+                "Comment [The western reaches of North Africa, where desert meets coast and fertile pockets survive along river valleys. Life here expands in stages, depending on the patience of water and settlement.\n•Africa Pacata: Mauretania, Africa, Phazania.]",
+		"[+1 Food] from [Pasture] tiles [in this city]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+                "Provides [1] [Mauretania Region]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //4
-	{
-    		"name": "Africa",
-    		"uniques": [
-			"Provides [1] [Africa Region]",
-			"[+1 Food] [in this city] <when above [1] [Africa Region]>",
-			"[+1 Food] [in this city] <when above [3] [Africa Region]>",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Africa",
+	"food": 1,
+        "uniques": [
+                "Comment [The fertile coastal belt of North Africa, where grain production and urban centers flourish along the Mediterranean shore. Stability here is not natural; it is cultivated.\n•Africa Pacata: Mauretania, Africa, Phazania.]",
+                "Provides [1] [Africa Region]",
+                "[+1 Food] from [Farm] tiles [in this city]",
+                "[+1 Gold] from [Trading post] tiles [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //2
-	{
-    		"name": "Phazania",
-    		"uniques": [
-			"Provides [1] [Phazania Region]",
-			"[+1 Gold] from [Desert] tiles [in capital]",
-			"[+1 Gold] from [Desert] tiles [in this city]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
+{
+        "name": "Phazania",
+        "uniques": [
+                "Comment [The inland desert frontier of North Africa, where trade routes cross empty expanses and survival depends on controlling water and passage. Wealth here moves rather than settles.\n•Africa Pacata: Mauretania, Africa, Phazania.]",
+                "Provides [1] [Phazania Region]",
+                "[+1 Gold] from [Desert] tiles [in this city]",
+                "[+1 Gold] from [Trading post] tiles [in capital]",
+		"[+1 Happiness] from [Silver] tiles [in all cities]"
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Africa Pacata",
+        "cost": 100,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Comment [The Roman North African provinces, stretching from fertile coastal belts into desert frontiers. Control here depends less on conquest and more on maintaining fragile balance between sea, soil, and sand.\nLost if Mauretania, Africa, or Phazania is lost.]",
+                "Provides [2] [Horses]",
+                "[+3 Food, +2 Happiness] [in capital]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Africa]>",
+                "Remove [Africa Pacata] [in this city] <when below [6] [Mauretania Region]> <upon turn end> <hidden from users>",
+                "Remove [Africa Pacata] [in this city] <when below [4] [Africa Region]> <upon turn end> <hidden from users>",
+                "Remove [Africa Pacata] [in this city] <when below [1] [Phazania Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [6] [Mauretania Region]> <hidden from users>",
+                "Unbuildable <when below [4] [Africa Region]> <hidden from users>",
+                "Unbuildable <when below [1] [Phazania Region]> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Africa Pacata",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Provides [2] [Horses]",
-			"[+3 Food] [in capital]",
-			"[+2 Happiness] [in capital]",
-			"Unsellable",	
-			"Only available <in cities with a [Africa]>",
-			"Remove [Africa Pacata] [in this city] <when below [6] [Mauretania Region]> <upon turn end> <hidden from users>",
-			"Remove [Africa Pacata] [in this city] <when below [4] [Africa Region]> <upon turn end> <hidden from users>",
-			"Remove [Africa Pacata] [in this city] <when below [1] [Phazania Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [5] [Mauretania Region]> <hidden from users>",
-			"Unbuildable <when below [4] [Africa Region]> <hidden from users>",
-			"Unbuildable <when below [1] [Phazania Region]> <hidden from users>",
-		]
-  	},
-
-///
-//4
-	{
-    		"name": "Libya",
-    		"uniques": [
-			"Provides [1] [Libya Region]",
-			"[+1 Gold] from [Trading post] tiles [in capital]",
-			"[+1 Gold] from [Desert] tiles [in this city]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+///North Africa East (Aegyptus System)
+//2
+{
+        "name": "Libya",
+        "uniques": [
+                "Comment [The coastal frontier between Egypt and the western deserts, where settlement is sparse and survival depends on trade routes and coastal nodes rather than dense agriculture.]\n•Aegyptus Region system: Libya, Aegyptus, Nabataea.",
+                "Provides [1] [Libya Region]",
+                "[+1 Gold] from [Trading post] tiles [in all coastal cities]",
+                "[+1 Gold, +1 Food] from [Trading post] tiles [in this city]",
+                "[+1 Gold, +1 Food] from [Oasis] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //3
-	{
-    		"name": "Aegyptus",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Aegyptus Region]",
-			"[+1 Food] [in capital]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Aegyptus",
+        "gold": 1,
+        "uniques": [
+                "Comment [The Nile valley, a predictable agricultural engine shaped by seasonal floods, producing surplus grain that sustains entire empires beyond its borders.]\n•Aegyptus Region system: Libya, Aegyptus, Nabataea.",
+                "Provides [1] [Aegyptus Region]",
+                "[+1 Food] from [Farm] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //4
-	{
-    		"name": "Nabataea",
-		"gold": 1,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"Provides [1] [Nabataea Region]",
-			"[+1 Gold] from [Trading post] tiles [in all cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
+{
+        "name": "Nabataea",
+        "gold": 1,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [A desert trade network controlling incense and spice routes between Arabia, Egypt, and the Levant, where wealth is generated by passage rather than production.]\n•Aegyptus Region system: Libya, Aegyptus, Nabataea.",
+                "Provides [1] [Nabataea Region]",
+                "[+1 Gold] from [Trading post] tiles [in all cities]",
+                "[+1 Gold] from [Desert] tiles [in capital] <when above [2] [Nabataea Region]>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Aegyptus Maior",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [The Roman province of Egypt, the strategic grain basin of the Mediterranean world, where control of agriculture equals control of stability and power.]\nLost if Libya, Aegyptus, or Nabataea is lost.",
+                "Provides [1] [Incense]",
+                "[+3 Food, +2 Happiness, +1 Science] in [capital]",
+                "[+1 Gold, +1 Food] from [Trading post] tiles [in capital]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Aegyptus]>",
+                "Remove [Aegyptus Maior] [in this city] <when below [4] [Libya Region]> <upon turn end> <hidden from users>",
+                "Remove [Aegyptus Maior] [in this city] <when below [3] [Aegyptus Region]> <upon turn end> <hidden from users>",
+                "Remove [Aegyptus Maior] [in this city] <when below [4] [Nabataea Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [4] [Libya Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Aegyptus Region]> <hidden from users>",
+                "Unbuildable <when below [4] [Nabataea Region]> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Aegyptus Maior",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"Provides [1] [Incense]",
-			"Consumes [2] [Rebel Risk] <when above [0] [Rebel Risk]>",
-			"Unsellable",	
-			"Only available <in cities with a [Aegyptus]>",
-			"Remove [Aegyptus Maior] [in this city] <when below [4] [Libya Region]> <upon turn end> <hidden from users>",
-			"Remove [Aegyptus Maior] [in this city] <when below [3] [Aegyptus Region]> <upon turn end> <hidden from users>",
-			"Remove [Aegyptus Maior] [in this city] <when below [4] [Nabataea Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [4] [Libya Region]> <hidden from users>",
-			"Unbuildable <when below [3] [Aegyptus Region]> <hidden from users>",
-			"Unbuildable <when below [4] [Nabataea Region]> <hidden from users>",
-		]
-  	},
 ///Arabia
 //3
-	{
-    		"name": "Arabia Magna",
-		"gold": 1,
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Arabia Magna Region]",
-			"[+1 Gold] from [Trading post] tiles [in all cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Arabia Magna",
+        "gold": 1,
+        "food": 1,
+        "uniques": [
+                "Comment [The northern Arabian desert, where survival depends on controlling caravan routes and water access rather than agriculture. Wealth comes from passage, not settlement.]",
+                "Provides [1] [Arabia Magna Region]",
+                "[+1 Gold] from [Trading post] tiles [in all cities]",
+                "[+1 Gold] from [Desert] tiles [in this city]",
+                "[+1 Food] from [Hill] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
 //2
-	{
-    		"name": "Arabia Felix",
-		"gold": 1,
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Arabia Felix Region]",
-			"[+1 Gold] from [Trading post] tiles [in all cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
+{
+        "name": "Arabia Felix",
+        "gold": 1,
+        "food": 1,
+        "uniques": [
+                "Comment [The fertile southern Arabian lands, historically associated with incense production, agriculture in oases, and wealthy trade ports connecting Africa and India.]",
+                "Provides [1] [Arabia Felix Region]",
+                "[+1 Gold] from [Trading post] tiles [in all coastal cities]",
+                "[+1 Food, +1 Culture] from [Farm] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Arabia",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 2},
+        "uniques": [
+                "Comment [A network of desert trade routes linking Africa, the Levant, and the Indian Ocean world, where control of caravans matters more than control of land.]",
+                "[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Arabia Felix]>",
+                "Remove [Arabia] [in this city] <when below [2] [Arabia Felix Region]> <upon turn end> <hidden from users>",
+                "Remove [Arabia] [in this city] <when below [3] [Arabia Magna Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [2] [Arabia Felix Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Arabia Magna Region]> <hidden from users>"
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Arabia",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 2},
-    		"uniques": [
-			"[+1 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
-			"Unsellable",	
-			"Only available <in cities with a [Aegyptus]>",
-			"Remove [Arabia] [in this city] <when below [2] [Arabia Felix Region]> <upon turn end> <hidden from users>",
-			"Remove [Arabia] [in this city] <when below [3] [Arabia Magna Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [2] [Arabia Felix Region]> <hidden from users>",
-			"Unbuildable <when below [3] [Arabia Magna Region]> <hidden from users>",
-		]
-  	},
 ///Mesopotamia
 //3
-	{
-    		"name": "Mesopotamia",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Mesopotamia Region]",
-			"[+1 Gold] from [Farm] tiles [in this city]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
+{
+        "name": "Mesopotamia",
+        "food": 1,
+        "uniques": [
+                "Comment [The fertile basin between the Tigris and Euphrates, where irrigation turned floodplains into one of the earliest sustained agricultural heartlands. Cities rise and collapse here, but the rivers keep doing their job regardless.]",
+                "Provides [1] [Mesopotamia Region]",
+                "[+1 Gold] from [Farm] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured",
+        ]
+},
+{
+        "name": "Mesopotamia Maior",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [The imperial framing of the Mesopotamian plains as a grain and administrative core, where control of irrigation networks effectively meant control of political stability.]",
+                "[+2 Food, +2 Happiness] [in capital]",
+                "Unsellable",
+                "Only available <in cities with a [Mesopotamia]>",
+                "Remove [Mesopotamia Maior] [in this city] <when below [3] [Mesopotamia Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [3] [Mesopotamia Region]> <hidden from users>",
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Mesopotamia Maior",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"[+2 Food, +2 Happiness] [in capital]",
-			"Unsellable",	
-			"Only available <in cities with a [Mesopotamia]>",
-			"Remove [Mesopotamia Maior] [in this city] <when below [3] [Mesopotamia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [3] [Mesopotamia Region]> <hidden from users>",
-		]
-  	},
 ////Persia
 //3
-	{
-    		"name": "Persis",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Persis Region]",
-			"[+1 Gold] from [Hill] tiles [in this city]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Persis",
+        "food": 1,
+        "uniques": [
+                "Comment [The mountainous heartland of southwestern Iran, where uplands and valleys shape a mixed agricultural and pastoral economy. The terrain favors resilience over scale.]",
+                "Provides [1] [Persis Region]",
+                "[+1 Gold] from [Hill] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured",
+        ]
+},
 //2
-	{
-    		"name": "Media Magna",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Media Magna Region]",
-			"Provides [1] [Horses]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-
-		]
-  	},
+{
+        "name": "Media Magna",
+        "food": 1,
+        "uniques": [
+                "Comment [The high plateau region of western Iran, historically a corridor of equestrian culture and imperial administration, where horses and mobility define power.]",
+                "Provides [1] [Media Magna Region]",
+                "Provides [1] [Horses]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured",
+        ]
+},
 //4
-	{
-    		"name": "Parthia",
-    		"uniques": [
-			"Provides [1] [Parthia Region]",
-			"[+10]% Production when constructing [Mounted] units [in this city]",
-			"[+1 Food] from [Pasture] tiles [in this city]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
+{
+        "name": "Parthia",
+        "uniques": [
+                "Comment [The eastern Iranian frontier, shaped by steppe influence and mounted warfare traditions, where cavalry dominance defines military identity.]",
+                "Provides [1] [Parthia Region]",
+                "[+10]% Production when constructing [Mounted] units [in this city]",
+                "[+1 Food] from [Pasture] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured",
+        ]
+},
+{
+        "name": "Persia",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [A composite imperial system of highlands, plateaus, and steppe frontiers, where administration depends on balancing agriculture, cavalry power, and regional governors.]",
+                "Provides [1] [Nobles]",
+                "[+10]% Production when constructing [Mounted] units [in this city]",
+                "Only available <in cities with a [Persis]>",
+                "Remove [Persia] [in this city] <when below [3] [Persis Region]> <upon turn end> <hidden from users>",
+                "Remove [Persia] [in this city] <when below [2] [Media Magna Region]> <upon turn end> <hidden from users>",
+                "Remove [Persia] [in this city] <when below [4] [Parthia Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [3] [Persis Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Media Magna Region]> <hidden from users>",
+                "Unbuildable <when below [4] [Parthia Region]> <hidden from users>",
+                "Unsellable <hidden from users>",
+        ]
+},
 
-		]
-  	},
-	{
-    		"name": "Persia",
-    		"cost": 100,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-			"Provides [1] [Nobles]",
-			"[+10]% Production when constructing [Mounted] units [in this city]"
-			"Unsellable",	
-			"Only available <in cities with a [Persis]>",
-			"Remove [Persia] [in this city] <when below [3] [Persis Region]> <upon turn end> <hidden from users>",
-			"Remove [Persia] [in this city] <when below [2] [Media Magna Region]> <upon turn end> <hidden from users>",
-			"Remove [Persia] [in this city] <when below [4] [Parthia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [3] [Persis Region]> <hidden from users>",
-			"Unbuildable <when below [2] [Media Magna Region]> <hidden from users>",
-			"Unbuildable <when below [4] [Parthia Region]> <hidden from users>",
-		]
-  	},
 ///Ariana
 //2
-	{
-    		"name": "Gedrosia",
-    		"uniques": [
-			"Provides [1] [Gedrosia Region]",
-			"[+1 Gold] [in all coastal cities]"
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-		]
-  	},
-//1
-	{
-    		"name": "Aria",
-		"food": 1,
-    		"uniques": [
-			"Provides [1] [Aria Region]",
-			"[+2 Gold] from [Farm] tiles [in this city]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-		]
-  	},
+{
+        "name": "Gedrosia",
+        "uniques": [
+                "Comment [The harsh coastal-desert frontier along the Arabian Sea, where maritime trade routes meet arid inland constraints and survival depends on sparse ecological corridors.]",
+                "Provides [1] [Gedrosia Region]",
+                "[+1 Gold] [in all coastal cities]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>",
+        ]
+},
 //1
 {
-    		"name": "Arachosia",
-    		"uniques": [
-			"Provides [1] [Arachosia Region]",
-			"New [Mounted] units start with [10] XP [in this city]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-]
-  	},
-	{
-    		"name": "Ariana",
-		"gold": 5,
-    		"cost": 100,
-		"specialistSlots": {"Merchants":1},
-    		"uniques": [
-			"[+2 Gold, +1 Happiness] from [Trading post] tiles [in capital]",
-			"Unsellable",	
-			"Only available <in cities with a [Arachosia]>",
-			"Remove [Ariana] [in this city] <when below [2] [Gedrosia Region]> <upon turn end> <hidden from users>",
-			"Remove [Ariana] [in this city] <when below [1] [Aria Region]> <upon turn end> <hidden from users>",
-			"Remove [Ariana] [in this city] <when below [1] [Arachosia Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [2] [Gedrosia Region]> <hidden from users>",
-			"Unbuildable <when below [1] [Aria Region]> <hidden from users>",
-			"Unbuildable <when below [1] [Arachosia Region]> <hidden from users>",
-]
-  	},
+        "name": "Aria",
+        "food": 1,
+        "uniques": [
+                "Comment [A fertile oasis and agricultural corridor in eastern Iran, sustained by river-fed valleys that contrast sharply with surrounding desert zones.]",
+                "Provides [1] [Aria Region]",
+                "[+2 Gold] from [Farm] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>",
+        ]
+},
+//1
+{
+        "name": "Arachosia",
+        "uniques": [
+                "Comment [A frontier basin linking Iran and the Indian subcontinent, historically shaped by cavalry mobility and trans-regional trade routes.]",
+                "Provides [1] [Arachosia Region]",
+                "New [Mounted] units start with [10] XP [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>",
+        ]
+},
+{
+        "name": "Ariana",
+        "gold": 5,
+        "cost": 100,
+        "specialistSlots": {"Merchants":1},
+        "uniques": [
+                "Comment [A transitional macro-region linking desert, oasis agriculture, and steppe corridors, forming a loosely integrated economic and military frontier system.]",
+                "[+2 Gold, +1 Happiness] from [Trading post] tiles [in capital]",
+                "Only available <in cities with a [Arachosia]>",
+                "Remove [Ariana] [in this city] <when below [2] [Gedrosia Region]> <upon turn end> <hidden from users>",
+                "Remove [Ariana] [in this city] <when below [1] [Aria Region]> <upon turn end> <hidden from users>",
+                "Remove [Ariana] [in this city] <when below [1] [Arachosia Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [2] [Gedrosia Region]> <hidden from users>",
+                "Unbuildable <when below [1] [Aria Region]> <hidden from users>",
+                "Unbuildable <when below [1] [Arachosia Region]> <hidden from users>",
+                "Unsellable <hidden from users>",
+        ]
+},
 
 ////Bactria Maior
 //1
-	{
-    		"name": "Chorasmia",
-    		"uniques": [
-			"Provides [1] [Chorasmia Region]",
-			"Provides [2] [Manpower]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-		]
-  	},
+{
+        "name": "Chorasmia",
+        "uniques": [
+                "Comment [An arid but strategically placed oasis region along the lower Amu Darya, where river management determines survival more than conquest ever did.]",
+                "Provides [1] [Chorasmia Region]",
+                "Provides [2] [Manpower] <hidden from users>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>",
+        ]
+},
 //1
-	{
-    		"name": "Transoxania",
-    		"uniques": [
-			"Provides [1] [Transoxania Region]",
-			"[+1 Gold, +1 Happiness] from [Trading post] tiles [in all cities]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-		]
-  	},
+{
+        "name": "Transoxania",
+        "uniques": [
+                "Comment [The river-rich expanse between the Amu Darya and Syr Darya, historically a crossroads of nomadic routes, agriculture, and imperial taxation systems.]",
+                "Provides [1] [Transoxania Region]",
+                "[+1 Gold, +1 Happiness] from [Trading post] tiles [in all cities] <hidden from users>",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>",
+        ]
+},
 //1
-	{
-    		"name": "Bactria",
-    		"uniques": [
-			"Provides [1] [Bactria Region]",
-			"Provides [1] [Veteran]",
-			"Unsellable",
-      			"Unbuildable",
-			"Never destroyed when the city is captured",
-		]
-  	},
-	{
-    		"name": "Bactria Maior",
-    		"cost": 100,
-    		"maintenance": 0,
-		"specialistSlots": {"Artist":1},
-    		"uniques": [
-			"Provides [1] [Enable Armored Elephant]",
-			"[+10]% Production when constructing [Elephant] units [in all cities]",
-			"Unsellable",	
-			"Only available <in cities with a [Bactria]>",
-			"Remove [Bactria Maior] [in this city] <when below [1] [Chorasmia Region]> <upon turn end> <hidden from users>",
-			"Remove [Bactria Maior] [in this city] <when below [1] [Transoxania Region]> <upon turn end> <hidden from users>",
-			"Remove [Bactria Maior] [in this city] <when below [1] [Bactria Region]> <upon turn end> <hidden from users>",
-			"Unbuildable <when below [1] [Chorasmia Region]> <hidden from users>",
-			"Unbuildable <when below [1] [Transoxania Region]> <hidden from users>",
-			"Unbuildable <when below [1] [Bactria Region]> <hidden from users>",
-]
-  	},
+{
+        "name": "Bactria",
+        "uniques": [
+                "Comment [A highland region south of the Oxus, blending steppe influence and settled agriculture, often acting as a buffer between empires and nomadic pressures.]",
+                "Provides [1] [Bactria Region]",
+                "Provides [1] [Veteran]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>",
+        ]
+},
+{
+        "name": "Bactria Maior",
+        "cost": 100,
+        "maintenance": 0,
+        "specialistSlots": {"Artist":1},
+        "uniques": [
+                "Comment [A frontier macro-region where oasis agriculture, steppe mobility, and imperial experimentation with war elephants and heavy cavalry converge into a hybrid military economy.]",
+                "Provides [1] [Enable Armored Elephant]",
+                "[+10]% Production when constructing [Elephant] units [in all cities]",
+                "Only available <in cities with a [Bactria]>",
+                "Remove [Bactria Maior] [in this city] <when below [1] [Chorasmia Region]> <upon turn end> <hidden from users>",
+                "Remove [Bactria Maior] [in this city] <when below [1] [Transoxania Region]> <upon turn end> <hidden from users>",
+                "Remove [Bactria Maior] [in this city] <when below [1] [Bactria Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [1] [Chorasmia Region]> <hidden from users>",
+                "Unbuildable <when below [1] [Transoxania Region]> <hidden from users>",
+                "Unbuildable <when below [1] [Bactria Region]> <hidden from users>",
+                "Unsellable <hidden from users>",
+        ]
+},
+
+
 ////
 					/////Scenario
 
@@ -4249,7 +4327,7 @@
          		"Triggers a [The Loss of Thracia] event <if [Thracia] is not constructed> <when below [1] [Thracia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
          		"Triggers a [The Loss of Macedonia] event <if [Macedonia] is not constructed> <when below [1] [Macedonia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
          		"Triggers a [The Loss of Achaea] event <if [Achaea] is not constructed> <when below [1] [Achaea P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
-         		"Triggers a [The Loss of Italia] event <if [Italia] is not constructed> <when below [1] [Italia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
+         		"Triggers a [The Loss of Italia] event <if [Latinum] is not constructed> <when below [1] [Italia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
          		"Triggers a [The Recapture of Italia] event <if [Italia] is constructed> <when between [1] and [2] [Italia P]> <upon turn start> <for [The Romans] Civilizations> <hidden from users>",
 			"Moves to new capital when capital changes",
 			"Unsellable",

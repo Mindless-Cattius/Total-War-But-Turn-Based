@@ -1423,7 +1423,7 @@
 		"[-10]% Strength <when attacking> <vs [Spear] units>",
 		"[-20]% Strength <when attacking> <vs cities>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [20]% chance>",
+		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
 	{
