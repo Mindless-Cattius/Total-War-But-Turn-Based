@@ -2078,12 +2078,6 @@
         		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <for [AI player] Civilizations> <hidden from users>",
         		"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <if [Dalmatia] is constructed> <for [AI player] Civilizations> <hidden from users>",
         		"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <if [Achaea] is constructed> <for [AI player] Civilizations> <hidden from users>",
-			"Provides [1] [Enable Hellenic Limitanei] <if [Achaea] is constructed>",
-			"Provides [1] [Enable Hellenic Legion] <if [Achaea] is constructed>",
-			"Provides [1] [Enable Illyrian Legion] <if [Dalmatia] is constructed>",
-			"Provides [1] [Enable Gallic Legion] <if [Gallia] is constructed>",
-			"Provides [1] [Enable Gallic Limitanei] <if [Gallia] is constructed>",
-			"Provides [1] [Enable Desert Legion] <if [Aegyptus] is constructed>",
 
 ]
   	},
