@@ -149,8 +149,8 @@
   		"happiness": 1,
 		"uniques": [
 			"Provides [1] [Cities]"
-			"Unsellable",
-			"Unbuildable",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			
 		],
 },
@@ -2072,8 +2072,8 @@
 			"[+1 Food] from [Fish] tiles [in this city] <when at war>",
 			"Only available <in [Coastal] cities>",
 			"Never destroyed when the city is captured",
-			"Unsellable",
-      			"Unbuildable",
+			"Unsellable <hidden from users>",
+      			"Unbuildable <hidden from users>",
 ]
   	},
 
@@ -2246,7 +2246,7 @@
 			"Provides [2] [Rebel Risk] <when above [1] [Ruler]>",
 			"[1] [King]s rebel <upon turn end> <with [10]% chance> <before adopting [Empire]> <starting from the [Classical Age]> <hidden from users>",
 			"[1] [Emperor]s rebel <upon turn end> <with [10]% chance> <after adopting [Empire]> <hidden from users>",
-			"Unbuildable","Unsellable",
+			"Unbuildable <hidden from users>","Unsellable <hidden from users>",
 			"Destroyed when the city is captured",
 		]
 	},
@@ -2267,7 +2267,7 @@
 			"[+100]% Production when constructing [Restored Order] buildings [in this city] <with a garrison>",
 			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [25]% chance> <hidden from users>",
 			"Remove [REBEL IMMINENT] [in this city] <with a garrison> <upon turn end> <with [50]% chance> <hidden from users>",
-			"Unbuildable","Unsellable",
+			"Unbuildable <hidden from users>","Unsellable <hidden from users>",
 			"Destroyed when the city is captured"
 ]
 	},
@@ -2291,7 +2291,7 @@
 			"Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when above [25] [Sanitation]> <hidden from users>",
 			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <when between [0] and [30] [Sanitation]> <hidden from users>",
 			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <when between [31] and [50] [Sanitation]> <hidden from users>",
-			"Unbuildable","Unsellable",
+			"Unbuildable <hidden from users>","Unsellable <hidden from users>",
 ]
  },
 	{
@@ -2306,7 +2306,7 @@
 			"Consumes [2] [Decadence]",
 			"Consumes [1] [Manpower] <in cities with a [Muster Field]>",
 			"Consumes [1] [Manpower] <in cities with a [Barracks]>",
-			"Unbuildable","Unsellable","Unavailable",
+			"Unbuildable <hidden from users>","Unsellable <hidden from users>","Unavailable",
 ]
 	},
 	{
@@ -2321,7 +2321,7 @@
 			"Consumes [2] [Decadence]",
 			"Consumes [1] [Manpower] <in cities with a [Muster Field]>",
 			"Consumes [1] [Manpower] <in cities with a [Barracks]>",
-			"Unbuildable","Unsellable","Unavailable",
+			"Unbuildable <hidden from users>","Unsellable <hidden from users>","Unavailable",
 ]
 	},
 	{
@@ -2559,7 +2559,7 @@
 			"[+1 Production] from [Village] tiles [in this city]",
 			"Consumes [1] [Manpower]",
  			"Only available <when religion is enabled>",
-			"Unbuildable",
+			"Unbuildable <hidden from users>",
 			"Destroyed when the city is captured"
 ]
 	},
@@ -2577,7 +2577,7 @@
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"Consumes [1] [Manpower]",
  			"Only available <when religion is enabled>",
-			"Unbuildable",
+			"Unbuildable <hidden from users>",
 			"Destroyed when the city is captured"
 ]
 	},
@@ -2592,7 +2592,7 @@
 			"[+2 Faith] from [Village] tiles [in this city]",
 			"Consumes [1] [Manpower]",
  			"Only available <when religion is enabled>",
-			"Unbuildable",
+			"Unbuildable <hidden from users>",
 			"Destroyed when the city is captured"
 ]
 	},
@@ -2608,7 +2608,7 @@
 			"[+1 Food] from [Village] tiles [in this city]",
 			"Consumes [1] [Manpower]",
  			"Only available <when religion is enabled>",
-			"Unbuildable",
+			"Unbuildable <hidden from users>",
 			"Destroyed when the city is captured"
 ]
 	},
@@ -2754,7 +2754,7 @@
 		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 		"Consumes [2] [Rebel Risk] <during a Golden Age>",
 		"[+1 Food, -1 Gold] [in all cities]",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Provincial Governors Demand Funding] event <upon turn start> <with [3]% chance> <hidden from users>",
 		"Triggers a [Provincial Corruption] event <upon turn start> <with [1]% chance> <hidden from users>",
 		]
@@ -2769,7 +2769,7 @@
 		"Provides [1] [Sanitation]",
 		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
 		"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Sanitation Policies] event <upon turn start> <with [2]% chance> <if [Sanitation Policies II] is not constructed> <hidden from users>",
 		]
 },
@@ -2782,7 +2782,7 @@
 		"[+3] HP when healing <for [all] units> <in [Friendly Land] tiles>",
 		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
 		"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Sanitation Policies] event <upon turn start> <with [2]% chance> <hidden from users>",
 		]
 },
@@ -2795,7 +2795,7 @@
 		"[-2] HP when healing <for [all] units> <in [Friendly Land] tiles>",
 		"[-10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
 		"[-10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Clean Water] event <upon turn start> <with [10]% chance> <hidden from users>",
 		]
 },
@@ -2808,7 +2808,7 @@
 		"[-1] HP when healing <for [all] units> <in [Friendly Land] tiles>",
 		"[-10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
 		"[-10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [The Rat Problem] event <upon turn start> <with [10]% chance> <hidden from users>",
 		]
 },
@@ -2824,7 +2824,7 @@
 		"Consumes [2] [Rebel Risk] <during a Golden Age>",
 		"[+1 Culture, -1 Gold] [in all cities]",
 		"Provides [1] [Enable Angry Mob]",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		]
 },
 {
@@ -2834,7 +2834,7 @@
 		"Comment [Nobody remembers who put it there. Nobody is brave enough to remove it.]",
 		"Consumes [1] [Rebel Risk]",
 		"[-4 Faith, +2 Science, +1 Happiness, +1 Culture, +1 Production]",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		]
 },
 
@@ -2849,7 +2849,7 @@
 		"[+20]% Strength <when attacking> <for [Mounted] units>",
 		"[+1] Movement <for [Horseman] units>",
 		"[+5] HP when healing <for [Mounted] units>",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Cavalry Budget Crisis] event <upon turn start> <with [3]% chance>",
 		]
 },
@@ -2861,7 +2861,7 @@
 		"[+2] XP gained from combat <for [Archery] units>",
 		"[+10]% Strength <when attacking> <for [Archery] units>",
 		"[+1] Sight <for [Archery] units>",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Arrow Procurement Debate] event <upon turn start> <with [3]% chance>",
 ]
 },
@@ -2872,7 +2872,7 @@
 		"New [Mounted Archery] units start with [20] XP [in all cities]",
 		"[+2] XP gained from combat <for [Mounted Archery] units>",
 		"[+10]% Strength <for [Mounted Archery] units>",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Horse Archer Procurement Report] event <upon turn start> <with [3]% chance>",
 ]
 },
@@ -2884,7 +2884,7 @@
 		"[+2] XP gained from combat <for [Spear] units>",
 		"[+20]% Strength <when defending> <for [Spear] units>",
 		"[+5] HP when healing <for [Sword] units>",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Quality Sticks Maintenance Report] event <upon turn start> <with [3]% chance>",
 ]
 },
@@ -2896,7 +2896,7 @@
 		"[+2] XP gained from combat <for [Sword] units>",
 		"[+10]% Strength <for [Sword] units>",
 		"[+12] HP when healing <for [Sword] units>",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Sword Training Review] event <upon turn start> <with [3]% chance>",
 ]
 },
@@ -2908,7 +2908,7 @@
 		"[+10]% Strength <when defending> <for units with [Infantry Shield II]>",
 		"[+10] HP when healing <for units with [Infantry Shield II]>",
 		"Triggers a [Shield Infantry Funding Review] event <upon turn start> <with [3]% chance>",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 ]
 },
 {
@@ -2919,7 +2919,7 @@
 		"[+10]% Strength <when defending> <for units with [Infantry Shield III]>",
 		"[+10] HP when healing <for units with [Infantry Shield III]>",
 		"Triggers a [Heavy Infantry Funding Review] event <upon turn start> <with [3]% chance>",
-		"Moves to new capital when capital changes","Unbuildable","Unsellable",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 ]
 },
 			
@@ -3098,8 +3098,8 @@
                 "Provides [1] [Veteran]",
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Celtica]>",
-		"Provides [1] [Enable Gallic Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from user>",
-		"Provides [1] [Enable Gallic Limitanei] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from user>",
+		"Provides [1] [Enable Gallic Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
+		"Provides [1] [Enable Gallic Limitanei] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
                 "Unbuildable <when below [2] [Provincia Region]> <hidden from users>",
                 "Unbuildable <when below [2] [Aquitania Region]> <hidden from users>",
                 "Unbuildable <when below [3] [Celtica Region]> <hidden from users>",
@@ -3291,7 +3291,7 @@
                 "Comment [The lands between the Adriatic Sea and the middle Danube, where mountains yield to open plains and many peoples share the frontier. Crossing it is simple. Leaving it peacefully is another matter.\nLost if any part of Illyria or Pannonia is lost.]",
                 "Provides [3] [Manpower]",
                 "New [Sword] units start with [5] XP [in this city]",
-		"Provides [1] [Enable Illyrian Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from user>",
+		"Provides [1] [Enable Illyrian Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Illyria]>",
                 "Unbuildable <when below [2] [Illyria Region]> <hidden from users>",
@@ -3339,8 +3339,8 @@
                 "Provides [1] [Veteran]",
                 "New [Sword] units start with [5] XP [in this city]",
                 "New [Spear] units start with [10] XP [in this city]",
-		"Provides [1] [Enable Hellenic Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from user>",
-		"Provides [1] [Enable Hellenic Limitanei] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from user>",
+		"Provides [1] [Enable Hellenic Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
+		"Provides [1] [Enable Hellenic Limitanei] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Macedonia]>",
                 "Unbuildable <when below [2] [Macedonia Region]> <hidden from users>",
@@ -3779,7 +3779,7 @@
 {
         "name": "Libya",
         "uniques": [
-                "Comment [The coastal frontier between Egypt and the western deserts, where settlement is sparse and survival depends on trade routes and coastal nodes rather than dense agriculture.]\n•Aegyptus Region system: Libya, Aegyptus, Nabataea.",
+                "Comment [The coastal frontier between Egypt and the western deserts, where settlement is sparse and survival depends on trade routes and coastal nodes rather than dense agriculture.\n•Aegyptus Region system: Libya, Aegyptus, Nabataea.]",
                 "Provides [1] [Libya Region]",
                 "[+1 Gold] from [Trading post] tiles [in all coastal cities]",
                 "[+1 Gold, +1 Food] from [Trading post] tiles [in this city]",
@@ -3794,7 +3794,7 @@
         "name": "Aegyptus",
         "gold": 1,
         "uniques": [
-                "Comment [The Nile valley, a predictable agricultural engine shaped by seasonal floods, producing surplus grain that sustains entire empires beyond its borders.]\n•Aegyptus Region system: Libya, Aegyptus, Nabataea.",
+                "Comment [The Nile valley, a predictable agricultural engine shaped by seasonal floods, producing surplus grain that sustains entire empires beyond its borders.\n•Aegyptus Region system: Libya, Aegyptus, Nabataea.]",
                 "Provides [1] [Aegyptus Region]",
                 "[+1 Food] from [Farm] tiles [in this city]",
                 "Unsellable <hidden from users>",
@@ -3805,13 +3805,12 @@
 //4
 {
         "name": "Nabataea",
-        "gold": 1,
-        "specialistSlots": {"Merchants": 1},
+        "food": 1,
         "uniques": [
-                "Comment [A desert trade network controlling incense and spice routes between Arabia, Egypt, and the Levant, where wealth is generated by passage rather than production.]\n•Aegyptus Region system: Libya, Aegyptus, Nabataea.",
+                "Comment [A desert trade network controlling incense and spice routes between Arabia, Egypt, and the Levant, where wealth is generated by passage rather than production.\n•Aegyptus Region system: Libya, Aegyptus, Nabataea.]",
                 "Provides [1] [Nabataea Region]",
-                "[+1 Gold] from [Trading post] tiles [in all cities]",
-                "[+1 Gold] from [Desert] tiles [in capital] <when above [2] [Nabataea Region]>",
+                "[+1 Gold, +1 Food] from [Trading post] tiles [in all cities]",
+                "[+1 Gold, +1 Happiness, +1 Food] from [Oasis] tiles [in this city]",
                 "Unsellable <hidden from users>",
                 "Unbuildable <hidden from users>",
                 "Never destroyed when the city is captured <hidden from users>"
@@ -3822,11 +3821,11 @@
         "cost": 100,
         "specialistSlots": {"Merchants": 1},
         "uniques": [
-                "Comment [The Roman province of Egypt, the strategic grain basin of the Mediterranean world, where control of agriculture equals control of stability and power.]\nLost if Libya, Aegyptus, or Nabataea is lost.",
+                "Comment [The Roman province of Egypt, the strategic grain basin of the Mediterranean world, where control of agriculture equals control of stability and power.\nLost if Libya, Aegyptus, or Nabataea is lost.]",
                 "Provides [1] [Incense]",
-                "[+3 Food, +2 Happiness, +1 Science] in [capital]",
+                "[+3 Food, +2 Happiness, +1 Science] [in capital]",
                 "[+1 Gold, +1 Food] from [Trading post] tiles [in capital]",
-		"Provides [1] [Enable Desert Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from user>",
+		"Provides [1] [Enable Desert Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Aegyptus]>",
                 "Remove [Aegyptus Maior] [in this city] <when below [4] [Libya Region]> <upon turn end> <hidden from users>",
@@ -3907,7 +3906,7 @@
         "uniques": [
                 "Comment [The imperial framing of the Mesopotamian plains as a grain and administrative core, where control of irrigation networks effectively meant control of political stability.]",
                 "[+2 Food, +2 Happiness] [in capital]",
-                "Unsellable",
+                "Unsellable <hidden from users>",
                 "Only available <in cities with a [Mesopotamia]>",
                 "Remove [Mesopotamia Maior] [in this city] <when below [3] [Mesopotamia Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [3] [Mesopotamia Region]> <hidden from users>",
@@ -4110,8 +4109,8 @@
 			"Provides [1] [Peloponnese War Macedonian] <for [The Macedonians] Civilizations> <when below [1] [Peloponnese War Macedonian]>",
 			"Provides [1] [Peloponnese War Epirot] <for [The Epirots] Civilizations> <when below [1] [Peloponnese War Epirot]>",
 			"Never destroyed when the city is captured",
-			"Unsellable",
-      			"Unbuildable",
+			"Unsellable <hidden from users>",
+      			"Unbuildable <hidden from users>",
 ]
   	},
 ///Provinces
@@ -4122,8 +4121,8 @@
 		"uniques": [
 			"Provides [4] [Manpower]",
 			"Provides [1] [Veteran]",
-			"Unsellable",
-			"Unbuildable",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Never destroyed when the city is captured"
 		]
 },
@@ -4133,8 +4132,8 @@
 		"uniques": [
 			"Provides [1] [Bronze]",
 			"[+10]% Production when constructing [Spear] units [in this city]",
-			"Unsellable",
-			"Unbuildable",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Never destroyed when the city is captured"
 		]
 },
@@ -4144,8 +4143,8 @@
 		"uniques": [
 			"[+1 Happiness] [in all cities] <in cities with a [Temple]>",
 			"[+2 Culture] [in this city]",
-			"Unsellable",
-			"Unbuildable",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Never destroyed when the city is captured"
 		]
 },
@@ -4155,8 +4154,8 @@
 		"uniques": [
 			"[+15]% Production when constructing [{Military} {Water}] units [in this city]",
 			"[+1 Gold] [in all coastal cities]",
-			"Unsellable",
-			"Unbuildable",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Never destroyed when the city is captured"
 		]
 },
@@ -4166,8 +4165,8 @@
 		"uniques": [
 			"Provides [4] [Manpower]",
 			"[+1 Food] from [Farm] tiles [in this city]",
-			"Unsellable",
-			"Unbuildable",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Never destroyed when the city is captured"
 		]
 },
@@ -4177,8 +4176,8 @@
 		"uniques": [
 			"New [Skirmisher] units start with [10] XP [in this city]",
 			"[+20]% Production when constructing [Skirmisher] units [in this city]",
-			"Unsellable",
-			"Unbuildable",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Never destroyed when the city is captured"
 		]
 },
@@ -4188,8 +4187,8 @@
 		"uniques": [
 			"Provides [1] [Horses]",
 			"[+15]% Production when constructing [Mounted] units [in this city]",
-			"Unsellable",
-			"Unbuildable",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Never destroyed when the city is captured"
 		]
 },
@@ -4199,8 +4198,8 @@
 		"uniques": [
 			"[+3 Gold] [in this city]",
 			"[+1 Production] [in capital]",
-			"Unsellable",
-			"Unbuildable",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Never destroyed when the city is captured"
 		]
 },
@@ -4209,7 +4208,7 @@
 		"uniques": [
 			"Provides [4] [Manpower]",
 			"[+1 Gold] from [Forest] tiles [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4217,7 +4216,7 @@
 		"uniques": [
 			"Provides [1] [Horses]",
 			"New [Mounted] units start with [10] XP [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4225,7 +4224,7 @@
 		"uniques": [
 			"[+2 Gold] from [Coast] tiles [in this city]",
 			"[+10]% Production when constructing [Melee Water] units [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4233,7 +4232,7 @@
 		"uniques": [
 			"Provides [1] [Bronze]",
 			"[+1 Production] from [Mine] tiles [in capital]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4241,7 +4240,7 @@
 		"uniques": [
 			"Provides [1] [Horses]",
 			"New [Skirmisher] units start with [10] XP [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4249,7 +4248,7 @@
 		"uniques": [
 			"[+2 Gold] [in this city]",
 			"[+1 Gold] from [improved] tiles [in all coastal cities]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4257,7 +4256,7 @@
 		"uniques": [
 			"[+1 Gold] from [Farm] tiles [in this city]",
 			"[+1 Food, +1 Happiness] [in capital]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4265,7 +4264,7 @@
 		"uniques": [
 			"[+3 Gold] [in this city]",
 			"[+1 Gold] [in all cities]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4273,7 +4272,7 @@
 		"uniques": [
 			"[+1 Production] [in capital]",
 			"[+10]% Production when constructing [Melee] units [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4281,7 +4280,7 @@
 		"uniques": [
 			"[+2 Culture] [in capital]",
 			"[+1 Gold] from [Fishing Boats] tiles [in all cities]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4289,7 +4288,7 @@
 		"uniques": [
 			"[+1 Food] from [Fish] tiles [in all coastal cities]",
 			"[+10]% Production when constructing [Water] units [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4297,7 +4296,7 @@
 		"uniques": [
 			"[+1 Gold] from [Coast] tiles [in this city]",
 			"[+1 Happiness] [in all coastal cities]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4305,7 +4304,7 @@
 		"uniques": [
 			"Provides [1] [Bronze]",
 			"[+1 Production, +1 Happiness] from [Mine] tiles [in this city]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 {
@@ -4313,7 +4312,7 @@
 		"uniques": [
 			"[+1 Food] from [Fish] tiles [in all cities]",
 			"[+1 Gold] from [Plantation] tiles [in all cities]",
-			"Unsellable","Unbuildable","Never destroyed when the city is captured"
+			"Unsellable <hidden from users>","Unbuildable <hidden from users>","Never destroyed when the city is captured"
 		]
 },
 
@@ -4323,13 +4322,11 @@
 ///Global
 	{
     		"name": "3rd Century Crisis",
-    		"cost": 0,
-    		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Moves to new capital when capital changes",
-			"Unsellable",
-      			"Unbuildable",
+			"Unsellable <hidden from users>",
+      			"Unbuildable <hidden from users>",
 ]
   	},
 
@@ -4337,8 +4334,6 @@
 
   	{
     		"name": "Empire Divide",
-    		"cost": 0,
-    		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
       			"Comment [When three emperors claim to be the only emperor, borders stop mattering. Command collapses, governors hoard troops, and every province remembers it once had ‘local traditions’ worth killing for. The empire didn’t split — it simply stopped pretending it was united.]",
@@ -4347,14 +4342,12 @@
       			"[+150]% maintenance costs <for [Siege] units> <when fighting in [Enemy Land] tiles>",
 			"Remove [Empire Divide] [in all cities] <when not at war>",
 			"Moves to new capital when capital changes",
-      			"Unbuildable",
-			"Unsellable",
+      			"Unbuildable <hidden from users>",
+			"Unsellable <hidden from users>",
    ]
   	},
   	{
     		"name": "Age Of Many Emperors",
-    		"cost": 0,
-    		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
           		"[-10]% Strength <for [Military] units> <vs cities>",
@@ -4364,10 +4357,9 @@
       			"[Gold] cost of purchasing [Military] units [+20]% <when at war>",
       			"[Gold] cost of purchasing [Military] units [+20]%",
       			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
-      			"[-1 Happiness] [in all cities] <when above [3] [Nobles]>",
 			"Moves to new capital when capital changes",
-			"Unsellable",
-      			"Unbuildable",
+			"Unsellable <hidden from users>",
+      			"Unbuildable <hidden from users>",
     ]
   	},
 	{
@@ -4377,21 +4369,18 @@
         		"Cannot be purchased",
         		"Remove [Age Of Many Emperors] [in all cities]",
 			"Unbuildable <if [Age Of Many Emperors] is not constructed>",
-			"Unbuildable <if [Italia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Sicilia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Dalmatia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Achaea] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Macedonia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Thracia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Italia (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Sicilia Magna] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Illyricum (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Macedonia et Hellas (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Thracia Maior (3rd)] is not constructed> <in [in your cities] cities>",
          		"Only available <in cities with a [Make Capital]>",
 			"Moves to new capital when capital changes",
-			"Unsellable",
+			"Unsellable <hidden from users>",
     ]
 },
 	{
     		"name": "Silver Inflation",
-    		"cost": 0,
-    		"maintenance": 0,
 		"specialistSlots": {"Merchants": 1},
     		"uniques": [
       			"[-2 Gold] from [improved] tiles [in all cities]",
@@ -4400,7 +4389,7 @@
       			"[-10 Gold, -1 Happiness] from [Trading post] tiles [in all cities]",
 			"[-5 Gold, -1 Happiness] [in this city] <in cities with a [Market]>",
 			"Moves to new capital when capital changes",
-			"Unbuildable","Unsellable",
+			"Unbuildable <hidden from users>","Unsellable <hidden from users>",
 ]
   	},
 	{
@@ -4409,15 +4398,13 @@
     		"uniques": [
         		"Cannot be purchased",
         		"Remove [Silver Inflation] [in all cities]",
-			"Unsellable",
+			"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes",
       			"Unbuildable <if [Silver Inflation] is not constructed>",
     ]
 	},
  	{
     		"name": "Praetorian Greed",
-    		"cost": 0,
-    		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
       			"Comment [Because nothing stabilizes an empire like an elite bodyguard selling the throne to the highest bidder. The Praetorians spent the 3rd century auctioning emperors, murdering the ones who refused payment, and generally turning Rome’s political system into a marketplace of corpses. And disbanding them? Rome tried that too—removing entitled kingmakers tends to upset them. Expect the people to panic and your armies to sulk. -50 Happiness. This problem can only be solve when in time of peace.']",
@@ -4428,8 +4415,8 @@
       			"[-10 Gold, -2 Production, -10 Happiness] [in capital]",
           		"[-10]% Strength <for [Military] units> <vs cities>",
 			"Moves to new capital when capital changes",
-      			"Unbuildable",
-			"Unsellable",
+      			"Unbuildable <hidden from users>",
+			"Unsellable <hidden from users>",
     ]
   	},
 	{
@@ -4442,36 +4429,19 @@
 			"Only available <in cities with a [Praetorian Greed]> <when not at war>",
       			"Unbuildable <if [Praetorian Greed] is not constructed>",
         		"Cannot be purchased",
-			"Unsellable",
+			"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes",
     ]
 	},
   	{
     		"name": "Egypt Grain Crisis",
-    		"cost": 0,
-    		"maintenance": 0,
 		"specialistSlots": {"Priest": 1},
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]",
       			"[-1 Food, -1 Happiness] [in all cities]",
 			"[+1 Gold] [in all cities] <in cities with a [Granary]>",
-      			"Unbuildable",
-			"Unsellable",
-			"Moves to new capital when capital changes",
-    ]
-  	},
-  	{
-    		"name": "Egypt Grain",
-    		"cost": 150,
-    		"maintenance": 0,
-		"specialistSlots": {"Merchants": 1},
-    		"uniques": [
-        		"Comment [Rome starved because Egypt sneezed.]",
-        		"Remove [Egypt Grain Crisis] [in all cities]",
-      			"[+1 Food, +1 Happiness] [in all cities]",
-      			"Unbuildable <if [Egypt Grain Crisis] is not constructed>",
-      			"Unbuildable <if [Aegyptus] is not constructed>",
-			"Unsellable",
+      			"Unbuildable <hidden from users>",
+			"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes",
     ]
   	},
@@ -4480,19 +4450,17 @@
 
 	{
    		"name": "Palmyrene Ascendancy",
-    		"cost": 0,
-    		"maintenance": 0,
     		"uniques": [
         		"Comment [A desert caravan city crowned itself heir to the East. Trade financed armies, armies financed ambition, and ambition outran logistics.]",
-        		"[+5]% [Gold] [in all cities] <in cities with a [Market]>",
-        		"[-2 Happiness] [in all cities] <in cities with a [Barracks]>",
         		"[+10]% Strength <for [Mounted] units> <when fighting in [Desert] tiles>",
-        		"[-3 Happiness, +3 Gold] [in all cities]",
-        		"Gain a free [Imperial Overstretch] [in capital] <when at war>",
-        		"Remove [Imperial Overstretch] [in capital] <when not at war>",
+        		"[-2 Happiness] [in all cities] <in cities with a [Barracks]>",
+        		"[-2 Happiness, +2 Gold] [in all cities]",
+			"[Gold] cost of purchasing [Military] units [+20]%",
+        		"Gain a free [Imperial Overstretch] [in capital] <if [Palmyrene Empire] is not constructed> <in [in your cities] cities> <when at war>",
+        		"Remove [Imperial Overstretch] [in capital] <if [Palmyrene Empire] is not constructed> <in [in your cities] cities> <when not at war>",
 			"Moves to new capital when capital changes",
-        		"Unbuildable",
-        		"Unsellable"
+        		"Unbuildable <hidden from users>",
+        		"Unsellable <hidden from users>"
    ]
 	},
 	{
@@ -4500,13 +4468,13 @@
     		"cost": 600,
     		"uniques": [
         		"Cannot be purchased",
-        		"Unsellable",
+        		"Unsellable <hidden from users>",
 			"Unbuildable <if [Imperial Overstretch] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Palaestina] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Aegyptus] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Anatolia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Armenia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Thracia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Coele Syria (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Aegyptus Maior (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Anatolia (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Armenia et Caucasus (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Thracia Maior (3rd)] is not constructed> <in [in your cities] cities>",
 			"Only available <in cities with a [Make Capital]>",
 			"Moves to new capital when capital changes",
 			"Remove [Palmyrene Ascendancy] [in all cities]",
@@ -4514,49 +4482,46 @@
 	},
 	{
     		"name": "Imperial Overstretch",
-    		"cost": 0,
-    		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [From caravan city to imperial court in a decade. Administration lagged behind conquest. Governors improvised. Taxes vanished somewhere between Syria and Egypt.]",
-        		"[+50]% maintenance costs <for [Military] units>",
-      			"[+100]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+        		"[+100]% maintenance costs <for [Military] units>",
+      			"[+200]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
+			"[Gold] cost of purchasing [Military] units [+20]%",
 			"[+10]% unhappiness from the number of cities",
       			"[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
-      			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
 			"Moves to new capital when capital changes",
-        		"Unbuildable",
-        		"Unsellable"
+        		"Unbuildable <hidden from users>",
+        		"Unsellable <hidden from users>"
  ]
 	},
 	{
     		"name": "Roman Retribution",
-    		"cost": 0,
-    		"maintenance": 0,
     		"uniques": [
         		"Comment [Rome tolerated rebellion until it did not. When the legions returned, they did not negotiate.]",
-        		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
-        		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
-			"[-20]% Production when constructing [Military] units [in all cities]",
-        		"[-3 Happiness] [in all cities]",
-			"[-3 Gold, -2 Happiness] [in all cities] <in cities with a [Market]>",
+        		"[-10]% Strength <when defending> <for [Infantry Shield II] units> <vs [The Romans] units>",
+        		"[-10]% Strength <when defending> <for [Infantry Shield III] units> <vs [The Romans] units>",
+			"[-30]% Production when constructing [Military] units [in all cities]",
+			"[Gold] cost of purchasing [Military] units [+20]%",
+        		"[-2 Happiness] [in all cities]",
+			"[-5 Gold, -2 Happiness] [in all cities] <in cities with a [Market]>",
 			"[+2 Gold, -1 Happiness, -1 Food] [in all cities] <in cities with a [Walls]>",
 			"Moves to new capital when capital changes",
-        		"Unbuildable",
-        		"Unsellable"
+        		"Unbuildable <hidden from users>",
+        		"Unsellable <hidden from users>"
    ]
 	},
 	{
     		"name": "Zenobian Reform",
-    		"cost": 1500,
+    		"cost": 800,
     		"uniques": [
         		"Comment [Administration caught up to ambition. For a moment, Palmyra looked like a real empire.]",
         		"Cannot be purchased",
-        		"Unsellable",
+        		"Unsellable <hidden from users>",
         		"Unbuildable <if [Roman Retribution] is not constructed>",
-			"Unbuildable <if [Palaestina] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Aegyptus] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Anatolia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Coele Syria (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Aegyptus Maior (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Anatolia (3rd)] is not constructed> <in [in your cities] cities>",
 			"Remove [Roman Retribution] [in all cities]",
 			"Moves to new capital when capital changes",
     ]
@@ -4565,8 +4530,6 @@
 					///Gallic
 	{
     		"name": "Gallic Secession",
-    		"cost": 0,
-    		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [The Rhine legions chose stability over loyalty. Rome was too busy collapsing. Gaul chose its own emperor.]",
@@ -4576,10 +4539,9 @@
         		"[-10]% Strength <for [Infantry Shield II] units> <vs [The Romans] units>",
         		"[-10]% Strength <for [Infantry Shield III] units> <vs [The Romans] units>",
 			"[-5 Gold, -2 Happiness] [in all cities] <in cities with a [Market]>",
-        		"[-1 Happiness] [in all cities]",
 			"[+10]% unhappiness from the number of cities",
-        		"Unbuildable",
-        		"Unsellable",
+        		"Unbuildable <hidden from users>",
+        		"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes",
     ]
 	},
@@ -4588,22 +4550,19 @@
     		"cost": 700,
     		"uniques": [
         		"Cannot be purchased",
-        		"Unsellable",
+        		"Unsellable <hidden from users>",
 			"Unbuildable <if [Gallic Secession] is not constructed>",
-			"Unbuildable <if [Lusitania] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Hispania] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Gallia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Italia] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Africa] is not constructed> <in [in your cities] cities>",
-			"Unbuildable <if [Dalmatia] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Hispania (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Gallia (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Italia (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Africa Pacata (3rd)] is not constructed> <in [in your cities] cities>",
+			"Unbuildable <if [Illyricum (3rd)] is not constructed> <in [in your cities] cities>",
 			"Moves to new capital when capital changes",
 			"Remove [Gallic Secession] [in all cities]",
     ]
 	},
 	{
     		"name": "Frontier Exhaustion",
-    		"cost": 0,
-    		"maintenance": 0,
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [The Rhine never sleeps. Raids blur into seasons. Fortifications eat coin. Veterans age. Replacements thin.]",
@@ -4614,22 +4573,270 @@
 			"Consumes [30] [Manpower]",
       			"[-1 Happiness] [in all cities] <when above [1] [Nobles]>",
       			"[-1 Happiness] [in all cities] <when above [2] [Nobles]>",
-        		"Unbuildable",
-        		"Unsellable",
+        		"Unbuildable <hidden from users>",
+        		"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes",
     ]
 	},
 	{
     		"name": "Administrative Consolidation",
-    		"cost": 1500,
+    		"cost": 800,
     		"uniques": [
         		"Comment [Gaul stopped pretending to be temporary and started governing like a state.]",
         		"Cannot be purchased",
-        		"Unsellable"
-        		"Unbuildable <if [Frontier Exhaustion] is not constructed> <if [Gallia] is not constructed> <if [Hispania] is not constructed> <if [Lusitania] is not constructed>"
+        		"Unsellable <hidden from users>"
+        		"Unbuildable <if [Frontier Exhaustion] is not constructed>",
+			"Unbuildable <if [Gallia (3rd)] is not constructed>",
+			"Unbuildable <if [Hispania (3rd)] is not constructed>",
 			"Remove [Frontier Exhaustion] [in all cities]",
 			"Moves to new capital when capital changes",
     ]
+},
+////3rd Provinces
+///3rd Century Crisis Provinces
+
+
+	{
+    		"name": "Italia (3rd)",
+    		"cost": 100,
+		"specialistSlots": {"Engineer": 1},
+    		"uniques": [
+    			"[+10]% Production when constructing [all] units [in this city]",
+    			"[+5]% Production when constructing [all] buildings [in this city]",
+			"Only available <in cities with a [Latinum]>",
+			"Remove [Italia] [in this city] <when below [4] [Latinum Region]> <upon turn end> <hidden from users>",
+			"Remove [Italia] [in this city] <when below [3] [Cisalpina Region]> <upon turn end> <hidden from users>",
+			"Remove [Italia] [in this city] <when below [2] [Alpes Region]> <upon turn end> <hidden from users>",
+			"Unbuildable <when below [4] [Latinum Region]> <hidden from users>",
+			"Unbuildable <when below [3] [Cisalpina Region]> <hidden from users>",
+			"Unbuildable <when below [2] [Alpes Region]> <hidden from users>",
+			"Unsellable <hidden from users>",	
+		]
+  	},
+{
+        "name": "Hispania (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "[+1 Gold] from [Silver] tiles [in all cities]",
+                "[+1 Gold] from [Gold Ore] tiles [in all cities]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Cartaginensis]>",
+                "Unbuildable <when below [4] [Cartaginensis Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Tarraconensis Region]> <hidden from users>",
+                "Unbuildable <when below [1] [Lusitania Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Baetica Region]> <hidden from users>",
+                "Remove [Hispania] [in this city] <when below [4] [Cartaginensis Region]> <upon turn end> <hidden from users>",
+                "Remove [Hispania] [in this city] <when below [3] [Tarraconensis Region]> <upon turn end> <hidden from users>",
+                "Remove [Hispania] [in this city] <when below [1] [Lusitania Region]> <upon turn end> <hidden from users>",
+                "Remove [Hispania] [in this city] <when below [2] [Baetica Region]> <upon turn end> <hidden from users>"
+        ]
+},
+
+{
+        "name": "Gallia (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Provides [1] [Veteran]",
+                "Provides [4] [Manpower]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Aquitania]>",
+                "Unbuildable <when below [2] [Provincia Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Aquitania Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Celtica Region]> <hidden from users>",
+                "Unbuildable <when below [1] [Belgica Region]> <hidden from users>",
+                "Remove [Gallia] [in this city] <when below [2] [Provincia Region]> <upon turn end> <hidden from users>",
+                "Remove [Gallia] [in this city] <when below [3] [Aquitania Region]> <upon turn end> <hidden from users>",
+                "Remove [Gallia] [in this city] <when below [3] [Celtica Region]> <upon turn end> <hidden from users>",
+                "Remove [Gallia] [in this city] <when below [1] [Belgica Region]> <upon turn end> <hidden from users>"
+        ]
+},
+{
+        "name": "Germania (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Engineer": 1},
+        "uniques": [
+                "Provides [1] [Amber]",
+                "Provides [2] [Timber]",
+		"Provides [1] [Enable Gallic Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
+		"Provides [1] [Enable Gallic Limitanei] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Hercynia]>",
+                "Unbuildable <when below [4] [Hercynia Region]> <hidden from users>",
+                "Remove [Germania] [in this city] <when below [4] [Hercynia Region]> <upon turn end> <hidden from users>",
+        ]
+},
+{
+        "name": "Illyricum (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Provides [3] [Manpower]",
+                "New [Sword] units start with [5] XP [in this city]",
+                "Only available <in cities with a [Illyria]>",
+		"Provides [1] [Enable Illyrian Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
+                "Unbuildable <when below [2] [Illyria Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Pannonia Region]> <hidden from users>",
+                "Remove [Illyricum] [in this city] <when below [2] [Illyria Region]> <upon turn end> <hidden from users>",
+                "Remove [Illyricum] [in this city] <when below [2] [Pannonia Region]> <upon turn end> <hidden from users>",
+                "Unsellable <hidden from users>",
+        ]
+},
+{
+        "name": "Thracia Maior (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "[+1 Gold] from [Hill] tiles [in this city]",
+                "Provides [1] [Horses]",
+                "Provides [3] [Manpower]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Thracia]>",
+                "Unbuildable <when below [2] [Thracia Region]> <hidden from users>",
+                "Remove [Thracia Maior] [in this city] <when below [2] [Thracia Region]> <upon turn end> <hidden from users>"
+        ]
+},
+{
+        "name": "Macedonia et Hellas (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Provides [1] [Veteran]",
+                "New [Sword] units start with [5] XP [in this city]",
+                "New [Spear] units start with [10] XP [in this city]",
+                "Only available <in cities with a [Macedonia]>",
+		"Provides [1] [Enable Hellenic Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
+		"Provides [1] [Enable Hellenic Limitanei] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
+                "Unbuildable <when below [2] [Macedonia Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Hellas Region]> <hidden from users>",
+                "Remove [Macedonia et Hellas] [in this city] <when below [2] [Macedonia Region]> <upon turn end> <hidden from users>",
+                "Remove [Macedonia et Hellas] [in this city] <when below [3] [Hellas Region]> <upon turn end> <hidden from users>",
+                "Unsellable <hidden from users>",
+        ]
+},
+{
+        "name": "Pontus Euxinus (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "New [Mounted Archery] units start with [10] XP [in this city]",
+                "[+1 Happiness, +1 Food] from [Pasture] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Bosporus]>",
+                "Unbuildable <when below [3] [Sarmatia Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Bosporus Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Scythia Region]> <hidden from users>",
+                "Remove [Pontus Euxinus] [in this city] <when below [4] [Sarmatia Region]> <upon turn end> <hidden from users>",
+                "Remove [Pontus Euxinus] [in this city] <when below [3] [Bosporus Region]> <upon turn end> <hidden from users>"
+                "Remove [Pontus Euxinus] [in this city] <when below [3] [Scythia Region]> <upon turn end> <hidden from users>"
+        ]
+},
+{
+        "name": "Armenia et Caucasus (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Provides [1] [Iron]",
+                "[+1 Culture] from [Hill] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Armenia]>",
+                "Remove [Armenia et Caucasus] [in this city] <when below [3] [Caucasia Region]> <upon turn end> <hidden from users>",
+                "Remove [Armenia et Caucasus] [in this city] <when below [2] [Armenia Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [1] [Caucasia Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Armenia Region]> <hidden from users>"
+        ]
+},
+{
+        "name": "Anatolia (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "[+2 Gold, +2 Happiness] from [Trading post] tiles [in capital]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Galatia et Cappadocia]>",
+                "Unbuildable <when below [2] [Asia Region]> <hidden from users>",
+                "Unbuildable <when below [4] [Galatia et Cappadocia Region]> <hidden from users>",
+                "Unbuildable <when below [3] [Bithynia et Pontus Region]> <hidden from users>",
+                "Remove [Anatolia] [in this city] <when below [2] [Asia Region]> <upon turn end> <hidden from users>",
+                "Remove [Anatolia] [in this city] <when below [4] [Galatia et Cappadocia Region]> <upon turn end> <hidden from users>",
+                "Remove [Anatolia] [in this city] <when below [3] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>"
+        ]
+},
+///Coele Syria (3rd)
+{
+        "name": "Palmyra",
+	"food": 1,
+        "uniques": [
+                "Provides [1] [Palmyra Region]",
+                "[+1 Food] from [Trading post] tiles [in this city]",
+                "[+1 Gold, +1 Happiness] from [Trading post] tiles [in capital]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Judea",
+	"faith": 1,
+        "uniques": [
+                "Provides [1] [Judea Region]",
+                "[+1 Happiness, +1 Culture, +1 Food] from [Pasture] tiles [in this city]",
+                "Unsellable <hidden from users>",
+                "Unbuildable <hidden from users>",
+                "Never destroyed when the city is captured <hidden from users>"
+        ]
+},
+{
+        "name": "Coele Syria (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "[+2 Gold, +2 Happiness] from [Trading post] tiles [in all cities]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Syria]>",
+                "Remove [Syria Maior] [in this city] <when below [2] [Syria Region]> <upon turn end> <hidden from users>",
+                "Remove [Syria Maior] [in this city] <when below [2] [Palmyra Region]> <upon turn end> <hidden from users>",
+                "Remove [Syria Maior] [in this city] <when below [3] [Judea Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [3] [Syria Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Palmyra Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Judea Region]> <hidden from users>"
+        ]
+},
+{
+        "name": "Aegyptus Maior (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Merchants": 1},
+        "uniques": [
+                "Comment [The Roman province of Egypt, the strategic grain basin of the Mediterranean world, where control of agriculture equals control of stability and power.\nLost if Libya, Aegyptus, or Nabataea is lost.]",
+                "Provides [1] [Incense]",
+                "[+3 Food, +2 Happiness, +1 Science] [in capital]",
+                "[+1 Gold, +1 Food] from [Trading post] tiles [in capital]",
+		"Provides [1] [Enable Desert Legion] <after adopting [Latin Culture]> <during the [Imperial Age]> <hidden from users>",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Aegyptus]>",
+                "Remove [Aegyptus Maior] [in this city] <when below [3] [Libya Region]> <upon turn end> <hidden from users>",
+                "Remove [Aegyptus Maior] [in this city] <when below [2] [Aegyptus Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [3] [Libya Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Aegyptus Region]> <hidden from users>",
+        ]
+},
+{
+        "name": "Africa Pacata (3rd)",
+        "cost": 100,
+        "specialistSlots": {"Artist": 1},
+        "uniques": [
+                "Provides [2] [Horses]",
+                "[+3 Food, +2 Happiness] [in capital]",
+                "Unsellable <hidden from users>",
+                "Only available <in cities with a [Africa]>",
+                "Remove [Africa Pacata] [in this city] <when below [6] [Mauretania Region]> <upon turn end> <hidden from users>",
+                "Remove [Africa Pacata] [in this city] <when below [4] [Africa Region]> <upon turn end> <hidden from users>",
+                "Remove [Africa Pacata] [in this city] <when below [1] [Phazania Region]> <upon turn end> <hidden from users>",
+                "Unbuildable <when below [6] [Mauretania Region]> <hidden from users>",
+                "Unbuildable <when below [4] [Africa Region]> <hidden from users>",
+                "Unbuildable <when below [1] [Phazania Region]> <hidden from users>"
+        ]
 },
 
 					///GRAND CAMPAIGN
@@ -4639,8 +4846,8 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
 			"Moves to new capital when capital changes",
-			"Unsellable",
-      			"Unbuildable",
+			"Unsellable <hidden from users>",
+      			"Unbuildable <hidden from users>",
     ]
   	},
 

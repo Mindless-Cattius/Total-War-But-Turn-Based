@@ -1386,6 +1386,7 @@
 				"Stockpiled"]
     },
 
+
 				///Provinces
 
     //Albion
@@ -2055,7 +2056,7 @@
 		"name": "Praetorian Greed",
 		"resourceType": "Bonus",
 		"uniques": [
-			"[-50 Happiness] [in capital] <when above [0] [Praetorian Greed]>",
+			"[-30 Happiness] [in capital] <when above [0] [Praetorian Greed]>",
 			"Cannot be traded",
 			]
     },
@@ -2063,153 +2064,158 @@
     		"name": "Roman 3rd Century Crisis",
 		"resourceType": "Bonus",
     		"uniques": [
-    			"Triggers victory <if [Lusitania] is constructed> <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Sicilia] is constructed> <if [Africa] is constructed> <if [Dalmatia] is constructed> <if [Achaea] is constructed> <if [Macedonia] is constructed> <if [Thracia] is constructed> <if [Dacia] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Roman Centralize Power] is constructed>",
+    			"Triggers victory <if [Lusitania] is constructed> <if [Hispania (3rd)] is constructed> <if [Gallia (3rd)] is constructed> <if [Italia (3rd)] is constructed> <if [Sicilia Magna] is constructed> <if [Africa Pacata (3rd)] is constructed> <if [Illyricum (3rd)] is constructed> <if [Macedonia et Hellas (3rd)] is constructed> <if [Thracia Maior (3rd)] is constructed> <if [Dacia Maior] is constructed> <if [Anatolia (3rd)] is constructed> <if [Aegyptus Maior (3rd)] is constructed> <if [Coele Syria (3rd)] is constructed> <if [Roman Centralize Power] is constructed>",
 
-			"Gain a free [Empire Divide] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
-			"Gain a free [Age Of Many Emperors] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
-			"Gain a free [Praetorian Greed] [in capital] <if [Praetorian Purge] is not constructed by anybody>",
-			"Gain a free [Silver Inflation] [in capital] <if [Currency Reform] is not constructed by anybody>",
-			"Gain a free [Egypt Grain Crisis] [in capital] <if [Egypt Grain] is not constructed> <if [Italia] is not constructed>",
-        		"Free [Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance> <for [Human player] Civilizations>",
-        		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance> <for [Human player] Civilizations>",
-        		"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance> <if [Dalmatia] is constructed> <for [Human player] Civilizations>",
-        		"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance> <if [Achaea] is constructed> <for [Human player] Civilizations>",
-        		"Free [Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [3]% chance> <for [AI player] Civilizations> <hidden from users>",
-        		"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <for [AI player] Civilizations> <hidden from users>",
-        		"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <if [Dalmatia] is constructed> <for [AI player] Civilizations> <hidden from users>",
-        		"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <if [Achaea] is constructed> <for [AI player] Civilizations> <hidden from users>",
+"Gain a free [Empire Divide] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
+"Gain a free [Age Of Many Emperors] [in capital] <if [Roman Centralize Power] is not constructed by anybody>",
+"Gain a free [Praetorian Greed] [in capital] <if [Praetorian Purge] is not constructed by anybody>",
+"Gain a free [Silver Inflation] [in capital] <if [Currency Reform] is not constructed by anybody>",
+"Gain a free [Egypt Grain Crisis] [in capital] <if [Aegyptus Maior (3rd)] is not constructed> <if [Italia (3rd)] is not constructed>",
+"Free [Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance> <for [Human player] Civilizations>",
+"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance> <for [Human player] Civilizations>",
+"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance> <if [Illyricum (3rd)] is constructed> <for [Human player] Civilizations>",
+"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [1]% chance> <if [Macedonia et Hellas (3rd)] is constructed> <for [Human player] Civilizations>",
+"Free [Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [3]% chance> <for [AI player] Civilizations> <hidden from users>",
+"Free [Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <for [AI player] Civilizations> <hidden from users>",
+"Free [Illyrian Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <if [Illyricum (3rd)] is constructed> <for [AI player] Civilizations> <hidden from users>",
+"Free [Hellenic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [1]% chance> <if [Macedonia et Hellas (3rd)] is constructed> <for [AI player] Civilizations> <hidden from users>",
+]
+},
+{
+    	"name": "Palmyrence 3rd Century Crisis",
+	"resourceType": "Bonus",
+	"uniques": [
+    		"Triggers victory <if [Hispania (3rd)] is constructed> <if [Gallia (3rd)] is constructed> <if [Italia (3rd)] is constructed> <if [Sicilia Magna] is constructed> <if [Africa Pacata (3rd)] is constructed> <if [Illyricum (3rd)] is constructed> <if [Macedonia et Hellas (3rd)] is constructed> <if [Thracia Maior (3rd)] is constructed> <if [Dacia Maior] is constructed> <if [Armenia et Caucasus (3rd)] is constructed> <if [Anatolia (3rd)] is constructed> <if [Aegyptus Maior (3rd)] is constructed> <if [Coele Syria (3rd)] is constructed> <if [Palmyrene Empire] is constructed>",
+    		"Gain a free [Palmyrene Ascendancy] [in capital] <if [Palmyrene Empire] is not constructed by anybody>",
+    		"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
+    		"Free [Cavalry] appears <upon turn end> <when above [4] [Horses]> <when above [30] [Manpower]> <with [3]% chance> <for [Human player] Civilizations>",
+    		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance> <for [Human player] Civilizations>",
+    		"Free [Cavalry] appears <upon turn end> <when above [3] [Horses]> <when above [30] [Manpower]> <with [3]% chance> <for [AI player] Civilizations> <hidden from users>",
+    		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [2]% chance> <for [AI player] Civilizations> <hidden from users>",
+    		"Provides [1] [Enable Hellenic Limitanei] <if [Macedonia et Hellas (3rd)] is constructed>",
+    		"Provides [1] [Enable Hellenic Legion] <if [Macedonia et Hellas (3rd)] is constructed>",
+    		"Provides [1] [Enable Illyrian Legion] <if [Illyricum (3rd)] is constructed>",
+    		"Provides [1] [Enable Gallic Legion] <if [Gallia (3rd)] is constructed>",
+    		"Provides [1] [Enable Gallic Limitanei] <if [Gallia (3rd)] is constructed>",
+    		"Provides [1] [Enable Legion] <if [Italia (3rd)] is constructed>",
+    		"Provides [1] [Enable Desert Legion]",
+			 
+]
+},
+{
+    	"name": "Gallic 3rd Century Crisis",
+	"resourceType": "Bonus",
+    	"uniques": [
+    		"Triggers victory <if [Hispania (3rd)] is constructed> <if [Gallia (3rd)] is constructed> <if [Italia (3rd)] is constructed> <if [Sicilia Magna] is constructed> <if [Africa Pacata (3rd)] is constructed> <if [Illyricum (3rd)] is constructed> <if [Macedonia et Hellas (3rd)] is constructed> <if [Thracia Maior (3rd)] is constructed> <if [Germania (3rd)] is constructed> <if [Anatolia (3rd)] is constructed> <if [Aegyptus Maior (3rd)] is constructed> <if [Coele Syria (3rd)] is constructed> <if [Gallic Empire] is constructed>",
 
+		"Gain a free [Gallic Secession] [in capital] <if [Gallic Empire] is not constructed by anybody>",
+		"Gain a free [Frontier Exhaustion] [in capital] <if [Administrative Consolidation] is not constructed by anybody>",
+		"Free [Gallic Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance> <for [Human player] Civilizations>",
+		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance> <for [Human player] Civilizations>",
+		"Free [Gallic Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [3]% chance> <for [AI player] Civilizations> <hidden from users>",
+		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [2]% chance> <for [AI player] Civilizations> <hidden from users>",
+		"Provides [1] [Enable Gallic Legion]",
+		"Provides [1] [Enable Gallic Limitanei]",
+		"Provides [1] [Enable Hellenic Limitanei] <if [Macedonia et Hellas (3rd)] is constructed>",
+		"Provides [1] [Enable Hellenic Legion] <if [Macedonia et Hellas (3rd)] is constructed>",
+		"Provides [1] [Enable Illyrian Legion] <if [Illyricum (3rd)] is constructed>",
+		"Provides [1] [Enable Legion] <if [Italia (3rd)] is constructed>",
+		"Provides [1] [Enable Desert Legion] <if [Aegyptus Maior (3rd)] is constructed>",
 ]
-  	},
-	{
-    		"name": "Palmyrence 3rd Century Crisis",
-		"resourceType": "Bonus",
-    		"uniques": [
-    			"Triggers victory <if [Lusitania] is constructed><if [Italia] is constructed> <if [Sicilia] is constructed> <if [Africa] is constructed> <if [Dalmatia] is constructed> <if [Achaea] is constructed> <if [Macedonia] is constructed> <if [Thracia] is constructed> <if [Armenia] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Palmyrene Empire] is constructed>",
-			"Gain a free [Palmyrene Ascendancy] [in capital] <if [Palmyrene Empire] is not constructed by anybody>",
-			"Gain a free [Roman Retribution] [in capital] <if [Zenobian Reform] is not constructed by anybody>",
-        		"Free [Cavalry] appears <upon turn end> <when above [4] [Horses]> <when above [30] [Manpower]> <with [3]% chance> <for [Human player] Civilizations>",
-        		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance> <for [Human player] Civilizations>",
-        		"Free [Cavalry] appears <upon turn end> <when above [3] [Horses]> <when above [30] [Manpower]> <with [3]% chance> <for [AI player] Civilizations> <hidden from users>",
-        		"Free [Desert Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [2]% chance> <for [AI player] Civilizations> <hidden from users>",
-			"Provides [1] [Enable Hellenic Limitanei] <if [Achaea] is constructed>",
-			"Provides [1] [Enable Hellenic Legion] <if [Achaea] is constructed>",
-			"Provides [1] [Enable Illyrian Legion] <if [Dalmatia] is constructed>",
-			"Provides [1] [Enable Gallic Legion] <if [Gallia] is constructed>",
-			"Provides [1] [Enable Gallic Limitanei] <if [Gallia] is constructed>",
-			"Provides [1] [Enable Legion] <if [Italia] is constructed>",
-			"Provides [1] [Enable Desert Legion]",
+},
+{
+    	"name": "Germanic 3rd Century Crisis",
+	"resourceType": "Bonus",
+    	"uniques": [
+		"Triggers victory <if [Gallia (3rd)] is constructed> <if [Italia (3rd)] is constructed> <if [Africa Pacata (3rd)] is constructed> <if [Hispania (3rd)] is constructed> <if [Macedonia et Hellas (3rd)] is constructed> <if [Aegyptus Maior (3rd)] is constructed>",
+		"Provides [10] [Manpower] <when below [20] [Cities]>",
+    		"[+30]% Yield from pillaging tiles <when below [20] [Cities]>",
+      		"[-80]% maintenance costs <for [Military] units> <when below [20] [Cities]>",
+        	"[+20]% Strength <for [Melee] units> <when below [20] [Cities]>",
+        	"[+20]% Strength <for [Melee] units> <when below [20] [Cities]>",
+ 		"[+20]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <when below [20] [Cities]>",
+		"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <when below [15] [Cities]>",
+        	"Free [Swordsman] appears <upon turn end> <when above [40] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
+        	"Free [Club Levy] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
+        	"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
+        	"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
+		"Provides [1] [Enable Club Levy]",
 			 
 ]
   	},
 	{
-    		"name": "Gallic 3rd Century Crisis",
-		"resourceType": "Bonus",
-    		"uniques": [
-    			"Triggers victory <if [Lusitania] is constructed> <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Sicilia] is constructed> <if [Africa] is constructed> <if [Dalmatia] is constructed> <if [Achaea] is constructed> <if [Macedonia] is constructed> <if [Thracia] is constructed> <if [Germania] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Palaestina] is constructed> <if [Gallic Empire] is constructed>",
+    	"name": "Goth 3rd Century Crisis",
+	"resourceType": "Bonus",
+    	"uniques": [
+    		"Triggers victory <if [Macedonia et Hellas (3rd)] is constructed> <if [Italia (3rd)] is constructed> <if [Africa Pacata (3rd)] is constructed> <if [Hispania (3rd)] is constructed>",
+   		"Provides [15] [Manpower] <when below [20] [Cities]>",
+    		"[+30]% Yield from pillaging tiles <when below [20] [Cities]>",
+    		"[+10]% Strength <for units with [Infantry Shield II]> <when attacking> <when below [20] [Cities]>",
+    		"[+20]% Strength <for [Melee] units> <when below [20] [Cities]>",
+    		"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <when below [20] [Cities]>",
+    		"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <when below [15] [Cities]>",
+    		"[+20]% Production when constructing [Sword] units [in all cities] <when below [20] [Cities]>",
+    		"Free [Bastarnae Warrior] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
+    		"Free [Bastarnae Warrior] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <for [AI player] Civilizations> <hidden from users>",
+			 
+]
+},
+{
+    	"name": "Hun 3rd Century Crisis",
+	"resourceType": "Bonus",
+    	"uniques": [
+    		"Triggers victory <if [Macedonia et Hellas (3rd)] is constructed> <if [Armenia et Caucasus (3rd)] is constructed> <if [Coele Syria (3rd)] is constructed> <if [Anatolia (3rd)] is constructed> <if [Aegyptus Maior (3rd)] is constructed> <if [Pontus Euxinus (3rd)] is constructed>",
+		"Provides [15] [Manpower] <when below [20] [Cities]>",
+		"Provides [5] [Horses] <when below [20] [Cities]>",
+		"[+50]% Yield from pillaging tiles <when below [20] [Cities]>",
+		"[-80]% maintenance costs <for [Military] units> <when below [20] [Cities]>",
+		"[+20]% Strength <for [Mounted] units> <when below [20] [Cities]>",
+		"[+20]% Strength <for [Mounted Archery] units> <when below [20] [Cities]>",
+		"[+30]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <when below [20] [Cities]>",
+		"[+10]% Strength <for [Spearman] units> <when defending> <when fighting in [Friendly Land] tiles> <when below [20] [Cities]>",
+		"[+10] HP when healing <for [Mounted] units> <when fighting in [Friendly Land] tiles> <when below [15] [Cities]>",
+		"[+2] HP when healing <for [Mounted Archery] units> <when fighting in [Friendly Land] tiles> <when below [20] [Cities]>",
+		"[+20]% Production when constructing [Mounted Archery] units [in all cities] <when below [20] [Cities]>",
+		"[+20]% Production when constructing [Mounted] units [in all cities] <when below [20] [Cities]>",
+		"Free [Horse Archer] appears <upon turn end> <when above [30] [Manpower]> <when above [4] [Horses]> <with [2]% chance> <for [Human player] Civilizations>",
+		"Free [Horse Archer] appears <upon turn end> <when above [30] [Manpower]> <when above [4] [Horses]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
+			 
+]
+  	},
+	{
+    	"name": "Armenia 3rd Century Crisis",
+	"resourceType": "Bonus",
+    	"uniques": [
+    		"Triggers victory <if [Armenia et Caucasus (3rd)] is constructed> <if [Coele Syria (3rd)] is constructed> <if [Anatolia (3rd)] is constructed> <if [Pontus Euxinus (3rd)] is constructed> <if [Aegyptus Maior (3rd)] is constructed>",
+		"Provides [20] [Manpower] <when below [20] [Cities]>",
+		"[+1 Happiness, +5 Gold] [in all cities] <when below [20] [Cities]>",
+		"[-80]% maintenance costs <for [Military] units> <when below [20] [Cities]>",
+		"[+10]% Strength <for [Mounted] units> <when attacking> <when below [20] [Cities]>",
+		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <when below [20] [Cities]>",
+		"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <when below [20] [Cities]>",
+		"[+10] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <when below [15] [Cities]>",
+		"[+25]% Production when constructing [Mounted] units [in this city] <when below [20] [Cities]>",
+		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
+		"Free [Cavalry] appears <upon turn end> <when above [30] [Manpower]> <when above [4] [Horses]> <with [2]% chance> <for [Human player] Civilizations>",
+		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <for [AI player] Civilizations> <hidden from users>",
+		"Free [Cavalry] appears <upon turn end> <when above [30] [Manpower]> <when above [2] [Horses]> <with [4]% chance> <for [AI player] Civilizations> <hidden from users>",
+			 
+]
+  	},
+				///3rd century Provinces
+///Coele Syria (3rd)
+            {
+            "name": "Judea Region",
+            "resourceType": "Bonus",
+            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+            }
+            {
+            "name": "Palmyra Region",
+            "resourceType": "Bonus",
+            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+            }
 
-			"Gain a free [Gallic Secession] [in capital] <if [Gallic Empire] is not constructed by anybody>",
-			"Gain a free [Frontier Exhaustion] [in capital] <if [Administrative Consolidation] is not constructed by anybody>",
-        		"Free [Gallic Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance> <for [Human player] Civilizations>",
-        		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [4] [Iron]> <with [2]% chance> <for [Human player] Civilizations>",
-        		"Free [Gallic Limitanei] appears <upon turn end> <when above [30] [Manpower]> <with [3]% chance> <for [AI player] Civilizations> <hidden from users>",
-        		"Free [Gallic Legion] appears <upon turn end> <when above [50] [Manpower]> <when above [2] [Iron]> <with [2]% chance> <for [AI player] Civilizations> <hidden from users>",
-			"Provides [1] [Enable Gallic Legion]",
-			"Provides [1] [Enable Gallic Limitanei]",
-			"Provides [1] [Enable Hellenic Limitanei] <if [Achaea] is constructed>",
-			"Provides [1] [Enable Hellenic Legion] <if [Achaea] is constructed>",
-			"Provides [1] [Enable Illyrian Legion] <if [Dalmatia] is constructed>",
-			"Provides [1] [Enable Legion] <if [Italia] is constructed>",
-			"Provides [1] [Enable Desert Legion] <if [Aegyptus] is constructed>",
-			 
-]
-  	},
-	{
-    		"name": "Germanic 3rd Century Crisis",
-		"resourceType": "Bonus",
-    		"uniques": [
-    			"Triggers victory <if [Gallia] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed> <if [Achaea] is constructed> <if [Aegyptus] is constructed>",
-			"Provides [15] [Manpower] <if [Italia] is not constructed>",
-    			"[+30]% Yield from pillaging tiles <if [Italia] is not constructed>",
-      			"[-80]% maintenance costs <for [Military] units> <if [Hispania] is not constructed>",
-        		"[+20]% Strength <for [Melee] units> <vs [The Romans] units> <if [Roman Centralize Power] is not constructed by anybody>",
-        		"[+20]% Strength <for [Melee] units> <vs [The Arverni] units> <if [Gallic Empire] is not constructed by anybody>",
- 			"[+20]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Dalmatia] is not constructed>",
-			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Gallia] is not constructed>",
-        		"Free [Swordsman] appears <upon turn end> <when above [40] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
-        		"Free [Club Levy] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
-        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
-        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
-			"Provides [1] [Enable Club Levy]",
-			 
-]
-  	},
-	{
-    		"name": "Goth 3rd Century Crisis",
-		"resourceType": "Bonus",
-    		"uniques": [
-    			"Triggers victory <if [Achaea] is constructed> <if [Italia] is constructed> <if [Africa] is constructed> <if [Hispania] is constructed>",
-			"Provides [15] [Manpower] <if [Italia] is not constructed>",
-    			"[+30]% Yield from pillaging tiles <if [Thracia] is not constructed>",
-        		"[+10]% Strength <for units with [Infantry Shield II]> <when attacking> <vs [The Romans] units> <if [Italia] is not constructed>",
-        		"[+20]% Strength <for [Melee] units> <vs [The Romans] units> <if [Roman Centralize Power] is not constructed by anybody>",
-        		"[+20]% Strength <for [Melee] units> <vs [The Arverni] units> <if [Gallic Empire] is not constructed by anybody>",
- 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Achaea] is not constructed>",
- 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Italia] is not constructed>",
-			"[+5] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Achaea] is not constructed>",
-			"[+20]% Production when constructing [Sword] units [in all cities] <if [Achaea] is not constructed>",
-			"[+20]% Production when constructing [Sword] units [in all cities] <if [Italia] is not constructed>",
-        		"Free [Bastarnae Warrior] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
-        		"Free [Bastarnae Warrior] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <for [AI player] Civilizations> <hidden from users>",
-			 
-]
-  	},
-	{
-    		"name": "Hun 3rd Century Crisis",
-		"resourceType": "Bonus",
-    		"uniques": [
-    			"Triggers victory <if [Achaea] is constructed> <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed> <if [Aegyptus] is constructed> <if [Scythia] is constructed>",
-			"Provides [15] [Manpower] <if [Achaea] is not constructed>",
-			"Provides [5] [Horses] <if [Palaestina] is not constructed>",
-    			"[+50]% Yield from pillaging tiles",
-      			"[-80]% maintenance costs <for [Military] units> <if [Anatolia] is not constructed>",
-        		"[+10]% Strength <for [Mounted] units> <vs [The Romans] units> <if [Roman Centralize Power] is not constructed>",
-        		"[+10]% Strength <for [Mounted] units> <vs [The Arsacids] units> <if [Palmyrene Empire] is not constructed>",
-        		"[+10]% Strength <for [Mounted Archery] units> <vs [The Romans] units> <if [Roman Centralize Power] is not constructed>",
-        		"[+10]% Strength <for [Mounted Archery] units> <vs [The Arsacids] units> <if [Palmyrene Empire] is not constructed>",
-        		"[+30]% Strength <for [Mounted Archery] units> <when attacking> <vs cities> <if [Palaestina] is not constructed>",
- 			"[+10]% Strength <for [Spearman] units> <when defending> <when fighting in [Friendly Land] tiles>",
-			"[+10] HP when healing <for [Mounted] units> <when fighting in [Friendly Land] tiles> <if [Achaea] is constructed>",
-			"[+2] HP when healing <for [Mounted Archery] units> <when fighting in [Friendly Land] tiles>",
-			"[+20]% Production when constructing [Mounted Archery] units [in all cities] <if [Achaea] is not constructed>",
-			"[+20]% Production when constructing [Mounted] units [in all cities] <if [Armenia] is not constructed>",
-        		"Free [Horse Archer] appears <upon turn end> <when above [30] [Manpower]> <when above [4] [Horses]> <with [2]% chance> <for [Human player] Civilizations>",
-        		"Free [Horse Archer] appears <upon turn end> <when above [30] [Manpower]> <when above [4] [Horses]> <with [5]% chance> <for [AI player] Civilizations> <hidden from users>",
-			 
-]
-  	},
-	{
-    		"name": "Armenia 3rd Century Crisis",
-		"resourceType": "Bonus",
-    		"uniques": [
-    			"Triggers victory <if [Armenia] is constructed> <if [Palaestina] is constructed> <if [Anatolia] is constructed> <if [Scythia] is constructed> <if [Aegyptus] is constructed>",
-			"Provides [20] [Manpower] <if [Palaestina] is not constructed>",
-      			"[+1 Happiness, +5 Gold] [in all cities] <if [Aegyptus] is not constructed>",
-      			"[-80]% maintenance costs <for [Military] units> <if [Aegyptus] is not constructed>",
-        		"[+10]% Strength <for [Mounted] units> <when attacking> <vs [The Arsacids] units> <if [Palaestina] is not constructed>",
-        		"[+10]% Strength <for [Melee] units> <when attacking> <vs cities> <if [Aegyptus] is not constructed>",
- 			"[+10]% Strength <for [Military] units> <when defending> <when fighting in [Friendly Land] tiles> <if [Scythia] is not constructed>",
-			"[+10] HP when healing <for [Military] units> <when fighting in [Friendly Land] tiles> <if [Scythia] is not constructed>",
-			"[+25]% Production when constructing [Mounted] units [in this city] <if [Aegyptus] is not constructed>",
-        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <for [Human player] Civilizations>",
-        		"Free [Cavalry] appears <upon turn end> <when above [30] [Manpower]> <when above [4] [Horses]> <with [2]% chance> <for [Human player] Civilizations>",
-        		"Free [Swordsman] appears <upon turn end> <when above [30] [Manpower]> <with [4]% chance> <for [AI player] Civilizations> <hidden from users>",
-        		"Free [Cavalry] appears <upon turn end> <when above [30] [Manpower]> <when above [2] [Horses]> <with [4]% chance> <for [Human player] Civilizations>",
-			 
-]
-  	},
-
-			////Peloponnese war
+				////Peloponnese war
 
 
 	{
