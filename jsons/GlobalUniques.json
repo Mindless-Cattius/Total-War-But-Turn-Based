@@ -31,6 +31,7 @@
         "[{Military} {Water}] units gain the [Warship] promotion",
         "[{Military} {Land}] units gain the [War Transports] promotion",
         "[{Military} {Land}] units gain the [Healing] promotion",
+	"[+100]% construction time for [all] improvements <for [Military] units>",
 
 
 						//Cities
@@ -80,6 +81,13 @@
 	"[+15]% Strength for cities <when defending> <for [AI player] Civilizations> <on [Emperor] difficulty>",
 	"[+20]% Strength for cities <when defending> <for [AI player] Civilizations> <on [Immortal] difficulty>",
 	"[+25]% Strength for cities <when defending> <for [AI player] Civilizations> <on [Deity] difficulty>",
+
+	"[+10]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations>",
+	"[+10]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations> <on [King] difficulty>",
+	"[+15]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations> <on [Emperor] difficulty>",
+	"[+20]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations> <on [Immortal] difficulty>",
+	"[+25]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations> <on [Deity] difficulty>",
+
 
 	"Provides [10] [Manpower] <for [AI player] Civilizations> <on [King] difficulty>",
 	"Provides [15] [Manpower] <for [AI player] Civilizations> <on [Emperor] difficulty>",

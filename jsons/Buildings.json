@@ -2705,6 +2705,8 @@
 		"Only available <in [Capital] cities>",
 		"Unavailable <if [Administrative Estates] is constructed>"
 		"Unavailable <if [Hall of Veterans] is constructed>"
+		"Remove [Hall of Veterans] [in all cities] <hidden from users>",
+		"Remove [Administrative Estates] [in all cities] <hidden from users>",
 		"Moves to new capital when capital changes",
 		"Triggers a [Reorganization of the State] event <upon turn start> <with [2]% chance> <hidden from users>",
 		]
@@ -2712,7 +2714,7 @@
 {
 	"name": "Administrative Estates",
 	"cost": 200,
-	"happiness": 1,
+	"happiness": 2,
 	"specialistSlots": {"Merchants": 1},
 	"isNationalWonder": true,
 	"uniques": [
@@ -2723,6 +2725,8 @@
 		"Unavailable <if [Hall of Veterans] is constructed>"
 		"Only available <in [Capital] cities>",
 		"Moves to new capital when capital changes",
+		"Remove [Hall of Veterans] [in all cities] <hidden from users>",
+		"Remove [Manpower Office] [in all cities] <hidden from users>",
 		"Triggers a [Reorganization of the State] event <upon turn start> <with [2]% chance> <hidden from users>",
 		]
 },
@@ -2743,6 +2747,8 @@
 		"Unavailable <if [Administrative Estates] is constructed>"
 		"Unavailable <if [Manpower Office] is constructed>"
 		"Moves to new capital when capital changes",
+		"Remove [Manpower Office] [in all cities] <hidden from users>",
+		"Remove [Administrative Estates] [in all cities] <hidden from users>",
 		"Triggers a [Reorganization of the State] event <upon turn start> <with [2]% chance> <hidden from users>",
 		]
 },
