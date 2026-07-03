@@ -156,22 +156,22 @@
 
 
 //BE
-	"Triggers a [Veteran Beggars] event <upon turn start> <when below [2] [BE]> <with [5]% chance>",
-	"Triggers a [Border Settlers Dispute] event <upon turn start> <when between [0] and [3] [BE]> <with [1]% chance>",
-	"Triggers a [Flooded Granaries] event <upon turn start> <when between [0] and [4] [BE]> <if [Granary] is constructed> <with [1]% chance>",
-	"Triggers a [The Imperial Messenger Crisis] event <upon turn start> <when between [2] and [5] [BE]> <with [1]% chance>",
-	"Triggers a [The Missing Bridge] event <upon turn start> <when between [2] and [5] [BE]> <with [1]% chance>",
-	"Triggers a [The Tax Collector's Funeral] event <upon turn start> <when between [3] and [6] [BE]> <when not at war> <with [1]% chance>",
-	"Triggers a [Discharged Soldiers Seek Purpose] event <upon turn start> <when between [3] and [6] [BE]> <when not at war> <with [1]% chance>",
-	"Triggers a [The Imperial Catastrophe of Left Sandals] event <upon turn start> <when between [3] and [6] [BE]> <when not at war> <with [1]% chance>",
-	"Triggers a [The Official Unit of Measurement] event <upon turn start> <when between [4] and [8] [BE]> <with [1]% chance>",
-	"Triggers a [The Competitive Funeral] event <upon turn start> <when between [4] and [8] [BE]> <with [1]% chance>",
-	"Triggers a [The Invasion of Monkeys] event <upon turn start> <when between [4] and [8] [BE]> <with [1]% chance>",
-	"Triggers a [The Imperial Census] event <upon turn start> <when between [5] and [9] [BE]> <when not at war> <with [1]% chance>",
-	"Triggers a [Complaint Regarding the Sun] event <upon turn start> <when between [5] and [9] [BE]> <when not at war> <with [1]% chance>",
-	"Triggers a [The Imperial Peacock Incident] event <upon turn start> <when between [5] and [9] [BE]> <with [1]% chance>",
-	"Triggers a [The Goat Trial] event <upon turn start> <when between [7] and [9] [BE]> <when not at war> <with [1]% chance>",
-	"Triggers a [The Extremely Honest Merchant] event <upon turn start> <when between [7] and [9] [BE]> <with [1]% chance>",
+	"Triggers a [Veteran Beggars] event <upon turn start> <when below [2] [BE]> <with [5]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [Border Settlers Dispute] event <upon turn start> <when between [0] and [3] [BE]> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [Flooded Granaries] event <upon turn start> <when between [0] and [4] [BE]> <if [Granary] is constructed> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Imperial Messenger Crisis] event <upon turn start> <when between [2] and [5] [BE]> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Missing Bridge] event <upon turn start> <when between [2] and [5] [BE]> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Tax Collector's Funeral] event <upon turn start> <when between [3] and [6] [BE]> <when not at war> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [Discharged Soldiers Seek Purpose] event <upon turn start> <when between [3] and [6] [BE]> <when not at war> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Imperial Catastrophe of Left Sandals] event <upon turn start> <when between [3] and [6] [BE]> <when not at war> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Official Unit of Measurement] event <upon turn start> <when between [4] and [8] [BE]> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Competitive Funeral] event <upon turn start> <when between [4] and [8] [BE]> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Invasion of Monkeys] event <upon turn start> <when between [4] and [8] [BE]> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Imperial Census] event <upon turn start> <when between [5] and [9] [BE]> <when not at war> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [Complaint Regarding the Sun] event <upon turn start> <when between [5] and [9] [BE]> <when not at war> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Imperial Peacock Incident] event <upon turn start> <when between [5] and [9] [BE]> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Goat Trial] event <upon turn start> <when between [7] and [9] [BE]> <when not at war> <with [1]% chance> <starting from the [Hellenistic Age]>",
+	"Triggers a [The Extremely Honest Merchant] event <upon turn start> <when between [7] and [9] [BE]> <with [1]% chance> <starting from the [Hellenistic Age]>",
 
 
 //Sanitation

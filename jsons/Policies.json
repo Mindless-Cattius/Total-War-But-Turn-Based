@@ -2128,7 +2128,7 @@
 			"[+10]% Strength <for [Horseman] units> <when attacking> <for [The Macedonians] Civilizations>",
 			"[+10]% Strength <for [Pike Phalanx] units> <when attacking> <for [The Epirots] Civilizations>",
                     	"[-30]% maintenance costs <for [Mounted] units> <for [The Seleucids] Civilizations>",
-			"[+1 Gold] from every [improved] tiles <for [The Pergamenes] Civilizations>",
+			"[+1 Gold] from [improved] tiles [in all cities] <for [The Pergamenes] Civilizations>",
 			"[+2] XP gained from combat <for [Cavalry] units> <for [The Mithridatids] Civilizations>",
                     	"[-30]% maintenance costs <for [Water] units> <for [The Ptolemies] Civilizations>",
 			"[Gold] cost of purchasing [Water] units [-20]% <for [The Ptolemies] Civilizations>",

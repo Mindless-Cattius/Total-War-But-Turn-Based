@@ -858,7 +858,7 @@
                     {
                         "text": "Assign labor crews to the task",
                         "uniques": [
-                            "Only available <when above [30] [Manpower]>",
+                            "Only available <when above [20] [Manpower]>",
                             "[-2 Production, +1 Science, +1 Happiness] [in all cities] <for [10] turns>",
                             "Remove [PLAGUE] [in all cities]",
                             "Free [Spearman] appears <with [15]% chance> <hidden from users>",
@@ -934,7 +934,7 @@
                     {
                         "text": "Find someone to blame immediately",
                         "uniques": [
-                            "Only available <when above [30] [Manpower]>",
+                            "Only available <when above [20] [Manpower]>",
                             "[+2 Happiness, +1 Production] [in all cities] <for [10] turns>",
                             "[-1 Culture] [in all cities] <for [10] turns>",
                             "Free [Spearman] appears <with [20]% chance> <hidden from users>",
@@ -2110,7 +2110,7 @@
         {
             "text": "Send Provincial Governors to 'clarify expectations' on the ground",
             "uniques": [
-                "Only available <if [Provincial Governors] is constructed> <when above [10] [Manpower]>",
+                "Only available <if [Provincial Governors] is constructed> <when above [5] [Manpower]>",
                 "[-2 Gold, +1 Happiness] [in all cities] <for [5] turns>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
@@ -2517,7 +2517,7 @@
             ]
         },
         {
-            "text": "f people are trapped in the streets, sell them refreshments.",
+            "text": "People are trapped in the streets, sell them refreshments.",
             "uniques": [
                 "[+2 Gold, +1 Culture, +1 Happiness] [in all cities] <for [10] turns>",
                 "Free [Great Merchant] appears",
@@ -3070,8 +3070,8 @@
             "text": "Resettle the excess population",
             "uniques": [
                 "Only available <if [Manpower Office] is constructed>",
-		"[+1 Production, +1 Culture] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
-		"Free [Great Engineer] appears <with [10]% chance> <when above [20] [Manpower]>",
+		"[+1 Production, +1 Culture] [in all cities] <for [5] turns> <when above [10] [Manpower]>",
+		"Free [Great Engineer] appears <with [10]% chance> <when above [10] [Manpower]>",
                 "[+1 Food, +1 Gold] [in all cities] <for [5] turns>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users> <hidden from users>"
             ]
@@ -3201,7 +3201,7 @@
                 "[+1 Happiness, +1 Production] [in all cities] <for [5] turns>",
                 "Gain [-200] [Science] <with [30]% chance>",
                 "[-1] population in a random city <with [20]% chance>",
-                "[+1 Gold, +1 Culture] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
+                "[+1 Gold, +1 Culture] [in all cities] <for [5] turns> <when above [10] [Manpower]>",
                 "Free [Great Engineer] appears <with [30]% chance> <when above [25] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
@@ -3246,8 +3246,8 @@
                 "Only available <if [Administrative Estates] is constructed>",
                 "[+2 Science] [in all cities] <for [5] turns>",
                 "[-1 Production] [in all cities] <for [5] turns>",
-                "[+1 Science, +1 Culture] [in all cities] <for [5] turns> <when above [10] [Cities]>",
-                "Free [Great Scholar] appears <with [10]% chance> <when above [15] [Cities]>",
+                "[+1 Science, +1 Culture] [in all cities] <for [5] turns> <when below [10] [Cities]>",
+                "Free [Great Scholar] appears <with [15]% chance> <when above [10] [Cities]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3268,8 +3268,8 @@
                 "Only available <if [Manpower Office] is constructed>",
                 "[+1 Gold, +1 Science] [in all cities] <for [5] turns>",
                 "[-1 Food] [in all cities] <for [5] turns>",
-                "[+1 Production, +1 Gold] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
-                "Free [Great Engineer] appears <with [10]% chance> <when above [20] [Manpower]>",
+                "[+1 Production, +1 Gold] [in all cities] <for [5] turns> <when above [5] [Manpower]>",
+                "Free [Great Engineer] appears <with [10]% chance> <when above [15] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3332,8 +3332,8 @@
                 "Only available <if [Manpower Office] is constructed>",
                 "[+1 Production, +1 Gold] [in all cities] <for [5] turns>",
                 "[-1 Food] [in all cities] <for [5] turns>",
-                "[+1 Production, +1 Food] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
-                "Free [Great Engineer] appears <with [10]% chance> <when above [20] [Manpower]>",
+                "[+1 Production, +1 Food] [in all cities] <for [5] turns> <when above [10] [Manpower]>",
+                "Free [Great Engineer] appears <with [10]% chance> <when above [10] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3405,8 +3405,8 @@
                 "Only available <if [Manpower Office] is constructed> <when above [499] [Gold]>",
                 "[+1 Production, +1 Food] [in all cities] <for [5] turns>",
 		"Gain [-500] [Gold]",
-                "[+1 Production, +1 Food] [in all cities] <for [5] turns> <when above [30] [Manpower]>",
-                "Free [Great Engineer] appears <with [20]% chance> <when above [20] [Manpower]>",
+                "[+1 Production, +1 Food] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
+                "Free [Great Engineer] appears <with [20]% chance> <when above [10] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3478,8 +3478,8 @@
                 "Only available <if [Manpower Office] is constructed> <when above [499] [Gold]>",
                 "[+1 Production, +1 Happiness] [in all cities] <for [5] turns>",
                 "Gain [-500] [Gold]",
-                "[+1 Production, +1 Food] [in all cities] <for [5] turns> <when above [30] [Manpower]>",
-                "Free [Great Engineer] appears <with [20]% chance> <when above [20] [Manpower]>",
+                "[+1 Production, +1 Food] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
+                "Free [Great Engineer] appears <with [20]% chance> <when above [10] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3551,8 +3551,8 @@
                 "Only available <if [Manpower Office] is constructed> <when above [499] [Gold]>",
                 "[+1 Gold, +1 Production] [in all cities] <for [5] turns>",
                 "Gain [-500] [Gold]",
-                "[+1 Gold, +1 Food] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
-                "Free [Great Merchant] appears <with [20]% chance> <when above [30] [Manpower]>",
+                "[+1 Gold, +1 Food] [in all cities] <for [5] turns> <when above [10] [Manpower]>",
+                "Free [Great Merchant] appears <with [20]% chance> <when above [20] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3613,8 +3613,8 @@
                 "Only available <if [Manpower Office] is constructed>",
                 "[+1 Gold, +1 Science] [in all cities] <for [5] turns>",
                 "[-1 Food] [in all cities] <for [5] turns>",
-                "[+1 Production, +1 Gold] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
-                "Free [Great Engineer] appears <with [10]% chance> <when above [20] [Manpower]>",
+                "[+1 Production, +1 Gold] [in all cities] <for [5] turns> <when above [10] [Manpower]>",
+                "Free [Great Engineer] appears <with [10]% chance> <when above [10] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3681,8 +3681,8 @@
                 "Only available <if [Manpower Office] is constructed>",
                 "[+1 Science, +1 Gold] [in all cities] <for [5] turns>",
                 "[-1 Food] [in all cities] <for [5] turns>",
-                "[+1 Production, +1 Gold] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
-                "Free [Great Scholar] appears <with [40]% chance> <when above [30] [Manpower]>",
+                "[+1 Production, +1 Gold] [in all cities] <for [5] turns> <when above [10] [Manpower]>",
+                "Free [Great Scholar] appears <with [40]% chance> <when above [20] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },
@@ -3753,7 +3753,7 @@
                 "[+1 Happiness, +1 Production] [in all cities] <for [5] turns>",
                 "Gain [-300] [Science] <with [25]% chance>",
                 "[-1] population in a random city <with [25]% chance>",
-                "[+1 Gold, +1 Culture] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
+                "[+1 Gold, +1 Culture] [in all cities] <for [5] turns> <when above [10] [Manpower]>",
                 "Free [Great Engineer] appears <with [40]% chance> <when above [25] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
@@ -3882,8 +3882,8 @@
                 "Only available <if [Manpower Office] is constructed> <when above [499] [Gold]>",
                 "[+1 Production, +1 Food] [in all cities] <for [5] turns>",
                 "Gain [-500] [Gold]",
-                "[+1 Production, +1 Food] [in all cities] <for [5] turns> <when above [30] [Manpower]>",
-                "Free [Great Engineer] appears <with [20]% chance> <when above [20] [Manpower]>",
+                "[+1 Production, +1 Food] [in all cities] <for [5] turns> <when above [20] [Manpower]>",
+                "Free [Great Engineer] appears <with [20]% chance> <when above [10] [Manpower]>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
         },

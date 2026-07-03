@@ -3583,7 +3583,7 @@
         "uniques": [
                 "Comment [A rugged highland region of mountains, valleys, and strategic passes linking Anatolia to the Eurasian steppe. Horsemen dominate the terrain, but the terrain also shapes the horsemen.\n•Armenia et Caucasus: Armenia, Caucasia.]",
                 "Provides [1] [Armenia Region]",	
-		"[+10]% Production when constructing [Mounted] units [in this cities]",
+		"[+10]% Production when constructing [Mounted] units [in this city]",
 		"New [Cavalry] units start with [10] XP [in all cities]",
                 "Unsellable <hidden from users>",
                 "Unbuildable <hidden from users>",
