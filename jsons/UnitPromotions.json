@@ -796,7 +796,7 @@
 	{
 		"name": "Veterans",
 		"prerequisites": ["Medic III","Ambush III","Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Flanking","Charge III","Siege III","Survivalism III","Raider III","Assault III","Trample III","Drill III","Formation III"],
-		"unitTypes": ["Sword","Spear","Mounted","Scout","Melee Water","Siege"],
+		"unitTypes": ["Sword","Spear","Mounted","Scout","Melee Water","Siege","Elephant"],
 		"uniques": [
 			"[This Unit] heals [5] HP <upon losing at least [10] HP in a single attack>",
 			"[+10]% Strength <when defending>",
