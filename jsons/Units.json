@@ -325,7 +325,17 @@
          "[This Unit] is destroyed <after adopting [Manipular Legions]> <hidden from users>",
          "[This Unit] is destroyed <after adopting [Empire]> <hidden from users>",
          "Unavailable <after adopting [Manipular Legions]> <hidden from users>",
-         "Unavailable <after adopting [Nomad Culture]> <hidden from users>"
+         "Unavailable <after adopting [Nomad Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Latin] group <after adopting [Latin Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
     ],
     "promotions": [
 	      "Commander",
@@ -348,7 +358,18 @@
          "Consumes [2] [Ruler]",
          "Remove [A Noble's Death] [in all cities]",
          "Cannot be purchased",
-         "Unavailable <after adopting [Nomad Culture]> <hidden from users>"
+         "Unavailable <after adopting [Nomad Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Latin] group <after adopting [Latin Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Punic] group <after adopting [Punic Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
     ],
     "promotions": [
 	"Commander",
@@ -373,7 +394,8 @@
          "[+40]% production cost <during the [Imperial Age]>",
          "[+20]% Strength <during the [Imperial Age]>",
          "Consumes [1] [Ruler]",
-         "Remove [A Noble's Death] [in all cities]"
+         "Remove [A Noble's Death] [in all cities]",
+	 "[This Unit] gets a name from the [Hellenic Athenian] group <hidden from users>",
     ],
     "promotions": [
 	"Commander",
@@ -398,7 +420,8 @@
          "[+40]% production cost <during the [Imperial Age]>",
          "[+20]% Strength <during the [Imperial Age]>",
          "Consumes [1] [Ruler]",
-         "Remove [A Noble's Death] [in all cities]"
+         "Remove [A Noble's Death] [in all cities]",
+	 "[This Unit] gets a name from the [Punic] group <hidden from users>",
     ],
     "promotions": [
 	"Commander",
@@ -424,7 +447,8 @@
          "Remove [A Noble's Death] [in all cities]",
          "Can transform to [Emperor] <after adopting [Empire]>",
          "Only available <after adopting [Manipular Legions]> <hidden from users>",
-         "Unavailable <after adopting [Empire]> <hidden from users>"
+         "Unavailable <after adopting [Empire]> <hidden from users>",
+	 "[This Unit] gets a name from the [Latin] group <hidden from users>",
     ],
     "promotions": [
 	"Commander",
@@ -451,7 +475,8 @@
          "Remove [A Noble's Death] [in all cities]",
          "Never appears as a Barbarian unit",
          "Cannot be purchased",
-         "Only available <after adopting [Nomad Culture]> <hidden from users>"
+         "Only available <after adopting [Nomad Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Nomad] group <hidden from users>",
     ],
     "promotions": [
       	"[Horse Archer] ability",
@@ -474,7 +499,8 @@
          "[+80]% production cost <during the [Imperial Age]>",
          "Consumes [1] [Nobles]",
          "Can upgrade to [Nomad King] <for units with [Successor]>",
-         "Only available <after adopting [Nomad Culture]> <hidden from users>"
+         "Only available <after adopting [Nomad Culture]> <hidden from users>",
+	 "[This Unit] gets a name from the [Nomad] group <hidden from users>",
     ],
     "promotions": [
       "[Horse Archer] ability",

@@ -1,7 +1,62 @@
 [
     {
         "name": "Legions",
-        "unitNames": ["Legio I","Legio II","Legio III","Legio IIII","Legio V","Legio VI","Legio VII","Legio VIII","Legio VIIII","Legio X","Legio XI","Legio XII","Legio XIII","Legio XIIII","Legio XV","Legio XVI","Legio XVII","Legio XVIII","Legio XVIIII","Legio XX","Legio XXI","Legio XXII","Legio XXIII","Legio XXIIII","Legio XXV","Legio XXVI","Legio XXVII","Legio XXVIII","Legio XXVIIII","Legio XXX"]
-    },
-    
+        "unitNames": ["Legio I","Legio II","Legio III","Legio IIII","Legio V","Legio VI","Legio VII","Legio VIII","Legio VIIII","Legio X","Legio XI","Legio XII","Legio XIII","Legio XIIII","Legio XV","Legio XVI","Legio XVII","Legio XVIII","Legio XVIIII","Legio XX","Legio XXI","Legio XXII","Legio XXIII","Legio XXIIII","Legio XXV","Legio XXVI","Legio XXVII","Legio XXVIII","Legio XXVIIII","Legio XXX"
+]
+},
+{
+    "name": "Latin",
+    "unitNames": ["Caesar", "Scipio", "Pompeius", "Brutus", "Antonius","Lucullus", "Sulla", "Marius", "Sertorius", "Agrippa","Flamininus", "Paullus", "Fabius", "Marcellus", "Cinna","Salinator", "Papirius", "Corvus", "Regulus", "Lucullus","Ahenobarbus", "Piso", "Cassius", "Gracchus", "Nero","Lentulus", "Junius", "Cotta", "Augustus", "Metellus","Crassus", "Domitius", "Postumius", "Torquatus", "Cincinnatus","Lepidus", "Flaminius", "Quinctius", "Corvinus", "Decius","Catulus", "Varro", "Drusus", "Silanus", "Dolabella","Dickius","Chungius","Amogus","Gigachadius","Maximus"
+]
+},
+{
+    	"name": "Celtic", 
+	"unitNames": ["Vercingetorix", "Diviciacus", "Dumnorix", "Ambiorix", "Cingetorix", "Indutiomarus", "Viridomarus", "Orgetorix", "Lugotorix", "Bituitus", "Brennus", "Commius", "Caratacus", "Togodumnus", "Cunobelinus", "Adminius", "Dubnovellaunus", "Cassivellaunus", "Tasciovanus", "Epaticcus", "Segovax", "Boduognatus", "Convictolitavis", "Correus", "Sedullos", "Virdumarus", "Critognatus", "Bellovesus", "Segovesus", "Dumnacus", "Camulogenus", "Adiatunnus", "Lucterius", "Drappes", "Vergasillaunus", "Epasnactus", "Moritasgus", "Boduoc", "Conall", "Cernach", "Conchobar", "Lugaid", "Niall", "Aedan", "Maelgwn", "Rhydderch", "Owain", "Cadwallon", "Cadfan", "Bran","Bonnix","Chonkix","Bardix","Druidix","Thiccotorix"
+]
+},
+{
+	"name": "Germanic", 
+	"unitNames": ["Ariovistus", "Maroboduus", "Arminius", "Segimer", "Segestes", "Inguiomer", "Flavus", "Catualda", "Vannius", "Ballomar", "Catumerus", "Boiocalus", "Masyus", "Mallovendus", "Gannascus", "Chariovalda", "Mederic", "Gaisoric", "Gundahar", "Fastida", "Cniva", "Ostrogotha", "Aoric", "Cannabaudes", "Hilderic", "Gundomar", "Gundobad", "Athanaric", "Vidigoia", "Valamir", "Theodemir", "Thiudimir", "Ermanaric", "Hunimund", "Vithimiris", "Alaric", "Radagaisus", "Gaiseric", "Godigisel", "Wisumar", "Sigimer", "Hariwald", "Harigast", "Hildiger", "Widigast", "Theudebald", "Sigibert", "Raginfrid", "Berthar", "Hrodgar","Alemar","Bierulf","Boargast","Forkmar","Goatric"
+]
+},
+{
+    	"name": "Numidian",
+    	"unitNames": ["Massinissa", "Micipsa", "Gulussa", "Mastanabal", "Jugurtha", "Juba", "Gauda", "Hiempsal", "Oxyntas", "Mazar", "Mazippa", "Takfarinas", "Bocchus", "Bogud", "Baga", "Naravas", "Capussa", "Lacumazes", "Masgaba", "Masgava", "Mazucan", "Iephtas", "Abdeshmun", "Yuba", "Iarbas", "Antalas", "Firmus", "Gildo", "Nubel", "Mazuca", "Afer", "Mastanesosus", "Vermina", "Ascalis", "Atlas", "Aylimas", "Madyas", "Massiva", "Masuna", "Aksil", "Aferix", "Goatissa", "Camelzar", "Sandubal", "Dunissa"]
+},
+{
+    "name": "Eastern",
+    "unitNames": ["Cyrus", "Cambyses", "Darius", "Xerxes", "Artaxerxes", "Artabanus", "Ariobarzanes", "Arsames", "Gobryas", "Hydarnes", "Mardonius", "Otanes", "Megabyzus", "Mithridates", "Pharnaces", "Pharnabazus", "Datames", "Autophradates", "Tissaphernes", "Mazaios", "Orontes", "Orodes", "Tiribazus", "Ariarathes", "Ariarathes", "Ariamnes", "Ariobarzanes", "Zariadres", "Mithrobuzanes", "Bagadates", "Artavasdes", "Tigranes", "Mazaces", "Spithridates", "Rhoxanes", "Arsaces", "Pacorus", "Vonones", "Gotarzes", "Vologases", "Tiridates", "Monobazus", "Abgar", "Sambares", "Orobazus", "Bagapates", "Satibarzanes", "Persicus", "Sandarius", "Goatarzes", "Baklavadates", "Kebabanes", "Shawarmazes"]
+},
+{
+    "name": "Thracian",
+    "unitNames": ["Seuthes", "Sitalces", "Cotys", "Cersobleptes", "Teres", "Amadocus", "Berisades", "Sparadocus", "Medocus", "Sadocus", "Roigos", "Diegylis", "Mostis", "Roles", "Rhemaxos", "Dromichaetes", "Zalmodegikos", "Rubobostes", "Oroles", "Dicomes", "Dapyx", "Zyraxes", "Moskon", "Pieporus", "Bithys", "Mucapor", "Mucatra", "Rascuporis", "Rhoemetalces", "Rhascus", "Scorylo", "Koson", "Comosicus", "Deceneus", "Cotiso", "Burebista", "Diurpaneus", "Decebalus", "Duras", "Thiamarkos", "Horsecus", "Goatys", "Spearius", "Alethes", "Rakiros"]
+},
+{
+    "name": "Illyrian",
+    "unitNames": ["Bardylis", "Cleitus", "Glaucias", "Monunius", "Pleuratus", "Agron", "Teuta", "Pinnes", "Gentius", "Longarus", "Bato", "Epicadus", "Verzo", "Grabos", "Mytilus", "Ballaios", "Plator", "Scerdilaidas", "Pleurias", "Etuta", "Annia", "Andia", "Dasius", "Liccaius", "Tritus", "Vendo", "Tata", "Blaesus", "Pladomenus", "Aplius", "Andinus", "Scenobarbus", "Dazos", "Pinnus", "Bardus", "Gentor", "Monutas", "Scardus", "Delmus", "Taulon", "Sheeparus", "Rakius", "Cheesius", "Balkanor"]
+},
+{
+    "name": "Hellenistic",
+    "unitNames": ["Seleucus", "Antiochus", "Demetrius", "Ptolemy", "Lysimachus", "Cassander", "Antigonus", "Philip", "Alexander", "Perdiccas", "Peucestas", "Nicanor", "Eumenes", "Menander", "Apollodotus", "Agathocles", "Eucratides", "Heliocles", "Antimachus", "Diodotus", "Euthydemus", "Pantaleon", "Amyntas", "Polyperchon", "Craterus", "Leonnatus", "Archelaus", "Attalus", "Mithridates", "Achaeus", "Arsinoe", "Laodice", "Berenice", "Cleopatra", "Stratonice", "Apama", "Arsaces", "Nicomedes", "Prusias", "Ariarathes", "Kebabius", "Baklavios", "Gyroses", "Olivander", "Fetacles"]
+},
+{
+    "name": "Hellenic",
+    "unitNames": ["Leonidas", "Cleomenes", "Agesilaus", "Pausanias", "Lysander", "Brasidas", "Gylippus", "Archidamus", "Agis", "Areus", "Pyrrhus", "Aeacides", "Neoptolemus", "Alcetas", "Milon", "Pelopidas", "Epaminondas", "Jason", "Philopoemen", "Aratus", "Timoleon", "Gelon", "Dion", "Hermocrates", "Charilaus", "Eurybiades", "Xanthippus", "Leotychidas", "Cleandridas", "Polydorus", "Demaratus", "Anaxandridas", "Nabis", "Machanidas", "Nicias", "Dorieus", "Agesipolis", "Cleombrotus", "Antalcidas", "Acrotatus", "Hoplitos", "Phalangos", "Spartacles", "Olivios", "Goatius"]
+},
+{
+    "name": "Iberian",
+    "unitNames": ["Viriathus", "Indibilis", "Mandonius", "Istolatius", "Curius", "Tanginus", "Punicus", "Caesarus", "Olindicus", "Orison", "Luxinius", "Ambon", "Allucius", "Retogenes", "Caro", "Caucenus", "Laro", "Corribilo", "Thurrus", "Bilistages", "Ambatus", "Segimerus", "Uxentio", "Turibas", "Aeburus", "Andobales", "Mandon", "Sucellus", "Nertobas", "Avaros", "Segontius", "Beles", "Cessaron", "Iltir", "Tureno", "Bascunes", "Lobetanos", "Cantabros", "Iberos", "Tartessos", "Jamonus", "Olivarus", "Hamorius", "Siestius", "Goatiber"]
+},
+{
+    "name": "Punic",
+    "unitNames": ["Hamilcar", "Hasdrubal", "Hannibal", "Mago", "Bomilcar", "Hanno", "Himilco", "Gisco", "Gisgo", "Bostar", "Bostar", "Adherbal", "Maharbal", "Hanno", "Himilco", "Malchus", "Hanno", "Hasdrubal", "Mattan", "Abdmelqart", "Abdeshmun", "Baalhanno", "Bodashtart", "Gerbal", "Milkherem", "Hanno", "Magon", "Bomilcar", "Giscon", "Himilcon", "Azrubaal", "Baalshillem", "Bostarix", "Hannigos", "Melqarton", "Tanitas", "Baalzor", "Shawarmelqart", "Falafelbal", "Goatqart"]
+},
+{
+    "name": "Hellenic Athenian",
+    "unitNames": ["Pericles", "Themistocles", "Miltiades", "Cimon", "Aristides", "Phocion", "Alcibiades", "Nicias", "Conon", "Thrasybulus", "Callias", "Xenophon", "Chabrias", "Iphicrates", "Timotheus", "Demosthenes", "Lycurgus", "Hyperides", "Leosthenes", "Charidemus", "Cephisodorus", "Nausicles", "Archestratus", "Autocles", "Callistratus", "Laches", "Lamachus", "Aristophon", "Callixenus", "Andocides", "Eubulus", "Demades", "Cleon", "Cleophon", "Critias", "Theramenes", "Hegesippus", "Phaedrus", "Ariston", "Kebabocles", "Gyrocles", "Olivides", "Philosnax", "Demostreates"]
+},
+{
+    "name": "Nomad",
+    "unitNames": ["Ateas", "Idanthyrsus", "Skunxa", "Spargapises", "Tomyris", "Madyes", "Ariapeithes", "Scyles", "Octamasades", "Saulius", "Taxacis", "Palacus", "Skilurus", "Inismeus", "Tasius", "Zarina", "Spadinus", "Arsaces", "Aripharnes", "Amage", "Goar", "Inismeos", "Tirgatao", "Spargapithes", "Rhagodarus", "Aorses", "Siraces", "Aspurgus", "Zorsines", "Gatalus", "Cotys", "Rescuporis", "Sauromates", "Ininthimeus", "Pharsanzes", "Rescuporis", "Tanus", "Argotas", "Stepanos", "Horserix", "Marekhan", "Yakhan", "Goatrak", "Kumisar", "Neighzar"]
+},
         ]

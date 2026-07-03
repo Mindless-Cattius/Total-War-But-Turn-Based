@@ -148,7 +148,8 @@
 		"name": "Urban Fabric I",
   		"happiness": 1,
 		"uniques": [
-			"Provides [1] [Cities]"
+			"Provides [1] [Cities]",
+			"Consumes [1] [Rebel Risk] <during a Golden Age> <when above [0] [Rebel Risk]>",
 			"Unsellable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			
@@ -208,7 +209,7 @@
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
 			"Consumes [1] [Sanitation]",
-			"Provides [2] [Manpower]",
+			"Provides [1] [Manpower]",
 			"Cost increases by [3] per owned city"
 			"Only available <in cities with a [Urban Fabric III]> <in cities with at least [17] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
@@ -228,8 +229,9 @@
 		"greatPersonPoints": {"Great Artist":1},
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
-			"Consumes [2] [Sanitation]",
-			"Provides [3] [Manpower]",
+			"Consumes [1] [Rebel Risk] <when above [3] [Rebel Risk]>",
+			"Consumes [1] [Sanitation]",
+			"Provides [1] [Manpower]",
 			"Cost increases by [3] per owned city",
 			"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
@@ -390,6 +392,7 @@
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"Provides [3] [Manpower]",
+			"Consumes [1] [Rebel Risk] <when above [5] [Rebel Risk]>",
 			"[+10]% Production when constructing [Spear] units [in this city]",
 			"[+10]% Production when constructing [Swordsman] units [in this city]",
 			"[+1 Production, +1 Happiness] from [Fort] tiles [in this city]",
@@ -824,11 +827,11 @@
 			"Only available <in cities with a [Urban Fabric II]>"
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"[+2 Happiness] from [Wine] tiles [in this city]",
-			"[+2 Happiness] from [Crab] tiles [in this city]",
+			"[+1 Happiness] from [Wine] tiles [in this city]",
+			"[+1 Happiness] from [Crab] tiles [in this city]",
 			"[+1 Happiness] from [Deer] tiles [in this city]",
-			"[+1 Happiness] from [Village] tiles [in this city]",
-			"[+1 Happiness] from [Trading post] tiles [in this city]",
+			"[+1 Culture] from [Village] tiles [in this city]",
+			"[+1 Food] from [Trading post] tiles [in this city]",
 			"[+1 Happiness] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Hospitum"
