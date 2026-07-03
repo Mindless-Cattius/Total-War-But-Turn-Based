@@ -1496,7 +1496,7 @@
 	{
 		"name": "Armored Lancer",
 		"uniques": [
-			"[+10]% Strength",
+			"[+10]% Strength <when attacking>",
 			"[+10]% Strength <when defending> <vs [Ranged] units>",
 			"[+30]% Strength <when defending> <vs cities>",
 		]
@@ -1521,6 +1521,7 @@
 		"uniques": [
   			"[-20]% Strength <when defending> <for [Mounted Archery] units> <when fighting in [Water] tiles>",
   			"[-20]% Strength <for [Mounted] units> <when fighting in [Water] tiles>",
+			"[-20]% Strength <when attacking> <when fighting in [Water] tiles>",
    			"May attack when embarked <for [all] units>",
 		]
 	},
