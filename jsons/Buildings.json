@@ -1,7 +1,7 @@
 [
 	// Capital - Ruling Class
 		{
-		"name": "Make Capital",
+		"name": "Capital City",
 		"cost": 100,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -4374,7 +4374,7 @@
 			"Unbuildable <if [Illyricum (3rd)] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Macedonia et Hellas (3rd)] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Thracia Maior (3rd)] is not constructed> <in [in your cities] cities>",
-         		"Only available <in cities with a [Make Capital]>",
+         		"Only available <in cities with a [Capital City]>",
 			"Moves to new capital when capital changes",
 			"Unsellable <hidden from users>",
     ]
@@ -4475,7 +4475,7 @@
 			"Unbuildable <if [Anatolia (3rd)] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Armenia et Caucasus (3rd)] is not constructed> <in [in your cities] cities>",
 			"Unbuildable <if [Thracia Maior (3rd)] is not constructed> <in [in your cities] cities>",
-			"Only available <in cities with a [Make Capital]>",
+			"Only available <in cities with a [Capital City]>",
 			"Moves to new capital when capital changes",
 			"Remove [Palmyrene Ascendancy] [in all cities]",
     ]

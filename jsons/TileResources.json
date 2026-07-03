@@ -12,7 +12,7 @@
         		"May buy items in puppet cities",
 			"[-40]% Production when constructing [all] buildings [in all cities] <when at war>",
 			"[-25]% Production when constructing [all] units [in all cities] <when at war>",
-			"[+80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
+			"[+80]% Production when constructing [Capital City] buildings [in all cities] <during the [Imperial Age]>",
 			"[-40]% Strength for cities <when attacking> <hidden from users>",
 			"[-30]% Strength for cities <when attacking> <vs [Mounted Archery] units>",
 			"[-20]% Strength for cities <when attacking> <vs [Scout] units>",
