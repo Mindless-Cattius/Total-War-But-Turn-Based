@@ -247,7 +247,7 @@
 				"name": "Equestrian Class",
 				"row": 4,
 				"prerequisites": ["Riding"],
-				"uniques": ["Consumes [1] [Rebel Risk]"],
+				"uniques": ["Provides [1] [Horses]"],
 				"quote": "'A Man is defined as a biped and featherless animal' said Plato, and he was applauded. Diogenes returned with a plucked chicken, shouting 'Behold Plato's man!'."
 			},
 			{
