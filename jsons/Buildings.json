@@ -2755,15 +2755,16 @@
 {
 	"name": "Provincial Governors",
 	"specialistSlots": {"Artist": 1},
+	"happiness": 1,
 	"isNationalWonder": true,
 	"uniques": [
 		"Consumes [1] [Nobles]",
-		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
+		"Consumes [2] [Rebel Risk] <when above [0] [Rebel Risk]>",
 		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 		"Consumes [2] [Rebel Risk] <during a Golden Age>",
 		"[+1 Food, -1 Gold] [in all cities]",
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
-		"Triggers a [Provincial Governors Demand Funding] event <upon turn start> <with [3]% chance> <hidden from users>",
+		"Triggers a [Provincial Governors Demand Funding] event <upon turn start> <with [1]% chance> <hidden from users>",
 		"Triggers a [Provincial Corruption] event <upon turn start> <with [1]% chance> <hidden from users>",
 		]
 },
