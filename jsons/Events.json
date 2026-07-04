@@ -128,7 +128,7 @@
             "uniques": [
                 "Only available <when above [299] [Gold]> <hidden from users> <if [Sanitation Policies I] is not constructed>",
 		"[+1 Happiness] [in all cities] <for [5] turns>",
-                "Gain [-300] [Gold]",
+                "Gain [-400] [Gold]",
                 "Gain a free [Sanitation Policies I] [in capital]",
                 "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
@@ -185,7 +185,7 @@
             "text": "Investigate The Cause",
             "uniques": [
                 "Only available <when above [299] [Gold]> <hidden from users> <if [Sanitation Policies I] is not constructed>",
-                "Gain [-300] [Gold]",
+                "Gain [-400] [Gold]",
 		"[-1 Happiness] [in capital] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies I] [in capital]",
@@ -243,7 +243,7 @@
             "text": "Organize extermination efforts",
             "uniques": [
                 "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
-                "Gain [-300] [Gold]",
+                "Gain [-400] [Gold]",
 		"[-1 Production, +2 Happiness] [in capital] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Gain a free [Sanitation Policies I] [in capital]",
@@ -278,7 +278,7 @@
 		"Free [Spearman] appears <with [30]% chance> <when above [6] [Manpower]> <hidden from users>",
 		"Free [General] appears <with [10]% chance> <when above [1] [Nobles]> <hidden from users>",
                 "Remove [PLAGUE] [in all cities]",
-                "Gain [-300] [Gold]",
+                "Gain [-400] [Gold]",
 		"[-1 Production] [in capital] <for [5] turns>",
                 "Instantly provides [1] [SE] <when below [10] [SE]> <with [30]% chance> <hidden from users>"
             ]
@@ -333,7 +333,7 @@
             "text": "Regulate the healers",
             "uniques": [
                 "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
-                "Gain [-300] [Gold]",
+                "Gain [-400] [Gold]",
                 "[-1 Happiness] [in capital] <for [5] turns>",
                 "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
@@ -368,7 +368,7 @@
             "text": "License the most talented charlatans",
             "uniques": [
                 "Only available <when above [299] [Culture]> <hidden from users>",
-                "Gain [-300] [Culture]",
+                "Gain [-200] [Culture]",
                 "[+2 Happiness, +1 Food] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Remove [DANGEROUS PLAGUE] [in all cities]",
@@ -409,7 +409,7 @@
             "text": "Enforce strict quarantines",
             "uniques": [
                 "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
-                "Gain [-300] [Gold]",
+                "Gain [-400] [Gold]",
                 "[-1 Food, -1 Production] [in all cities] <for [5] turns>",
                 "[+1 Happiness] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
@@ -485,7 +485,7 @@
             "text": "Burn the infected districts",
             "uniques": [
                 "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
-                "Gain [-300] [Gold]",
+                "Gain [-400] [Gold]",
                 "[-1 Production, -1 Food, -1 Happiness] [in all cities] <for [5] turns>",
                 "Remove [PLAGUE] [in all cities]",
                 "Remove [DANGEROUS PLAGUE] [in all cities]",
@@ -520,7 +520,7 @@
             "text": "Controlled burning, mostly controlled",
             "uniques": [
                 "Only available <when above [299] [Culture]> <hidden from users>",
-                "Gain [-300] [Culture]",
+                "Gain [-200] [Culture]",
                 "Remove [PLAGUE] [in all cities]",
                 "Remove [DANGEROUS PLAGUE] [in all cities]",
                 "[-1 Happiness, -1 Food, +1 Production] [in all cities] <for [5] turns>",
@@ -571,7 +571,7 @@
         "text": "Establish organized sanitation services",
         "uniques": [
             "Only available <when above [299] [Gold]> <if [Sanitation Policies I] is not constructed> <hidden from users>",
-            "Gain [-300] [Gold]",
+            "Gain [-400] [Gold]",
             "[-1 Production] [in capital] <for [5] turns>",
             "[+1 Happiness, +1 Food] [in all cities] <for [5] turns>",
             "Remove [PLAGUE] [in all cities]",
@@ -791,7 +791,7 @@
                         "text": "Commission a scholarly investigation",
                         "uniques": [
                             "Only available <if [School] is constructed> <when above [299] [Gold]>",
-                            "Gain [-300] [Gold]",
+                            "Gain [-400] [Gold]",
                             "[+1 Culture, +1 Happiness, +1 Food] [in all cities] <for [5] turns>",
                             "Remove [PLAGUE] [in all cities]",
                             "Remove [DANGEROUS PLAGUE] [in all cities]",
@@ -1177,7 +1177,7 @@
                         "text": "Burn the grain and start over",
                         "uniques": [
                             "Only available <when above [299] [Gold]>",
-                            "Gain [-300] [Gold]",
+                            "Gain [-400] [Gold]",
                             "[-3 Food, -1 Production, +1 Faith] [in all cities] <for [10] turns>",
                             "Remove [PLAGUE] [in all cities]",
                             "Free [Great Engineer] appears <with [10]% chance> <hidden from users>",
@@ -1241,7 +1241,7 @@
             "text": "Try To Clean The Water",
             "uniques": [
                 "Only available <when above [299] [Culture]> <hidden from users>",
-                "Gain [-300] [Culture]",
+                "Gain [-200] [Culture]",
 		"Free [Great Scholar] appears <with [20]% chance> <hidden from users>",
                 "Remove [Contamination Water Problem] [in capital]"
             ]
@@ -1263,7 +1263,7 @@
             "text": "Continue funding public health",
             "uniques": [
                 "Only available <when above [299] [Gold]> <if [Sanitation Policies II] is not constructed> <hidden from users>",
-                "Gain [-300] [Gold]"
+                "Gain [-400] [Gold]"
             ]
         },
         {
@@ -1277,7 +1277,7 @@
             "text": "Public health remains a priority",
             "uniques": [
                 "Only available <when above [299] [Culture]> <hidden from users>",
-                "Gain [-300] [Culture]"
+                "Gain [-200] [Culture]"
             ]
         },
         {
@@ -1552,7 +1552,7 @@
             "text": "Invite him to debate at court",
             "uniques": [
                 "Only available <when above [299] [Culture]>",
-                "Gain [-300] [Culture]",
+                "Gain [-200] [Culture]",
                 "[+2 Culture, +1 Happiness] [in all cities] <for [5] turns>",
                 "Free [Great Scholar] appears <with [25]% chance> <hidden from users>",
                 "Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance>",
@@ -2258,15 +2258,44 @@
     "text": "Provincial Governors Demand Funding \n\n Reports from across the provinces indicate that the governors require additional funding to maintain local administration. According to their letters, tax records must be updated, roads repaired, officials paid, and countless important ceremonies attended. Treasury officials note that several requests include vineyards, bathhouses, hunting lodges, and a suspicious number of decorative fountains. The governors insist these are all essential tools of governance.",
     "presentation":"Alert",
     "choices": [
+{
+            "text": "Approve the requested funds",
+            "uniques": [
+                "Only available <when above [149] [Gold]> <during the [Archaric Age]>",
+                "Gain [-150] [Gold]",
+                "[+1 Happiness, +1 Culture, +1 Gold] [in all cities] <for [10] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+            ]
+        },
+
         {
             "text": "Approve the requested funds",
             "uniques": [
-                "Only available <when above [499] [Gold]>",
+                "Only available <when above [299] [Gold]> <during the [Classical Age]>",
+                "Gain [-300] [Gold]",
+                "[+1 Happiness, +1 Culture, +1 Gold] [in all cities] <for [10] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+            ]
+        },
+        {
+            "text": "Approve the requested funds",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <during the [Hellenistic Age]>",
                 "Gain [-500] [Gold]",
                 "[+1 Happiness, +1 Culture, +1 Gold] [in all cities] <for [10] turns>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
             ]
         },
+        {
+            "text": "Approve the requested funds",
+            "uniques": [
+                "Only available <when above [599] [Gold]> <during the [Imperial Age]>",
+                "Gain [-700] [Gold]",
+                "[+1 Happiness, +1 Culture, +1 Gold] [in all cities] <for [10] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
+            ]
+        },
+
         {
             "text": "Have the temples support local administration",
             "uniques": [
@@ -2804,7 +2833,7 @@
             "uniques": [
                 "Only available <when above [399] [Culture]>",
                 "Gain [-400] [Culture]",
-                "Gain [-300] [Gold] <with [30]% chance>",
+                "Gain [-400] [Gold] <with [30]% chance>",
                 "[+2 Happiness, +2 Science, +5 Gold] [in all cities] <for [8] turns>",
                 "Free [Great Scholar] appears <with [70]% chance>",
                 "[1] [Angry Mob]s rebel <with [40]% chance>",
@@ -2946,7 +2975,7 @@
                 "[+3 Happiness, +3 Culture, +2 Gold] [in all cities] <for [8] turns>",
                 "Free [Great Artist] appears <with [80]% chance>",
                 "Free [Great Merchant] appears <with [50]% chance>",
-                "Gain [-300] [Culture] <with [20]% chance>",
+                "Gain [-200] [Culture] <with [20]% chance>",
                 "Gain [-300] [Faith] <with [20]% chance>",
                 "Instantly provides [1] [PE] <when below [10] [PE]> <hidden from users>"
             ]
@@ -3526,7 +3555,7 @@
             "uniques": [
                 "Only available <if [Grand Temple] is constructed>",
                 "[+2 Faith, +1 Happiness] [in all cities] <for [5] turns>",
-                "Gain [-300] [Gold] <with [20]% chance>",
+                "Gain [-400] [Gold] <with [20]% chance>",
                 "Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [REBEL IMMINENT]> <with [15]% chance>",
                 "[+1 Culture] [in all cities] <for [5] turns>",
                 "Free [Great Prophet] appears <for [Human player] Civilizations> <with [20]% chance>",
@@ -3739,7 +3768,7 @@
             "uniques": [
                 "Only available <if [Hall of Veterans] is constructed>",
                 "[+2 Production] [in all cities] <for [5] turns>",
-                "Gain [-300] [Culture] <with [25]% chance>",
+                "Gain [-200] [Culture] <with [25]% chance>",
                 "Gain a free [PLAGUE] [in your cities] <with [20]% chance>",
                 "[+1 Production, +1 Culture] [in all cities] <for [5] turns> <when above [2] [Veteran]>",
                 "Free [Great Artist] appears <with [40]% chance> <when above [3] [Veteran]>",
@@ -3768,7 +3797,7 @@
                 "Free [Great Merchant] appears <with [5]% chance>",
                 "Gain [-500] [Gold] <with [20]% chance>",
                 "Gain [-300] [Science] <with [20]% chance>",
-                "Gain [-300] [Culture] <with [20]% chance>",
+                "Gain [-200] [Culture] <with [20]% chance>",
                 "[-1] population in a random city <with [25]% chance>",
                 "Gain a free [PLAGUE] [in your cities] <with [20]% chance>",
                 "Gain a free [REBEL IMMINENT] [in your cities] <with [20]% chance>",
@@ -3828,7 +3857,7 @@
                 "Free [Great Merchant] appears <with [10]% chance>",
                 "[1] [General]s rebel <with [25]% chance>",
                 "Gain [-500] [Gold] <with [25]% chance>",
-                "Gain [-300] [Culture] <with [25]% chance>",
+                "Gain [-200] [Culture] <with [25]% chance>",
                 "Gain [-300] [Science] <with [25]% chance>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
@@ -3917,7 +3946,7 @@
             "uniques": [
                 "Only available <if [Grand Temple] is constructed>",
                 "[+2 Faith, +1 Happiness] [in all cities] <for [5] turns>",
-                "Gain [-300] [Gold] <with [20]% chance>",
+                "Gain [-400] [Gold] <with [20]% chance>",
                 "Free [Great Prophet] appears <for [Human player] Civilizations> <with [30]% chance>",
                 "Instantly provides [1] [BE] <when below [10] [BE]> <hidden from users>"
             ]
@@ -3927,7 +3956,7 @@
             "uniques": [
                 "Only available <if [Army Barracks] is constructed>",
                 "[+1 Production, +1 Happiness] [in all cities] <for [5] turns>",
-                "Gain [-300] [Gold] <with [20]% chance>",
+                "Gain [-400] [Gold] <with [20]% chance>",
                 "[1] free [The Goat] units appear <when above [0] [Veteran]> <hidden from users>",
                 "Free [Great Scholar] appears <with [30]% chance>",
                 "Instantly provides [1] [Enable The Goat] <with [20]% chance> <hidden from users>",
@@ -3979,7 +4008,7 @@
             "uniques": [
                 "Only available <if [Sanitation Policies I] is constructed>",
                 "[+2 Happiness, +1 Food] [in all cities] <for [5] turns>",
-                "Gain [-300] [Gold] <with [20]% chance>",
+                "Gain [-400] [Gold] <with [20]% chance>",
                 "Gain a free [PLAGUE] [in your cities] <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <with [15]% chance>",
                 "[+1 Science] [in all cities] <for [5] turns> <with [25]% chance>",
                 "Free [Great Scholar] appears <with [15]% chance>",

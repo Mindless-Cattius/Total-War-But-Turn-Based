@@ -85,7 +85,7 @@
 		"name": "Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
-		"food": 1,
+		"gold": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [
@@ -99,7 +99,7 @@
 		"terrainsCanBeFoundOn": ["Hill"],
 		"food": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"food": 1,"gold": 1},
+		"improvementStats": {"gold": 1},
 		"uniques": [
 		"Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Tundra]>"
 		]
@@ -123,7 +123,7 @@
     {
 		"name": "Camels",
 		"resourceType": "Bonus",
-        "terrainsCanBeFoundOn": ["Desert"],
+        	"terrainsCanBeFoundOn": ["Desert"],
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"gold": 2},
@@ -137,7 +137,7 @@
 		"name": "Wheat",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
-		"food": 2,
+		"food": 1,
 		"improvement": "Farm",
 		"uniques": [
 		"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles>",
@@ -178,9 +178,9 @@
 		"name": "Tar",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Marsh"],
-		"production": 1,
+		"gold": 1,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 2,"production": 1},
+		"improvementStats": {"production": 1},
 		"uniques": [
 		"Generated on every [8] tiles <in [Marsh] tiles>"
 		]
@@ -206,7 +206,7 @@
 		"name": "Herbs",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Hill","Marsh","Jungle"],
-		"food": 2,
+		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 2},
 		"uniques": [
@@ -222,7 +222,7 @@
 		"name": "Flax",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"production": 1,
+		"gold": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1},
 		"uniques": [
@@ -234,7 +234,7 @@
 		"name": "Hemp",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Desert"],
-		"Gold": 1,
+		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 2},
 		"uniques": [
@@ -249,7 +249,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		"improvementStats": {"food": 1,"gold": 1},
+		"improvementStats": {"gold": 1},
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [8] tiles <in [{Featureless} {Coast}] tiles>"]
     },
@@ -515,7 +515,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"production": 1,
 		"improvement": "Lumber mill",
-		"improvementStats": {"production": 2,"gold": 1},
+		"improvementStats": {"gold": 3},
 		"uniques": [
 		"Guaranteed with Strategic Balance resource option",
 		"Generated with weight [100] <in [Forest] tiles>",
@@ -534,7 +534,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 1,"gold": 2},
+		"improvementStats": {"gold": 3},
 		"uniques": [
 		"Guaranteed with Strategic Balance resource option",
 		"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
@@ -562,6 +562,7 @@
 		"revealedBy": "Mining",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra"],
 		"production": 1,
+		"improvementStats": {"gold": 1},
 		"improvement": "Mine",
 		"uniques": [
 		"Cannot be traded",
@@ -589,6 +590,7 @@
 		"revealedBy": "Bronze Working",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
 		"production": 1,
+		"improvementStats": {"gold": 3},
 		"improvement": "Mine",
 		"uniques": [
 		"Guaranteed with Strategic Balance resource option",
@@ -616,7 +618,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Plains","Grassland","Hill","Jungle","Forest","Marsh"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"food": 1,"gold": 2,"production": 1},
+		"improvementStats": {"gold": 2,"production": 1,"happiness": 1},
 		"uniques": [
 		"[+5]% [Gold] <in cities with a [Jeweler]> <when above [1] [Ivory]>",
 		"New [War Elephant] units start with [5] XP [in all cities] <when above [1] [Ivory]>",
@@ -634,7 +636,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"food": 1,"gold": 2,"culture": 1},
+		"improvementStats": {"gold": 2,"happiness": 1},
 		"uniques": [
 		"New [Archery] units start with [5] XP [in all cities] <when above [1] [Furs]>",
 		"Generated with weight [40] <in [Tundra] Regions>",
@@ -647,7 +649,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Hill","Flood plains"],
 		"gold": 2,
-		"improvementStats": {"production": 1,"gold": 1,"culture": 1},
+		"improvementStats": {"gold": 2,"culture": 1,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
 		"[+5]% [Gold] <in cities with a [Weavery]> <when above [1] [Cotton]>",
@@ -662,7 +664,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvementStats": {"gold": 2,"culture": 1},
+		"improvementStats": {"gold": 2,"culture": 1,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
 		"[+5]% [Gold] <in cities with a [Weavery]> <when above [1] [Dyes]>",
@@ -678,7 +680,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
 		"gold": 2,
-		"improvementStats": {"gold": 2,"production": 1,"culture": 1},
+		"improvementStats": {"gold": 2,"culture": 1,"happiness": 1},
 		"improvement": "Mine",
 		"uniques": [
 		"[+10]% [Gold] <in cities with a [Jeweler]> <when above [1] [Gems]>",
@@ -696,7 +698,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
-		"improvementStats": {"gold": 3,"culture": 1},
+		"improvementStats": {"gold": 3,"culture": 1,"happiness": 1},
 		"improvement": "Mine",
 		"uniques": [
 		"[+10]% [Gold] <when above [1] [Gold Ore]>",
@@ -715,7 +717,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
 		"gold": 2,
-		"improvementStats": {"gold": 2,"production": 1},
+		"improvementStats": {"gold": 2,"production": 1,"happiness": 1},
 		"improvement": "Mine",
 		"uniques": [
                 "[Gold] cost of purchasing [{Military} {Land}] units [-15]% <when above [1] [Silver]>",
@@ -737,7 +739,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
 		"food": 1,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 1,"production": 1,"culture": 1},
+		"improvementStats": {"gold": 2,"culture": 1,"happiness": 1},
 		"uniques": [
 		"[-10]% maintenance costs <for [Military] units> <when above [1] [Salt]>"
 		"Generated with weight [15] <in [Desert] Regions>",
@@ -752,8 +754,8 @@
 		"name": "Incense",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
-		"gold": 2,
-		"improvementStats": {"faith": 1,"gold": 1,"culture": 1},
+		"gold": 1,
+		"improvementStats": {"faith": 1,"gold": 1,"culture": 1,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
 		"[+5]% [Faith] <when above [1] [Incense]>",
@@ -768,7 +770,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvementStats": {"food": 1,"gold": 1,"culture": 1},
+		"improvementStats": {"food": 1,"culture": 1,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
 		"[+1 Happiness] [in all cities] <when above [1] [Wine]>",
@@ -783,7 +785,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
 		"gold": 2,
 		"improvement": "Quarry",
-		"improvementStats": {"production": 2,"gold": 1,"culture": 1},
+		"improvementStats": {"production": 1,"gold": 1,"culture": 1,"happiness": 1},
 		"uniques": [
 		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Marble]>",
 		"[+10]% Production when constructing [All] wonders [in all cities] <when above [1] [Marble]>",
@@ -801,7 +803,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Flood plains"],
 		"food": 1,
-		"improvementStats": {"food": 2, "gold": 2},
+		"improvementStats": {"food": 1, "gold": 2,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
 		"[+5]% growth [in all cities] <when above [1] [Citrus]>"
@@ -819,7 +821,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"food": 2, "gold": 1,"culture": 1},
+		"improvementStats": {"food": 2, "gold": 1,"happiness": 1},
 		"uniques": [
 		"[+5]% growth [in all cities] <when above [1] [Truffles]>"
 		"Generated with weight [5] <in [Jungle] Regions>",
@@ -901,7 +903,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
-		"improvementStats": {"gold": 1,"culture": 2},
+		"improvementStats": {"gold": 1,"culture": 1,"happiness": 1},
 		"improvement": "Fishing Boats",
 		"uniques": [
 		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Purple Dye]>",
@@ -918,8 +920,8 @@
 		"name": "Pearls",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"improvementStats": {"gold": 2,"culture": 1},
+		"gold": 2,
+		"improvementStats": {"gold": 3,"culture": 1,"happiness": 1},
 		"improvement": "Fishing Boats",
 		"uniques": [
 		"[+5]% [Gold] <in cities with a [Jeweler]> <when above [1] [Pearls]>",
@@ -937,7 +939,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		"improvementStats": {"gold": 1, "food": 1,"culture": 1},
+		"improvementStats": {"gold": 2, "food": 1,"culture": 1},
 		"improvement": "Fishing Boats",
 		"uniques": [
 		"[+10]% growth [in all coastal cities] <when above [1] [Crab]>"
