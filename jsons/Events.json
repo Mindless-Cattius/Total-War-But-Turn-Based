@@ -1996,7 +1996,7 @@
                 "[+3 Happiness, +3 Culture, -4 Gold] [in all cities] <for [5] turns>",
                 "Free [Great Artist] appears <with [40]% chance>",
                 "Free [Great Merchant] appears <with [40]% chance>",
-                "[10] [Angry Mob]s rebel <with [60]% chance>",
+                "[5] [Angry Mob]s rebel <with [60]% chance>",
                 "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
@@ -2013,7 +2013,7 @@
                 "Free [Great Engineer] appears <with [40]% chance>",
                 "[-1] population in a random city <with [30]% chance>",
                 "[-1] population in a random city <with [30]% chance>",
-                "[10] [Angry Mob]s rebel <with [60]% chance>",
+                "[5] [Angry Mob]s rebel <with [60]% chance>",
                 "Gain a free [REBEL IMMINENT] [in your cities] <with [30]% chance>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
@@ -2029,7 +2029,7 @@
                 "Free [Great Merchant] appears <with [40]% chance>",
                 "Free [Great Scholar] appears <with [40]% chance>",
                 "[1] [General]s rebel <with [30]% chance>",
-                "[10] [Angry Mob]s rebel <with [60]% chance>",
+                "[5] [Angry Mob]s rebel <with [60]% chance>",
                 "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
             ]
@@ -2365,7 +2365,7 @@
 		"Gain [300] [Gold] <with [30]% chance>",
 		"Gain [300] [Gold] <with [30]% chance>",
 		"Gain [300] [Gold] <with [30]% chance>",
-                "[10] [Angry Mob]s rebel",
+                "[5] [Angry Mob]s rebel",
                 "Gain a free [REBEL IMMINENT] [in your cities] <with [50]% chance>",
                 "Free [Great Merchant] appears <with [25]% chance> <hidden from users>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [20]% chance> <hidden from users>"
