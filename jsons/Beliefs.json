@@ -58,8 +58,8 @@
         "name": " Cult of Nantosuelta",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Faith, +1 Production] in cities on [Iron] tiles",
-        "[+1 Faith, +1 Production] in cities on [Copper] tiles",
+        "[+1 Faith, +1 Production, +1 Gold, +1 Happiness] in cities on [Iron] tiles",
+        "[+1 Faith, +1 Production, +1 Gold, +1 Happiness] in cities on [Copper] tiles",
         "Only available <after adopting [Celtic Culture]>"
         ]
     },
@@ -102,7 +102,7 @@
         "name": "Cult of Anahita",
         "type": "Pantheon",
         "uniques": [
-        "[+1 Happiness] in cities on [River] tiles",
+        "[+1 Happiness, +1 Food, +1 Culture] in cities on [River] tiles",
         "[+10]% Production when constructing [Archery] units [in this city]",
         "New [Ranged] units start with [10] XP [in this city]",
         "Only available <after adopting [Eastern Culture]>"
@@ -509,7 +509,7 @@
         "name": "Peace Gardens",
         "type": "Follower",
         "uniques": [
-		"[+3 Happiness] from every [Garden]",
+		"[+2 Happiness] from every [Garden]",
 		"[+1 Gold] from every [Garden] <in cities with at least [8] [Followers of this Religion]>"
 	]
     },
@@ -534,9 +534,91 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+15]% growth [in this city] <when not at war>",
+        "uniques": ["[+10]% growth [in this city] <when not at war>",
 		"[+1 Food] from every [Garden] <in cities with at least [8] [Followers of this Religion]>"]
     },
+{
+    "name": "Scriptorium",
+    "type": "Follower",
+    "uniques": [
+        "[+1 Faith, +2 Happiness] from every [School] <in cities with at least [5] [Followers of this Religion]>",
+        "[+1 Science, +1 Faith] from every [Temple]"
+    ]
+},
+{
+    "name": "Pilgrim Hostels",
+    "type": "Follower",
+    "uniques": [
+        "[+1 Gold, +1 Faith] from every [Market] <in cities with at least [7] [Followers of this Religion]>",
+        "[+1 Happiness, +1 Gold] from every [Market] <in cities with at least [10] [Followers of this Religion]>"
+    ]
+},
+{
+    "name": "Sacred Craftsmen",
+    "type": "Follower",
+    "uniques": [
+        "[+1 Production] from every [Forge] <in cities with at least [7] [Followers of this Religion]>",
+        "[+1 Faith, +1 Happiness] from every [Forge]"
+        "[+1 Faith, +1 Happiness] from every [Bronze Works] <in cities with at least [7] [Followers of this Religion]>"
+    ]
+},
+{
+    "name": "Sacred Greed",
+    "type": "Follower",
+    "uniques": [
+        "[+2 Gold, +1 Happiness] from every [Harbor]",
+        "[+2 Gold, +3 Happiness, +2 Faith] from every [Great Harbor]",
+        "[+2 Faith] from every [Harbor] <in cities with at least [7] [Followers of this Religion]>"
+    ]
+},
+{
+    "name": "Sanctuaries",
+    "type": "Follower",
+    "uniques": [
+        "[+1 Happiness] from every [Garden]",
+        "[+1 Culture] from every [Garden]"
+    ]
+},
+{
+    "name": "Stone Masons",
+    "type": "Follower",
+    "uniques": [
+        "[+20]% Production when constructing [Wonder] buildings [in this city]",
+        "[+1 Faith] from every [Workshop]",
+        "[+1 Faith, +1 Happiness] from every [Brick Maker] <in cities with at least [7] [Followers of this Religion]>"
+    ]
+},
+{
+    "name": "Sacred Minting",
+    "type": "Follower",
+    "uniques": [
+        "[+1 Gold, +1 Faith] from every [Mint] <in cities with at least [7] [Followers of this Religion]>",
+        "[+1 Happiness, +1 Faith] from every [Jeweler] <in cities with at least [7] [Followers of this Religion]>"
+    ]
+},
+{
+    "name": "Pastoral Blessing",
+    "type": "Follower",
+    "uniques": [
+        "[+1 Culture, +1 Gold, +1 Faith] from [Pasture] tiles [in this city]",
+        "[+1 Happiness, +1 Faith] from every [Stable] <in cities with at least [8] [Followers of this Religion]>"
+    ]
+},
+{
+    "name": "Village Elders",
+    "type": "Follower",
+    "uniques": [
+        "[+1 Production, +1 Faith] from every [Citizen Assembly] <in cities with at least [5] [Followers of this Religion]>",
+        "[+1 Food, +1 Faith, +1 Culture] from [Village] tiles [in this city]"
+    ]
+},
+{
+    "name": "Camp Followers",
+    "type": "Follower",
+    "uniques": [
+        "[+1 Faith, +1 Happiness, +1 Food] from every [Muster Field] <in cities with at least [5] [Followers of this Religion]>"
+    ]
+}
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
 
     {
@@ -570,7 +652,7 @@
 		"[+1 Faith] from every [Grand Temple] <in cities with at least [10] [Followers of this Religion]>"]
     }
     {
-        "name": "Papal Primacy",
+        "name": "State Primacy",
         "type": "Founder",
         "uniques": ["Resting point for Influence with City-States following this religion [+50]",
 		"[+1 Faith] from every [Citizen Assembly] <in cities with at least [5] [Followers of this Religion]>"]
@@ -590,7 +672,7 @@
     {
         "name": "Tithe",
         "type": "Founder",
-        "uniques": ["[+1 Gold] from every [5] global followers [in all cities]",
+        "uniques": ["[+1 Gold] from every [5] global followers [in this city]",
 		"[+2 Gold] from every [Grand Temple] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
@@ -599,101 +681,216 @@
         "uniques": ["[+3 Culture] from every [5] global followers [in foreign cities]",
 		"[+1 Faith, +1 Gold, +1 Production] from every [Grand Temple] <in cities with at least [15] [Followers of this Religion]>"]
     },
+    {
+    	"name": "Sacred Treasury",
+    	"type": "Founder",
+    	"uniques": [
+        	"[+1 Gold] for each global city following this religion",
+        	"[+1 Gold, +1 Faith] from every [Market] <in cities with at least [5] [Followers of this Religion]>"
+        	"[+1 Production, +2 Gold] from every [Grand Temple] <in cities with at least [10] [Followers of this Religion]>"
+    ]
+   },
+{
+    "name": "Divine Mandate",
+    "type": "Founder",
+    "uniques": [
+        "[+1 Happiness] from every [10] global followers [in this city]",
+        "[+2 Culture, +2 Faith] from every [Grand Temple] <in cities with at least [10] [Followers of this Religion]>"
+    ]
+},
+{
+    "name": "Holy Scholarship",
+    "type": "Founder",
+    "uniques": [
+        "[+1 Science] for each global city following this religion",
+	"[+10]% Production when constructing [School] buildings [in this city] <in cities with at least [3] [Followers of this Religion]>",
+        "[+2 Science, +1 Happiness] from every [Grand Temple] <in cities with at least [10] [Followers of this Religion]>"
+    ]
+},
+{
+    "name": "Martial Priesthood",
+    "type": "Founder",
+    "uniques": [
+        "New [Sword] units start with [5] XP [in this city] <in cities with at least [3] [Followers of this Religion]> <when at war>",
+        "New [Spear] units start with [5] XP [in this city] <in cities with at least [3] [Followers of this Religion]> <when at war>",
+        "[+1 Happiness] from every [Temple] <in cities with at least [3] [Followers of this Religion]> <when at war>",
+        "[+1 Production] from every [Grand Temple] <in cities with at least [10] [Followers of this Religion]>",
+    ]
+},
+{
+    "name": "Sacred Hospitality",
+    "type": "Founder",
+    "uniques": [
+        "[+1 Food] for each global city following this religion",
+        "[+1 Culture] from every [Temple] <in cities with at least [3] [Followers of this Religion]>",
+        "[+2 Food, +1 Happiness] from every [Grand Temple] <in cities with at least [10] [Followers of this Religion]>",
+    ]
+},
+{
+    "name": "Divine Bastions",
+    "type": "Founder",
+    "uniques": [
+        "[+10]% Strength for cities <in cities with at least [3] [Followers of this Religion]>",
+        "[+1 Happiness] from every [Walls] <in cities with at least [5] [Followers of this Religion]>",
+        "[+2 Happiness, +1 Culture] from every [Grand Temple] <in cities with at least [10] [Followers of this Religion]>"
+    ]
+},
+{
+    "name": "Imperial Cult",
+    "type": "Founder",
+    "uniques": [
+        "[+20]% Golden Age length",
+        "[+3 Happiness, +2 Faith] from every [Palace] [in this city]",
+        "[+2 Culture, +2 Gold] from every [Grand Temple] <in cities with at least [10] [Followers of this Religion]>"
+    ]
+}
 
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
 
-    {
-        "name": "Defender of the Faith",
-        "type": "Enhancer",
-        "uniques": [
-		"[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-		"[+2 Happiness] from all [Grand Temple] buildings <when not at war>",
-        	"[+5]% Strength <for [Spear] units> <when above [100] [Happiness]>",
-	]
-    },
-//    {
-//        "name": "Holy Order",
-//        "type": "Enhancer",
-//        "uniques": ["[Faith] cost of purchasing [Missionary] units [-20]%", "[Faith] cost of purchasing [Inquisitor] units [-20]%"],
-//        	"[+5]% Strength <for [Cavalry] units> <when above [100] [Happiness]>",
-//    },
-    {
-        "name": "Itinerant Preachers",
-        "type": "Enhancer",
-        "uniques": [
-		"Religion naturally spreads to cities [+2] tiles away",
-        	"[+10]% Strength <when attacking> <for [Infantry Shield I] units> <when above [100] [Happiness]>",
-]
-    },
-    {
-        "name": "Just War",
-        "type": "Enhancer",
-        "uniques": ["[+10]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
-		"[+2 Happiness] from all [Grand Temple] buildings <when at war>",
-        	"[+5]% Strength <for [Sword] units> <when above [100] [Happiness]>",
-]
-    },
-    {
-        "name": "Messiah",
-        "type": "Enhancer",
-        "uniques": ["[+10]% Spread Religion Strength <for [Great Prophet] units>", 
-             		"[-20]% Faith cost of generating Great Prophet equivalents",
-        	"[+10]% Strength <for [Horseman] units> <when above [100] [Happiness]>",
-]
-    },
-    {
-        "name": "Missionary Zeal",
-        "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>",
-			"[+40]% Natural religion spread [in all cities]",
-]
-    },
-    {
-        "name": "Religious Texts",
-        "type": "Enhancer",
-        "uniques": ["[+40]% Natural religion spread [in all cities]",
-        	"[+5]% Strength <for [Scout] units> <when above [100] [Happiness]>",
-]
-    },
-    {
-        "name": "Religious Unity",
-        "type": "Enhancer",
-        "uniques": ["[+120]% Natural religion spread [in City-State cities]",
-        	"[+5]% Strength <for [Military] units> <when above [100] [Happiness]>",
-]
-    },
-    {
-        "name": "Reliquary",
-        "type": "Enhancer",
-		"uniques": ["Gain [400] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-        	"[+5]% Strength <for [Mounted] units> <when above [100] [Happiness]>",
-],
-    }
-    {
-        "name": "Zealot Warriors",
-        "type": "Enhancer",
-		"uniques": [
-        	"New [Military] units start with [15] XP [in this city]",
-        	"New [Military] units start with [10] XP [in this city] <when above [100] [Happiness]>",
-],
-    }
-    {
-        "name": “Sacred Citadels",
-        "type": "Enhancer",
-		"uniques": ["[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-        	"[+5]% Strength <for [Infantry Shield III] units> <when above [100] [Happiness]>",
-       		"[+10]% Strength for cities <when defending>",
-	],
-    }
-    {
-        "name": “Scripture Keepers",
-        "type": "Enhancer",
-		"uniques": [
-			"[+20]% Natural religion spread [in all cities]",
-			"Religion naturally spreads to cities [+1] tiles away",
-        	"[+5]% Strength <for [Infantry Shield II] units> <when above [100] [Happiness]>",
-],
-	}
+{
+    "name": "Defender of the Faith",
+    "type": "Enhancer",
+    "uniques": [
+        "[+5]% Strength <for [Melee] units> <when fighting in [Friendly Land] tiles>",
+        "[+5]% Strength <for [Spear] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Sacred Temples",
+    "type": "Enhancer",
+    "uniques": [
+        "[+1 Happiness, +1 Faith] from all [Temple] buildings <when not at war>",
+        "[+5]% Strength <for [Spear] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Just War",
+    "type": "Enhancer",
+    "uniques": [
+        "[+5]% Strength <for [Melee] units> <when fighting in [Enemy Land] tiles>",
+        "[+5]% Strength <for [Sword] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "War Devotion",
+    "type": "Enhancer",
+    "uniques": [
+        "[+2 Happiness] from all [Grand Temple] buildings <when at war>",
+        "[+5]% Strength <for [Sword] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Prophetic Calling",
+    "type": "Enhancer",
+    "uniques": [
+        "[-20]% Faith cost of generating Great Prophet equivalents",
+        "[+10]% Strength <for [Horseman] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Missionary Zeal",
+    "type": "Enhancer",
+    "uniques": [
+        "[+20]% Spread Religion Strength <for [Great Prophet] units>",
+        "[+10]% Strength <for [Horseman] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Evangelical Tradition",
+    "type": "Enhancer",
+    "uniques": [
+        "[+25]% Natural religion spread [in this city]",
+        "[+5]% Strength <for [Infantry Shield II] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Sacred Citadels",
+    "type": "Enhancer",
+    "uniques": [
+        "[+10]% Strength <for [Ranged] units> <when fighting in [Friendly Land] tiles>",
+        "[+5]% Strength <for [Infantry Shield III] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Fortified Faith",
+    "type": "Enhancer",
+    "uniques": [
+        "[+10]% Strength for cities <when defending>",
+        "[+5]% Strength <for [Infantry Shield III] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Travelling Scriptures",
+    "type": "Enhancer",
+    "uniques": [
+        "Religion naturally spreads to cities [+1] tiles away",
+        "[+5]% Strength <for [Infantry Shield II] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Ecumenical Councils",
+    "type": "Enhancer",
+    "uniques": [
+        "[+2 Happiness] from every [Citizen Assembly] <in cities with at least [8] [Followers of this Religion]>",
+        "[+5]% Strength <for [Infantry Shield I] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Council Tradition",
+    "type": "Enhancer",
+    "uniques": [
+        "[+15]% Culture cost of adopting new Policies",
+        "[+5]% Strength <for [Infantry Shield I] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Temple Guardians",
+    "type": "Enhancer",
+    "uniques": [
+        "[+10]% Strength for cities <when defending>",
+        "[+5]% Strength <for [Spear] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Blessed Walls",
+    "type": "Enhancer",
+    "uniques": [
+        "[+1 Happiness] from every [Walls]",
+        "[+5]% Strength <for [Spear] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Holy Workshops",
+    "type": "Enhancer",
+    "uniques": [
+        "[+10]% Production when constructing [all] buildings [in this city]",
+        "[+5]% Strength <for [Sword] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Consecrated Workshops",
+    "type": "Enhancer",
+    "uniques": [
+        "[+1 Faith] from every [Workshop]",
+        "[+5]% Strength <for [Sword] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Sacred Navigation",
+    "type": "Enhancer",
+    "uniques": [
+        "[+1 Gold] from every [Harbor]",
+        "[+10]% Strength <for [Water] units> <when above [100] [Happiness]>"
+    ]
+},
+{
+    "name": "Beacon of Faith",
+    "type": "Enhancer",
+    "uniques": [
+        "[+1 Faith] from every [Lighthouse]",
+        "[+10]% Strength <for [Water] units> <when above [100] [Happiness]>"
+    ]
+}
     {
         "name": "The Amphibian Enlightenment",
         "type": "Enhancer",
