@@ -131,7 +131,7 @@
 				"name": "Land Grants",
 				"row": 5,
 				"prerequisites": ["Barter"],
-				"uniques": ["Provides [1] [Nobles]"],
+				"uniques": ["Provides [2] [Manpower]"],
 				"quote": "Diogenes once begged alms of a statue, and, when asked why he did so, replied, 'To get practice in being refused.'"
 			},
 			{
@@ -247,7 +247,7 @@
 				"name": "Equestrian Class",
 				"row": 4,
 				"prerequisites": ["Riding"],
-				"uniques": ["Provides [1] [Nobles]"],
+				"uniques": ["Consumes [1] [Rebel Risk]"],
 				"quote": "'A Man is defined as a biped and featherless animal' said Plato, and he was applauded. Diogenes returned with a plucked chicken, shouting 'Behold Plato's man!'."
 			},
 			{
