@@ -77,10 +77,10 @@
 	"Provides [1] [Rebel Risk] <when above [50] [Cities]> <for [Human player] Civilizations>",
 
 //Dificulty
-	"[+10]% Strength for cities <when defending> <vs [Human player] units> <on [King] difficulty>",
-	"[+10]% Strength for cities <when defending> <vs [Human player] units> <on [Emperor] difficulty>",
-	"[+10]% Strength for cities <when defending> <vs [Human player] units> <on [Immortal] difficulty>",
-	"[+10]% Strength for cities <when defending> <vs [Human player] units> <on [Deity] difficulty>",
+	"[-10]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [King] difficulty>",
+	"[-15]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Emperor] difficulty>",
+	"[-20]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Immortal] difficulty>",
+	"[-25]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Deity] difficulty>",
 
 	"[+10]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations>",
 	"[+10]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations> <on [King] difficulty>",
