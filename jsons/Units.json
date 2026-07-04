@@ -577,7 +577,7 @@
     "promotions": [
       "[Slinger] ability",
     ],
-    "attackSound": "arrow"
+    "attackSound": "sling"
   },
   {
     "name": "Crossbowman",
@@ -1543,7 +1543,7 @@
       "[Slinger] ability",
 	"Iron Darts",
     ],
-    "attackSound": "arrow"
+    "attackSound": "sling"
   },
   {
     "name": "Numidian Horseman",
@@ -2801,7 +2801,7 @@
       "Mercenary",
       "[Maneuver]",
     ],
-    "attackSound": "arrow"
+    "attackSound": "sling"
   },
   {
     "name": "Cretan Archer",
@@ -3360,6 +3360,7 @@
     "promotions": [
       "[Slinger] ability",
     ],
+    "attackSound": "sling"
   },
 
 

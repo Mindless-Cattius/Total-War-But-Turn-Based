@@ -185,9 +185,7 @@
 		"cityHealth": 20,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"Consumes [1] [Sanitation]",
-			"Provides [1] [Manpower]",
-			"Cost increases by [2] per owned city",
+			"Consumes [1] [Sanitation]",			"Cost increases by [2] per owned city",
 			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [10] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
 		],
