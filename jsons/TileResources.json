@@ -264,21 +264,36 @@
 			"Cannot be traded <hidden from users>",
 			"Doesn't generate naturally <hidden from users>"
 
-	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [10] [Cities]>",
-	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [15] [Cities]>",
-	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [20] [Cities]>",
-	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [25] [Cities]>",
-	"[-1 Happiness, -2 Science, -2 Culture] [in all cities] <when above [30] [Cities]>",
-	"[-1 Happiness, -1 Food, -2 Science, -2 Culture] [in all cities] <when above [40] [Cities]>",
-	"[-1 Happiness, -1 Food, -2 Science, -2 Culture] [in all cities] <when above [50] [Cities]>",
+	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [10] [Cities]>",
+	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [15] [Cities]>",
+	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [20] [Cities]>",
+	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [25] [Cities]>",
+	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [30] [Cities]>",
+	"[-1 Happiness, -1 Food, -1 Science, -1 Culture] [in all cities] <when above [40] [Cities]>",
+	"[-1 Happiness, -1 Food, -1 Science, -1 Culture] [in all cities] <when above [50] [Cities]>",
 
-	"[-10]% growth [in this city] <in cities with between [10] and [15] [Population]>",
-	"[-20]% growth [in this city] <in cities with between [16] and [20] [Population]>",
-	"[-25]% growth [in this city] <in cities with between [21] and [25] [Population]>",
-	"[-30]% growth [in this city] <in cities with between [26] and [30] [Population]>",
-	"[-35]% growth [in this city] <in cities with between [31] and [35] [Population]>",
-	"[-40]% growth [in this city] <in cities with between [36] and [40] [Population]>",
-	"[-50]% growth [in this city] <in cities with between [41] and [9999] [Population]>",
+
+	"[+20]% Unhappiness from [Population] [in all cities]",
+
+
+	"[+5]% Food consumption by [Population] [in this city] <in cities with between [9] and [13] [Population]>",
+	"[+8]% Food consumption by [Population] [in this city] <in cities with between [14] and [17] [Population]>",
+	"[+15]% Food consumption by [Population] [in this city] <in cities with between [18] and [22] [Population]>",
+	"[+20]% Food consumption by [Population] [in this city] <in cities with at least [23] [Population]>",
+
+	"[-30]% growth [in all cities]",
+	"[-5]% growth [in this city] <in cities with between [4] and [8] [Population]>",
+	"[-10]% growth [in this city] <in cities with between [9] and [13] [Population]>",
+	"[-15]% growth [in this city] <in cities with between [14] and [17] [Population]>",
+	"[-20]% growth [in this city] <in cities with between [18] and [22] [Population]>",
+	"[-25]% growth [in this city] <in cities with at least [23] [Population]>",
+
+	"[-10]% Production when constructing [all] buildings [in this city] <in cities with between [6] and [10] [Population]>",
+	"[-20]% Production when constructing [all] buildings [in this city] <in cities with between [11] and [15] [Population]>",
+	"[-30]% Production when constructing [all] buildings [in this city] <in cities with between [16] and [20] [Population]>",
+	"[-40]% Production when constructing [all] buildings [in this city] <in cities with at least [21] [Population]>",
+
+
 
         "[-5]% growth [in all cities] <when below [0] [Happiness]>",
         "[-5]% growth [in all cities] <when below [-10] [Happiness]>",
@@ -295,21 +310,6 @@
         "[-5]% Strength <for [All] units> <when below [0] [Happiness]>",
         "[-10]% Strength <for [All] units> <when below [-10] [Happiness]>",
         "[-10]% Strength <for [All] units> <when below [-20] [Happiness]>",
-
-        "[+3]% growth [in all cities] <when between [21] and [50] [Happiness]>",       
-        "[+5]% growth [in all cities] <when between [51] and [100] [Happiness]>",       
-        "[+7]% growth [in all cities] <when between [101] and [200] [Happiness]>",      
-        "[+9]% growth [in all cities] <when above [201] [Happiness]>",
-
-        "[+1]% [Gold] [in all cities] <when between [11] and [30] [Happiness]>",
-        "[+2]% [Gold] [in all cities] <when between [31] and [70] [Happiness]>",       
-        "[+3]% [Gold] [in all cities] <when between [71] and [100] [Happiness]>",      
-        "[+4]% [Gold] [in all cities] <when between [101] and [200] [Happiness]>",       
-        "[+5]% [Gold] [in all cities] <when above [201] [Happiness]>",
-
-        "[+1]% [Faith] [in all cities] <when between [51] and [120] [Happiness]>",
-        "[+2]% [Faith] [in all cities] <when between [121] and [200] [Happiness]>",    
-        "[+3]% [Faith] [in all cities] <when above [200] [Happiness]>",
 
         "[+5]% Strength for cities <when attacking> <when between [51] and [100] [Happiness]>",
         "[+7]% Strength for cities <when attacking> <when between [101] and [150] [Happiness]>",       

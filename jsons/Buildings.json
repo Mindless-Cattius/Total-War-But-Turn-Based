@@ -380,7 +380,7 @@
 		"maintenance": 10,
 		"cityHealth": 50,
 		"happiness": 1,
-		"Cost": 300,
+		"Cost": 350,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Barracks]>",
 			"Only available <in cities without a [Skirmisher Barracks]>",
@@ -415,6 +415,7 @@
 			"[+1 Culture] from [Fort] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
 			"[+1 Food] from [Horses] tiles [in this city] <for [The Scythians] Civilizations>",
+			"Cost increases by [2] per owned city",
 			"[20]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Riding"
@@ -423,7 +424,7 @@
 		"name": "Cavalry Barracks",
 		"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 25,
- 		"cost": 300,
+ 		"cost": 350,
 		"happiness": 1,
 		"maintenance": 10,
 		"cityHealth": 50,
@@ -459,6 +460,7 @@
 		"uniques": [   
 			"Only available <in cities with a [Urban Fabric I]>",
 			"Comment [-Training: Archer, Slinger]",
+			"Cost increases by [2] per owned city",
 			"Provides [1] [Manpower]",
 		],
 		"requiredTech": "Archery Practice"
@@ -469,7 +471,7 @@
 		"maintenance": 3,
 		"cityStrength": 2,
 		"happiness": 1,
- 		"cost": 300,
+ 		"cost": 350,
 		"cityHealth": 50,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Archery Range]>",
@@ -1353,6 +1355,7 @@
 			"[+1 Culture] from [Fort] tiles [in this city]",
 			"[+50]% weight to this choice for AI decisions",
 			"Destroyed when the city is captured",
+			"Cost increases by [2] per owned city",
 		]
 	},
 	{
@@ -4575,7 +4578,7 @@
 		"specialistSlots": {"Artist": 1},
     		"uniques": [
         		"Comment [The Rhine never sleeps. Raids blur into seasons. Fortifications eat coin. Veterans age. Replacements thin.]",
-        		"[-1 Happiness, -1 Food, -5 Gold] [in all cities]",
+        		"[-1 Food, -5 Gold] [in all cities]",
         		"[+100]% maintenance costs <for [Military] units>",
         		"[+100]% maintenance costs <for [Military] units> <when fighting in [Enemy Land] tiles>",
         		"[-10]% growth [in all cities]",

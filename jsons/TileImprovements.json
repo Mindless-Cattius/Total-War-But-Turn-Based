@@ -4,6 +4,7 @@
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"food": 1,
+		"gold": 1,
 		"turnsToBuild": 10,
 		"techRequired": "Agriculture",
 		"uniques": [
@@ -171,7 +172,7 @@
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 2,
+		"turnsToBuild": 3,
 		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
@@ -240,7 +241,7 @@
     {
         "name": "Repair",
         "terrainsCanBeBuiltOn": ["Land"],
-        "turnsToBuild": 2,
+        "turnsToBuild": 3,
         "shortcutKey": "E",
         "uniques": ["Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
