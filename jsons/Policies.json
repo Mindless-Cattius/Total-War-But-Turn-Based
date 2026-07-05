@@ -12,7 +12,7 @@
         "uniques": [
                     "Only available <after adopting [Latin Culture]> <hidden from users>",
                     "[1] free [Great Scholar] units appear",
-                    "[+5]% growth [in capital]",
+                    "[+1 Food, +1 Happiness] [in capital]",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
@@ -20,8 +20,8 @@
             {
                 "name": "The Latin League",
                 "uniques": [
-                    "[-25]% City-State Influence degradation",
-                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
+                    	"[-25]% City-State Influence degradation",
+                    	"Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     	"[1] free [Hoplite] units appear",
                     	"Provides [2] [Manpower]",
                     	"Provides [1] [Bronze]",
@@ -34,7 +34,8 @@
                 "name": "Italic Sacred Groves",
                 "uniques": [
         		"[+1 Faith] from every [Shrine]",
-        		"[+1 Culture] from every [Temple]",
+        		"[+1 Faith] from every [Temple]",
+			"[+1 Culture] from every [Palace]",
         		"[+1 Happiness] [in all cities]",
                 ],
                 "row": 1,

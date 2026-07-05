@@ -1,442 +1,632 @@
 ///////////////////////////////////////// Patheons /////////////////////////////////////////
 [
 // Celtic
-    {
-        "name": "Cult of Toutatis",
-        "type": "Pantheon",
-        "uniques": [
+{
+    "name": "Cult of Toutatis",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A tribal protector worshipped across Gaul and Britain. His name likely meant 'God of the Tribe,' and Roman writers associated him with the safety and strength of Celtic peoples.]",
         "[+10]% Production when constructing [Sword] units [in this city]",
+        "[+10]% Production when constructing [Spear] units [in this city]",
         "New [Naked Warriors] units start with [10] XP [in this city]",
         "Only available <after adopting [Celtic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Lugh",
-        "type": "Pantheon",
-        "uniques": [
-        "[+5]% [Culture] [in this city]",
-        "[+1 Food, +1 Culture] [in cities following this religion] <in cities with at least [10] [Population]>",
+    ]
+},
+{
+    "name": "Cult of Lugh",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [One of the most important Celtic gods, revered as a master of every craft, skill, and art. His festival, Lughnasadh, celebrated the harvest and prosperity of the community.]",
+        "[+10]% Production when constructing [all] buildings [in all cities]",
+        "[+1 Food, +1 Culture] [in cities following this religion] <in cities with at least [5] [Population]>",
         "Only available <after adopting [Celtic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Epona",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Epona",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Celtic goddess of horses, riders, and cavalry. Her worship spread so widely that even Roman cavalry units honored her throughout the Empire.]",
         "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion",
         "New [Mounted] units start with [5] XP [in this city]",
         "Only available <after adopting [Celtic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Tarannis",
-        "type": "Pantheon",
-        "uniques": [
-        "New [Horseman] units start with [10] XP [in this city]",
-        "All newly-trained [Horseman] units [in this city] receive the [Scouting I] promotion",
+    ]
+},
+{
+    "name": "Cult of Tarannis",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A powerful god of thunder and the celestial wheel. Often compared to Jupiter, Taranis was one of the principal deities worshipped across Celtic Europe.]",
+        "[+1 Production, +1 Faith] [in capital]",
+        "[+1 Faith, +1 Gold] from [Mine] tiles [in this city]",
+        "[+25]% Production when constructing [Siege] units [in capital]",
         "Only available <after adopting [Celtic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Abnoba",
-        "type": "Pantheon",
-        "uniques": [
-        "New [Archery] units start with [15] XP [in this city]",
-        "[+20]% Production when constructing [Archery Range] buildings [in this city]",
+    ]
+},
+{
+    "name": "Cult of Abnoba",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A regional goddess of forests and mountains, especially revered around the Black Forest. She was closely associated with wilderness, springs, and hunting.]",
+        "New [Archer] units start with [20] XP [in this city]",
+        "[+1 Culture] from [Forest] tiles [in this city]",
         "Only available <after adopting [Celtic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Esus",
-        "type": "Pantheon",
-        "uniques": [
-        "[+2 Happiness, +1 Production, +3 Food, +1 Culture] in cities on [River] tiles",
+    ]
+},
+{
+    "name": "Cult of Esus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [One of the most mysterious Celtic gods. Roman accounts depict Esus as a deity linked to trees and woodcutting, though his wider role remains uncertain.]",
+        "[+1 Food] from [Forest] tiles [in this city]",
+        "[+1 Happiness, +1 Faith] from [Lumber mill] tiles [in this city]",
         "Only available <after adopting [Celtic Culture]>"
-        ]
-    },
-    {
-        "name": " Cult of Nantosuelta",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Faith, +1 Production, +1 Gold, +1 Happiness] in cities on [Iron] tiles",
-        "[+1 Faith, +1 Production, +1 Gold, +1 Happiness] in cities on [Copper] tiles",
+    ]
+},
+{
+    "name": "Cult of Nantosuelta",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A goddess of home, prosperity, and fertility, frequently depicted with a house-shaped symbol and paired with the god Sucellus in Gallo-Roman religion.]",
+        "[+1 Food] from every [Temple]",
+        "[+1 Food] from every [Shrine]",
+        "[+20]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+        "[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
         "Only available <after adopting [Celtic Culture]>"
-        ]
-    },
-// Eastern
-    {
-        "name": "Cult of Ahura Mazda",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Sucellus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A widely worshipped Celtic god of agriculture, prosperity, and protection, often depicted carrying a long hammer and a drinking vessel. He was especially associated with rural life and abundance.]",
+        "[+1 Food, +1 Faith] from [Plantation] tiles [in this city]",
+        "[+1 Happiness, +1 Culture] from [Wheat] tiles [in this city]",
+        "Only available <after adopting [Celtic Culture]>"
+    ]
+},
+{
+    "name": "Cult of Cernunnos",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The horned god of nature, wild animals, and prosperity. He symbolized fertility, wealth, and the untamed wilderness, and is best known from the Gundestrup Cauldron.]",
+        "[+1 Food, +1 Faith, +2 Gold] from [Camp] tiles [in this city]",
+        "[+1 Faith, +1 Happiness] from every [Cattle Trader]",
+        "Only available <after adopting [Celtic Culture]>"
+    ]
+},
+{
+    "name": "Cult of Belenus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A widely revered Celtic god of healing and light, commonly identified with Apollo by the Romans. His cult flourished across Gaul, northern Italy, and Noricum.]",
+        "[+15]% growth [in capital]",
         "[+1 Happiness] from every [Temple]",
-        "[+1 Faith] from every [Temple]",
+        "Only available <after adopting [Celtic Culture]>"
+    ]
+},
+// Eastern
+{
+    "name": "Cult of Ahura Mazda",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The supreme deity of Zoroastrianism, representing wisdom, truth, and the cosmic struggle against evil. He was the chief god of the Achaemenid and later Iranian peoples.]",
+        "[+1 Happiness, +1 Faith, +1 Food] from every [Temple]",
         "Only available <for [The Arsacids] Civilizations>"
-        ]
-    },
-    {
-        "name": "Cult of Thagimasadas",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Thagimasadas",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A Scythian god identified by Herodotus with Poseidon, but revered by the steppe nomads as a divine patron of horses and the warrior aristocracy.]",
         "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion",
         "[+1 Happiness] from every [Cavalry Barracks]",
         "Only available <for [The Scythians] Civilizations>"
-        ]
-    },
-    {
-        "name": "Cult of Tabiti", 
-        "type": "Pantheon",
-        "uniques": [
-        "[+20]% Strength for cities <when defending>",
+    ]
+},
+{
+    "name": "Cult of Tabiti",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Scythian goddess of the sacred hearth, regarded by Herodotus as the most honored of the Scythian deities and associated with royal authority and domestic prosperity.]",
+        "[+15]% Strength for cities <when defending>",
+        "[+1 Happiness, +1 Food] from every [Palace]",
         "Only available <for [The Sarmatians] Civilizations>"
-        ]
-    },
-    {
-        "name": "Cult of Armazd",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Armazd",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Armenian form of Ahura Mazda, revered as the supreme creator and protector. His worship became central to the Armenian religious tradition before Christianity.]",
         "[+10]% growth [in this city]",
+        "[+10]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+        "[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
         "Only available <for [The Armenians] Civilizations>"
-        ]
-    },
-    {
-        "name": "Cult of Anahita",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Happiness, +1 Food, +1 Culture] in cities on [River] tiles",
-        "[+10]% Production when constructing [Archery] units [in this city]",
-        "New [Ranged] units start with [10] XP [in this city]",
+    ]
+},
+{
+    "name": "Cult of Anahita",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [An Iranian goddess of rivers, fertility, healing, and purity. Her cult spread widely across Persia, Armenia, and the Iranian world during the Hellenistic era.]",
+        "[+1 Happiness, +1 Food] from [River] tiles [in this city]",
+        "[+20]% Production when constructing [Archery] units [in this city]",
         "Only available <after adopting [Eastern Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Verethragna",
-        "type": "Pantheon",
-        "uniques": [
-        "New [Melee] units start with [20] XP [in this city]",
+    ]
+},
+{
+    "name": "Cult of Verethragna",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Iranian god of victory and heroic strength, often invoked by kings and warriors before battle as the divine embodiment of triumph.]",
+        "New [Sword] units start with [10] XP [in this city]",
+        "New [Spear] units start with [10] XP [in this city]",
         "Only available <after adopting [Eastern Culture]>"
-        ]
-    },
+    ]
+},
+{
+    "name": "Cult of Mithra",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [An ancient Iranian god of covenants, justice, light, and royal authority. His worship later spread throughout the Roman Empire as the Mysteries of Mithras.]",
+        "[+1 Happiness, +1 Faith, +1 Culture] from every [Courthouse]",
+        "[+20]% Production when constructing [Courthouse] buildings [in this city]",
+        "Only available <after adopting [Eastern Culture]>"
+    ]
+},
 // Germanic
-    {
-        "name": "Cult of Woden",
-        "type": "Pantheon",
-        "uniques": [
+{
+    "name": "Cult of Woden",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The chief god of the Germanic peoples, associated with wisdom, kingship, poetry, and victory in battle. His worship later developed into the Norse cult of Odin.]",
         "[+2 Happiness] from every [Barracks]",
         "New [Melee] units start with [10] XP [in this city]",
         "Only available <after adopting [Germanic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Donar",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>",
-        "[+2 Gold] [in cities following this religion] <in cities with at least [10] [Population]>",
+    ]
+},
+{
+    "name": "Cult of Donar",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Germanic god of thunder, storms, and protection, revered as a guardian of both warriors and farmers. He later became known as Thor in Norse tradition.]",
+        "[+1 Production, +2 Gold] [in cities following this religion] <in cities with at least [5] [Population]>",
         "Only available <after adopting [Germanic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Freyja",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Faith, +1 Food, +1 Gold] from every [Camp]",
+    ]
+},
+{
+    "name": "Cult of Freyja",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A goddess of fertility, prosperity, beauty, and sacred magic. Although best known from later Norse tradition, she likely preserves beliefs rooted in earlier Germanic religion.]",
+        "[+1 Faith, +1 Food, +1 Gold, +1 Happiness, +1 Culture] from every [Camp]",
         "Only available <after adopting [Germanic Culture]>"
-        ]
-    },
+    ]
+},
+{
+    "name": "Cult of Tyr",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [An ancient Germanic god of law, honor, and heroic warfare. Early Roman writers identified him with Mars, reflecting his role as a patron of courage and justice.]",
+        "New [Sword] units start with [20] XP [in this city]",
+        "[+1 Happiness] from every [Barracks] <when at war>",
+        "Only available <after adopting [Germanic Culture]>"
+    ]
+},
+
 // Hellenic
-    {
-        "name": "Cult of Zeus",
-        "type": "Pantheon",
-        "uniques": [
-        "[+2 Happiness] from every [Temple]",
+{
+    "name": "Cult of Zeus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [King of the Olympian gods and ruler of the sky, thunder, and justice. Zeus was the supreme deity worshipped throughout the Greek world.]",
+        "[+2 Happiness, +1 Faith] from every [Temple]",
         "[+1 Culture] from every [Camp]",
+        "New [Siege] units start with [10] XP [in this city]",
         "Only available <after adopting [Hellenic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Athena",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Athena",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Goddess of wisdom, strategy, and just warfare, revered as the patron deity of Athens and protector of civilized life.]",
         "[+10]% Strength for cities <when defending>",
         "[+1 Science] from every [Temple]",
-        "[+1 Culture] from every [Temple]",
+        "[+1 Faith] from every [School]",
         "Only available <after adopting [Hellenic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Poseidon",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Gold, +1 Faith] from every [Harbor]",
-        "[+2 Gold, +1 Faith, +1 Food] from every [Great Harbor]",
-        "New [Mounted] units start with [10] XP [in this city]",
-        "New [Melee Water] units start with [10] XP [in this city]",
+    ]
+},
+{
+    "name": "Cult of Poseidon",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [God of the sea, earthquakes, and horses. His favor was sought by sailors, merchants, and every Greek city that depended on maritime trade.]",
+        "[+2 Gold, +1 Faith] from every [Harbor]",
+        "[+5 Gold, +2 Faith, +3 Food, +3 Happiness] from every [Great Harbor]",
+        "New [Water] units start with [10] XP [in this city]",
         "Only available <after adopting [Hellenic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Ares",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Ares",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Greek god of war, embodying the brutality and courage of battle. Though less beloved than Athena, he remained an important military deity.]",
         "New [Spear] units start with [10] XP [in this city]",
         "[+1 Happiness] from every [Barracks]",
+        "[+1 Happiness] from every [Barracks] <when at war>",
         "Only available <after adopting [Hellenic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Artemis",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Artemis",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Goddess of the hunt, wilderness, and wild animals, also revered as a protector of young people and childbirth throughout the Greek world.]",
         "[+1 Food] [in this city]",
-        "[+1 Happiness] from every [Skirmisher Barracks]",
+        "[+1 Happiness, +1 Food] from every [Skirmisher Barracks]",
+        "[+1 Faith, +1 Food] from every [Hunting Lodge]",
         "[+10]% Production when constructing [Archery] units [in this city]",
         "Only available <after adopting [Hellenistic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Apollo",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Gold] from every [Temple]",
-        "[+1 Science] from every [Market]",
+    ]
+},
+{
+    "name": "Cult of Apollo",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [God of light, prophecy, music, healing, and knowledge. His sanctuary at Delphi was among the most influential religious centers in the ancient world.]",
+        "[+3 Gold] from every [Temple]",
+        "[+1 Science, +1 Culture, +1 Happiness] from every [Market]",
         "Only available <after adopting [Hellenistic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Dionysos",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Culture, +1 Gold, +1 Faith] from [Wine] tiles [in this city]",
+    ]
+},
+{
+    "name": "Cult of Dionysos",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [God of wine, theater, festivity, and ecstatic worship. His festivals inspired some of the greatest traditions of Greek drama.]",
+        "[+1 Culture, +3 Gold, +2 Faith, +1 Happiness] from [Wine] tiles [in this city]",
         "[+1 Happiness] from every [Banquet Hall]",
         "Only available <after adopting [Hellenistic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Heracles",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Heracles",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The greatest Greek hero, later worshipped as a divine protector of strength, endurance, and victorious kings throughout the Hellenistic world.]",
         "New [Foot Guard] units start with [20] XP [in this city]",
         "New [King] units start with [15] XP [in this city]",
-        "[+10]% [Culture] [in annexed cities]",
-        "Only available <after adopting [Hellenistic Culture]>",
-        ]
-    },
-    {
-        "name": "Cult of Nike",
-        "type": "Pantheon",
-        "uniques": [
-        "New [Melee] units start with [20] XP [in this city]",
+        "[+1 Culture, +1 Happiness] [in annexed cities]",
         "Only available <after adopting [Hellenistic Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Isis",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Nike",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The winged goddess of victory, honored by both soldiers and athletes. She symbolized triumph granted through divine favor.]",
+        "New [Spear] units start with [20] XP [in this city]",
+        "[+1 Faith] from every [Army Barracks]",
+        "Only available <after adopting [Hellenistic Culture]>"
+    ]
+},
+{
+    "name": "Cult of Asclepius",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Greek god of medicine and healing, whose sanctuaries drew pilgrims from across the Mediterranean seeking divine cures. His sacred rod remains the enduring symbol of medicine.]",
+        "[+20]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+        "[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
+        "[All] Units adjacent to this city heal [+3] HP per turn when healing",
+        "Only available <after adopting [Hellenistic Culture]>"
+    ]
+},
+{
+    "name": "Cult of Isis",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Originally an Egyptian goddess of motherhood, healing, and magic, Isis became one of the most widely worshipped deities across the Hellenistic Mediterranean.]",
         "[+1 Faith, +1 Food] from every [Temple]",
         "[All] Units adjacent to this city heal [+5] HP per turn when healing",
         "Only available <for [The Ptolemies] Civilizations>"
-        ]
-    },
-    {
-        "name": "Cult of Serapis",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Food] from every [Granary]",
+    ]
+},
+{
+    "name": "Cult of Serapis",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A syncretic deity created under the Ptolemies, combining Greek and Egyptian traditions to unite the diverse peoples of their kingdom.]",
+        "[+1 Food, +1 Faith] from every [Granary]",
         "[+2 Food, +2 Gold] from every [Palace]",
         "Only available <for [The Ptolemies] Civilizations>"
-        ]
-    },
-    {
-        "name": "Cult of Ptah",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Ptah",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [An ancient Egyptian creator god and patron of craftsmen and architects, whose worship remained influential under the Ptolemaic dynasty.]",
         "[+2 Faith, +1 Production, +2 Gold] from every [Workshop]",
         "New [Siege] units start with [10] XP [in this city]",
         "Only available <for [The Ptolemies] Civilizations>"
-        ]
-    },
+    ]
+},
 // Iberian
-    {
-        "name": "Cult of the Horses",
-        "type": "Pantheon",
-        "uniques": [
+{
+    "name": "Cult of the Sacred Horse",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Horses held deep religious and aristocratic significance among the Iberian and Celtiberian peoples, symbolizing status, warfare, and sacred ritual throughout the peninsula.]",
         "New [Mounted] units start with [10] XP [in this city]",
         "[+2 Faith] from every [Cavalry Barracks]",
         "Only available <after adopting [Iberian Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Betatun",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Betatun",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A little-known healing deity attested in ancient Hispania, worshipped as a protector of health and recovery. Like many Iberian gods, little is known beyond surviving inscriptions.]",
         "[All] Units adjacent to this city heal [+25] HP per turn when healing",
         "Only available <after adopting [Iberian Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Ataegina",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Ataegina",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [An important goddess of the southwestern Iberian Peninsula associated with fertility, rebirth, the underworld, and the renewal of nature. Her worship continued well into the Roman period.]",
         "[+5]% growth [in this city]",
         "[+1 Faith, +1 Food] from every [Granary]",
         "Only available <after adopting [Iberian Culture]>"
-        ]
-    },
+    ]
+},
+{
+    "name": "Cult of Endovelicus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [One of the most important native gods of western Iberia, revered as a healer, protector, and giver of prophetic dreams. His sanctuary remained active well into the Roman era.]",
+        "[+1 Happiness, +1 Faith] from every [Temple]",
+        "[+20]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+        "[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
+        "[All] Units adjacent to this city heal [+3] HP per turn when healing",
+        "Only available <after adopting [Iberian Culture]>"
+    ]
+},
 // Illyrian
-    {
-        "name": "Cult of Tadenus",
-        "type": "Pantheon",
-        "uniques": [
-        "[+5]% [Gold] [in this city]",
-        "[+1 Faith, +1 Gold] from every [Market]",
+{
+    "name": "Cult of Tadenus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A local Illyrian deity worshipped by the Delmatae, known mainly from Roman-era inscriptions. His exact role is uncertain, but he was an important regional god.]",
+        "[+10]% [Gold] [in capital]",
+        "[+1 Faith, +1 Gold, +1 Happiness] from every [Market]",
         "Only available <after adopting [Illyrian Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Andinus",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Andinus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [An Illyrian god known from inscriptions in the western Balkans. Although little is known of his attributes, he was likely revered by local warrior communities.]",
         "All newly-trained [Spear] units [in this city] receive the [Shock I] promotion",
-        "[+1 Happiness] from every [Barracks]",
+        "[+1 Happiness, +1 Faith] from every [Barracks]",
+        "[+2 Gold, +1 Faith] from every [Barracks] <when at war>",
         "Only available <after adopting [Illyrian Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Armatus",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Armatus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [A little-known Illyrian deity recorded in Roman inscriptions. His name may derive from the Latin word for 'armed,' making him a fitting patron of warriors and seafarers.]",
         "New [Melee Water] units start with [30] XP [in this city]",
-        "[+1 Gold] from every [Drydock]",
+        "[+1 Gold, +1 Faith, +1 Food] from every [Drydock]",
+        "[+2 Gold, +1 Culture] from every [Harbor]",
         "Only available <after adopting [Illyrian Culture]>"
-        ]
-    },
+    ]
+},
 // Latin
-    {
-        "name": "Cult of Jupiter",
-        "type": "Pantheon",
-        "uniques": [
-        "[+2 Happiness, +1 Gold] from every [Temple]",
+{
+    "name": "Cult of Jupiter",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The supreme god of Roman religion, ruler of the sky, thunder, and the Roman state. Jupiter was worshipped as the divine guardian of Rome and its laws.]",
+        "[+1 Happiness, +2 Gold] from every [Temple]",
+        "[+1 Happiness, +1 Faith] from every [Courthouse]",
+        "[+1 Happiness, +1 Faith, +1 Production] from every [Palace]",
         "Only available <after adopting [Latin Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Ceres",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Food, +2 Gold, +1 Faith] from every [Plantation]",
+    ]
+},
+{
+    "name": "Cult of Ceres",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Roman goddess of agriculture, grain, and fertility. Her annual festivals celebrated the harvest and ensured the food supply of the Republic.]",
+        "[+1 Food, +2 Gold, +1 Faith] from [Plantation] tiles [in this city]",
+	"[+1 Food] [in all cities]",
+	"[+1 Happiness] [in all cities] <when not at war>",
         "Only available <after adopting [Latin Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Mars",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Mars",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Originally a protector of agriculture, Mars became Rome's principal god of war and the legendary father of Romulus and Remus, founders of the city.]",
         "New [Sword] units start with [15] XP [in this city]",
-        "[+2 Faith] from every [Army Barracks]",
+        "[+2 Faith, +1 Happiness] from every [Army Barracks]",
+        "[+1 Faith] from every [Barracks] <when at war>",
         "Only available <after adopting [Latin Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Neptune",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Food] from every [Anchorage]",
-        "[+1 Food, +1 Gold] from every [Harbor]",
-        "[+1 Food, +1 Gold, +1 Faith] from every [Great Harbor]",
-        "[+5]% Production when constructing [Water] units [in this city]",
+    ]
+},
+{
+    "name": "Cult of Neptune",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Roman god of the sea, fresh waters, and horses. As Rome expanded across the Mediterranean, Neptune became the protector of sailors and naval power.]",
+        "[+1 Food, +1 Faith] from [Fishing Boats] tiles [in this city]",
+        "[+1 Food] from [River] tiles [in this city]",
+        "[+1 Happiness] from every [Harbor]",
+        "[+10]% Production when constructing [Water] units [in this city]",
         "Only available <after adopting [Latin Culture]>"
-        ]
-    },
+    ]
+},
+{
+    "name": "Cult of Mercury",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Roman god of commerce, merchants, travelers, and profit. His cult flourished as Rome's trade expanded across Italy and the Mediterranean.]",
+        "[+1 Gold] from [Trading post] tiles [in this city]",
+        "[+2 Gold, +1 Faith] from every [Market]",
+        "[+3 Gold, +2 Faith, +3 Happiness] from every [Great Market]",
+        "Only available <after adopting [Latin Culture]>"
+    ]
+},
+{
+    "name": "Cult of Vesta",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The goddess of the sacred hearth and protector of the Roman home and state. Her eternal flame, tended by the Vestal Virgins, symbolized the life of Rome itself.]",
+	"[+20]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+        "[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
+        "[+1 Food, +1 Happiness, +1 Faith] from [Village] tiles [in this city]",
+	"[+1 Food, +1 Happiness] [in capital]",
+        "Only available <after adopting [Latin Culture]>"
+    ]
+},
+{
+    "name": "Cult of Diana",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Roman goddess of the hunt, forests, and wild animals. Worshipped across Italy, she was especially revered at her great sanctuary near Lake Nemi.]",
+        "[+1 Food, +1 Faith, +1 Happiness] from every [Hunting Lodge]",
+        "[+1 Food, +1 Faith] from [Camp] tiles [in this city]",
+        "[+1 Gold] from [Forest] tiles [in this city]",
+        "Only available <after adopting [Latin Culture]>"
+    ]
+},
+{
+    "name": "Cult of Janus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The uniquely Roman god of beginnings, endings, gates, and transitions. The doors of his temple stood open in times of war and closed only during peace.]",
+        "[+1 Food, +1 Culture, +1 Gold, +1 Faith, +1 Production, +2 Happiness] from every [Courthouse]",
+        "[+20]% Production when constructing [Courthouse] buildings [in this city]",
+        "Only available <after adopting [Latin Culture]>"
+    ]
+},
 // Punic
-    {
-        "name": "Cult of Baal Hammon",
-        "type": "Pantheon",
-        "uniques": [
+{
+    "name": "Cult of Baal Hammon",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Chief deity of Carthage, Baal Hammon was associated with kingship, fertility, agriculture, and the prosperity of the Punic people. He was often identified with Saturn by the Romans.]",
         "[+2 Happiness] from every [Temple]",
+        "[+1 Food, +1 Faith] from every [Plantation]",
+        "[-1 Food, +1 Faith, +1 Happiness] [in capital]",
         "[+10]% Production when constructing [Melee] units [in this city]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
-        ]
-    },
-    {
-        "name": "Cult of Baal Saphon",
-        "type": "Pantheon",
-        "uniques": [
-        "[+2 Gold, +1 Faith] from every [Harbor]",
-        "[+4 Gold, +1 Faith] from every [Great Harbor]",
+    ]
+},
+{
+    "name": "Cult of Baal Saphon",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Lord of storms, the sea, and safe navigation. Baal Saphon protected sailors and merchants, making him one of the most important gods for the maritime empire of Carthage.]",
+        "[+1 Culture, +2 Gold, +1 Faith, +1 Happiness] from every [Harbor]",
+        "[+1 Culture, +4 Gold, +1 Faith, +3 Happiness] from every [Great Harbor]",
         "[+10]% Production when constructing [Water] units [in this city]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
-        ]
-    },
-    {
-        "name": "Cult of Melquart",
-        "type": "Pantheon",
-        "uniques": [
-        "[+1 Gold] from every [Barracks]",
-        "New [Spear] units start with [15] XP [in this city]",
+    ]
+},
+{
+    "name": "Cult of Melqart",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Patron god of Tyre and later Carthage, Melqart represented kingship, exploration, colonization, and heroic strength. Greek writers identified him with Heracles.]",
+        "[+1 Gold, +1 Faith, +1 Happiness] from every [Barracks]",
+        "[+10]% Production when constructing [Settler] units [in this city]",
+        "[+10]% Production when constructing [Skirmisher] units [in this city]",
+        "New [Spear] units start with [10] XP [in this city]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
-        ]
-    },
-    {
-        "name": "Cult of Astarte",
-        "type": "Pantheon",
-        "uniques": [
-        "[+2 Happiness] from every [Cavalry Barracks]",
+    ]
+},
+{
+    "name": "Cult of Astarte",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Astarte was the great Punic goddess of fertility, love, warfare, and royal authority. Her worship spread throughout the Mediterranean alongside Phoenician trade.]",
+        "[+2 Happiness, +2 Food, +1 Faith] from every [Palace]",
+        "[+1 Happiness, +1 Faith] from every [Cavalry Barracks]",
         "New [Mounted] units start with [15] XP [in this city]",
+        "New [Elephant] units start with [15] XP [in this city]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
-        ]
-    },
-    {
-        "name": "Cult of Tanit",
-        "type": "Pantheon",
-        "uniques": [
-        "[+2 Food, +1 Faith] from every [Granary]",
+    ]
+},
+{
+    "name": "Cult of Tanit",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The chief goddess of Carthage, Tanit embodied fertility, protection, motherhood, and the prosperity of both the city and its people. Her symbol became one of the defining emblems of Punic civilization.]",
+        "[+1 Faith, +1 Happiness] [in all cities]",
+        "[+1 Food, +1 Gold] from every [Granary]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
-        ]
-    },
+    ]
+},
+
 // Thracian
-    {
-        "name": "Cult of The Cabeiri",
-        "type": "Pantheon",
-        "uniques": [
-        "[+3 Happiness, +3 Culture, +3 Science, +3 Production, +5 Gold] [in capital]",
+{
+    "name": "Cult of The Cabeiri",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Cabeiri were mysterious chthonic deities worshipped across Thrace and the northern Aegean. They were revered as protectors of kings, craftsmen, sailors, and sacred mysteries.]",
+        "[+5 Happiness, +5 Culture, +5 Science, +3 Production, +5 Faith, +10 Gold] [in capital]",
         "Only available <for [The Odrysians] Civilizations>"
-        ]
-    },
-    {
-        "name": "Cult of Zalmoxis",
-        "type": "Pantheon",
-        "uniques": [
+    ]
+},
+{
+    "name": "Cult of Zalmoxis",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The supreme deity of the Getae and Dacians, Zalmoxis taught immortality of the soul and inspired fearless warriors willing to die in battle.]",
         "[+20]% Production when constructing [Hill Fort] buildings [in this city]",
-        "[+1 Happiness] from every [Hill Fort]",
+        "[+1 Happiness, +1 Faith] from every [Hill Fort]",
         "New [Falxman] units start with [10] XP [in this city]",
         "Only available <for [The Getae] Civilizations>"
-        ]
-    },
-    {
-        "name": "Cult of Zagreus",
-        "type": "Pantheon",
-        "uniques": [
-        "[+3 Culture, +2 Faith] from [Wine] tiles [in this city]",
-        "[+10]% Production when constructing [Scout] units [in this city]",
-        "New [Scout] units start with [20] XP [in this city]",
+    ]
+},
+{
+    "name": "Cult of Zagreus",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [Associated with ecstatic rites, rebirth, wine, and the wilderness, Zagreus was worshipped in parts of Thrace and later became intertwined with Dionysian mystery traditions.]",
+        "[+3 Culture, +2 Faith, +1 Happiness] from [Wine] tiles [in this city]",
+        "[+20]% Production when constructing [Skirmisher] units [in this city]",
+        "New [Skirmisher] units start with [20] XP [in this city]",
+        "New [Mounted Skirmisher] units start with [10] XP [in this city]",
         "Only available <after adopting [Thracian Culture]>"
-        ]
-    },
-    {
-        "name": "Cult of Salenos",
-        "type": "Pantheon",
-        "uniques": [
-        "New [Mounted] units start with [15] XP [in this city]",
-        "[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+    ]
+},
+{
+    "name": "Cult of Heros",
+    "type": "Pantheon",
+    "uniques": [
+        "Comment [The Thracian Horseman, known simply as Heros, was the most widespread hero-deity of Thrace. He protected riders, hunters, and warriors, and was often depicted galloping toward victory.]",
+        "New [Mounted] units start with [20] XP [in this city]",
+        "[+2 Faith, +2 Happiness, +2 Gold] from [Horses] tiles [in this city]",
         "Only available <after adopting [Thracian Culture]>"
-        ]
-    },
+    ]
+},
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
         "name": "Asceticism",
@@ -740,7 +930,7 @@
     "type": "Founder",
     "uniques": [
         "[+20]% Golden Age length",
-        "[+3 Happiness, +2 Faith] from every [Palace] [in this city]",
+        "[+3 Happiness, +2 Faith] from every [Palace]",
         "[+2 Culture, +2 Gold] from every [Grand Temple] <in cities with at least [10] [Followers of this Religion]>"
     ]
 }

@@ -162,8 +162,8 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"production": 1,
-		"gold": 2,
-  		"food": 2,
+		"gold": 1,
+  		"food": 1,
   		"happiness": 1,
 		"cityHealth": 20,
 		"uniques": [
@@ -180,12 +180,13 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 1,
-  		"happiness": 1,
 		"production": 1,
+  		"food": 1,
 		"cityHealth": 20,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-			"Consumes [1] [Sanitation]",			"Cost increases by [2] per owned city",
+			"Consumes [1] [Sanitation]",
+			"Cost increases by [2] per owned city",
 			"Only available <in cities with a [Urban Fabric II]> <in cities with at least [10] [Population]>",
 			"[+1000]% weight to this choice for AI decisions",
 		],
@@ -199,7 +200,6 @@
 		"maintenance": 0,
 		"gold": 3,
   		"happiness": 1,
-		"production": 1,
 		"science": 1,
 		"cityHealth": 30,
 		"greatPersonPoints": {"Great Artist":1},
@@ -220,7 +220,6 @@
 		"maintenance": 0,
 		"gold": 5,
   		"happiness": 2,
-		"production": 1,
 		"science": 1,
 		"cityHealth": 50,
 		"greatPersonPoints": {"Great Artist":1},
@@ -269,7 +268,7 @@
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"[+10]% Production when constructing [Cure PLAGUE] buildings [in this city]"
 			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]"
-			"Remove [PLAGUE] [in this city] <with [2]% chance> <upon turn end>",
+			"Remove [PLAGUE] [in this city] <with [1]% chance> <upon turn end>",
 			"Cost increases by [3] per owned city",
 		],
 		"requiredTech": "Mysticism"
@@ -1466,15 +1465,17 @@
 	},
 	{
 		"name": "Courthouse",
+		"happiness": 1,
 		"maintenance": 2,
 		"cost": 70,
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [
-			"Can only be built <in [Annexed] cities>",
+			"Only available <in cities with a [Urban Fabric III]>"
 			"Removes extra unhappiness from annexed cities",
 			"Provides [1] [Decadence]",
-			"Cannot be purchased",
+			"Cost increases by [3] per owned city",
 			"Destroyed when the city is captured",
+			"Cannot be purchased",
 		],
 		"requiredTech": "Writing"
 	},
@@ -1508,7 +1509,7 @@
 		"Gold": 1,
 		"happiness": 1,
 		"uniques": [
-			"Only available <in cities with a [Urban Fabric II]>"
+			"Only available <in cities with a [Urban Fabric III]>"
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Perfume]",
@@ -2330,7 +2331,7 @@
 	{
 		"name": "Cure PLAGUE"
 		"maintenance": 0,
-		"cost": 20,
+		"cost": 30,
 		"uniques": [
 			"Only available <in cities with a [PLAGUE]>"
 			"Remove [PLAGUE] [in this city]",
@@ -2344,7 +2345,7 @@
 	{
 		"name": "Cure DANGEROUS PLAGUE"
 		"maintenance": 0,
-		"cost": 40,
+		"cost": 50,
 		"requiredBuilding": "DANGEROUS PLAGUE",
 		"uniques": [
 			"Only available <in cities with a [DANGEROUS PLAGUE]>"
