@@ -2851,14 +2851,27 @@
 /////Unit buffs
 
 {
+	"name": "Naval Focus",
+	"uniques": [
+            "Comment [Provides temporary bonuses to Mounted units]",
+		"[+2] XP gained from combat <for [Water] units>",
+		"[+1] Sight <for [Water] units>",
+		"[+10]% Strength <for [Water] units>",
+		"[+5] HP when healing <for [Water] units>",
+		"[+50]% maintenance costs <for [Water] units>",
+		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
+		"Triggers a [Fleet Budget Review] event <upon turn start> <with [3]% chance>",
+		]
+},
+{
 	"name": "Mounted Focus",
 	"uniques": [
             "Comment [Provides temporary bonuses to Mounted units]",
-                "New [Mounted] units start with [10] XP [in all cities]",
 		"[+2] XP gained from combat <for [Mounted] units>",
-		"[+20]% Strength <when attacking> <for [Mounted] units>",
-		"[+1] Movement <for [Horseman] units>",
+		"[+10]% Strength <when attacking> <for [Mounted] units>",
+		"[+1] Sight <for [Horseman] units>",
 		"[+5] HP when healing <for [Mounted] units>",
+		"[+30]% maintenance costs <for [Mounted] units>",
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Cavalry Budget Crisis] event <upon turn start> <with [3]% chance>",
 		]
@@ -2867,10 +2880,10 @@
 	"name": "Archery Focus",
 	"uniques": [
 		"Comment [Provides temporary bonuses to Archery units]",
-		"New [Archery] units start with [20] XP [in all cities]",
-		"[+2] XP gained from combat <for [Archery] units>",
+		"[+1] XP gained from combat <for [Archery] units>",
 		"[+10]% Strength <when attacking> <for [Archery] units>",
 		"[+1] Sight <for [Archery] units>",
+		"[+30]% maintenance costs <for [Archery] units>",
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Arrow Procurement Debate] event <upon turn start> <with [3]% chance>",
 ]
@@ -2879,9 +2892,10 @@
 	"name": "Mounted Archery Focus",
 	"uniques": [
 		"Comment [Provides temporary bonuses to Mounted Archery units]",
-		"New [Mounted Archery] units start with [20] XP [in all cities]",
-		"[+2] XP gained from combat <for [Mounted Archery] units>",
-		"[+10]% Strength <for [Mounted Archery] units>",
+		"[+1] XP gained from combat <for [Mounted Archery] units>",
+		"[+10]% Strength <when attacking> <for [Mounted Archery] units>",
+		"[+1] Sight <for [Archery] units>",
+		"[+30]% maintenance costs <for [Mounted Archery] units>",
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Horse Archer Procurement Report] event <upon turn start> <with [3]% chance>",
 ]
@@ -2890,10 +2904,10 @@
 	"name": "Spear Focus",
 	"uniques": [
 		"Comment [Provides temporary bonuses to Spear units]",
-		"New [Spear] units start with [20] XP [in all cities]",
 		"[+2] XP gained from combat <for [Spear] units>",
 		"[+20]% Strength <when defending> <for [Spear] units>",
-		"[+5] HP when healing <for [Sword] units>",
+		"[+5] HP when healing <for [Spear] units>",
+		"[+30]% maintenance costs <for [Spear] units>",
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Quality Sticks Maintenance Report] event <upon turn start> <with [3]% chance>",
 ]
@@ -2902,10 +2916,10 @@
 	"name": "Sword Focus",
 	"uniques": [
 		"Comment [Provides temporary bonuses to Sword units]",
-		"New [Sword] units start with [20] XP [in all cities]",
 		"[+2] XP gained from combat <for [Sword] units>",
-		"[+10]% Strength <for [Sword] units>",
-		"[+12] HP when healing <for [Sword] units>",
+		"[+10]% Strength <when attacking> <for [Sword] units>",
+		"[+5] HP when healing <for [Sword] units>",
+		"[+30]% maintenance costs <for [Sword] units>",
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Sword Training Review] event <upon turn start> <with [3]% chance>",
 ]
@@ -2914,21 +2928,15 @@
 	"name": "Shield Infantry Focus",
 	"uniques": [
 		"Comment [Provides temporary bonuses to Medium Shield Infantry units]",
-		"[+4] XP gained from combat <for units with [Infantry Shield II]>",
+		"[+2] XP gained from combat <for units with [Infantry Shield II]>",
 		"[+10]% Strength <when defending> <for units with [Infantry Shield II]>",
-		"[+10] HP when healing <for units with [Infantry Shield II]>",
-		"Triggers a [Shield Infantry Funding Review] event <upon turn start> <with [3]% chance>",
-		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
-]
-},
-{
-	"name": "Heavy Infantry Focus",
-	"uniques": [
-		"Comment [Provides temporary bonuses to Heavy Shield Infantry units]",
-		"[+4] XP gained from combat <for units with [Infantry Shield III]>",
+		"[+5] HP when healing <for units with [Infantry Shield II]>",
+		"[+30]% maintenance costs <for [Infantry Shield II] units>",
+		"[+2] XP gained from combat <for units with [Infantry Shield III]>",
 		"[+10]% Strength <when defending> <for units with [Infantry Shield III]>",
-		"[+10] HP when healing <for units with [Infantry Shield III]>",
-		"Triggers a [Heavy Infantry Funding Review] event <upon turn start> <with [3]% chance>",
+		"[+5] HP when healing <for units with [Infantry Shield III]>",
+		"[+30]% maintenance costs <for [Infantry Shield III] units>",
+		"Triggers a [Shield Infantry Funding Review] event <upon turn start> <with [3]% chance>",
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 ]
 },
@@ -4851,13 +4859,39 @@
 
 					///GRAND CAMPAIGN
 
-  	{
-    		"name": "Grand Campaign",
-		"specialistSlots": {"Artist": 1},
-    		"uniques": [
-			"Moves to new capital when capital changes",
-			"Unsellable <hidden from users>",
-      			"Unbuildable <hidden from users>",
+ {
+    	"name": "Grand Campaign",
+	"specialistSlots": {"Artist": 1},
+    	"uniques": [
+                "Triggers a [Albion United] event <when below [1] [Albion P]> <hidden from users>",
+                "Triggers a [Hispania United] event <when below [1] [Hispania P]> <hidden from users>",
+                "Triggers a [Gallia United] event <when below [1] [Gallia P]> <hidden from users>",
+                "Triggers a [Germania United] event <when below [1] [Germania P]> <hidden from users>",
+                "Triggers a [Italia United] event <when below [1] [Italia P]> <hidden from users>",
+                "Triggers a [Corsica et Sardinia United] event <when below [1] [Corsica et Sardinia P]> <hidden from users>",
+                "Triggers a [Sicilia Magna United] event <when below [1] [Sicilia Magna P]> <hidden from users>",
+                "Triggers a [Africa Pacata United] event <when below [1] [Africa Pacata P]> <hidden from users>",
+                "Triggers a [Aegyptus Maior United] event <when below [1] [Aegyptus Maior P]> <hidden from users>",
+                "Triggers a [Arabia United] event <when below [1] [Arabia P]> <hidden from users>",
+                "Triggers a [Syria Maior United] event <when below [1] [Syria Maior P]> <hidden from users>",
+                "Triggers a [Mesopotamia Maior United] event <when below [1] [Mesopotamia Maior P]> <hidden from users>",
+                "Triggers a [Persia United] event <when below [1] [Persia P]> <hidden from users>",
+                "Triggers a [Ariana United] event <when below [1] [Ariana P]> <hidden from users>",
+                "Triggers a [Bactria Maior United] event <when below [1] [Bactria Maior P]> <hidden from users>",
+                "Triggers a [Anatolia United] event <when below [1] [Anatolia P]> <hidden from users>",
+                "Triggers a [Armenia et Caucasus United] event <when below [1] [Armenia et Caucasus P]> <hidden from users>",
+                "Triggers a [Pontus Euxinus United] event <when below [1] [Pontus Euxinus P]> <hidden from users>",
+                "Triggers a [Sarmatia Maior United] event <when below [1] [Sarmatia Maior P]> <hidden from users>",
+                "Triggers a [Hercynia Maior United] event <when below [1] [Hercynia Maior P]> <hidden from users>",
+                "Triggers a [Dacia Maior United] event <when below [1] [Dacia Maior P]> <hidden from users>",
+                "Triggers a [Illyricum United] event <when below [1] [Illyricum P]> <hidden from users>",
+                "Triggers a [Macedonia et Hellas United] event <when below [1] [Macedonia et Hellas P]> <hidden from users>",
+                "Triggers a [Thracia Maior United] event <when below [1] [Thracia Maior P]> <hidden from users>",
+                "Triggers a [Sarmatia Maior United] event <when below [1] [Sarmatia Maior P]> <hidden from users>",
+		"Moves to new capital when capital changes <hidden from users>",
+		"Unsellable <hidden from users>",
+      		"Unbuildable <hidden from users>",
+
     ]
   	},
 

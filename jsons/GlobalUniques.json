@@ -108,6 +108,13 @@
 	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Immortal] difficulty>",
 	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Deity] difficulty>",
 
+        "Free [Battering Ram] appears <when at war> <with [3]% chance> <for [AI player] Civilizations> <starting from the [Classical Age]> <before adopting [Nomad Culture]>",
+        "Free [Siege Tower] appears <when at war> <with [3]% chance> <for [AI player] Civilizations> <starting from the [Hellenistic Age]> <before adopting [Nomad Culture]>",
+        "Free [Battering Ram] appears <when at war> <with [1]% chance> <for [AI player] Civilizations> <starting from the [Classical Age]> <after adopting [Nomad Culture]>",
+        "Free [Siege Tower] appears <when at war> <with [1]% chance> <for [AI player] Civilizations> <starting from the [Hellenistic Age]> <after adopting [Nomad Culture]>",
+	"[+20]% Health from pillaging tiles <for [Mounted Archery] units> <for [AI player] Civilizations> <after adopting [Nomad Culture]>"
+	"[+20]% Health from pillaging tiles <for [Mounted] units> <for [AI player] Civilizations> <after adopting [Nomad Culture]>"
+
 //free unit
 
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [2] [Manpower]> <upon founding a city>",
@@ -242,6 +249,8 @@
 	"Provides [1] [Thracian Grand Campaign] <after adopting [Thracian Culture]> <if [Grand Campaign] is constructed by anybody>",
 	"Provides [1] [Illyrian Grand Campaign] <after adopting [Illyrian Culture]> <if [Grand Campaign] is constructed by anybody>",
 
+//Latin
+	"Triggers a [The Latin Awakening] event <when below [2] [Latin Grand Campaign]> <if [Grand Campaign] is constructed by anybody>",
 
     ]
 }

@@ -4201,26 +4201,6 @@
 		////BUFF UPKEEP
 
             {
-                "name": "Heavy Infantry Funding Review",
-                "text": "Heavy Infantry Funding Review \n\n The military accountants report that maintaining elite infantry formations remains expensive. Veteran officers require salaries, armor requires maintenance, and soldiers continue the radical practice of expecting food. The treasury recommends cuts. The generals recommend finding a different treasury.",
-                "presentation":"Alert",
-                "choices": [
-                    {
-                        "text": "Continue funding the veterans",
-                        "uniques": [
-                            "Only available <when above [500] [Gold]>",
-                            "Gain [-500] [Gold]"
-                        ]
-                    },
-                    {
-                        "text": "The budget must survive",
-                        "uniques": [
-                            "Remove [Heavy Infantry Focus] [in all cities]"
-                        ]
-                    }
-                ],
-            },
-            {
                 "name": "Shield Infantry Funding Review",
                 "text": "Shield Infantry Funding Review \n\n The treasury reports that maintaining heavily armed shield infantry remains expensive. Shields must be replaced, armor repaired, and veteran instructors paid. The generals argue these soldiers form the backbone of the army. The treasury argues that backbones are surprisingly expensive.",
                 "presentation":"Alert",
@@ -4228,8 +4208,8 @@
                     {
                         "text": "Continue funding the shield infantry",
                         "uniques": [
-                            "Only available <when above [500] [Gold]>",
-                            "Gain [-500] [Gold]"
+                            "Only available <when above [799] [Gold]>",
+                            "Gain [-800] [Gold]"
                         ]
                     },
                     {
@@ -4248,8 +4228,8 @@
                     {
                         "text": "Continue funding the swordsmen",
                         "uniques": [
-                            "Only available <when above [500] [Gold]>",
-                            "Gain [-500] [Gold]"
+                            "Only available <when above [799] [Gold]>",
+                            "Gain [-800] [Gold]"
                         ]
                     },
                     {
@@ -4268,8 +4248,8 @@
                     {
                         "text": "Maintain the horse archers",
                         "uniques": [
-                            "Only available <when above [500] [Gold]>",
-                            "Gain [-500] [Gold]"
+                            "Only available <when above [799] [Gold]>",
+                            "Gain [-800] [Gold]"
                         ]
                     },
                     {
@@ -4286,10 +4266,10 @@
                 "presentation":"Alert",
                 "choices": [
                     {
-                        "text": "Maintain the phalanx",
+                        "text": "Maintain the pointy sticks",
                         "uniques": [
-                            "Only available <when above [500] [Gold]>",
-                            "Gain [-500] [Gold]"
+                            "Only available <when above [799] [Gold]>",
+                            "Gain [-800] [Gold]"
                         ]
                     },
                     {
@@ -4308,8 +4288,8 @@
                     {
                         "text": "Fund the cavalry",
                         "uniques": [
-                            "Only available <when above [500] [Gold]>",
-                            "Gain [-500] [Gold]"
+                            "Only available <when above [799] [Gold]>",
+                            "Gain [-800] [Gold]"
                         ]
                     },
                     {
@@ -4328,8 +4308,8 @@
                     {
                         "text": "Purchase more arrows",
                         "uniques": [
-                            "Only available <when above [500] [Gold]>",
-                            "Gain [-500] [Gold]"
+                            "Only available <when above [799] [Gold]>",
+                            "Gain [-800] [Gold]"
                         ]
                     },
                     {
@@ -4340,9 +4320,529 @@
                     }
                 ],
             },
-
+{
+    "name": "Fleet Budget Review",
+    "text": "Fleet Procurement Debate\n\nThe Admiralty requests additional funding to maintain ships, replace equipment, and keep crews battle-ready. Treasury officials insist that damaged gear can simply be repaired indefinitely and that lost equipment is merely 'temporarily misplaced.' The Admiralty respectfully recommends that the accountants verify these assumptions during the next naval engagement.",
+    "presentation":"Alert",
+    "choices": [
+        {
+            "text": "Purchase more arrows",
+            "uniques": [
+                "Only available <when above [799] [Gold]>",
+                "Gain [-800] [Gold]"
+            ]
+        },
+        {
+            "text": "Reduce arrow allocations",
+            "uniques": [
+                "Remove [Naval Focus] [in all cities]"
+            ]
+        }
+    ]
+},
 
 		////SCENARIO 
+
+		////GRAND CAMPAIGN
+///Provinces
+
+{
+    "name": "Albion United",
+    "text": "[Albion] now stands beneath a single banner. The local chieftains have reluctantly accepted the new order, though they remain eager to debate its merits with sharpened sticks.\n\nThe roads are safer, the frontier is quieter, and someone has already begun arguing over who discovered the island first. Civilization, it seems, has arrived.",
+    "presentation": "Alert",
+    "requirements": [
+        "Only available <if [Albion] is constructed>"
+    ],
+    "choices": [
+        {
+            "text": "Enjoy the Fruits of Victory",
+            "uniques": [
+                "[+2 Food, +3 Gold, +5 Happiness] [in capital] <for [10] turns>",
+                "Triggers the following global alert: [[Albion] has been united under a single realm.]",
+                "Instantly provides [1] [Albion P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Declare a Week of Celebrations",
+            "uniques": [
+                "[+3 Happiness] [in all cities] <for [10] turns>",
+                "Triggers the following global alert: [[Albion] has been united under a single realm.]",
+                "Instantly provides [1] [Albion P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Consult the Druids... or the Scholars",
+            "uniques": [
+                "Gain [400] [Faith] <with [50]% chance>",
+                "Gain [500] [Science] <with [50]% chance>",
+                "Triggers the following global alert: [[Albion] has been united under a single realm.]",
+                "Instantly provides [1] [Albion P] <hidden from users>"
+            ]
+        },
+	{ 
+	    "text": "Buy More Horses. Ask Questions Later.", 
+	    "uniques": [ 
+		"Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>", 
+		"Gain [-500] [Gold]", 
+		"Gain a free [Mounted Focus] [in capital]", 
+		"Triggers the following global alert: [[Hispania] has been united under a single realm.]", 
+		"Instantly provides [1] [Hispania P] <hidden from users>" 
+	    ] 
+	}
+    ]
+},
+
+{
+    "name": "Italia United",
+    "text": "[Italia] has been united beneath a single banner. Generations of wars, broken treaties, and rulers insisting they were only 'restoring order' have finally produced something resembling peace.\n\nThe nobles celebrate, the generals claim the credit, and the tax collectors quietly begin their work. Some traditions truly unite every civilization.\n\nNow a new chapter begins.",
+    "presentation": "Alert",
+    "requirements": [
+        "Only available <if [Italia] is constructed>"
+    ],
+    "choices": [
+        {
+            "text": "Count the Spoils",
+            "uniques": [
+                "Gain [1000] [Gold]",
+                "Triggers the following global alert: [[Italia] has been united under a single realm.]",
+                "Instantly provides [1] [Italia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Celebrate the Triumph",
+            "uniques": [
+                "Gain [500] [Culture]",
+                "Triggers the following global alert: [[Italia] has been united under a single realm.]",
+                "Instantly provides [1] [Italia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Offer Thanks to the Gods",
+            "uniques": [
+                "Gain [400] [Faith]",
+                "Triggers the following global alert: [[Italia] has been united under a single realm.]",
+                "Instantly provides [1] [Italia P] <hidden from users>"
+            ]
+        },
+	{ 
+	    "text": "Let The Soldiers know that blocking mean no hurting",
+	    "uniques": [ "Only available <when above [499] [Gold]>",
+	    	"Gain [-500] [Gold]", "Gain a free [Shield Infantry Focus] [in capital]", 
+	    	"Triggers the following global alert: [[Italia] has been united under a single realm.]",
+		"Instantly provides [1] [Italia P] <hidden from users>" 
+	    ] 
+	},
+	{ 
+	    "text": "Fund the Shield Wall. Count the Coins Later.",
+	    "uniques": [
+    		"Only available <when above [499] [Gold]> <if [Shield Infantry Focus] is not constructed>",
+    		"Gain [-500] [Gold]",
+    		"Gain a free [Shield Infantry Focus] [in capital]",
+    		"Triggers the following global alert: [[Italia] has been united under a single realm.]",
+    		"Instantly provides [1] [Italia P] <hidden from users>"
+	    ] 
+	}
+    ]
+},
+
+{
+    "name": "Corsica et Sardinia United",
+    "text": "The banners of a new master now fly over [Corsica et Sardinia]. The pirates have either fled, enlisted, or discovered that collecting taxes is simply piracy with paperwork.\n\nThe islands are yours. The question, as always, is what to do with them before someone else gets the same idea.",
+    "presentation": "Alert",
+    "requirements": [
+        "Only available <if [Corsica et Sardinia] is constructed>"
+    ],
+    "choices": [
+        {
+            "text": "Search Every Barrel for 'Unpaid Taxes'",
+            "uniques": [
+                "Gain [400] [Gold] <with [30]% chance>",
+                "Gain [400] [Gold] <with [30]% chance>",
+                "Gain [400] [Gold] <with [30]% chance>",
+                "Triggers the following global alert: [News spreads across the world that [Corsica et Sardinia] has been secured under new rule.]",
+                "Instantly provides [1] [Corsica et Sardinia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Commission a Monument Before Anyone Forgets Who Won",
+            "uniques": [
+                "Free [Great Artist] appears <with [25]% chance>",
+                "Free [Great Engineer] appears <with [25]% chance>",
+                "Gain [400] [Culture] <with [50]% chance>",
+                "Triggers the following global alert: [Word reaches every court that [Corsica et Sardinia] has been brought under a new banner.]",
+                "Instantly provides [1] [Corsica et Sardinia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Light the Incense, Open the Market",
+            "uniques": [
+                "Free [Great Merchant] appears <with [40]% chance>",
+                "Free [Great Prophet] appears <with [40]% chance>",
+                "Triggers the following global alert: [Messengers announce that [Corsica et Sardinia] now belongs to a new realm.]",
+                "Instantly provides [1] [Corsica et Sardinia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Build Bigger Boats Than Others",
+            "uniques": [
+                "Only available <when above [499] [Gold]>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Naval Focus] [in capital]",
+                "Triggers the following global alert: [[Corsica et Sardinia] has been united under a single realm.]",
+                "Instantly provides [1] [Corsica et Sardinia P] <hidden from users>"
+            ]
+        }
+    ]
+}
+{
+    "name": "Hispania United",
+    "text": "[Hispania] has been united beneath a single banner. The mines are productive, the roads are improving, and every governor has suddenly become an expert on 'temporary' taxation.\n\nThe frontier is finally quiet. Whether it stays that way depends entirely on who is collecting the taxes.",
+    "presentation": "Alert",
+    "requirements": [
+        "Only available <if [Hispania] is constructed>"
+    ],
+    "choices": [
+        {
+            "text": "Mine Everything That Isn't Moving",
+            "uniques": [
+                "Gain [500] [Gold]",
+                "Gain [500] [Gold] <with [30]% chance>",
+                "Gain [500] [Gold] <with [30]% chance>",
+                "Gain [500] [Gold] <with [30]% chance>",
+                "[-3 Happiness, -5 Gold] [in this city] <in cities with a [Tarraconensis]> <for [10] turns>",
+                "Triggers the following global alert: [[Hispania] has been united under a single realm.]",
+                "Instantly provides [1] [Hispania P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Declare the Wars Officially Over",
+            "uniques": [
+                "[+3 Happiness] [in all cities] <for [10] turns>",
+                "Triggers the following global alert: [[Hispania] has been united under a single realm.]",
+                "Instantly provides [1] [Hispania P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Invite the Traders and the Poets",
+            "uniques": [
+                "Free [Great Merchant] appears <with [40]% chance>",
+                "Free [Great Artist] appears <with [40]% chance>",
+                "Triggers the following global alert: [[Hispania] has been united under a single realm.]",
+                "Instantly provides [1] [Hispania P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "The Blacksmiths Deserve Overtime",
+            "uniques": [
+                "Only available <when above [499] [Gold]>",
+		"Gain [-500] [Gold]",
+                "Gain a free [Sword Focus] [in capital]",
+                "Triggers the following global alert: [[Hispania] has been united under a single realm.]",
+                "Instantly provides [1] [Hispania P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Gallia United",
+    "text": "[Gallia] has been united beneath a single banner. The tribal feuds have finally ended, replaced by the far more civilized pastime of arguing over who gets the biggest feast.\n\nThe forests are quiet, the villages prosper, and somewhere a bard is preparing a song in which everyone was the hero.",
+    "presentation": "Alert",
+    "requirements": [
+        "Only available <if [Gallia] is constructed>"
+    ],
+    "choices": [
+        {
+            "text": "Every Clan Needs More Cousins",
+            "uniques": [
+                "[+1] population in a random city",
+                "[+1] population in a random city",
+                "[+1] population in a random city",
+                "[+1] population in a random city <with [30]% chance>",
+                "[+1] population in a random city <with [30]% chance>",
+                "[-5 Gold, -5 Culture] [in capital] <for [10] turns>",
+                "Triggers the following global alert: [[Gallia] has been united under a single realm.]",
+                "Instantly provides [1] [Gallia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "A Feast Worth Remembering",
+            "uniques": [
+                "[+3 Food, +2 Happiness, +2 Gold, -2 Culture] [in capital] <for [10] turns>",
+                "[+1 Food, +1 Happiness, -1 Culture] [in all cities] <for [5] turns>",
+                "Free [Great Artist] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Gallia] has been united under a single realm.]",
+                "Instantly provides [1] [Gallia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Breed More Horses Than Neighbors",
+            "uniques": [
+                "Only available <when above [499] [Gold]>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Focus] [in capital]",
+                "Triggers the following global alert: [[Gallia] has been united under a single realm.]",
+                "Instantly provides [1] [Gallia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Point the Sharp End That Way",
+            "uniques": [
+                "Only available <when above [499] [Gold]>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Archery Focus] [in capital]",
+                "Triggers the following global alert: [[Gallia] has been united under a single realm.]",
+                "Instantly provides [1] [Gallia P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Germania United",
+    "text": "[Germania] now stands beneath a single banner. The tribes have agreed to stand together, which is remarkable considering they usually preferred proving they were right with an axe.\n\nThe forests echo with celebration instead of war cries. At least until someone asks who should lead the victory feast.",
+    "presentation": "Alert",
+    "requirements": [
+        "Only available <if [Germania] is constructed>"
+    ],
+    "choices": [
+        {
+            "text": "Hold the Greatest Feast in the Forest",
+            "uniques": [
+                "[+3 Happiness, +1 Gold] [in all cities] <for [10] turns>",
+                "Triggers the following global alert: [[Germania] has been united under a single realm.]",
+                "Instantly provides [1] [Germania P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Trade Like Friends... Haggle Like Enemies",
+            "uniques": [
+		"Gain [500] [Gold] <with [50]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Germania] has been united under a single realm.]",
+                "Instantly provides [1] [Germania P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "If in Doubt, Forge Another Sword",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Sword Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Sword Focus] [in capital]",
+                "Triggers the following global alert: [[Germania] has been united under a single realm.]",
+                "Instantly provides [1] [Germania P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Longer Spears Settle Longer Arguments",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Spear Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Spear Focus] [in capital]",
+                "Triggers the following global alert: [[Germania] has been united under a single realm.]",
+                "Instantly provides [1] [Germania P] <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "Sicilia Magna United",
+    "text": "[Sicilia Magna] has been united beneath a single banner. Its harbors bustle with merchants, its temples overlook prosperous cities, and its grain fields promise to feed armies that have not even been recruited yet.\n\nThe island is secure. Every neighboring ruler now insists they never wanted it anyway.",
+    "presentation": "Alert",
+    "requirements": [
+        "Only available <if [Sicilia Magna] is constructed>"
+    ],
+    "choices": [
+        {
+            "text": "Count Every Grain of Wheat",
+            "uniques": [
+                "[+3 Food, +2 Gold, +1 Happiness] [in all cities] <for [10] turns>",
+                "Triggers the following global alert: [[Sicilia Magna] has been united under a single realm.]",
+                "Instantly provides [1] [Sicilia Magna P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Borrow Their Statues... Permanently",
+            "uniques": [
+                "Gain [200] [Culture]",
+                "Gain [200] [Culture] <with [50]% chance>",
+                "Gain [200] [Culture] <with [50]% chance>",
+                "Free [Great Artist] appears <with [40]% chance>",
+                "Triggers the following global alert: [[Sicilia Magna] has been united under a single realm.]",
+                "Instantly provides [1] [Sicilia Magna P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Ships Don't Build Themselves",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Naval Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Naval Focus] [in capital]",
+                "Triggers the following global alert: [[Sicilia Magna] has been united under a single realm.]",
+                "Instantly provides [1] [Sicilia Magna P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Sell Bread to Everyone",
+            "uniques": [
+                "Free [Great Merchant] appears <with [40]% chance>",
+                "Gain [600] [Gold] <with [50]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Triggers the following global alert: [[Sicilia Magna] has been united under a single realm.]",
+                "Instantly provides [1] [Sicilia Magna P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Africa Pacata United",
+    "text": "[Africa Pacata] has been united beneath a single banner. The fields are fertile, the caravans arrive on time, and every governor has independently concluded that prosperity begins with collecting someone else's taxes.\n\nPeace has finally reached the province. The accountants follow close behind.",
+    "presentation": "Alert",
+    "requirements": [
+        "Only available <if [Africa Pacata] is constructed>"
+    ],
+    "choices": [
+        {
+            "text": "Harvest the Breadbasket",
+            "uniques": [
+                "[+3 Food] [in all cities] <for [10] turns>",
+                "[+1] population in a random city",
+                "[+1] population in a random city <with [30]% chance>",
+                "[+1] population in a random city <with [30]% chance>",
+                "Triggers the following global alert: [[Africa Pacata] has been united under a single realm.]",
+                "Instantly provides [1] [Africa Pacata P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Tax the Caravans, Politely",
+            "uniques": [
+                "[+4 Gold, -1 Happiness] [in this city] <in cities with a [Market]> <for [10] turns>",
+                "Gain [600] [Gold]",
+                "Gain [600] [Gold] <with [30]% chance>",
+                "Gain [600] [Gold] <with [30]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Africa Pacata] has been united under a single realm.]",
+                "Instantly provides [1] [Africa Pacata P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Every Caravan Needs a Market",
+            "uniques": [
+                "[+2 Gold, +1 Happiness] [in this city] <in cities with a [Market]> <for [10] turns>",
+                "Free [Great Merchant] appears <with [40]% chance>",
+                "Free [Great Merchant] appears <with [40]% chance>",
+                "Triggers the following global alert: [[Africa Pacata] has been united under a single realm.]",
+                "Instantly provides [1] [Africa Pacata P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Guard the Trade Routes",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Focus] [in capital]",
+                "Triggers the following global alert: [[Africa Pacata] has been united under a single realm.]",
+                "Instantly provides [1] [Africa Pacata P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Aegyptus Maior United",
+    "text": "[Aegyptus Maior] has been united beneath a single banner. The Nile continues its ancient rhythm, the granaries overflow, and the scribes have already produced three copies declaring this outcome inevitable.\n\nThe river gives life. The officials take attendance.",
+    "presentation": "Alert",
+    "requirements": [
+        "Only available <if [Aegyptus Maior] is constructed>"
+    ],
+    "choices": [
+        {
+            "text": "Trust in the Nile",
+            "uniques": [
+                "[+4 Food, +2 Gold] [in all cities] <for [10] turns>",
+                "[+4 Food, +2 Happiness] [in capital] <for [5] turns>",
+                "Triggers the following global alert: [[Aegyptus Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Aegyptus Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "The Scribes Need More Papyrus",
+            "uniques": [
+                "Gain [500] [Science]",
+                "Free [Great Scholar] appears <with [30]% chance>",
+                "Free [Great Scholar] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Aegyptus Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Aegyptus Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Build Monuments Tall Enough to Impress the Gods",
+            "uniques": [
+                "Only available <when above [499] [Gold]>",
+                "Gain [-500] [Gold]",
+                "[+2 Happiness, +1 Production] [in this city] <in cities with a [Brick Maker]> <for [10] turns>",
+                "[+2 Happiness, +1 Production] [in this city] <in cities with a [Stone Works]> <for [10] turns>",
+                "[+3 Happiness, +1 Production] [in capital] <for [10] turns>",
+                "Free [Great Engineer] appears <with [30]% chance>",
+                "Free [Great Engineer] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Aegyptus Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Aegyptus Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "The Grain Isn't Going to Tax Itself",
+            "uniques": [
+                "[+3 Gold, -1 Happiness] [in all cities] <for [10] turns>",
+                "Gain [700] [Gold]",
+                "Gain [700] [Gold] <with [30]% chance>",
+                "Gain [700] [Gold] <with [30]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Aegyptus Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Aegyptus Maior P] <hidden from users>"
+            ]
+        }
+    ]
+},
+
+
+
+
+
+///latin
+
+{
+    "name": "The Latin Awakening",
+    "text": "247 BC\n\nThe city of Rome stands ascendant, yet the Italian peninsula remains divided by ancient rivalries, proud tribes, and ambitious neighbors. From the fertile plains of the north to the rugged mountains of the south, countless peoples still resist the dream of a united homeland.\n\nThe Senate looks beyond the horizon. Merchants seek safer roads, generals demand secure frontiers, and citizens speak of a destiny worthy of the gods themselves. The fate of the Latin people now rests in your hands.\n\nYour first objective is clear.\n\nUnite [Italia].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Pro Roma et Italia!!",
+            "uniques": [
+                "Instantly provides [1] [Latin Grand Campaign] <hidden from users>"
+                "Instantly provides [1] [Italia P] <hidden from users>"
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Italia",
+            "link": "Buildings/Italia"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Latin Grand Campaign"
+        }
+    ]
+},
+
+
+
+
+
+
+
 		////3RD CENTURY CRISIS
 
 			//Roman

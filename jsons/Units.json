@@ -100,6 +100,7 @@
          "Gain [400]-[6000] [Gold] <by consuming this unit> <before the [Hellenistic Age]>",
          "Gain [600]-[4000] [Culture] <by consuming this unit> <starting from the [Hellenistic Age]>",
          "Gain [500]-[10000] [Gold] <by consuming this unit> <starting from the [Hellenistic Age]>",
+         "[+1] population [in this city] <in [your] tiles> <after which this unit is consumed>",
          "Great Person - [Culture]",
          "Unbuildable",
          "Uncapturable"
@@ -178,13 +179,13 @@
          "Only available <when religion is enabled> <hidden from users>",
          "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
          "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
-         "Can Spread Religion <for [1] movement> <[3] times> <after which this unit is consumed> <before adopting [War Priests]>",
-         "Can Spread Religion <for [1] movement> <[2] times> <after adopting [War Priests]>",
          "Removes other religions when spreading religion",
          "Takes your religion over the one in their birth city",
+         "Can Spread Religion <for [1] movement> <[3] times> <after which this unit is consumed> <before adopting [War Priests]>",
+         "Can Spread Religion <for [1] movement> <[2] times> <after adopting [War Priests]>",
          "[+20]% Strength bonus for [Military] units within [1] tiles <after adopting [War Priests]>",
          "All adjacent units heal [+3] HP when healing <after adopting [Keeper of Traditions]>",
-         "Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
+         "[+1] population [in this city] <in [your] tiles> <after which this unit is consumed>",
          "Great Person - [Faith]",
          "Religious Unit",
          "Unbuildable",
@@ -205,8 +206,9 @@
     "uniques": [
          "Comment [-Turns 'no entry' into 'former entry.'\nA large log, several determined soldiers, and a complete disregard for property rights.\nTeamwork is highly encouraged. Standing in front of it is not.\n• Siege Support]",
          "Only available <in cities with a [Barracks]>",
-         "Consumes [2] [Manpower]",
+         "Consumes [1] [Manpower] <for [Human player] Civilizations>",
          "[30]% Strength bonus for [Melee] units within [0] tiles <when attacking> <vs cities>",
+         "Unavailable <for [AI player] Civilizations> <hidden from users>",
          "Uncapturable"
     ],
   },
@@ -219,11 +221,12 @@
     "uniques": [
          "Comment [-A revolutionary invention that made invading cities slightly less suicidal.\nOffers protection for your battle buddies while they commit structural diplomacy.\nSome assembly required. Emotional stability not included.\n• Siege Support]",
          "Only available <in cities with a [Siege Workshop]>",
-         "Consumes [2] [Manpower]",
-         "Consumes [1] [Timber]",
+         "Consumes [2] [Manpower] <for [Human player] Civilizations>",
+         "Consumes [1] [Timber] <for [Human player] Civilizations>",
          "[20]% Strength bonus for [Melee] units within [1] tiles <vs cities>",
          "[10]% Strength bonus for [Melee] units within [1] tiles <when defending> <vs [Ranged] units>",
          "Unavailable <after adopting [Nomad Culture]> <before the [Imperial Age]> <hidden from users>",
+         "Unavailable <for [AI player] Civilizations> <hidden from users>",
          "Uncapturable"
     ],
   },
@@ -326,6 +329,7 @@
     "uniques": [
          "Comment [-The apex of inherited authority, where legitimacy is measured in lineage, not competence.\nA ruler who governs from the capital while others discover the practical limits of loyalty and manpower.\nHistory remembers kings for their achievements. Their subjects remember them for the invoices.\n• Ruler]",
          "Can only be built <in [Capital] cities>",
+	 "Can remove other religions from cities <[1] times>",
          "[+30]% production cost <during the [Hellenistic Age]>",
          "[+50]% production cost <during the [Imperial Age]>",
          "[+20]% Strength <during the [Imperial Age]>",
@@ -347,6 +351,7 @@
 	 "[This Unit] gets a name from the [Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
 	      "Commander",
@@ -363,6 +368,7 @@
          "Comment [-The final evolution of centralized authority, where governance becomes indistinguishable from performance art.\nAn Emperor rules not by proximity to the people, but by distance from consequences.\nHistory tends to describe them as “visionary” or “disastrous,” rarely anything in between.\n• Ruler]",
          "Only available <after adopting [Empire]> <hidden from users>",
          "Can only be built <in [Capital] cities>",
+	 "Can remove other religions from cities <[1] times>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "[+40]% production cost <during the [Imperial Age]>",
          "[+20]% Strength <during the [Imperial Age]>",
@@ -381,6 +387,7 @@
 	 "[This Unit] gets a name from the [Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
 	"Commander",
@@ -399,6 +406,7 @@
     "uniques": [
          "Comment [-A pre-imperial commander chosen more for civic influence than divine mandate.\nIn theory, they coordinate strategy and lead armies. In practice, they survive long enough to become either a legend or a scapegoat.\nAthens called them strategos. History often calls them “complicated.”\n• Ruler]",
          "Only available <before adopting [Empire]> <hidden from users>",
+	"Can remove other religions from cities <[1] times>",
          "Can only be built <in [Capital] cities>",
          "[This Unit] is destroyed <after adopting [Empire]>",
          "[+20]% production cost <during the [Hellenistic Age]>",
@@ -407,6 +415,7 @@
          "Consumes [1] [Ruler]",
          "Remove [A Noble's Death] [in all cities]",
 	 "[This Unit] gets a name from the [Hellenic Athenian] group <hidden from users>",
+	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
 	"Commander",
@@ -425,6 +434,7 @@
     "uniques": [
          "Comment [-A pre-imperial commander chosen more for civic influence than divine mandate.\nIn theory, they coordinate strategy and lead armies. In practice, they survive long enough to become either a legend or a scapegoat.\nAthens called them strategos. History often calls them “complicated.”\n• Ruler]",
          "Only available <before adopting [Empire]> <hidden from users>",
+	"Can remove other religions from cities <[1] times>",
          "Can only be built <in [Capital] cities>",
          "[This Unit] is destroyed <after adopting [Empire]>",
          "[+20]% production cost <during the [Hellenistic Age]>",
@@ -433,6 +443,7 @@
          "Consumes [1] [Ruler]",
          "Remove [A Noble's Death] [in all cities]",
 	 "[This Unit] gets a name from the [Punic] group <hidden from users>",
+	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
 	"Commander",
@@ -450,6 +461,7 @@
     "uniques": [
          "Comment [-The Roman Republic’s highest office, built on the elegant system of sharing power between two people who are professionally obligated to disagree.\nIn theory, they lead armies and govern the state. In practice, they spend half the time vetoing each other and the other half explaining it was “for the good of Rome.”\nA temporary solution to permanent ambition.\n• Ruler]",
          "Can only be built <in [Capital] cities>",
+	"Can remove other religions from cities <[1] times>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "[+30]% production cost <during the [Imperial Age]>",
          "[+10]% Strength <during the [Imperial Age]>",
@@ -460,6 +472,7 @@
          "Only available <after adopting [Manipular Legions]> <hidden from users>",
          "Unavailable <after adopting [Empire]> <hidden from users>",
 	 "[This Unit] gets a name from the [Latin] group <hidden from users>",
+	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
 	"Commander",
@@ -477,6 +490,7 @@
     "uniques": [
          "Comment [-A ruler forged in migration rather than marble halls.\nAuthority here is not inherited through palaces, but carried through camps, horses, and the uneasy loyalty of people who can leave at any time.\nPower is lighter, faster, and always one bad winter away from collapse.\n• Ruler]",
          "Can only be built <in [Capital] cities>",
+	"Can remove other religions from cities <[1] times>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "[+40]% production cost <during the [Imperial Age]>",
          "[+20]% Strength <during the [Imperial Age]>",
@@ -488,6 +502,7 @@
          "Cannot be purchased",
          "Only available <after adopting [Nomad Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Nomad] group <hidden from users>",
+	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
       	"[Horse Archer] ability",

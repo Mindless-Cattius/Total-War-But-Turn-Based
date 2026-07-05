@@ -1860,108 +1860,135 @@
             "Stockpiled"
         ]
     },
-///Sarmatia Maior
-    {
-        "name": "Sarmatia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
 
 				///3rd century provinces flag
 
-            {
-            "name": "Gallia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Hispania P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Achaea P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Italia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Aegyptus P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Palaestina P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Armenia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Germania P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Scythia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Dacia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Africa P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Anatolia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Lusitania P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Dalmatia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Thracia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Macedonia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Pannonia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            },
-            {
-            "name": "Sicilia P",
-            "resourceType": "Bonus",
-            "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
-            }
+{
+    "name": "Albion P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Hispania P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Gallia P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Germania P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Italia P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Corsica et Sardinia P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Sicilia Magna P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Africa Pacata P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Aegyptus Maior P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Arabia P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Syria Maior P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Mesopotamia Maior P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Persia P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Ariana P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Bactria Maior P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Anatolia P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Armenia et Caucasus P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Pontus Euxinus P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Sarmatia Maior P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Hercynia Maior P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Dacia Maior P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Illyricum P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Macedonia et Hellas P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Thracia Maior P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+{
+    "name": "Sarmatia Maior P",
+    "resourceType": "Bonus",
+    "uniques": ["Will not be displayed in Civilopedia", "Stockpiled"]
+},
+
 
 
 				///GRAND CAMPAIGN
@@ -1969,84 +1996,84 @@
 	{
     	"name": "Latin Grand Campaign",
     	"resourceType": "Bonus",
-    	"uniques": [
+    	"uniques": ["Stockpiled",
         	"Triggers victory <if [Albion] is constructed> <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Germania] is constructed> <if [Italia] is constructed> <if [Corsica et Sardinia] is constructed> <if [Sicilia Magna] is constructed> <if [Africa Pacata] is constructed> <if [Aegyptus Maior] is constructed> <if [Syria Maior] is constructed> <if [Mesopotamia Maior] is constructed> <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Dacia Maior] is constructed> <if [Illyricum] is constructed> <if [Macedonia et Hellas] is constructed> <if [Thracia Maior] is constructed>"
     ]
 },
 {
     "name": "Celtic Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
         "Triggers victory <if [Albion] is constructed> <if [Gallia] is constructed> <if [Hispania] is constructed> <if [Germania] is constructed> <if [Hercynia Maior] is constructed> <if [Italia] is constructed> <if [Corsica et Sardinia] is constructed> <if [Sicilia Magna] is constructed> <if [Illyricum] is constructed> <if [Dacia Maior] is constructed> <if [Macedonia et Hellas] is constructed> <if [Thracia Maior] is constructed> <if [Anatolia] is constructed>  <if [Africa Pacata] is constructed>"
     ]
 },
 {
     "name": "Germanic Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
         "Triggers victory <if [Germania] is constructed> <if [Hercynia Maior] is constructed> <if [Sarmatia Maior] is constructed> <if [Dacia Maior] is constructed> <if [Thracia Maior] is constructed> <if [Illyricum] is constructed> <if [Macedonia et Hellas] is constructed> <if [Gallia] is constructed> <if [Hispania] is constructed> <if [Italia] is constructed> <if [Anatolia] is constructed> <if [Syria Maior] is constructed> <if [Sicilia Magna] is constructed>"
     ]
 },
 {
     "name": "Nomad Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
         "Triggers victory <if [Sarmatia Maior] is constructed> <if [Pontus Euxinus] is constructed> <if [Dacia Maior] is constructed> <if [Bactria Maior] is constructed> <if [Ariana] is constructed> <if [Persia] is constructed> <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Macedonia et Hellas] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Germania] is constructed> <if [Mesopotamia Maior] is constructed>"
     ]
 },
 {
     "name": "Punic Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
         "Triggers victory <if [Africa Pacata] is constructed> <if [Hispania] is constructed> <if [Sicilia Magna] is constructed> <if [Corsica et Sardinia] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Macedonia et Hellas] is constructed> <if [Aegyptus Maior] is constructed> <if [Syria Maior] is constructed>"
     ]
 },
 {
     "name": "Numidian Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
         "Triggers victory <if [Africa Pacata] is constructed> <if [Hispania] is constructed> <if [Sicilia Magna] is constructed> <if [Corsica et Sardinia] is constructed> <if [Gallia] is constructed> <if [Italia] is constructed> <if [Macedonia et Hellas] is constructed> <if [Aegyptus Maior] is constructed> <if [Syria Maior] is constructed>"
     ]
 },
 {
     "name": "Eastern Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
         "Triggers victory <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Syria Maior] is constructed> <if [Mesopotamia Maior] is constructed> <if [Persia] is constructed> <if [Arabia] is constructed> <if [Aegyptus Maior] is constructed> <if [Ariana] is constructed> <if [Bactria Maior] is constructed> <if [Pontus Euxinus] is constructed> <if [Macedonia et Hellas] is constructed> <if [Thracia Maior] is constructed> <if [Illyricum] is constructed> <if [Dacia Maior] is constructed>"
     ]
 },
 {
     "name": "Hellenic Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
         "Triggers victory <if [Macedonia et Hellas] is constructed> <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Syria Maior] is constructed> <if [Mesopotamia Maior] is constructed> <if [Persia] is constructed> <if [Ariana] is constructed> <if [Bactria Maior] is constructed> <if [Aegyptus Maior] is constructed> <if [Arabia] is constructed> <if [Pontus Euxinus] is constructed> <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Dacia Maior] is constructed> <if [Italia] is constructed>"
     ]
 },
 {
     "name": "Hellenistic Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
        "Triggers victory <if [Macedonia et Hellas] is constructed> <if [Anatolia] is constructed> <if [Armenia et Caucasus] is constructed> <if [Syria Maior] is constructed> <if [Mesopotamia Maior] is constructed> <if [Persia] is constructed> <if [Ariana] is constructed> <if [Bactria Maior] is constructed> <if [Aegyptus Maior] is constructed> <if [Arabia] is constructed> <if [Pontus Euxinus] is constructed> <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Dacia Maior] is constructed> <if [Italia] is constructed>"
     ]
 },
 {
     "name": "Iberian Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
 	"Triggers victory <if [Hispania] is constructed> <if [Gallia] is constructed> <if [Africa Pacata] is constructed> <if [Sicilia Magna] is constructed> <if [Corsica et Sardinia] is constructed> <if [Italia] is constructed> <if [Macedonia et Hellas] is constructed> <if [Thracia Maior] is constructed> <if [Illyricum] is constructed> <if [Germania] is constructed>"
 ]
 },
 {
     "name": "Illyrian Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
         "Triggers victory <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Macedonia et Hellas] is constructed> <if [Dacia Maior] is constructed> <if [Sarmatia Maior] is constructed> <if [Pontus Euxinus] is constructed> <if [Anatolia] is constructed> <if [Italia] is constructed>"
     ]
 },
 {
     "name": "Thracian Grand Campaign",
     "resourceType": "Bonus",
-    "uniques": [
+    "uniques": ["Stockpiled",
         "Triggers victory <if [Illyricum] is constructed> <if [Thracia Maior] is constructed> <if [Macedonia et Hellas] is constructed> <if [Dacia Maior] is constructed> <if [Sarmatia Maior] is constructed> <if [Pontus Euxinus] is constructed> <if [Anatolia] is constructed> <if [Italia] is constructed>"
     ]
 }
