@@ -40,7 +40,7 @@
 
 						//Cities
 
-	"[+10]% Strength for cities <when defending> <in cities with a [Garrison Post]> <with a garrison>",20
+	"[+10]% Strength for cities <when defending> <in cities with a [Garrison Post]> <with a garrison>",
 	"[+10]% Strength for cities <when attacking> <in cities with a [Garrison Post]> <in cities with a [Walls]> <with a garrison>",
 	"[+20]% Strength for cities <when attacking> <in cities with a [Garrison Post]> <in cities with a [Wall Towers]> <with a garrison>",
 
@@ -250,7 +250,7 @@
 	"Provides [1] [Illyrian Grand Campaign] <after adopting [Illyrian Culture]> <if [Grand Campaign] is constructed by anybody>",
 
 //Latin
-	"Triggers a [The Latin Awakening] event <when below [2] [Latin Grand Campaign]> <if [Grand Campaign] is constructed by anybody>",
+
 
     ]
 }

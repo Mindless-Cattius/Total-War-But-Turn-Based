@@ -1063,6 +1063,11 @@
     },
 	// Unit hidden resources
     {
+		"name": "Enable Thracian Peltast",
+		"resourceType": "Bonus",
+		"uniques": ["Stockpiled","Will not be displayed in Civilopedia"]
+    },
+    {
 		"name": "Enable Archer",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]
@@ -1145,7 +1150,7 @@
     {
 		"name": "Enable Horse Archer",
 		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Stockpiled","Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Mounted Skirmisher",

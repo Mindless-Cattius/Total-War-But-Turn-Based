@@ -3551,7 +3551,7 @@
             ]
         },
         {
-            "text": "The Grand Temple shall preach forgiveness. For everyone involved.",
+            "text": "The Grand Temple shall preach forgiveness. from everyone involved.",
             "uniques": [
                 "Only available <if [Grand Temple] is constructed>",
                 "[+2 Faith, +1 Happiness] [in all cities] <for [5] turns>",
@@ -4350,14 +4350,13 @@
     "name": "Albion United",
     "text": "[Albion] now stands beneath a single banner. The local chieftains have reluctantly accepted the new order, though they remain eager to debate its merits with sharpened sticks.\n\nThe roads are safer, the frontier is quieter, and someone has already begun arguing over who discovered the island first. Civilization, it seems, has arrived.",
     "presentation": "Alert",
-    "requirements": [
-        "Only available <if [Albion] is constructed>"
-    ],
     "choices": [
         {
             "text": "Enjoy the Fruits of Victory",
             "uniques": [
-                "[+2 Food, +3 Gold, +5 Happiness] [in capital] <for [10] turns>",
+                "[+2 Food, +3 Gold, +3 Happiness, +1 Production, +2 Culture] [in capital] <for [10] turns>", 
+		"Gain a free [REBEL IMMINENT] [in this city] <in cities with a [Britannia]>", 
+		"Gain a free [REBEL IMMINENT] [in this city] <in cities with a [Caledonia]>", 
                 "Triggers the following global alert: [[Albion] has been united under a single realm.]",
                 "Instantly provides [1] [Albion P] <hidden from users>"
             ]
@@ -4365,7 +4364,8 @@
         {
             "text": "Declare a Week of Celebrations",
             "uniques": [
-                "[+3 Happiness] [in all cities] <for [10] turns>",
+                "[+3 Happiness, +1 Food] [in all cities] <for [10] turns> <when not at war>",
+                "[-3 Happiness] [in all cities] <for [10] turns> <when at war>",
                 "Triggers the following global alert: [[Albion] has been united under a single realm.]",
                 "Instantly provides [1] [Albion P] <hidden from users>"
             ]
@@ -4375,6 +4375,8 @@
             "uniques": [
                 "Gain [400] [Faith] <with [50]% chance>",
                 "Gain [500] [Science] <with [50]% chance>",
+                "Free [Great Prophet] appears <with [35]% chance>",
+                "Free [Great Scholar] appears <with [35]% chance>",
                 "Triggers the following global alert: [[Albion] has been united under a single realm.]",
                 "Instantly provides [1] [Albion P] <hidden from users>"
             ]
@@ -4385,6 +4387,8 @@
 		"Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>", 
 		"Gain [-500] [Gold]", 
 		"Gain a free [Mounted Focus] [in capital]", 
+                "Free [Cavalry] appears <when above [2] [Manpower]> <when above [1] [Horses]>",
+                "Free [Cavalry] appears <when above [5] [Manpower]> <when above [3] [Horses]>",
 		"Triggers the following global alert: [[Hispania] has been united under a single realm.]", 
 		"Instantly provides [1] [Hispania P] <hidden from users>" 
 	    ] 
@@ -4396,14 +4400,15 @@
     "name": "Italia United",
     "text": "[Italia] has been united beneath a single banner. Generations of wars, broken treaties, and rulers insisting they were only 'restoring order' have finally produced something resembling peace.\n\nThe nobles celebrate, the generals claim the credit, and the tax collectors quietly begin their work. Some traditions truly unite every civilization.\n\nNow a new chapter begins.",
     "presentation": "Alert",
-    "requirements": [
-        "Only available <if [Italia] is constructed>"
-    ],
     "choices": [
         {
             "text": "Count the Spoils",
             "uniques": [
                 "Gain [1000] [Gold]",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Gain [300] [Gold] <with [30]% chance>",
+                "Free [Great Merchant] appears <with [25]% chance>",
+		"Gain a free [REBEL IMMINENT] [in this city] <in cities with a [Latinum]>", 
                 "Triggers the following global alert: [[Italia] has been united under a single realm.]",
                 "Instantly provides [1] [Italia P] <hidden from users>"
             ]
@@ -4411,7 +4416,10 @@
         {
             "text": "Celebrate the Triumph",
             "uniques": [
-                "Gain [500] [Culture]",
+		"[+2 Happiness, +3 Culture] [in capital] <for [10] turns>"
+                "Gain [400] [Culture]",
+                "Gain [500] [Culture] <with [30]% chance>",
+                "Free [Great Artist] appears <with [25]% chance>",
                 "Triggers the following global alert: [[Italia] has been united under a single realm.]",
                 "Instantly provides [1] [Italia P] <hidden from users>"
             ]
@@ -4419,7 +4427,11 @@
         {
             "text": "Offer Thanks to the Gods",
             "uniques": [
-                "Gain [400] [Faith]",
+		"[+1 Faith, +1 Happiness, -1 Production, -1 Food] from every [Temple] <in cities with a [Latinum]> <for [10] turns>",
+		"[+1 Faith, +1 Happiness, -1 Production, -1 Food] from every [Shrine] <in cities with a [Latinum]> <for [10] turns>",
+                "Gain [300] [Faith]",
+                "Gain [400] [Faith] <with [30]% chance>",
+                "Free [Great Prophet] appears <with [25]% chance>",
                 "Triggers the following global alert: [[Italia] has been united under a single realm.]",
                 "Instantly provides [1] [Italia P] <hidden from users>"
             ]
@@ -4438,6 +4450,8 @@
     		"Only available <when above [499] [Gold]> <if [Shield Infantry Focus] is not constructed>",
     		"Gain [-500] [Gold]",
     		"Gain a free [Shield Infantry Focus] [in capital]",
+                "Free [Manipular Legion] appears <when above [3] [Manpower]> <when above [0] [Iron]> <after adopting [Latin Culture]>",
+                "Free [Heavy Swordsman] appears <when above [3] [Manpower]> <when above [0] [Iron]> <before adopting [Latin Culture]>",
     		"Triggers the following global alert: [[Italia] has been united under a single realm.]",
     		"Instantly provides [1] [Italia P] <hidden from users>"
 	    ] 
@@ -4449,13 +4463,13 @@
     "name": "Corsica et Sardinia United",
     "text": "The banners of a new master now fly over [Corsica et Sardinia]. The pirates have either fled, enlisted, or discovered that collecting taxes is simply piracy with paperwork.\n\nThe islands are yours. The question, as always, is what to do with them before someone else gets the same idea.",
     "presentation": "Alert",
-    "requirements": [
-        "Only available <if [Corsica et Sardinia] is constructed>"
-    ],
     "choices": [
         {
             "text": "Search Every Barrel for 'Unpaid Taxes'",
             "uniques": [
+		"[-2 Happiness, +3 Gold] from every [Corsica] <for [10] turns>",
+		"[-2 Happiness, +3 Gold] from every [Sardinia] <for [10] turns>",
+                "Gain [400] [Gold] <with [30]% chance>",
                 "Gain [400] [Gold] <with [30]% chance>",
                 "Gain [400] [Gold] <with [30]% chance>",
                 "Gain [400] [Gold] <with [30]% chance>",
@@ -4466,8 +4480,11 @@
         {
             "text": "Commission a Monument Before Anyone Forgets Who Won",
             "uniques": [
+		"[+1 Production, +2 Culture, -1 Happiness, -3 Gold] from every [Corsica] <for [10] turns>",
+		"[+1 Production, +2 Culture, -1 Happiness, -3 Gold] from every [Sardinia] <for [10] turns>",
                 "Free [Great Artist] appears <with [25]% chance>",
                 "Free [Great Engineer] appears <with [25]% chance>",
+                "Gain [250] [Culture]",
                 "Gain [400] [Culture] <with [50]% chance>",
                 "Triggers the following global alert: [Word reaches every court that [Corsica et Sardinia] has been brought under a new banner.]",
                 "Instantly provides [1] [Corsica et Sardinia P] <hidden from users>"
@@ -4478,6 +4495,8 @@
             "uniques": [
                 "Free [Great Merchant] appears <with [40]% chance>",
                 "Free [Great Prophet] appears <with [40]% chance>",
+                "Free [Great Merchant] appears <with [20]% chance>",
+                "Free [Great Prophet] appears <with [20]% chance>",
                 "Triggers the following global alert: [Messengers announce that [Corsica et Sardinia] now belongs to a new realm.]",
                 "Instantly provides [1] [Corsica et Sardinia P] <hidden from users>"
             ]
@@ -4488,6 +4507,8 @@
                 "Only available <when above [499] [Gold]>",
                 "Gain [-500] [Gold]",
                 "Gain a free [Naval Focus] [in capital]",
+                "Free [Trireme] appears <when above [2] [Manpower]> <when above [0] [Timber]>",
+                "Free [Galley] appears <when above [4] [Manpower]>",
                 "Triggers the following global alert: [[Corsica et Sardinia] has been united under a single realm.]",
                 "Instantly provides [1] [Corsica et Sardinia P] <hidden from users>"
             ]
@@ -4498,18 +4519,19 @@
     "name": "Hispania United",
     "text": "[Hispania] has been united beneath a single banner. The mines are productive, the roads are improving, and every governor has suddenly become an expert on 'temporary' taxation.\n\nThe frontier is finally quiet. Whether it stays that way depends entirely on who is collecting the taxes.",
     "presentation": "Alert",
-    "requirements": [
-        "Only available <if [Hispania] is constructed>"
-    ],
     "choices": [
         {
             "text": "Mine Everything That Isn't Moving",
             "uniques": [
+                "[-2 Happiness, +1 Production, +2 Gold] from every [Cartaginensis] <for [10] turns>",
+                "[-2 Happiness, +1 Production, +2 Gold] from every [Tarraconensis] <for [10] turns>",
+                "[-2 Happiness, +1 Production, +2 Gold] from every [Lusitania] <for [10] turns>",
+                "[-2 Happiness, +1 Production, +2 Gold] from every [Baetica] <for [10] turns>",
                 "Gain [500] [Gold]",
                 "Gain [500] [Gold] <with [30]% chance>",
                 "Gain [500] [Gold] <with [30]% chance>",
                 "Gain [500] [Gold] <with [30]% chance>",
-                "[-3 Happiness, -5 Gold] [in this city] <in cities with a [Tarraconensis]> <for [10] turns>",
+                "[-3 Happiness, -5 Gold] from every [Tarraconensis] <for [10] turns>",
                 "Triggers the following global alert: [[Hispania] has been united under a single realm.]",
                 "Instantly provides [1] [Hispania P] <hidden from users>"
             ]
@@ -4517,7 +4539,11 @@
         {
             "text": "Declare the Wars Officially Over",
             "uniques": [
-                "[+3 Happiness] [in all cities] <for [10] turns>",
+                "[+3 Happiness, +1 Food, +1 Culture] [in all cities] <for [10] turns> <when not at war>",
+                "[-3 Happiness] from every [Cartaginensis] <when at war> <for [10] turns>",
+                "[-3 Happiness] from every [Tarraconensis] <when at war> <for [10] turns>",
+                "[-3 Happiness] from every [Lusitania] <when at war> <for [10] turns>",
+                "[-3 Happiness] from every [Baetica] <when at war> <for [10] turns>",
                 "Triggers the following global alert: [[Hispania] has been united under a single realm.]",
                 "Instantly provides [1] [Hispania P] <hidden from users>"
             ]
@@ -4525,8 +4551,16 @@
         {
             "text": "Invite the Traders and the Poets",
             "uniques": [
+                "Only available <when above [799] [Gold]>",
+		"Gain [-800] [Gold]",
+                "[+2 Happiness, +2 Culture, +3 Gold, -1 Production, -1 Food] from every [Cartaginensis] <when at war> <for [10] turns>",
+                "[+2 Happiness, +2 Culture, +3 Gold, -1 Production, -1 Food] from every [Tarraconensis] <when at war> <for [10] turns>",
+                "[+2 Happiness, +2 Culture, +3 Gold, -1 Production, -1 Food] from every [Lusitania] <when at war> <for [10] turns>",
+                "[+2 Happiness, +2 Culture, +3 Gold, -1 Production, -1 Food] from every [Baetica] <when at war> <for [10] turns>",
                 "Free [Great Merchant] appears <with [40]% chance>",
                 "Free [Great Artist] appears <with [40]% chance>",
+                "Free [Great Merchant] appears <with [20]% chance>",
+                "Free [Great Artist] appears <with [20]% chance>",
                 "Triggers the following global alert: [[Hispania] has been united under a single realm.]",
                 "Instantly provides [1] [Hispania P] <hidden from users>"
             ]
@@ -4537,6 +4571,8 @@
                 "Only available <when above [499] [Gold]>",
 		"Gain [-500] [Gold]",
                 "Gain a free [Sword Focus] [in capital]",
+                "Free [Lusitanian Warband] appears <when above [2] [Manpower]>",
+                "Free [Celtiberian Warband] appears <when above [6] [Manpower]>",
                 "Triggers the following global alert: [[Hispania] has been united under a single realm.]",
                 "Instantly provides [1] [Hispania P] <hidden from users>"
             ]
@@ -4547,19 +4583,22 @@
     "name": "Gallia United",
     "text": "[Gallia] has been united beneath a single banner. The tribal feuds have finally ended, replaced by the far more civilized pastime of arguing over who gets the biggest feast.\n\nThe forests are quiet, the villages prosper, and somewhere a bard is preparing a song in which everyone was the hero.",
     "presentation": "Alert",
-    "requirements": [
-        "Only available <if [Gallia] is constructed>"
-    ],
     "choices": [
         {
             "text": "Every Clan Needs More Cousins",
             "uniques": [
-                "[+1] population in a random city",
-                "[+1] population in a random city",
-                "[+1] population in a random city",
-                "[+1] population in a random city <with [30]% chance>",
-                "[+1] population in a random city <with [30]% chance>",
-                "[-5 Gold, -5 Culture] [in capital] <for [10] turns>",
+                "[+1] population in a random city <in cities with a [Provincia]>",
+                "[+1] population in a random city <in cities with a [Aquitania]>",
+                "[+1] population in a random city <in cities with a [Celtica]>",
+                "[+1] population in a random city <in cities with a [Belgica]>",
+                "[+1] population in a random city <in cities with a [Provincia]> <with [30]% chance>",
+                "[+1] population in a random city <in cities with a [Aquitania]> <with [30]% chance>",
+                "[+1] population in a random city <in cities with a [Celtica]> <with [30]% chance>",
+                "[+1] population in a random city <in cities with a [Belgica]> <with [30]% chance>",
+                "[-1 Happiness, -3 Culture, +1 Production, +2 Gold] from every [Provincia] <for [10] turns>",
+                "[-1 Happiness, -3 Culture, +1 Production, +2 Gold] from every [Aquitania] <for [10] turns>",
+                "[-1 Happiness, -3 Culture, +1 Production, +2 Gold] from every [Celtica] <for [10] turns>",
+                "[-1 Happiness, -3 Culture, +1 Production, +2 Gold] from every [Belgica] <for [10] turns>",
                 "Triggers the following global alert: [[Gallia] has been united under a single realm.]",
                 "Instantly provides [1] [Gallia P] <hidden from users>"
             ]
@@ -4567,8 +4606,12 @@
         {
             "text": "A Feast Worth Remembering",
             "uniques": [
-                "[+3 Food, +2 Happiness, +2 Gold, -2 Culture] [in capital] <for [10] turns>",
-                "[+1 Food, +1 Happiness, -1 Culture] [in all cities] <for [5] turns>",
+                "[+2 Happiness, -2 Culture] [in capital] <for [10] turns>",
+                "[+2 Happiness, +2 Culture, -1 Production, -2 Gold] from every [Provincia] <for [10] turns>",
+                "[+2 Happiness, +2 Culture, -1 Production, -2 Gold] from every [Aquitania] <for [10] turns>",
+                "[+2 Happiness, +2 Culture, -1 Production, -2 Gold] from every [Celtica] <for [10] turns>",
+                "[+2 Happiness, +2 Culture, -1 Production, -2 Gold] from every [Belgica] <for [10] turns>",
+                "Free [Great Artist] appears <with [30]% chance>",
                 "Free [Great Artist] appears <with [30]% chance>",
                 "Triggers the following global alert: [[Gallia] has been united under a single realm.]",
                 "Instantly provides [1] [Gallia P] <hidden from users>"
@@ -4580,6 +4623,8 @@
                 "Only available <when above [499] [Gold]>",
                 "Gain [-500] [Gold]",
                 "Gain a free [Mounted Focus] [in capital]",
+                "Free [Cavalry] appears <when above [2] [Manpower]> <when above [1] [Horses]>",
+                "Free [Cavalry] appears <when above [5] [Manpower]> <when above [3] [Horses]>",
                 "Triggers the following global alert: [[Gallia] has been united under a single realm.]",
                 "Instantly provides [1] [Gallia P] <hidden from users>"
             ]
@@ -4590,6 +4635,8 @@
                 "Only available <when above [499] [Gold]>",
                 "Gain [-500] [Gold]",
                 "Gain a free [Archery Focus] [in capital]",
+                "Free [Forester Warband] appears <when above [1] [Manpower]>",
+                "Free [Forester Warband] appears <when above [3] [Manpower]>",
                 "Triggers the following global alert: [[Gallia] has been united under a single realm.]",
                 "Instantly provides [1] [Gallia P] <hidden from users>"
             ]
@@ -4600,14 +4647,16 @@
     "name": "Germania United",
     "text": "[Germania] now stands beneath a single banner. The tribes have agreed to stand together, which is remarkable considering they usually preferred proving they were right with an axe.\n\nThe forests echo with celebration instead of war cries. At least until someone asks who should lead the victory feast.",
     "presentation": "Alert",
-    "requirements": [
-        "Only available <if [Germania] is constructed>"
-    ],
     "choices": [
         {
-            "text": "Hold the Greatest Feast in the Forest",
+            "text": "Hold the Greatest Feast",
             "uniques": [
-                "[+3 Happiness, +1 Gold] [in all cities] <for [10] turns>",
+                "[-1] population in a random city <in cities with a [Magna Germania]>",
+                "[+1] population [in capital]",
+		"[+2 Food, +2 Happiness, -1 Production, -2 Gold] from every [Magna Germania] <for [10] turns>",
+		"[+2 Food, +2 Happiness, -1 Production, -2 Gold] from every [Germania Minor] <for [10] turns>",
+		"[+2 Food, +2 Happiness, -1 Production, -2 Gold] from every [Suebia] <for [10] turns>",
+                "[+3 Happiness, +3 Culture] [in capital] <for [10] turns>",
                 "Triggers the following global alert: [[Germania] has been united under a single realm.]",
                 "Instantly provides [1] [Germania P] <hidden from users>"
             ]
@@ -4616,6 +4665,12 @@
             "text": "Trade Like Friends... Haggle Like Enemies",
             "uniques": [
 		"Gain [500] [Gold] <with [50]% chance>",
+		"Gain [500] [Gold] <with [50]% chance>",
+		"Gain [500] [Gold] <with [50]% chance>",
+		"Gain [500] [Gold] <with [50]% chance>",
+		"[-2 Happiness, +5 Gold] from every [Magna Germania] <for [10] turns>",
+		"[-2 Happiness, +5 Gold] from every [Germania Minor] <for [10] turns>",
+		"[-2 Happiness, +5 Gold] from every [Suebia] <for [10] turns>",
                 "Free [Great Merchant] appears <with [30]% chance>",
                 "Free [Great Merchant] appears <with [30]% chance>",
                 "Free [Great Merchant] appears <with [30]% chance>",
@@ -4629,6 +4684,8 @@
                 "Only available <when above [499] [Gold]> <if [Sword Focus] is not constructed>",
                 "Gain [-500] [Gold]",
                 "Gain a free [Sword Focus] [in capital]",
+                "Free [Suebian Warband] appears <when above [1] [Manpower]>"
+                "Free [Suebian Warband] appears <when above [3] [Manpower]>"
                 "Triggers the following global alert: [[Germania] has been united under a single realm.]",
                 "Instantly provides [1] [Germania P] <hidden from users>"
             ]
@@ -4639,6 +4696,8 @@
                 "Only available <when above [499] [Gold]> <if [Spear Focus] is not constructed>",
                 "Gain [-500] [Gold]",
                 "Gain a free [Spear Focus] [in capital]",
+                "Free [Spearman] appears <when above [1] [Manpower]>",
+                "Free [Spearman] appears <when above [3] [Manpower]>",
                 "Triggers the following global alert: [[Germania] has been united under a single realm.]",
                 "Instantly provides [1] [Germania P] <hidden from users>"
             ]
@@ -4650,14 +4709,12 @@
     "name": "Sicilia Magna United",
     "text": "[Sicilia Magna] has been united beneath a single banner. Its harbors bustle with merchants, its temples overlook prosperous cities, and its grain fields promise to feed armies that have not even been recruited yet.\n\nThe island is secure. Every neighboring ruler now insists they never wanted it anyway.",
     "presentation": "Alert",
-    "requirements": [
-        "Only available <if [Sicilia Magna] is constructed>"
-    ],
     "choices": [
         {
             "text": "Count Every Grain of Wheat",
             "uniques": [
-                "[+3 Food, +2 Gold, +1 Happiness] [in all cities] <for [10] turns>",
+                "[+3 Food, +2 Gold, -2 Happiness] from every [Sicilia] <for [10] turns>",
+		"[+2 Food, +1 Happiness] [in capital] <for [10] turns>",
                 "Triggers the following global alert: [[Sicilia Magna] has been united under a single realm.]",
                 "Instantly provides [1] [Sicilia Magna P] <hidden from users>"
             ]
@@ -4665,6 +4722,8 @@
         {
             "text": "Borrow Their Statues... Permanently",
             "uniques": [
+                "[-2 Happiness] from every [Sicilia] <for [10] turns>",
+		"[+2 Culture, +1 Happiness] [in capital] <for [10] turns>",
                 "Gain [200] [Culture]",
                 "Gain [200] [Culture] <with [50]% chance>",
                 "Gain [200] [Culture] <with [50]% chance>",
@@ -4679,6 +4738,8 @@
                 "Only available <when above [499] [Gold]> <if [Naval Focus] is not constructed>",
                 "Gain [-500] [Gold]",
                 "Gain a free [Naval Focus] [in capital]",
+                "Free [Trireme] appears <when above [2] [Manpower]> <when above [0] [Timber]>",
+                "Free [Galley] appears <when above [4] [Manpower]>",
                 "Triggers the following global alert: [[Sicilia Magna] has been united under a single realm.]",
                 "Instantly provides [1] [Sicilia Magna P] <hidden from users>"
             ]
@@ -4686,11 +4747,13 @@
         {
             "text": "Sell Bread to Everyone",
             "uniques": [
-                "Free [Great Merchant] appears <with [40]% chance>",
+                "[+5 Gold, -2 Food, -2 Happiness] from every [Sicilia] <for [10] turns>",
+                "[-1] population in a random city <in cities with a [Sicilia]>",
                 "Gain [600] [Gold] <with [50]% chance>",
                 "Gain [300] [Gold] <with [30]% chance>",
                 "Gain [300] [Gold] <with [30]% chance>",
                 "Gain [300] [Gold] <with [30]% chance>",
+                "Free [Great Merchant] appears <with [40]% chance>",
                 "Triggers the following global alert: [[Sicilia Magna] has been united under a single realm.]",
                 "Instantly provides [1] [Sicilia Magna P] <hidden from users>"
             ]
@@ -4701,17 +4764,17 @@
     "name": "Africa Pacata United",
     "text": "[Africa Pacata] has been united beneath a single banner. The fields are fertile, the caravans arrive on time, and every governor has independently concluded that prosperity begins with collecting someone else's taxes.\n\nPeace has finally reached the province. The accountants follow close behind.",
     "presentation": "Alert",
-    "requirements": [
-        "Only available <if [Africa Pacata] is constructed>"
-    ],
     "choices": [
         {
             "text": "Harvest the Breadbasket",
             "uniques": [
-                "[+3 Food] [in all cities] <for [10] turns>",
-                "[+1] population in a random city",
-                "[+1] population in a random city <with [30]% chance>",
-                "[+1] population in a random city <with [30]% chance>",
+                "[+2 Happiness, +2 Food, -2 Gold, -2 Production] from every [Mauretania] <for [10] turns>",
+                "[+2 Happiness, +2 Food, -2 Gold, -2 Production] from every [Africa] <for [10] turns>",
+                "[+2 Happiness, +2 Food, -2 Gold, -2 Production] from every [Phazania] <for [10] turns>",
+                "[+1] population [in capital]",
+                "[+1] population in a random city <in cities with a [Mauretania]> <with [30]% chance>",
+                "[+1] population in a random city <in cities with a [Africa]> <with [30]% chance>",
+                "[+1] population in a random city <in cities with a [Phazania]> <with [30]% chance>",
                 "Triggers the following global alert: [[Africa Pacata] has been united under a single realm.]",
                 "Instantly provides [1] [Africa Pacata P] <hidden from users>"
             ]
@@ -4719,7 +4782,9 @@
         {
             "text": "Tax the Caravans, Politely",
             "uniques": [
-                "[+4 Gold, -1 Happiness] [in this city] <in cities with a [Market]> <for [10] turns>",
+                "[-2 Happiness, +5 Gold] from every [Mauretania] <for [10] turns>",
+                "[-2 Happiness, +5 Gold] from every [Africa] <for [10] turns>",
+                "[-2 Happiness, +5 Gold] from every [Phazania] <for [10] turns>",
                 "Gain [600] [Gold]",
                 "Gain [600] [Gold] <with [30]% chance>",
                 "Gain [600] [Gold] <with [30]% chance>",
@@ -4731,8 +4796,11 @@
         {
             "text": "Every Caravan Needs a Market",
             "uniques": [
-                "[+2 Gold, +1 Happiness] [in this city] <in cities with a [Market]> <for [10] turns>",
-                "Free [Great Merchant] appears <with [40]% chance>",
+                "[+2 Happiness, +1 Production, -5 Gold] from every [Mauretania] <for [10] turns>",
+                "[+2 Happiness, +1 Production, -5 Gold] from every [Africa] <for [10] turns>",
+                "[+2 Happiness, +1 Production, -5 Gold] from every [Phazania] <for [10] turns>",
+                "[+2 Happiness, +5 Gold] from every [Market] <for [10] turns>",
+                "Free [Great Merchant] appears <with [30]% chance>",
                 "Free [Great Merchant] appears <with [40]% chance>",
                 "Triggers the following global alert: [[Africa Pacata] has been united under a single realm.]",
                 "Instantly provides [1] [Africa Pacata P] <hidden from users>"
@@ -4744,6 +4812,8 @@
                 "Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>",
                 "Gain [-500] [Gold]",
                 "Gain a free [Mounted Focus] [in capital]",
+                "Free [Cavalry] appears <when above [2] [Manpower]> <when above [1] [Horses]>",
+                "Free [Cavalry] appears <when above [5] [Manpower]> <when above [3] [Horses]>",
                 "Triggers the following global alert: [[Africa Pacata] has been united under a single realm.]",
                 "Instantly provides [1] [Africa Pacata P] <hidden from users>"
             ]
@@ -4754,15 +4824,14 @@
     "name": "Aegyptus Maior United",
     "text": "[Aegyptus Maior] has been united beneath a single banner. The Nile continues its ancient rhythm, the granaries overflow, and the scribes have already produced three copies declaring this outcome inevitable.\n\nThe river gives life. The officials take attendance.",
     "presentation": "Alert",
-    "requirements": [
-        "Only available <if [Aegyptus Maior] is constructed>"
-    ],
     "choices": [
         {
             "text": "Trust in the Nile",
             "uniques": [
-                "[+4 Food, +2 Gold] [in all cities] <for [10] turns>",
-                "[+4 Food, +2 Happiness] [in capital] <for [5] turns>",
+                "[+2 Happiness, +1 Food, -2 Culture] from every [Libya] <for [10] turns>",
+                "[+2 Happiness, +1 Food, -2 Culture] from every [Aegyptus] <for [10] turns>",
+                "[+2 Happiness, +1 Food, -2 Culture] from every [Nabataea] <for [10] turns>",
+                "[+3 Food, +2 Happiness] [in capital] <for [5] turns>",
                 "Triggers the following global alert: [[Aegyptus Maior] has been united under a single realm.]",
                 "Instantly provides [1] [Aegyptus Maior P] <hidden from users>"
             ]
@@ -4770,7 +4839,11 @@
         {
             "text": "The Scribes Need More Papyrus",
             "uniques": [
+                "[+2 Happiness, +1 Science, -5 Gold] from every [Libya] <for [10] turns>",
+                "[+2 Happiness, +1 Science, -5 Gold] from every [Aegyptus] <for [10] turns>",
+                "[+2 Happiness, +1 Science, -5 Gold] from every [Nabataea] <for [10] turns>",
                 "Gain [500] [Science]",
+                "Gain [500] [Science] <with [30]% chance>",
                 "Free [Great Scholar] appears <with [30]% chance>",
                 "Free [Great Scholar] appears <with [30]% chance>",
                 "Triggers the following global alert: [[Aegyptus Maior] has been united under a single realm.]",
@@ -4780,12 +4853,13 @@
         {
             "text": "Build Monuments Tall Enough to Impress the Gods",
             "uniques": [
-                "Only available <when above [499] [Gold]>",
-                "Gain [-500] [Gold]",
-                "[+2 Happiness, +1 Production] [in this city] <in cities with a [Brick Maker]> <for [10] turns>",
-                "[+2 Happiness, +1 Production] [in this city] <in cities with a [Stone Works]> <for [10] turns>",
-                "[+3 Happiness, +1 Production] [in capital] <for [10] turns>",
-                "Free [Great Engineer] appears <with [30]% chance>",
+                "Only available <when above [699] [Gold]>",
+                "Gain [-700] [Gold]",
+                "[+2 Happiness, +1 Faith, +1 Production, +1 Culture, -5 Gold] from every [Libya] <for [10] turns>",
+                "[+2 Happiness, +1 Faith, +1 Production, +1 Culture, -5 Gold] from every [Aegyptus] <for [10] turns>",
+                "[+2 Happiness, +1 Faith, +1 Production, +1 Culture, -5 Gold] from every [Nabataea] <for [10] turns>",
+                "[+3 Happiness, +1 Faith, +1 Production] [in capital] <for [10] turns>",
+                "Free [Great Prophet] appears <with [30]% chance>",
                 "Free [Great Engineer] appears <with [30]% chance>",
                 "Triggers the following global alert: [[Aegyptus Maior] has been united under a single realm.]",
                 "Instantly provides [1] [Aegyptus Maior P] <hidden from users>"
@@ -4794,7 +4868,9 @@
         {
             "text": "The Grain Isn't Going to Tax Itself",
             "uniques": [
-                "[+3 Gold, -1 Happiness] [in all cities] <for [10] turns>",
+                "[-2 Happiness, +5 Gold] from every [Libya] <for [10] turns>",
+                "[-2 Happiness, +5 Gold] from every [Aegyptus] <for [10] turns>",
+                "[-2 Happiness, +5 Gold] from every [Nabataea] <for [10] turns>",
                 "Gain [700] [Gold]",
                 "Gain [700] [Gold] <with [30]% chance>",
                 "Gain [700] [Gold] <with [30]% chance>",
@@ -4806,22 +4882,895 @@
     ]
 },
 
+{
+    "name": "Arabia United",
+    "text": "[Arabia] has been united beneath a single banner. The caravans travel farther, the oases grow busier, and every merchant swears his prices are fair. They are all lying, of course, but at least they are doing so in the same language.\n\nThe deserts remain vast, yet now they carry opportunity as readily as they carry sand.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Follow the Caravan Routes",
+            "uniques": [
+                "Gain [600] [Gold] <with [30]% chance>",
+                "Gain [600] [Gold] <with [30]% chance>",
+                "[+3 Gold, +1 Happiness, -1 Production] from every [Arabia Magna] <for [10] turns>",
+                "[+3 Gold, +1 Happiness, -1 Production] from every [Arabia Felix] <for [10] turns>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Arabia] has been united under a single realm.]",
+                "Instantly provides [1] [Arabia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Every Oasis Has a Marketplace",
+            "uniques": [
+                "Gain [400] [Culture] <with [50]% chance>",
+                "Gain [600] [Gold] <with [50]% chance>",
+                "Gain [600] [Gold] <with [30]% chance>",
+                "Gain [600] [Gold] <with [30]% chance>",
+                "[-1] population in a random city",
+                "[+1] population in a random city <in cities with a [Arabia Magna]>",
+                "[+1] population in a random city <in cities with a [Arabia Felix]>",
+                "[+5 Gold, -1 Happiness, -2 Food] from every [Arabia Magna] <for [10] turns>",
+                "[+5 Gold, -1 Happiness, -2 Food] from every [Arabia Felix] <for [10] turns>",
+                "Free [Great Merchant] appears <with [20]% chance>",
+                "Triggers the following global alert: [[Arabia] has been united under a single realm.]",
+                "Instantly provides [1] [Arabia P] <hidden from users>",
+            ]
+        },
+        {
+            "text": "Camels Don't Feed Themselves",
+            "uniques": [
+                "Only available <when above [3] [Manpower]> <when above [0] [Veteran]>",
+                "Free [Royal Camel Cavalry] appears",
+                "Free [Camel Archer] appears <when above [5] [Manpower]> <when above [0] [Horses]>",
+                "Free [Camel Cavalry] appears <when above [8] [Manpower]> <when above [1] [Horses]>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
 
+            ]
+        },
+        {
+            "text": "Incense Smells Better Than War",
+            "uniques": [
+                "Gain [400] [Faith]",
+                "Gain [500] [Science] <with [50]% chance>",
+                "Free [Great Scholar] appears <with [40]% chance>",
+                "Free [Great Prophet] appears <with [40]% chance>",
+                "[+1 Faith, +1 Happiness, -1 Production, -1 Culture] from every [Arabia Magna] <for [10] turns>",
+                "[+1 Faith, +1 Happiness, -1 Production, -1 Culture] from every [Arabia Felix] <for [10] turns>",
+                "Triggers the following global alert: [[Arabia] has been united under a single realm.]",
+                "Instantly provides [1] [Arabia P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Syria Maior United",
+    "text": "[Syria Maior] has been united beneath a single banner. Caravans once halted by borders now stop only to pay customs. Merchants celebrate, scribes sharpen their reeds, and every governor discovers a remarkable talent for counting someone else's money.\n\nFrom the ports to the great cities, prosperity follows peace. The tax collectors are simply making sure it does not get lost along the way.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "The Customs Houses Never Sleep",
+            "uniques": [
+                "Free [Great Artist] appears <with [25]% chance>",
+                "Free [Great Merchant] appears <with [25]% chance>",
+                "[+3 Gold, +1 Happiness, +2 Science, -2 Production] from every [Cilicia] <for [10] turns>",
+                "[+3 Gold, +1 Happiness, +2 Science, -2 Production] from every [Syria] <for [10] turns>",
+                "Triggers the following global alert: [[Syria Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Syria Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Fund the Libraries of Antioch",
+            "uniques": [
+                "Only available <when above [699] [Gold]>",
+		"Gain [-700] [Gold]",
+                "Gain [300] [Science]",
+                "Gain [500] [Science] <with [30]% chance>",
+                "[+1 Happiness, +1 Science, -3 Gold] from every [Cilicia] <for [10] turns>",
+                "[+1 Happiness, +1 Science, -3 Gold] from every [Syria] <for [10] turns>",
+                "Free [Great Scholar] appears <with [40]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Syria Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Syria Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Every Harbor Pays Its Tribute",
+            "uniques": [
+                "Gain [500] [Gold]",
+                "Gain [500] [Gold] <with [30]% chance>",
+                "Gain [500] [Gold] <with [30]% chance>",
+                "Gain [500] [Gold] <with [30]% chance>",
+                "[+5 Gold, -3 Happiness, -1 Production] [in all coastal cities] <in cities with a [Cilicia]> <for [10] turns>",
+                "[+5 Gold, -3 Happiness, -1 Production] [in all coastal cities] <in cities with a [Syria]> <for [10] turns>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Syria Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Syria Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Arrows Are Cheaper Than Heroes",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Archery Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Archery Focus] [in capital]",
+                "Free [Archer] appears <when above [1] [Manpower]>",
+                "Free [Archer] appears <when above [3] [Manpower]>",
+                "Triggers the following global alert: [[Syria Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Syria Maior P] <hidden from users>"
+            ]
+        }
+    ]
+},
 
+{
+    "name": "Mesopotamia Maior United",
+    "text": "[Mesopotamia Maior] has been united beneath a single banner. Between the great rivers, cities flourish, canals carry life across the plains, and scribes continue recording everything with admirable precision. They are already documenting who deserves the credit. Curiously, everyone seems to agree that it was themselves.\n\nThe land between the rivers has enriched empires for millennia. It would be impolite to interrupt such a tradition.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Repair the Canals Before the Complaints",
+            "uniques": [
+                "Only available <when above [499] [Gold]>",
+                "Gain [-500] [Gold]",
+                "[-1 Production, +3 Food, +3 Happiness, +3 Culture] [in this city] <in cities with a [Mesopotamia]> <for [10] turns>",
+                "Free [Great Engineer] appears",
+                "Free [Great Engineer] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Mesopotamia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Mesopotamia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Let the Scribes Do the Counting",
+            "uniques": [
+                "Free [Great Scholar] appears <with [40]% chance>",
+                "Gain [400] [Science]",
+                "Gain [400] [Gold]",
+                "Gain [600] [Gold] <with [50]% chance>",
+                "Gain [600] [Science] <with [50]% chance>",
+                "Triggers the following global alert: [[Mesopotamia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Mesopotamia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Raise the Horse Archers",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Mounted Archery Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Archery Focus] [in capital]",
+                "Free [Horse Archer] appears <when above [1] [Manpower]> <when above [0] [Horses]>",
+                "Free [Horse Archer] appears <when above [3] [Manpower]> <when above [1] [Horses]>",
+                "Triggers the following global alert: [[Mesopotamia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Mesopotamia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Collect Taxes Older Than Kingdoms",
+            "uniques": [
+		"[-3 Happiness] [in this city] <for [10] turns> <in cities with a [Mesopotamia]>",
+                "Gain [1000] [Gold]",
+                "Gain [700] [Gold] <with [30]% chance>",
+                "Gain [700] [Gold] <with [30]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Mesopotamia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Mesopotamia Maior P] <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "Persia United",
+    "text": "[Persia] has been united beneath a single banner. The Royal Road once again carries merchants, envoys, and armies across the empire. Every satrap promises unwavering loyalty, a statement history advises receiving with polite skepticism.\n\nEmpires rise, kingdoms fall, yet somehow the tax records always survive.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Restore the Royal Road",
+            "uniques": [
+                "Only available <when above [799] [Gold]>",
+                "Gain [-800] [Gold]",
+                "[+2 Gold, +1 Production, +1 Happiness] from every [Persis] <for [10] turns>",
+                "[+2 Gold, +1 Production, +1 Happiness] from every [Media Magna] <for [10] turns>",
+                "[+2 Gold, +1 Production, +1 Happiness] from every [Parthia] <for [10] turns>",
+                "[+3 Gold, +1 Happiness] from every [Market] <for [10] turns>",
+                "Triggers the following global alert: [[Persia] has been united under a single realm.]",
+                "Instantly provides [1] [Persia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Consult the Satraps... Carefully",
+            "uniques": [
+                "Free [Great Merchant] appears <with [30]% chance>",
+                "Free [Great Scholar] appears <with [30]% chance>",
+                "Free [Great Artist] appears <with [30]% chance>",
+                "Gain [500] [Culture] <with [50]% chance>",
+                "Gain [500] [Science] <with [50]% chance>",
+                "Gain [500] [Gold] <with [50]% chance>",
+                "[+1] population in a random city <with [50]% chance>",
+                "[+1] population in a random city <with [50]% chance>",
+                "[+1] population in a random city <with [50]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities with a [Persis]> <with [50]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities with a [Media Magna]> <with [50]% chance>",
+                "Gain a free [REBEL IMMINENT] [in your cities] <in cities with a [Parthia]> <with [50]% chance>",
+                "Triggers the following global alert: [[Persia] has been united under a single realm.]",
+                "Instantly provides [1] [Persia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "The Cavalry Demand Better Horses",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Focus] [in capital]",
+                "Free [Cavalry] appears <when above [2] [Manpower]> <when above [1] [Horses]>",
+                "Free [Cavalry] appears <when above [5] [Manpower]> <when above [3] [Horses]>",
+                "Triggers the following global alert: [[Persia] has been united under a single realm.]",
+                "Instantly provides [1] [Persia P] <hidden from users>"
+            ]
+        },
+        {
+    	    "text": "Hold a Royal Audience",
+   	    "uniques": [
+        	"[+4 Gold] from every [Persis] <for [10] turns>",
+        	"[+4 Happiness] from every [Parthia] <for [10] turns>",
+        	"[+2 Production] from every [Media Magna] <for [10] turns>",
+        	"[+5 Happiness] [Capital] <for [10] turns>",
+                "Free [Great Artist] appears <with [10]% chance>",
+        	"Triggers the following global alert: [[Persia] has been united under a single realm.]",
+        	"Instantly provides [1] [Persia P] <hidden from users>"
+    ]
+}
+    ]
+},
+{
+    "name": "Ariana United",
+    "text": "[Ariana] has been united beneath a single banner. The mountain passes are guarded, the caravan trails are open once more, and every local ruler insists they had intended to cooperate from the very beginning.\n\nThe crossroads of east and west belong to one realm at last. Naturally, everyone passing through is expected to pay for the privilege.",
+    "presentation": "Alert",
+    "choices": [
+       {
+    	   "text": "Every Pass Becomes a Toll Booth",
+    	   "uniques": [
+        	"[+3 Gold, -1 Happiness] from every [Gedrosia] <for [10] turns>",
+        	"[+3 Gold, -1 Happiness] from every [Aria] <for [10] turns>",
+        	"[+3 Gold, -1 Happiness] from every [Arachosia] <for [10] turns>",
+                "Free [Great Engineer] appears <with [35]% chance>",
+        	"Triggers the following global alert: [[Ariana] has been united under a single realm.]",
+        	"Instantly provides [1] [Ariana P] <hidden from users>"
+    		]
+	},
+        {
+            "text": "Tax Every Caravan Twice",
+            "uniques": [
+        	"[-1 Production, -2 Happiness] from every [Gedrosia] <for [10] turns>",
+        	"[-1 Production, -2 Happiness] from every [Aria] <for [10] turns>",
+        	"[-1 Production, -2 Happiness] from every [Arachosia] <for [10] turns>",
+                "Gain [1000] [Gold]",
+                "Gain [600] [Gold] <with [30]% chance>",
+                "Gain [600] [Gold] <with [30]% chance>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Ariana] has been united under a single realm.]",
+                "Instantly provides [1] [Ariana P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "The Horses Need Better Riders",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Focus] [in capital]",
+                "Free [Cavalry] appears <when above [2] [Manpower]> <when above [1] [Horses]>",
+                "Free [Cavalry] appears <when above [5] [Manpower]> <when above [3] [Horses]>",
+                "Triggers the following global alert: [[Ariana] has been united under a single realm.]",
+                "Instantly provides [1] [Ariana P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Learn from the East",
+            "uniques": [
+		"[+2 Happiness, +2 Science] from every [School] <for [10] turns>",
+		"[+2 Happiness, +3 Science] from every [Palace Library] <for [10] turns>",
+        	"[-1 Production, +1 Science] from every [Gedrosia] <for [10] turns>",
+        	"[-1 Production, +1 Science] from every [Aria] <for [10] turns>",
+        	"[-1 Production, +1 Science] from every [Arachosia] <for [10] turns>",
+                "Free [Great Scholar] appears <with [35]% chance>",
+                "Gain [500] [Science] <with [50]% chance>",
+                "Triggers the following global alert: [[Ariana] has been united under a single realm.]",
+                "Instantly provides [1] [Ariana P] <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "Bactria Maior United",
+    "text": "[Bactria Maior] has been united beneath a single banner. Merchants from every horizon crowd its markets, horse breeders boast that their steeds are unmatched, and local governors assure everyone the frontier is perfectly secure. It is, naturally, just beyond the next mountain.\n\nThe gateway between east and west is yours. Now comes the easy part: convincing everyone else.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Open the Gates of the Silk Roads",
+            "uniques": [
+                "[+1 Food, +1 Gold, -1 Culture] from every [Chorasmia] <for [10] turns>",
+                "[+1 Food, +1 Gold, -1 Culture] from every [Transoxania] <for [10] turns>",
+                "[+1 Food, +1 Gold, -1 Culture] from every [Bactria] <for [10] turns>",
+                "[+3 Gold, +2 Science, +1 Happiness] from every [Market] <for [10] turns>",
+                "Free [Great Scholar] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Bactria Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Bactria Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Every Caravan Leaves a Donation",
+            "uniques": [
+                "[-2 Happiness] from every [Chorasmia] <for [10] turns>",
+                "[-2 Happiness] from every [Transoxania] <for [10] turns>",
+                "[-2 Happiness] from every [Bactria] <for [10] turns>",
+                "Free [Great Merchant] appears <with [40]% chance>",
+                "Free [Great Merchant] appears <with [20]% chance>",
+                "Gain [500] [Gold]",
+                "Gain [700] [Gold] <with [50]% chance>",
+                "Gain [700] [Gold] <with [50]% chance>",
+                "Gain [700] [Gold] <with [50]% chance>",
+                "Gain [700] [Gold] <with [50]% chance>",
+                "Triggers the following global alert: [[Bactria Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Bactria Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Breed Horses Worth Stealing",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Focus] [in capital]",
+                "Free [Cavalry] appears <when above [2] [Manpower]> <when above [1] [Horses]>",
+                "Free [Cavalry] appears <when above [5] [Manpower]> <when above [3] [Horses]>",
+                "Triggers the following global alert: [[Bactria Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Bactria Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "An Iron Elephant Solves Most Border Disputes",
+            "uniques": [
+                "Only available <when above [1] [Iron]> <when above [1] [Elephants]> <when above [0] [Veteran]> <when above [3] [Manpower]>",
+                "Free [Armored Elephant] appears",
+                "Triggers the following global alert: [[Bactria Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Bactria Maior P] <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "Anatolia United",
+    "text": "[Anatolia] has been united beneath a single banner. Ancient kingdoms, bustling ports, and prosperous cities now share the same fate. The merchants rejoice, the philosophers begin debating whether this was inevitable, and the masons quietly prepare to carve a new ruler's name over the old one.\n\nSuch is the privilege of living at the crossroads of the world.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Restore the Royal Highways",
+            "uniques": [
+                "Only available <when above [799] [Gold]> <if [Mounted Focus] is not constructed>",
+                "Gain [-800] [Gold]",
+                "[+2 Happiness, +1 Production, +2 Gold] from every [Asia] <for [10] turns>",
+                "[+2 Happiness, +1 Production, +2 Gold] from every [Galatia et Cappadocia] <for [10] turns>",
+                "[+2 Happiness, +1 Production, +2 Gold] from every [Bithynia et Pontus] <for [10] turns>",
+                "Free [Great Engineer] appears <with [30]% chance>",
+                "Free [Great Engineer] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Anatolia] has been united under a single realm.]",
+                "Instantly provides [1] [Anatolia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Every City Has a Philosopher",
+            "uniques": [
+                "Free [Great Scholar] appears <with [35]% chance>",
+                "Free [Great Artist] appears <with [35]% chance>",
+                "Gain [500] [Culture] <with [30]% chance>",
+                "Gain [500] [Culture] <with [30]% chance>",
+                "Gain [500] [Culture] <with [30]% chance>",
+                "Triggers the following global alert: [[Anatolia] has been united under a single realm.]",
+                "Instantly provides [1] [Anatolia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "The Mines Owe You Their Best",
+            "uniques": [
+                "[-2 Happiness, -1 Food, +1 Production, +3 Gold] from every [Asia] <for [10] turns>",
+                "[-2 Happiness, -1 Food, +1 Production, +3 Gold] from every [Galatia et Cappadocia] <for [10] turns>",
+                "[-2 Happiness, -1 Food, +1 Production, +3 Gold] from every [Bithynia et Pontus] <for [10] turns>",
+                "Gain [400] [Gold] <with [35]% chance>",
+                "Gain [400] [Gold] <with [35]% chance>",
+                "Gain [400] [Gold] <with [35]% chance>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Anatolia] has been united under a single realm.]",
+                "Instantly provides [1] [Anatolia P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Recruit the Anatolian Horsemen",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Focus] [in capital]",
+                "Free [Cavalry] appears <when above [2] [Manpower]> <when above [1] [Horses]>",
+                "Free [Cavalry] appears <when above [5] [Manpower]> <when above [3] [Horses]>",
+                "Triggers the following global alert: [[Anatolia] has been united under a single realm.]",
+                "Instantly provides [1] [Anatolia P] <hidden from users>"
+            ]
+        }
+    ]
+},
+
+{
+    "name": "Armenia et Caucasus United",
+    "text": "[Armenia et Caucasus] has been united beneath a single banner. The mountain fortresses signal one another once more, caravan masters cautiously agree that the roads are almost safe, and every noble family proudly explains that they were loyal long before anyone started keeping records.\n\nThe highlands now stand as one realm. Between great empires, surviving is an art. Thriving is simply good administration.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Fortify Every Mountain Pass",
+            "uniques": [
+                "[+2 Production, +2 Happiness, -5 Gold] from every [Armenia] <for [10] turns>",
+                "[+2 Production, +2 Happiness, -5 Gold] from every [Caucasia] <for [10] turns>",
+                "Free [Great Engineer] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Armenia et Caucasus] has been united under a single realm.]",
+                "Instantly provides [1] [Armenia et Caucasus P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Reward the Nakharars",
+            "uniques": [
+                "Only available <when above [299] [Gold]> <when above [3] [Manpower]> <when above [1] [Horses]> <when above [0] [Iron]>",
+                "[+1 Happiness, +1 Culture] from every [Armenia] <for [10] turns>",
+                "[+1 Happiness, +1 Culture] from every [Caucasia] <for [10] turns>",
+                "Free [Armenian Noble] appears",
+                "Triggers the following global alert: [[Armenia et Caucasus] has been united under a single realm.]",
+                "Instantly provides [1] [Armenia et Caucasus P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Tax Every Caravan Crossing the Highlands",
+            "uniques": [
+                "[+5 Gold, -2 Happiness] from every [Armenia] <for [10] turns>",
+                "[+5 Gold, -2 Happiness] from every [Caucasia] <for [10] turns>",
+                "Gain [500] [Gold]",
+                "Gain [600] [Gold] <with [40]% chance>",
+                "Gain [600] [Gold] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Armenia et Caucasus] has been united under a single realm.]",
+                "Instantly provides [1] [Armenia et Caucasus P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Adopt the Highland Cavalry",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Focus] [in capital]",
+                "Free [Cavalry] appears <when above [2] [Manpower]> <when above [1] [Horses]>",
+                "Free [Cavalry] appears <when above [5] [Manpower]> <when above [3] [Horses]>",
+                "Triggers the following global alert: [[Armenia et Caucasus] has been united under a single realm.]",
+                "Instantly provides [1] [Armenia et Caucasus P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Pontus Euxinus United",
+    "text": "[Pontus Euxinus] has been united beneath a single banner. Greek harbors bustle with merchants, Scythian riders patrol the endless steppe, and every fisherman insists the sea was far more generous before taxes were invented.\n\nFrom the Black Sea to the Caspian frontier, the northern crossroads now answer to one ruler. Whether they continue answering tomorrow is another matter entirely.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Protect the Grain Fleets",
+            "uniques": [
+                "[+2 Food, +2 Gold, +1 Happiness, -1 Production] from every [Scythia] <for [10] turns>",
+                "[+2 Food, +2 Gold, +1 Happiness, -1 Production] from every [Ponto Caspia] <for [10] turns>",
+                "[+2 Food, +2 Gold, +1 Happiness, -1 Production] from every [Bosporus] <for [10] turns>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Pontus Euxinus] has been united under a single realm.]",
+                "Instantly provides [1] [Pontus Euxinus P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Recruit the Steppe Horsemen",
+            "uniques": [
+                "Only available <when above [2999] [Gold]> <when below [1] [Enable Horse Archer]>",
+                "Gain [-3000] [Gold]",
+                "Instantly provides [1] [Enable Horse Archer]",
+		"[-3 Culture] [in capital] <for [10] turns>",
+                "Triggers the following global alert: [[Pontus Euxinus] has been united under a single realm.]",
+                "Instantly provides [1] [Pontus Euxinus P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Recruit the Steppe Horsemen",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <when above [0] [Enable Horse Archer]>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Archery Focus] [in capital]",
+                "Free [Horse Archer] appears <when above [1] [Manpower]> <when above [0] [Horses]>",
+                "Free [Horse Archer] appears <when above [3] [Manpower]> <when above [1] [Horses]>",
+                "Triggers the following global alert: [[Pontus Euxinus] has been united under a single realm.]",
+                "Instantly provides [1] [Pontus Euxinus P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Tax Every Trading Post",
+            "uniques": [
+                "[+5 Gold, -2 Happiness] from every [Scythia] <for [10] turns>",
+                "[+5 Gold, -2 Happiness] from every [Ponto Caspia] <for [10] turns>",
+                "[+5 Gold, -2 Happiness] from every [Bosporus] <for [10] turns>",
+                "Gain [800] [Gold]",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Pontus Euxinus] has been united under a single realm.]",
+                "Instantly provides [1] [Pontus Euxinus P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Found Cities Worth Trading With",
+            "uniques": [
+                "[-4 Production, -10 Gold, -5 Culture] [in capital] <for [10] turns>",
+                "[+2 Happiness, +2 Production, +2 Food, +2 Culture, -5 Gold] from every [Scythia] <for [10] turns>",
+                "[+2 Happiness, +2 Production, +2 Food, +2 Culture, -5 Gold] from every [Ponto Caspia] <for [10] turns>",
+                "[+2 Happiness, +2 Production, +2 Food, +2 Culture, -5 Gold] from every [Bosporus] <for [10] turns>",
+                "Free [Great Artist] appears <with [35]% chance>",
+                "Gain [500] [Culture] <with [40]% chance>",
+                "Triggers the following global alert: [[Pontus Euxinus] has been united under a single realm.]",
+                "Instantly provides [1] [Pontus Euxinus P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Sarmatia Maior United",
+    "text": "[Sarmatia] has been united beneath a single banner. The tribes have gathered beneath one ruler, the horse herds stretch beyond the horizon, and every chieftain politely explains that they were never rebelling, merely expressing a traditional interpretation of independence.\n\nThe Great Steppe now rides as one. Keeping it that way will require equal measures of diplomacy, wealth, and sharp spears.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Breed the Finest Horses",
+            "uniques": [
+                "[+1 Production, +1 Happiness, -2 Food, -5 Gold] from every [Stable] <for [15] turns>",
+                "[+1 Production, +2 Happiness, +5 Gold] from every [Sarmatia] <for [15] turns>",
+                "[Mounted] units gain the [Drill I] promotion <for [15] turns>",
+                "[Mounted] units gain the [Shock I] promotion <for [15] turns>",
+                "Free [Cavalry] appears <when above [1] [Horses]> <when above [2] [Manpower]>",
+                "Free [Great Artist] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Sarmatia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Sarmatia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Train The Cavalry In The Sarmatian Way",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Mounted Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Mounted Focus] [in capital]",
+                "Free [Cavalry] appears <when above [2] [Manpower]> <when above [1] [Horses]>",
+                "Free [Cavalry] appears <when above [5] [Manpower]> <when above [3] [Horses]>",
+                "Triggers the following global alert: [[Sarmatia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Sarmatia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Every Caravan Pays Tribute",
+            "uniques": [
+                "[+5 Gold, -2 Happiness] from every [Sarmatia] <for [10] turns>",
+                "Gain [500] [Gold]",
+                "Gain [500] [Gold] <with [40]% chance>",
+                "Gain [500] [Gold] <with [40]% chance>",
+                "Gain [500] [Gold] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Sarmatia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Sarmatia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Unite the Tribal Councils",
+            "uniques": [
+                "[-1 Production, +1 Culture, +1 Food, +1 Happiness] from every [Sarmatia] <for [10] turns>",
+                "Free [Great Artist] appears <with [30]% chance>",
+                "Gain [500] [Culture] <with [30]% chance>",
+                "Triggers the following global alert: [[Sarmatia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Sarmatia Maior P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Hercynia Maior United",
+    "text": "[Hercynia] has been united beneath a single banner. The great forests echo with the sound of axes instead of rival war horns, merchants discover that every bridge now collects a convenient toll, and the tribal elders insist they were always in favor of unity, provided someone else did the compromising.\n\nThe heart of the northern wilderness is yours. The forests are vast, the iron is plentiful, and every neighboring tribe suddenly remembers they have something worth trading.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "The Forests Shall Feed the Realm",
+            "uniques": [
+                "[+2 Happiness, +3 Food, -2 Production, -3 Gold] from every [Hercynia] <for [10] turns>",
+                "Free [Great Engineer] appears <with [30]% chance>",
+                "Triggers the following global alert: [[Hercynia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Hercynia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Call the Warbands",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Sword Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Sword Focus] [in capital]",
+                "Free [Raider Warband] appears <when above [3] [Manpower]>",
+                "Free [Raider Warband] appears <when above [7] [Manpower]>",
+                "Triggers the following global alert: [[Hercynia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Hercynia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Tax the Amber Road",
+            "uniques": [
+                "[+5 Gold, -2 Happiness] from every [Hercynia] <for [10] turns>",
+                "Gain [700] [Gold] <when above [1] [Amber]>",
+                "Gain [500] [Gold]",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Hercynia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Hercynia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Master the Iron Forges",
+            "uniques": [
+                "[+1 Happiness, +1 Production, +1 Science, -5 Gold] from every [Forge] <for [10] turns>",
+                "[+1 Happiness, +1 Food, +1 Production, +1 Science, -3 Gold] from every [Hercynia] <for [10] turns>",
+                "Free [Great Engineer] appears <with [35]% chance>",
+                "Gain [500] [Science] <with [40]% chance>",
+                "Triggers the following global alert: [[Hercynia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Hercynia Maior P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Dacia Maior United",
+    "text": "[Dacia] has been united beneath a single banner. The hill forts stand watch over the mountains once more, the gold miners complain that someone else now owns the mines, and every tribal chief insists they always intended to support the winning side.\n\nThe Carpathians now shelter a single kingdom. Riches lie beneath the mountains, provided your enemies do not arrive first to admire them.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Reopen the Gold Mines",
+            "uniques": [
+                "[+8 Gold, +1 Production, -2 Happiness, -1 Food, -1 Culture] from every [Dacia] <for [10] turns>",
+                "Gain [500] [Gold]",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [25]% chance>",
+                "Free [Great Engineer] appears <with [25]% chance>",
+                "Triggers the following global alert: [[Dacia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Dacia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Study The Fighting of The Dacians",
+            "uniques": [
+                "Only available <when above [499] [Gold]>",
+		"Gain [-500] [Gold]",
+                "Free [Falxman] appears <when above [2] [Manpower]>",
+                "Free [Falxman] appears <when above [5] [Manpower]>",
+                "Gain a free [Sword Focus] [in capital]",
+                "Triggers the following global alert: [[Dacia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Dacia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Strengthen the Hill Forts",
+            "uniques": [
+                "[+2 Happiness, +2 Production, -5 Gold] from every [Dacia] <for [10] turns>",
+                "[+2 Happiness, +1 Production] from every [Walls] <for [10] turns>",
+                "Free [Great Engineer] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Dacia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Dacia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Honor the Sacred Sanctuaries",
+            "uniques": [
+                "[+2 Culture, +2 Happiness, -3 Gold] from every [Dacia] <for [10] turns>",
+                "[+2 Culture, +2 Happiness] from every [Temple] <for [10] turns>",
+                "Free [Great Artist] appears <with [35]% chance>",
+                "Gain [500] [Culture] <with [40]% chance>",
+                "Triggers the following global alert: [[Dacia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Dacia Maior P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Illyricum United",
+    "text": "[Illyricum] has been united beneath a single banner. The mountain tribes have agreed to cooperate, the Adriatic pirates suddenly describe themselves as respectable merchants, and every village elder insists they were collecting tolls rather than robbing travelers.\n\nFrom the Adriatic coast to the Pannonian plains, one realm now commands the western Balkans. Keeping everyone loyal may prove slightly more difficult than conquering them.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Open the Adriatic Ports",
+            "uniques": [
+                "[+2 Food, +5 Gold, +1 Happiness, -2 Production] from every [Illyria] <for [10] turns>",
+                "[+2 Food, +5 Gold, +1 Happiness, -2 Production] from every [Pannonia] <for [10] turns>",
+                "Gain [600] [Gold]",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Illyricum] has been united under a single realm.]",
+                "Instantly provides [1] [Illyricum P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Study The Way Of Pirating",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Naval Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Naval Focus] [in capital]",
+                "[Melee Water] units gain the [Coastal Raider I] promotion <for [15] turns>",
+                "[Coastal Raider I] units gain the [Coastal Raider II] promotion <for [15] turns>",
+                "Free [Hemiola] appears <when above [1] [Manpower]> <when above [0] [Timber]>",
+                "Free [Hemiola] appears <when above [3] [Manpower]> <when above [1] [Timber]>",
+                "Triggers the following global alert: [[Illyricum] has been united under a single realm.]",
+                "Instantly provides [1] [Illyricum P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Fortify the Mountain Passes",
+            "uniques": [
+                "[+2 Production, +2 Happiness, +1 Food, -5 Gold] from every [Illyria] <for [10] turns>",
+                "[+2 Production, +2 Happiness, +1 Food, -5 Gold] from every [Pannonia] <for [10] turns>",
+                "Free [Great Engineer] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Illyricum] has been united under a single realm.]",
+                "Instantly provides [1] [Illyricum P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Hire the Finest Mercenaries",
+            "uniques": [
+                "Only available <if [Mercenary Camp] is constructed> <when above [599] [Gold]>",
+                "Gain [-600] [Gold]",
+                "[Mercenary] units gain the [Veterans] promotion <for [15] turns>",
+                "Triggers the following global alert: [[Illyricum] has been united under a single realm.]",
+                "Instantly provides [1] [Illyricum P] <hidden from users>"
+            ]
+        }
+    ]
+},
+{
+    "name": "Macedonia et Hellas United",
+    "text": "[Macedonia et Hellas] has been united beneath a single banner. The philosophers immediately begin debating whether this outcome was inevitable, the veterans insist it should have happened sooner, and every city politely reminds the new ruler that it has always been gloriously independent.\n\nFrom Olympus to the Peloponnese, the heart of the Hellenic world stands together once more. Keeping the peace may prove more difficult than winning it.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Restore the Panhellenic Games",
+            "uniques": [
+                "[+2 Happiness, +2 Culture, +2 Food, -5 Gold] from every [Macedonia] <for [10] turns>",
+                "[+2 Happiness, +2 Culture, +2 Food, -5 Gold] from every [Hellas] <for [10] turns>",
+                "Free [Great Artist] appears <with [35]% chance>",
+                "Gain [500] [Culture] <with [40]% chance>",
+                "Triggers the following global alert: [[Macedonia et Hellas] has been united under a single realm.]",
+                "Instantly provides [1] [Macedonia et Hellas P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "March in the Macedonian Tradition",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Spear Focus] is not constructed>",
+                "Gain [-500] [Gold]",
+                "Gain a free [Spear Focus] [in capital]",
+                "Free [Hoplite] appears <when above [2] [Manpower]> <when above [0] [Bronze]> <before the [Hellenistic Age]>",
+                "Free [Hoplite] appears <when above [5] [Manpower]> <when above [1] [Bronze]> <before the [Hellenistic Age]>",
+                "Free [Pike Phalanx] appears <when above [2] [Manpower]> <when above [0] [Bronze]> <starting from the [Hellenistic Age]>",
+                "Free [Pike Phalanx] appears <when above [5] [Manpower]> <when above [1] [Bronze]> <starting from the [Hellenistic Age]>",
+                "Triggers the following global alert: [[Macedonia et Hellas] has been united under a single realm.]",
+                "Instantly provides [1] [Macedonia et Hellas P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Let Every Harbor Prosper",
+            "uniques": [
+                "[+2 Food, +5 Gold, -2 Happiness] from every [Macedonia] <for [10] turns>",
+                "[+2 Food, +5 Gold, -2 Happiness] from every [Hellas] <for [10] turns>",
+                "Gain [600] [Gold]",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Macedonia et Hellas] has been united under a single realm.]",
+                "Instantly provides [1] [Macedonia et Hellas P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Patronize the Great Philosophers",
+            "uniques": [
+                "[+2 Happiness, +2 Science] from every [School] <for [10] turns>",
+                "[+2 Happiness, +3 Science] from every [Palace Library] <for [10] turns>",
+                "[+1 Science, +1 Culture, -3 Gold] from every [Macedonia] <for [10] turns>",
+                "[+1 Science, +1 Culture, -3 Gold] from every [Hellas] <for [10] turns>",
+                "Free [Great Scholar] appears <with [35]% chance>",
+                "Gain [500] [Science] <with [40]% chance>",
+                "Triggers the following global alert: [[Macedonia et Hellas] has been united under a single realm.]",
+                "Instantly provides [1] [Macedonia et Hellas P] <hidden from users>"
+            ]
+        }
+    ]
+},{
+    "name": "Thracia Maior United",
+    "text": "[Thracia] has been united beneath a single banner. The tribal kings have finally agreed on one ruler, the vineyards celebrate another excellent harvest, and every village insists its tribute collector has always been completely reasonable.\n\nThe mountains, valleys, and coasts of Thrace now answer to a single crown. History suggests they'll remain cooperative for at least several weeks.",
+    "presentation": "Alert",
+    "choices": [
+        {
+    	"text": "Raise the Royal Herds",
+    	"uniques": [
+        	"[+2 Food, +1 Happiness, -2 Production, -10 Gold] from every [Thracia] <for [10] turns>",
+       	 	"[+2 Culture] from every [Stable] <in cities with a [Thracia]> <for [10] turns>",
+		"[Mounted] units gain the [Drill I] promotion <for [15] turns>",
+        	"Free [Great Merchant] appears <with [35]% chance>",
+        	"Triggers the following global alert: [[Thracia Maior] has been united under a single realm.]",
+        	"Instantly provides [1] [Thracia Maior P] <hidden from users>"
+    ]
+	},
+        {
+            "text": "Recruit Thracian Peltasts",
+            "uniques": [
+                "Only available <when above [2499] [Gold]>",
+		"Gain [-2500] [Gold]"
+		"Instantly provides [1] [Enable Thracian Peltast]"
+                "Triggers the following global alert: [[Thracia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Thracia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Arm the Rhomphaia Warriors",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <if [Sword Focus] is not constructed>",
+		"Gain [-500] [Gold]"
+                "Free [Thracian Warband] appears <when above [3] [Manpower]>",
+                "Free [Thracian Warband] appears <when above [7] [Manpower]>",
+                "Gain a free [Sword Focus] [in capital]",
+                "Triggers the following global alert: [[Thracia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Thracia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Demand Tribute From Every Tribe",
+            "uniques": [
+                "[+6 Gold, -3 Happiness, -1 Food, -1 Production] from every [Thracia] <for [10] turns>",
+                "Gain [600] [Gold]",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Gain [700] [Gold] <with [40]% chance>",
+                "Free [Great Merchant] appears <with [35]% chance>",
+                "Triggers the following global alert: [[Thracia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Thracia Maior P] <hidden from users>"
+            ]
+        },
+        {
+            "text": "Honor the Odrysian Court",
+            "uniques": [
+                "[+2 Happiness, +2 Culture, +1 Production, -5 Gold] from every [Thracia] <for [10] turns>",
+                "[+2 Happiness, +2 Culture, +2 Food] from every [Palace] <for [10] turns>",
+                "Free [Great Artist] appears <with [35]% chance>",
+                "Gain [500] [Culture] <with [40]% chance>",
+                "Triggers the following global alert: [[Thracia Maior] has been united under a single realm.]",
+                "Instantly provides [1] [Thracia Maior P] <hidden from users>"
+            ]
+        }
+    ]
+},
 
 
 ///latin
 
 {
     "name": "The Latin Awakening",
-    "text": "247 BC\n\nThe city of Rome stands ascendant, yet the Italian peninsula remains divided by ancient rivalries, proud tribes, and ambitious neighbors. From the fertile plains of the north to the rugged mountains of the south, countless peoples still resist the dream of a united homeland.\n\nThe Senate looks beyond the horizon. Merchants seek safer roads, generals demand secure frontiers, and citizens speak of a destiny worthy of the gods themselves. The fate of the Latin people now rests in your hands.\n\nYour first objective is clear.\n\nUnite [Italia].",
+    "text": "247 BC\n\nYou lead the Latin people, heirs to a culture that transformed a modest city beside the Tiber into the dominant power of central Italy. Discipline, law, and stubborn determination have carried Rome further than many believed possible. The Senate calls it virtue. Their enemies usually call it invasion.\n\nYet Italia remains divided. Celtic tribes hold the north, Greek cities flourish in the south, and proud peoples across the peninsula have little interest in being told they are now part of someone else's glorious future.\n\nRome has won many battles, but conquest is easier than unity. Roads must be built, allies rewarded, rebels discouraged, and taxes collected from people who somehow never seem grateful.\n\nYour first objective is clear.\n\nUnite [Italia].",
     "presentation": "Alert",
     "choices": [
         {
             "text": "Pro Roma et Italia!!",
             "uniques": [
-                "Instantly provides [1] [Latin Grand Campaign] <hidden from users>"
-                "Instantly provides [1] [Italia P] <hidden from users>"
+                "Instantly provides [1] [Latin Grand Campaign] <hidden from users>",
             ]
         }
     ],
@@ -4836,12 +5785,259 @@
         }
     ]
 },
-
-
-
-
-
-
+{
+    "name": "The Celtic Awakening",
+    "text": "247 BC\n\nYou lead the Celtic peoples, heirs to a culture that stretches from the Atlantic Ocean to the mountains of Anatolia. Though divided into countless tribes and kingdoms, the Celts share a legacy of fearless warriors, master craftsmen, and storytellers who preserve history without needing to carve every argument into stone.\n\nYet unity has never been a Celtic specialty. Every chieftain believes they deserve to lead, every tribe treasures its independence, and settling disputes by charging at one another has somehow remained a popular form of diplomacy.\n\nPowerful neighbors gather beyond your frontiers. Rome marches steadily north, Carthage seeks new allies, and Hellenistic kings cast long shadows across the east. Whether the Celtic world rises together or falls apart one glorious tribal feud at a time depends entirely upon you.\n\nYour first objective is clear.\n\nUnite [Gallia].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "For the Tribes!",
+            "uniques": [
+                "Instantly provides [1] [Celtic Grand Campaign] <hidden from users>",
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Gallia",
+            "link": "Buildings/Gallia"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Celtic Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Germanic Awakening",
+    "text": "247 BC\n\nYou lead the Germanic peoples, heirs to a culture forged in vast forests, winding rivers, and untamed frontiers. Though divided into countless tribes, they are bound by fierce independence, loyalty to kin, and warriors whose courage is measured not by polished armor, but by the willingness to stand beside their shield-wall.\n\nNo single king rules Germania. Every chieftain guards the freedom of his own people, every tribe values its customs above another's, and convincing them to cooperate is often harder than defeating a foreign army. Fortunately, outsiders have always been remarkably effective at reminding the tribes they have something in common.\n\nBeyond the forests, ambitious civilizations grow ever stronger. Celtic kingdoms dominate the west, Roman influence creeps northward, and wealthy merchants seek to turn your rivers into their roads. Whether Germania remains a land of scattered tribes or rises as a united people rests entirely upon your leadership.\n\nYour first objective is clear.\n\nUnite [Germania].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "For Germania!",
+            "uniques": [
+                "Instantly provides [1] [Germanic Grand Campaign] <hidden from users>",
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Germania",
+            "link": "Buildings/Germania"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Germanic Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Iberian Awakening",
+    "text": "247 BC\n\nYou lead the Iberian peoples, heirs to a culture shaped by rugged mountains, fertile valleys, and the seas that connect the western Mediterranean. Though divided among kingdoms, tribes, and prosperous cities, the peoples of Hispania are renowned as skilled warriors, accomplished metalworkers, and merchants whose wealth attracts almost as much attention as their silver.\n\nUnity, however, has never come easily. Every tribe values its independence, every city guards its own interests, and every ambitious neighbor somehow discovers that Iberian silver is essential to their glorious future. It is a remarkable coincidence that has repeated itself for centuries.\n\nTo the north lie proud Celtic tribes, across the sea the great powers of Carthage and Rome compete for influence, and every victory invites another foreign army eager to explain the benefits of liberation. Whether Hispania remains a land divided or rises beneath one banner now rests in your hands.\n\nYour first objective is clear.\n\nUnite [Hispania].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "¡Por Hispania!",
+            "uniques": [
+                "Instantly provides [1] [Iberian Grand Campaign] <hidden from users>",
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Hispania",
+            "link": "Buildings/Hispania"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Iberian Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Punic Awakening",
+    "text": "247 BC\n\nYou lead the Punic people, heirs to a civilization born from Phoenician merchants who carried their language, gods, and ambition across the Mediterranean. From humble trading posts grew prosperous cities, and from prosperous cities emerged Carthage, whose wealth now rivals the greatest powers of the ancient world.\n\nThe Punic way is built upon commerce, seamanship, and opportunity. Every harbor is a gateway to fortune, every colony a new market, and every successful voyage somehow encourages another tax collector to appear. Trade, it seems, has always been a team effort.\n\nYet prosperity invites envy. Rome eyes the western seas with growing confidence, ambitious kings seek control of your trade routes, and distant colonies demand both protection and profit. The Mediterranean has become a battlefield where fleets often decide what armies merely confirm.\n\nYour first objective is clear.\n\nUnite [Africa Pacata].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "For Carthage and Baal Hammon!",
+            "uniques": [
+                "Instantly provides [1] [Punic Grand Campaign] <hidden from users>",
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Africa Pacata",
+            "link": "Buildings/Africa Pacata"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Punic Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Numidian Awakening",
+    "text": "247 BC\n\nYou lead the Numidian people, heirs to a culture shaped by the open plains, rugged mountains, and endless horizons of North Africa. Though divided among rival kingdoms and proud tribes, the Numidians are renowned as unmatched horsemen, skilled hunters, and warriors whose speed has frustrated armies far larger than their own.\n\nThe Numidian way values freedom above all else. Every chieftain guards the independence of his people, every rider answers first to their own clan, and persuading them to follow one banner often requires as much diplomacy as courage. Horses, fortunately, have always been easier to convince than politicians.\n\nTo the east, Carthage seeks loyal allies. Across the sea, Rome grows ever more ambitious. Both powers covet Numidian cavalry, though neither seems particularly interested in asking politely. Whether your people remain divided between foreign empires or forge a kingdom worthy of their ancestors now rests in your hands.\n\nYour first objective is clear.\n\nUnite [Africa Pacata].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "For Numidia!",
+            "uniques": [
+                "Instantly provides [1] [Numidian Grand Campaign] <hidden from users>",
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Africa Pacata",
+            "link": "Buildings/Africa Pacata"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Numidian Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Nomadic Awakening",
+    "text": "247 BC\n\nYou lead the Nomadic peoples, heirs to a culture born upon the endless grasslands stretching from the Danube to the distant east. The open steppe is your homeland, the horse your closest companion, and freedom your most treasured possession. Kingdoms rise and fall, but the horizon remains unchanged.\n\nThe Nomadic way is one of movement rather than walls. Tribes gather beneath great chieftains when necessity demands, then drift apart once victory has been won. Every clan values its independence, every rider seeks glory, and every settled kingdom eventually discovers that defending a frontier several thousand miles long is remarkably inconvenient.\n\nGreat empires surround the steppe. Greek merchants seek your horses, Persian kings demand your allegiance, and ambitious rulers dream of taming lands that have humbled conquerors for centuries. They often learn that maps are considerably easier to command than horse archers.\n\nYour first objective is clear.\n\nUnite [Pontus Euxinus].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Ride With the Great Horde!",
+            "uniques": [
+                "Instantly provides [1] [Nomad Grand Campaign] <hidden from users>",
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Pontus Euxinus",
+            "link": "Buildings/Pontus Euxinus"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Nomad Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Hellenistic Awakening",
+    "text": "247 BC\n\nYou lead the Hellenistic peoples, heirs to the empire forged by Alexander the Great. Though his empire shattered soon after his death, its legacy endured in mighty kingdoms where Greek language, philosophy, and institutions blended with the ancient traditions of Egypt, Persia, Anatolia, and beyond. The empire itself vanished. The idea proved considerably more difficult to kill.\n\nThe Hellenistic world thrives upon ambitious kings, prosperous cities, and scholars whose debates are nearly as fierce as the wars between their patrons. Every ruler claims to be Alexander's rightful successor, despite the minor inconvenience that Alexander never appointed one. History has been arguing over the matter ever since.\n\nYet the Successor Kingdoms remain divided. Rival dynasties wage endless wars for supremacy, Rome begins casting its gaze eastward, and ambitious barbarians probe the frontiers. Whether the Hellenistic world remains fractured or rises beneath one banner now rests in your hands.\n\nYour first objective is clear.\n\nUnite [Anatolia].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "For Alexander's Legacy!",
+            "uniques": [
+                "Instantly provides [1] [Hellenistic Grand Campaign] <hidden from users>",
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Macedonia et Hellas",
+            "link": "Buildings/Anatolia"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Hellenistic Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Hellenic Awakening",
+    "text": "247 BC\n\nYou lead the Hellenic people, heirs to a civilization whose poets, philosophers, and warriors shaped the ancient Mediterranean. Though united by language, religion, and tradition, the Greeks have rarely agreed on who should lead them. They have, however, displayed remarkable consistency in agreeing that it should be someone else.\n\nFrom the mountains of Macedon to the city-states of Hellas, every polis treasures its independence, every league pursues its own ambitions, and every alliance lasts precisely until someone remembers an old grievance. The Persian Wars may have united Greece once, but peace has always struggled to compete with politics.\n\nBeyond the Aegean, ambitious kingdoms and rising republics watch the Greek world with growing interest. Some seek allies, others seek conquest, and most eventually discover that conquering Greece is considerably easier than persuading Greeks to stop arguing with one another.\n\nYour first objective is clear.\n\nUnite [Macedonia et Hellas].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "For Hellas!",
+            "uniques": [
+                "Instantly provides [1] [Hellenic Grand Campaign] <hidden from users>"
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Macedonia et Hellas",
+            "link": "Buildings/Macedonia et Hellas"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Hellenic Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Illyrian Awakening",
+    "text": "247 BC\n\nYou lead the Illyrian people, heirs to a culture forged among the rugged mountains and indented coastlines of the western Balkans. Though divided into kingdoms and tribal confederations, the Illyrians are renowned as fierce warriors, skilled sailors, and hardy highlanders who have never found surrender to be a particularly attractive custom.\n\nThe Illyrian way values freedom, clan, and opportunity. Some tribes prosper through trade across the Adriatic, others through mining the mountains, and a few have discovered that collecting cargo from passing ships without asking permission can be remarkably profitable. Their neighbors, curiously, insist on calling this piracy.\n\nYet Illyricum remains fractured. Rival chiefs compete for influence, Macedonia seeks dominance beyond the mountains, and the Roman Republic has begun taking an unhealthy interest in the Adriatic. History suggests that whenever Rome becomes interested in a coastline, someone else's independence is about to become negotiable.\n\nYour first objective is clear.\n\nUnite [Illyricum].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "For Illyria!",
+            "uniques": [
+                "Instantly provides [1] [Illyrian Grand Campaign] <hidden from users>"
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Illyricum",
+            "link": "Buildings/Illyricum"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Illyrian Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Thracian Awakening",
+    "text": "247 BC\n\nYou lead the Thracian people, heirs to a culture that flourished between the Danube, the Carpathian Mountains, and the Aegean Sea. Though divided into many tribes and kingdoms, the Thracians share a reputation as formidable warriors, accomplished horsemen, and skilled craftsmen whose treasures have filled both royal tombs and the ambitions of foreign conquerors.\n\nThe Thracian spirit values courage and independence above all else. Every king dreams of ruling the neighboring tribes, every chieftain believes their people deserve freedom, and every generation somehow discovers that settling old rivalries with sharp weapons only creates exciting new rivalries.\n\nPowerful neighbors surround your homeland. Macedonian kings seek influence in the south, Celtic tribes wander across the north, and Rome steadily expands toward the Balkans. They all covet the wealth and strategic lands of Thrace. Whether your people remain divided or rise beneath a single banner now rests in your hands.\n\nYour first objective is clear.\n\nUnite [Dacia Maior].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "For Thrace!",
+            "uniques": [
+                "Instantly provides [1] [Thracian Grand Campaign] <hidden from users>"
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Dacia Maior",
+            "link": "Buildings/Dacia Maior"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Thracian Grand Campaign"
+        }
+    ]
+},
+{
+    "name": "The Eastern Awakening",
+    "text": "247 BC\n\nYou lead the Eastern peoples, heirs to the ancient civilizations that flourished between the Tigris and Euphrates. Here, the first great cities rose from the floodplains, kings carved their triumphs into stone, and scribes recorded history long before many nations had decided that writing was worth the effort.\n\nEmpires have come and gone across Mesopotamia. Sumerians, Assyrians, Babylonians, Persians, and Macedonians have each claimed dominion over these fertile lands, only to discover that ruling the cradle of civilization is considerably easier than keeping it. Every conqueror believes they have built an eternal empire. Archaeology politely disagrees.\n\nYet the cities endure. Babylon still commands respect, merchants carry wealth along ancient rivers, and ambitious rulers continue to compete for the richest lands in the Near East. Whether the East remains divided between rival kingdoms or rises beneath a single banner now rests in your hands.\n\nYour first objective is clear.\n\nUnite [Mesopotamia Maior].",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "To the Cradle of Civilization!",
+            "uniques": [
+                "Instantly provides [1] [Eastern Grand Campaign] <hidden from users>"
+            ]
+        }
+    ],
+    "civilopediaText": [
+        {
+            "text": "Review the Civilopedia -> Building -> Mesopotamia Maior",
+            "link": "Buildings/Mesopotamia Maior"
+        },
+        {
+            "text": "VICTORY CONDITIONS",
+            "link": "Resources/Eastern Grand Campaign"
+        }
+    ]
+},
 
 		////3RD CENTURY CRISIS
 

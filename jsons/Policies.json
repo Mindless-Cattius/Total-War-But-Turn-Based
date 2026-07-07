@@ -3754,7 +3754,7 @@
         "uniques": [
                     "Only available <after adopting [Thracian Culture]> <hidden from users>",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
-                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "[+2] XP gained from combat <for [Skirmisher] units>",
                     "[1] free [Great Scholar] units appear",
                     "[+1 Happiness] [in capital]",
     		    "[+1 Happiness] from [Mine] tiles [in all cities]",
@@ -3832,6 +3832,7 @@
                 "name": "Wolf-Riders",
                 "requires": ["Berserker Cults"],
                 "uniques": [
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
     			"[+10]% Strength <when attacking> <for [Mounted] units>",
     			"[+1 Gold] [in all cities] <when above [2] [Horses]>",
                     	"[+1 Production, +1 Gold] from [Horses] tiles [in all cities]",
@@ -3874,6 +3875,8 @@
                 "name": "Clan Councils",
                 "requires": ["Mining Guilds"],
                 "uniques": [
+                    	"Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+    			"[+10]% Strength <for [Sword] units> <when fighting in [Friendly Land] tiles>",
     			"[-10]% Unhappiness from [Population] [in all cities]"
     			"[+1 Happiness] [in all cities]",
                     	"Provides [1] [Nobles]",
@@ -3958,8 +3961,8 @@
                 "requires": ["Mass Looting"],
                 "uniques": [
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
-                    "[+20]% XP gained from combat <for [Mounted] units>",
-                    "[+20]% XP gained from combat <for [Skirmisher] units>",
+                    "[+2] XP gained from combat <for [Mounted] units>",
+                    "[+2] XP gained from combat <for [Skirmisher] units>",
                     "Free [Cavalry] appears",
                     "Provides [2] [Manpower]",
                     "Provides [1] [Horses]",

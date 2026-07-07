@@ -943,14 +943,14 @@
     "attackSound": "arrow"
   },
 
-	/////WATER
+	/////Naval
 
 
   {
     "name": "Galley",
     "unitType": "Melee Water",
     "movement": 3,
-    "strength": 12,
+    "strength": 13,
     "cost": 70,
     "requiredTech": "Woodworking",
     "uniques": [
@@ -967,7 +967,7 @@
     "name": "Hemiola",
     "unitType": "Melee Water",
     "movement": 3,
-    "strength": 14,
+    "strength": 15,
     "cost": 80,
     "uniques": [
          "Comment [-Light naval vessel developed for coastal warfare and fleet skirmishes, where positioning mattered as much as brute force.\nHistorically, ships of this class relied on maneuverability and tactical disengagement rather than prolonged engagement, especially in confined waters.\nA practical balance between speed, aggression, and the expectation that someone else will fix the damage later.\n• Light Naval Melee]",
@@ -988,7 +988,7 @@
     "name": "Trihemiola",
     "unitType": "Melee Water",
     "movement": 3,
-    "strength": 18,
+    "strength": 19,
     "cost": 180,
     "uniques": [
          "Comment [-A fast Rhodian warship crewed by professionals whose loyalty is measured in coin rather than patriotism.\nHistorically prized for speed and maneuverability, making it well suited for scouting, raiding, and surviving battles it had no business winning.\nMercenaries tend to fight bravely. The payroll tends to help.\n• Medium Naval Melee]",
@@ -1010,7 +1010,7 @@
     "name": "Trireme",
     "unitType": "Melee Water",
     "movement": 3,
-    "strength": 16,
+    "strength": 17,
     "cost": 100,
     "requiredTech": "Shipbuilding",
     "uniques": [
@@ -1027,7 +1027,7 @@
     "name": "Pentere",
     "unitType": "Melee Water",
     "movement": 3,
-    "strength": 22,
+    "strength": 23,
     "cost": 190,
     "requiredTech": "Navigation",
     "uniques": [
@@ -1044,7 +1044,7 @@
     "name": "Hexere",
     "unitType": "Ranged Water",
     "movement": 3,
-    "strength": 20,
+    "strength": 21,
     "rangedStrength": 18,
     "cost": 220,
     "requiredTech": "Naval Artillery",
@@ -1062,7 +1062,7 @@
     "name": "Decere",
     "unitType": "Ranged Water",
     "movement": 3,
-    "strength": 25,
+    "strength": 26,
     "rangedStrength": 21,
     "cost": 330,
     "requiredTech": "Naval Artillery",
@@ -1187,7 +1187,7 @@
     "hurryCostModifier": 20,
     "cost": 180,
     "movement": 3,
-    "strength": 16,
+    "strength": 18,
     "uniques": [
          "Comment [-Elite camel cavalry recruited from warriors who considered deserts a home rather than an obstacle.\nCamels offered superior endurance in arid regions, allowing these troops to outlast enemies whose battle plans depended on finding water.\nFast across the sands, difficult to catch, and accompanied by an aroma that no military doctrine successfully countered.\n• Elite Medium Camel Cavalry]",
          "Only available <in cities with a [Camel Stable]> <during the [Imperial Age]>",
@@ -1299,7 +1299,7 @@
     "hurryCostModifier": 20,
     "cost": 120,
     "movement": 3,
-    "strength": 14,
+    "strength": 16,
     "uniques": [
          "Comment [-Camel cavalry trained for warfare in places where water is scarce, shade is a luxury, and horses begin questioning their life choices.\nTheir mounts endure harsh deserts far better than most alternatives, giving them a decisive advantage in terrain that seems personally hostile to human existence.\nThey may not be elegant, but neither is surviving the desert.\n• Medium Camel Cavalry]",
          "Only available <in cities with a [Camel Stable]>",
@@ -1308,6 +1308,7 @@
     "promotions": [
       "[Camel Cavalry] ability",
 	"Charge I",
+	"Desert Warrior I",
     ],
     "attackSound": "horse"
   },
@@ -1326,6 +1327,7 @@
     ],
     "promotions": [
       "[Camel Archer] ability"
+	"Desert Warrior I",
     ],
     "attackSound": "arrow"
   },
@@ -1890,11 +1892,12 @@
     "movement": 3,
     "strength": 9,
     "rangedStrength": 8,
-    "cost": 40,
-    "requiredTech": "Agriculture",
+    "cost": 45,
     "uniques": [
          "Comment [-Thracian peltasts recruited from the rugged hill tribes of the Balkans, trained in the practical arts of throwing javelins, disrupting formations, and refusing to be where the enemy expects.\nLight troops used for harassment and skirmishing, they excelled at breaking up heavier infantry before slipping away into terrain that politely declines pursuit.\n• Light Skirmisher Infantry]",
-         "Consumes [1] [Manpower]"
+         "Consumes [1] [Manpower]",
+	 "Only available <with [Enable Thracian Peltast]>",
+	 "Only available <in cities with a [Thracia]> <before adopting [Thracian Culture]>",
     ],
     "promotions": [
       	"[Skirmisher] ability",

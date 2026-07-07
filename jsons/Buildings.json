@@ -4,7 +4,6 @@
 		"name": "Capital City",
 		"cost": 100,
 		"hurryCostModifier": 25,
-		"maintenance": 0,
 		"production": 1,
 		"culture": 1,
 		"happiness": 1,
@@ -57,7 +56,7 @@
 	{
 		"name": "Palace Library",
 		"hurryCostModifier": 25,
-		"cost": 40,
+		"cost": 50,
 		"maintenance": 1,
 		"science": 1,
   		"happiness": 1,
@@ -82,16 +81,16 @@
 		"maintenance": 2,
 		"happiness": 1,
 		"culture": 1,
-		"cost": 80,
+		"cost": 100,
 		"specialistSlots": {"Magistrate": 2},
 		"uniques": [
 			"Only available <in cities with a [Palace]>",
 			"Provides [1] [Decadence] <during the [Classical Age]>",
 			"Provides [2] [Decadence] <during the [Hellenistic Age]>",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
-			"Provides [1] [Nobles] <during the [Imperial Age]>",
-			"New [Foot Guard] units start with [10] XP [in this city]",
-			"New [General] units start with [10] XP [in this city]",
+			"Provides [1] [Nobles]",
+			"New [Ruler] units start with [10] XP [in all cities]",
+			"New [General] units start with [10] XP [in all cities]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"Limited to [1] per Civilization",
@@ -101,7 +100,7 @@
 	},
 	{
 		"name": "Pleasure Chambers",
-		"cost": 70,
+		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"happiness": 1,
@@ -146,7 +145,6 @@
 
 {
 		"name": "Urban Fabric I",
-  		"happiness": 1,
 		"uniques": [
 			"Provides [1] [Cities]",
 			"Consumes [1] [Rebel Risk] <during a Golden Age> <when above [0] [Rebel Risk]>",
@@ -176,7 +174,7 @@
 {
 		"name": "Urban Fabric III",
 		"requiredTech": "Land Grants",
-		"cost": 80,
+		"cost": 100,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 1,
@@ -195,7 +193,7 @@
 {
 		"name": "Urban Fabric IV",
 		"requiredTech": "Construction",
-		"cost": 200,
+		"cost": 250,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 3,
@@ -215,7 +213,7 @@
 {
 		"name": "Urban Fabric V",
 		"requiredTech": "Social Reforms",
-		"cost": 300,
+		"cost": 350,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 5,
@@ -254,7 +252,7 @@
 		"name": "Temple",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"cost": 30,
+		"cost": 40,
 		"faith": 1,
 		"culture": 1,
  		"happiness": 1,
@@ -276,7 +274,7 @@
 	{
 		"name": "Secret Cult",
 		"hurryCostModifier": 25,
-		"cost": 30,
+		"cost": 40,
 		"maintenance": 1,
 		"happiness": 1,
 		"faith": 1,
@@ -293,7 +291,7 @@
 		"requiredBuilding": "Temple",
 		"requiredNearbyImprovedResources": ["Marble","Stone"],
 		"hurryCostModifier": 25,
- 		"cost": 150,
+ 		"cost": 160,
 		"maintenance": 1,
 		"happiness": 1,
 		"culture": 2,
@@ -314,7 +312,7 @@
 		"name": "Kurgan",
 		"replaces": "Mausoleum",
 		"uniqueTo": "The Scythians",
- 		"cost": 120,
+ 		"cost": 130,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"happiness": 1,
@@ -339,7 +337,7 @@
 		"requiredBuilding": "Muster Field",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
- 		"cost": 60,
+ 		"cost": 70,
 		"happiness": 1,
 		"cityHealth": 40,
 		"uniques": [  
@@ -348,14 +346,14 @@
 			"Provides [2] [Manpower]",
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 			"Cost increases by [2] per owned city",
-			"[+20]% weight to this choice for AI decisions",
+			"[+80]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Citizen Levy"
 	},
 	{
 		"name": "Syssition",
 		"replaces": "Barracks",
- 		"cost": 60,
+ 		"cost": 80,
 		"uniqueTo": "The Spartans",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -367,17 +365,17 @@
 			"[+10]% Production when constructing [Spearman] units [in this city] <in cities with a [Bronze Works]>",
 			"New [Spear] units start with [10] XP [in this city]",
 			"Cost increases by [3] per owned city",
-			"[+20]% weight to this choice for AI decisions",
+			"[+80]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Citizen Levy"
 	},
 	{
 		"name": "Army Barracks",
+		"cost": 300,
 		"hurryCostModifier": 25,
 		"maintenance": 10,
 		"cityHealth": 50,
 		"happiness": 1,
-		"Cost": 350,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Barracks]>",
 			"Only available <in cities without a [Skirmisher Barracks]>",
@@ -395,6 +393,7 @@
 			"[+1 Gold, +1 Happiness] from [Village] tiles [in this city]",
 			"Cost increases by [3] per owned city",
 			"Sell [Army Barracks] buildings [in this city] <if [Barracks] is not constructed>",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Infantry Training"
 	},
@@ -402,18 +401,18 @@
 		"name": "Stable",
 		"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 25,
-		"cost": 50,
+		"cost": 60,
 		"maintenance": 2,
 		"happiness": 1,
 		"cityHealth": 20,
 		"uniques": [  
-			"Only available <in cities with a [Urban Fabric I]>",
+			"Only available <in cities with a [Urban Fabric II]>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture] from [Fort] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
 			"[+1 Food] from [Horses] tiles [in this city] <for [The Scythians] Civilizations>",
 			"Cost increases by [2] per owned city",
-			"[20]% weight to this choice for AI decisions",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Riding"
 	},
@@ -421,7 +420,7 @@
 		"name": "Cavalry Barracks",
 		"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 25,
- 		"cost": 350,
+ 		"cost": 300,
 		"happiness": 1,
 		"maintenance": 10,
 		"cityHealth": 50,
@@ -443,6 +442,7 @@
 			"[+1 Food] from [Horses] tiles [in this city] <for [The Scythians] Civilizations>",
 			"Cost increases by [3] per owned city",
 			"Sell [Cavalry Barracks] buildings [in this city] <if [Stable] is not constructed>",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Equestrian Class"
 	},
@@ -455,10 +455,11 @@
 		"cityHealth": 20,
 		"happiness": 1,
 		"uniques": [   
-			"Only available <in cities with a [Urban Fabric I]>",
+			"Only available <in cities with a [Urban Fabric II]>",
 			"Comment [-Training: Archer, Slinger]",
 			"Cost increases by [2] per owned city",
 			"Provides [1] [Manpower]",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Archery Practice"
 	},
@@ -468,7 +469,7 @@
 		"maintenance": 3,
 		"cityStrength": 2,
 		"happiness": 1,
- 		"cost": 350,
+ 		"cost": 300,
 		"cityHealth": 50,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]> <in cities with a [Archery Range]>",
@@ -488,6 +489,7 @@
 			"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
 			"Cost increases by [3] per owned city",
 			"Sell [Skirmisher Barracks] buildings [in this city] <if [Archery Range] is not constructed>",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Engineering"
 	},
@@ -502,11 +504,13 @@
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]>",
 			"Cost increases by [3] per owned city",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Ballistics Range",
+		"requiredBuilding": "Siege Workshop",
 		"hurryCostModifier": 50,
 		"Cost":300,
 		"maintenance": 3,
@@ -515,13 +519,12 @@
 		"cityHealth": 10,
 		"uniques": [
 			"Consumes [1] [Manpower]",
-			"Only available <in cities with a [Urban Fabric IV]> <in cities with a [Siege Workshop]>",
-			"New [Archery] units start with [5] XP [in this city]",
+			"Only available <in cities with a [Urban Fabric IV]>",
 			"New [Siege] units start with [10] XP [in this city]",
-			"New [Scout] units start with [5] XP [in this city]",
 			"[+20]% Production when constructing [Siege] units [in this city]",
 			"Cost increases by [3] per owned city",
 			"Sell [Ballistics Range] buildings [in this city] <if [Siege Workshop] is not constructed>",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Military Reforms"
 	},
@@ -533,7 +536,8 @@
 		"happiness": 1,
 		"cityHealth": 40,
 		"uniques": [
-		"Destroyed when the city is captured",
+			"Destroyed when the city is captured",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Woodworking"
 	},
@@ -560,15 +564,16 @@
 		"requiredBuilding": "Walls",
 		"maintenance": 3,
 		"cityStrength": 3,
-		"cityHealth": 100,
+		"cityHealth": 150,
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"Cost": 300,
 		"uniques": [
 			"Consumes [1] [Timber]",
-			"Only available <in cities with a [Siege Workshop]>", 
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Comment ['+20% city attacking strength with a garrison if garrison post is constructed.']",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"Cannot be purchased <when at war>",
 			"Remove [Walls] [in this city] <in cities with a [The Long Wall]>",
 		],
 		"requiredTech": "Torsion Engines",
@@ -588,6 +593,8 @@
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"Destroyed when the city is captured",
 			"Only available <in cities without a [The Long Wall]> <hidden from users>", 
+			"Cannot be purchased <when at war>",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Masonry",
 	},
@@ -609,6 +616,7 @@
 			"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
 			"Destroyed when the city is captured",
 			"Cannot be purchased <when at war>",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Masonry",
 	},
@@ -618,7 +626,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"happiness": 1,
- 		"cost": 120,
+ 		"cost": 80,
 		"gold": 1,
 		"cityHealth": 100,
 		"cityStrength": 1,
@@ -631,6 +639,7 @@
 			"[+1 Food] from [Fort] tiles [in this city]",
 			"Destroyed when the city is captured",
 			"Cannot be purchased <when at war>",
+			"[50]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Masonry"
 	},
@@ -639,7 +648,7 @@
 	{
 		"name": "Citizen Assembly",
 		"hurryCostModifier": 25,
- 		"cost": 100,
+ 		"cost": 120,
 		"maintenance": 1,
 		"happiness": 2,
 		"culture": 2,
@@ -658,13 +667,13 @@
 		"name": "Theatre",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"cost": 100,
+		"cost": 120,
 		"happiness": 1,
 		"culture": 2,
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Entertainment",
 		"uniques": [
-			"Only available <in cities with a [Urban Fabric II]>",
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Provides [1] [Decadence]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[-10]% Culture cost of natural border growth [in this city]",
@@ -676,7 +685,7 @@
 		"name": "Amphitheater",
 		"replaces": "Theatre",
 		"uniqueTo": "The Athenians",
-		"cost": 100,
+		"cost": 120,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"culture": 2,
@@ -684,7 +693,7 @@
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Entertainment",
 		"uniques": [
-			"Only available <in cities with a [Urban Fabric II]>",
+			"Only available <in cities with a [Urban Fabric III]>",
 			"Consumes [1] [Decadence] <during a Golden Age>",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[-15]% Culture cost of natural border growth [in this city]",
@@ -697,7 +706,7 @@
 		"replaces": "Theatre",
 		"uniqueTo": "The Romans",
 		"hurryCostModifier": 25,
-		"cost": 100,
+		"cost": 140,
 		"maintenance": 2,
 		"culture": 2,
 		"happiness": 2,
@@ -741,7 +750,7 @@
 	},
 	{
 		"name": "Aqueduct",
- 		"cost": 170,
+ 		"cost": 200,
 		"cityHealth": 30,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
@@ -763,7 +772,7 @@
 	},
 	{
 		"name": "Forge",
-		"Cost":200,
+		"Cost":250,
 		"hurryCostModifier": 35,
 		"maintenance": 3,
 		"production": 1,
@@ -781,12 +790,12 @@
 	},
 	{
 		"name": "Fountain",
-		"cost": 100,
+		"cost": 150,
 		"requiredTech": "Equestrian Class",
 		"maintenance": 2,
 		"happiness": 1,
 		"uniques": [
-			"Only available <in cities with a [Urban Fabric III]>",
+			"Only available <in cities with a [Urban Fabric IV]>",
 			"Provides [1] [Sanitation]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"[+15]% Production when constructing [Cure PLAGUE] buildings [in this city]",
@@ -799,12 +808,12 @@
 		"name": "Public Bathhouse",
 		"requiredBuilding": "Aqueduct",
 		"requiredTech": "Private Estates",
-		"cost": 160,
+		"cost": 250,
 		"maintenance": 5,
 		"happiness": 2,
 		"uniques": [   
 			"Comment [-Invest in sanitation… or don’t. The PLAGUEs will happily invest in you.]",
-			"Only available <in cities with a [Urban Fabric III]>",
+			"Only available <in cities with a [Urban Fabric V]>",
 			"Provides [2] [Sanitation]",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
 			"[+25]% Production when constructing [Cure PLAGUE] buildings [in this city]",
@@ -819,10 +828,10 @@
 		"maintenance": 2,
 		"culture": 2,
 		"happiness": 1,
-		"cost": 100,
+		"cost": 120,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
-			"Only available <in cities with a [Urban Fabric II]>"
+			"Only available <in cities with a [Urban Fabric III]>"
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"[+1 Happiness] from [Wine] tiles [in this city]",
@@ -838,7 +847,7 @@
 		"name": "Garden",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"cost": 100,
+		"cost": 150,
 		"happiness": 1,
 		"Food": 1,
 		"uniques": [
@@ -860,11 +869,11 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"happiness": 1,
-		"cost": 80,
+		"cost": 90,
 		"culture": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
-			"Only available <in cities with a [Urban Fabric II]>"
+			"Only available <in cities with a [Urban Fabric III]>"
 			"Provides [1] [Sanitation]",
 			"[+1 Science] per [5] population [in this city]",
 			"[+1 Science] [in this city] <in cities with a [Scriptorium]>", 
@@ -879,11 +888,33 @@
 		"requiredTech": "Writing"
 	},
 	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"requiredBuilding": "School",
+		"maintenance": 2,
+		"happiness": 1,
+		"science": 1,
+		"cost": 150,
+		"specialistSlots": {"Scholar": 1},
+		"uniques": [
+			"Only available <in cities with a [Urban Fabric III]>"
+			"Provides [1] [Sanitation]",
+			"[+1 Science, +1 Happiness] [in this city] <in cities with a [Scriptorium]>",
+			"[+10]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
+			"[+20]% Production when constructing [Scriptorium] buildings [in this city]",
+			"Cost increases by [3] per owned city",
+			"Consumes [1] [Decadence] <in cities with a [School]> <during a Golden Age>",
+		],
+		"requiredTech": "Writing"
+	},
+	{
 		"name": "Scriptorium",
+		"requiredBuilding": "School",
 		"requiredNearbyImprovedResources": ["Papyrus"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
- 		"cost": 100,
+ 		"cost": 130,
 		"science": 2,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
@@ -891,9 +922,10 @@
 			"Provides [1] [Scrolls]",
 			"[+10]% Natural religion spread [in this city]",
 			"[+1 Culture] from [Papyrus] tiles [in this city]",
-			"Cost increases by [2] per owned city",
-			"[+5]% Production when constructing [Cure PLAGUE] buildings [in this city]",
+			"Cost increases by [3] per owned city",
+			"[+10]% Production when constructing [Cure PLAGUE] buildings [in this city]",
 			"[+5]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
+			"[+20]% Production when constructing [Library] buildings [in this city]",
 			"Sell [Rotary Mill] buildings [in this city] <if [School] is not constructed>",
 		],
 		"requiredTech": "Philosophy"
@@ -1008,7 +1040,7 @@
 		"name": "Market",
 		"hurryCostModifier": 25,
 		"gold": 2,
-		"cost": 60,
+		"cost": 70,
 		"happiness": 1,
 		"percentStatBonus": {"gold": 5},
 		"specialistSlots": {"Merchants": 1},
@@ -1066,7 +1098,7 @@
 		"name": "Slave Trader",
 		"quote": "Diogenes was captured by pirates and sold to slavery. When the slave auctioneer asked in what he was proficient, he replied, 'In ruling people.'",
 		"gold": 5,
- 		"cost": 200,
+ 		"cost": 300,
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchants": 1},
 		"uniques": [
@@ -1088,7 +1120,7 @@
 	{
 		"name": "Tavern",
 		"hurryCostModifier": 25,
-		"cost": 100,
+		"cost": 120,
 		"maintenance": 1,
 		"happiness": 1,
 		"uniques": [
@@ -1107,7 +1139,7 @@
 		"name": "Garum Shop",
 		"requiredNearbyImprovedResources": ["Fish","Crab"],
 		"hurryCostModifier": 25,
- 		"cost": 80,
+ 		"cost": 100,
 		"maintenance": 1,
 		"Food": 1,
 		"happiness": 1,
@@ -1126,7 +1158,7 @@
 		"hurryCostModifier": 25,
 		"happiness": 1,
 		"gold": 2,
-		"cost": 40,
+		"cost": 60,
 		"culture": 1,
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchants": 1},
@@ -1158,7 +1190,7 @@
 		"requiredBuilding": "Market",
 		"gold": 2,
 		"happiness": 1,
-		"cost": 150,
+		"cost": 170,
 		"specialistSlots": {"Merchants": 1},
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -1181,7 +1213,7 @@
 		"hurryCostModifier": 35,
 		"happiness": 1,
 		"gold": 3,
-		"cost": 150,
+		"cost": 170,
 		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Only available <after adopting [Eastern Culture]>",
@@ -1202,7 +1234,7 @@
 		"hurryCostModifier": 25,
 		"happiness": 1,
 		"gold": 2,
-		"cost": 120,
+		"cost": 150,
 		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Provides [1] [Amber]",
@@ -1247,7 +1279,7 @@
 		"production": 1,
 		"culture": 2,
 		"cityHealth": 20,
-		 "cost": 80,
+		 "cost": 100,
 		"specialistSlots": {"Merchants": 1},
 		"uniques": [
 			"Connects trade routes over water",
@@ -1270,7 +1302,7 @@
 		"name": "Drydock",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
- 		"cost": 40,
+ 		"cost": 70,
 		"uniques": [
 			"Must be next to [Coast]"
 			"Only available <in cities with a [Urban Fabric I]>"
@@ -1294,7 +1326,7 @@
 		"cityHealth": 50,
 		"science": 1,
 		"happiness": 1,
- 		"cost": 30,
+ 		"cost": 70,
 		"uniques": [
 			"Must be next to [Coast]",
 			"Only available <in cities with a [Urban Fabric I]>"
@@ -1433,7 +1465,7 @@
 	{
 		"name": "Freshwater Fishery",
 		"hurryCostModifier": 25,
-		"cost": 30,
+		"cost": 40,
 		"maintenance": 0,
 		"food": 1,
 		"uniques": [
@@ -1446,7 +1478,7 @@
 	},
 	{
 		"name": "Herbalist",
-		"cost": 100,
+		"cost": 120,
 		"requiredNearbyImprovedResources": ["Herbs","Hemp","Honey","Citrus"],
 		"maintenance": 2,
 		"happiness": 1,
@@ -1467,7 +1499,7 @@
 		"name": "Courthouse",
 		"happiness": 1,
 		"maintenance": 2,
-		"cost": 70,
+		"cost": 80,
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]>"
@@ -1484,7 +1516,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"cityHealth": 15,
- 		"cost": 60,
+ 		"cost": 80,
 		"culture": 1,
 		"uniques": [
 		"Provides [1] [Manpower]",
@@ -1505,7 +1537,7 @@
 		"name": "Perfumery",
 		"requiredNearbyImprovedResources": ["Incense","Citrus","Honey"],
 		"hurryCostModifier": 25,
-		"cost": 100,
+		"cost": 120,
 		"Gold": 1,
 		"happiness": 1,
 		"uniques": [
@@ -1522,7 +1554,7 @@
 	{
 		"name": "Brick Maker",
 		"hurryCostModifier": 25,
- 		"cost": 50,
+ 		"cost": 60,
 		"maintenance": 1,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric I]>"
@@ -1542,7 +1574,7 @@
 		"name": "Olive Mill",
 		"requiredNearbyImprovedResources": ["Olives"],
 		"hurryCostModifier": 25,
-		"cost": 100,
+		"cost": 120,
 		"maintenance": 2,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric I]>"
@@ -1557,7 +1589,7 @@
 		"name": "Ceramics Workshop",
 		"requiredNearbyImprovedResources": ["Clay"],
 		"hurryCostModifier": 25,
-		"cost": 60,
+		"cost": 70,
 		"maintenance": 2,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric I]>"
@@ -1572,7 +1604,7 @@
 		"name": "Weavery",
 		"requiredNearbyImprovedResources": ["Sheep","Flax","Hemp","Cotton"],
 		"hurryCostModifier": 25,
-		"cost": 100,
+		"cost": 120,
 		"maintenance": 1,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric I]>",
@@ -1595,7 +1627,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"production": 1,
- 		"cost": 40,
+ 		"cost": 50,
 		"requiredNearbyImprovedResources": ["Copper"],
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric I]>",
@@ -1630,7 +1662,7 @@
 		"requiredNearbyImprovedResources": ["Marble", "Ivory"],
 		"hurryCostModifier": 25,
 		"maintenance": 0,
- 		"cost": 100,
+ 		"cost": 120,
 		"culture": 1,
 		"gold": 1,
 		"specialistSlots": {"Artist": 1},
@@ -1649,7 +1681,7 @@
 		"replaces": "Sculptor",
 		"uniqueTo": "The Celtiberians",
 		"hurryCostModifier": 25,
- 		"cost": 70,
+ 		"cost": 80,
 		"maintenance": 0,
 		"culture": 1,
 		"happiness": 1,
@@ -1686,7 +1718,7 @@
 		"hurryCostModifier": 25,
 		"production": 1,
 		"cityHealth": 30,
- 		"cost": 70,
+ 		"cost": 80,
 		"requiredNearbyImprovedResources": ["Tar"],
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>",
@@ -2980,7 +3012,8 @@
                 "Unbuildable <when below [2] [Caledonia Region]> <hidden from users>",
                 "Unbuildable <when below [4] [Britannia Region]> <hidden from users>",
                 "Remove [Albion] [in this city] <when below [4] [Britannia Region]> <upon turn end> <hidden from users>",
-                "Remove [Albion] [in this city] <when below [2] [Caledonia Region]> <upon turn end> <hidden from users>"
+                "Remove [Albion] [in this city] <when below [2] [Caledonia Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3054,7 +3087,8 @@
                 "Remove [Hispania] [in this city] <when below [4] [Cartaginensis Region]> <upon turn end> <hidden from users>",
                 "Remove [Hispania] [in this city] <when below [3] [Tarraconensis Region]> <upon turn end> <hidden from users>",
                 "Remove [Hispania] [in this city] <when below [2] [Lusitania Region]> <upon turn end> <hidden from users>",
-                "Remove [Hispania] [in this city] <when below [2] [Baetica Region]> <upon turn end> <hidden from users>"
+                "Remove [Hispania] [in this city] <when below [2] [Baetica Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3126,7 +3160,8 @@
                 "Remove [Gallia] [in this city] <when below [2] [Provincia Region]> <upon turn end> <hidden from users>",
                 "Remove [Gallia] [in this city] <when below [2] [Aquitania Region]> <upon turn end> <hidden from users>",
                 "Remove [Gallia] [in this city] <when below [3] [Celtica Region]> <upon turn end> <hidden from users>",
-                "Remove [Gallia] [in this city] <when below [2] [Belgica Region]> <upon turn end> <hidden from users>"
+                "Remove [Gallia] [in this city] <when below [2] [Belgica Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3184,7 +3219,8 @@
                 "Unbuildable <when below [4] [Suebia Region]> <hidden from users>",
                 "Remove [Germania] [in this city] <when below [3] [Magna Germania Region]> <upon turn end> <hidden from users>",
                 "Remove [Germania] [in this city] <when below [2] [Germania Minor Region]> <upon turn end> <hidden from users>",
-                "Remove [Germania] [in this city] <when below [4] [Suebia Region]> <upon turn end> <hidden from users>"
+                "Remove [Germania] [in this city] <when below [4] [Suebia Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3240,7 +3276,8 @@
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Sarmatia]>",
                 "Unbuildable <when below [3] [Sarmatia Region]> <hidden from users>",
-                "Remove [Sarmatia Maior] [in this city] <when below [3] [Sarmatia Region]> <upon turn end> <hidden from users>"
+                "Remove [Sarmatia Maior] [in this city] <when below [3] [Sarmatia Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3270,7 +3307,8 @@
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Dacia]>",
                 "Unbuildable <when below [3] [Dacia Region]> <hidden from users>",
-                "Remove [Dacia Maior] [in this city] <when below [3] [Dacia Region]> <upon turn end> <hidden from users>"
+                "Remove [Dacia Maior] [in this city] <when below [3] [Dacia Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 ///Illyricum
@@ -3316,7 +3354,8 @@
                 "Unbuildable <when below [2] [Illyria Region]> <hidden from users>",
                 "Unbuildable <when below [2] [Pannonia Region]> <hidden from users>",
                 "Remove [Illyricum] [in this city] <when below [2] [Illyria Region]> <upon turn end> <hidden from users>",
-                "Remove [Illyricum] [in this city] <when below [2] [Pannonia Region]> <upon turn end> <hidden from users>"
+                "Remove [Illyricum] [in this city] <when below [2] [Pannonia Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3365,7 +3404,8 @@
                 "Unbuildable <when below [2] [Macedonia Region]> <hidden from users>",
                 "Unbuildable <when below [3] [Hellas Region]> <hidden from users>",
                 "Remove [Macedonia et Hellas] [in this city] <when below [2] [Macedonia Region]> <upon turn end> <hidden from users>",
-                "Remove [Macedonia et Hellas] [in this city] <when below [3] [Hellas Region]> <upon turn end> <hidden from users>"
+                "Remove [Macedonia et Hellas] [in this city] <when below [3] [Hellas Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3396,7 +3436,8 @@
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Thracia]>",
                 "Unbuildable <when below [4] [Thracia Region]> <hidden from users>",
-                "Remove [Thracia Maior] [in this city] <when below [4] [Thracia Region]> <upon turn end> <hidden from users>"
+                "Remove [Thracia Maior] [in this city] <when below [4] [Thracia Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3457,7 +3498,8 @@
                 "Unbuildable <when below [3] [Alpes Region]> <hidden from users>",
                 "Remove [Italia] [in this city] <when below [5] [Latinum Region]> <upon turn end> <hidden from users>",
                 "Remove [Italia] [in this city] <when below [3] [Cisalpina Region]> <upon turn end> <hidden from users>",
-                "Remove [Italia] [in this city] <when below [3] [Alpes Region]> <upon turn end> <hidden from users>"
+                "Remove [Italia] [in this city] <when below [3] [Alpes Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3481,7 +3523,7 @@
                 "[+2 Gold] from [Trading post] tiles [in all coastal cities]",
                 "Unsellable <hidden from users>",
                 "Unbuildable <hidden from users>",
-                "Never destroyed when the city is captured <hidden from users>"
+                "Never destroyed when the city is captured <hidden from users>",
         ]
 },
 {
@@ -3497,7 +3539,8 @@
                 "Unbuildable <when below [1] [Sardinia Region]> <hidden from users>",
                 "Unbuildable <when below [1] [Corsica Region]> <hidden from users>",
                 "Remove [Corsica et Sardinia] [in this city] <when below [1] [Sardinia Region]> <upon turn end> <hidden from users>",
-                "Remove [Corsica et Sardinia] [in this city] <when below [1] [Corsica Region]> <upon turn end> <hidden from users>"
+                "Remove [Corsica et Sardinia] [in this city] <when below [1] [Corsica Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3525,7 +3568,8 @@
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Sicilia]>",
                 "Remove [Sicilia Magna] [in this city] <when below [2] [Sicilia Region]> <upon turn end> <hidden from users>",
-                "Unbuildable <when below [2] [Sicilia Region]> <hidden from users>"
+                "Unbuildable <when below [2] [Sicilia Region]> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3583,7 +3627,8 @@
                 "Unbuildable <when below [2] [Bithynia et Pontus Region]> <hidden from users>",
                 "Remove [Anatolia] [in this city] <when below [3] [Asia Region]> <upon turn end> <hidden from users>",
                 "Remove [Anatolia] [in this city] <when below [2] [Galatia et Cappadocia Region]> <upon turn end> <hidden from users>",
-                "Remove [Anatolia] [in this city] <when below [2] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>"
+                "Remove [Anatolia] [in this city] <when below [2] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3626,7 +3671,8 @@
                 "Remove [Armenia et Caucasus] [in this city] <when below [3] [Caucasia Region]> <upon turn end> <hidden from users>",
                 "Remove [Armenia et Caucasus] [in this city] <when below [2] [Armenia Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [3] [Caucasia Region]> <hidden from users>",
-                "Unbuildable <when below [2] [Armenia Region]> <hidden from users>"
+                "Unbuildable <when below [2] [Armenia Region]> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3669,7 +3715,8 @@
                 "Remove [Syria Maior] [in this city] <when below [3] [Syria Region]> <upon turn end> <hidden from users>",
                 "Remove [Syria Maior] [in this city] <when below [2] [Cilicia Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [3] [Syria Region]> <hidden from users>",
-                "Unbuildable <when below [2] [Cilicia Region]> <hidden from users>"
+                "Unbuildable <when below [2] [Cilicia Region]> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3728,7 +3775,8 @@
                 "Unbuildable <when below [2] [Bosporus Region]> <hidden from users>",
                 "Remove [Pontus Euxinus] [in this city] <when below [4] [Scythia Region]> <upon turn end> <hidden from users>",
                 "Remove [Pontus Euxinus] [in this city] <when below [4] [Ponto Caspia Region]> <upon turn end> <hidden from users>",
-                "Remove [Pontus Euxinus] [in this city] <when below [2] [Bosporus Region]> <upon turn end> <hidden from users>"
+                "Remove [Pontus Euxinus] [in this city] <when below [2] [Bosporus Region]> <upon turn end> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3790,7 +3838,8 @@
                 "Remove [Africa Pacata] [in this city] <when below [1] [Phazania Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [6] [Mauretania Region]> <hidden from users>",
                 "Unbuildable <when below [4] [Africa Region]> <hidden from users>",
-                "Unbuildable <when below [1] [Phazania Region]> <hidden from users>"
+                "Unbuildable <when below [1] [Phazania Region]> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3853,7 +3902,8 @@
                 "Remove [Aegyptus Maior] [in this city] <when below [4] [Nabataea Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [4] [Libya Region]> <hidden from users>",
                 "Unbuildable <when below [3] [Aegyptus Region]> <hidden from users>",
-                "Unbuildable <when below [4] [Nabataea Region]> <hidden from users>"
+                "Unbuildable <when below [4] [Nabataea Region]> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3901,7 +3951,8 @@
                 "Remove [Arabia] [in this city] <when below [2] [Arabia Felix Region]> <upon turn end> <hidden from users>",
                 "Remove [Arabia] [in this city] <when below [3] [Arabia Magna Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [2] [Arabia Felix Region]> <hidden from users>",
-                "Unbuildable <when below [3] [Arabia Magna Region]> <hidden from users>"
+                "Unbuildable <when below [3] [Arabia Magna Region]> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3930,6 +3981,7 @@
                 "Only available <in cities with a [Mesopotamia]>",
                 "Remove [Mesopotamia Maior] [in this city] <when below [3] [Mesopotamia Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [3] [Mesopotamia Region]> <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -3989,6 +4041,7 @@
                 "Unbuildable <when below [2] [Media Magna Region]> <hidden from users>",
                 "Unbuildable <when below [4] [Parthia Region]> <hidden from users>",
                 "Unsellable <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -4046,6 +4099,7 @@
                 "Unbuildable <when below [1] [Aria Region]> <hidden from users>",
                 "Unbuildable <when below [1] [Arachosia Region]> <hidden from users>",
                 "Unsellable <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -4103,6 +4157,7 @@
                 "Unbuildable <when below [1] [Transoxania Region]> <hidden from users>",
                 "Unbuildable <when below [1] [Bactria Region]> <hidden from users>",
                 "Unsellable <hidden from users>",
+		"[+100]% weight to this choice for AI decisions",
         ]
 },
 
@@ -4892,6 +4947,19 @@
 		"Moves to new capital when capital changes <hidden from users>",
 		"Unsellable <hidden from users>",
       		"Unbuildable <hidden from users>",
+
+	        "Triggers a [The Latin Awakening] event <when below [2] [Latin Grand Campaign]> <hidden from users>",
+        "Triggers a [The Celtic Awakening] event <when below [2] [Celtic Grand Campaign]> <hidden from users>",
+        "Triggers a [The Germanic Awakening] event <when below [2] [Germanic Grand Campaign]> <hidden from users>",
+        "Triggers a [The Iberian Awakening] event <when below [2] [Iberian Grand Campaign]> <hidden from users>",
+        "Triggers a [The Punic Awakening] event <when below [2] [Punic Grand Campaign]> <hidden from users>",
+        "Triggers a [The Numidian Awakening] event <when below [2] [Numidian Grand Campaign]> <hidden from users>",
+        "Triggers a [The Nomadic Awakening] event <when below [2] [Nomad Grand Campaign]> <hidden from users>",
+        "Triggers a [The Hellenic Awakening] event <when below [2] [Hellenic Grand Campaign]> <hidden from users>",
+        "Triggers a [The Hellenistic Awakening] event <when below [2] [Hellenistic Grand Campaign]> <hidden from users>",
+        "Triggers a [The Illyrian Awakening] event <when below [2] [Illyrian Grand Campaign]> <hidden from users>",
+        "Triggers a [The Thracian Awakening] event <when below [2] [Thracian Grand Campaign]> <hidden from users>",
+        "Triggers a [The Eastern Awakening] event <when below [2] [Eastern Grand Campaign]> <hidden from users>",
 
     ]
   	},

@@ -1275,15 +1275,15 @@
 	{
 		"name": "Healing",
 		"uniques": [
-			"[+5] HP when healing <when fighting in [City center] tiles>",
-			"[+4] HP when healing <when fighting in [Fort] tiles>",
-			"[+3] HP when healing <when fighting in [Village] tiles>",
-			"[+1] HP when healing <when fighting in [improved] tiles>",
-			"[-5] HP when healing <when fighting in [Enemy Land] tiles>",
-			"[-5] HP when healing <when fighting in [Snow] tiles>",
-			"[-3] HP when healing <when fighting in [Tundra] tiles>",
-			"[-2] HP when healing <when fighting in [Marsh] tiles>",
-			"[-2] HP when healing <when fighting in [Desert] tiles>",
+			"[+5] HP when healing <in [City center] tiles>",
+			"[+4] HP when healing <in [Fort] tiles>",
+			"[+3] HP when healing <in [Village] tiles>",
+			"[+1] HP when healing <in [improved] tiles>",
+			"[-5] HP when healing <in [Enemy Land] tiles>",
+			"[-5] HP when healing <in [Snow] tiles>",
+			"[-3] HP when healing <in [Tundra] tiles>",
+			"[-2] HP when healing <in [Marsh] tiles>",
+			"[-2] HP when healing <in [Desert] tiles>",
 		]
 	},
 	{
