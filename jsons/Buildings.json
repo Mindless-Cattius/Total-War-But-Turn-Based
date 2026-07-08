@@ -3,7 +3,7 @@
 		{
 		"name": "Capital City",
 		"cost": 100,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"production": 1,
 		"culture": 1,
 		"happiness": 1,
@@ -55,7 +55,7 @@
 	},
 	{
 		"name": "Palace Library",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 50,
 		"maintenance": 1,
 		"science": 1,
@@ -77,7 +77,7 @@
 	},
 	{
 		"name": "Council of Nobles",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
 		"happiness": 1,
 		"culture": 1,
@@ -101,7 +101,7 @@
 	{
 		"name": "Pleasure Chambers",
 		"cost": 80,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
 		"happiness": 1,
 		"specialistSlots": {"Courtesan": 1},
@@ -157,7 +157,7 @@
 		"name": "Urban Fabric II",
 		"requiredTech": "Writing",
 		"cost": 40,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"production": 1,
 		"gold": 1,
@@ -175,7 +175,7 @@
 		"name": "Urban Fabric III",
 		"requiredTech": "Land Grants",
 		"cost": 100,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"gold": 1,
 		"production": 1,
@@ -194,7 +194,7 @@
 		"name": "Urban Fabric IV",
 		"requiredTech": "Construction",
 		"cost": 250,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"gold": 3,
   		"happiness": 1,
@@ -214,7 +214,7 @@
 		"name": "Urban Fabric V",
 		"requiredTech": "Social Reforms",
 		"cost": 350,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"gold": 5,
   		"happiness": 2,
@@ -250,7 +250,7 @@
 	},
 	{
 		"name": "Temple",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"cost": 40,
 		"faith": 1,
@@ -273,7 +273,7 @@
 	},
 	{
 		"name": "Secret Cult",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 40,
 		"maintenance": 1,
 		"happiness": 1,
@@ -290,7 +290,7 @@
 		"name": "Mausoleum",
 		"requiredBuilding": "Temple",
 		"requiredNearbyImprovedResources": ["Marble","Stone"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost": 160,
 		"maintenance": 1,
 		"happiness": 1,
@@ -313,7 +313,7 @@
 		"replaces": "Mausoleum",
 		"uniqueTo": "The Scythians",
  		"cost": 130,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"happiness": 1,
 		"gold": 1,
@@ -335,7 +335,7 @@
 	{
 		"name": "Barracks",
 		"requiredBuilding": "Muster Field",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
  		"cost": 70,
 		"happiness": 1,
@@ -355,7 +355,7 @@
 		"replaces": "Barracks",
  		"cost": 80,
 		"uniqueTo": "The Spartans",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"cityHealth": 40,
 		"uniques": [   
@@ -372,7 +372,7 @@
 	{
 		"name": "Army Barracks",
 		"cost": 300,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 10,
 		"cityHealth": 50,
 		"happiness": 1,
@@ -400,7 +400,7 @@
 	{
 		"name": "Stable",
 		"requiredNearbyImprovedResources": ["Horses"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 60,
 		"maintenance": 2,
 		"happiness": 1,
@@ -419,7 +419,7 @@
 	{
 		"name": "Cavalry Barracks",
 		"requiredNearbyImprovedResources": ["Horses"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost": 300,
 		"happiness": 1,
 		"maintenance": 10,
@@ -448,7 +448,7 @@
 	},
 	{
 		"name": "Archery Range",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
  		"cost": 50,
 		"cityStrength": 1,
@@ -465,7 +465,7 @@
 	},
 	{
 		"name": "Skirmisher Barracks",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 3,
 		"cityStrength": 2,
 		"happiness": 1,
@@ -566,7 +566,7 @@
 		"cityStrength": 3,
 		"cityHealth": 150,
 		"happiness": 1,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"Cost": 300,
 		"uniques": [
 			"Consumes [1] [Timber]",
@@ -623,7 +623,7 @@
 	{
 		"name": "Hill Fort",
 		"requiredBuilding": "Walls",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"happiness": 1,
  		"cost": 80,
@@ -647,7 +647,7 @@
 					// Public slot
 	{
 		"name": "Citizen Assembly",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost": 120,
 		"maintenance": 1,
 		"happiness": 2,
@@ -665,7 +665,7 @@
 	},
 	{
 		"name": "Theatre",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"cost": 120,
 		"happiness": 1,
@@ -686,7 +686,7 @@
 		"replaces": "Theatre",
 		"uniqueTo": "The Athenians",
 		"cost": 120,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"culture": 2,
 		"happiness": 2,
@@ -705,7 +705,7 @@
 		"name": "Arena",
 		"replaces": "Theatre",
 		"uniqueTo": "The Romans",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 140,
 		"maintenance": 2,
 		"culture": 2,
@@ -728,7 +728,7 @@
 		"name": "Bardic Circle",
 		"replaces": "Theatre",
 		"uniqueTo": "The Arverni",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost": 50,
 		"maintenance": 1,
 		"culture": 1,
@@ -752,7 +752,7 @@
 		"name": "Aqueduct",
  		"cost": 200,
 		"cityHealth": 30,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
 		"happiness": 1,
 		"uniques": [
@@ -824,7 +824,7 @@
 	},
 	{
 		"name": "Banquet Hall",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
 		"culture": 2,
 		"happiness": 1,
@@ -845,7 +845,7 @@
 	},
 	{
 		"name": "Garden",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"cost": 150,
 		"happiness": 1,
@@ -866,7 +866,7 @@
 
 	{
 		"name": "School",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
 		"happiness": 1,
 		"cost": 90,
@@ -889,7 +889,7 @@
 	},
 	{
 		"name": "Library",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"requiredBuilding": "School",
 		"maintenance": 2,
 		"happiness": 1,
@@ -912,7 +912,7 @@
 		"name": "Scriptorium",
 		"requiredBuilding": "School",
 		"requiredNearbyImprovedResources": ["Papyrus"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
  		"cost": 130,
 		"science": 2,
@@ -937,7 +937,7 @@
 		"replaces": "Scriptorium",
  		"cost": 100,
 		"requiredNearbyImprovedResources": ["Sheep","Cattle","Papyrus"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"science": 1,
 		"specialistSlots": {"Scholar": 1},
@@ -963,7 +963,7 @@
 
 	{
 		"name": "Granary",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
  		"cost": 30,
 		"food": 1,
@@ -978,7 +978,7 @@
 	},
 	{
 		"name": "Rotary Mill",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost": 120,
 		"maintenance": 1,
 		"happiness": 1,
@@ -993,7 +993,7 @@
 	},
 	{
 		"name": "Nomadic Herd",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
  		"cost": 40,
 		"food": 2,
@@ -1023,7 +1023,7 @@
 		"maintenance": 1,
  		"cost": 90,
 		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"Production": 2,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>"
@@ -1038,7 +1038,7 @@
 
 	{
 		"name": "Market",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"gold": 2,
 		"cost": 70,
 		"happiness": 1,
@@ -1119,7 +1119,7 @@
 	},
 	{
 		"name": "Tavern",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 120,
 		"maintenance": 1,
 		"happiness": 1,
@@ -1138,7 +1138,7 @@
 	{
 		"name": "Garum Shop",
 		"requiredNearbyImprovedResources": ["Fish","Crab"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost": 100,
 		"maintenance": 1,
 		"Food": 1,
@@ -1155,7 +1155,7 @@
 		"name": "Silphium Trader",
 		"uniqueTo": "The Cyreneans",
 		"replaces": "Market",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"happiness": 1,
 		"gold": 2,
 		"cost": 60,
@@ -1192,7 +1192,7 @@
 		"happiness": 1,
 		"cost": 170,
 		"specialistSlots": {"Merchants": 1},
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"uniques": [
 			"Must be on [Desert]",
 			"Only available <after adopting [Eastern Culture]>",
@@ -1231,7 +1231,7 @@
 	},
 	{
 		"name": "Amber Road",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"happiness": 1,
 		"gold": 2,
 		"cost": 150,
@@ -1254,7 +1254,7 @@
 
 	{
 		"name": "Anchorage",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"food": 1,
 		"gold": 2,
@@ -1273,7 +1273,7 @@
 	{
 		"name": "Harbor",
 		"requiredBuilding": "Anchorage",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"food": 1,
 		"production": 1,
@@ -1300,7 +1300,7 @@
 	},
 	{
 		"name": "Drydock",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
  		"cost": 70,
 		"uniques": [
@@ -1321,7 +1321,7 @@
 		"requiredBuilding": "Anchorage",
 		"replaces": "Drydock",
 		"uniqueTo": "The Carthaginians",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
 		"cityHealth": 50,
 		"science": 1,
@@ -1342,7 +1342,7 @@
 	{
 		"name": "Great Harbor",
 		"requiredBuilding": "Harbor",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 3,
 		"food": 3,
 		"production": 1,
@@ -1390,7 +1390,7 @@
 	{
 		"name": "Sacred Grove",
 		"requiredBuilding": "Muster Field",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"Cost":50,
 		"maintenance": 1,
 		"culture": 1,
@@ -1411,7 +1411,7 @@
 	{
 		"name": "Cattle Trader",
 		"requiredNearbyImprovedResources": ["Cattle","Sheep","Camels"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 40,
 		"maintenance": 0,
 		"gold": 1,
@@ -1429,7 +1429,7 @@
 	{
 		"name": "Elephant Trainer",
 		"requiredNearbyImprovedResources": ["Ivory"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 3,
 		 "cost": 100,
 		"uniques": [
@@ -1448,7 +1448,7 @@
 	{
 		"name": "Coal Pile",
 		"requiredNearbyImprovedResources": ["Timber"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"production": 1,
  		"cost": 50,
@@ -1464,7 +1464,7 @@
 	},
 	{
 		"name": "Freshwater Fishery",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 40,
 		"maintenance": 0,
 		"food": 1,
@@ -1513,7 +1513,7 @@
 	},
 	{
 		"name": "Colony",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"cityHealth": 15,
  		"cost": 80,
@@ -1536,7 +1536,7 @@
 	{
 		"name": "Perfumery",
 		"requiredNearbyImprovedResources": ["Incense","Citrus","Honey"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 120,
 		"Gold": 1,
 		"happiness": 1,
@@ -1553,7 +1553,7 @@
 	},
 	{
 		"name": "Brick Maker",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost": 60,
 		"maintenance": 1,
 		"uniques": [
@@ -1573,7 +1573,7 @@
 	{
 		"name": "Olive Mill",
 		"requiredNearbyImprovedResources": ["Olives"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 120,
 		"maintenance": 2,
 		"uniques": [
@@ -1588,7 +1588,7 @@
 	{
 		"name": "Ceramics Workshop",
 		"requiredNearbyImprovedResources": ["Clay"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 70,
 		"maintenance": 2,
 		"uniques": [
@@ -1603,7 +1603,7 @@
 	{
 		"name": "Weavery",
 		"requiredNearbyImprovedResources": ["Sheep","Flax","Hemp","Cotton"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 120,
 		"maintenance": 1,
 		"uniques": [
@@ -1624,7 +1624,7 @@
 	},
 	{
 		"name": "Bronze Works",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"production": 1,
  		"cost": 50,
@@ -1660,7 +1660,7 @@
 		"name": "Sculptor",
 		"requiredBuilding": "Stone Works",
 		"requiredNearbyImprovedResources": ["Marble", "Ivory"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
  		"cost": 120,
 		"culture": 1,
@@ -1680,7 +1680,7 @@
 		"name": "Warrior Statue",
 		"replaces": "Sculptor",
 		"uniqueTo": "The Celtiberians",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost": 80,
 		"maintenance": 0,
 		"culture": 1,
@@ -1697,7 +1697,7 @@
 	{
 		"name": "Hunting Lodge",
 		"requiredNearbyImprovedResources": ["Deer","Furs"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 40,
 		"maintenance": 0,
 		"uniques": [
@@ -1715,7 +1715,7 @@
 	},
 	{
 		"name": "Tar Workshop",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"production": 1,
 		"cityHealth": 30,
  		"cost": 80,
@@ -1728,7 +1728,7 @@
 	},
 	{
 		"name": "Glazier",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"happiness": 1,
  		"cost": 100,
 		"uniques": [
@@ -1742,7 +1742,7 @@
 	},
 	{
 		"name": "Lighthouse",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost": 130,
 		"maintenance": 3,
 		"uniques": [
@@ -1757,7 +1757,7 @@
 	{
 		"name": "Camel Stable",
 		"requiredNearbyImprovedResources": ["Camels"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"cost": 70,
 		"maintenance": 0,
 		"gold": 2,
@@ -1772,7 +1772,7 @@
 	{
 		"name": "Jeweler",
 		"requiredNearbyImprovedResources": ["Gold Ore","Silver","Gems","Pearls","Amber"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
  		"cost":130,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric III]>",
@@ -1796,7 +1796,7 @@
 		"replaces": "Jeweler",
 		"uniqueTo": "The Arverni",
 		"cost": 120,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"happiness": 1,
 		"culture": 1,
 		"gold": 6,
@@ -1816,7 +1816,7 @@
 	{
 		"name": "Water Mill",
  		"cost": 80,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
 		"happiness": 1,
 		"food": 1,
@@ -1832,7 +1832,7 @@
 	},
 	{
 		"name": "Noble District",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 3,
 		"happiness": 3,
 		"cityHealth": 50,
@@ -1861,7 +1861,7 @@
 		"name": "Food Imports",
 		"requiredBuilding": "Market",
 		"specialistSlots": {"Merchants": 1},
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 10,
  		"cost": 170,
 		"uniques": [
@@ -1879,7 +1879,7 @@
 		"name": "Horse Imports",
 		"requiredBuilding": "Market",
 		"specialistSlots": {"Merchants": 1},
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
  		"cost": 120,
 		"uniques": [
@@ -1896,7 +1896,7 @@
 		"name": "Copper Imports",
 		"specialistSlots": {"Merchants": 1},
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
  		"cost": 70,
 		"uniques": [
@@ -1913,7 +1913,7 @@
 		"name": "Bronze Imports",
 		"specialistSlots": {"Engineer": 1},
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 3,
  		"cost": 100,
 		"uniques": [
@@ -1929,7 +1929,7 @@
 		"name": "Iron Imports",
 		"specialistSlots": {"Engineer": 1},
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 4,
  		"cost": 200,
 		"uniques": [
@@ -1945,7 +1945,7 @@
 		"name": "Timber Imports",
 		"specialistSlots": {"Engineer": 1},
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 2,
  		"cost": 140,
 		"uniques": [
@@ -1961,7 +1961,7 @@
 		"name": "Elephant Imports",
 		"specialistSlots": {"Magistrate": 1},
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 5,
  		"cost": 170,
 		"uniques": [
@@ -2024,7 +2024,7 @@
 	{
 		"name": "Pirate Haven (Illyrian)",
 		"cost": 80,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"gold": 5,
 		"happiness": -1,
@@ -2046,7 +2046,7 @@
 	{
 		"name": "Pirate Haven (Cretan)",
 		"cost": 100,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"gold": 5,
 		"happiness": -1,
@@ -2069,7 +2069,7 @@
 	{
 		"name": "Pirate Haven (Cilician)",
 		"cost": 100,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"gold": 5,
 		"happiness": -1,
@@ -2436,7 +2436,7 @@
 		"name": "Great Market",
 		"isNationalWonder": true,
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"gold": 4,
 		"cost": 1000,
 		"happiness": 1,
@@ -2498,7 +2498,7 @@
 		"name": "Thracian Weaponsmith",
 		"Cost":800,
 		"isNationalWonder": true,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 40,
 		"production": 3,
 		"culture": 3,
 		"uniques": [
