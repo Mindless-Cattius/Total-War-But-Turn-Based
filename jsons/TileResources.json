@@ -263,7 +263,6 @@
 		"name": "Cities",
 		"resourceType": "Strategic",
 		"uniques": [
-			"Comment ['Number of [cities]. Increase the [Rebel Risk] by 1 for every 10 cities (max 5).']",
 			"Cannot be traded <hidden from users>",
 			"Doesn't generate naturally <hidden from users>"
 
