@@ -15,7 +15,7 @@
 	"Gain a free [Risk of PLAGUE] [in all cities] <starting from the [Classical Age]>",
 	"Gain a free [Urban Fabric I] [in all cities] <in cities without a [Urban Fabric I]>",
 	"[-1] Range <for [Scout] units>",
-	"Provides [20] [Manpower] <in [in City-State cities] cities>"
+	"Provides [10] [Manpower] <in [in City-State cities] cities>"
 	"Military Units gifted from City-States start with [30] XP",
 	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
 	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
@@ -122,7 +122,6 @@
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [2] [Manpower]> <upon founding a city>",
         "Free [Spearman] appears <when above [11] [Happiness]> <when above [3] [Manpower]> <upon founding a city>",
         "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [1]% chance> <starting from the [Hellenistic Age]>",
-        "Free [General] appears <upon turn end> <when above [2] [Nobles]> <with [1]% chance>",
         "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [1]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <before the [Imperial Age]>",
         "Free [Skirmisher] appears <upon turn end> <when above [20] [Manpower]> <with [2]% chance> <before the [Imperial Age]>",

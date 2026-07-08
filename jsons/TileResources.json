@@ -74,7 +74,7 @@
         		"[+100]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
         		"[+50]% maintenance costs <for [Military] units> <when at war>",
 			"Comment [ ]",
-        		"[+100]% maintenance costs <for [Military] units> <before the [Imperial Age]>",
+        		"[+70]% maintenance costs <for [Military] units> <before the [Imperial Age]>",
         		"[+120]% maintenance costs <for [Military] units> <during the [Imperial Age]>",
         		"[+200]% maintenance costs <for [Civilian] units> <during the [Imperial Age]>",
 
@@ -275,20 +275,20 @@
 	"[-1 Happiness, -1 Food, -1 Science, -1 Culture] [in all cities] <when above [50] [Cities]>",
 
 
-	"[+20]% Unhappiness from [Population] [in all cities]",
+	"[+15]% Unhappiness from [Population] [in all cities]",
 
 
-	"[+5]% Food consumption by [Population] [in this city] <in cities with between [9] and [13] [Population]>",
-	"[+8]% Food consumption by [Population] [in this city] <in cities with between [14] and [17] [Population]>",
-	"[+15]% Food consumption by [Population] [in this city] <in cities with between [18] and [22] [Population]>",
-	"[+20]% Food consumption by [Population] [in this city] <in cities with at least [23] [Population]>",
+	"[+3]% Food consumption by [Population] [in this city] <in cities with between [9] and [13] [Population]>",
+	"[+5]% Food consumption by [Population] [in this city] <in cities with between [14] and [17] [Population]>",
+	"[+10]% Food consumption by [Population] [in this city] <in cities with between [18] and [22] [Population]>",
+	"[+15]% Food consumption by [Population] [in this city] <in cities with at least [23] [Population]>",
 
 	"[-30]% growth [in all cities]",
-	"[-5]% growth [in this city] <in cities with between [4] and [8] [Population]>",
-	"[-10]% growth [in this city] <in cities with between [9] and [13] [Population]>",
-	"[-15]% growth [in this city] <in cities with between [14] and [17] [Population]>",
-	"[-20]% growth [in this city] <in cities with between [18] and [22] [Population]>",
-	"[-25]% growth [in this city] <in cities with at least [23] [Population]>",
+	"[-10]% growth [in this city] <in cities with between [4] and [8] [Population]>",
+	"[-15]% growth [in this city] <in cities with between [9] and [13] [Population]>",
+	"[-20]% growth [in this city] <in cities with between [14] and [17] [Population]>",
+	"[-25]% growth [in this city] <in cities with between [18] and [22] [Population]>",
+	"[-30]% growth [in this city] <in cities with at least [23] [Population]>",
 
 	"[-10]% Production when constructing [all] buildings [in this city] <in cities with between [6] and [10] [Population]>",
 	"[-20]% Production when constructing [all] buildings [in this city] <in cities with between [11] and [15] [Population]>",
@@ -425,15 +425,6 @@
 
         "[+70]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [100] [Decadence]>",
         "[+50]% maintenance costs <for [Military] units> <when above [100] [Decadence]>",
-
-        "Provides [1] [Manpower] <when below [20] [Decadence]>",
-        "Provides [1] [Manpower] <when below [40] [Decadence]>",
-        "Provides [1] [Manpower] <when below [60] [Decadence]>",
-        "Provides [1] [Manpower] <when below [80] [Decadence]>",
-        "Provides [1] [Manpower] <when below [100] [Decadence]>",
-        "Provides [1] [Manpower] <when below [120] [Decadence]>",
-        "Provides [1] [Manpower] <when below [140] [Decadence]>",
-        "Provides [1] [Manpower] <when below [160] [Decadence]>",
 
 
 		]

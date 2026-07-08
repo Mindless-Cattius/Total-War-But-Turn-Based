@@ -230,7 +230,7 @@
          "Consumes [2] [Manpower] <for [Human player] Civilizations>",
          "Consumes [1] [Timber] <for [Human player] Civilizations>",
          "[20]% Strength bonus for [Melee] units within [1] tiles <vs cities>",
-         "[10]% Strength bonus for [Melee] units within [1] tiles <when defending> <vs [Ranged] units>",
+         "[10]% Strength bonus for [Melee] units within [0] tiles <when defending> <vs [Ranged] units>",
          "Unavailable <after adopting [Nomad Culture]> <before the [Imperial Age]> <hidden from users>",
          "Unavailable <for [AI player] Civilizations> <hidden from users>",
          "Uncapturable"
@@ -308,7 +308,6 @@
          "Can upgrade to [King] <for units with [Successor]> <before adopting [Empire]>",
          "Can upgrade to [Emperor] <for units with [Successor]> <after adopting [Empire]>",
          "Consumes [1] [Nobles]",
-         "Great Person - [War]",
 	 "[This Unit] gets a name from the [Latin] group <after adopting [Latin Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
@@ -557,6 +556,7 @@
     "uniques": [
          "Comment [-Light troops trained to throw things and run away, in that order.\nDeveloped early in organized warfare as a practical solution to “not getting caught.”\nMost effective when morale is high and enemies are confused.\n• Light Skirmisher]",
          "Consumes [1] [Manpower]",
+	 "Unavailable <after adopting [Thracian Culture]> <hidden from users>",
     ],
     "attackSound": "nonmetalhit",
     "promotions": [
@@ -880,7 +880,7 @@
     "requiredTech": "Equestrian Class",
     "uniques": [
          "Comment [-War elephants, employed across various ancient civilizations from India to the Mediterranean, used as living siege engines and battlefield intimidation platforms.\nEffective at breaking formations through mass, momentum, and psychological impact rather than precision.\nHistorically powerful but logistically demanding, often turning victory into a question of whether you can afford to keep winning.\n• Medium Elephant]",
-         "Only available <in cities with a [Stable]>",
+         "Only available <in cities with a [Elephant Trainer]>",
          "Consumes [3] [Manpower]",
          "Consumes [1] [Elephants]",
          "Never appears as a Barbarian unit",
@@ -1190,8 +1190,8 @@
     "hurryCostModifier": 30,
     "cost": 220,
     "movement": 3,
-    "strength": 12,
-    "rangedStrength": 12,
+    "strength": 13,
+    "rangedStrength": 13,
     "uniques": [
          "Comment [-Elite horse archers armored well enough to survive the consequences of their own confidence.\nCombining the mobility of steppe warfare with the protection of heavier cavalry, they excel at harassing enemies who foolishly assumed they could catch them.\nProof that some civilizations looked at horse archers and concluded the obvious solution was to make them even more expensive.\n• Elite Heavy Mounted Archer]",
          "Only available <with [Enable Armored Horse Archer]>",
@@ -1202,7 +1202,7 @@
          "Consumes [1] [Horses]"
     ],
     "promotions": [
-      "[Horse Archer] ability",
+      "[Armored Horse Archer] ability",
 	"Improved Armor"
 	"Veterans",
     ],
@@ -1936,8 +1936,6 @@
     "name": "Thracian Peltast",
     "hurryCostModifier": 30,
     "unitType": "Scout",
-    "replaces": "Skirmisher",
-    "uniqueTo": "The Odrysians",
     "movement": 3,
     "strength": 9,
     "rangedStrength": 8,
