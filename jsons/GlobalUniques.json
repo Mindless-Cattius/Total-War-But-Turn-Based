@@ -23,7 +23,9 @@
         "[-1] Sight <for [Embarked] units>",
         "[+50]% Culture cost of adopting new Policies",
 
-					////cities
+						////Civs
+	"Instantly provides [1] [NomadOrEastern] <after adopting [Nomad Culture]>",
+	"Instantly provides [1] [NomadOrEastern] <after adopting [Eastern Culture]>",
 
 
 						//Units
@@ -218,6 +220,17 @@
 
 ///Resources
 	"Triggers a [Veterans Demand Payment] event <when above [1] [Veteran]> <upon turn start> <with [1]% chance>",
+
+///Buffs
+	"Triggers a [Strategic Investment: Naval Focus] event <when above [999] [Gold]> <if [Naval Focus] is not constructed> <when at war> <upon turn start> <with [1]% chance>",
+        "Triggers a [Strategic Investment: Mounted Focus] event <when above [999] [Gold]> <if [Mounted Focus] is not constructed> <when at war> <upon turn start> <with [1]% chance>",
+        "Triggers a [Strategic Investment: Archery Focus] event <when above [999] [Gold]> <if [Archery Focus] is not constructed> <when at war> <upon turn start> <with [1]% chance>",
+        "Triggers a [Strategic Investment: Mounted Archery Focus] event <when above [999] [Gold]> <when above [0] [Enable Horse Archer]> <if [Mounted Archery Focus] is not constructed> <when at war> <upon turn start> <with [1]% chance>",
+        "Triggers a [Strategic Investment: Spear Focus] event <when above [999] [Gold]> <if [Spear Focus] is not constructed> <when at war> <upon turn start> <with [1]% chance>",
+        "Triggers a [Strategic Investment: Sword Focus] event <when above [999] [Gold]> <if [Sword Focus] is not constructed> <when at war> <upon turn start> <with [1]% chance>",
+        "Triggers a [Strategic Investment: Shield Infantry Focus] event <when above [999] [Gold]> <if [Shield Infantry Focus] is not constructed> <when at war> <upon turn start> <with [1]% chance>",
+
+
 
 
 //Event 3rd century crisis

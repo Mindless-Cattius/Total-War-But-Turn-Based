@@ -935,7 +935,8 @@
          "Only available <in cities with a [Stable]>",
          "Consumes [2] [Manpower]",
          "Consumes [1] [Horses]",
-         "Only available <with [Enable Horse Archer]> <hidden from users>"
+         "Only available <with [Enable Horse Archer]> <hidden from users>",
+	 "Only available <in cities with a [Scythia]> <when below [1] [NomadOrEastern]> <hidden from users>",
     ],
     "promotions": [
       "[Horse Archer] ability",

@@ -4197,6 +4197,141 @@
         }
     ]
 },
+		////BUFFS
+{
+    "name": "Strategic Investment: Naval Focus",
+    "text": "The admirals have presented their case with remarkable confidence. New docks, better shipyards, and experienced officers, they argue, will ensure that your fleets dominate the seas for generations. The treasurer has presented a shorter argument: it will cost thousands of gold.\n\nEmpires that neglect their navy often discover that hostile fleets are surprisingly efficient tax collectors.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Invest in the Fleet",
+            "uniques": [
+                "Only available <when above [999] [Gold]> <if [Naval Focus] is not constructed>",
+                "Gain [-1000] [Gold]",
+                "Gain a free [Naval Focus] [in capital]"
+            ]
+        },
+        {
+            "text": "Perhaps Another Time",
+            "uniques": []
+        }
+    ]
+},
+{
+    "name": "Strategic Investment: Mounted Focus",
+    "text": "Your generals argue that victory belongs to the swift. Better breeding, disciplined riders, and proper training will transform your cavalry into a force worthy of admiration. The accountants remain unconvinced, mostly because horses have an unfortunate habit of eating money.\n\nA strong cavalry is expensive. Defeating an enemy cavalry is usually even more so.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Invest in the Cavalry",
+            "uniques": [
+                "Only available <when above [999] [Gold]> <if [Mounted Focus] is not constructed>",
+                "Gain [-1000] [Gold]",
+                "Gain a free [Mounted Focus] [in capital]"
+            ]
+        },
+        {
+            "text": "Perhaps Another Time",
+            "uniques": []
+        }
+    ]
+},
+{
+    "name": "Strategic Investment: Archery Focus",
+    "text": "Veteran archers insist that wars are best won before the enemy gets close enough to disagree. Improved bows, better training, and plentiful arrows will strengthen your armies considerably. Trees across the realm have begun expressing understandable concern.\n\nDistance has always been an excellent substitute for courage.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Invest in the Archers",
+            "uniques": [
+                "Only available <when above [999] [Gold]> <if [Archery Focus] is not constructed>",
+                "Gain [-1000] [Gold]",
+                "Gain a free [Archery Focus] [in capital]"
+            ]
+        },
+        {
+            "text": "Perhaps Another Time",
+            "uniques": []
+        }
+    ]
+},
+{
+    "name": "Strategic Investment: Mounted Archery Focus",
+    "text": "Some commanders have proposed combining the speed of cavalry with the reach of archers. Traditional officers call it reckless. Nomads call it Tuesday. Training warriors to ride and shoot with equal skill will demand considerable investment.\n\nYour enemies will have plenty of time to reconsider their tactics. Usually while being chased.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Invest in Horse Archers",
+            "uniques": [
+                "Only available <when above [999] [Gold]> <if [Mounted Archery Focus] is not constructed>",
+                "Gain [-1000] [Gold]",
+                "Gain a free [Mounted Archery Focus] [in capital]"
+            ]
+        },
+        {
+            "text": "Perhaps Another Time",
+            "uniques": []
+        }
+    ]
+},
+{
+    "name": "Strategic Investment: Spear Focus",
+    "text": "The officers believe disciplined formations and well-trained spearmen remain the backbone of every respectable army. Long spears, steady nerves, and soldiers willing to stand their ground have ended many ambitious invasions.\n\nThe spear may be simple, but history has repeatedly demonstrated that running into thousands of them is surprisingly complicated.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Invest in the Spearmen",
+            "uniques": [
+                "Only available <when above [999] [Gold]> <if [Spear Focus] is not constructed>",
+                "Gain [-1000] [Gold]",
+                "Gain a free [Spear Focus] [in capital]"
+            ]
+        },
+        {
+            "text": "Perhaps Another Time",
+            "uniques": []
+        }
+    ]
+},
+{
+    "name": "Strategic Investment: Sword Focus",
+    "text": "Experienced veterans argue that disciplined swordsmen decide battles once the lines collide. Better steel, relentless training, and seasoned instructors will sharpen both your blades and your army. Unfortunately, sharpening steel also dulls the treasury.\n\nA sword is a costly investment. Losing to someone carrying one is usually even costlier.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Invest in the Infantry",
+            "uniques": [
+                "Only available <when above [999] [Gold]> <if [Sword Focus] is not constructed>",
+                "Gain [-1000] [Gold]",
+                "Gain a free [Sword Focus] [in capital]"
+            ]
+        },
+        {
+            "text": "Perhaps Another Time",
+            "uniques": []
+        }
+    ]
+},
+{
+    "name": "Strategic Investment: Shield Infantry Focus",
+    "text": "The generals argue that a disciplined shield wall can withstand almost anything the enemy dares to throw at it. Better armor, stronger shields, and endless drilling will turn ordinary soldiers into an unyielding line. It is a costly process, but replacing broken armies tends to be more expensive.\n\nEvery soldier dreams of glory. Most eventually discover that surviving long enough to complain about the marching is the greater achievement.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Invest in the Shield Wall",
+            "uniques": [
+                "Only available <when above [999] [Gold]> <if [Shield Infantry Focus] is not constructed>",
+                "Gain [-1000] [Gold]",
+                "Gain a free [Shield Infantry Focus] [in capital]"
+            ]
+        },
+        {
+            "text": "Perhaps Another Time",
+            "uniques": []
+        }
+    ]
+}
+
 
 		////BUFF UPKEEP
 
@@ -5373,8 +5508,8 @@
         {
             "text": "Recruit the Steppe Horsemen",
             "uniques": [
-                "Only available <when above [2999] [Gold]> <when below [1] [Enable Horse Archer]>",
-                "Gain [-3000] [Gold]",
+                "Only available <when above [3499] [Gold]> <when below [1] [Enable Horse Archer]>",
+                "Gain [-3500] [Gold]",
                 "Instantly provides [1] [Enable Horse Archer]",
 		"[-3 Culture] [in capital] <for [10] turns>",
                 "Triggers the following global alert: [[Pontus Euxinus] has been united under a single realm.]",
