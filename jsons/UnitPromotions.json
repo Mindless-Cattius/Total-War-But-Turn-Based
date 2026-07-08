@@ -999,7 +999,7 @@
 	"uniques": [
 		"Only available <when above [500] [Gold]> <(modified by game speed)>",
 		"Gain [-500] [Gold] <(modified by game speed)>",
-		"Limited to [1] per Civilization",
+		"Only available <for [Human player] Civilizations> <hidden from users>" 
 		"This Promotion is free",
 ],
 "column": 47,
