@@ -10,7 +10,7 @@
 			"May not annex cities <during the [Archaic Age]>",
 			"May not annex cities <when at war>",
         		"May buy items in puppet cities",
-			"[-40]% Production when constructing [all] buildings [in all cities] <when at war>",
+			"[-30]% Production when constructing [all] buildings [in all cities] <when at war>",
 			"[-25]% Production when constructing [all] units [in all cities] <when at war>",
 			"[+80]% Production when constructing [Capital City] buildings [in all cities] <during the [Imperial Age]>",
 			"[-40]% Strength for cities <when attacking> <hidden from users>",
@@ -266,16 +266,16 @@
 			"Cannot be traded <hidden from users>",
 			"Doesn't generate naturally <hidden from users>"
 
-	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [10] [Cities]>",
-	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [15] [Cities]>",
-	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [20] [Cities]>",
-	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [25] [Cities]>",
-	"[-1 Happiness, -1 Science, -1 Culture] [in all cities] <when above [30] [Cities]>",
-	"[-1 Happiness, -1 Food, -1 Science, -1 Culture] [in all cities] <when above [40] [Cities]>",
-	"[-1 Happiness, -1 Food, -1 Science, -1 Culture] [in all cities] <when above [50] [Cities]>",
+	"[-1 Science, -1 Culture] [in all cities] <when above [10] [Cities]>",
+	"[-1 Science, -1 Culture] [in all cities] <when above [15] [Cities]>",
+	"[-1 Science, -1 Culture] [in all cities] <when above [20] [Cities]>",
+	"[-1 Science, -1 Culture] [in all cities] <when above [25] [Cities]>",
+	"[-1 Science, -1 Culture] [in all cities] <when above [30] [Cities]>",
+	"[-1 Food, -1 Science, -1 Culture] [in all cities] <when above [40] [Cities]>",
+	"[-1 Food, -1 Science, -1 Culture] [in all cities] <when above [50] [Cities]>",
 
 
-	"[+15]% Unhappiness from [Population] [in all cities]",
+	"[+10]% Unhappiness from [Population] [in all cities]",
 
 
 	"[+3]% Food consumption by [Population] [in this city] <in cities with between [9] and [13] [Population]>",
@@ -290,10 +290,10 @@
 	"[-25]% growth [in this city] <in cities with between [18] and [22] [Population]>",
 	"[-30]% growth [in this city] <in cities with at least [23] [Population]>",
 
-	"[-10]% Production when constructing [all] buildings [in this city] <in cities with between [6] and [10] [Population]>",
-	"[-20]% Production when constructing [all] buildings [in this city] <in cities with between [11] and [15] [Population]>",
-	"[-30]% Production when constructing [all] buildings [in this city] <in cities with between [16] and [20] [Population]>",
-	"[-40]% Production when constructing [all] buildings [in this city] <in cities with at least [21] [Population]>",
+	"[-2 Production] [in this city] <in cities with between [6] and [10] [Population]>",
+	"[-3 Production] [in this city] <in cities with between [11] and [15] [Population]>",
+	"[-4 Production] [in this city] <in cities with between [16] and [20] [Population]>",
+	"[-5 Production] [in this city] <in cities with at least [21] [Population]>",
 
 
 
@@ -417,11 +417,6 @@
         "[Great Engineer] is earned [+5]% faster <when above [60] [Decadence]>",
         "[Great Engineer] is earned [+5]% faster <when above [100] [Decadence]>",
 
-        "[General] is earned [-10]% faster <when above [30] [Decadence]>",
-        "[General] is earned [-10]% faster <when above [70] [Decadence]>",
-        "[General] is earned [-10]% faster <when above [100] [Decadence]>",
-        "[General] is earned [-10]% faster <when above [140] [Decadence]>",
-        "[General] is earned [-20]% faster <when above [200] [Decadence]>",
 
         "[+70]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [100] [Decadence]>",
         "[+50]% maintenance costs <for [Military] units> <when above [100] [Decadence]>",
@@ -453,7 +448,6 @@
         	"[-1 Gold, +1 Food, +1 Happiness] [in all cities] <when above [2] [Nobles]>",	
         	"[-1 Gold, +1 Food, +1 Culture] [in all cities] <when above [3] [Nobles]>",	
         	"[-1 Gold, +1 Food, +1 Production] [in all cities] <when above [4] [Nobles]>",
-        	"[General] is earned [-100]% faster <when below [1] [Nobles]>",
 		]
     },
     {

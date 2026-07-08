@@ -4455,7 +4455,6 @@
     		"uniques": [
       			"[-2 Gold] from [improved] tiles [in all cities]",
       			"[-2 Gold] from [Silver] tiles [in all cities]",
-      			"[-5 Gold, -1 Happiness] from [Village] tiles [in all cities]",
       			"[-10 Gold, -1 Happiness] from [Trading post] tiles [in all cities]",
 			"[-5 Gold, -1 Happiness] [in this city] <in cities with a [Market]>",
 			"Moves to new capital when capital changes",
@@ -4509,6 +4508,7 @@
     		"uniques": [
       			"Comment [Egypt once fed Rome. Then rebels, usurpers, and ‘temporary’ Palmyrene administrators discovered grain shipments made excellent bargaining chips. The capital went hungry while every warlord demanded gratitude for stealing the pantry.]",
       			"[-1 Food, -1 Happiness] [in all cities]",
+      			"[-1 Food, -1 Happiness] from [Village] tiles [in all cities]",
 			"[+1 Gold] [in all cities] <in cities with a [Granary]>",
       			"Unbuildable <hidden from users>",
 			"Unsellable <hidden from users>",

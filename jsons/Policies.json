@@ -23,7 +23,7 @@
                     	"[-25]% City-State Influence degradation",
                     	"Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     	"[1] free [Hoplite] units appear",
-                    	"Provides [2] [Manpower]",
+                    	"Provides [3] [Manpower]",
                     	"Provides [1] [Bronze]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -61,7 +61,7 @@
                     "[Gold] cost of purchasing [Skirmisher] units [-30]%",
         	    "[+10]% Strength <for [Spearman] units> <when fighting in [Friendly Land] tiles>",
                     "Provides [3] [Mercenary (Oscan)]",
-                    "Provides [2] [Manpower]",
+                    "Provides [3] [Manpower]",
                     "[+3 Happiness] [in capital]"
                 ],
                 "requires": ["The Latin League"],
@@ -109,7 +109,8 @@
                     	"[1] free [Manipular Legion] units appear",
 			"Provides [1] [Ruler] <before adopting [Empire]>",
                         "Provides [1] [Veteran]",
-                    	"Provides [2] [Manpower]",
+                        "Provides [1] [Nobles]",
+                    	"Provides [3] [Manpower]",
                     	"Provides [1] [Iron]",
                     	"[+1 Happiness] [in capital]",
                 ],
@@ -124,6 +125,7 @@
                     	"Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
                     	"Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     	"Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    	"Provides [3] [Manpower]",
                     	"[-20]% maintenance costs <for [Mounted] units>",
                     	"[-20]% maintenance costs <for [Ranged] units>",
                     	"[-20]% maintenance costs <for [Spear] units>",
@@ -139,7 +141,8 @@
                     "[-30]% maintenance costs <for [Sword] units> <when fighting in [Enemy Land] tiles>",
                     "[+10]% Production when constructing [Barracks] buildings [in all cities]",
                     "[1] free [Manipular Legion] units appear",
-                    "Provides [4] [Manpower]",
+                    "Provides [3] [Manpower]",
+                     "Provides [1] [Nobles]",
                     "Provides [1] [Iron]",
                     "[+3 Happiness] [in capital]"
                 ],
@@ -168,6 +171,7 @@
                 "requires": ["Roman Law Foundations"],
                 "uniques": [
         		"Provides [4] [Manpower]",
+                        "Provides [1] [Nobles]",
         		"[+1 Gold] from [Village] tiles [in all cities]",
         		"[+1 Gold] from [Trading post] tiles [in all cities]",
         		"[+1 Gold] from [improved] tiles [in all cities] <when not at war>",
@@ -2712,7 +2716,7 @@
         	"era": "Hellenistic Age",
                 "requires": ["The Champions"],
                 "uniques": [
-                    	"Only available <after before [Cantabrian Circle]> <hidden from users>",
+                    	"Only available <before adopting [Cantabrian Circle]> <hidden from users>",
 			"Comment [Only available before adopting Cantabrian Circle]"
         		"[+10]% Strength <for [Sword] units> <when attacking>",
         		"[+10]% Strength <for [Heavy Swordsman] units> <for [The Celtiberians] Civilizations>",
@@ -2747,7 +2751,7 @@
                 "name": "Cantabrian Circle",
                 "requires": ["Iberian Pastures"],
                 "uniques": [
-                    	"Only available <after before [Veteran Caudillos]> <hidden from users>",
+                    	"Only available <before adopting [Veteran Caudillos]> <hidden from users>",
 			"Comment [Only available before adopting Veteran Caudillos]"
         		"[+20]% Strength <when defending> <for [Horseman] units>",
                     	"New [Mounted] units start with [10] XP [in all cities]",
