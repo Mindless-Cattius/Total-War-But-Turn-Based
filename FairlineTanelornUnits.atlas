@@ -1371,9 +1371,9 @@ TileSets/Civ2FairlineUnits/Units/Hyrcanian Axeman-Imperial Age
   index: -1
 TileSets/Civ2FairlineUnits/Units/Iberian Heavy Lancer
   rotate: false
-  xy: 548, 40
-  size: 128, 107
-  orig: 128, 107
+  xy: 548, 38
+  size: 128, 109
+  orig: 128, 109
   offset: 0, 0
   index: -1
 TileSets/Civ2FairlineUnits/Units/Iberian Mercenary
