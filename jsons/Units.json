@@ -679,7 +679,7 @@
     "uniques": [
          "Comment [-Heavily disciplined citizen-soldiers trained to stand in tight formation and collectively refuse to move.\nTheir strength comes from cohesion, discipline, and the mutual understanding that nobody wants to be the first one to break formation.\nHistorically, they formed the backbone of Greek warfare, and the front line of many unfortunate philosophical discussions.\n• Medium Spear Infantry]",
          "Only available <in cities with a [Barracks]>",
-         "Consumes [3] [Manpower]",
+         "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]",
          "Unbuildable <during the [Imperial Age]>",
          "Only available <with [Enable Hoplite]> <hidden from users>"
@@ -1371,7 +1371,7 @@
     "uniques": [
          "Comment [-A reformed Greek hoplite inspired by the innovations of Iphicrates, who looked at traditional warfare and decided soldiers should perhaps move faster than statues.\nEquipped and trained for greater flexibility, these troops excelled in rough terrain, river crossings, and the sort of fighting that made old generals complain about declining standards.\nProof that military reform is just convincing veterans that the new way of killing people is somehow wrong.\n• Medium Spear Infantry]",
          "Only available <in cities with a [Parthenon]>",
-         "Consumes [3] [Manpower]",
+         "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]"
     ],
     "promotions": [
@@ -1442,7 +1442,7 @@
          "Consumes [2] [Manpower]",
          "[+1] Movement <when fighting in [Forest] tiles>",
          "[+10]% Strength <starting from the [Hellenistic Age]>",
-         "[+30]% production cost <starting from the [Hellenistic Age]>",
+         "[+20]% production cost <starting from the [Hellenistic Age]>",
          "[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
          "[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>"
     ],
@@ -2052,11 +2052,13 @@
     "uniques": [
          "Comment [-Ligurian light spear infantry specialized in ambush warfare across rugged terrain, where fairness is considered a myth invented by cavalry.\nThey excel at striking from forests and uneven ground, using mobility and terrain familiarity to compensate for lighter equipment.\nTheir idea of a “fair fight” is one where they already know where you are.\n• Light Spear Infantry]",
          "Only available <in cities with a [Muster Field]>",
-         "[+30]% production cost <starting from the [Hellenistic Age]>",
+         "[+20]% production cost <starting from the [Hellenistic Age]>",
          "[+10]% Strength <starting from the [Hellenistic Age]>",
          "Consumes [2] [Manpower]",
          "[+10]% Strength <when defending> <when fighting in [Forest] tiles>",
-         "[+10]% Strength <when defending> <when fighting in [Jungle] tiles>"
+         "[+10]% Strength <when defending> <when fighting in [Jungle] tiles>",
+         "[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
+         "[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2078,7 +2080,7 @@
     "uniques": [
          "Comment [-Gaesatae light shock infantry, famously fighting with minimal armor to maximize speed, intimidation, and questionable life insurance policies.\nThey specialized in aggressive close assaults meant to disrupt heavier formations before discipline could catch up, relying on momentum, morale shock, and a strong dislike of defensive planning.\nArmor was treated as optional; confidence was not.\n• Very Light Shock Infantry]",
          "Only available <in cities with a [Barracks]>",
-         "Consumes [3] [Manpower]",
+         "Consumes [2] [Manpower]",
          "Can move immediately once bought"
     ],
     "promotions": [
@@ -2334,7 +2336,7 @@
     "uniques": [
          "Comment [-Dardanian noble hoplites drawn from local aristocratic households, trained in classical spear warfare with an emphasis on discipline, status, and looking significantly more organized than the average levy.\nThey functioned as reliable heavy infantry, combining social prestige with battlefield duty in a way that ensured both accountability and excessive confidence in formation fighting.\n• Medium Spear Infantry]",
          "Only available <in cities with a [Barracks]>",
-         "Consumes [3] [Manpower]",
+         "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]"
     ],
     "promotions": [
@@ -2437,7 +2439,7 @@
     "uniques": [
          "Comment [-Molossian hoplites drawn from the mountain regions of Epirus, trained in disciplined spear warfare shaped by harsh terrain and limited patience for flat ground.\nTheir endurance and cohesion make them reliable line infantry, particularly effective in sustained engagements where retreat is not part of the vocabulary.\nThey were as comfortable holding a shield wall as they were ignoring the concept of easy geography.\n• Medium Spear Infantry]",
          "Only available <in cities with a [Barracks]>",
-         "Consumes [3] [Manpower]",
+         "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]"
     ],
     "promotions": [
@@ -2616,7 +2618,7 @@
     "uniques": [
          "Comment [-Spartan hoplites forged through extreme state discipline and lifelong military conditioning, designed to operate as a unified wall of shields rather than individual soldiers.\nThey excel in holding formation under pressure, where other armies typically start emotionally negotiating with reality.\nEfficiency, obedience, and structural violence packaged into a very unhappy human.\n• Medium Spear Infantry]",
          "Only available <in cities with a [Syssition]>",
-         "Consumes [3] [Manpower]",
+         "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]"
     ],
     "promotions": [
@@ -2640,7 +2642,7 @@
          "Comment [-Athenian hoplites trained in citizen-soldier warfare, combining civic pride with disciplined spear tactics and a healthy tendency to argue about strategy mid-battle.\nThey perform well in organized formations, especially when defending maritime interests or pretending every war is a philosophical debate.\nLess rigid than Spartan counterparts, more likely to win and then immediately write about it.\n• Medium Spear Infantry]",
          "Only available <in cities with a [Barracks]>",
          "[+10]% Strength <when defending> <when [Embarked]>",
-         "Consumes [3] [Manpower]",
+         "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]"
     ],
     "promotions": [
@@ -2663,7 +2665,7 @@
     "uniques": [
           "Comment [-Theban hoplites organized around the principle of elite cohesion and paired combat discipline, inspired by the Sacred Band tradition where trust between soldiers is treated as a tactical advantage rather than an emotional inconvenience.\nThey excel in coordinated formation fighting, where adjacency and unity translate directly into battlefield resilience and increased defensive stability.\nTheir strength scales with proximity, because apparently friendship is now a weapon system.\n• Medium Spear Infantry]",
          "Only available <in cities with a [Barracks]>",
-         "Consumes [3] [Manpower]",
+         "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]",
          "[+20]% Strength <when defending> <for [Theban Hoplite] units> <when adjacent to a [Theban Hoplite] unit>"
     ],

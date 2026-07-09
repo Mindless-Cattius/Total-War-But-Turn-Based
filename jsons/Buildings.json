@@ -3009,6 +3009,7 @@
                 "Remove [Albion] [in this city] <when below [4] [Britannia Region]> <upon turn end> <hidden from users>",
                 "Remove [Albion] [in this city] <when below [2] [Caledonia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3084,6 +3085,7 @@
                 "Remove [Hispania] [in this city] <when below [2] [Lusitania Region]> <upon turn end> <hidden from users>",
                 "Remove [Hispania] [in this city] <when below [2] [Baetica Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3157,6 +3159,7 @@
                 "Remove [Gallia] [in this city] <when below [3] [Celtica Region]> <upon turn end> <hidden from users>",
                 "Remove [Gallia] [in this city] <when below [2] [Belgica Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3216,6 +3219,7 @@
                 "Remove [Germania] [in this city] <when below [2] [Germania Minor Region]> <upon turn end> <hidden from users>",
                 "Remove [Germania] [in this city] <when below [4] [Suebia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3273,6 +3277,7 @@
                 "Unbuildable <when below [3] [Sarmatia Region]> <hidden from users>",
                 "Remove [Sarmatia Maior] [in this city] <when below [3] [Sarmatia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3304,6 +3309,7 @@
                 "Unbuildable <when below [3] [Dacia Region]> <hidden from users>",
                 "Remove [Dacia Maior] [in this city] <when below [3] [Dacia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 ///Illyricum
@@ -3351,6 +3357,7 @@
                 "Remove [Illyricum] [in this city] <when below [2] [Illyria Region]> <upon turn end> <hidden from users>",
                 "Remove [Illyricum] [in this city] <when below [2] [Pannonia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3401,6 +3408,7 @@
                 "Remove [Macedonia et Hellas] [in this city] <when below [2] [Macedonia Region]> <upon turn end> <hidden from users>",
                 "Remove [Macedonia et Hellas] [in this city] <when below [3] [Hellas Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3433,6 +3441,7 @@
                 "Unbuildable <when below [4] [Thracia Region]> <hidden from users>",
                 "Remove [Thracia Maior] [in this city] <when below [4] [Thracia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3495,6 +3504,7 @@
                 "Remove [Italia] [in this city] <when below [3] [Cisalpina Region]> <upon turn end> <hidden from users>",
                 "Remove [Italia] [in this city] <when below [3] [Alpes Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3536,6 +3546,7 @@
                 "Remove [Corsica et Sardinia] [in this city] <when below [1] [Sardinia Region]> <upon turn end> <hidden from users>",
                 "Remove [Corsica et Sardinia] [in this city] <when below [1] [Corsica Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3565,6 +3576,7 @@
                 "Remove [Sicilia Magna] [in this city] <when below [2] [Sicilia Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [2] [Sicilia Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3624,6 +3636,7 @@
                 "Remove [Anatolia] [in this city] <when below [2] [Galatia et Cappadocia Region]> <upon turn end> <hidden from users>",
                 "Remove [Anatolia] [in this city] <when below [2] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3668,6 +3681,7 @@
                 "Unbuildable <when below [3] [Caucasia Region]> <hidden from users>",
                 "Unbuildable <when below [2] [Armenia Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3712,6 +3726,7 @@
                 "Unbuildable <when below [3] [Syria Region]> <hidden from users>",
                 "Unbuildable <when below [2] [Cilicia Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3772,6 +3787,7 @@
                 "Remove [Pontus Euxinus] [in this city] <when below [4] [Ponto Caspia Region]> <upon turn end> <hidden from users>",
                 "Remove [Pontus Euxinus] [in this city] <when below [2] [Bosporus Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3835,6 +3851,7 @@
                 "Unbuildable <when below [4] [Africa Region]> <hidden from users>",
                 "Unbuildable <when below [1] [Phazania Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3899,6 +3916,7 @@
                 "Unbuildable <when below [3] [Aegyptus Region]> <hidden from users>",
                 "Unbuildable <when below [4] [Nabataea Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3948,6 +3966,7 @@
                 "Unbuildable <when below [2] [Arabia Felix Region]> <hidden from users>",
                 "Unbuildable <when below [3] [Arabia Magna Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -3977,6 +3996,7 @@
                 "Remove [Mesopotamia Maior] [in this city] <when below [3] [Mesopotamia Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [3] [Mesopotamia Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -4037,6 +4057,7 @@
                 "Unbuildable <when below [4] [Parthia Region]> <hidden from users>",
                 "Unsellable <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -4095,6 +4116,7 @@
                 "Unbuildable <when below [1] [Arachosia Region]> <hidden from users>",
                 "Unsellable <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 
@@ -4153,6 +4175,7 @@
                 "Unbuildable <when below [1] [Bactria Region]> <hidden from users>",
                 "Unsellable <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
+			"Limited to [1] per Civilization",
         ]
 },
 

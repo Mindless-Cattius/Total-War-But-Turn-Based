@@ -1561,12 +1561,12 @@
 		"Ignores Zone of Control",
 		"[+20]% Strength <vs [Sword] units>",
 		"[+10]% Strength <vs [Spear] units>",
-		"[+40]% Strength <when attacking>",
-		"[+20]% Strength <when attacking> <when fighting in [Forest] tiles>",
-		"[+20]% Strength <when attacking> <in [Jungle] tiles>",
+		"[+30]% Strength <when attacking>",
+		"[+10]% Strength <when attacking> <when fighting in [Forest] tiles>",
+		"[+10]% Strength <when attacking> <in [Jungle] tiles>",
 		"[-30]% Strength <when defending> <vs [Mounted] units>",
 		"[-30]% Strength <when defending> <vs [Ranged] units>",
-		"Withdraws before melee combat <with [8]% chance>",
+		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
 	{

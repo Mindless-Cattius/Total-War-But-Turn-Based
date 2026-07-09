@@ -2532,8 +2532,9 @@
         {
             "text": "Out of the way. Commerce waits for no man.",
             "uniques": [
-                "[+4 Gold, -1 Happiness, -1 Production] [in all cities] <for [10] turns>",
+                "[+5 Gold, -2 Happiness, -1 Production] [in all cities] <for [10] turns>",
                 "Free [Great Artist] appears",
+                "Free [Great Merchant] appears <with [30]% chance>",
 		"Instantly provides [1] [The First Bureaucrats] <hidden from users>",
             ]
         },
