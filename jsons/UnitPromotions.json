@@ -835,8 +835,9 @@
 	},	{
 		"name": "Pilum",
 		"uniques": [
-   			 "[+10]% Strength <when attacking> <vs [{Melee} {Land}] units>",
-   			 "[+10]% Strength <when attacking> <vs [Mounted Archery] units>",
+   			 "[+10]% Strength <when attacking> <vs [Infantry Shield I] units>",
+   			 "[+10]% Strength <when attacking> <vs [Infantry Shield II] units>",
+   			 "[+10]% Strength <when attacking> <vs [Infantry Shield III] units>",
 		],
 	},
 	{
