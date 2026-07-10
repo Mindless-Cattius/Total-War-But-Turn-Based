@@ -943,7 +943,7 @@
     "name": "Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 30,
-    "cost": 150,
+    "cost": 140,
     "movement": 3,
     "strength": 8,
     "rangedStrength": 11,
@@ -951,7 +951,7 @@
     "uniques": [
          "Comment [-Light horse archers developed in steppe and nomadic warfare traditions, where mobility and ranged harassment defined survival.\nThey excel at striking from distance, avoiding engagement, and turning battles into long, exhausting arguments no one agreed to have.\nHistorically, they were among the most effective asymmetrical forces of the ancient world.\n• Light Mounted Archer]",
          "Only available <in cities with a [Stable]>",
-         "Consumes [2] [Manpower]",
+         "Consumes [3] [Manpower]",
          "Consumes [1] [Horses]",
          "Only available <with [Enable Horse Archer]> <hidden from users>",
 	 "Only available <in cities with a [Scythia]> <when below [1] [NomadOrEastern]> <hidden from users>",

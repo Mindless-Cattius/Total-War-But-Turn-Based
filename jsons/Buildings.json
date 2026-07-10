@@ -998,7 +998,7 @@
 		"uniques": [
 			"Only available <after adopting [Nomad Culture]>",
 			"New [Mounted Archery] units start with [10] XP [in this city]",
-			"Provides [1] [Manpower] <while the empire is happy>",
+			"Provides [1] [Manpower]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[-1 Food] from [Village] tiles [in this city]",
 			"[-1 Food] from [Farm] tiles [in this city]",
@@ -2390,8 +2390,9 @@
 
 	{
 		"name": "The Great Library",
-		"science": 2,
-		"culture": 1,
+		"science": 3,
+		"culture": 2,
+		"happiness": 2,
 		"specialistSlots": {"Scholar": 2},
  		"cost": 800,
 		"isWonder": true,
@@ -2399,8 +2400,8 @@
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric IV]>",
 			"Only available <in cities with a [Urban Fabric V]> <hidden from users>",
+			"[+1 Science, +2 Happiness] [in this city] <in cities with a [School]>", 
 			"Consumes [1] [Decadence] <in cities with a [The Great Library]> <while the empire is happy>",
-			"Free Technology",
 			"Only available <after adopting [Hellenistic Culture]>"
 ],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
