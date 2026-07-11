@@ -1807,7 +1807,7 @@
     "uniques": [
          "Comment [-Roman heavy spear infantry forming the final reserve line of battle, deployed only when earlier formations had already turned optimism into a historical mistake.\nTheir role was less about aggressive maneuvering and more about ensuring the army still existed after everything else failed.\nWhen the Triarii stepped forward, even experienced enemies tended to reconsider their career choices.\n• Heavy Spear Infantry]",
          "Only available <in cities with a [Palace]>",
-         "Unavailable <after discovering [Heavy Infantry]>",
+         "Unavailable <after discovering [Military Reforms]>",
          "[+10]% Strength <when defending> <when fighting in [Friendly Land] tiles>",
          "Consumes [4] [Manpower]",
          "Consumes [1] [Veteran]",
@@ -1875,7 +1875,7 @@
     "name": "Praetoria",
     "hurryCostModifier": 30,
     "unitType": "Sword",
-    "requiredTech": "Heavy Infantry",
+    "requiredTech": "Military Reforms",
     "replaces": "Foot Guard",
     "uniqueTo": "The Romans",
     "movement": 2,
