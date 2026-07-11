@@ -622,6 +622,7 @@
 		"[+50]% Production when constructing [Market] buildings [in all cities]",
 		"[+1 Happiness, +2 Gold] [in all cities] <when not at war>",
 		"[-30]% maintenance costs <for [Mercenary] units>",
+         	"Provides [1] [Mercenary (Libyan)]",
 		"Comment []",
 		"Comment [WEAKNESS: Slow Mobilization, Cautious Generals, Wartime Unrest.]",
 		"[-10]% Strength <for [Commander] units> <when attacking>",

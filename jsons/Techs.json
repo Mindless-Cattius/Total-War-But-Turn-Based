@@ -424,9 +424,8 @@
 				"row": 2,
 				"prerequisites": ["Military Reforms","Social Reforms"],
  				 "uniques": [
-					"[Gold] cost of purchasing [Military] units [+20]%",
 					"[+10]% Strength <for [Spearman] units>",
-  					"All newly-trained [Military] units [in all cities] receive the [Morale] promotion <during the [Imperial Age]>",
+  					"[Military] units gain the [Morale] promotion",
 ],
 				"quote": "'Therefore, he who desires peace, should prepare for war.'- Vegetius"
 			},
@@ -435,7 +434,7 @@
 				"row": 4,
 				"prerequisites": ["Military Reforms","Aesthetics"],
   "uniques": [
-					"[+20]% Strength <when defending> <for [Skirmisher] units>",
+					"[+10]% Strength <when defending> <for [Skirmisher] units>",
 ],
 				"quote": "Arm the archer not only with arrows, but with purpose and formation."
 			},

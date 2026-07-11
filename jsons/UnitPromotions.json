@@ -1235,7 +1235,7 @@
 		"[+1] Strength <vs [Wounded] units> <when attacking>",
 		"[-10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
 		"[-15]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"Withdraws before melee combat <with [40]% chance>",
+		"Withdraws before melee combat <with [45]% chance>",
 		"No defensive terrain bonus",
 		]
 	},
@@ -1247,7 +1247,7 @@
 		"[+1] Strength <vs [Wounded] units> <when attacking>",
 		"[-10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
 		"[-15]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"Withdraws before melee combat <with [25]% chance>",
+		"Withdraws before melee combat <with [30]% chance>",
 		"No defensive terrain bonus",
 		]
 	},

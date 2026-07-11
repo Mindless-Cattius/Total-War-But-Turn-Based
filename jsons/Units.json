@@ -280,7 +280,7 @@
          "No defensive terrain bonus",
          "[+20]% Strength <vs [Infantry Shield II] units> <when attacking>",
          "[+20]% Strength <vs [Infantry Shield III] units> <when attacking>",
-         "[+30]% Strength <vs [Siege] units> <when attacking>",
+         "[+20]% Strength <vs [Siege] units> <when attacking>",
          "[+300]% Strength <vs cities> <when attacking>",
          "Consumes [3] [Manpower]",
          "Consumes [2] [Timber]",
@@ -739,7 +739,7 @@
     "cost": 160,
     "movement": 2,
     "strength": 18,
-    "requiredTech": "Military Reforms",
+    "requiredTech": "Heavy Infantry",
     "uniques": [
          "Comment [-Heavy spear infantry designed to function as a mobile defensive wall.\nHistorically developed as states shifted toward more professional armies capable of resisting cavalry charges with geometry and discipline instead of panic.\nEffective, slow, and completely uninterested in your tactical creativity.\n• Heavy Spear Infantry]",
          "Only available <in cities with a [Army Barracks]>",
@@ -752,7 +752,7 @@
       "[Spearman] ability",
       "Infantry Shield III",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Heavy Swordsman",
@@ -761,7 +761,7 @@
     "cost": 160,
     "movement": 2,
     "strength": 20,
-    "requiredTech": "Military Reforms",
+    "requiredTech": "Heavy Infantry",
     "uniques": [
 	 "Comment [-Heavy infantry equipped with swords and the emotional stability of a collapsing siege engine.\nDesigned to hold the line through endurance rather than elegance, relying on armor, discipline, and the stubborn refusal to acknowledge retreat as an option.\nHistorically, units like this marked the transition toward professional frontline infantry built for prolonged engagements rather than quick victories.\n• Heavy Sword Infantry]",
          "Only available <in cities with a [Army Barracks]>",
@@ -1412,7 +1412,7 @@
     "cost": 180,
     "movement": 2,
     "strength": 23,
-    "requiredTech": "Military Reforms",
+    "requiredTech": "Heavy Infantry",
     "uniques": [
          "Comment [-Aquitani heavy infantry drawn from the Solduros lineage, trained for sustained frontline engagements where patience matters more than elegance.\nThey excel at holding positions, absorbing pressure, and making enemy commanders reconsider whether frontal assaults were emotionally necessary.\nLess flashy than elite troops, but significantly more reliable when the situation stops being theoretical.\n• Elite Heavy Infantry]",
          "Consumes [4] [Manpower]",
@@ -1726,7 +1726,7 @@
          "Can transform to [Legion] <after adopting [Cohort Reformation]>",
          "Consumes [3] [Manpower]",
          "Consumes [1] [Iron]",
-         "Unbuildable <after discovering [Infantry Training]>",
+         "Unbuildable <after discovering [Metallurgy]>",
          "[This Unit] gets a name from the [Legions] group <hidden from users>"
     ],
     "promotions": [
@@ -1745,6 +1745,7 @@
     "movement": 2,
     "strength": 21,
     "cost": 180,
+    "requiredTech": "Metallurgy",
     "uniques": [
 	"Comment [-Roman legionary heavy infantry, trained to treat warfare, engineering, and administrative expansion as one continuous workflow.\nThey were capable of dismantling enemy forces, then immediately turning the same ground into roads, camps, and permanent reminders that Rome had been there.\nExceptionally disciplined, highly organized, and also extremely efficient at the “murder first, paperwork second” stage of state-building.\n• Heavy Infantry]",
          "Only available <in cities with a [Barracks]>",
@@ -1849,6 +1850,7 @@
     "hurryCostModifier": 30,
     "unitType": "Sword",
     "uniqueTo": "The Romans",
+    "requiredTech": "Heavy Infantry",
     "movement": 3,
     "strength": 19,
     "cost": 210,
@@ -2530,7 +2532,7 @@
       "Infantry Shield II",
 	"Veterans",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
   {
     "name": "Spear Silver Shield",
@@ -2555,7 +2557,7 @@
       	"Infantry Shield III",
 	"Veterans",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },
 
 				/////HELLENIC
@@ -2779,6 +2781,71 @@
     "attackSound": "arrow"
   },
   {
+    "name": "Mercenary Libyan Heavy Spearman",
+    "unitType": "Spear",
+    "hurryCostModifier": 30,
+    "cost": 200,
+    "movement": 2,
+    "strength": 19,
+    "uniques": [
+         "Comment [-Heavy spear infantry designed to function as a mobile defensive wall.\nHistorically developed as states shifted toward more professional armies capable of resisting cavalry charges with geometry and discipline instead of panic.\nEffective, slow, and completely uninterested in your tactical creativity.\n• Heavy Spear Infantry]",
+         "Only available <in cities with a [Mercenary Camp]>",
+         "Can move immediately once bought",
+         "Consumes [1] [Mercenary (Libyan)]",
+         "Can be purchased with [Gold] [in all cities]",
+         "Unbuildable"
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Infantry Shield III",
+      "Mercenary",
+    ],
+    "attackSound": "march"
+  },
+  {
+    "name": "Mercenary Libyan Heavy Swordsman",
+    "unitType": "Sword",
+    "hurryCostModifier": 30,
+    "cost": 200,
+    "movement": 2,
+    "strength": 21,
+    "uniques": [
+	 "Comment [-Heavy infantry equipped with swords and the emotional stability of a collapsing siege engine.\nDesigned to hold the line through endurance rather than elegance, relying on armor, discipline, and the stubborn refusal to acknowledge retreat as an option.\nHistorically, units like this marked the transition toward professional frontline infantry built for prolonged engagements rather than quick victories.\n• Heavy Sword Infantry]",
+         "Only available <in cities with a [Mercenary Camp]>",
+         "Can move immediately once bought",
+         "Consumes [1] [Mercenary (Libyan)]",
+         "Can be purchased with [Gold] [in all cities]",
+         "Unbuildable"
+    ],
+    "promotions": [
+      "Infantry Shield III",
+      "Mercenary",
+	
+    ],
+    "attackSound": "march"
+  },
+{
+    "name": "Mercenary War Elephant",
+    "unitType": "Elephant",
+    "hurryCostModifier": 30,
+    "cost": 210,
+    "movement": 2,
+    "strength": 20,
+    "uniques": [
+         "Comment [-War elephants, employed across various ancient civilizations from India to the Mediterranean, used as living siege engines and battlefield intimidation platforms.\nEffective at breaking formations through mass, momentum, and psychological impact rather than precision.\nHistorically powerful but logistically demanding, often turning victory into a question of whether you can afford to keep winning.\n• Medium Elephant]",
+         "Only available <in cities with a [Mercenary Camp]>",
+         "Can move immediately once bought",
+         "Consumes [1] [Mercenary (Eastern)]",
+         "Can be purchased with [Gold] [in all cities]",
+         "Unbuildable"
+    ],
+    "promotions": [
+      "[War Elephant] ability"
+      "Mercenary",
+    ],
+    "attackSound": "elephant"
+  },
+  {
     "name": "Mercenary Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 30,
@@ -2790,13 +2857,12 @@
          "Comment [-Mercenary horse archers recruited from eastern steppe traditions, specializing in high-mobility ranged harassment and evasive skirmishing tactics designed to avoid fair fights as a matter of principle.\nThey operate by striking from range, repositioning constantly, and maintaining just enough distance from danger to preserve both their lives and their contract payments.\nEffective at destabilizing enemy formations, exhausting pursuit forces, and exiting battles with suspicious efficiency.\n• Elite Light Mounted Archer]",
          "Only available <in cities with a [Mercenary Camp]>",
          "Can move immediately once bought",
-         "Consumes [2] [Mercenary (Eastern)]",
+         "Consumes [1] [Mercenary (Eastern)]",
          "Can be purchased with [Gold] [in all cities]",
          "Unbuildable"
     ],
     "promotions": [
       "[Horse Archer] ability",
-      "[Maneuver]"
       "Mercenary",
     ],
     "attackSound": "arrow"
@@ -2969,6 +3035,37 @@
     "attackSound": "metalhit"
   },
   {
+    "name": "Mercenary Ballista",
+    "unitType": "Siege",
+    "hurryCostModifier": 30,
+    "movement": 2,
+    "strength": 8,
+    "rangedStrength": 11,
+    "cost": 230,
+    "requiredTech": "Engineering",
+    "uniques": [
+         "Comment [-A torsion-powered siege engine used by ancient engineers to solve the timeless problem of walls.\nBased on earlier Greek and Roman designs, it fires bolts and stones with enough force to discourage both cavalry and optimism.\nEffective against mounted units, because horses historically disliked being turned into projectiles.\n• Siege Artillery]",
+         "Only available <in cities with a [Siege Workshop]>",
+         "Must set up to ranged attack",
+         "No defensive terrain bonus",
+         "[+20]% Strength <vs [Mounted Archery] units> <when attacking>",
+         "[+20]% Strength <vs [Cavalry Shield II] units> <when attacking>",
+         "[+30]% Strength <vs [Cataphract] units> <when attacking>",
+         "[+30]% Strength <vs [Clibanarii] units> <when attacking>",
+         "[+30]% Strength <vs [Elephant] units> <when attacking>",
+         "[+200]% Strength <vs cities> <when attacking>",
+    	"Only available <in cities with a [Mercenary Camp]>",
+    	"Consumes [1] [Mercenary (Hellenic)]",
+    	"Can be purchased with [Gold] [in all cities]",
+    	"Unbuildable"
+    ],
+    "promotions": [
+      "Mercenary",
+    ],
+    "hurryCostModifier": 30,
+    "attackSound": "bombard"
+  },
+  {
     "name": "Mercenary Hoplite",
     "hurryCostModifier": 30,
     "unitType": "Spear",
@@ -3135,6 +3232,7 @@
     "movement": 2,
     "strength": 21,
     "cost": 170,
+    "requiredTech": "Metallurgy",
     "uniques": [
 	"Comment [-Hellenic legionary heavy infantry, trained to treat war as a combination of disciplined violence and unauthorized infrastructure development.\nThey advance in formation, break enemy resistance through attrition and structure, then casually redesign the battlefield into roads, cleared land, and logistical routes as if occupation were a civil engineering project.\nEffective in sieges, steady in open battle, and historically incapable of leaving territory unchanged.\n• Heavy Sword Infantry]"
       	"Only available <in cities with a [Barracks]>",
@@ -3184,6 +3282,7 @@
     "movement": 2,
     "strength": 21,
     "cost": 170,
+    "requiredTech": "Metallurgy",
     "uniques": [
       	 "Comment [-Gallic legionary heavy infantry adapted from tribal Gallic warfare traditions, trained to combine disciplined Roman-style formations with the Gallic enthusiasm for turning every battlefield into a controlled demolition project.\nThey excel at sieges, aggressive advances, and reshaping terrain into infrastructure that suggests long-term occupation rather than temporary military presence.\nTheir doctrine is simple: advance, destroy resistance, rebuild access routes, and pretend it was planned that way.\n• Heavy Sword Infantry]"
       	"Only available <in cities with a [Barracks]>",
@@ -3255,6 +3354,7 @@
     "movement": 2,
     "strength": 19,
     "cost": 170,
+    "requiredTech": "Metallurgy",
     "uniques": [
       "Comment [-Heavy sword Spear, can build road, excellent in sieges and attacking]",
       "Only available <in cities with a [Barracks]>",
@@ -3281,6 +3381,7 @@
     "movement": 2,
     "strength": 22,
     "cost": 170,
+    "requiredTech": "Metallurgy",
     "uniques": [
       	"Comment [-Desert legionary heavy infantry specialized in arid warfare, trained to operate in conditions where heat, exhaustion, and logistics are considered part of the enemy roster.\nThey excel at disciplined sieges, structured assaults, and converting barren terrain into long-term military infrastructure through persistence and engineering habit.\nTheir doctrine treats survival and conquest as the same administrative process, just with different paperwork.\n• Heavy Spear Infantry]",
       	"Only available <in cities with a [Barracks]>",

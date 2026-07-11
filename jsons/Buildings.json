@@ -173,7 +173,7 @@
 
 {
 		"name": "Urban Fabric III",
-		"requiredTech": "Land Grants",
+		"requiredTech": "Construction",
 		"cost": 100,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
@@ -192,7 +192,7 @@
 
 {
 		"name": "Urban Fabric IV",
-		"requiredTech": "Construction",
+		"requiredTech": "Tax Farming",
 		"cost": 250,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
@@ -1883,7 +1883,7 @@
 		"uniques": [
 			"Only available <in cities with a [Market]>"
 			"Consumes [1] [Sanitation]",
-			"Provides [4] [Horses]",
+			"Provides [3] [Horses]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
@@ -1916,7 +1916,7 @@
  		"cost": 100,
 		"uniques": [
 			"Only available <in cities with a [Market]>"
-			"Provides [3] [Bronze]",
+			"Provides [2] [Bronze]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
