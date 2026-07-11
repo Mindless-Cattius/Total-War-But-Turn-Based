@@ -152,7 +152,7 @@
 	{
 		"columnNumber": 4,
 		"era": "Classical Age",
-		"techCost": 700,
+		"techCost": 500,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -218,7 +218,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Classical Age",
-		"techCost": 3500,
+		"techCost": 2500,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -275,7 +275,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Hellenistic Age",
-		"techCost": 7000,
+		"techCost": 5000,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
@@ -333,7 +333,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Hellenistic Age",
-		"techCost": 12000,
+		"techCost": 10000,
 		"buildingCost": 250,
 		"wonderCost": 400,
 		"techs": [
@@ -367,7 +367,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Hellenistic Age",
-		"techCost": 25000,
+		"techCost": 20000,
 		"buildingCost": 350,
 		"wonderCost": 400,
 		"techs": [
@@ -415,7 +415,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Imperial Age",
-		"techCost": 35000,
+		"techCost": 30000,
 		"buildingCost": 400,
 		"wonderCost": 2000,
 		"techs": [
