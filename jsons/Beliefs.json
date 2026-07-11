@@ -659,7 +659,7 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+3 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
     },
     {
         "name": "Holy Warriors",
@@ -806,7 +806,7 @@
     "name": "Camp Followers",
     "type": "Follower",
     "uniques": [
-        "[+1 Faith, +1 Happiness, +1 Food] from every [Muster Field] <in cities with at least [5] [Followers of this Religion]>"
+        "[+1 Faith, +1 Happiness] from every [Muster Field] <in cities with at least [5] [Followers of this Religion]>"
     ]
 }
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
@@ -1029,7 +1029,7 @@
     "name": "Council Tradition",
     "type": "Enhancer",
     "uniques": [
-        "[+15]% Culture cost of adopting new Policies",
+        "[-10]% Culture cost of adopting new Policies",
         "[+5]% Strength <for [Infantry Shield I] units> <when above [100] [Happiness]>"
     ]
 },
