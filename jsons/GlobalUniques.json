@@ -36,9 +36,9 @@
         "[{Military} {Land}] units gain the [War Transports] promotion",
         "[{Military} {Land}] units gain the [Healing] promotion",
 	"[+100]% construction time for [all] improvements <for [Military] units>",
-	"[+100]% construction time for [Repair] improvements <in [Village] tiles>",
-	"[+100]% construction time for [Repair] improvements <in [Trading post] tiles>",
-	"[+120]% construction time for [Repair] improvements <in [Fort] tiles>",
+	"[-100]% construction time for [Repair] improvements <in [Village] tiles>",
+	"[-100]% construction time for [Repair] improvements <in [Trading post] tiles>",
+	"[-120]% construction time for [Repair] improvements <in [Fort] tiles>",
 
 						//Cities
 
