@@ -255,7 +255,7 @@
          "[+40]% Strength <vs [Cataphract] units> <when attacking>",
          "[+40]% Strength <vs [Clibanarii] units> <when attacking>",
          "[+40]% Strength <vs [Elephant] units> <when attacking>",
-         "[+200]% Strength <vs cities> <when attacking>",
+         "[+150]% Strength <vs cities> <when attacking>",
          "Consumes [2] [Manpower]",
          "Consumes [1] [Timber]",
          "Never appears as a Barbarian unit",
@@ -281,7 +281,7 @@
          "[+20]% Strength <vs [Infantry Shield II] units> <when attacking>",
          "[+20]% Strength <vs [Infantry Shield III] units> <when attacking>",
          "[+20]% Strength <vs [Siege] units> <when attacking>",
-         "[+300]% Strength <vs cities> <when attacking>",
+         "[+200]% Strength <vs cities> <when attacking>",
          "Consumes [3] [Manpower]",
          "Consumes [2] [Timber]",
          "Never appears as a Barbarian unit"
