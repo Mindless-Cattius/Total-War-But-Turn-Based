@@ -167,6 +167,7 @@
          "Comment [-Architects, engineers, and master builders entrusted with turning ambitious plans into expensive realities.\nThey raise monuments, fortifications, and wonders that rulers proudly claim as their own achievements.\nEvery great structure stands as a testament to genius, organization, and someone else's back pain.\n• Great Person]",
          "Empire enters a [12]-turn Golden Age <by consuming this unit> <if it hasn't used other actions yet>",
          "Can speed up construction of a building <if it hasn't used other actions yet>",
+	"Can build [Land] improvements on tiles <hidden from users>",
          "Can instantly construct a [Fort] improvement <[1] times> <after which this unit is consumed>",
          "[+10]% Strength bonus for [Siege] units within [1] tiles",
          "Great Person - [Production]",
