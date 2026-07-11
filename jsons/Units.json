@@ -3042,7 +3042,6 @@
     "strength": 8,
     "rangedStrength": 11,
     "cost": 230,
-    "requiredTech": "Engineering",
     "uniques": [
          "Comment [-A torsion-powered siege engine used by ancient engineers to solve the timeless problem of walls.\nBased on earlier Greek and Roman designs, it fires bolts and stones with enough force to discourage both cavalry and optimism.\nEffective against mounted units, because horses historically disliked being turned into projectiles.\n• Siege Artillery]",
          "Only available <in cities with a [Siege Workshop]>",

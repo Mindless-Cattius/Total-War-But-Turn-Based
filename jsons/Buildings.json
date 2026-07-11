@@ -1981,6 +1981,7 @@
 		"cityHealth": 50,
 		"cityStrength": 1,
 		"maintenance": 3,
+		"requiredTech": "Hospitum"
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>"
 			"Requires at least [5] population",
