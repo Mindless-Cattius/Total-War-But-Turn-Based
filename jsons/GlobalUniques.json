@@ -114,15 +114,22 @@
         "Free [Siege Tower] appears <when at war> <with [3]% chance> <for [AI player] Civilizations> <starting from the [Hellenistic Age]> <before adopting [Nomad Culture]>",
         "Free [Battering Ram] appears <when at war> <with [1]% chance> <for [AI player] Civilizations> <starting from the [Classical Age]> <after adopting [Nomad Culture]>",
         "Free [Siege Tower] appears <when at war> <with [1]% chance> <for [AI player] Civilizations> <starting from the [Hellenistic Age]> <after adopting [Nomad Culture]>",
-	"[+20]% Health from pillaging tiles <for [Mounted Archery] units> <for [AI player] Civilizations> <after adopting [Nomad Culture]>"
-	"[+20]% Health from pillaging tiles <for [Mounted] units> <for [AI player] Civilizations> <after adopting [Nomad Culture]>"
+	"[+20]% Health from pillaging tiles <for [Mounted Archery] units> <for [AI player] Civilizations> <after adopting [Nomad Culture]>",
+	"[+20]% Health from pillaging tiles <for [Mounted] units> <for [AI player] Civilizations> <after adopting [Nomad Culture]>",
 
+//AI free unit
+
+        "Free [Foot Guard] appears <upon turn end> <with [3]% chance> <when above [0] [Veteran]> <when above [3] [Manpower]> <starting from the [Classical Age]> <for [AI player] Civilizations>",
 //free unit
 
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [2] [Manpower]> <upon founding a city>",
         "Free [Spearman] appears <when above [11] [Happiness]> <when above [3] [Manpower]> <upon founding a city>",
-        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [1]% chance> <starting from the [Hellenistic Age]>",
-        "Free [General] appears <upon turn end> <when above [3] [Nobles]> <with [1]% chance>",
+
+        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <before adopting [Nomad Culture]> <with [1]% chance> <starting from the [Hellenistic Age]>",
+        "Free [General] appears <upon turn end> <when above [3] [Nobles]> <before adopting [Nomad Culture]> <with [1]% chance>",
+        "Free [Nomad Nobles] appears <upon turn end> <when above [0] [Nobles]> <after adopting [Nomad Culture]> <with [1]% chance> <starting from the [Hellenistic Age]>",
+        "Free [Nomad Nobles] appears <upon turn end> <when above [3] [Nobles]> <after adopting [Nomad Culture]> <with [1]% chance>",
+
         "Free [Spearman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <before the [Imperial Age]>",
         "Free [Skirmisher] appears <upon turn end> <when above [20] [Manpower]> <with [2]% chance> <before the [Imperial Age]>",
         "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
