@@ -149,6 +149,10 @@
 
 
 			//////EVENTS
+///Noti
+	"Triggers a [A Plague] event <if [PLAGUE] is constructed> <upon turn start> <for [Human player] Civilizations>",
+	"Triggers a [A Dangerous Plague] event <if [DANGEROUS PLAGUE] is constructed> <upon turn start> <for [Human player] Civilizations>",
+	"Triggers a [Rebellion Imminent] event <if [REBEL IMMINENT] is constructed> <upon turn start> <for [Human player] Civilizations>",
 
 	"Triggers a [A Matter of Administration] event <when below [1] [Administrative Briefing]> <upon turn start> <for [Human player] Civilizations>",
 //Specials

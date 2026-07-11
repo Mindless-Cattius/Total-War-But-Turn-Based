@@ -115,7 +115,39 @@
         }
     ]
 },
-
+////Notification
+{
+    "name": "A Plague",
+    "text": "☠☠☠\nPLAGUE\nA terrible plague has broken out in one of your cities.\nThe sick overwhelm healers, trade slows, and fear spreads faster than any messenger. Whether this is divine punishment, foul air, or simply terrible luck, the dead are unlikely to settle the debate.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "This seems medically inconvenient.",
+            "uniques": []
+        }
+    ]
+},
+{
+    "name": "A Dangerous Plague",
+    "text": "☠☠☠☠☠\nDANGEROUS PLAGUE\nA dangerous plague has erupted in one of your cities.\nTrade has slowed, temples are crowded, and physicians confidently recommend treatments that future generations will politely describe as 'creative'. The plague, meanwhile, continues achieving impressive results with no formal education whatsoever.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "Appease whichever god is angry.",
+            "uniques": []
+        }
+    ]
+},
+{
+    "name": "Rebellion Imminent",
+    "text": "⚔⚔⚔\nREBELLION IMMINENT\nOpen defiance is beginning to spread throughout one of your cities.\nWhispers have become speeches, speeches have become mobs, and someone has already declared themselves the rightful leader despite possessing little more than enthusiasm and a sharp stick. Local officials insist the situation remains under control, which is precisely what officials say moments before losing control.\nIf left unchecked, the city may soon rise in open revolt.",
+    "presentation": "Alert",
+    "choices": [
+        {
+            "text": "This is why we can't have nice empires."
+        }
+    ]
+}
 		////SANITATION
 ///SE:2
 {

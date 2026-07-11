@@ -783,7 +783,7 @@
 	},
 
 	{
-		"name": "[Siege Expert] ability",
+		"name": "Siege Expert",
 		"unitTypes": ["Siege"],
 		"prerequisites": ["Veterans"],
 		"uniques": [

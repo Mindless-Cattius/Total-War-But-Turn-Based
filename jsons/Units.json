@@ -189,7 +189,6 @@
          "Can Spread Religion <for [1] movement> <[2] times> <after adopting [War Priests]>",
          "[+20]% Strength bonus for [Military] units within [1] tiles <after adopting [War Priests]>",
          "All adjacent units heal [+3] HP when healing <after adopting [Keeper of Traditions]>",
-         "Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
          "Great Person - [Faith]",
          "Religious Unit",
          "Unbuildable",
@@ -2788,7 +2787,7 @@
     "movement": 2,
     "strength": 19,
     "uniques": [
-         "Comment [-Heavy spear infantry designed to function as a mobile defensive wall.\nHistorically developed as states shifted toward more professional armies capable of resisting cavalry charges with geometry and discipline instead of panic.\nEffective, slow, and completely uninterested in your tactical creativity.\n• Heavy Spear Infantry]",
+         "Comment [-Professional heavy spearmen renowned for their discipline and steadfast formations.\nTheir reputation rested not on reckless charges, but on holding the line under relentless pressure until the enemy broke first.\nReliable, resilient, and difficult to dislodge.\n• Heavy Spear Infantry]",
          "Only available <in cities with a [Mercenary Camp]>",
          "Can move immediately once bought",
          "Consumes [1] [Mercenary (Libyan)]",
@@ -2798,6 +2797,7 @@
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield III",
+	"Formation I",
       "Mercenary",
     ],
     "attackSound": "march"
@@ -2810,7 +2810,7 @@
     "movement": 2,
     "strength": 21,
     "uniques": [
-	 "Comment [-Heavy infantry equipped with swords and the emotional stability of a collapsing siege engine.\nDesigned to hold the line through endurance rather than elegance, relying on armor, discipline, and the stubborn refusal to acknowledge retreat as an option.\nHistorically, units like this marked the transition toward professional frontline infantry built for prolonged engagements rather than quick victories.\n• Heavy Sword Infantry]",
+	 "Comment [-Professional heavy swordsmen valued for discipline rather than spectacle.\nThey advanced behind sturdy shields, fought with practiced coordination, and treated panic as something that happened to the enemy.\nBattles are rarely won by the loudest soldier.\n• Heavy Sword Infantry]",
          "Only available <in cities with a [Mercenary Camp]>",
          "Can move immediately once bought",
          "Consumes [1] [Mercenary (Libyan)]",
@@ -2819,6 +2819,7 @@
     ],
     "promotions": [
       "Infantry Shield III",
+	"Formation I",
       "Mercenary",
 	
     ],
@@ -2832,7 +2833,7 @@
     "movement": 2,
     "strength": 20,
     "uniques": [
-         "Comment [-War elephants, employed across various ancient civilizations from India to the Mediterranean, used as living siege engines and battlefield intimidation platforms.\nEffective at breaking formations through mass, momentum, and psychological impact rather than precision.\nHistorically powerful but logistically demanding, often turning victory into a question of whether you can afford to keep winning.\n• Medium Elephant]",
+         "Comment [-War elephants and their experienced crews were occasionally hired by kingdoms wealthy enough to afford them.\nValued for their immense shock power, they excelled at breaking disciplined formations and sowing panic among inexperienced troops.\nThe crew expected generous payment. The elephant expected considerably more.\n• Heavy Elephant]",
          "Only available <in cities with a [Mercenary Camp]>",
          "Can move immediately once bought",
          "Consumes [1] [Mercenary (Eastern)]",
@@ -3043,7 +3044,7 @@
     "rangedStrength": 11,
     "cost": 230,
     "uniques": [
-         "Comment [-A torsion-powered siege engine used by ancient engineers to solve the timeless problem of walls.\nBased on earlier Greek and Roman designs, it fires bolts and stones with enough force to discourage both cavalry and optimism.\nEffective against mounted units, because horses historically disliked being turned into projectiles.\n• Siege Artillery]",
+         "Comment [-Operated by skilled Hellenic engineers, the ballista represented the pinnacle of ancient military engineering.\nPowered by twisted skeins of rope rather than brute strength, it launched massive bolts capable of piercing shields, armor, and the confidence of anyone standing behind them.\n• Siege Artillery]",
          "Only available <in cities with a [Siege Workshop]>",
          "Must set up to ranged attack",
          "No defensive terrain bonus",
@@ -3060,6 +3061,7 @@
     ],
     "promotions": [
       "Mercenary",
+	"Siege Expert",
     ],
     "hurryCostModifier": 30,
     "attackSound": "bombard"
