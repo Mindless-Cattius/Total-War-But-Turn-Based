@@ -10,11 +10,11 @@
 	"Cannot build [Settler] units <if [Grand Campaign] is constructed by anybody>",
 	"Provides [1] [Ruler]",
 	"Provides [1] [Rule]",
-	"[+20]% Faith cost of generating Great Prophet equivalents <for [AI player] Civilizations>",
+	"[+25]% Faith cost of generating Great Prophet equivalents <for [AI player] Civilizations>",
 
 	"Gain a free [Urban Fabric I] [in all cities] <in cities without a [Urban Fabric I]>",
 	"[-1] Range <for [Scout] units>",
-	"Provides [10] [Manpower] <in [in City-State cities] cities>"
+	"Provides [10] [Manpower] <for [City-States] Civilizations>"
 	"Military Units gifted from City-States start with [30] XP",
 	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
 	"City-State territory always counts as friendly territory <during the [Imperial Age]>",

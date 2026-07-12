@@ -265,7 +265,7 @@
     "attackSound": "bombard"
   },
   {
-    "name": "Catapult",
+    "name": "Onager",
     "unitType": "Siege",
     "hurryCostModifier": 30,
     "movement": 2,
@@ -925,13 +925,14 @@
   "requiredTech": "Riding",
   "uniques": [
          "Comment [-Light mounted skirmish cavalry developed for harassment, reconnaissance, and the ancient tactical art of refusing fair fights.\nThey excel at circling formations, probing weaknesses, and leaving before anyone can properly respond.\nHistorically, these units were especially effective in steppe and desert warfare where mobility mattered more than honor.\n• Light Mounted Skirmisher]",
-         "Only available <in cities with a [Stable]>",
          "[-1] Range <hidden from users>",
          "Consumes [2] [Manpower]",
          "Consumes [1] [Horses]",
          "Never appears as a Barbarian unit <before the [Classical Age]>",
          "Only available <before adopting [Numidian Culture]> <hidden from users>",
-         "Only available <with [Enable Mounted Skirmisher]> <hidden from users>"
+         "Only available <with [Enable Mounted Skirmisher]> <hidden from users>",
+         "Only available <in cities with a [Skirmisher Barracks]> <without [NomadOrEastern]> <hidden from users>",
+         "Only available <in cities with a [Archery Range]> <with [NomadOrEastern]> <hidden from users>",
   ],
   "promotions": [
       "[Horseman] ability",
@@ -1611,7 +1612,7 @@
   "requiredTech": "Riding",
   "uniques": [
          "Comment [-Light Numidian cavalry trained for rapid skirmishing, raiding, and the highly advanced tactical doctrine of never being where the enemy expects.\nHistorically renowned for exceptional mobility and harassment tactics, they excelled at disrupting formations, supply lines, and any commander who assumed cavalry would behave politely.\nTheir effectiveness came less from strength and more from the enemy’s growing emotional exhaustion.\n• Light Mounted Skirmisher]",
-         "Only available <in cities with a [Skirmisher Barracks]>",
+         "Only available <in cities with a [Stable]>",
          "[-1] Range",
          "Consumes [3] [Manpower]",
          "Consumes [1] [Horses]",
@@ -1634,7 +1635,7 @@
   "requiredTech": "Riding",
   "uniques": [
          "Comment [-Numidian cavalry trained in the fine art of making heavier armies regret ever owning horses.\nHighly mobile and well-suited for raids, they excel at striking exposed targets and disengaging before anyone important can organize a response.\nTheir doctrine is simple: arrive fast, hit where it hurts, and leave before the paperwork begins.\n• Medium Cavalry]",
-         "Only available <in cities with a [Cavalry Barracks]>",
+         "Only available <in cities with a [Stable]>",
          "Consumes [3] [Manpower]",
          "Consumes [2] [Horses]",
          "Only available <after adopting [Numidian Culture]> <hidden from users>",
@@ -1659,7 +1660,7 @@
     "requiredTech": "Citizen Levy",
     "uniques": [
          "Comment [-Sacred Band heavy infantry formed from Carthaginian elite citizen-soldiers, structured around strict discipline and unit cohesion reinforced through long-term shared training and battlefield experience.\nThey function as reliable frontline spear infantry with strong defensive capability and high formation stability, designed to hold ground under pressure while the rest of the army negotiates enemy morale on their behalf.\nTheir reputation for excellence comes from consistency, not improvisation.\n• Elite Spear Infantry]",
-         "Only available <in cities with a [Barracks]>",
+         "Only available <in cities with a [Palace]>",
          "[+20]% Strength <during the [Imperial Age]>",
          "[+40]% production cost <during the [Imperial Age]>",
 	"[+2] XP gained from combat",
@@ -2227,8 +2228,7 @@
     "cost": 100,
     "uniques": [
          "Comment [-Elite imperial Immortal infantry, an evolving Persian core unit adapted for prolonged warfare across shifting eras.\nIn earlier phases they function as disciplined spear infantry with strong defensive cohesion; in later imperial restructuring they transition into heavier formations optimized for sustained frontline endurance in desert campaigns.\nTheir reputation for “immortality” comes less from invincibility and more from the fact that they are immediately replaced faster than opponents can confirm kills.\n• Elite Spear Infantry]",
-         "Only available <in cities with a [Barracks]> <before the [Imperial Age]>",
-         "Only available <in cities with a [Army Barracks]> <during the [Imperial Age]>",
+         "Only available <in cities with a [Palace]>",
          "[+20]% Strength <during the [Imperial Age]>",
          "[+40]% production cost <during the [Imperial Age]>",
          "[Immortals] units gain the [Improved Armor] promotion <during the [Imperial Age]>",

@@ -68,7 +68,7 @@
     "type": "Pantheon",
     "uniques": [
         "Comment [A goddess of home, prosperity, and fertility, frequently depicted with a house-shaped symbol and paired with the god Sucellus in Gallo-Roman religion.]",
-        "[+1 Food] from every [Temple]",
+        "[+1 Food, +1 Culture] from every [Temple]",
         "[+1 Food] from every [Shrine]",
         "[+20]% Production when constructing [Cure PLAGUE] buildings [in this city]",
         "[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in this city]",
@@ -245,7 +245,7 @@
     "uniques": [
         "Comment [God of the sea, earthquakes, and horses. His favor was sought by sailors, merchants, and every Greek city that depended on maritime trade.]",
         "[+2 Gold, +1 Faith] from every [Harbor]",
-        "[+5 Gold, +2 Faith, +3 Food, +3 Happiness] from every [Great Harbor]",
+        "[+5 Gold, +2 Faith, +2 Food, +2 Happiness] from every [Great Harbor]",
         "New [Water] units start with [10] XP [in this city]",
         "Only available <after adopting [Hellenic Culture]>"
     ]
@@ -331,7 +331,7 @@
     "uniques": [
         "Comment [Originally an Egyptian goddess of motherhood, healing, and magic, Isis became one of the most widely worshipped deities across the Hellenistic Mediterranean.]",
         "[+1 Faith, +1 Food] from every [Temple]",
-        "[All] Units adjacent to this city heal [+5] HP per turn when healing",
+        "[All] Units adjacent to this city heal [+2] HP per turn when healing",
         "Only available <for [The Ptolemies] Civilizations>"
     ]
 },
@@ -540,7 +540,7 @@
     "uniques": [
         "Comment [Lord of storms, the sea, and safe navigation. Baal Saphon protected sailors and merchants, making him one of the most important gods for the maritime empire of Carthage.]",
         "[+1 Culture, +2 Gold, +1 Faith, +1 Happiness] from every [Harbor]",
-        "[+1 Culture, +4 Gold, +1 Faith, +3 Happiness] from every [Great Harbor]",
+        "[+1 Culture, +4 Gold, +1 Faith, +3 Happiness, +1 Food] from every [Great Harbor]",
         "[+10]% Production when constructing [Water] units [in this city]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
@@ -757,7 +757,7 @@
     "type": "Follower",
     "uniques": [
         "[+2 Gold, +1 Happiness] from every [Harbor]",
-        "[+2 Gold, +3 Happiness, +2 Faith] from every [Great Harbor]",
+        "[+6 Gold, +3 Happiness, +2 Faith] from every [Great Harbor]",
         "[+2 Faith] from every [Harbor] <in cities with at least [7] [Followers of this Religion]>"
     ]
 },

@@ -282,16 +282,6 @@
 	"[-1 Food, -1 Science, -1 Culture] [in all cities] <when above [40] [Cities]>",
 	"[-1 Food, -1 Science, -1 Culture] [in all cities] <when above [50] [Cities]>",
 
-
-	"[-5]% Production when constructing [all] units [in all cities] <when above [10] [Cities]>",
-	"[-5]% Production when constructing [all] units [in all cities] <when above [20] [Cities]>",
-	"[-10]% Production when constructing [all] units [in all cities] <when above [30] [Cities]>",
-
-	"[+5]% Unhappiness from [Population] [in all cities] <when above [10] [Cities]>",
-	"[+5]% Unhappiness from [Population] [in all cities] <when above [20] [Cities]>",
-	"[+5]% Unhappiness from [Population] [in all cities] <when above [30] [Cities]>",
-
-
 	"[+3]% Food consumption by [Population] [in this city] <in cities with between [9] and [13] [Population]>",
 	"[+5]% Food consumption by [Population] [in this city] <in cities with between [14] and [17] [Population]>",
 	"[+10]% Food consumption by [Population] [in this city] <in cities with between [18] and [22] [Population]>",
@@ -308,7 +298,9 @@
 	"[-2 Production] [in this city] <in cities with between [16] and [20] [Population]>",
 	"[-3 Production] [in this city] <in cities with at least [21] [Population]>",
 
-
+	"[+5]% Unhappiness from [Population] [in all cities] <when above [10] [Cities]>",
+	"[+5]% Unhappiness from [Population] [in all cities] <when above [20] [Cities]>",
+	"[+5]% Unhappiness from [Population] [in all cities] <when above [30] [Cities]>",
 
         "[-5]% growth [in all cities] <when below [0] [Happiness]>",
         "[-5]% growth [in all cities] <when below [-10] [Happiness]>",
@@ -376,29 +368,36 @@
 //		"City-level resource"
 //		"Stockpiled"
         "[-2]% [Culture] [in all cities] <when above [30] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [70] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [60] [Decadence]>",
         "[-2]% [Culture] [in all cities] <when above [90] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [120] [Decadence]>",
         "[-2]% [Culture] [in all cities] <when above [150] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [200] [Decadence]>",
 
-        "[-2]% [Gold] [in all cities] <when above [20] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [30] [Decadence]>",
         "[-2]% [Gold] [in all cities] <when above [60] [Decadence]>",
-        "[-2]% [Gold] [in all cities] <when above [100] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [90] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [120] [Decadence]>",
         "[-2]% [Gold] [in all cities] <when above [150] [Decadence]>",
-        "[-2]% [Gold] [in all cities] <when above [200] [Decadence]>",
 
-        "[-1 Happiness] [in all cities] <when above [20] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [30] [Decadence]>",
         "[-1 Happiness] [in all cities] <when above [60] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [100] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [140] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [180] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [250] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [90] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [120] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [150] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [200] [Decadence]>",
 
-        "[-2]% [Production] [in all cities] <when above [50] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [70] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [100] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [200] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [250] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [30] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [60] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [90] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [120] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [150] [Decadence]>",
+
+	"[-5]% Production when constructing [all] units [in all cities] <when above [30] [Decadence]>",
+	"[-5]% Production when constructing [all] units [in all cities] <when above [60] [Decadence]>",
+	"[-5]% Production when constructing [all] units [in all cities] <when above [90] [Decadence]>",
+	"[-5]% Production when constructing [all] units [in all cities] <when above [120] [Decadence]>",
+	"[-5]% Production when constructing [all] units [in all cities] <when above [150] [Decadence]>",
+
 
         "[Great Courtesan] is earned [+5]% faster <when above [10] [Decadence]>",
         "[Great Courtesan] is earned [+5]% faster <when above [30] [Decadence]>",
@@ -430,8 +429,17 @@
         "[Great Engineer] is earned [+5]% faster <when above [100] [Decadence]>",
 
 
-        "[+70]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [100] [Decadence]>",
-        "[+50]% maintenance costs <for [Military] units> <when above [100] [Decadence]>",
+        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [30] [Decadence]>",
+        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [60] [Decadence]>",
+        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [90] [Decadence]>",
+        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [120] [Decadence]>",
+        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [150] [Decadence]>",
+
+        "[+20]% maintenance costs <for [Military] units> <when above [30] [Decadence]>",
+        "[+20]% maintenance costs <for [Military] units> <when above [60] [Decadence]>",
+        "[+20]% maintenance costs <for [Military] units> <when above [90] [Decadence]>",
+        "[+20]% maintenance costs <for [Military] units> <when above [120] [Decadence]>",
+        "[+20]% maintenance costs <for [Military] units> <when above [150] [Decadence]>",
 
 
 		]
@@ -619,8 +627,14 @@
 		"improvement": "Camp",
 		"improvementStats": {"gold": 2,"production": 1,"happiness": 1},
 		"uniques": [
-		"[+5]% [Gold] <in cities with a [Jeweler]> <when above [1] [Ivory]>",
-		"New [War Elephant] units start with [5] XP [in all cities] <when above [1] [Ivory]>",
+		"New [War Elephant] units start with [10] XP [in all cities] <when above [1] [Ivory]>",
+		"New [War Elephant] units start with [15] XP [in all cities] <when above [2] [Ivory]>",
+		"New [War Elephant] units start with [20] XP [in all cities] <when above [3] [Ivory]>",
+		"[+2 Gold] from every [Market] <when above [1] [Ivory]>",
+		"[+2 Gold] from every [Market] <when above [2] [Ivory]>",
+		"[+2 Gold] from every [Market] <when above [3] [Ivory]>",
+		"[+2 Gold] from every [Market] <when above [4] [Ivory]>",
+		"[+2 Gold] from every [Market] <when above [5] [Ivory]>",
 		"Generated with weight [40] <in [Plains] Regions>",
 		"Generated with weight [10] <in [Hybrid] Regions>",
 		"Generated near City States with weight [5]",
@@ -637,7 +651,16 @@
 		"improvement": "Camp",
 		"improvementStats": {"gold": 2,"happiness": 1},
 		"uniques": [
-		"New [Archery] units start with [5] XP [in all cities] <when above [1] [Furs]>",
+		"[+1 Gold] from every [Cattle Trader] <when above [1] [Furs]>",
+		"[+1 Gold] from every [Cattle Trader] <when above [2] [Furs]>",
+		"[+1 Gold] from every [Cattle Trader] <when above [3] [Furs]>",
+		"[+1 Gold] from every [Cattle Trader] <when above [4] [Furs]>",
+		"[+1 Gold] from every [Cattle Trader] <when above [5] [Furs]>",
+		"[+1 Gold] from every [Market] <when above [1] [Furs]>",
+		"[+1 Gold] from every [Market] <when above [2] [Furs]>",
+		"[+1 Gold] from every [Market] <when above [3] [Furs]>",
+		"[+1 Gold] from every [Market] <when above [4] [Furs]>",
+		"[+1 Gold] from every [Market] <when above [5] [Furs]>",
 		"Generated with weight [40] <in [Tundra] Regions>",
 		"Generated with weight [10] <in [Forest] Regions>",
 		"Generated near City States with weight [5]"
@@ -651,7 +674,16 @@
 		"improvementStats": {"gold": 2,"culture": 1,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
-		"[+5]% [Gold] <in cities with a [Weavery]> <when above [1] [Cotton]>",
+		"[+1 Gold] from every [Weavery]> <when above [1] [Cotton]>",
+		"[+1 Gold] from every [Weavery]> <when above [2] [Cotton]>",
+		"[+1 Gold] from every [Weavery]> <when above [3] [Cotton]>",
+		"[+1 Gold] from every [Weavery]> <when above [4] [Cotton]>",
+		"[+1 Gold] from every [Weavery]> <when above [5] [Cotton]>",
+		"[+1 Gold] from every [Market]> <when above [1] [Cotton]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Cotton]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Cotton]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Cotton]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Cotton]>",
 		"Generated with weight [25] <in [Plains] Regions>",
 		"Generated with weight [25] <in [Desert] Regions>",
 		"Generated near City States with weight [5]",
@@ -666,7 +698,16 @@
 		"improvementStats": {"gold": 2,"culture": 1,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
-		"[+5]% [Gold] <in cities with a [Weavery]> <when above [1] [Dyes]>",
+		"[+1 Gold] from every [Weavery]> <when above [1] [Dyes]>",
+		"[+1 Gold] from every [Weavery]> <when above [2] [Dyes]>",
+		"[+1 Gold] from every [Weavery]> <when above [3] [Dyes]>",
+		"[+1 Gold] from every [Weavery]> <when above [4] [Dyes]>",
+		"[+1 Gold] from every [Weavery]> <when above [5] [Dyes]>",
+		"[+1 Gold] from every [Market]> <when above [1] [Dyes]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Dyes]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Dyes]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Dyes]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Dyes]>",
 		"Generated with weight [5] <in [Tundra] Regions>",
 		"Generated with weight [15] <in [Jungle] Regions>",
 		"Generated with weight [30] <in [Forest] Regions>",
@@ -682,7 +723,16 @@
 		"improvementStats": {"gold": 2,"culture": 1,"happiness": 1},
 		"improvement": "Mine",
 		"uniques": [
-		"[+10]% [Gold] <in cities with a [Jeweler]> <when above [1] [Gems]>",
+		"[+1 Gold] from every [Jeweler]> <when above [1] [Gems]>",
+		"[+1 Gold] from every [Jeweler]> <when above [2] [Gems]>",
+		"[+1 Gold] from every [Jeweler]> <when above [3] [Gems]>",
+		"[+1 Gold] from every [Jeweler]> <when above [4] [Gems]>",
+		"[+1 Gold] from every [Jeweler]> <when above [5] [Gems]>",
+		"[+1 Gold] from every [Market]> <when above [1] [Gems]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Gems]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Gems]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Gems]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Gems]>",
 		"Generated with weight [5] <in [Tundra] Regions>",
 		"Generated with weight [15] <in [Jungle] Regions>",
 		"Generated with weight [20] <in [Hill] Regions>",
@@ -700,7 +750,16 @@
 		"improvementStats": {"gold": 3,"culture": 1,"happiness": 1},
 		"improvement": "Mine",
 		"uniques": [
-		"[+10]% [Gold] <when above [1] [Gold Ore]>",
+		"[+1 Gold] from every [Jeweler]> <when above [1] [Gold Ore]>",
+		"[+1 Gold] from every [Jeweler]> <when above [2] [Gold Ore]>",
+		"[+1 Gold] from every [Jeweler]> <when above [3] [Gold Ore]>",
+		"[+1 Gold] from every [Jeweler]> <when above [4] [Gold Ore]>",
+		"[+1 Gold] from every [Jeweler]> <when above [5] [Gold Ore]>",
+		"[+1 Gold] from every [Market]> <when above [1] [Gold Ore]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Gold Ore]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Gold Ore]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Gold Ore]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Gold Ore]>",
 		"Generated with weight [15] <in [Desert] Regions>",
 		"Generated with weight [15] <in [Hill] Regions>",
 		"Generated with weight [5] <in [Plains] Regions>",
@@ -719,7 +778,17 @@
 		"improvementStats": {"gold": 2,"production": 1,"happiness": 1},
 		"improvement": "Mine",
 		"uniques": [
-                "[Gold] cost of purchasing [{Military} {Land}] units [-15]% <when above [1] [Silver]>",
+		"[+1 Gold] from every [Jeweler]> <when above [1] [Silver]>",
+		"[+1 Gold] from every [Jeweler]> <when above [2] [Silver]>",
+		"[+1 Gold] from every [Jeweler]> <when above [3] [Silver]>",
+		"[+1 Gold] from every [Jeweler]> <when above [4] [Silver]>",
+		"[+1 Gold] from every [Jeweler]> <when above [5] [Silver]>",
+		"[+1 Gold] from every [Market]> <when above [1] [Silver]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Silver]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Silver]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Silver]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Silver]>",
+
 		"Generated with weight [15] <in [Tundra] Regions>",
 		"Generated with weight [20] <in [Hill] Regions>",
 		"Generated with weight [10] <in [Grassland] Regions>",
@@ -740,7 +809,17 @@
 		"improvement": "Mine",
 		"improvementStats": {"gold": 2,"culture": 1,"happiness": 1},
 		"uniques": [
-		"[-10]% maintenance costs <for [Military] units> <when above [1] [Salt]>"
+		"[+1 Food] from every [Granary]> <when above [1] [Salt]>",
+		"[+1 Food] from every [Granary]> <when above [2] [Salt]>",
+		"[+1 Food] from every [Granary]> <when above [3] [Salt]>",
+		"[+1 Food] from every [Granary]> <when above [4] [Salt]>",
+		"[+1 Food] from every [Granary]> <when above [5] [Salt]>",
+
+		"[+1 Gold] from every [Market]> <when above [1] [Salt]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Salt]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Salt]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Salt]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Salt]>",
 		"Generated with weight [15] <in [Desert] Regions>",
 		"Generated with weight [10] <in [Hill] Regions>",
 		"Generated with weight [15] <in [Plains] Regions>",
@@ -757,7 +836,17 @@
 		"improvementStats": {"faith": 1,"gold": 1,"culture": 1,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
-		"[+5]% [Faith] <when above [1] [Incense]>",
+		"[+1 Faith] from every [Temple]> <when above [1] [Incense]>",
+		"[+1 Faith] from every [Temple]> <when above [2] [Incense]>",
+		"[+1 Faith] from every [Temple]> <when above [3] [Incense]>",
+		"[+1 Faith] from every [Temple]> <when above [4] [Incense]>",
+		"[+1 Faith] from every [Temple]> <when above [5] [Incense]>",
+
+		"[+1 Gold] from every [Market]> <when above [1] [Incense]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Incense]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Incense]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Incense]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Incense]>",
 		"Generated with weight [35] <in [Desert] Regions>",
 		"Generated with weight [10] <in [Plains] Regions>",
 		"Generated with weight [5] <in [Hybrid] Regions>",
@@ -772,7 +861,17 @@
 		"improvementStats": {"food": 1,"culture": 1,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
-		"[+1 Happiness] [in all cities] <when above [1] [Wine]>",
+		"[+1 Happiness] from every [Banquet Hall]> <when above [1] [Wine]>",
+		"[+1 Happiness] from every [Banquet Hall]> <when above [2] [Wine]>",
+		"[+1 Happiness] from every [Banquet Hall]> <when above [3] [Wine]>",
+		"[+1 Happiness] from every [Banquet Hall]> <when above [4] [Wine]>",
+		"[+1 Happiness] from every [Banquet Hall]> <when above [5] [Wine]>",
+
+		"[+1 Gold] from every [Market]> <when above [1] [Wine]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Wine]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Wine]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Wine]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Wine]>",
 		"Generated with weight [20] <in [Plains] Regions>",
 		"Generated with weight [30] <in [Hybrid] Regions>",
 		"Generated near City States with weight [5]"
@@ -786,8 +885,17 @@
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1,"gold": 1,"culture": 1,"happiness": 1},
 		"uniques": [
-		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Marble]>",
-		"[+10]% Production when constructing [All] wonders [in all cities] <when above [1] [Marble]>",
+		"[+1 Happiness] from every [Stone Works]> <when above [1] [Marble]>",
+		"[+1 Happiness] from every [Stone Works]> <when above [2] [Marble]>",
+		"[+1 Happiness] from every [Stone Works]> <when above [3] [Marble]>",
+		"[+1 Happiness] from every [Stone Works]> <when above [4] [Marble]>",
+		"[+1 Happiness] from every [Stone Works]> <when above [5] [Marble]>",
+
+		"[+1 Gold] from every [Market]> <when above [1] [Marble]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Marble]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Marble]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Marble]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Marble]>",
 		"Generated with weight [5] <in [Tundra] Regions>",
 		"Generated with weight [5] <in [Forest] Regions>",
 		"Generated with weight [5] <in [Desert] Regions>",
@@ -805,7 +913,17 @@
 		"improvementStats": {"food": 1, "gold": 2,"happiness": 1},
 		"improvement": "Plantation",
 		"uniques": [
-		"[+5]% growth [in all cities] <when above [1] [Citrus]>"
+		"[+1 Food] from every [Banquet Hall]> <when above [1] [Citrus]>",
+		"[+1 Food] from every [Banquet Hall]> <when above [2] [Citrus]>",
+		"[+1 Food] from every [Banquet Hall]> <when above [3] [Citrus]>",
+		"[+1 Food] from every [Banquet Hall]> <when above [4] [Citrus]>",
+		"[+1 Food] from every [Banquet Hall]> <when above [5] [Citrus]>",
+
+		"[+1 Gold] from every [Market]> <when above [1] [Citrus]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Citrus]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Citrus]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Citrus]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Citrus]>",
 		"Generated with weight [25] <in [Jungle] Regions>",
 		"Generated with weight [15] <in [Forest] Regions>",
 		"Generated with weight [5] <in [Desert] Regions>",
@@ -822,7 +940,17 @@
 		"improvement": "Camp",
 		"improvementStats": {"food": 2, "gold": 1,"happiness": 1},
 		"uniques": [
-		"[+5]% growth [in all cities] <when above [1] [Truffles]>"
+		"[+1 Food] from every [Banquet Hall]> <when above [1] [Truffles]>",
+		"[+1 Food] from every [Banquet Hall]> <when above [2] [Truffles]>",
+		"[+1 Food] from every [Banquet Hall]> <when above [3] [Truffles]>",
+		"[+1 Food] from every [Banquet Hall]> <when above [4] [Truffles]>",
+		"[+1 Food] from every [Banquet Hall]> <when above [5] [Truffles]>",
+
+		"[+1 Gold] from every [Market]> <when above [1] [Truffles]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Truffles]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Truffles]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Truffles]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Truffles]>",
 		"Generated with weight [5] <in [Jungle] Regions>",
 		"Generated with weight [30] <in [Forest] Regions>",
 		"Generated with weight [5] <in [Grassland] Regions>",
@@ -841,89 +969,159 @@
 		"improvementStats": {"science": 1,"culture": 1,"gold": 1},
 		"improvement": "Plantation",
 		"uniques": [
-		"[+15]% [Gold] <in cities with a [Scriptorium]> <when above [1] [Papyrus]>",
+
+		"[+1 Happiness] from every [School]> <when above [1] [Papyrus]>",
+		"[+1 Happiness] from every [School]> <when above [2] [Papyrus]>",
+		"[+1 Happiness] from every [School]> <when above [3] [Papyrus]>",
+		"[+1 Happiness] from every [School]> <when above [4] [Papyrus]>",
+		"[+1 Happiness] from every [School]> <when above [5] [Papyrus]>",
+
+		"[+1 Gold] from every [Market]> <when above [1] [Papyrus]>",
+		"[+1 Gold] from every [Market]> <when above [2] [Papyrus]>",
+		"[+1 Gold] from every [Market]> <when above [3] [Papyrus]>",
+		"[+1 Gold] from every [Market]> <when above [4] [Papyrus]>",
+		"[+1 Gold] from every [Market]> <when above [5] [Papyrus]>",
 		"Generated with weight [35] <in [Desert] Regions>",
 		"Generated with weight [5] <in [Jungle] Regions>",
 		"Generated with weight [10] <in [Hybrid] Regions>",
 		"Generated near City States with weight [5]"
 		]
     },
-    {
-		"name": "Amber",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest"],
-		"gold": 2,
-		"improvementStats": {"gold": 1,"production": 1,"culture": 1},
-		"improvement": "Lumber mill",
-		"uniques": [
-		"[+5]% [Gold] <in cities with a [Jeweler]> <when above [1] [Amber]>",
-		"Generated with weight [30] <in [Tundra] Regions>",
-		"Generated with weight [20] <in [Forest] Regions>",
+{
+	"name": "Amber",
+	"resourceType": "Luxury",
+	"terrainsCanBeFoundOn": ["Forest"],
+	"gold": 2,
+	"improvementStats": {"gold": 1, "production": 1, "culture": 1},
+	"improvement": "Lumber mill",
+	"uniques": [
+		"[+1 Culture] from every [Jeweler] <when above [1] [Amber]>",
+		"[+1 Culture] from every [Jeweler] <when above [2] [Amber]>",
+		"[+1 Culture] from every [Jeweler] <when above [3] [Amber]>",
+		"[+1 Culture] from every [Jeweler] <when above [4] [Amber]>",
+		"[+1 Culture] from every [Jeweler] <when above [5] [Amber]>",
+
+		"[+1 Gold] from every [Market] <when above [1] [Amber]>",
+		"[+1 Gold] from every [Market] <when above [2] [Amber]>",
+		"[+1 Gold] from every [Market] <when above [3] [Amber]>",
+		"[+1 Gold] from every [Market] <when above [4] [Amber]>",
+		"[+1 Gold] from every [Market] <when above [5] [Amber]>",
+
+		"Generated with weight [30] <in [Forest] Regions>",
+		"Generated with weight [20] <in [Tundra] Regions>",
 		"Generated near City States with weight [5]",
 		"Doesn't generate naturally <in [Plains] tiles>"
-		]
-    },
+	]
+},
     {
-		"name": "Honey",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Forest","Jungle","Hill"],
-		"food": 1,
-		"improvementStats": {"gold": 1,"culture": 1,"food": 1},
-		"improvement": "Camp",
-		"uniques": [
-		"[+5]% [Culture] <when above [1] [Honey]>",
+	"name": "Honey",
+	"resourceType": "Luxury",
+	"terrainsCanBeFoundOn": ["Plains","Grassland","Forest","Jungle","Hill"],
+	"food": 1,
+	"improvementStats": {"gold": 1, "culture": 1, "food": 1},
+	"improvement": "Camp",
+	"uniques": [
+		"[+1 Food] from every [Banquet Hall] <when above [1] [Honey]>",
+		"[+1 Food] from every [Banquet Hall] <when above [2] [Honey]>",
+		"[+1 Food] from every [Banquet Hall] <when above [3] [Honey]>",
+		"[+1 Food] from every [Banquet Hall] <when above [4] [Honey]>",
+		"[+1 Food] from every [Banquet Hall] <when above [5] [Honey]>",
+
+		"[+1 Gold] from every [Market] <when above [1] [Honey]>",
+		"[+1 Gold] from every [Market] <when above [2] [Honey]>",
+		"[+1 Gold] from every [Market] <when above [3] [Honey]>",
+		"[+1 Gold] from every [Market] <when above [4] [Honey]>",
+		"[+1 Gold] from every [Market] <when above [5] [Honey]>",
+
 		"Generated with weight [20] <in [Forest] Regions>",
-		"Generated with weight [10] <in [Jungle] Regions>",
 		"Generated with weight [15] <in [Hill] Regions>",
+		"Generated with weight [10] <in [Jungle] Regions>",
 		"Generated with weight [5] <in [Hybrid] Regions>",
 		"Generated near City States with weight [5]",
 		"Doesn't generate naturally <in [Desert] tiles>",
 		"Doesn't generate naturally <in [Tundra] tiles>",
 		"Doesn't generate naturally <in [Snow] tiles>"
-		]
-    },
-    {
-		"name": "Tin",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland"],
-		"gold": 1,
-		"production": 1,
-		"improvementStats": {"gold": 2,"production": 1},
-		"improvement": "Mine",
-		"uniques": [
-		"[+5]% [Production] <in cities with a [Bronze Works]> <when above [1] [Tin]>",
+	]
+},
+{
+	"name": "Tin",
+	"resourceType": "Luxury",
+	"terrainsCanBeFoundOn": ["Grassland"],
+	"gold": 1,
+	"production": 1,
+	"improvementStats": {"gold": 2, "production": 1},
+	"improvement": "Mine",
+	"uniques": [
+		"[+1 Gold] from every [Bronze Works] <when above [1] [Tin]>",
+		"[+1 Gold] from every [Bronze Works] <when above [2] [Tin]>",
+		"[+1 Gold] from every [Bronze Works] <when above [3] [Tin]>",
+		"[+1 Gold] from every [Bronze Works] <when above [4] [Tin]>",
+		"[+1 Gold] from every [Bronze Works] <when above [5] [Tin]>",
+
+		"[+1 Gold] from every [Market] <when above [1] [Tin]>",
+		"[+1 Gold] from every [Market] <when above [2] [Tin]>",
+		"[+1 Gold] from every [Market] <when above [3] [Tin]>",
+		"[+1 Gold] from every [Market] <when above [4] [Tin]>",
+		"[+1 Gold] from every [Market] <when above [5] [Tin]>",
+
 		"Generated with weight [35] <in [Grassland] Regions>",
 		"Generated with weight [15] <in [Hybrid] Regions>",
 		"Generated near City States with weight [5]"
-		]
-    },
-    {
-		"name": "Purple Dye",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"gold": 2,
-		"improvementStats": {"gold": 1,"culture": 1,"happiness": 1},
-		"improvement": "Fishing Boats",
-		"uniques": [
-		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Purple Dye]>",
-		"[+5]% [Gold] <in cities with a [Palace]> <when above [1] [Purple Dye]>",
-		"[+5]% [Gold] <in cities with a [Weavery]> <when above [1] [Purple Dye]>",
+	]
+},
+{
+	"name": "Purple Dye",
+	"resourceType": "Luxury",
+	"terrainsCanBeFoundOn": ["Coast"],
+	"gold": 2,
+	"improvementStats": {"gold": 1, "culture": 1, "happiness": 1},
+	"improvement": "Fishing Boats",
+	"uniques": [
+		"[+1 Happiness] from every [Noble District] <when above [1] [Purple Dye]>",
+		"[+1 Happiness] from every [Noble District] <when above [2] [Purple Dye]>",
+		"[+1 Happiness] from every [Noble District] <when above [3] [Purple Dye]>",
+		"[+1 Happiness] from every [Noble District] <when above [4] [Purple Dye]>",
+		"[+1 Happiness] from every [Noble District] <when above [5] [Purple Dye]>",
+
+		"[+1 Culture] from every [Weavery] <when above [1] [Purple Dye]>",
+		"[+1 Culture] from every [Weavery] <when above [2] [Purple Dye]>",
+		"[+1 Culture] from every [Weavery] <when above [3] [Purple Dye]>",
+		"[+1 Culture] from every [Weavery] <when above [4] [Purple Dye]>",
+		"[+1 Culture] from every [Weavery] <when above [5] [Purple Dye]>",
+
+		"[+1 Gold] from every [Market] <when above [1] [Purple Dye]>",
+		"[+1 Gold] from every [Market] <when above [2] [Purple Dye]>",
+		"[+1 Gold] from every [Market] <when above [3] [Purple Dye]>",
+		"[+1 Gold] from every [Market] <when above [4] [Purple Dye]>",
+		"[+1 Gold] from every [Market] <when above [5] [Purple Dye]>",
+
 		"Generated with weight [5] <in [Forest] Regions>",
 		"Generated with weight [10] <in [Desert] Regions>",
 		"Generated with weight [15] <in [Hill] Regions>",
 		"Generated with weight [15] <in [Hybrid] Regions>",
 		"Generated near City States with weight [10]"
-		]
-    },
-    {
-		"name": "Pearls",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"gold": 2,
-		"improvementStats": {"gold": 3,"culture": 1,"happiness": 1},
-		"improvement": "Fishing Boats",
-		"uniques": [
-		"[+5]% [Gold] <in cities with a [Jeweler]> <when above [1] [Pearls]>",
+	]
+},
+{
+	"name": "Pearls",
+	"resourceType": "Luxury",
+	"terrainsCanBeFoundOn": ["Coast"],
+	"gold": 2,
+	"improvementStats": {"gold": 3, "culture": 1, "happiness": 1},
+	"improvement": "Fishing Boats",
+	"uniques": [
+		"[+1 Happiness] from every [Jeweler] <when above [1] [Pearls]>",
+		"[+1 Happiness] from every [Jeweler] <when above [2] [Pearls]>",
+		"[+1 Happiness] from every [Jeweler] <when above [3] [Pearls]>",
+		"[+1 Happiness] from every [Jeweler] <when above [4] [Pearls]>",
+		"[+1 Happiness] from every [Jeweler] <when above [5] [Pearls]>",
+
+		"[+2 Gold] from every [Market] <when above [1] [Pearls]>",
+		"[+2 Gold] from every [Market] <when above [2] [Pearls]>",
+		"[+2 Gold] from every [Market] <when above [3] [Pearls]>",
+		"[+2 Gold] from every [Market] <when above [4] [Pearls]>",
+		"[+2 Gold] from every [Market] <when above [5] [Pearls]>",
+
 		"Generated with weight [15] <in [Jungle] Regions>",
 		"Generated with weight [10] <in [Desert] Regions>",
 		"Generated with weight [5] <in [Hill] Regions>",
@@ -931,34 +1129,55 @@
 		"Generated with weight [5] <in [Grassland] Regions>",
 		"Generated with weight [5] <in [Hybrid] Regions>",
 		"Generated near City States with weight [10]"
-		]
-    },
-    {
-		"name": "Crab",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"improvementStats": {"gold": 2, "food": 1,"culture": 1},
-		"improvement": "Fishing Boats",
-		"uniques": [
-		"[+10]% growth [in all coastal cities] <when above [1] [Crab]>"
+	]
+},
+{
+	"name": "Crab",
+	"resourceType": "Luxury",
+	"terrainsCanBeFoundOn": ["Coast"],
+	"food": 1,
+	"improvementStats": {"gold": 2, "food": 1, "culture": 1},
+	"improvement": "Fishing Boats",
+	"uniques": [
+		"[+1 Food] from every [Banquet Hall] <when above [1] [Crab]>",
+		"[+1 Food] from every [Banquet Hall] <when above [2] [Crab]>",
+		"[+1 Food] from every [Banquet Hall] <when above [3] [Crab]>",
+		"[+1 Food] from every [Banquet Hall] <when above [4] [Crab]>",
+		"[+1 Food] from every [Banquet Hall] <when above [5] [Crab]>",
+
+		"[+1 Gold] from every [Market] <when above [1] [Crab]>",
+		"[+1 Gold] from every [Market] <when above [2] [Crab]>",
+		"[+1 Gold] from every [Market] <when above [3] [Crab]>",
+		"[+1 Gold] from every [Market] <when above [4] [Crab]>",
+		"[+1 Gold] from every [Market] <when above [5] [Crab]>",
+
 		"Generated with weight [20] <in [Tundra] Regions>",
-		"Generated with weight [5] <in [Jungle] Regions>",
 		"Generated with weight [10] <in [Forest] Regions>",
-		"Generated with weight [5] <in [Hill] Regions>",
 		"Generated with weight [10] <in [Hybrid] Regions>",
+		"Generated with weight [5] <in [Jungle] Regions>",
+		"Generated with weight [5] <in [Hill] Regions>",
 		"Generated near City States with weight [15]"
-		]
-    },
+	]
+},
 
 // Special
+
     {
 		"name": "Silk",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": [
-		"[+5]% [Gold] <in cities with a [Weavery]> <when above [1] [Silk]>",
-		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Silk]>",
+		"[+1 Culture] from every [Weavery] <when above [1] [Silk]>",
+		"[+1 Culture] from every [Weavery] <when above [2] [Silk]>",
+		"[+1 Culture] from every [Weavery] <when above [3] [Silk]>",
+		"[+1 Culture] from every [Weavery] <when above [4] [Silk]>",
+		"[+1 Culture] from every [Weavery] <when above [5] [Silk]>",
+
+		"[+1 Happiness] from every [Noble District] <when above [1] [Silk]>",
+		"[+1 Happiness] from every [Noble District] <when above [2] [Silk]>",
+		"[+1 Happiness] from every [Noble District] <when above [3] [Silk]>",
+		"[+1 Happiness] from every [Noble District] <when above [4] [Silk]>",
+		"[+1 Happiness] from every [Noble District] <when above [5] [Silk]>"
 		]
     },
     {
@@ -966,8 +1185,17 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": [
-		"[+5]% [Gold] <in cities with a [Tavern]> <when above [1] [Spices]>",
-		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Spices]>",
+		"[+1 Happiness] from every [Tavern] <when above [1] [Spices]>",
+		"[+1 Happiness] from every [Tavern] <when above [2] [Spices]>",
+		"[+1 Happiness] from every [Tavern] <when above [3] [Spices]>",
+		"[+1 Happiness] from every [Tavern] <when above [4] [Spices]>",
+		"[+1 Happiness] from every [Tavern] <when above [5] [Spices]>",
+
+		"[+1 Gold] from every [Market] <when above [1] [Spices]>",
+		"[+1 Gold] from every [Market] <when above [2] [Spices]>",
+		"[+1 Gold] from every [Market] <when above [3] [Spices]>",
+		"[+1 Gold] from every [Market] <when above [4] [Spices]>",
+		"[+1 Gold] from every [Market] <when above [5] [Spices]>"
 		]
     },
     {
@@ -975,7 +1203,17 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": [
-		"[+5]% [Culture] <in cities with a [Herbalist]> <when above [1] [Silphium]>",
+		"[+1 Happiness] from every [Herbalist] <when above [1] [Silphium]>",
+		"[+1 Happiness] from every [Herbalist] <when above [2] [Silphium]>",
+		"[+1 Happiness] from every [Herbalist] <when above [3] [Silphium]>",
+		"[+1 Happiness] from every [Herbalist] <when above [4] [Silphium]>",
+		"[+1 Happiness] from every [Herbalist] <when above [5] [Silphium]>",
+
+		"[+1 Gold] from every [Market] <when above [1] [Silphium]>",
+		"[+1 Gold] from every [Market] <when above [2] [Silphium]>",
+		"[+1 Gold] from every [Market] <when above [3] [Silphium]>",
+		"[+1 Gold] from every [Market] <when above [4] [Silphium]>",
+		"[+1 Gold] from every [Market] <when above [5] [Silphium]>"
 		]
     },
     {
@@ -983,8 +1221,17 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": [
-		"[+5]% [Culture] <when above [1] [Scrolls]>",
-		"[+5]% [Science] <when above [1] [Scrolls]>"
+		"[+1 Science] from every [School] <when above [1] [Scrolls]>",
+		"[+1 Science] from every [School] <when above [2] [Scrolls]>",
+		"[+1 Science] from every [School] <when above [3] [Scrolls]>",
+		"[+1 Science] from every [School] <when above [4] [Scrolls]>",
+		"[+1 Science] from every [School] <when above [5] [Scrolls]>",
+
+		"[+1 Culture] from every [School] <when above [1] [Scrolls]>",
+		"[+1 Culture] from every [School] <when above [2] [Scrolls]>",
+		"[+1 Culture] from every [School] <when above [3] [Scrolls]>",
+		"[+1 Culture] from every [School] <when above [4] [Scrolls]>",
+		"[+1 Culture] from every [School] <when above [5] [Scrolls]>"
 		]
     },
     {
@@ -992,45 +1239,19 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": [
-		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Perfume]>",
-		"[+5]% [Gold] <in cities with a [Pleasure Chambers]> <when above [1] [Perfume]>"
+		"[+1 Happiness] from every [Pleasure Chambers] <when above [1] [Perfume]>",
+		"[+1 Happiness] from every [Pleasure Chambers] <when above [2] [Perfume]>",
+		"[+1 Happiness] from every [Pleasure Chambers] <when above [3] [Perfume]>",
+		"[+1 Happiness] from every [Pleasure Chambers] <when above [4] [Perfume]>",
+		"[+1 Happiness] from every [Pleasure Chambers] <when above [5] [Perfume]>",
+
+		"[+1 Culture] from every [Noble District] <when above [1] [Perfume]>",
+		"[+1 Culture] from every [Noble District] <when above [2] [Perfume]>",
+		"[+1 Culture] from every [Noble District] <when above [3] [Perfume]>",
+		"[+1 Culture] from every [Noble District] <when above [4] [Perfume]>",
+		"[+1 Culture] from every [Noble District] <when above [5] [Perfume]>"
 		]
     },
-    {
-		"name": "Olive Oil",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": [
-		"[+5]% [Food] <in cities with a [Market]> <when above [1] [Olive Oil]>",
-		]
-    },
-    {
-		"name": "Jewelry",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": [
-		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Jewelry]>",
-		"[+5]% [Gold] <in cities with a [Palace]> <when above [1] [Jewelry]>"
-		]
-    },
-    {
-		"name": "Glass",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": [
-		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Glass]>",
-		"[+5]% [Gold] <in cities with a [Palace]> <when above [1] [Glass]>"
-		]
-    },
-    {
-		"name": "Ceramics",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": [
-		"[+10]% [Gold] <in cities with a [Great Harbor]> <when above [1] [Ceramics]>",
-		"[+5]% [Gold] <in cities with a [Harbor]> <when above [1] [Ceramics]>"
-		]
-    },   
 //Events Resrouces
 {
 		"name": "Imperial Vermin Hound",
