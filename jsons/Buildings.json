@@ -1878,7 +1878,8 @@
 			"[+2 Food] [in all cities]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
-        		"Cannot be purchased",
+         		"Can be purchased with [Gold] [in capital]",
+         		"Unbuildable"
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Currency"
@@ -1896,7 +1897,8 @@
 			"Provides [3] [Horses]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
-        		"Cannot be purchased",
+         		"Can be purchased with [Gold] [in capital]",
+         		"Unbuildable"
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "The Wheel"
@@ -1914,7 +1916,8 @@
 			"[+10]% Production when constructing [Bronze Works] buildings [in all cities]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
-        		"Cannot be purchased",
+         		"Can be purchased with [Gold] [in capital]",
+         		"Unbuildable"
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Bronze Working"
@@ -1931,7 +1934,8 @@
 			"Provides [2] [Bronze]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
-        		"Cannot be purchased",
+         		"Can be purchased with [Gold] [in capital]",
+         		"Unbuildable"
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Citizen Levy"
@@ -1948,7 +1952,8 @@
 			"Provides [2] [Iron]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
-        		"Cannot be purchased",
+         		"Can be purchased with [Gold] [in capital]",
+         		"Unbuildable"
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Heavy Infantry"
@@ -1965,7 +1970,8 @@
 			"Provides [3] [Timber]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
-        		"Cannot be purchased",
+         		"Can be purchased with [Gold] [in capital]",
+         		"Unbuildable"
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Woodworking"
@@ -1983,7 +1989,8 @@
 			"Can only be built <in [Capital] cities>",
 			"Consumes [1] [Sanitation]",
 			"Limited to [1] per Civilization",
-        		"Cannot be purchased",
+         		"Can be purchased with [Gold] [in capital]",
+         		"Unbuildable"
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Equestrian Class"
