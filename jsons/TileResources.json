@@ -283,6 +283,10 @@
 	"[-1 Food, -1 Science, -1 Culture] [in all cities] <when above [50] [Cities]>",
 
 
+	"[-5]% Production when constructing [all] units [in all cities] <when above [10] [Cities]>",
+	"[-5]% Production when constructing [all] units [in all cities] <when above [20] [Cities]>",
+	"[-10]% Production when constructing [all] units [in all cities] <when above [30] [Cities]>",
+
 	"[+10]% Unhappiness from [Population] [in all cities]",
 
 
@@ -298,10 +302,9 @@
 	"[-25]% growth [in this city] <in cities with between [18] and [22] [Population]>",
 	"[-30]% growth [in this city] <in cities with at least [23] [Population]>",
 
-	"[-2 Production] [in this city] <in cities with between [6] and [10] [Population]>",
-	"[-3 Production] [in this city] <in cities with between [11] and [15] [Population]>",
-	"[-4 Production] [in this city] <in cities with between [16] and [20] [Population]>",
-	"[-5 Production] [in this city] <in cities with at least [21] [Population]>",
+	"[-1 Production] [in this city] <in cities with between [11] and [15] [Population]>",
+	"[-2 Production] [in this city] <in cities with between [16] and [20] [Population]>",
+	"[-3 Production] [in this city] <in cities with at least [21] [Population]>",
 
 
 
