@@ -555,18 +555,19 @@
 	{
 		"name": "Garrison Post",
 		"requiredBuilding": "Muster Field",
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 40,
 		"Cost":80,
 		"maintenance": 1,
 		"happiness": 1,
 		"cityHealth": 50,
 		"uniques": [
 			"Only available <in cities with a [Urban Fabric II]>",
-			"Comment [+10% city defending strength with a garrison, have 50% chance to remove 'REBEL IMMINENT' in this city upon turn end.]",
+			"Comment [+10% city defending strength with a garrison, ensure no rebel in this city.]",
 			"[+1 Happiness] [in this city] <with a garrison>",
+			"Cost increases by [2] per owned city",
 			"Consumes [1] [Manpower]",
 			"Destroyed when the city is captured",
-			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [50]% chance> <hidden from users>",
+			"Remove [REBEL IMMINENT] [in this city] <upon turn end> <hidden from users>",
 		],
 		"requiredTech": "Citizen Levy"
 	},
@@ -2341,26 +2342,51 @@
 			"[+800]% weight to this choice for AI decisions",
 ]
 	},
- {
-   "name": "Risk of PLAGUE"
-   "uniques": [
-			"Comment ['Low Sanitation invites PLAGUE. Civilization is merely a thin wall between man and dying in contaminated water.']",
-			"Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [10] [Sanitation]> <when between [1] and [10] [Cities]> <hidden from users>",
-			"Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [10] and [15] [Sanitation]> <when between [1] and [10] [Cities]> <hidden from users>",
-			"Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [15] [Sanitation]> <when between [11] and [20] [Cities]> <hidden from users>",
-			"Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [15] and [30] [Sanitation]> <when between [11] and [20] [Cities]> <hidden from users>",
-			"Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [20] [Sanitation]> <when above [20] [Cities]> <hidden from users>",
-			"Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [20] and [40] [Sanitation]> <when above [20] [Cities]> <hidden from users>",
+{
+    "name": "Risk of PLAGUE I",
+    "uniques": [
+        "Comment ['Low Sanitation invites PLAGUE. Civilization is merely a thin wall between man and dying in contaminated water. Disease thrives where sanitation fails.\nSanitation Levels:\n0-4  : Epidemics are common.\n5-9  : Outbreaks are likely.\n10-14: Minor outbreaks may occur.\n15+  : Public health is generally secure.']",
 
-			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when below [5] [Sanitation]> <when between [1] and [10] [Cities]> <hidden from users>",
-			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when between [5] and [15] [Sanitation]> <when between [1] and [10] [Cities]> <hidden from users>",
-			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when below [10] [Sanitation]> <when between [11] and [20] [Cities]> <hidden from users>",
-			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when between [10] and [20] [Sanitation]> <when between [11] and [20] [Cities]> <hidden from users>",
-			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when below [15] [Sanitation]> <when above [20] [Cities]> <hidden from users>",
-			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when between [15] and [30] [Sanitation]> <when above [20] [Cities]> <hidden from users>",
-			"Unbuildable <hidden from users>","Unsellable <hidden from users>",
-]
- },
+        "Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [10] [Sanitation]> <hidden from users>",
+        "Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [10] and [15] [Sanitation]> <hidden from users>",
+
+        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [5] [Sanitation]> <hidden from users>",
+        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [5] and [10] [Sanitation]> <hidden from users>",
+
+        "Unbuildable <hidden from users>",
+        "Unsellable <hidden from users>"
+    ]
+},
+{
+    "name": "Risk of PLAGUE II",
+    "uniques": [
+        "Comment ['Growing cities invite growing problems. Crowds are excellent for trade and equally excellent for spreading disease. Disease travels the same roads as merchants, usually faster.\nSanitation Levels:\n0-9  : Epidemics are common.\n10-14: Outbreaks are likely.\n15-19: Minor outbreaks remain possible.\n20-30: Public health is generally stable.\n31+  : Public health is generally secure.']"
+
+        "Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [15] [Sanitation]> <hidden from users>",
+        "Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [15] and [30] [Sanitation]> <hidden from users>",
+
+        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [10] [Sanitation]> <hidden from users>",
+        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [10] and [20] [Sanitation]> <hidden from users>",
+
+        "Unbuildable <hidden from users>",
+        "Unsellable <hidden from users>"
+    ]
+},
+{
+    "name": "Risk of PLAGUE III",
+    "uniques": [
+        "Comment ['Large empires connect the world through roads, commerce... and unfortunately, disease. Every new trade route carries prosperity in one direction and someone's cough in the other.\n\nSanitation Levels:\n0-14 : Epidemics are common.\n15-19: Outbreaks are likely.\n20-29: Minor outbreaks remain possible.\n30-40: Public health is generally stable.\n41+  : Public health is generally secure.']",
+
+        "Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [20] [Sanitation]> <hidden from users>",
+        "Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [20] and [40] [Sanitation]> <hidden from users>",
+
+        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [15] [Sanitation]> <hidden from users>",
+        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [15] and [25] [Sanitation]> <hidden from users>",
+
+        "Unbuildable <hidden from users>",
+        "Unsellable <hidden from users>"
+    ]
+}
 	{
 		"name": "DANGEROUS PLAGUE"
 		"maintenance": 0,
