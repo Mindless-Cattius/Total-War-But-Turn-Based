@@ -2432,6 +2432,39 @@
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [20]% chance> <hidden from users>"
             ]
         },
+        {
+            "text": "Bribe the Anti-Corruption Bureau",
+            "uniques": [
+                "Only available <when above [299] [Gold]> <before the [Hellenistic Age]>",
+                "Gain [-300] [Gold]",
+                "[+1 Happiness, +1 Culture] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Free [Great Merchant] appears <with [15]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Bribe the Anti-Corruption Bureau",
+            "uniques": [
+                "Only available <when above [499] [Gold]> <during the [Hellenistic Age]>",
+                "Gain [-500] [Gold]",
+                "[+1 Happiness, +1 Culture, +1 Food] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Free [Great Merchant] appears <with [15]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        },
+        {
+            "text": "Bribe the Anti-Corruption Bureau",
+            "uniques": [
+                "Only available <when above [699] [Gold]> <during the [Hellenistic Age]>",
+                "Gain [-700] [Gold]",
+                "[+1 Happiness, +1 Culture, +1 Food] [in all cities] <for [5] turns>",
+                "Remove [REBEL IMMINENT] [in your cities] <with [25]% chance>",
+                "Free [Great Merchant] appears <with [15]% chance>",
+                "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
+            ]
+        }
     ]
 },
 {

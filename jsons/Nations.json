@@ -1071,7 +1071,7 @@
 "hateHello": "You return. History suggests this will not end peacefully.",
 "tradeRequest": "Let us trade. Prosperity is easier to count than casualties.",
 
-"outerColor": [80,120,180],
+"outerColor": [49,156,156],
 "innerColor": [255,255,255],
 "style": "Celtic",
 "uniqueName": "Warriors of Antedios",
@@ -1329,7 +1329,7 @@
     "hateHello": "You return. We were enjoying the silence.",
     "tradeRequest": "Let us trade. Coin travels farther than armies and usually causes less damage.",
 
-    "outerColor": [70, 130, 180],
+    "outerColor": [0, 100, 100],
     "innerColor": [240, 221, 155],
     "style": "Greek",
 

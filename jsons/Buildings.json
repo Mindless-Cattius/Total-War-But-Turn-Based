@@ -2331,10 +2331,19 @@
    "name": "Risk of PLAGUE"
    "uniques": [
 			"Comment ['Low Sanitation invites PLAGUE. Civilization is merely a thin wall between man and dying in contaminated water.']",
-			"Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [0] and [15] [Sanitation]> <hidden from users>",
-			"Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when above [15] [Sanitation]> <hidden from users>",
-			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <when between [0] and [20] [Sanitation]> <hidden from users>",
-			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [DANGEROUS PLAGUE]> <in cities without a [PLAGUE]> <when between [20] and [35] [Sanitation]> <hidden from users>",
+			"Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [10] [Sanitation]> <when between [1] and [10] [Cities]> <hidden from users>",
+			"Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [10] and [15] [Sanitation]> <when between [1] and [10] [Cities]> <hidden from users>",
+			"Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [15] [Sanitation]> <when between [11] and [20] [Cities]> <hidden from users>",
+			"Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [15] and [30] [Sanitation]> <when between [11] and [20] [Cities]> <hidden from users>",
+			"Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [20] [Sanitation]> <when above [20] [Cities]> <hidden from users>",
+			"Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [20] and [40] [Sanitation]> <when above [20] [Cities]> <hidden from users>",
+
+			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when below [5] [Sanitation]> <when between [1] and [10] [Cities]> <hidden from users>",
+			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when between [5] and [15] [Sanitation]> <when between [1] and [10] [Cities]> <hidden from users>",
+			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when below [10] [Sanitation]> <when between [11] and [20] [Cities]> <hidden from users>",
+			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when between [10] and [20] [Sanitation]> <when between [11] and [20] [Cities]> <hidden from users>",
+			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when below [15] [Sanitation]> <when above [20] [Cities]> <hidden from users>",
+			"Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [PLAGUE]> <when between [15] and [30] [Sanitation]> <when above [20] [Cities]> <hidden from users>",
 			"Unbuildable <hidden from users>","Unsellable <hidden from users>",
 ]
  },
@@ -2800,13 +2809,12 @@
 	"name": "Provincial Governors",
 	"specialistSlots": {"Artist": 1},
 	"happiness": 1,
-	"isNationalWonder": true,
 	"uniques": [
 		"Consumes [1] [Nobles]",
 		"Consumes [1] [Rebel Risk] <when above [3] [Rebel Risk]>",
 		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 		"Consumes [1] [Rebel Risk] <during a Golden Age>",
-		"[+1 Food, -1 Gold] [in all cities]",
+		"[+1 Food, +1 Happiness, -3 Gold] [in all cities]",
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Provincial Governors Demand Funding] event <upon turn start> <with [1]% chance> <hidden from users>",
 		"Triggers a [Provincial Corruption] event <upon turn start> <with [1]% chance> <hidden from users>",
@@ -2817,7 +2825,7 @@
 
 {
 	"name": "Sanitation Policies I",
-	"happiness": 1,
+	"happiness": 2,
 	"uniques": [
 		"Provides [1] [Sanitation]",
 		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
@@ -2828,11 +2836,11 @@
 },
 {
 	"name": "Sanitation Policies II",
-	"happiness": 1,
+	"happiness": 2,
 	"uniques": [
 		"Provides [1] [Sanitation]",
 		"[+1 Food] [in all cities]",
-		"[+3] HP when healing <for [all] units> <in [Friendly Land] tiles>",
+		"[+2] HP when healing <for [all] units> <in [Friendly Land] tiles>",
 		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
 		"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",

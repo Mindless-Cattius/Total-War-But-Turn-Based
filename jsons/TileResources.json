@@ -346,12 +346,11 @@
 		"resourceType": "Strategic",
 		"uniques": [
 	"Gain a free [REBEL IMMINENT] [in resisting cities] <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [1]% chance> <when between [1] and [3] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [2]% chance> <when between [4] and [6] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [3]% chance> <when between [7] and [9] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [4]% chance> <when between [10] and [12] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when between [13] and [15] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <with [10]% chance> <when above [15] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [1]% chance> <when between [1] and [5] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [2]% chance> <when between [6] and [10] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [3]% chance> <when between [11] and [13] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [4]% chance> <when between [14] and [16] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <with [5]% chance> <when above [16] [Rebel Risk]> <for [Human player] Civilizations>",
 			"Cannot be traded <hidden from users>",
 		"Doesn't generate naturally <hidden from users>",
 ]
