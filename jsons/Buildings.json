@@ -2398,6 +2398,7 @@
 			"[-5 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
 			"[-3 Gold, -3 Food, -1 Happiness] from [Village] tiles [in this city]",
 			"[+3 Food, +2 Happiness, +2 Science] from [Fort] tiles [in this city]",
+			"[All] Units adjacent to this city heal [-2] HP per turn when healing",
 			"Consumes [2] [Decadence]",
 			"Consumes [1] [Manpower] <in cities with a [Muster Field]>",
 			"Consumes [1] [Manpower] <in cities with a [Barracks]>",
@@ -2415,6 +2416,8 @@
 			"[-3 Gold, -1 Happiness] from [Trading post] tiles [in this city]",
 			"[-2 Gold, -2 Food, -1 Happiness] from [Village] tiles [in this city]",
 			"[+2 Food, +1 Happiness, +1 Science] from [Fort] tiles [in this city]",
+			"[All] Units adjacent to this city heal [-1] HP per turn when healing",
+
 			"Consumes [2] [Decadence]",
 			"Consumes [1] [Manpower] <in cities with a [Muster Field]>",
 			"Consumes [1] [Manpower] <in cities with a [Barracks]>",
