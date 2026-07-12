@@ -1878,6 +1878,7 @@
 			"[+2 Food] [in all cities]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
+        		"Cannot be purchased",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Currency"
@@ -1895,6 +1896,7 @@
 			"Provides [3] [Horses]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
+        		"Cannot be purchased",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "The Wheel"
@@ -1912,6 +1914,7 @@
 			"[+10]% Production when constructing [Bronze Works] buildings [in all cities]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
+        		"Cannot be purchased",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Bronze Working"
@@ -1928,6 +1931,7 @@
 			"Provides [2] [Bronze]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
+        		"Cannot be purchased",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Citizen Levy"
@@ -1944,6 +1948,7 @@
 			"Provides [2] [Iron]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
+        		"Cannot be purchased",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Heavy Infantry"
@@ -1960,6 +1965,7 @@
 			"Provides [3] [Timber]",
 			"Can only be built <in [Capital] cities>",
 			"Limited to [1] per Civilization",
+        		"Cannot be purchased",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Woodworking"
@@ -1977,6 +1983,7 @@
 			"Can only be built <in [Capital] cities>",
 			"Consumes [1] [Sanitation]",
 			"Limited to [1] per Civilization",
+        		"Cannot be purchased",
 			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Equestrian Class"
@@ -2748,7 +2755,7 @@
 	"cost": 200,
 	"specialistSlots": {"Engineer": 1},
 	"isNationalWonder": true,
-	"happiness": 1,
+	"happiness": 3,
 	"production": 1,
 	"uniques": [
 		"Provides [4] [Manpower]",
@@ -2767,9 +2774,9 @@
 {
 	"name": "Administrative Estates",
 	"cost": 200,
-	"happiness": 2,
+	"happiness": 3,
+	"gold": 3,
 	"specialistSlots": {"Merchants": 1},
-	"isNationalWonder": true,
 	"uniques": [
 		"Provides [1] [Nobles]",
 		"Provides [1] [Nobles] <when not at war>",
@@ -2781,15 +2788,15 @@
 		"Remove [Hall of Veterans] [in all cities] <hidden from users>",
 		"Remove [Manpower Office] [in all cities] <hidden from users>",
 		"Triggers a [Reorganization of the State] event <upon turn start> <with [1]% chance> <hidden from users>",
+			"Limited to [1] per Civilization",
 		]
 },
 {
 	"name": "Hall of Veterans",
 	"cost": 200,
-	"happiness": 1,
-	"culture": 1,
+	"happiness": 3,
+	"culture": 2,
 	"specialistSlots": {"Artist": 1},
-	"isNationalWonder": true,
 
 	"uniques": [
 		"Provides [1] [Veteran]",
@@ -2803,12 +2810,13 @@
 		"Remove [Manpower Office] [in all cities] <hidden from users>",
 		"Remove [Administrative Estates] [in all cities] <hidden from users>",
 		"Triggers a [Reorganization of the State] event <upon turn start> <with [1]% chance> <hidden from users>",
+			"Limited to [1] per Civilization",
 		]
 },
 {
 	"name": "Provincial Governors",
 	"specialistSlots": {"Artist": 1},
-	"happiness": 1,
+	"happiness": 2,
 	"uniques": [
 		"Consumes [1] [Nobles]",
 		"Consumes [1] [Rebel Risk] <when above [3] [Rebel Risk]>",
@@ -2818,6 +2826,7 @@
 		"Moves to new capital when capital changes","Unbuildable <hidden from users>","Unsellable <hidden from users>",
 		"Triggers a [Provincial Governors Demand Funding] event <upon turn start> <with [1]% chance> <hidden from users>",
 		"Triggers a [Provincial Corruption] event <upon turn start> <with [1]% chance> <hidden from users>",
+			"Limited to [1] per Civilization",
 		]
 },
 
