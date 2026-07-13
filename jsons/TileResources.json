@@ -1678,7 +1678,6 @@
         "resourceType": "Bonus",
         "uniques": [
             "Will not be displayed in Civilopedia",
-            "Stockpiled"
         ]
     },
     {
@@ -1686,7 +1685,6 @@
         "resourceType": "Bonus",
         "uniques": [
             "Will not be displayed in Civilopedia",
-            "Stockpiled"
         ]
     },
 
@@ -1696,7 +1694,6 @@
         "resourceType": "Bonus",
         "uniques": [
             "Will not be displayed in Civilopedia",
-            "Stockpiled"
         ]
     },
     {
@@ -1704,7 +1701,6 @@
         "resourceType": "Bonus",
         "uniques": [
             "Will not be displayed in Civilopedia",
-            "Stockpiled"
         ]
     },
     {
@@ -1712,7 +1708,6 @@
         "resourceType": "Bonus",
         "uniques": [
             "Will not be displayed in Civilopedia",
-            "Stockpiled"
         ]
     },
     {
@@ -1720,428 +1715,395 @@
         "resourceType": "Bonus",
         "uniques": [
             "Will not be displayed in Civilopedia",
-            "Stockpiled"
         ]
     },
 
-    //Gallia
-    {
-        "name": "Belgica Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Celtica Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Aquitania Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Provincia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
+//Gallia
+{
+    "name": "Belgica Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Celtica Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Aquitania Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Provincia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
 
-    //Germania
-    {
-        "name": "Germania Minor Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Magna Germania Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Suebia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
+//Germania
+{
+    "name": "Germania Minor Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Magna Germania Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Suebia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
 //Italia
-    {
-        "name": "Latinum Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Cisalpina Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Alpes Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
+{
+    "name": "Latinum Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Cisalpina Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Alpes Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
 //Corsica et Sardinia
-    {
-        "name": "Corsica Region",	
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Sardinia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
+{
+    "name": "Corsica Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Sardinia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
 //Sicilia Magna
-    {
-        "name": "Sicilia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Africa Pacata
-    {
-        "name": "Mauretania Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Africa Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Phazania Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Aegyptus Maior
-    {
-        "name": "Libya Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Aegyptus Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Nabataea Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Arabia
-    {
-        "name": "Arabia Magna Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Arabia Felix Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Syria Maior
-    {
-        "name": "Cilicia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Syria Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-////Mesopotamia Maior
-    {
-        "name": "Mesopotamia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Persia
-    {
-        "name": "Persis Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Media Magna Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Parthia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Ariana
-    {
-        "name": "Gedrosia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Aria Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Arachosia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
+{
+    "name": "Sicilia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
 
-///Bactria Maior
-    {
-        "name": "Chorasmia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Transoxania Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Bactria Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Anatolia
-    {
-        "name": "Asia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Galatia et Cappadocia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Bithynia et Pontus Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Armenia et Caucasus
-    {
-        "name": "Caucasia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Armenia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Pontus Euxinus
-    {
-        "name": "Bosporus Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Ponto Caspia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Scythia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
+//Africa Pacata
+{
+    "name": "Mauretania Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Africa Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Phazania Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
 
-///Sarmatia Maior
-    {
-        "name": "Sarmatia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Hercynia Maior
-    {
-        "name": "Hercynia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Dacia Maior
-    {
-        "name": "Dacia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Illyricum
-    {
-        "name": "Illyria Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Pannonia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Macedonia et Hellas
-    {
-        "name": "Macedonia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Hellas Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-///Thracia Maior
-    {
-        "name": "Thracia Region",
-        "resourceType": "Bonus",
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
+//Aegyptus Maior
+{
+    "name": "Libya Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Aegyptus Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Nabataea Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
 
+//Arabia
+{
+    "name": "Arabia Magna Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Arabia Felix Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Syria Maior
+{
+    "name": "Cilicia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Syria Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Mesopotamia Maior
+{
+    "name": "Mesopotamia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Persia
+{
+    "name": "Persis Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Media Magna Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Parthia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Ariana
+{
+    "name": "Gedrosia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Aria Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Arachosia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Bactria Maior
+{
+    "name": "Chorasmia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Transoxania Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Bactria Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Anatolia
+{
+    "name": "Asia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Galatia et Cappadocia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Bithynia et Pontus Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Armenia et Caucasus
+{
+    "name": "Caucasia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Armenia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Pontus Euxinus
+{
+    "name": "Bosporus Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Ponto Caspia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Scythia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Sarmatia Maior
+{
+    "name": "Sarmatia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Hercynia Maior
+{
+    "name": "Hercynia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Dacia Maior
+{
+    "name": "Dacia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Illyricum
+{
+    "name": "Illyria Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Pannonia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Macedonia et Hellas
+{
+    "name": "Macedonia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+{
+    "name": "Hellas Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
+
+//Thracia Maior
+{
+    "name": "Thracia Region",
+    "resourceType": "Bonus",
+    "uniques": [
+        "Will not be displayed in Civilopedia"
+    ]
+},
 				///3rd century provinces flag
 
 {
