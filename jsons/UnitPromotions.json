@@ -1154,16 +1154,7 @@
     	"row": 53,
 	"column": 4
 	},
-	{
-	"name": "Royal Retinue",
-	"prerequisites": ["Virtus III","Gravitas III","Prudentia III","Imperium III"],
-	"unitTypes": ["Ruler","Generals"],
-	"uniques": [
-		"Can carry [2] [{Military} {Land}] units",
-	],
-    	"row": 54,
-	"column": 4
-	},
+
 	{
 	"name": "Breakthrough",
 	"prerequisites": ["Virtus III","Gravitas III","Prudentia III","Imperium III"],
@@ -1534,7 +1525,7 @@
 	{
 		"name": "War Transports",
 		"uniques": [
-			"[-20]% Strength <when attacking> <when fighting in [Water] tiles>",
+			"[-20]% Strength <when defending> <when fighting in [Water] tiles>",
 			"[-20]% Strength <when attacking> <vs [Water] units>",
    			"May attack when embarked <for [all] units>",
 		]

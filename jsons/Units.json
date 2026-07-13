@@ -512,8 +512,7 @@
     ],
     "promotions": [
       	"[Horse Archer] ability",
-	"Commander",	
-        "Royal Retinue"
+	"Commander",
     ],
     "attackSound": "arrow"
   },
