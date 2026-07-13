@@ -299,10 +299,6 @@
 	"[-2 Production] [in this city] <in cities with between [16] and [20] [Population]>",
 	"[-3 Production] [in this city] <in cities with at least [21] [Population]>",
 
-	"[+5]% Unhappiness from [Population] [in all cities] <when above [10] [Cities]>",
-	"[+5]% Unhappiness from [Population] [in all cities] <when above [20] [Cities]>",
-	"[+5]% Unhappiness from [Population] [in all cities] <when above [30] [Cities]>",
-
         "[-5]% growth [in all cities] <when below [0] [Happiness]>",
         "[-5]% growth [in all cities] <when below [-10] [Happiness]>",
         "[-5]% growth [in all cities] <when below [-20] [Happiness]>",

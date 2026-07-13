@@ -1855,6 +1855,7 @@
 	"hurryCostModifier": 30,
 	"food": 1,
 	"gold": 1,
+	"happiness": 1,
 	"cityHealth": 20,
 	"specialistSlots": {"Artist": 1},
 	"uniques": [
@@ -2529,7 +2530,7 @@
 	"maintenance": 0,
 	"science": 1,
 	"gold": 3,
-	"happiness": 1,
+	"happiness": 2,
 	"cityHealth": 30,
 	"greatPersonPoints": {"Great Artist":1},
 	"uniques": [
@@ -2753,7 +2754,7 @@
 	"maintenance": 0,
 	"science": 1,
 	"gold": 5,
-	"happiness": 2,
+	"happiness": 3,
 	"cityHealth": 50,
 	"specialistSlots": {"Artist": 1},
 	"uniques": [
