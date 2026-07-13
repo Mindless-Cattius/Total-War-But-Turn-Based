@@ -851,8 +851,8 @@
         "[-10]% Strength <when defending> <for [Military] units> <when fighting in [Enemy Land] tiles>",
         "[-10]% Strength <when attacking> <for [Military] units>",
         "[+10]% Strength <for [General] units>",
-        "[1] [King]s rebel <upon turn end> <with [10]% chance> <before adopting [Empire]> <starting from the [Classical Age]> <hidden from users>",
-        "[1] [Emperor]s rebel <upon turn end> <with [10]% chance> <after adopting [Empire]> <hidden from users>",
+        "[1] [King]s rebel <upon turn end> <with [10]% chance> <before adopting [Empire]> <starting from the [Classical Age]> <for [Human player] Civilizations> <hidden from users>",
+        "[1] [Emperor]s rebel <upon turn end> <with [10]% chance> <after adopting [Empire]> <for [Human player] Civilizations> <hidden from users>",
         "Unbuildable <hidden from users>",
         "Unsellable <hidden from users>",
         "Destroyed when the city is captured"
