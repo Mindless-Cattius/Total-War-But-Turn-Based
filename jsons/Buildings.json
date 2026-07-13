@@ -4982,6 +4982,8 @@
         "Unbuildable <when below [3] [Cisalpina Region]> <hidden from users>",
         "Unbuildable <when below [2] [Alpes Region]> <hidden from users>",
         "Unsellable <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
     ]
 },
 {
@@ -5002,6 +5004,8 @@
         "Remove [Hispania] [in this city] <when below [3] [Tarraconensis Region]> <upon turn end> <hidden from users>",
         "Remove [Hispania] [in this city] <when below [1] [Lusitania Region]> <upon turn end> <hidden from users>",
         "Remove [Hispania] [in this city] <when below [2] [Baetica Region]> <upon turn end> <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
     ]
 }
 {
@@ -5022,6 +5026,8 @@
 		"Remove [Gallia] [in this city] <when below [3] [Aquitania Region]> <upon turn end> <hidden from users>",
 		"Remove [Gallia] [in this city] <when below [3] [Celtica Region]> <upon turn end> <hidden from users>",
 		"Remove [Gallia] [in this city] <when below [1] [Belgica Region]> <upon turn end> <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5038,6 +5044,8 @@
 		"Only available <in cities with a [Hercynia]>",
 		"Unbuildable <when below [4] [Hercynia Region]> <hidden from users>",
 		"Remove [Germania] [in this city] <when below [4] [Hercynia Region]> <upon turn end> <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5055,6 +5063,8 @@
 		"Remove [Illyricum] [in this city] <when below [2] [Illyria Region]> <upon turn end> <hidden from users>",
 		"Remove [Illyricum] [in this city] <when below [2] [Pannonia Region]> <upon turn end> <hidden from users>",
 		"Unsellable <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5070,6 +5080,8 @@
 		"Only available <in cities with a [Thracia]>",
 		"Unbuildable <when below [2] [Thracia Region]> <hidden from users>",
 		"Remove [Thracia Maior] [in this city] <when below [2] [Thracia Region]> <upon turn end> <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5089,6 +5101,8 @@
 		"Remove [Macedonia et Hellas] [in this city] <when below [2] [Macedonia Region]> <upon turn end> <hidden from users>",
 		"Remove [Macedonia et Hellas] [in this city] <when below [3] [Hellas Region]> <upon turn end> <hidden from users>",
 		"Unsellable <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5107,6 +5121,8 @@
 		"Remove [Pontus Euxinus] [in this city] <when below [4] [Sarmatia Region]> <upon turn end> <hidden from users>",
 		"Remove [Pontus Euxinus] [in this city] <when below [3] [Bosporus Region]> <upon turn end> <hidden from users>",
 		"Remove [Pontus Euxinus] [in this city] <when below [3] [Scythia Region]> <upon turn end> <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5123,6 +5139,8 @@
 		"Remove [Armenia et Caucasus] [in this city] <when below [2] [Armenia Region]> <upon turn end> <hidden from users>",
 		"Unbuildable <when below [1] [Caucasia Region]> <hidden from users>",
 		"Unbuildable <when below [2] [Armenia Region]> <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5140,6 +5158,8 @@
 		"Remove [Anatolia] [in this city] <when below [2] [Asia Region]> <upon turn end> <hidden from users>",
 		"Remove [Anatolia] [in this city] <when below [4] [Galatia et Cappadocia Region]> <upon turn end> <hidden from users>",
 		"Remove [Anatolia] [in this city] <when below [3] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 }
 ///Coele Syria (3rd)
@@ -5154,6 +5174,8 @@
 		"Unsellable <hidden from users>",
 		"Unbuildable <hidden from users>",
 		"Never destroyed when the city is captured <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5166,6 +5188,8 @@
 		"Unsellable <hidden from users>",
 		"Unbuildable <hidden from users>",
 		"Never destroyed when the city is captured <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5183,6 +5207,8 @@
 		"Unbuildable <when below [3] [Syria Region]> <hidden from users>",
 		"Unbuildable <when below [2] [Palmyra Region]> <hidden from users>",
 		"Unbuildable <when below [2] [Judea Region]> <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5201,6 +5227,8 @@
 		"Remove [Aegyptus Maior] [in this city] <when below [2] [Aegyptus Region]> <upon turn end> <hidden from users>",
 		"Unbuildable <when below [3] [Libya Region]> <hidden from users>",
 		"Unbuildable <when below [2] [Aegyptus Region]> <hidden from users>"
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 {
@@ -5218,7 +5246,9 @@
 		"Remove [Africa Pacata] [in this city] <when below [1] [Phazania Region]> <upon turn end> <hidden from users>",
 		"Unbuildable <when below [6] [Mauretania Region]> <hidden from users>",
 		"Unbuildable <when below [4] [Africa Region]> <hidden from users>",
-		"Unbuildable <when below [1] [Phazania Region]> <hidden from users>"
+		"Unbuildable <when below [1] [Phazania Region]> <hidden from users>",
+		"Unavailable <if [3rd Century Crisis] is not constructed>"
+		"Unavailable <if [Grand Campaign] is constructed>"
 	]
 },
 
