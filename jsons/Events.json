@@ -1334,7 +1334,7 @@
         "uniques": [
             "Only available <if [Provincial Governors] is constructed> <when above [99] [Gold]> <hidden from users>",
 	    "Gain [-100] [Gold]"
-            "[+5 Happiness] [in capital] <for [5] turns>",
+            "[+2 Happiness] [in capital] <for [5] turns>",
             "[+2 Gold] [in all cities] <for [5] turns>",
             "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
             "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"

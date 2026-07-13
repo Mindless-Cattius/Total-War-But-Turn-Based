@@ -1833,7 +1833,8 @@
             {
                 "name": "Bronze Shield Workshops",
                 "uniques": [
-                    	"[Spear] units gain the [Improved Armor] promotion",
+                    	"Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    	"[Spearman] units gain the [Improved Armor] promotion",
         		"[+10]% Strength <for [Spearman] units>",
         		"[+10]% Strength <for [Hoplite] units> <when defending>",
         		"[+1 Production] from every [Workshop]",
