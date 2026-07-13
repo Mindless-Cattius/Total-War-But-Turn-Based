@@ -998,9 +998,12 @@
 	"name": "Successor",
 	"unitTypes": ["Generals"],
 	"uniques": [
+		"Comment [Only available if Ruler unit exist]",
 		"Only available <when above [500] [Gold]> <(modified by game speed)>",
 		"Gain [-500] [Gold] <(modified by game speed)>",
 		"Only available <for [Human player] Civilizations> <hidden from users>",
+		"Only available <when below [1] [Ruler]> <hidden from users>",
+
 		"This Promotion is free",
 ],
 "column": 47,
