@@ -999,8 +999,16 @@
 	"unitTypes": ["Generals"],
 	"uniques": [
 		"Comment [Only available if Ruler unit exist]",
-		"Only available <when above [500] [Gold]> <(modified by game speed)>",
+		"Only available <when above [499] [Gold]> <before the [Hellenistic Age]> <(modified by game speed)>",
+		"Only available <when above [799] [Gold]> <during the [Hellenistic Age]> <(modified by game speed)>",
+
+		"Only available <when above [999] [Gold]> <during the [Imperial Age]> <(modified by game speed)>",
+
 		"Gain [-500] [Gold] <(modified by game speed)>",
+		"Gain [-800] [Gold] <during the [Hellenistic Age]> <(modified by game speed)>",
+
+		"Gain [-100] [Gold]]> <during the [Imperial Age]> <(modified by game speed)>",
+
 		"Only available <for [Human player] Civilizations> <hidden from users>",
 		"Only available <when below [1] [Ruler]> <hidden from users>",
 
