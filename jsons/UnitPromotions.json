@@ -1525,7 +1525,7 @@
 	{
 		"name": "War Transports",
 		"uniques": [
-			"[-20]% Strength <when defending> <when fighting in [Water] tiles>",
+			"[-10]% Strength <when fighting in [Water] tiles>",
 			"[-20]% Strength <when attacking> <vs [Water] units>",
    			"May attack when embarked <for [all] units>",
 		]
