@@ -280,7 +280,7 @@
          "[+20]% Strength <vs [Infantry Shield II] units> <when attacking>",
          "[+20]% Strength <vs [Infantry Shield III] units> <when attacking>",
          "[+20]% Strength <vs [Siege] units> <when attacking>",
-         "[+200]% Strength <vs cities> <when attacking>",
+         "[+180]% Strength <vs cities> <when attacking>",
          "Consumes [3] [Manpower]",
          "Consumes [2] [Timber]",
          "Never appears as a Barbarian unit"
@@ -3051,7 +3051,7 @@
          "[+30]% Strength <vs [Cataphract] units> <when attacking>",
          "[+30]% Strength <vs [Clibanarii] units> <when attacking>",
          "[+30]% Strength <vs [Elephant] units> <when attacking>",
-         "[+200]% Strength <vs cities> <when attacking>",
+         "[+150]% Strength <vs cities> <when attacking>",
     	"Only available <in cities with a [Mercenary Camp]>",
     	"Consumes [1] [Mercenary (Hellenic)]",
     	"Can be purchased with [Gold] [in all cities]",
