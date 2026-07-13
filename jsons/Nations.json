@@ -1728,6 +1728,26 @@
 	"style": "Celtic",
 	"cities": ["Iuvavum"]
 },
+{
+    "name": "The Raeti",
+    "adjective": ["Raetian"],
+    "cityStateType": "Celtic",
+    "startBias": ["Hill", "Mountain", "Avoid [Coast]"],
+    "declaringWar": "The mountains have long protected us. Today, they shall witness your defeat.",
+    "attacked": "You dare trespass upon our lands?",
+    "defeated": "The mountains endure... even if we do not.",
+    "outerColor": [35, 35, 35],
+    "innerColor": [70, 170, 110],
+    "uniques": [
+        "Starts with [Celtic Culture] adopted",
+        "[+1] Movement <for [Melee] units> <in [Hill] tiles>",
+        "[+20]% Strength <for [Melee] units> <when fighting in [Hill] tiles>"
+    ],
+    "style": "Celtic",
+    "cities": [
+        "Curia Raetorum"
+    ]
+}
 ///Islands
 {
 	"name": "The Rhodians",

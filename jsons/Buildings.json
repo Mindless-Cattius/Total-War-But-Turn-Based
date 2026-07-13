@@ -3728,12 +3728,12 @@
 //3
 {
         "name": "Alpes",
-        "food": 1,
+        "food": 2,
         "uniques": [
                 "Comment [The towering mountain wall at the northern gate of Italia, where snow-fed rivers carve narrow valleys beneath high peaks. Crossing them is always possible. It is rarely convenient.\n•Italia: Alpes, Cisalpina, Latinum.]",
                 "Provides [1] [Alpes Region]",
-                "[+1 Gold, +1 Food] from [Snow] tiles [in this city]",
-                "[+1 Gold, +1 Food] from [Tundra] tiles [in this city]",
+                "[+2 Gold, +2 Food] from [Snow] tiles [in this city]",
+                "[+2 Gold, +2 Food] from [Tundra] tiles [in this city]",
                 "Unsellable <hidden from users>",
                 "Unbuildable <hidden from users>",
                 "Never destroyed when the city is captured <hidden from users>"
