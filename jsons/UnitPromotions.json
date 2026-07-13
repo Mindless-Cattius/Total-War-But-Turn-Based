@@ -737,7 +737,7 @@
 		"prerequisites": ["Desert Warrior I"],
 		"uniques": [
 			"Invisible to non-adjacent units <in [Desert] tiles>",
-			"[+5] HP when healing <when fighting in [Desert] tiles>",
+			"[+3] HP when healing <when fighting in [Desert] tiles>",
 		],
         "column": 27,
         "row": 7
@@ -1262,8 +1262,8 @@
 		"[-10]% Strength <when fighting in [Forest] tiles>",
 		"[-10]% Strength <when fighting in [Jungle] tiles>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [10]% chance>",
-		"Withdraws before melee combat <with [+15]% chance> <when fighting in [Desert] tiles>",
+		"Withdraws before melee combat <with [10]% chance> <in tiles without [Desert]>",
+		"Withdraws before melee combat <with [20]% chance> <when fighting in [Desert] tiles>",
 		]
 	},
 	{
@@ -1396,7 +1396,7 @@
 		"[+30]% Strength <when defending> <when fighting in [Desert] tiles>",
 		"[-15]% Strength <when defending> <vs [Ranged] units>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [20]% chance>",
+		"Withdraws before melee combat <with [20]% chance> <in tiles without [Desert]>",
 		"Withdraws before melee combat <with [40]% chance> <when fighting in [Desert] tiles>",
 		]
 	},
@@ -1438,7 +1438,7 @@
 		"[-10]% Strength <when attacking> <vs [Spear] units>",
 		"[-20]% Strength <when attacking> <vs cities>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [10]% chance>",
+		"Withdraws before melee combat <with [15]% chance>",
 		]
 	},
 	{
@@ -1475,7 +1475,7 @@
 		"uniques": [
 			"[+10]% Strength <vs [Ranged] units>",
 			"[+15]% Strength <when defending> <vs cities>",
-			"Withdraws before melee combat <with [3]% chance>",
+			"Withdraws before melee combat <with [5]% chance>",
 		]
 	},
 	{
@@ -1534,11 +1534,8 @@
 	{
 		"name": "War Transports",
 		"uniques": [
-  			"[-20]% Strength <when defending> <for [Mounted Archery] units> <when fighting in [Water] tiles>",
-  			"[-20]% Strength <for [Mounted] units> <when fighting in [Water] tiles>",
-  			"[-20]% Strength <for [Elephant] units> <when fighting in [Water] tiles>",
 			"[-20]% Strength <when attacking> <when fighting in [Water] tiles>",
-			"[-20]% Strength <when attacking> <vs [Water] units> <when fighting in [Water] tiles>",
+			"[-20]% Strength <when attacking> <vs [Water] units>",
    			"May attack when embarked <for [all] units>",
 		]
 	},

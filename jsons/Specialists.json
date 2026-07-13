@@ -38,7 +38,7 @@
 		"color": [0,0,0]
 	},
 	{
-		"name":"Priest",
+		"name":"Prophet",
 		"faith":2,
 		"happiness":1,
 		"greatPersonPoints": {"Great Prophet":2},
