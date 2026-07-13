@@ -898,7 +898,7 @@
 {
     "name": "Risk of PLAGUE I",
     "uniques": [
-        "Comment ['Low Sanitation invites PLAGUE. Civilization is merely a thin wall between man and dying in contaminated water. Disease thrives where sanitation fails.\nSanitation Levels:\n0-4  : Epidemics are common.\n5-9  : Outbreaks are likely.\n10-14: Minor outbreaks may occur.\n15+  : Public health is generally secure.']",
+        "Comment ['Low Sanitation invites PLAGUE. Civilization is merely a thin wall between man and dying in contaminated water. Disease thrives where sanitation fails.\nSanitation Effects:\n• 0-4   : PLAGUE and DANGEROUS PLAGUE may occur.\n• 5-9   : PLAGUE may occur, DANGEROUS PLAGUE is still possible.\n• 10-14 : Only PLAGUE may occur.\n• 15+   : No natural disease outbreaks.']",
 
         "Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [10] [Sanitation]> <hidden from users>",
         "Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [10] and [15] [Sanitation]> <hidden from users>",
@@ -913,14 +913,14 @@
 {
     "name": "Risk of PLAGUE II",
     "uniques": [
-        "Comment ['Growing cities invite growing problems. Crowds are excellent for trade and equally excellent for spreading disease. Disease travels the same roads as merchants, usually faster.\nSanitation Levels:\n0-9  : Epidemics are common.\n10-14: Outbreaks are likely.\n15-19: Minor outbreaks remain possible.\n20-30: Public health is generally stable.\n31+  : Public health is generally secure.']"
+        "Comment ['Growing cities invite growing problems. Crowds are excellent for trade and equally excellent for spreading disease. Disease travels the same roads as merchants, usually faster.\nSanitation Effects:\n• 0-7   : PLAGUE and DANGEROUS PLAGUE may occur.\n• 8-11  : PLAGUE may occur, DANGEROUS PLAGUE is still possible.\n• 12-24 : Only PLAGUE may occur.\n• 25+   : No natural disease outbreaks.']"
 
-        "Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [15] [Sanitation]> <hidden from users>",
-        "Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [15] and [30] [Sanitation]> <hidden from users>",
+        "Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [12] [Sanitation]> <hidden from users>",
+        "Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [12] and [25] [Sanitation]> <hidden from users>",
 
-        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [10] [Sanitation]> <hidden from users>",
-        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [10] and [20] [Sanitation]> <hidden from users>",
-
+        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [8] [Sanitation]> <hidden from users>",
+        "Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [8] and [15] [Sanitation]> <hidden from users>",
+	"Remove [Risk of PLAGUE I] [in this city] <upon turn end> <hidden from users>",
         "Unbuildable <hidden from users>",
         "Unsellable <hidden from users>"
     ]
@@ -928,18 +928,19 @@
 {
     "name": "Risk of PLAGUE III",
     "uniques": [
-        "Comment ['Large empires connect the world through roads, commerce... and unfortunately, disease. Every new trade route carries prosperity in one direction and someone's cough in the other.\n\nSanitation Levels:\n0-14 : Epidemics are common.\n15-19: Outbreaks are likely.\n20-29: Minor outbreaks remain possible.\n30-40: Public health is generally stable.\n41+  : Public health is generally secure.']",
+        "Comment ['Large empires connect the world through roads, commerce... and unfortunately, disease. Every new trade route carries prosperity in one direction and someone's cough in the other.\n\nSanitation Levels:\n0-14 : Epidemics are common.\nSanitation Effects:\n• 0-14  : PLAGUE and DANGEROUS PLAGUE may occur.\n• 15-24 : PLAGUE may occur, DANGEROUS PLAGUE is still possible.\n• 25-49 : Only PLAGUE may occur.\n• 50+   : No natural disease outbreaks.']",
 
-        "Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [20] [Sanitation]> <hidden from users>",
-        "Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [20] and [40] [Sanitation]> <hidden from users>",
+        "Gain a free [PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [15] [Sanitation]> <hidden from users>",
+        "Gain a free [PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [15] and [50] [Sanitation]> <hidden from users>",
 
         "Gain a free [DANGEROUS PLAGUE] [in this city] <with [2]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when below [15] [Sanitation]> <hidden from users>",
         "Gain a free [DANGEROUS PLAGUE] [in this city] <with [1]% chance> <in cities without a [PLAGUE]> <in cities without a [DANGEROUS PLAGUE]> <when between [15] and [25] [Sanitation]> <hidden from users>",
 
+	"Remove [Risk of PLAGUE II] [in this city] <upon turn end> <hidden from users>",
         "Unbuildable <hidden from users>",
         "Unsellable <hidden from users>"
     ]
-}
+},
 {
 	"name": "DANGEROUS PLAGUE"
 	"maintenance": 0,
@@ -2873,6 +2874,7 @@
 		"Limited to [1] per Civilization",
 		"Cannot be purchased",
 		"Moves to new capital when capital changes"
+		"Destroyed when the city is captured"
 	]
 },
 {
@@ -2896,6 +2898,7 @@
 		"Limited to [1] per Civilization",
 		"Cannot be purchased",
 		"Moves to new capital when capital changes"
+		"Destroyed when the city is captured"
 	]
 },
 {
@@ -2915,6 +2918,7 @@
 		"Limited to [1] per Civilization",
 		"Cannot be purchased",
 		"Moves to new capital when capital changes"
+		"Destroyed when the city is captured"
 	]
 },
 {
@@ -2934,6 +2938,7 @@
 		"Limited to [1] per Civilization",
 		"Cannot be purchased",
 		"Moves to new capital when capital changes"
+		"Destroyed when the city is captured"
 	]
 },
 
@@ -2960,6 +2965,7 @@
 		"Remove [Hall of Veterans] [in all cities] <hidden from users>",
 		"Triggers a [Reorganization of the State] event <upon turn start> <with [1]% chance> <hidden from users>",
 		"Limited to [1] per Civilization"
+		"Destroyed when the city is captured"
 	]
 },
 {
@@ -2981,6 +2987,7 @@
 		"Remove [Hall of Veterans] [in all cities] <hidden from users>",
 		"Triggers a [Reorganization of the State] event <upon turn start> <with [1]% chance> <hidden from users>",
 		"Limited to [1] per Civilization"
+		"Destroyed when the city is captured"
 	]
 },
 {
@@ -3003,6 +3010,7 @@
 		"Remove [Manpower Office] [in all cities] <hidden from users>",
 		"Triggers a [Reorganization of the State] event <upon turn start> <with [1]% chance> <hidden from users>",
 		"Limited to [1] per Civilization"
+		"Destroyed when the city is captured"
 	]
 },
 {
@@ -3022,6 +3030,7 @@
 		"Limited to [1] per Civilization",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>"
+		"Destroyed when the city is captured"
 	]
 },
 //Sanitation Events
@@ -3033,9 +3042,10 @@
 		"Provides [1] [Sanitation]",
 		"[+10]% Production when constructing [Cure PLAGUE] buildings [in all cities]",
 		"[+10]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities]",
-		"Moves to new capital when capital changes",
+		"Moves to new capital when capital changes",\
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [Sanitation Policies] event <upon turn start> <with [2]% chance> <if [Sanitation Policies II] is not constructed> <hidden from users>"
 	]
 },
@@ -3052,6 +3062,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [Sanitation Policies] event <upon turn start> <with [2]% chance> <hidden from users>"
 	]
 },
@@ -3070,6 +3081,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [Clean Water] event <upon turn start> <with [10]% chance> <hidden from users>"
 	]
 },
@@ -3088,6 +3100,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [The Rat Problem] event <upon turn start> <with [10]% chance> <hidden from users>"
 	]
 },
@@ -3104,6 +3117,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>"
+		"Destroyed when the city is captured"
 	]
 },
 {
@@ -3116,6 +3130,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>"
+		"Destroyed when the city is captured"
 	]
 },
 
@@ -3133,6 +3148,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [Fleet Budget Review] event <upon turn start> <with [3]% chance>"
 	]
 },
@@ -3148,6 +3164,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [Cavalry Budget Crisis] event <upon turn start> <with [3]% chance>"
 	]
 },
@@ -3162,6 +3179,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [Arrow Procurement Debate] event <upon turn start> <with [3]% chance>"
 	]
 },
@@ -3176,6 +3194,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [Horse Archer Procurement Report] event <upon turn start> <with [3]% chance>"
 	]
 },
@@ -3190,6 +3209,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [Quality Sticks Maintenance Report] event <upon turn start> <with [3]% chance>"
 	]
 },
@@ -3204,6 +3224,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
+		"Destroyed when the city is captured"
 		"Triggers a [Sword Training Review] event <upon turn start> <with [3]% chance>"
 	]
 },
@@ -3223,6 +3244,7 @@
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>"
+		"Destroyed when the city is captured"
 	]
 },
 
