@@ -1853,16 +1853,13 @@
 	"requiredTech": "Construction",
 	"cost": 100,
 	"hurryCostModifier": 30,
-	"maintenance": 0,
 	"food": 1,
-	"production": 1,
 	"gold": 1,
 	"cityHealth": 20,
 	"specialistSlots": {"Artist": 1},
 	"uniques": [
 		"Comment [Growing cities become centers of commerce, craftsmanship, and culture. Success attracts opportunity, along with more people to organize.]",
 		"Only available <in cities with a [Urban Fabric II]> <in cities with at least [10] [Population]>",
-		"Consumes [1] [Sanitation]",
 		"Cost increases by [2] per owned city",
 		"[+1000]% weight to this choice for AI decisions"
 	]

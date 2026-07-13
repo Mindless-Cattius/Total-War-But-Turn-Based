@@ -998,26 +998,41 @@
 	"name": "Successor",
 	"unitTypes": ["Generals"],
 	"uniques": [
-		"Comment [Only available if Ruler unit exist]",
+		"Only available <when adjacent to a [Ruler] unit>",
 		"Only available <when above [499] [Gold]> <before the [Hellenistic Age]> <(modified by game speed)>",
-		"Only available <when above [799] [Gold]> <during the [Hellenistic Age]> <(modified by game speed)>",
-
-		"Only available <when above [999] [Gold]> <during the [Imperial Age]> <(modified by game speed)>",
-
 		"Gain [-500] [Gold] <(modified by game speed)>",
-		"Gain [-800] [Gold] <during the [Hellenistic Age]> <(modified by game speed)>",
-
-		"Gain [-1000] [Gold] <during the [Imperial Age]> <(modified by game speed)>",
-
-		"Only available <for [Human player] Civilizations> <hidden from users>",
-		"Only available <when below [1] [Ruler]> <hidden from users>",
-
 		"This Promotion is free",
+		"Only available <for [Human player] Civilizations> <hidden from users>",
 ],
 "column": 47,
 "row": 1
 },
+{
+	"name": "Successor II",
+	"unitTypes": ["Generals"],
+	"uniques": [
+		"Only available <when adjacent to a [Ruler] unit>",
+		"Only available <when above [799] [Gold]> <during the [Hellenistic Age]> <(modified by game speed)>",
+		"Gain [-800] [Gold] <(modified by game speed)>",
+		"Only available <for [Human player] Civilizations> <hidden from users>",
+		"This Promotion is free",
+],
+"column": 47,
+"row": 2
+},{
+	"name": "Successor III",
+	"unitTypes": ["Generals"],
+	"uniques": [
+		"Only available <when adjacent to a [Ruler] unit>",
+		"Only available <when above [999] [Gold]> <during the [Imperial Age]> <(modified by game speed)>",
+		"Gain [-1000] [Gold] <(modified by game speed)>",
 
+		"Only available <for [Human player] Civilizations> <hidden from users>",
+		"This Promotion is free",
+],
+"column": 47,
+"row": 3
+},
 {
 	"name": "Imperium I",
 	"unitTypes": ["Ruler","Generals"],
