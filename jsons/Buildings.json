@@ -1428,7 +1428,6 @@
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Production] from [Village] tiles [in this city]",
 		"[+1 Food] from [Fort] tiles [in this city]",
-		"Consumes [1] [Manpower] <for [Human player] Civilizations>",
 		"Must be on [Hill]",
 		"Destroyed when the city is captured",
 		"[50]% weight to this choice for AI decisions"
