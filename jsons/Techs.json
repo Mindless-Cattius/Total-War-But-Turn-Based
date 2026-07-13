@@ -254,7 +254,6 @@
 				"name": "Infantry Training",
 				"row": 6,
 				"prerequisites": ["Citizen Levy"],
-				"uniques": ["Enable Swordsman"],
 				"quote": "Philip II of Macedon sent a message to Sparta: 'If I invade Laconia you will be destroyed, never to rise again.'. The Spartan repply was 'If'."
 			},
 			{
