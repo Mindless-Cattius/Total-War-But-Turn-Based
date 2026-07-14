@@ -916,6 +916,7 @@
   {
   "name": "Mounted Skirmisher",
   "unitType": "Mounted Archery",
+  "upgradesTo": "Horse Archer",
   "hurryCostModifier": 40,
   "cost": 110,
   "movement": 3,
@@ -924,9 +925,10 @@
   "requiredTech": "Riding",
   "uniques": [
          "Comment [-Light mounted skirmish cavalry developed for harassment, reconnaissance, and the ancient tactical art of refusing fair fights.\nThey excel at circling formations, probing weaknesses, and leaving before anyone can properly respond.\nHistorically, these units were especially effective in steppe and desert warfare where mobility mattered more than honor.\n• Light Mounted Skirmisher]",
-         "[-1] Range <hidden from users>",
+         "[-1] Range",
          "Consumes [2] [Manpower]",
          "Consumes [1] [Horses]",
+	"Can move after attacking",
          "Never appears as a Barbarian unit <before the [Classical Age]>",
          "Only available <before adopting [Numidian Culture]> <hidden from users>",
          "Only available <with [Enable Mounted Skirmisher]> <hidden from users>",
@@ -1242,7 +1244,7 @@
          "Comment [-Elite armored skirmish cavalry built around the revolutionary concept that harassing the enemy is easier when the enemy struggles to kill you.\nCombining mobility, protection, and ranged firepower, they excel at exhausting opponents through a long series of highly personal inconveniences.\nToo heavily equipped to be true horse archers, too mobile to be proper heavy cavalry, and perfectly content with that arrangement.\n• Elite Heavy Mounted Skirmisher]",
          "Only available <in cities with a [Cavalry Barracks]>",
          "Only available <with [Enable Mounted Armored Skirmisher]>",
-         "[-1] Range <hidden from users>",
+         "[-1] Range",
          "Consumes [5] [Manpower]",
          "Consumes [1] [Veteran]",
          "Consumes [1] [Horses]"
@@ -1612,6 +1614,7 @@
   "uniques": [
          "Comment [-Light Numidian cavalry trained for rapid skirmishing, raiding, and the highly advanced tactical doctrine of never being where the enemy expects.\nHistorically renowned for exceptional mobility and harassment tactics, they excelled at disrupting formations, supply lines, and any commander who assumed cavalry would behave politely.\nTheir effectiveness came less from strength and more from the enemy’s growing emotional exhaustion.\n• Light Mounted Skirmisher]",
          "Only available <in cities with a [Stable]>",
+	 "Can move after attacking", 
          "[-1] Range",
          "Consumes [3] [Manpower]",
          "Consumes [1] [Horses]",
@@ -1620,7 +1623,6 @@
   ],
   "promotions": [
       "[Horseman] ability",
-      "[Maneuver]",
   ],
   "attackSound": "arrow"
   },
@@ -2880,6 +2882,7 @@
          "Comment [-Numidian mercenary horse skirmishers trained in irregular desert cavalry tactics, specializing in rapid harassment, flanking pressure, and disappearing before anyone can ask them to hold a line.\nThey excel at destabilizing enemy movement through speed and unpredictability, trading sustained combat for constant repositioning and selective engagement.\nTheir battlefield role is less “fight” and more “make the situation worse and leave.”\n• Light Mounted Skirmisher]",
          "Only available <in cities with a [Mercenary Camp]>",
          "[-1] Range",
+	 "Can move after attacking", 
          "Consumes [1] [Mercenary (Numidian)]",
          "Can be purchased with [Gold] [in all cities]",
          "Unbuildable",
@@ -2887,7 +2890,6 @@
     "promotions": [
       "[Horseman] ability",
       "Cavalry Shield I",
-      "[Maneuver]",
       "Raider I",
       "Mercenary",
     ],

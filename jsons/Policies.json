@@ -3149,12 +3149,17 @@
         "uniques": [
                     "Only available <after adopting [Numidian Culture]> <hidden from users>",
                     "[1] free [Great Scholar] units appear",
-                    "Earn [10]% of killed [Military] unit's [Strength] as [Science]",
+                    "Earn [20]% of killed [Military] unit's [Strength] as [Science]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Mounted Skirmisher]","Provides [1] [Enable Mounted Skirmisher] <hidden from users>",
-        	    "Provides [1] [Mercenary (Numidian)]",
+        	    "Provides [2] [Mercenary (Numidian)]",
                     "Provides [1] [PunicOrNumidian] <hidden from users>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",	
+			"[Gold] cost of purchasing [Mercenary War Elephant] units [-20]%",	
+			"[Gold] cost of purchasing [Numidian Mercenary] units [-10]%",
+        	"[+20]% Yield from pillaging tiles <for [Mounted Archery] units>",
+        	"[+20]% Yield from pillaging tiles <for [Mounted] units>",
+
         ],
         "policies": [
 {
