@@ -47,7 +47,7 @@
 	"Remove [Risk of PLAGUE II] [in all cities] <when above [25] [Cities]> <hidden from users>"
 	"Gain a free [Risk of PLAGUE III] [in all cities] <when above [26] [Cities]>",
 	"Comment [Unit Upkeep]",
-	"[-1 Gold] <for every [[Archery] Units]>",
+	"[-2 Gold] <for every [[Archery] Units]>",
 	"[-1 Gold] <for every [[Spear] Units]>",
 	"[-1 Gold] <for every [[Sword] Units]>",
 
@@ -58,15 +58,15 @@
 	"[-5 Gold] <for every [[Cataphract] Units]>",
 	"[-8 Gold] <for every [[Clibanarii] Units]>",
 
-	"[-5 Gold] <for every [[Siege] Units]>",
+	"[-10 Gold] <for every [[Siege] Units]>",
 
 	"[-2 Gold] <for every [[Infantry Shield III] Units]>",
 	"[-1 Gold] <for every [[Infantry Shield II] Units]>",
 
-	"[-3 Gold] <for every [[Praetoria] Units]>",
+	"[-5 Gold] <for every [[Praetoria] Units]>",
 	"[-3 Gold] <for every [[Veterans] Units]>",
 
-	"[-3 Gold] <for every [[Elephant] Units]>",
+	"[-4 Gold] <for every [[Elephant] Units]>",
 	"[-8 Gold] <for every [[Armored Elephant] Units]>",
 
 	"[-3 Gold] <for every [[Mercenary] Units]>",
@@ -77,9 +77,10 @@
 	"[-4 Gold] <for every [[Hexere] Units]>",
 	"[-10 Gold] <for every [[Decere] Units]>",
 
-	"[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles>",
+	"[-2 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles>",
 	"[-1 Gold] <for every [[Military] Units]> <when at war>",
 	"[-2 Gold] <for every [[Civilian] Units]>",
+	"[-2 Gold] <for every [[Civilian] Units]> <when at war>",
 	"Cannot be traded <hidden from users>",
 	"Doesn't generate naturally <hidden from users>",
 		]
@@ -282,6 +283,7 @@
 	"[+15]% Food consumption by [Population] [in this city] <in cities with at least [23] [Population]>",
 
 	"[-30]% growth [in all cities]",
+	"[-20]% growth [in all cities] <when at war>",
 	"[-10]% growth [in this city] <in cities with between [4] and [8] [Population]>",
 	"[-15]% growth [in this city] <in cities with between [9] and [13] [Population]>",
 	"[-20]% growth [in this city] <in cities with between [14] and [17] [Population]>",

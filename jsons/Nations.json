@@ -1378,7 +1378,7 @@
 	"[+2] XP gained from combat <for [Mercenary] units>",
         "[+1 Happiness, +1 Gold] from every [Harbor]",
         "[+3 Happiness, +5 Gold] from every [Great Harbor]",
-        "[+1 Gold] from [Coast] tiles [in all cities]",
+        "[+1 Gold] from [Coast] tiles [in capital]",
         "[+1 Gold] from [Coast] tiles [in all cities] <when not at war>",
         "[+1 Gold, +1 Happiness] from [Trading post] tiles [in all coastal cities]",
         "[+1 Gold] from [Village] tiles [in all cities]",

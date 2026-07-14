@@ -1335,7 +1335,7 @@
             "Only available <if [Provincial Governors] is constructed> <when above [99] [Gold]> <hidden from users>",
 	    "Gain [-100] [Gold]"
             "[+2 Happiness] [in capital] <for [5] turns>",
-            "[+2 Gold] [in all cities] <for [5] turns>",
+            "[-2 Gold] [in all cities] <for [5] turns>",
             "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
             "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"
         ]
@@ -1437,7 +1437,7 @@
             "text": "Authorize the Provincial Governors to restore order",
             "uniques": [
                 "Only available <if [Provincial Governors] is constructed>",
-                "[+1 Happiness, +1 Gold] [in all cities] <for [5] turns>",
+                "[+1 Happiness, -2 Gold] [in all cities] <for [5] turns>",
                 "Remove [REBEL IMMINENT] [in your cities] <with [50]% chance>",
                 "Free [Great Merchant] appears <with [5]% chance> <hidden from users>",
                 "Instantly provides [1] [RE] <when below [10] [RE]> <with [30]% chance> <hidden from users>"

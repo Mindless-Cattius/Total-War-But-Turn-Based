@@ -127,16 +127,16 @@
         "Free [Foot Guard] appears <upon turn end> <with [3]% chance> <when above [0] [Veteran]> <when above [3] [Manpower]> <starting from the [Classical Age]> <for [AI player] Civilizations>",
 //free unit
 
-        "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [2] [Manpower]> <upon founding a city>",
-        "Free [Spearman] appears <when above [11] [Happiness]> <when above [3] [Manpower]> <upon founding a city>",
+        "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [1] [Manpower]> <upon founding a city>",
+        "Free [Spearman] appears <when above [11] [Happiness]> <when above [2] [Manpower]> <upon founding a city>",
 
         "Free [General] appears <upon turn end> <when above [0] [Nobles]> <before adopting [Nomad Culture]> <with [1]% chance> <starting from the [Hellenistic Age]>",
         "Free [General] appears <upon turn end> <when above [3] [Nobles]> <before adopting [Nomad Culture]> <with [1]% chance>",
         "Free [Nomad Nobles] appears <upon turn end> <when above [0] [Nobles]> <after adopting [Nomad Culture]> <with [1]% chance> <starting from the [Hellenistic Age]>",
         "Free [Nomad Nobles] appears <upon turn end> <when above [3] [Nobles]> <after adopting [Nomad Culture]> <with [1]% chance>",
 
-        "Free [Spearman] appears <upon turn end> <when above [30] [Manpower]> <with [2]% chance> <before the [Imperial Age]>",
-        "Free [Skirmisher] appears <upon turn end> <when above [20] [Manpower]> <with [2]% chance> <before the [Imperial Age]>",
+        "Free [Spearman] appears <upon turn end> <when above [30] [Manpower]> <with [1]% chance>",
+        "Free [Skirmisher] appears <upon turn end> <when above [20] [Manpower]> <with [1]% chance>",
         "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
 
 
