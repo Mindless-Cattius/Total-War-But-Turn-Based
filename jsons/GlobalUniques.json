@@ -5,6 +5,9 @@
 
 // GLOBAL,
 
+
+
+
 	"Cannot build [Settler] units <if [Peloponnese War] is constructed by anybody>",
 	"Cannot build [Settler] units <if [3rd Century Crisis] is constructed by anybody>",
 	"Cannot build [Settler] units <if [Grand Campaign] is constructed by anybody>",
@@ -26,7 +29,10 @@
 	"Instantly provides [1] [NomadOrEastern] <after adopting [Nomad Culture]>",
 	"Instantly provides [1] [NomadOrEastern] <after adopting [Eastern Culture]>",
 
+//PROMOTION
 
+"[+30 Gold] <for every [[War Mobilization] Units]> <when at war>",
+"[+30 Gold] <for every [[Civil Administration] Units]> <when not at war>",
 						//Units
 	"[+1] Movement <for [Military] units> <when adjacent to a [Imperium III] unit>",
 	"[+2] XP gained from combat <for [Military] units> <when adjacent to a [Inspiring] unit>",

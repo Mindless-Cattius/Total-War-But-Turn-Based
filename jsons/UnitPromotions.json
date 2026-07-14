@@ -1188,7 +1188,7 @@
 	"uniques": [
 		"Ignores Zone of Control",
 	],
-    	"row": 55,
+    	"row": 54,
 	"column": 4
 	},
 	{
@@ -1198,7 +1198,7 @@
 	"uniques": [
 		"No movement cost to pillage",
 	],
-    	"row": 56,
+    	"row": 55,
 	"column": 4
 	},
 	{
@@ -1208,9 +1208,29 @@
 	"uniques": [
 		"Earn [50]% of the damage done to [Military] units as [Gold]",
 	],
-    	"row": 57,
+    	"row": 56,
 	"column": 4
 	},
+{
+	"name": "Civil Administration",
+	"prerequisites": ["Gravitas III"],
+	"unitTypes": ["Ruler","Generals"],
+	"uniques": [
+		"Comment [+30 Gold when not at war]"
+	],
+	"row": 57,
+	"column": 4
+},
+{
+	"name": "War Mobilization",
+	"prerequisites": ["Imperium III"],
+	"unitTypes": ["Ruler","Generals"],
+	"uniques": [
+		"Comment [+30 Gold when at war]"
+	],
+	"row": 58,
+	"column": 5
+}
 
 	// Base Units
 	{
