@@ -195,7 +195,6 @@
       		"name": "Cohort Reformation",
         	"era": "Hellenistic Age",
       		"uniques": [
-                    	"Comment [Enables Legion]","Provides [1] [Enable Legion] <hidden from users>",
                     	"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
         		"[+10]% Strength <when attacking> <for [Archery] units>",
         		"[+10]% Strength <when defending> <for [Scout] units> <when fighting in [Enemy Land] tiles>",
