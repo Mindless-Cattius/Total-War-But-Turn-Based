@@ -2580,7 +2580,7 @@
   {
     "name": "Silver Shield",
     "hurryCostModifier": 40,
-    "unitType": "Sword",
+    "unitType": "Spear",
     "movement": 3,
     "strength": 16,
     "cost": 140,
@@ -2596,39 +2596,13 @@
          "Can only be built <after adopting [Hellenistic Culture]> <hidden from users>"
     ],
     "promotions": [
+	"[Spearman] ability",
 	"Praetorianus",
       "Infantry Shield II",
 	"Veterans",
     ],
     "attackSound": "march"
-  },
-  {
-    "name": "Spear Silver Shield",
-    "hurryCostModifier": 40,
-    "unitType": "Sword",
-    "movement": 3,
-    "strength": 15,
-    "cost": 140,
-    "uniques": [
-         "Comment [-Spear Silver Shield elite guard infantry specialized in anti-cavalry tactics, originally formed as disciplined medium spear formations within the Macedonian royal guard system.\nOver time they evolved into heavier, more specialized infantry designed to counter mounted threats while maintaining elite cohesion and battlefield reliability.\nThey represent the state’s polite way of saying cavalry is no longer welcome here.\n• Elite Heavy Spear Infantry]",
-         "Can only be built <in cities with a [Army Barracks]> <before the [Imperial Age]>",
-         "Can only be built <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
-         "[+40]% Strength <during the [Imperial Age]>",
-         "[+50]% production cost <during the [Imperial Age]>",
-         "Consumes [4] [Manpower]",
-         "Consumes [1] [Veteran]",
-         "Consumes [1] [Iron] <during the [Imperial Age]>",
-         "Can only be built <after adopting [Hellenistic Culture]> <hidden from users>"
-    ],
-    "promotions": [
-	"Praetorianus",
-      	"Infantry Shield III",
-	"Veterans",
-    ],
-    "attackSound": "march"
-  },
-
-				/////HELLENIC
+  },				/////HELLENIC
 
   {
     "name": "Thessalian Cavalry",

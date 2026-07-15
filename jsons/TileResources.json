@@ -77,8 +77,8 @@
 	"[-4 Gold] <for every [[Hexere] Units]>",
 	"[-10 Gold] <for every [[Decere] Units]>",
 
-	"[-2 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles>",
-	"[-1 Gold] <for every [[Military] Units]> <when at war>",
+	"[-2 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <for [Human player] Civilizations>",
+	"[-1 Gold] <for every [[Military] Units]> <when at war> <for [Human player] Civilizations>",
 	"[-2 Gold] <for every [[Civilian] Units]>",
 	"[-2 Gold] <for every [[Civilian] Units]> <when at war>",
 	"Cannot be traded <hidden from users>",
