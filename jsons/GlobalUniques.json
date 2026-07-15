@@ -31,8 +31,11 @@
 
 //PROMOTION
 
-"[+30 Gold] <for every [[War Mobilization] Units]> <when at war>",
-"[+30 Gold] <for every [[Civil Administration] Units]> <when not at war>",
+"[+10 Gold] <for every [[War Mobilization] Units]> <when at war>",
+"[+15 Gold] <for every [[Civil Administration] Units]> <when not at war>",
+"[+8 Happiness] <for every [[Civil Concordia] Units]> <when at war>",
+"[+5 Happiness] <for every [[Gloria Militaris] Units]> <when not at war>",
+
 						//Units
 	"[+1] Movement <for [Military] units> <when adjacent to a [Imperium III] unit>",
 	"[+2] XP gained from combat <for [Military] units> <when adjacent to a [Inspiring] unit>",

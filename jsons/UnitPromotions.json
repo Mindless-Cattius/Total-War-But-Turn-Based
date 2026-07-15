@@ -1223,7 +1223,7 @@
 	"prerequisites": ["Gravitas III"],
 	"unitTypes": ["Ruler","Generals"],
 	"uniques": [
-		"Comment [+30 Gold when not at war]"
+		"Comment [+15 Gold when not at war]"
 	],
 	"row": 57,
 	"column": 4
@@ -1233,11 +1233,31 @@
 	"prerequisites": ["Imperium III"],
 	"unitTypes": ["Ruler","Generals"],
 	"uniques": [
-		"Comment [+30 Gold when at war]"
+		"Comment [+10 Gold when at war]"
 	],
 	"row": 58,
-	"column": 5
-}
+	"column": 4
+},
+{
+	"name": "Gloria Militaris",
+	"prerequisites": ["Virtus III"],
+	"unitTypes": ["Ruler","Generals"],
+	"uniques": [
+		"Comment [+5 Happiness when at war]"
+	],
+	"row": 59,
+	"column": 4
+},
+{
+	"name": "Civil Concordia",
+	"prerequisites": ["Prudentia III"],
+	"unitTypes": ["Ruler","Generals"],
+	"uniques": [
+		"Comment [+8 Happiness when not at war]"
+	],
+	"row": 60,
+	"column": 4
+},
 
 	// Base Units
 	{
