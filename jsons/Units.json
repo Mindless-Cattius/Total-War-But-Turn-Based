@@ -973,6 +973,7 @@
          "Can only be built <with [Enable Mounted Skirmisher]> <hidden from users>",
          "Can only be built <in cities with a [Skirmisher Barracks]> <without [NomadOrEastern]> <hidden from users>",
          "Can only be built <in cities with a [Archery Range]> <with [NomadOrEastern]> <hidden from users>",
+	"Can upgrade to [Mounted Armored Skirmisher] <for units with [Veterans]>",
 	 "[This Unit] loses the [[Chariot] ability] promotion <hidden from users>",
   ],
   "promotions": [
@@ -1288,6 +1289,7 @@
          "Comment [-Elite armored skirmish cavalry built around the revolutionary concept that harassing the enemy is easier when the enemy struggles to kill you.\nCombining mobility, protection, and ranged firepower, they excel at exhausting opponents through a long series of highly personal inconveniences.\nToo heavily equipped to be true horse archers, too mobile to be proper heavy cavalry, and perfectly content with that arrangement.\n• Elite Heavy Mounted Skirmisher]",
          "Can only be built <in cities with a [Cavalry Barracks]>",
          "Can only be built <with [Enable Mounted Armored Skirmisher]>",
+	 "Can move after attacking", 
          "[-1] Range",
          "Consumes [5] [Manpower]",
          "Consumes [1] [Veteran]",
