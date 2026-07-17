@@ -5570,19 +5570,7 @@
                 "Triggers the following global alert: [[Pontus Euxinus] has been united under a single realm.]",
                 "Instantly provides [1] [Pontus Euxinus P] <hidden from users>"
             ]
-        },
-        {
-            "text": "Recruit the Steppe Horsemen",
-            "uniques": [
-                "Only available <when above [3499] [Gold]> <when below [1] [Enable Horse Archer]>",
-                "Gain [-3500] [Gold]",
-                "Instantly provides [1] [Enable Horse Archer]",
-		"[-3 Culture] [in capital] <for [10] turns>",
-                "Triggers the following global alert: [[Pontus Euxinus] has been united under a single realm.]",
-                "Instantly provides [1] [Pontus Euxinus P] <hidden from users>"
-            ]
-        },
-        {
+        },        {
             "text": "Recruit the Steppe Horsemen",
             "uniques": [
                 "Only available <when above [499] [Gold]> <when above [0] [Enable Horse Archer]>",

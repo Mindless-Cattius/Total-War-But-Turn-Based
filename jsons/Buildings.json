@@ -1578,8 +1578,7 @@
 	"cityHealth": 20,
 	"cityStrength": 1,
 	"uniques": [
-		"Comment [Archers win battles by hitting enemies from a respectable distance, which is a timeless survival strategy.\n•Training: Archer, Slinger]",
-		"Comment [\n•Training: Mounted Skirmisher] <with [NomadOrEastern]>",
+		"Comment [Archers win battles by hitting enemies from a respectable distance, which is a timeless survival strategy.\n•Training: Archer, Slinger, Mounted Skirmisher]",
 		"Only available <in cities with a [Urban Fabric II]>",
 		"Provides [1] [Manpower]",
 		"Cost increases by [2] per owned city",
@@ -2116,7 +2115,6 @@
 	"cityStrength": 2,
 	"uniques": [
 		"Comment [Skirmishers thrived on speed and confusion, proving that not every battle required standing politely in formation.\n•Training:  Veteran Skimisher, Veteran Archery units]",
-		"Comment [•Training: Mounted Skirmisher] <without [NomadOrEastern]>",
 		"Only available <in cities with a [Urban Fabric III]> <in cities with a [Archery Range]>",
 		"Only available <in cities without a [Cavalry Barracks]> <hidden from users>",
 		"Only available <in cities without a [Army Barracks]> <hidden from users>",
@@ -4056,6 +4054,7 @@
                 "Comment [The Black Sea basin and surrounding steppe and coastal corridors, where pastoral nomads, port cities, and imperial frontiers intersect. Control here is less about holding land and more about controlling movement.\nLost if Scythia, Ponto Caspia, or Bosporus is lost.]",
                 "[+1 Happiness, +1 Food] from [Pasture] tiles [in this city]",
                 "New [Mounted Archery] units start with [10] XP [in this city]",
+            	"Comment [Enables Horse Archer]","Provides [1] [Enable Horse Archer] <hidden from users>",
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Bosporus]>",
                 "Unbuildable <when below [4] [Scythia Region]> <hidden from users>",

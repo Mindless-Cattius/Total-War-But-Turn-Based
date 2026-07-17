@@ -1414,7 +1414,7 @@
     {
 		"name": "Enable Horse Archer",
 		"resourceType": "Bonus",
-		"uniques": ["Stockpiled","Will not be displayed in Civilopedia"]
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
     {
 		"name": "Enable Mounted Skirmisher",
@@ -1524,7 +1524,7 @@
     {
 		"name": "NomadOrEastern",
 		"resourceType": "Bonus",
-		"uniques": ["Stockpiled","Will not be displayed in Civilopedia"]
+		"uniques": ["Will not be displayed in Civilopedia"]
     },
 	// Mercenary hidden resources
     {

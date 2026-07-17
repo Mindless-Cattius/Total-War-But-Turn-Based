@@ -26,8 +26,8 @@
         "[+50]% Culture cost of adopting new Policies",
 
 						////Civs
-	"Instantly provides [1] [NomadOrEastern] <after adopting [Nomad Culture]>",
-	"Instantly provides [1] [NomadOrEastern] <after adopting [Eastern Culture]>",
+	"Provides [1] [NomadOrEastern] <after adopting [Nomad Culture]>",
+	"Provides [1] [NomadOrEastern] <after adopting [Eastern Culture]>",
 
 //PROMOTION
 

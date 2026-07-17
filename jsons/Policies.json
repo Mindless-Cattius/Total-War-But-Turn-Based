@@ -160,6 +160,7 @@
                 "requires": ["Manipular Legions"],
                 "uniques": [
 			"Only available <before adopting [Auxilia]>","Comment [Only available before adopting Auxilia]"
+            "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
 			"Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",    
                     	"Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",               
         		"[+1 Faith, +1 Gold] from every [Temple]",
