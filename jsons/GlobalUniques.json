@@ -121,6 +121,16 @@
         "Free [Siege Tower] appears <when at war> <with [3]% chance> <for [AI player] Civilizations> <starting from the [Hellenistic Age]> <before adopting [Nomad Culture]>",
         "Free [Battering Ram] appears <when at war> <with [1]% chance> <for [AI player] Civilizations> <starting from the [Classical Age]> <after adopting [Nomad Culture]>",
         "Free [Siege Tower] appears <when at war> <with [1]% chance> <for [AI player] Civilizations> <starting from the [Hellenistic Age]> <after adopting [Nomad Culture]>",
+        "Free [Ballista] appears <with [1]% chance> <when above [5] [Manpower]> <when above [1] [Timber]> <for [AI player] Civilizations> <after discovering [Engineering]>",
+
+        "Gain a free [Food Imports] [in capital] <for [AI player] Civilizations> <after discovering [Currency]>",
+        "Gain a free [Horse Imports] [in capital] <for [AI player] Civilizations> <after discovering [The Wheel]>",
+        "Gain a free [Copper Imports] [in capital] <for [AI player] Civilizations> <after discovering [Bronze Working]>",
+        "Gain a free [Bronze Imports] [in capital] <for [AI player] Civilizations> <after discovering [Citizen Levy]>",
+        "Gain a free [Iron Imports] [in capital] <for [AI player] Civilizations> <after discovering [Heavy Infantry]>",
+        "Gain a free [Timber Imports] [in capital] <for [AI player] Civilizations> <after discovering [Woodworking]>",
+        "Gain a free [Elephant Imports] [in capital] <for [AI player] Civilizations> <after discovering [Equestrian Class]>",
+
 	"[+20]% Health from pillaging tiles <for [Mounted Archery] units> <for [AI player] Civilizations> <after adopting [Nomad Culture]>",
 	"[+20]% Health from pillaging tiles <for [Mounted] units> <for [AI player] Civilizations> <after adopting [Nomad Culture]>",
 
