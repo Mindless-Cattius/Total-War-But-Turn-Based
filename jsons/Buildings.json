@@ -2058,7 +2058,6 @@
 		"[+1 Gold, +1 Happiness] from [Village] tiles [in this city]",
 		"Provides [3] [Manpower]",
 		"Provides [1] [Decadence]",
-		"Consumes [1] [Rebel Risk] <when above [5] [Rebel Risk]>",
 		"[+10]% Production when constructing [Spearman] units [in this city]",
 		"[+10]% Production when constructing [Swordsman] units [in this city]",
 		"New [Spearman] units start with [10] XP [in this city]",
@@ -2093,7 +2092,6 @@
 		"[+1 Food] from [Horses] tiles [in this city] <for [The Scythians] Civilizations>",
 		"Provides [3] [Manpower]",
 		"Provides [1] [Decadence]",
-		"Consumes [1] [Rebel Risk] <when above [5] [Rebel Risk]>",
 		"[+10]% Production when constructing [Mounted] units [in this city]",
 		"[+10]% Production when constructing [Mounted Archery] units [in this city]",
 		"New [Horseman] units start with [10] XP [in this city]",
@@ -2122,7 +2120,6 @@
 		"[+1 Food, +1 Happiness] from [Village] tiles [in this city]",
 		"Provides [4] [Manpower]",
 		"Provides [1] [Decadence]",
-		"Consumes [1] [Rebel Risk] <when above [5] [Rebel Risk]>",
 		"[+10]% Production when constructing [Spear] units [in this city]",
 		"[+10]% Production when constructing [Archery] units [in this city]",
 		"[+10]% Production when constructing [Scout] units [in this city]",
@@ -2759,7 +2756,7 @@
 		"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
 		"Provides [1] [Manpower]",
 		"Consumes [1] [Sanitation]",
-		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
+		"Consumes [1] [Rebel Risk] <when above [3] [Rebel Risk]>",
 		"Cost increases by [3] per owned city",
 		"[+1000]% weight to this choice for AI decisions"
 	]
@@ -3120,7 +3117,7 @@
 	"specialistSlots": {"Scholar": 1},
 	"uniques": [
 		"Comment [No one remembers who placed the extra chair in the council chamber. No one dares remove it, either. Politics has always reserved a seat for someone who isn't officially present.]",
-		"Consumes [1] [Rebel Risk]",
+		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
 		"[-4 Faith, +2 Science, +1 Happiness, +1 Culture, +1 Production]",
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",

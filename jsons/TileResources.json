@@ -342,9 +342,9 @@
 		"resourceType": "Strategic",
 		"uniques": [
 	"Gain a free [REBEL IMMINENT] [in resisting cities] <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [Garrison Post]> <with [1]% chance> <when between [1] and [5] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [Garrison Post]> <with [2]% chance> <when between [6] and [10] [Rebel Risk]> <for [Human player] Civilizations>",
-	"Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [Garrison Post]> <with [3]% chance> <when between [11] and [13] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [Garrison Post]> <with [1]% chance> <when between [1] and [3] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [Garrison Post]> <with [2]% chance> <when between [4] and [8] [Rebel Risk]> <for [Human player] Civilizations>",
+	"Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [Garrison Post]> <with [3]% chance> <when between [9] and [13] [Rebel Risk]> <for [Human player] Civilizations>",
 	"Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [Garrison Post]> <with [4]% chance> <when between [14] and [16] [Rebel Risk]> <for [Human player] Civilizations>",
 	"Gain a free [REBEL IMMINENT] [in your cities] <in cities without a [Garrison Post]> <with [5]% chance> <when above [16] [Rebel Risk]> <for [Human player] Civilizations>",
 			"Cannot be traded <hidden from users>",
