@@ -1372,15 +1372,16 @@
 
     "outerColor": [0, 100, 100],
     "innerColor": [240, 221, 155],
-    "style": "Greek",
+    "style": "Syracusan",
 
     "uniqueName": "Masters of Magna Graecia",
     "uniques": [
         "Starts with [Hellenic Culture] adopted",
 	 "Comment [STRENGTH: Maritime trade powerhouse with strong coastal economy, fortified cities, and mercenary-driven warfare.]",
         "Gain a free [Harbor] [in capital] <in [Coastal] cities>",
-	"[+2] XP gained from combat <for [Mercenary] units>",
-        "[+1 Happiness, +1 Gold] from every [Harbor]",
+	"[+1] XP gained from combat <for [Mercenary] units>",
+        "[+1 Gold] from every [Anchorage]",
+        "[+1 Happiness, +2 Gold] from every [Harbor]",
         "[+3 Happiness, +5 Gold] from every [Great Harbor]",
         "[+1 Gold] from [Coast] tiles [in capital]",
         "[+1 Gold] from [Coast] tiles [in all cities] <when not at war>",
@@ -1399,7 +1400,6 @@
 	"[Gold] cost of purchasing [Oscan Mercenary] units [-20]%",
 	"[Gold] cost of purchasing [Mercenary Libyan Heavy Spearman] units [-20]%",
 	"[Gold] cost of purchasing [Mercenary Libyan Heavy Swordsman] units [-20]%",
-	"[Gold] cost of purchasing [Libyan Chariot Archer] units [-20]%",
 	"[Gold] cost of purchasing [Numidian Mercenary] units [-20]%"
         "Comment [-3 Gold Upkeep for Mercenary Units when at war]",
 	"[+3 Gold] <for every [[Mercenary] Units]> <when at war> <hidden from users>",
@@ -1408,6 +1408,7 @@
 	"Provides [1] [Mercenary (Rhodian)]",
 	"Comment []",
 	"Comment [WEAKNESS: high mercenary dependency, costly warfare abroad, and unstable wartime economy.]",
+    	"[-10]% Strength <when attacking> <for units without [Mercenary]> <when fighting in [Enemy Land] tiles>",
         "[-25]% Production when constructing [{Military} {Land}] units [in all cities]",
         "[-1 Gold] [in all coastal cities] <when at war>",
 	"[-20]% Production when constructing [{Military} {Land}] units [in all cities]",
