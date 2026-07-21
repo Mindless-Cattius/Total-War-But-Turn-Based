@@ -1149,16 +1149,17 @@
 
   {
     "name": "Foot Guard",
-    "unitType": "Sword",
+    "unitType": "Spear",
     "hurryCostModifier": 40,
     "movement": 2,
     "strength": 15,
     "cost": 100,
+    "requiredTech": "Equestrian Class",
     "uniques": [
          "Comment [-Elite sword infantry drawn from the most experienced and trusted warriors of the realm.\nWhether serving as royal guards, companion infantry, or household troops, their presence on the battlefield often mattered as much as their combat ability.\nHistorically, these units protected rulers, inspired nearby soldiers, and received the dangerous privilege of being sent wherever the fighting was worst.\n• Heavy Sword Infantry]",
          "Can only be built <in cities with a [Palace]>",
-         "[+10]% Strength <during the [Hellenistic Age]>",
-         "[+20]% Strength <during the [Imperial Age]>",
+         "[+3] Strength <during the [Hellenistic Age]>",
+         "[+3] Strength <during the [Imperial Age]>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "[+40]% production cost <during the [Imperial Age]>",
          "Consumes [4] [Manpower]",
@@ -1168,6 +1169,7 @@
          "Unbuildable <for [The Romans] Civilizations> <during the [Imperial Age]>"
     ],
     "promotions": [
+      "[Spearman] ability",
       "Infantry Shield III"
 	"Veterans"
       "Inspiring"
@@ -1852,7 +1854,7 @@
     "uniqueTo": "The Romans",
     "upgradesTo": "Praetoria",
     "replaces": "Foot Guard",
-    "requiredTech": "Citizen Levy",
+    "requiredTech": "Equestrian Class",
     "movement": 2,
     "strength": 17,
     "cost": 140,
@@ -2529,17 +2531,19 @@
     "movement": 2,
     "strength": 16,
     "cost": 130,
+    "requiredTech": "Equestrian Class",
     "uniques": [
          "Comment [-Hypaspists serving as elite Macedonian royal infantry, trained for flexible battlefield roles between the phalanx and shock troops.\nThey functioned as disciplined close-support soldiers capable of stabilizing formations, exploiting gaps, and ensuring the rest of the army feels emotionally supported through violence.\nReliable, adaptable, and historically used wherever things were about to get complicated.\n• Elite Heavy Infantry]",
          "Can only be built <in cities with a [Palace]>",
-         "[+20]% Strength <during the [Imperial Age]>",
-         "[+10]% Strength <during the [Hellenistic Age]>",
+         "[+3] Strength <during the [Hellenistic Age]>",
+         "[+3] Strength <during the [Imperial Age]>",
          "[+40]% production cost <during the [Imperial Age]>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "Consumes [4] [Manpower]",
          "Consumes [1] [Veteran]"
     ],
     "promotions": [
+      "[Spearman] ability",
       "Infantry Shield III",
       "Assault I"
       "Inspiring",
@@ -2736,13 +2740,14 @@
     "movement": 2,
     "strength": 16,
     "cost": 140,
+    "requiredTech": "Equestrian Class",
     "uniques": [
          "Comment [-Royal Spartan elite guard infantry, drawn from the highest tier of Spartan military training and aristocratic selection, functioning as both battlefield shock troops and walking psychological pressure.\nThey excel at breaking enemy morale through disciplined aggression, synchronized violence, and an unsettling lack of visible hesitation.\nLess a unit, more an announcement that negotiations have officially ended.\n• Elite Guard Infantry]",
          "Can only be built <in cities with a [Palace]>",
-         "[+20]% Strength <during the [Imperial Age]>",
-         "[+10]% Strength <during the [Hellenistic Age]>",
-         "[+40]% production cost <during the [Imperial Age]>",
+         "[+3] Strength <during the [Imperial Age]>",
+         "[+3] Strength <during the [Hellenistic Age]>",
          "[+20]% production cost <during the [Hellenistic Age]>",
+         "[+40]% production cost <during the [Imperial Age]>",
          "Consumes [4] [Manpower]",
          "Consumes [1] [Bronze]",
          "Consumes [1] [Veteran]"

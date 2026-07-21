@@ -136,7 +136,7 @@
 
 //AI free unit
 
-        "Free [Foot Guard] appears <upon turn end> <with [3]% chance> <when above [0] [Veteran]> <when above [3] [Manpower]> <starting from the [Classical Age]> <for [AI player] Civilizations>",
+        "Free [Foot Guard] appears <upon turn end> <with [3]% chance> <when above [0] [Veteran]> <when above [3] [Manpower]> <after discovering [Equestrian Class]> <for [AI player] Civilizations>",
 //free unit
 
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [1] [Manpower]> <upon founding a city>",
