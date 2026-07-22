@@ -70,6 +70,7 @@
     "uniques": [
 		"Comment [-A spontaneous gathering of citizens expressing constructive feedback through violence.\nUsually forms when taxes rise, food runs out, or a magistrate discovers a creative new way to be hated.\nPoorly trained, poorly equipped, and poorly supervised. Unfortunately for everyone involved, they are rarely short on enthusiasm.\n• Light Shock Infantry]",
       		"Consumes [1] [Manpower]",
+      		  
 		"[-20]% Strength <vs [Mounted] units> <when defending>",
 		"[+10]% Strength <when fighting in [Friendly Land] tiles>",
 		"Can only be built <with [Enable Angry Mob]> <hidden from users>",
@@ -257,6 +258,7 @@
          "[+150]% Strength <vs cities> <when attacking>",
          "Consumes [2] [Manpower]",
          "Consumes [1] [Timber]",
+      	   
          "Never appears as a Barbarian unit",
          "Can only be built <with [Enable Ballista]> <hidden from users>"
     ],
@@ -283,6 +285,7 @@
          "[+180]% Strength <vs cities> <when attacking>",
          "Consumes [3] [Manpower]",
          "Consumes [2] [Timber]",
+      	   
          "Never appears as a Barbarian unit"
     ],
     "hurryCostModifier": 40,
@@ -296,14 +299,18 @@
     "unitType": "Generals",
     "hurryCostModifier": 40,
     "movement": 3,
-    "strength": 14,
+    "strength": 13,
     "cost": 400,
     "requiredTech": "Infantry Training",
     "uniques": [
          "Comment [-A battlefield commander trained to turn organized violence into something vaguely resembling strategy.\nThey coordinate troops, enforce discipline, and take credit for outcomes decided 40% by planning and 60% by panic.\nHistorically, generals were as important for winning wars as they were for explaining why the losses were “part of the plan.”\n• Can be the Ruler after being choose as Successor]",
          "Can only be built <in cities with a [Army Barracks]>",
-         "[+20]% Strength <during the [Imperial Age]>",
+         "[+2] Strength <during the [Hellenistic Age]>",
+         "[+4] Strength <during the [Imperial Age]>",
          "[+80]% production cost <during the [Imperial Age]>",
+         "Consumes [1] [Nobles]",
+      	   
+
          "Can upgrade to [Consul] <for units with [Successor]> <after adopting [Manipular Legions]> <before adopting [Empire]> <hidden from users>",
          "Can upgrade to [Consul] <for units with [Successor II]> <after adopting [Manipular Legions]> <before adopting [Empire]> <hidden from users>",
          "Can upgrade to [Consul] <for units with [Successor III]> <after adopting [Manipular Legions]> <before adopting [Empire]> <hidden from users>",
@@ -313,7 +320,7 @@
          "Can upgrade to [Emperor] <for units with [Successor II]> <after adopting [Empire]> <hidden from users>",
          "Can upgrade to [King] <for units with [Successor III]> <before adopting [Empire]> <hidden from users>",
          "Can upgrade to [Emperor] <for units with [Successor III]> <after adopting [Empire]> <hidden from users>",
-         "Consumes [1] [Nobles]",
+
 	 "[This Unit] gets a name from the [Latin] group <after adopting [Latin Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
@@ -345,15 +352,20 @@
 	 "Can remove other religions from cities <[1] times>",
          "[+30]% production cost <during the [Hellenistic Age]>",
          "[+50]% production cost <during the [Imperial Age]>",
-         "[+20]% Strength <during the [Imperial Age]>",
+         "[+5] Strength <during the [Imperial Age]>",
+         "[+3] Strength <during the [Hellenistic Age]>",
          "Cannot be purchased",
          "Consumes [1] [Ruler]",
+      	   
          "Remove [A Noble's Death] [in all cities]",
+
          "Can only be built <before adopting [Empire]> <hidden from users>",
+
          "[This Unit] is destroyed <after adopting [Manipular Legions]> <hidden from users>",
          "[This Unit] is destroyed <after adopting [Empire]> <hidden from users>",
          "Unavailable <after adopting [Manipular Legions]> <hidden from users>",
          "Unavailable <after adopting [Nomad Culture]> <hidden from users>",
+
 	 "[This Unit] gets a name from the [Latin] group <after adopting [Latin Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
 	 "[This Unit] gets a name from the [Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
@@ -375,17 +387,18 @@
     "name": "Emperor",
     "unitType": "Ruler",
     "movement": 3,
-    "strength": 14,
-    "cost": 120,
+    "strength": 15,
+    "cost": 140,
     "uniques": [
          "Comment [-The final evolution of centralized authority, where governance becomes indistinguishable from performance art.\nAn Emperor rules not by proximity to the people, but by distance from consequences.\nHistory tends to describe them as “visionary” or “disastrous,” rarely anything in between.\n• Ruler]",
          "Can only be built <after adopting [Empire]> <hidden from users>",
          "Can only be built <in [Capital] cities>",
 	 "Can remove other religions from cities <[1] times>",
-         "[+20]% production cost <during the [Hellenistic Age]>",
-         "[+40]% production cost <during the [Imperial Age]>",
-         "[+20]% Strength <during the [Imperial Age]>",
+         "[+50]% production cost <during the [Imperial Age]>",
+         "[+4] Strength <during the [Imperial Age]>",
+
          "Consumes [2] [Ruler]",
+      	   
          "Remove [A Noble's Death] [in all cities]",
          "Cannot be purchased",
          "Unavailable <after adopting [Nomad Culture]> <hidden from users>",
@@ -424,15 +437,19 @@
          "[This Unit] is destroyed <after adopting [Empire]>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "[+40]% production cost <during the [Imperial Age]>",
-         "[+20]% Strength <during the [Imperial Age]>",
+         "[+2] Strength <during the [Hellenistic Age]>",
+         "[+4] Strength <during the [Imperial Age]>",
          "Consumes [1] [Ruler]",
+      	   
          "Remove [A Noble's Death] [in all cities]",
+
 	 "[This Unit] gets a name from the [Hellenic Athenian] group <hidden from users>",
 	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
 	"Commander",
 	"Amphibious I",
+	"Prudentia I",
     ],
     "attackSound": "horse"
   },
@@ -452,8 +469,11 @@
          "[This Unit] is destroyed <after adopting [Empire]>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "[+40]% production cost <during the [Imperial Age]>",
-         "[+20]% Strength <during the [Imperial Age]>",
+         "[+2] Strength <during the [Hellenistic Age]>",
+         "[+4] Strength <during the [Imperial Age]>",
+
          "Consumes [1] [Ruler]",
+      	   
          "Remove [A Noble's Death] [in all cities]",
 	 "[This Unit] gets a name from the [Punic] group <hidden from users>",
 	 "[This Unit] loses the [Successor] promotion <hidden from users>"
@@ -477,9 +497,11 @@
 	"Can remove other religions from cities <[1] times>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "[+30]% production cost <during the [Imperial Age]>",
-         "[+10]% Strength <during the [Imperial Age]>",
+         "[+2] Strength <during the [Hellenistic Age]>",
+         "[+4] Strength <during the [Imperial Age]>",
          "Consumes [1] [Ruler] <before adopting [Centralized Command]>",
          "Consumes [2] [Ruler] <after adopting [Centralized Command]>",
+      	   
          "Remove [A Noble's Death] [in all cities]",
          "Can transform to [Emperor] <after adopting [Empire]>",
          "Can only be built <after adopting [Manipular Legions]> <hidden from users>",
@@ -507,10 +529,13 @@
 	"Can remove other religions from cities <[1] times>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "[+40]% production cost <during the [Imperial Age]>",
-         "[+20]% Strength <during the [Imperial Age]>",
-         "[+10]% Strength <when defending> <after adopting [Empire]> <hidden from users>",
+         "[+1] Strength <during the [Hellenistic Age]>",
+         "[+3] Strength <during the [Imperial Age]>",
+         "[+2] Strength <when defending> <after adopting [Empire]> <hidden from users>",
+
          "Consumes [1] [Ruler] <before adopting [Empire]>",
          "Consumes [2] [Ruler] <after adopting [Empire]>",
+      	   
          "Remove [A Noble's Death] [in all cities]",
          "Never appears as a Barbarian unit",
          "Cannot be purchased",
@@ -534,9 +559,11 @@
     "uniques": [
          "Comment [-Elite nomadic cavalry nobility trained to shoot arrows, look expensive, and retreat in a socially acceptable manner.\nThey excel at ranged harassment from horseback, a tradition perfected by steppe societies who treated mobility as both strategy and identity.\n• Can become Ruler after being chosen as Successor]",
          "Can only be built <in cities with a [Cavalry Barracks]>",
-         "[+20]% Strength <during the [Imperial Age]>",
+         "[+1] Strength <during the [Hellenistic Age]>",
+         "[+2] Strength <during the [Imperial Age]>",
          "[+80]% production cost <during the [Imperial Age]>",
          "Consumes [1] [Nobles]",
+      	   
          "Can upgrade to [Nomad King] <for units with [Successor]> <hidden from users>",
          "Can upgrade to [Nomad King] <for units with [Successor II]> <hidden from users>",
          "Can upgrade to [Nomad King] <for units with [Successor III]> <hidden from users>",
@@ -564,6 +591,7 @@
     "uniques": [
          "Comment [-Light troops trained to throw things and run away, in that order.\nDeveloped early in organized warfare as a practical solution to “not getting caught.”\nMost effective when morale is high and enemies are confused.\n• Light Skirmisher]",
          "Consumes [1] [Manpower]",
+      	   
 	 "Unavailable <after adopting [Thracian Culture]> <hidden from users>",
     ],
     "attackSound": "nonmetalhit",

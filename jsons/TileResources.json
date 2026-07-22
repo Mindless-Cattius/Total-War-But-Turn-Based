@@ -327,12 +327,13 @@
 			"[+25]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities] <when above [40] [Sanitation]>",
 			"[+80]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities] <in cities with less than [6] [Population]>",
 			"[+50]% Production when constructing [Cure DANGEROUS PLAGUE] buildings [in all cities] <during the [Classical Age]>",
+			"Comment []"
 			"[+15]% Production when constructing [Cure PLAGUE] buildings [in all cities] <when between [5] and [20] [Sanitation]>",
 			"[+20]% Production when constructing [Cure PLAGUE] buildings [in all cities] <when between [21] and [30] [Sanitation]>",
 			"[+25]% Production when constructing [Cure PLAGUE] buildings [in all cities] <when between [31] and [40] [Sanitation]>",
 			"[+30]% Production when constructing [Cure PLAGUE] buildings [in all cities] <when above [40] [Sanitation]>",
 			"[+80]% Production when constructing [Cure PLAGUE] buildings [in all cities] <in cities with less than [6] [Population]>",
-			"[+60]% Production when constructing [Cure PLAGUE] buildings [in all cities] <during the [Classical Age]>",
+			"[+50]% Production when constructing [Cure PLAGUE] buildings [in all cities] <during the [Classical Age]>",
 		"Doesn't generate naturally <hidden from users>"
 			"Cannot be traded <hidden from users>",
 		]
@@ -352,13 +353,11 @@
 ]
     },	    
 {
-		"name": "Decadence",
-		"resourceType": "Strategic",
-		"uniques": [
+	"name": "Decadence",
+	"resourceType": "Strategic",
+	"uniques": [
 		"Cannot be traded",
 		"Doesn't generate naturally",
-//		"City-level resource"
-//		"Stockpiled"
         "[-2]% [Culture] [in all cities] <when above [30] [Decadence]>",
         "[-2]% [Culture] [in all cities] <when above [60] [Decadence]>",
         "[-2]% [Culture] [in all cities] <when above [90] [Decadence]>",
@@ -421,33 +420,53 @@
         "[Great Engineer] is earned [+5]% faster <when above [100] [Decadence]>",
 
 
-        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [30] [Decadence]>",
-        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [60] [Decadence]>",
-        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [90] [Decadence]>",
-        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [120] [Decadence]>",
-        "[+20]% maintenance costs <for [Military] units> <in [Enemy Land] tiles> <when above [150] [Decadence]>",
-
-        "[+20]% maintenance costs <for [Military] units> <when above [30] [Decadence]>",
-        "[+20]% maintenance costs <for [Military] units> <when above [60] [Decadence]>",
-        "[+20]% maintenance costs <for [Military] units> <when above [90] [Decadence]>",
-        "[+20]% maintenance costs <for [Military] units> <when above [120] [Decadence]>",
-        "[+20]% maintenance costs <for [Military] units> <when above [150] [Decadence]>",
+        "[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when above [30] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when above [60] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when above [100] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when above [130] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when above [160] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when above [200] [Decadence]> <for [Human player] Civilizations>",
 
 
-		]
-    },		
+        "[-1 Gold] <for every [[Military] Units]> <when above [30] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <when above [60] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <when above [100] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <when above [130] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <when above [160] [Decadence]> <for [Human player] Civilizations>",
+        "[-1 Gold] <for every [[Military] Units]> <when above [200] [Decadence]> <for [Human player] Civilizations>",
+
+
+		]	
+},	
+{
+	"name": "Supplies",
+	"resourceType": "Strategic",
+	"uniques": [
+		"Comment [Below 0: +1 Unit Upkeep, -2 HP when healing, -20% Strength vs Cities while in Enemy Land.]",
+		"[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when below [0] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
+		"[-2] HP when healing <for [all] units> <in [Enemy Land] tiles> <when below [0] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
+		"[-20]% Strength <vs cities> <for [all] units> <in [Enemy Land] tiles> <when below [0] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
+		"Comment [Below -5: +2 Unit Upkeep, -3 HP when healing, -40% Strength vs Cities while in Enemy Land.]",
+		"[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when below [-4] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
+		"[-1] HP when healing <for [all] units> <in [Enemy Land] tiles> <when below [-4] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
+		"[-20]% Strength <vs cities> <for [all] units> <in [Enemy Land] tiles> <when below [-4] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
+
+			"Doesn't generate naturally <hidden from users>",
+			"Cannot be traded <hidden from users>",
+]
+    },	
     {
-		"name": "Ruler",
-		"resourceType": "Strategic",
-		"uniques": [
+	"name": "Ruler",
+	"resourceType": "Strategic",
+	"uniques": [
+			"Doesn't generate naturally",
 			"Cannot be traded",
 ]
     },
     {
-		"name": "Nobles",
-		"resourceType": "Strategic",
-		"uniques": [
-//		"Cannot be traded <for [City-states]> <hidden from users>",
+	"name": "Nobles",
+	"resourceType": "Strategic",
+	"uniques": [
 		"Cannot be traded",
 		"Doesn't generate naturally",
 		"Comment [Required to generate Great Generals and Great Admirals]",

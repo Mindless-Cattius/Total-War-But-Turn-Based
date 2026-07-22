@@ -89,11 +89,22 @@
 	"Provides [1] [Rebel Risk] <when above [40] [Cities]> <for [Human player] Civilizations>",
 	"Provides [1] [Rebel Risk] <when above [50] [Cities]> <for [Human player] Civilizations>",
 
-//Dificulty
-	"[-10]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [King] difficulty>",
+
+
+//Dificulty-AI Buffs
+	"[+10]% Strength for cities <when defending> <when below [2] [Cities]> <for [AI player] Civilizations> <vs [Human player]>",
+	"[+10]% Strength for cities <when defending> <when below [2] [Cities]> <for [AI player] Civilizations> <vs [Human player]> <on [King] difficulty>",
+	"[+15]% Strength for cities <when defending> <when below [2] [Cities]> <for [AI player] Civilizations> <vs [Human player]> <on [Emperor] difficulty>",
+	"[+20]% Strength for cities <when defending> <when below [2] [Cities]> <for [AI player] Civilizations> <vs [Human player]> <on [Immortal] difficulty>",
+	"[+25]% Strength for cities <when defending> <when below [2] [Cities]> <for [AI player] Civilizations> <vs [Human player]> <on [Deity] difficulty>",
+
+	"[-10]% Strength <when attacking> <vs cities> <for [Me <for [Human player] Civilizations> <on [King] difficulty>",
 	"[-15]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Emperor] difficulty>",
 	"[-20]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Immortal] difficulty>",
 	"[-25]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Deity] difficulty>",
+
+
+	"[+20]% Strength <when attacking> <vs cities> <for [AI player] Civilizations> <vs [AI player]>",
 
 	"[+10]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations>",
 	"[+10]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations> <on [King] difficulty>",
@@ -102,10 +113,10 @@
 	"[+25]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations> <on [Deity] difficulty>",
 
 
-	"Provides [10] [Manpower] <for [AI player] Civilizations> <on [King] difficulty>",
-	"Provides [15] [Manpower] <for [AI player] Civilizations> <on [Emperor] difficulty>",
-	"Provides [20] [Manpower] <for [AI player] Civilizations> <on [Immortal] difficulty>",	
-	"Provides [30] [Manpower] <for [AI player] Civilizations> <on [Deity] difficulty>",
+	"Provides [5] [Manpower] <for [AI player] Civilizations> <on [King] difficulty>",
+	"Provides [10] [Manpower] <for [AI player] Civilizations> <on [Emperor] difficulty>",
+	"Provides [15] [Manpower] <for [AI player] Civilizations> <on [Immortal] difficulty>",	
+	"Provides [20] [Manpower] <for [AI player] Civilizations> <on [Deity] difficulty>",
 
 	"[+10]% Production when constructing [all] buildings [in all cities] <for [AI player] Civilizations> <on [King] difficulty>",
 	"[+15]% Production when constructing [all] buildings [in all cities] <for [AI player] Civilizations> <on [Emperor] difficulty>",
@@ -113,9 +124,9 @@
 	"[+30]% Production when constructing [all] buildings [in all cities] <for [AI player] Civilizations> <on [Deity] difficulty>",
 
 	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [King] difficulty>",
-	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Emperor] difficulty>",
-	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Immortal] difficulty>",
-	"[+10]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Deity] difficulty>",
+	"[+20]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Emperor] difficulty>",
+	"[+30]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Immortal] difficulty>",
+	"[+40]% Production when constructing [all] units [in all cities] <for [AI player] Civilizations> <on [Deity] difficulty>",
 
         "Free [Battering Ram] appears <when at war> <with [3]% chance> <for [AI player] Civilizations> <starting from the [Classical Age]> <before adopting [Nomad Culture]>",
         "Free [Siege Tower] appears <when at war> <with [3]% chance> <for [AI player] Civilizations> <starting from the [Hellenistic Age]> <before adopting [Nomad Culture]>",
