@@ -1673,7 +1673,7 @@
          "Consumes [4] [Manpower]",
          "Consumes [1] [Veteran]",
          "Can only be built <after adopting [Germanic Culture]>",
-         "Never appears as a Barbarian unit <before the [Imperial Age]>",
+         "Never appears as a Barbarian unit <before the [Imperial Age]> <hidden from user>",
          "[This Unit] is destroyed <after adopting [Latin Culture]> <during the [Imperial Age]>",
          "Unbuildable <for [The Romans] Civilizations> <during the [Imperial Age]>"
     ],
