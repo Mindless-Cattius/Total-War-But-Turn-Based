@@ -98,7 +98,7 @@
 	"[+20]% Strength for cities <when defending> <when below [2] [Cities]> <for [AI player] Civilizations> <vs [Human player]> <on [Immortal] difficulty>",
 	"[+25]% Strength for cities <when defending> <when below [2] [Cities]> <for [AI player] Civilizations> <vs [Human player]> <on [Deity] difficulty>",
 
-	"[-10]% Strength <when attacking> <vs cities> <for [Me <for [Human player] Civilizations> <on [King] difficulty>",
+	"[-10]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [King] difficulty>",
 	"[-15]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Emperor] difficulty>",
 	"[-20]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Immortal] difficulty>",
 	"[-25]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Deity] difficulty>",

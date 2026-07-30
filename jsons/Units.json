@@ -1184,7 +1184,7 @@
     "cost": 100,
     "requiredTech": "Equestrian Class",
     "uniques": [
-         "Comment [-Elite sword infantry drawn from the most experienced and trusted warriors of the realm.\nWhether serving as royal guards, companion infantry, or household troops, their presence on the battlefield often mattered as much as their combat ability.\nHistorically, these units protected rulers, inspired nearby soldiers, and received the dangerous privilege of being sent wherever the fighting was worst.\n• Heavy Sword Infantry]",
+         "Comment [-Elite spear infantry drawn from the most experienced and trusted warriors of the realm.\nWhether serving as royal guards, companion infantry, or household troops, their presence on the battlefield often mattered as much as their combat ability.\nHistorically, these units protected rulers, inspired nearby soldiers, and received the dangerous privilege of being sent wherever the fighting was worst.\n• Heavy Spear Infantry]",
          "Can only be built <in cities with a [Palace]>",
          "[+3] Strength <during the [Hellenistic Age]>",
          "[+3] Strength <during the [Imperial Age]>",
@@ -1202,7 +1202,7 @@
 	"Veterans"
       "Inspiring"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "march"
   },  
   {
     "name": "Royal Agema",
@@ -1654,7 +1654,35 @@
     ],
     "attackSound": "horse"
   },
-
+  {
+    "name": "Sword Masters",
+    "unitType": "Sword",
+    "replaces": "Foot Guard",
+    "hurryCostModifier": 40,
+    "movement": 2,
+    "strength": 16,
+    "cost": 100,
+    "requiredTech": "Equestrian Class",
+    "uniques": [
+         "Comment [-Elite sword infantry drawn from the most experienced and trusted warriors of the realm.\nWhether serving as royal guards, companion infantry, or household troops, their presence on the battlefield often mattered as much as their combat ability.\nHistorically, these units protected rulers, inspired nearby soldiers, and received the dangerous privilege of being sent wherever the fighting was worst.\n• Heavy Sword Infantry]",
+         "Can only be built <in cities with a [Palace]>",
+         "[+3] Strength <during the [Hellenistic Age]>",
+         "[+3] Strength <during the [Imperial Age]>",
+         "[+20]% production cost <during the [Hellenistic Age]>",
+         "[+40]% production cost <during the [Imperial Age]>",
+         "Consumes [4] [Manpower]",
+         "Consumes [1] [Veteran]",
+         "Never appears as a Barbarian unit <before the [Imperial Age]>",
+         "[This Unit] is destroyed <after adopting [Latin Culture]> <during the [Imperial Age]>",
+         "Unbuildable <for [The Romans] Civilizations> <during the [Imperial Age]>"
+    ],
+    "promotions": [
+      "[Spearman] ability",
+	"Veterans"
+      "Inspiring"
+    ],
+    "attackSound": "metalhit"
+  },  
 				/////NUMIDIAN & PUNIC
 
   {
@@ -3502,23 +3530,6 @@
       "Infantry Shield II"
     ],
     "attackSound": "metalhit"
-  },
-  {
-    "name": "Barbarian Pike Phalanx",
-    "uniqueTo": "Barbarians",
-    "unitType": "Spear",
-    "movement": 3,
-    "strength": 16,
-    "cost": 100,
-    "requiredTech": "Bronze Working",
-    "uniques": [ 
-		"Cannot be purchased",
-    ],
-    "promotions": [
-      "[Pike Phalanx] ability",
-      "Infantry Shield I",
-    ],
-    "attackSound": "march"
   },
   {
     "name": "Barbarian Swordsman",

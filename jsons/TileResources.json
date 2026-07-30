@@ -2528,7 +2528,7 @@
     		"uniques": [
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Ambrakia] is constructed> <if [Epeiros] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
         		"Free [Athenian Hoplite] appears <upon turn end> <when above [10] [Manpower]> <when above [2] [Bronze]> <with [3]% chance> <for [AI player] Civilizations>",
-        		"Free [Galley] appears <in [coastal cities] cities> <upon turn end> <when above [10] [Manpower]> <with [3]% chance> <for [AI player] Civilizations>",
+        		"Free [Galley] appears <in [Coastal] cities> <upon turn end> <when above [10] [Manpower]> <with [3]% chance> <for [AI player] Civilizations>",
 			"[+40]% Science cost of researching new Technologies",
 		]
   	},
@@ -2538,7 +2538,7 @@
     		"uniques": [
 			"Triggers victory <if [Lakedaimon] is constructed> <if [Argolis] is constructed> <if [Elis] is constructed> <if [Attike] is constructed> <if [Boiotia] is constructed> <if [Aitolia] is constructed> <if [Thessalia] is constructed> <if [Makedonia] is constructed> <if [Kalkidiki] is constructed> <if [Amphipolis] is constructed> <if [Thraike] is constructed> <if [Euboia] is constructed> <if [Krete] is constructed> <if [Aigian] is constructed> <if [Dodekanisa] is constructed>",
         		"Free [Spearman] appears <upon turn end> <when above [10] [Manpower]> <with [4]% chance> <for [AI player] Civilizations>",
-        		"Free [Galley] appears <in [coastal cities] cities> <upon turn end> <when above [10] [Manpower]> <with [2]% chance> <for [AI player] Civilizations>",
+        		"Free [Galley] appears <in [Coastal] cities> <upon turn end> <when above [10] [Manpower]> <with [2]% chance> <for [AI player] Civilizations>",
 			"[+40]% Science cost of researching new Technologies",
 		]
   	},
