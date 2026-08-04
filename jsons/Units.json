@@ -742,7 +742,7 @@
     "cost": 80,
     "requiredTech": "Bronze Working",
     "uniques": [
-         "Comment [-Massed pike infantry organized into disciplined formations designed to project inconvenience at extreme range.\nThey excel at deterring cavalry, holding ground, and making frontal assaults emotionally regrettable.\nTheir primary weakness remains the universal military law: anything can be killed if it is being shot at long enough.\n• Medium Spear Infantry]",
+         "Comment [-Massed pike infantry organized into disciplined formations designed to project inconvenience at extreme range.\nThey excel at deterring cavalry, holding ground, and making frontal assaults emotionally regrettable.\nTheir primary weakness remains the universal military law: anything can be killed if it is being shot at long enough.\n• Medium Pike Infantry]",
          "Can only be built <in cities with a [Barracks]>",
          "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]",
@@ -1193,9 +1193,8 @@
          "Consumes [4] [Manpower]",
          "Consumes [1] [Veteran]",
          "Can only be built <before adopting [Germanic Culture]> <hidden from users>",
-         "Never appears as a Barbarian unit <before the [Imperial Age]>",
-         "[This Unit] is destroyed <after adopting [Latin Culture]> <during the [Imperial Age]>",
-         "Unbuildable <for [The Romans] Civilizations> <during the [Imperial Age]>"
+	 "[This Unit] loses the [[Spearman] ability] promotion <after adopting [Celtic Culture]> <hidden from users>",
+         "Never appears as a Barbarian unit <before the [Imperial Age]>",         "Unbuildable <for [The Romans] Civilizations> <during the [Imperial Age]>"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1240,7 +1239,7 @@
     "strength": 21,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-         "Comment [-Elite pike infantry entrusted with the difficult task of standing perfectly still while everyone else dies around them.\nTheir wall of spear points made cavalry charges look less like military tactics and more like a spectacular misunderstanding.\nUnfortunately, arrows remain unconvinced by discipline, loyalty, or expensive training.\n• Elite Heavy Spear Infantry]",
+         "Comment [-Elite pike infantry entrusted with the difficult task of standing perfectly still while everyone else dies around them.\nTheir wall of spear points made cavalry charges look less like military tactics and more like a spectacular misunderstanding.\nUnfortunately, arrows remain unconvinced by discipline, loyalty, or expensive training.\n• Heavy Pike Infantry]",
          "Can only be built <in cities with a [Army Barracks]>",
          "Consumes [5] [Manpower]",
          "Consumes [1] [Veteran]",
@@ -2582,7 +2581,7 @@
   {
     "name": "Hypaspist",
     "hurryCostModifier": 40,
-    "unitType": "Sword",
+    "unitType": "Spear",
     "uniqueTo": "The Macedonians",
     "replaces": "Foot Guard",
     "movement": 2,
@@ -2590,7 +2589,7 @@
     "cost": 130,
     "requiredTech": "Equestrian Class",
     "uniques": [
-         "Comment [-Hypaspists serving as elite Macedonian royal infantry, trained for flexible battlefield roles between the phalanx and shock troops.\nThey functioned as disciplined close-support soldiers capable of stabilizing formations, exploiting gaps, and ensuring the rest of the army feels emotionally supported through violence.\nReliable, adaptable, and historically used wherever things were about to get complicated.\n• Elite Heavy Infantry]",
+         "Comment [-Hypaspists serving as elite Macedonian royal infantry, trained for flexible battlefield roles between the phalanx and shock troops.\nThey functioned as disciplined close-support soldiers capable of stabilizing formations, exploiting gaps, and ensuring the rest of the army feels emotionally supported through violence.\nReliable, adaptable, and historically used wherever things were about to get complicated.\n• Heavy Spear Infantry]",
          "Can only be built <in cities with a [Palace]>",
          "[+3] Strength <during the [Hellenistic Age]>",
          "[+3] Strength <during the [Imperial Age]>",
@@ -2607,6 +2606,7 @@
     ],
     "attackSound": "march"
   },
+
   {
     "name": "Companion Cavalry",
     "hurryCostModifier": 40,
@@ -2636,32 +2636,37 @@
     ],
     "attackSound": "horse"
   },
+
   {
-    "name": "Silver Shield",
-    "hurryCostModifier": 40,
+    "name": "Argyraspides",
+    "uniqueTo": "The Seleucids",
+    "replaces": "Royal Phalanx",
     "unitType": "Spear",
-    "movement": 3,
-    "strength": 16,
-    "cost": 140,
+    "hurryCostModifier": 40,
+    "cost": 200,
+    "movement": 2,
+    "strength": 21,
+    "requiredTech": "Heavy Infantry",
     "uniques": [
-         "Comment [-Silver Shield elite infantry drawn from Macedonian royal guard traditions, originally organized as highly disciplined shock troops operating in tight formation alongside the army’s core command structure.\nAcross eras they transition from mobile elite medium infantry into heavily armored frontline veterans, optimized for holding critical positions and ending enemy offensives through sustained pressure.\nThey are less a unit and more a warning that the formation line has already been decided.\n• Elite Heavy Sword Infantry]",
-         "Can only be built <in cities with a [Army Barracks]> <before the [Imperial Age]>",
-         "Can only be built <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
-         "[+30]% Strength <during the [Imperial Age]>",
-         "[+60]% production cost <during the [Imperial Age]>",
-         "Consumes [4] [Manpower]",
+         "Comment [-Veteran phalangites of the Seleucid Army, renowned for their silver shields, unwavering discipline, and mastery of the sarissa.\nStanding firm against cavalry and infantry alike, they formed the unyielding core of the royal battle line.\nTheir greatest enemy, however, remained the same as every other soldier's: arrows that stubbornly ignored rank, courage, and expensive equipment.\n• Heavy Pike Infantry]",
+         "Can only be built <in cities with a [Army Barracks]>",
+         "Consumes [5] [Manpower]",
          "Consumes [1] [Veteran]",
-         "Consumes [1] [Iron] <during the [Imperial Age]>",
-         "Can only be built <after adopting [Hellenistic Culture]> <hidden from users>"
+         "Consumes [2] [Bronze]",
+	 "Ignores Zone of Control",
+         "Can only be built <with [Enable Royal Phalanx]> <hidden from users>",
+         "[This Unit] loses the [Infantry Shield I] promotion <hidden from users>"
+         "Never appears as a Barbarian unit"
     ],
     "promotions": [
-	"[Spearman] ability",
-	"Praetorianus",
-      "Infantry Shield II",
+      "[Royal Phalanx] ability",
+      "Infantry Shield II"
 	"Veterans",
     ],
-    "attackSound": "march"
-  },				/////HELLENIC
+    "attackSound": "March"
+  },
+
+			/////HELLENIC
 
   {
     "name": "Thessalian Cavalry",
@@ -3208,7 +3213,7 @@
     "cost": 100,
     "requiredTech": "Bronze Working",
     "uniques": [
-         "Comment [-Mercenary pikemen armed with exceptionally long pikes and just enough discipline to stand shoulder-to-shoulder while strangers charge at them.\nThey excel at breaking cavalry assaults, holding defensive lines, and making frontal attacks an expensive life decision.\nTheir greatest tactical vulnerability remains the timeless invention of concentrated missile fire.\n• Medium Spear Infantry]",
+         "Comment [-Mercenary pikemen armed with exceptionally long pikes and just enough discipline to stand shoulder-to-shoulder while strangers charge at them.\nThey excel at breaking cavalry assaults, holding defensive lines, and making frontal attacks an expensive life decision.\nTheir greatest tactical vulnerability remains the timeless invention of concentrated missile fire.\n• Medium Pike Infantry]",
          "Can only be built <in cities with a [Mercenary Camp]>",
     	"Consumes [1] [Mercenary (Hellenic)]",
     	"Can be purchased with [Gold] [in all cities]",

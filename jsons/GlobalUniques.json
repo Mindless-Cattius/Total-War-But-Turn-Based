@@ -20,7 +20,7 @@
 	"Provides [10] [Manpower] <for [City-States] Civilizations>"
 	"Military Units gifted from City-States start with [30] XP",
 	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
-	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
+	"City-State territory always counts as friendly territory <during the [Hellenistic Age]>",
 	"Retain [+20]% of the happiness from a luxury after the last copy has been traded away",
         "[-1] Sight <for [Embarked] units>",
         "[+50]% Culture cost of adopting new Policies",
@@ -147,7 +147,7 @@
 
 //AI free unit
 
-        "Free [Foot Guard] appears <upon turn end> <with [3]% chance> <when above [0] [Veteran]> <when above [3] [Manpower]> <after discovering [Equestrian Class]> <for [AI player] Civilizations>",
+        "Free [Foot Guard] appears <upon turn end> <with [3]% chance> <when above [0] [Veteran]> <when above [3] [Manpower]> <after discovering [Equestrian Class]> <before adopting [Germanic Culture]> <for [AI player] Civilizations>",
 //free unit
 
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [1] [Manpower]> <upon founding a city>",
