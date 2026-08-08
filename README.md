@@ -1,4 +1,4 @@
-Thank the Author of the Original mod Ancient Total War for the original experience, im making this out of the love of the original mod.
+Thank the Author of the Original mod [Ancient Total War](https://github.com/prod0ad/Ancient-Total-War) for the original experience, im making this out of the love of the original mod.
 
 -THIS IS A WORK IN PROGRESS-
 You can found the mod discord inside Unciv Discord/mods.
