@@ -349,7 +349,7 @@
 			"[-1] XP gained from combat <for [Melee] units> <when above [10] [War Weariness]>",
 			"[-20]% Production when constructing [all] units [in all cities] <when above [12] [War Weariness]>",
 			"[-10]% [Gold] <in cities with a [Market]> <when above [15] [War Weariness]>",		
-			"[-20]% Production when constructing [all] building [in all cities] <when above [18] [War Weariness]>",
+			"[-20]% Production when constructing [all] buildings [in all cities] <when above [18] [War Weariness]>",
 			"[-2 Happiness] [in all cities] <when above [17] [War Weariness]>",
 			"Stockpiled",
 			"Cannot be traded <hidden from users>",
