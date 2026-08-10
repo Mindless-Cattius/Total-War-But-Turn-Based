@@ -28,7 +28,9 @@
 						////Civs
 	"Provides [1] [NomadOrEastern] <after adopting [Nomad Culture]>",
 	"Provides [1] [NomadOrEastern] <after adopting [Eastern Culture]>",
-
+//War
+	"Instantly provides [1] [War Weariness] <when at war> <with [10]% chance> <upon turn start> <for [Human player] Civilizations>"
+	"Set [War Weariness] to [Culture] <when not at war> <upon turn start> <for [Human player] Civilizations>"
 //PROMOTION
 
 "[+10 Gold] <for every [[War Mobilization] Units]> <when at war>",

@@ -337,6 +337,24 @@
 		"Doesn't generate naturally <hidden from users>"
 			"Cannot be traded <hidden from users>",
 		]
+    },
+			
+    {
+		"name": "War Weariness",
+		"resourceType": "Strategic",
+		"uniques": [
+			"[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when above [3] [War Weariness]>",	
+			"[-1] XP gained from combat <for [Melee] units> <when above [5] [War Weariness]>",
+			"[-2] HP when healing <for [Military] units> <in [Enemy Land] tiles> <when above [8] [War Weariness]>",			
+			"[-1] XP gained from combat <for [Melee] units> <when above [10] [War Weariness]>",
+			"[-20]% Production when constructing [all] units [in all cities] <when above [12] [War Weariness]>",
+			"[-10]% [Gold] <in cities with a [Market]> <when above [15] [War Weariness]>",		
+			"[-20]% Production when constructing [all] building [in all cities] <when above [18] [War Weariness]>",
+			"[-2 Happiness] [in all cities] <when above [17] [War Weariness]>",
+			"Stockpiled",
+			"Cannot be traded <hidden from users>",
+			"Doesn't generate naturally <hidden from users>",
+]
     },			
     {
 		"name": "Rebel Risk",
@@ -437,24 +455,7 @@
 
 
 		]	
-},	
-{
-	"name": "Supplies",
-	"resourceType": "Strategic",
-	"uniques": [
-		"Comment [Below 0: +1 Unit Upkeep, -2 HP when healing, -20% Strength vs Cities while in Enemy Land.]",
-		"[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when below [0] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
-		"[-2] HP when healing <for [all] units> <in [Enemy Land] tiles> <when below [0] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
-		"[-20]% Strength <vs cities> <for [all] units> <in [Enemy Land] tiles> <when below [0] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
-		"Comment [Below -5: +2 Unit Upkeep, -3 HP when healing, -40% Strength vs Cities while in Enemy Land.]",
-		"[-1 Gold] <for every [[Military] Units]> <in [Enemy Land] tiles> <when below [-4] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
-		"[-1] HP when healing <for [all] units> <in [Enemy Land] tiles> <when below [-4] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
-		"[-20]% Strength <vs cities> <for [all] units> <in [Enemy Land] tiles> <when below [-4] [Supplies]> <for [Human player] Civilizations> <hidden from users>",
-
-			"Doesn't generate naturally <hidden from users>",
-			"Cannot be traded <hidden from users>",
-]
-    },	
+},
     {
 	"name": "Ruler",
 	"resourceType": "Strategic",

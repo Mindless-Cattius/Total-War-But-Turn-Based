@@ -136,11 +136,11 @@
 	"cityHealth": 20,
 	"specialistSlots": {"Artist": 1},
 	"uniques": [
-		"Comment [Sparta's dual kings balanced power by giving ambitious nobles two rulers to argue with instead of one. Somehow, it worked.]",
+		"Comment [Sparta's dual kings balanced power by giving ambitious nobles two rulers to argue with instead of one. Somehow, it worked. Remove all Rebel Imminent in this city]",
 		"[+2 Happiness] from [Luxury resource] tiles [in this city]",
-		"Provides [1] [Ruler] <before adopting [Empire]>",
 		"Provides [1] [Decadence]",
 		"Provides [1] [Decadence] <during the [Imperial Age]>",
+        	"Remove [REBEL IMMINENT] [in this city] <upon turn start> <hidden from users>",
 		"Destroyed when the city is captured",
 		"Limited to [1] per Civilization"
 	]
@@ -4734,7 +4734,7 @@
   	},
 	{
     		"name": "Roman Centralize Power",
-   		"cost": 800,
+   		"cost": 500,
     		"uniques": [
         		"Cannot be purchased",
         		"Remove [Age Of Many Emperors] [in all cities]",
@@ -4764,7 +4764,7 @@
   	},
 	{
     		"name": "Currency Reform",
-    		"cost": 1000,
+    		"cost": 600,
     		"uniques": [
         		"Cannot be purchased",
         		"Remove [Silver Inflation] [in all cities]",
