@@ -907,7 +907,6 @@
   },
   {
     "name": "Cataphract",
-    "upgradesTo": "Clibanarii",
     "unitType": "Mounted",
     "hurryCostModifier": 50,
     "cost": 300,
@@ -996,7 +995,8 @@
          "Consumes [2] [Manpower]",
          "Consumes [1] [Horses]",
 	"Can move after attacking",
-         "Never appears as a Barbarian unit <before the [Classical Age]>",         	"Can only be built <with [Enable Mounted Skirmisher]> <hidden from users>",
+         "Never appears as a Barbarian unit <before the [Classical Age]>",
+         	"Can only be built <with [Enable Mounted Skirmisher]> <hidden from users>",
          "Can only be built <in cities with a [Archery Range]>",
 	"Can upgrade to [Mounted Armored Skirmisher] <for units with [Veterans]>",
 	 "[This Unit] loses the [[Chariot] ability] promotion <hidden from users>",
