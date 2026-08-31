@@ -643,7 +643,7 @@ ReligionIcons/Thunder Sword
   index: -1
 ReligionIcons/Zalmoxian
   rotate: false
-  xy: 673, 492
+  xy: 731, 478
   size: 50, 53
   orig: 50, 53
   offset: 0, 0
@@ -762,7 +762,7 @@ ResourceIcons/Bactria Region
   index: -1
 ResourceIcons/Baetica Region
   rotate: false
-  xy: 789, 915
+  xy: 845, 960
   size: 43, 33
   orig: 43, 33
   offset: 0, 0
@@ -790,7 +790,7 @@ ResourceIcons/Bosporus Region
   index: -1
 ResourceIcons/Britannia Region
   rotate: false
-  xy: 789, 835
+  xy: 950, 1011
   size: 35, 35
   orig: 35, 35
   offset: 0, 0
@@ -804,7 +804,7 @@ ResourceIcons/Bronze
   index: -1
 ResourceIcons/Caledonia Region
   rotate: false
-  xy: 961, 1018
+  xy: 1036, 919
   size: 28, 28
   orig: 28, 28
   offset: 0, 0
@@ -839,7 +839,7 @@ ResourceIcons/Celicia Region
   index: -1
 ResourceIcons/Celtica Region
   rotate: false
-  xy: 789, 878
+  xy: 896, 964
   size: 43, 29
   orig: 43, 29
   offset: 0, 0
@@ -895,7 +895,7 @@ ResourceIcons/Copper
   index: -1
 ResourceIcons/Corsica Region
   rotate: false
-  xy: 885, 1011
+  xy: 1036, 955
   size: 30, 35
   orig: 30, 35
   offset: 0, 0
@@ -944,7 +944,7 @@ ResourceIcons/Gallic 3rd century crisis
   index: -1
 ResourceIcons/Germania Minor Region
   rotate: false
-  xy: 789, 956
+  xy: 898, 1001
   size: 44, 45
   orig: 44, 45
   offset: 0, 0
@@ -1070,7 +1070,7 @@ ResourceIcons/Libya Region
   index: -1
 ResourceIcons/Lusitania Region
   rotate: false
-  xy: 731, 473
+  xy: 789, 988
   size: 48, 58
   orig: 48, 58
   offset: 0, 0
@@ -1189,7 +1189,7 @@ ResourceIcons/Mercenary (Mesopotamian)
   index: -1
 ResourceIcons/Mercenary (Numidian)
   rotate: false
-  xy: 789, 1009
+  xy: 845, 1001
   size: 45, 45
   orig: 45, 45
   offset: 0, 0
@@ -1280,7 +1280,7 @@ ResourceIcons/Papyrus
   index: -1
 ResourceIcons/Parthia Region
   rotate: false
-  xy: 789, 793
+  xy: 950, 969
   size: 35, 34
   orig: 35, 34
   offset: 0, 0
@@ -1448,7 +1448,7 @@ ResourceIcons/Sanitation
   index: -1
 ResourceIcons/Sardania Region
   rotate: false
-  xy: 923, 1011
+  xy: 1074, 955
   size: 30, 35
   orig: 30, 35
   offset: 0, 0
@@ -1497,7 +1497,7 @@ ResourceIcons/Silvan Primates
   index: -1
 ResourceIcons/Suebia Region
   rotate: false
-  xy: 842, 1004
+  xy: 993, 948
   size: 35, 42
   orig: 35, 42
   offset: 0, 0
@@ -1556,6 +1556,13 @@ ResourceIcons/Veteran
   xy: 328, 285
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/War Weariness
+  rotate: false
+  xy: 673, 495
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Wine
