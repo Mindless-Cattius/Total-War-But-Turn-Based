@@ -982,7 +982,6 @@
   {
   "name": "Mounted Skirmisher",
   "unitType": "Mounted Archery",
-  "upgradesTo": "Horse Archer",
   "hurryCostModifier": 40,
   "cost": 110,
   "movement": 3,
@@ -998,6 +997,7 @@
          "Never appears as a Barbarian unit <before the [Classical Age]>",
          	"Can only be built <with [Enable Mounted Skirmisher]> <hidden from users>",
          "Can only be built <in cities with a [Archery Range]>",
+	"Can upgrade to [Mounted Archery] <when above [0] [Enable Horse Archer]>",
 	"Can upgrade to [Mounted Armored Skirmisher] <for units with [Veterans]>",
 	 "[This Unit] loses the [[Chariot] ability] promotion <hidden from users>",
   ],
@@ -1441,7 +1441,7 @@
     "unitType": "Spear",
     "hurryCostModifier": 40,
     "movement": 2,
-    "strength": 15,
+    "strength": 13,
     "cost": 80,
     "requiredTech": "Bronze Working",
     "uniques": [
@@ -1454,7 +1454,7 @@
       "[Spearman] ability",
       "Infantry Shield II",
       "Amphibious I",
-	"Skirmisher Tatics",
+     "Skirmisher Tatics",
     ],
     "hurryCostModifier": 40,
     "attackSound": "march"

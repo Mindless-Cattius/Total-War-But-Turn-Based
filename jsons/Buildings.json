@@ -2939,7 +2939,6 @@
 {
 	"name": "Manpower Office",
 	"cost": 200,
-	"isNationalWonder": true,
 	"happiness": 3,
 	"production": 1,
 	"specialistSlots": {"Engineer": 1},

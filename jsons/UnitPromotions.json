@@ -596,7 +596,7 @@
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Raider III","Foraging III"],
+		"prerequisites": ["Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Raider III","Foraging III","Ambush III"],
 		"uniques": [
 				"[1] additional attacks per turn",
  				"[-30]% Strength <when attacking> <for [Ranged] units>",
