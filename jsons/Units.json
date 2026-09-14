@@ -995,7 +995,7 @@
          "Never appears as a Barbarian unit <before the [Classical Age]>",
          	"Can only be built <with [Enable Mounted Skirmisher]> <hidden from users>",
          "Can only be built <in cities with a [Archery Range]>",
-	"Can upgrade to [Mounted Archery] <when above [0] [Enable Horse Archer]>",
+	"Can upgrade to [Horse Archer] <when above [0] [Enable Horse Archer]>",
 	"Can upgrade to [Mounted Armored Skirmisher] <for units with [Veterans]>",
 	 "[This Unit] loses the [[Chariot] ability] promotion <hidden from users>",
   ],

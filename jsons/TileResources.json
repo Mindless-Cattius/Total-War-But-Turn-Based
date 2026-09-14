@@ -269,7 +269,7 @@
 			"Cannot be traded <hidden from users>",
 			"Doesn't generate naturally <hidden from users>"
 
-	"[+3 Science, +3 Faith, +3 Culture, +3 Happiness , +5 Gold] [in Capital] <when below [3] [Cities]>",
+	"[+3 Science, +3 Faith, +3 Culture, +3 Happiness, +5 Gold] [in Capital] <when below [3] [Cities]>",
 	"[-1 Science, -1 Culture] [in all cities] <when above [10] [Cities]>",
 	"[-1 Science, -1 Culture] [in all cities] <when above [15] [Cities]>",
 	"[-1 Science, -1 Culture] [in all cities] <when above [20] [Cities]>",
