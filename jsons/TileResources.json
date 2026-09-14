@@ -269,6 +269,7 @@
 			"Cannot be traded <hidden from users>",
 			"Doesn't generate naturally <hidden from users>"
 
+	"[+3 Science, +3 Faith, +3 Culture, +3 Happiness , +5 Gold] [in Capital] <when below [3] [Cities]>",
 	"[-1 Science, -1 Culture] [in all cities] <when above [10] [Cities]>",
 	"[-1 Science, -1 Culture] [in all cities] <when above [15] [Cities]>",
 	"[-1 Science, -1 Culture] [in all cities] <when above [20] [Cities]>",
@@ -277,10 +278,10 @@
 	"[-1 Food, -1 Science, -1 Culture] [in all cities] <when above [40] [Cities]>",
 	"[-1 Food, -1 Science, -1 Culture] [in all cities] <when above [50] [Cities]>",
 
-	"[+3]% Food consumption by [Population] [in this city] <in cities with between [9] and [13] [Population]>",
+	"[+2]% Food consumption by [Population] [in this city] <in cities with between [9] and [13] [Population]>",
 	"[+5]% Food consumption by [Population] [in this city] <in cities with between [14] and [17] [Population]>",
-	"[+10]% Food consumption by [Population] [in this city] <in cities with between [18] and [22] [Population]>",
-	"[+15]% Food consumption by [Population] [in this city] <in cities with at least [23] [Population]>",
+	"[+7]% Food consumption by [Population] [in this city] <in cities with between [18] and [22] [Population]>",
+	"[+10]% Food consumption by [Population] [in this city] <in cities with at least [23] [Population]>",
 
 	"[-30]% growth [in all cities]",
 	"[-20]% growth [in all cities] <when at war>",

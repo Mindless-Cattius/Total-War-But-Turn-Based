@@ -863,7 +863,7 @@
   		"prerequisites": ["Veterans"],
   		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery", "Elephant"],
   		"uniques": [
-			"Comment [All nearby units gain +2 xp from combat]",
+			"Comment [All nearby units gain +1 xp from combat]",
 		],
         "column": 35,
         "row": 6
@@ -1009,7 +1009,7 @@
 		"Only available <when above [499] [Gold]> <before the [Hellenistic Age]> <(modified by game speed)>",
 		"Gain [-500] [Gold] <(modified by game speed)>",
 		"This Promotion is free",
-		"Only available <for [Human player] Civilizations> <hidden from users>",
+         	"Limited to [1] per Civilization",
 ],
 "column": 47,
 "row": 1
@@ -1021,8 +1021,8 @@
 		"Only available <when adjacent to a [Ruler] unit>",
 		"Only available <when above [799] [Gold]> <during the [Hellenistic Age]> <(modified by game speed)>",
 		"Gain [-800] [Gold] <(modified by game speed)>",
-		"Only available <for [Human player] Civilizations> <hidden from users>",
 		"This Promotion is free",
+         "Limited to [1] per Civilization",
 ],
 "column": 47,
 "row": 2
@@ -1034,7 +1034,7 @@
 		"Only available <when above [999] [Gold]> <during the [Imperial Age]> <(modified by game speed)>",
 		"Gain [-1000] [Gold] <(modified by game speed)>",
 
-		"Only available <for [Human player] Civilizations> <hidden from users>",
+         "Limited to [1] per Civilization",
 		"This Promotion is free",
 ],
 "column": 47,
@@ -1097,7 +1097,7 @@
 	"unitTypes": ["Ruler","Generals"],
 	"uniques": [
 		"[+30]% to Flank Attack bonuses",
-		"Comment [All nearby units gain +2 xp from combat]",
+		"Comment [All nearby units gain +1 xp from combat]",
 	],
     "row": 49,
 "column": 3
