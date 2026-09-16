@@ -25,7 +25,19 @@
 	"Can upgrade to [Skirmisher] <after discovering [Imperial Military Doctrine]> <hidden from users>",
 	"Can upgrade to [Skirmisher] <after adopting [Citizen Militias]> <hidden from users>",
 	"[+200]% production cost <during the [Imperial Age]>",
-	"Automation is a primary action"
+	"Automation is a primary action",
+"[This Unit] gets a name from the [Worker Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Worker Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
 
     ],
   },
@@ -212,7 +224,8 @@
          "Consumes [1] [Manpower] <for [Human player] Civilizations>",
          "[30]% Strength bonus for [Melee] units within [0] tiles <when attacking> <vs cities>",
          "Unavailable <for [AI player] Civilizations> <hidden from users>",
-         "Uncapturable"
+         "Uncapturable",
+	"[This Unit] gets a name from the [Battering Ram] group <hidden from users>"
     ],
   },
   {
@@ -231,7 +244,8 @@
          "[10]% Strength bonus for [Melee] units within [0] tiles <when defending> <vs [Ranged] units>",
          "Unavailable <after adopting [Nomad Culture]> <before the [Imperial Age]> <hidden from users>",
          "Unavailable <for [AI player] Civilizations> <hidden from users>",
-         "Uncapturable"
+         "Uncapturable",
+	"[This Unit] gets a name from the [Siege Tower] group <hidden from users>"
     ],
   },
   {
@@ -258,7 +272,9 @@
          "Consumes [1] [Timber]",
       	   
          "Never appears as a Barbarian unit",
-         "Can only be built <with [Enable Ballista]> <hidden from users>"
+         "Can only be built <with [Enable Ballista]> <hidden from users>",
+	"[This Unit] gets a name from the [Ballista] group <hidden from users>"
+
     ],
     "hurryCostModifier": 40,
     "attackSound": "bombard"
@@ -283,6 +299,7 @@
          "[+180]% Strength <vs cities> <when attacking>",
          "Consumes [3] [Manpower]",
          "Consumes [2] [Timber]",
+	"[This Unit] gets a name from the [Onager] group <hidden from users>"
       	   
          "Never appears as a Barbarian unit"
     ],
@@ -591,6 +608,18 @@
          "Consumes [1] [Manpower]",
       	   
 	 "Unavailable <after adopting [Thracian Culture]> <hidden from users>",
+	"[This Unit] gets a name from the [Skirmisher Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Skirmisher Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "attackSound": "nonmetalhit",
     "promotions": [
@@ -612,7 +641,19 @@
          "Comment [-Light archers trained to resolve disputes from a safe distance.\nHistorically effective against poorly armored targets, marching columns, and anyone standing still for too long.\nThey excel in the ancient doctrine of “hit first, explain later.”\n• Light Ranged Infantry]",
          "Can only be built <in cities with a [Archery Range]>",
          "Consumes [2] [Manpower]",
-         "Can only be built <with [Enable Archer]> <hidden from users>"
+         "Can only be built <with [Enable Archer]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Archer Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Archer] ability"
@@ -634,7 +675,19 @@
          "Comment [-Light sling infantry trained in the ancient art of launching rocks at high speed.\nOne of the oldest ranged weapons in recorded history, used long before metallurgy decided to get involved.\nCheap, simple, and historically unpleasant to be on the receiving end of.\n• Light Ranged Infantry]",
          "Can only be built <in cities with a [Archery Range]>",
          "Consumes [2] [Manpower]",
-         "Can only be built <with [Enable Slinger]> <hidden from users>"
+         "Can only be built <with [Enable Slinger]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Slinger Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Slinger] ability",
@@ -653,7 +706,19 @@
     "uniques": [
          "Comment [-Medium ranged infantry armed with crossbows, designed to solve the problem of armored man by introducing mechanical inevitability.\nHistorically effective because it required less training than traditional archery and more confidence than armor design allowed.\nA quiet argument in favor of technological escalation.\n• Light Ranged Infantry]",
          "Can only be built <in cities with a [Ballistics Range]>",
-         "Consumes [3] [Manpower]"
+         "Consumes [3] [Manpower]",
+"[This Unit] gets a name from the [Crossbowman Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Crossbowman Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Crossbowman] ability",
@@ -675,6 +740,18 @@
          "Consumes [4] [Manpower]",
 	 "[This Unit] loses the [[Archer] ability] promotion <hidden from users>",
 	 "[This Unit] loses the [[Slinger] ability] promotion <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Armored Archer Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Armored Archer] ability",
@@ -699,7 +776,19 @@
          "Can only be built <in cities with a [Muster Field]>",
          "[+10]% Strength <starting from the [Hellenistic Age]>",
          "Unbuildable <when above [0] [Gallic 3rd Century Crisis]> <hidden from users>",
-         "Consumes [2] [Manpower]"
+         "Consumes [2] [Manpower]",
+"[This Unit] gets a name from the [Spearman Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Spearman Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -722,7 +811,19 @@
          "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]",
          "Unbuildable <during the [Imperial Age]>",
-         "Can only be built <with [Enable Hoplite]> <hidden from users>"
+         "Can only be built <with [Enable Hoplite]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hoplite Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -744,7 +845,19 @@
          "Can only be built <in cities with a [Barracks]>",
          "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]",
-         "Can only be built <with [Enable Pike Phalanx]> <hidden from users>"
+         "Can only be built <with [Enable Pike Phalanx]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Pike Phalanx Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Pike Phalanx] ability",
@@ -770,6 +883,18 @@
          "Unbuildable <when above [0] [Gallic 3rd Century Crisis]> <hidden from users>"
 	 "[This Unit] loses the [Infantry Shield I] promotion <hidden from users>",
 	 "[This Unit] loses the [[Naked Warrior] ability] promotion <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Swordsman Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -793,6 +918,18 @@
          "Can only be built <with [Enable Heavy Spearman]> <hidden from users>",
 	 "[This Unit] loses the [Infantry Shield II] promotion <hidden from users>",
 	 "[This Unit] loses the [Infantry Shield I] promotion <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Spearman Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -825,6 +962,18 @@
 	 "[This Unit] loses the [[Thracian Warband] ability] promotion <hidden from users>",
 	 "[This Unit] loses the [[Falxman] ability] promotion <hidden from users>",
 	 "[This Unit] loses the [[Gaesatae] ability] promotion <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Heavy Swordsman Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -848,7 +997,19 @@
          "Consumes [2] [Manpower]",
          "Consumes [1] [Horses]",
 	"Unavailable <starting from the [Hellenistic Age]>",
-         "Can only be built <with [Enable War Chariot]> <hidden from users>"
+         "Can only be built <with [Enable War Chariot]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Chariot Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Chariot] ability",
@@ -869,7 +1030,19 @@
          "Can only be built <in cities with a [Stable]>",
          "Consumes [2] [Manpower]",
          "Consumes [1] [Horses]",
-         "Can only be built <before adopting [Numidian Culture]> <hidden from users>"
+         "Can only be built <before adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horseman Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Horseman] ability",
@@ -896,6 +1069,18 @@
          "Can only be built <before adopting [Numidian Culture]> <hidden from users>"
 	 "[This Unit] loses the [[Horseman] ability] promotion <hidden from users>",
 	 "[This Unit] loses the [[Chariot] ability] promotion <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cavalry Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -924,6 +1109,18 @@
 	 "[This Unit] loses the [[Cavalry] ability] promotion <hidden from users>",
 	 "[This Unit] loses the [Cavalry Shield II] promotion <hidden from users>",
 	 "[This Unit] loses the [Lancer] promotion <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Cataphract Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Cataphract] ability",
@@ -946,7 +1143,19 @@
          "Consumes [3] [Manpower]",
          "Consumes [1] [Elephants]",
          "Never appears as a Barbarian unit",
-         "Can only be built <with [Enable War Elephant]> <hidden from users>"
+         "Can only be built <with [Enable War Elephant]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [War Elephant Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[War Elephant] ability"
@@ -971,6 +1180,18 @@
          "Can only be built <before discovering [Equestrian Class]>",
          "Can only be built <with [Enable Chariot Archer]> <hidden from users>",
          "Can only be built <in cities without a [The Oracle of Amun]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Chariot Archer Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Chariot] ability"
@@ -998,6 +1219,18 @@
 	"Can upgrade to [Horse Archer] <when above [0] [Enable Horse Archer]>",
 	"Can upgrade to [Mounted Armored Skirmisher] <for units with [Veterans]>",
 	 "[This Unit] loses the [[Chariot] ability] promotion <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Mounted Skirmisher Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
   ],
   "promotions": [
       "[Horseman] ability",
@@ -1021,6 +1254,18 @@
          "Can only be built <with [Enable Horse Archer]> <hidden from users>",
 	 "[This Unit] loses the [[Horseman] ability] promotion <hidden from users>",
 	"Can upgrade to [Armored Horse Archer] <for units with [Veterans]>",
+"[This Unit] gets a name from the [Horse Archer Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Horse Archer Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Horse Archer] ability",
@@ -1044,6 +1289,18 @@
          "Comment [-Light naval vessel used for coastal operations, trade disruption, and the timeless naval strategy of hoping the other fleet is smaller.\nHistorically effective in nearshore waters, where oars and numbers mattered more than structural optimism.\nCheap, fast to produce, and statistically confident in its own expendability.\n• Light Naval Melee]",
          "Cannot enter ocean tiles <before discovering [Exploration]>",
          "Consumes [2] [Manpower]",
+"[This Unit] gets a name from the [Galley Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Galley Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "attackSound": "nonmetalhit"
   },
@@ -1061,7 +1318,19 @@
          "Consumes [1] [Timber]",
          "Cannot enter ocean tiles <before discovering [Exploration]>",
          "Can only be built <with [Enable Hemiola]> <hidden from users>",
-         "Can only be built <in cities without a [Colossus]> <hidden from users>"
+         "Can only be built <in cities without a [Colossus]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Latin] group <after adopting [Latin Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Punic] group <after adopting [Punic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+"[This Unit] gets a name from the [Hemiola Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Hemiola] ability",
@@ -1084,7 +1353,9 @@
          "[+1] XP gained from combat",
          "Consumes [1] [Mercenary (Rhodian)]",
          "Can be purchased with [Gold] [in all cities]",
-         "Unbuildable"
+         "Unbuildable",
+"[This Unit] gets a name from the [Trihemiola] group <after adopting [Latin Culture]> <hidden from users>",
+
     ],
     "promotions": [
       "[Hemiola] ability",
@@ -1107,7 +1378,19 @@
          "Cannot enter ocean tiles <before discovering [Exploration]>",
          "Consumes [3] [Manpower]",
          "Consumes [1] [Timber]",
-         "Can only be built <with [Enable Trireme]> <hidden from users>"
+         "Can only be built <with [Enable Trireme]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Latin] group <after adopting [Latin Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Punic] group <after adopting [Punic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Trireme Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "attackSound": "nonmetalhit"
   },
@@ -1125,7 +1408,19 @@
          "Consumes [5] [Manpower]",
          "Consumes [1] [Timber]",
          "Never appears as a Barbarian unit <before the [Hellenistic Age]>",
-         "Can only be built <with [Enable Pentere]> <hidden from users>"
+         "Can only be built <with [Enable Pentere]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Latin] group <after adopting [Latin Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Punic] group <after adopting [Punic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Pentere Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "attackSound": "nonmetalhit"
   },
@@ -1145,7 +1440,19 @@
          "Consumes [5] [Manpower]",
          "Consumes [1] [Timber]",
          "Can only be built <with [Enable Hexere]> <hidden from users>",
-         "Never appears as a Barbarian unit"
+         "Never appears as a Barbarian unit",
+        "[This Unit] gets a name from the [Hexere Latin] group <after adopting [Latin Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Punic] group <after adopting [Punic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Hexere Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "attackSound": "arrow"
   },
@@ -1166,7 +1473,19 @@
          "Consumes [6] [Manpower]",
          "Consumes [2] [Timber]",
          "Can only be built <with [Enable Decere]> <hidden from users>",
-         "Never appears as a Barbarian unit"
+         "Never appears as a Barbarian unit",
+        "[This Unit] gets a name from the [Decere Latin] group <after adopting [Latin Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Celtic] group <after adopting [Celtic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Germanic] group <after adopting [Germanic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Punic] group <after adopting [Punic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Numidian] group <after adopting [Numidian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Eastern] group <after adopting [Eastern Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Thracian] group <after adopting [Thracian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Illyrian] group <after adopting [Illyrian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Hellenistic] group <after adopting [Hellenistic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Hellenic] group <after adopting [Hellenic Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Iberian] group <after adopting [Iberian Culture]> <hidden from users>",
+        "[This Unit] gets a name from the [Decere Nomad] group <after adopting [Nomad Culture]> <hidden from users>",
     ],
     "attackSound": "bombard"
   },
@@ -1333,6 +1652,7 @@
     "movement": 3,
     "strength": 28,
     "cost": 350,
+    "requiredTech": "Metallurgy",
     "uniques": [
          "Comment [-Elite super-heavy cavalry encased in layers of armor so extensive that both rider and horse begin to resemble a moving metallurgy project.\nDeveloped by late antique empires seeking the ultimate shock cavalry, they combined devastating charge power with the reassuring ability to ignore most common weapons.\nMagnificent in battle, terrifying to face, and expensive enough to make treasury officials consider retirement.\n• Elite Super Heavy Cavalry]",
          "Can only be built <in cities with a [Imperial Barracks]>",
@@ -1386,7 +1706,8 @@
          "Comment [-Professional arena fighters trained to transform violence into public entertainment.\nSome were slaves, some were volunteers, and all were expected to risk their lives so spectators could briefly forget their own problems.\nExcellent at close combat, highly motivational for the crowd, and statistically less enthusiastic about retirement.\n• Light Shock Infantry]",
          "Can only be built <in cities with a [Arena]>",
          "Can move immediately once bought",
-         "Consumes [1] [Manpower]"
+         "Consumes [1] [Manpower]",
+"[This Unit] gets a name from the [Gladiator] group <hidden from users>",
     ],
     "promotions": [
       "Shock I",
@@ -1406,6 +1727,7 @@
          "Comment [-Camel cavalry trained for warfare in places where water is scarce, shade is a luxury, and horses begin questioning their life choices.\nTheir mounts endure harsh deserts far better than most alternatives, giving them a decisive advantage in terrain that seems personally hostile to human existence.\nThey may not be elegant, but neither is surviving the desert.\n• Medium Camel Cavalry]",
          "Can only be built <in cities with a [Camel Stable]>",
          "Consumes [4] [Manpower]",
+"[This Unit] gets a name from the [Camel Cavalry] group <hidden from users>",
     ],
     "promotions": [
       "[Camel Cavalry] ability",
@@ -1425,7 +1747,9 @@
     "uniques": [
          "Comment [-Camel-mounted archers developed for warfare across deserts and arid frontiers where mobility often mattered more than brute force.\nTheir mounts endure heat, thirst, and miserable terrain far better than most armies, allowing them to appear unexpectedly and leave before retaliation arrives.\nA practical reminder that the desert itself is often their most reliable ally.\n• Medium Mounted Archer]",
          "Can only be built <in cities with a [Spice Road]>",
-         "Consumes [4] [Manpower]"
+         "Consumes [4] [Manpower]",
+"[This Unit] gets a name from the [Camel Archer] group <hidden from users>",
+
     ],
     "promotions": [
       "[Camel Archer] ability"
@@ -1446,7 +1770,8 @@
          "Comment [-A reformed Greek hoplite inspired by the innovations of Iphicrates, who looked at traditional warfare and decided soldiers should perhaps move faster than statues.\nEquipped and trained for greater flexibility, these troops excelled in rough terrain, river crossings, and the sort of fighting that made old generals complain about declining standards.\nProof that military reform is just convincing veterans that the new way of killing people is somehow wrong.\n• Medium Spear Infantry]",
          "Can only be built <in cities with a [Parthenon]>",
          "Consumes [2] [Manpower]",
-         "Consumes [1] [Bronze]"
+         "Consumes [1] [Bronze]",
+"[This Unit] gets a name from the [Iphicratian Hoplite] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1519,7 +1844,8 @@
          "[+10]% Strength <starting from the [Hellenistic Age]>",
          "[+20]% production cost <starting from the [Hellenistic Age]>",
          "[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
-         "[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>"
+         "[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
+"[This Unit] gets a name from the [Suebian Warband] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1545,7 +1871,8 @@
          "[+30]% production cost <during the [Imperial Age]>",
 	"Can upgrade to [Berserkers] <for units with [Veterans]>",
          "[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
-         "[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>"
+         "[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
+"[This Unit] gets a name from the [Bastarnae Warrior] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield I",
@@ -1566,7 +1893,8 @@
          "Comment [-Light shock infantry armed with improvised clubs, typically recruited from levies who were given minimal equipment and maximum expectations.\nIn early warfare, they represent the simplest truth of combat: if steel is unavailable, wood will reluctantly suffice.\nHistorically used as a stopgap force, they relied on enthusiasm, numbers, and the uncomfortable reality of blunt force trauma.\n• Light Shock Infantry]",
          "Can only be built <in cities with a [Muster Field]>",
          "Consumes [2] [Manpower]",
-         "Can only be built <with [Enable Club Levy]> <hidden from users>"
+         "Can only be built <with [Enable Club Levy]> <hidden from users>",
+"[This Unit] gets a name from the [Club Levy] group <hidden from users>",
     ],
     "promotions": [
       "[Clubmen] ability",
@@ -1698,7 +2026,8 @@
          "Comment [-Profestional slinger from the Balearic Islands, trained in the ancient profession of throwing rocks with legally questionable precision.\nRecruited by Carthaginian forces for their reputation as reliable long-range harassment specialists, they compensated for lack of armor with accuracy, mobility, and a cultural relationship with slings that bordered on industrial.\nHistorically feared for making enemy commanders reconsider standing still in open terrain.\n• Light Ranged Infantry]",
          "Can only be built <in cities with a [Archery Range]>",
          "Can move immediately once bought",
-         "Consumes [2] [Manpower]"
+         "Consumes [2] [Manpower]",
+"[This Unit] gets a name from the [Balearic Slinger] group <hidden from users>",
     ],
     "promotions": [
       "[Slinger] ability",
@@ -1723,7 +2052,8 @@
          "Consumes [3] [Manpower]",
          "Consumes [1] [Horses]",
          "Can only be built <after adopting [Numidian Culture]> <hidden from users>",
-         "Never appears as a Barbarian unit"
+         "Never appears as a Barbarian unit",
+"[This Unit] gets a name from the [Numidian Horseman] group <hidden from users>",
   ],
   "promotions": [
       "[Horseman] ability",
@@ -1744,7 +2074,9 @@
          "Consumes [3] [Manpower]",
          "Consumes [2] [Horses]",
          "Can only be built <after adopting [Numidian Culture]> <hidden from users>",
-         "Never appears as a Barbarian unit"
+         "Never appears as a Barbarian unit",
+"[This Unit] gets a name from the [Numidian Cavalry] group <hidden from users>",
+
   ],
   "promotions": [
       "[Cavalry] ability",
@@ -1888,7 +2220,8 @@
          "Can build [Remove Forest] improvements on tiles",
          "[+20]% Strength <when fighting in [Friendly Land] tiles>",
          "[+10]% Strength <when fighting in [Farm] tiles>",
-         "Consumes [3] [Manpower]"
+         "Consumes [3] [Manpower]",
+         "[This Unit] gets a name from the [Limitanei] group <hidden from users>"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1920,6 +2253,7 @@
          "Consumes [4] [Manpower]",
          "Consumes [1] [Veteran]",
 	 "[This Unit] loses the [Pilum] promotion <hidden from users>",
+	"[This Unit] gets a name from the [Triarii] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1943,7 +2277,8 @@
          "Can only be built <in cities with a [Skirmisher Barracks]>",
          "Consumes [4] [Manpower]",
          "Consumes [1] [Veteran]",
-         "Can only be built <after adopting [Latin Culture]> <hidden from users>"
+         "Can only be built <after adopting [Latin Culture]> <hidden from users>",
+	"[This Unit] gets a name from the [Imperial Velite] group <hidden from users>",
     ],
     "promotions": [
       	"[Skirmisher] ability",
@@ -1968,7 +2303,8 @@
          "Limited to [1] per Civilization",
          "Consumes [4] [Manpower]",
          "Consumes [1] [Veteran]",
-         "Consumes [1] [Iron]"
+         "Consumes [1] [Iron]",
+	"[This Unit] gets a name from the [Eagle Cohort] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -1993,13 +2329,14 @@
          "Comment [-Elite imperial palace guard heavy infantry selected from the most trusted soldiers of the state, which historically meant “the ones closest to the emperor and therefore most likely to become politically complicated later.”\nExceptionally well-equipped and heavily paid, they functioned as both battlefield elite and internal power broker with a tendency to decide that emperors were optional.\nTheir loyalty was real, but strictly conditional on budget allocation and personal ambition.\n• Elite Heavy Infantry]",
          "Can only be built <in cities with a [Palace]>",
          "Limited to [1] per Civilization",
-         "Consumes [4] [Manpower]",
+         "Consumes [5] [Manpower]",
          "Consumes [1] [Veteran]",
          "Consumes [1] [Iron]",
          "Cannot move <in [Enemy Land] tiles> <when above [0] [Praetorian Greed]>",
          "Consumes [1] [Praetorian Greed] <if [Praetorian Greed] is constructed> <hidden from users>",
          "Unavailable <if [Praetorian Purge] is constructed> <hidden from users>",
-         "[This Unit] loses the [[Spearman] ability] promotion <hidden from users>"
+         "[This Unit] loses the [[Spearman] ability] promotion <hidden from users>",
+	"[This Unit] gets a name from the [Praetoria] group <hidden from users>",
     ],
     "promotions": [
       	"Infantry Shield III",
@@ -2028,7 +2365,8 @@
          "Consumes [1] [Veteran]",
          "Consumes [3] [Horses]",
          "Consumes [2] [Iron]",
-         "Can only be built <after adopting [Latin Culture]> <hidden from users>"
+         "Can only be built <after adopting [Latin Culture]> <hidden from users>",
+	"[This Unit] gets a name from the [Equites Singulares] group <hidden from users>",
     ],
     "promotions": [
       "[Cataphract] ability",
@@ -2055,6 +2393,7 @@
          "Consumes [1] [Manpower]",
 	 "Can only be built <with [Enable Thracian Peltast]>",
 	 "Can only be built <in cities with a [Thracia]> <before adopting [Thracian Culture]>",
+	"[This Unit] gets a name from the [Thracian Peltast] group <hidden from users>",
     ],
     "promotions": [
       	"[Skirmisher] ability",
@@ -2077,7 +2416,8 @@
     "uniques": [
          "Comment [-Thracian warbands drawn from tribal levies, fighting with aggressive speed rather than disciplined formation.\nThey favored rapid engagement, overwhelming force, and the assumption that hesitation is just a slower form of defeat.\nEffective in shock assaults, less interested in long tactical discussions.\n• Medium Shock Infantry]",
          "Can only be built <in cities with a [Barracks]>",
-         "Consumes [4] [Manpower]"
+         "Consumes [4] [Manpower]",
+	"[This Unit] gets a name from the [Thracian Warband] group <hidden from users>",
     ],
     "promotions": [
       "[Thracian Warband] ability",
@@ -2099,7 +2439,8 @@
     "uniques": [
          "Comment [-Getae falxman infantry armed with curved falx blades designed to ignore the polite concept of shields.\nSpecialized in breaking enemy formations through sheer structural disagreement with armor design philosophy.\nDevastating in close combat, significantly less happy when anything is thrown at them from a distance.\n• Light Shock Infantry]",
          "Can only be built <in cities with a [Barracks]>",
-         "Consumes [3] [Manpower]"
+         "Consumes [3] [Manpower]",
+	"[This Unit] gets a name from the [Falxman] group <hidden from users>",
     ],
     "promotions": [
       "[Falxman] ability",
@@ -2122,7 +2463,8 @@
          "Comment [-Celtic light shock infantry known for fighting with minimal armor, maximum confidence, and a strong belief that mobility beats protection.\nThey excelled at aggressive charges and psychological intimidation, but had a noticeable disagreement with archery departments.\n• Very Light Shock Infantry]",
          "Can only be built <in cities with a [Sacred Grove]>",
          "Consumes [2] [Manpower]",
-         "Can only be built <after adopting [Celtic Culture]> <hidden from users>"
+         "Can only be built <after adopting [Celtic Culture]> <hidden from users>",
+	"[This Unit] gets a name from the [Naked Warriors] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield I",
@@ -2145,7 +2487,8 @@
     "uniques": [
          "Comment [-Belgae forest-trained archers specializing in ambush warfare, operating in terrain where visibility is optional and survival depends on shooting first and relocating immediately afterward.\nThey excelled at disrupting enemy movement through sudden, inconvenient appearances from woodland cover.\n• Light Ranged Infantry]",
          "Can only be built <in cities with a [Archery Range]>",
-         "Consumes [2] [Manpower]"
+         "Consumes [2] [Manpower]",
+	"[This Unit] gets a name from the [Forester Warband] group <hidden from users>",
     ],
     "promotions": [
       "[Archer] ability",
@@ -2173,7 +2516,8 @@
          "[+10]% Strength <when defending> <when fighting in [Forest] tiles>",
          "[+10]% Strength <when defending> <when fighting in [Jungle] tiles>",
          "[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
-         "[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>"
+         "[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
+	"[This Unit] gets a name from the [Ligurian Warrior] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2197,7 +2541,8 @@
          "Comment [-Gaesatae light shock infantry, famously fighting with minimal armor to maximize speed, intimidation, and questionable life insurance policies.\nThey specialized in aggressive close assaults meant to disrupt heavier formations before discipline could catch up, relying on momentum, morale shock, and a strong dislike of defensive planning.\nArmor was treated as optional; confidence was not.\n• Very Light Shock Infantry]",
          "Can only be built <in cities with a [Barracks]>",
          "Consumes [2] [Manpower]",
-         "Can move immediately once bought"
+         "Can move immediately once bought",
+	"[This Unit] gets a name from the [Gaesatae] group <hidden from users>",
     ],
     "promotions": [
       "[Gaesatae] ability",
@@ -2222,7 +2567,8 @@
          "[+1] Movement <in [pillaged] tiles>",
          "[This Unit] gains the [Shock I] promotion <during the [Imperial Age]>",
          "[+20]% production cost <during the [Imperial Age]>",
-         "Consumes [4] [Manpower]"
+         "Consumes [4] [Manpower]",
+	"[This Unit] gets a name from the [Raider Warband] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -2279,7 +2625,8 @@
          "Can only be built <in cities with a [Archery Range]>",
 	 "Withdraws before melee combat <with [15]% chance>",
          "Can move immediately once bought",
-         "Consumes [2] [Manpower]"
+         "Consumes [2] [Manpower]",
+	"[This Unit] gets a name from the [Mardian Archer] group <hidden from users>",
     ],
     "promotions": [
       "[Archer] ability",
@@ -2302,7 +2649,8 @@
          "Can only be built <in cities with a [Barracks]>",
          "Can move immediately once bought",
          "Consumes [3] [Manpower]",
-         "Can build [Remove Forest] improvements on tiles"
+         "Can build [Remove Forest] improvements on tiles",
+	"[This Unit] gets a name from the [Hyrcanian Axeman] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -2324,7 +2672,8 @@
          "Can only be built <in cities with a [Cavalry Barracks]>",
          "Consumes [4] [Manpower]",
          "Consumes [2] [Horses]",
-         "Consumes [1] [Iron]"
+         "Consumes [1] [Iron]",
+	"[This Unit] gets a name from the [Armenian Noble] group <hidden from users>",
     ],
     "promotions": [
       "[Armenian Noble] ability",
@@ -2340,7 +2689,7 @@
     "hurryCostModifier": 40,
     "unitType": "Spear",
     "movement": 2,
-    "strength": 14,
+    "strength": 15,
     "cost": 100,
     "uniques": [
          "Comment [-Elite imperial Immortal infantry, an evolving Persian core unit adapted for prolonged warfare across shifting eras.\nIn earlier phases they function as disciplined spear infantry with strong defensive cohesion; in later imperial restructuring they transition into heavier formations optimized for sustained frontline endurance in desert campaigns.\nTheir reputation for “immortality” comes less from invincibility and more from the fact that they are immediately replaced faster than opponents can confirm kills.\n• Elite Spear Infantry]",
@@ -2351,7 +2700,8 @@
          "Consumes [3] [Manpower]",
          "Consumes [1] [Veteran]",
          "Consumes [1] [Bronze]",
-         "Can only be built <after adopting [Eastern Culture]> <hidden from users>"
+         "Can only be built <after adopting [Eastern Culture]> <hidden from users>",
+	"[This Unit] gets a name from the [Immortals] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2382,7 +2732,8 @@
          "Consumes [4] [Manpower]",
          "[+30]% production cost <during the [Imperial Age]>",
          "[This Unit] gains the [Infantry Shield III] promotion <during the [Imperial Age]>",
-         "[This Unit] loses the [Infantry Shield II] promotion <during the [Imperial Age]> <hidden from users>"
+         "[This Unit] loses the [Infantry Shield II] promotion <during the [Imperial Age]> <hidden from users>",
+	"[This Unit] gets a name from the [Celtiberian Warband] group <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -2404,7 +2755,8 @@
     "uniques": [
          "Comment [-Lusitanian warbands trained in fast raiding tactics, specializing in sudden strikes and rapid disengagement across difficult terrain.\nThey relied on speed, familiarity with local geography, and a strong preference for avoiding prolonged negotiations with enemy formations.\nEffective at destabilizing supply lines and morale before the main battle even becomes necessary.\n• Light Shock Infantry]",
          "Can only be built <in cities with a [Barracks]>",
-         "Consumes [3] [Manpower]"
+         "Consumes [3] [Manpower]",
+	"[This Unit] gets a name from the [Lusitanian Warband] group <hidden from users>",
     ],
     "promotions": [
       	"Infantry Shield I",
@@ -2429,7 +2781,8 @@
          "Consumes [1] [Veteran]",
          "Consumes [2] [Horses]",
          "Consumes [1] [Iron]",
-         "Can only be built <after adopting [Iberian Culture]> <hidden from users>"
+         "Can only be built <after adopting [Iberian Culture]> <hidden from users>",
+	"[This Unit] gets a name from the [Iberian Heavy Lancer] group <hidden from users>",
     ],
     "promotions": [
       "Armored Lancer",
@@ -2459,7 +2812,8 @@
          "Comment [-Dardanian noble hoplites drawn from local aristocratic households, trained in classical spear warfare with an emphasis on discipline, status, and looking significantly more organized than the average levy.\nThey functioned as reliable heavy infantry, combining social prestige with battlefield duty in a way that ensured both accountability and excessive confidence in formation fighting.\n• Medium Spear Infantry]",
          "Can only be built <in cities with a [Barracks]>",
          "Consumes [2] [Manpower]",
-         "Consumes [1] [Bronze]"
+         "Consumes [1] [Bronze]",
+	"[This Unit] gets a name from the [Noble Hoplite] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2485,7 +2839,8 @@
          "Comment [-Pontic scythed chariot adapted for psychological warfare and battlefield disruption, where the primary goal is less “winning cleanly” and more “making the enemy regret forming lines in the first place.”\nEffective at breaking infantry cohesion through speed, noise, and the implicit threat that geometry itself is now hostile.\nStrong in open terrain, significantly less cooperative in anything resembling hills, forests, or common sense.\n• Medium Shock Chariot]",
          "Can only be built <in cities with a [Stable]>",
          "Consumes [3] [Manpower]",
-         "Consumes [1] [Horses]"
+         "Consumes [1] [Horses]",
+	"[This Unit] gets a name from the [Drepanophoroi] group <hidden from users>",
     ],
     "promotions": [
       "[Chariot] ability",
@@ -2507,7 +2862,8 @@
     "requiredTech": "Agriculture",
     "uniques": [
          "Comment [-Anatolian tribal skirmishers drawn from local hill and steppe communities, trained for irregular warfare, scouting, and opportunistic violence rather than structured battlefield etiquette.\nThey rely on mobility, terrain familiarity, and the long-standing tradition of refusing to fight on predictable terms.\nLight infantry by equipment, not by ambition.\n• Light Skirmisher Infantry]",
-         "Consumes [1] [Manpower]"
+         "Consumes [1] [Manpower]",
+	"[This Unit] gets a name from the [Anatolian Tribesman] group <hidden from users>",
     ],
     "promotions": [
       "[Skirmisher] ability",
@@ -2515,11 +2871,6 @@
       "Survivalism I",
     ],
     "attackSound": "nonmetalhit",
-    "civilopediaText": [
-      {
-        "text": "The Anatolian tribesman trusts no banner. Empires burn, mountains don’t."
-      }
-    ]
   },
   {
     "name": "Mysian Bowman",
@@ -2536,7 +2887,8 @@
     "uniques": [
          "Comment [-Mysian bowmen recruited from Anatolian highland regions, trained in precision archery and counter-skirmishing tactics designed to punish ambushes before they fully develop.\nThey excel at controlling space through ranged pressure, forcing enemy light troops to reconsider their life choices at range.\nReliable, accurate, and mildly insulting to anything trying to sneak.\n• Light Ranged Infantry]",
          "Can only be built <in cities with a [Archery Range]>",
-         "Consumes [2] [Manpower]"
+         "Consumes [2] [Manpower]",
+	"[This Unit] gets a name from the [Mysian Bowman] group <hidden from users>",
     ],
     "promotions": [
       "[Archer] ability",
@@ -2564,7 +2916,8 @@
          "Comment [-Molossian hoplites drawn from the mountain regions of Epirus, trained in disciplined spear warfare shaped by harsh terrain and limited patience for flat ground.\nTheir endurance and cohesion make them reliable line infantry, particularly effective in sustained engagements where retreat is not part of the vocabulary.\nThey were as comfortable holding a shield wall as they were ignoring the concept of easy geography.\n• Medium Spear Infantry]",
          "Can only be built <in cities with a [Barracks]>",
          "Consumes [2] [Manpower]",
-         "Consumes [1] [Bronze]"
+         "Consumes [1] [Bronze]",
+	"[This Unit] gets a name from the [Molossian Hoplite] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2594,7 +2947,8 @@
          "[+40]% production cost <during the [Imperial Age]>",
          "[+20]% production cost <during the [Hellenistic Age]>",
          "Consumes [4] [Manpower]",
-         "Consumes [1] [Veteran]"
+         "Consumes [1] [Veteran]",
+	"[This Unit] gets a name from the [Hypaspist] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2623,7 +2977,8 @@
          "Consumes [4] [Manpower]",
          "Consumes [1] [Veteran]",
          "Consumes [2] [Horses]",
-         "Consumes [1] [Iron] <during the [Imperial Age]>"
+         "Consumes [1] [Iron] <during the [Imperial Age]>",
+	"[This Unit] gets a name from the [Companion Cavalry] group <hidden from users>",
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -2654,7 +3009,8 @@
 	 "Ignores Zone of Control",
          "Can only be built <with [Enable Royal Phalanx]> <hidden from users>",
          "[This Unit] loses the [Infantry Shield I] promotion <hidden from users>"
-         "Never appears as a Barbarian unit"
+         "Never appears as a Barbarian unit",
+	"[This Unit] gets a name from the [Argyraspides] group <hidden from users>",
     ],
     "promotions": [
       "[Royal Phalanx] ability",
@@ -2681,7 +3037,8 @@
          "Comment [-Thessalian cavalry recruited from the famed horse-rearing plains of Thessaly, historically regarded as some of the most reliable medium cavalry in the Greek world.\nThey excel in fast maneuver warfare, flanking, and applying pressure to weakened formations rather than frontal optimism.\nDisciplined, mobile, and annoyingly competent in open terrain.\n• Medium Shock Cavalry]",
          "Can only be built <in cities with a [Stable]>",
          "Consumes [3] [Manpower]",
-         "Consumes [2] [Horses]"
+         "Consumes [2] [Horses]",
+	"[This Unit] gets a name from the [Thessalian Cavalry] group <hidden from users>",
     ],
     "promotions": [
       	"[Cavalry] ability",
@@ -2706,6 +3063,7 @@
          "Consumes [2] [Manpower]",
          "Consumes [1] [Horses]",
 	"Unavailable <starting from the [Hellenistic Age]>",
+	"[This Unit] gets a name from the [Cyrenean Chariot] group <hidden from users>",
     ],
     "promotions": [
       "[Chariot] ability",
@@ -2729,7 +3087,8 @@
          "Comment [-Spartan hoplites forged through extreme state discipline and lifelong military conditioning, designed to operate as a unified wall of shields rather than individual soldiers.\nThey excel in holding formation under pressure, where other armies typically start emotionally negotiating with reality.\nEfficiency, obedience, and structural violence packaged into a very unhappy human.\n• Medium Spear Infantry]",
          "Can only be built <in cities with a [Syssition]>",
          "Consumes [2] [Manpower]",
-         "Consumes [1] [Bronze]"
+         "Consumes [1] [Bronze]",
+	"[This Unit] gets a name from the [Spartan Hoplite] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2754,7 +3113,8 @@
          "Can only be built <in cities with a [Barracks]>",
          "[+10]% Strength <when defending> <when [Embarked]>",
          "Consumes [2] [Manpower]",
-         "Consumes [1] [Bronze]"
+         "Consumes [1] [Bronze]",
+	"[This Unit] gets a name from the [Athenian Hoplite] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2779,7 +3139,8 @@
          "Can only be built <in cities with a [Barracks]>",
          "Consumes [2] [Manpower]",
          "Consumes [1] [Bronze]",
-         "[+20]% Strength <when defending> <for [Theban Hoplite] units> <when adjacent to a [Theban Hoplite] unit>"
+         "[+20]% Strength <when defending> <for [Theban Hoplite] units> <when adjacent to a [Theban Hoplite] unit>",
+	"[This Unit] gets a name from the [Theban Hoplite] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2810,7 +3171,8 @@
          "[+40]% production cost <during the [Imperial Age]>",
          "Consumes [4] [Manpower]",
          "Consumes [1] [Bronze]",
-         "Consumes [1] [Veteran]"
+         "Consumes [1] [Veteran]",
+	"[This Unit] gets a name from the [Royal Spartan] group <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -3072,7 +3434,8 @@
          "Consumes [1] [Mercenary (Rhodian)]",
          "Can be purchased with [Gold] [in all cities]",
          "Can only be built <starting from the [Hellenistic Age]>",
-         "Unbuildable"
+         "Unbuildable",
+	 "[This Unit] gets a name from the [Rhodian Slinger] group <hidden from users>",
     ],
     "promotions": [
       "[Slinger] ability",
@@ -3382,6 +3745,8 @@
        	"[+20]% Strength <when fighting in [Friendly Land] tiles>",
        	"[+10]% Strength <when fighting in [Hill] tiles>",
       	"Consumes [4] [Manpower]",
+         "[This Unit] gets a name from the [Limitanei] group <hidden from users>"
+
     ],
     "promotions": [
       "[Spearman] ability",
@@ -3432,6 +3797,8 @@
        	"[+10]% Strength <when fighting in [Forest] tiles>",
       	"Consumes [4] [Manpower]",
       	"Can only be built <with [Enable Gallic Limitanei]> <hidden from users>",
+         "[This Unit] gets a name from the [Limitanei] group <hidden from users>"
+
     ],
     "promotions": [
       "[Spearman] ability",

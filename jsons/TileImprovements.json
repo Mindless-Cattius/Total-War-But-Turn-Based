@@ -113,7 +113,7 @@
 	{
 		"name": "Fort",
 		"happiness": 2,
-		"turnsToBuild": -1,
+		"turnsToBuild": 20,
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle"],
 		"uniques": [
 		"[-1 Food]",
@@ -122,12 +122,13 @@
 		"Removes removable features when built",
 		"Tile provides yield without assigned population",
 		"Great Improvement",
+			"Unbuildable <for [all] units>",
 		],
 		"shortcutKey": "O"
 	},
 	{
 		"name": "Village",
-		"turnsToBuild": -1,
+		"turnsToBuild": 15,
 		"gold": 1,
 		"food": 1,
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle"],
@@ -144,6 +145,7 @@
 			"Great Improvement",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Unbuildable <for [all] units>",
 		]
 	},
 	{
@@ -151,7 +153,7 @@
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle"],
 		"gold": 2,
 		"happiness": 1,
-		"turnsToBuild": -1,
+		"turnsToBuild": 15,
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
   			"[-1 Food, +2 Gold] for each adjacent [Village]",
@@ -165,6 +167,7 @@
 			"Tile provides yield without assigned population",
 			"Can only be built on [resource] tiles",
 			"Removes removable features when built",
+			"Unbuildable <for [all] units>",
 ]
 	},
 

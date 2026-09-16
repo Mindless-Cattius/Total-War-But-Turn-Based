@@ -4359,7 +4359,7 @@
                 "Never destroyed when the city is captured <hidden from users>",
         ]
 },
-//1
+//2
 {
         "name": "Arachosia",
         "uniques": [
@@ -4382,10 +4382,10 @@
                 "Only available <in cities with a [Arachosia]>",
                 "Remove [Ariana] [in this city] <when below [2] [Gedrosia Region]> <upon turn end> <hidden from users>",
                 "Remove [Ariana] [in this city] <when below [1] [Aria Region]> <upon turn end> <hidden from users>",
-                "Remove [Ariana] [in this city] <when below [1] [Arachosia Region]> <upon turn end> <hidden from users>",
+                "Remove [Ariana] [in this city] <when below [2] [Arachosia Region]> <upon turn end> <hidden from users>",
                 "Unbuildable <when below [2] [Gedrosia Region]> <hidden from users>",
                 "Unbuildable <when below [1] [Aria Region]> <hidden from users>",
-                "Unbuildable <when below [1] [Arachosia Region]> <hidden from users>",
+                "Unbuildable <when below [2] [Arachosia Region]> <hidden from users>",
                 "Unsellable <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",

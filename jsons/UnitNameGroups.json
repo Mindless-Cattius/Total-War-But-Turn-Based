@@ -59,4 +59,1501 @@
     "name": "Nomad",
     "unitNames": ["Ateas", "Idanthyrsus", "Skunxa", "Spargapises", "Tomyris", "Madyes", "Ariapeithes", "Scyles", "Octamasades", "Saulius", "Taxacis", "Palacus", "Skilurus", "Inismeus", "Tasius", "Zarina", "Spadinus", "Arsaces", "Aripharnes", "Amage", "Goar", "Inismeos", "Tirgatao", "Spargapithes", "Rhagodarus", "Aorses", "Siraces", "Aspurgus", "Zorsines", "Gatalus", "Cotys", "Rescuporis", "Sauromates", "Ininthimeus", "Pharsanzes", "Rescuporis", "Tanus", "Argotas", "Stepanos", "Horserix", "Marekhan", "Yakhan", "Goatrak", "Kumisar", "Neighzar"]
 },
+
+
+
+////Unit 
+////Civilian
+
+{
+    "name": "Worker Latin",
+    "unitNames": ["Fabri I", "Fabri II", "Fabri III", "Fabri IV", "Fabri V", "Fabri VI", "Fabri VII", "Fabri VIII", "Fabri IX", "Fabri X", "Fabri XI", "Fabri XII", "Fabri XIII", "Fabri XIV", "Fabri XV", "Fabri XVI", "Fabri XVII", "Fabri XVIII", "Fabri XIX", "Fabri XX"]
+},
+{
+    "name": "Worker Celtic",
+    "unitNames": ["Celtic Worker I", "Celtic Worker II", "Celtic Worker III", "Celtic Worker IV", "Celtic Worker V", "Celtic Worker VI", "Celtic Worker VII", "Celtic Worker VIII", "Celtic Worker IX", "Celtic Worker X", "Celtic Worker XI", "Celtic Worker XII", "Celtic Worker XIII", "Celtic Worker XIV", "Celtic Worker XV", "Celtic Worker XVI", "Celtic Worker XVII", "Celtic Worker XVIII", "Celtic Worker XIX", "Celtic Worker XX"]
+},
+{
+    "name": "Worker Germanic",
+    "unitNames": ["Germanic Worker I", "Germanic Worker II", "Germanic Worker III", "Germanic Worker IV", "Germanic Worker V", "Germanic Worker VI", "Germanic Worker VII", "Germanic Worker VIII", "Germanic Worker IX", "Germanic Worker X", "Germanic Worker XI", "Germanic Worker XII", "Germanic Worker XIII", "Germanic Worker XIV", "Germanic Worker XV", "Germanic Worker XVI", "Germanic Worker XVII", "Germanic Worker XVIII", "Germanic Worker XIX", "Germanic Worker XX"]
+},
+{
+    "name": "Worker Punic",
+    "unitNames": ["Punic Worker I", "Punic Worker II", "Punic Worker III", "Punic Worker IV", "Punic Worker V", "Punic Worker VI", "Punic Worker VII", "Punic Worker VIII", "Punic Worker IX", "Punic Worker X", "Punic Worker XI", "Punic Worker XII", "Punic Worker XIII", "Punic Worker XIV", "Punic Worker XV", "Punic Worker XVI", "Punic Worker XVII", "Punic Worker XVIII", "Punic Worker XIX", "Punic Worker XX"]
+},
+{
+    "name": "Worker Numidian",
+    "unitNames": ["Numidian Worker I", "Numidian Worker II", "Numidian Worker III", "Numidian Worker IV", "Numidian Worker V", "Numidian Worker VI", "Numidian Worker VII", "Numidian Worker VIII", "Numidian Worker IX", "Numidian Worker X", "Numidian Worker XI", "Numidian Worker XII", "Numidian Worker XIII", "Numidian Worker XIV", "Numidian Worker XV", "Numidian Worker XVI", "Numidian Worker XVII", "Numidian Worker XVIII", "Numidian Worker XIX", "Numidian Worker XX"]
+},
+{
+    "name": "Worker Eastern",
+    "unitNames": ["Eastern Worker I", "Eastern Worker II", "Eastern Worker III", "Eastern Worker IV", "Eastern Worker V", "Eastern Worker VI", "Eastern Worker VII", "Eastern Worker VIII", "Eastern Worker IX", "Eastern Worker X", "Eastern Worker XI", "Eastern Worker XII", "Eastern Worker XIII", "Eastern Worker XIV", "Eastern Worker XV", "Eastern Worker XVI", "Eastern Worker XVII", "Eastern Worker XVIII", "Eastern Worker XIX", "Eastern Worker XX"]
+},
+{
+    "name": "Worker Thracian",
+    "unitNames": ["Thracian Worker I", "Thracian Worker II", "Thracian Worker III", "Thracian Worker IV", "Thracian Worker V", "Thracian Worker VI", "Thracian Worker VII", "Thracian Worker VIII", "Thracian Worker IX", "Thracian Worker X", "Thracian Worker XI", "Thracian Worker XII", "Thracian Worker XIII", "Thracian Worker XIV", "Thracian Worker XV", "Thracian Worker XVI", "Thracian Worker XVII", "Thracian Worker XVIII", "Thracian Worker XIX", "Thracian Worker XX"]
+},
+{
+    "name": "Worker Illyrian",
+    "unitNames": ["Illyrian Worker I", "Illyrian Worker II", "Illyrian Worker III", "Illyrian Worker IV", "Illyrian Worker V", "Illyrian Worker VI", "Illyrian Worker VII", "Illyrian Worker VIII", "Illyrian Worker IX", "Illyrian Worker X", "Illyrian Worker XI", "Illyrian Worker XII", "Illyrian Worker XIII", "Illyrian Worker XIV", "Illyrian Worker XV", "Illyrian Worker XVI", "Illyrian Worker XVII", "Illyrian Worker XVIII", "Illyrian Worker XIX", "Illyrian Worker XX"]
+},
+{
+    "name": "Worker Hellenistic",
+    "unitNames": ["Ergatai I", "Ergatai II", "Ergatai III", "Ergatai IV", "Ergatai V", "Ergatai VI", "Ergatai VII", "Ergatai VIII", "Ergatai IX", "Ergatai X", "Ergatai XI", "Ergatai XII", "Ergatai XIII", "Ergatai XIV", "Ergatai XV", "Ergatai XVI", "Ergatai XVII", "Ergatai XVIII", "Ergatai XIX", "Ergatai XX"]
+},
+{
+    "name": "Worker Hellenic",
+    "unitNames": ["Ergatai I", "Ergatai II", "Ergatai III", "Ergatai IV", "Ergatai V", "Ergatai VI", "Ergatai VII", "Ergatai VIII", "Ergatai IX", "Ergatai X", "Ergatai XI", "Ergatai XII", "Ergatai XIII", "Ergatai XIV", "Ergatai XV", "Ergatai XVI", "Ergatai XVII", "Ergatai XVIII", "Ergatai XIX", "Ergatai XX"]
+},
+{
+    "name": "Worker Iberian",
+    "unitNames": ["Iberian Worker I", "Iberian Worker II", "Iberian Worker III", "Iberian Worker IV", "Iberian Worker V", "Iberian Worker VI", "Iberian Worker VII", "Iberian Worker VIII", "Iberian Worker IX", "Iberian Worker X", "Iberian Worker XI", "Iberian Worker XII", "Iberian Worker XIII", "Iberian Worker XIV", "Iberian Worker XV", "Iberian Worker XVI", "Iberian Worker XVII", "Iberian Worker XVIII", "Iberian Worker XIX", "Iberian Worker XX"]
+},
+{
+    "name": "Worker Nomad",
+    "unitNames": ["Nomad Worker I", "Nomad Worker II", "Nomad Worker III", "Nomad Worker IV", "Nomad Worker V", "Nomad Worker VI", "Nomad Worker VII", "Nomad Worker VIII", "Nomad Worker IX", "Nomad Worker X", "Nomad Worker XI", "Nomad Worker XII", "Nomad Worker XIII", "Nomad Worker XIV", "Nomad Worker XV", "Nomad Worker XVI", "Nomad Worker XVII", "Nomad Worker XVIII", "Nomad Worker XIX", "Nomad Worker XX"]
+},
+
+////Sieges
+
+{
+    "name": "Battering Ram",
+    "unitNames": ["Battering Ram I", "Battering Ram II", "Battering Ram III", "Battering Ram IV", "Battering Ram V", "Battering Ram VI", "Battering Ram VII", "Battering Ram VIII", "Battering Ram IX", "Battering Ram X", "Battering Ram XI", "Battering Ram XII", "Battering Ram XIII", "Battering Ram XIV", "Battering Ram XV", "Battering Ram XVI", "Battering Ram XVII", "Battering Ram XVIII", "Battering Ram XIX", "Battering Ram XX"]
+},
+{
+    "name": "Siege Tower",
+    "unitNames": ["Siege Tower I", "Siege Tower II", "Siege Tower III", "Siege Tower IV", "Siege Tower V", "Siege Tower VI", "Siege Tower VII", "Siege Tower VIII", "Siege Tower IX", "Siege Tower X", "Siege Tower XI", "Siege Tower XII", "Siege Tower XIII", "Siege Tower XIV", "Siege Tower XV", "Siege Tower XVI", "Siege Tower XVII", "Siege Tower XVIII", "Siege Tower XIX", "Siege Tower XX"]
+},
+{
+    "name": "Ballista",
+    "unitNames": ["Ballista I", "Ballista II", "Ballista III", "Ballista IV", "Ballista V", "Ballista VI", "Ballista VII", "Ballista VIII", "Ballista IX", "Ballista X", "Ballista XI", "Ballista XII", "Ballista XIII", "Ballista XIV", "Ballista XV", "Ballista XVI", "Ballista XVII", "Ballista XVIII", "Ballista XIX", "Ballista XX"]
+},
+{
+    "name": "Onager",
+    "unitNames": ["Onager I", "Onager II", "Onager III", "Onager IV", "Onager V", "Onager VI", "Onager VII", "Onager VIII", "Onager IX", "Onager X", "Onager XI", "Onager XII", "Onager XIII", "Onager XIV", "Onager XV", "Onager XVI", "Onager XVII", "Onager XVIII", "Onager XIX", "Onager XX"]
+},
+
+////Ranged
+{
+    "name": "Skirmisher Latin",
+    "unitNames": ["Velites I","Velites II","Velites III","Velites IV","Velites V","Velites VI","Velites VII","Velites VIII","Velites IX","Velites X","Velites XI","Velites XII","Velites XIII","Velites XIV","Velites XV","Velites XVI","Velites XVII","Velites XVIII","Velites XIX","Velites XX"]
+},
+{
+    "name": "Skirmisher Celtic",
+    "unitNames": ["Celtic Skirmisher I","Celtic Skirmisher II","Celtic Skirmisher III","Celtic Skirmisher IV","Celtic Skirmisher V","Celtic Skirmisher VI","Celtic Skirmisher VII","Celtic Skirmisher VIII","Celtic Skirmisher IX","Celtic Skirmisher X","Celtic Skirmisher XI","Celtic Skirmisher XII","Celtic Skirmisher XIII","Celtic Skirmisher XIV","Celtic Skirmisher XV","Celtic Skirmisher XVI","Celtic Skirmisher XVII","Celtic Skirmisher XVIII","Celtic Skirmisher XIX","Celtic Skirmisher XX"]
+},
+{
+    "name": "Skirmisher Germanic",
+    "unitNames": ["Germanic Skirmisher I","Germanic Skirmisher II","Germanic Skirmisher III","Germanic Skirmisher IV","Germanic Skirmisher V","Germanic Skirmisher VI","Germanic Skirmisher VII","Germanic Skirmisher VIII","Germanic Skirmisher IX","Germanic Skirmisher X","Germanic Skirmisher XI","Germanic Skirmisher XII","Germanic Skirmisher XIII","Germanic Skirmisher XIV","Germanic Skirmisher XV","Germanic Skirmisher XVI","Germanic Skirmisher XVII","Germanic Skirmisher XVIII","Germanic Skirmisher XIX","Germanic Skirmisher XX"]
+},
+{
+    "name": "Skirmisher Punic",
+    "unitNames": ["Punic Skirmisher I","Punic Skirmisher II","Punic Skirmisher III","Punic Skirmisher IV","Punic Skirmisher V","Punic Skirmisher VI","Punic Skirmisher VII","Punic Skirmisher VIII","Punic Skirmisher IX","Punic Skirmisher X","Punic Skirmisher XI","Punic Skirmisher XII","Punic Skirmisher XIII","Punic Skirmisher XIV","Punic Skirmisher XV","Punic Skirmisher XVI","Punic Skirmisher XVII","Punic Skirmisher XVIII","Punic Skirmisher XIX","Punic Skirmisher XX"]
+},
+{
+    "name": "Skirmisher Numidian",
+    "unitNames": ["Numidian Skirmisher I","Numidian Skirmisher II","Numidian Skirmisher III","Numidian Skirmisher IV","Numidian Skirmisher V","Numidian Skirmisher VI","Numidian Skirmisher VII","Numidian Skirmisher VIII","Numidian Skirmisher IX","Numidian Skirmisher X","Numidian Skirmisher XI","Numidian Skirmisher XII","Numidian Skirmisher XIII","Numidian Skirmisher XIV","Numidian Skirmisher XV","Numidian Skirmisher XVI","Numidian Skirmisher XVII","Numidian Skirmisher XVIII","Numidian Skirmisher XIX","Numidian Skirmisher XX"]
+},
+{
+    "name": "Skirmisher Eastern",
+    "unitNames": ["Eastern Skirmisher I","Eastern Skirmisher II","Eastern Skirmisher III","Eastern Skirmisher IV","Eastern Skirmisher V","Eastern Skirmisher VI","Eastern Skirmisher VII","Eastern Skirmisher VIII","Eastern Skirmisher IX","Eastern Skirmisher X","Eastern Skirmisher XI","Eastern Skirmisher XII","Eastern Skirmisher XIII","Eastern Skirmisher XIV","Eastern Skirmisher XV","Eastern Skirmisher XVI","Eastern Skirmisher XVII","Eastern Skirmisher XVIII","Eastern Skirmisher XIX","Eastern Skirmisher XX"]
+},
+{
+    "name": "Skirmisher Thracian",
+    "unitNames": ["Thracian Skirmisher I","Thracian Skirmisher II","Thracian Skirmisher III","Thracian Skirmisher IV","Thracian Skirmisher V","Thracian Skirmisher VI","Thracian Skirmisher VII","Thracian Skirmisher VIII","Thracian Skirmisher IX","Thracian Skirmisher X","Thracian Skirmisher XI","Thracian Skirmisher XII","Thracian Skirmisher XIII","Thracian Skirmisher XIV","Thracian Skirmisher XV","Thracian Skirmisher XVI","Thracian Skirmisher XVII","Thracian Skirmisher XVIII","Thracian Skirmisher XIX","Thracian Skirmisher XX"]
+},
+{
+    "name": "Skirmisher Illyrian",
+    "unitNames": ["Illyrian Skirmisher I","Illyrian Skirmisher II","Illyrian Skirmisher III","Illyrian Skirmisher IV","Illyrian Skirmisher V","Illyrian Skirmisher VI","Illyrian Skirmisher VII","Illyrian Skirmisher VIII","Illyrian Skirmisher IX","Illyrian Skirmisher X","Illyrian Skirmisher XI","Illyrian Skirmisher XII","Illyrian Skirmisher XIII","Illyrian Skirmisher XIV","Illyrian Skirmisher XV","Illyrian Skirmisher XVI","Illyrian Skirmisher XVII","Illyrian Skirmisher XVIII","Illyrian Skirmisher XIX","Illyrian Skirmisher XX"]
+},
+{
+    "name": "Skirmisher Hellenistic",
+    "unitNames": ["Akontistai I","Akontistai II","Akontistai III","Akontistai IV","Akontistai V","Akontistai VI","Akontistai VII","Akontistai VIII","Akontistai IX","Akontistai X","Akontistai XI","Akontistai XII","Akontistai XIII","Akontistai XIV","Akontistai XV","Akontistai XVI","Akontistai XVII","Akontistai XVIII","Akontistai XIX","Akontistai XX"]
+},
+{
+    "name": "Skirmisher Hellenic",
+    "unitNames": ["Psiloi I","Psiloi II","Psiloi III","Psiloi IV","Psiloi V","Psiloi VI","Psiloi VII","Psiloi VIII","Psiloi IX","Psiloi X","Psiloi XI","Psiloi XII","Psiloi XIII","Psiloi XIV","Psiloi XV","Psiloi XVI","Psiloi XVII","Psiloi XVIII","Psiloi XIX","Psiloi XX"]
+},
+{
+    "name": "Skirmisher Iberian",
+    "unitNames": ["Caetrati I","Caetrati II","Caetrati III","Caetrati IV","Caetrati V","Caetrati VI","Caetrati VII","Caetrati VIII","Caetrati IX","Caetrati X","Caetrati XI","Caetrati XII","Caetrati XIII","Caetrati XIV","Caetrati XV","Caetrati XVI","Caetrati XVII","Caetrati XVIII","Caetrati XIX","Caetrati XX"]
+},
+{
+    "name": "Skirmisher Nomad",
+    "unitNames": ["Nomad Skirmisher I","Nomad Skirmisher II","Nomad Skirmisher III","Nomad Skirmisher IV","Nomad Skirmisher V","Nomad Skirmisher VI","Nomad Skirmisher VII","Nomad Skirmisher VIII","Nomad Skirmisher IX","Nomad Skirmisher X","Nomad Skirmisher XI","Nomad Skirmisher XII","Nomad Skirmisher XIII","Nomad Skirmisher XIV","Nomad Skirmisher XV","Nomad Skirmisher XVI","Nomad Skirmisher XVII","Nomad Skirmisher XVIII","Nomad Skirmisher XIX","Nomad Skirmisher XX"]
+},
+{
+    "name": "Archer Latin",
+    "unitNames": ["Sagittarii I","Sagittarii II","Sagittarii III","Sagittarii IV","Sagittarii V","Sagittarii VI","Sagittarii VII","Sagittarii VIII","Sagittarii IX","Sagittarii X","Sagittarii XI","Sagittarii XII","Sagittarii XIII","Sagittarii XIV","Sagittarii XV","Sagittarii XVI","Sagittarii XVII","Sagittarii XVIII","Sagittarii XIX","Sagittarii XX"]
+},
+{
+    "name": "Archer Celtic",
+    "unitNames": ["Celtic Archer I","Celtic Archer II","Celtic Archer III","Celtic Archer IV","Celtic Archer V","Celtic Archer VI","Celtic Archer VII","Celtic Archer VIII","Celtic Archer IX","Celtic Archer X","Celtic Archer XI","Celtic Archer XII","Celtic Archer XIII","Celtic Archer XIV","Celtic Archer XV","Celtic Archer XVI","Celtic Archer XVII","Celtic Archer XVIII","Celtic Archer XIX","Celtic Archer XX"]
+},
+{
+    "name": "Archer Germanic",
+    "unitNames": ["Germanic Archer I","Germanic Archer II","Germanic Archer III","Germanic Archer IV","Germanic Archer V","Germanic Archer VI","Germanic Archer VII","Germanic Archer VIII","Germanic Archer IX","Germanic Archer X","Germanic Archer XI","Germanic Archer XII","Germanic Archer XIII","Germanic Archer XIV","Germanic Archer XV","Germanic Archer XVI","Germanic Archer XVII","Germanic Archer XVIII","Germanic Archer XIX","Germanic Archer XX"]
+},
+{
+    "name": "Archer Punic",
+    "unitNames": ["Punic Archer I","Punic Archer II","Punic Archer III","Punic Archer IV","Punic Archer V","Punic Archer VI","Punic Archer VII","Punic Archer VIII","Punic Archer IX","Punic Archer X","Punic Archer XI","Punic Archer XII","Punic Archer XIII","Punic Archer XIV","Punic Archer XV","Punic Archer XVI","Punic Archer XVII","Punic Archer XVIII","Punic Archer XIX","Punic Archer XX"]
+},
+{
+    "name": "Archer Numidian",
+    "unitNames": ["Numidian Archer I","Numidian Archer II","Numidian Archer III","Numidian Archer IV","Numidian Archer V","Numidian Archer VI","Numidian Archer VII","Numidian Archer VIII","Numidian Archer IX","Numidian Archer X","Numidian Archer XI","Numidian Archer XII","Numidian Archer XIII","Numidian Archer XIV","Numidian Archer XV","Numidian Archer XVI","Numidian Archer XVII","Numidian Archer XVIII","Numidian Archer XIX","Numidian Archer XX"]
+},
+{
+    "name": "Archer Eastern",
+    "unitNames": ["Eastern Archer I","Eastern Archer II","Eastern Archer III","Eastern Archer IV","Eastern Archer V","Eastern Archer VI","Eastern Archer VII","Eastern Archer VIII","Eastern Archer IX","Eastern Archer X","Eastern Archer XI","Eastern Archer XII","Eastern Archer XIII","Eastern Archer XIV","Eastern Archer XV","Eastern Archer XVI","Eastern Archer XVII","Eastern Archer XVIII","Eastern Archer XIX","Eastern Archer XX"]
+},
+{
+    "name": "Archer Thracian",
+    "unitNames": ["Thracian Archer I","Thracian Archer II","Thracian Archer III","Thracian Archer IV","Thracian Archer V","Thracian Archer VI","Thracian Archer VII","Thracian Archer VIII","Thracian Archer IX","Thracian Archer X","Thracian Archer XI","Thracian Archer XII","Thracian Archer XIII","Thracian Archer XIV","Thracian Archer XV","Thracian Archer XVI","Thracian Archer XVII","Thracian Archer XVIII","Thracian Archer XIX","Thracian Archer XX"]
+},
+{
+    "name": "Archer Illyrian",
+    "unitNames": ["Illyrian Archer I","Illyrian Archer II","Illyrian Archer III","Illyrian Archer IV","Illyrian Archer V","Illyrian Archer VI","Illyrian Archer VII","Illyrian Archer VIII","Illyrian Archer IX","Illyrian Archer X","Illyrian Archer XI","Illyrian Archer XII","Illyrian Archer XIII","Illyrian Archer XIV","Illyrian Archer XV","Illyrian Archer XVI","Illyrian Archer XVII","Illyrian Archer XVIII","Illyrian Archer XIX","Illyrian Archer XX"]
+},
+{
+    "name": "Archer Hellenistic",
+    "unitNames": ["Toxotai I","Toxotai II","Toxotai III","Toxotai IV","Toxotai V","Toxotai VI","Toxotai VII","Toxotai VIII","Toxotai IX","Toxotai X","Toxotai XI","Toxotai XII","Toxotai XIII","Toxotai XIV","Toxotai XV","Toxotai XVI","Toxotai XVII","Toxotai XVIII","Toxotai XIX","Toxotai XX"]
+},
+{
+    "name": "Archer Hellenic",
+    "unitNames": ["Toxotai I","Toxotai II","Toxotai III","Toxotai IV","Toxotai V","Toxotai VI","Toxotai VII","Toxotai VIII","Toxotai IX","Toxotai X","Toxotai XI","Toxotai XII","Toxotai XIII","Toxotai XIV","Toxotai XV","Toxotai XVI","Toxotai XVII","Toxotai XVIII","Toxotai XIX","Toxotai XX"]
+},
+{
+    "name": "Archer Iberian",
+    "unitNames": ["Iberian Archer I","Iberian Archer II","Iberian Archer III","Iberian Archer IV","Iberian Archer V","Iberian Archer VI","Iberian Archer VII","Iberian Archer VIII","Iberian Archer IX","Iberian Archer X","Iberian Archer XI","Iberian Archer XII","Iberian Archer XIII","Iberian Archer XIV","Iberian Archer XV","Iberian Archer XVI","Iberian Archer XVII","Iberian Archer XVIII","Iberian Archer XIX","Iberian Archer XX"]
+},
+{
+    "name": "Archer Nomad",
+    "unitNames": ["Nomad Archer I","Nomad Archer II","Nomad Archer III","Nomad Archer IV","Nomad Archer V","Nomad Archer VI","Nomad Archer VII","Nomad Archer VIII","Nomad Archer IX","Nomad Archer X","Nomad Archer XI","Nomad Archer XII","Nomad Archer XIII","Nomad Archer XIV","Nomad Archer XV","Nomad Archer XVI","Nomad Archer XVII","Nomad Archer XVIII","Nomad Archer XIX","Nomad Archer XX"]
+},
+{
+    "name": "Slinger Latin",
+    "unitNames": ["Funditor I","Funditor II","Funditor III","Funditor IV","Funditor V","Funditor VI","Funditor VII","Funditor VIII","Funditor IX","Funditor X","Funditor XI","Funditor XII","Funditor XIII","Funditor XIV","Funditor XV","Funditor XVI","Funditor XVII","Funditor XVIII","Funditor XIX","Funditor XX"]
+},
+{
+    "name": "Slinger Celtic",
+    "unitNames": ["Celtic Slinger I","Celtic Slinger II","Celtic Slinger III","Celtic Slinger IV","Celtic Slinger V","Celtic Slinger VI","Celtic Slinger VII","Celtic Slinger VIII","Celtic Slinger IX","Celtic Slinger X","Celtic Slinger XI","Celtic Slinger XII","Celtic Slinger XIII","Celtic Slinger XIV","Celtic Slinger XV","Celtic Slinger XVI","Celtic Slinger XVII","Celtic Slinger XVIII","Celtic Slinger XIX","Celtic Slinger XX"]
+},
+{
+    "name": "Slinger Germanic",
+    "unitNames": ["Germanic Slinger I","Germanic Slinger II","Germanic Slinger III","Germanic Slinger IV","Germanic Slinger V","Germanic Slinger VI","Germanic Slinger VII","Germanic Slinger VIII","Germanic Slinger IX","Germanic Slinger X","Germanic Slinger XI","Germanic Slinger XII","Germanic Slinger XIII","Germanic Slinger XIV","Germanic Slinger XV","Germanic Slinger XVI","Germanic Slinger XVII","Germanic Slinger XVIII","Germanic Slinger XIX","Germanic Slinger XX"]
+},
+{
+    "name": "Slinger Punic",
+    "unitNames": ["Punic Slinger I","Punic Slinger II","Punic Slinger III","Punic Slinger IV","Punic Slinger V","Punic Slinger VI","Punic Slinger VII","Punic Slinger VIII","Punic Slinger IX","Punic Slinger X","Punic Slinger XI","Punic Slinger XII","Punic Slinger XIII","Punic Slinger XIV","Punic Slinger XV","Punic Slinger XVI","Punic Slinger XVII","Punic Slinger XVIII","Punic Slinger XIX","Punic Slinger XX"]
+},
+{
+    "name": "Slinger Numidian",
+    "unitNames": ["Numidian Slinger I","Numidian Slinger II","Numidian Slinger III","Numidian Slinger IV","Numidian Slinger V","Numidian Slinger VI","Numidian Slinger VII","Numidian Slinger VIII","Numidian Slinger IX","Numidian Slinger X","Numidian Slinger XI","Numidian Slinger XII","Numidian Slinger XIII","Numidian Slinger XIV","Numidian Slinger XV","Numidian Slinger XVI","Numidian Slinger XVII","Numidian Slinger XVIII","Numidian Slinger XIX","Numidian Slinger XX"]
+},
+{
+    "name": "Slinger Eastern",
+    "unitNames": ["Eastern Slinger I","Eastern Slinger II","Eastern Slinger III","Eastern Slinger IV","Eastern Slinger V","Eastern Slinger VI","Eastern Slinger VII","Eastern Slinger VIII","Eastern Slinger IX","Eastern Slinger X","Eastern Slinger XI","Eastern Slinger XII","Eastern Slinger XIII","Eastern Slinger XIV","Eastern Slinger XV","Eastern Slinger XVI","Eastern Slinger XVII","Eastern Slinger XVIII","Eastern Slinger XIX","Eastern Slinger XX"]
+},
+{
+    "name": "Slinger Thracian",
+    "unitNames": ["Thracian Slinger I","Thracian Slinger II","Thracian Slinger III","Thracian Slinger IV","Thracian Slinger V","Thracian Slinger VI","Thracian Slinger VII","Thracian Slinger VIII","Thracian Slinger IX","Thracian Slinger X","Thracian Slinger XI","Thracian Slinger XII","Thracian Slinger XIII","Thracian Slinger XIV","Thracian Slinger XV","Thracian Slinger XVI","Thracian Slinger XVII","Thracian Slinger XVIII","Thracian Slinger XIX","Thracian Slinger XX"]
+},
+{
+    "name": "Slinger Illyrian",
+    "unitNames": ["Illyrian Slinger I","Illyrian Slinger II","Illyrian Slinger III","Illyrian Slinger IV","Illyrian Slinger V","Illyrian Slinger VI","Illyrian Slinger VII","Illyrian Slinger VIII","Illyrian Slinger IX","Illyrian Slinger X","Illyrian Slinger XI","Illyrian Slinger XII","Illyrian Slinger XIII","Illyrian Slinger XIV","Illyrian Slinger XV","Illyrian Slinger XVI","Illyrian Slinger XVII","Illyrian Slinger XVIII","Illyrian Slinger XIX","Illyrian Slinger XX"]
+},
+{
+    "name": "Slinger Hellenistic",
+    "unitNames": ["Sphendonetes I","Sphendonetes II","Sphendonetes III","Sphendonetes IV","Sphendonetes V","Sphendonetes VI","Sphendonetes VII","Sphendonetes VIII","Sphendonetes IX","Sphendonetes X","Sphendonetes XI","Sphendonetes XII","Sphendonetes XIII","Sphendonetes XIV","Sphendonetes XV","Sphendonetes XVI","Sphendonetes XVII","Sphendonetes XVIII","Sphendonetes XIX","Sphendonetes XX"]
+},
+{
+    "name": "Slinger Hellenic",
+    "unitNames": ["Sphendonetes I","Sphendonetes II","Sphendonetes III","Sphendonetes IV","Sphendonetes V","Sphendonetes VI","Sphendonetes VII","Sphendonetes VIII","Sphendonetes IX","Sphendonetes X","Sphendonetes XI","Sphendonetes XII","Sphendonetes XIII","Sphendonetes XIV","Sphendonetes XV","Sphendonetes XVI","Sphendonetes XVII","Sphendonetes XVIII","Sphendonetes XIX","Sphendonetes XX"]
+},
+{
+    "name": "Slinger Iberian",
+    "unitNames": ["Iberian Slinger I","Iberian Slinger II","Iberian Slinger III","Iberian Slinger IV","Iberian Slinger V","Iberian Slinger VI","Iberian Slinger VII","Iberian Slinger VIII","Iberian Slinger IX","Iberian Slinger X","Iberian Slinger XI","Iberian Slinger XII","Iberian Slinger XIII","Iberian Slinger XIV","Iberian Slinger XV","Iberian Slinger XVI","Iberian Slinger XVII","Iberian Slinger XVIII","Iberian Slinger XIX","Iberian Slinger XX"]
+},
+{
+    "name": "Slinger Nomad",
+    "unitNames": ["Nomad Slinger I","Nomad Slinger II","Nomad Slinger III","Nomad Slinger IV","Nomad Slinger V","Nomad Slinger VI","Nomad Slinger VII","Nomad Slinger VIII","Nomad Slinger IX","Nomad Slinger X","Nomad Slinger XI","Nomad Slinger XII","Nomad Slinger XIII","Nomad Slinger XIV","Nomad Slinger XV","Nomad Slinger XVI","Nomad Slinger XVII","Nomad Slinger XVIII","Nomad Slinger XIX","Nomad Slinger XX"]
+},
+{
+    "name": "Crossbowman Latin",
+    "unitNames": ["Arcuballista I","Arcuballista II","Arcuballista III","Arcuballista IV","Arcuballista V","Arcuballista VI","Arcuballista VII","Arcuballista VIII","Arcuballista IX","Arcuballista X","Arcuballista XI","Arcuballista XII","Arcuballista XIII","Arcuballista XIV","Arcuballista XV","Arcuballista XVI","Arcuballista XVII","Arcuballista XVIII","Arcuballista XIX","Arcuballista XX"]
+},
+{
+    "name": "Crossbowman Celtic",
+    "unitNames": ["Celtic Crossbowman I","Celtic Crossbowman II","Celtic Crossbowman III","Celtic Crossbowman IV","Celtic Crossbowman V","Celtic Crossbowman VI","Celtic Crossbowman VII","Celtic Crossbowman VIII","Celtic Crossbowman IX","Celtic Crossbowman X","Celtic Crossbowman XI","Celtic Crossbowman XII","Celtic Crossbowman XIII","Celtic Crossbowman XIV","Celtic Crossbowman XV","Celtic Crossbowman XVI","Celtic Crossbowman XVII","Celtic Crossbowman XVIII","Celtic Crossbowman XIX","Celtic Crossbowman XX"]
+},
+{
+    "name": "Crossbowman Germanic",
+    "unitNames": ["Germanic Crossbowman I","Germanic Crossbowman II","Germanic Crossbowman III","Germanic Crossbowman IV","Germanic Crossbowman V","Germanic Crossbowman VI","Germanic Crossbowman VII","Germanic Crossbowman VIII","Germanic Crossbowman IX","Germanic Crossbowman X","Germanic Crossbowman XI","Germanic Crossbowman XII","Germanic Crossbowman XIII","Germanic Crossbowman XIV","Germanic Crossbowman XV","Germanic Crossbowman XVI","Germanic Crossbowman XVII","Germanic Crossbowman XVIII","Germanic Crossbowman XIX","Germanic Crossbowman XX"]
+},
+{
+    "name": "Crossbowman Punic",
+    "unitNames": ["Punic Crossbowman I","Punic Crossbowman II","Punic Crossbowman III","Punic Crossbowman IV","Punic Crossbowman V","Punic Crossbowman VI","Punic Crossbowman VII","Punic Crossbowman VIII","Punic Crossbowman IX","Punic Crossbowman X","Punic Crossbowman XI","Punic Crossbowman XII","Punic Crossbowman XIII","Punic Crossbowman XIV","Punic Crossbowman XV","Punic Crossbowman XVI","Punic Crossbowman XVII","Punic Crossbowman XVIII","Punic Crossbowman XIX","Punic Crossbowman XX"]
+},
+{
+    "name": "Crossbowman Numidian",
+    "unitNames": ["Numidian Crossbowman I","Numidian Crossbowman II","Numidian Crossbowman III","Numidian Crossbowman IV","Numidian Crossbowman V","Numidian Crossbowman VI","Numidian Crossbowman VII","Numidian Crossbowman VIII","Numidian Crossbowman IX","Numidian Crossbowman X","Numidian Crossbowman XI","Numidian Crossbowman XII","Numidian Crossbowman XIII","Numidian Crossbowman XIV","Numidian Crossbowman XV","Numidian Crossbowman XVI","Numidian Crossbowman XVII","Numidian Crossbowman XVIII","Numidian Crossbowman XIX","Numidian Crossbowman XX"]
+},
+{
+    "name": "Crossbowman Eastern",
+    "unitNames": ["Eastern Crossbowman I","Eastern Crossbowman II","Eastern Crossbowman III","Eastern Crossbowman IV","Eastern Crossbowman V","Eastern Crossbowman VI","Eastern Crossbowman VII","Eastern Crossbowman VIII","Eastern Crossbowman IX","Eastern Crossbowman X","Eastern Crossbowman XI","Eastern Crossbowman XII","Eastern Crossbowman XIII","Eastern Crossbowman XIV","Eastern Crossbowman XV","Eastern Crossbowman XVI","Eastern Crossbowman XVII","Eastern Crossbowman XVIII","Eastern Crossbowman XIX","Eastern Crossbowman XX"]
+},
+{
+    "name": "Crossbowman Thracian",
+    "unitNames": ["Thracian Crossbowman I","Thracian Crossbowman II","Thracian Crossbowman III","Thracian Crossbowman IV","Thracian Crossbowman V","Thracian Crossbowman VI","Thracian Crossbowman VII","Thracian Crossbowman VIII","Thracian Crossbowman IX","Thracian Crossbowman X","Thracian Crossbowman XI","Thracian Crossbowman XII","Thracian Crossbowman XIII","Thracian Crossbowman XIV","Thracian Crossbowman XV","Thracian Crossbowman XVI","Thracian Crossbowman XVII","Thracian Crossbowman XVIII","Thracian Crossbowman XIX","Thracian Crossbowman XX"]
+},
+{
+    "name": "Crossbowman Illyrian",
+    "unitNames": ["Illyrian Crossbowman I","Illyrian Crossbowman II","Illyrian Crossbowman III","Illyrian Crossbowman IV","Illyrian Crossbowman V","Illyrian Crossbowman VI","Illyrian Crossbowman VII","Illyrian Crossbowman VIII","Illyrian Crossbowman IX","Illyrian Crossbowman X","Illyrian Crossbowman XI","Illyrian Crossbowman XII","Illyrian Crossbowman XIII","Illyrian Crossbowman XIV","Illyrian Crossbowman XV","Illyrian Crossbowman XVI","Illyrian Crossbowman XVII","Illyrian Crossbowman XVIII","Illyrian Crossbowman XIX","Illyrian Crossbowman XX"]
+},
+{
+    "name": "Crossbowman Hellenistic",
+    "unitNames": ["Gastraphetes I","Gastraphetes II","Gastraphetes III","Gastraphetes IV","Gastraphetes V","Gastraphetes VI","Gastraphetes VII","Gastraphetes VIII","Gastraphetes IX","Gastraphetes X","Gastraphetes XI","Gastraphetes XII","Gastraphetes XIII","Gastraphetes XIV","Gastraphetes XV","Gastraphetes XVI","Gastraphetes XVII","Gastraphetes XVIII","Gastraphetes XIX","Gastraphetes XX"]
+},
+{
+    "name": "Crossbowman Hellenic",
+    "unitNames": ["Gastraphetes I","Gastraphetes II","Gastraphetes III","Gastraphetes IV","Gastraphetes V","Gastraphetes VI","Gastraphetes VII","Gastraphetes VIII","Gastraphetes IX","Gastraphetes X","Gastraphetes XI","Gastraphetes XII","Gastraphetes XIII","Gastraphetes XIV","Gastraphetes XV","Gastraphetes XVI","Gastraphetes XVII","Gastraphetes XVIII","Gastraphetes XIX","Gastraphetes XX"]
+},
+{
+    "name": "Crossbowman Iberian",
+    "unitNames": ["Iberian Crossbowman I","Iberian Crossbowman II","Iberian Crossbowman III","Iberian Crossbowman IV","Iberian Crossbowman V","Iberian Crossbowman VI","Iberian Crossbowman VII","Iberian Crossbowman VIII","Iberian Crossbowman IX","Iberian Crossbowman X","Iberian Crossbowman XI","Iberian Crossbowman XII","Iberian Crossbowman XIII","Iberian Crossbowman XIV","Iberian Crossbowman XV","Iberian Crossbowman XVI","Iberian Crossbowman XVII","Iberian Crossbowman XVIII","Iberian Crossbowman XIX","Iberian Crossbowman XX"]
+},
+{
+    "name": "Crossbowman Nomad",
+    "unitNames": ["Nomad Crossbowman I","Nomad Crossbowman II","Nomad Crossbowman III","Nomad Crossbowman IV","Nomad Crossbowman V","Nomad Crossbowman VI","Nomad Crossbowman VII","Nomad Crossbowman VIII","Nomad Crossbowman IX","Nomad Crossbowman X","Nomad Crossbowman XI","Nomad Crossbowman XII","Nomad Crossbowman XIII","Nomad Crossbowman XIV","Nomad Crossbowman XV","Nomad Crossbowman XVI","Nomad Crossbowman XVII","Nomad Crossbowman XVIII","Nomad Crossbowman XIX","Nomad Crossbowman XX"]
+},
+{
+    "name": "Armored Archer Latin",
+    "unitNames": ["Sagittarius Armatus I", "Sagittarius Armatus II", "Sagittarius Armatus III", "Sagittarius Armatus IV", "Sagittarius Armatus V", "Sagittarius Armatus VI", "Sagittarius Armatus VII", "Sagittarius Armatus VIII", "Sagittarius Armatus IX", "Sagittarius Armatus X", "Sagittarius Armatus XI", "Sagittarius Armatus XII", "Sagittarius Armatus XIII", "Sagittarius Armatus XIV", "Sagittarius Armatus XV", "Sagittarius Armatus XVI", "Sagittarius Armatus XVII", "Sagittarius Armatus XVIII", "Sagittarius Armatus XIX", "Sagittarius Armatus XX"]
+},
+{
+    "name": "Armored Archer Celtic",
+    "unitNames": ["Celtic Armored Archer I", "Celtic Armored Archer II", "Celtic Armored Archer III", "Celtic Armored Archer IV", "Celtic Armored Archer V", "Celtic Armored Archer VI", "Celtic Armored Archer VII", "Celtic Armored Archer VIII", "Celtic Armored Archer IX", "Celtic Armored Archer X", "Celtic Armored Archer XI", "Celtic Armored Archer XII", "Celtic Armored Archer XIII", "Celtic Armored Archer XIV", "Celtic Armored Archer XV", "Celtic Armored Archer XVI", "Celtic Armored Archer XVII", "Celtic Armored Archer XVIII", "Celtic Armored Archer XIX", "Celtic Armored Archer XX"]
+},
+{
+    "name": "Armored Archer Germanic",
+    "unitNames": ["Germanic Armored Archer I", "Germanic Armored Archer II", "Germanic Armored Archer III", "Germanic Armored Archer IV", "Germanic Armored Archer V", "Germanic Armored Archer VI", "Germanic Armored Archer VII", "Germanic Armored Archer VIII", "Germanic Armored Archer IX", "Germanic Armored Archer X", "Germanic Armored Archer XI", "Germanic Armored Archer XII", "Germanic Armored Archer XIII", "Germanic Armored Archer XIV", "Germanic Armored Archer XV", "Germanic Armored Archer XVI", "Germanic Armored Archer XVII", "Germanic Armored Archer XVIII", "Germanic Armored Archer XIX", "Germanic Armored Archer XX"]
+},
+{
+    "name": "Armored Archer Punic",
+    "unitNames": ["Punic Armored Archer I", "Punic Armored Archer II", "Punic Armored Archer III", "Punic Armored Archer IV", "Punic Armored Archer V", "Punic Armored Archer VI", "Punic Armored Archer VII", "Punic Armored Archer VIII", "Punic Armored Archer IX", "Punic Armored Archer X", "Punic Armored Archer XI", "Punic Armored Archer XII", "Punic Armored Archer XIII", "Punic Armored Archer XIV", "Punic Armored Archer XV", "Punic Armored Archer XVI", "Punic Armored Archer XVII", "Punic Armored Archer XVIII", "Punic Armored Archer XIX", "Punic Armored Archer XX"]
+},
+{
+    "name": "Armored Archer Numidian",
+    "unitNames": ["Numidian Armored Archer I", "Numidian Armored Archer II", "Numidian Armored Archer III", "Numidian Armored Archer IV", "Numidian Armored Archer V", "Numidian Armored Archer VI", "Numidian Armored Archer VII", "Numidian Armored Archer VIII", "Numidian Armored Archer IX", "Numidian Armored Archer X", "Numidian Armored Archer XI", "Numidian Armored Archer XII", "Numidian Armored Archer XIII", "Numidian Armored Archer XIV", "Numidian Armored Archer XV", "Numidian Armored Archer XVI", "Numidian Armored Archer XVII", "Numidian Armored Archer XVIII", "Numidian Armored Archer XIX", "Numidian Armored Archer XX"]
+},
+{
+    "name": "Armored Archer Eastern",
+    "unitNames": ["Eastern Armored Archer I", "Eastern Armored Archer II", "Eastern Armored Archer III", "Eastern Armored Archer IV", "Eastern Armored Archer V", "Eastern Armored Archer VI", "Eastern Armored Archer VII", "Eastern Armored Archer VIII", "Eastern Armored Archer IX", "Eastern Armored Archer X", "Eastern Armored Archer XI", "Eastern Armored Archer XII", "Eastern Armored Archer XIII", "Eastern Armored Archer XIV", "Eastern Armored Archer XV", "Eastern Armored Archer XVI", "Eastern Armored Archer XVII", "Eastern Armored Archer XVIII", "Eastern Armored Archer XIX", "Eastern Armored Archer XX"]
+},
+{
+    "name": "Armored Archer Thracian",
+    "unitNames": ["Thracian Armored Archer I", "Thracian Armored Archer II", "Thracian Armored Archer III", "Thracian Armored Archer IV", "Thracian Armored Archer V", "Thracian Armored Archer VI", "Thracian Armored Archer VII", "Thracian Armored Archer VIII", "Thracian Armored Archer IX", "Thracian Armored Archer X", "Thracian Armored Archer XI", "Thracian Armored Archer XII", "Thracian Armored Archer XIII", "Thracian Armored Archer XIV", "Thracian Armored Archer XV", "Thracian Armored Archer XVI", "Thracian Armored Archer XVII", "Thracian Armored Archer XVIII", "Thracian Armored Archer XIX", "Thracian Armored Archer XX"]
+},
+{
+    "name": "Armored Archer Illyrian",
+    "unitNames": ["Illyrian Armored Archer I", "Illyrian Armored Archer II", "Illyrian Armored Archer III", "Illyrian Armored Archer IV", "Illyrian Armored Archer V", "Illyrian Armored Archer VI", "Illyrian Armored Archer VII", "Illyrian Armored Archer VIII", "Illyrian Armored Archer IX", "Illyrian Armored Archer X", "Illyrian Armored Archer XI", "Illyrian Armored Archer XII", "Illyrian Armored Archer XIII", "Illyrian Armored Archer XIV", "Illyrian Armored Archer XV", "Illyrian Armored Archer XVI", "Illyrian Armored Archer XVII", "Illyrian Armored Archer XVIII", "Illyrian Armored Archer XIX", "Illyrian Armored Archer XX"]
+},
+{
+    "name": "Armored Archer Hellenistic",
+    "unitNames": ["Toxotēs Thorakitēs I", "Toxotēs Thorakitēs II", "Toxotēs Thorakitēs III", "Toxotēs Thorakitēs IV", "Toxotēs Thorakitēs V", "Toxotēs Thorakitēs VI", "Toxotēs Thorakitēs VII", "Toxotēs Thorakitēs VIII", "Toxotēs Thorakitēs IX", "Toxotēs Thorakitēs X", "Toxotēs Thorakitēs XI", "Toxotēs Thorakitēs XII", "Toxotēs Thorakitēs XIII", "Toxotēs Thorakitēs XIV", "Toxotēs Thorakitēs XV", "Toxotēs Thorakitēs XVI", "Toxotēs Thorakitēs XVII", "Toxotēs Thorakitēs XVIII", "Toxotēs Thorakitēs XIX", "Toxotēs Thorakitēs XX"]
+},
+{
+    "name": "Armored Archer Hellenic",
+    "unitNames": ["Toxotēs Thorakitēs I", "Toxotēs Thorakitēs II", "Toxotēs Thorakitēs III", "Toxotēs Thorakitēs IV", "Toxotēs Thorakitēs V", "Toxotēs Thorakitēs VI", "Toxotēs Thorakitēs VII", "Toxotēs Thorakitēs VIII", "Toxotēs Thorakitēs IX", "Toxotēs Thorakitēs X", "Toxotēs Thorakitēs XI", "Toxotēs Thorakitēs XII", "Toxotēs Thorakitēs XIII", "Toxotēs Thorakitēs XIV", "Toxotēs Thorakitēs XV", "Toxotēs Thorakitēs XVI", "Toxotēs Thorakitēs XVII", "Toxotēs Thorakitēs XVIII", "Toxotēs Thorakitēs XIX", "Toxotēs Thorakitēs XX"]
+},
+{
+    "name": "Armored Archer Iberian",
+    "unitNames": ["Iberian Armored Archer I", "Iberian Armored Archer II", "Iberian Armored Archer III", "Iberian Armored Archer IV", "Iberian Armored Archer V", "Iberian Armored Archer VI", "Iberian Armored Archer VII", "Iberian Armored Archer VIII", "Iberian Armored Archer IX", "Iberian Armored Archer X", "Iberian Armored Archer XI", "Iberian Armored Archer XII", "Iberian Armored Archer XIII", "Iberian Armored Archer XIV", "Iberian Armored Archer XV", "Iberian Armored Archer XVI", "Iberian Armored Archer XVII", "Iberian Armored Archer XVIII", "Iberian Armored Archer XIX", "Iberian Armored Archer XX"]
+},
+{
+    "name": "Armored Archer Nomad",
+    "unitNames": ["Nomad Armored Archer I", "Nomad Armored Archer II", "Nomad Armored Archer III", "Nomad Armored Archer IV", "Nomad Armored Archer V", "Nomad Armored Archer VI", "Nomad Armored Archer VII", "Nomad Armored Archer VIII", "Nomad Armored Archer IX", "Nomad Armored Archer X", "Nomad Armored Archer XI", "Nomad Armored Archer XII", "Nomad Armored Archer XIII", "Nomad Armored Archer XIV", "Nomad Armored Archer XV", "Nomad Armored Archer XVI", "Nomad Armored Archer XVII", "Nomad Armored Archer XVIII", "Nomad Armored Archer XIX", "Nomad Armored Archer XX"]
+},
+
+////Melee
+
+{
+    "name": "Spearman Latin",
+    "unitNames": ["Hastifer I", "Hastifer II", "Hastifer III", "Hastifer IV", "Hastifer V", "Hastifer VI", "Hastifer VII", "Hastifer VIII", "Hastifer IX", "Hastifer X", "Hastifer XI", "Hastifer XII", "Hastifer XIII", "Hastifer XIV", "Hastifer XV", "Hastifer XVI", "Hastifer XVII", "Hastifer XVIII", "Hastifer XIX", "Hastifer XX"]
+},
+{
+    "name": "Spearman Celtic",
+    "unitNames": ["Celtic Spearman I", "Celtic Spearman II", "Celtic Spearman III", "Celtic Spearman IV", "Celtic Spearman V", "Celtic Spearman VI", "Celtic Spearman VII", "Celtic Spearman VIII", "Celtic Spearman IX", "Celtic Spearman X", "Celtic Spearman XI", "Celtic Spearman XII", "Celtic Spearman XIII", "Celtic Spearman XIV", "Celtic Spearman XV", "Celtic Spearman XVI", "Celtic Spearman XVII", "Celtic Spearman XVIII", "Celtic Spearman XIX", "Celtic Spearman XX"]
+},
+{
+    "name": "Spearman Germanic",
+    "unitNames": ["Germanic Spearman I", "Germanic Spearman II", "Germanic Spearman III", "Germanic Spearman IV", "Germanic Spearman V", "Germanic Spearman VI", "Germanic Spearman VII", "Germanic Spearman VIII", "Germanic Spearman IX", "Germanic Spearman X", "Germanic Spearman XI", "Germanic Spearman XII", "Germanic Spearman XIII", "Germanic Spearman XIV", "Germanic Spearman XV", "Germanic Spearman XVI", "Germanic Spearman XVII", "Germanic Spearman XVIII", "Germanic Spearman XIX", "Germanic Spearman XX"]
+},
+{
+    "name": "Spearman Punic",
+    "unitNames": ["Punic Spearman I", "Punic Spearman II", "Punic Spearman III", "Punic Spearman IV", "Punic Spearman V", "Punic Spearman VI", "Punic Spearman VII", "Punic Spearman VIII", "Punic Spearman IX", "Punic Spearman X", "Punic Spearman XI", "Punic Spearman XII", "Punic Spearman XIII", "Punic Spearman XIV", "Punic Spearman XV", "Punic Spearman XVI", "Punic Spearman XVII", "Punic Spearman XVIII", "Punic Spearman XIX", "Punic Spearman XX"]
+},
+{
+    "name": "Spearman Numidian",
+    "unitNames": ["Numidian Spearman I", "Numidian Spearman II", "Numidian Spearman III", "Numidian Spearman IV", "Numidian Spearman V", "Numidian Spearman VI", "Numidian Spearman VII", "Numidian Spearman VIII", "Numidian Spearman IX", "Numidian Spearman X", "Numidian Spearman XI", "Numidian Spearman XII", "Numidian Spearman XIII", "Numidian Spearman XIV", "Numidian Spearman XV", "Numidian Spearman XVI", "Numidian Spearman XVII", "Numidian Spearman XVIII", "Numidian Spearman XIX", "Numidian Spearman XX"]
+},
+{
+    "name": "Spearman Eastern",
+    "unitNames": ["Eastern Spearman I", "Eastern Spearman II", "Eastern Spearman III", "Eastern Spearman IV", "Eastern Spearman V", "Eastern Spearman VI", "Eastern Spearman VII", "Eastern Spearman VIII", "Eastern Spearman IX", "Eastern Spearman X", "Eastern Spearman XI", "Eastern Spearman XII", "Eastern Spearman XIII", "Eastern Spearman XIV", "Eastern Spearman XV", "Eastern Spearman XVI", "Eastern Spearman XVII", "Eastern Spearman XVIII", "Eastern Spearman XIX", "Eastern Spearman XX"]
+},
+{
+    "name": "Spearman Thracian",
+    "unitNames": ["Thracian Spearman I", "Thracian Spearman II", "Thracian Spearman III", "Thracian Spearman IV", "Thracian Spearman V", "Thracian Spearman VI", "Thracian Spearman VII", "Thracian Spearman VIII", "Thracian Spearman IX", "Thracian Spearman X", "Thracian Spearman XI", "Thracian Spearman XII", "Thracian Spearman XIII", "Thracian Spearman XIV", "Thracian Spearman XV", "Thracian Spearman XVI", "Thracian Spearman XVII", "Thracian Spearman XVIII", "Thracian Spearman XIX", "Thracian Spearman XX"]
+},
+{
+    "name": "Spearman Illyrian",
+    "unitNames": ["Illyrian Spearman I", "Illyrian Spearman II", "Illyrian Spearman III", "Illyrian Spearman IV", "Illyrian Spearman V", "Illyrian Spearman VI", "Illyrian Spearman VII", "Illyrian Spearman VIII", "Illyrian Spearman IX", "Illyrian Spearman X", "Illyrian Spearman XI", "Illyrian Spearman XII", "Illyrian Spearman XIII", "Illyrian Spearman XIV", "Illyrian Spearman XV", "Illyrian Spearman XVI", "Illyrian Spearman XVII", "Illyrian Spearman XVIII", "Illyrian Spearman XIX", "Illyrian Spearman XX"]
+},
+{
+    "name": "Spearman Hellenistic",
+    "unitNames": ["Doryphoroi I","Doryphoroi II","Doryphoroi III","Doryphoroi IV","Doryphoroi V","Doryphoroi VI","Doryphoroi VII","Doryphoroi VIII","Doryphoroi IX","Doryphoroi X","Doryphoroi XI","Doryphoroi XII","Doryphoroi XIII","Doryphoroi XIV","Doryphoroi XV","Doryphoroi XVI","Doryphoroi XVII","Doryphoroi XVIII","Doryphoroi XIX","Doryphoroi XX"]
+},
+{
+    "name": "Spearman Hellenic",
+    "unitNames": ["Doryphoroi I","Doryphoroi II","Doryphoroi III","Doryphoroi IV","Doryphoroi V","Doryphoroi VI","Doryphoroi VII","Doryphoroi VIII","Doryphoroi IX","Doryphoroi X","Doryphoroi XI","Doryphoroi XII","Doryphoroi XIII","Doryphoroi XIV","Doryphoroi XV","Doryphoroi XVI","Doryphoroi XVII","Doryphoroi XVIII","Doryphoroi XIX","Doryphoroi XX"]
+},
+{
+    "name": "Spearman Iberian",
+    "unitNames": ["Iberian Spearman I", "Iberian Spearman II", "Iberian Spearman III", "Iberian Spearman IV", "Iberian Spearman V", "Iberian Spearman VI", "Iberian Spearman VII", "Iberian Spearman VIII", "Iberian Spearman IX", "Iberian Spearman X", "Iberian Spearman XI", "Iberian Spearman XII", "Iberian Spearman XIII", "Iberian Spearman XIV", "Iberian Spearman XV", "Iberian Spearman XVI", "Iberian Spearman XVII", "Iberian Spearman XVIII", "Iberian Spearman XIX", "Iberian Spearman XX"]
+},
+{
+    "name": "Spearman Nomad",
+    "unitNames": ["Nomad Spearman I", "Nomad Spearman II", "Nomad Spearman III", "Nomad Spearman IV", "Nomad Spearman V", "Nomad Spearman VI", "Nomad Spearman VII", "Nomad Spearman VIII", "Nomad Spearman IX", "Nomad Spearman X", "Nomad Spearman XI", "Nomad Spearman XII", "Nomad Spearman XIII", "Nomad Spearman XIV", "Nomad Spearman XV", "Nomad Spearman XVI", "Nomad Spearman XVII", "Nomad Spearman XVIII", "Nomad Spearman XIX", "Nomad Spearman XX"]
+},
+{
+    "name": "Hoplite Latin",
+    "unitNames": ["Hoplitae I", "Hoplitae II", "Hoplitae III", "Hoplitae IV", "Hoplitae V", "Hoplitae VI", "Hoplitae VII", "Hoplitae VIII", "Hoplitae IX", "Hoplitae X", "Hoplitae XI", "Hoplitae XII", "Hoplitae XIII", "Hoplitae XIV", "Hoplitae XV", "Hoplitae XVI", "Hoplitae XVII", "Hoplitae XVIII", "Hoplitae XIX", "Hoplitae XX"]
+},
+{
+    "name": "Hoplite Celtic",
+    "unitNames": ["Celtic Hoplite I", "Celtic Hoplite II", "Celtic Hoplite III", "Celtic Hoplite IV", "Celtic Hoplite V", "Celtic Hoplite VI", "Celtic Hoplite VII", "Celtic Hoplite VIII", "Celtic Hoplite IX", "Celtic Hoplite X", "Celtic Hoplite XI", "Celtic Hoplite XII", "Celtic Hoplite XIII", "Celtic Hoplite XIV", "Celtic Hoplite XV", "Celtic Hoplite XVI", "Celtic Hoplite XVII", "Celtic Hoplite XVIII", "Celtic Hoplite XIX", "Celtic Hoplite XX"]
+},
+{
+    "name": "Hoplite Germanic",
+    "unitNames": ["Germanic Hoplite I", "Germanic Hoplite II", "Germanic Hoplite III", "Germanic Hoplite IV", "Germanic Hoplite V", "Germanic Hoplite VI", "Germanic Hoplite VII", "Germanic Hoplite VIII", "Germanic Hoplite IX", "Germanic Hoplite X", "Germanic Hoplite XI", "Germanic Hoplite XII", "Germanic Hoplite XIII", "Germanic Hoplite XIV", "Germanic Hoplite XV", "Germanic Hoplite XVI", "Germanic Hoplite XVII", "Germanic Hoplite XVIII", "Germanic Hoplite XIX", "Germanic Hoplite XX"]
+},
+{
+    "name": "Hoplite Punic",
+    "unitNames": ["Punic Hoplite I", "Punic Hoplite II", "Punic Hoplite III", "Punic Hoplite IV", "Punic Hoplite V", "Punic Hoplite VI", "Punic Hoplite VII", "Punic Hoplite VIII", "Punic Hoplite IX", "Punic Hoplite X", "Punic Hoplite XI", "Punic Hoplite XII", "Punic Hoplite XIII", "Punic Hoplite XIV", "Punic Hoplite XV", "Punic Hoplite XVI", "Punic Hoplite XVII", "Punic Hoplite XVIII", "Punic Hoplite XIX", "Punic Hoplite XX"]
+},
+{
+    "name": "Hoplite Numidian",
+    "unitNames": ["Numidian Hoplite I", "Numidian Hoplite II", "Numidian Hoplite III", "Numidian Hoplite IV", "Numidian Hoplite V", "Numidian Hoplite VI", "Numidian Hoplite VII", "Numidian Hoplite VIII", "Numidian Hoplite IX", "Numidian Hoplite X", "Numidian Hoplite XI", "Numidian Hoplite XII", "Numidian Hoplite XIII", "Numidian Hoplite XIV", "Numidian Hoplite XV", "Numidian Hoplite XVI", "Numidian Hoplite XVII", "Numidian Hoplite XVIII", "Numidian Hoplite XIX", "Numidian Hoplite XX"]
+},
+{
+    "name": "Hoplite Eastern",
+    "unitNames": ["Eastern Hoplite I", "Eastern Hoplite II", "Eastern Hoplite III", "Eastern Hoplite IV", "Eastern Hoplite V", "Eastern Hoplite VI", "Eastern Hoplite VII", "Eastern Hoplite VIII", "Eastern Hoplite IX", "Eastern Hoplite X", "Eastern Hoplite XI", "Eastern Hoplite XII", "Eastern Hoplite XIII", "Eastern Hoplite XIV", "Eastern Hoplite XV", "Eastern Hoplite XVI", "Eastern Hoplite XVII", "Eastern Hoplite XVIII", "Eastern Hoplite XIX", "Eastern Hoplite XX"]
+},
+{
+    "name": "Hoplite Thracian",
+    "unitNames": ["Thracian Hoplite I", "Thracian Hoplite II", "Thracian Hoplite III", "Thracian Hoplite IV", "Thracian Hoplite V", "Thracian Hoplite VI", "Thracian Hoplite VII", "Thracian Hoplite VIII", "Thracian Hoplite IX", "Thracian Hoplite X", "Thracian Hoplite XI", "Thracian Hoplite XII", "Thracian Hoplite XIII", "Thracian Hoplite XIV", "Thracian Hoplite XV", "Thracian Hoplite XVI", "Thracian Hoplite XVII", "Thracian Hoplite XVIII", "Thracian Hoplite XIX", "Thracian Hoplite XX"]
+},
+{
+    "name": "Hoplite Illyrian",
+    "unitNames": ["Illyrian Hoplite I", "Illyrian Hoplite II", "Illyrian Hoplite III", "Illyrian Hoplite IV", "Illyrian Hoplite V", "Illyrian Hoplite VI", "Illyrian Hoplite VII", "Illyrian Hoplite VIII", "Illyrian Hoplite IX", "Illyrian Hoplite X", "Illyrian Hoplite XI", "Illyrian Hoplite XII", "Illyrian Hoplite XIII", "Illyrian Hoplite XIV", "Illyrian Hoplite XV", "Illyrian Hoplite XVI", "Illyrian Hoplite XVII", "Illyrian Hoplite XVIII", "Illyrian Hoplite XIX", "Illyrian Hoplite XX"]
+},
+{
+    "name": "Hoplite Hellenistic",
+    "unitNames": ["Hoplitai I", "Hoplitai II", "Hoplitai III", "Hoplitai IV", "Hoplitai V", "Hoplitai VI", "Hoplitai VII", "Hoplitai VIII", "Hoplitai IX", "Hoplitai X", "Hoplitai XI", "Hoplitai XII", "Hoplitai XIII", "Hoplitai XIV", "Hoplitai XV", "Hoplitai XVI", "Hoplitai XVII", "Hoplitai XVIII", "Hoplitai XIX", "Hoplitai XX"]
+},
+{
+    "name": "Hoplite Hellenic",
+    "unitNames": ["Hoplitai I", "Hoplitai II", "Hoplitai III", "Hoplitai IV", "Hoplitai V", "Hoplitai VI", "Hoplitai VII", "Hoplitai VIII", "Hoplitai IX", "Hoplitai X", "Hoplitai XI", "Hoplitai XII", "Hoplitai XIII", "Hoplitai XIV", "Hoplitai XV", "Hoplitai XVI", "Hoplitai XVII", "Hoplitai XVIII", "Hoplitai XIX", "Hoplitai XX"]
+},
+{
+    "name": "Hoplite Iberian",
+    "unitNames": ["Iberian Hoplite I", "Iberian Hoplite II", "Iberian Hoplite III", "Iberian Hoplite IV", "Iberian Hoplite V", "Iberian Hoplite VI", "Iberian Hoplite VII", "Iberian Hoplite VIII", "Iberian Hoplite IX", "Iberian Hoplite X", "Iberian Hoplite XI", "Iberian Hoplite XII", "Iberian Hoplite XIII", "Iberian Hoplite XIV", "Iberian Hoplite XV", "Iberian Hoplite XVI", "Iberian Hoplite XVII", "Iberian Hoplite XVIII", "Iberian Hoplite XIX", "Iberian Hoplite XX"]
+},
+{
+    "name": "Hoplite Nomad",
+    "unitNames": ["Nomad Hoplite I", "Nomad Hoplite II", "Nomad Hoplite III", "Nomad Hoplite IV", "Nomad Hoplite V", "Nomad Hoplite VI", "Nomad Hoplite VII", "Nomad Hoplite VIII", "Nomad Hoplite IX", "Nomad Hoplite X", "Nomad Hoplite XI", "Nomad Hoplite XII", "Nomad Hoplite XIII", "Nomad Hoplite XIV", "Nomad Hoplite XV", "Nomad Hoplite XVI", "Nomad Hoplite XVII", "Nomad Hoplite XVIII", "Nomad Hoplite XIX", "Nomad Hoplite XX"]
+},
+{
+        "name": "Pike Phalanx Latin",
+        "unitNames": ["Latin Pike Phalanx I", "Latin Pike Phalanx II", "Latin Pike Phalanx III", "Latin Pike Phalanx IV", "Latin Pike Phalanx V", "Latin Pike Phalanx VI", "Latin Pike Phalanx VII", "Latin Pike Phalanx VIII", "Latin Pike Phalanx IX", "Latin Pike Phalanx X", "Latin Pike Phalanx XI", "Latin Pike Phalanx XII", "Latin Pike Phalanx XIII", "Latin Pike Phalanx XIV", "Latin Pike Phalanx XV", "Latin Pike Phalanx XVI", "Latin Pike Phalanx XVII", "Latin Pike Phalanx XVIII", "Latin Pike Phalanx XIX", "Latin Pike Phalanx XX"]
+},
+{
+        "name": "Pike Phalanx Celtic",
+        "unitNames": ["Celtic Pike Phalanx I", "Celtic Pike Phalanx II", "Celtic Pike Phalanx III", "Celtic Pike Phalanx IV", "Celtic Pike Phalanx V", "Celtic Pike Phalanx VI", "Celtic Pike Phalanx VII", "Celtic Pike Phalanx VIII", "Celtic Pike Phalanx IX", "Celtic Pike Phalanx X", "Celtic Pike Phalanx XI", "Celtic Pike Phalanx XII", "Celtic Pike Phalanx XIII", "Celtic Pike Phalanx XIV", "Celtic Pike Phalanx XV", "Celtic Pike Phalanx XVI", "Celtic Pike Phalanx XVII", "Celtic Pike Phalanx XVIII", "Celtic Pike Phalanx XIX", "Celtic Pike Phalanx XX"]
+},
+{
+        "name": "Pike Phalanx Germanic",
+        "unitNames": ["Germanic Pike Phalanx I", "Germanic Pike Phalanx II", "Germanic Pike Phalanx III", "Germanic Pike Phalanx IV", "Germanic Pike Phalanx V", "Germanic Pike Phalanx VI", "Germanic Pike Phalanx VII", "Germanic Pike Phalanx VIII", "Germanic Pike Phalanx IX", "Germanic Pike Phalanx X", "Germanic Pike Phalanx XI", "Germanic Pike Phalanx XII", "Germanic Pike Phalanx XIII", "Germanic Pike Phalanx XIV", "Germanic Pike Phalanx XV", "Germanic Pike Phalanx XVI", "Germanic Pike Phalanx XVII", "Germanic Pike Phalanx XVIII", "Germanic Pike Phalanx XIX", "Germanic Pike Phalanx XX"]
+},
+{
+        "name": "Pike Phalanx Punic",
+        "unitNames": ["Punic Pike Phalanx I", "Punic Pike Phalanx II", "Punic Pike Phalanx III", "Punic Pike Phalanx IV", "Punic Pike Phalanx V", "Punic Pike Phalanx VI", "Punic Pike Phalanx VII", "Punic Pike Phalanx VIII", "Punic Pike Phalanx IX", "Punic Pike Phalanx X", "Punic Pike Phalanx XI", "Punic Pike Phalanx XII", "Punic Pike Phalanx XIII", "Punic Pike Phalanx XIV", "Punic Pike Phalanx XV", "Punic Pike Phalanx XVI", "Punic Pike Phalanx XVII", "Punic Pike Phalanx XVIII", "Punic Pike Phalanx XIX", "Punic Pike Phalanx XX"]
+},
+{
+        "name": "Pike Phalanx Numidian",
+        "unitNames": ["Numidian Pike Phalanx I", "Numidian Pike Phalanx II", "Numidian Pike Phalanx III", "Numidian Pike Phalanx IV", "Numidian Pike Phalanx V", "Numidian Pike Phalanx VI", "Numidian Pike Phalanx VII", "Numidian Pike Phalanx VIII", "Numidian Pike Phalanx IX", "Numidian Pike Phalanx X", "Numidian Pike Phalanx XI", "Numidian Pike Phalanx XII", "Numidian Pike Phalanx XIII", "Numidian Pike Phalanx XIV", "Numidian Pike Phalanx XV", "Numidian Pike Phalanx XVI", "Numidian Pike Phalanx XVII", "Numidian Pike Phalanx XVIII", "Numidian Pike Phalanx XIX", "Numidian Pike Phalanx XX"]
+},
+{
+        "name": "Pike Phalanx Eastern",
+        "unitNames": ["Eastern Pike Phalanx I", "Eastern Pike Phalanx II", "Eastern Pike Phalanx III", "Eastern Pike Phalanx IV", "Eastern Pike Phalanx V", "Eastern Pike Phalanx VI", "Eastern Pike Phalanx VII", "Eastern Pike Phalanx VIII", "Eastern Pike Phalanx IX", "Eastern Pike Phalanx X", "Eastern Pike Phalanx XI", "Eastern Pike Phalanx XII", "Eastern Pike Phalanx XIII", "Eastern Pike Phalanx XIV", "Eastern Pike Phalanx XV", "Eastern Pike Phalanx XVI", "Eastern Pike Phalanx XVII", "Eastern Pike Phalanx XVIII", "Eastern Pike Phalanx XIX", "Eastern Pike Phalanx XX"]
+},
+{
+        "name": "Pike Phalanx Thracian",
+        "unitNames": ["Thracian Pike Phalanx I", "Thracian Pike Phalanx II", "Thracian Pike Phalanx III", "Thracian Pike Phalanx IV", "Thracian Pike Phalanx V", "Thracian Pike Phalanx VI", "Thracian Pike Phalanx VII", "Thracian Pike Phalanx VIII", "Thracian Pike Phalanx IX", "Thracian Pike Phalanx X", "Thracian Pike Phalanx XI", "Thracian Pike Phalanx XII", "Thracian Pike Phalanx XIII", "Thracian Pike Phalanx XIV", "Thracian Pike Phalanx XV", "Thracian Pike Phalanx XVI", "Thracian Pike Phalanx XVII", "Thracian Pike Phalanx XVIII", "Thracian Pike Phalanx XIX", "Thracian Pike Phalanx XX"]
+},
+{
+        "name": "Pike Phalanx Illyrian",
+        "unitNames": ["Illyrian Pike Phalanx I", "Illyrian Pike Phalanx II", "Illyrian Pike Phalanx III", "Illyrian Pike Phalanx IV", "Illyrian Pike Phalanx V", "Illyrian Pike Phalanx VI", "Illyrian Pike Phalanx VII", "Illyrian Pike Phalanx VIII", "Illyrian Pike Phalanx IX", "Illyrian Pike Phalanx X", "Illyrian Pike Phalanx XI", "Illyrian Pike Phalanx XII", "Illyrian Pike Phalanx XIII", "Illyrian Pike Phalanx XIV", "Illyrian Pike Phalanx XV", "Illyrian Pike Phalanx XVI", "Illyrian Pike Phalanx XVII", "Illyrian Pike Phalanx XVIII", "Illyrian Pike Phalanx XIX", "Illyrian Pike Phalanx XX"]
+},
+{
+        "name": "Pike Phalanx Hellenistic",
+        "unitNames": ["Phalangitai I", "Phalangitai II", "Phalangitai III", "Phalangitai IV", "Phalangitai V", "Phalangitai VI", "Phalangitai VII", "Phalangitai VIII", "Phalangitai IX", "Phalangitai X", "Phalangitai XI", "Phalangitai XII", "Phalangitai XIII", "Phalangitai XIV", "Phalangitai XV", "Phalangitai XVI", "Phalangitai XVII", "Phalangitai XVIII", "Phalangitai XIX", "Phalangitai XX"]
+},
+{
+        "name": "Pike Phalanx Hellenic",
+        "unitNames": ["Phalangitai I", "Phalangitai II", "Phalangitai III", "Phalangitai IV", "Phalangitai V", "Phalangitai VI", "Phalangitai VII", "Phalangitai VIII", "Phalangitai IX", "Phalangitai X", "Phalangitai XI", "Phalangitai XII", "Phalangitai XIII", "Phalangitai XIV", "Phalangitai XV", "Phalangitai XVI", "Phalangitai XVII", "Phalangitai XVIII", "Phalangitai XIX", "Phalangitai XX"]
+},
+{
+        "name": "Pike Phalanx Iberian",
+        "unitNames": ["Iberian Pike Phalanx I", "Iberian Pike Phalanx II", "Iberian Pike Phalanx III", "Iberian Pike Phalanx IV", "Iberian Pike Phalanx V", "Iberian Pike Phalanx VI", "Iberian Pike Phalanx VII", "Iberian Pike Phalanx VIII", "Iberian Pike Phalanx IX", "Iberian Pike Phalanx X", "Iberian Pike Phalanx XI", "Iberian Pike Phalanx XII", "Iberian Pike Phalanx XIII", "Iberian Pike Phalanx XIV", "Iberian Pike Phalanx XV", "Iberian Pike Phalanx XVI", "Iberian Pike Phalanx XVII", "Iberian Pike Phalanx XVIII", "Iberian Pike Phalanx XIX", "Iberian Pike Phalanx XX"]
+},
+{
+        "name": "Pike Phalanx Nomad",
+        "unitNames": ["Nomad Pike Phalanx I", "Nomad Pike Phalanx II", "Nomad Pike Phalanx III", "Nomad Pike Phalanx IV", "Nomad Pike Phalanx V", "Nomad Pike Phalanx VI", "Nomad Pike Phalanx VII", "Nomad Pike Phalanx VIII", "Nomad Pike Phalanx IX", "Nomad Pike Phalanx X", "Nomad Pike Phalanx XI", "Nomad Pike Phalanx XII", "Nomad Pike Phalanx XIII", "Nomad Pike Phalanx XIV", "Nomad Pike Phalanx XV", "Nomad Pike Phalanx XVI", "Nomad Pike Phalanx XVII", "Nomad Pike Phalanx XVIII", "Nomad Pike Phalanx XIX", "Nomad Pike Phalanx XX"]
+},
+
+{
+        "name": "Swordsman Latin",
+        "unitNames": ["Gladii I", "Gladii II", "Gladii III", "Gladii IV", "Gladii V", "Gladii VI", "Gladii VII", "Gladii VIII", "Gladii IX", "Gladii X", "Gladii XI", "Gladii XII", "Gladii XIII", "Gladii XIV", "Gladii XV", "Gladii XVI", "Gladii XVII", "Gladii XVIII", "Gladii XIX", "Gladii XX"]
+},
+{
+        "name": "Swordsman Celtic",
+        "unitNames": ["Celtic Swordsman I", "Celtic Swordsman II", "Celtic Swordsman III", "Celtic Swordsman IV", "Celtic Swordsman V", "Celtic Swordsman VI", "Celtic Swordsman VII", "Celtic Swordsman VIII", "Celtic Swordsman IX", "Celtic Swordsman X", "Celtic Swordsman XI", "Celtic Swordsman XII", "Celtic Swordsman XIII", "Celtic Swordsman XIV", "Celtic Swordsman XV", "Celtic Swordsman XVI", "Celtic Swordsman XVII", "Celtic Swordsman XVIII", "Celtic Swordsman XIX", "Celtic Swordsman XX"]
+},
+{
+        "name": "Swordsman Germanic",
+        "unitNames": ["Germanic Swordsman I", "Germanic Swordsman II", "Germanic Swordsman III", "Germanic Swordsman IV", "Germanic Swordsman V", "Germanic Swordsman VI", "Germanic Swordsman VII", "Germanic Swordsman VIII", "Germanic Swordsman IX", "Germanic Swordsman X", "Germanic Swordsman XI", "Germanic Swordsman XII", "Germanic Swordsman XIII", "Germanic Swordsman XIV", "Germanic Swordsman XV", "Germanic Swordsman XVI", "Germanic Swordsman XVII", "Germanic Swordsman XVIII", "Germanic Swordsman XIX", "Germanic Swordsman XX"]
+},
+{
+        "name": "Swordsman Punic",
+        "unitNames": ["Punic Swordsman I", "Punic Swordsman II", "Punic Swordsman III", "Punic Swordsman IV", "Punic Swordsman V", "Punic Swordsman VI", "Punic Swordsman VII", "Punic Swordsman VIII", "Punic Swordsman IX", "Punic Swordsman X", "Punic Swordsman XI", "Punic Swordsman XII", "Punic Swordsman XIII", "Punic Swordsman XIV", "Punic Swordsman XV", "Punic Swordsman XVI", "Punic Swordsman XVII", "Punic Swordsman XVIII", "Punic Swordsman XIX", "Punic Swordsman XX"]
+},
+{
+        "name": "Swordsman Numidian",
+        "unitNames": ["Numidian Swordsman I", "Numidian Swordsman II", "Numidian Swordsman III", "Numidian Swordsman IV", "Numidian Swordsman V", "Numidian Swordsman VI", "Numidian Swordsman VII", "Numidian Swordsman VIII", "Numidian Swordsman IX", "Numidian Swordsman X", "Numidian Swordsman XI", "Numidian Swordsman XII", "Numidian Swordsman XIII", "Numidian Swordsman XIV", "Numidian Swordsman XV", "Numidian Swordsman XVI", "Numidian Swordsman XVII", "Numidian Swordsman XVIII", "Numidian Swordsman XIX", "Numidian Swordsman XX"]
+},
+{
+        "name": "Swordsman Eastern",
+        "unitNames": ["Eastern Swordsman I", "Eastern Swordsman II", "Eastern Swordsman III", "Eastern Swordsman IV", "Eastern Swordsman V", "Eastern Swordsman VI", "Eastern Swordsman VII", "Eastern Swordsman VIII", "Eastern Swordsman IX", "Eastern Swordsman X", "Eastern Swordsman XI", "Eastern Swordsman XII", "Eastern Swordsman XIII", "Eastern Swordsman XIV", "Eastern Swordsman XV", "Eastern Swordsman XVI", "Eastern Swordsman XVII", "Eastern Swordsman XVIII", "Eastern Swordsman XIX", "Eastern Swordsman XX"]
+},
+{
+        "name": "Swordsman Thracian",
+        "unitNames": ["Thracian Swordsman I", "Thracian Swordsman II", "Thracian Swordsman III", "Thracian Swordsman IV", "Thracian Swordsman V", "Thracian Swordsman VI", "Thracian Swordsman VII", "Thracian Swordsman VIII", "Thracian Swordsman IX", "Thracian Swordsman X", "Thracian Swordsman XI", "Thracian Swordsman XII", "Thracian Swordsman XIII", "Thracian Swordsman XIV", "Thracian Swordsman XV", "Thracian Swordsman XVI", "Thracian Swordsman XVII", "Thracian Swordsman XVIII", "Thracian Swordsman XIX", "Thracian Swordsman XX"]
+},
+{
+        "name": "Swordsman Illyrian",
+        "unitNames": ["Illyrian Swordsman I", "Illyrian Swordsman II", "Illyrian Swordsman III", "Illyrian Swordsman IV", "Illyrian Swordsman V", "Illyrian Swordsman VI", "Illyrian Swordsman VII", "Illyrian Swordsman VIII", "Illyrian Swordsman IX", "Illyrian Swordsman X", "Illyrian Swordsman XI", "Illyrian Swordsman XII", "Illyrian Swordsman XIII", "Illyrian Swordsman XIV", "Illyrian Swordsman XV", "Illyrian Swordsman XVI", "Illyrian Swordsman XVII", "Illyrian Swordsman XVIII", "Illyrian Swordsman XIX", "Illyrian Swordsman XX"]
+},
+{
+        "name": "Swordsman Hellenistic",
+        "unitNames": ["Xiphosphoroi I", "Xiphosphoroi II", "Xiphosphoroi III", "Xiphosphoroi IV", "Xiphosphoroi V", "Xiphosphoroi VI", "Xiphosphoroi VII", "Xiphosphoroi VIII", "Xiphosphoroi IX", "Xiphosphoroi X", "Xiphosphoroi XI", "Xiphosphoroi XII", "Xiphosphoroi XIII", "Xiphosphoroi XIV", "Xiphosphoroi XV", "Xiphosphoroi XVI", "Xiphosphoroi XVII", "Xiphosphoroi XVIII", "Xiphosphoroi XIX", "Xiphosphoroi XX"]
+},
+{
+        "name": "Swordsman Hellenic",
+        "unitNames": ["Xiphosphoroi I", "Xiphosphoroi II", "Xiphosphoroi III", "Xiphosphoroi IV", "Xiphosphoroi V", "Xiphosphoroi VI", "Xiphosphoroi VII", "Xiphosphoroi VIII", "Xiphosphoroi IX", "Xiphosphoroi X", "Xiphosphoroi XI", "Xiphosphoroi XII", "Xiphosphoroi XIII", "Xiphosphoroi XIV", "Xiphosphoroi XV", "Xiphosphoroi XVI", "Xiphosphoroi XVII", "Xiphosphoroi XVIII", "Xiphosphoroi XIX", "Xiphosphoroi XX"]
+},
+{
+        "name": "Swordsman Iberian",
+        "unitNames": ["Iberian Swordsman I", "Iberian Swordsman II", "Iberian Swordsman III", "Iberian Swordsman IV", "Iberian Swordsman V", "Iberian Swordsman VI", "Iberian Swordsman VII", "Iberian Swordsman VIII", "Iberian Swordsman IX", "Iberian Swordsman X", "Iberian Swordsman XI", "Iberian Swordsman XII", "Iberian Swordsman XIII", "Iberian Swordsman XIV", "Iberian Swordsman XV", "Iberian Swordsman XVI", "Iberian Swordsman XVII", "Iberian Swordsman XVIII", "Iberian Swordsman XIX", "Iberian Swordsman XX"]
+},
+{
+        "name": "Swordsman Nomad",
+        "unitNames": ["Nomad Swordsman I", "Nomad Swordsman II", "Nomad Swordsman III", "Nomad Swordsman IV", "Nomad Swordsman V", "Nomad Swordsman VI", "Nomad Swordsman VII", "Nomad Swordsman VIII", "Nomad Swordsman IX", "Nomad Swordsman X", "Nomad Swordsman XI", "Nomad Swordsman XII", "Nomad Swordsman XIII", "Nomad Swordsman XIV", "Nomad Swordsman XV", "Nomad Swordsman XVI", "Nomad Swordsman XVII", "Nomad Swordsman XVIII", "Nomad Swordsman XIX", "Nomad Swordsman XX"]
+},
+
+{
+        "name": "Heavy Spearman Latin",
+        "unitNames": ["Latin Heavy Spearman I", "Latin Heavy Spearman II", "Latin Heavy Spearman III", "Latin Heavy Spearman IV", "Latin Heavy Spearman V", "Latin Heavy Spearman VI", "Latin Heavy Spearman VII", "Latin Heavy Spearman VIII", "Latin Heavy Spearman IX", "Latin Heavy Spearman X", "Latin Heavy Spearman XI", "Latin Heavy Spearman XII", "Latin Heavy Spearman XIII", "Latin Heavy Spearman XIV", "Latin Heavy Spearman XV", "Latin Heavy Spearman XVI", "Latin Heavy Spearman XVII", "Latin Heavy Spearman XVIII", "Latin Heavy Spearman XIX", "Latin Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Celtic",
+        "unitNames": ["Celtic Heavy Spearman I", "Celtic Heavy Spearman II", "Celtic Heavy Spearman III", "Celtic Heavy Spearman IV", "Celtic Heavy Spearman V", "Celtic Heavy Spearman VI", "Celtic Heavy Spearman VII", "Celtic Heavy Spearman VIII", "Celtic Heavy Spearman IX", "Celtic Heavy Spearman X", "Celtic Heavy Spearman XI", "Celtic Heavy Spearman XII", "Celtic Heavy Spearman XIII", "Celtic Heavy Spearman XIV", "Celtic Heavy Spearman XV", "Celtic Heavy Spearman XVI", "Celtic Heavy Spearman XVII", "Celtic Heavy Spearman XVIII", "Celtic Heavy Spearman XIX", "Celtic Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Germanic",
+        "unitNames": ["Germanic Heavy Spearman I", "Germanic Heavy Spearman II", "Germanic Heavy Spearman III", "Germanic Heavy Spearman IV", "Germanic Heavy Spearman V", "Germanic Heavy Spearman VI", "Germanic Heavy Spearman VII", "Germanic Heavy Spearman VIII", "Germanic Heavy Spearman IX", "Germanic Heavy Spearman X", "Germanic Heavy Spearman XI", "Germanic Heavy Spearman XII", "Germanic Heavy Spearman XIII", "Germanic Heavy Spearman XIV", "Germanic Heavy Spearman XV", "Germanic Heavy Spearman XVI", "Germanic Heavy Spearman XVII", "Germanic Heavy Spearman XVIII", "Germanic Heavy Spearman XIX", "Germanic Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Punic",
+        "unitNames": ["Punic Heavy Spearman I", "Punic Heavy Spearman II", "Punic Heavy Spearman III", "Punic Heavy Spearman IV", "Punic Heavy Spearman V", "Punic Heavy Spearman VI", "Punic Heavy Spearman VII", "Punic Heavy Spearman VIII", "Punic Heavy Spearman IX", "Punic Heavy Spearman X", "Punic Heavy Spearman XI", "Punic Heavy Spearman XII", "Punic Heavy Spearman XIII", "Punic Heavy Spearman XIV", "Punic Heavy Spearman XV", "Punic Heavy Spearman XVI", "Punic Heavy Spearman XVII", "Punic Heavy Spearman XVIII", "Punic Heavy Spearman XIX", "Punic Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Numidian",
+        "unitNames": ["Numidian Heavy Spearman I", "Numidian Heavy Spearman II", "Numidian Heavy Spearman III", "Numidian Heavy Spearman IV", "Numidian Heavy Spearman V", "Numidian Heavy Spearman VI", "Numidian Heavy Spearman VII", "Numidian Heavy Spearman VIII", "Numidian Heavy Spearman IX", "Numidian Heavy Spearman X", "Numidian Heavy Spearman XI", "Numidian Heavy Spearman XII", "Numidian Heavy Spearman XIII", "Numidian Heavy Spearman XIV", "Numidian Heavy Spearman XV", "Numidian Heavy Spearman XVI", "Numidian Heavy Spearman XVII", "Numidian Heavy Spearman XVIII", "Numidian Heavy Spearman XIX", "Numidian Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Eastern",
+        "unitNames": ["Eastern Heavy Spearman I", "Eastern Heavy Spearman II", "Eastern Heavy Spearman III", "Eastern Heavy Spearman IV", "Eastern Heavy Spearman V", "Eastern Heavy Spearman VI", "Eastern Heavy Spearman VII", "Eastern Heavy Spearman VIII", "Eastern Heavy Spearman IX", "Eastern Heavy Spearman X", "Eastern Heavy Spearman XI", "Eastern Heavy Spearman XII", "Eastern Heavy Spearman XIII", "Eastern Heavy Spearman XIV", "Eastern Heavy Spearman XV", "Eastern Heavy Spearman XVI", "Eastern Heavy Spearman XVII", "Eastern Heavy Spearman XVIII", "Eastern Heavy Spearman XIX", "Eastern Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Thracian",
+        "unitNames": ["Thracian Heavy Spearman I", "Thracian Heavy Spearman II", "Thracian Heavy Spearman III", "Thracian Heavy Spearman IV", "Thracian Heavy Spearman V", "Thracian Heavy Spearman VI", "Thracian Heavy Spearman VII", "Thracian Heavy Spearman VIII", "Thracian Heavy Spearman IX", "Thracian Heavy Spearman X", "Thracian Heavy Spearman XI", "Thracian Heavy Spearman XII", "Thracian Heavy Spearman XIII", "Thracian Heavy Spearman XIV", "Thracian Heavy Spearman XV", "Thracian Heavy Spearman XVI", "Thracian Heavy Spearman XVII", "Thracian Heavy Spearman XVIII", "Thracian Heavy Spearman XIX", "Thracian Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Illyrian",
+        "unitNames": ["Illyrian Heavy Spearman I", "Illyrian Heavy Spearman II", "Illyrian Heavy Spearman III", "Illyrian Heavy Spearman IV", "Illyrian Heavy Spearman V", "Illyrian Heavy Spearman VI", "Illyrian Heavy Spearman VII", "Illyrian Heavy Spearman VIII", "Illyrian Heavy Spearman IX", "Illyrian Heavy Spearman X", "Illyrian Heavy Spearman XI", "Illyrian Heavy Spearman XII", "Illyrian Heavy Spearman XIII", "Illyrian Heavy Spearman XIV", "Illyrian Heavy Spearman XV", "Illyrian Heavy Spearman XVI", "Illyrian Heavy Spearman XVII", "Illyrian Heavy Spearman XVIII", "Illyrian Heavy Spearman XIX", "Illyrian Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Hellenistic",
+        "unitNames": ["Thorakitai I", "Thorakitai II", "Thorakitai III", "Thorakitai IV", "Thorakitai V", "Thorakitai VI", "Thorakitai VII", "Thorakitai VIII", "Thorakitai IX", "Thorakitai X", "Thorakitai XI", "Thorakitai XII", "Thorakitai XIII", "Thorakitai XIV", "Thorakitai XV", "Thorakitai XVI", "Thorakitai XVII", "Thorakitai XVIII", "Thorakitai XIX", "Thorakitai XX"]
+},
+{
+        "name": "Heavy Spearman Hellenic",
+        "unitNames": ["Hellenic Heavy Spearman I", "Hellenic Heavy Spearman II", "Hellenic Heavy Spearman III", "Hellenic Heavy Spearman IV", "Hellenic Heavy Spearman V", "Hellenic Heavy Spearman VI", "Hellenic Heavy Spearman VII", "Hellenic Heavy Spearman VIII", "Hellenic Heavy Spearman IX", "Hellenic Heavy Spearman X", "Hellenic Heavy Spearman XI", "Hellenic Heavy Spearman XII", "Hellenic Heavy Spearman XIII", "Hellenic Heavy Spearman XIV", "Hellenic Heavy Spearman XV", "Hellenic Heavy Spearman XVI", "Hellenic Heavy Spearman XVII", "Hellenic Heavy Spearman XVIII", "Hellenic Heavy Spearman XIX", "Hellenic Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Iberian",
+        "unitNames": ["Iberian Heavy Spearman I", "Iberian Heavy Spearman II", "Iberian Heavy Spearman III", "Iberian Heavy Spearman IV", "Iberian Heavy Spearman V", "Iberian Heavy Spearman VI", "Iberian Heavy Spearman VII", "Iberian Heavy Spearman VIII", "Iberian Heavy Spearman IX", "Iberian Heavy Spearman X", "Iberian Heavy Spearman XI", "Iberian Heavy Spearman XII", "Iberian Heavy Spearman XIII", "Iberian Heavy Spearman XIV", "Iberian Heavy Spearman XV", "Iberian Heavy Spearman XVI", "Iberian Heavy Spearman XVII", "Iberian Heavy Spearman XVIII", "Iberian Heavy Spearman XIX", "Iberian Heavy Spearman XX"]
+},
+{
+        "name": "Heavy Spearman Nomad",
+        "unitNames": ["Nomad Heavy Spearman I", "Nomad Heavy Spearman II", "Nomad Heavy Spearman III", "Nomad Heavy Spearman IV", "Nomad Heavy Spearman V", "Nomad Heavy Spearman VI", "Nomad Heavy Spearman VII", "Nomad Heavy Spearman VIII", "Nomad Heavy Spearman IX", "Nomad Heavy Spearman X", "Nomad Heavy Spearman XI", "Nomad Heavy Spearman XII", "Nomad Heavy Spearman XIII", "Nomad Heavy Spearman XIV", "Nomad Heavy Spearman XV", "Nomad Heavy Spearman XVI", "Nomad Heavy Spearman XVII", "Nomad Heavy Spearman XVIII", "Nomad Heavy Spearman XIX", "Nomad Heavy Spearman XX"]
+},
+
+{
+        "name": "Heavy Swordsman Latin",
+        "unitNames": ["Latin Heavy Swordsman I", "Latin Heavy Swordsman II", "Latin Heavy Swordsman III", "Latin Heavy Swordsman IV", "Latin Heavy Swordsman V", "Latin Heavy Swordsman VI", "Latin Heavy Swordsman VII", "Latin Heavy Swordsman VIII", "Latin Heavy Swordsman IX", "Latin Heavy Swordsman X", "Latin Heavy Swordsman XI", "Latin Heavy Swordsman XII", "Latin Heavy Swordsman XIII", "Latin Heavy Swordsman XIV", "Latin Heavy Swordsman XV", "Latin Heavy Swordsman XVI", "Latin Heavy Swordsman XVII", "Latin Heavy Swordsman XVIII", "Latin Heavy Swordsman XIX", "Latin Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Celtic",
+        "unitNames": ["Celtic Heavy Swordsman I", "Celtic Heavy Swordsman II", "Celtic Heavy Swordsman III", "Celtic Heavy Swordsman IV", "Celtic Heavy Swordsman V", "Celtic Heavy Swordsman VI", "Celtic Heavy Swordsman VII", "Celtic Heavy Swordsman VIII", "Celtic Heavy Swordsman IX", "Celtic Heavy Swordsman X", "Celtic Heavy Swordsman XI", "Celtic Heavy Swordsman XII", "Celtic Heavy Swordsman XIII", "Celtic Heavy Swordsman XIV", "Celtic Heavy Swordsman XV", "Celtic Heavy Swordsman XVI", "Celtic Heavy Swordsman XVII", "Celtic Heavy Swordsman XVIII", "Celtic Heavy Swordsman XIX", "Celtic Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Germanic",
+        "unitNames": ["Germanic Heavy Swordsman I", "Germanic Heavy Swordsman II", "Germanic Heavy Swordsman III", "Germanic Heavy Swordsman IV", "Germanic Heavy Swordsman V", "Germanic Heavy Swordsman VI", "Germanic Heavy Swordsman VII", "Germanic Heavy Swordsman VIII", "Germanic Heavy Swordsman IX", "Germanic Heavy Swordsman X", "Germanic Heavy Swordsman XI", "Germanic Heavy Swordsman XII", "Germanic Heavy Swordsman XIII", "Germanic Heavy Swordsman XIV", "Germanic Heavy Swordsman XV", "Germanic Heavy Swordsman XVI", "Germanic Heavy Swordsman XVII", "Germanic Heavy Swordsman XVIII", "Germanic Heavy Swordsman XIX", "Germanic Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Punic",
+        "unitNames": ["Punic Heavy Swordsman I", "Punic Heavy Swordsman II", "Punic Heavy Swordsman III", "Punic Heavy Swordsman IV", "Punic Heavy Swordsman V", "Punic Heavy Swordsman VI", "Punic Heavy Swordsman VII", "Punic Heavy Swordsman VIII", "Punic Heavy Swordsman IX", "Punic Heavy Swordsman X", "Punic Heavy Swordsman XI", "Punic Heavy Swordsman XII", "Punic Heavy Swordsman XIII", "Punic Heavy Swordsman XIV", "Punic Heavy Swordsman XV", "Punic Heavy Swordsman XVI", "Punic Heavy Swordsman XVII", "Punic Heavy Swordsman XVIII", "Punic Heavy Swordsman XIX", "Punic Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Numidian",
+        "unitNames": ["Numidian Heavy Swordsman I", "Numidian Heavy Swordsman II", "Numidian Heavy Swordsman III", "Numidian Heavy Swordsman IV", "Numidian Heavy Swordsman V", "Numidian Heavy Swordsman VI", "Numidian Heavy Swordsman VII", "Numidian Heavy Swordsman VIII", "Numidian Heavy Swordsman IX", "Numidian Heavy Swordsman X", "Numidian Heavy Swordsman XI", "Numidian Heavy Swordsman XII", "Numidian Heavy Swordsman XIII", "Numidian Heavy Swordsman XIV", "Numidian Heavy Swordsman XV", "Numidian Heavy Swordsman XVI", "Numidian Heavy Swordsman XVII", "Numidian Heavy Swordsman XVIII", "Numidian Heavy Swordsman XIX", "Numidian Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Eastern",
+        "unitNames": ["Eastern Heavy Swordsman I", "Eastern Heavy Swordsman II", "Eastern Heavy Swordsman III", "Eastern Heavy Swordsman IV", "Eastern Heavy Swordsman V", "Eastern Heavy Swordsman VI", "Eastern Heavy Swordsman VII", "Eastern Heavy Swordsman VIII", "Eastern Heavy Swordsman IX", "Eastern Heavy Swordsman X", "Eastern Heavy Swordsman XI", "Eastern Heavy Swordsman XII", "Eastern Heavy Swordsman XIII", "Eastern Heavy Swordsman XIV", "Eastern Heavy Swordsman XV", "Eastern Heavy Swordsman XVI", "Eastern Heavy Swordsman XVII", "Eastern Heavy Swordsman XVIII", "Eastern Heavy Swordsman XIX", "Eastern Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Thracian",
+        "unitNames": ["Thracian Heavy Swordsman I", "Thracian Heavy Swordsman II", "Thracian Heavy Swordsman III", "Thracian Heavy Swordsman IV", "Thracian Heavy Swordsman V", "Thracian Heavy Swordsman VI", "Thracian Heavy Swordsman VII", "Thracian Heavy Swordsman VIII", "Thracian Heavy Swordsman IX", "Thracian Heavy Swordsman X", "Thracian Heavy Swordsman XI", "Thracian Heavy Swordsman XII", "Thracian Heavy Swordsman XIII", "Thracian Heavy Swordsman XIV", "Thracian Heavy Swordsman XV", "Thracian Heavy Swordsman XVI", "Thracian Heavy Swordsman XVII", "Thracian Heavy Swordsman XVIII", "Thracian Heavy Swordsman XIX", "Thracian Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Illyrian",
+        "unitNames": ["Illyrian Heavy Swordsman I", "Illyrian Heavy Swordsman II", "Illyrian Heavy Swordsman III", "Illyrian Heavy Swordsman IV", "Illyrian Heavy Swordsman V", "Illyrian Heavy Swordsman VI", "Illyrian Heavy Swordsman VII", "Illyrian Heavy Swordsman VIII", "Illyrian Heavy Swordsman IX", "Illyrian Heavy Swordsman X", "Illyrian Heavy Swordsman XI", "Illyrian Heavy Swordsman XII", "Illyrian Heavy Swordsman XIII", "Illyrian Heavy Swordsman XIV", "Illyrian Heavy Swordsman XV", "Illyrian Heavy Swordsman XVI", "Illyrian Heavy Swordsman XVII", "Illyrian Heavy Swordsman XVIII", "Illyrian Heavy Swordsman XIX", "Illyrian Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Hellenistic",
+        "unitNames": ["Hellenistic Heavy Swordsman I", "Hellenistic Heavy Swordsman II", "Hellenistic Heavy Swordsman III", "Hellenistic Heavy Swordsman IV", "Hellenistic Heavy Swordsman V", "Hellenistic Heavy Swordsman VI", "Hellenistic Heavy Swordsman VII", "Hellenistic Heavy Swordsman VIII", "Hellenistic Heavy Swordsman IX", "Hellenistic Heavy Swordsman X", "Hellenistic Heavy Swordsman XI", "Hellenistic Heavy Swordsman XII", "Hellenistic Heavy Swordsman XIII", "Hellenistic Heavy Swordsman XIV", "Hellenistic Heavy Swordsman XV", "Hellenistic Heavy Swordsman XVI", "Hellenistic Heavy Swordsman XVII", "Hellenistic Heavy Swordsman XVIII", "Hellenistic Heavy Swordsman XIX", "Hellenistic Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Hellenic",
+        "unitNames": ["Hellenic Heavy Swordsman I", "Hellenic Heavy Swordsman II", "Hellenic Heavy Swordsman III", "Hellenic Heavy Swordsman IV", "Hellenic Heavy Swordsman V", "Hellenic Heavy Swordsman VI", "Hellenic Heavy Swordsman VII", "Hellenic Heavy Swordsman VIII", "Hellenic Heavy Swordsman IX", "Hellenic Heavy Swordsman X", "Hellenic Heavy Swordsman XI", "Hellenic Heavy Swordsman XII", "Hellenic Heavy Swordsman XIII", "Hellenic Heavy Swordsman XIV", "Hellenic Heavy Swordsman XV", "Hellenic Heavy Swordsman XVI", "Hellenic Heavy Swordsman XVII", "Hellenic Heavy Swordsman XVIII", "Hellenic Heavy Swordsman XIX", "Hellenic Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Iberian",
+        "unitNames": ["Iberian Heavy Swordsman I", "Iberian Heavy Swordsman II", "Iberian Heavy Swordsman III", "Iberian Heavy Swordsman IV", "Iberian Heavy Swordsman V", "Iberian Heavy Swordsman VI", "Iberian Heavy Swordsman VII", "Iberian Heavy Swordsman VIII", "Iberian Heavy Swordsman IX", "Iberian Heavy Swordsman X", "Iberian Heavy Swordsman XI", "Iberian Heavy Swordsman XII", "Iberian Heavy Swordsman XIII", "Iberian Heavy Swordsman XIV", "Iberian Heavy Swordsman XV", "Iberian Heavy Swordsman XVI", "Iberian Heavy Swordsman XVII", "Iberian Heavy Swordsman XVIII", "Iberian Heavy Swordsman XIX", "Iberian Heavy Swordsman XX"]
+},
+{
+        "name": "Heavy Swordsman Nomad",
+        "unitNames": ["Nomad Heavy Swordsman I", "Nomad Heavy Swordsman II", "Nomad Heavy Swordsman III", "Nomad Heavy Swordsman IV", "Nomad Heavy Swordsman V", "Nomad Heavy Swordsman VI", "Nomad Heavy Swordsman VII", "Nomad Heavy Swordsman VIII", "Nomad Heavy Swordsman IX", "Nomad Heavy Swordsman X", "Nomad Heavy Swordsman XI", "Nomad Heavy Swordsman XII", "Nomad Heavy Swordsman XIII", "Nomad Heavy Swordsman XIV", "Nomad Heavy Swordsman XV", "Nomad Heavy Swordsman XVI", "Nomad Heavy Swordsman XVII", "Nomad Heavy Swordsman XVIII", "Nomad Heavy Swordsman XIX", "Nomad Heavy Swordsman XX"]
+},
+
+////Cavalry
+
+{
+    "name": "War Chariot Latin",
+    "unitNames": ["Quadriga I", "Quadriga II", "Quadriga III", "Quadriga IV", "Quadriga V", "Quadriga VI", "Quadriga VII", "Quadriga VIII", "Quadriga IX", "Quadriga X", "Quadriga XI", "Quadriga XII", "Quadriga XIII", "Quadriga XIV", "Quadriga XV", "Quadriga XVI", "Quadriga XVII", "Quadriga XVIII", "Quadriga XIX", "Quadriga XX"]
+},
+{
+    "name": "War Chariot Celtic",
+    "unitNames": ["Essedum I", "Essedum II", "Essedum III", "Essedum IV", "Essedum V", "Essedum VI", "Essedum VII", "Essedum VIII", "Essedum IX", "Essedum X", "Essedum XI", "Essedum XII", "Essedum XIII", "Essedum XIV", "Essedum XV", "Essedum XVI", "Essedum XVII", "Essedum XVIII", "Essedum XIX", "Essedum XX"]
+},
+{
+    "name": "War Chariot Germanic",
+    "unitNames": ["Germanic War Chariot I", "Germanic War Chariot II", "Germanic War Chariot III", "Germanic War Chariot IV", "Germanic War Chariot V", "Germanic War Chariot VI", "Germanic War Chariot VII", "Germanic War Chariot VIII", "Germanic War Chariot IX", "Germanic War Chariot X", "Germanic War Chariot XI", "Germanic War Chariot XII", "Germanic War Chariot XIII", "Germanic War Chariot XIV", "Germanic War Chariot XV", "Germanic War Chariot XVI", "Germanic War Chariot XVII", "Germanic War Chariot XVIII", "Germanic War Chariot XIX", "Germanic War Chariot XX"]
+},
+{
+    "name": "War Chariot Punic",
+    "unitNames": ["Punic War Chariot I", "Punic War Chariot II", "Punic War Chariot III", "Punic War Chariot IV", "Punic War Chariot V", "Punic War Chariot VI", "Punic War Chariot VII", "Punic War Chariot VIII", "Punic War Chariot IX", "Punic War Chariot X", "Punic War Chariot XI", "Punic War Chariot XII", "Punic War Chariot XIII", "Punic War Chariot XIV", "Punic War Chariot XV", "Punic War Chariot XVI", "Punic War Chariot XVII", "Punic War Chariot XVIII", "Punic War Chariot XIX", "Punic War Chariot XX"]
+},
+{
+    "name": "War Chariot Numidian",
+    "unitNames": ["Numidian War Chariot I", "Numidian War Chariot II", "Numidian War Chariot III", "Numidian War Chariot IV", "Numidian War Chariot V", "Numidian War Chariot VI", "Numidian War Chariot VII", "Numidian War Chariot VIII", "Numidian War Chariot IX", "Numidian War Chariot X", "Numidian War Chariot XI", "Numidian War Chariot XII", "Numidian War Chariot XIII", "Numidian War Chariot XIV", "Numidian War Chariot XV", "Numidian War Chariot XVI", "Numidian War Chariot XVII", "Numidian War Chariot XVIII", "Numidian War Chariot XIX", "Numidian War Chariot XX"]
+},
+{
+    "name": "War Chariot Eastern",
+    "unitNames": ["Eastern War Chariot I", "Eastern War Chariot II", "Eastern War Chariot III", "Eastern War Chariot IV", "Eastern War Chariot V", "Eastern War Chariot VI", "Eastern War Chariot VII", "Eastern War Chariot VIII", "Eastern War Chariot IX", "Eastern War Chariot X", "Eastern War Chariot XI", "Eastern War Chariot XII", "Eastern War Chariot XIII", "Eastern War Chariot XIV", "Eastern War Chariot XV", "Eastern War Chariot XVI", "Eastern War Chariot XVII", "Eastern War Chariot XVIII", "Eastern War Chariot XIX", "Eastern War Chariot XX"]
+},
+{
+    "name": "War Chariot Thracian",
+    "unitNames": ["Thracian War Chariot I", "Thracian War Chariot II", "Thracian War Chariot III", "Thracian War Chariot IV", "Thracian War Chariot V", "Thracian War Chariot VI", "Thracian War Chariot VII", "Thracian War Chariot VIII", "Thracian War Chariot IX", "Thracian War Chariot X", "Thracian War Chariot XI", "Thracian War Chariot XII", "Thracian War Chariot XIII", "Thracian War Chariot XIV", "Thracian War Chariot XV", "Thracian War Chariot XVI", "Thracian War Chariot XVII", "Thracian War Chariot XVIII", "Thracian War Chariot XIX", "Thracian War Chariot XX"]
+},
+{
+    "name": "War Chariot Illyrian",
+    "unitNames": ["Illyrian War Chariot I", "Illyrian War Chariot II", "Illyrian War Chariot III", "Illyrian War Chariot IV", "Illyrian War Chariot V", "Illyrian War Chariot VI", "Illyrian War Chariot VII", "Illyrian War Chariot VIII", "Illyrian War Chariot IX", "Illyrian War Chariot X", "Illyrian War Chariot XI", "Illyrian War Chariot XII", "Illyrian War Chariot XIII", "Illyrian War Chariot XIV", "Illyrian War Chariot XV", "Illyrian War Chariot XVI", "Illyrian War Chariot XVII", "Illyrian War Chariot XVIII", "Illyrian War Chariot XIX", "Illyrian War Chariot XX"]
+},
+{
+    "name": "War Chariot Hellenistic",
+    "unitNames": ["Tethrippon I", "Tethrippon II", "Tethrippon III", "Tethrippon IV", "Tethrippon V", "Tethrippon VI", "Tethrippon VII", "Tethrippon VIII", "Tethrippon IX", "Tethrippon X", "Tethrippon XI", "Tethrippon XII", "Tethrippon XIII", "Tethrippon XIV", "Tethrippon XV", "Tethrippon XVI", "Tethrippon XVII", "Tethrippon XVIII", "Tethrippon XIX", "Tethrippon XX"]
+},
+{
+    "name": "War Chariot Hellenic",
+    "unitNames": ["Tethrippon I", "Tethrippon II", "Tethrippon III", "Tethrippon IV", "Tethrippon V", "Tethrippon VI", "Tethrippon VII", "Tethrippon VIII", "Tethrippon IX", "Tethrippon X", "Tethrippon XI", "Tethrippon XII", "Tethrippon XIII", "Tethrippon XIV", "Tethrippon XV", "Tethrippon XVI", "Tethrippon XVII", "Tethrippon XVIII", "Tethrippon XIX", "Tethrippon XX"]
+},
+{
+    "name": "War Chariot Iberian",
+    "unitNames": ["Iberian War Chariot I", "Iberian War Chariot II", "Iberian War Chariot III", "Iberian War Chariot IV", "Iberian War Chariot V", "Iberian War Chariot VI", "Iberian War Chariot VII", "Iberian War Chariot VIII", "Iberian War Chariot IX", "Iberian War Chariot X", "Iberian War Chariot XI", "Iberian War Chariot XII", "Iberian War Chariot XIII", "Iberian War Chariot XIV", "Iberian War Chariot XV", "Iberian War Chariot XVI", "Iberian War Chariot XVII", "Iberian War Chariot XVIII", "Iberian War Chariot XIX", "Iberian War Chariot XX"]
+},
+{
+    "name": "War Chariot Nomad",
+    "unitNames": ["Nomad War Chariot I", "Nomad War Chariot II", "Nomad War Chariot III", "Nomad War Chariot IV", "Nomad War Chariot V", "Nomad War Chariot VI", "Nomad War Chariot VII", "Nomad War Chariot VIII", "Nomad War Chariot IX", "Nomad War Chariot X", "Nomad War Chariot XI", "Nomad War Chariot XII", "Nomad War Chariot XIII", "Nomad War Chariot XIV", "Nomad War Chariot XV", "Nomad War Chariot XVI", "Nomad War Chariot XVII", "Nomad War Chariot XVIII", "Nomad War Chariot XIX", "Nomad War Chariot XX"]
+},
+
+{
+    "name": "Horseman Latin",
+    "unitNames": ["Equites I", "Equites II", "Equites III", "Equites IV", "Equites V", "Equites VI", "Equites VII", "Equites VIII", "Equites IX", "Equites X", "Equites XI", "Equites XII", "Equites XIII", "Equites XIV", "Equites XV", "Equites XVI", "Equites XVII", "Equites XVIII", "Equites XIX", "Equites XX"]
+},
+{
+    "name": "Horseman Celtic",
+    "unitNames": ["Celtic Horseman I", "Celtic Horseman II", "Celtic Horseman III", "Celtic Horseman IV", "Celtic Horseman V", "Celtic Horseman VI", "Celtic Horseman VII", "Celtic Horseman VIII", "Celtic Horseman IX", "Celtic Horseman X", "Celtic Horseman XI", "Celtic Horseman XII", "Celtic Horseman XIII", "Celtic Horseman XIV", "Celtic Horseman XV", "Celtic Horseman XVI", "Celtic Horseman XVII", "Celtic Horseman XVIII", "Celtic Horseman XIX", "Celtic Horseman XX"]
+},
+{
+    "name": "Horseman Germanic",
+    "unitNames": ["Germanic Horseman I", "Germanic Horseman II", "Germanic Horseman III", "Germanic Horseman IV", "Germanic Horseman V", "Germanic Horseman VI", "Germanic Horseman VII", "Germanic Horseman VIII", "Germanic Horseman IX", "Germanic Horseman X", "Germanic Horseman XI", "Germanic Horseman XII", "Germanic Horseman XIII", "Germanic Horseman XIV", "Germanic Horseman XV", "Germanic Horseman XVI", "Germanic Horseman XVII", "Germanic Horseman XVIII", "Germanic Horseman XIX", "Germanic Horseman XX"]
+},
+{
+    "name": "Horseman Punic",
+    "unitNames": ["Punic Horseman I", "Punic Horseman II", "Punic Horseman III", "Punic Horseman IV", "Punic Horseman V", "Punic Horseman VI", "Punic Horseman VII", "Punic Horseman VIII", "Punic Horseman IX", "Punic Horseman X", "Punic Horseman XI", "Punic Horseman XII", "Punic Horseman XIII", "Punic Horseman XIV", "Punic Horseman XV", "Punic Horseman XVI", "Punic Horseman XVII", "Punic Horseman XVIII", "Punic Horseman XIX", "Punic Horseman XX"]
+},
+{
+    "name": "Horseman Numidian",
+    "unitNames": ["Numidian Horseman I", "Numidian Horseman II", "Numidian Horseman III", "Numidian Horseman IV", "Numidian Horseman V", "Numidian Horseman VI", "Numidian Horseman VII", "Numidian Horseman VIII", "Numidian Horseman IX", "Numidian Horseman X", "Numidian Horseman XI", "Numidian Horseman XII", "Numidian Horseman XIII", "Numidian Horseman XIV", "Numidian Horseman XV", "Numidian Horseman XVI", "Numidian Horseman XVII", "Numidian Horseman XVIII", "Numidian Horseman XIX", "Numidian Horseman XX"]
+},
+{
+    "name": "Horseman Eastern",
+    "unitNames": ["Eastern Horseman I", "Eastern Horseman II", "Eastern Horseman III", "Eastern Horseman IV", "Eastern Horseman V", "Eastern Horseman VI", "Eastern Horseman VII", "Eastern Horseman VIII", "Eastern Horseman IX", "Eastern Horseman X", "Eastern Horseman XI", "Eastern Horseman XII", "Eastern Horseman XIII", "Eastern Horseman XIV", "Eastern Horseman XV", "Eastern Horseman XVI", "Eastern Horseman XVII", "Eastern Horseman XVIII", "Eastern Horseman XIX", "Eastern Horseman XX"]
+},
+{
+    "name": "Horseman Thracian",
+    "unitNames": ["Thracian Horseman I", "Thracian Horseman II", "Thracian Horseman III", "Thracian Horseman IV", "Thracian Horseman V", "Thracian Horseman VI", "Thracian Horseman VII", "Thracian Horseman VIII", "Thracian Horseman IX", "Thracian Horseman X", "Thracian Horseman XI", "Thracian Horseman XII", "Thracian Horseman XIII", "Thracian Horseman XIV", "Thracian Horseman XV", "Thracian Horseman XVI", "Thracian Horseman XVII", "Thracian Horseman XVIII", "Thracian Horseman XIX", "Thracian Horseman XX"]
+},
+{
+    "name": "Horseman Illyrian",
+    "unitNames": ["Illyrian Horseman I", "Illyrian Horseman II", "Illyrian Horseman III", "Illyrian Horseman IV", "Illyrian Horseman V", "Illyrian Horseman VI", "Illyrian Horseman VII", "Illyrian Horseman VIII", "Illyrian Horseman IX", "Illyrian Horseman X", "Illyrian Horseman XI", "Illyrian Horseman XII", "Illyrian Horseman XIII", "Illyrian Horseman XIV", "Illyrian Horseman XV", "Illyrian Horseman XVI", "Illyrian Horseman XVII", "Illyrian Horseman XVIII", "Illyrian Horseman XIX", "Illyrian Horseman XX"]
+},
+{
+    "name": "Horseman Hellenistic",
+    "unitNames": ["Hippeis I", "Hippeis II", "Hippeis III", "Hippeis IV", "Hippeis V", "Hippeis VI", "Hippeis VII", "Hippeis VIII", "Hippeis IX", "Hippeis X", "Hippeis XI", "Hippeis XII", "Hippeis XIII", "Hippeis XIV", "Hippeis XV", "Hippeis XVI", "Hippeis XVII", "Hippeis XVIII", "Hippeis XIX", "Hippeis XX"]
+},
+{
+    "name": "Horseman Hellenic",
+    "unitNames": ["Hippeis I", "Hippeis II", "Hippeis III", "Hippeis IV", "Hippeis V", "Hippeis VI", "Hippeis VII", "Hippeis VIII", "Hippeis IX", "Hippeis X", "Hippeis XI", "Hippeis XII", "Hippeis XIII", "Hippeis XIV", "Hippeis XV", "Hippeis XVI", "Hippeis XVII", "Hippeis XVIII", "Hippeis XIX", "Hippeis XX"]
+},
+{
+    "name": "Horseman Iberian",
+    "unitNames": ["Iberian Horseman I", "Iberian Horseman II", "Iberian Horseman III", "Iberian Horseman IV", "Iberian Horseman V", "Iberian Horseman VI", "Iberian Horseman VII", "Iberian Horseman VIII", "Iberian Horseman IX", "Iberian Horseman X", "Iberian Horseman XI", "Iberian Horseman XII", "Iberian Horseman XIII", "Iberian Horseman XIV", "Iberian Horseman XV", "Iberian Horseman XVI", "Iberian Horseman XVII", "Iberian Horseman XVIII", "Iberian Horseman XIX", "Iberian Horseman XX"]
+},
+{
+    "name": "Horseman Nomad",
+    "unitNames": ["Nomad Horseman I", "Nomad Horseman II", "Nomad Horseman III", "Nomad Horseman IV", "Nomad Horseman V", "Nomad Horseman VI", "Nomad Horseman VII", "Nomad Horseman VIII", "Nomad Horseman IX", "Nomad Horseman X", "Nomad Horseman XI", "Nomad Horseman XII", "Nomad Horseman XIII", "Nomad Horseman XIV", "Nomad Horseman XV", "Nomad Horseman XVI", "Nomad Horseman XVII", "Nomad Horseman XVIII", "Nomad Horseman XIX", "Nomad Horseman XX"]
+},
+
+{
+    "name": "Cavalry Latin",
+    "unitNames": ["Equites Auxiliares I", "Equites Auxiliares II", "Equites Auxiliares III", "Equites Auxiliares IV", "Equites Auxiliares V", "Equites Auxiliares VI", "Equites Auxiliares VII", "Equites Auxiliares VIII", "Equites Auxiliares IX", "Equites Auxiliares X", "Equites Auxiliares XI", "Equites Auxiliares XII", "Equites Auxiliares XIII", "Equites Auxiliares XIV", "Equites Auxiliares XV", "Equites Auxiliares XVI", "Equites Auxiliares XVII", "Equites Auxiliares XVIII", "Equites Auxiliares XIX", "Equites Auxiliares XX"]
+},
+{
+    "name": "Cavalry Celtic",
+    "unitNames": ["Celtic Cavalry I", "Celtic Cavalry II", "Celtic Cavalry III", "Celtic Cavalry IV", "Celtic Cavalry V", "Celtic Cavalry VI", "Celtic Cavalry VII", "Celtic Cavalry VIII", "Celtic Cavalry IX", "Celtic Cavalry X", "Celtic Cavalry XI", "Celtic Cavalry XII", "Celtic Cavalry XIII", "Celtic Cavalry XIV", "Celtic Cavalry XV", "Celtic Cavalry XVI", "Celtic Cavalry XVII", "Celtic Cavalry XVIII", "Celtic Cavalry XIX", "Celtic Cavalry XX"]
+},
+{
+    "name": "Cavalry Germanic",
+    "unitNames": ["Germanic Cavalry I", "Germanic Cavalry II", "Germanic Cavalry III", "Germanic Cavalry IV", "Germanic Cavalry V", "Germanic Cavalry VI", "Germanic Cavalry VII", "Germanic Cavalry VIII", "Germanic Cavalry IX", "Germanic Cavalry X", "Germanic Cavalry XI", "Germanic Cavalry XII", "Germanic Cavalry XIII", "Germanic Cavalry XIV", "Germanic Cavalry XV", "Germanic Cavalry XVI", "Germanic Cavalry XVII", "Germanic Cavalry XVIII", "Germanic Cavalry XIX", "Germanic Cavalry XX"]
+},
+{
+    "name": "Cavalry Punic",
+    "unitNames": ["Punic Cavalry I", "Punic Cavalry II", "Punic Cavalry III", "Punic Cavalry IV", "Punic Cavalry V", "Punic Cavalry VI", "Punic Cavalry VII", "Punic Cavalry VIII", "Punic Cavalry IX", "Punic Cavalry X", "Punic Cavalry XI", "Punic Cavalry XII", "Punic Cavalry XIII", "Punic Cavalry XIV", "Punic Cavalry XV", "Punic Cavalry XVI", "Punic Cavalry XVII", "Punic Cavalry XVIII", "Punic Cavalry XIX", "Punic Cavalry XX"]
+},
+{
+    "name": "Cavalry Numidian",
+    "unitNames": ["Numidian Cavalry I", "Numidian Cavalry II", "Numidian Cavalry III", "Numidian Cavalry IV", "Numidian Cavalry V", "Numidian Cavalry VI", "Numidian Cavalry VII", "Numidian Cavalry VIII", "Numidian Cavalry IX", "Numidian Cavalry X", "Numidian Cavalry XI", "Numidian Cavalry XII", "Numidian Cavalry XIII", "Numidian Cavalry XIV", "Numidian Cavalry XV", "Numidian Cavalry XVI", "Numidian Cavalry XVII", "Numidian Cavalry XVIII", "Numidian Cavalry XIX", "Numidian Cavalry XX"]
+},
+{
+    "name": "Cavalry Eastern",
+    "unitNames": ["Eastern Cavalry I", "Eastern Cavalry II", "Eastern Cavalry III", "Eastern Cavalry IV", "Eastern Cavalry V", "Eastern Cavalry VI", "Eastern Cavalry VII", "Eastern Cavalry VIII", "Eastern Cavalry IX", "Eastern Cavalry X", "Eastern Cavalry XI", "Eastern Cavalry XII", "Eastern Cavalry XIII", "Eastern Cavalry XIV", "Eastern Cavalry XV", "Eastern Cavalry XVI", "Eastern Cavalry XVII", "Eastern Cavalry XVIII", "Eastern Cavalry XIX", "Eastern Cavalry XX"]
+},
+{
+    "name": "Cavalry Thracian",
+    "unitNames": ["Thracian Cavalry I", "Thracian Cavalry II", "Thracian Cavalry III", "Thracian Cavalry IV", "Thracian Cavalry V", "Thracian Cavalry VI", "Thracian Cavalry VII", "Thracian Cavalry VIII", "Thracian Cavalry IX", "Thracian Cavalry X", "Thracian Cavalry XI", "Thracian Cavalry XII", "Thracian Cavalry XIII", "Thracian Cavalry XIV", "Thracian Cavalry XV", "Thracian Cavalry XVI", "Thracian Cavalry XVII", "Thracian Cavalry XVIII", "Thracian Cavalry XIX", "Thracian Cavalry XX"]
+},
+{
+    "name": "Cavalry Illyrian",
+    "unitNames": ["Illyrian Cavalry I", "Illyrian Cavalry II", "Illyrian Cavalry III", "Illyrian Cavalry IV", "Illyrian Cavalry V", "Illyrian Cavalry VI", "Illyrian Cavalry VII", "Illyrian Cavalry VIII", "Illyrian Cavalry IX", "Illyrian Cavalry X", "Illyrian Cavalry XI", "Illyrian Cavalry XII", "Illyrian Cavalry XIII", "Illyrian Cavalry XIV", "Illyrian Cavalry XV", "Illyrian Cavalry XVI", "Illyrian Cavalry XVII", "Illyrian Cavalry XVIII", "Illyrian Cavalry XIX", "Illyrian Cavalry XX"]
+},
+{
+    "name": "Cavalry Hellenistic",
+    "unitNames": ["Hellenistic Cavalry I", "Hellenistic Cavalry II", "Hellenistic Cavalry III", "Hellenistic Cavalry IV", "Hellenistic Cavalry V", "Hellenistic Cavalry VI", "Hellenistic Cavalry VII", "Hellenistic Cavalry VIII", "Hellenistic Cavalry IX", "Hellenistic Cavalry X", "Hellenistic Cavalry XI", "Hellenistic Cavalry XII", "Hellenistic Cavalry XIII", "Hellenistic Cavalry XIV", "Hellenistic Cavalry XV", "Hellenistic Cavalry XVI", "Hellenistic Cavalry XVII", "Hellenistic Cavalry XVIII", "Hellenistic Cavalry XIX", "Hellenistic Cavalry XX"]
+},
+{
+    "name": "Cavalry Hellenic",
+    "unitNames": ["Hellenic Cavalry I", "Hellenic Cavalry II", "Hellenic Cavalry III", "Hellenic Cavalry IV", "Hellenic Cavalry V", "Hellenic Cavalry VI", "Hellenic Cavalry VII", "Hellenic Cavalry VIII", "Hellenic Cavalry IX", "Hellenic Cavalry X", "Hellenic Cavalry XI", "Hellenic Cavalry XII", "Hellenic Cavalry XIII", "Hellenic Cavalry XIV", "Hellenic Cavalry XV", "Hellenic Cavalry XVI", "Hellenic Cavalry XVII", "Hellenic Cavalry XVIII", "Hellenic Cavalry XIX", "Hellenic Cavalry XX"]
+},
+{
+    "name": "Cavalry Iberian",
+    "unitNames": ["Iberian Cavalry I", "Iberian Cavalry II", "Iberian Cavalry III", "Iberian Cavalry IV", "Iberian Cavalry V", "Iberian Cavalry VI", "Iberian Cavalry VII", "Iberian Cavalry VIII", "Iberian Cavalry IX", "Iberian Cavalry X", "Iberian Cavalry XI", "Iberian Cavalry XII", "Iberian Cavalry XIII", "Iberian Cavalry XIV", "Iberian Cavalry XV", "Iberian Cavalry XVI", "Iberian Cavalry XVII", "Iberian Cavalry XVIII", "Iberian Cavalry XIX", "Iberian Cavalry XX"]
+},
+{
+    "name": "Cavalry Nomad",
+    "unitNames": ["Nomad Cavalry I", "Nomad Cavalry II", "Nomad Cavalry III", "Nomad Cavalry IV", "Nomad Cavalry V", "Nomad Cavalry VI", "Nomad Cavalry VII", "Nomad Cavalry VIII", "Nomad Cavalry IX", "Nomad Cavalry X", "Nomad Cavalry XI", "Nomad Cavalry XII", "Nomad Cavalry XIII", "Nomad Cavalry XIV", "Nomad Cavalry XV", "Nomad Cavalry XVI", "Nomad Cavalry XVII", "Nomad Cavalry XVIII", "Nomad Cavalry XIX", "Nomad Cavalry XX"]
+},
+
+{
+    "name": "Cataphract Latin",
+    "unitNames": ["Equites Cataphractarii I", "Equites Cataphractarii II", "Equites Cataphractarii III", "Equites Cataphractarii IV", "Equites Cataphractarii V", "Equites Cataphractarii VI", "Equites Cataphractarii VII", "Equites Cataphractarii VIII", "Equites Cataphractarii IX", "Equites Cataphractarii X", "Equites Cataphractarii XI", "Equites Cataphractarii XII", "Equites Cataphractarii XIII", "Equites Cataphractarii XIV", "Equites Cataphractarii XV", "Equites Cataphractarii XVI", "Equites Cataphractarii XVII", "Equites Cataphractarii XVIII", "Equites Cataphractarii XIX", "Equites Cataphractarii XX"]
+},
+{
+    "name": "Cataphract Celtic",
+    "unitNames": ["Celtic Cataphract I", "Celtic Cataphract II", "Celtic Cataphract III", "Celtic Cataphract IV", "Celtic Cataphract V", "Celtic Cataphract VI", "Celtic Cataphract VII", "Celtic Cataphract VIII", "Celtic Cataphract IX", "Celtic Cataphract X", "Celtic Cataphract XI", "Celtic Cataphract XII", "Celtic Cataphract XIII", "Celtic Cataphract XIV", "Celtic Cataphract XV", "Celtic Cataphract XVI", "Celtic Cataphract XVII", "Celtic Cataphract XVIII", "Celtic Cataphract XIX", "Celtic Cataphract XX"]
+},
+{
+    "name": "Cataphract Germanic",
+    "unitNames": ["Germanic Cataphract I", "Germanic Cataphract II", "Germanic Cataphract III", "Germanic Cataphract IV", "Germanic Cataphract V", "Germanic Cataphract VI", "Germanic Cataphract VII", "Germanic Cataphract VIII", "Germanic Cataphract IX", "Germanic Cataphract X", "Germanic Cataphract XI", "Germanic Cataphract XII", "Germanic Cataphract XIII", "Germanic Cataphract XIV", "Germanic Cataphract XV", "Germanic Cataphract XVI", "Germanic Cataphract XVII", "Germanic Cataphract XVIII", "Germanic Cataphract XIX", "Germanic Cataphract XX"]
+},
+{
+    "name": "Cataphract Punic",
+    "unitNames": ["Punic Cataphract I", "Punic Cataphract II", "Punic Cataphract III", "Punic Cataphract IV", "Punic Cataphract V", "Punic Cataphract VI", "Punic Cataphract VII", "Punic Cataphract VIII", "Punic Cataphract IX", "Punic Cataphract X", "Punic Cataphract XI", "Punic Cataphract XII", "Punic Cataphract XIII", "Punic Cataphract XIV", "Punic Cataphract XV", "Punic Cataphract XVI", "Punic Cataphract XVII", "Punic Cataphract XVIII", "Punic Cataphract XIX", "Punic Cataphract XX"]
+},
+{
+    "name": "Cataphract Numidian",
+    "unitNames": ["Numidian Cataphract I", "Numidian Cataphract II", "Numidian Cataphract III", "Numidian Cataphract IV", "Numidian Cataphract V", "Numidian Cataphract VI", "Numidian Cataphract VII", "Numidian Cataphract VIII", "Numidian Cataphract IX", "Numidian Cataphract X", "Numidian Cataphract XI", "Numidian Cataphract XII", "Numidian Cataphract XIII", "Numidian Cataphract XIV", "Numidian Cataphract XV", "Numidian Cataphract XVI", "Numidian Cataphract XVII", "Numidian Cataphract XVIII", "Numidian Cataphract XIX", "Numidian Cataphract XX"]
+},
+{
+    "name": "Cataphract Eastern",
+    "unitNames": ["Eastern Cataphract I", "Eastern Cataphract II", "Eastern Cataphract III", "Eastern Cataphract IV", "Eastern Cataphract V", "Eastern Cataphract VI", "Eastern Cataphract VII", "Eastern Cataphract VIII", "Eastern Cataphract IX", "Eastern Cataphract X", "Eastern Cataphract XI", "Eastern Cataphract XII", "Eastern Cataphract XIII", "Eastern Cataphract XIV", "Eastern Cataphract XV", "Eastern Cataphract XVI", "Eastern Cataphract XVII", "Eastern Cataphract XVIII", "Eastern Cataphract XIX", "Eastern Cataphract XX"]
+},
+{
+    "name": "Cataphract Thracian",
+    "unitNames": ["Thracian Cataphract I", "Thracian Cataphract II", "Thracian Cataphract III", "Thracian Cataphract IV", "Thracian Cataphract V", "Thracian Cataphract VI", "Thracian Cataphract VII", "Thracian Cataphract VIII", "Thracian Cataphract IX", "Thracian Cataphract X", "Thracian Cataphract XI", "Thracian Cataphract XII", "Thracian Cataphract XIII", "Thracian Cataphract XIV", "Thracian Cataphract XV", "Thracian Cataphract XVI", "Thracian Cataphract XVII", "Thracian Cataphract XVIII", "Thracian Cataphract XIX", "Thracian Cataphract XX"]
+},
+{
+    "name": "Cataphract Illyrian",
+    "unitNames": ["Illyrian Cataphract I", "Illyrian Cataphract II", "Illyrian Cataphract III", "Illyrian Cataphract IV", "Illyrian Cataphract V", "Illyrian Cataphract VI", "Illyrian Cataphract VII", "Illyrian Cataphract VIII", "Illyrian Cataphract IX", "Illyrian Cataphract X", "Illyrian Cataphract XI", "Illyrian Cataphract XII", "Illyrian Cataphract XIII", "Illyrian Cataphract XIV", "Illyrian Cataphract XV", "Illyrian Cataphract XVI", "Illyrian Cataphract XVII", "Illyrian Cataphract XVIII", "Illyrian Cataphract XIX", "Illyrian Cataphract XX"]
+},
+{
+    "name": "Cataphract Hellenistic",
+    "unitNames": ["Kataphraktoi I", "Kataphraktoi II", "Kataphraktoi III", "Kataphraktoi IV", "Kataphraktoi V", "Kataphraktoi VI", "Kataphraktoi VII", "Kataphraktoi VIII", "Kataphraktoi IX", "Kataphraktoi X", "Kataphraktoi XI", "Kataphraktoi XII", "Kataphraktoi XIII", "Kataphraktoi XIV", "Kataphraktoi XV", "Kataphraktoi XVI", "Kataphraktoi XVII", "Kataphraktoi XVIII", "Kataphraktoi XIX", "Kataphraktoi XX"]
+},
+{
+    "name": "Cataphract Hellenic",
+    "unitNames": ["Kataphraktoi I", "Kataphraktoi II", "Kataphraktoi III", "Kataphraktoi IV", "Kataphraktoi V", "Kataphraktoi VI", "Kataphraktoi VII", "Kataphraktoi VIII", "Kataphraktoi IX", "Kataphraktoi X", "Kataphraktoi XI", "Kataphraktoi XII", "Kataphraktoi XIII", "Kataphraktoi XIV", "Kataphraktoi XV", "Kataphraktoi XVI", "Kataphraktoi XVII", "Kataphraktoi XVIII", "Kataphraktoi XIX", "Kataphraktoi XX"]
+},
+{
+    "name": "Cataphract Iberian",
+    "unitNames": ["Iberian Cataphract I", "Iberian Cataphract II", "Iberian Cataphract III", "Iberian Cataphract IV", "Iberian Cataphract V", "Iberian Cataphract VI", "Iberian Cataphract VII", "Iberian Cataphract VIII", "Iberian Cataphract IX", "Iberian Cataphract X", "Iberian Cataphract XI", "Iberian Cataphract XII", "Iberian Cataphract XIII", "Iberian Cataphract XIV", "Iberian Cataphract XV", "Iberian Cataphract XVI", "Iberian Cataphract XVII", "Iberian Cataphract XVIII", "Iberian Cataphract XIX", "Iberian Cataphract XX"]
+},
+{
+    "name": "Cataphract Nomad",
+    "unitNames": ["Nomad Cataphract I", "Nomad Cataphract II", "Nomad Cataphract III", "Nomad Cataphract IV", "Nomad Cataphract V", "Nomad Cataphract VI", "Nomad Cataphract VII", "Nomad Cataphract VIII", "Nomad Cataphract IX", "Nomad Cataphract X", "Nomad Cataphract XI", "Nomad Cataphract XII", "Nomad Cataphract XIII", "Nomad Cataphract XIV", "Nomad Cataphract XV", "Nomad Cataphract XVI", "Nomad Cataphract XVII", "Nomad Cataphract XVIII", "Nomad Cataphract XIX", "Nomad Cataphract XX"]
+},
+
+{
+    "name": "War Elephant Latin",
+    "unitNames": ["Elephanti I", "Elephanti II", "Elephanti III", "Elephanti IV", "Elephanti V", "Elephanti VI", "Elephanti VII", "Elephanti VIII", "Elephanti IX", "Elephanti X", "Elephanti XI", "Elephanti XII", "Elephanti XIII", "Elephanti XIV", "Elephanti XV", "Elephanti XVI", "Elephanti XVII", "Elephanti XVIII", "Elephanti XIX", "Elephanti XX"]
+},
+{
+    "name": "War Elephant Celtic",
+    "unitNames": ["Celtic War Elephant I", "Celtic War Elephant II", "Celtic War Elephant III", "Celtic War Elephant IV", "Celtic War Elephant V", "Celtic War Elephant VI", "Celtic War Elephant VII", "Celtic War Elephant VIII", "Celtic War Elephant IX", "Celtic War Elephant X", "Celtic War Elephant XI", "Celtic War Elephant XII", "Celtic War Elephant XIII", "Celtic War Elephant XIV", "Celtic War Elephant XV", "Celtic War Elephant XVI", "Celtic War Elephant XVII", "Celtic War Elephant XVIII", "Celtic War Elephant XIX", "Celtic War Elephant XX"]
+},
+{
+    "name": "War Elephant Germanic",
+    "unitNames": ["Germanic War Elephant I", "Germanic War Elephant II", "Germanic War Elephant III", "Germanic War Elephant IV", "Germanic War Elephant V", "Germanic War Elephant VI", "Germanic War Elephant VII", "Germanic War Elephant VIII", "Germanic War Elephant IX", "Germanic War Elephant X", "Germanic War Elephant XI", "Germanic War Elephant XII", "Germanic War Elephant XIII", "Germanic War Elephant XIV", "Germanic War Elephant XV", "Germanic War Elephant XVI", "Germanic War Elephant XVII", "Germanic War Elephant XVIII", "Germanic War Elephant XIX", "Germanic War Elephant XX"]
+},
+{
+    "name": "War Elephant Punic",
+    "unitNames": ["Punic War Elephant I", "Punic War Elephant II", "Punic War Elephant III", "Punic War Elephant IV", "Punic War Elephant V", "Punic War Elephant VI", "Punic War Elephant VII", "Punic War Elephant VIII", "Punic War Elephant IX", "Punic War Elephant X", "Punic War Elephant XI", "Punic War Elephant XII", "Punic War Elephant XIII", "Punic War Elephant XIV", "Punic War Elephant XV", "Punic War Elephant XVI", "Punic War Elephant XVII", "Punic War Elephant XVIII", "Punic War Elephant XIX", "Punic War Elephant XX"]
+},
+{
+    "name": "War Elephant Numidian",
+    "unitNames": ["Numidian War Elephant I", "Numidian War Elephant II", "Numidian War Elephant III", "Numidian War Elephant IV", "Numidian War Elephant V", "Numidian War Elephant VI", "Numidian War Elephant VII", "Numidian War Elephant VIII", "Numidian War Elephant IX", "Numidian War Elephant X", "Numidian War Elephant XI", "Numidian War Elephant XII", "Numidian War Elephant XIII", "Numidian War Elephant XIV", "Numidian War Elephant XV", "Numidian War Elephant XVI", "Numidian War Elephant XVII", "Numidian War Elephant XVIII", "Numidian War Elephant XIX", "Numidian War Elephant XX"]
+},
+{
+    "name": "War Elephant Eastern",
+    "unitNames": ["Eastern War Elephant I", "Eastern War Elephant II", "Eastern War Elephant III", "Eastern War Elephant IV", "Eastern War Elephant V", "Eastern War Elephant VI", "Eastern War Elephant VII", "Eastern War Elephant VIII", "Eastern War Elephant IX", "Eastern War Elephant X", "Eastern War Elephant XI", "Eastern War Elephant XII", "Eastern War Elephant XIII", "Eastern War Elephant XIV", "Eastern War Elephant XV", "Eastern War Elephant XVI", "Eastern War Elephant XVII", "Eastern War Elephant XVIII", "Eastern War Elephant XIX", "Eastern War Elephant XX"]
+},
+{
+    "name": "War Elephant Thracian",
+    "unitNames": ["Thracian War Elephant I", "Thracian War Elephant II", "Thracian War Elephant III", "Thracian War Elephant IV", "Thracian War Elephant V", "Thracian War Elephant VI", "Thracian War Elephant VII", "Thracian War Elephant VIII", "Thracian War Elephant IX", "Thracian War Elephant X", "Thracian War Elephant XI", "Thracian War Elephant XII", "Thracian War Elephant XIII", "Thracian War Elephant XIV", "Thracian War Elephant XV", "Thracian War Elephant XVI", "Thracian War Elephant XVII", "Thracian War Elephant XVIII", "Thracian War Elephant XIX", "Thracian War Elephant XX"]
+},
+{
+    "name": "War Elephant Illyrian",
+    "unitNames": ["Illyrian War Elephant I", "Illyrian War Elephant II", "Illyrian War Elephant III", "Illyrian War Elephant IV", "Illyrian War Elephant V", "Illyrian War Elephant VI", "Illyrian War Elephant VII", "Illyrian War Elephant VIII", "Illyrian War Elephant IX", "Illyrian War Elephant X", "Illyrian War Elephant XI", "Illyrian War Elephant XII", "Illyrian War Elephant XIII", "Illyrian War Elephant XIV", "Illyrian War Elephant XV", "Illyrian War Elephant XVI", "Illyrian War Elephant XVII", "Illyrian War Elephant XVIII", "Illyrian War Elephant XIX", "Illyrian War Elephant XX"]
+},
+{
+    "name": "War Elephant Hellenistic",
+    "unitNames": ["Elephantoi I", "Elephantoi II", "Elephantoi III", "Elephantoi IV", "Elephantoi V", "Elephantoi VI", "Elephantoi VII", "Elephantoi VIII", "Elephantoi IX", "Elephantoi X", "Elephantoi XI", "Elephantoi XII", "Elephantoi XIII", "Elephantoi XIV", "Elephantoi XV", "Elephantoi XVI", "Elephantoi XVII", "Elephantoi XVIII", "Elephantoi XIX", "Elephantoi XX"]
+},
+{
+    "name": "War Elephant Hellenic",
+    "unitNames": ["Elephantoi I", "Elephantoi II", "Elephantoi III", "Elephantoi IV", "Elephantoi V", "Elephantoi VI", "Elephantoi VII", "Elephantoi VIII", "Elephantoi IX", "Elephantoi X", "Elephantoi XI", "Elephantoi XII", "Elephantoi XIII", "Elephantoi XIV", "Elephantoi XV", "Elephantoi XVI", "Elephantoi XVII", "Elephantoi XVIII", "Elephantoi XIX", "Elephantoi XX"]
+},
+{
+    "name": "War Elephant Iberian",
+    "unitNames": ["Iberian War Elephant I", "Iberian War Elephant II", "Iberian War Elephant III", "Iberian War Elephant IV", "Iberian War Elephant V", "Iberian War Elephant VI", "Iberian War Elephant VII", "Iberian War Elephant VIII", "Iberian War Elephant IX", "Iberian War Elephant X", "Iberian War Elephant XI", "Iberian War Elephant XII", "Iberian War Elephant XIII", "Iberian War Elephant XIV", "Iberian War Elephant XV", "Iberian War Elephant XVI", "Iberian War Elephant XVII", "Iberian War Elephant XVIII", "Iberian War Elephant XIX", "Iberian War Elephant XX"]
+},
+{
+    "name": "War Elephant Nomad",
+    "unitNames": ["Nomad War Elephant I", "Nomad War Elephant II", "Nomad War Elephant III", "Nomad War Elephant IV", "Nomad War Elephant V", "Nomad War Elephant VI", "Nomad War Elephant VII", "Nomad War Elephant VIII", "Nomad War Elephant IX", "Nomad War Elephant X", "Nomad War Elephant XI", "Nomad War Elephant XII", "Nomad War Elephant XIII", "Nomad War Elephant XIV", "Nomad War Elephant XV", "Nomad War Elephant XVI", "Nomad War Elephant XVII", "Nomad War Elephant XVIII", "Nomad War Elephant XIX", "Nomad War Elephant XX"]
+},
+
+{
+    "name": "Chariot Archer Latin",
+    "unitNames": ["Latin Chariot Archer I", "Latin Chariot Archer II", "Latin Chariot Archer III", "Latin Chariot Archer IV", "Latin Chariot Archer V", "Latin Chariot Archer VI", "Latin Chariot Archer VII", "Latin Chariot Archer VIII", "Latin Chariot Archer IX", "Latin Chariot Archer X", "Latin Chariot Archer XI", "Latin Chariot Archer XII", "Latin Chariot Archer XIII", "Latin Chariot Archer XIV", "Latin Chariot Archer XV", "Latin Chariot Archer XVI", "Latin Chariot Archer XVII", "Latin Chariot Archer XVIII", "Latin Chariot Archer XIX", "Latin Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Celtic",
+    "unitNames": ["Celtic Chariot Archer I", "Celtic Chariot Archer II", "Celtic Chariot Archer III", "Celtic Chariot Archer IV", "Celtic Chariot Archer V", "Celtic Chariot Archer VI", "Celtic Chariot Archer VII", "Celtic Chariot Archer VIII", "Celtic Chariot Archer IX", "Celtic Chariot Archer X", "Celtic Chariot Archer XI", "Celtic Chariot Archer XII", "Celtic Chariot Archer XIII", "Celtic Chariot Archer XIV", "Celtic Chariot Archer XV", "Celtic Chariot Archer XVI", "Celtic Chariot Archer XVII", "Celtic Chariot Archer XVIII", "Celtic Chariot Archer XIX", "Celtic Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Germanic",
+    "unitNames": ["Germanic Chariot Archer I", "Germanic Chariot Archer II", "Germanic Chariot Archer III", "Germanic Chariot Archer IV", "Germanic Chariot Archer V", "Germanic Chariot Archer VI", "Germanic Chariot Archer VII", "Germanic Chariot Archer VIII", "Germanic Chariot Archer IX", "Germanic Chariot Archer X", "Germanic Chariot Archer XI", "Germanic Chariot Archer XII", "Germanic Chariot Archer XIII", "Germanic Chariot Archer XIV", "Germanic Chariot Archer XV", "Germanic Chariot Archer XVI", "Germanic Chariot Archer XVII", "Germanic Chariot Archer XVIII", "Germanic Chariot Archer XIX", "Germanic Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Punic",
+    "unitNames": ["Punic Chariot Archer I", "Punic Chariot Archer II", "Punic Chariot Archer III", "Punic Chariot Archer IV", "Punic Chariot Archer V", "Punic Chariot Archer VI", "Punic Chariot Archer VII", "Punic Chariot Archer VIII", "Punic Chariot Archer IX", "Punic Chariot Archer X", "Punic Chariot Archer XI", "Punic Chariot Archer XII", "Punic Chariot Archer XIII", "Punic Chariot Archer XIV", "Punic Chariot Archer XV", "Punic Chariot Archer XVI", "Punic Chariot Archer XVII", "Punic Chariot Archer XVIII", "Punic Chariot Archer XIX", "Punic Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Numidian",
+    "unitNames": ["Numidian Chariot Archer I", "Numidian Chariot Archer II", "Numidian Chariot Archer III", "Numidian Chariot Archer IV", "Numidian Chariot Archer V", "Numidian Chariot Archer VI", "Numidian Chariot Archer VII", "Numidian Chariot Archer VIII", "Numidian Chariot Archer IX", "Numidian Chariot Archer X", "Numidian Chariot Archer XI", "Numidian Chariot Archer XII", "Numidian Chariot Archer XIII", "Numidian Chariot Archer XIV", "Numidian Chariot Archer XV", "Numidian Chariot Archer XVI", "Numidian Chariot Archer XVII", "Numidian Chariot Archer XVIII", "Numidian Chariot Archer XIX", "Numidian Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Eastern",
+    "unitNames": ["Eastern Chariot Archer I", "Eastern Chariot Archer II", "Eastern Chariot Archer III", "Eastern Chariot Archer IV", "Eastern Chariot Archer V", "Eastern Chariot Archer VI", "Eastern Chariot Archer VII", "Eastern Chariot Archer VIII", "Eastern Chariot Archer IX", "Eastern Chariot Archer X", "Eastern Chariot Archer XI", "Eastern Chariot Archer XII", "Eastern Chariot Archer XIII", "Eastern Chariot Archer XIV", "Eastern Chariot Archer XV", "Eastern Chariot Archer XVI", "Eastern Chariot Archer XVII", "Eastern Chariot Archer XVIII", "Eastern Chariot Archer XIX", "Eastern Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Thracian",
+    "unitNames": ["Thracian Chariot Archer I", "Thracian Chariot Archer II", "Thracian Chariot Archer III", "Thracian Chariot Archer IV", "Thracian Chariot Archer V", "Thracian Chariot Archer VI", "Thracian Chariot Archer VII", "Thracian Chariot Archer VIII", "Thracian Chariot Archer IX", "Thracian Chariot Archer X", "Thracian Chariot Archer XI", "Thracian Chariot Archer XII", "Thracian Chariot Archer XIII", "Thracian Chariot Archer XIV", "Thracian Chariot Archer XV", "Thracian Chariot Archer XVI", "Thracian Chariot Archer XVII", "Thracian Chariot Archer XVIII", "Thracian Chariot Archer XIX", "Thracian Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Illyrian",
+    "unitNames": ["Illyrian Chariot Archer I", "Illyrian Chariot Archer II", "Illyrian Chariot Archer III", "Illyrian Chariot Archer IV", "Illyrian Chariot Archer V", "Illyrian Chariot Archer VI", "Illyrian Chariot Archer VII", "Illyrian Chariot Archer VIII", "Illyrian Chariot Archer IX", "Illyrian Chariot Archer X", "Illyrian Chariot Archer XI", "Illyrian Chariot Archer XII", "Illyrian Chariot Archer XIII", "Illyrian Chariot Archer XIV", "Illyrian Chariot Archer XV", "Illyrian Chariot Archer XVI", "Illyrian Chariot Archer XVII", "Illyrian Chariot Archer XVIII", "Illyrian Chariot Archer XIX", "Illyrian Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Hellenistic",
+    "unitNames": ["Hellenistic Chariot Archer I", "Hellenistic Chariot Archer II", "Hellenistic Chariot Archer III", "Hellenistic Chariot Archer IV", "Hellenistic Chariot Archer V", "Hellenistic Chariot Archer VI", "Hellenistic Chariot Archer VII", "Hellenistic Chariot Archer VIII", "Hellenistic Chariot Archer IX", "Hellenistic Chariot Archer X", "Hellenistic Chariot Archer XI", "Hellenistic Chariot Archer XII", "Hellenistic Chariot Archer XIII", "Hellenistic Chariot Archer XIV", "Hellenistic Chariot Archer XV", "Hellenistic Chariot Archer XVI", "Hellenistic Chariot Archer XVII", "Hellenistic Chariot Archer XVIII", "Hellenistic Chariot Archer XIX", "Hellenistic Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Hellenic",
+    "unitNames": ["Hellenic Chariot Archer I", "Hellenic Chariot Archer II", "Hellenic Chariot Archer III", "Hellenic Chariot Archer IV", "Hellenic Chariot Archer V", "Hellenic Chariot Archer VI", "Hellenic Chariot Archer VII", "Hellenic Chariot Archer VIII", "Hellenic Chariot Archer IX", "Hellenic Chariot Archer X", "Hellenic Chariot Archer XI", "Hellenic Chariot Archer XII", "Hellenic Chariot Archer XIII", "Hellenic Chariot Archer XIV", "Hellenic Chariot Archer XV", "Hellenic Chariot Archer XVI", "Hellenic Chariot Archer XVII", "Hellenic Chariot Archer XVIII", "Hellenic Chariot Archer XIX", "Hellenic Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Iberian",
+    "unitNames": ["Iberian Chariot Archer I", "Iberian Chariot Archer II", "Iberian Chariot Archer III", "Iberian Chariot Archer IV", "Iberian Chariot Archer V", "Iberian Chariot Archer VI", "Iberian Chariot Archer VII", "Iberian Chariot Archer VIII", "Iberian Chariot Archer IX", "Iberian Chariot Archer X", "Iberian Chariot Archer XI", "Iberian Chariot Archer XII", "Iberian Chariot Archer XIII", "Iberian Chariot Archer XIV", "Iberian Chariot Archer XV", "Iberian Chariot Archer XVI", "Iberian Chariot Archer XVII", "Iberian Chariot Archer XVIII", "Iberian Chariot Archer XIX", "Iberian Chariot Archer XX"]
+},
+{
+    "name": "Chariot Archer Nomad",
+    "unitNames": ["Nomad Chariot Archer I", "Nomad Chariot Archer II", "Nomad Chariot Archer III", "Nomad Chariot Archer IV", "Nomad Chariot Archer V", "Nomad Chariot Archer VI", "Nomad Chariot Archer VII", "Nomad Chariot Archer VIII", "Nomad Chariot Archer IX", "Nomad Chariot Archer X", "Nomad Chariot Archer XI", "Nomad Chariot Archer XII", "Nomad Chariot Archer XIII", "Nomad Chariot Archer XIV", "Nomad Chariot Archer XV", "Nomad Chariot Archer XVI", "Nomad Chariot Archer XVII", "Nomad Chariot Archer XVIII", "Nomad Chariot Archer XIX", "Nomad Chariot Archer XX"]
+},
+
+    {
+        "name": "Mounted Skirmisher Latin",
+        "unitNames": ["Equites Ferentarii I", "Equites Ferentarii II", "Equites Ferentarii III", "Equites Ferentarii IV", "Equites Ferentarii V", "Equites Ferentarii VI", "Equites Ferentarii VII", "Equites Ferentarii VIII", "Equites Ferentarii IX", "Equites Ferentarii X", "Equites Ferentarii XI", "Equites Ferentarii XII", "Equites Ferentarii XIII", "Equites Ferentarii XIV", "Equites Ferentarii XV", "Equites Ferentarii XVI", "Equites Ferentarii XVII", "Equites Ferentarii XVIII", "Equites Ferentarii XIX", "Equites Ferentarii XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Celtic",
+        "unitNames": ["Celtic Mounted Skirmisher I", "Celtic Mounted Skirmisher II", "Celtic Mounted Skirmisher III", "Celtic Mounted Skirmisher IV", "Celtic Mounted Skirmisher V", "Celtic Mounted Skirmisher VI", "Celtic Mounted Skirmisher VII", "Celtic Mounted Skirmisher VIII", "Celtic Mounted Skirmisher IX", "Celtic Mounted Skirmisher X", "Celtic Mounted Skirmisher XI", "Celtic Mounted Skirmisher XII", "Celtic Mounted Skirmisher XIII", "Celtic Mounted Skirmisher XIV", "Celtic Mounted Skirmisher XV", "Celtic Mounted Skirmisher XVI", "Celtic Mounted Skirmisher XVII", "Celtic Mounted Skirmisher XVIII", "Celtic Mounted Skirmisher XIX", "Celtic Mounted Skirmisher XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Germanic",
+        "unitNames": ["Germanic Mounted Skirmisher I", "Germanic Mounted Skirmisher II", "Germanic Mounted Skirmisher III", "Germanic Mounted Skirmisher IV", "Germanic Mounted Skirmisher V", "Germanic Mounted Skirmisher VI", "Germanic Mounted Skirmisher VII", "Germanic Mounted Skirmisher VIII", "Germanic Mounted Skirmisher IX", "Germanic Mounted Skirmisher X", "Germanic Mounted Skirmisher XI", "Germanic Mounted Skirmisher XII", "Germanic Mounted Skirmisher XIII", "Germanic Mounted Skirmisher XIV", "Germanic Mounted Skirmisher XV", "Germanic Mounted Skirmisher XVI", "Germanic Mounted Skirmisher XVII", "Germanic Mounted Skirmisher XVIII", "Germanic Mounted Skirmisher XIX", "Germanic Mounted Skirmisher XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Punic",
+        "unitNames": ["Punic Mounted Skirmisher I", "Punic Mounted Skirmisher II", "Punic Mounted Skirmisher III", "Punic Mounted Skirmisher IV", "Punic Mounted Skirmisher V", "Punic Mounted Skirmisher VI", "Punic Mounted Skirmisher VII", "Punic Mounted Skirmisher VIII", "Punic Mounted Skirmisher IX", "Punic Mounted Skirmisher X", "Punic Mounted Skirmisher XI", "Punic Mounted Skirmisher XII", "Punic Mounted Skirmisher XIII", "Punic Mounted Skirmisher XIV", "Punic Mounted Skirmisher XV", "Punic Mounted Skirmisher XVI", "Punic Mounted Skirmisher XVII", "Punic Mounted Skirmisher XVIII", "Punic Mounted Skirmisher XIX", "Punic Mounted Skirmisher XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Numidian",
+        "unitNames": ["Numidian Horseman I", "Numidian Horseman II", "Numidian Horseman III", "Numidian Horseman IV", "Numidian Horseman V", "Numidian Horseman VI", "Numidian Horseman VII", "Numidian Horseman VIII", "Numidian Horseman IX", "Numidian Horseman X", "Numidian Horseman XI", "Numidian Horseman XII", "Numidian Horseman XIII", "Numidian Horseman XIV", "Numidian Horseman XV", "Numidian Horseman XVI", "Numidian Horseman XVII", "Numidian Horseman XVIII", "Numidian Horseman XIX", "Numidian Horseman XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Eastern",
+        "unitNames": ["Eastern Mounted Skirmisher I", "Eastern Mounted Skirmisher II", "Eastern Mounted Skirmisher III", "Eastern Mounted Skirmisher IV", "Eastern Mounted Skirmisher V", "Eastern Mounted Skirmisher VI", "Eastern Mounted Skirmisher VII", "Eastern Mounted Skirmisher VIII", "Eastern Mounted Skirmisher IX", "Eastern Mounted Skirmisher X", "Eastern Mounted Skirmisher XI", "Eastern Mounted Skirmisher XII", "Eastern Mounted Skirmisher XIII", "Eastern Mounted Skirmisher XIV", "Eastern Mounted Skirmisher XV", "Eastern Mounted Skirmisher XVI", "Eastern Mounted Skirmisher XVII", "Eastern Mounted Skirmisher XVIII", "Eastern Mounted Skirmisher XIX", "Eastern Mounted Skirmisher XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Thracian",
+        "unitNames": ["Thracian Mounted Skirmisher I", "Thracian Mounted Skirmisher II", "Thracian Mounted Skirmisher III", "Thracian Mounted Skirmisher IV", "Thracian Mounted Skirmisher V", "Thracian Mounted Skirmisher VI", "Thracian Mounted Skirmisher VII", "Thracian Mounted Skirmisher VIII", "Thracian Mounted Skirmisher IX", "Thracian Mounted Skirmisher X", "Thracian Mounted Skirmisher XI", "Thracian Mounted Skirmisher XII", "Thracian Mounted Skirmisher XIII", "Thracian Mounted Skirmisher XIV", "Thracian Mounted Skirmisher XV", "Thracian Mounted Skirmisher XVI", "Thracian Mounted Skirmisher XVII", "Thracian Mounted Skirmisher XVIII", "Thracian Mounted Skirmisher XIX", "Thracian Mounted Skirmisher XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Illyrian",
+        "unitNames": ["Illyrian Mounted Skirmisher I", "Illyrian Mounted Skirmisher II", "Illyrian Mounted Skirmisher III", "Illyrian Mounted Skirmisher IV", "Illyrian Mounted Skirmisher V", "Illyrian Mounted Skirmisher VI", "Illyrian Mounted Skirmisher VII", "Illyrian Mounted Skirmisher VIII", "Illyrian Mounted Skirmisher IX", "Illyrian Mounted Skirmisher X", "Illyrian Mounted Skirmisher XI", "Illyrian Mounted Skirmisher XII", "Illyrian Mounted Skirmisher XIII", "Illyrian Mounted Skirmisher XIV", "Illyrian Mounted Skirmisher XV", "Illyrian Mounted Skirmisher XVI", "Illyrian Mounted Skirmisher XVII", "Illyrian Mounted Skirmisher XVIII", "Illyrian Mounted Skirmisher XIX", "Illyrian Mounted Skirmisher XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Hellenistic",
+        "unitNames": ["Tarantinoi I", "Tarantinoi II", "Tarantinoi III", "Tarantinoi IV", "Tarantinoi V", "Tarantinoi VI", "Tarantinoi VII", "Tarantinoi VIII", "Tarantinoi IX", "Tarantinoi X", "Tarantinoi XI", "Tarantinoi XII", "Tarantinoi XIII", "Tarantinoi XIV", "Tarantinoi XV", "Tarantinoi XVI", "Tarantinoi XVII", "Tarantinoi XVIII", "Tarantinoi XIX", "Tarantinoi XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Hellenic",
+        "unitNames": ["Prodromoi I", "Prodromoi II", "Prodromoi III", "Prodromoi IV", "Prodromoi V", "Prodromoi VI", "Prodromoi VII", "Prodromoi VIII", "Prodromoi IX", "Prodromoi X", "Prodromoi XI", "Prodromoi XII", "Prodromoi XIII", "Prodromoi XIV", "Prodromoi XV", "Prodromoi XVI", "Prodromoi XVII", "Prodromoi XVIII", "Prodromoi XIX", "Prodromoi XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Iberian",
+        "unitNames": ["Iberian Mounted Skirmisher I", "Iberian Mounted Skirmisher II", "Iberian Mounted Skirmisher III", "Iberian Mounted Skirmisher IV", "Iberian Mounted Skirmisher V", "Iberian Mounted Skirmisher VI", "Iberian Mounted Skirmisher VII", "Iberian Mounted Skirmisher VIII", "Iberian Mounted Skirmisher IX", "Iberian Mounted Skirmisher X", "Iberian Mounted Skirmisher XI", "Iberian Mounted Skirmisher XII", "Iberian Mounted Skirmisher XIII", "Iberian Mounted Skirmisher XIV", "Iberian Mounted Skirmisher XV", "Iberian Mounted Skirmisher XVI", "Iberian Mounted Skirmisher XVII", "Iberian Mounted Skirmisher XVIII", "Iberian Mounted Skirmisher XIX", "Iberian Mounted Skirmisher XX"]
+    },
+    {
+        "name": "Mounted Skirmisher Nomad",
+        "unitNames": ["Nomad Mounted Skirmisher I", "Nomad Mounted Skirmisher II", "Nomad Mounted Skirmisher III", "Nomad Mounted Skirmisher IV", "Nomad Mounted Skirmisher V", "Nomad Mounted Skirmisher VI", "Nomad Mounted Skirmisher VII", "Nomad Mounted Skirmisher VIII", "Nomad Mounted Skirmisher IX", "Nomad Mounted Skirmisher X", "Nomad Mounted Skirmisher XI", "Nomad Mounted Skirmisher XII", "Nomad Mounted Skirmisher XIII", "Nomad Mounted Skirmisher XIV", "Nomad Mounted Skirmisher XV", "Nomad Mounted Skirmisher XVI", "Nomad Mounted Skirmisher XVII", "Nomad Mounted Skirmisher XVIII", "Nomad Mounted Skirmisher XIX", "Nomad Mounted Skirmisher XX"]
+    },
+
+{
+    "name": "Horse Archer Latin",
+    "unitNames": ["Equites Sagittarii I", "Equites Sagittarii II", "Equites Sagittarii III", "Equites Sagittarii IV", "Equites Sagittarii V", "Equites Sagittarii VI", "Equites Sagittarii VII", "Equites Sagittarii VIII", "Equites Sagittarii IX", "Equites Sagittarii X", "Equites Sagittarii XI", "Equites Sagittarii XII", "Equites Sagittarii XIII", "Equites Sagittarii XIV", "Equites Sagittarii XV", "Equites Sagittarii XVI", "Equites Sagittarii XVII", "Equites Sagittarii XVIII", "Equites Sagittarii XIX", "Equites Sagittarii XX"]
+},
+    {
+        "name": "Horse Archer Celtic",
+        "unitNames": ["Celtic Horse Archer I", "Celtic Horse Archer II", "Celtic Horse Archer III", "Celtic Horse Archer IV", "Celtic Horse Archer V", "Celtic Horse Archer VI", "Celtic Horse Archer VII", "Celtic Horse Archer VIII", "Celtic Horse Archer IX", "Celtic Horse Archer X", "Celtic Horse Archer XI", "Celtic Horse Archer XII", "Celtic Horse Archer XIII", "Celtic Horse Archer XIV", "Celtic Horse Archer XV", "Celtic Horse Archer XVI", "Celtic Horse Archer XVII", "Celtic Horse Archer XVIII", "Celtic Horse Archer XIX", "Celtic Horse Archer XX"]
+    },
+    {
+        "name": "Horse Archer Germanic",
+        "unitNames": ["Germanic Horse Archer I", "Germanic Horse Archer II", "Germanic Horse Archer III", "Germanic Horse Archer IV", "Germanic Horse Archer V", "Germanic Horse Archer VI", "Germanic Horse Archer VII", "Germanic Horse Archer VIII", "Germanic Horse Archer IX", "Germanic Horse Archer X", "Germanic Horse Archer XI", "Germanic Horse Archer XII", "Germanic Horse Archer XIII", "Germanic Horse Archer XIV", "Germanic Horse Archer XV", "Germanic Horse Archer XVI", "Germanic Horse Archer XVII", "Germanic Horse Archer XVIII", "Germanic Horse Archer XIX", "Germanic Horse Archer XX"]
+    },
+    {
+        "name": "Horse Archer Punic",
+        "unitNames": ["Punic Horse Archer I", "Punic Horse Archer II", "Punic Horse Archer III", "Punic Horse Archer IV", "Punic Horse Archer V", "Punic Horse Archer VI", "Punic Horse Archer VII", "Punic Horse Archer VIII", "Punic Horse Archer IX", "Punic Horse Archer X", "Punic Horse Archer XI", "Punic Horse Archer XII", "Punic Horse Archer XIII", "Punic Horse Archer XIV", "Punic Horse Archer XV", "Punic Horse Archer XVI", "Punic Horse Archer XVII", "Punic Horse Archer XVIII", "Punic Horse Archer XIX", "Punic Horse Archer XX"]
+    },
+    {
+        "name": "Horse Archer Numidian",
+        "unitNames": ["Numidian Horse Archer I", "Numidian Horse Archer II", "Numidian Horse Archer III", "Numidian Horse Archer IV", "Numidian Horse Archer V", "Numidian Horse Archer VI", "Numidian Horse Archer VII", "Numidian Horse Archer VIII", "Numidian Horse Archer IX", "Numidian Horse Archer X", "Numidian Horse Archer XI", "Numidian Horse Archer XII", "Numidian Horse Archer XIII", "Numidian Horse Archer XIV", "Numidian Horse Archer XV", "Numidian Horse Archer XVI", "Numidian Horse Archer XVII", "Numidian Horse Archer XVIII", "Numidian Horse Archer XIX", "Numidian Horse Archer XX"]
+    },
+    {
+        "name": "Horse Archer Eastern",
+        "unitNames": ["Eastern Horse Archer I", "Eastern Horse Archer II", "Eastern Horse Archer III", "Eastern Horse Archer IV", "Eastern Horse Archer V", "Eastern Horse Archer VI", "Eastern Horse Archer VII", "Eastern Horse Archer VIII", "Eastern Horse Archer IX", "Eastern Horse Archer X", "Eastern Horse Archer XI", "Eastern Horse Archer XII", "Eastern Horse Archer XIII", "Eastern Horse Archer XIV", "Eastern Horse Archer XV", "Eastern Horse Archer XVI", "Eastern Horse Archer XVII", "Eastern Horse Archer XVIII", "Eastern Horse Archer XIX", "Eastern Horse Archer XX"]
+    },
+    {
+        "name": "Horse Archer Thracian",
+        "unitNames": ["Thracian Horse Archer I", "Thracian Horse Archer II", "Thracian Horse Archer III", "Thracian Horse Archer IV", "Thracian Horse Archer V", "Thracian Horse Archer VI", "Thracian Horse Archer VII", "Thracian Horse Archer VIII", "Thracian Horse Archer IX", "Thracian Horse Archer X", "Thracian Horse Archer XI", "Thracian Horse Archer XII", "Thracian Horse Archer XIII", "Thracian Horse Archer XIV", "Thracian Horse Archer XV", "Thracian Horse Archer XVI", "Thracian Horse Archer XVII", "Thracian Horse Archer XVIII", "Thracian Horse Archer XIX", "Thracian Horse Archer XX"]
+    },
+    {
+        "name": "Horse Archer Illyrian",
+        "unitNames": ["Illyrian Horse Archer I", "Illyrian Horse Archer II", "Illyrian Horse Archer III", "Illyrian Horse Archer IV", "Illyrian Horse Archer V", "Illyrian Horse Archer VI", "Illyrian Horse Archer VII", "Illyrian Horse Archer VIII", "Illyrian Horse Archer IX", "Illyrian Horse Archer X", "Illyrian Horse Archer XI", "Illyrian Horse Archer XII", "Illyrian Horse Archer XIII", "Illyrian Horse Archer XIV", "Illyrian Horse Archer XV", "Illyrian Horse Archer XVI", "Illyrian Horse Archer XVII", "Illyrian Horse Archer XVIII", "Illyrian Horse Archer XIX", "Illyrian Horse Archer XX"]
+    },
+    {
+        "name": "Horse Archer Hellenistic",
+        "unitNames": ["Hippotoxotai I", "Hippotoxotai II", "Hippotoxotai III", "Hippotoxotai IV", "Hippotoxotai V", "Hippotoxotai VI", "Hippotoxotai VII", "Hippotoxotai VIII", "Hippotoxotai IX", "Hippotoxotai X", "Hippotoxotai XI", "Hippotoxotai XII", "Hippotoxotai XIII", "Hippotoxotai XIV", "Hippotoxotai XV", "Hippotoxotai XVI", "Hippotoxotai XVII", "Hippotoxotai XVIII", "Hippotoxotai XIX", "Hippotoxotai XX"]
+    },
+    {
+        "name": "Horse Archer Hellenic",
+        "unitNames": ["Hippotoxotai I", "Hippotoxotai II", "Hippotoxotai III", "Hippotoxotai IV", "Hippotoxotai V", "Hippotoxotai VI", "Hippotoxotai VII", "Hippotoxotai VIII", "Hippotoxotai IX", "Hippotoxotai X", "Hippotoxotai XI", "Hippotoxotai XII", "Hippotoxotai XIII", "Hippotoxotai XIV", "Hippotoxotai XV", "Hippotoxotai XVI", "Hippotoxotai XVII", "Hippotoxotai XVIII", "Hippotoxotai XIX", "Hippotoxotai XX"]
+    },
+    {
+        "name": "Horse Archer Iberian",
+        "unitNames": ["Iberian Horse Archer I", "Iberian Horse Archer II", "Iberian Horse Archer III", "Iberian Horse Archer IV", "Iberian Horse Archer V", "Iberian Horse Archer VI", "Iberian Horse Archer VII", "Iberian Horse Archer VIII", "Iberian Horse Archer IX", "Iberian Horse Archer X", "Iberian Horse Archer XI", "Iberian Horse Archer XII", "Iberian Horse Archer XIII", "Iberian Horse Archer XIV", "Iberian Horse Archer XV", "Iberian Horse Archer XVI", "Iberian Horse Archer XVII", "Iberian Horse Archer XVIII", "Iberian Horse Archer XIX", "Iberian Horse Archer XX"]
+    },
+    {
+        "name": "Horse Archer Nomad",
+        "unitNames": ["Nomad Horse Archer I", "Nomad Horse Archer II", "Nomad Horse Archer III", "Nomad Horse Archer IV", "Nomad Horse Archer V", "Nomad Horse Archer VI", "Nomad Horse Archer VII", "Nomad Horse Archer VIII", "Nomad Horse Archer IX", "Nomad Horse Archer X", "Nomad Horse Archer XI", "Nomad Horse Archer XII", "Nomad Horse Archer XIII", "Nomad Horse Archer XIV", "Nomad Horse Archer XV", "Nomad Horse Archer XVI", "Nomad Horse Archer XVII", "Nomad Horse Archer XVIII", "Nomad Horse Archer XIX", "Nomad Horse Archer XX"]
+    },
+
+////Navals
+
+{
+    "name": "Galley Latin",
+    "unitNames": ["Navis Longa I", "Navis Longa II", "Navis Longa III", "Navis Longa IV", "Navis Longa V", "Navis Longa VI", "Navis Longa VII", "Navis Longa VIII", "Navis Longa IX", "Navis Longa X", "Navis Longa XI", "Navis Longa XII", "Navis Longa XIII", "Navis Longa XIV", "Navis Longa XV", "Navis Longa XVI", "Navis Longa XVII", "Navis Longa XVIII", "Navis Longa XIX", "Navis Longa XX"]
+},
+{
+    "name": "Galley Celtic",
+    "unitNames": ["Celtic Galley I", "Celtic Galley II", "Celtic Galley III", "Celtic Galley IV", "Celtic Galley V", "Celtic Galley VI", "Celtic Galley VII", "Celtic Galley VIII", "Celtic Galley IX", "Celtic Galley X", "Celtic Galley XI", "Celtic Galley XII", "Celtic Galley XIII", "Celtic Galley XIV", "Celtic Galley XV", "Celtic Galley XVI", "Celtic Galley XVII", "Celtic Galley XVIII", "Celtic Galley XIX", "Celtic Galley XX"]
+},
+{
+    "name": "Galley Germanic",
+    "unitNames": ["Germanic Galley I", "Germanic Galley II", "Germanic Galley III", "Germanic Galley IV", "Germanic Galley V", "Germanic Galley VI", "Germanic Galley VII", "Germanic Galley VIII", "Germanic Galley IX", "Germanic Galley X", "Germanic Galley XI", "Germanic Galley XII", "Germanic Galley XIII", "Germanic Galley XIV", "Germanic Galley XV", "Germanic Galley XVI", "Germanic Galley XVII", "Germanic Galley XVIII", "Germanic Galley XIX", "Germanic Galley XX"]
+},
+{
+    "name": "Galley Punic",
+    "unitNames": ["Punic Galley I", "Punic Galley II", "Punic Galley III", "Punic Galley IV", "Punic Galley V", "Punic Galley VI", "Punic Galley VII", "Punic Galley VIII", "Punic Galley IX", "Punic Galley X", "Punic Galley XI", "Punic Galley XII", "Punic Galley XIII", "Punic Galley XIV", "Punic Galley XV", "Punic Galley XVI", "Punic Galley XVII", "Punic Galley XVIII", "Punic Galley XIX", "Punic Galley XX"]
+},
+{
+    "name": "Galley Numidian",
+    "unitNames": ["Numidian Galley I", "Numidian Galley II", "Numidian Galley III", "Numidian Galley IV", "Numidian Galley V", "Numidian Galley VI", "Numidian Galley VII", "Numidian Galley VIII", "Numidian Galley IX", "Numidian Galley X", "Numidian Galley XI", "Numidian Galley XII", "Numidian Galley XIII", "Numidian Galley XIV", "Numidian Galley XV", "Numidian Galley XVI", "Numidian Galley XVII", "Numidian Galley XVIII", "Numidian Galley XIX", "Numidian Galley XX"]
+},
+{
+    "name": "Galley Eastern",
+    "unitNames": ["Eastern Galley I", "Eastern Galley II", "Eastern Galley III", "Eastern Galley IV", "Eastern Galley V", "Eastern Galley VI", "Eastern Galley VII", "Eastern Galley VIII", "Eastern Galley IX", "Eastern Galley X", "Eastern Galley XI", "Eastern Galley XII", "Eastern Galley XIII", "Eastern Galley XIV", "Eastern Galley XV", "Eastern Galley XVI", "Eastern Galley XVII", "Eastern Galley XVIII", "Eastern Galley XIX", "Eastern Galley XX"]
+},
+{
+    "name": "Galley Thracian",
+    "unitNames": ["Thracian Galley I", "Thracian Galley II", "Thracian Galley III", "Thracian Galley IV", "Thracian Galley V", "Thracian Galley VI", "Thracian Galley VII", "Thracian Galley VIII", "Thracian Galley IX", "Thracian Galley X", "Thracian Galley XI", "Thracian Galley XII", "Thracian Galley XIII", "Thracian Galley XIV", "Thracian Galley XV", "Thracian Galley XVI", "Thracian Galley XVII", "Thracian Galley XVIII", "Thracian Galley XIX", "Thracian Galley XX"]
+},
+{
+    "name": "Galley Illyrian",
+    "unitNames": ["Illyrian Galley I", "Illyrian Galley II", "Illyrian Galley III", "Illyrian Galley IV", "Illyrian Galley V", "Illyrian Galley VI", "Illyrian Galley VII", "Illyrian Galley VIII", "Illyrian Galley IX", "Illyrian Galley X", "Illyrian Galley XI", "Illyrian Galley XII", "Illyrian Galley XIII", "Illyrian Galley XIV", "Illyrian Galley XV", "Illyrian Galley XVI", "Illyrian Galley XVII", "Illyrian Galley XVIII", "Illyrian Galley XIX", "Illyrian Galley XX"]
+},
+{
+    "name": "Galley Hellenistic",
+    "unitNames": ["Naus I", "Naus II", "Naus III", "Naus IV", "Naus V", "Naus VI", "Naus VII", "Naus VIII", "Naus IX", "Naus X", "Naus XI", "Naus XII", "Naus XIII", "Naus XIV", "Naus XV", "Naus XVI", "Naus XVII", "Naus XVIII", "Naus XIX", "Naus XX"]
+},
+{
+    "name": "Galley Hellenic",
+    "unitNames": ["Naus I", "Naus II", "Naus III", "Naus IV", "Naus V", "Naus VI", "Naus VII", "Naus VIII", "Naus IX", "Naus X", "Naus XI", "Naus XII", "Naus XIII", "Naus XIV", "Naus XV", "Naus XVI", "Naus XVII", "Naus XVIII", "Naus XIX", "Naus XX"]
+},
+{
+    "name": "Galley Iberian",
+    "unitNames": ["Iberian Galley I", "Iberian Galley II", "Iberian Galley III", "Iberian Galley IV", "Iberian Galley V", "Iberian Galley VI", "Iberian Galley VII", "Iberian Galley VIII", "Iberian Galley IX", "Iberian Galley X", "Iberian Galley XI", "Iberian Galley XII", "Iberian Galley XIII", "Iberian Galley XIV", "Iberian Galley XV", "Iberian Galley XVI", "Iberian Galley XVII", "Iberian Galley XVIII", "Iberian Galley XIX", "Iberian Galley XX"]
+},
+{
+    "name": "Galley Nomad",
+    "unitNames": ["Nomad Galley I", "Nomad Galley II", "Nomad Galley III", "Nomad Galley IV", "Nomad Galley V", "Nomad Galley VI", "Nomad Galley VII", "Nomad Galley VIII", "Nomad Galley IX", "Nomad Galley X", "Nomad Galley XI", "Nomad Galley XII", "Nomad Galley XIII", "Nomad Galley XIV", "Nomad Galley XV", "Nomad Galley XVI", "Nomad Galley XVII", "Nomad Galley XVIII", "Nomad Galley XIX", "Nomad Galley XX"]
+},
+
+{
+    "name": "Hemiola Latin",
+    "unitNames": ["Latin Hemiola I", "Latin Hemiola II", "Latin Hemiola III", "Latin Hemiola IV", "Latin Hemiola V", "Latin Hemiola VI", "Latin Hemiola VII", "Latin Hemiola VIII", "Latin Hemiola IX", "Latin Hemiola X", "Latin Hemiola XI", "Latin Hemiola XII", "Latin Hemiola XIII", "Latin Hemiola XIV", "Latin Hemiola XV", "Latin Hemiola XVI", "Latin Hemiola XVII", "Latin Hemiola XVIII", "Latin Hemiola XIX", "Latin Hemiola XX"]
+},
+{
+    "name": "Hemiola Celtic",
+    "unitNames": ["Celtic Hemiola I", "Celtic Hemiola II", "Celtic Hemiola III", "Celtic Hemiola IV", "Celtic Hemiola V", "Celtic Hemiola VI", "Celtic Hemiola VII", "Celtic Hemiola VIII", "Celtic Hemiola IX", "Celtic Hemiola X", "Celtic Hemiola XI", "Celtic Hemiola XII", "Celtic Hemiola XIII", "Celtic Hemiola XIV", "Celtic Hemiola XV", "Celtic Hemiola XVI", "Celtic Hemiola XVII", "Celtic Hemiola XVIII", "Celtic Hemiola XIX", "Celtic Hemiola XX"]
+},
+{
+    "name": "Hemiola Germanic",
+    "unitNames": ["Germanic Hemiola I", "Germanic Hemiola II", "Germanic Hemiola III", "Germanic Hemiola IV", "Germanic Hemiola V", "Germanic Hemiola VI", "Germanic Hemiola VII", "Germanic Hemiola VIII", "Germanic Hemiola IX", "Germanic Hemiola X", "Germanic Hemiola XI", "Germanic Hemiola XII", "Germanic Hemiola XIII", "Germanic Hemiola XIV", "Germanic Hemiola XV", "Germanic Hemiola XVI", "Germanic Hemiola XVII", "Germanic Hemiola XVIII", "Germanic Hemiola XIX", "Germanic Hemiola XX"]
+},
+{
+    "name": "Hemiola Punic",
+    "unitNames": ["Punic Hemiola I", "Punic Hemiola II", "Punic Hemiola III", "Punic Hemiola IV", "Punic Hemiola V", "Punic Hemiola VI", "Punic Hemiola VII", "Punic Hemiola VIII", "Punic Hemiola IX", "Punic Hemiola X", "Punic Hemiola XI", "Punic Hemiola XII", "Punic Hemiola XIII", "Punic Hemiola XIV", "Punic Hemiola XV", "Punic Hemiola XVI", "Punic Hemiola XVII", "Punic Hemiola XVIII", "Punic Hemiola XIX", "Punic Hemiola XX"]
+},
+{
+    "name": "Hemiola Numidian",
+    "unitNames": ["Numidian Hemiola I", "Numidian Hemiola II", "Numidian Hemiola III", "Numidian Hemiola IV", "Numidian Hemiola V", "Numidian Hemiola VI", "Numidian Hemiola VII", "Numidian Hemiola VIII", "Numidian Hemiola IX", "Numidian Hemiola X", "Numidian Hemiola XI", "Numidian Hemiola XII", "Numidian Hemiola XIII", "Numidian Hemiola XIV", "Numidian Hemiola XV", "Numidian Hemiola XVI", "Numidian Hemiola XVII", "Numidian Hemiola XVIII", "Numidian Hemiola XIX", "Numidian Hemiola XX"]
+},
+{
+    "name": "Hemiola Eastern",
+    "unitNames": ["Eastern Hemiola I", "Eastern Hemiola II", "Eastern Hemiola III", "Eastern Hemiola IV", "Eastern Hemiola V", "Eastern Hemiola VI", "Eastern Hemiola VII", "Eastern Hemiola VIII", "Eastern Hemiola IX", "Eastern Hemiola X", "Eastern Hemiola XI", "Eastern Hemiola XII", "Eastern Hemiola XIII", "Eastern Hemiola XIV", "Eastern Hemiola XV", "Eastern Hemiola XVI", "Eastern Hemiola XVII", "Eastern Hemiola XVIII", "Eastern Hemiola XIX", "Eastern Hemiola XX"]
+},
+{
+    "name": "Hemiola Thracian",
+    "unitNames": ["Thracian Hemiola I", "Thracian Hemiola II", "Thracian Hemiola III", "Thracian Hemiola IV", "Thracian Hemiola V", "Thracian Hemiola VI", "Thracian Hemiola VII", "Thracian Hemiola VIII", "Thracian Hemiola IX", "Thracian Hemiola X", "Thracian Hemiola XI", "Thracian Hemiola XII", "Thracian Hemiola XIII", "Thracian Hemiola XIV", "Thracian Hemiola XV", "Thracian Hemiola XVI", "Thracian Hemiola XVII", "Thracian Hemiola XVIII", "Thracian Hemiola XIX", "Thracian Hemiola XX"]
+},
+{
+    "name": "Hemiola Illyrian",
+    "unitNames": ["Illyrian Hemiola I", "Illyrian Hemiola II", "Illyrian Hemiola III", "Illyrian Hemiola IV", "Illyrian Hemiola V", "Illyrian Hemiola VI", "Illyrian Hemiola VII", "Illyrian Hemiola VIII", "Illyrian Hemiola IX", "Illyrian Hemiola X", "Illyrian Hemiola XI", "Illyrian Hemiola XII", "Illyrian Hemiola XIII", "Illyrian Hemiola XIV", "Illyrian Hemiola XV", "Illyrian Hemiola XVI", "Illyrian Hemiola XVII", "Illyrian Hemiola XVIII", "Illyrian Hemiola XIX", "Illyrian Hemiola XX"]
+},
+{
+    "name": "Hemiola Hellenistic",
+    "unitNames": ["Hemioliai I", "Hemioliai II", "Hemioliai III", "Hemioliai IV", "Hemioliai V", "Hemioliai VI", "Hemioliai VII", "Hemioliai VIII", "Hemioliai IX", "Hemioliai X", "Hemioliai XI", "Hemioliai XII", "Hemioliai XIII", "Hemioliai XIV", "Hemioliai XV", "Hemioliai XVI", "Hemioliai XVII", "Hemioliai XVIII", "Hemioliai XIX", "Hemioliai XX"]
+},
+{
+    "name": "Hemiola Hellenic",
+    "unitNames": ["Hemioliai I", "Hemioliai II", "Hemioliai III", "Hemioliai IV", "Hemioliai V", "Hemioliai VI", "Hemioliai VII", "Hemioliai VIII", "Hemioliai IX", "Hemioliai X", "Hemioliai XI", "Hemioliai XII", "Hemioliai XIII", "Hemioliai XIV", "Hemioliai XV", "Hemioliai XVI", "Hemioliai XVII", "Hemioliai XVIII", "Hemioliai XIX", "Hemioliai XX"]
+},
+{
+    "name": "Hemiola Iberian",
+    "unitNames": ["Iberian Hemiola I", "Iberian Hemiola II", "Iberian Hemiola III", "Iberian Hemiola IV", "Iberian Hemiola V", "Iberian Hemiola VI", "Iberian Hemiola VII", "Iberian Hemiola VIII", "Iberian Hemiola IX", "Iberian Hemiola X", "Iberian Hemiola XI", "Iberian Hemiola XII", "Iberian Hemiola XIII", "Iberian Hemiola XIV", "Iberian Hemiola XV", "Iberian Hemiola XVI", "Iberian Hemiola XVII", "Iberian Hemiola XVIII", "Iberian Hemiola XIX", "Iberian Hemiola XX"]
+},
+{
+    "name": "Hemiola Nomad",
+    "unitNames": ["Nomad Hemiola I", "Nomad Hemiola II", "Nomad Hemiola III", "Nomad Hemiola IV", "Nomad Hemiola V", "Nomad Hemiola VI", "Nomad Hemiola VII", "Nomad Hemiola VIII", "Nomad Hemiola IX", "Nomad Hemiola X", "Nomad Hemiola XI", "Nomad Hemiola XII", "Nomad Hemiola XIII", "Nomad Hemiola XIV", "Nomad Hemiola XV", "Nomad Hemiola XVI", "Nomad Hemiola XVII", "Nomad Hemiola XVIII", "Nomad Hemiola XIX", "Nomad Hemiola XX"]
+},
+
+{
+    "name": "Trireme Latin",
+    "unitNames": ["Triremis I", "Triremis II", "Triremis III", "Triremis IV", "Triremis V", "Triremis VI", "Triremis VII", "Triremis VIII", "Triremis IX", "Triremis X", "Triremis XI", "Triremis XII", "Triremis XIII", "Triremis XIV", "Triremis XV", "Triremis XVI", "Triremis XVII", "Triremis XVIII", "Triremis XIX", "Triremis XX"]
+},
+{
+    "name": "Trireme Celtic",
+    "unitNames": ["Celtic Trireme I", "Celtic Trireme II", "Celtic Trireme III", "Celtic Trireme IV", "Celtic Trireme V", "Celtic Trireme VI", "Celtic Trireme VII", "Celtic Trireme VIII", "Celtic Trireme IX", "Celtic Trireme X", "Celtic Trireme XI", "Celtic Trireme XII", "Celtic Trireme XIII", "Celtic Trireme XIV", "Celtic Trireme XV", "Celtic Trireme XVI", "Celtic Trireme XVII", "Celtic Trireme XVIII", "Celtic Trireme XIX", "Celtic Trireme XX"]
+},
+{
+    "name": "Trireme Germanic",
+    "unitNames": ["Germanic Trireme I", "Germanic Trireme II", "Germanic Trireme III", "Germanic Trireme IV", "Germanic Trireme V", "Germanic Trireme VI", "Germanic Trireme VII", "Germanic Trireme VIII", "Germanic Trireme IX", "Germanic Trireme X", "Germanic Trireme XI", "Germanic Trireme XII", "Germanic Trireme XIII", "Germanic Trireme XIV", "Germanic Trireme XV", "Germanic Trireme XVI", "Germanic Trireme XVII", "Germanic Trireme XVIII", "Germanic Trireme XIX", "Germanic Trireme XX"]
+},
+{
+    "name": "Trireme Punic",
+    "unitNames": ["Punic Trireme I", "Punic Trireme II", "Punic Trireme III", "Punic Trireme IV", "Punic Trireme V", "Punic Trireme VI", "Punic Trireme VII", "Punic Trireme VIII", "Punic Trireme IX", "Punic Trireme X", "Punic Trireme XI", "Punic Trireme XII", "Punic Trireme XIII", "Punic Trireme XIV", "Punic Trireme XV", "Punic Trireme XVI", "Punic Trireme XVII", "Punic Trireme XVIII", "Punic Trireme XIX", "Punic Trireme XX"]
+},
+{
+    "name": "Trireme Numidian",
+    "unitNames": ["Numidian Trireme I", "Numidian Trireme II", "Numidian Trireme III", "Numidian Trireme IV", "Numidian Trireme V", "Numidian Trireme VI", "Numidian Trireme VII", "Numidian Trireme VIII", "Numidian Trireme IX", "Numidian Trireme X", "Numidian Trireme XI", "Numidian Trireme XII", "Numidian Trireme XIII", "Numidian Trireme XIV", "Numidian Trireme XV", "Numidian Trireme XVI", "Numidian Trireme XVII", "Numidian Trireme XVIII", "Numidian Trireme XIX", "Numidian Trireme XX"]
+},
+{
+    "name": "Trireme Eastern",
+    "unitNames": ["Eastern Trireme I", "Eastern Trireme II", "Eastern Trireme III", "Eastern Trireme IV", "Eastern Trireme V", "Eastern Trireme VI", "Eastern Trireme VII", "Eastern Trireme VIII", "Eastern Trireme IX", "Eastern Trireme X", "Eastern Trireme XI", "Eastern Trireme XII", "Eastern Trireme XIII", "Eastern Trireme XIV", "Eastern Trireme XV", "Eastern Trireme XVI", "Eastern Trireme XVII", "Eastern Trireme XVIII", "Eastern Trireme XIX", "Eastern Trireme XX"]
+},
+{
+    "name": "Trireme Thracian",
+    "unitNames": ["Thracian Trireme I", "Thracian Trireme II", "Thracian Trireme III", "Thracian Trireme IV", "Thracian Trireme V", "Thracian Trireme VI", "Thracian Trireme VII", "Thracian Trireme VIII", "Thracian Trireme IX", "Thracian Trireme X", "Thracian Trireme XI", "Thracian Trireme XII", "Thracian Trireme XIII", "Thracian Trireme XIV", "Thracian Trireme XV", "Thracian Trireme XVI", "Thracian Trireme XVII", "Thracian Trireme XVIII", "Thracian Trireme XIX", "Thracian Trireme XX"]
+},
+{
+    "name": "Trireme Illyrian",
+    "unitNames": ["Illyrian Trireme I", "Illyrian Trireme II", "Illyrian Trireme III", "Illyrian Trireme IV", "Illyrian Trireme V", "Illyrian Trireme VI", "Illyrian Trireme VII", "Illyrian Trireme VIII", "Illyrian Trireme IX", "Illyrian Trireme X", "Illyrian Trireme XI", "Illyrian Trireme XII", "Illyrian Trireme XIII", "Illyrian Trireme XIV", "Illyrian Trireme XV", "Illyrian Trireme XVI", "Illyrian Trireme XVII", "Illyrian Trireme XVIII", "Illyrian Trireme XIX", "Illyrian Trireme XX"]
+},
+{
+    "name": "Trireme Hellenistic",
+    "unitNames": ["Triērēis I", "Triērēis II", "Triērēis III", "Triērēis IV", "Triērēis V", "Triērēis VI", "Triērēis VII", "Triērēis VIII", "Triērēis IX", "Triērēis X", "Triērēis XI", "Triērēis XII", "Triērēis XIII", "Triērēis XIV", "Triērēis XV", "Triērēis XVI", "Triērēis XVII", "Triērēis XVIII", "Triērēis XIX", "Triērēis XX"]
+},
+{
+    "name": "Trireme Hellenic",
+    "unitNames": ["Triērēis I", "Triērēis II", "Triērēis III", "Triērēis IV", "Triērēis V", "Triērēis VI", "Triērēis VII", "Triērēis VIII", "Triērēis IX", "Triērēis X", "Triērēis XI", "Triērēis XII", "Triērēis XIII", "Triērēis XIV", "Triērēis XV", "Triērēis XVI", "Triērēis XVII", "Triērēis XVIII", "Triērēis XIX", "Triērēis XX"]
+},
+{
+    "name": "Trireme Iberian",
+    "unitNames": ["Iberian Trireme I", "Iberian Trireme II", "Iberian Trireme III", "Iberian Trireme IV", "Iberian Trireme V", "Iberian Trireme VI", "Iberian Trireme VII", "Iberian Trireme VIII", "Iberian Trireme IX", "Iberian Trireme X", "Iberian Trireme XI", "Iberian Trireme XII", "Iberian Trireme XIII", "Iberian Trireme XIV", "Iberian Trireme XV", "Iberian Trireme XVI", "Iberian Trireme XVII", "Iberian Trireme XVIII", "Iberian Trireme XIX", "Iberian Trireme XX"]
+},
+{
+    "name": "Trireme Nomad",
+    "unitNames": ["Nomad Trireme I", "Nomad Trireme II", "Nomad Trireme III", "Nomad Trireme IV", "Nomad Trireme V", "Nomad Trireme VI", "Nomad Trireme VII", "Nomad Trireme VIII", "Nomad Trireme IX", "Nomad Trireme X", "Nomad Trireme XI", "Nomad Trireme XII", "Nomad Trireme XIII", "Nomad Trireme XIV", "Nomad Trireme XV", "Nomad Trireme XVI", "Nomad Trireme XVII", "Nomad Trireme XVIII", "Nomad Trireme XIX", "Nomad Trireme XX"]
+},
+
+{
+    "name": "Pentere Latin",
+    "unitNames": ["Quinqueremis I", "Quinqueremis II", "Quinqueremis III", "Quinqueremis IV", "Quinqueremis V", "Quinqueremis VI", "Quinqueremis VII", "Quinqueremis VIII", "Quinqueremis IX", "Quinqueremis X", "Quinqueremis XI", "Quinqueremis XII", "Quinqueremis XIII", "Quinqueremis XIV", "Quinqueremis XV", "Quinqueremis XVI", "Quinqueremis XVII", "Quinqueremis XVIII", "Quinqueremis XIX", "Quinqueremis XX"]
+},
+{
+    "name": "Pentere Celtic",
+    "unitNames": ["Celtic Pentere I", "Celtic Pentere II", "Celtic Pentere III", "Celtic Pentere IV", "Celtic Pentere V", "Celtic Pentere VI", "Celtic Pentere VII", "Celtic Pentere VIII", "Celtic Pentere IX", "Celtic Pentere X", "Celtic Pentere XI", "Celtic Pentere XII", "Celtic Pentere XIII", "Celtic Pentere XIV", "Celtic Pentere XV", "Celtic Pentere XVI", "Celtic Pentere XVII", "Celtic Pentere XVIII", "Celtic Pentere XIX", "Celtic Pentere XX"]
+},
+{
+    "name": "Pentere Germanic",
+    "unitNames": ["Germanic Pentere I", "Germanic Pentere II", "Germanic Pentere III", "Germanic Pentere IV", "Germanic Pentere V", "Germanic Pentere VI", "Germanic Pentere VII", "Germanic Pentere VIII", "Germanic Pentere IX", "Germanic Pentere X", "Germanic Pentere XI", "Germanic Pentere XII", "Germanic Pentere XIII", "Germanic Pentere XIV", "Germanic Pentere XV", "Germanic Pentere XVI", "Germanic Pentere XVII", "Germanic Pentere XVIII", "Germanic Pentere XIX", "Germanic Pentere XX"]
+},
+{
+    "name": "Pentere Punic",
+    "unitNames": ["Punic Pentere I", "Punic Pentere II", "Punic Pentere III", "Punic Pentere IV", "Punic Pentere V", "Punic Pentere VI", "Punic Pentere VII", "Punic Pentere VIII", "Punic Pentere IX", "Punic Pentere X", "Punic Pentere XI", "Punic Pentere XII", "Punic Pentere XIII", "Punic Pentere XIV", "Punic Pentere XV", "Punic Pentere XVI", "Punic Pentere XVII", "Punic Pentere XVIII", "Punic Pentere XIX", "Punic Pentere XX"]
+},
+{
+    "name": "Pentere Numidian",
+    "unitNames": ["Numidian Pentere I", "Numidian Pentere II", "Numidian Pentere III", "Numidian Pentere IV", "Numidian Pentere V", "Numidian Pentere VI", "Numidian Pentere VII", "Numidian Pentere VIII", "Numidian Pentere IX", "Numidian Pentere X", "Numidian Pentere XI", "Numidian Pentere XII", "Numidian Pentere XIII", "Numidian Pentere XIV", "Numidian Pentere XV", "Numidian Pentere XVI", "Numidian Pentere XVII", "Numidian Pentere XVIII", "Numidian Pentere XIX", "Numidian Pentere XX"]
+},
+{
+    "name": "Pentere Eastern",
+    "unitNames": ["Eastern Pentere I", "Eastern Pentere II", "Eastern Pentere III", "Eastern Pentere IV", "Eastern Pentere V", "Eastern Pentere VI", "Eastern Pentere VII", "Eastern Pentere VIII", "Eastern Pentere IX", "Eastern Pentere X", "Eastern Pentere XI", "Eastern Pentere XII", "Eastern Pentere XIII", "Eastern Pentere XIV", "Eastern Pentere XV", "Eastern Pentere XVI", "Eastern Pentere XVII", "Eastern Pentere XVIII", "Eastern Pentere XIX", "Eastern Pentere XX"]
+},
+{
+    "name": "Pentere Thracian",
+    "unitNames": ["Thracian Pentere I", "Thracian Pentere II", "Thracian Pentere III", "Thracian Pentere IV", "Thracian Pentere V", "Thracian Pentere VI", "Thracian Pentere VII", "Thracian Pentere VIII", "Thracian Pentere IX", "Thracian Pentere X", "Thracian Pentere XI", "Thracian Pentere XII", "Thracian Pentere XIII", "Thracian Pentere XIV", "Thracian Pentere XV", "Thracian Pentere XVI", "Thracian Pentere XVII", "Thracian Pentere XVIII", "Thracian Pentere XIX", "Thracian Pentere XX"]
+},
+{
+    "name": "Pentere Illyrian",
+    "unitNames": ["Illyrian Pentere I", "Illyrian Pentere II", "Illyrian Pentere III", "Illyrian Pentere IV", "Illyrian Pentere V", "Illyrian Pentere VI", "Illyrian Pentere VII", "Illyrian Pentere VIII", "Illyrian Pentere IX", "Illyrian Pentere X", "Illyrian Pentere XI", "Illyrian Pentere XII", "Illyrian Pentere XIII", "Illyrian Pentere XIV", "Illyrian Pentere XV", "Illyrian Pentere XVI", "Illyrian Pentere XVII", "Illyrian Pentere XVIII", "Illyrian Pentere XIX", "Illyrian Pentere XX"]
+},
+{
+    "name": "Pentere Hellenistic",
+    "unitNames": ["Penterēis I", "Penterēis II", "Penterēis III", "Penterēis IV", "Penterēis V", "Penterēis VI", "Penterēis VII", "Penterēis VIII", "Penterēis IX", "Penterēis X", "Penterēis XI", "Penterēis XII", "Penterēis XIII", "Penterēis XIV", "Penterēis XV", "Penterēis XVI", "Penterēis XVII", "Penterēis XVIII", "Penterēis XIX", "Penterēis XX"]
+},
+{
+    "name": "Pentere Hellenic",
+    "unitNames": ["Penterēis I", "Penterēis II", "Penterēis III", "Penterēis IV", "Penterēis V", "Penterēis VI", "Penterēis VII", "Penterēis VIII", "Penterēis IX", "Penterēis X", "Penterēis XI", "Penterēis XII", "Penterēis XIII", "Penterēis XIV", "Penterēis XV", "Penterēis XVI", "Penterēis XVII", "Penterēis XVIII", "Penterēis XIX", "Penterēis XX"]
+},
+{
+    "name": "Pentere Iberian",
+    "unitNames": ["Iberian Pentere I", "Iberian Pentere II", "Iberian Pentere III", "Iberian Pentere IV", "Iberian Pentere V", "Iberian Pentere VI", "Iberian Pentere VII", "Iberian Pentere VIII", "Iberian Pentere IX", "Iberian Pentere X", "Iberian Pentere XI", "Iberian Pentere XII", "Iberian Pentere XIII", "Iberian Pentere XIV", "Iberian Pentere XV", "Iberian Pentere XVI", "Iberian Pentere XVII", "Iberian Pentere XVIII", "Iberian Pentere XIX", "Iberian Pentere XX"]
+},
+{
+    "name": "Pentere Nomad",
+    "unitNames": ["Nomad Pentere I", "Nomad Pentere II", "Nomad Pentere III", "Nomad Pentere IV", "Nomad Pentere V", "Nomad Pentere VI", "Nomad Pentere VII", "Nomad Pentere VIII", "Nomad Pentere IX", "Nomad Pentere X", "Nomad Pentere XI", "Nomad Pentere XII", "Nomad Pentere XIII", "Nomad Pentere XIV", "Nomad Pentere XV", "Nomad Pentere XVI", "Nomad Pentere XVII", "Nomad Pentere XVIII", "Nomad Pentere XIX", "Nomad Pentere XX"]
+},
+
+{
+    "name": "Hexere Latin",
+    "unitNames": ["Hexeris I", "Hexeris II", "Hexeris III", "Hexeris IV", "Hexeris V", "Hexeris VI", "Hexeris VII", "Hexeris VIII", "Hexeris IX", "Hexeris X", "Hexeris XI", "Hexeris XII", "Hexeris XIII", "Hexeris XIV", "Hexeris XV", "Hexeris XVI", "Hexeris XVII", "Hexeris XVIII", "Hexeris XIX", "Hexeris XX"]
+},
+{
+    "name": "Hexere Celtic",
+    "unitNames": ["Celtic Hexere I", "Celtic Hexere II", "Celtic Hexere III", "Celtic Hexere IV", "Celtic Hexere V", "Celtic Hexere VI", "Celtic Hexere VII", "Celtic Hexere VIII", "Celtic Hexere IX", "Celtic Hexere X", "Celtic Hexere XI", "Celtic Hexere XII", "Celtic Hexere XIII", "Celtic Hexere XIV", "Celtic Hexere XV", "Celtic Hexere XVI", "Celtic Hexere XVII", "Celtic Hexere XVIII", "Celtic Hexere XIX", "Celtic Hexere XX"]
+},
+{
+    "name": "Hexere Germanic",
+    "unitNames": ["Germanic Hexere I", "Germanic Hexere II", "Germanic Hexere III", "Germanic Hexere IV", "Germanic Hexere V", "Germanic Hexere VI", "Germanic Hexere VII", "Germanic Hexere VIII", "Germanic Hexere IX", "Germanic Hexere X", "Germanic Hexere XI", "Germanic Hexere XII", "Germanic Hexere XIII", "Germanic Hexere XIV", "Germanic Hexere XV", "Germanic Hexere XVI", "Germanic Hexere XVII", "Germanic Hexere XVIII", "Germanic Hexere XIX", "Germanic Hexere XX"]
+},
+{
+    "name": "Hexere Punic",
+    "unitNames": ["Punic Hexere I", "Punic Hexere II", "Punic Hexere III", "Punic Hexere IV", "Punic Hexere V", "Punic Hexere VI", "Punic Hexere VII", "Punic Hexere VIII", "Punic Hexere IX", "Punic Hexere X", "Punic Hexere XI", "Punic Hexere XII", "Punic Hexere XIII", "Punic Hexere XIV", "Punic Hexere XV", "Punic Hexere XVI", "Punic Hexere XVII", "Punic Hexere XVIII", "Punic Hexere XIX", "Punic Hexere XX"]
+},
+{
+    "name": "Hexere Numidian",
+    "unitNames": ["Numidian Hexere I", "Numidian Hexere II", "Numidian Hexere III", "Numidian Hexere IV", "Numidian Hexere V", "Numidian Hexere VI", "Numidian Hexere VII", "Numidian Hexere VIII", "Numidian Hexere IX", "Numidian Hexere X", "Numidian Hexere XI", "Numidian Hexere XII", "Numidian Hexere XIII", "Numidian Hexere XIV", "Numidian Hexere XV", "Numidian Hexere XVI", "Numidian Hexere XVII", "Numidian Hexere XVIII", "Numidian Hexere XIX", "Numidian Hexere XX"]
+},
+{
+    "name": "Hexere Eastern",
+    "unitNames": ["Eastern Hexere I", "Eastern Hexere II", "Eastern Hexere III", "Eastern Hexere IV", "Eastern Hexere V", "Eastern Hexere VI", "Eastern Hexere VII", "Eastern Hexere VIII", "Eastern Hexere IX", "Eastern Hexere X", "Eastern Hexere XI", "Eastern Hexere XII", "Eastern Hexere XIII", "Eastern Hexere XIV", "Eastern Hexere XV", "Eastern Hexere XVI", "Eastern Hexere XVII", "Eastern Hexere XVIII", "Eastern Hexere XIX", "Eastern Hexere XX"]
+},
+{
+    "name": "Hexere Thracian",
+    "unitNames": ["Thracian Hexere I", "Thracian Hexere II", "Thracian Hexere III", "Thracian Hexere IV", "Thracian Hexere V", "Thracian Hexere VI", "Thracian Hexere VII", "Thracian Hexere VIII", "Thracian Hexere IX", "Thracian Hexere X", "Thracian Hexere XI", "Thracian Hexere XII", "Thracian Hexere XIII", "Thracian Hexere XIV", "Thracian Hexere XV", "Thracian Hexere XVI", "Thracian Hexere XVII", "Thracian Hexere XVIII", "Thracian Hexere XIX", "Thracian Hexere XX"]
+},
+{
+    "name": "Hexere Illyrian",
+    "unitNames": ["Illyrian Hexere I", "Illyrian Hexere II", "Illyrian Hexere III", "Illyrian Hexere IV", "Illyrian Hexere V", "Illyrian Hexere VI", "Illyrian Hexere VII", "Illyrian Hexere VIII", "Illyrian Hexere IX", "Illyrian Hexere X", "Illyrian Hexere XI", "Illyrian Hexere XII", "Illyrian Hexere XIII", "Illyrian Hexere XIV", "Illyrian Hexere XV", "Illyrian Hexere XVI", "Illyrian Hexere XVII", "Illyrian Hexere XVIII", "Illyrian Hexere XIX", "Illyrian Hexere XX"]
+},
+{
+    "name": "Hexere Hellenistic",
+    "unitNames": ["Hexēreis I", "Hexēreis II", "Hexēreis III", "Hexēreis IV", "Hexēreis V", "Hexēreis VI", "Hexēreis VII", "Hexēreis VIII", "Hexēreis IX", "Hexēreis X", "Hexēreis XI", "Hexēreis XII", "Hexēreis XIII", "Hexēreis XIV", "Hexēreis XV", "Hexēreis XVI", "Hexēreis XVII", "Hexēreis XVIII", "Hexēreis XIX", "Hexēreis XX"]
+},
+{
+    "name": "Hexere Hellenic",
+    "unitNames": ["Hexēreis I", "Hexēreis II", "Hexēreis III", "Hexēreis IV", "Hexēreis V", "Hexēreis VI", "Hexēreis VII", "Hexēreis VIII", "Hexēreis IX", "Hexēreis X", "Hexēreis XI", "Hexēreis XII", "Hexēreis XIII", "Hexēreis XIV", "Hexēreis XV", "Hexēreis XVI", "Hexēreis XVII", "Hexēreis XVIII", "Hexēreis XIX", "Hexēreis XX"]
+},
+{
+    "name": "Hexere Iberian",
+    "unitNames": ["Iberian Hexere I", "Iberian Hexere II", "Iberian Hexere III", "Iberian Hexere IV", "Iberian Hexere V", "Iberian Hexere VI", "Iberian Hexere VII", "Iberian Hexere VIII", "Iberian Hexere IX", "Iberian Hexere X", "Iberian Hexere XI", "Iberian Hexere XII", "Iberian Hexere XIII", "Iberian Hexere XIV", "Iberian Hexere XV", "Iberian Hexere XVI", "Iberian Hexere XVII", "Iberian Hexere XVIII", "Iberian Hexere XIX", "Iberian Hexere XX"]
+},
+{
+    "name": "Hexere Nomad",
+    "unitNames": ["Nomad Hexere I", "Nomad Hexere II", "Nomad Hexere III", "Nomad Hexere IV", "Nomad Hexere V", "Nomad Hexere VI", "Nomad Hexere VII", "Nomad Hexere VIII", "Nomad Hexere IX", "Nomad Hexere X", "Nomad Hexere XI", "Nomad Hexere XII", "Nomad Hexere XIII", "Nomad Hexere XIV", "Nomad Hexere XV", "Nomad Hexere XVI", "Nomad Hexere XVII", "Nomad Hexere XVIII", "Nomad Hexere XIX", "Nomad Hexere XX"]
+},
+
+{
+    "name": "Decere Latin",
+    "unitNames": ["Decemremis I", "Decemremis II", "Decemremis III", "Decemremis IV", "Decemremis V", "Decemremis VI", "Decemremis VII", "Decemremis VIII", "Decemremis IX", "Decemremis X", "Decemremis XI", "Decemremis XII", "Decemremis XIII", "Decemremis XIV", "Decemremis XV", "Decemremis XVI", "Decemremis XVII", "Decemremis XVIII", "Decemremis XIX", "Decemremis XX"]
+},
+{
+    "name": "Decere Celtic",
+    "unitNames": ["Celtic Decere I", "Celtic Decere II", "Celtic Decere III", "Celtic Decere IV", "Celtic Decere V", "Celtic Decere VI", "Celtic Decere VII", "Celtic Decere VIII", "Celtic Decere IX", "Celtic Decere X", "Celtic Decere XI", "Celtic Decere XII", "Celtic Decere XIII", "Celtic Decere XIV", "Celtic Decere XV", "Celtic Decere XVI", "Celtic Decere XVII", "Celtic Decere XVIII", "Celtic Decere XIX", "Celtic Decere XX"]
+},
+{
+    "name": "Decere Germanic",
+    "unitNames": ["Germanic Decere I", "Germanic Decere II", "Germanic Decere III", "Germanic Decere IV", "Germanic Decere V", "Germanic Decere VI", "Germanic Decere VII", "Germanic Decere VIII", "Germanic Decere IX", "Germanic Decere X", "Germanic Decere XI", "Germanic Decere XII", "Germanic Decere XIII", "Germanic Decere XIV", "Germanic Decere XV", "Germanic Decere XVI", "Germanic Decere XVII", "Germanic Decere XVIII", "Germanic Decere XIX", "Germanic Decere XX"]
+},
+{
+    "name": "Decere Punic",
+    "unitNames": ["Punic Decere I", "Punic Decere II", "Punic Decere III", "Punic Decere IV", "Punic Decere V", "Punic Decere VI", "Punic Decere VII", "Punic Decere VIII", "Punic Decere IX", "Punic Decere X", "Punic Decere XI", "Punic Decere XII", "Punic Decere XIII", "Punic Decere XIV", "Punic Decere XV", "Punic Decere XVI", "Punic Decere XVII", "Punic Decere XVIII", "Punic Decere XIX", "Punic Decere XX"]
+},
+{
+    "name": "Decere Numidian",
+    "unitNames": ["Numidian Decere I", "Numidian Decere II", "Numidian Decere III", "Numidian Decere IV", "Numidian Decere V", "Numidian Decere VI", "Numidian Decere VII", "Numidian Decere VIII", "Numidian Decere IX", "Numidian Decere X", "Numidian Decere XI", "Numidian Decere XII", "Numidian Decere XIII", "Numidian Decere XIV", "Numidian Decere XV", "Numidian Decere XVI", "Numidian Decere XVII", "Numidian Decere XVIII", "Numidian Decere XIX", "Numidian Decere XX"]
+},
+{
+    "name": "Decere Eastern",
+    "unitNames": ["Eastern Decere I", "Eastern Decere II", "Eastern Decere III", "Eastern Decere IV", "Eastern Decere V", "Eastern Decere VI", "Eastern Decere VII", "Eastern Decere VIII", "Eastern Decere IX", "Eastern Decere X", "Eastern Decere XI", "Eastern Decere XII", "Eastern Decere XIII", "Eastern Decere XIV", "Eastern Decere XV", "Eastern Decere XVI", "Eastern Decere XVII", "Eastern Decere XVIII", "Eastern Decere XIX", "Eastern Decere XX"]
+},
+{
+    "name": "Decere Thracian",
+    "unitNames": ["Thracian Decere I", "Thracian Decere II", "Thracian Decere III", "Thracian Decere IV", "Thracian Decere V", "Thracian Decere VI", "Thracian Decere VII", "Thracian Decere VIII", "Thracian Decere IX", "Thracian Decere X", "Thracian Decere XI", "Thracian Decere XII", "Thracian Decere XIII", "Thracian Decere XIV", "Thracian Decere XV", "Thracian Decere XVI", "Thracian Decere XVII", "Thracian Decere XVIII", "Thracian Decere XIX", "Thracian Decere XX"]
+},
+{
+    "name": "Decere Illyrian",
+    "unitNames": ["Illyrian Decere I", "Illyrian Decere II", "Illyrian Decere III", "Illyrian Decere IV", "Illyrian Decere V", "Illyrian Decere VI", "Illyrian Decere VII", "Illyrian Decere VIII", "Illyrian Decere IX", "Illyrian Decere X", "Illyrian Decere XI", "Illyrian Decere XII", "Illyrian Decere XIII", "Illyrian Decere XIV", "Illyrian Decere XV", "Illyrian Decere XVI", "Illyrian Decere XVII", "Illyrian Decere XVIII", "Illyrian Decere XIX", "Illyrian Decere XX"]
+},
+{
+    "name": "Decere Hellenistic",
+    "unitNames": ["Dekēreis I", "Dekēreis II", "Dekēreis III", "Dekēreis IV", "Dekēreis V", "Dekēreis VI", "Dekēreis VII", "Dekēreis VIII", "Dekēreis IX", "Dekēreis X", "Dekēreis XI", "Dekēreis XII", "Dekēreis XIII", "Dekēreis XIV", "Dekēreis XV", "Dekēreis XVI", "Dekēreis XVII", "Dekēreis XVIII", "Dekēreis XIX", "Dekēreis XX"]
+},
+{
+    "name": "Decere Hellenic",
+    "unitNames": ["Dekēreis I", "Dekēreis II", "Dekēreis III", "Dekēreis IV", "Dekēreis V", "Dekēreis VI", "Dekēreis VII", "Dekēreis VIII", "Dekēreis IX", "Dekēreis X", "Dekēreis XI", "Dekēreis XII", "Dekēreis XIII", "Dekēreis XIV", "Dekēreis XV", "Dekēreis XVI", "Dekēreis XVII", "Dekēreis XVIII", "Dekēreis XIX", "Dekēreis XX"]
+},
+{
+    "name": "Decere Iberian",
+    "unitNames": ["Iberian Decere I", "Iberian Decere II", "Iberian Decere III", "Iberian Decere IV", "Iberian Decere V", "Iberian Decere VI", "Iberian Decere VII", "Iberian Decere VIII", "Iberian Decere IX", "Iberian Decere X", "Iberian Decere XI", "Iberian Decere XII", "Iberian Decere XIII", "Iberian Decere XIV", "Iberian Decere XV", "Iberian Decere XVI", "Iberian Decere XVII", "Iberian Decere XVIII", "Iberian Decere XIX", "Iberian Decere XX"]
+},
+{
+    "name": "Decere Nomad",
+    "unitNames": ["Nomad Decere I", "Nomad Decere II", "Nomad Decere III", "Nomad Decere IV", "Nomad Decere V", "Nomad Decere VI", "Nomad Decere VII", "Nomad Decere VIII", "Nomad Decere IX", "Nomad Decere X", "Nomad Decere XI", "Nomad Decere XII", "Nomad Decere XIII", "Nomad Decere XIV", "Nomad Decere XV", "Nomad Decere XVI", "Nomad Decere XVII", "Nomad Decere XVIII", "Nomad Decere XIX", "Nomad Decere XX"]
+},
+
+////Merc
+
+{
+    "name": "Trihemiola",
+    "unitNames": ["Trihemiola I", "Trihemiola II", "Trihemiola III", "Trihemiola IV", "Trihemiola V", "Trihemiola VI", "Trihemiola VII", "Trihemiola VIII", "Trihemiola IX", "Trihemiola X"]
+},
+
+////Special
+
+{
+    "name": "Gladiator",
+    "unitNames": ["Gladiator I", "Gladiator II", "Gladiator III", "Gladiator IV", "Gladiator V", "Gladiator VI", "Gladiator VII", "Gladiator VIII", "Gladiator IX", "Gladiator X", "Gladiator XI", "Gladiator XII", "Gladiator XIII", "Gladiator XIV", "Gladiator XV", "Gladiator XVI", "Gladiator XVII", "Gladiator XVIII", "Gladiator XIX", "Gladiator XX"]
+},
+{
+    "name": "Camel Cavalry",
+    "unitNames": ["Camel Cavalry I", "Camel Cavalry II", "Camel Cavalry III", "Camel Cavalry IV", "Camel Cavalry V", "Camel Cavalry VI", "Camel Cavalry VII", "Camel Cavalry VIII", "Camel Cavalry IX", "Camel Cavalry X", "Camel Cavalry XI", "Camel Cavalry XII", "Camel Cavalry XIII", "Camel Cavalry XIV", "Camel Cavalry XV", "Camel Cavalry XVI", "Camel Cavalry XVII", "Camel Cavalry XVIII", "Camel Cavalry XIX", "Camel Cavalry XX"]
+},
+{
+    "name": "Camel Archer",
+    "unitNames": ["Camel Archer I", "Camel Archer II", "Camel Archer III", "Camel Archer IV", "Camel Archer V", "Camel Archer VI", "Camel Archer VII", "Camel Archer VIII", "Camel Archer IX", "Camel Archer X", "Camel Archer XI", "Camel Archer XII", "Camel Archer XIII", "Camel Archer XIV", "Camel Archer XV", "Camel Archer XVI", "Camel Archer XVII", "Camel Archer XVIII", "Camel Archer XIX", "Camel Archer XX"]
+},
+{
+    "name": "Iphicratian Hoplite",
+    "unitNames": ["Iphikrateioi Hoplitai I", "Iphikrateioi Hoplitai II", "Iphikrateioi Hoplitai III", "Iphikrateioi Hoplitai IV", "Iphikrateioi Hoplitai V", "Iphikrateioi Hoplitai VI", "Iphikrateioi Hoplitai VII", "Iphikrateioi Hoplitai VIII", "Iphikrateioi Hoplitai IX", "Iphikrateioi Hoplitai X", "Iphikrateioi Hoplitai XI", "Iphikrateioi Hoplitai XII", "Iphikrateioi Hoplitai XIII", "Iphikrateioi Hoplitai XIV", "Iphikrateioi Hoplitai XV", "Iphikrateioi Hoplitai XVI", "Iphikrateioi Hoplitai XVII", "Iphikrateioi Hoplitai XVIII", "Iphikrateioi Hoplitai XIX", "Iphikrateioi Hoplitai XX"]
+},
+
+////Uniques
+{
+    "name": "Royal Spartan",
+    "unitNames": ["Basileioi I", "Basileioi II", "Basileioi III", "Basileioi IV", "Basileioi V", "Basileioi VI", "Basileioi VII", "Basileioi VIII", "Basileioi IX", "Basileioi X", "Basileioi XI", "Basileioi XII", "Basileioi XIII", "Basileioi XIV", "Basileioi XV", "Basileioi XVI", "Basileioi XVII", "Basileioi XVIII", "Basileioi XIX", "Basileioi XX"]
+},
+{
+    "name": "Theban Hoplite",
+    "unitNames": ["Thebaioi I", "Thebaioi II", "Thebaioi III", "Thebaioi IV", "Thebaioi V", "Thebaioi VI", "Thebaioi VII", "Thebaioi VIII", "Thebaioi IX", "Thebaioi X", "Thebaioi XI", "Thebaioi XII", "Thebaioi XIII", "Thebaioi XIV", "Thebaioi XV", "Thebaioi XVI", "Thebaioi XVII", "Thebaioi XVIII", "Thebaioi XIX", "Thebaioi XX"]
+},
+{
+    "name": "Athenian Hoplite",
+    "unitNames": ["Athenaioi I", "Athenaioi II", "Athenaioi III", "Athenaioi IV", "Athenaioi V", "Athenaioi VI", "Athenaioi VII", "Athenaioi VIII", "Athenaioi IX", "Athenaioi X", "Athenaioi XI", "Athenaioi XII", "Athenaioi XIII", "Athenaioi XIV", "Athenaioi XV", "Athenaioi XVI", "Athenaioi XVII", "Athenaioi XVIII", "Athenaioi XIX", "Athenaioi XX"]
+},
+{
+    "name": "Spartan Hoplite",
+    "unitNames": ["Spartiatai I", "Spartiatai II", "Spartiatai III", "Spartiatai IV", "Spartiatai V", "Spartiatai VI", "Spartiatai VII", "Spartiatai VIII", "Spartiatai IX", "Spartiatai X", "Spartiatai XI", "Spartiatai XII", "Spartiatai XIII", "Spartiatai XIV", "Spartiatai XV", "Spartiatai XVI", "Spartiatai XVII", "Spartiatai XVIII", "Spartiatai XIX", "Spartiatai XX"]
+},
+{
+    "name": "Cyrenean Chariot",
+    "unitNames": ["Kyrenaion Harma I", "Kyrenaion Harma II", "Kyrenaion Harma III", "Kyrenaion Harma IV", "Kyrenaion Harma V", "Kyrenaion Harma VI", "Kyrenaion Harma VII", "Kyrenaion Harma VIII", "Kyrenaion Harma IX", "Kyrenaion Harma X", "Kyrenaion Harma XI", "Kyrenaion Harma XII", "Kyrenaion Harma XIII", "Kyrenaion Harma XIV", "Kyrenaion Harma XV", "Kyrenaion Harma XVI", "Kyrenaion Harma XVII", "Kyrenaion Harma XVIII", "Kyrenaion Harma XIX", "Kyrenaion Harma XX"]
+},
+{
+    "name": "Thessalian Cavalry",
+    "unitNames": ["Thessalian Hippeis I", "Thessalian Hippeis II", "Thessalian Hippeis III", "Thessalian Hippeis IV", "Thessalian Hippeis V", "Thessalian Hippeis VI", "Thessalian Hippeis VII", "Thessalian Hippeis VIII", "Thessalian Hippeis IX", "Thessalian Hippeis X", "Thessalian Hippeis XI", "Thessalian Hippeis XII", "Thessalian Hippeis XIII", "Thessalian Hippeis XIV", "Thessalian Hippeis XV", "Thessalian Hippeis XVI", "Thessalian Hippeis XVII", "Thessalian Hippeis XVIII", "Thessalian Hippeis XIX", "Thessalian Hippeis XX"]
+},
+{
+    "name": "Argyraspides",
+    "unitNames": ["Argyraspides I", "Argyraspides II", "Argyraspides III", "Argyraspides IV", "Argyraspides V"]
+},
+{
+    "name": "Companion Cavalry",
+    "unitNames": ["Hetairoi I", "Hetairoi II", "Hetairoi III", "Hetairoi IV", "Hetairoi V"]
+},
+{
+    "name": "Hypaspist",
+    "unitNames": ["Hypaspistai I", "Hypaspistai II", "Hypaspistai III", "Hypaspistai IV", "Hypaspistai V"]
+},
+{
+    "name": "Molossian Hoplite",
+    "unitNames": ["Molossian Hoplitai I", "Molossian Hoplitai II", "Molossian Hoplitai III", "Molossian Hoplitai IV", "Molossian Hoplitai V", "Molossian Hoplitai VI", "Molossian Hoplitai VII", "Molossian Hoplitai VIII", "Molossian Hoplitai IX", "Molossian Hoplitai X", "Molossian Hoplitai XI", "Molossian Hoplitai XII", "Molossian Hoplitai XIII", "Molossian Hoplitai XIV", "Molossian Hoplitai XV", "Molossian Hoplitai XVI", "Molossian Hoplitai XVII", "Molossian Hoplitai XVIII", "Molossian Hoplitai XIX", "Molossian Hoplitai XX"]
+},
+{
+    "name": "Mysian Bowman",
+    "unitNames": ["Mysian Bowman I", "Mysian Bowman II", "Mysian Bowman III", "Mysian Bowman IV", "Mysian Bowman V", "Mysian Bowman VI", "Mysian Bowman VII", "Mysian Bowman VIII", "Mysian Bowman IX", "Mysian Bowman X", "Mysian Bowman XI", "Mysian Bowman XII", "Mysian Bowman XIII", "Mysian Bowman XIV", "Mysian Bowman XV", "Mysian Bowman XVI", "Mysian Bowman XVII", "Mysian Bowman XVIII", "Mysian Bowman XIX", "Mysian Bowman XX"]
+},
+{
+    "name": "Anatolian Tribesman",
+    "unitNames": ["Anatolian Tribesman I", "Anatolian Tribesman II", "Anatolian Tribesman III", "Anatolian Tribesman IV", "Anatolian Tribesman V", "Anatolian Tribesman VI", "Anatolian Tribesman VII", "Anatolian Tribesman VIII", "Anatolian Tribesman IX", "Anatolian Tribesman X", "Anatolian Tribesman XI", "Anatolian Tribesman XII", "Anatolian Tribesman XIII", "Anatolian Tribesman XIV", "Anatolian Tribesman XV", "Anatolian Tribesman XVI", "Anatolian Tribesman XVII", "Anatolian Tribesman XVIII", "Anatolian Tribesman XIX", "Anatolian Tribesman XX"]
+},
+{
+    "name": "Drepanophoroi",
+    "unitNames": ["Drepanophoroi I", "Drepanophoroi II", "Drepanophoroi III", "Drepanophoroi IV", "Drepanophoroi V", "Drepanophoroi VI", "Drepanophoroi VII", "Drepanophoroi VIII", "Drepanophoroi IX", "Drepanophoroi X", "Drepanophoroi XI", "Drepanophoroi XII", "Drepanophoroi XIII", "Drepanophoroi XIV", "Drepanophoroi XV", "Drepanophoroi XVI", "Drepanophoroi XVII", "Drepanophoroi XVIII", "Drepanophoroi XIX", "Drepanophoroi XX"]
+},
+{
+    "name": "Noble Hoplite",
+    "unitNames": ["Noble Hoplite I", "Noble Hoplite II", "Noble Hoplite III", "Noble Hoplite IV", "Noble Hoplite V", "Noble Hoplite VI", "Noble Hoplite VII", "Noble Hoplite VIII", "Noble Hoplite IX", "Noble Hoplite X", "Noble Hoplite XI", "Noble Hoplite XII", "Noble Hoplite XIII", "Noble Hoplite XIV", "Noble Hoplite XV", "Noble Hoplite XVI", "Noble Hoplite XVII", "Noble Hoplite XVIII", "Noble Hoplite XIX", "Noble Hoplite XX"]
+},
+{
+    "name": "Iberian Heavy Lancer",
+    "unitNames": ["Iberian Heavy Lancer I", "Iberian Heavy Lancer II", "Iberian Heavy Lancer III", "Iberian Heavy Lancer IV", "Iberian Heavy Lancer V"]
+},
+
+{
+    "name": "Lusitanian Warband",
+    "unitNames": ["Lusitanian Warband I", "Lusitanian Warband II", "Lusitanian Warband III", "Lusitanian Warband IV", "Lusitanian Warband V", "Lusitanian Warband VI", "Lusitanian Warband VII", "Lusitanian Warband VIII", "Lusitanian Warband IX", "Lusitanian Warband X", "Lusitanian Warband XI", "Lusitanian Warband XII", "Lusitanian Warband XIII", "Lusitanian Warband XIV", "Lusitanian Warband XV", "Lusitanian Warband XVI", "Lusitanian Warband XVII", "Lusitanian Warband XVIII", "Lusitanian Warband XIX", "Lusitanian Warband XX"]
+},
+{
+    "name": "Celtiberian Warband",
+    "unitNames": ["Celtiberian Warband I", "Celtiberian Warband II", "Celtiberian Warband III", "Celtiberian Warband IV", "Celtiberian Warband V", "Celtiberian Warband VI", "Celtiberian Warband VII", "Celtiberian Warband VIII", "Celtiberian Warband IX", "Celtiberian Warband X", "Celtiberian Warband XI", "Celtiberian Warband XII", "Celtiberian Warband XIII", "Celtiberian Warband XIV", "Celtiberian Warband XV", "Celtiberian Warband XVI", "Celtiberian Warband XVII", "Celtiberian Warband XVIII", "Celtiberian Warband XIX", "Celtiberian Warband XX"]
+},
+{
+    "name": "Immortals",
+    "unitNames": ["Immortals I", "Immortals II", "Immortals III", "Immortals IV", "Immortals V"]
+},
+{
+    "name": "Armenian Noble",
+    "unitNames": ["Armenian Noble I", "Armenian Noble II", "Armenian Noble III", "Armenian Noble IV", "Armenian Noble V", "Armenian Noble VI", "Armenian Noble VII", "Armenian Noble VIII", "Armenian Noble IX", "Armenian Noble X", "Armenian Noble XI", "Armenian Noble XII", "Armenian Noble XIII", "Armenian Noble XIV", "Armenian Noble XV", "Armenian Noble XVI", "Armenian Noble XVII", "Armenian Noble XVIII", "Armenian Noble XIX", "Armenian Noble XX"]
+},
+{
+    "name": "Hyrcanian Axeman",
+    "unitNames": ["Hyrcanian Axeman I", "Hyrcanian Axeman II", "Hyrcanian Axeman III", "Hyrcanian Axeman IV", "Hyrcanian Axeman V", "Hyrcanian Axeman VI", "Hyrcanian Axeman VII", "Hyrcanian Axeman VIII", "Hyrcanian Axeman IX", "Hyrcanian Axeman X", "Hyrcanian Axeman XI", "Hyrcanian Axeman XII", "Hyrcanian Axeman XIII", "Hyrcanian Axeman XIV", "Hyrcanian Axeman XV", "Hyrcanian Axeman XVI", "Hyrcanian Axeman XVII", "Hyrcanian Axeman XVIII", "Hyrcanian Axeman XIX", "Hyrcanian Axeman XX"]
+},
+{
+    "name": "Mardian Archer",
+    "unitNames": ["Mardian Archer I", "Mardian Archer II", "Mardian Archer III", "Mardian Archer IV", "Mardian Archer V", "Mardian Archer VI", "Mardian Archer VII", "Mardian Archer VIII", "Mardian Archer IX", "Mardian Archer X", "Mardian Archer XI", "Mardian Archer XII", "Mardian Archer XIII", "Mardian Archer XIV", "Mardian Archer XV", "Mardian Archer XVI", "Mardian Archer XVII", "Mardian Archer XVIII", "Mardian Archer XIX", "Mardian Archer XX"]
+},
+{
+    "name": "Raider Warband",
+    "unitNames": ["Raider Warband I", "Raider Warband II", "Raider Warband III", "Raider Warband IV", "Raider Warband V", "Raider Warband VI", "Raider Warband VII", "Raider Warband VIII", "Raider Warband IX", "Raider Warband X", "Raider Warband XI", "Raider Warband XII", "Raider Warband XIII", "Raider Warband XIV", "Raider Warband XV", "Raider Warband XVI", "Raider Warband XVII", "Raider Warband XVIII", "Raider Warband XIX", "Raider Warband XX"]
+},
+{
+    "name": "Gaesatae",
+    "unitNames": ["Gaesatae I", "Gaesatae II", "Gaesatae III", "Gaesatae IV", "Gaesatae V", "Gaesatae VI", "Gaesatae VII", "Gaesatae VIII", "Gaesatae IX", "Gaesatae X", "Gaesatae XI", "Gaesatae XII", "Gaesatae XIII", "Gaesatae XIV", "Gaesatae XV", "Gaesatae XVI", "Gaesatae XVII", "Gaesatae XVIII", "Gaesatae XIX", "Gaesatae XX"]
+},
+{
+    "name": "Ligurian Warrior",
+    "unitNames": ["Ligurian Warrior I", "Ligurian Warrior II", "Ligurian Warrior III", "Ligurian Warrior IV", "Ligurian Warrior V", "Ligurian Warrior VI", "Ligurian Warrior VII", "Ligurian Warrior VIII", "Ligurian Warrior IX", "Ligurian Warrior X", "Ligurian Warrior XI", "Ligurian Warrior XII", "Ligurian Warrior XIII", "Ligurian Warrior XIV", "Ligurian Warrior XV", "Ligurian Warrior XVI", "Ligurian Warrior XVII", "Ligurian Warrior XVIII", "Ligurian Warrior XIX", "Ligurian Warrior XX"]
+},
+{
+    "name": "Forester Warband",
+    "unitNames": ["Forester Warband I", "Forester Warband II", "Forester Warband III", "Forester Warband IV", "Forester Warband V", "Forester Warband VI", "Forester Warband VII", "Forester Warband VIII", "Forester Warband IX", "Forester Warband X", "Forester Warband XI", "Forester Warband XII", "Forester Warband XIII", "Forester Warband XIV", "Forester Warband XV", "Forester Warband XVI", "Forester Warband XVII", "Forester Warband XVIII", "Forester Warband XIX", "Forester Warband XX"]
+},
+{
+    "name": "Naked Warriors",
+    "unitNames": ["Naked Warriors I", "Naked Warriors II", "Naked Warriors III", "Naked Warriors IV", "Naked Warriors V", "Naked Warriors VI", "Naked Warriors VII", "Naked Warriors VIII", "Naked Warriors IX", "Naked Warriors X", "Naked Warriors XI", "Naked Warriors XII", "Naked Warriors XIII", "Naked Warriors XIV", "Naked Warriors XV", "Naked Warriors XVI", "Naked Warriors XVII", "Naked Warriors XVIII", "Naked Warriors XIX", "Naked Warriors XX"]
+},
+{
+    "name": "Falxman",
+    "unitNames": ["Falxman I", "Falxman II", "Falxman III", "Falxman IV", "Falxman V", "Falxman VI", "Falxman VII", "Falxman VIII", "Falxman IX", "Falxman X", "Falxman XI", "Falxman XII", "Falxman XIII", "Falxman XIV", "Falxman XV", "Falxman XVI", "Falxman XVII", "Falxman XVIII", "Falxman XIX", "Falxman XX"]
+},
+{
+    "name": "Thracian Warband",
+    "unitNames": ["Thracian Warband I", "Thracian Warband II", "Thracian Warband III", "Thracian Warband IV", "Thracian Warband V", "Thracian Warband VI", "Thracian Warband VII", "Thracian Warband VIII", "Thracian Warband IX", "Thracian Warband X", "Thracian Warband XI", "Thracian Warband XII", "Thracian Warband XIII", "Thracian Warband XIV", "Thracian Warband XV", "Thracian Warband XVI", "Thracian Warband XVII", "Thracian Warband XVIII", "Thracian Warband XIX", "Thracian Warband XX"]
+},
+{
+    "name": "Thracian Peltast",
+    "unitNames": ["Thracian Peltast I", "Thracian Peltast II", "Thracian Peltast III", "Thracian Peltast IV", "Thracian Peltast V", "Thracian Peltast VI", "Thracian Peltast VII", "Thracian Peltast VIII", "Thracian Peltast IX", "Thracian Peltast X", "Thracian Peltast XI", "Thracian Peltast XII", "Thracian Peltast XIII", "Thracian Peltast XIV", "Thracian Peltast XV", "Thracian Peltast XVI", "Thracian Peltast XVII", "Thracian Peltast XVIII", "Thracian Peltast XIX", "Thracian Peltast XX"]
+},
+{
+    "name": "Equites Singulares",
+    "unitNames": ["Equites Singulares I", "Equites Singulares II", "Equites Singulares III", "Equites Singulares IV", "Equites Singulares V"]
+},
+{
+    "name": "Praetoria",
+    "unitNames": ["Praetoria I", "Praetoria II", "Praetoria III", "Praetoria IV", "Praetoria V"]
+},
+{
+    "name": "Eagle Cohort",
+    "unitNames": ["Eagle Cohort I", "Eagle Cohort II", "Eagle Cohort III", "Eagle Cohort IV", "Eagle Cohort V"]
+},
+{
+    "name": "Imperial Velite",
+    "unitNames": ["Imperial Velite I", "Imperial Velite II", "Imperial Velite III", "Imperial Velite IV", "Imperial Velite V"]
+},
+{
+    "name": "Limitanei",
+    "unitNames": ["Limitanei I", "Limitanei II", "Limitanei III", "Limitanei IV", "Limitanei V", "Limitanei VI", "Limitanei VII", "Limitanei VIII", "Limitanei IX", "Limitanei X", "Limitanei XI", "Limitanei XII", "Limitanei XIII", "Limitanei XIV", "Limitanei XV", "Limitanei XVI", "Limitanei XVII", "Limitanei XVIII", "Limitanei XIX", "Limitanei XX"]
+},
+{
+    "name": "Numidian Cavalry",
+    "unitNames": ["Numidian Cavalry I", "Numidian Cavalry II", "Numidian Cavalry III", "Numidian Cavalry IV", "Numidian Cavalry V", "Numidian Cavalry VI", "Numidian Cavalry VII", "Numidian Cavalry VIII", "Numidian Cavalry IX", "Numidian Cavalry X", "Numidian Cavalry XI", "Numidian Cavalry XII", "Numidian Cavalry XIII", "Numidian Cavalry XIV", "Numidian Cavalry XV", "Numidian Cavalry XVI", "Numidian Cavalry XVII", "Numidian Cavalry XVIII", "Numidian Cavalry XIX", "Numidian Cavalry XX"]
+},
+{
+    "name": "Numidian Horseman",
+    "unitNames": ["Numidian Horseman I", "Numidian Horseman II", "Numidian Horseman III", "Numidian Horseman IV", "Numidian Horseman V", "Numidian Horseman VI", "Numidian Horseman VII", "Numidian Horseman VIII", "Numidian Horseman IX", "Numidian Horseman X", "Numidian Horseman XI", "Numidian Horseman XII", "Numidian Horseman XIII", "Numidian Horseman XIV", "Numidian Horseman XV", "Numidian Horseman XVI", "Numidian Horseman XVII", "Numidian Horseman XVIII", "Numidian Horseman XIX", "Numidian Horseman XX"]
+},
+{
+    "name": "Club Levy",
+    "unitNames": ["Club Levy I", "Club Levy II", "Club Levy III", "Club Levy IV", "Club Levy V", "Club Levy VI", "Club Levy VII", "Club Levy VIII", "Club Levy IX", "Club Levy X", "Club Levy XI", "Club Levy XII", "Club Levy XIII", "Club Levy XIV", "Club Levy XV", "Club Levy XVI", "Club Levy XVII", "Club Levy XVIII", "Club Levy XIX", "Club Levy XX"]
+},
+{
+    "name": "Bastarnae Warrior",
+    "unitNames": ["Bastarnae Warrior I", "Bastarnae Warrior II", "Bastarnae Warrior III", "Bastarnae Warrior IV", "Bastarnae Warrior V", "Bastarnae Warrior VI", "Bastarnae Warrior VII", "Bastarnae Warrior VIII", "Bastarnae Warrior IX", "Bastarnae Warrior X", "Bastarnae Warrior XI", "Bastarnae Warrior XII", "Bastarnae Warrior XIII", "Bastarnae Warrior XIV", "Bastarnae Warrior XV", "Bastarnae Warrior XVI", "Bastarnae Warrior XVII", "Bastarnae Warrior XVIII", "Bastarnae Warrior XIX", "Bastarnae Warrior XX"]
+},
+{
+    "name": "Suebian Warband",
+    "unitNames": ["Suebian Warband I", "Suebian Warband II", "Suebian Warband III", "Suebian Warband IV", "Suebian Warband V", "Suebian Warband VI", "Suebian Warband VII", "Suebian Warband VIII", "Suebian Warband IX", "Suebian Warband X", "Suebian Warband XI", "Suebian Warband XII", "Suebian Warband XIII", "Suebian Warband XIV", "Suebian Warband XV", "Suebian Warband XVI", "Suebian Warband XVII", "Suebian Warband XVIII", "Suebian Warband XIX", "Suebian Warband XX"]
+},
+{
+    "name": "Rhodian Slinger",
+    "unitNames": ["Rhodian Slinger I","Rhodian Slinger II","Rhodian Slinger III","Rhodian Slinger IV","Rhodian Slinger V","Rhodian Slinger VI","Rhodian Slinger VII","Rhodian Slinger VIII","Rhodian Slinger IX","Rhodian Slinger X","Rhodian Slinger XI","Rhodian Slinger XII","Rhodian Slinger XIII","Rhodian Slinger XIV","Rhodian Slinger XV","Rhodian Slinger XVI","Rhodian Slinger XVII","Rhodian Slinger XVIII","Rhodian Slinger XIX","Rhodian Slinger XX"]
+},
+{
+    "name": "Balearic Slinger",
+    "unitNames": ["Balearic Slinger I", "Balearic Slinger II", "Balearic Slinger III", "Balearic Slinger IV", "Balearic Slinger V", "Balearic Slinger VI", "Balearic Slinger VII", "Balearic Slinger VIII", "Balearic Slinger IX", "Balearic Slinger X", "Balearic Slinger XI", "Balearic Slinger XII", "Balearic Slinger XIII", "Balearic Slinger XIV", "Balearic Slinger XV", "Balearic Slinger XVI", "Balearic Slinger XVII", "Balearic Slinger XVIII", "Balearic Slinger XIX", "Balearic Slinger XX"]
+},
+{
+    "name": "Triarii",
+    "unitNames": ["Triarii I", "Triarii II", "Triarii III", "Triarii IV", "Triarii V"]
+},
+
         ]

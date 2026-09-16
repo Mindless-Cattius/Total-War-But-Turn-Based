@@ -765,7 +765,7 @@
 	{
 		"name": "Ignore terrain cost",
 		"unitTypes": ["Mounted","Mounted Archery","Archery"],
-		"prerequisites": ["Scouting II", "Positioning II","Amphibious II"],
+		"prerequisites": ["Ambush II","Raider II","Scouting II","Positioning II","Amphibious II"],
 		"uniques": ["Ignores terrain cost","[+5]% Strength <when defending>","[-1] Movement"]
         "column": 9,
 	"row": 6
@@ -801,13 +801,16 @@
 			"[This Unit] heals [5] HP <upon losing at least [10] HP in a single attack>",
 			"[+10]% Strength <when defending>",
 			"[+100]% weight to this choice for AI decisions",
+			"Only available <when adjacent to a [Commander] unit>",
+			"Only available <when above [499] [Gold]>",
+			"Gain [-500] [Gold]",
 ],
         "column": 31,
         "row": 4
 	},
 	{
 		"name": "[Maneuver]",
-  		"prerequisites": ["Positioning III","Drill III","Charge III","Scouting III","Foraging III"],
+  		"prerequisites": ["Positioning III","Drill III","Charge III","Scouting III","Foraging III","Speculatores","Ignore terrain cost",],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Archery","Melee Water"],
 		"uniques": [
 			"Can move after attacking", 
@@ -953,7 +956,11 @@
    			 "[+15]% Strength <when defending> <vs [Spear] units>",
    			 "[+10]% Strength <when defending> <vs [Sword] units>",
    			 "[+15]% Strength <when defending> <vs [Mounted] units>",
-    			 "[+10]% Strength <when attacking>"],
+    			 "[+10]% Strength <when attacking>",
+			"Only available <when adjacent to a [Commander] unit>",
+			"Only available <when above [499] [Gold]>",
+			"Gain [-500] [Gold]",
+],
 		"unitTypes": ["Archery","Mounted Archery"],
         "column": 44,
         "row": 6
@@ -969,7 +976,7 @@
 	},
 	{
 		"name": "Speculatores",
-		"prerequisites": ["Scouting II"],
+		"prerequisites": ["Scouting II","Ambush II","Raider II","Foraging II"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water","Siege"],
 		"uniques": [
 			 "Can see over obstacles",
@@ -1299,7 +1306,7 @@
 		"[+1] Strength <vs [Wounded] units> <when attacking>",
 		"[-10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
 		"[-15]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"Withdraws before melee combat <with [45]% chance>",
+		"Withdraws before melee combat <with [60]% chance>",
 		"No defensive terrain bonus",
 		]
 	},
@@ -1311,7 +1318,7 @@
 		"[+1] Strength <vs [Wounded] units> <when attacking>",
 		"[-10]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
 		"[-15]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"Withdraws before melee combat <with [30]% chance>",
+		"Withdraws before melee combat <with [40]% chance>",
 		"No defensive terrain bonus",
 		]
 	},
@@ -1326,8 +1333,8 @@
 		"[-10]% Strength <when fighting in [Forest] tiles>",
 		"[-10]% Strength <when fighting in [Jungle] tiles>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [10]% chance> <in tiles without [Desert]>",
-		"Withdraws before melee combat <with [20]% chance> <when fighting in [Desert] tiles>",
+		"Withdraws before melee combat <with [20]% chance> <in tiles without [Desert]>",
+		"Withdraws before melee combat <with [50]% chance> <when fighting in [Desert] tiles>",
 		]
 	},
 	{
@@ -1451,7 +1458,7 @@
 		"[-10]% Strength <when defending> <when fighting in [Hill] tiles>",
 		"[-30]% Strength <when attacking> <vs cities>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [40]% chance>",
+		"Withdraws before melee combat <with [50]% chance>",
 		]
 	},
 	{
@@ -1460,8 +1467,8 @@
 		"[+30]% Strength <when defending> <when fighting in [Desert] tiles>",
 		"[-15]% Strength <when defending> <vs [Ranged] units>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [20]% chance> <in tiles without [Desert]>",
-		"Withdraws before melee combat <with [40]% chance> <when fighting in [Desert] tiles>",
+		"Withdraws before melee combat <with [40]% chance> <in tiles without [Desert]>",
+		"Withdraws before melee combat <with [60]% chance> <when fighting in [Desert] tiles>",
 		]
 	},
 	{
