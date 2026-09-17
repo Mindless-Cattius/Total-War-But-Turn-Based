@@ -36,7 +36,7 @@
 			"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
 			"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
 			"[-50]% XP gained from combat <for [all] units> <vs [Barbarians] units>",	
-			"[-50]% XP gained from combat <for [all] units> <vs [Angry Mob] units>",
+			"[-50]% XP gained from combat <for units without [Peasants Crusher]> <vs [Angry Mob] units>",
  			"[+70]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
 			"[-1] Sight <for [Siege] units>","Comment [ ]",
 
