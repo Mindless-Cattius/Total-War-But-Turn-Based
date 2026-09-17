@@ -2687,6 +2687,8 @@
 
   {
     "name": "Immortals",
+    "replaces": "Foot Guard",
+    "uniqueTo": "The Persian",
     "hurryCostModifier": 40,
     "unitType": "Spear",
     "movement": 2,
