@@ -801,7 +801,7 @@
 			"[This Unit] heals [5] HP <upon losing at least [10] HP in a single attack>",
 			"[+10]% Strength <when defending>",
 			"[+100]% weight to this choice for AI decisions",
-			"Only available <when adjacent to a [Commander] unit>",
+			"Only available <when adjacent to a [Commander] unit> <for [Human player] Civilizations>",
 			"Only available <when above [499] [Gold]>",
 			"Gain [-500] [Gold]",
 ],
@@ -957,7 +957,7 @@
    			 "[+10]% Strength <when defending> <vs [Sword] units>",
    			 "[+15]% Strength <when defending> <vs [Mounted] units>",
     			 "[+10]% Strength <when attacking>",
-			"Only available <when adjacent to a [Commander] unit>",
+			"Only available <when adjacent to a [Commander] unit> <for [Human player] Civilizations>",
 			"Only available <when above [499] [Gold]>",
 			"Gain [-500] [Gold]",
 ],
@@ -1012,7 +1012,7 @@
 	"name": "Successor",
 	"unitTypes": ["Generals"],
 	"uniques": [
-		"Only available <when adjacent to a [Ruler] unit>",
+		"Only available <when adjacent to a [Ruler] unit> <for [Human player] Civilizations>",
 		"Only available <when above [499] [Gold]> <before the [Hellenistic Age]> <(modified by game speed)>",
 		"Gain [-500] [Gold] <(modified by game speed)>",
 		"This Promotion is free",
@@ -1025,7 +1025,7 @@
 	"name": "Successor II",
 	"unitTypes": ["Generals"],
 	"uniques": [
-		"Only available <when adjacent to a [Ruler] unit>",
+		"Only available <when adjacent to a [Ruler] unit> <for [Human player] Civilizations>",
 		"Only available <when above [799] [Gold]> <during the [Hellenistic Age]> <(modified by game speed)>",
 		"Gain [-800] [Gold] <(modified by game speed)>",
 		"This Promotion is free",
@@ -1037,7 +1037,7 @@
 	"name": "Successor III",
 	"unitTypes": ["Generals"],
 	"uniques": [
-		"Only available <when adjacent to a [Ruler] unit>",
+		"Only available <when adjacent to a [Ruler] unit> <for [Human player] Civilizations>",
 		"Only available <when above [999] [Gold]> <during the [Imperial Age]> <(modified by game speed)>",
 		"Gain [-1000] [Gold] <(modified by game speed)>",
 

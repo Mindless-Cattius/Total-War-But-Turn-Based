@@ -325,7 +325,8 @@
          "[+80]% production cost <during the [Imperial Age]>",
          "Consumes [1] [Nobles]",
       	   
-
+         "Can upgrade to [Nomad Nobles] <for [The Arsacids] Civilizations> <before adopting [Nomad Culture]> <hidden from users>",
+         "Can upgrade to [Nomad Nobles] <after adopting [Manipular Legions]> <before adopting [Nomad Culture]> <hidden from users>",
          "Can upgrade to [Consul] <for units with [Successor]> <after adopting [Manipular Legions]> <before adopting [Empire]> <hidden from users>",
          "Can upgrade to [Consul] <for units with [Successor II]> <after adopting [Manipular Legions]> <before adopting [Empire]> <hidden from users>",
          "Can upgrade to [Consul] <for units with [Successor III]> <after adopting [Manipular Legions]> <before adopting [Empire]> <hidden from users>",
