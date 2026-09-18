@@ -827,7 +827,8 @@
 		"prerequisites": ["Medic II","Ambush II","Marksman II","Positioning II", "Shock II","Scouting II","Ramming Tactics II","Coastal Raider II","Bombardment II","Charge II","Siege II","Survivalism II","Raider II","Assault II","Trample II","Drill II","Formation II","Imperium II","Prudentia II","Virtus II","Gravitas II"],
 		"unitTypes": ["Sword","Spear","Mounted","Scout","Melee Water","Siege","Elephant","Ranged Water","Ruler","Generals","Mounted Archery"],
 		"uniques": [
-			"Comment [Earn experience when fighting against the filthy peasants]",
+			"Comment [Earn experience when fighting against the filthy peasants]",	
+			"[+1] XP gained from combat <for [Military] units> <vs [Angry Mob] units>",
 			"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack>",
 ],
         "column": 33,
