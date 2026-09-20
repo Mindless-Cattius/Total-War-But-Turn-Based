@@ -155,6 +155,8 @@
 
         "Free [Foot Guard] appears <upon turn end> <with [3]% chance> <when above [0] [Veteran]> <when above [3] [Manpower]> <after discovering [Equestrian Class]> <before adopting [Germanic Culture]> <for [AI player] Civilizations>",
         "Free [Sword Masters] appears <upon turn end> <with [3]% chance> <when above [0] [Veteran]> <when above [3] [Manpower]> <after discovering [Equestrian Class]> <after adopting [Germanic Culture]> <for [AI player] Civilizations>",
+        "Free [Manipular Legion] appears <upon turn end> <with [3]% chance> <when above [1] [Iron]> <when above [4] [Manpower]> <after discovering [Citizen Levy]> <after adopting [Manipular Legions]> <for [The Romans] Civilizations> <for [AI player] Civilizations>",
+        "Free [Legion] appears <upon turn end> <with [3]% chance> <when above [1] [Iron]> <when above [5] [Manpower]> <after discovering [Metallurgy]> <after adopting [Cohort Reformation]> <for [The Romans] Civilizations> <for [AI player] Civilizations>",
 //free unit
 
         "Free [Skirmisher] appears <when between [-10] and [10] [Happiness]> <when above [1] [Manpower]> <upon founding a city>",
