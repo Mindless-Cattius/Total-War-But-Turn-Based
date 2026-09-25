@@ -411,6 +411,7 @@
 	"[-5]% Production when constructing [all] units [in all cities] <when above [150] [Decadence]>",
 
 
+        "[General] is earned [-150]% faster <when below [1] [Nobles]>",
         "[Great Courtesan] is earned [+5]% faster <when above [10] [Decadence]>",
         "[Great Courtesan] is earned [+5]% faster <when above [30] [Decadence]>",
         "[Great Courtesan] is earned [+5]% faster <when above [50] [Decadence]>",

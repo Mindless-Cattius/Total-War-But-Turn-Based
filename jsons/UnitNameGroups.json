@@ -5,9 +5,8 @@
 ]
 },
 {
-    "name": "Latin",
-    "unitNames": ["Caesar", "Scipio", "Pompeius", "Brutus", "Antonius","Lucullus", "Sulla", "Marius", "Sertorius", "Agrippa","Flamininus", "Paullus", "Fabius", "Marcellus", "Cinna","Salinator", "Papirius", "Corvus", "Regulus", "Lucullus","Ahenobarbus", "Piso", "Cassius", "Gracchus", "Nero","Lentulus", "Junius", "Cotta", "Augustus", "Metellus","Crassus", "Domitius", "Postumius", "Torquatus", "Cincinnatus","Lepidus", "Flaminius", "Quinctius", "Corvinus", "Decius","Catulus", "Varro", "Drusus", "Silanus", "Dolabella","Dickius","Chungius","Amogus","Gigachadius","Maximus"
-]
+"name": "Latin",
+"unitNames": ["Cornelius Cethegus", "Valerius Flaccus", "Licinius Varus", "Fulvius Flaccus", "Aurelius Cotta", "Atilius Serranus", "Manlius Vulso", "Manlius Acidinus", "Furius Camillus", "Furius Purpureo", "Postumius Albinus", "Postumius Megellus", "Sempronius Longus", "Sempronius Tuditanus", "Claudius Caudex", "Claudius Pulcher", "Claudius Centho", "Junius Pera", "Junius Silanus", "Cornelius Dolabella", "Aemilius Barbula", "Aemilius Regillus", "Aemilius Papus", "Fabius Gurges", "Fabius Maximus", "Fabius Buteo", "Fulvius Nobilior", "Fulvius Centumalus", "Valerius Laevinus", "Valerius Maximus", "Valerius Potitus", "Licinius Lucullus", "Licinius Murena", "Porcius Cato", "Porcius Laeca", "Calpurnius Bestia", "Calpurnius Flamma", "Appius Claudius", "Gaius Biggus","Cornelius Lentulus", "Cornelius Merula", "Cornelius Rufinus", "Aemilius Mamercinus", "Aemilius Lepidus", "Fabius Pictor", "Fabius Vibulanus", "Valerius Corvinus", "Valerius Messalla", "Manlius Capitolinus", "Manlius Imperiosus", "Quinctius Flamininus", "Quinctius Capitolinus", "Papirius Cursor", "Papirius Maso", "Sulpicius Galba", "Sulpicius Saverrio", "Mucius Scaevola", "Nautius Rutilus", "Publius Vibius"]
 },
 {
     	"name": "Celtic", 
