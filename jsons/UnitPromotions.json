@@ -55,7 +55,7 @@
 		"prerequisites": ["Survivalism II"],
 		"uniques": [
 			"Unit will heal every turn, even if it performs an action", 
-			"[+10]% Strength <vs cities> <when defending>"
+			"[+10]% Strength <when defending> <vs cities>"
 			"[+50]% weight to this choice for AI decisions",
 ],
 		"unitTypes": ["Scout"],
@@ -97,7 +97,7 @@
 	},
 	{
 		"name" : "Supply",
-		"uniques": ["May heal outside of friendly territory","[+10]% Strength <vs cities> <when defending>"],
+		"uniques": ["May heal outside of friendly territory","[+10]% Strength <when defending> <vs cities>"],
 		"unitTypes": ["Melee Water","Ranged Water"],
         "column": 29,
         "row": 1
@@ -785,7 +785,7 @@
 	{
 		"name": "Siege Expert",
 		"unitTypes": ["Siege"],
-		"prerequisites": ["Veterans"],
+		"prerequisites": ["Veterans","Siege III"],
 		"uniques": [
 			"[+10]% Strength <when stacked with a [Worker] unit>",
 			"[+15]% Strength <when stacked with a [Great Engineer] unit>",
@@ -1346,6 +1346,7 @@
 		"[+1] Movement <when fighting in [Desert] tiles>"
 		"[-10]% Strength <when fighting in [Forest] tiles>",
 		"[-10]% Strength <when fighting in [Jungle] tiles>",
+		"[-40]% Strength <vs cities> <when attacking>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [20]% chance> <in tiles without [Desert]>",
 		"Withdraws before melee combat <with [50]% chance> <when fighting in [Desert] tiles>",
@@ -1365,6 +1366,7 @@
 			"[-10]% Strength <when fighting in [Forest] tiles>",
 			"[-10]% Strength <when fighting in [Jungle] tiles>",
 			"[-10]% Strength <when fighting in [Hill] tiles>",
+			"[-40]% Strength <vs cities> <when attacking>",
                 	"[-1] Movement <in [Forest] tiles>",
                 	"[-1] Movement <in [Jungle] tiles>",
 			"No defensive terrain bonus",
@@ -1536,7 +1538,7 @@
 			"[+20]% Strength <when defending> <vs [Mounted Archery] units>",
 			"[+10]% Strength <when defending> <vs [Mounted] units>",
 			"[-20]% Strength <when attacking> <vs [Spear] units>",
-			"[-15]% Strength <when attacking> <vs cities>",
+			"[-30]% Strength <when attacking> <vs cities>",
 			"[-10]% Strength <when fighting in [Forest] tiles>",
 			"[-10]% Strength <when fighting in [Jungle] tiles>",
 			"[-10]% Strength <when fighting in [Hill] tiles>",
@@ -1549,6 +1551,7 @@
 		"uniques": [
 		"No defensive terrain bonus", 
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[-10]% Strength <vs cities> <when attacking>",
 			"[+30]% Strength <vs [Mounted] units>",
 			"[+25]% Strength <when defending> <vs [Sword] units>",
 			"[-10]% Strength <when defending> <vs [Archery] units>"
@@ -1560,6 +1563,7 @@
 		"uniques": [
 			"[+10]% Strength <vs [Ranged] units>",
 			"[+15]% Strength <when defending> <vs cities>",
+			"[+20]% Strength <when attacking> <vs cities>",
 			"Withdraws before melee combat <with [5]% chance>",
 		]
 	},
@@ -1583,7 +1587,7 @@
 		"name": "Cavalry Shield I",
 		"uniques": [
 			"[+15]% Strength <vs [Ranged] units>",
-			"[+15]% Strength <vs cities> <when defending>"
+			"[+15]% Strength <when defending> <vs cities>"
 		]
 	},
 	{

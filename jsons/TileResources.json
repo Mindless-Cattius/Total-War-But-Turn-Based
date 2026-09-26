@@ -48,6 +48,45 @@
 	"Gain a free [Risk of PLAGUE II] [in all cities] <when between [11] and [25] [Cities]>",
 	"Remove [Risk of PLAGUE II] [in all cities] <when above [25] [Cities]> <hidden from users>"
 	"Gain a free [Risk of PLAGUE III] [in all cities] <when above [26] [Cities]>",
+	"Comment []",
+	"Comment [Great Persons bounus]",
+
+	"[+10 Gold] <for every [[Great Merchant] Units]> <in [Foreign Land] tiles>",
+	"[+5 Gold] <for every [[Great Merchant] Units]> <in [Trading post] tiles>",
+	"[+3 Gold] <for every [[Great Merchant] Units]> <in [Village] tiles>",
+	"[+3 Gold, +1 Happiness] <for every [[Great Merchant] Units]> <in [Fort] tiles>",
+	"[+5 Gold, +2 Happiness] <for every [[Great Merchant] Units]> <in [City center] tiles>",
+
+	"[+1 Culture, +3 Gold, +2 Happiness] <for every [[Great Artist] Units]> <in [Foreign Land] tiles>",
+	"[+2 Gold, +1 Happiness] <for every [[Great Artist] Units]> <in [Trading post] tiles>",
+	"[+1 Culture, +1 Gold, +3 Happiness] <for every [[Great Artist] Units]> <in [Village] tiles>",
+	"[+2 Happiness, +2 Gold] <for every [[Great Artist] Units]> <in [Fort] tiles>",
+	"[+3 Culture, +3 Happiness, +3 Gold] <for every [[Great Artist] Units]> <in [City center] tiles>",
+
+	"[+3 Culture, +1 Happiness] <for every [[Great Orator] Units]> <in [Foreign Land] tiles>",
+	"[+1 Culture, +1 Happiness] <for every [[Great Orator] Units]> <in [Trading post] tiles>",
+	"[+2 Culture, +2 Happiness] <for every [[Great Orator] Units]> <in [Village] tiles>",
+	"[+2 Happiness, +3 Culture] <for every [[Great Orator] Units]> <in [Fort] tiles>",
+	"[+5 Culture, +3 Happiness] <for every [[Great Orator] Units]> <in [City center] tiles>",
+
+	"[+2 Science, +1 Happiness] <for every [[Great Scholar] Units]> <in [Foreign Land] tiles>",
+	"[+1 Science, +1 Gold, +1 Happiness] <for every [[Great Scholar] Units]> <in [Trading post] tiles>",
+	"[+1 Science, +2 Happiness] <for every [[Great Scholar] Units]> <in [Village] tiles>",
+	"[+2 Happiness, +3 Science] <for every [[Great Scholar] Units]> <in [Fort] tiles>",
+	"[+5 Science, +3 Happiness] <for every [[Great Scholar] Units]> <in [City center] tiles>",
+	"[+2 Science, +1 Happiness] <for every [[Great Scholar] Units]> <in [Foreign Land] tiles>",
+
+	"[+3 Faith, +1 Happiness] <for every [[Great Prophet] Units]> <in [Trading post] tiles>",
+	"[+2 Faith, +2 Happiness] <for every [[Great Prophet] Units]> <in [Village] tiles>",
+	"[+2 Happiness, +4 Faith] <for every [[Great Prophet] Units]> <in [Fort] tiles>",
+	"[+6 Faith, +3 Happiness] <for every [[Great Prophet] Units]> <in [City center] tiles>",
+
+	"[+1 Production, +1 Happiness, +2 Gold] <in this city> <for every [[Great Engineer] Units]> <in [Trading post] tiles>",
+	"[+1 Production, +2 Happiness] <in this city> <for every [[Great Engineer] Units]> <in [Village] tiles>",
+	"[+2 Happiness, +2 Production] <in this city> <for every [[Great Engineer] Units]> <in [Fort] tiles>",
+	"[+2 Production, +3 Happiness, +2 Gold, +1 Culture] <in this city> <for every [[Great Engineer] Units]> <in [City center] tiles>",
+
+	"Comment []",
 	"Comment [Unit Upkeep]",
 	"[-2 Gold] <for every [[Archery] Units]>",
 	"[-1 Gold] <for every [[Spear] Units]>",
@@ -411,7 +450,6 @@
 	"[-5]% Production when constructing [all] units [in all cities] <when above [150] [Decadence]>",
 
 
-        "[General] is earned [-150]% faster <when below [1] [Nobles]>",
         "[Great Courtesan] is earned [+5]% faster <when above [10] [Decadence]>",
         "[Great Courtesan] is earned [+5]% faster <when above [30] [Decadence]>",
         "[Great Courtesan] is earned [+5]% faster <when above [50] [Decadence]>",
