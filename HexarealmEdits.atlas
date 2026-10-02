@@ -74,6 +74,13 @@ TileSets/HexaRealm/Tiles/City center-Hellenistic-Classical Age
   orig: 66, 50
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/City center-Macedonian-Classical Age
+  rotate: false
+  xy: 975, 202
+  size: 66, 50
+  orig: 66, 50
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/City center-Seleucid-Classical Age
   rotate: false
   xy: 975, 202
@@ -117,6 +124,13 @@ TileSets/HexaRealm/Tiles/City center-Greek-Hellenistic Age
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Hellenistic-Hellenistic Age
+  rotate: false
+  xy: 1049, 202
+  size: 66, 50
+  orig: 66, 50
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Macedonian-Hellenistic Age
   rotate: false
   xy: 1049, 202
   size: 66, 50
