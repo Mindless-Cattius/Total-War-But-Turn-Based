@@ -35,9 +35,9 @@
 			"[+10]% Strength <vs cities> <for [Sword] units>",
 			"[+10]% Yield from pillaging tiles <during the [Imperial Age]>",
 			"[+20]% Yield from pillaging tiles <during the [Archaic Age]>",	
-			"[-50]% XP gained from combat <for [all] units> <vs [Barbarians] units>",	
-			"[-30]% XP gained from combat <vs [Angry Mob] units>",	
-			"[+40]% XP gained from combat <vs [Angry Mob] units> <for units with [Peasants Crusher]>",
+			"[-1] XP gained from combat <for [Ranged] units> <vs [Barbarians] units>",		
+			"[-3] XP gained from combat <for [Melee] units> <vs [Barbarians] units>",	
+			"[-1] XP gained from combat <vs [Angry Mob] units>",
  			"[+70]% Production when constructing [Ruler] units [in all cities] <during the [Archaic Age]>",
 			"[-1] Sight <for [Siege] units>","Comment [ ]",
 			"[+30]% Strength <for [all] units> <vs [City-States]> <for [AI player] Civilizations>"

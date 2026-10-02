@@ -50,9 +50,9 @@
 	"[+100]% construction time for [all] improvements <in [Snow] tiles>",
 	"[+100]% construction time for [all] improvements <in [Tundra] tiles>",
 	"[+100]% construction time for [all] improvements <for [Military] units>",
-	"[+100]% construction time for [Repair] improvements <in [Village] tiles>",
-	"[+100]% construction time for [Repair] improvements <in [Trading post] tiles>",
-	"[+150]% construction time for [Repair] improvements <in [Fort] tiles>",
+	"[+200]% construction time for [Repair] improvements <in [Village] tiles>",
+	"[+200]% construction time for [Repair] improvements <in [Trading post] tiles>",
+	"[+250]% construction time for [Repair] improvements <in [Fort] tiles>",
 
 						//Cities
 

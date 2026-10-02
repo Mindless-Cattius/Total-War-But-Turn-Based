@@ -828,10 +828,13 @@
 		"uniques": [
 			"Comment [Earn experience when fighting against the filthy peasants]",	
 			"[+1] XP gained from combat <for [Military] units> <vs [Barbarians] units>",	
+			"[+1] XP gained from combat <for [Ruler] units> <vs [Barbarians] units>",	
 			"[+1] XP gained from combat <for [Commander] units> <vs [Barbarians] units>",	
 			"[+1] XP gained from combat <for [Commander] units> <vs [Angry Mob] units>",	
+			"[+2] XP gained from combat <for [Archery] units> <vs [Angry Mob] units>",			
+			"[+2] XP gained from combat <for [Mounted Archery] units> <vs [Angry Mob] units>",	
 			"[+1] XP gained from combat <for [Emperor] units> <vs [Angry Mob] units>",
-			"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack>",
+			"[This Unit] heals [2] HP <upon losing at least [10] HP in a single attack>",
 ],
         "column": 33,
         "row": 4

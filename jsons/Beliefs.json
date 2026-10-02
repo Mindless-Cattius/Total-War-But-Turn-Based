@@ -654,7 +654,7 @@
     {
         "name": "Feed the World",
         "type": "Follower",
-        "uniques": ["[+1 Food] from every [Temple]", "[+1 Food] from every [Temple]"]
+        "uniques": ["[+1 Food] from every [Temple]","[+3 Food, +1 Happiness] from every [Grand Temple]", "[+1 Food] from every [Shrine]"]
     },
     {
         "name": "Guruship",
@@ -718,7 +718,7 @@
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [12]%",
+        "uniques": ["[+1]% [Production] from every follower, up to [10]%",
 		"[+1 Culture] from every [Tavern] <in cities with at least [8] [Followers of this Religion]>"]
     },
     {
