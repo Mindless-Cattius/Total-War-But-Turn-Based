@@ -124,6 +124,7 @@
 		"Great Improvement",
 			"Unbuildable <for [Worker] units>",
 			"Unbuildable <for [Military] units>",
+			"Unbuildable <in tiles adjacent to [Fort] tiles>"
 		],
 		"shortcutKey": "O"
 	},
@@ -148,6 +149,7 @@
 			"Pillaging this improvement yields approximately [+100 Gold]",
 			"Unbuildable <for [Worker] units>",
 			"Unbuildable <for [Military] units>",
+			"Unbuildable <in tiles adjacent to [Village] tiles>"
 		]
 	},
 	{
@@ -171,6 +173,7 @@
 			"Removes removable features when built",
 			"Unbuildable <for [Worker] units>",
 			"Unbuildable <for [Military] units>",
+			"Unbuildable <in tiles adjacent to [Trading post] tiles>"
 ]
 	},
 

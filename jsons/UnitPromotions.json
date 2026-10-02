@@ -766,7 +766,8 @@
 		"name": "Ignore terrain cost",
 		"unitTypes": ["Mounted","Mounted Archery","Archery"],
 		"prerequisites": ["Ambush II","Raider II","Scouting II","Positioning II","Amphibious II"],
-		"uniques": ["Ignores terrain cost","[+5]% Strength <when defending>","[-1] Movement"]
+		"uniques": ["Ignores terrain cost","[+5]% Strength <when defending>","[-1] Movement <for [Mounted] units>","[-1] Movement <for [Mounted Archery] units>"
+]
         "column": 9,
 	"row": 6
 	},
