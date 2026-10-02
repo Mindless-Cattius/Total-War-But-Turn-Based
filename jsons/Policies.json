@@ -2130,6 +2130,7 @@
                 "civilopediaText": [{"text": "Nikator was a hellenestic royal epithet meaning The Victorious. Most famous of the victors was Seleucos I."}],
                 "uniques": [
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+        		"[+1 Food, +1 Happiness] from [Fort] tiles [in all cities]",
                     "[1] free [Pike Phalanx] units appear",
                     "Provides [1] [Bronze]",
                     "Provides [4] [Manpower]",
@@ -2250,6 +2251,7 @@
 			"Comment [-1 Gold Upkeep for Ranged Units for the Pergamenes Civilization]",
 			"[+1 Gold] <for every [[Ranged] Units]> <for [The Pergamenes] Civilizations> <hidden from users>",
         		"Provides [2] [Manpower]",
+        		"[+1 Production, +1 Happiness] from [Fort] tiles [in all cities]",
                     	"[+5 Happiness] [in capital] <when at war>",
                 ],
                 "requires": ["Megas"],
