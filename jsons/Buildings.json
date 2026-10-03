@@ -740,7 +740,7 @@
 		"[+1 Happiness, +1 Food, +1 Faith] from [Village] tiles [in this city]",
 		"Provides [2] [Sanitation]",
 		"Consumes [2] [Decadence] <when above [0] [Decadence]>",
-		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
+		"Consumes [2] [Rebel Risk] <when above [0] [Rebel Risk]>",
 		"Destroyed when the city is captured"
 	]
 },
@@ -805,7 +805,7 @@
 		"Provides [1] [Veteran]",
 		"[+1 Production, +1 Happiness, +1 Culture] from [Fort] tiles [in this city]",
 		"[+1 Happiness, -1 Food] from [Village] tiles [in this city]",
-		"Consumes [1] [Rebel Risk] <when above [3] [Rebel Risk]>",
+		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
 		"Destroyed when the city is captured"
 	]
 },
@@ -840,8 +840,8 @@
     "uniques": [
         "Comment [The death of a powerful noble rarely ended an argument. It usually began several. Rival heirs, ambitious generals, and opportunistic governors all found convincing reasons why they deserved power more than anyone else.]",
         "Gain a free [REBEL IMMINENT] [in this city] <with [20]% chance> <for [Human player] Civilizations>",
-        "Provides [2] [Rebel Risk]",
-        "Provides [2] [Rebel Risk] <when above [1] [Ruler]>",
+        "Provides [3] [Rebel Risk]",
+        "Provides [3] [Rebel Risk] <when above [1] [Ruler]>",
         "[-1 Production] [in all cities]",
         "[-1 Happiness] [in all cities]",
         "[-1 Happiness] [in all cities] <when above [1] [Ruler]>",
@@ -1019,7 +1019,6 @@
 	"uniques": [
 		"Comment [Every great civilization begins with a few houses, a market, and someone insisting taxes are necessary.]",
 		"Provides [1] [Cities] <hidden from users>",
-		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <during a Golden Age>",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>"
 	]
@@ -1364,7 +1363,7 @@
 		"Comment [A permanent garrison keeps order through constant vigilance. Peace is much easier to maintain when armed soldiers are already nearby.\n• +10% city defending strength with a garrison.\n• Prevents rebels from emerging in this city.]",
 		"Only available <in cities with a [Urban Fabric II]>",
 		"[+1 Happiness] [in this city] <with a garrison>",
-		"Consumes [1] [Rebel Risk] <when above [5] [Rebel Risk]>",
+		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
 		"Consumes [1] [Manpower] <for [Human player] Civilizations>",
 		"Cost increases by [2] per owned city",
 		"Remove [REBEL IMMINENT] [in this city] <upon turn end> <hidden from users>",
@@ -2756,7 +2755,6 @@
 		"Only available <in cities with a [Urban Fabric IV]> <in cities with at least [25] [Population]>",
 		"Provides [1] [Manpower]",
 		"Consumes [1] [Sanitation]",
-		"Consumes [1] [Rebel Risk] <when above [3] [Rebel Risk]>",
 		"Cost increases by [3] per owned city",
 		"[+1000]% weight to this choice for AI decisions"
 	]
@@ -3011,7 +3009,7 @@
 	"uniques": [
 		"Comment [Provincial governors extended the ruler's authority across distant territories. They also developed the timeless administrative tradition of insisting the missing tax revenue was someone else's fault.]",
 		"Consumes [1] [Nobles]",
-		"Consumes [1] [Rebel Risk] <when above [3] [Rebel Risk]>",
+		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
 		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 		"Consumes [1] [Rebel Risk] <during a Golden Age>",
 		"[+1 Food, +1 Happiness, -3 Gold] [in all cities]",
@@ -3135,7 +3133,7 @@
 		"[+1] Sight <for [Water] units>",
 		"[+10]% Strength <for [Water] units>",
 		"[+5] HP when healing <for [Water] units>",
-		"[+50]% maintenance costs <for [Water] units>",
+		"[+100]% maintenance costs <for [Water] units>",
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
@@ -3151,7 +3149,7 @@
 		"[+10]% Strength <when attacking> <for [Mounted] units>",
 		"[+1] Sight <for [Horseman] units>",
 		"[+5] HP when healing <for [Mounted] units>",
-		"[+30]% maintenance costs <for [Mounted] units>",
+		"[+100]% maintenance costs <for [Mounted] units>",
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
@@ -3166,7 +3164,7 @@
 		"[+1] XP gained from combat <for [Archery] units>",
 		"[+10]% Strength <when attacking> <for [Archery] units>",
 		"[+1] Sight <for [Archery] units>",
-		"[+30]% maintenance costs <for [Archery] units>",
+		"[+100]% maintenance costs <for [Archery] units>",
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
@@ -3181,7 +3179,7 @@
 		"[+1] XP gained from combat <for [Mounted Archery] units>",
 		"[+10]% Strength <when attacking> <for [Mounted Archery] units>",
 		"[+1] Sight <for [Archery] units>",
-		"[+30]% maintenance costs <for [Mounted Archery] units>",
+		"[+100]% maintenance costs <for [Mounted Archery] units>",
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
@@ -3193,10 +3191,10 @@
 	"name": "Spear Focus",
 	"uniques": [
 		"Comment [Spearmen form the backbone of many armies. A long stick remains one of history's most cost-effective military technologies.]",
-		"[+2] XP gained from combat <for [Spear] units>",
+		"[+1] XP gained from combat <for [Spear] units>",
 		"[+20]% Strength <when defending> <for [Spear] units>",
-		"[+5] HP when healing <for [Spear] units>",
-		"[+30]% maintenance costs <for [Spear] units>",
+		"[+2] HP when healing <for [Spear] units>",
+		"[+100]% maintenance costs <for [Spear] units>",
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
@@ -3208,10 +3206,10 @@
 	"name": "Sword Focus",
 	"uniques": [
 		"Comment [Elite swordsmen receive additional funding and training. Swinging expensive metal with confidence has won more than a few wars.]",
-		"[+2] XP gained from combat <for [Sword] units>",
+		"[+1] XP gained from combat <for [Sword] units>",
 		"[+10]% Strength <when attacking> <for [Sword] units>",
-		"[+5] HP when healing <for [Sword] units>",
-		"[+30]% maintenance costs <for [Sword] units>",
+		"[+2] HP when healing <for [Sword] units>",
+		"[+100]% maintenance costs <for [Sword] units>",
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
 		"Unsellable <hidden from users>",
@@ -3223,14 +3221,14 @@
 	"name": "Shield Infantry Focus",
 	"uniques": [
 		"Comment [Disciplined shield infantry excel at holding the line. Someone has to stand still while everyone else tries something heroic.]",
-		"[+2] XP gained from combat <for units with [Infantry Shield II]>",
-		"[+10]% Strength <when defending> <for units with [Infantry Shield II]>",
-		"[+5] HP when healing <for units with [Infantry Shield II]>",
-		"[+30]% maintenance costs <for [Infantry Shield II] units>",
-		"[+2] XP gained from combat <for units with [Infantry Shield III]>",
+		"[+1] XP gained from combat <for units with [Infantry Shield II]>",
+		"[+100]% Strength <when defending> <for units with [Infantry Shield II]>",
+		"[+2] HP when healing <for units with [Infantry Shield II]>",
+		"[+50]% maintenance costs <for [Infantry Shield II] units>",
+		"[+1] XP gained from combat <for units with [Infantry Shield III]>",
 		"[+10]% Strength <when defending> <for units with [Infantry Shield III]>",
-		"[+5] HP when healing <for units with [Infantry Shield III]>",
-		"[+30]% maintenance costs <for [Infantry Shield III] units>",
+		"[+2] HP when healing <for units with [Infantry Shield III]>",
+		"[+100]% maintenance costs <for [Infantry Shield III] units>",
 		"Triggers a [Shield Infantry Funding Review] event <upon turn start> <with [3]% chance>",
 		"Moves to new capital when capital changes",
 		"Unbuildable <hidden from users>",
@@ -3282,6 +3280,7 @@
                 "Remove [Albion] [in this city] <when below [2] [Caledonia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3358,6 +3357,7 @@
                 "Remove [Hispania] [in this city] <when below [2] [Baetica Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3432,6 +3432,7 @@
                 "Remove [Gallia] [in this city] <when below [2] [Belgica Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3492,7 +3493,7 @@
                 "Remove [Germania] [in this city] <when below [4] [Suebia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
-        ]
+		"Unavailable <if [3rd Century Crisis] is constructed>"        ]
 },
 
 ///Hercynia Maior
@@ -3518,7 +3519,9 @@
                 "Unsellable <hidden from users>",
                 "Only available <in cities with a [Hercynia]>",
                 "Unbuildable <when below [4] [Hercynia Region]> <hidden from users>",
-                "Remove [Hercynia Maior] [in this city] <when below [4] [Hercynia Region]> <upon turn end> <hidden from users>"
+                "Remove [Hercynia Maior] [in this city] <when below [4] [Hercynia Region]> <upon turn end> <hidden from users>",
+			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3550,6 +3553,7 @@
                 "Remove [Sarmatia Maior] [in this city] <when below [3] [Sarmatia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3582,6 +3586,7 @@
                 "Remove [Dacia Maior] [in this city] <when below [3] [Dacia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 ///Illyricum
@@ -3630,6 +3635,7 @@
                 "Remove [Illyricum] [in this city] <when below [2] [Pannonia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3681,6 +3687,7 @@
                 "Remove [Macedonia et Hellas] [in this city] <when below [3] [Hellas Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3714,6 +3721,7 @@
                 "Remove [Thracia Maior] [in this city] <when below [4] [Thracia Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3777,6 +3785,7 @@
                 "Remove [Italia] [in this city] <when below [3] [Alpes Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3819,6 +3828,7 @@
                 "Remove [Corsica et Sardinia] [in this city] <when below [1] [Corsica Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3849,6 +3859,7 @@
                 "Unbuildable <when below [2] [Sicilia Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3909,6 +3920,7 @@
                 "Remove [Anatolia] [in this city] <when below [2] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3954,6 +3966,7 @@
                 "Unbuildable <when below [2] [Armenia Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -3999,6 +4012,7 @@
                 "Unbuildable <when below [2] [Cilicia Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -4061,6 +4075,7 @@
                 "Remove [Pontus Euxinus] [in this city] <when below [2] [Bosporus Region]> <upon turn end> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -4125,6 +4140,7 @@
                 "Unbuildable <when below [1] [Phazania Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 ///Aegyptus Maior
@@ -4189,6 +4205,7 @@
                 "Unbuildable <when below [4] [Nabataea Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -4239,6 +4256,7 @@
                 "Unbuildable <when below [3] [Arabia Magna Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -4269,6 +4287,7 @@
                 "Unbuildable <when below [3] [Mesopotamia Region]> <hidden from users>",
 		"[+100]% weight to this choice for AI decisions",
 			"Limited to [1] per Civilization",
+		"Unavailable <if [3rd Century Crisis] is constructed>"
         ]
 },
 
@@ -4982,6 +5001,7 @@
         "Unsellable <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
     ]
 },
 {
@@ -5004,6 +5024,7 @@
         "Remove [Hispania] [in this city] <when below [2] [Baetica Region]> <upon turn end> <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
     ]
 }
 {
@@ -5026,6 +5047,7 @@
 		"Remove [Gallia] [in this city] <when below [1] [Belgica Region]> <upon turn end> <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5044,6 +5066,7 @@
 		"Remove [Germania] [in this city] <when below [4] [Hercynia Region]> <upon turn end> <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5063,6 +5086,7 @@
 		"Unsellable <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5080,6 +5104,7 @@
 		"Remove [Thracia Maior] [in this city] <when below [2] [Thracia Region]> <upon turn end> <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5101,6 +5126,7 @@
 		"Unsellable <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5121,6 +5147,7 @@
 		"Remove [Pontus Euxinus] [in this city] <when below [3] [Scythia Region]> <upon turn end> <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5139,6 +5166,7 @@
 		"Unbuildable <when below [2] [Armenia Region]> <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5158,6 +5186,7 @@
 		"Remove [Anatolia] [in this city] <when below [3] [Bithynia et Pontus Region]> <upon turn end> <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 }
 ///Coele Syria (3rd)
@@ -5174,6 +5203,7 @@
 		"Never destroyed when the city is captured <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5188,6 +5218,7 @@
 		"Never destroyed when the city is captured <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5207,6 +5238,7 @@
 		"Unbuildable <when below [2] [Judea Region]> <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5227,6 +5259,7 @@
 		"Unbuildable <when below [2] [Aegyptus Region]> <hidden from users>"
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 {
@@ -5247,6 +5280,7 @@
 		"Unbuildable <when below [1] [Phazania Region]> <hidden from users>",
 		"Unavailable <if [3rd Century Crisis] is not constructed>"
 		"Unavailable <if [Grand Campaign] is constructed>"
+			"Limited to [1] per Civilization",
 	]
 },
 

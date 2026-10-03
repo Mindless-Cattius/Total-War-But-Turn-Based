@@ -831,7 +831,6 @@
 			"[+1] XP gained from combat <for [Military] units> <vs [Barbarians] units>",	
 			"[+1] XP gained from combat <for [Ruler] units> <vs [Barbarians] units>",	
 			"[+1] XP gained from combat <for [Commander] units> <vs [Barbarians] units>",	
-			"[+1] XP gained from combat <for [Commander] units> <vs [Angry Mob] units>",	
 			"[+2] XP gained from combat <for [Archery] units> <vs [Angry Mob] units>",			
 			"[+2] XP gained from combat <for [Mounted Archery] units> <vs [Angry Mob] units>",	
 			"[+1] XP gained from combat <for [Emperor] units> <vs [Angry Mob] units>",
@@ -839,6 +838,22 @@
 ],
         "column": 33,
         "row": 4
+	},
+	{
+		"name": "Road Builders",
+		"unitTypes": ["Sword","Spear","Archery","Scout"],
+		"uniques": [
+		         "Can build [All Road] improvements on tiles",
+         		"Can build [Remove Forest] improvements on tiles",
+		],
+	},
+	{
+		"name": "Road Builders",
+		"prerequisites": ["Veterans"],
+		"unitTypes": ["Sword","Spear","Archery","Scout"],
+		"uniques": [
+		         "Can build [All] improvements on tiles",
+		],
 	},
 	{
 		"name": "[Standard Bearer]",

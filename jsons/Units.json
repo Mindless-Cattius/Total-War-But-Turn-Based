@@ -918,7 +918,7 @@
          "Can only be built <in cities with a [Army Barracks]>",
          "Consumes [4] [Manpower]",
          "Consumes [1] [Iron]",
-         "Can build [Remove Forest] improvements on tiles",
+          
          "Can only be built <with [Enable Heavy Spearman]> <hidden from users>",
 	 "[This Unit] loses the [Infantry Shield II] promotion <hidden from users>",
 	 "[This Unit] loses the [Infantry Shield I] promotion <hidden from users>",
@@ -954,7 +954,7 @@
          "Can only be built <in cities with a [Army Barracks]>",
          "Consumes [4] [Manpower]",
          "Consumes [1] [Iron]",
-         "Can build [Remove Forest] improvements on tiles",
+          
          "Unbuildable <with [Enable Desert Legion]> <hidden from users>",
          "Unbuildable <with [Enable Gallic Legion]> <hidden from users>",
          "Unbuildable <with [Enable Hellenic Legion]> <hidden from users>",
@@ -2165,7 +2165,7 @@
          "Comment [-Roman manipular infantry, organized with the same enthusiasm Romans applied to bureaucracy: excessive structure, surprising efficiency, and an alarming ability to adapt mid-conflict.\nTrained to construct infrastructure while advancing, they blurred the line between conquest and public works project management.\nTheir true specialty was not just winning territory, but immediately improving it while the enemy was still processing the loss.\n• Heavy Infantry]",
          "Can only be built <in cities with a [Barracks]>",
          "Can build [All Road] improvements on tiles",
-         "Can build [Remove Forest] improvements on tiles",
+          
          "Consumes [3] [Manpower]",
          "Consumes [1] [Iron]",
 	"Can upgrade to [Triarii] <for units with [Veterans]>",
@@ -2176,6 +2176,7 @@
       "Infantry Shield III",
       "Drill I"
       "Pilum",
+	"Road Builders"
     ],
     "attackSound": "march"
   },
@@ -2193,7 +2194,7 @@
 	"Comment [-Roman legionary heavy infantry, trained to treat warfare, engineering, and administrative expansion as one continuous workflow.\nThey were capable of dismantling enemy forces, then immediately turning the same ground into roads, camps, and permanent reminders that Rome had been there.\nExceptionally disciplined, highly organized, and also extremely efficient at the “murder first, paperwork second” stage of state-building.\n• Heavy Infantry]",
          "Can only be built <in cities with a [Barracks]>",
          "Can build [All Road] improvements on tiles",
-         "Can build [Remove Forest] improvements on tiles",
+          
          "Consumes [4] [Manpower]",
          "Consumes [1] [Iron]",
 	"Can upgrade to [Eagle Cohort] <for units with [Veterans]>",
@@ -2204,6 +2205,7 @@
       "Assault I",
       "Drill I",
       "Pilum",
+	"Road Builders"
     ],
     "attackSound": "march"
   },
@@ -2220,8 +2222,7 @@
     "uniques": [
          "Comment [-Roman frontier heavy spear infantry assigned to border defense duties, where stability depends on patience, spears, and geography doing most of the work.\nThey maintain roads, secure farmland, and ensure that any invasion force is forced to have a long, inconvenient conversation with logistics before doing anything meaningful.\n• Heavy Spear Infantry]",
          "Can only be built <in cities with a [Army Barracks]>",
-         "Can build [All Road] improvements on tiles",
-         "Can build [Remove Forest] improvements on tiles",
+          
          "[+20]% Strength <when fighting in [Friendly Land] tiles>",
          "[+10]% Strength <when fighting in [Farm] tiles>",
          "Consumes [3] [Manpower]",
@@ -2231,6 +2232,7 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Drill I"
+	"Road Builders"
     ],
     "attackSound": "march"
   },
@@ -2263,7 +2265,8 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Inspiring",
-	"Veterans"
+	"Veterans",
+	"Road Builders"
     ],
     "attackSound": "march"
   },
@@ -2289,6 +2292,7 @@
       	"Infantry Shield II",
 	"Improved Armor",
 	"Veterans",
+	"Road Builders"
     ],
     "attackSound": "nonmetalhit",
   },
@@ -2316,6 +2320,7 @@
       "Improved Armor",
       "[Standard Bearer]",
       "Pilum",
+	"Road Builders"
     ],
     "attackSound": "march"
   },
@@ -2653,7 +2658,7 @@
          "Can only be built <in cities with a [Barracks]>",
          "Can move immediately once bought",
          "Consumes [3] [Manpower]",
-         "Can build [Remove Forest] improvements on tiles",
+          
 	"[This Unit] gets a name from the [Hyrcanian Axeman] group <hidden from users>",
     ],
     "promotions": [
@@ -3722,7 +3727,7 @@
       	"Can only be built <in cities with a [Barracks]>",
       	"Can only be built <with [Enable Hellenic Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Remove Forest] improvements on tiles",
+	 
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
         "[This Unit] gets a name from the [Legions] group <hidden from users>",
@@ -3747,7 +3752,7 @@
       	"Can only be built <in cities with a [Barracks]>",
       	"Can only be built <with [Enable Hellenic Limitanei]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Remove Forest] improvements on tiles",
+	 
        	"[+20]% Strength <when fighting in [Friendly Land] tiles>",
        	"[+10]% Strength <when fighting in [Hill] tiles>",
       	"Consumes [4] [Manpower]",
@@ -3757,7 +3762,8 @@
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield III",
-      "Formation I"
+      "Formation I",
+	"Road Builders"
     ],
     "attackSound": "march"
   },
@@ -3774,7 +3780,7 @@
       	"Can only be built <in cities with a [Barracks]>",
       	"Can only be built <with [Enable Gallic Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Remove Forest] improvements on tiles",
+	 
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
             "[This Unit] gets a name from the [Legions] group <hidden from users>",
@@ -3784,6 +3790,7 @@
       "Assault I",
       "Shock I",
 	"Pilum",
+	"Road Builders"
     ],
     "attackSound": "march"
   },
@@ -3798,7 +3805,7 @@
 	"Comment [-Gallic limitanei frontier spearmen assigned to defensive garrisons and border stabilization, trained to turn forests, hills, and “temporary patrol zones” into permanent military infrastructure through sheer persistence and aggressive maintenance policy.\nThey specialize in holding terrain, resisting incursions, and quietly converting defensive lines into long-term controlled territory without ever formally admitting expansion is happening.\nTheir strength is less battlefield dominance and more refusal to leave.\n• Heavy Spear Infantry]"
       	"Can only be built <in cities with a [Barracks]>",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Remove Forest] improvements on tiles",
+	 
        	"[+10]% Strength <when fighting in [Friendly Land] tiles>",
        	"[+10]% Strength <when fighting in [Forest] tiles>",
       	"Consumes [4] [Manpower]",
@@ -3810,6 +3817,7 @@
       "[Spearman] ability",
       "Infantry Shield III",
       "Raider I",
+	"Road Builders"
     ],
     "attackSound": "march"
   },
@@ -3825,13 +3833,14 @@
 	"Comment [-Gallic spearmen trained in early tribal levy formations, specialized in anti-cavalry defense and emergency forest warfare where visibility is optional and discipline is mostly theoretical.\nThey are most effective at holding chokepoints, slowing enemy advances, and turning horsemen into expensive tactical misunderstandings.\nOutside of defensive terrain, their performance becomes significantly more philosophical.\n• Light Spear Infantry]"
      	"Can only be built <in cities with a [Muster Field]> <when above [0] [Gallic 3rd Century Crisis]> <hidden from users>",
 	"Comment ['Spearman — ideal for stopping horses, not much else.']",
-	"Can build [Remove Forest] improvements on tiles",
+	 
       	"Consumes [2] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
       "Infantry Shield II",
-      "Drill I"
+      "Drill I",
+	"Road Builders",
     ],
     "attackSound": "metalhit"
   },
@@ -3848,7 +3857,7 @@
       "Can only be built <in cities with a [Barracks]>",
       	"Can only be built <with [Enable Desert Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Remove Forest] improvements on tiles",
+	 
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
             "[This Unit] gets a name from the [Legions] group <hidden from users>",
@@ -3859,6 +3868,7 @@
       "Assault I",
       "Desert Warrior I",
 	"Pilum",
+	"Road Builders"
     ],
     "attackSound": "march"
   },
@@ -3875,7 +3885,7 @@
       	"Can only be built <in cities with a [Barracks]>",
       	"Can only be built <with [Enable Illyrian Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Remove Forest] improvements on tiles",
+	 
 	"[+2] XP gained from combat",
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
@@ -3885,6 +3895,7 @@
       "Infantry Shield III",
       "Assault I",
 	"Pilum",
+	"Road Builders"
     ],
     "attackSound": "march"
   },
