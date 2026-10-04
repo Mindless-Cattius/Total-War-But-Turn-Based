@@ -45,6 +45,10 @@
 "[Illyrian Legion] units gain the [Road Builders] promotion",
 
 "[Desert Legion] units gain the [Road Builders] promotion",
+
+"[Limitanei] units gain the [Road Builders] promotion",
+"[Hellenic Limitanei] units gain the [Road Builders] promotion",
+"[Gallic Limitanei] units gain the [Road Builders] promotion",
 "[+10 Gold] <for every [[War Mobilization] Units]> <when at war>",
 "[+15 Gold] <for every [[Civil Administration] Units]> <when not at war>",
 "[+8 Happiness] <for every [[Civil Concordia] Units]> <when at war>",
