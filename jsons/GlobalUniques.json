@@ -7,7 +7,6 @@
 
 
 
-
 	"Cannot build [Settler] units <if [Peloponnese War] is constructed by anybody>",
 	"Cannot build [Settler] units <if [3rd Century Crisis] is constructed by anybody>",
 	"Cannot build [Settler] units <if [Grand Campaign] is constructed by anybody>",
@@ -25,7 +24,10 @@
         "[-1] Sight <for [Embarked] units>",
         "[+50]% Culture cost of adopting new Policies",
 
-						////Civs
+
+
+
+	////Civs
 	"Provides [1] [NomadOrEastern] <after adopting [Nomad Culture]>",
 	"Provides [1] [NomadOrEastern] <after adopting [Eastern Culture]>",
 //War Weariness
@@ -34,7 +36,15 @@
 	"Instantly consumes [1] [War Weariness] <upon turn end> <when above [0] [War Weariness]> <when not at war>",
 
 	//PROMOTION
+"[Legion] units gain the [Road Builders] promotion",
+"[Manipular Legion] units gain the [Road Builders] promotion",
+"[Hellenic Legion] units gain the [Road Builders] promotion",
 
+"[Gallic Legion] units gain the [Road Builders] promotion",
+
+"[Illyrian Legion] units gain the [Road Builders] promotion",
+
+"[Desert Legion] units gain the [Road Builders] promotion",
 "[+10 Gold] <for every [[War Mobilization] Units]> <when at war>",
 "[+15 Gold] <for every [[Civil Administration] Units]> <when not at war>",
 "[+8 Happiness] <for every [[Civil Concordia] Units]> <when at war>",
