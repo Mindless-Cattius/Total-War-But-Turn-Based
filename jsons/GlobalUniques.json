@@ -43,8 +43,9 @@
         "[{Military} {Water}] units gain the [Warship] promotion",
         "[{Military} {Land}] units gain the [War Transports] promotion",
         "[{Military} {Land}] units gain the [Healing] promotion",
-        "[Ruler] units gain the [Aging] promotion",
-        "[Generals] units gain the [Aging] promotion",
+        "[King] units gain the [Aging] promotion",
+        "[General] units gain the [Aging] promotion",
+        "[Emperor] units gain the [Aging] promotion",
 
 
 						//Units
@@ -195,6 +196,7 @@
 	"Triggers a [A Plague] event <if [PLAGUE] is constructed> <upon turn start> <for [Human player] Civilizations>",
 	"Triggers a [A Dangerous Plague] event <if [DANGEROUS PLAGUE] is constructed> <upon turn start> <for [Human player] Civilizations>",
 	"Triggers a [Rebellion Imminent] event <if [REBEL IMMINENT] is constructed> <upon turn start> <for [Human player] Civilizations>",
+	"Triggers a [CIVIL WAR] event <if [CIVIL WAR] is constructed> <upon turn start> <for [Human player] Civilizations>",
 
 	"Triggers a [A Matter of Administration] event <when below [1] [Administrative Briefing]> <upon turn start> <for [Human player] Civilizations>",
 //Specials
