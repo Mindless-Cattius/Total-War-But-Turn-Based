@@ -1363,11 +1363,11 @@
 		"Comment [A permanent garrison keeps order through constant vigilance. Peace is much easier to maintain when armed soldiers are already nearby.\n• +10% city defending strength with a garrison.\n• Prevents rebels from emerging in this city.]",
 		"Only available <in cities with a [Urban Fabric II]>",
 		"[+1 Happiness] [in this city] <with a garrison>",
-		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]>",
 		"Consumes [1] [Manpower] <for [Human player] Civilizations>",
 		"Cost increases by [2] per owned city",
 		"Remove [REBEL IMMINENT] [in this city] <upon turn end> <hidden from users>",
 		"Destroyed when the city is captured"
+		"[100]% weight to this choice for AI decisions"
 	]
 },
 {
@@ -2082,7 +2082,7 @@
 		"Comment [•Training: Mounted Armored Skirmisher] <with [Enable Mounted Armored Skirmisher]>",
 		"Comment [•Training: Nomad Nobles] <after adopting [Nomad Culture]>",
 		"Comment [•Training: Armenian Noble] <for [The Armenians] Civilizations>",
-		"Only available <in cities with a [Urban Fabric III]> <in cities with a [Stable]>",
+		"Only available <in cities with a [Urban Fabric III]>",
 		"Only available <in cities without a [Skirmisher Barracks]> <hidden from users>",
 		"Only available <in cities without a [Army Barracks]> <hidden from users>",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
@@ -2969,7 +2969,6 @@
 		"Unavailable <if [Manpower Office] is constructed>",
 		"Unavailable <if [Hall of Veterans] is constructed>",
 		"Provides [1] [Nobles]",
-		"Provides [1] [Nobles] <when not at war>",
 		"Consumes [1] [Rebel Risk] <when above [0] [Rebel Risk]> <when not at war>",
 		"Moves to new capital when capital changes",
 		"Remove [Manpower Office] [in all cities] <hidden from users>",

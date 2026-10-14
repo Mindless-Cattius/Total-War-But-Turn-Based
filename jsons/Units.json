@@ -1057,7 +1057,6 @@
   },
   {
     "name": "Cavalry",
-    "upgradesTo": "Cataphract",
     "unitType": "Mounted",
     "hurryCostModifier": 40,
     "cost": 120,
@@ -1069,6 +1068,7 @@
          "Can only be built <in cities with a [Stable]>",
          "Consumes [3] [Manpower]",
          "Consumes [2] [Horses]",
+	"Can upgrade to [Cataphract] <for units with [Veterans]>",
          "Can only be built <with [Enable Cavalry]> <hidden from users>",
          "Can only be built <before adopting [Numidian Culture]> <hidden from users>"
 	 "[This Unit] loses the [[Horseman] ability] promotion <hidden from users>",
@@ -1107,7 +1107,7 @@
          "Consumes [2] [Horses]",
          "Consumes [2] [Iron]",
          "Never appears as a Barbarian unit <hidden from users>",
-         "Can only be built <with [Enable Cataphract]> <hidden from users>"
+         "Can only be built <with [Enable Cataphract]> <hidden from users>",
 	"Can upgrade to [Clibanarii] <for units with [Veterans]>",
 	"Can upgrade to [Equites Singulares] <for units with [Veterans]> <after adopting [Latin Culture]>",
 	 "[This Unit] loses the [[Cavalry] ability] promotion <hidden from users>",
@@ -1345,7 +1345,7 @@
   {
     "name": "Trihemiola",
     "unitType": "Melee Water",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "movement": 3,
     "strength": 19,
     "cost": 180,
@@ -3200,7 +3200,7 @@
 
   {
     "name": "Mercenary Naked Warriors",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Sword",
     "movement": 3,
     "strength": 12,
@@ -3224,7 +3224,7 @@
   {
     "name": "Scythed Chariot",
     "unitType": "Mounted",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "cost": 90,
     "movement": 4,
     "strength": 16,
@@ -3247,7 +3247,7 @@
   {
     "name": "Libyan Chariot Archer",
     "unitType": "Mounted Archery",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "cost": 80,
     "movement": 3,
     "strength": 11,
@@ -3270,7 +3270,7 @@
   {
     "name": "Mercenary Libyan Heavy Spearman",
     "unitType": "Spear",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "cost": 200,
     "movement": 2,
     "strength": 19,
@@ -3293,7 +3293,7 @@
   {
     "name": "Mercenary Libyan Heavy Swordsman",
     "unitType": "Sword",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "cost": 200,
     "movement": 2,
     "strength": 21,
@@ -3316,7 +3316,7 @@
 {
     "name": "Mercenary War Elephant",
     "unitType": "Elephant",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "cost": 210,
     "movement": 2,
     "strength": 20,
@@ -3337,7 +3337,7 @@
   {
     "name": "Mercenary Horse Archer",
     "unitType": "Mounted Archery",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "cost": 180,
     "movement": 4,
     "strength": 9,
@@ -3359,7 +3359,7 @@
   {
     "name": "Numidian Mercenary",
   "unitType": "Mounted Archery",
-  "hurryCostModifier": 40,
+  "hurryCostModifier": 50,
   "cost": 120,
   "movement": 3,
   "strength": 10,
@@ -3383,7 +3383,7 @@
   },
 {
     "name": "Illyrian Raider",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Scout",
     "movement": 3,
     "strength": 11,
@@ -3408,7 +3408,7 @@
   },
   {
     "name": "Cilician Pirate",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Scout",
     "movement": 3,
     "strength": 10,
@@ -3433,7 +3433,7 @@
   },
   {
     "name": "Rhodian Slinger",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Archery",
     "movement": 2,
     "strength": 10,
@@ -3458,7 +3458,7 @@
   },
   {
     "name": "Cretan Archer",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Archery",
     "movement": 3,
     "strength": 9,
@@ -3483,7 +3483,7 @@
   },
 {
   "name": "Mercenary Warband",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
   "unitType": "Sword",
   "movement": 2,
   "strength": 16,
@@ -3504,7 +3504,7 @@
   },
   {
     "name": "Mercenary Axeman",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
@@ -3527,7 +3527,7 @@
   {
     "name": "Mercenary Ballista",
     "unitType": "Siege",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "movement": 2,
     "strength": 8,
     "rangedStrength": 11,
@@ -3556,7 +3556,7 @@
   },
   {
     "name": "Mercenary Hoplite",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
@@ -3578,7 +3578,7 @@
   },
   {
     "name": "Mercenary Pike Phalanx",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Spear",
     "movement": 2,
     "strength": 17,
@@ -3600,7 +3600,7 @@
   },
   {
     "name": "Thureophoros",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
@@ -3624,7 +3624,7 @@
   },
   {
     "name": "Mercenary Judean Spearman",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
@@ -3647,7 +3647,7 @@
   },
   {
     "name": "Thracian Mercenary",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
@@ -3671,7 +3671,7 @@
   },
   {
     "name": "Iberian Mercenary",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Sword",
     "movement": 3,
     "strength": 17,
@@ -3692,7 +3692,7 @@
   },
   {
     "name": "Oscan Mercenary",
-    "hurryCostModifier": 40,
+    "hurryCostModifier": 50,
     "unitType": "Sword",
     "movement": 3,
     "strength": 17,

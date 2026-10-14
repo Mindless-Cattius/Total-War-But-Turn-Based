@@ -146,6 +146,8 @@
                     "Comment [-2 Gold Upkeep for Sword Units in Enemy Land]",
 		    "[+2 Gold] <for every [[Sword] Units]> <in [Enemy Land] tiles> <hidden from users>",
                     "[+10]% Production when constructing [Barracks] buildings [in all cities]",
+                    "[Infantry Shield III] units gain the [Assault I] promotion <for [AI player] Civilizations> <hidden from users>",
+                    "[Infantry Shield III] units gain the [Assault II] promotion <for [AI player] Civilizations> <hidden from users>",
                     "[1] free [Manipular Legion] units appear",
                     "Provides [3] [Manpower]",
                      "Provides [1] [Nobles]",
