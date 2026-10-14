@@ -846,6 +846,7 @@
 		"uniques": [
 		         "Can build [All Road] improvements on tiles",
          		"Can build [Remove Forest] improvements on tiles",
+		         "Can build [Repair] improvements on tiles",
 		],
 	},
 	{
@@ -1046,10 +1047,13 @@
 	"name": "Successor",
 	"unitTypes": ["Generals"],
 	"uniques": [
+		"Comment [-Every ruler needs an heir. Preferably one who doesn't solve the succession crisis with a knife.]"
 		"Only available <when adjacent to a [Ruler] unit> <for [Human player] Civilizations>",
 		"Only available <when above [499] [Gold]> <before the [Hellenistic Age]> <(modified by game speed)>",
 		"Gain [-500] [Gold] <(modified by game speed)>",
 		"This Promotion is free",
+	 "[This Unit] loses the [Successor] promotion <during the [Hellenistic Age]> <hidden from users>"
+	 "[This Unit] gains the [Successor II] promotion <during the [Hellenistic Age]> <hidden from users>"
          	"Limited to [1] per Civilization",
 ],
 "column": 47,
@@ -1064,6 +1068,8 @@
 		"Gain [-800] [Gold] <(modified by game speed)>",
 		"This Promotion is free",
          "Limited to [1] per Civilization",
+	 "[This Unit] loses the [Successor II] promotion <during the [Hellenistic Age]> <hidden from users>"
+	 "[This Unit] gains the [Successor III] promotion <during the [Hellenistic Age]> <hidden from users>"
 ],
 "column": 47,
 "row": 2
@@ -1576,7 +1582,7 @@
 			"[+25]% Strength <when defending> <vs [Sword] units>",
 			"[-10]% Strength <when defending> <vs [Archery] units>"
 			"Withdraws before melee combat <with [5]% chance>",
-			"[-20]% construction time for [all road] improvements",
+			"[-20]% construction time for [all] improvements",
 		]
 	},
 	{
@@ -1586,7 +1592,7 @@
 			"[+15]% Strength <when defending> <vs cities>",
 			"[+20]% Strength <when attacking> <vs cities>",
 			"Withdraws before melee combat <with [5]% chance>",
-			"[-20]% construction time for [all road] improvements",
+			"[-20]% construction time for [all] improvements",
 		]
 	},
 	{
@@ -1725,7 +1731,8 @@
 	{
 		"name": "Aging",
 		"uniques": [
-			"[This Unit] takes [999] damage <with [1]% chance> <upon turn start>"
+                	"Comment [-Age spares no one. Not even the veterans who survived everything else.\n• Has a very small chance to die each turn.]"
+			"[This Unit] takes [999] damage <with [1]% chance> <upon turn start> <hidden from users>"
 		]
 	},
 ]

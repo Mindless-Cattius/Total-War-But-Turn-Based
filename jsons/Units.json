@@ -352,7 +352,8 @@
          "Unavailable <after adopting [Nomad Culture]> <hidden from users>"
     ],
     "promotions": [
-	"Commander",
+	"Commander","Aging",
+	"Aging",
     ],
     "attackSound": "horse"
   },
@@ -398,7 +399,7 @@
 	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
-	      "Commander",
+	      "Commander","Aging",
     ],
     "attackSound": "horse"
   },
@@ -435,7 +436,7 @@
 	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
-	"Commander",
+	"Commander","Aging",
 	"Imperium I",
     ],
     "attackSound": "horse"
@@ -466,7 +467,7 @@
 	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
-	"Commander",
+	"Commander","Aging",
 	"Amphibious I",
 	"Prudentia I",
     ],
@@ -498,7 +499,7 @@
 	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
-	"Commander",
+	"Commander","Aging",
 	"Gravitas I",
     ],
     "attackSound": "horse"
@@ -530,7 +531,7 @@
 	 "[This Unit] loses the [Successor] promotion <hidden from users>"
     ],
     "promotions": [
-	"Commander",
+	"Commander","Aging",
 	"Gravitas I",
     ],
     "attackSound": "horse"
@@ -564,7 +565,7 @@
     ],
     "promotions": [
       	"[Horse Archer] ability",
-	"Commander",
+	"Commander","Aging",
     ],
     "attackSound": "arrow"
   },
@@ -591,7 +592,7 @@
     ],
     "promotions": [
       "[Horse Archer] ability",
-      "Commander",
+      "Commander","Aging",
     ],
     "attackSound": "arrow"
   },
@@ -2171,6 +2172,7 @@
 	"Can upgrade to [Triarii] <for units with [Veterans]>",
          "Unbuildable <after discovering [Metallurgy]>",
          "[This Unit] gets a name from the [Legions] group <hidden from users>"
+			"[-20]% construction time for [all] improvements",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -2194,10 +2196,11 @@
 	"Comment [-Roman legionary heavy infantry, trained to treat warfare, engineering, and administrative expansion as one continuous workflow.\nThey were capable of dismantling enemy forces, then immediately turning the same ground into roads, camps, and permanent reminders that Rome had been there.\nExceptionally disciplined, highly organized, and also extremely efficient at the “murder first, paperwork second” stage of state-building.\n• Heavy Infantry]",
          "Can only be built <in cities with a [Barracks]>",
          "Can build [All Road] improvements on tiles",
-          
+  	 "[-20]% construction time for [all] improvements",
+
          "Consumes [4] [Manpower]",
          "Consumes [1] [Iron]",
-	"Can upgrade to [Eagle Cohort] <for units with [Veterans]>",
+	 "Can upgrade to [Eagle Cohort] <for units with [Veterans]>",
          "[This Unit] gets a name from the [Legions] group <hidden from users>"
     ],
     "promotions": [
@@ -2221,7 +2224,8 @@
     "requiredTech": "Military Reforms",
     "uniques": [
          "Comment [-Roman frontier heavy spear infantry assigned to border defense duties, where stability depends on patience, spears, and geography doing most of the work.\nThey maintain roads, secure farmland, and ensure that any invasion force is forced to have a long, inconvenient conversation with logistics before doing anything meaningful.\n• Heavy Spear Infantry]",
-         "Can only be built <in cities with a [Army Barracks]>",
+         "Can only be built <in cities with a [Army Barracks]>",		"[-20]% construction time for [all] improvements",
+         "Can build [All Road] improvements on tiles",
           
          "[+20]% Strength <when fighting in [Friendly Land] tiles>",
          "[+10]% Strength <when fighting in [Farm] tiles>",
@@ -2256,6 +2260,8 @@
          "Can only be built <in cities with a [Palace]>",
          "Unavailable <after discovering [Military Reforms]>",
          "[+10]% Strength <when defending> <when fighting in [Friendly Land] tiles>",
+	"[-20]% construction time for [all] improvements",
+         "Can build [All Road] improvements on tiles",
          "Consumes [4] [Manpower]",
          "Consumes [1] [Veteran]",
 	 "[This Unit] loses the [Pilum] promotion <hidden from users>",
@@ -2313,6 +2319,7 @@
          "Consumes [1] [Veteran]",
          "Consumes [1] [Iron]",
 	"[This Unit] gets a name from the [Eagle Cohort] group <hidden from users>",
+         "Can build [All Road] improvements on tiles",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -3727,6 +3734,7 @@
       	"Can only be built <in cities with a [Barracks]>",
       	"Can only be built <with [Enable Hellenic Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
+	"[-20]% construction time for [all] improvements",
 	 
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
@@ -3752,6 +3760,7 @@
       	"Can only be built <in cities with a [Barracks]>",
       	"Can only be built <with [Enable Hellenic Limitanei]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
+	"[-20]% construction time for [all] improvements",
 	 
        	"[+20]% Strength <when fighting in [Friendly Land] tiles>",
        	"[+10]% Strength <when fighting in [Hill] tiles>",
@@ -3780,6 +3789,7 @@
       	"Can only be built <in cities with a [Barracks]>",
       	"Can only be built <with [Enable Gallic Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
+	"[-20]% construction time for [all] improvements",
 	 
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
@@ -3805,6 +3815,7 @@
 	"Comment [-Gallic limitanei frontier spearmen assigned to defensive garrisons and border stabilization, trained to turn forests, hills, and “temporary patrol zones” into permanent military infrastructure through sheer persistence and aggressive maintenance policy.\nThey specialize in holding terrain, resisting incursions, and quietly converting defensive lines into long-term controlled territory without ever formally admitting expansion is happening.\nTheir strength is less battlefield dominance and more refusal to leave.\n• Heavy Spear Infantry]"
       	"Can only be built <in cities with a [Barracks]>",
 	"Can build [All Road] improvements on tiles",
+	"[-20]% construction time for [all] improvements",
 	 
        	"[+10]% Strength <when fighting in [Friendly Land] tiles>",
        	"[+10]% Strength <when fighting in [Forest] tiles>",
@@ -3840,7 +3851,6 @@
       "[Spearman] ability",
       "Infantry Shield II",
       "Drill I",
-	"Road Builders",
     ],
     "attackSound": "metalhit"
   },
@@ -3857,6 +3867,7 @@
       "Can only be built <in cities with a [Barracks]>",
       	"Can only be built <with [Enable Desert Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
+	"[-20]% construction time for [all] improvements",
 	 
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
@@ -3886,6 +3897,7 @@
       	"Can only be built <with [Enable Illyrian Legion]> <hidden from users>",
 	"Can build [All Road] improvements on tiles",
 	 
+	"[-20]% construction time for [all] improvements",
 	"[+2] XP gained from combat",
       	"Consumes [4] [Manpower]",
       	"Consumes [1] [Iron]",
