@@ -879,6 +879,36 @@
     ]
 },
 {
+    "name": "CIVIL WAR",
+    "specialistSlots": {"Artist": 1},
+    "uniques": [
+	"Comment [-Congratulations. Your soldiers have discovered politics, and your generals have discovered ambition.\n• Civil war: now with more enemies who know your battle plans.]",
+        "[-10 Gold] from [all] tiles [in this city]",
+        "[2] [Spearman]s rebel <upon turn end> <with [10]% chance> <starting from the [Hellenistic Age]> <hidden from users>",
+        "[1] [Skirmisher]s rebel <upon turn end> <with [10]% chance> <starting from the [Hellenistic Age]> <hidden from users>",
+        "[1] [General]s rebel <upon turn end> <with [40]% chance> <starting from the [Hellenistic Age]> <hidden from users>",
+        "[2] [Swordsman]s rebel <upon turn end> <with [5]% chance> <during the [Hellenistic Age]> <before adopting [Latin Culture]> <hidden from users>",
+        "[1] [Horseman]s rebel <upon turn end> <with [5]% chance> <during the [Hellenistic Age]> <hidden from users>",
+
+        "[1] [Heavy Swordsman]s rebel <upon turn end> <with [10]% chance> <during the [Imperial Age]> <before adopting [Latin Culture]> <hidden from users>",
+        "[1] [Heavy Spearman]s rebel <upon turn end> <with [5]% chance> <during the [Imperial Age]> <hidden from users>",
+        "[1] [Cavalry]s rebel <upon turn end> <with [5]% chance> <during the [Imperial Age]> <hidden from users>",
+
+        "[1] [King]s rebel <upon turn end> <with [40]% chance> <starting from the [Hellenistic Age]> <before adopting [Empire]> <hidden from users>",
+        "[1] [Emperor]s rebel <upon turn end> <with [40]% chance> <during the [Imperial Age]> <before adopting [Empire]> <hidden from users>",
+
+        "[1] [Manipular Legion]s rebel <upon turn end> <with [10]% chance> <during the [Hellenistic Age]> <after adopting [Latin Culture]> <hidden from users>",
+        "[1] [Legion]s rebel <upon turn end> <with [10]% chance> <during the [Imperial Age]> <after adopting [Latin Culture]> <hidden from users>",
+
+        "Remove [REBEL IMMINENT] [in this city] <upon turn end> <with [100]% chance> <hidden from users>",
+        "Remove [CIVIL WAR] [in this city] <with a garrison> <upon turn end> <with [35]% chance> <hidden from users>",
+
+        "Unbuildable <hidden from users>",
+        "Unsellable <hidden from users>",
+        "Destroyed when the city is captured"
+    ]
+},
+{
     "name": "Restored Order",
     "maintenance": 0,
     "cost": 40,

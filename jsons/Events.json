@@ -55,7 +55,7 @@
 },
 {
     "name": "Rebel Risk?",
-    "text": "Throughout history, rulers have repeatedly discovered that starving, overtaxed, oppressed, or neglected subjects occasionally object to their circumstances. This objection is typically expressed through riots, revolts, and the sudden appearance of armed peasants outside the city walls.The higher your [Rebel Risk], the greater the chance rebel armies will emerge. Watch for the [REBEL IMMINENT] constructed warning in your turn notifications. Contrary to popular belief, rebels rarely spawn because they enjoy exercise.\nTo counter this, build a [Garrison Post] or simply put a unit inside a city, this will increase the chance for the [REBEL IMMINENT] to remove it self.",
+    "text": "Throughout history, rulers have repeatedly discovered that starving, overtaxed, oppressed, or neglected subjects occasionally object to their circumstances. This objection is typically expressed through riots, revolts, and the sudden appearance of armed peasants outside the city walls.The higher your [Rebel Risk], the greater the chance rebel armies will emerge even can lead into a CIVIL WAR. \nWatchout for the [REBEL IMMINENT] constructed warning on your turn report notifications. Contrary to popular belief, rebels rarely spawn because they enjoy exercise.\nTo counter this, build a [Garrison Post] or simply put a unit inside a city, this will increase the chance for the [REBEL IMMINENT] to remove it self.",
     "presentation": "Alert",
     "choices": [
         {
@@ -147,7 +147,17 @@
             "text": "This is why we can't have nice empires."
         }
     ]
-}
+},
+{
+"name": "CIVIL WAR",
+"text": "⚔⚔⚔\nCIVIL WAR\nOne of your cities has risen in open revolt.\nThe soldiers have changed sides, the governor has fled, and some ambitious bastard has declared himself ruler. His claim to the throne is questionable, his army is unpaid, and his first official act was apparently to burn the tax records.\nYour loyal officials recommend swift action. Most have already sworn allegiance to the rebels.\nThe empire is bleeding, the treasury is weeping, and somewhere a historian is preparing to call this a necessary transition of power.",
+"presentation": "Alert",
+"choices": [
+{
+"text": "Excellent. Treason on top of everything else."
+        }
+    ]
+},
 		////SANITATION
 ///SE:2
 {
