@@ -817,7 +817,7 @@
 			"[+10]% Strength <when defending>",
 			"[+100]% weight to this choice for AI decisions",
 			"Only available <when adjacent to a [Commander] unit> <for [Human player] Civilizations>",
-			"Only available <when above [499] [Gold]>",
+			"Only available <when above [299] [Gold]>",
 			"Gain [-500] [Gold]",
 ],
         "column": 31,
@@ -1049,7 +1049,7 @@
 	"uniques": [
 		"Comment [-Every ruler needs an heir. Preferably one who doesn't solve the succession crisis with a knife.]"
 		"Only available <when adjacent to a [Ruler] unit> <for [Human player] Civilizations>",
-		"Only available <when above [499] [Gold]> <before the [Hellenistic Age]> <(modified by game speed)>",
+		"Only available <when above [99] [Gold]> <before the [Hellenistic Age]> <(modified by game speed)>",
 		"Gain [-500] [Gold] <(modified by game speed)>",
 		"This Promotion is free",
 	 "[This Unit] loses the [Successor] promotion <during the [Hellenistic Age]> <hidden from users>"
@@ -1064,7 +1064,7 @@
 	"unitTypes": ["Generals"],
 	"uniques": [
 		"Only available <when adjacent to a [Ruler] unit> <for [Human player] Civilizations>",
-		"Only available <when above [799] [Gold]> <during the [Hellenistic Age]> <(modified by game speed)>",
+		"Only available <when above [299] [Gold]> <during the [Hellenistic Age]> <(modified by game speed)>",
 		"Gain [-800] [Gold] <(modified by game speed)>",
 		"This Promotion is free",
          "Limited to [1] per Civilization",
@@ -1078,7 +1078,7 @@
 	"unitTypes": ["Generals"],
 	"uniques": [
 		"Only available <when adjacent to a [Ruler] unit> <for [Human player] Civilizations>",
-		"Only available <when above [999] [Gold]> <during the [Imperial Age]> <(modified by game speed)>",
+		"Only available <when above [399] [Gold]> <during the [Imperial Age]> <(modified by game speed)>",
 		"Gain [-1000] [Gold] <(modified by game speed)>",
 
          "Limited to [1] per Civilization",
@@ -1185,6 +1185,7 @@
 	"unitTypes": ["Ruler","Generals"],
 	"uniques": [
 		"Can build [Road] improvements on tiles",
+		         "Can build [Repair] improvements on tiles",
 		"[+1] Movement <when fighting in [Friendly Land] tiles>",
 	],
     "row": 51,

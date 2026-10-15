@@ -116,7 +116,7 @@
 	"[-25]% Strength <when attacking> <vs cities> <for [Human player] Civilizations> <on [Deity] difficulty>",
 
 
-	"[-50]% Strength for cities <when defending> <for [AI player] Civilizations> <vs [AI player]>",
+"[+35]% Strength <vs cities> <for [AI player] Civilizations> <vs [AI player] units>"
 
 	"[+10]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations>",
 	"[+10]% Strength <when attacking> <vs cities> <for [Melee] units> <for [AI player] Civilizations> <on [King] difficulty>",
