@@ -790,7 +790,7 @@ ResourceIcons/Bosporus Region
   index: -1
 ResourceIcons/Britannia Region
   rotate: false
-  xy: 710, 1145
+  xy: 710, 1101
   size: 35, 35
   orig: 35, 35
   offset: 0, 0
@@ -804,7 +804,7 @@ ResourceIcons/Bronze
   index: -1
 ResourceIcons/Caledonia Region
   rotate: false
-  xy: 2016, 775
+  xy: 786, 1077
   size: 28, 28
   orig: 28, 28
   offset: 0, 0
@@ -895,7 +895,7 @@ ResourceIcons/Copper
   index: -1
 ResourceIcons/Corsica Region
   rotate: false
-  xy: 710, 1060
+  xy: 710, 1058
   size: 30, 35
   orig: 30, 35
   offset: 0, 0
@@ -1280,7 +1280,7 @@ ResourceIcons/Papyrus
   index: -1
 ResourceIcons/Parthia Region
   rotate: false
-  xy: 710, 1103
+  xy: 2000, 819
   size: 35, 34
   orig: 35, 34
   offset: 0, 0
@@ -1448,7 +1448,7 @@ ResourceIcons/Sanitation
   index: -1
 ResourceIcons/Sardania Region
   rotate: false
-  xy: 1978, 768
+  xy: 748, 1058
   size: 30, 35
   orig: 30, 35
   offset: 0, 0
@@ -1497,7 +1497,7 @@ ResourceIcons/Silvan Primates
   index: -1
 ResourceIcons/Suebia Region
   rotate: false
-  xy: 2000, 811
+  xy: 1978, 769
   size: 35, 42
   orig: 35, 42
   offset: 0, 0
@@ -1822,6 +1822,13 @@ TileSets/FantasyHex/Borders/ConvexOuter
   xy: 1500, 2001
   size: 100, 43
   orig: 100, 43
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Aging
+  rotate: false
+  xy: 710, 1144
+  size: 36, 36
+  orig: 36, 36
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Armored Lancer
